@@ -1,0 +1,74 @@
+---
+title: '"快速入门：混合媒体集"'
+seo-title: '"快速入门：混合媒体集"'
+description: 'null'
+seo-description: 混合媒体集的简介和快速入门，帮助您快速上手和运行。
+uuid: ef033d5-b053-4d7 c-b1 e1-1980f899 fd88
+contentOwner: admin
+content-type: 引用
+products: SG_ EXPERIENCE MANAGER/Dynamic-Media-Scene-7
+geptopics: SG_ SCENESELEFERENDER_ PK/categories/mixed_ media_ set
+discoiquuid: 2708d077-94fc-4045-8992-ad3589 ed9 CFD
+translation-type: tm+mt
+source-git-commit: a1722c15d3c049f05959d895e85297d47d730872
+
+---
+
+
+# 快速入门：混合媒体集{#quick-start-mixed-media-sets}
+
+ 混合媒体集为用户提供了集成的查看体验。混合媒体集可以包括图像、图像集、样本集、旋转集和视频。用户可以单击“混合媒体查看器”中的不同选项卡，以不同的视图查看物品。如果未指定选项卡，所有资源都将一起显示在样本行中。
+
+“混合媒体集查看器预设”包括最终用户用来嵌入代码、复制 URL 以及链接到主网站的社区选项。用户可以使用这些选项在其个人网站或社交网站上共享有关产品的信息。
+
+**快速入门**
+
+该混合媒体集快速入门设计为使用动态媒体经典中的混合媒体集技术快速入门和运行。
+
+**1. 上载图像、样本文件和视频**
+
+首先为混合媒体集上载图像、样本文件和视频。因为用户可以在“混合媒体集查看器”中缩放图像，因此在选择图像时应考虑到缩放的影响。确保图像的长边至少为 2000 像素。
+
+单击全局导航栏上的“上载”可将文件从计算机上载到 Scene7 Publishing System 的文件夹中。
+
+请参阅[上载文件](uploading-files.md#uploading-your-files)。
+
+**2. 创建在混合媒体集中使用的媒体集**
+
+可以将图像、图像集、样本集、旋转集和视频添加到混合媒体集中。先准备好媒体集，然后再将其添加到混合媒体集中。
+
+请参阅[创建图像集](creating-image-set.md#creating-an-image-set)、[创建样本集](creating-swatch-set.md#creating-a-swatch-set)和[创建旋转集](creating-spin-set.md#creating-a-spin-set)。
+
+**3. 创建混合媒体集**
+
+单击“构建”按钮并选择“混合媒体集”。将图像、样本集、图像集以及视频拖动到“混合媒体集”屏幕上。要添加音轨，将音频文件拖动到“音轨”框中。
+
+请参阅[创建混合媒体集](creating-mixed-media-set.md#creating-a-mixed-media-set)。
+
+**4. 设置混合媒体查看器预设**
+
+Dynamic Media经典附带混合媒体集的默认查看器预设。管理员可以创建或修改混合媒体集查看器预设。
+
+设置混合媒体集查看器预设时，为集合中所有其他资源添加查看器预设。例如，如果混合媒体集包括视频，则在混合媒体查看器预设中添加视频查看器预设。也可以将音轨添加到查看器中。该音轨在查看器打开时播放，但在视频处于活动状态时不播放。
+
+请参阅[设置混合媒体集查看器预设](setting-mixed-media-set-viewer.md#setting-up-a-mixed-media-set-viewer-preset)和[创建和编辑查看器预设](application-setup.md#adding-and-editing-viewer-presets)。
+
+**5. 预览混合媒体集**
+
+单击混合媒体集的变换“预览”按钮。随即显示“混合媒体集”。可以单击缩略图和样本图标，以在“混合媒体集查看器”中检查您的混合媒体集。可以从“预设”菜单中选择不同的查看器。
+
+请参阅[预览资源](previewing-asset.md#previewing-an-asset)。
+
+**6. 发布混合媒体集**
+
+发布混合媒体集可将其放置在Dynamic Media经典服务器上并激活URL字符串。
+
+混合媒体集要求同时发布到&#x200B;**视频服务器**&#x200B;和&#x200B;**图像服务器**。使用&#x200B;**视频服务器**&#x200B;发布已标记为发布的实际视频。此外，您还可以使用 **图像服务器** 发布相关资源(如视频缩略图)和设置任何自适应视频集的信息。
+
+请参阅[发布混合媒体集](publishing-mixed-media-set.md#publishing-a-mixed-media-set)。
+
+**7. 将混合媒体集与网页链接**
+
+在发布混合媒体集后，动态媒体经典会激活其URL调用。可以从“预览”屏幕复制这些 URL。
+
+选择混合媒体集，然后单击“预览”。在“预览”屏幕中，选择混合媒体集查看器预设，然后单击“复制 URL”按钮。请参阅[将混合媒体集与网页链接](linking-mixed-media-set-web.md#linking-a-mixed-media-set-to-a-web-page)。
