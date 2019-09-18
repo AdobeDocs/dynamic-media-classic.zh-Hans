@@ -1,27 +1,27 @@
 ---
-title: “快速入门：电子目录”
-seo-title: “快速入门：电子目录”
+title: “快速入门：eCatalogs”
+seo-title: “快速入门：eCatalogs”
 description: 'null'
-seo-description: 电子目录简介和快速入门，帮助您使用eCatalog技术快速上手和运行。
-uuid: 1ec41927-3df6-4845-8d9d-bb92 cf6 dca08
+seo-description: 电子目录简介和快速入门，可帮助您快速使用电子目录技术。
+uuid: 1ec41927-3df6-4845-8d9d-bb92cf6dca08
 contentOwner: admin
 content-type: 引用
-products: SG_ EXPERIENCE MANAGER/Dynamic-Media-Scene-7
-geptopics: SG_ SCENESELEFERENDER_ PK/categories/ecatalloc
-discoiquuid: 781dacd0-ef0 c-42b7-92e0-127919944874d
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+geptopics: SG_SCENESEEVENTONDEMAND_PK/categories/ecatalog
+discoiquuid: 781dacd0-ef0c-42b7-92e0-12791994874d
 translation-type: tm+mt
-source-git-commit: e3c64b90e0af0129571a21b132477c0c86d06405
+source-git-commit: e1b74f30faab334453f941e9075910c8a8565462
 
 ---
 
 
 # 快速入门：电子目录{#quick-start-ecatalogs}
 
-eCatalog 是数字网络版本的印刷材料，例如目录、小册子、传单、产品手册或广告传单。eCatalog 显示在网站的 eCatalog 查看器中。该查看器会模拟阅读印刷材料的体验。根据您为eCatalog选择的设置，查看器可允许您执行以下操作：
+eCatalog 是数字网络版本的印刷材料，例如目录、小册子、传单、产品手册或广告传单。eCatalog 显示在网站的 eCatalog 查看器中。该查看器会模拟阅读印刷材料的体验。根据您为eCatalog选择的设置，查看器可让您执行以下操作：
 
-* 搜索关键字或关键字的目录。搜索结果将作为缩略图列表显示在目录左侧的搜索面板中。每个可单击缩略图表示在找到高亮显示的搜索词的目录。
+* 在目录中搜索关键字或关键字。 搜索结果将作为缩略图列表显示在目录左侧的搜索面板中。 每个可单击的缩略图代表一个找到高亮显示搜索词的目录跨页。
 
-* 通过社交媒体共享目录；下载目录以脱机查看；启用“收藏夹”以标记要返回的项目，或打印目录。
+* 通过社交媒体共享目录；下载目录以脱机查看；启用“收藏夹”可标记要快速返回的项目或打印目录。
 * 使用目录或页面网格视图导航目录；通过单击页面的中间边缘向前或向后翻页。
 * 放大、缩小及平移以仔细查看页面上的物品。
 * 将指针移动到页面上某个区域（称为图像映射），可以看到一个弹出窗口，其中包含关于某个物品的信息。
@@ -31,11 +31,17 @@ eCatalog 是数字网络版本的印刷材料，例如目录、小册子、传�
 * 使用手势交互，包括捏合缩放和点刷转页。
 * 按关键字搜索物品。
 
-![用户看到的 eCatalog 外观。A) 电子目录打开页面。B)eCatalog turned to page 2.](/help/assets/ec_cat_viewer_popup.png)
+![用户看到的 eCatalog 外观。A)电子目录打开页面。 B)eCatalog turned to page 2.](/help/assets/ec_cat_viewer_popup.png)
 
 要创建 eCatalog，通常使用在 Adobe® Acrobat® 或其他打印程序中创建的高分辨率 PDF 文件，也可以通过图像文件创建 eCatalog。
 
 创建 eCatalog 过程中，可以按照所选顺序排列页面或跨页。也可以声明需要单页、双页跨页，还是多页跨页。例如，可以为页面区创建图像映射，以使观众能够单击页面上的某个区域，即打开您网站上的新页面。可以使用 eCatalog 屏幕内的“信息面板”设置来管理显示的变换文本。也可以从 100 多个不同的配置选项中选择，以配置 eCatalog 查看器。您可以为特殊受众定制查看器的功能和外观。
+
+>[!NOTE]
+>
+>如果您是AEM Dynamic Media - Scene7模式用户并想使用eCatalog，则需要在CRXDE Lite中编 `pdfbrochure` 辑该值。 为此，在AEM中，单击“ **[UICONTROL工具”&gt;“常规”&gt;“CRXDE Lite]**”。 在左侧面板导航树中，导航到 `/conf/global/settings/cloudconfigs/dmscene7/jcr:content/mimeTypes/application_pdf`。
+在右下方窗格的“属性” **选项卡** ，选择 `jobParam` 行。 将值从 `pdfbrochure` 到 `false` 设置 `true`。 与在 `pdfbrochure=true`CRXDE lite页面的左上角一样，单击“全 **部保存”**。
+您现在可以在SPS中创作eCatalog。
 
 **快速入门**
 
@@ -45,7 +51,7 @@ eCatalog 是数字网络版本的印刷材料，例如目录、小册子、传�
 
 eCatalog 通常由 Adobe PDF 文件生成。由于 PDF 文件要用于印刷，因此通常包含 CMYK 图像。Scene7 Publishing System 会检测到这些图像，并使用标准 CMYK 颜色配置文件转换这些图像。但您可能必须上载并使用自定颜色配置文件。
 
-单击全局导航栏上的上传以开始上传电子目录中的PDF文件或图像。可以从桌面或通过 FTP 上载文件；如果上载大量文件或大于 100 MB 的文件，则推荐使用 FTP。
+单击全局导航栏上的“上传”，开始为电子目录上传PDF文件或图像。 可以从桌面或通过 FTP 上载文件；如果上载大量文件或大于 100 MB 的文件，则推荐使用 FTP。
 
 “上载”屏幕的“PDF 选项”下面提供了一些选项，用于上载分辨率合适并且颜色空间正确的 PDF 文件。推荐使用 150 PPI 的分辨率。上载 PDF 文件时，可以选择“自动生成 eCatalog”选项来创建 eCatalog。
 
@@ -81,9 +87,9 @@ eCatalog 通常由 Adobe PDF 文件生成。由于 PDF 文件要用于印刷，�
 
 **4. 设置 eCatalog 查看器预设**
 
-最终用户在“eCatalog 查看器中”看到您的 eCatalog。如果您是管理员，还可以配置 eCatalog 查看器。可以更改其轮廓颜色，并选择新的“外观”来确立 eCatalog 品牌。动态媒体经典附带几个“最佳实践”eCatalog查看器预设。可以选择这些预设中的一个预设来显示 eCatalog。如果您是管理员，还可以创建自己的 eCatalog 查看器预设。
+最终用户在“eCatalog 查看器中”看到您的 eCatalog。如果您是管理员，还可以配置 eCatalog 查看器。可以更改其轮廓颜色，并选择新的“外观”来确立 eCatalog 品牌。Dynamic Media Classic附带了多个“最佳实践”eCatalog查看器预设。 可以选择这些预设中的一个预设来显示 eCatalog。如果您是管理员，还可以创建自己的 eCatalog 查看器预设。
 
-要创建 eCatalog 查看器预设，单击全局导航栏上的“设置”按钮并选择“查看器预设”。然后单击“添加”，选择平台，再选择“eCatalog”&gt;“查看器”。
+要创建 eCatalog 查看器预设，单击全局导航栏上的“设置”按钮并选择“查看器预设”。Then click Add, choose a platform, and choose **[UICONTROL eCatalog &gt; Viewer]**.
 
 请参阅[设置 eCatalog 查看器预设](setting-ecatalog-viewer-presets.md#setting-up-ecatalog-viewer-presets)。
 
@@ -99,15 +105,15 @@ eCatalog 查看器预设决定了 eCatalog 查看器的样式和行为。
 
 **6. 发布电子目录和关联的PDF**
 
-发布eCatalog和关联的PDF可将其放置在动态媒体图像服务器上，以便将其传送到您的网站和应用程序。在发布过程中，Scene7 Publishing System 会激活 eCatalog 的 URL 字符串。使用此URL将电子目录从Dynamic Media图像服务器调用到您的网站或应用程序。
+发布电子目录和关联的PDF会将其放在Dynamic Media图像服务器上，以便能够将其交付到您的网站和应用程序。 在发布过程中，Scene7 Publishing System 会激活 eCatalog 的 URL 字符串。使用此URL将eCatalog从Dynamic Media图像服务器调用到您的网站或应用程序。
 
-在浏览面板中标记要发布的电子目录和PDF后，在全局导航栏上选择“发布”按钮以启动发布。在“发布”屏幕上，单击“开始发布”。
+在浏览面板中将电子目录和PDF标记为要发布后，选择全局导航栏上的“发布”按钮以启动发布。 在“发布”屏幕上，单击“开始发布”。
 
-请参阅 [发布电子目录和关联的PDF](publishing-ecatalogs-associated-pdfs.md#publishing-ecatalogs-and-associated-pdfs)。
+请参 [阅发布电子目录和关联的PDF](publishing-ecatalogs-associated-pdfs.md#publishing-ecatalogs-and-associated-pdfs)。
 
 **7. 将 eCatalog 链接到网页**
 
-动态媒体经典激活将电子目录发布到Dynamic Media图像服务器时所需的URL标注字符串。可以在“预览”屏幕和浏览面板（在详细信息视图中）上选择 URL 来复制该 URL 字符串。复制 URL 字符串之后，该 URL 便可用于您的网站和应用程序。
+Dynamic Media Classic在将eCatalog发布到Dynamic Media Image server时激活显示eCatalog所需的URL标注字符串。 可以在“预览”屏幕和浏览面板（在详细信息视图中）上选择 URL 来复制该 URL 字符串。复制 URL 字符串之后，该 URL 便可用于您的网站和应用程序。
 
 与您的 IT 团队合作，将 eCatalog 链接放在网页中的合适位置。当用户单击该链接时，将显示 eCatalog 查看器，用户即可浏览您的 eCatalog。
 
