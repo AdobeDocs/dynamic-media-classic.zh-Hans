@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
 geptopics: SG_SCENESEEVENTONDEMAND_PK/categories/ecatalog
 discoiquuid: 781dacd0-ef0c-42b7-92e0-12791994874d
 translation-type: tm+mt
-source-git-commit: e1b74f30faab334453f941e9075910c8a8565462
+source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
 
 ---
 
@@ -39,8 +39,8 @@ eCatalog 是数字网络版本的印刷材料，例如目录、小册子、传�
 
 >[!NOTE]
 >
->如果您是AEM Dynamic Media - Scene7模式用户并想使用eCatalog，则需要在CRXDE Lite中编 `pdfbrochure` 辑该值。 为此，在AEM中，单击“ **[UICONTROL工具”&gt;“常规”&gt;“CRXDE Lite]**”。 在左侧面板导航树中，导航到 `/conf/global/settings/cloudconfigs/dmscene7/jcr:content/mimeTypes/application_pdf`。
-在右下方窗格的“属性” **选项卡** ，选择 `jobParam` 行。 将值从 `pdfbrochure` 到 `false` 设置 `true`。 与在 `pdfbrochure=true`CRXDE lite页面的左上角一样，单击“全 **部保存”**。
+>如果您是AEM Dynamic Media - Scene7模式用户并想使用eCatalog，则需要在CRXDE Lite中编 `pdfbrochure` 辑该值。 为此，在AEM中，单击“工 **[!UICONTROL 具”&gt;“常规”&gt;“CRXDE Lite]**”。 在左侧面板导航树中，导航到 `/conf/global/settings/cloudconfigs/dmscene7/jcr:content/mimeTypes/application_pdf`。
+在右下方窗格的“属性” **[!UICONTROL 选项卡]** ，选择 `jobParam` 行。 将值从 `pdfbrochure` 到 `false` 设置 `true`。 与在 `pdfbrochure=true`CRXDE lite页面的左上角一样，单击“全 **[!UICONTROL 部保存”]**。
 您现在可以在SPS中创作eCatalog。
 
 **快速入门**
@@ -65,7 +65,7 @@ eCatalog 通常由 Adobe PDF 文件生成。由于 PDF 文件要用于印刷，�
 
 要添加页面，在“资源库”中选择一个文件夹，然后将其中的 PDF 或图像文件拖动到“排序页面”屏幕中。除默认提供页码外，您还可以提供自定义页面名称或导入大量页面名称。
 
-单击“保存”按钮，输入 eCatalog 的名称，选择用来存储 eCatalog 的 SPS 文件夹，然后选择“保存”按钮。每次更改页面顺序或编辑 eCatalog 时，要单击“保存”按钮来保存更改。
+Click **[!UICONTROL Save]**, enter a name for your eCatalog, choose an SPS folder for storing it, and click **[!UICONTROL Save]**. Each time you change the page order or edit your eCatalog, save your changes by clicking **[!UICONTROL Save]**.
 
 请参阅[创建 eCatalog](creating-ecatalog.md)。
 
@@ -73,7 +73,7 @@ eCatalog 通常由 Adobe PDF 文件生成。由于 PDF 文件要用于印刷，�
 
 图像映射为 eCatalog 页面增加了另一项特色。图像映射是页面上的一个区域，可提供关于某个物品的更多信息。当观众在“图像映射”上滚动鼠标指针时，他们会看到物品的说明。单击“图像映射”会激活一个外部引用，该引用打开一个新的网页，您可以从中了解关于某个物品的更多信息。
 
-要创建图像映射，打开 eCatalog 屏幕。然后转至 eCatalog 屏幕的“映射页面”选项卡，并使用“矩形图像映射”工具  或“多边形图像映射”工具  以绘制映射。可以使用“平移”工具  拖动映射边框来调整“图像映射”的位置和大小。
+要创建图像映射，打开 eCatalog 屏幕。Then go to the **[!UICONTROL Map Pages]** tab of the eCatalog screen, and draw the map with the Rectangle Image Map tool or Polygon Image Map tool. 可以使用“平移”工具  拖动映射边框来调整“图像映射”的位置和大小。
 
 在绘制图像映射之后，输入希望在单击“图像映射”后所转到的 URL 地址。也可以输入当您将指针移动到图像映射上时所显示的变换文本。
 
@@ -89,7 +89,7 @@ eCatalog 通常由 Adobe PDF 文件生成。由于 PDF 文件要用于印刷，�
 
 最终用户在“eCatalog 查看器中”看到您的 eCatalog。如果您是管理员，还可以配置 eCatalog 查看器。可以更改其轮廓颜色，并选择新的“外观”来确立 eCatalog 品牌。Dynamic Media Classic附带了多个“最佳实践”eCatalog查看器预设。 可以选择这些预设中的一个预设来显示 eCatalog。如果您是管理员，还可以创建自己的 eCatalog 查看器预设。
 
-要创建 eCatalog 查看器预设，单击全局导航栏上的“设置”按钮并选择“查看器预设”。Then click Add, choose a platform, and choose **[UICONTROL eCatalog &gt; Viewer]**.
+要创建电子目录查看器预设，请在全局导航栏上单击“设置” **** ，然后选择“查 **[!UICONTROL 看器预设”]**。 然后，单 **[!UICONTROL 击“添加]**”，选择平台，然后单击“ **[!UICONTROL eCatalog”&gt;“查看器”]**。
 
 请参阅[设置 eCatalog 查看器预设](setting-ecatalog-viewer-presets.md#setting-up-ecatalog-viewer-presets)。
 
@@ -97,7 +97,7 @@ eCatalog 通常由 Adobe PDF 文件生成。由于 PDF 文件要用于印刷，�
 
 eCatalog 查看器预设决定了 eCatalog 查看器的样式和行为。
 
-要了解 eCatalog 查看器预设如何显示 eCatalog，在浏览面板中选择 eCatalog，然后单击“预览”。“预览”屏幕随即在默认查看器中打开。
+To find out how eCatalog Viewer Presets display your eCatalog, select your eCatalog in the Browse Panel and click **[!UICONTROL Preview]**. “预览”屏幕随即在默认查看器中打开。
 
 注意方向、配色方案、更改页面的控件的外观以及页面翻转时的显示效果。
 
@@ -107,7 +107,7 @@ eCatalog 查看器预设决定了 eCatalog 查看器的样式和行为。
 
 发布电子目录和关联的PDF会将其放在Dynamic Media图像服务器上，以便能够将其交付到您的网站和应用程序。 在发布过程中，Scene7 Publishing System 会激活 eCatalog 的 URL 字符串。使用此URL将eCatalog从Dynamic Media图像服务器调用到您的网站或应用程序。
 
-在浏览面板中将电子目录和PDF标记为要发布后，选择全局导航栏上的“发布”按钮以启动发布。 在“发布”屏幕上，单击“开始发布”。
+在浏览面板中将电子目录和PDF标记为要发布后，在全局导航栏上选择“发布”按钮以启动发布。 On the Publish screen, click **[!UICONTROL Start Publish]**.
 
 请参 [阅发布电子目录和关联的PDF](publishing-ecatalogs-associated-pdfs.md#publishing-ecatalogs-and-associated-pdfs)。
 
