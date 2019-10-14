@@ -2,15 +2,15 @@
 title: 用项目组织工作
 seo-title: 用项目组织工作
 description: 'null'
-seo-description: 了解如何使用项目组织您的作品。
-uuid: bd2b1792-e2 d9-4a15-90c1-8ef2 cf632867
+seo-description: 了解如何使用项目组织您的工作。
+uuid: bd2b1792-e2d9-4a15-90c1-8ef2cf632867
 contentOwner: admin
 content-type: 引用
-products: SG_ EXPERIENCE MANAGER/Dynamic-Media-Scene-7
-geptopics: SG_ SCENESELEFERENDER_ PK/categories/managing_ assets
-discoiquuid: 036dfc1f-8317-4887-a6 e1-d8 cb61819 c
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+geptopics: SG_SCENESEEVENTONDEMAND_PK/categories/managing_assets
+discoiquuid: 036dfc1f-8317-4887-a6e1-d8f2cb61819c
 translation-type: tm+mt
-source-git-commit: d5bf894d56687561c93ef08762bc19d3597225e6
+source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
 
 ---
 
@@ -25,7 +25,7 @@ source-git-commit: d5bf894d56687561c93ef08762bc19d3597225e6
 
 >[!NOTE]
 >
->动态媒体经典建议使用元数据而非项目组织资产。请参阅[查看、添加和导出元数据](viewing-adding-exporting-metadata.md)。
+>Dynamic Media Classic建议使用元数据而不是项目来组织资产。 请参阅[查看、添加和导出元数据](viewing-adding-exporting-metadata.md)。
 
 >[!NOTE]
 >
@@ -35,9 +35,9 @@ source-git-commit: d5bf894d56687561c93ef08762bc19d3597225e6
 
 您可以先在资源库中创建一个项目文件夹，或者在您将文件上载至 Scene7 Publishing System 时创建：
 
-**在资产库** 中，滚动到资产库的底部，转到项目部分，然后选择添加项目按钮。然后输入项目的名称。
+* **在“资源库**”中，滚动到资源库的底部，转到“项目”部分，然后选择“添加项目”按钮。 然后输入项目的名称。
 
-**上传文件** 在上传屏幕中时，选择添加到项目菜单，然后选择创建项目。然后输入项目的名称。
+* **上传文件时**，在“上传”屏幕中，选择“添加到项目”菜单，然后选择“创建项目”。 然后输入项目的名称。
 
 >[!NOTE]
 >
@@ -47,16 +47,16 @@ source-git-commit: d5bf894d56687561c93ef08762bc19d3597225e6
 
 按以下说明显示、删除和重命名项目文件夹：
 
-**浏览内容** 在资产库中选择文件夹的名称。其资源将显示在浏览面板中。
+* **浏览内**&#x200B;容选择资产库中文件夹的名称。 其资源将显示在浏览面板中。
 
-**删除项目文件夹** 选择项目文件夹，然后选择删除项目按钮。从项目文件夹删除资源不会将其从 Scene7 Publishing System 中删除；资源仍停留在最初所存储的文件夹中。
+* **删除项目文件夹**&#x200B;选择项目文件夹，然后选择“删除项目”按钮。 从项目文件夹删除资源不会将其从 Scene7 Publishing System 中删除；资源仍停留在最初所存储的文件夹中。
 
-**重命名项目文件夹** 在“资产面板”中双击文件夹的名称，然后输入新名称。
+* **重命名项目文**&#x200B;件夹在“资产”面板中双击文件夹的名称，然后输入新名称。
 
 ## 将资源添加到项目文件夹 {#adding-assets-to-a-project-folder}
 
 您可以先在浏览面板中将图像添加到项目文件夹中，也可以在将文件上载到 Scene7 Publishing System 时添加：
 
-**从浏览面板** 中选择资产并将其拖动到项目文件夹。也可以选择“文件”&gt;“添加到项目”，在“选择项目”对话框中选择一个项目文件夹名称，然后选择“提交”按钮。
+* **从浏览面板中**，选择资产并将其拖动到项目文件夹。 也可以选择“文件”&gt;“添加到项目”，在“选择项目”对话框中选择一个项目文件夹名称，然后选择“提交”按钮。
 
-**上传文件** 在上传屏幕中时，单击“作业选项”按钮。在“上载作业选项”对话框中，选择“项目”，然后选择一个项目名称。
+* **在“上传”屏**&#x200B;幕中上传文件时，单击“作业选项”按钮。 在“上载作业选项”对话框中，选择“项目”，�
