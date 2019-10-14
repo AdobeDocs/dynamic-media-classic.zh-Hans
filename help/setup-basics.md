@@ -2,15 +2,15 @@
 title: 设置基础
 seo-title: 设置基础
 description: 'null'
-seo-description: 了解如何使用设置屏幕输入个人设置。如果您是管理员，可设置您公司的设置。
-uuid: 38f487d7-33f2-4e-a32 e-a32 e-bb08 f3 d3284
+seo-description: 了解如何使用“设置”屏幕输入您的个人设置。 如果您是管理员，可设置您公司的设置。
+uuid: 38f487d7-33f2-4a9e-a32e-bb08f3dd3284
 contentOwner: admin
 content-type: 引用
-products: SG_ EXPERIENCE MANAGER/Dynamic-Media-Scene-7
-geptopics: SG_ SCENESELEFERENDER_ PK/categories/getting_ started
-discoiquuid: 753677ad-9957-43d9-97ad-bd73 a5 da5 ccb
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+geptopics: SG_SCENESEVENTONDEMAND_PK/categories/getting_started
+discoiquuid: 753677ad-9957-43d9-97ad-bd73a5da5ccb
 translation-type: tm+mt
-source-git-commit: d5bf894d56687561c93ef08762bc19d3597225e6
+source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
 
 ---
 
@@ -26,13 +26,13 @@ source-git-commit: d5bf894d56687561c93ef08762bc19d3597225e6
 
 管理员还可以在“设置”屏幕中设置“图像预设”和“查看器预设”：
 
-**图像预设** 图像预设是保存的格式，用于显示不同大小和格式的主图象。
+* **图像预设**&#x200B;图像预设是保存的格式，用于以不同大小和格式显示主图像。
 
-**查看器预设** 查看器预设决定了在查看器中查看富媒体时您看到的富媒体。
+* **查看器预**&#x200B;设查看器预设决定了在查看器中查看富媒体时如何查看富媒体。
 
 >[!MORELIKETHIS]
 >
->* [Dynamic Media经典用户角色和权限](administration-setup.md#user_administration)
+>* [Dynamic Media Classic用户角色和权限](administration-setup.md#user_administration)
 >* [Image Presets](application-setup.md#image_presets)
 >* [Viewer Presets](application-setup.md#viewer_presets)
 
