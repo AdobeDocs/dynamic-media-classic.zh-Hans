@@ -3,13 +3,13 @@ title: 上载图像资源或矢量资源
 seo-title: 上载图像资源或矢量资源
 description: 'null'
 seo-description: 了解如何上传图像资产或矢量资产。
-uuid: d0e4a754-8a49-4b0f-b202-e9003 bdb8 f20
+uuid: d0e4a754-8a49-4b0f-b202-e9003bdb8f20
 contentOwner: admin
 content-type: 引用
-products: SG_ EXPERIENCE MANAGER/Dynamic-Media-Scene-7
-discoiquuid: de21dca9-99fe-4183-b647-debfe112 fda4
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+discoiquuid: de21dca9-99fe-4183-b647-debfe112fda4
 translation-type: tm+mt
-source-git-commit: a1722c15d3c049f05959d895e85297d47d730872
+source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
 
 ---
 
@@ -22,7 +22,7 @@ source-git-commit: a1722c15d3c049f05959d895e85297d47d730872
 
 通过向 Scene 7 技术支持（邮箱为 s7support@adobe.com）发送电子邮件来请求一个&#x200B;*共享密钥*。
 
-在电子邮件中，请提供要用于上载图像资源的公司名称。从Dynamic Media Classic收到密钥后，将其保存在本地以供将来使用。
+在电子邮件中，请提供要用于上载图像资源的公司名称。从Dynamic Media Classic收到密钥后，请将其保存在本地以供将来使用。
 
 ## 检索上载令牌 {#retrieving-the-upload-token}
 
@@ -31,10 +31,10 @@ source-git-commit: a1722c15d3c049f05959d895e85297d47d730872
 上载令牌是字母数字字符串，只能在特定时间段内使用。请使用以下 URL 代替您的共享密钥来检索上载令牌。
 
 * 图像
-   `https://s7ugc1.scene7.com/ugc/image?op=get_uploadtoken&shared_secret=fece4b21-87ee-47fc-9b99-2e29b78b602`在本示例中，共享密钥是 `fece4b21-87ee-47fc-9b99-2e29b78b602`
+   `https://s7ugc1.scene7.com/ugc/image?op=get_uploadtoken&shared_secret=fece4b21-87ee-47fc-9b99-2e29b78b602`在此示例中，共享密钥为 `fece4b21-87ee-47fc-9b99-2e29b78b602`
 
 * 矢量
-   `https://s7ugc1.scene7.com/ugc/vector?op=get_uploadtoken&shared_secret=2d19f60e-890a-4e79-a1a5-9ac2875429b9`在本示例中，共享密钥是 `2d19f60e-890a-4e79-a1a5-9ac2875429b9`
+   `https://s7ugc1.scene7.com/ugc/vector?op=get_uploadtoken&shared_secret=2d19f60e-890a-4e79-a1a5-9ac2875429b9`在此示例中，共享密钥为 `2d19f60e-890a-4e79-a1a5-9ac2875429b9`
 
 默认情况下，上载令牌在您检索到它之后 5 分钟（300 秒）便到期。要请求更多时间，请在 URL 中添加 `expires` 和要需要的时间量（以秒为单位）。例如，以下示例图像 URL 检索有效期为 1800 秒的上载令牌：
 
@@ -107,7 +107,7 @@ The `upload_token` and `company_name` fields are required.
 https://s7ugc1.scene7.com/ugc/image?op=upload&upload_token=aa2a378a-cd25-4c80-994d-312094e0ef20_18000&company_name=000Company&file_limit=2000000&file_exts=jpg,gif
 ```
 
-`file_limit` 参数指定文件大小限制(以字节为单位)。`file_exts` 参数指定允许上载的文件扩展名。这两个值都是可选的。
+The `file_limit` parameter specifies the file-size limit in bytes. `file_exts` 参数指定允许上载的文件扩展名。这两个值都是可选的。
 
 对于允许的文件大小限制和文件扩展名，在应用程序中设置全局限制。如果请求中所发送的内容是全局限制的子集，则允许这一发送。全局限制如下所示：
 
@@ -123,7 +123,7 @@ https://s7ugc1.scene7.com/ugc/image?op=upload&upload_token=aa2a378a-cd25-4c80-99
 * 文件大小限制.
 * 文件扩展名的列表.
 * 是否保留与资产关联的颜色配置文件和文件名。
-* 是否使用挖空背景。如果启用“挖空背景”，则设置“角”、“容差”和“填充方法”。请参阅上传时 [的“图像编辑”选项中的“挖空背景”](image-editing-options-upload.md#image-editing-options-at-upload)。
+* 是否使用挖空背景。 如果启用“挖空背景”，则设置“角”(Corner)、“容差”(Tolerance)和“填充方法”(Fill Method)。 请参阅上传时“图像编 [辑”选项中的挖空背景](image-editing-options-upload.md#image-editing-options-at-upload)。
 * 待上载文件的名称
 
 <!-- 
@@ -138,13 +138,13 @@ Last Modified Date:
 
 ![]()
 
-您可以通过单击以下链接查看与上面表单关联的HTML源代码：
+单击以下链接可以查看与上述表单关联的HTML源代码：
 
 [https://s7ugc1.scene7.com/ugc/upload.html](https://s7ugc1.scene7.com/ugc/upload.html)
 
-在Firefox中，右键单击浏览器窗口，然后单击 **“查看页面源**”。该代码将显示当用户单击“**提交**”时运行的相应 URL 查询字符串和 POST 方法。
+在Firefox中，右键单击浏览器窗口，然后单击“查看页 **面源”**。 该代码将显示当用户单击“**提交**”时运行的相应 URL 查询字符串和 POST 方法。
 
-要在 Internet Explorer 中查看 XML 响应，请单击“**查看**”&gt;“**源文件**”。To view XML response in Firefox, click **Tools** &gt; **Web Developer** &gt; **Page Source**. 建议使用 Firefox 查看 XML 响应。
+要在 Internet Explorer 中查看 XML 响应，请单击“**查看”&gt;“源文件**”。To view XML response in Firefox, click **Tools &gt; Web Developer &gt; Page Source**. 建议使用 Firefox 查看 XML 响应。
 
 下面是成功上载的示例响应：
 
@@ -270,7 +270,7 @@ The `upload_token` and `company_name` fields are required.
 https://s7ugc1.scene7.com/ugc/vector?op=upload&upload_token=aa2a378a-cd25-4c80-994d- 312094e0ef20_18000&company_name=000Company&file_limit=2000000&file_exts=ai,pdf
 ```
 
-`file_limit` 参数指定文件大小限制(以字节为单位)。`file_exts` 参数指定允许上载的文件扩展名。这两个值都是可选的。
+The `file_limit` parameter specifies the file-size limit in bytes. `file_exts` 参数指定允许上载的文件扩展名。这两个值都是可选的。
 
 对于允许的文件大小限制和文件扩展名，在应用程序中设置全局限制。如果请求中所发送的内容是全局限制的子集，则允许这一发送。全局限制如下所示：
 
@@ -286,7 +286,7 @@ https://s7ugc1.scene7.com/ugc/vector?op=upload&upload_token=aa2a378a-cd25-4c80-9
 * 文件大小限制.
 * 文件扩展名的列表.
 * 是否保留与资产关联的颜色配置文件和文件名。
-* 是否使用挖空背景。如果启用“挖空背景”，则设置“角”、“容差”和“填充方法”。请参阅上传时 [的“图像编辑”选项中的“挖空背景”](image-editing-options-upload.md#image-editing-options-at-upload)。
+* 是否使用挖空背景。 如果启用“挖空背景”，则设置“角”(Corner)、“容差”(Tolerance)和“填充方法”(Fill Method)。 请参阅上传时“图像编 [辑”选项中的挖空背景](image-editing-options-upload.md#image-editing-options-at-upload)。
 * 待上载文件的名称
 
 <!-- 
