@@ -3,37 +3,37 @@ title: 查看、添加和导出元数据
 seo-title: 查看、添加和导出元数据
 description: 'null'
 seo-description: 了解如何查看、添加和导出元数据。
-uuid: A5254c51-9e04-45ae-8236-3eab2925e5fc
+uuid: a5254c51-9e04-45ae-8236-3eab2925e5fc
 contentOwner: admin
 content-type: 引用
-products: SG_ EXPERIENCE MANAGER/Dynamic-Media-Scene-7
-geptopics: SG_ SCENESELEFERENDER_ PK/categories/managing_ assets
-discoiquuid: 5414b4f5-6e05-468c-8725-38542359693442
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+geptopics: SG_SCENESEEVENTONDEMAND_PK/categories/managing_assets
+discoiquuid: 5414b4f5-6e05-468c-8725-385423596342
 translation-type: tm+mt
-source-git-commit: d5bf894d56687561c93ef08762bc19d3597225e6
+source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
 
 ---
 
 
 # 查看、添加和导出元数据{#viewing-adding-and-exporting-metadata}
 
-*您可以存储特定于在 Scene7 Publishing System 中处理的文件的信息；该信息称为元数据。*&#x200B;您可以在Dynamic Media经典中使用元数据来组织、搜索、过滤和排序资产。
+*您可以存储特定于在 Scene7 Publishing System 中处理的文件的信息；该信息称为元数据。*&#x200B;您可以在Dynamic Media Classic中使用元数据来组织、搜索、筛选和排序资产。
 
-元数据会显示在Detail视图中，以及Dynamic Media经典生成的信息，如文件创建日期、发布日期和关键字。要查看元数据，请在详细信息视图中打开资源并选择“元数据”面板。可以在详细信息视图中输入并编辑元数据。
+元数据会显示在详细信息视图中以及Dynamic Media Classic生成的信息，如文件创建日期、发布日期和关键字。 要查看元数据，请在详细信息视图中打开资源并选择“元数据”面板。可以在详细信息视图中输入并编辑元数据。
 
-一些元数据直接嵌入到文件中。如果文件包含此元数据，Dynamic Media经典会自动将其与文件上传。您可以将元数据嵌入Adobe Photoshop、InDesign、Illustrator和其他应用程序中的源资源；动态媒体经典可识别此元数据。也可以将元数据添加到详细信息视图的“元数据”面板中的单个文件中。为了确保资源的一致性，公司管理员创建了元数据模板，提供可以填写的元数据字段。
+一些元数据直接嵌入到文件中。如果文件包含此元数据，Dynamic Media Classic会自动将其与文件一起上传。 您可以在Adobe Photoshop、InDesign、Illustrator和其他应用程序中将元数据嵌入源资源；Dynamic Media Classic可识别此元数据。 也可以将元数据添加到详细信息视图的“元数据”面板中的单个文件中。为了确保资源的一致性，公司管理员创建了元数据模板，提供可以填写的元数据字段。
 
 For more information about embedded metadata, see [www.adobe.com/go/learn_s7_xmp_en](https://www.adobe.com/go/learn_s7_xmp_en).
 
 ## 查看元数据 {#view-metadata}
 
-要查看资源的元数据，请在详细信息视图中打开资源，并单击“元数据”面板。然后选择“元数据视图”菜单上的一个选项，以选择一组元数据字段。动态媒体经典提供以下元数据视图：
+要查看资源的元数据，请在详细信息视图中打开资源，并单击“元数据”面板。然后选择“元数据视图”菜单上的一个选项，以选择一组元数据字段。Dynamic Media Classic提供以下元数据视图：
 
-**紧凑查看** 基本值列表。
+* **紧凑视**&#x200B;图基本值列表。
 
-**IPTC** 值由国际出版电信委员会定义。
+* **IPTC**&#x200B;国际新闻电信委员会定义的价值。
 
-**XMP** 值，由可扩展元数据平台定义。
+* **XMP**&#x200B;由可扩展元数据平台定义的值。
 
 管理员可以创建元数据视图。这些视图也显示在“元数据视图”菜单中。有关创建元数据视图的信息，请参阅[元数据视图](application-setup.md#metadata_views)。
 
@@ -67,7 +67,7 @@ For more information about embedded metadata, see [www.adobe.com/go/learn_s7_xmp
 1. 要删除关键字，请选择它并单击“删除”。该关键字会移到“关键字建议”表中。
 
 >[!NOTE]
-在将文件上传到Dynamic Media经典时，您可以向文件中添加关键字。在“上载作业选项”对话框中，选择“其他元数据”并且输入关键字。请参阅[上载选项](uploading-files.md#upload_options)。
+在将文件上传到Dynamic Media Classic时，可以向文件添加关键字。 在“上载作业选项”对话框中，选择“其他元数据”并且输入关键字。请参阅[上载选项](uploading-files.md#upload_options)。
 
 ## 导入元数据 {#import-metadata}
 
@@ -76,7 +76,7 @@ For more information about embedded metadata, see [www.adobe.com/go/learn_s7_xmp
 >[!NOTE]
 可以创建一个模板来输入元数据，这样便可将元数据正确地导入到 Scene7 Publishing System。创建模板之后，可以使用该模板输入元数据。请参阅[创建模板以输入要上载的元数据](viewing-adding-exporting-metadata.md#create_a_template_for_entering_metadata_to_upload)。
 
-您可以在以下位置找到有关标准化属性的更多信息：https://www.adobe.com/devnet/xmp.html
+有关标准化属性的更多信息，请访问：https://www.adobe.com/devnet/xmp.html
 
 1. 在浏览面板中，选择要从制表符分隔的文件或 XML 文件为其添加元数据的图像。
 1. 单击“**文件**”&gt;“**导入元数据**”。
@@ -143,7 +143,7 @@ To rename an image’s Scene7 Publishing System ID, add a column labeled *newips
 
 ## 创建模板以输入要上载的元数据 {#create-a-template-for-entering-metadata-to-upload}
 
-动态媒体经典提供了一个命令，用于创建用于录制元数据的模板。使用模板可确保以正确格式输入元数据，从而能够将其正确地上载到 Scene7 Publishing System。执行以下步骤创建模板，以用来记录元数据，并将其导入到 Scene7 Publishing System：
+Dynamic Media Classic提供了一个用于创建用于记录元数据的模板的命令。 使用模板可确保以正确格式输入元数据，从而能够将其正确地上载到 Scene7 Publishing System。执行以下步骤创建模板，以用来记录元数据，并将其导入到 Scene7 Publishing System：
 
 1. 选择具有模板所需的元数据字段的图像资源。
 1. 选择“文件”&gt;“导入元数据”。
