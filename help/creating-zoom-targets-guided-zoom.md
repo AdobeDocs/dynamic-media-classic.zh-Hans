@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
 geptopics: SG_SCENESEEVENTONDEMAND_PK/categories/zoom
 discoiquuid: e7b4673c-8681-4741-912e-9a31cf106449
 translation-type: tm+mt
-source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
+source-git-commit: 6ff0141d1e8e96278b95f61c00602780984aaf67
 
 ---
 
