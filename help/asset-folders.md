@@ -3,14 +3,14 @@ title: 使用资源文件夹
 seo-title: 使用资源文件夹
 description: 'null'
 seo-description: 了解如何使用资产文件夹。
-uuid: 3bd83701-e2 c-4e39-b225-c2 d27 ad836 c2
+uuid: 3bd83701-e2c2-4e39-b225-c2d27ad836c2
 contentOwner: admin
 content-type: 引用
-products: SG_ EXPERIENCE MANAGER/Dynamic-Media-Scene-7
-geptopics: SG_ SCENESELEFERENDER_ PK/categories/managing_ assets
-discoiquuid: 588944c3-78ba-4bd1-a8 da-9a6 dd99 a27 a9
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+geptopics: SG_SCENESEEVENTONDEMAND_PK/categories/managing_assets
+discoiquuid: 588944c3-78ba-4bd1-a8da-9a6dd99a27a9
 translation-type: tm+mt
-source-git-commit: b8d245bfc8375966af314ed95e81a519c5ee6c24
+source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
 
 ---
 
@@ -25,15 +25,15 @@ Scene7 Publishing System 中的文件资源保存在文件夹内。这些文件�
 
 资源库以文件夹树的形式显示文件。在资源库中选择文件夹时，其内容会显示在浏览面板中。使用以下方法在文件夹树中查找文件夹：
 
-**显示子文件夹** 选择展开文件夹图标以在文件夹中显示子文件夹。该图标位于文件夹名称的左侧。
+* **显示子文件夹**&#x200B;选择“展开文件夹”图标可显示文件夹中的子文件夹。 该图标位于文件夹名称的左侧。
 
-**移动文件夹** 您可以移动文件夹，方法是将文件夹拖放到新位置，或者选择“文件”&gt;“移动文件夹”。
+* **移动文件夹**&#x200B;通过将文件夹拖放到新位置，或选择“文件”&gt;“移动文件夹”，可以移动文件夹。
 
-**隐藏文件夹** 选择折叠文件夹图标以折叠子文件夹。该图标位于文件夹名称的左侧。
+* **隐藏文件夹**&#x200B;选择折叠文件夹图标可折叠子文件夹。 该图标位于文件夹名称的左侧。
 
-**打开文件夹** 选择文件夹以在浏览面板中显示其内容。
+* **打开文件夹**&#x200B;选择一个文件夹，在浏览面板中显示其内容。
 
-***提示**：您可以通过单击左侧的展开/折叠控件隐藏或显示资产库。当需要更多空间来处理浏览面板中的内容时，可将“资源库”面板折叠起来。*
+***提示**:通过单击资产库左侧的展开／折叠控件，可以隐藏或显示资产库。 当需要更多空间来处理浏览面板中的内容时，可将“资源库”面板折叠起来。*
 
 ## 创建文件夹 {#creating-folders}
 
@@ -51,8 +51,10 @@ Scene7 Publishing System 中的文件资源保存在文件夹内。这些文件�
 
 选择一个文件夹，然后使用以下方法对其进行删除或重命名：
 
-**删除** 选择删除文件夹按钮。被删除文件夹中的资源被置于垃圾桶文件夹中。您可以从那里恢复它们。
+* **删除**&#x200B;选择删除文件夹按钮。 被删除文件夹中的资源被置于垃圾桶文件夹中。您可以从那里恢复它们。
 
-**重命名** 双击该名称并输入一个新名称。
+* **重命名**&#x200B;双击名称并输入新名称。
 
-***注意**：您无法复制文件夹或资产，因为这样做会在Scene Publishing System上创建重复的文件夹和资源，系统中不允许重复复制。*
+>[!NOTE]
+>
+>您无法复制文件夹或资产，因为这样做会在Scene7 Publishing system上创建重复的文件夹和资产，并且不允许复制。
