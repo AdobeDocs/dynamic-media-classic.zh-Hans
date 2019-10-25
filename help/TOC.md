@@ -2,29 +2,30 @@
 cloud: experience-cloud
 product: '动态媒体经典 '
 audience: 最终用户
-user-guide-title: Dynamic Media经典帮助
+user-guide-title: Dynamic Media Classic帮助
 index: y
 translation-type: tm+mt
-source-git-commit: d5bf894d56687561c93ef08762bc19d3597225e6
+source-git-commit: e78e6bc34343479b133f475e9c0fae1e1841d465
 
 ---
 
 
-# Dynamic Media经典帮助 {#using}
+# Dynamic Media Classic帮助 {#using}
 
-+ [Dynamic Media经典文档主页](home.md)
-+ 介绍Adobe Dynamic Media经典 {#intro}
-   + [关于动态媒体经典](introduction.md)
++ [Dynamic Media Classic文档主页](home.md)
++ [Dynamic Media Newsletter by Experience League](dynamic-media-newsletter.md)
++ 介绍Adobe Dynamic Media Classic {#intro}
+   + [关于Dynamic Media Classic](introduction.md)
    + [开发人员资源](developer-resources.md)
    + [What’s new](whats-new.md)
    + [系统要求](system-requirements.md)
    + [Adobe Scene7 Publishing System 桌面应用程序](scene7-publishing-system-desktop-applications.md)
    + [支持](support.md)
-   + [Dynamic Media经典媒体门户帮助](help-scene7-media-portal.md)
+   + [Dynamic Media Classic Media Portal帮助](help-scene7-media-portal.md)
    + [Adobe 培训服务](training-services.md)
    + [常用资源](popular-resources.md)
 + 快速入门 {#getting-started}
-   + [Adobe Dynamic Media经典平台概述](scene7-platform-overview.md)
+   + [Adobe Dynamic Media Classic平台概述](scene7-platform-overview.md)
    + [使用 Scene7 Publishing System 桌面版](using-scene7-publishing-system-desktop.md)
    + [Media Portal](media-portal.md)
    + [登录和注销](signing-out.md)
@@ -39,7 +40,7 @@ source-git-commit: d5bf894d56687561c93ef08762bc19d3597225e6
    + [Administration Setup](administration-setup.md)
 + Media Portal {#media-portal}
    + [系统要求](system-requirements-1.md)
-   + [快速入门：Media Portal](quick-start-media-portal-administration.md)
+   + [快速入门：媒体门户](quick-start-media-portal-administration.md)
    + [Media Portal 用户角色](media-portal-user-roles.md)
    + [Creating and managing Media Portal groups](creating-media-portal-groups.md)
    + [添加和管理 Media Portal 用户](adding-media-portal-users.md)
@@ -57,12 +58,12 @@ source-git-commit: d5bf894d56687561c93ef08762bc19d3597225e6
 + 管理资源 {#managing-assets}
    + [关于管理资产](about-managing-assets.md)
    + [使用资源文件夹](asset-folders.md)
-   + [在浏览面板中查看资产](viewing-assets-browse-panel.md)
+   + [在浏览面板中查看资源](viewing-assets-browse-panel.md)
    + [在浏览面板中选择资源](selecting-assets-browse-panel.md)
    + [搜索资源](searching-assets.md)
    + [预览资源](previewing-asset.md)
    + [移动、重命名和删除资源](moving-renaming-deleting-assets.md)
-   + [Working in Detail view](detail-view.md)
+   + [使用“详细信息”视图](detail-view.md)
    + [查看、添加和导出元数据](viewing-adding-exporting-metadata.md)
    + [从 Scene7 Publishing System 导出资源](exporting-assets-scene7-publishing-system.md)
    + [与对等客户端实时共享资源更改](sharing-asset-changes-peers-real.md)
@@ -80,7 +81,7 @@ source-git-commit: d5bf894d56687561c93ef08762bc19d3597225e6
    + [上传缩放图像](uploading-zoom-images.md)
    + [Creating zoom targets for Guided Zoom](creating-zoom-targets-guided-zoom.md)
    + [设置缩放查看器预设](setting-zoom-viewer-presets.md)
-   + [使用不同缩放查看器预览图像资产](previewing-image-assets-different-zoom.md)
+   + [使用不同的缩放查看器预览图像资源](previewing-image-assets-different-zoom.md)
    + [发布缩放图像](publishing-zoom-images.md)
    + [将缩放查看器链接到网页](linking-zoom-viewers-web-pages.md)
 + eCatalog {#ecatalogs}
@@ -88,7 +89,7 @@ source-git-commit: d5bf894d56687561c93ef08762bc19d3597225e6
    + [上载 PDF 文件](uploading-pdf-files.md)
    + [Creating an eCatalog](creating-ecatalog.md)
    + [Creating eCatalog Image Maps](creating-ecatalog-image-maps.md)
-   + [在电子目录中管理信息面板内容](info-panel-content.md)
+   + [管理电子目录中的信息面板内容](info-panel-content.md)
    + [设置 eCatalog 查看器预设](setting-ecatalog-viewer-presets.md)
    + [在 eCatalog 查看器中预览 eCatalog](previewing-ecatalogs-ecatalog-viewer.md)
    + [发布电子目录和关联的PDF](publishing-ecatalogs-associated-pdfs.md)
@@ -119,7 +120,7 @@ source-git-commit: d5bf894d56687561c93ef08762bc19d3597225e6
 + Template basics {#template-basics}
    + [Quick Start: Template Basics](quick-start-template-basics.md)
    + [上载模板文件](uploading-template-files.md)
-   + [Creating a template](creating-template.md)
+   + [创建模板](creating-template.md)
    + [创建模板参数](creating-template-parameters.md)
    + [发布模板](publishing-templates.md)
    + [将模板链接到网页](linking-template-web-page.md)
@@ -129,7 +130,7 @@ source-git-commit: d5bf894d56687561c93ef08762bc19d3597225e6
    + [在Adobe Illustrator中创建初始模板](create-initial-template-illustrator.md)
    + [Upload files for Template Publishing](upload-files-template-publishing.md)
    + [定义可变性：参数化与 DOM 处理](defining-variability-parameterization-versus-dom.md)
-   + [在Dynamic Media经典中参数化模板](parameterizing-template-scene7.md)
+   + [在Dynamic Media Classic中参数化模板](parameterizing-template-scene7.md)
    + [预览和更新模板属性](preview-update-template-attributes.md)
    + [DOM 处理](dom-manipulation.md)
    + [将 FXG 模板链接到网页](linking-fxg-template-web-page.md)
@@ -150,7 +151,7 @@ source-git-commit: d5bf894d56687561c93ef08762bc19d3597225e6
    + [发布混合媒体集](publishing-mixed-media-set.md)
    + [将混合媒体集与网页链接](linking-mixed-media-set-web.md)
 + Adobe Analytics instrumentation kit {#analytics-kit}
-   + [快速入门：将动态媒体经典与Adobe Analytics集成 ](quick-start-integrating-scene7-analytics.md)
+   + [快速入门：将Dynamic Media Classic与Adobe Analytics集成 ](quick-start-integrating-scene7-analytics.md)
    + [登录到 Adobe Analytics](log-analytics.md)
    + [配置 Adobe Analytics 报告](configuring-analytics-reports.md)
    + [使用 Adobe Analytics 仪器包实施查看器](instrumenting-viewer-using-analytics-instrumentation.md)
@@ -160,9 +161,9 @@ source-git-commit: d5bf894d56687561c93ef08762bc19d3597225e6
    + [发布 Adobe Analytics 配置信息](publishing-analytics-configuration-information.md)
 + Target Classic集成 {#target-classic}
    + [快速入门：Target Classic集成](quick-start-target-classic-integration.md)
-   + [将Adobe Dynamic Media经典与Adobe Target Classic集成](integrating-scene7-target-classic.md)
+   + [将Adobe Dynamic Media Classic与Adobe Target Classic集成](integrating-scene7-target-classic.md)
    + [Creating an offer set](creating-offer-set.md)
-   + [将优惠套餐推送到Adobe Target Classic](pushing-offer-sets-target-classic.md)
+   + [将优惠套件推送到Adobe Target Classic](pushing-offer-sets-target-classic.md)
 + 用户生成的内容 {#user-generated-content}
    + [关于用户生成的内容](about-ugc.md)
    + [删除上载的资源](deleting-uploaded-asset.md)
@@ -177,7 +178,7 @@ source-git-commit: d5bf894d56687561c93ef08762bc19d3597225e6
    + [Adjusting an image](adjusting-image.md)
    + [上载时的图像编辑选项](image-editing-options-upload.md)
    + [Working with PDFs](pdfs.md)
-   + [Working with PSD files](psd-files.md)
+   + [使用 PSD 文件](psd-files.md)
    + [使用 PostScript 和 Illustrator 文件](postscript-illustrator-files.md)
    + [Working with vignette, window covering, and cabinet files](vignette-window-covering-cabinet-files.md)
 + 支持文件 {#support-files}
