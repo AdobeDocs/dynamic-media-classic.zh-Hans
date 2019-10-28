@@ -1,12 +1,12 @@
 ---
 description: 'Dynamic Media Newsletter by Experience League是每月新闻快讯。 它旨在帮助您快速掌握Dynamic Media和Dynamic Media Classic，以便您能够立即开始实现价值。 此一站式商店新闻快讯中提供宝贵的知识构建资源，包括如何制作视频、解决方案概述以及介绍一些关键特性和功能，如图像预设、查看器预设、视频配置文件等。 '
 keywords: 动态媒体；新闻稿；产品更新；提示与技巧；事件；客户成功；博客；博客；图片；视频；功能
-seo-description: 此一站式商店新闻快讯中提供知识构建资源，包括如何制作视频、解决方案概述，以及介绍一些关键特性和功能（如图像预设、查看器预设、视频配置文件等）。
+seo-description: 此一站式商店新闻快讯中提供了知识构建资源，包括如何制作视频、解决方案概述以及介绍一些主要功能，如图像预设、查看器预设、视频配置文件等。
 seo-title: 'Adobe Dynamic Media新闻快讯 '
 solution: 动态媒体
 title: Dynamic Media新闻快讯
 translation-type: tm+mt
-source-git-commit: e78e6bc34343479b133f475e9c0fae1e1841d465
+source-git-commit: fe982958e9954adb814fdd7cc94225a9dbe7c6b0
 
 ---
 
