@@ -6,17 +6,16 @@ seo-title: 'Adobe Dynamic Media新闻快讯 '
 solution: 动态媒体
 title: Dynamic Media新闻快讯
 translation-type: tm+mt
-source-git-commit: fe982958e9954adb814fdd7cc94225a9dbe7c6b0
+source-git-commit: 656a9ab1b4fd0c99b612dc0e42d03b56ff213191
 
 ---
 
 
 # ![Dynamic Media Newsletter徽标](/help/assets/dynamic-media-newsletter-logo.png)
 
-Dynamic Media Newsletter by Experience League是一个月度新闻快讯，旨在帮助您快速了解Dynamic Media和Dynamic Media Classic，以便您能够立即开始实现价值。
+Experience League的每月Dynamic Media Newsletter旨在帮助您快速使用Dynamic Media和Dynamic Media Classic，以便您能够立即开始实现价值。
 
-**新闻稿中包含哪些内容？**
-此一站式商店新闻快讯中提供宝贵的知识构建资源，包括操作方法视频、解决方案概述，以及介绍一些主要功能和功能，如图像预设、查看器预设、视频配置文件等。
+在此一站式商店新闻快讯中，发现宝贵的知识构建资源，如操作方法视频、解决方案概述以及介绍该解决方案的一些主要特性和功能，如图像预设、查看器预设、视频配置文件等。
 
 ## 获得灵感。 了解情况。
 
