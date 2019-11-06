@@ -3,14 +3,14 @@ title: 预览资源
 seo-title: 预览资源
 description: 'null'
 seo-description: 了解如何预览资产。
-uuid: a01be21e37f-4d79-9220-f4 e177 e9179 a9179 a9179 a
+uuid: 4a01be21-e37f-4d79-9220-f4e177e9179a
 contentOwner: admin
 content-type: 引用
-products: SG_ EXPERIENCE MANAGER/Dynamic-Media-Scene-7
-geptopics: SG_ SCENESELEFERENDER_ PK/categories/managing_ assets
-discoiquuid: 17d0bfd6-fc62-4ed6-8a51-7ac1 a6 bb96 cc
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+geptopics: SG_SCENESEEVENTONDEMAND_PK/categories/managing_assets
+discoiquuid: 17d0bfd6-fc62-4ed6-8a51-7ac1a6bb96cc
 translation-type: tm+mt
-source-git-commit: a1722c15d3c049f05959d895e85297d47d730872
+source-git-commit: 917ba4469b5ef22e62c572f80008e470dccdebe4
 
 ---
 
@@ -23,7 +23,7 @@ source-git-commit: a1722c15d3c049f05959d895e85297d47d730872
 
 如果您正在预览带参数图层的模板资源，则可以更改参数或图像预设。因为您所做的更改是嵌入式的，所以可以立即从相同的“预览”窗口查看结果。
 
-另请参阅 [Dynamic Media经典查看器库示例](https://marketing.adobe.com/resources/help/en_US/s7/vlist/vlist.html)。
+另请参阅此处和此处的Adobe查看器参 [考库](/help/assets/vlist/vlist.html)[示例](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)。
 
 **预览资源**
 
