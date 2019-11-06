@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
 geptopics: SG_SCENESEEVENTONDEMAND_PK/categories/upload_and_publish_assets
 discoiquuid: 39099bc0-9228-46f0-9bee-3542059f4695
 translation-type: tm+mt
-source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
+source-git-commit: 917ba4469b5ef22e62c572f80008e470dccdebe4
 
 ---
 
@@ -25,7 +25,7 @@ Scene7 Publishing system现在支持通过HTTP/2交付所有图像和视频。 �
 
 资源处于已发布或未发布的状态。默认情况下，上传到Dynamic Media Classic中的所有资产都会自动标记为发布。
 
-有关详细信息，请参阅“即 [时发布声明”PDF](https://marketing.adobe.com/resources/help/en_US/s7/rendering-instant-publish-notification.pdf)。
+有关详细信息，请参阅“即 [时发布声明”PDF](/help/assets/rendering-instant-publish-notification.pdf)。
 
 使用以下方法将资源标记为发布：
 
