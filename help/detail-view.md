@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
 geptopics: SG_SCENESEEVENTONDEMAND_PK/categories/managing_assets
 discoiquuid: eaa214ff-d1ef-4691-9148-d01bf243c810
 translation-type: tm+mt
-source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
+source-git-commit: 52f51c59bcc03444e5e751b7b33d20bed9aaaddb
 
 ---
 
@@ -22,7 +22,7 @@ source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
 <!-- 
 
 Comment Type: remark
-Last Modified By: Rick Brough (rbrough)
+Last Modified By: Rick Brough (rbrough@adobe.com)
 Last Modified Date: 2018-06-14T13:52:46.623-0400
 
 <p>as_detail_view_popup.png found in Downloads on local in folder "scene7-images"</p>
