@@ -1,0 +1,32 @@
+.style2 {font-family: Georgia, "Times New Roman", Times, serif}
+body,td,th {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	
+}
+a:link {
+	color: #000000;
+}
+a:visited {
+	color: #000;
+}
+a:hover {
+	color: #FF6600;
+}
+a:active {
+	color: #000;
+}
+
+.curvy {position:relative; width:450px; background:#ebebeb; color:#000; margin:1em auto;}
+#ctl, #cbl, #ctr, #cbr {position:absolute; width:20px; height:20px; color:#ebebeb; background:#fff; overflow:hidden; font-style:normal; z-index:1;}
+#ctl {top:0; left:0;}
+#cbl {bottom:0; left:0;}
+#ctr {top:0; right:0;}
+#cbr {bottom:0; right:0;}
+.curvy em b {position:absolute; font-size:150px; font-family:arial; color:#ebebeb; line-height:40px; font-weight:normal;}
+#ctl b {left:-8px;}
+#ctr b {left:-25px;}
+#cbl b {left:-8px; top:-17px;}
+#cbr b {left:-25px; top:-17px;}
+.curvy p {position:relative; z-index:100; padding:5px 10px;}
+.style3 {color: #FF0000}
