@@ -1,23 +1,23 @@
 ---
 title: 应用程序设置
 seo-title: 应用程序设置
-description: 了解如何设置Dynamic Media经典的应用程序区域。
-seo-description: 了解如何设置Dynamic Media经典的应用程序区域。
-uuid: 3e2f1d30-8f33-4a9d-bobe4-e8 c3 dbc968 f8
+description: 了解如何设置Dynamic Media Classic的应用程序区域。
+seo-description: 了解如何设置Dynamic Media Classic的应用程序区域。
+uuid: 3e2f1d30-8f33-4a9d-bbe4-e8c3dbc968f8
 contentOwner: admin
 content-type: 引用
-products: SG_ EXPERIENCE MANAGER/Dynamic-Media-Scene-7
-geptopics: SG_ SCENESELEFERENDER_ PK/类别/设置
-discoiquuid: ae2d1895-a437-4463-bfax-3960c8027551
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+geptopics: SG_SCENESEEVENTONDEMAND_PK/categories/setup
+discoiquuid: ae2d1895-a437-4463-bfac-3960c8027551
 translation-type: tm+mt
-source-git-commit: e3c64b90e0af0129571a21b132477c0c86d06405
+source-git-commit: 917ba4469b5ef22e62c572f80008e470dccdebe4
 
 ---
 
 
 # 应用程序设置{#application-setup}
 
-您可以使用“应用程序设置”页面输入常规设置、创建图像预设、视频编码预设、查看器预设或定义默认查看器和元数据。您还可以设置批量集预设来自动生成 2D 旋转集（例如）、发布设置和视频 SEO 设置。
+您可以使用“应用程序设置”页输入常规设置、创建图像预设、视频编码预设、查看器预设，或定义默认查看器和元数据。 您还可以设置批量集预设来自动生成 2D 旋转集（例如）、发布设置和视频 SEO 设置。
 
 >[!NOTE]
 >
@@ -29,29 +29,29 @@ To open the Application General Settings page, on the Global Navigation bar, cli
 
 ### 服务器
 
-在创建帐户时，Dynamic Media Classic会自动为您的公司提供分配的服务器。这些服务器用于构建网站和应用程序的 URL 字符串。这些 URL 调用是您的帐户所特有的。
+在创建帐户时，Dynamic Media Classic会自动为您的公司提供分配的服务器。 这些服务器用于构建网站和应用程序的 URL 字符串。这些 URL 调用是您的帐户所特有的。
 
 另请参阅[测试安全测试服务](testing-assets-making-them-public.md#testing_the_secure_testing_service)。
 
-**已发布服务器名称** 此服务器是在特定于您的帐户的系统生成的所有URL调用中使用的实时CDN服务器。除非Dynamic Media经典支持技术人员指示您这样做，否则请勿更改此服务器名称。
+**发布的服务器名** ：此服务器是在特定于您的帐户的所有系统生成的URL调用中使用的实时CDN服务器。 除非Dynamic Media Classic支持技术人员指示您更改此服务器名称。
 
-**源服务器名称** 此服务器仅用于质量保证测试。除非Dynamic Media经典支持技术人员指示这样做，否则请勿更改此服务器名称。
+**源服务器名称** 此服务器仅用于质量保证测试。 除非Dynamic Media Classic支持技术人员指示更改此服务器名称，否则请勿更改此名称。
 
-**AGM服务器名称** 此服务器用于Web到打印模板。在公司范围内设置此服务器。除非Dynamic Media经典支持技术人员指示这样做，否则请勿更改此服务器名称。
+**AGM服务器名称** 此服务器用于Web到打印模板。 在公司范围内设置此服务器。除非Dynamic Media Classic支持技术人员指示更改此服务器名称，否则请勿更改此名称。
 
-**Test&amp; Target服务器名称** 您的Test&amp; Target URL(最多包括. com)。有关获取此URL的说明，请参阅将Dynamic Media经典与Target Classic集成。
+**Test&amp;Target服务器名称** Test&amp;Target URL，最多包括。com。 有关获取此URL的说明，请参阅将Dynamic Media Classic与Target Classic集成。
 
-**iOS流服务器名称** Dynamic Media经典iOS流服务器的URL。该服务器使用 HTTP 协议将流视频发送至 iOS 设备。
+**iOS Streaming server名称** Dynamic Media Classic iOS流服务器的URL。 该服务器使用 HTTP 协议将流视频发送至 iOS 设备。
 
-**渐进式视频服务器名称** 到Dynamic Media经典渐进式视频服务器的URL。该服务器使用 HTTP 协议发送渐进式视频。
+**渐进式视频服务器名** ，指向Dynamic Media Classic渐进式视频服务器的URL。 该服务器使用 HTTP 协议发送渐进式视频。
 
-**显示未发布的资产的URL** 如果您希望动态媒体经典在预览任何资产(无论是否已发布)时显示URL，请选择此选项。如果资源未发布，此 URL 将无效。但是，您可以使用 URL 进行计划或组织。
+**显示未发布资产的URL** 如果您希望Dynamic Media Classic在预览任何资产时显示URL（无论是否已发布），请选择此选项。 如果资源未发布，此 URL 将无效。但是，您可以使用 URL 进行计划或组织。
 
-**允许AIR安装** 选择此选项可允许用户将Scene Publishing System桌面版本下载到其本地硬盘驱动器。用户从“个人设置”屏幕的“桌面版本”区域中安装该应用程序。
+**允许AIR安装** 选择此选项可允许用户将Scene7 Publishing system桌面版本下载到其本地硬盘。 用户从“个人设置”屏幕的“桌面版本”区域中安装该应用程序。
 
 AIR 用户必须手动卸载其现有应用程序，并通过 Scene7 Publishing System 的 Web 版本（在“个人设置”中）重新安装。在本次一次性重新安装后，只要服务器有 Scene7 Publishing System AIR 的新版本就会提示您升级。Scene7 Publishing System 与应用程序更新框架集成在一起，从而简化了升级过程。
 
-**CDN失效模板** 指定用于使CDN(内容交付网络)缓存失效的模板。
+**CDN失效模板** 指定用于使CDN（内容交付网络）缓存失效的模板。
 
 For example, suppose you enter an image URL (including image presets or modifiers) referencing `<ID>`, instead of a specific image ID as in the following example:
 
@@ -75,15 +75,15 @@ If the Template just contains `<ID>`, then SPS fills in the `https://<server>/is
 
 **浏览**
 
-**显示项目** 确定项目是否可用作组织Dynamic Media经典资产的方式。请参阅用项目组织工作。
+**显示项目** 确定项目是否可作为组织Dynamic Media Classic资产的一种方式。 请参阅用项目组织工作。
 
-**显示示例电子内容内容** 打开或关闭eVideo示例内容的显示。
+**显示示例eVideo内容** 打开或关闭eVideo示例内容的显示。
 
-**显示生成的内容** 在文件夹中显示从资产生成的内容。例如，当PDF文件在上传时栅格化时，Dynamic Media经典会为原始PDF中的每页创建一幅图像。如果选择“显示生成的内容”，则在上载原始 PDF 时生成的每个图像都会与该 PDF 一起显示在将 PDF 上载到的文件夹中。
+**显示生成的内容** “在文件夹中”，显示从资产生成的内容。 例如，当PDF文件在上传时栅格化时，Dynamic Media Classic会为原始PDF中的每页创建一个图像。 如果选择“显示生成的内容”，则在上载原始 PDF 时生成的每个图像都会与该 PDF 一起显示在将 PDF 上载到的文件夹中。
 
-**默认情况下，显示已编码视频** 的已取消选中(关闭)。
+**默认情况下** ，显示已编码视频已取消选择。
 
-要在 Scene7 Publishing System 中快速搜索和浏览视频，而无需在同一视频的多个编码派生中浏览，请将此选项保留为未选中状态（默认）。只有“主视频”缩略图（即您上载的并用于创建所有派生的源视频）和“父”自适应视频集缩略图（包含编码视频集的所有“子”派生）在用户界面中显示。
+若要在 Scene7 发布系统中快速搜索和浏览视频，而无需在同一视频的大量编码派生项中导航，请取消选择此选项（默认设置）。用户界面上显示的只有“主视频”缩略图（您上传并用于创建所有派生项的源视频）和“父”自适应视频集缩略图（包含编码视频集的所有“子”派生项）。
 
 但是，您仍可以访问主视频或自适应视频集的各个编码视频。要执行以上操作，请双击视频缩略图图像，打开详细信息视图。然后单击右边侧面板的“**编码的视频**”，访问所有“子”视频。
 
@@ -97,19 +97,19 @@ If the Template just contains `<ID>`, then SPS fills in the `https://<server>/is
 
 >[注意]
 >
->如果您未使用Scene Publishing System上传视频资产并对其进行编码，则动态媒体经典会显示您的所有已编码视频，即使已取消选择此选项也是如此。
+>如果您未使用Scene7 Publishing system上传视频资产并对其进行编码，Dynamic Media Classic会显示您的所有单独编码视频，即使取消选择此选项也是如此。
 
-**显示刷新子文件夹按钮** 打开或关闭子文件夹刷新按钮的显示。
+**显示“刷新子文件夹** ”按钮打开或关闭子文件夹“刷新”按钮的显示。
 
-**动态媒体经典FTP帐户**
+**Dynamic Media Classic FTP帐户**
 
-**服务器** 列出FTP帐户服务器。
+**服务器** 列出您的FTP帐户服务器。
 
-**用户名** 列出FTP帐户用户名。
+**用户名** ，列出您的FTP帐户用户名。
 
 **上载到应用程序**
 
-**覆盖图像** 动态媒体经典不允许两个文件同名。每个项目的 Scene7 Publishing System ID（图像名称去掉文件扩展名）必须唯一。由于此规则，“上载”对话框中有一个“覆盖”选项。该选项的准确效果取决于指定的“覆盖图像”选项。这些选项指定了如何上载替换图像：替换原始图像，还是成为重复图像。重复图像会用“-1”重命名（例如，chair.tif 会重命名为 chair-1.tif）。这些选项会影响上载到的文件夹与原始图像不同的图像，或文件扩展名（如 JPG、TIF 或 PNG）与原始图像不同的图像。（请参阅使用覆盖图像选项。）
+**覆盖图像** Dynamic Media Classic不允许两个文件具有相同的名称。 每个项目的 Scene7 Publishing System ID（图像名称去掉文件扩展名）必须唯一。由于此规则，“上载”对话框中有一个“覆盖”选项。该选项的准确效果取决于指定的“覆盖图像”选项。这些选项指定了如何上载替换图像：替换原始图像，还是成为重复图像。重复图像会用“-1”重命名（例如，chair.tif 会重命名为 chair-1.tif）。这些选项会影响上载到的文件夹与原始图像不同的图像，或文件扩展名（如 JPG、TIF 或 PNG）与原始图像不同的图像。（请参阅使用覆盖图像选项。）
 
 **在当前文件夹内，使用相同的基本图像名称和扩展名进行覆盖**
 
@@ -127,50 +127,50 @@ If the Template just contains `<ID>`, then SPS fills in the `https://<server>/is
 
 此选项是最具包容性的替换规则。可以将替换图像上载到与原始文件所在文件夹不同的文件夹，使用不同的文件扩展名上载文件，并替换原始文件。如果原始文件在不同的文件夹中，替换图像则位于其所上载至的新文件夹。
 
-**保留发布** 指定上传到动态媒体经典的替换图像是否保留其替换图像的“准备就绪”设置，或在上传时指定该设置。
+**保留发布** ：指定上传到Dynamic Media Classic的替换图像是保留其要替换的图像的“准备发布”设置，还是在上传时指定该设置。
 
-**默认颜色配置文件** 指定添加CMYK图像时应用作为默认颜色配置文件选项一部分的颜色配置文件。
+**默认颜色配置文件** -指定在添加CMYK图像时作为默认颜色配置文件选项的一部分应用的颜色配置文件。
 
-**默认上传选项** 打开“上传作业选项”对话框，您可以在该对话框中指定默认上传选项。有关这些选项的信息，请参阅上载选项。
+**默认上传选项** 打开“上传作业选项”对话框，您可以在其中指定默认的上传选项。 有关这些选项的信息，请参阅上载选项。
 
 **应用程序的图像映射编辑器**
 
-**默认图像映射HREF** 定义图像映射href列使用的默认URL。此 URL 是您在创建新图像映射时看到的默认 URL。
+**默认图像映射HREF** 定义用于图像映射href列的默认URL。 此 URL 是您在创建新图像映射时看到的默认 URL。
 
-**默认图像映射模板** 定义图像映射href模板的默认Javascript。每当单击图像映射时，都可以在此处设置要执行的自定义代码。
+**默认图像映射模板** -为图像映射href模板定义默认Javascript。 每当单击图像映射时，都可以在此处设置要执行的自定义代码。
 
 **应用程序的其他设置**
 
-**垃圾桶中的垃圾桶清除警告** 资源会在七天内自动删除。如果您需要在“垃圾桶”中的资源距永久删除还有四天时间时向公司管理员发送通知，请选择“自动删除垃圾桶项目之前会发送电子邮件”。请参阅管理垃圾桶文件夹。
+**垃圾桶可以清理垃圾桶中的警告** ，资源会在七天内自动删除。 如果您需要在“垃圾桶”中的资源距永久删除还有四天时间时向公司管理员发送通知，请选择“自动删除垃圾桶项目之前会发送电子邮件”。请参阅管理垃圾桶文件夹。
 
-## 使用覆盖图像选项 {#using-the-overwrite-images-option}
+## 使用“覆盖图像”选项 {#using-the-overwrite-images-option}
 
-动态媒体经典不允许两个文件同名。每个项目的 Scene7 Publishing System ID（图像名称去掉文件扩展名）必须唯一。由于该规则，所以“上载”对话框会包括“覆盖图像”选项。该选项的具体影响取决于每个公司 Scene7 Publishing System 内部设置的设置。
+动态媒体经典不允许两个文件具有相同的名称。 每个项目的 Scene7 Publishing System ID（图像名称去掉文件扩展名）必须唯一。由于该规则，所以“上载”对话框会包括“覆盖图像”选项。该选项的具体影响取决于每个公司 Scene7 Publishing System 内部设置的设置。
 
-如果您先前已上传图像，然后更改原始文件(或替换它们)，则所选的覆盖选项将指定Dynamic Media经典如何替换图像。没有关于图像更改的信息，但是新图像会替换旧图像。如果该文件夹还包含不在Dynamic Media Classic中的图像，则会添加这些图像。
+如果您之前上传了图像，然后更改了原始文件（或替换了它们），则选择的“覆盖”选项将指定Dynamic Media Classic如何替换图像。 没有关于图像更改的信息，但是新图像会替换旧图像。如果文件夹还包含Dynamic Media Classic中尚未包含的图像，则会添加这些图像。
 
 如果您已上载的图像在某些方面有所更改（图像已改变），但是对图像的引用保持不变，请使用此选项。在上载和翻录 Adobe® PDF 时“覆盖”也很有用。To fine-tune how Dynamic Media Classic *rips* the image, adjust the ICC color profile options in the Upload dialog box and re-upload using the Overwrite feature.
 
-用于从生产服务器访问图像的Dynamic Media经典ID来自图像文件名。在替换现有文件和用于访问图像的Dynamic Media经典ID中，文件名中使用大写和小写字符很重要。请确保在上载到Dynamic Media经典之前使用文件名中的大写和小写字符，以避免Dynamic Media经典ID仅在同一图像出现情况下有所不同。
+用于从生产服务器访问图像的Dynamic Media Classic ID源自图像文件名。 在替换现有文件和用于访问图像的Dynamic Media Classic ID时，文件名中使用大小写字符很重要。 在上传到Dynamic Media Classic之前，请确保文件名中的大小写字符的使用正确，以避免仅对同一图像大小写不同的Dynamic Media Classic ID。
 
 如果您取消选择此选项，将与现有图像具有相同文件名的所有图像都视为重复图像，并且不予添加。
 
 ## 图像预设 {#image-presets}
 
-“图像预设”屏幕用于创建和编辑图像预设。图像预设使动态媒体经典能够从同一主图象以不同大小动态传送图像。每个图像预设都表示用于显示图像的一组预定义大小和格式命令。在您创建图像预设时，可以选择图像的传送大小。您还可以选择格式命令，以便在传送图像供查看时优化图像的外观。
+“图像预设”屏幕用于创建和编辑图像预设。图像预设使Dynamic Media Classic能够以不同大小动态传送来自同一主图像的图像。 每个图像预设都表示用于显示图像的一组预定义大小和格式命令。在您创建图像预设时，可以选择图像的传送大小。您还可以选择格式命令，以便在传送图像供查看时优化图像的外观。
 
 管理员可以创建导出资源的预设。用户可以在导出图像时选择预设，这同时将按照管理员指定的规范重新设置图像的格式。
 
 To open the Image Preset screen, on the Global Navigation bar, click **Setup** &gt; **Image Presets**.
 
-请参阅 [智能图像](https://helpx.adobe.com/experience-manager/6-3/assets/using/imaging-faq.html)处理。
+请参阅 [智能成像](https://helpx.adobe.com/experience-manager/6-3/assets/using/imaging-faq.html)。
 
 ### 创建和编辑图像预设 {#creating-and-editing-image-presets}
 
 1. 单击“**设置**”&gt;“**图像预设**”。
 1. 创建新预设或从现有预设开始：
-   * **创建图像预设** -单击 **添加**。
-   * **从现有预设创建图像预设** -选择与您要创建的图像预设最相似的预设，然后单击编辑。
+   * **创建图像预设** -单击“添 **加”**。
+   * **从现有预设创建图像预设** -选择与要创建的图像预设最相似的图像预设，然后单击编辑。
 
 1. 在“添加（或编辑）预设”屏幕上，输入预设的名称。
 1. 设置所需的预设选项。
@@ -186,17 +186,17 @@ To open the Image Preset screen, on the Global Navigation bar, click **Setup** &
 
 “添加预设”和“编辑预设”屏幕提供了用于创建和编辑图像预设的选项：
 
-**预设名称** 输入一个描述性名称，不含任何空格。将图像大小规格包括在名称中，以帮助用户识别该图像预设。
+**预设名称** 输入一个描述性名称，不带任何空格。 将图像大小规格包括在名称中，以帮助用户识别该图像预设。
 
-**宽度和高度** 输入图像所传送的大小(以像素为单位)。
+**宽度和高度** 输入传送图像时所用的像素大小。
 
-**格式** 从菜单中选择一种格式。选择 GIF、JPEG、PDF 或 TIFF 格式会显示其他选项：
+**格式** 从菜单中选择格式。 选择 GIF、JPEG、PDF 或 TIFF 格式会显示其他选项：
 
 * GIF 颜色量化选项
 
    **类型**
 
-   选择最合适（默认值）、Web 或 Macintosh。如果您选择“带有 Alpha 的 GIF”，则 Macintosh® 选项不可用。
+   选取“自适应”（默认设置）、“Web”或“Macintosh”。如果选取“带 Alpha 通道的 GIF”，则“Macintosh®”选项不可用。
 
    **仿色**
 
@@ -204,7 +204,7 @@ To open the Image Preset screen, on the Global Navigation bar, click **Setup** &
 
    **颜色数目**
 
-   拖动滑块以输入2-255。
+   拖动滑块以进入2-255。
 
    **颜色列表**
 
@@ -214,7 +214,7 @@ To open the Image Preset screen, on the Global Navigation bar, click **Setup** &
 
    **品质**
 
-   控制 JPEG 压缩等级。此设置既影响文件大小，又影响图像质量。JPEG质量范围为1-100。
+   控制 JPEG 压缩等级。此设置既影响文件大小，又影响图像质量。JPEG质量比例为1-100。
 
    **启用 JPG 色度缩减像素采样**
 
@@ -226,47 +226,47 @@ To open the Image Preset screen, on the Global Navigation bar, click **Setup** &
 
    选择一个压缩算法。
 
-**色彩空间** 选择色彩空间。
+**色彩空间** ：选择色彩空间。
 
-**锐化** 选择启用简单锐化选项可在进行所有缩放操作后对图像应用基本锐化滤镜。锐化可以帮助补偿在以不同尺寸显示图像时可能导致的模糊。
+**锐化** 选择启用简单锐化选项，以在进行所有缩放后对图像应用基本锐化滤镜。 锐化可以帮助补偿在以不同尺寸显示图像时可能导致的模糊。
 
 有关锐化、重新采样模式和 USM 锐化的详细信息，请参阅[锐化图像](sharpening-image.md#sharpening_an_image)。
 
-**“重新取样模式** ”选择一个重新取样模式选项。当图像缩减像素取样时，以下选项锐化该图像：
+**重新取样模式** 选择重新取样模式选项。 当图像缩减像素取样时，以下选项锐化该图像：
 
-**B-Linear** 最快的重新取样方法；出现一些锯齿伪像。
+**B-Linear** The fastly respaming method;会出现一些锯齿伪像。
 
-**两次立方** 可提高图像服务器上的CPU使用率，但生成的锐化图像较锐利，出现明显的锯齿伪像。
+**两次立方** (Bi-Cubic)提高了图像服务器上的CPU使用率，但生成的图像更锐利，锯齿伪像较少。
 
-**Sharp** 可以生成比“双立方”选项更锐利的结果，但在图像服务器上的CPU成本更高。
+**锐化2** 可以比“两次立方”选项产生略微锐利的结果，但图像服务器的CPU成本更高。
 
-**三线性** 使用较高和较低分辨率(如果可用)；仅当别名为问题时才推荐。由于减少了高频数据，此方法会减小 JPEG 的大小。
+**三线性** （如果可用）同时使用较高和较低分辨率；仅当出现锯齿问题时建议。 由于减少了高频数据，此方法会减小 JPEG 的大小。
 
-**USM锐化** 选择这些选项可微调锐化：
+**USM锐化** ：选择以下选项可微调锐化：
 
-**数量** 控制应用于边缘像素的对比度数量。默认值为 1.0。对于高分辨率图像，可将该值增加到 5.0。数量用于衡量滤镜强度。
+**数量** ：控制应用于边缘像素的对比度数量。 默认值为 1.0。对于高分辨率图像，可将该值增加到 5.0。数量用于衡量滤镜强度。
 
-**半径** 确定边缘像素周围影响锐化的像素数量。对于高分辨率图像，请输入 1 到 2 之间的值。较低的数值仅锐化边缘像素，较高的数值则锐化范围更宽的像素。值正确与否取决于图像的大小。
+**半径** 确定边缘像素周围影响锐化的像素数。 对于高分辨率图像，请输入 1 到 2 之间的值。较低的数值仅锐化边缘像素，较高的数值则锐化范围更宽的像素。值正确与否取决于图像的大小。
 
-**阈值** 确定应用USM锐化滤镜时要忽略的对比度范围。换言之，此选项确定锐化的像素必须与周围区域相差多少，才被滤镜看作边缘像素并被锐化。为避免引进干扰，请用 0.02 到 0.2 之间的值做试验。默认值 6 锐化图像中的所有像素。
+**阈值** 确定应用USM锐化滤镜时要忽略的对比度范围。 换言之，此选项确定锐化的像素必须与周围区域相差多少，才被滤镜看作边缘像素并被锐化。为避免引进干扰，请用 0.02 到 0.2 之间的值做试验。默认值 6 锐化图像中的所有像素。
 
-**色彩空间** 确定图像是否使用创建图像的空间(通常是RGB)或明亮度空间(强度)。
+**色彩空间** ：确定图像是使用创建图像的空间，通常为RGB（原始）还是明亮度空间（强度）。
 
-**颜色** 选择以下选项：
+**颜色** ：选择以下选项：
 
-**输出颜色配置文件** 选择使用默认值或在Scene Publishing System上可用的ICC颜色配置文件之一。
+**输出颜色配置文件** 选择“使用默认值”或Scene7 Publishing system上提供的ICC颜色配置文件之一。
 
 另请参阅[ ICC 配置文件](icc-profiles.md#icc_profiles)。
 
-**渲染方法** 如果要覆盖颜色配置文件的默认渲染意图，请选择一个选项。其中一个默认 ICC 配置文件是颜色转换的目标颜色空间、输出设备（打印机或显示器）具有此配置文件、指定的渲染方法对此配置文件有效时，请使用此选项。
+**渲染方法** 如果要覆盖颜色配置文件的默认渲染方法，请选择一个选项。 其中一个默认 ICC 配置文件是颜色转换的目标颜色空间、输出设备（打印机或显示器）具有此配置文件、指定的渲染方法对此配置文件有效时，请使用此选项。
 
-**嵌入配置文件** 选择此选项后，如果您在Adobe® Photoshop®中打开此图像，则会使用此配置文件。
+**嵌入配置文件** -选择此选项后，如果您在Adobe® Photoshop®中打开此图像，它将使用此配置文件。
 
-**打印分辨率** 选择用于打印此图像的分辨率；默认为72像素。
+**打印分辨率** ：选择打印此图像的分辨率；默认为72像素。
 
-**URL修饰符** 如果您希望指定定义图像预设而不是设置的URL修饰符，请在此处输入修饰符。
+**URL修饰符** 如果您希望指定用于定义图像预设的URL修饰符，而不是设置，请在此处输入修饰符。
 
-**示例图像URL** 列出动态媒体图像服务器用来传送图像的“原始”URL字符串，该字符串使用您添加或编辑的图像预设来传送图像。该 URL 字符串编码您在“添加预设”或“编辑预设”屏幕中选择的所有格式设置。
+**示例图像URL** 列出Dynamic Media图像服务器用来传送包含您添加或编辑的图像预设的图像的“原始”URL字符串。 该 URL 字符串编码您在“添加预设”或“编辑预设”屏幕中选择的所有格式设置。
 
 ### 编辑、删除或停用图像预设 {#editing-removing-or-deactivating-an-image-preset}
 
@@ -279,7 +279,7 @@ To open the Image Preset screen, on the Global Navigation bar, click **Setup** &
 
 ## 激活或停用自适应视频预设 {#activating-or-deactivating-adaptive-video-presets}
 
-动态媒体经典提供自适应视频编码预设。它是一个将 16:9 自适应视频预设和 4:3 自适应视频预设合并为一组的总预设列表。这些预定义的预设反映了最常用的编码设置，并且经过优化以便在目标移动设备、平板电脑和台式机上播放。
+Dynamic Media Classic提供自适应视频编码预设。 它是一个将 16:9 自适应视频预设和 4:3 自适应视频预设合并为一组的总预设列表。这些预定义的预设反映了最常用的编码设置，并且经过优化以便在目标移动设备、平板电脑和台式机上播放。
 
 默认情况下，仅激活（启用或“打开”）“自适应视频”编码预设。您可以根据需要将其停用。在“上载作业选项”对话框的 eVideo 部分中，非活动自适应视频预设不会显示为可选择的选项。
 
@@ -297,17 +297,17 @@ To open the Image Preset screen, on the Global Navigation bar, click **Setup** &
 
 >[!NOTE]
 >
->除了“自适应视频”（默认启用）以外，在“上载作业选项”对话框中看不到所有其他自适应视频或单个视频编码预设。动态媒体经典管理员可以确定在“上传作业选项”对话框中可见的视频编码预设。
+>除了“自适应视频”（默认启用）以外，在“上载作业选项”对话框中看不到所有其他自适应视频或单个视频编码预设。Dynamic Media Classic管理员可确定在“上传作业选项”对话框中显示哪些视频编码预设。
 
 * 从下列自适应视频编码或单个编码预设中进行选择：
 
    **16:9 自适应视频**
 
-   创建16：9宽高比视频以交付到桌面、移动设备(iPhone、iPad、Android)和平板电脑(iPad、Android)，以最匹配查看器连接速度的分辨率和比特率进行优化。
+   创建16:9长宽比视频，以交付到台式机、手机(iPhone、iPad、Android)和平板电脑(iPad、Android)，并使用最匹配查看器连接速度的分辨率和比特率进行优化。
 
    **4:3 自适应视频**
 
-   创建4：3长宽比视频以交付到桌面、移动设备(iPhone、iPad、Android)和平板电脑(iPad、Android)，以最匹配查看器连接速度的分辨率和比特率进行优化。
+   创建4:3长宽比视频，以交付到台式机、手机(iPhone、iPad、Android)和平板电脑(iPad、Android)，并使用最匹配查看器连接速度的分辨率和比特率进行优化。
 
    **自适应视频**
 
@@ -319,7 +319,7 @@ To open the Image Preset screen, on the Global Navigation bar, click **Setup** &
 
    **自适应视频编码（16:9 或 4:3）**
 
-   创建16：9和4：3长宽比视频以交付到桌面、移动设备(iPhone、iPad、Android)和平板电脑(iPad、Android)，以最匹配查看器连接速度的分辨率和比特率进行优化。
+   创建16:9和4:3长宽比视频，以便交付到台式机、手机(iPhone、iPad、Android)和平板电脑(iPad、Android)，并使用最匹配查看器连接速度的分辨率和比特率进行优化。
 
    请参阅[自适应视频编码（16:9 或 4:3）视频预设](application-setup.md#adaptive_video_encoding_16_9_or_4_3_video_presets)。
 
@@ -341,15 +341,15 @@ To open the Image Preset screen, on the Global Navigation bar, click **Setup** &
 
 **目标连接速度** 目标最终用户的Internet连接速度。
 
-**编码的文件后缀** 附加到编码视频文件的后缀，用于标识目的。
+**编码文件后缀** ：附加到编码视频文件以用于标识目的的后缀。
 
-**视频比特率(数据率)** 编码为一秒钟视频回放的数据量(以千字节为单位)。
+**视频比特率（数据速率）** ，编码以组成一秒钟视频回放的数据量（千位／秒）。
 
-**像素宽度/高度** 屏幕图像的宽度尺寸(以像素为单位)；屏幕图像的高度尺寸(以像素为单位)。
+**像素宽度** /高度屏幕图像的宽度尺寸，以像素为单位；屏幕图像的高度尺寸（以像素为单位）。
 
-**每秒帧数(fps)** 视频的每秒帧数或静止图像。在美国和日本，大部分视频以 29.97 fps 拍摄；在欧洲和亚洲（不包括日本），大部分视频以 25 fps 拍摄。电影以 24 fps 拍摄。
+**每秒帧数(fps)** ：每秒视频的帧数，或静态图像。 在美国和日本，大部分视频以 29.97 fps 拍摄；在欧洲和亚洲（不包括日本），大部分视频以 25 fps 拍摄。电影以 24 fps 拍摄。
 
-**音频** 比特率编码以组成一秒钟音频回放的数据量，以千字节为单位。
+**音频比特率** ：编码以组成一秒钟音频回放的数据量，以千位／秒为单位。
 
 下表显示了选择视频预设的建议最佳做法和用于指定编码文件的命名约定。
 
@@ -363,7 +363,7 @@ To open the Image Preset screen, on the Global Navigation bar, click **Setup** &
 |--- |--- |--- |--- |--- |--- |--- |--- |
 | 1 | Auto x360, 800 Kbps | _Mobile_Autox360p_800K | 800 | Autox360 | 与源相同 | 64 | 用于移动设备（iPhone、iPad、Android） |
 | 2 | Auto x 480, 1400 Kbps | _Tablet_Autox480p_1400K | 1400 | Autox480 | 与源相同 | 96 | 用于平板电脑（iPad、Android） |
-| 3 | Auto x 720, 2600 Kbps | _ Desktop_ AutoX720p_2600K | 2600 | Autox720 | 与源相同 | 128 | 适用于桌面 |
+| 3 | Auto x 720, 2600 Kbps | _Desktop_Autox720p_2600K | 2600 | Autox720 | 与源相同 | 128 | 桌面版 |
 
 ### 自适应视频编码（16:9 或 4:3）视频预设 {#adaptive-video-encoding-or-video-presets}
 
@@ -383,8 +383,8 @@ To open the Image Preset screen, on the Global Navigation bar, click **Setup** &
 | 6 | 4:3，640x480，平板电脑（iPad、Android），(800 Kbps) | 900 | _iPad_640x480_800K | 800 | 640x480 | 与源相同 | 80 | 中分辨率、WiFi |
 | 7 | 16:9，768x432，平板电脑（iPad、Android），(1200 Kbps) | 1.5 Mbps | _iPad_768x432_1200K | 1200 | 768 x 432 | 与源相同 | 96 | 高分辨率、WiFi |
 | 8 | 4:3，768x576，平板电脑（iPad、Android），(1200 Kbps) | 1.5 Mbps | _iPad_768x576_1200K | 1200 | 768x576 | 与源相同 | 96 | 高分辨率、WiFi |
-| 9 | 16：9、1280 x720、桌面，(2000Kbps) | 3.0 Mbps | _1280x720_2000K | 2000 | 1280x720 | 与源相同 | 128 | 高清、宽屏 |
-| 10 | 4：3、1280 x960、Desktop，(2000 Kbps) | 3.0 Mbps | _1280x960_2000K | 2000 Kbps | 1280x960 | 与源相同 | 128 | 高清 |
+| 9 | 16:9、1280x720、台式机、(2000 Kbps) | 3.0 Mbps | _1280x720_2000K | 2000 | 1280x720 | 与源相同 | 128 | 高清、宽屏 |
+| 10 | 4:3、1280x960、台式机、(2000 Kbps) | 3.0 Mbps | _1280x960_2000K | 2000 Kbps | 1280x960 | 与源相同 | 128 | 高清 |
 
 ### 台式机视频编码预设 {#desktop-video-encoding-presets}
 
@@ -443,25 +443,25 @@ To open the Image Preset screen, on the Global Navigation bar, click **Setup** &
 
 >[!NOTE]
 >
->**Flash查看器生命周期通知** -从2017年月31日起，Adobe Scene Publishing System正式终止了对Flash查看器平台的支持。有关此重要更改的更多信息，请参见以下常见问题解答网站： [https://docs.adobe.com/content/docs/en/aem/6-1/administer/integration/marketing-cloud/scene7/flash-eol.html](https://docs.adobe.com/content/docs/en/aem/6-1/administer/integration/marketing-cloud/scene7/flash-eol.html)。
+>**Flash查看器生命周期结束通知** -自2017年1月31日起，Adobe Scene7 Publishing system正式终止对Flash查看器平台的支持。 有关此重要更改的更多信息，请参阅以下常见问题解答网站： [https://docs.adobe.com/content/docs/en/aem/6-1/administer/integration/marketing-cloud/scene7/flash-eol.html](https://docs.adobe.com/content/docs/en/aem/6-1/administer/integration/marketing-cloud/scene7/flash-eol.html)。
 
 *查看器预设*&#x200B;是一组设置，决定了用户如何在其计算机屏幕和移动设备上查看富媒体资源。作为管理员，您可以创建查看器预设。提供适用于一系列查看器配置选项的设置。例如，您可以更改查看器显示尺寸、缩放行为、颜色方案、边框和字体。
 
-作为最佳实践，请使用Dynamic Media经典HTML视频查看器。HTML5 视频查看器中使用的预设是功能强大的视频播放器。将使用 HTML5 和 CSS 设计播放组件的功能合并到一个单独播放器中实现了嵌入播放，并可根据浏览器功能选择使用自适应流和渐进式流，从而将富媒体内容的范围扩展到台式机、平板电脑和移动用户并确保视频体验一体化。
+作为最佳实践，请使用Dynamic Media Classic HTML5视频查看器。 HTML5 视频查看器中使用的预设是功能强大的视频播放器。将使用 HTML5 和 CSS 设计播放组件的功能合并到一个单独播放器中实现了嵌入播放，并可根据浏览器功能选择使用自适应流和渐进式流，从而将富媒体内容的范围扩展到台式机、平板电脑和移动用户并确保视频体验一体化。
 
-请参阅 [“Adobe查看器参考指南”中的“关于HTML查看器](https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/c_html5_viewers_about.html) ”。
+请参 [阅《Adobe查看器参考指南](https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/c_html5_viewers_about.html) 》中的“关于HTML5查看器”。
 
-请参阅 [Dynamic Media经典查看器预设兼容性矩阵](application-setup.md#scene7_viewer_preset_compatibility_matrix)。
+请参 [阅Dynamic Media Classic查看器预设兼容性矩阵](application-setup.md#scene7_viewer_preset_compatibility_matrix)。
 
 请参阅[最佳做法：使用 HTML5 视频查看器](best-practice-using-html5-video.md#best_practice_using_the_html5_video_viewer)。
 
-您可以根据查看器添加社区功能。社区功能包括“嵌入”按钮、“电子邮件”按钮、“链接”按钮和“访问站点”按钮。这些按钮允许使用查看器的人员与他人共享查看器或打开Dynamic Media经典网站。
+您可以根据查看器添加社区功能。社区功能包括“嵌入”按钮、“电子邮件”按钮、“链接”按钮和“访问站点”按钮。通过这些按钮，使用查看器的用户可以与他人共享查看器或打开Dynamic Media Classic网站。
 
-另请参阅 [Adobe查看器参考库示例](https://marketing.adobe.com/resources/help/en_US/s7/vlist/vlist.html)。
+另请参阅此处和此处的Adobe查看器参 [考库](/help/assets/vlist/vlist.html)[示例](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)。
 
 ### 用于响应式设计网页的查看器支持 {#viewer-support-for-responsive-designed-web-pages}
 
-不同的网页具有不同的需求。有时，您希望在网页中提供一个链接，以便在单独的浏览器窗口中打开 HTML5 查看器。在其他情况下，可能需要直接在承载页面中嵌入 HTML5 查看器。对于后一种情况，网页可能具有静态的布局。或者，网页也可能是“响应式的”，将针对不同的设备或浏览器窗口大小显示不同的内容。为了满足这些需求，Dynamic Media经典附带的HTML查看器支持静态网页和响应式网页。
+不同的网页具有不同的需求。有时，您希望在网页中提供一个链接，以便在单独的浏览器窗口中打开 HTML5 查看器。在其他情况下，可能需要直接在承载页面中嵌入 HTML5 查看器。对于后一种情况，网页可能具有静态的布局。或者，网页也可能是“响应式的”，将针对不同的设备或浏览器窗口大小显示不同的内容。为满足这些需求，Dynamic Media Classic附带的HTML5查看器支持静态网页和响应式设计的网页。
 
 See [Responsive Static Image library](https://marketing.adobe.com.com/resources/help/en_US/s7/is_ir_api/is_api/c_about_responsive_static_image_library.html)in the *Adobe Image Serving API Help* for more information on how to embed responsive viewers onto your web pages.
 
@@ -469,39 +469,39 @@ See [Responsive Static Image library](https://marketing.adobe.com.com/resources/
 
 管理员可以创建和自定义以下类型的查看器预设：
 
-**eCatalog查看器** 模拟阅读打印目录的体验。您可以逐页移动，缩放页面上的项目，使用图像映射来查看页面上的项目的更多信息，或搜索目录。还可以包括“信息面板”，在映射区域具有有效的 rollover_key 属性时显示详细信息和图像映射的物品。要包括“信息面板”，请在“eCatalog 查看器预设”窗口的“信息面板设置”面板中指定“信息服务器 URL”。
+**eCatalog Viewer** 模拟阅读打印目录的体验。 您可以在页面之间移动、放大和缩小页面上的项目、使用图像映射查看有关页面上的项目的更多信息或搜索目录。 还可以包括“信息面板”，在映射区域具有有效的 rollover_key 属性时显示详细信息和图像映射的物品。要包括“信息面板”，请在“eCatalog 查看器预设”窗口的“信息面板设置”面板中指定“信息服务器 URL”。
 
-**色板集查看器** 以不同的颜色、材质、纹理、外表或织物显示图像。用户单击一个缩略图即可查看图像的变动。
+**样本集查看器** -以不同的颜色、材料、纹理、外表或结构显示图像。 用户单击一个缩略图即可查看图像的变动。
 
-**混合媒体集查看器** 在一个查看器中显示不同类型的媒体。您可以包括样本集、旋转集、图像和视频。您可以设置各个选项卡，以包含不同类型的内容，例如，一个选项卡用于图像集、一个选项卡用于视频。从混合媒体集播放的视频使用具有时间线和视频控件（如停止、暂停、回放和播放）的标准视频查看器。您设置混合媒体集查看器预设时，指定要将哪些查看器用于“混合媒体集”中的不同类型的资源。您还可以使用“网格查看器”或“轮盘式查看器”来查看混合媒体集。
+**混合媒体集查看器** -在一个查看器中显示不同类型的媒体。 您可以包括样本集、旋转集、图像和视频。您可以设置各个选项卡，以包含不同类型的内容，例如，一个选项卡用于图像集、一个选项卡用于视频。从混合媒体集播放的视频使用具有时间线和视频控件（如停止、暂停、回放和播放）的标准视频查看器。您设置混合媒体集查看器预设时，指定要将哪些查看器用于“混合媒体集”中的不同类型的资源。您还可以使用“网格查看器”或“轮盘式查看器”来查看混合媒体集。
 
-**旋转集查看器** 提供图像的多个视图，以便用户可以旋转对象以检查不同的侧边和角度。
+**旋转集查看器** -提供图像的多个视图，以便用户可以旋转对象以检查不同的侧面和角度。
 
-**视频查看器** 使用源文件的分辨率尺寸或自定义大小显示视频。动态媒体经典附带许多为播放视频而预定义的查看器预设，如果您是管理员，则可以创建自定义视频查看器预设。有十几种不同的设置可用于配置“视频查看器”。您可以配置其大小、前景和背景颜色、视频和音频控件、进度条、用户界面外观、社交功能和“帮助”。
+**视频查看器** -使用源文件的分辨率尺寸或自定义大小显示视频。 Dynamic Media Classic附带许多用于播放视频的预定义查看器预设，如果您是管理员，则可以创建自定义视频查看器预设。 有十几种不同的设置可用于配置“视频查看器”。您可以配置其大小、前景和背景颜色、视频和音频控件、进度条、用户界面外观、社交功能和“帮助”。
 
-**缩放查看器** 提供了三种类型的缩放查看器：
+**缩放查看器** ：提供三种缩放查看器类型的选项：
 
-**缩放查看器** 可让用户通过单击来放大区域。用户可以单击控件来放大、缩小图像、并将图像重置为其默认大小。
+**缩放查看器** -允许用户通过单击来放大区域。 用户可以单击控件来放大、缩小图像、并将图像重置为其默认大小。
 
-**缩放查看器：飞出** 显示原始图像旁边缩放区域的第二幅图像。没有控件可以使用，用户只需将选取范围移动到他们要查看的区域上即可。
+**缩放查看器：飞出** “在原始图像旁边显示缩放区域的第二幅图像”。 没有控件可以使用，用户只需将选取范围移动到他们要查看的区域上即可。
 
 在确定此查看器的完整带宽使用量时，请考虑在查看器中有主图像和弹出图像。主图像大小（舞台宽度和高度）和缩放系数决定了弹出图像大小。为防止弹出文件大小变得太大，需对这两个值进行平衡：如果您的主图像大小很大，请降低缩放系数值。（弹出宽度和弹出高度决定了弹出窗口的大小，但不决定提供给查看器的弹出图像的大小。）
 
 例如，如果您的主图像大小是 350 X 350 像素，缩放系数为 3，则生成的弹出图像是 1050 X 1050 像素。如果您的主图像大小是 300 X 300 像素，缩放系数为 4，则弹出图像是 1200 X 1200 像素。根据 JPEG 品质设置（推荐的设置介于 80-90），您可以显著地减少文件大小。建议的缩放系数为 2.5 至 4，取决于您的主图像的大小。
 
-### Dynamic Media经典查看器预设兼容性矩阵 {#scene-viewer-preset-compatibility-matrix}
+### Dynamic Media Classic查看器预设兼容性表 {#scene-viewer-preset-compatibility-matrix}
 
-**Flash查看器生命周期终止通知**：从2017年月31日起，Adobe Scene Publishing System正式终止了对Flash查看器平台的支持。
+**Flash查看器生命周期结束通知**:自2017年1月31日起，Adobe Scene7 Publishing system正式终止对Flash查看器平台的支持。
 
-有关此重要更改的更多信息，请参见以下常见问题解答网站： [https://docs.adobe.com/content/docs/en/aem/6-1/administer/integration/marketing-cloud/scene7/flash-eol.html](https://docs.adobe.com/content/docs/en/aem/6-1/administer/integration/marketing-cloud/scene7/flash-eol.html)。
+有关此重要更改的更多信息，请参阅以下常见问题解答网站： [https://docs.adobe.com/content/docs/en/aem/6-1/administer/integration/marketing-cloud/scene7/flash-eol.html](https://docs.adobe.com/content/docs/en/aem/6-1/administer/integration/marketing-cloud/scene7/flash-eol.html)。
 
-下表显示了当前可用的Dynamic Media经典查看器预设。该表还指定了查看器与桌面和移动设备的兼容性，以及对每个指定查看器使用的技术。
+下表标识了当前可用的Dynamic Media Classic Viewer Presets。 该表还指定了查看器与桌面和移动设备的兼容性，以及对每个指定查看器使用的技术。
 
-另请参阅 [Adobe查看器参考库示例](https://marketing.adobe.com/resources/help/en_US/s7/vlist/vlist.html)。
+另请参阅此处和此处的Adobe查看器参 [考库](/help/assets/vlist/vlist.html)[示例](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)。
 
 有关查看器支持的 Web 浏览器和操作系统版本的信息，您可以查阅查看器发行说明。
 
-请参阅 [Adobe查看器参考发行说明](https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/)。
+请参 [阅Adobe查看器参考发行说明](https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/)。
 
 |  | 查看器技术 | 桌面 | Apple iPhone | Apple iPad | Android 智能手机 | Android 平板电脑 |
 |--- |--- |--- |--- |--- |--- |--- |
@@ -529,8 +529,8 @@ See [Responsive Static Image library](https://marketing.adobe.com.com/resources/
 |  | 查看器技术 | 桌面 | Apple iPhone | Apple iPad | Android 智能手机 | Android 平板电脑 |
 |--- |--- |--- |--- |--- |--- |--- |
 | eCatalog 查看器 |  |  |  |  |  |  |
-| Universal_ HTML5_ eCatalog_ Adv(包括对社交媒体和目录搜索的支持。) | HTML5 | X | X | X | X | X |
-| Universal_ HTML5_ eCatalog(包括对社交媒体和目录搜索的支持。) | HTML5 | X | X | X | X | X |
+| Universal_HTML5_eCatalog_Adv（包括对社交媒体和目录搜索的支持。） | HTML5 | X | X | X | X | X |
+| Universal_HTML5_eCatalog（包括对社交媒体和目录搜索的支持。） | HTML5 | X | X | X | X | X |
 
 |  | 查看器技术 | 桌面 | Apple iPhone | Apple iPad | Android 智能手机 | Android 平板电脑 |
 |--- |--- |--- |--- |--- |--- |--- |
@@ -540,15 +540,15 @@ See [Responsive Static Image library](https://marketing.adobe.com.com/resources/
 
 **eVideo 查看器**
 
-Dynamic Media Classic支持针对MP H.264视频的移动视频回放。
+Dynamic Media Classic支持MP4 H.264视频的移动视频播放。
 
-* 您可以在以下位置找到支持此视频格式的Blackberry设备： [Blackberry上支持的视频格式](https://docs.blackberry.com/en/smartphone_users/deliverables/18349/711-01774-123_Supported_Media_Types_on_BlackBerry_Smartphones.pdf)
-* 您还可以在以下位置找到支持此视频格式的Windows设备：[Windows Phone上支持的视频格式](https://msdn.microsoft.com/en-us/library/ff462087(v=vs.92).aspx)
+* 您可以在以下位置找到支持此视频格式的Blackberry设备：Blackberry [上支持的视频格式](https://developer.blackberry.com/devzone/develop/supported_media/bb10_media_support.html)
+* 您还可以在以下位置找到支持此视频格式的Windows设备：Windows Phone[上支持的视频格式](https://docs.microsoft.com/en-us/previous-versions/windows/apps/ff462087(v=vs.105)?redirectedfrom=MSDN)
 
 |  | 查看器技术 | 桌面 | Apple iPhone | Apple iPad | Android 智能手机 | Android 平板电脑 | Blackberry 智能手机 | Windows Phone |
 |--- |--- |--- |--- |--- |--- |--- |--- |--- |
-| Universal_ HTML5_ Video(包括对隐藏字幕的支持)。See [Best practice: Using the Universal HTML5 Video viewer.](best-practice-using-html5-video.md#best_practice_using_the_html5_video_viewer) | HTML5 | X | X | X | X | X | X | X |
-| Universal_ HTML5_ Video_ social(包括对隐藏字幕和社交媒体的支持。) | HTML5 | X | X | X | X | X | X | X |
+| Universal_HTML5_Video（包括对隐藏式字幕的支持。）See [Best practice: Using the Universal HTML5 Video viewer.](best-practice-using-html5-video.md#best_practice_using_the_html5_video_viewer) | HTML5 | X | X | X | X | X | X | X |
+| Universal_HTML5_Video_social（包括对隐藏式字幕和社交媒体的支持。） | HTML5 | X | X | X | X | X | X | X |
 
 |  | 查看器技术 | 桌面 | Apple iPhone | Apple iPad | Android 智能手机 | Android 平板电脑 |
 |--- |--- |--- |--- |--- |--- |--- |
@@ -567,34 +567,34 @@ Dynamic Media Classic支持针对MP H.264视频的移动视频回放。
 | Universal_HTML5_ImageSet_dark | HTML5 | X | X | X | X | X |
 | Universal_HTML5_ImageSet_light | HTML5 | X | X | X | X | X |
 
-### 关于查看器预设屏幕 {#about-the-viewer-preset-screen}
+### 关于“查看者预设”屏幕 {#about-the-viewer-preset-screen}
 
 在“查看器预设”屏幕上创建和管理“查看器预设”。要打开此屏幕，请单击“**设置**”&gt;“**查看器预设**”。
 
 “查看器预设”屏幕提供了用于执行以下任务的工具：
 
-**添加预设** 并在添加查看器预设对话框中进行选择。
+**添加预设** ，单击添加，然后在添加查看器预设对话框中进行选择。
 
 请参阅[添加和编辑查看器预设](application-setup.md#adding_and_editing_viewer_presets)。
 
-**编辑预设** 选择预设，然后单击 **编辑**。
+**编辑预设** 选择预设，然后单击编 **辑**。
 
 请参阅[添加和编辑查看器预设](application-setup.md#adding_and_editing_viewer_presets)。
 
-**删除预设** 选择预设，然后单击 **删除**。
+**删除预设** 选择预设，然后单击删 **除**。
 
-**导出预设** 选择HTML查看器预设，然后单击“导出”以下载查看器外观，以便将其用作创建和添加新查看器预设的基础。
+**导出预设** 选择HTML5查看器预设，然后单击导出以下载查看器外观，以便您能够将其用作创建和添加新查看器预设的基础。
 
-请参阅 [导出HTML查看器预设](application-setup.md#exporting_an_html5_viewer_preset)。
+请参 [阅导出HTML5查看器预设](application-setup.md#exporting_an_html5_viewer_preset)。
 
-**过滤查看器预设列表** 使用以下工具过滤列表：
+**筛选查看器预设列表** 使用这些工具筛选列表：
 
 * 打开“**活动/非活动**”下拉列表并选择一个选项，以显示活动预设、非活动预设或所有预设。
 * 打开“**查看器**”下拉列表并选择一个选项，以仅查看特定类型的查看器。选择“**所有查看器**”以查看所有查看器。
 
-**排序预设** 单击列标题(“活动”、“类型”、“预设”或“平台”)可对列上的列表进行排序。再一次单击列标题可按降序（或升序）排序列表。
+**排序预设** 单击列标题（活动、类型、预设或平台）可对列上的列表进行排序。 再一次单击列标题可按降序（或升序）排序列表。
 
-**激活和取消激活预设** 选择一个预设并单击其活动选项以激活或取消激活它。
+**激活和取消激活预设** 选择预设，然后单击其“活动”选项以激活或取消激活预设。
 
 请参阅[激活或停用查看器预设](application-setup.md#activating_or_deactivating_viewer_presets)。
 
@@ -604,9 +604,9 @@ Dynamic Media Classic支持针对MP H.264视频的移动视频回放。
 
 ### 添加和编辑查看器预设 {#adding-and-editing-viewer-presets}
 
-除使用用户界面中的“添加”来添加查看器预设以外，还可以使用“导出”来添加查看器预设。只需导出现有的HTML查看器预设，然后将其用作新预设的基础。
+除使用用户界面中的“添加”来添加查看器预设以外，还可以使用“导出”来添加查看器预设。您只需导出现有的HTML5查看器预设，然后将其用作新预设的基础。
 
-请参阅 [导出HTML查看器预设](application-setup.md#exporting_an_html5_viewer_preset)。
+请参 [阅导出HTML5查看器预设](application-setup.md#exporting_an_html5_viewer_preset)。
 
 **添加和编辑查看器预设**
 
@@ -616,15 +616,15 @@ Dynamic Media Classic支持针对MP H.264视频的移动视频回放。
 
 1. 在“查看器预设”屏幕中，添加或编辑查看器预设。
 
-   **在工具栏中添加** 单击添加。在“添加查看器预设”对话框中，选择一个平台，然后选择一种富媒体资源类型。
+   **添加** 、单击工具栏上的添加。 在“添加查看器预设”对话框中，选择一个平台，然后选择一种富媒体资源类型。
 
    在您创建完“查看器预设”时，单击“**另存为**”。
 
-   **通过从现有的查看器预设** 开始添加，请选择视频查看器预设，然后单击工具栏上的编辑。
+   **通过从现有查看器预设开始添加** 。在表中，选择视频查看器预设，然后单击工具栏中的编辑。
 
    在重新配置“视频查看器”后，在“预设名称”文本字段中单击“**另存为**”以使用不同的名称保存预设。
 
-   **编辑** 选择现有的查看器预设，然后单击 **编辑**。
+   **编辑** ：选择现有的查看器预设，然后单击编 **辑**。
 
 1. 在“配置查看器”屏幕的“预设名称”字段中，输入或编辑预设名称。
 1. 设置其余所需的选项。
@@ -640,13 +640,13 @@ Dynamic Media Classic支持针对MP H.264视频的移动视频回放。
    * 如果通过现有的预设添加查看器预设，请单击“**另存为**”。
    * 如果添加或编辑了查看器预设，请单击“**保存**”。
 
-### 导出HTML查看器预设 {#exporting-an-html-viewer-preset}
+### 导出HTML5查看器预设 {#exporting-an-html-viewer-preset}
 
-您可以导出现有的HTML查看器预设以用作创建新HTML查看器预设的基础。该导出选项很有用，因为您不必从头开始创建查看器。相反，您会导出外观和行为与所需预设接近的预设，然后以此为基础开始进行设计调整。
+您可以导出现有的HTML5查看器预设，作为创建新HTML5查看器预设的基础。 该导出选项很有用，因为您不必从头开始创建查看器。相反，您会导出外观和行为与所需预设接近的预设，然后以此为基础开始进行设计调整。
 
-请注意，SPS中默认、现成的查看器预设CSS文件使用相对图像服务路径，这些路径指向上 `Scene7SharedAssets`的资产。例如，以下是查看器预设CSS文件中的图像资产相对路径的相对路径 `Scene7SharedAsset`： `.s7videoviewer .s7fullscreenbutton[state][selected] { background-image: url(/is/image/Scene7SharedAssets/FullScreenButton_dark_sprite?scl=1&fmt=png-alpha); }`但是，如果您在自己的站点上托管Viewer CSS文件，则必须通过在自己的环境中使用图像服务器的明确路径来解析这些相对的图像路径。出于插图目的，如果要将上面的相对路径更新到明确路径，它可能看起来像下面的路径，其中 `https://s7d1.scene7.com` 的直接路径是图像服务器： `https://s7d1.scene7.com/is/image/Scene7SharedAssets/FullScreenButton_dark_sprite?scl=1&fmt=png-alpha`
+请注意，SPS中所有默认的现成查看器预设CSS文件都使用指向位于上的资源的相对图像服务路径 `Scene7SharedAssets`。 例如，以下是位于以下位置的查看器预设CSS文件中图像资产的相对路径 `Scene7SharedAsset`:但是， `.s7videoviewer .s7fullscreenbutton[state][selected] { background-image: url(/is/image/Scene7SharedAssets/FullScreenButton_dark_sprite?scl=1&fmt=png-alpha); }`如果您在自己的站点上承载查看器CSS文件，则必须通过在自己的环境中使用指向图像服务器的显式路径来解析这些相对图像路径。 为便于说明，如果要将上面的相对路径更新为显式路径，则其可能如下所示，其中 `https://s7d1.scene7.com` 是图像服务器的直接路径： `https://s7d1.scene7.com/is/image/Scene7SharedAssets/FullScreenButton_dark_sprite?scl=1&fmt=png-alpha`
 
-**导出HTML查看器预设**
+**导出HTML5查看器预设**
 
 ```as3
 .s7videoviewer .s7fullscreenbutton[state][selected] 
@@ -660,18 +660,18 @@ https://s7d1.scene7.com/is/image/Scene7SharedAssets/FullScreenButton_dark_sprite
 1. 单击“**设置**”&gt;“**查看器预设**”。
 1. On the Viewer Presets toolbar, in the second drop-down list from the left, select **HTML5**.
 1. 在左边的第三个下拉列表中，选择“**所有查看器**”。
-1. 选择要用作新HTML查看器预设基础的查看器预设。
+1. 选择要用作新HTML5查看器预设基础的查看器预设。
 1. 在工具栏中，单击“**导出**”。
 1. 在“导出所选资源”对话框中，单击“**提交导出**”。
 
-   导出后，您将获得CSS文件。下载并解压缩此文件。
+   导出后，您将获得CSS文件。 下载并解压缩此文件。
 
 1. 在 CSS 编辑器中打开 CSS 文件，进行更改，然后保存该文件。
-1. 将CSS文件上传到Scene Publishing System。
+1. 将CSS文件上传到Scene7 Publishing System。
 
    请参阅[上载文件](uploading-files.md#uploading_files)。
 
-1. 将CSS文件发布到Dynamic Media图像服务器。
+1. 将CSS文件发布到Dynamic Media Image Server。
 
    请参阅[发布文件](publishing-files.md#publishing_files)。
 
@@ -758,15 +758,15 @@ URL 即复制到剪贴板中。您可以根据需要在网页的 HTML 代码、�
 
 ## 元数据视图 {#metadata-views}
 
-*元数据*&#x200B;是关于资源的标准化信息。您可以使用元数据来简化工作流程、组织资源和改进搜索。Dynamic Media Classic支持IPTC(国际出版电信委员会)标准和XMP(可扩展元数据平台)标准。在用户在详细信息视图中查看或输入有关资源的元数据之前，可以打开“元数据视图”菜单，并选择要查看或用于描述资源的一组元数据字段。
+*元数据*&#x200B;是关于资源的标准化信息。您可以使用元数据来简化工作流程、组织资源和改进搜索。Dynamic Media Classic支持IPTC（国际出版电信委员会）标准和XMP（可扩展元数据平台）标准。 在用户在详细信息视图中查看或输入有关资源的元数据之前，可以打开“元数据视图”菜单，并选择要查看或用于描述资源的一组元数据字段。
 
-动态媒体经典附带预定义的元数据视图，管理员可以创建自己的元数据视图，供用户在输入元数据时选择。
+Dynamic Media Classic附带预定义的元数据视图，管理员可以创建自己的元数据视图供用户在输入元数据时进行选择。
 
 ### 创建元数据视图 {#creating-a-metadata-view}
 
 1. Click **Setup** &gt; **Application Setup** &gt; **Metadata** &gt; **Metadata Views**.
 1. 单击“**添加**”。
-1. 在预设名称文本字段中，输入视图的名称。
+1. 在“预设名称”文本字段中，输入视图的名称。
 1. (Optional) Check **Make Default** to make this view the one that users see when they open the Metadata panel in Detail View.
 1. (Optional) Select **Include UDF** to include user-defined fields in the view. 用户定义的字段显示在详细信息视图的“元数据”面板的顶部。
 1. Select the fields you want for the view (click **Select All** to select all the fields).
@@ -795,7 +795,7 @@ URL 即复制到剪贴板中。您可以根据需要在网页的 HTML 代码、�
 1. Click **Setup** &gt; **Application Setup** &gt; **Metadata** &gt; **Metadata Presets** .
 1. 在“元数据预设”屏幕中，执行以下任一操作：
 
-   * To create a preset, click **Add**. 在元数据模板名称文本字段中，键入预设的名称，然后单击 **元数据视图** 并从下拉列表中选择一个视图(请参阅 [元数据视图](application-setup.md#metadata_views))。
+   * To create a preset, click **Add**. 在“元数据模板名称”文本字段中，键入预设的名称，然后单击“元数据视图” **，并从下拉列表中选择一个视图(请参** 阅元数据视图 [](application-setup.md#metadata_views))。
    * To edit an existing preset, select the preset from the Metadata Presets list and then click **Edit**.
 
 1. 展开您要在预设中包括的标题，并在您要在预设中包括的不同字段中输入值。
@@ -813,9 +813,9 @@ URL 即复制到剪贴板中。您可以根据需要在网页的 HTML 代码、�
 
 ## 用户定义的字段 {#user-defined-fields}
 
-Media Portal 管理员或公司管理员可以创建自定义的、用户定义的元数据字段。自定义字段可帮助您在Scene Publishing System中组织资产。如有必要，您可以将字段标记为“活动”。激活后，这些自定义元数据字段的名称会显示在详细信息视图中的“元数据”面板中。用户可以在用户定义的元数据字段中输入信息以描述资源。用户也可以使用户定义的元数据字段成为搜索条件。
+Media Portal 管理员或公司管理员可以创建自定义的、用户定义的元数据字段。自定义字段可以帮助您在Scene7 Publishing system中组织资产。 您可以根据需要将字段标记为“活动”。 激活后，这些自定义元数据字段的名称会显示在详细信息视图中的“元数据”面板中。用户可以在用户定义的元数据字段中输入信息以描述资源。用户也可以使用户定义的元数据字段成为搜索条件。
 
-高效使用用户定义的元数据字段的一种方式是为特定启动或销售延迟资源的激活时间。您可以根据 *类型日期定义“激活”字段*。Then, using the **Metadata** panel in **Detail** view or **File** &gt; **Edit Info**, you can specify when the asset is activated. Scene7 Publishing System 会检查资源的发布状态和发布历史记录。如果不在激活时间内，则发布状态将显示为“未发布”。
+高效使用用户定义的元数据字段的一种方式是为特定启动或销售延迟资源的激活时间。您可以根据“日期”类型定义“激活” *字段*。 Then, using the **Metadata** panel in **Detail** view or **File** &gt; **Edit Info**, you can specify when the asset is activated. Scene7 Publishing System 会检查资源的发布状态和发布历史记录。如果它不在激活时间内，则发布状态显示为“未发布”。
 
 >[!NOTE]
 >
@@ -833,29 +833,29 @@ Media Portal 管理员或公司管理员可以创建自定义的、用户定义�
 
    **名称** 输入元数据字段的名称。
 
-   **类型** 选择一个选项，用于定义用户可以在元数据字段中输入的信息类型：
+   **类型** 选择一个选项，它定义用户可在元数据字段中输入的信息类型：
 
-   **字符串** A文本字符串。
+   **字符串** ：文本字符串。
 
-   **整数** 整数。
+   **整数** 。
 
-   **浮动** 浮点数。
+   **浮点** ：浮点数。
 
-   **是/否** A/no布尔值。
+   **是／否** ：是／否布尔值。
 
-   **日期** A日期。接受 MM/DD/YYYY 格式。
+   **日期** A日期。 接受 MM/DD/YYYY 格式。
 
-   **文件名** 文件的名称。
+   **文件名** ：文件的名称。
 
-   **颜色** 颜色的名称。
+   **颜色** ：颜色的名称。
 
    **尺寸** 资产的宽度和高度。
 
-   **未键入** 为向后兼容性。请勿选择此选项。
+   **无类型** ，以实现向后兼容性。 请勿选择此选项。
 
-   **默认值** (可选)输入用户最可能在字段中输入的值。您输入的值会成为您所创建的字段的默认值。
+   **默认值** （可选）输入用户最可能在字段中输入的值。 您输入的值会成为您所创建的字段的默认值。
 
-   **如果您希望元数据字段仅应用于特定类型的资产，则可** 选择选择资产类型。
+   **应用至** （可选）如果希望元数据字段仅应用于特定类型的资产，请选择资产类型。
 
    ***Note**: Choose an **Applies To** option carefully because you cannot change the **Applies To** option after you create a user-defined field. Dynamic Media Classic lets you edit the name, type, and default value of a user-defined field, but not the **Applies To** setting. *
 
@@ -869,11 +869,11 @@ Media Portal 管理员或公司管理员可以创建自定义的、用户定义�
 
 要打开该屏幕，请单击“**设置**”&gt;“**应用程序设置**”&gt;“**元数据**”&gt;“**用户定义的字段**”。
 
-**编辑字段** 选择字段，然后单击 **编辑**。
+**编辑字段** 选择字段，然后单击“编 **辑”**。
 
-**删除字段** 选择字段，然后单击 **删除**。
+**删除字段** 选择字段，然后单击“删 **除”**。
 
-**激活字段** 单击以选择或取消选择字段名称旁边的“活动”选项。如果您具有公司管理角色，则可能不会显示此选项。由于此选项与MediaPortal相关，因此您必须选择(打开)“个人设置”中的MediaPhortal功能才能看到激活字段。
+**激活字段** 单击以选择或取消选择字段名称旁边的活动选项。 如果您具有公司管理角色，则可能不会显示此选项。由于此选项与MediaPortal相关，因此必须在“个人设置”中选择（打开）“显示MediaPortal功能”以查看激活字段。
 
 ## 优化文件 {#optimize-files}
 
@@ -881,7 +881,7 @@ Media Portal 管理员或公司管理员可以创建自定义的、用户定义�
 
 Scene7 Publishing System 会在您的文件中搜索，并且只优化那些之前未完全优化的图像。
 
-1. 选择 **“设置** ”&gt; **“应用程序设置**”，然后选择“优化&#x200B;**文件**”。
+1. 选择“ **设置** ”&gt;“应 **用程序设置**”，然后选择“**优化文件”**。
 1. Enter information for the optimization job and click **Submit**.
 
    如果您在与多家公司协作，请分别优化属于不同公司的文件。
@@ -892,7 +892,7 @@ Scene7 Publishing System 会在您的文件中搜索，并且只优化那些之�
 
 公司管理员首先要分为一组的资源定义命名约定。然后，您可以创建批量集预设来引用这些图像。每个预设都是单独命名的、自成体系的指令集，指令集可定义如何使用与预设方法中定义的命名约定匹配的图像构建集。
 
-“上载作业选项”对话框会列出公司的所有活动批量集预设，以便您指定要在每个上载会话期间应用的预设。公司管理员将看到所有活动和非活动的批量集预设。上传文件时，Dynamic Media经典会自动创建一个与活动预设中定义的命名约定匹配的所有文件。
+“上载作业选项”对话框会列出公司的所有活动批量集预设，以便您指定要在每个上载会话期间应用的预设。公司管理员将看到所有活动和非活动的批量集预设。上传文件时，Dynamic Media Classic会自动创建一个集，其中包含与活动预设中定义的命名约定相匹配的所有文件。
 
 ### 默认命名 {#default-naming}
 
@@ -918,7 +918,7 @@ Scene7 Publishing System 会在您的文件中搜索，并且只优化那些之�
 
 ### 创建批量集预设 {#creating-a-batch-set-preset}
 
-动态媒体经典使用批量集预设来组织共享某些常用信息或内容的资源，以便在查看器中显示。批量集预设方法会自动与您在Dynamic Media经典中计划的资产导入作业一起运行。
+Dynamic Media Classic使用批量集预设将共享一些公共信息或内容的资产组织到一组图像中，以便在查看器中显示。 批集预设方法会自动与您在Dynamic Media Classic中计划的资产导入作业一起运行。
 
 可以使用“批量集预设”创建、编辑和管理批量集预设。您可以创建所需数量的批量集预设以满足所需的所有资源采纳作业的要求。共有两种形式的批量集预设定义：一种用于您可能已设置的默认命名约定，另一种用于您临时创建的自定义命名约定。
 
@@ -940,8 +940,8 @@ Scene7 Publishing System 会在您的文件中搜索，并且只优化那些之�
    * 如果您使用的是之前在“应用程序设置”&gt;“批量集预设”&gt;“默认命名”下设置的默认命名约定，请展开“**资源命名约定**”，然后在“文件命名”下拉列表中，单击“**默认**”。
    * 要在设置预设时定义命名约定，请展开“**资源命名约定**”，然后在“文件命名”下拉列表中，单击“**自定义**”。
 
-1. 对于序列顺序，请定义在Dynamic Media经典中组合集合后图像的顺序。默认情况下，将按字母数字顺序对您的资源排序。不过，可以使用逗号分隔的正则表达式列表来定义顺序。
-1. 对于设置命名和创建约定，为您在“资源命名约定”中定义的基本名称指定后缀或前缀。还定义了图像集在Dynamic Media经典文件夹结构中的创建位置。
+1. 对于“序列”顺序，定义在Dynamic Media Classic中将图像集分组在一起后图像的顺序。 默认情况下，将按字母数字顺序对您的资源排序。不过，可以使用逗号分隔的正则表达式列表来定义顺序。
+1. 对于设置命名和创建约定，为您在“资源命名约定”中定义的基本名称指定后缀或前缀。还可以定义在Dynamic Media Classic文件夹结构中创建图像集的位置。
 
    如果定义大量图像集，您可能要将这些图像集与资源本身所在的文件夹分开。许多客户会创建一个“图像集”文件夹，并让应用程序将批量集生成的集合放在此处。
 
@@ -1014,7 +1014,7 @@ spin-03-12
    >[!NOTE]
    如果行和列正则表达式的组合无法确定资源在多维旋转集数组中的位置，则不会将该资源添加到集中，而会记录错误。
 
-1. 对于设置命名和创建约定，为您在“资源命名约定”中定义的基本名称指定后缀或前缀。还定义了图像集在Dynamic Media经典文件夹结构中的创建位置。
+1. 对于设置命名和创建约定，为您在“资源命名约定”中定义的基本名称指定后缀或前缀。还可以定义在Dynamic Media Classic文件夹结构中创建图像集的位置。
 
    如果定义大量图像集，您可能要将这些图像集与资源本身所在的文件夹分开。许多客户会创建一个“图像集”文件夹，并让应用程序将批量集生成的集合放在此处。
 
