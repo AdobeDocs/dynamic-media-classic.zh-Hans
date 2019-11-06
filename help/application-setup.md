@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
 geptopics: SG_SCENESEEVENTONDEMAND_PK/categories/setup
 discoiquuid: ae2d1895-a437-4463-bfac-3960c8027551
 translation-type: tm+mt
-source-git-commit: 917ba4469b5ef22e62c572f80008e470dccdebe4
+source-git-commit: 8216ac64ba418987c7f5ed84c4cb957189645bd9
 
 ---
 
@@ -457,7 +457,7 @@ Dynamic Media Classic提供自适应视频编码预设。 它是一个将 16:9 �
 
 您可以根据查看器添加社区功能。社区功能包括“嵌入”按钮、“电子邮件”按钮、“链接”按钮和“访问站点”按钮。通过这些按钮，使用查看器的用户可以与他人共享查看器或打开Dynamic Media Classic网站。
 
-另请参阅此处和此处的Adobe查看器参 [考库](/help/assets/vlist/vlist.html)[示例](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)。
+另请参阅 [Adobe查看器参考库示例](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)。
 
 ### 用于响应式设计网页的查看器支持 {#viewer-support-for-responsive-designed-web-pages}
 
@@ -497,7 +497,7 @@ See [Responsive Static Image library](https://marketing.adobe.com.com/resources/
 
 下表标识了当前可用的Dynamic Media Classic Viewer Presets。 该表还指定了查看器与桌面和移动设备的兼容性，以及对每个指定查看器使用的技术。
 
-另请参阅此处和此处的Adobe查看器参 [考库](/help/assets/vlist/vlist.html)[示例](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)。
+另请参阅 [Adobe查看器参考库示例](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)。
 
 有关查看器支持的 Web 浏览器和操作系统版本的信息，您可以查阅查看器发行说明。
 
