@@ -5,7 +5,7 @@ audience: 最终用户
 user-guide-title: Dynamic Media Classic帮助
 index: y
 translation-type: tm+mt
-source-git-commit: e78e6bc34343479b133f475e9c0fae1e1841d465
+source-git-commit: 1c11dd719e5da1d166f43e0ab9b490464c74645f
 
 ---
 
@@ -13,6 +13,7 @@ source-git-commit: e78e6bc34343479b133f475e9c0fae1e1841d465
 # Dynamic Media Classic帮助 {#using}
 
 + [Dynamic Media Classic文档主页](home.md)
++ [2020年上半年推出新的Dynamic Media Classic用户界面](new-ui-2020.md)
 + [Dynamic Media Newsletter by Experience League](dynamic-media-newsletter.md)
 + 介绍Adobe Dynamic Media Classic {#intro}
    + [关于Dynamic Media Classic](introduction.md)
