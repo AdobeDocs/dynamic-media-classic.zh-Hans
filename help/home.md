@@ -5,7 +5,7 @@ description: Dynamic Media Classic技术文档
 seo-description: 'Adobe Dynamic Media Classic（以前称为Scene 7）的技术文档、发行说明和自助资料 '
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
 translation-type: tm+mt
-source-git-commit: 917ba4469b5ef22e62c572f80008e470dccdebe4
+source-git-commit: 1c11dd719e5da1d166f43e0ab9b490464c74645f
 
 ---
 
@@ -14,19 +14,20 @@ source-git-commit: 917ba4469b5ef22e62c572f80008e470dccdebe4
 
 欢迎使用Dynamic Media Classic帮助。 您可以在此访问所有可用资源，以成功了解有关使用Dynamic Media Classic（以前称为Scene7）的更多信息。
 
-## Dynamic Media Classic技术文档
+## 2020年上半年推出新的Dynamic Media Classic用户界面
 
-* [发行说明](https://marketing.adobe.com/resources/help/en_US/s7/release_notes/index.html)
-* [用户指南](introduction.md)
+Dynamic Media Classic用户预计在2020年上半年刷新其用户界面。 该体验将提供一个更新的登录，其中包含指向宝贵资源的链接。 此外，此更新将不再依赖浏览器中的Adobe flash技术。
 
-## Dynamic Media Classic开发人员资源
+请参阅 [常见问题解答](new-ui-2020.md)。
 
-* [Adobe查看器参考指南](https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/index.html)
-* [查看器库示例](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
-* [图像提供和图像呈现 API](https://marketing.adobe.com/resources/help/en_US/s7/is_ir_api/index.html)
+## Dynamic media开发人员资源
 
-## Dynamic Media Classic网络研讨会和教程
+* [Dynamic media开发人员资源登录页](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/landing/home.html) — 包括查看器参考指南、图像服务／图像渲染API、图像生产系统API和Dynamic Media Classic发行说明。
+* [查看器库示例](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html) — 包括视频、可购物媒体、混合媒体、旋转集、内联缩放、图像和样本集以及字幕的查看器示例。
 
+## Dynamic Media Classic新闻快讯、网络研讨会和教程
+
+* [Dynamic Media新闻稿存档](dynamic-media-newsletter.md)
 * [锐化图像的最佳实践](/help/assets/s7_sharpening_images.pdf)
 * [最大化您的资产投资回报](https://adobecustomersuccess.adobeconnect.com/p5ar3hfrrec/?launcher=false&fcsContent=true&pbMode=normal&proto=true) -了解跨站点和移动应用程序交付富媒体的行业最佳实践。 在此网络研讨会中，我们提供了示例和演示，向您展示如何跨设备高效交付视频、在您的营销活动中提供动态创意并通过使任何图像、风格指南或商品手册变为可购物品来提高转化率。
 * [加快内容交付生命周期](https://adobecustomersuccess.adobeconnect.com/p88ducm9pqv/) -此网络研讨会向您介绍并演示Adobe Experience Manager资产——按需，它是用于多媒体管理和交付的下一代平台。 了解如何在创意团队和营销团队之间协作和共享资产，以简化资产审阅流程；有效管理资产元数据的最佳实践，使资产易于查找、使用、重用和共享，以及如何提供交互式跨渠道富媒体体验。
