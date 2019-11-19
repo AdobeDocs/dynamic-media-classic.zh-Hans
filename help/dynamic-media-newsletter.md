@@ -1,12 +1,12 @@
 ---
 description: 'Dynamic Media Newsletter by Experience League是每月新闻快讯。 它旨在帮助您快速掌握Dynamic Media和Dynamic Media Classic，以便您能够立即开始实现价值。 此一站式商店新闻快讯中提供宝贵的知识构建资源，包括如何制作视频、解决方案概述以及介绍一些关键特性和功能，如图像预设、查看器预设、视频配置文件等。 '
-keywords: 动态媒体；新闻稿；产品更新；提示与技巧；事件；客户成功；博客；博客；图片；视频；功能
-seo-description: 此一站式商店新闻快讯中提供了知识构建资源，包括如何制作视频、解决方案概述以及介绍一些主要功能，如图像预设、查看器预设、视频配置文件等。
+keywords: dynamic media;newsletter;product updates;tips and tricks;events;customer success;blog;blogs;images;videos;features;capabilities
+seo-description: 此一站式商店新闻快讯中提供了知识构建资源，包括如何制作视频、解决方案概述，以及介绍一些主要特性和功能，如图像预设、查看器预设、视频配置文件等。
 seo-title: 'Adobe Dynamic Media新闻快讯 '
-solution: 动态媒体
+solution: Dynamic Media
 title: Dynamic Media新闻快讯
 translation-type: tm+mt
-source-git-commit: 656a9ab1b4fd0c99b612dc0e42d03b56ff213191
+source-git-commit: 83cc98c151a040031312fea7b560be9792a941ab
 
 ---
 
@@ -22,6 +22,14 @@ Experience League的每月Dynamic Media Newsletter旨在帮助您快速使用Dyn
 [注册后](https://www.adobe.com/subscription/dynamic-media-newsletter.html) ，即可在收件箱中按月接收Dynamic Media Newsletter。
 
 ## 是否错过了Dynamic Media新闻快讯的一期？
+
+* **[2019年11月，第11期](https://expleague.azureedge.net/assets/dynamic-media/Dynamic_Media_Newsletter_11_2019_Nov.html)**&#x200B;在此期间：
+
+   * 刷新Dynamic Media Classic用户界面。
+   * 强大的新安全功能。
+   * 我们如何准备，让您有一个成功的假期季节。
+   * 与您的同事共享新闻稿以建立团队专长。
+   * 会见Dynamic Media高级产品经理Apoorva Gupta。
 
 * **[2019年10月第10期](https://expleague.azureedge.net/assets/dynamic-media/Dynamic_Media_Newsletter_10_2019_Oct.html)**&#x200B;在此期间：
 
@@ -67,7 +75,7 @@ Experience League的每月Dynamic Media Newsletter旨在帮助您快速使用Dyn
    * 进一步了解即将举办的Adobe内幕浏览。
    * 了解如何保护数字资产免遭盗版。
    * 了解AI驱动的图像智能裁剪。
-   * 认识Alex Thiers,Dynamic media和Dynamic Media Classic中许多出色功能和创新背后的驱动力之一。
+   * 认识Alex Thiers,Dynamic Media和Dynamic Media Classic中众多出色功能和创新背后的驱动力之一。
 
 * **[2019年5月05](https://expleague.azureedge.net/assets/dynamic-media/Dynamic_Media_Newsletter_05_2019_May.html)**&#x200B;期在此期间：
 
