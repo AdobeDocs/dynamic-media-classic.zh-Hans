@@ -1,8 +1,8 @@
 ---
 title: Dynamic Media Classic培训视频
-description: 'null'
+description: Dynamic Media Classic培训视频，包括入门、动态成像、视频、媒体门户、模板以及图像创作和渲染。
 translation-type: tm+mt
-source-git-commit: 19126573aa4fa4d313e30273f0b1af03082565c8
+source-git-commit: 3f450bea8712c304226bea1ef1d2eaa8f4fb112c
 
 ---
 
