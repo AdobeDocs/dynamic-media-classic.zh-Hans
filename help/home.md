@@ -5,7 +5,7 @@ description: Dynamic Media Classic技术文档
 seo-description: 'Adobe Dynamic Media Classic（以前称为Scene 7）的技术文档、发行说明和自助资料 '
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
 translation-type: tm+mt
-source-git-commit: 709a28f3972fe472f7474cc595fbda440170db0f
+source-git-commit: f31df2ce32e3b30556383570a8fb97c24ab45171
 
 ---
 
@@ -40,4 +40,6 @@ Dynamic Media Classic用户预计在2020年上半年刷新其用户界面。 该
 ## Dynamic Media Classic Training
 
 转 [到此处](http://training.adobe.com/training/courses.html#product=adobe-scene7) ，查看当前可用的培训课程。
-[Dynamic Media Classic培训视频](https://marketing.adobe.com/resources/help/en_US/s7/training-videos/)。
+[Dynamic Media Classic培训视频](/help/training-videos.md)。
+
+<!-- old path was (https://marketing.adobe.com/resources/help/en_US/s7/training-videos/) -->
