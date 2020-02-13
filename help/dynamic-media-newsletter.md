@@ -6,7 +6,7 @@ seo-title: 'Adobe Dynamic Media新闻快讯 '
 solution: Dynamic Media
 title: Dynamic Media新闻快讯
 translation-type: tm+mt
-source-git-commit: e68bef4e597e81269d863e37fcd1d1b33c842836
+source-git-commit: 15beb1fbac7e6bf2c7d593806dc84efeea37d620
 
 ---
 
@@ -22,6 +22,15 @@ Experience League的每月Dynamic Media Newsletter旨在帮助您快速使用Dyn
 [注册后](https://www.adobe.com/subscription/dynamic-media-newsletter.html) ，即可在收件箱中按月接收Dynamic Media Newsletter。
 
 ## 是否错过了Dynamic Media新闻快讯的一期？
+
+* **[2020年2月第2期](http://amc-mkt-prod1-t.adobe-campaign.com/rest/head/mirrorPage/@5lYjerUalNCDQd6ABlMufSyP3GqbFDn747uBiom3-3_efxsaEjuw8LNhJxrs89ft1vcsQzjvxTGMo55w-4k0YyBVGiL6m5AWSe9I7H7wIXKT0Efz.html)**在此期间：
+
+   * 参加新的Skill builder网络研讨会，并转变为Dynamic Media Classic专家。
+   * 了解在2020年Adobe峰会上您将在何处找到Dynamic Media。
+   * 了解如何使用Dynamic media的裁剪功能。
+   * 利用免费审核，帮助您从Dynamic Media Classic中获得更多价值。
+   * 了解Dynamic Media Classic的新用户界面。
+   * 会见Adobe Experience cloud客户成功经理Georgia Myers。
 
 * **[2020年1月第1期](http://amc-mkt-prod1-t.adobe-campaign.com/rest/head/mirrorPage/@NpvOA7LHuVbd-W1B5pENdSLNFZ4L4ZeEkA_bVd4reX31KUOs3uaPFEuEx2mWz-3oNkVBcY5fdimoW3RM-SzTt6QXI4l1Rd2mEwrYsWp7C1LnUMVp.html)**在此期间：
 
@@ -83,7 +92,7 @@ Experience League的每月Dynamic Media Newsletter旨在帮助您快速使用Dyn
    * 进一步了解即将举办的Adobe内幕浏览。
    * 了解如何保护数字资产免遭盗版。
    * 了解AI驱动的图像智能裁剪。
-   * 认识Alex Thiers,Dynamic Media和Dynamic Media Classic中众多出色功能和创新背后的驱动力之一。
+   * 认识Alex Thiers,Dynamic media和Dynamic Media Classic中许多出色功能和创新背后的驱动力之一。
 
 * **[2019年5月05](https://expleague.azureedge.net/assets/dynamic-media/Dynamic_Media_Newsletter_05_2019_May.html)**期在此期间：
 
