@@ -1,5 +1,5 @@
 ---
-source-git-commit: 72af899fe787f16d79d878c59e5e193b457cefad
+source-git-commit: 648e8068125cca090a5f31a44c3795755a2b996f
 translation-type: tm+mt
 
 ---
@@ -35,9 +35,9 @@ translation-type: tm+mt
 
 任何需要改进文档的想法均欢迎您作为贡献。 但是，评论、问题和拉取请求仅用于 *稿件* 。 它们不用于回答您有关如何使用Dynamic Media Classic、实施项目或解决技术问题的问题。
 
-对于Dynamic Media Classic的使用或可能出现的技术错误的任何问题，应通过正常的支持流程报告。
+有关Dynamic Media Classic使用情况的任何问题或您可能遇到的技术错误，应通过 [Experience Cloud Enterprise Support门户报告](https://helpx.adobe.com/contact/enterprise-support.ec.html) ，或在 [Experience Cloud社区中讨论](https://forums.adobe.com/community/experience-cloud/marketing-cloud/experience-manager)。
 
-***文档稿件不是Adobe支持的替代品*** ，任何此类稿件将被拒绝，以寻求与支持相关的问题的答案。
+***文档捐助不是Adobe客户关怀的替代品*** ，任何寻求支持相关问题的答案的此类贡献都将被拒绝。
 
 ### 稿件必须明确引用受影响的文档页面。
 
