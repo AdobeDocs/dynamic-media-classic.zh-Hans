@@ -2,13 +2,13 @@
 title: 在 eCatalog 查看器中预览 eCatalog
 seo-title: 在 eCatalog 查看器中预览 eCatalog
 description: 'null'
-seo-description: 了解如何在eCatalog查看器中预览电子目录。
-uuid: fdaf2129-e558-4f27-b30 f-564126b6 b3 f2
+seo-description: 了解如何在eCatalog查看器中预览eCatalog。
+uuid: fdaf2129-e558-4f27-b30f-564126b6b3f2
 contentOwner: admin
-content-type: 引用
-products: SG_ EXPERIENCE MANAGER/Dynamic-Media-Scene-7
-geptopics: SG_ SCENESELEFERENDER_ PK/categories/ecatalloc
-discoiquuid: 92022dce-653-4d93-befe-9dd2818 c7 b41
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
+discoiquuid: 92022dce-6534-4d93-befe-9dd2818c7b41
 translation-type: tm+mt
 source-git-commit: 0f6c8e6ac69e29aab7a48425aab76c10170d9ddf
 
@@ -29,9 +29,9 @@ source-git-commit: 0f6c8e6ac69e29aab7a48425aab76c10170d9ddf
 1. 在左侧的“资源库”面板中，导航至要使用 eCatalog 查看器预览的视频所在的资源文件夹。
 1. 执行以下任一操作：
 
-   * 在“资源”窗口上方，工具栏的右侧，单击“网格视图”。在“资源”窗口中的缩略图图像下，单击“预览”&gt;“查看器列表”。
-   * 在“资源”窗口上方，工具栏的右侧，单击“列表视图”。在“资源”窗口中选择资源，然后在缩略图图像右侧，单击“预览”&gt;“查看器列表”。
-   * 在“资源”窗口上方，工具栏的右侧，单击“详细信息视图”。在同一工具栏上，单击“预览”&gt;“查看器列表”。
+   * 在“资源”窗口上方，工具栏的右侧，单击“网格视图”。在“资源”窗口中的缩略图图像下，单击“预览”>“查看器列表”。
+   * 在“资源”窗口上方，工具栏的右侧，单击“列表视图”。在“资源”窗口中选择资源，然后在缩略图图像右侧，单击“预览”>“查看器列表”。
+   * 在“资源”窗口上方，工具栏的右侧，单击“详细信息视图”。在同一工具栏上，单击“预览”>“查看器列表”。
 
 1. 在“查看器列表”窗口的表中，单击查看器链接以在选定的查看器中预览资源。
 1. 关闭显示的查看器以返回到“查看器列表”屏幕。
