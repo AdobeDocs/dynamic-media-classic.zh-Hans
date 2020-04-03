@@ -3,12 +3,12 @@ title: 准备要上载的图像集资源
 seo-title: 准备要上载的图像集资源
 description: 'null'
 seo-description: 了解如何准备要上传的图像集资产。
-uuid: ea90643f-f52 f-43cd-8a74-ebffc78 ab717
+uuid: ea90643f-f52f-43cd-8a74-ebffc78ab717
 contentOwner: admin
-content-type: 引用
-products: SG_ EXPERIENCE MANAGER/Dynamic-Media-Scene-7
-geptopics: SG_ SCENESELEFERENDER_ PK/categories/image_ set
-discoiquuid: c341f5ea-aa7 b-4749-975d-68a45 c6 fa77 c
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sets
+discoiquuid: c341f5ea-aa7b-4749-975d-68a45c6fa77c
 translation-type: tm+mt
 source-git-commit: a1722c15d3c049f05959d895e85297d47d730872
 
