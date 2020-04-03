@@ -3,12 +3,12 @@ title: 设置旋转集查看器预设
 seo-title: 设置旋转集查看器预设
 description: 'null'
 seo-description: 了解如何设置旋转集查看器预设。
-uuid: e095f989-f3 df-46ea-be62-81292285dc0
+uuid: e095f989-f3df-46ea-be62-812922805dc0
 contentOwner: admin
-content-type: 引用
-products: SG_ EXPERIENCE MANAGER/Dynamic-Media-Scene-7
-geptopics: SG_ SCENEESFERENONDAND_ PK/categories/spin_ set
-discoiquuid: 9dfaa37a-59ab-46e-94c3-c0 ab9 f940023
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/spin_sets
+discoiquuid: 9dfaa37a-59ab-46ae-94c3-c0ab9f940023
 translation-type: tm+mt
 source-git-commit: a1722c15d3c049f05959d895e85297d47d730872
 
@@ -17,11 +17,11 @@ source-git-commit: a1722c15d3c049f05959d895e85297d47d730872
 
 # 设置旋转集查看器预设{#setting-up-spin-set-viewer-presets}
 
-旋转集查看器预设确定您的查看器的样式、行为和外观。动态媒体经典附带默认旋转集查看器预设。如果您是管理员，也可以创建您自己的旋转集查看器预设。您可以使用不同颜色、边界、字体和图像设置来配置旋转集查看器预设。
+旋转集查看器预设确定您的查看器的样式、行为和外观。Dynamic Media Classic附带默认的旋转集查看器预设。 如果您是管理员，也可以创建您自己的旋转集查看器预设。您可以使用不同颜色、边界、字体和图像设置来配置旋转集查看器预设。
 
 请按照以下步骤创建旋转集查看器预设：
 
-1. 单击“**设置**”&gt;“**查看器预设**”。
+1. 单击“**设置**”>“**查看器预设**”。
 1. 执行以下任一操作：
 
    * To create a new preset, click **Add**, then in the Add Viewer Preset dialog box, choose a platform, and click **Spin Set Viewer**.
