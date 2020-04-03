@@ -3,12 +3,12 @@ title: 调整图像
 seo-title: 调整图像
 description: 'null'
 seo-description: 了解如何调整图像
-uuid: c052acd3-e8 c1-4134-ad21-b9 c41578097 f
+uuid: c052acd3-e8c1-4134-ad21-b9c41578097f
 contentOwner: admin
-content-type: 引用
-products: SG_ EXPERIENCE MANAGER/Dynamic-Media-Scene-7
-geptopics: SG_ SCENESELEFERENDER_ PK/categories/master_ files
-discoiquuid: 47a23980-2886-4da3-ab2 d-6cd50 e00 d188
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
+discoiquuid: 47a23980-2886-4da3-ab2d-6cd50e00d188
 translation-type: tm+mt
 source-git-commit: 32f5e03766466ceaafe58780e9e80dbdd4a0c3dd
 
@@ -17,7 +17,7 @@ source-git-commit: 32f5e03766466ceaafe58780e9e80dbdd4a0c3dd
 
 # 调整图像{#adjusting-an-image}
 
-动态媒体经典提供各种命令，用于调整图像的外观。您可以翻转、旋转、模糊处理、更改颜色平衡，以及为图像着色。在使用这些命令进行试验时，您可以在正在处理的图像上看到命令效果。
+Dynamic Media Classic优惠各种命令以调整图像的外观。 您可以翻转、旋转、模糊处理、更改颜色平衡，以及为图像着色。在使用这些命令进行试验时，您可以在正在处理的图像上看到命令效果。
 
 另请参阅[为图像创建别名](adjusting-image.md#creating_an_alias_for_an_image)。
 
@@ -29,7 +29,7 @@ source-git-commit: 32f5e03766466ceaafe58780e9e80dbdd4a0c3dd
    * 使用“旋转”滑块来旋转图像。您可以在“旋转”字段中输入值来旋转图像。正值顺时针旋转图像；负值逆时针旋转图像。
    * 使用“模糊”滑块或其相应的框模糊处理图像。值越高，图像越模糊。
    * 使用“对比度”、“亮度”、“饱和度”、“色相”以及“颜色平衡”选项来调整颜色和亮度。这些效果将累积。例如，对洋红色/绿色设置所做的更改将添加到对色相设置所做的更改。
-   * 使用“彩色化”选项给图像着色，同时保留阴影和高亮。对“彩色化”选项所做的更改也是累积的。选择“亮度”菜单，然后选择“无补偿”来禁用自动亮度补偿。将对比度值设置为 0 保持原始图像的对比度范围，或者指定值大于 0 的对比度范围。值 100 将使对比度最大化。典型值位于30-70范围内。
+   * 使用“彩色化”选项给图像着色，同时保留阴影和高亮。对“彩色化”选项所做的更改也是累积的。选择“亮度”菜单，然后选择“无补偿”来禁用自动亮度补偿。将对比度值设置为 0 保持原始图像的对比度范围，或者指定值大于 0 的对比度范围。值 100 将使对比度最大化。典型值在30-70范围内。
 
 1. 在完成图像调整后，执行以下操作之一：
 
