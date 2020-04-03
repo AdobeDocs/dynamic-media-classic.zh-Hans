@@ -5,10 +5,10 @@ description: 'null'
 seo-description: 了解如何创建模板参数。
 uuid: d17168a8-4776-4761-b022-8258d5997604
 contentOwner: admin
-content-type: 引用
-products: SG_ EXPERIENCE MANAGER/Dynamic-Media-Scene-7
-geptopics: SG_ SCENESELEFERENDER_ PK/categories/template_ basics
-discoiquuid: d263f041-5a0d-4c4f-9266-aeff51 a5 a7 e2
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/template_basics
+discoiquuid: d263f041-5a0d-4c4f-9266-aeff51a5a7e2
 translation-type: tm+mt
 source-git-commit: 75f006fd81b0fe2dad5479cdd98e45eaada46b2a
 
@@ -31,7 +31,7 @@ source-git-commit: 75f006fd81b0fe2dad5479cdd98e45eaada46b2a
 
 1. 在“图层”列表中，选择要创建参数的图层名称旁边的“参数”按钮 。将打开“参数”屏幕。它会列出图层上每个参数的名称、值及类型。
 1. 对于要包括在模板图像中的每个参数，选择其名称旁边的“开”选项。
-1. 选择 **关闭** 以退出参数屏幕。
+1. 选择 **关闭** ，以退出“参数”屏幕。
 
 >[!NOTE]
 >
