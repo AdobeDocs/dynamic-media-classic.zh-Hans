@@ -17,7 +17,7 @@ source-git-commit: a886163176973bdea4c7f0feddefc6c228c3b83c
 
 # Adobe 培训服务{#adobe-training-services}
 
-Dynamic Media Classic以视频教程、教师指导的研讨会和Web会话以及演示的形式提供培训。
+Dynamic Media Classic优惠培训，形式包括视频教程、由讲师指导的研讨会和Web会话以及演示。
 
 **Adobe 培训服务**
 
