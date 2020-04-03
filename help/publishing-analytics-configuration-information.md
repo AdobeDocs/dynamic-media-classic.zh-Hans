@@ -5,10 +5,10 @@ description: 'null'
 seo-description: 了解如何发布Adobe Analytics配置信息。
 uuid: 39b1c2bd-8eb8-43a8-9482-9623115c5374
 contentOwner: admin
-content-type: 引用
-products: SG_ EXPERIENCE MANAGER/Dynamic-Media-Scene-7
-geptopics: SG_ SCENEESFERENONDAND_ PK/categories/adobe_ analytics_ contracting_ kit
-discoiquuid: deeb9 red-ef27-4d58-af98-f381 de33 c431
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/adobe_analytics_instrumentation_kit
+discoiquuid: deeb9fed-ef27-4d58-af98-f381de33c431
 translation-type: tm+mt
 source-git-commit: a1722c15d3c049f05959d895e85297d47d730872
 
@@ -17,7 +17,7 @@ source-git-commit: a1722c15d3c049f05959d895e85297d47d730872
 
 # 发布 Adobe Analytics 配置信息{#publishing-adobe-analytics-configuration-information}
 
-发布Dynamic Media经典查看器，以便将Adobe Analytics报告配置的相关信息发送到Dynamic Media经典服务器。该信息将嵌入查看器中。必须发布才能在Dynamic Media经典服务器上提供查看器中包含的信息。用户在查看器上执行活动后，可以将信息从服务器传送到 Adobe Analytics。
+发布Dynamic Media Classic查看器，以便将有关配置Adobe Analytics报告的信息发送到Dynamic Media Classic服务器。 该信息将嵌入查看器中。发布是必需的，以便查看器中包含的信息在Dynamic Media Classic服务器上可用。 用户在查看器上执行活动后，可以将信息从服务器传送到 Adobe Analytics。
 
 >[!NOTE]
 >
