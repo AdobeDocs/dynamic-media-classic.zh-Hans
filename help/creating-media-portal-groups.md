@@ -3,12 +3,12 @@ title: 创建和管理 Media Portal 组
 seo-title: 创建和管理 Media Portal 组
 description: 'null'
 seo-description: 了解如何创建和管理Media Portal组。
-uuid: 23f360e1-ddcb-491b-ab9 f-428f3 ac9 c316
+uuid: 23f360e1-ddcb-491b-ab9f-428f3ac9c316
 contentOwner: admin
-content-type: 引用
-products: SG_ EXPERIENCE MANAGER/Dynamic-Media-Scene-7
-geptopics: SG_ SCENESELEFERENDER_ PK/categories/media_ Portal
-discoiquuid: 91524d36-b77 a-4dc4-acba-a7 bd85297 e98
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/media_portal
+discoiquuid: 91524d36-b77a-4dc4-acba-a7bd85297e98
 translation-type: tm+mt
 source-git-commit: 75f006fd81b0fe2dad5479cdd98e45eaada46b2a
 
@@ -31,7 +31,7 @@ source-git-commit: 75f006fd81b0fe2dad5479cdd98e45eaada46b2a
 
 ## 添加组 {#adding-a-group}
 
-1. 单击“**设置**”&gt;“**Media Portal 设置**”&gt;“**组**”。
+1. 单击“**设置**”>“**Media Portal 设置**”>“**组**”。
 1. 单击“**添加**”。
 1. 在“添加组”对话框中，在“组名称”框中输入该组的名称，然后单击“**添加组**”。
 1. 根据需要选中用户名称旁的方框，以便将用户添加到新组。
@@ -47,7 +47,7 @@ source-git-commit: 75f006fd81b0fe2dad5479cdd98e45eaada46b2a
 
 ## 建立组的资源访问权限 {#establishing-asset-access-permissions-for-a-group}
 
-1. 单击“**设置**”&gt;“**Media Portal 设置**”&gt;“**组**”。
+1. 单击“**设置**”>“**Media Portal 设置**”>“**组**”。
 1. 在“组列表”页面上，执行下列操作之一：
 
    * 要添加组并指定权限，请单击“**添加**”。在“添加组”对话框中，输入该组的名称，单击“**添加组**”，然后向该组添加用户。
@@ -67,7 +67,7 @@ source-git-commit: 75f006fd81b0fe2dad5479cdd98e45eaada46b2a
    | 重命名文件 |  | X |  |
    | 删除文件 |  |  | X |
 
-1. 单击“**关闭**”。
+1. 单击&#x200B;**关闭**。
 
 >[!NOTE]
 >
@@ -79,7 +79,7 @@ source-git-commit: 75f006fd81b0fe2dad5479cdd98e45eaada46b2a
 
 另请参见[指定 Media Portal 用户可以使用的导出选项](specifying-export-options-available-media.md#specifying_export_options_available_to_media_portal_users)。
 
-1. 单击“**设置**”&gt;“**Media Portal 设置**”&gt;“**组**”。
+1. 单击“**设置**”>“**Media Portal 设置**”>“**组**”。
 1. 在“组列表”页面上，执行下列操作之一：
 
    * 要添加一个组并指定其可以使用的图像预设，请单击“**添加**”。在“添加组”对话框中，输入该组的名称，单击“**添加组**”，然后向该组添加用户。
@@ -91,10 +91,10 @@ source-git-commit: 75f006fd81b0fe2dad5479cdd98e45eaada46b2a
 
 ## 编辑和删除组 {#edit-and-delete-groups}
 
-1. 单击“**设置**”&gt;“**Media Portal 设置**”&gt;“**组**”。
+1. 单击“**设置**”>“**Media Portal 设置**”>“**组**”。
 1. 在“组列表”页面上，选择一个组，然后进行编辑或删除。
 
-   **编辑用户组** 单击编辑，然后在“编辑用户组”对话框中选择选项。
+   **编辑组单击** “编辑”，然后在“编辑组”对话框中选择选项。
 
-   **删除用户组** 单击删除。
+   **删除用户组** ，单击删除。
 
