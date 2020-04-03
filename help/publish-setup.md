@@ -2,12 +2,12 @@
 title: 发布设置
 seo-title: 发布设置
 description: 'null'
-seo-description: 发布设置屏幕设置决定了默认情况下如何将资产从Dynamic Media经典服务器传送到网站或应用程序。
-uuid: 196f25c8-abf5-4c5 d-8f6 f-bc70007 a0301
+seo-description: “发布设置”屏幕设置决定了默认情况下如何将资产从Dynamic Media Classic服务器交付到网站或应用程序。
+uuid: 196f25c8-abf5-4c5d-8f6f-bc70007a0301
 contentOwner: admin
-content-type: 引用
-products: SG_ EXPERIENCE MANAGER/Dynamic-Media-Scene-7
-discoiquuid: cba59093-28b6-4490-b838-d942 b72 ad1 ec
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+discoiquuid: cba59093-28b6-4490-b838-d942b72ad1ec
 translation-type: tm+mt
 source-git-commit: e3c64b90e0af0129571a21b132477c0c86d06405
 
@@ -16,42 +16,42 @@ source-git-commit: e3c64b90e0af0129571a21b132477c0c86d06405
 
 # 发布设置 {#publish-setup}
 
-发布设置屏幕设置决定了默认情况下如何将资产从Dynamic Media经典服务器传送到网站或应用程序。如果未指定任何设置，Dynamic Media经典服务器将根据“发布设置”屏幕上的默认设置提供资产。例如，传送不含分辨率属性的图像的请求会以“图像服务器”屏幕上的“默认对象分辨率”设置生成图像。
+“发布设置”屏幕设置决定了默认情况下如何将资产从Dynamic Media Classic服务器交付到网站或应用程序。 如果未指定任何设置，则Dynamic Media Classic服务器会根据“发布设置”屏幕上的默认设置传送资产。 例如，传送不含分辨率属性的图像的请求会以“图像服务器”屏幕上的“默认对象分辨率”设置生成图像。
 
 管理员可以更改“图像服务器”、“图像渲染器”和“晕影”屏幕上的默认设置，以建立用于从服务器传送资源的默认设置。
 
-要打开“发布设置”屏幕，请单击“设置”&gt;“应用程序设置”&gt;“发布设置”。
+要打开“发布设置”屏幕，请单击“设置”>“应用程序设置”>“发布设置”。
 
 >[!NOTE]
 >
->“发布设置”屏幕可供有经验的网站开发人员和程序员使用。动态媒体经典假定更改这些屏幕设置的用户熟悉Scene Publishing System、HTTP协议标准和惯例以及基本的图像技术。
+>“发布设置”屏幕可供有经验的网站开发人员和程序员使用。Dynamic Media Classic假定更改这些屏幕上的设置的用户熟悉Scene7 Publishing System、HTTP协议标准和惯例以及基本的成像技术。
 
 ## 图像服务器 {#image-server}
 
 “图像服务器”屏幕建立用于从图像服务器传送图像的默认设置。设置分为五个类别（有关设置的详细说明，请参阅“图像服务器”屏幕）。
 
-仅在Dynamic Media经典支持人员的协助下更改这些设置。
+仅在Dynamic Media Classic支持人员的帮助下更改这些设置。
 
-**目录管理** 这些设置决定Scene Publishing System和目录交互的方式。与大多数Web服务器不同，动态媒体图像服务器URL调用将转到清单或目录文件，而不是正确的图像文件。目录文件（不要与 eCatalog 混淆）中包含发布到图像服务器的所有内容的列表，以及每个图像的路径。如果您有 Digimarc ID，请在“Digimarc 用户信息”部分中输入您的用户信息。
+**目录管理** 这些设置决定了Scene7 Publishing System与目录的交互方式。 与大多数Web服务器不同，Dynamic Media Image Server URL调用会转到清单或目录文件，而不是图像文件本身。 目录文件（不要与 eCatalog 混淆）中包含发布到图像服务器的所有内容的列表，以及每个图像的路径。如果您有 Digimarc ID，请在“Digimarc 用户信息”部分中输入您的用户信息。
 
-**请求属性** 这些设置对可从服务器传送的图像施加限制。
+**请求属性** “这些设置”对可从服务器传送的图像施加限制。
 
-**默认请求属性** 这些设置与图像的默认外观相关。
+**默认请求属性** 这些设置与图像的默认外观有关。
 
-**常用缩略图属性** 这些设置与缩略图图象的默认外观和对齐方式相关。
+**常见缩略图属性** ：这些设置与缩略图图像的默认外观和对齐方式有关。
 
-**目录字段默认值** 这些设置与图像的分辨率和默认缩略图类型相关。
+**目录字段的默认值** 这些设置与图像的分辨率和默认缩略图类型有关。
 
-**颜色管理属性** 这些设置确定使用的ICC颜色配置文件。
+**颜色管理属性** 这些设置决定使用哪些ICC颜色用户档案。
 
-**兼容性属性** 此设置允许文本层中的前导和尾部段落像在版本3.6中一样对待，以向后兼容性。
+**兼容性属性** 此设置使文本图层中的前导和尾部段落能够像在版本3.6中那样处理，以实现向后兼容性。
 
-**本地化支持** 这些设置允许您管理多个区域设置属性。它还允许您指定区域设置映射字符串，以便定义查看器中的各种工具提示所需的支持语言。
+**本地化支持** “这些设置”允许您管理多个区域设置属性。 它还允许您指定区域设置映射字符串，以便定义查看器中的各种工具提示所需的支持语言。
 
 例如，如果您的品牌在多个不同国家/地区销售，您可以确保每个国家/地区都有自己特定区域设置的查看器。要实现该功能，请指定区域设置映射字符串。然后，在查看器预设中编辑工具提示文本，添加所需语言的翻译文本字符串。
 
 >[!NOTE]
-> 要设置“本地化支持”选项，请与Adobe Dynamic Media经典技术支持部门联系，或发送电子邮件至s7support@adobe.com请求设置帮助。
+> 要设置本地化支持选项，请与Adobe Dynamic Media Classic技术支持联系或发送电子邮件至s7support@adobe.com请求设置帮助。
 
 有关设置“**本地化支持**”的更多信息，请参阅[设置资源本地化时的注意事项](publish-setup.md#considerations_when_setting_up_localization_of_assets)。
 
@@ -59,9 +59,9 @@ source-git-commit: e3c64b90e0af0129571a21b132477c0c86d06405
 
 >[!NOTE]
 >
->如果要在Scene Publishing System(如“区域设置映射”字段)中设置“本地化支持”选项，请与Adobe Dynamic Media经典技术支持联系。或者，向 s7support@adobe.com 发送电子邮件寻求设置帮助。
+>如果要在Scene7 Publishing System中设置本地化支持选项（如区域设置映射字段），请与Adobe Dynamic Media Classic技术支持联系。 或者，向 s7support@adobe.com 发送电子邮件寻求设置帮助。
 
-Scene7 Publishing System (SPS) 的一种常见用法是管理电子商务网站上的产品图像。国际企业面临如下挑战：类似产品的资源在各个国家/地区之间存在一些差异。通常，这些差异仅出现在整体媒体的极少部分。通过复制每个国家/地区的所有资源，并仅覆盖其中的差异可以处理此类差异，但这项工作非常艰巨，而且可能会使单个主要资源发生冲突。从包含不同音轨的国家/地区特定视频，到产品所用电源线的细微但重要的差异，此类资源差异可能会持续存在。动态媒体经典使用基本的查找机制。您可以从所需的区域设置开始，定义图像服务器查找资源后缀的顺序。
+Scene7 Publishing System (SPS) 的一种常见用法是管理电子商务网站上的产品图像。国际企业面临如下挑战：类似产品的资源在各个国家/地区之间存在一些差异。通常，这些差异仅出现在整体媒体的极少部分。通过复制每个国家/地区的所有资源，并仅覆盖其中的差异可以处理此类差异，但这项工作非常艰巨，而且可能会使单个主要资源发生冲突。从包含不同音轨的国家/地区特定视频，到产品所用电源线的细微但重要的差异，此类资源差异可能会持续存在。Dynamic Media Classic使用基本的查找机制。 您可以从所需的区域设置开始，定义图像服务器查找资源后缀的顺序。
 
 **如何本地化资源**
 
@@ -93,7 +93,7 @@ Some of the benefits of using `locale=` and `attribute::DefaultLocale` include t
 |--- |--- |
 | 查看器本地化 | 在实施静态内容目录后，本地化可完全通过 locale= 参数控制，该参数会附加到对 IS 的所有请求后面。配置记录、外观和启动画面等可以具有区域设置特定的变量，也可以没有。正确内容由 IS 提供，查看器无需知道哪些内容进行了本地化以及其 ID 是什么。 |
 | 图像和视频 | 跨国公司通常同时拥有通用内容和区域设置特定的内容。通过这种机制，对图像或视频的引用可以是泛型引用，并且 IS 会提供区域设置特定的内容（如果可用）。 |
-| 图像集和媒体集 | 某些区域设置的整个图像集可能有所不同—如当eCatalog完全不同时—将从通用到特定于区域设置的图像集的翻译转换为查看器处理的特定于区域设置的图像集。更常见的是，通用的ID中的单个ID可能引用本地化的内容。例如，某设备的大部分照片在所有语言中都是相同的，但控制面板的照片除外。IS 会自动转换 ID，因此无需生成区域设置特定的图像集。 |
+| 图像集和媒体集 | 对于某些区域设置（例如，当eCatalog完全不同时），整个图像集可能不同，查看器将处理从通用图像集转换为特定于区域设置的图像集。更常见的是，通用图像集中的单个ID可能引用本地化内容。 例如，某设备的大部分照片在所有语言中都是相同的，但控制面板的照片除外。IS 会自动转换 ID，因此无需生成区域设置特定的图像集。 |
 
 **实施资源本地化**
 
@@ -107,13 +107,13 @@ With localization, an Image Server URL adds the `locale=` parameter to the path,
 
 `https://server/is/image/company/image?locale=de_DE`
 
-On receipt of the http call by the Image Server, the `locale=` parameter is parsed through the localeMap field found in **Setup** &gt; **Application Setup** &gt; **Publish Setup** &gt; **Image Server** &gt; **Localization Support** group.
+On receipt of the http call by the Image Server, the `locale=` parameter is parsed through the localeMap field found in **Setup** > **Application Setup** > **Publish Setup** > **Image Server** > **Localization Support** group.
 
 “区域设置映射”字段包含一个用管道符号 (|) 分隔的条目列表。
 
 每个条目由一个以逗号分隔的值列表组成。The first value is the search value that is passed by the `locale=` parameter. 其余的值为后缀/替换值，随后将尝试搜索这些值，直到找到现有图像为止。
 
-具体应用后缀值还是应用替换值，取决于“**设置**”&gt;“**应用程序设置**”&gt;“**发布设置**”&gt;“**图像服务器**”&gt;“**本地化支持**”组中的“全局区域设置”。
+具体应用后缀值还是应用替换值，取决于“**设置**”>“**应用程序设置**”>“**发布设置**”>“**图像服务器**”>“**本地化支持**”组中的“全局区域设置”。
 
 >[!NOTE]
 >
@@ -220,13 +220,13 @@ Using the first example as a basis, images for all languages may have the suffix
 
 “图像渲染器”屏幕建立用于从图像渲染服务器传送图像集的默认设置。设置分为五个类别（有关设置的详细说明，请参阅“图像服务器”屏幕）：
 
-**目录管理** 这些设置决定Scene Publishing System和目录文件交互的方式。对目录发出Dynamic Media Classic渲染服务器URL调用，该目录依次调用从服务器传送图像。仅在Dynamic Media经典支持人员的协助下更改这些设置。
+**目录管理** 这些设置决定了Scene7 Publishing System与目录文件的交互方式。 Dynamic Media Classic Render Server URL调用到目录，然后调用目录从服务器传送图像。 仅在Dynamic Media Classic支持人员的帮助下更改这些设置。
 
-**会话属性** 这些设置建立错误参数、相对图像URL的URL以及是否允许对象重叠。
+**会话属性** 这些设置可建立错误参数、相对图像URL的URL以及是否允许对象重叠。
 
-**默认材质属性** 这些设置为图像建立默认分辨率和锐化设置。
+**默认材料属性** 这些设置可建立图像的默认分辨率和锐化设置。
 
-**响应图像属性** 这些设置与图像的默认外观相关。
+**响应图像属性** 这些设置与图像的默认外观有关。
 
 **颜色管理属性** 这些设置与图像的默认颜色设置相关。
 
