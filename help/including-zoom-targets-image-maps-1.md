@@ -3,12 +3,12 @@ title: 包括样本集中的缩放目标和图像映射
 seo-title: 包括样本集中的缩放目标和图像映射
 description: 'null'
 seo-description: 了解如何在样本集中包含缩放目标和图像映射。
-uuid: e46ebbd-b086-450c-9812-22290a92 db8 c
+uuid: e46ebebd-b086-450c-9812-22290a92db8c
 contentOwner: admin
-content-type: 引用
-products: SG_ EXPERIENCE MANAGER/Dynamic-Media-Scene-7
-geptopics: SG_ SCENESELEFERENDER_ PK/categories/swatch_ set
-discoiquuid: f75f6d5b-d689-4640-838f-a32 d77859 f62
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/swatch_sets
+discoiquuid: f75f6d5b-d689-4640-838f-a32d77859f62
 translation-type: tm+mt
 source-git-commit: 0f6c8e6ac69e29aab7a48425aab76c10170d9ddf
 
