@@ -1,25 +1,25 @@
 ---
-title: 在电子目录中管理信息面板内容
-seo-title: 在电子目录中管理信息面板内容
+title: 管理电子目录中的信息面板内容
+seo-title: 管理电子目录中的信息面板内容
 description: 'null'
-seo-description: 了解如何在电子目录中管理信息面板内容。
-uuid: 5aa634f9-0874-4bb5-a3 d9-3ce4 d5577941
+seo-description: 了解如何管理电子目录中的信息面板内容。
+uuid: 5aa634f9-0874-4bb5-a3d9-8ce4d5577941
 contentOwner: admin
-content-type: 引用
-products: SG_ EXPERIENCE MANAGER/Dynamic-Media-Scene-7
-geptopics: SG_ SCENESELEFERENDER_ PK/categories/ecatalloc
-discoiquuid: be277831-77cc-4011-ae30-e75 c18 eec99 b
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
+discoiquuid: be277831-77cc-4011-ae30-e75c18eec99b
 translation-type: tm+mt
 source-git-commit: d5bf894d56687561c93ef08762bc19d3597225e6
 
 ---
 
 
-# 在电子目录中管理信息面板内容{#managing-info-panel-content-in-ecatalogs}
+# 管理电子目录中的信息面板内容{#managing-info-panel-content-in-ecatalogs}
 
 除了在 eCatalog 中将图像映射文本用于变换之外，还可以使用“信息面板”添加大量变换文本（包括链接）。还可以使用定时缓存和计划内容更新来管理信息面板。
 
-您可以使用Dynamic Media经典中的以下功能管理信息面板设置和数据：
+您可以使用Dynamic Media Classic中的以下功能管理InfoPanel设置和数据：
 
 * “信息面板设置”面板可用来指定用于显示“信息面板”文本、默认错误响应以及信息缓存的小时数等信息的模板。此外，可以指定是否自动发布 eCatalog。
 * “信息面板数据输入”面板可用来指定包含要在“信息面板”变换文本中显示的文本的 CSV 文件，以及计划更新信息的时间。
@@ -43,7 +43,7 @@ source-git-commit: d5bf894d56687561c93ef08762bc19d3597225e6
    * 从“响应模板”菜单中选择预设。模板设计的 XML 显示在“用户模板”框中。
    * 选择“自定义”创建自己的响应模板。在“用户模板”框中键入模板 XML 定义。可以将预设模板作为您自己的模板的基础。
 
-1. (可选)在“默认响应”框中，键入在“动态媒体经典”遇到图像映射检索信息时要显示的文本。例如，如果系统收到公司名称和 eCatalog 名称，但是没有变换标识符，则将为用户显示该消息。
+1. （可选）在“默认响应”框中，键入当Dynamic Media Classic在检索图像映射的信息时遇到错误时要显示的文本。 例如，如果系统收到公司名称和 eCatalog 名称，但是没有变换标识符，则将为用户显示该消息。
 1. 在“响应 TTL”框中，输入要在缓存数据之前等待的小时数：
 
    * 如果在一整天内需要频繁更新数据，则设置一个较小的值。
@@ -83,11 +83,11 @@ Last Modified Date:
 
 1. 双击 eCatalog，以在详细信息视图中将其打开。
 1. 单击“信息面板设置”面板将其打开。
-1. **单击“上传S信息内容**”。
+1. **单击“上传S7Info内容”**。
 1. Click **Browse**, select the tab-delimited TXT file, CSV or SSV file you want to use, and click **Open**.
 1. 按一下&#x200B;**上載**。
 
-Dynamic Media经典会向您发送一封电子邮件，告诉您上传是否成功。
+Dynamic Media Classic会向您发送一封电子邮件，告知您上传是否成功。
 
 ## 预览图像映射的变换键文本 {#preview-rollover-key-text-for-an-image-map}
 
@@ -97,5 +97,5 @@ Dynamic Media经典会向您发送一封电子邮件，告诉您上传是否成�
 1. 单击“映射页面”。
 1. 在屏幕右侧表格的顶部，从“显示”菜单中选择“信息面板”。
 
-   变换键文本显示在包含“信息面板”文本的每个图像映射旁。
+   在每个包含“信息面板”文本的“图像映射”旁边，都会出现密钥滚动更新文本。
 
