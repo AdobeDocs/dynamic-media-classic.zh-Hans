@@ -5,9 +5,9 @@ description: 'null'
 seo-description: 了解如何在Dynamic Media Classic中参数化模板
 uuid: 27c8c8b4-47f3-4270-a6db-d304648ba357
 contentOwner: admin
-content-type: 引用
+content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
-geptopics: SG_SCENESEEVENTONDEMAND_PK/categories/template-publishing
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/template-publishing
 discoiquuid: df1a9ff5-a5ba-4480-ba0d-a19bc665f907
 translation-type: tm+mt
 source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
@@ -17,7 +17,7 @@ source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
 
 # 在Dynamic Media Classic中参数化模板{#parameterizing-a-template-in-scene}
 
-在将另存为Dynamic Media Classic FXG的Illustrator模板上传到Scene7 Publishing system后，可以定义其变量元素。 通过在“模板发布构建和预览”屏幕中参数化变量元素执行此操作。Dynamic Media Classic提供了用于定义图层及其相应属性上的文本和对象参数的工具。 您还可以创建模板的不同版本。
+在将另存为Dynamic Media Classic FXG的Illustrator模板上传到Scene7 Publishing System后，可以定义其变量元素。 通过在“模板发布构建和预览”屏幕中参数化变量元素执行此操作。Dynamic Media Classic优惠工具，用于定义图层及其相应属性上的文本和对象参数。 您还可以创建模板的不同版本。
 
 参数化 FXG 模板后，即可在模板中自定义文本、图像和图形的可变性。例如，您可以参数化一行文本，以便最终用户可以通过 Web 用户界面修改该文本。您可以将空文本字段定义为变量，以便最终用户可以在这些字段中填充个性化文本。您还可以在“Dynamic Media Classic模板发布构建”屏幕中参数化设计元素的属性和属性。
 
@@ -34,7 +34,7 @@ source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
 
    随即打开“模板发布”屏幕。
 
-1. 选择LRCo\FXG\Welcome_Summit_10 （FXG文件），然后单击“ **构建** ”&gt;“ **模板发布”**。</p>
+1. 选择LRCo\FXG\Welcome_Summit_10 （FXG文件），然后单击“ **构建** ”>“ **模板发布”**。</p>
 
    ![](assets/wp_fxg_edit.png)
 
@@ -46,7 +46,7 @@ source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
 
 1. 在“属性”面板中，单击“名称”列（用于参数化文本）或“参数”列（用于参数化对象）中的参数。
 
-   * **文本**&#x200B;在文本字段中单击（滚动到“属性”列表的底部以查找它）。 此时会出现“参数”对话框。Select the text that you want to parameterize and click **Add**. 您可以通过选择该文本的不同部分并为每个部分添加参数，从同一文本属性创建多个参数。To change the name of the parameter, click it, enter a new name, and click **Close**.
+   * **文本**&#x200B;在文本字段中单击(滚动到“属性”列表的底部以查找它)。 此时会出现“参数”对话框。Select the text that you want to parameterize and click **Add**. 您可以通过选择该文本的不同部分并为每个部分添加参数，从同一文本属性创建多个参数。To change the name of the parameter, click it, enter a new name, and click **Close**.
 
    * **对象**&#x200B;单击“参数”列中的框。 此时会出现“编辑参数”对话框。Enter a name and click **OK**.
    要使用相同值一次自定义多个属性，请对每个属性使用相同的参数名称。例如，如果您的模板包含一个矩形和一个星形，您可以键入 `newcolor` 作为每项的“纯色”颜色属性的参数名称。每当您更改 `newcolor` 值时，矩形和星形就会变为新的颜色。
