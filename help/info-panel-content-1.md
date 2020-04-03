@@ -1,14 +1,14 @@
 ---
 title: 管理图像集中的信息面板内容
-seo-title: 在图像集中管理信息面板内容
+seo-title: 管理图像集中的信息面板内容
 description: 'null'
-seo-description: 了解如何在图像集中管理信息面板内容。
-uuid: ed7b4344-f180-41fc-a95 a-62a9767 dc056
-contentOwner: rb粗糙
-products: SG_ EXPERIENCE MANAGER/Dynamic-Media-Scene-7
-content-type: 引用
-geptopics: SG_ SCENESELEFERENDER_ PK/categories/image_ set
-discoiquuid: ba5d1fb1-af54-471c-a471-853ace7 f72 fd
+seo-description: 了解如何管理图像集中的信息面板内容。
+uuid: ed7b4344-f180-41fc-a95a-62a9767dc056
+contentOwner: rbrough
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+content-type: reference
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sets
+discoiquuid: ba5d1fb1-af54-471c-a471-853ace7f72fd
 translation-type: tm+mt
 source-git-commit: d5bf894d56687561c93ef08762bc19d3597225e6
 
@@ -25,7 +25,7 @@ source-git-commit: d5bf894d56687561c93ef08762bc19d3597225e6
 * “信息面板数据输入”面板可用来指定包含要在信息面板变换文本中显示的文本的 CSV 文件，以及计划更新信息的时间。
 * “导入元数据”对话框可用来导入包含变换文本信息的制表符分隔 TXT 文件。可以将该 TXT 选项或“信息面板数据输入”面板与“CSV 文件”选项结合，用于变换文本。
 
-## 设置图像集的响应模板 {#set-up-a-response-template-for-image-sets}
+## 为图像集设置响应模板 {#set-up-a-response-template-for-image-sets}
 
 可以选择三个预设响应模板之一用来在“信息面板”中显示文本。这些预设响应模板决定了在“信息面板”中显示信息的方式：列数和行数、字样大小、字体等等。可以选择预设响应模板，或者创建一个自己的模板。
 
@@ -38,7 +38,7 @@ source-git-commit: d5bf894d56687561c93ef08762bc19d3597225e6
    * 选择“默认”以使用默认响应。模板设计的 XML 在“用户模板”文本框中灰显。
    * 选择“自定义”创建自己的响应模板。在“用户模板”文本框中，键入模板 XML 定义。您可以使用已在该文本框定义的默认模板作为您自己的响应的基模板。
 
-1. (可选)在“默认响应”框中，键入在“动态媒体经典”遇到图像映射检索信息时要显示的文本。例如，如果系统收到公司名称和图像集名称，但是没有变换标识符，则将为用户显示该消息。
+1. （可选）在“默认响应”框中，键入当Dynamic Media Classic在检索图像映射的信息时遇到错误时要显示的文本。 例如，如果系统收到公司名称和图像集名称，但是没有变换标识符，则将为用户显示该消息。
 1. 在“响应 TTL”文本字段中，输入要在缓存数据之前等待的小时数。
 
    * 如果在一整天内需要频繁更新数据，则设置一个较小的值。
@@ -61,7 +61,7 @@ source-git-commit: d5bf894d56687561c93ef08762bc19d3597225e6
 * 数据的第一项或列应是变换标识符（与图像映射 URL 的 rollover_key 值关联）。
 * 确保标识符后面的每个制表符分隔或逗号分隔的项目都是要替换到响应模板中的项目（因此第一列取代 $1$，第二列取代 $2$，依此类推）。
 
-### 从外部托管位置将CSV内容导入图像集 {#import-csv-content-into-image-sets-from-an-externally-hosted-location}
+### 将CSV内容从外部托管位置导入图像集 {#import-csv-content-into-image-sets-from-an-externally-hosted-location}
 
 1. 双击图像集以在详细信息视图中将其打开。
 1. Click **InfoPanel Datafeed** to unfold the panel.
