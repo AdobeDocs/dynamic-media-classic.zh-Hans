@@ -3,11 +3,11 @@ title: 创建样本集
 seo-title: 创建样本集
 description: 'null'
 seo-description: 了解如何创建样本集。
-uuid: 250b3525-310d-4481-b0 bc-f9057 e823 e0 b
+uuid: 250b3525-310d-4481-b0bc-f9057e823e0b
 contentOwner: admin
-content-type: 引用
-products: SG_ EXPERIENCE MANAGER/Dynamic-Media-Scene-7
-geptopics: SG_ SCENESELEFERENDER_ PK/categories/swatch_ set
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/swatch_sets
 discoiquuid: 631d2b2d-9e69-4b96-8392-17e00a1a8de0
 translation-type: tm+mt
 source-git-commit: 75f006fd81b0fe2dad5479cdd98e45eaada46b2a
@@ -23,11 +23,8 @@ source-git-commit: 75f006fd81b0fe2dad5479cdd98e45eaada46b2a
 
 ## 创建样本集 {#create}
 
-当您创建一个设置时， **保存** 后的“发布”选项会影响设置，并按以下方式设置成员：
-||保存前选择“保存后发布”选项？|状态保存后设置|保存后设置的成员状态||
-||—||—||—||
-|是|发布|发布||
-|否|未发布|设置成员保留已发布或未发布状态。|
+创建集时，“保存后发 **布** ”选项会通过以下方式影响集和集成员：
+|“保存后发布”选项在保存前是否被选中？|保存后设置的状态|保存后设置成员的状态||—|—|—||是|已发布|已发布||否|未发布|集成员将保留其已发布或未发布的状态。|
 
 另请参阅[手动发布资源](publishing-files.md#manually_publishing_assets)和[手动取消发布资源](publishing-files.md#manually_unpublishing_assets)。
 
@@ -35,9 +32,9 @@ source-git-commit: 75f006fd81b0fe2dad5479cdd98e45eaada46b2a
 
 1. 执行以下操作之一：
 
-   **在浏览面板** 中先选择图像，选择图像，然后单击“构建”&gt;“样本集”。
+   **首先选择图像** 。在浏览面板中，选择图像，然后单击“构建”>“样本集”。
 
-   **从色板集屏幕** 中单击“构建”&gt;“样本集”。从资源库中选择一个文件夹，然后将图像拖到“样本集”页面的“视图”部分中。
+   **开始从“样本集”屏幕中** ，单击“构建”>“样本集”。 从资源库中选择一个文件夹，然后将图像拖到“样本集”页面的“视图”部分中。
 
 1. 将样本颜色、模式或光泽度拖到“样本集”页面上的样本占位符框中。
 
@@ -55,7 +52,7 @@ source-git-commit: 75f006fd81b0fe2dad5479cdd98e45eaada46b2a
 | 是否已发布集？ | 是否在保存编辑内容之前选择了“保存后发布”选项？ | 保存后的集状态 | 保存后的集成员状态 |
 |--- |--- |--- |--- |
 | 是 | 是 | 已发布 | 已发布 |
-| 是 | 否 | 已发布 | 现有的设置成员将保留其发布状态。您在编辑期间添加的任何新设置成员将保留其已发布或未发布状态。 |
+| 是 | 否 | 已发布 | 现有集成员将保留其已发布状态。您在编辑过程中添加的任何新集成员将保留其已发布或未发布状态。 |
 | 否 | 是 | 已发布 | 已发布 |
 | 否 | 否 | 未发布 | 现有的集成员以及在编辑期间添加的任何新的集成员保持其已发布或未发布状态。 |
 
@@ -82,5 +79,5 @@ source-git-commit: 75f006fd81b0fe2dad5479cdd98e45eaada46b2a
 **删除样本集**
 
 1. 在网格视图、列表视图或详细信息视图中，选择一个或多个样本集。
-1. 在全局导航栏上，单击“**文件**”&gt;“**删除**”&gt;“**删除**”。
+1. 在全局导航栏上，单击“**文件**”>“**删除**”>“**删除**”。
 
