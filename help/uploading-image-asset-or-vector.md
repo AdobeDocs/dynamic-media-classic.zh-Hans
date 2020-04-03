@@ -5,7 +5,7 @@ description: 'null'
 seo-description: 了解如何上传图像资产或矢量资产。
 uuid: d0e4a754-8a49-4b0f-b202-e9003bdb8f20
 contentOwner: admin
-content-type: 引用
+content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
 discoiquuid: de21dca9-99fe-4183-b647-debfe112fda4
 translation-type: tm+mt
@@ -122,7 +122,7 @@ The `file_limit` parameter specifies the file-size limit in bytes. `file_exts` �
 * 上载令牌.
 * 文件大小限制.
 * 文件扩展名的列表.
-* 是否保留与资产关联的颜色配置文件和文件名。
+* 是否保留与资产关联的颜色用户档案和文件名。
 * 是否使用挖空背景。 如果启用“挖空背景”，则设置“角”(Corner)、“容差”(Tolerance)和“填充方法”(Fill Method)。 请参阅上传时“图像编 [辑”选项中的挖空背景](image-editing-options-upload.md#image-editing-options-at-upload)。
 * 待上载文件的名称
 
@@ -138,13 +138,13 @@ Last Modified Date:
 
 ![]()
 
-单击以下链接可以查看与上述表单关联的HTML源代码：
+您可以通过单击以下链接视图与上述表单关联的HTML源代码：
 
 [https://s7ugc1.scene7.com/ugc/upload.html](https://s7ugc1.scene7.com/ugc/upload.html)
 
-在Firefox中，右键单击浏览器窗口，然后单击“查看页 **面源”**。 该代码将显示当用户单击“**提交**”时运行的相应 URL 查询字符串和 POST 方法。
+在Firefox中，右键单击浏览器窗口，然后单击“ **视图页面源”**。 该代码将显示当用户单击“**提交**”时运行的相应 URL 查询字符串和 POST 方法。
 
-要在 Internet Explorer 中查看 XML 响应，请单击“**查看”&gt;“源文件**”。To view XML response in Firefox, click **Tools &gt; Web Developer &gt; Page Source**. 建议使用 Firefox 查看 XML 响应。
+要在 Internet Explorer 中查看 XML 响应，请单击“**查看”>“源文件**”。To view XML response in Firefox, click **Tools > Web Developer > Page Source**. 建议使用 Firefox 查看 XML 响应。
 
 下面是成功上载的示例响应：
 
@@ -285,7 +285,7 @@ The `file_limit` parameter specifies the file-size limit in bytes. `file_exts` �
 * 上载令牌.
 * 文件大小限制.
 * 文件扩展名的列表.
-* 是否保留与资产关联的颜色配置文件和文件名。
+* 是否保留与资产关联的颜色用户档案和文件名。
 * 是否使用挖空背景。 如果启用“挖空背景”，则设置“角”(Corner)、“容差”(Tolerance)和“填充方法”(Fill Method)。 请参阅上传时“图像编 [辑”选项中的挖空背景](image-editing-options-upload.md#image-editing-options-at-upload)。
 * 待上载文件的名称
 
@@ -335,7 +335,7 @@ return true;
 </body>
 ```
 
-要在 Internet Explorer 中查看 XML 响应，请单击“**查看**”&gt;“**源文件**”。要在 Firefox 中查看 XML 响应，请单击“**查看**”&gt;“**页面源代码**”。建议使用 Firefox 查看 XML 响应。
+要在 Internet Explorer 中查看 XML 响应，请单击“**查看**”>“**源文件**”。要在 Firefox 中查看 XML 响应，请单击“**查看**”>“**页面源代码**”。建议使用 Firefox 查看 XML 响应。
 
 下面是成功上载的示例响应：
 
