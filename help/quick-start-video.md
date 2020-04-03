@@ -2,12 +2,12 @@
 title: '"快速入门：视频"'
 seo-title: '"快速入门：视频"'
 description: 'null'
-seo-description: 帮助您快速入门和运行的简介和视频快速入门。
+seo-description: 视频简介和快速开始，可帮助您快速入门和运行。
 uuid: bf0ecf87-a1f2-4e83-8041-df5192dd26a1
 contentOwner: admin
-content-type: 引用
+content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
-geptopics: SG_SCENESEEVENTONDEMAND_PK/categories/video
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/video
 discoiquuid: 6cef541b-e9df-48eb-9a16-ca3e1f07238e
 translation-type: tm+mt
 source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
@@ -17,7 +17,7 @@ source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
 
 # 快速入门：视频{#quick-start-video}
 
-Adobe Dynamic Media Classic video是一款端到端解决方案，可轻松发布高质量自适应视频，以跨多个屏幕（包括桌面、iOS、Android、Blackberry和Windows移动设备）进行流化。 自适应视频集可将同一视频以不同比特率和格式（如 400 kbps、800 kbps 和 1000 kbps）编码的不同版本分组在一起。台式计算机或移动设备可检测可用带宽。
+Adobe Dynamic Media Classic Video是一款端到端解决方案，可轻松发布高质量自适应视频，以跨多个屏幕（包括桌面、iOS、Android、Blackberry和Windows移动设备）进行流化。 自适应视频集可将同一视频以不同比特率和格式（如 400 kbps、800 kbps 和 1000 kbps）编码的不同版本分组在一起。台式计算机或移动设备可检测可用带宽。
 
 例如，在 iOS 移动设备上，可检测 3G、4G 或 Wi-Fi 等带宽。然后，从自适应视频集内的不同视频比特率中自动选择正确的编码视频。视频将流式传输到台式机、移动设备或平板电脑。
 
@@ -60,7 +60,7 @@ Adobe Dynamic Media Classic video是一款端到端解决方案，可轻松发�
 
    您可以在以下网站找到支持该视频格式的 Windows 设备：
 
-   请参 [阅Windows phone上支持的视频格式](https://msdn.microsoft.com/en-us/library/ff462087(v=vs.92).aspx)。
+   请参 [阅Windows Phone上支持的视频格式](https://msdn.microsoft.com/en-us/library/ff462087(v=vs.92).aspx)。
 
 * 使用Dynamic Media Classic查看器预设播放视频，包括：
 
@@ -70,7 +70,7 @@ Adobe Dynamic Media Classic video是一款端到端解决方案，可轻松发�
 * 配置视频播放器来满足您的品牌需求。
 * 通过简单的 URL 或嵌入代码将视频集成到您的网站、移动站点或移动应用程序中。
 
-**快速入门**
+**快速开始**
 
 以下工作流分步说明旨在帮助您在Dynamic Media Classic中快速设置和运行自适应视频集。 每个步骤的后面都有一个交叉引用，可以跳转到相应的主题标题，供您了解更多信息。
 
@@ -78,8 +78,8 @@ Adobe Dynamic Media Classic video是一款端到端解决方案，可轻松发�
 
 可以使用以下两种方案之一上载并生成自适应视频集：
 
-* **上传预编码视频**&#x200B;如果您的视频已在Dynamic Media Classic外部进行编码，请单击全局导航栏上的“上传 **** ”，以浏览MP4视频文件并将其直接上传到Scene7 Publishing System。 然后，单击“**构建”&gt;“自适应视频集**”。浏览至您的视频文件。将需要的视频文件拖放到“自适应视频集”表中，然后保存此视频集。
-* **上传主视频**&#x200B;如果您的视频未进行编码，请单击全局导航栏上的“上传 **** ”以上传主视频源文件（非MP4），并让Scene7 Publishing system为您的视频将其编码为MP4文件。 在“上载作业选项”对话框中，在“eVideo 选项”下面选择“**自适应视频**。
+* **上传预编码视频**&#x200B;如果您的视频已在Dynamic Media Classic外部进行编码，请单击全局导航栏上的“上传 **** ”，以浏览MP4视频文件并将其直接上传到Scene7 Publishing System。 然后，单击“**构建”>“自适应视频集**”。浏览至您的视频文件。将需要的视频文件拖放到“自适应视频集”表中，然后保存此视频集。
+* **上传主视频**&#x200B;如果您的视频未进行编码，请单击全局导航栏上的“上传 **** ”以上传主视频源文件（非MP4），并让Scene7 Publishing System为您的视频将其编码为MP4文件。 在“上载作业选项”对话框中，在“eVideo 选项”下面选择“**自适应视频**。
 
    通过使用此首选的选项，可以创建一个自适应视频集以自动将正确编码预设应用于视频（不论是 16:9 还是 4:3），以便与您上载的视频尺寸相匹配。提交上载作业时，系统会自动为您创建一个自适应视频集，其中包含三个具有正确高宽比的视频编码。
 
@@ -91,9 +91,9 @@ Adobe Dynamic Media Classic video是一款端到端解决方案，可轻松发�
 
 **可选**
 
-Dynamic Media Classic提供大量预定义的视频编码预设。 这些预定义的预设反映了目前使用的最常见编码设置，并针对在目标屏幕上播放进行了优化。
+Dynamic Media Classic优惠了大量预定义的视频编码预设。 这些预定义的预设反映了目前使用的最常见编码设置，并针对在目标屏幕上播放进行了优化。
 
-不过，如果需要进一步自定义，管理员可以创建视频预设，以便为最终用户自定义视频大小和播放体验。管理员可以从“设置”&gt;“应用程序设置”&gt;“视频预设”&gt;“单个编码预设”下面的“视频预设”页中添加和管理视频预设。“视频预设”页提供用于添加、编辑、删除和激活视频预设的选项。
+不过，如果需要进一步自定义，管理员可以创建视频预设，以便为最终用户自定义视频大小和播放体验。管理员可以从“设置”>“应用程序设置”>“视频预设”>“单个编码预设”下面的“视频预设”页中添加和管理视频预设。“视频预设”页提供用于添加、编辑、删除和激活视频预设的选项。
 
 请参阅[使用视频编码预设](uploading-encoding-videos.md#working_with_video_encoding_presets)。
 
@@ -107,7 +107,7 @@ Dynamic Media Classic提供大量预定义的视频编码预设。 这些预定�
 
 **可选**
 
-查看器预设自定义- Dynamic Media Classic提供预定义的查看器预设以传送视频。 这些预设决定了查看器的外观及其播放控件的工作方式。要自定义视频查看器，管理员可以从“视频预设”页中添加和管理视频预设。要打开该页，请在 Scene7 Publishing System 的右上角，单击“设置”&gt;“查看器预设”。“查看器预设”页提供用于添加、编辑、删除和激活查看器预设的命令。
+查看器预设自定义- Dynamic Media Classic优惠预定义的用于传送视频的查看器预设。 这些预设决定了查看器的外观及其播放控件的工作方式。要自定义视频查看器，管理员可以从“视频预设”页中添加和管理视频预设。要打开该页，请在 Scene7 Publishing System 的右上角，单击“设置”>“查看器预设”。“查看器预设”页提供用于添加、编辑、删除和激活查看器预设的命令。
 
 请参阅[使用视频查看器预设](previewing-videos-video-viewer.md#working_with_video_viewer_presets)。
 
@@ -127,7 +127,7 @@ Dynamic Media Classic提供大量预定义的视频编码预设。 这些预定�
 
 * 显示网页中嵌入的视频，此时，应使用嵌入代码功能。
 
-   要获取视频的嵌入代码，请在网格视图或列表视图的浏览面板中选择该视频。单击“预览”&gt;“查看器列表”。在表的“操作”列下面，单击 `Universal_HTML5_Video` 右侧的“嵌入代码”。不允许编辑代码。
+   要获取视频的嵌入代码，请在网格视图或列表视图的浏览面板中选择该视频。单击“预览”>“查看器列表”。在表的“操作”列下面，单击 `Universal_HTML5_Video` 右侧的“嵌入代码”。不允许编辑代码。
 
    单击“关闭”，然后将嵌入代码粘贴在网页中。
 
