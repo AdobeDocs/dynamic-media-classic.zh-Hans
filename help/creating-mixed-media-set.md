@@ -3,11 +3,11 @@ title: 创建混合媒体集
 seo-title: 创建混合媒体集
 description: 'null'
 seo-description: 了解如何创建混合媒体集。
-uuid: a0c6e5fa-7a85-4376-b9 a3-b72 ae63 d3 d95
+uuid: a0c6e5fa-7a85-4376-b9a3-b72ae63d3d95
 contentOwner: admin
-content-type: 引用
-products: SG_ EXPERIENCE MANAGER/Dynamic-Media-Scene-7
-discoiquuid: ff9e763-897c-4ba5-b606-a95 d5 e45 f35 e
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+discoiquuid: 0ff9e763-897c-4ba5-b606-a95d5e45f35e
 translation-type: tm+mt
 source-git-commit: 2f99190eb0c346b87402e69c4067e94365042339
 
@@ -33,7 +33,7 @@ source-git-commit: 2f99190eb0c346b87402e69c4067e94365042339
 
 **创建混合媒体集**
 
-1. 单击“**构建**”&gt;“**混合媒体集**。
+1. 单击“**构建**”>“**混合媒体集**。
 1. 将视频、图像集、旋转集以及样本从“资源库”拖动到“混合媒体集”屏幕。
 
    >[!NOTE]
@@ -60,7 +60,7 @@ source-git-commit: 2f99190eb0c346b87402e69c4067e94365042339
 | 是否已发布集？ | 是否在保存编辑内容之前选择了“保存后发布”选项？ | 保存后的集状态 | 保存后的集成员状态 |
 |--- |--- |--- |--- |
 | 是 | 是 | 已发布 | 已发布 |
-| 是 | 否 | 已发布 | 现有的设置成员将保留其发布状态。您在编辑期间添加的任何新设置成员将保留其已发布或未发布状态。 |
+| 是 | 否 | 已发布 | 现有集成员将保留其已发布状态。您在编辑过程中添加的任何新集成员将保留其已发布或未发布状态。 |
 | 否 | 是 | 已发布 | 已发布 |
 | 否 | 否 | 未发布 | 现有的集成员以及在编辑期间添加的任何新的集成员保持其已发布或未发布状态。 |
 
@@ -86,5 +86,5 @@ source-git-commit: 2f99190eb0c346b87402e69c4067e94365042339
 **删除混合媒体集**
 
 1. 在网格视图、列表视图或详细信息视图中，选择一个或多个混合媒体集。
-1. 在全局导航栏上，单击“**文件**”&gt;“**删除**”&gt;“**删除**”。
+1. 在全局导航栏上，单击“**文件**”>“**删除**”>“**删除**”。
 
