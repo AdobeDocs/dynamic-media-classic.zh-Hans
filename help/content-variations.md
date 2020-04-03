@@ -2,13 +2,13 @@
 title: 管理内容变体
 seo-title: 管理内容变体
 description: 'null'
-seo-description: 了解如何管理内容变化。
+seo-description: 了解如何管理内容变体。
 uuid: 1e40a526-02f8-41d9-886f-6d094546bc13
 contentOwner: admin
-content-type: 引用
-products: SG_ EXPERIENCE MANAGER/Dynamic-Media-Scene-7
-geptopics: SG_ SCENESELEFERENDER_ PK/categories/template_ basics
-discoiquuid: aa129b0e-fc73-4fc2-a894-4560b3 f46 c4 f
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/template_basics
+discoiquuid: aa129b0e-fc73-4fc2-a894-4560b3f46c4f
 translation-type: tm+mt
 source-git-commit: 75f006fd81b0fe2dad5479cdd98e45eaada46b2a
 
@@ -25,7 +25,7 @@ source-git-commit: 75f006fd81b0fe2dad5479cdd98e45eaada46b2a
 
 您可以使用列表中的任意图像预设 URL。图像预设 URL 与通用 URL 相似。可以使用多个图像预设 URL。
 
-1. 单击“构建”&gt;“模板集”。
+1. 单击“构建”>“模板集”。
 
    此时将打开生成器。
 
