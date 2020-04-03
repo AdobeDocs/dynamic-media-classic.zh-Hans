@@ -5,9 +5,9 @@ description: 'null'
 seo-description: 了解如何使用“设置”屏幕输入您的个人设置。 如果您是管理员，可设置您公司的设置。
 uuid: 38f487d7-33f2-4a9e-a32e-bb08f3dd3284
 contentOwner: admin
-content-type: 引用
+content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
-geptopics: SG_SCENESEVENTONDEMAND_PK/categories/getting_started
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/getting_started
 discoiquuid: 753677ad-9957-43d9-97ad-bd73a5da5ccb
 translation-type: tm+mt
 source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
