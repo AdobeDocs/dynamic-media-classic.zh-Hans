@@ -3,12 +3,12 @@ title: 自动生成图像集
 seo-title: 自动生成图像集
 description: 'null'
 seo-description: '了解如何自动生成图像集。 '
-uuid: bd4b3252-3e77-4230-9684-cd6 d28 b8 ebank
+uuid: bd4b3252-3e77-4230-9684-cd6d28b8eecb
 contentOwner: admin
-content-type: 引用
-products: SG_ EXPERIENCE MANAGER/Dynamic-Media-Scene-7
-geptopics: SG_ SCENESELEFERENDER_ PK/categories/image_ set
-discoiquuid: a9b525e-6120-44c7-b11 a-e56 bfb7 cd017
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sets
+discoiquuid: 1a9b525e-6120-44c7-b11a-e56bfb7cd017
 translation-type: tm+mt
 source-git-commit: 75f006fd81b0fe2dad5479cdd98e45eaada46b2a
 
@@ -31,7 +31,7 @@ Last Modified Date:
 
 **自动生成图像集**
 
-1. 单击“**文件**”&gt;“**生成集**”。
+1. 单击“**文件**”>“**生成集**”。
 1. 在“生成集”对话框中，指定作业名称。
 
    默认情况下，为作业指定的名称指示这是一个生成的作业以及作业的生成时间。
