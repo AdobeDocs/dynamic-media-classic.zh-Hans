@@ -5,9 +5,9 @@ description: 'null'
 seo-description: Dynamic Media Classic平台和工作流程的概述。
 uuid: e7d3bfb3-1cfe-43ea-b862-aae3b3928c71
 contentOwner: admin
-content-type: 引用
+content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
-geptopics: SG_SCENESEVENTONDEMAND_PK/categories/getting_started
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/getting_started
 discoiquuid: 2b134cfa-7f46-4f5f-959e-b30aae610bb9
 translation-type: tm+mt
 source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
@@ -27,9 +27,9 @@ Dynamic Media Classic是一个集成的富媒体管理、发布和服务环境�
 
 * **创建富媒体**&#x200B;创建资产的不同配置，如eCatalog、图像集、旋转集、样本集、混合媒体集、基本模板和FXG模板。 有关更多信息，请参阅关于富媒体。
 
-* **发布和管理**&#x200B;将资产发布到Dynamic Media Classic saa网络，以及监视资产发布时的状态，管理用户权限并维护安全。
+* **发布和管理**&#x200B;将资产发布到Dynamic Media Classic Saa网络，以及监视资产发布时的状态，管理用户权限并维护安全。
 
-* **服务**-将媒体从Dynamic Media Classic saaS网络交付到网页、应用程序和移动设备；媒体经过性能优化，并通过CDN缓存提供。 Dynamic Media Classic为您提供每个资产的URL。 在您发布资源之后，URL 即处于活动状态。
+* **服务**-将媒体从Dynamic Media Classic SaaS网络交付到网页、应用程序和移动设备；媒体经过性能优化，并通过CDN缓存提供。 Dynamic Media Classic为您提供每个资产的URL。 在您发布资源之后，URL 即处于活动状态。
 
 ![Dynamic Media Classic工作流程](/help/assets/gs_workflow.png)
 
