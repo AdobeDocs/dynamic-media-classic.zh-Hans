@@ -26,7 +26,7 @@ Dynamic Media Classic包含100多个图像服务命令，用于调整和优化�
 ## 图像格式的最佳做法 (&amp;fmt=) {#best-practices-for-image-format-fmt}
 
 * 在提供具有较好质量和可控制大小和粗细的图像方面，JPG 或 PNG 是最佳选择。
-* 如果URL中未提供格式命令，则Dynamic Media图像服务默认为JPG以进行传送。
+* 如果URL中未提供格式命令，则Dynamic Media图像服务默认为JPG以进行投放。
 * JPG 压缩比率为 10:1，通常生成较小的图像文件。PNG 压缩比率为 2:1，但在某些情况下除外，例如，图像包含白色背景。通常，PNG 文件比 JPG 文件大。
 * JPG 使用有损压缩，这意味着在压缩过程中删除了一些图像元素（像素）；而 PNG 使用无损压缩。
 * 通常，JPG 压缩摄影图像的保真度比具有清晰边缘和对比度的合成图像好。
@@ -39,7 +39,7 @@ As a best practice for image format, start with the most common setting `&fmt=JP
 动态缩小图像大小是Dynamic Media图像服务执行的最常见任务之一。 这包括指定大小，以及指定用于减小图像的缩减像素采样模式（可选）。
 
 * For image sizing, the best and most straightforward approach is to use `&wid=<value>` and `&hei=<value>` or just `&hei=<value>`. 这些参数自动根据高宽比设置图像宽度。
-* `&resMode=<value>` 控制用于缩减采样的算法。 从开始 `&resMode=sharp2`。 该值提供了最佳的图像质量。While using the downsampling value `=bilin` is faster, it often results in the aliasing of artifacts.
+* `&resMode=<value>` 控制用于缩减采样的算法。 开始 `&resMode=sharp2`。 该值提供了最佳的图像质量。While using the downsampling value `=bilin` is faster, it often results in the aliasing of artifacts.
 
 作为调整图像大小的最佳实践，请使用 `&wid=<value>&hei=<value>&resMode=sharp2` 或 `&hei=<value>&resMode=sharp2`
 
@@ -51,7 +51,7 @@ Best practices white paper [Sharpening images in Adobe Scene7 Publishing System 
 
 另请参阅 [使用USM锐化锐化图像](https://helpx.adobe.com/photoshop/atv/cs6-tutorials/sharpening-an-image-with-unsharp-mask.html)。
 
-借助Dynamic Media Classic，您可以在摄取、传送或同时在两者中锐化图像。 大多数情况下，只应使用一种方法锐化图像，而不能同时使用两种方法。传送时在 URL 上锐化图像通常可以获得最佳的效果。
+借助Dynamic Media Classic，您可以在摄取时、在投放时或在两者中锐化图像。 大多数情况下，只应使用一种方法锐化图像，而不能同时使用两种方法。传送时在 URL 上锐化图像通常可以获得最佳的效果。
 
 可以使用以下两种图像锐化方法：
 
@@ -67,7 +67,7 @@ Best practices white paper [Sharpening images in Adobe Scene7 Publishing System 
 
       * `threshold` （0-255，效果敏感度。）
 
-         此参数确定锐化的像素与周围区域相差多少，滤镜才会将它们视为边缘像素并进行锐化。阈值有助于避免出现具有类似颜色的过度锐化区域，如肤色。例如，阈值 12 忽略肤色亮度的细微变化以避免产生杂色，但仍会在对比强烈的区域中添加边缘对比度，例如，睫毛与皮肤交接的位置。
+         此参数确定锐化的像素与周围区域必须有多大的不同，才会被视为边缘像素，而滤镜会锐化这些像素。 阈值有助于避免出现具有类似颜色的过度锐化区域，如肤色。例如，阈值为12时，会忽略肤色亮度的细微变化，以避免添加“杂色”，同时仍会为高对比度区域添加边缘对比度，如睫毛与皮肤相遇的地方。
       有关如何设置三个参数的详细信息（包括使用滤镜的最佳做法），请参阅以下资源：
 
       Dynamic Media Classic帮助主题：锐 [化图像](https://help.adobe.com/en_US/scene7/using/WS389B162D-2981-41e5-9253-15D22D2ECBC8.html)。
@@ -124,7 +124,7 @@ As a best practice, set `&jpegSize=` and add the parameter `&qlt=` if you are de
 
 在进行试验时，您还可能会发现以下常规建议对优化工作流程非常有用：
 
-* 直接在Dynamic Media Classic URL上或使用Scene7 Publishing system的图像调整功能实时尝试和测试不同的参数，该功能为调整操作提供实时预览。
+* 直接在Dynamic Media Classic URL上或使用Scene7 Publishing System的图像调整功能实时尝试和测试不同的参数，该功能为调整操作提供实时预览。
 * 作为最佳实践，请记住，您可以将Dynamic Media图像服务命令分组到图像预设中。 An image preset is basically URL command macros with custom preset names such as `$thumb_low$` and `&product_high$`. URL 路径中的自定义预设名称将调用这些预设。此功能帮助您针对网站上的图像的不同使用方式管理命令和质量设置，并缩短 URL 的总体长度。
 * Dynamic Media Classic还提供更高级的图像质量调整方法，如在摄取时应用锐化图像。 对于可以选择使用预设进一步调整和优化图像以及提供相应结果的高级使用案例，Adobe 专业服务部门可以为您提供自定义分析和最佳做法。
 
