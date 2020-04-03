@@ -2,13 +2,13 @@
 title: 更加有效地利用元数据
 seo-title: 更加有效地利用元数据
 description: 'null'
-seo-description: 了解如何更有效地使用元数据。
-uuid: 6690b815-ca5 f-491f-94eb-3d4657 fbb8
+seo-description: 了解如何更高效地使用元数据。
+uuid: 6690b815-ca5f-491f-94eb-3d4657fbb8ed
 contentOwner: admin
-content-type: 引用
-products: SG_ EXPERIENCE MANAGER/Dynamic-Media-Scene-7
-geptopics: SG_ SCENESELEFERENDER_ PK/categories/media_ Portal
-discoiquuid: b399c2b2-3e59-43e7aa7d-dd4 fdf4 e
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/media_portal
+discoiquuid: b399c2b2-3e59-43e7-aa7d-dd4fdf4e9bad
 translation-type: tm+mt
 source-git-commit: 75f006fd81b0fe2dad5479cdd98e45eaada46b2a
 
