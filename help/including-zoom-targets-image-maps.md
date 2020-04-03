@@ -3,11 +3,11 @@ title: 在图像集中加入缩放目标和图像映射
 seo-title: 在图像集中加入缩放目标和图像映射
 description: 'null'
 seo-description: 了解如何在图像集中包含缩放目标和图像映射。
-uuid: f5a00fe-3cc2-4668-a051-59e0 bee50 b35
+uuid: 1f5a00fe-3cc2-4668-a051-59e0bee50b35
 contentOwner: admin
-content-type: 引用
-products: SG_ EXPERIENCE MANAGER/Dynamic-Media-Scene-7
-geptopics: SG_ SCENESELEFERENDER_ PK/categories/image_ set
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sets
 discoiquuid: ef0c292f-3240-4c62-8f32-25de8e4922ad
 translation-type: tm+mt
 source-git-commit: 0f6c8e6ac69e29aab7a48425aab76c10170d9ddf
