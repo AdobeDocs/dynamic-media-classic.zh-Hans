@@ -5,7 +5,7 @@ description: 'null'
 seo-description: 了解如何上传与电子目录关联的PDF文件。
 uuid: 9e178bb2-ac09-427a-b61a-aad4e87a5837
 contentOwner: admin
-content-type: 引用
+content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
 discoiquuid: 0097cba5-c886-4115-bc35-7ae7a500202f
 translation-type: tm+mt
@@ -50,13 +50,13 @@ source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
 
    请参阅[ICC 配置文件](icc-profiles.md#icc_profiles)。
 
-* **颜色配置**&#x200B;文件选择颜色配置文件选项：
+* **颜色用户档案**&#x200B;选择“颜色用户档案”选项：
 
 * **转换为SRGB**&#x200B;转换为SRGB（标准红绿蓝）。 在网页上显示图像时，推荐使用 SRGB 颜色空间。
 
 * **保留原始色彩空间**&#x200B;保留原始色彩空间。
 
-* **“自定义自”&gt;“至**&#x200B;打开”菜单，因此您可以选择“转换自”和“转换为色彩空间”。 您可以选择标准 Pgotoshop 颜色空间或上载到 SPS 的颜色空间。
+* **“自定义自”>“至**&#x200B;打开”菜单，因此您可以选择“转换自”和“转换为色彩空间”。 您可以选择标准 Pgotoshop 颜色空间或上载到 SPS 的颜色空间。
 
 请参阅[ICC 配置文件](icc-profiles.md#icc_profiles)。
 
