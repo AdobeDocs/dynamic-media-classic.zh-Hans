@@ -3,10 +3,10 @@ title: 获取磁盘使用情况信息
 seo-title: 获取磁盘使用情况信息
 description: 'null'
 seo-description: 了解如何获取磁盘使用信息。
-uuid: 01361693-53d0-4072-b7 c3-f284631 d28 cf
+uuid: 01361693-53d0-4072-b7c3-f284631d28cf
 contentOwner: admin
-content-type: 引用
-products: SG_ EXPERIENCE MANAGER/Dynamic-Media-Scene-7
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
 discoiquuid: 6763546d-83c4-42dc-879f-6bbfc8b56482
 translation-type: tm+mt
 source-git-commit: 75f006fd81b0fe2dad5479cdd98e45eaada46b2a
