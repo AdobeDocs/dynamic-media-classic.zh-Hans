@@ -2,13 +2,13 @@
 title: 系统要求
 seo-title: 系统要求
 description: 'null'
-seo-description: '了解使用Dynamic Media经典获得最佳体验的系统要求。 '
+seo-description: '了解使用Dynamic Media Classic获得最佳体验的系统要求。 '
 uuid: 8dfc925b-7350-41af-9207-3b2a743c0998
 contentOwner: admin
-content-type: 引用
-products: SG_ EXPERIENCE MANAGER/Dynamic-Media-Scene-7
-geptopics: SG_ SCENEESFERENONDAND_ PK/categories/intenducing_ adobe_ scene7
-discoiquuid: 27278fef-8b0e-41cd-b393-7a4 c3625 d5 c0
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_scene7
+discoiquuid: 27278fef-8b0e-41cd-b393-7a4c3625d5c0
 translation-type: tm+mt
 source-git-commit: 75f006fd81b0fe2dad5479cdd98e45eaada46b2a
 
