@@ -2,12 +2,12 @@
 title: 查看样本集
 seo-title: 查看样本集
 description: 'null'
-seo-description: 了解如何查看样本集。
-uuid: 80df403b-b03 f-428f-9784-c3 f774567 bd0
+seo-description: 了解如何视图样本集。
+uuid: 80df403b-b03f-428f-9784-c3f774567bd0
 contentOwner: admin
-content-type: 引用
-products: SG_ EXPERIENCE MANAGER/Dynamic-Media-Scene-7
-geptopics: SG_ SCENESELEFERENDER_ PK/categories/swatch_ set
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/swatch_sets
 discoiquuid: 48de8604-2bb4-4862-82ee-0c7847f0d0e7
 translation-type: tm+mt
 source-git-commit: a1722c15d3c049f05959d895e85297d47d730872
@@ -19,13 +19,13 @@ source-git-commit: a1722c15d3c049f05959d895e85297d47d730872
 
 可以使用可用预设在“预览”窗口中查看样本集。可使用样本集的“缩放查看器: 自定义查看器预设”。
 
-Dynamic Media经典附带默认查看器预设。管理员可以创建或修改查看器预设。
+Dynamic Media Classic附带默认的查看器预设。 管理员可以创建或修改查看器预设。
 
 ## 为样本集设置缩放查看器预设 {#setting-up-zoom-viewer-presets-for-swatch-sets}
 
 可以根据需要创建并自定义查看器预设。
 
-1. 单击“**设置**”&gt;“**查看器预设**”。
+1. 单击“**设置**”>“**查看器预设**”。
 1. 执行以下任一操作：
 
    * To create a new preset, click **Add**. In the Add Viewer Preset dialog box, choose a platform, choose Swatch Set Viewer, then click **Add**.
@@ -51,7 +51,7 @@ Dynamic Media经典附带默认查看器预设。管理员可以创建或修改�
    * 在“资源”窗口上方的工具栏右侧，单击“**列表视图**”。在“资源”窗口中，将光标悬停在资源上，然后单击“**预览**”。
    * 在“资源”窗口上方的工具栏右侧，单击“**网格视图**”。在“资源”窗口的资源缩略图窗口中，单击“**预览**”。
    * 在“资源”窗口上方的工具栏的右侧，单击“**详细信息视图**”。在同一工具栏上，单击“**预览**”。
-   * 在“资源”窗口中，选择一个资源。On the toolbar, click **File** &gt; **Preview**.
+   * 在“资源”窗口中，选择一个资源。On the toolbar, click **File** > **Preview**.
 
 1. （可选）在预览窗口底部的下拉列表中，选择要在复制资源的 URL 时应用的 URL 编码。
 1. 单击查看器链接，在所选查看器中预览资源。
