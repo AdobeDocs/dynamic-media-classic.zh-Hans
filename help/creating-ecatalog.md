@@ -3,12 +3,12 @@ title: 创建 eCatalog
 seo-title: 创建 eCatalog
 description: 'null'
 seo-description: 了解如何创建电子目录。
-uuid: aff05c2-7052-426c-b61 d-7f9091 f7 ce8
+uuid: 2aff05c2-7052-426c-b61d-7f9091f7ace8
 contentOwner: admin
-content-type: 引用
-products: SG_ EXPERIENCE MANAGER/Dynamic-Media-Scene-7
-geptopics: SG_ SCENESELEFERENDER_ PK/categories/ecatalloc
-discoiquuid: 28889c60-596a-40d2-85d4-f48 a4 f86 b932
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
+discoiquuid: 28889c60-596a-40d2-85d4-f48a4f86b932
 translation-type: tm+mt
 source-git-commit: 1941567db5c154620bb0dcd12e363d7eebc61b20
 
@@ -36,9 +36,9 @@ source-git-commit: 1941567db5c154620bb0dcd12e363d7eebc61b20
 
 1. 采用以下方法之一开始创建 eCatalog：
 
-   **在浏览面板中选择文件，** 选择文件，然后单击“构建”&gt;“电子目录”。
+   **首先选择文件** 。在浏览面板中，选择文件，然后单击“构建”>“电子目录”。
 
-   **从eCatalog屏幕开始** 单击“构建”&gt;“电子目录”。在资源库中选择一个文件夹，将该文件夹中的文件拖到 eCatalog 页面的“排序页面”选项卡中。
+   **开始从eCatalog屏幕中** ，单击“构建”>“eCatalogs”。 在资源库中选择一个文件夹，将该文件夹中的文件拖到 eCatalog 页面的“排序页面”选项卡中。
 
    ***note**: To view the items in the Asset Library by name instead of thumbnail, select the Name option for Default Asset Library View in Personal Setup. *
 
@@ -46,11 +46,11 @@ source-git-commit: 1941567db5c154620bb0dcd12e363d7eebc61b20
 1. 也可以单击各个页面或页面跨页，然后选择“单页”按钮、“双页”按钮或“自定义”按钮，来更改其布局（可选）。“更改 eCatalog 布局”对话框随即显示。Select the Selected Spreads options and click **OK**.
 1. 根据需要采用以下方法之一重新排序页面：
 
-   **拖动** 将页面或页面跨页拖动到新位置。垂直栏显示要移动的页面的位置。
+   **将页面** 或页面跨页拖动到新位置。 垂直栏显示要移动的页面的位置。
 
-   **移到按钮** 选择页面或页面跨页，单击“移到”按钮，然后在菜单上选择您希望页面显示之前的页面。
+   **“移到”按钮** “选择页面或页面跨页”，单击“移到”按钮，然后在菜单上选择您希望页面之前显示的页面。
 
-   **序列#** In List View，在序列#字段中输入页码。
+   **序列#** 在列表视图中，在序列#字段中输入页码。
 
 1. 完成后，确保在页面右下角附近选择了“**保存后发布**”（默认）。
 1. 单击“**保存**”。
@@ -66,7 +66,7 @@ source-git-commit: 1941567db5c154620bb0dcd12e363d7eebc61b20
 | 是否已发布集？ | 是否在保存编辑内容之前选择了“保存后发布”选项？ | 保存后的集状态 | 保存后的集成员状态 |
 |--- |--- |--- |--- |
 | 是 | 是 | 已发布 | 已发布 |
-| 是 | 否 | 已发布 | 现有的设置成员将保留其发布状态。您在编辑期间添加的任何新设置成员将保留其已发布或未发布状态。 |
+| 是 | 否 | 已发布 | 现有集成员将保留其已发布状态。您在编辑过程中添加的任何新集成员将保留其已发布或未发布状态。 |
 | 否 | 是 | 已发布 | 已发布 |
 | 否 | 否 | 未发布 | 现有的集成员以及在编辑期间添加的任何新的集成员保持其已发布或未发布状态。 |
 
@@ -88,11 +88,11 @@ source-git-commit: 1941567db5c154620bb0dcd12e363d7eebc61b20
 **删除 eCatalog**
 
 1. 在网格视图、列表视图或详细信息视图中，选择一个或多个 Catalog。
-1. 在全局导航栏上，单击“**文件**”&gt;“**删除**”&gt;“**删除**”。
+1. 在全局导航栏上，单击“**文件**”>“**删除**”>“**删除**”。
 
 ## 自定义目录 (TOC) {#customizing-the-table-of-contents-toc}
 
-动态媒体经典在电子目录屏幕的“订单页面”选项卡中提供电子目录中的默认页码。要自定义页面名称，可以更改构成目录 (TOC) 的页标签。推荐重命名封面和封底。例如，封面页可以阅读“Cover”而不是“Page0-1”。”
+Dynamic Media Classic在eCatalog屏幕的“订单页面”选项卡上提供eCatalog中的默认页码。 要自定义页面名称，可以更改构成目录 (TOC) 的页标签。推荐重命名封面和封底。例如，封面可以阅读“封面”而不是“第0-1页”。
 
 可以采用手动方式或通过从 CSV（仅 Mac）或 XML 文件导入页面名称来为 eCatalog 创建自定义目录 (TOC)。
 
@@ -108,19 +108,19 @@ source-git-commit: 1941567db5c154620bb0dcd12e363d7eebc61b20
 
 如果处理包含很多页面的 eCatalog，则推荐使用导入页面名称的方法。可以从制表符分隔的文件或 XML 文件导入名称。
 
-目录标签存储在图像的“用户数据”字段中；将此数据设置为列表的列表 `name=<value>`` pairs separated by two question marks “??” `。例如，要为名为Searchen的目录字段设置一个标签，请将图像的用户数据设置为：
+目录标签存储在图像的“用户数据”字段中；将此数据格式化为列表 `name=<value>`` pairs separated by two question marks “??” `例如，要为名为tocEN &quot;的目录字段设置一个标签，请将图像的“用户数据”设置为：
 
-tocEN=&lt;EN_page_label&gt;
+tocEN=&lt;EN_page_label>
 
 要为名为 tocEN 和 tocFR 的 TOC 字段设置单独标签：
 
-tocEN=&lt;EN_page_label&gt;??tocFR=&lt;FR_page_label&gt;
+tocEN=&lt;EN_page_label>??tocFR=&lt;FR_page_label>
 
 要在制表符分隔的文件中导入“用户数据”字段，应包含 userdata 字段）：
 
 | IPSID | Userdata |
 |--- |--- |
-| `<image_IPS_ID>` | tocEN=&lt;EN_page_label&gt;??tocFR=&lt;FR_page_label&gt; |
+| `<image_IPS_ID>` | tocEN=&lt;EN_page_label>??tocFR=&lt;FR_page_label> |
 
 要用 XML 文件导入“用户数据”字段，应包含 `vc_userdata` 属性：
 
