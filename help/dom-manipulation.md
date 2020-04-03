@@ -3,12 +3,12 @@ title: DOM 处理
 seo-title: DOM 处理
 description: 'null'
 seo-description: 了解DOM操作。
-uuid: 275cd49d-2a55-41f9-80b0-e147 d0 cd2907
+uuid: 275cd49d-2a55-41f9-80b0-e147d0cd2907
 contentOwner: admin
-content-type: 引用
-products: SG_ EXPERIENCE MANAGER/Dynamic-Media-Scene-7
-geptopics: SG_ SCENESELEFERENDER_ PK/类别/模板发布
-discoiquuid: 890ca93e-3146-4347-864b-bd5 e94037038
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/template-publishing
+discoiquuid: 890ca93e-3146-4347-864b-bd5e94037038
 translation-type: tm+mt
 source-git-commit: e3c64b90e0af0129571a21b132477c0c86d06405
 
@@ -19,9 +19,9 @@ source-git-commit: e3c64b90e0af0129571a21b132477c0c86d06405
 
 DOM（文档对象模型）处理是一种通过直接控制设计文件的 XML 代码来编辑设计文件的方法。DOM 处理可使您更好地控制变量设计元素（包括更改其内容和外观）；您甚至可以根据需要创建新元素。
 
-动态媒体经典允许您在模板发布后通过URL命令操作Dynamic Media经典FXG模板的DOM。FXG 模板中的设计元素是通过 URL 传递命令来进行处理的。这样，您可以动态地处理属性以及向图形中添加属性。
+Dynamic Media Classic允许您在模板发布后通过URL命令操作Dynamic Media Classic FXG模板的DOM。 FXG 模板中的设计元素是通过 URL 传递命令来进行处理的。这样，您可以动态地处理属性以及向图形中添加属性。
 
-要使用DOM操作，您创建s7：在Illustrator文件中将Elements转换为Dynamic Media经典FXG文件并将其上传到SPS。
+要使用DOM处理，请在Illustrator文件中创建s7:elementID，然后将其转换为Dynamic Media Classic FXG文件并上传到SPS。
 
 >[!NOTE]
 >
@@ -54,8 +54,8 @@ DOM（文档对象模型）处理是一种通过直接控制设计文件的 XML 
 在 Illustrator 中按照以下步骤为对象创建 s7:elementID：
 
 1. 选择该对象。
-1. 单击 **“窗口** ”&gt; **“图层**”。
-1. 在“图层”面板中，将对象图层命名为s7：ElementID。To do so, enter the letters `id` (for identification), a colon ( `:`), and description to identify the element. 以下是 s7:elementID 对象图层名称的示例：
+1. 单击“ **窗口** ”>“ **图层”**。
+1. 在“图层”面板中，使用s7:elementID命名对象图层。 To do so, enter the letters `id` (for identification), a colon ( `:`), and description to identify the element. 以下是 s7:elementID 对象图层名称的示例：
 
    `id:BackgroundColor`
 
@@ -65,7 +65,7 @@ DOM（文档对象模型）处理是一种通过直接控制设计文件的 XML 
 
 ## 发布 FXG 模板 {#publish-fxg-templates}
 
-发布FXG模板可将其放置在Dynamic Media经典服务器上，在该服务器上可访问网站和应用程序。在发布过程期间，Scene7 Publishing System 会激活您的网站或应用程序所需的 URL。
+发布FXG模板后，该模板会放在Dynamic Media Classic服务器上，您的网站和应用程序可在该服务器上使用它。 在发布过程期间，Scene7 Publishing System 会激活您的网站或应用程序所需的 URL。
 
 >[!NOTE]
 >
@@ -73,10 +73,10 @@ DOM（文档对象模型）处理是一种通过直接控制设计文件的 XML 
 
 ### 将 FXG 模板标记为发布 {#mark-fxg-templates-for-publish}
 
-必须将模板及其所有支持文件标记为发布，以便将其放置在Dynamic Media图像服务器上。
+模板及其所有支持文件必须标记为发布，才能放在Dynamic Media图像服务器上。
 
 1. 在浏览面板中，选择 FXG 模板以及使用的所有图形、图像和字体。
-1. 单击 **“标记为发布**”。
+1. 单击“ **标记为发布”**。
 
 ### 发布 FXG 模板 {#publish-your-fxg-template}
 
