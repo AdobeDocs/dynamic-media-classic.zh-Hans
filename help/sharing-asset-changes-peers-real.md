@@ -2,13 +2,13 @@
 title: 与对等客户端实时共享资源更改
 seo-title: 与对等客户端实时共享资源更改
 description: 'null'
-seo-description: 了解如何实时与同事共享资产更改。
-uuid: 13fa4f6e-66ff-4682-96a9-3e704006f53
+seo-description: 了解如何与同行实时共享资产更改。
+uuid: 13fa4f6e-66bf-4682-96a9-0e7040706f53
 contentOwner: admin
-content-type: 引用
-products: SG_ EXPERIENCE MANAGER/Dynamic-Media-Scene-7
-geptopics: SG_ SCENESELEFERENDER_ PK/categories/managing_ assets
-discoiquuid: ca7c8a7f-76f4-4a25-8c36-617a029e55
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
+discoiquuid: ca7c8a7f-76f4-4a25-8c36-617a029e55be
 translation-type: tm+mt
 source-git-commit: a1722c15d3c049f05959d895e85297d47d730872
 
@@ -17,7 +17,7 @@ source-git-commit: a1722c15d3c049f05959d895e85297d47d730872
 
 # 与对等客户端实时共享资源更改{#sharing-asset-changes-with-peers-in-real-time}
 
-在同一公司的一台或多台计算机上运行Dynamic Media经典的多个副本时，任何Dynamic Media经典客户端中的以下操作都会实时更新所有对等客户端：
+在同一公司中，在一台或多台计算机上运行多个Dynamic Media Classic副本时，来自任何Dynamic Media Classic客户端的以下操作都会与所有对等客户端实时更新：
 
 * 编辑资源（生成器、图像编辑器等。）
 * 重命名资源
