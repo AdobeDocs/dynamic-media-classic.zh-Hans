@@ -5,7 +5,7 @@ description: 'null'
 seo-description: 了解如何设置eCatalog查看器预设。
 uuid: aca66bc5-8491-4d81-9a06-1d3531860a14
 contentOwner: admin
-content-type: 引用
+content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
 discoiquuid: 6c123f85-3bc4-4392-a7fb-55618127c65e
 translation-type: tm+mt
@@ -18,13 +18,13 @@ source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
 
 eCatalog 查看器预设决定了 eCatalog 查看器的样式、行为和外观。Dynamic Media Classic提供电子目录查看器预设，如果您是管理员，您也可以创建自己的电子目录查看器预设。
 
-要创建新预设，您可以从头开始，或从Dynamic Media Classic提供的eCatalog查看器预设开始，然后使用新名称保存它。 可以创建自己的 eCatalog 查看器预设，以使用公司颜色来显示印刷材料并设置色调。
+要创建新预设，您可以从头开始或开始Dynamic Media Classic提供的eCatalog查看器预设，然后将其保存为新名称。 可以创建自己的 eCatalog 查看器预设，以使用公司颜色来显示印刷材料并设置色调。
 
 eCatalog 查看器预设提供很多设置，包括页间跳转、缩放、搜索及选择“外观”。这些控件的外观及查看器本身的外观取决于所选的 eCatalog 查看器预设。
 
 按照以下步骤创建 eCatalog 查看器预设（必须是管理员）：
 
-1. 单击“**设置**”&gt;“**查看器预设**”。
+1. 单击“**设置**”>“**查看器预设**”。
 1. 在“查看器预设”屏幕上，重新开始或从现有的 eCatalog 查看器预设开始创建 eCatalog 查看器预设：
 
    * **创建eCatalog查看器预设**&#x200B;单击添加。 In the Add Viewer Preset dialog box, choose a platform, choose eCatalog Viewer, then click **Add**.
