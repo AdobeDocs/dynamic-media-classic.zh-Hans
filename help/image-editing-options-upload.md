@@ -5,9 +5,9 @@ description: 'null'
 seo-description: 了解上传时可用的图像编辑选项。
 uuid: 0912ae6f-41c9-41b5-94d1-e266face782e
 contentOwner: admin
-content-type: 引用
+content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
-geptopics: SG_SCENESEVENTONDEMAND_PK/categories/master_files
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
 discoiquuid: d3f21cdf-2cb3-46e8-955a-b8daf0b233bc
 translation-type: tm+mt
 source-git-commit: 917ba4469b5ef22e62c572f80008e470dccdebe4
@@ -56,7 +56,7 @@ source-git-commit: 917ba4469b5ef22e62c572f80008e470dccdebe4
 
 * **保留原始色彩空间**&#x200B;保留原始色彩空间。
 
-* **“自定义自”&gt;“至**&#x200B;打开”菜单，因此您可以选择“转换自”和“转换为色彩空间”。 您可以选择标准 Pgotoshop 颜色空间或上载到 SPS 的颜色空间。
+* **“自定义自”>“至**&#x200B;打开”菜单，因此您可以选择“转换自”和“转换为色彩空间”。 您可以选择标准 Pgotoshop 颜色空间或上载到 SPS 的颜色空间。
 
 请参阅[ICC 配置文件](icc-profiles.md#icc_profiles)。
 
