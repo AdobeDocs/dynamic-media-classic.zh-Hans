@@ -3,12 +3,12 @@ title: 将模板链接到网页
 seo-title: 将模板链接到网页
 description: 'null'
 seo-description: 了解如何将模板链接到网页。
-uuid: f111ef06-4afc-454c-86ce-5d640226d40b
+uuid: f111ef06-4afc-454c-86ce-5d640236d40b
 contentOwner: admin
-content-type: 引用
-products: SG_ EXPERIENCE MANAGER/Dynamic-Media-Scene-7
-geptopics: SG_ SCENESELEFERENDER_ PK/categories/template_ basics
-discoiquuid: 989dba07-448a-45b1-b157-af50 abb5359 a
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/template_basics
+discoiquuid: 989dba07-448a-45b1-b157-af50abb5359a
 translation-type: tm+mt
 source-git-commit: e3c64b90e0af0129571a21b132477c0c86d06405
 
@@ -17,7 +17,7 @@ source-git-commit: e3c64b90e0af0129571a21b132477c0c86d06405
 
 # 将模板链接到网页{#linking-a-template-to-a-web-page}
 
-您的网站和应用程序通过URL字符串访问Dynamic Media图像服务器内容。在您发布模板之后，Dynamic Media经典会激活在Dynamic Media图像服务器上引用该模板的URL字符串。可以将该 URL 粘贴到 Web 浏览器中进行测试。
+您的网站和应用程序通过URL字符串访问Dynamic Media Image Server内容。 发布模板后，Dynamic Media Classic会激活引用Dynamic Media Image Server上的模板的URL字符串。 可以将该 URL 粘贴到 Web 浏览器中进行测试。
 
 要将 URL 字符串放置在网页和应用程序中，请从 Scene7 Publishing System 中复制这些字符串。要获取使用图像预设生成的模板 URL 字符串，请转至“预览”屏幕或浏览面板（在“细节”视图中）。然后选择“图像预设”并选择“复制 URL”按钮。
 
@@ -29,7 +29,7 @@ source-git-commit: e3c64b90e0af0129571a21b132477c0c86d06405
 
 您可以在“模板预览”屏幕上获取使用图像预设生成的模板 URL 字符串。复制 URL 后，该字符串将放置在剪贴板上，以便在必要时进行粘贴。请按照以下步骤在“模板预览”屏幕上获取使用图像预设生成的模板 URL 字符串：
 
-1. 单击模板的变换“预览”按钮或选择“文件”&gt;“预览”。“预览”屏幕随即打开。
+1. 单击模板的变换“预览”按钮或选择“文件”>“预览”。“预览”屏幕随即打开。
 1. 使用“预设”菜单，选择要用于发送模板图像的图像预设。“预览”屏幕可显示从服务器发送后的模板效果。
 1. 单击“复制 URL”按钮，将 URL 复制到剪贴板。
 
