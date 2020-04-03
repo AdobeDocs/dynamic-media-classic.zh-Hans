@@ -3,12 +3,12 @@ title: 创建和启用图像预设
 seo-title: 创建和启用图像预设
 description: 'null'
 seo-description: 了解如何创建和启用图像预设。
-uuid: 62cfc fa-da91-4c42-a3 ed-10956384d633
+uuid: 62cfc6fa-da91-4c42-a3ed-10956384d633
 contentOwner: admin
-content-type: 引用
-products: SG_ EXPERIENCE MANAGER/Dynamic-Media-Scene-7
-geptopics: SG_ SCENESELEFERENDER_ PK/categories/media_ Portal
-discoiquuid: 84257b2a-681c-4fe9e5-3633c1d61d8c
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/media_portal
+discoiquuid: 84257b2a-681c-4fe9-a6e5-3633c1d61d8c
 translation-type: tm+mt
 source-git-commit: 75f006fd81b0fe2dad5479cdd98e45eaada46b2a
 
