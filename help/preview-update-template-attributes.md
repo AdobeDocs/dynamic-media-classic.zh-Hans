@@ -5,10 +5,10 @@ description: 'null'
 seo-description: 了解如何预览和更新模板属性。
 uuid: ef5848e9-5302-42a4-8184-1b1151ff10db
 contentOwner: admin
-content-type: 引用
-products: SG_ EXPERIENCE MANAGER/Dynamic-Media-Scene-7
-geptopics: SG_ SCENESELEFERENDER_ PK/类别/模板发布
-discoiquuid: 10397c2f-05-4580-9bba-009e8ab7d1e2
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/template-publishing
+discoiquuid: 10397c2f-0fb0-4580-9bba-009e8ab7d1e2
 translation-type: tm+mt
 source-git-commit: 2f99190eb0c346b87402e69c4067e94365042339
 
@@ -24,7 +24,7 @@ source-git-commit: 2f99190eb0c346b87402e69c4067e94365042339
 
    模板将以默认参数显示。
 
-   ![FXG模板预览屏幕中的默认参数](/help/assets/wp_fxg_preview_a.png)
+   ![“FXG模板”预览屏幕中的默认参数](/help/assets/wp_fxg_preview_a.png)
 
    >[!NOTE]
    >
