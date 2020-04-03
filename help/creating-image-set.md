@@ -3,12 +3,12 @@ title: 创建图像集
 seo-title: 创建图像集
 description: 'null'
 seo-description: 了解如何创建图像集。
-uuid: 689fdc14-4f51-4c94-8515-cd8551 e101 d8
+uuid: 689fdc14-4f51-4c94-8515-cd8551e101d8
 contentOwner: admin
-content-type: 引用
-products: SG_ EXPERIENCE MANAGER/Dynamic-Media-Scene-7
-geptopics: SG_ SCENESELEFERENDER_ PK/categories/image_ set
-discoiquuid: 3f356410-b30 e-4870-ad95-6e5 a9 dc126 c8
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sets
+discoiquuid: 3f356410-b30e-4870-ad95-6e5a9dc126c8
 translation-type: tm+mt
 source-git-commit: 75f006fd81b0fe2dad5479cdd98e45eaada46b2a
 
@@ -34,9 +34,9 @@ source-git-commit: 75f006fd81b0fe2dad5479cdd98e45eaada46b2a
 
 1. 执行以下操作之一：
 
-   **在浏览面板** 中先选择图像，选择图像集所需的图像，单击“构建”&gt;“图像集”。
+   **首先选择图像** 。在浏览面板中，选择要用于图像集的图像，然后单击构建>图像集。
 
-   **从图像集屏幕** 中单击“构建”&gt;“图像集”。“图像集”屏幕随即打开。在资源库中选择一个文件夹，然后将要用于图像集的图像拖到“图像集”屏幕中。
+   **开始从“图像集”屏幕中** ，单击“构建”>“图像集”。 “图像集”屏幕随即打开。在资源库中选择一个文件夹，然后将要用于图像集的图像拖到“图像集”屏幕中。
 
 1. 要更改图像顺序，将图像拖到新位置即可。
 1. 确保在页面右下角附近选择了“**保存后发布**”（默认）。
@@ -50,7 +50,7 @@ source-git-commit: 75f006fd81b0fe2dad5479cdd98e45eaada46b2a
 | 是否已发布集？ | 是否在保存编辑内容之前选择了“保存后发布”选项？ | 保存后的集状态 | 保存后的集成员状态 |
 |--- |--- |--- |--- |
 | 是 | 是 | 已发布 | 已发布 |
-| 是 | 否 | 已发布 | 现有的设置成员将保留其发布状态。您在编辑期间添加的任何新设置成员将保留其已发布或未发布状态。 |
+| 是 | 否 | 已发布 | 现有集成员将保留其已发布状态。您在编辑过程中添加的任何新集成员将保留其已发布或未发布状态。 |
 | 否 | 是 | 已发布 | 已发布 |
 | 否 | 否 | 未发布 | 现有的集成员以及在编辑期间添加的任何新的集成员保持其已发布或未发布状态。 |
 
@@ -77,5 +77,5 @@ source-git-commit: 75f006fd81b0fe2dad5479cdd98e45eaada46b2a
 **删除图像集**
 
 1. 在网格视图、列表视图或详细信息视图中，选择一个或多个图像集。
-1. 在全局导航栏上，单击“**文件**”&gt;“**删除**”&gt;“**删除**”。
+1. 在全局导航栏上，单击“**文件**”>“**删除**”>“**删除**”。
 
