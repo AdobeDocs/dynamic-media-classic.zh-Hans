@@ -5,9 +5,9 @@ description: 'null'
 seo-description: 了解如何为向导式缩放创建缩放目标。
 uuid: 501ea37b-adc5-4290-87eb-52a3501e5d26
 contentOwner: admin
-content-type: 引用
+content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
-geptopics: SG_SCENESEEVENTONDEMAND_PK/categories/zoom
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/zoom
 discoiquuid: e7b4673c-8681-4741-912e-9a31cf106449
 translation-type: tm+mt
 source-git-commit: 6ff0141d1e8e96278b95f61c00602780984aaf67
@@ -62,7 +62,7 @@ On the Zoom Target Editor screen, click **[!UICONTROL Select Target]** button (a
    >在“名称”框中输入的不仅仅是名称。用户在缩放目标上移动指针时，将会看到您在“名称”框中输入的内容。在“名称”框中输入对缩放目标的简要描述，以便用户了解其可以缩放的内容。
 
 1. 可以视情况在“用户数据”字段中输入用户数据。该字段可供网站设计人员向缩放目标中添加信息。
-1. Click **[!UICONTROL Save]**.
+1. 单击“**[!UICONTROL 保存]**”。
 
    即可保存缩放目标的坐标和缩放级别。带有您输入的名称的缩放目标缩略图显示在屏幕右侧。
 
@@ -76,9 +76,9 @@ On the Zoom Target Editor screen, click **[!UICONTROL Select Target]** button (a
 
 * **重新**&#x200B;定位使用“选择目标”按钮（箭头），单击目标以选择它。 然后，将目标拖动到其他位置。
 
-* **调整**&#x200B;大小使用“选择目标”按钮（箭头），单击目标以选择它。 然后，将指针移动到缩放目标的一角，并拖动指针以放大或缩小目标。
+* **调整大**&#x200B;小使用“选择目标”按钮（箭头），单击目标以选择它。 然后，将指针移动到缩放目标的一角，并拖动指针以放大或缩小目标。
 
-* **删除**&#x200B;单击屏幕右侧目标的缩略图图像。 然后单击 **[!UICONTROL 删除目标]**。
+* **删除**&#x200B;单击屏幕右侧目标的缩略图图像。 然后单击“ **[!UICONTROL 删除目标]**”。
 
 * **重命**&#x200B;名单击屏幕右侧目标的缩略图图像。 Then enter a name in the **[!UICONTROL Name]** text field and click **[!UICONTROL Save]**.
 
