@@ -3,11 +3,11 @@ title: 创建 eCatalog 图像映射
 seo-title: 创建 eCatalog 图像映射
 description: 'null'
 seo-description: 了解如何创建eCatalog图像映射。
-uuid: 943ad3f7-a885-4bc2-88cb-7708384bdf8
+uuid: 943ad3f7-a885-4bc2-88cb-77083384bdf8
 contentOwner: admin
-content-type: 引用
+content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
-geptopics: SG_SCENESEEVENTONDEMAND_PK/categories/ecatalog
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
 discoiquuid: 4cf63359-63b5-4da7-9498-335d91b4776c
 translation-type: tm+mt
 source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
@@ -31,7 +31,7 @@ source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
    * **矩形图**&#x200B;选择矩形图像映射工具并在页面上拖动以创建矩形。
 
    * **多边形映**&#x200B;射选择“多边形图像映射”工具，并在图像周围单击所需次数。 单击时，Dynamic Media Classic将绘制图像映射的边框。
-   在您绘制图像映射后，Dynamic Media Classic会在“图像映射”列表中为其分配一个名称。 要形成名称，Dynamic Media Classic会在您正在处理的eCatalog页面的名称中附加一个顺序编号。
+   在您绘制图像映射后，Dynamic Media Classic会在图像映射列表中为其分配一个名称。 要形成名称，Dynamic Media Classic会在您正在处理的eCatalog页面的名称中附加一个顺序编号。
 
 1. （可选）在“图像映射”列表面板中的“名称”列下，为图像映射输入新名称。输入的名称中不能包含空格。
 1. 可以使查看者在单击“图像映射”时打开新的网页。在“图像映射”列表面板中的“URL”列中输入网页的 URL。
@@ -84,7 +84,7 @@ source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
 
    To remove all Image Maps from an eCatalog, click the **Order Pages** tab, and then click **Clear Maps**.
 
-* **处理重叠的图像**&#x200B;映射拖动可更改“图像映射”列表上图像映射的顺序。
+* **处理重叠的图**&#x200B;像映射拖动可更改图像映射列表上图像映射的顺序。
 
    请参阅[处理重叠的图像映射](creating-image-maps.md#handling_overlapping_image_maps)。
 
@@ -140,4 +140,4 @@ source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
 1. 在“排序页面”选项卡上，单击“复制映射”。
 1. 在“选择资源”对话框中，选择要在其中复制图像映射的 eCatalog，然后单击“选择”。
 
-如果目标eCatalog（您将图像映射复制到的eCatalog）具有不同数量的页面或图像的大小，则Dynamic Media Classic会显示一条警告消息。 可以忽略该警告，单击“继续”来复制图像映射。
+如果目标eCatalog（您将图像映射复制到的eCatalog）具有不同数量的页面或图像，则Dynamic Media Classic会显示一条警告消息。 可以忽略该警告，单击“继续”来复制图像映射。
