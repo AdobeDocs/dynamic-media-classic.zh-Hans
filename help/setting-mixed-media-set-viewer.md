@@ -5,9 +5,9 @@ description: 'null'
 seo-description: 了解如何设置混合媒体集查看器预设。
 uuid: d5bf1840-e453-445d-bebc-84889b29f3c8
 contentOwner: admin
-content-type: 引用
+content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
-geptopics: SG_SCENESEVENTONDEMAND_PK/categories/mixed_media_sets
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/mixed_media_sets
 discoiquuid: 8029aad8-d696-4d7c-99e2-3b08edb68181
 translation-type: tm+mt
 source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
@@ -21,7 +21,7 @@ source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
 
 可以选择在混合媒体集查看器中包含全部或部分社区功能。嵌入功能添加了一个指向查看器的链接，允许用户复制在外部页面（如博客、网站或社交网站）中显示查看器所需的代码。“链接”功能提供查看器的 URL，以便用户可以链接回该查看器。“访问”功能提供指向所指定网站的链接。
 
-1. 单击“**设置**”&gt;“**查看器预设**”。
+1. 单击“**设置**”>“**查看器预设**”。
 1. 在“查看器预设”页面上，执行下列操作之一：
 
    * To create a new preset, click **Add**. In the Add Viewer Preset dialog box, choose a platform, choose Mixed Media Set Viewer, then click **Add**.
