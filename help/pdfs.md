@@ -2,12 +2,12 @@
 title: 使用 PDF
 seo-title: 使用 PDF
 description: 'null'
-seo-description: 了解如何在Dynamic Media经典中使用PDF。
-uuid: 26d70d28-9393-49b1-9051-d70456 dea67
+seo-description: 了解如何在Dynamic Media Classic中使用PDF。
+uuid: 26d70d28-9393-49b1-9051-d70456deca67
 contentOwner: admin
-content-type: 引用
-products: SG_ EXPERIENCE MANAGER/Dynamic-Media-Scene-7
-geptopics: SG_ SCENESELEFERENDER_ PK/categories/master_ files
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
 discoiquuid: 5a073de3-6b1d-4c3e-8c03-9182f9f3874a
 translation-type: tm+mt
 source-git-commit: d5bf894d56687561c93ef08762bc19d3597225e6
@@ -17,7 +17,7 @@ source-git-commit: d5bf894d56687561c93ef08762bc19d3597225e6
 
 # 使用 PDF{#working-with-pdfs}
 
-PDF(便携文档格式)文件最常用于动态媒体经典创建电子目录。上传PDF文件时，Dynamic Media经典默认栅格化或翻录页面，以便页面可用于构建富媒体。
+PDF(可移植文档格式)文件在Dynamic Media Classic中最常用于创建电子目录。 在上传PDF文件时，Dynamic Media Classic默认会栅格化或翻页页面，以便页面可用于构建富媒体。
 
 ## PDF 上载选项 {#pdf-upload-options}
 
@@ -29,13 +29,13 @@ PDF(便携文档格式)文件最常用于动态媒体经典创建电子目录。
 
 “处理”选项如下所述：
 
-**栅格化** (默认)栅格化PDF文件中的页面并将矢量图形转换为位图图象。选择此选项可以创建 eCatalog。
+**栅格化** （默认）将PDF文件中的页面翻转，并将矢量图形转换为位图图像。 选择此选项可以创建 eCatalog。
 
-**提取搜索词** 从PDF文件提取单词以便在eCatalog查看器中按关键字搜索文件。
+**提取搜索词** 从PDF文件提取词，以便在eCatalog查看器中按关键字搜索文件。
 
-**提取链接** 提取PDF文件中的链接并将其覆盖到电子目录查看器中使用的图像映射。
+**提取链接** 从PDF文件提取链接并将其转换为在eCatalog查看器中使用的图像映射。
 
-**使用多页PDF自动生成电子目录PDF** 从PDF文件自动创建电子目录。eCatalog 以您上载的 PDF 文件命名。（只有当上载 PDF 文件时栅格化该文件，才可以使用此选项。）
+**自动生成包含多页PDF的电子目录** “自动从PDF文件创建电子目录”。 eCatalog 以您上载的 PDF 文件命名。（只有当上载 PDF 文件时栅格化该文件，才可以使用此选项。）
 
 **分辨率**
 
@@ -45,23 +45,23 @@ PDF(便携文档格式)文件最常用于动态媒体经典创建电子目录。
 
 选择“颜色空间”菜单，并为 PDF 文件选择颜色空间。大多数 PDF 文件既包含 RGB 又包含 CMYK 彩色图像。对于联机查看，首选 RGB 颜色空间。
 
-**检测自动** 保留PDF文件的色彩空间。
+**自动检测** 保留PDF文件的色彩空间。
 
-**强制为RGB** 转换为RGB色彩空间。
+**强制作为RGB** 转换为RGB色彩空间。
 
-**强制使用CMYK** 转换为CMYK色彩空间。
+**强制为CMYK** 转换为CMYK色彩空间。
 
-**强制缩放为灰度** 颜色空间。
+**强制作为灰度** ，转换为灰度色彩空间。
 
 **颜色配置文件**
 
 选择“颜色配置文件”选项：
 
-**转换为sRGB** 转换为sRGB(标准红绿蓝)。在网页上显示图像时，推荐使用 sRGB 颜色空间。
+**转换为sRGB** ，转换为sRGB（标准红绿蓝）。 在网页上显示图像时，推荐使用 sRGB 颜色空间。
 
-**保留原始色彩空间** 保留原始色彩空间。
+**保留原始色彩空间** ，保留原始色彩空间。
 
-**“自定义自”&gt;“打开** 菜单”，以便您可以选择“从中转换”和“转换为色彩空间”。您可以选择标准 Pgotoshop 颜色空间或上载到 SPS 的颜色空间。
+**“自定义自”>“至** ”打开菜单，因此您可以选择“转换自”和“转换为色彩空间”。 您可以选择标准 Pgotoshop 颜色空间或上载到 SPS 的颜色空间。
 
 请参阅[ICC 配置文件](icc-profiles.md#icc_profiles)。
 
@@ -70,17 +70,17 @@ PDF(便携文档格式)文件最常用于动态媒体经典创建电子目录。
 1. 要在上载 PDF 文件时自动裁切其空白区域像素，请选择“裁切”菜单并选择“修剪”。
 1. 指定以下选项：
 
-   **根据需要修剪离开** 根据颜色或透明度进行裁剪：
+   **裁切离开基于** “选择是否基于颜色或透明度进行裁切”:
 
-   **颜色** 选择颜色选项。然后选择“角”菜单，并选择其颜色最接近于您要裁切的空白区域颜色的 PDF 角。
+   **颜色** ：选择颜色选项。 然后选择“角”菜单，并选择其颜色最接近于您要裁切的空白区域颜色的 PDF 角。
 
-   **透明度** 选择透明度选项。
+   **透明度** 选择“透明度”选项。
 
-   **容差** 拖动滑块以指定到1的容差：
+   **容差** ：拖动滑块以指定从0到1的容差：
 
-   **基于颜色** 裁切指定仅当它们与您在PDF角中选择的颜色完全匹配时裁剪像素。数字越接近 1，允许的色差越大。
+   **基于颜色修剪** “指定0”仅在像素与您在PDF角中选择的颜色完全匹配时，才可裁剪像素。 数字越接近 1，允许的色差越大。
 
-   **基于透明度裁切** 指定仅在完全透明的情况下裁剪像素；数量越接近1，表示透明度越高。
+   **基于透明度的修剪** 指定0可仅在像素完全透明时裁剪像素；接近1的数字允许提高透明度。
 
 ## 从 PDF 页边裁切 {#cropping-from-the-sides-of-pdf-pages}
 
