@@ -2,13 +2,13 @@
 title: Adobe Scene7 Publishing System 桌面应用程序
 seo-title: Adobe Scene7 Publishing System 桌面应用程序
 description: 'null'
-seo-description: 了解有关Scene Publishing System桌面应用程序的更多信息。
-uuid: f2f8196a-ca52-41e6-8e94-011b43 c53333
+seo-description: 进一步了解Scene7 Publishing System桌面应用程序。
+uuid: f2f8196a-ca52-41e6-8e94-011b43c53533
 contentOwner: admin
-content-type: 引用
-products: SG_ EXPERIENCE MANAGER/Dynamic-Media-Scene-7
-geptopics: SG_ SCENEESFERENONDAND_ PK/categories/intenducing_ adobe_ scene7
-discoiquuid: b6d1de3d-8551-4a61-83b7-cf1 f70 a5 a959
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_scene7
+discoiquuid: b6d1de3d-8551-4a61-83b7-cf1f70a5a959
 translation-type: tm+mt
 source-git-commit: 75f006fd81b0fe2dad5479cdd98e45eaada46b2a
 
