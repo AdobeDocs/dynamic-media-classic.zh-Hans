@@ -3,12 +3,12 @@ title: 裁切图像
 seo-title: 裁切图像
 description: 'null'
 seo-description: 了解如何裁剪图像。
-uuid: 84f199de-cffc-4d06-877f-6e9148 e82 e15
+uuid: 84f199de-cbfc-4d06-877f-6e9148e82e15
 contentOwner: admin
-content-type: 引用
-products: SG_ EXPERIENCE MANAGER/Dynamic-Media-Scene-7
-geptopics: SG_ SCENESELEFERENDER_ PK/categories/master_ files
-discoiquuid: 99dfa476-4f11-4569-a27 e-a76 ed77876
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
+discoiquuid: 99dfa476-4f11-4569-a27e-a76ed7787674
 translation-type: tm+mt
 source-git-commit: b8d245bfc8375966af314ed95e81a519c5ee6c24
 
@@ -45,7 +45,7 @@ source-git-commit: b8d245bfc8375966af314ed95e81a519c5ee6c24
 
 1. To crop an image, click its rollover Edit button and choose **Crop**, or display it in the Browse Panel in Detail view and click **Crop**.
 
-1. 在裁剪编辑器窗口中，放置您不希望在裁剪框中裁剪的图像部分。What appears inside the box remains when you click **Save** and crop the image.
+1. 在“裁剪编辑器”窗口中，将不想裁剪的图像部分放在裁剪框中。 What appears inside the box remains when you click **Save** and crop the image.
 1. 要调整裁切区域，请执行以下任一操作：
 
    * 拖动框的一边或一角。拖动时，按住 Shift 键，以更改大小，但保持裁切框的高宽比（形状）不变。
