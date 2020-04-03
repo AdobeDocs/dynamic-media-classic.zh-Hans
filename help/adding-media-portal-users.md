@@ -3,12 +3,12 @@ title: 添加和管理 Media Portal 用户
 seo-title: 添加和管理 Media Portal 用户
 description: 'null'
 seo-description: 了解如何添加和管理Media Portal用户
-uuid: 96d4103c-6428-4ce1-b9 e4-23159394f27
+uuid: 96d4103c-6428-4ce1-b9e4-231599304f27
 contentOwner: admin
-content-type: 引用
-products: SG_ EXPERIENCE MANAGER/Dynamic-Media-Scene-7
-geptopics: SG_ SCENESELEFERENDER_ PK/categories/media_ Portal
-discoiquuid: 5e933045-ce1 a-41b9-ba8 b-2151c396 b7 a2
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/media_portal
+discoiquuid: 5e933045-ce1a-41b9-ba8b-2151c396b7a2
 translation-type: tm+mt
 source-git-commit: 32f5e03766466ceaafe58780e9e80dbdd4a0c3dd
 
@@ -17,7 +17,7 @@ source-git-commit: 32f5e03766466ceaafe58780e9e80dbdd4a0c3dd
 
 # 添加和管理 Media Portal 用户{#adding-and-managing-media-portal-users}
 
-作为管理员，您可以添加和管理用户，决定他们是否可以更改密码、编辑用户信息以及上载用户列表。这些任务在“用户管理”屏幕上完成。要访问该屏幕，请单击“**设置**”&gt;“**应用程序设置**”&gt;“**管理设置**”&gt;“**用户管理**”。
+作为管理员，您可以添加和管理用户，决定他们是否可以更改密码、编辑用户信息以及上载用户列表。这些任务在“用户管理”屏幕上完成。要访问该屏幕，请单击“**设置**”>“**应用程序设置**”>“**管理设置**”>“**用户管理**”。
 
 >[!NOTE]
 >
@@ -27,17 +27,17 @@ source-git-commit: 32f5e03766466ceaafe58780e9e80dbdd4a0c3dd
 
 在注册时，将向 Media Portal 用户、参与者和参与者用户发送一封包含密码的欢迎电子邮件。管理员可以决定 Media Portal 用户是否可以更改此密码。
 
-1. 单击“**设置”**&gt;“**Media Portal 设置**”&gt;“**常规设置**”。
+1. 单击“**设置”**>“**Media Portal 设置**”>“**常规设置**”。
 1. 在“常规设置”页面上，选择或取消选择“**允许 Media Portal 用户更改密码**”。
 1. 单击“**保存**”。
 
 >[!NOTE]
 >
->可以更改密码的 Media Portal 用户可以通过单击“**设置**”&gt;“**个人设置**”并在“个人设置”屏幕上更改密码来执行此操作。
+>可以更改密码的 Media Portal 用户可以通过单击“**设置**”>“**个人设置**”并在“个人设置”屏幕上更改密码来执行此操作。
 
 ## 添加 Media Portal 用户 {#adding-a-media-portal-user}
 
-1. 单击“**设置**”&gt;“**应用程序设置**”&gt;“**管理设置**”&gt;“**用户管理**”。
+1. 单击“**设置**”>“**应用程序设置**”>“**管理设置**”>“**用户管理**”。
 1. 在“用户管理”页面上，单击“**添加**”。
 1. 在“用户信息”面板的“添加用户”对话框中，输入用户的名字、姓氏和电子邮件地址，然后单击“**下一步**”。
 1. 在“公司/角色”面板的“公司”下拉列表中，选择用户的公司。
@@ -73,7 +73,7 @@ source-git-commit: 32f5e03766466ceaafe58780e9e80dbdd4a0c3dd
 | 姓氏 | 姓氏。 |
 | 电子邮件 | 有效的电子邮件地址。 |
 | 密码 | 区分大小写的密码字符串。 |
-| 用户角色 | mediaPortalLightMediaPortalUserMediaContributorContributorMediaContributorContributor |
+| 用户角色 | MediaPortalAdminMediaPortalUserMediaPortalContributorMediaPortalContributorUser |
 | 组 | 为每个用户分配的一个或多个帐户组的列表（用逗号分隔）。通过添加账户名称前缀（用正斜线 (/) 分隔）来指定组。例如 PortalCo/IT，其中 PortalCo 为帐户，IT 为 PortalCo 帐户中的组。 |
 
 以下示例电子表格显示了如何设计 CSV 文件：
@@ -99,36 +99,36 @@ source-git-commit: 32f5e03766466ceaafe58780e9e80dbdd4a0c3dd
 
 您可以在一个弹出窗口中显示 Media Portal 用户的姓名和电子邮件地址。如果您要剪切和粘贴用户名和地址以便在 Media Portal 外部使用，此列表会非常有用。
 
-1. 单击“**设置**”&gt;“**应用程序设置**”&gt;“**管理设置**”&gt;“**用户管理**”。
+1. 单击“**设置**”>“**应用程序设置**”>“**管理设置**”>“**用户管理**”。
 1. 在“**按用户角色**”下拉列表中，选择 Media Portal 用户角色的名称，然后单击“**刷新**”以显示一类 Media Portal 用户的名称。
 1. 单击“**弹出列表**”，打开弹出窗口。您可以复制和粘贴该列表。
 
 ## 为 Media Portal 用户设置欢迎电子邮件 {#setting-up-the-welcome-e-mail-message-for-media-portal-users}
 
-添加新 Media Portal 用户、参与者和参与者用户时，您可以发送一封欢迎电子邮件。您可以配置此电子邮件，也可以告诉Dynamic Media经典不发送它。
+添加新 Media Portal 用户、参与者和参与者用户时，您可以发送一封欢迎电子邮件。您可以配置此电子邮件，或告知Dynamic Media Classic不要发送它。
 
-1. 选择“**设置**”&gt;“**应用程序设置**”&gt;“**管理设置**”&gt;“**用户管理**”。
+1. 选择“**设置**”>“**应用程序设置**”>“**管理设置**”>“**用户管理**”。
 1. In the User Administration Setup screen, click **Email Settings**.
 1. 在“电子邮件设置”对话框中，指定以下任何设置：
 
-   **发送电子邮件** 如果您不希望通过电子邮件通知新用户，请取消选择此选项。
+   **发送电子邮件** 如果不想通过电子邮件通知新用户您已注册他们，请取消选择此选项。
 
-   **默认口令** 输入新用户的临时口令，或将字段留空以使用动态媒体经典生成随机口令。首次登录时，系统会要求用户更改密码。
+   **默认密码** 为新用户输入临时密码，或将字段留空以让Dynamic Media Classic生成随机密码。 首次登录时，系统会要求用户更改密码。
 
-   **替换URL** 输入的URL与默认情况下的URL不同，如果用户通过其他URL访问Dynamic Media经典。
+   **替换URL** 如果用户通过其他URL访问Dynamic Media Classic，请输入与默认URL不同的URL。
 
 ## 其他用户管理任务 {#other-user-management-tasks}
 
 从“用户管理设置”屏幕开始，您还可以执行以下任务：
 
-**过滤用户列表并对其排序** 过滤Media Portal用户列表以查找用户。请参阅过滤和排序用户列表。
+**过滤用户列表并对其排序** 过滤Media Portal用户的列表以定位用户。 请参阅过滤和排序用户列表。
 
-**删除用户** 从列表中删除用户。请参阅删除用户。
+**删除用户** 从列表中删除用户。 请参阅删除用户。
 
-**激活和取消激活用户** 可暂停用户访问文件夹。请参阅激活和停用用户。
+**激活和取消激活用户** 暂停用户访问文件夹。 请参阅激活和停用用户。
 
-**编辑用户信息** 输入有关用户的最新信息。请参阅编辑用户信息。
+**编辑用户信息** 输入有关用户的最新信息。 请参阅编辑用户信息。
 
-**创建用户定义的字段** 创建自定义的、用户定义的元数据字段，以帮助在Scene Publishing System中组织资产。必要时，也可以激活或停用这些字段。
+**创建用户定义字段** 创建自定义的、用户定义的元数据字段，以帮助组织Scene7 Publishing System中的资产。 必要时，也可以激活或停用这些字段。
 
 请参阅[用户定义的字段](application-setup.md#user_defined_fields)。
