@@ -2,12 +2,12 @@
 title: 使用“详细信息”视图
 seo-title: 使用“详细信息”视图
 description: 'null'
-seo-description: 了解如何在“详细信息”视图中工作。
+seo-description: 了解如何在详细信息视图中工作。
 uuid: cb62f765-9b7f-4a53-8206-99afae2fb80d
 contentOwner: admin
-content-type: 引用
+content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
-geptopics: SG_SCENESEEVENTONDEMAND_PK/categories/managing_assets
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: eaa214ff-d1ef-4691-9148-d01bf243c810
 translation-type: tm+mt
 source-git-commit: 52f51c59bcc03444e5e751b7b33d20bed9aaaddb
@@ -43,7 +43,7 @@ Last Modified Date: 2018-06-14T13:52:46.623-0400
 
    * 双击资源。
    * 选择资产，然后单击详细 **[!UICONTROL 信息视图]**。
-   * 选择资产，然后单击“文 **[!UICONTROL 件”&gt;“详细信息”]**。
+   * 选择资产，然后单击“文 **[!UICONTROL 件”>“详细信息”]**。
 
 >[!NOTE]
 >
@@ -59,7 +59,7 @@ Last Modified Date: 2018-06-14T13:52:46.623-0400
 
 详细信息视图提供了用于处理打开的资源的工具。具体哪些工具可用取决于您正在使用的资源的类型，但详细信息视图始终提供以下功能：
 
-* **要发布的项目**&#x200B;单击名称左侧 **[!UICONTROL 的“发布”图标，或单击“文件”&gt;“发布”]** 或“文件” **[!UICONTROL &gt;“取消发布]******”。
+* **要发布的项目**&#x200B;单击名称左侧 **[!UICONTROL 的“发布”图标，或单击“文件”>“发布”]** 或“文件” **[!UICONTROL >“取消发布]******”。
 
 * **重命名资产**&#x200B;选择名称并输入新名称。
 
@@ -67,7 +67,7 @@ Last Modified Date: 2018-06-14T13:52:46.623-0400
 
 * **编辑和添加关键字**&#x200B;选择关键字，然后根据需要添加或删除关键字。 请参阅[添加或编辑关键字](/help/viewing-adding-exporting-metadata.md)。
 
-* **删除资产**&#x200B;单击 **[!UICONTROL 文件&gt;删除]**。
+* **删除资产**&#x200B;单击 **[!UICONTROL 文件>删除]**。
 
 对于不关联的文件（如图像、图像集和字体），可以在详细信息视图中查看发布和编辑历史记录并检查作业详细信息。
 
@@ -75,7 +75,7 @@ Last Modified Date: 2018-06-14T13:52:46.623-0400
 
 | 资源类型 | 编辑/调整 | 预览 |
 |--- |--- |--- |
-| 图像 | 添加图像映射 添加缩放目标裁剪锐化创建调整后的视图 | 是；缩放和图像预设. |
+| 图像 | 添加图像映射 添加缩放目标裁剪锐化创建调整的视图 | 是；缩放和图像预设. |
 | CAB 和窗饰图像 | 否 | 缩略图。 |
 | eCatalog | 编辑 | 是。信息面板也可用。 |
 | 字体 | 编辑字体信息 | 否。 |
