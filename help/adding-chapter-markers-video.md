@@ -3,12 +3,12 @@ title: 在视频中添加章节标记
 seo-title: 在视频中添加章节标记
 description: 'null'
 seo-description: 了解如何向视频添加章节标记。
-uuid: e1e6daf-afc6-49d9-ac90-183fe2 a903 b2
+uuid: 4e1e6daf-afc6-49d9-ac90-183fe2a903b2
 contentOwner: admin
-content-type: 引用
-products: SG_ EXPERIENCE MANAGER/Dynamic-Media-Scene-7
-geptopics: SG_ SCENESELEFERENDER_ PK/类别/视频
-discoiquuid: 8bc5e552-2abb-41f0-89d2bdf3ae5d96c2
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/video
+discoiquuid: 8bc5e552-2abb-41f0-89d2-bdf3ae5d96c2
 translation-type: tm+mt
 source-git-commit: 32f5e03766466ceaafe58780e9e80dbdd4a0c3dd
 
@@ -70,7 +70,7 @@ See [WebVTT: The Web Video Text Tracks format](https://dev.w3.org/html5/webvtt/)
    请参阅[上载文件](uploading-files.md#uploading_files)。
 
 1. 在左侧的“资源库”面板中，导航到包含要与上载的章节文件关联的视频文件的资源文件夹。
-1. 在“资源浏览”面板中，选择单个视频资源，然后单击资源缩览图下面的“**预览**”&gt;“**查看器列表**”。
+1. 在“资源浏览”面板中，选择单个视频资源，然后单击资源缩览图下面的“**预览**”>“**查看器列表**”。
 1. 在“查看器列表”表中，找到名为 **Univeral_HTML5_Video** 的 HTML5 查看器，然后执行以下操作之一：
 
    * 针对弹出式视频查看器，请在名称的最右侧单击“**复制 URL**”。
