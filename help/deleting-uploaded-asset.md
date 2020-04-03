@@ -3,11 +3,11 @@ title: 删除上载的资源
 seo-title: 删除上载的资源
 description: 'null'
 seo-description: 了解如何删除已上传的资产。
-uuid: edd2b688-c377-4be1-ba16-d2 dd2 e6 f716 d
+uuid: edd2b688-c377-4be1-ba16-d2dd2e6f716d
 contentOwner: admin
-content-type: 引用
-products: SG_ EXPERIENCE MANAGER/Dynamic-Media-Scene-7
-discoiquuid: dd338c-06c6-44d5-8493-dc2087 eeffb
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+discoiquuid: dd338c8c-06c6-44d5-8493-dc2087eeeafb
 translation-type: tm+mt
 source-git-commit: 75f006fd81b0fe2dad5479cdd98e45eaada46b2a
 
