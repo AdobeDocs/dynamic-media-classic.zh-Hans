@@ -5,9 +5,9 @@ description: 'null'
 seo-description: 了解如何创建旋转集。
 uuid: 697bd78f-5e39-46bf-aa6d-ad8ab99fe40e
 contentOwner: admin
-content-type: 引用
+content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
-geptopics: SG_SCENESEVENTONDEMAND_PK/categories/spin_sets
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/spin_sets
 discoiquuid: 735b5867-e249-4627-a5a5-25c19c2255bf
 translation-type: tm+mt
 source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
@@ -21,7 +21,7 @@ source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
 
 >[!NOTE]
 >
->先前版本的Dynamic Media Classic不提供二维旋转集。 如果您在Dynamic Media Classic的先前版本中创建了旋转集，则不能先以其他名称保存一维旋转集。 在旋转集屏幕中单击另存为，然后输入新名称，以便在Dynamic Media Classic中编辑它。
+>先前版本的Dynamic Media Classic未优惠二维旋转集。 如果您在Dynamic Media Classic的先前版本中创建了旋转集，则不能先以其他名称保存一维旋转集。 在旋转集屏幕中单击另存为，然后输入新名称，以便在Dynamic Media Classic中编辑它。
 
 ## 旋转集图像拍摄指南 {#guidelines-for-shooting-spin-set-images}
 
@@ -102,5 +102,5 @@ source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
 **删除旋转集**
 
 1. 在网格视图、列表视图或详细信息视图中，选择一个或多个旋转集。
-1. 在全局导航栏上，单击“**文件**”&gt;“**删除**”&gt;“**删除**”。
+1. 在全局导航栏上，单击“**文件**”>“**删除**”>“**删除**”。
 
