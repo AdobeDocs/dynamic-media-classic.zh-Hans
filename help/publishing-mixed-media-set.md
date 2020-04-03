@@ -3,12 +3,12 @@ title: 发布混合媒体集
 seo-title: 发布混合媒体集
 description: 'null'
 seo-description: 了解如何发布混合媒体集。
-uuid: 4172347c-7bb3-468d-bda2-fd1 c26 ccab85
+uuid: 4172347c-7bb3-468d-bda2-fd1c26ccab85
 contentOwner: admin
-content-type: 引用
-products: SG_ EXPERIENCE MANAGER/Dynamic-Media-Scene-7
-geptopics: SG_ SCENESELEFERENDER_ PK/categories/mixed_ media_ set
-discoiquuid: e8694f7-c1 b5-4d45-a18 b-2b9494 db1757
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/mixed_media_sets
+discoiquuid: 4e8694f7-c1b5-4d45-a18b-2b9494db1757
 translation-type: tm+mt
 source-git-commit: a1722c15d3c049f05959d895e85297d47d730872
 
@@ -17,9 +17,9 @@ source-git-commit: a1722c15d3c049f05959d895e85297d47d730872
 
 # 发布混合媒体集{#publishing-a-mixed-media-set}
 
-创建发布作业，将已标记的混合媒体集发布到动态媒体经典视频服务器和图像服务器。动态媒体经典提供了用于发布到特定服务器的高级发布选项以及重新发布已发布的资产的选项。
+创建发布作业以发布已标记为发布到Dynamic Media Classic Video Server和Image Server的混合媒体集。 Dynamic Media Classic优惠高级发布选项，用于发布到特定服务器，以及用于重新发布已发布的资产的选项。
 
-***注意**：混合媒体集要求您发布到&#x200B;**视频服务器**以及&#x200B;**图像服务器**。使用&#x200B;**视频服务器**发布已标记为发布的实际视频。此外，您还可以使用&#x200B;**图像服务器**发布相关资源(如视频缩略图)和设置任何自适应视频集的信息。*
+***注意&#x200B;**:混合媒体集要求您发布到视**频服务器&#x200B;**，也发布**到图像服务器&#x200B;**。 使用**视频服务器&#x200B;**发布已标记为发布的实际视频。此外，您还可以使**用图像服务器&#x200B;**，发布相关资产（如视频缩略图），并为任何自适应视频集设置信息。*
 
 Scene7 Publishing System 在“作业”屏幕上跟踪发布作业。
 
