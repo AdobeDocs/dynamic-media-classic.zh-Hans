@@ -5,9 +5,9 @@ description: 'null'
 seo-description: 了解如何设置图像预设。
 uuid: 90530948-dee9-41bd-b39e-684140446abc
 contentOwner: admin
-content-type: 引用
+content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
-geptopics: SG_SCENESEVENTONDEMAND_PK/categories/image_sizing
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sizing
 discoiquuid: 1ec39fe5-7b2a-4034-9570-6b5595f97052
 translation-type: tm+mt
 source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
@@ -25,11 +25,11 @@ Dynamic Media Classic附带了几个“最佳实践”图像预设，这些预�
 
 ## 创建图像预设 {#creating-an-image-preset}
 
-如果您是公司的管理员，则可以创建自己的图像预设。您可以创建新的图像预设，也可以从Dynamic Media Classic提供的默认图像预设开始，编辑该图像预设，然后使用新名称保存它。
+如果您是公司的管理员，则可以创建自己的图像预设。您可以使用Dynamic Media Classic提供的默认图像预设创建新的图像预设或开始，编辑它，然后使用新名称保存它。
 
 **创建图像预设**
 
-1. 单击“**设置**”&gt;“**图像预设**”。
+1. 单击“**设置**”>“**图像预设**”。
 
    可以在该屏幕上浏览至一个图像预设名称来预览现有的图像预设。在选择图像预设名称时，预览窗口中示例图像的大小和外观会发生更改。
 
@@ -43,11 +43,11 @@ Dynamic Media Classic附带了几个“最佳实践”图像预设，这些预�
 1. 输入宽和高的像素数。这些数字确定了所传送图像的大小。
 1. 填写“添加预设”或“编辑预设”屏幕。有关详细信息，请参阅[图像预设选项](application-setup.md#image_preset_options)。
 
-   Dynamic Media Classic建议从以下“最佳实践”选项开始：
+   Dynamic Media Classic建议开始以下“最佳实践”选项：
 
-   * **格式**&#x200B;选择JPEG或其他符合您要求的格式。 所有 Web 浏览器都支持 JPEG 图像格式；这种格式在小文件大小与图像质量之间取得了良好平衡。然而，JPEG 格式图像使用了有损压缩模式，如果压缩设置过低，可能会产生多余的图像伪影。因此，Dynamic Media Classic建议将压缩质量（在滑块上）设置为75。 该设置在图像质量与小文件大小之间取得了良好平衡。
+   * **格式**&#x200B;选择JPEG或其他符合您要求的格式。 所有 Web 浏览器都支持 JPEG 图像格式；它可以在小文件大小和图像质量之间实现良好的平衡。但是，JPEG 格式图像使用有损压缩方案，如果压缩设置太低，则会引入不需要的图像伪影。因此，Dynamic Media Classic建议将压缩质量（在滑块上）设置为75。 此设置在图像质量和小文件大小之间提供了良好的平衡。
 
-   * **锐化**&#x200B;请勿选择锐化（此锐化滤镜提供的控制比“USM锐化”设置少）。
+   * **锐化**&#x200B;请勿选择锐化(此锐化滤镜优惠的控制比“USM锐化”设置少)。
 
    * **重新取样模**&#x200B;式选择“双三次”。
 
