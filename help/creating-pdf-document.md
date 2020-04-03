@@ -5,9 +5,9 @@ description: 'null'
 seo-description: 了解如何在Dynamic Media Classic中使用Web到打印流程创建PDF文档。
 uuid: 274fb06b-320b-40fa-8b61-c224d8aceaa1
 contentOwner: admin
-content-type: 引用
+content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
-geptopics: SG_SCENESEEVENTONDEMAND_PK/categories/template-publishing
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/template-publishing
 discoiquuid: 87e91e8e-10a2-4fba-87c7-aad2bd798146
 translation-type: tm+mt
 source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
@@ -21,13 +21,13 @@ Web-to-Print 过程的最后一步是生成自定义的 PDF。在最终用户使
 
 ## 设置 PDF 预设 {#setting-up-pdf-presets}
 
-通过创建PDF作业选项文件并将其上传到Dynamic Media Classic server来指定PDF兼容性级别和打印机设置。 例如，您可以选择符合 PDF/X-4 的 PDF 输出（建议用于 PDF 打印发布工作流程）。您可以在创作软件（如 Adobe Illustrator）或 Acrobat 中创建作业选项文件。请务必咨询您的印刷商，以便针对您的打印作业的作业选项设置给出建议。
+通过创建PDF作业选项文件并将其上传到Dynamic Media Classic Server来指定PDF兼容性级别和打印机设置。 例如，您可以选择符合 PDF/X-4 的 PDF 输出（建议用于 PDF 打印发布工作流程）。您可以在创作软件（如 Adobe Illustrator）或 Acrobat 中创建作业选项文件。请务必咨询您的印刷商，以便针对您的打印作业的作业选项设置给出建议。
 
 有关创建作业选项文件的更多信息以及有关在 Acrobat 中创建作业选项文件的信息，请参阅 Adobe Acrobat 帮助。
 
 要在 Illustrator 中创建作业选项文件：
 
-1. 选择“编辑”&gt;“Adobe PDF 预设”。
+1. 选择“编辑”>“Adobe PDF 预设”。
 1. 在此对话框中，选择要使用的预设。
 
    Dynamic Media Classic支持以下作业选项设置：
@@ -61,11 +61,11 @@ Web-to-Print 过程的最后一步是生成自定义的 PDF。在最终用户使
 
 **图像**
 
-确保发布作业中的所有图像已上传到Dynamic Media Classic server并已发布。
+确保发布作业中的所有图像已上传到Dynamic Media Classic Server并已发布。
 
 **Fonts**
 
-确保发布作业中的所有字体已上传到Dynamic Media Classic server并已发布。 如果您打算允许最终用户更改字体，请确定您具有托管这些字体的合法权限。
+确保发布作业中的所有字体已上传到Dynamic Media Classic Server并已发布。 如果您打算允许最终用户更改字体，请确定您具有托管这些字体的合法权限。
 
 **图像分辨率（每英寸像素）**
 
@@ -73,11 +73,11 @@ Dynamic Media Classic服务器在生成的可打印的PDF中保留位图图像�
 
 **颜色管理**
 
-您的文档和图像可以使用灰度、CMYK、已命名专色、RGB 或 Lab 颜色模型。每一项都可通过采用 ICC 颜色配置文件来进行校色或取消校色。为获得最佳效果，请将该配置文件嵌入生成的准备打印的 PDF 中。默认情况下，Dynamic Media Classic server会执行此操作。 确保所有必需的颜色配置文件均已上传到Dynamic Media Classic平台。 最好确保在设计应用程序中设置的颜色管理选项与在Dynamic Media Classic server中设置的颜色管理选项相匹配：
+您的文档和图像可以使用灰度、CMYK、已命名专色、RGB 或 Lab 颜色模型。每一项都可通过采用 ICC 颜色配置文件来进行校色或取消校色。为获得最佳效果，请将该配置文件嵌入生成的准备打印的 PDF 中。默认情况下，Dynamic Media Classic Server会执行此操作。 确保所有必需的颜色用户档案已上传到Dynamic Media Classic平台。 最好确保在设计应用程序中设置的颜色管理选项与在Dynamic Media Classic Server中设置的颜色管理选项相匹配：
 
 * **设计应用程序色彩管理设置：**&#x200B;在您的创作应用程序（如 Adobe Illustrator）的“颜色设置”中，请在“工作空间”部分中指定 RGB 和 CMYK 颜色配置文件。
 
-* **** Dynamic Media Classic颜色管理设置：通常，设计应用程序中的颜色管理设置应与Dynamic Media Classic服务器中的默认颜色配置文件相匹配。 您可以在“发布设置/图像服务器”窗口中找到这些设置。
+* **Dynamic Media Classic颜色管理设置：** 通常，设计应用程序中的颜色管理设置应与Dynamic Media Classic服务器中的默认颜色用户档案相匹配。 您可以在“发布设置/图像服务器”窗口中找到这些设置。
 
 ## 显示印刷标记 {#displaying-printer-marks}
 
@@ -103,7 +103,7 @@ Acrobat“添加印刷标记”屏幕中的所有标记均受支持。印刷标�
 
 * **介质**&#x200B;盒打印页面的物理介质的边界。 可以安全地放弃媒体框之外的内容，而不会影响文件的内容。
 
-* **出血框**&#x200B;在生产环境中输出时页面内容被剪切到的区域。 出血框可能包括满足剪切、折叠和裁切设备的固有限制所需的区域。默认值为页面的裁剪框。
+* **出血框**&#x200B;在生产环境中输出时，页面内容被剪切到的区域。 出血框可能包括满足剪切、折叠和裁切设备的固有限制所需的区域。默认值为页面的裁剪框。
 
 * **裁切框**&#x200B;裁切后已完成页面的预期尺寸。 裁切框可能小于媒体框，以便使用与制作相关的内容，如打印说明、剪切标记和颜色条。默认值为页面的裁剪框。
 
@@ -116,7 +116,7 @@ Acrobat“添加印刷标记”屏幕中的所有标记均受支持。印刷标�
 | bleedMargin=top,left,bottom,right | 在 Acrobat 的“设置页面框”选项中指定。选择“出血框”，然后使用“页面边距控制”选项指定边距。<br><br>值表示从插图（媒体框）的原始边缘向内到上边缘、左边缘、下边缘和右边缘的距离。值(0-1000)以点为单位。<br><br>新高度=原始高度-（顶部+底部）<br><br>新宽度=原始宽度-（左侧+右侧） |
 | mediaMargin=top,left,bottom,right | 在 Acrobat 的“设置页面框”选项中指定。在“更改页面大小”选项下修改自定义页面大小。<br><br>值表示从插图（媒体框）的原始边缘向外到上边缘、左边缘、下边缘和右边缘的距离。值(0-1000)以点为单位。<br><br>新高度=top+bottom+原始高<br><br>度新宽度=top+bottom+原始<br><br>宽度新高度和新宽度值决定生成的PDF的新页面大小。<br><br>定义新的媒体框之后，所有裁切边距和出血边距计算都需要将新的媒体框视为插图的边缘。 |
 | trimMargin=top,left,bottom,right | 在 Acrobat 的“设置页面框”选项中指定。选择“裁切框”，然后使用“页面边距控制”选项指定边距。<br><br>值表示从插图（媒体框）的原始边缘向内到上边缘、左边缘、下边缘和右边缘的距离。值(0-1000)以点为单位。<br><br>新高度=原始高度-（顶部+底部）<br><br>新宽度=原始宽度-（左侧+右侧） |
-| printerMark= trim marks, bleed marks, registration marks, color bars, page information, style, line weight, layer embed | 值如下：<br><br>裁切标记= 0,1（默认值为0）<br><br>出血标记= 0,1（默认值为0）<br><br>套版色标= 0,1（默认值为0）颜色条= 0,1（默认值为0）<br><br>page information = 0,1（默认值为0）<br><br>style = Default, InDesignJ1, InDesignJ2, IllustratorillustratorJ, QuarkXPress（默认为Default）<br><br><br><br><br><br><br><br>line weight= 0.125-0.2（默认值为0.25）embedlayer = 0)，其中1个新图层包含所有打印机标记（默认值为1）。根据使用的样式，标记和对应的标记颜色与Acrobat使用的样式不同，创建匹配。. |
+| printerMark= trim marks, bleed marks, registration marks, color bars, page information, style, line weight, layer embed | 值如下：<br><br>裁切标记= 0,1（默认值为0）<br><br>出血标记= 0,1（默认值为0）<br><br>套版色标= 0,1（默认值为0）颜色条= 0,1（默认值为0）<br><br>page information = 0,1（默认值为0）<br><br>style = Default, InDesignJ1, InDesignJ2, IllustratorillustratorJ, QuarkXPress（默认为）<br><br><br><br><br><br><br><br>line权重（默认值为Default）= 0.125-0.2，两个值（默认值为0.25）embed = 0，都包含1个包含所有打印机标记的新图层（默认值为1）QuarkXPress)。acrobat. |
 
 请注意以下有关印刷标记的事项：
 
