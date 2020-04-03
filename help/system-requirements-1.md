@@ -2,13 +2,13 @@
 title: 系统要求
 seo-title: 系统要求
 description: 'null'
-seo-description: '通过Media Portal了解有关最佳体验的系统要求。 '
-uuid: e870b198-19e-4647-8833-276358de53d
+seo-description: '了解系统要求，以获得最佳的使用Media Portal体验。 '
+uuid: e870b198-19ae-4647-8833-2764358de53d
 contentOwner: admin
-content-type: 引用
-products: SG_ EXPERIENCE MANAGER/Dynamic-Media-Scene-7
-geptopics: SG_ SCENESELEFERENDER_ PK/categories/media_ Portal
-discoiquuid: 43df059d-7c4d-481a-978a-ca4 c74 e604 b4
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/media_portal
+discoiquuid: 43df059d-7c4d-481a-978a-ca4c74e604b4
 translation-type: tm+mt
 source-git-commit: a1722c15d3c049f05959d895e85297d47d730872
 
@@ -17,7 +17,7 @@ source-git-commit: a1722c15d3c049f05959d895e85297d47d730872
 
 # Media Portal系统要求 {#system-requirements}
 
-为了获得使用Dynamic Media经典媒体门户的最佳体验，请确保您的系统满足以下系统要求和建议：
+为获得使用Dynamic Media Classic Media Portal的最佳体验，请确保您的系统满足以下系统要求和建议：
 
 * 需要 Microsoft® Windows® 7 或更高版本、Mac OS X 10.6 或更高版本以及 Macintosh® Intel 处理器。
 * 需要 3 GB RAM 或更高（建议使用 4 GB 或更高）。
