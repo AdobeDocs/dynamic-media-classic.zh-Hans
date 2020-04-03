@@ -5,9 +5,9 @@ description: 'null'
 seo-description: 了解如何使用项目组织您的工作。
 uuid: bd2b1792-e2d9-4a15-90c1-8ef2cf632867
 contentOwner: admin
-content-type: 引用
+content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
-geptopics: SG_SCENESEEVENTONDEMAND_PK/categories/managing_assets
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: 036dfc1f-8317-4887-a6e1-d8f2cb61819c
 translation-type: tm+mt
 source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
@@ -51,12 +51,12 @@ source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
 
 * **删除项目文件夹**&#x200B;选择项目文件夹，然后选择“删除项目”按钮。 从项目文件夹删除资源不会将其从 Scene7 Publishing System 中删除；资源仍停留在最初所存储的文件夹中。
 
-* **重命名项目文**&#x200B;件夹在“资产”面板中双击文件夹的名称，然后输入新名称。
+* **重命名项目文件夹**&#x200B;多次，在“资产”面板中单击文件夹的名称，然后输入新名称。
 
 ## 将资源添加到项目文件夹 {#adding-assets-to-a-project-folder}
 
 您可以先在浏览面板中将图像添加到项目文件夹中，也可以在将文件上载到 Scene7 Publishing System 时添加：
 
-* **从浏览面板中**，选择资产并将其拖动到项目文件夹。 也可以选择“文件”&gt;“添加到项目”，在“选择项目”对话框中选择一个项目文件夹名称，然后选择“提交”按钮。
+* **从浏览面板中**，选择资产并将其拖动到项目文件夹。 也可以选择“文件”>“添加到项目”，在“选择项目”对话框中选择一个项目文件夹名称，然后选择“提交”按钮。
 
 * **在“上传”屏**&#x200B;幕中上传文件时，单击“作业选项”按钮。 在“上载作业选项”对话框中，选择“项目”，然后选择一个项目名称。
