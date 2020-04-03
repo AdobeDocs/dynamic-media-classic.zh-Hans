@@ -5,9 +5,9 @@ description: 了解如何设置Dynamic Media Classic的应用程序区域。
 seo-description: 了解如何设置Dynamic Media Classic的应用程序区域。
 uuid: 3e2f1d30-8f33-4a9d-bbe4-e8c3dbc968f8
 contentOwner: admin
-content-type: 引用
+content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
-geptopics: SG_SCENESEEVENTONDEMAND_PK/categories/setup
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/setup
 discoiquuid: ae2d1895-a437-4463-bfac-3960c8027551
 translation-type: tm+mt
 source-git-commit: 8216ac64ba418987c7f5ed84c4cb957189645bd9
@@ -25,33 +25,33 @@ source-git-commit: 8216ac64ba418987c7f5ed84c4cb957189645bd9
 
 ## 常规设置 {#general-settings}
 
-To open the Application General Settings page, on the Global Navigation bar, click **[!UICONTROL Setup &gt; Application Setup &gt; General Settings]**.
+要打开“应用程序常规设置”页面，请在全局导航栏上，单击“**[!UICONTROL 设置”>“应用程序设置”>“常规设置]**”。
 
 ### 服务器
 
-在创建帐户时，Dynamic Media Classic会自动为您的公司提供分配的服务器。 这些服务器用于构建网站和应用程序的 URL 字符串。这些 URL 调用是您的帐户所特有的。
+在创建帐户时，Dynamic Media Classic会自动为您的公司提供已分配的服务器。 这些服务器用于构建网站和应用程序的 URL 字符串。这些 URL 调用是您的帐户所特有的。
 
 另请参阅[测试安全测试服务](testing-assets-making-them-public.md#testing_the_secure_testing_service)。
 
 **发布的服务器名** ：此服务器是在特定于您的帐户的所有系统生成的URL调用中使用的实时CDN服务器。 除非Dynamic Media Classic支持技术人员指示您更改此服务器名称。
 
-**源服务器名称** 此服务器仅用于质量保证测试。 除非Dynamic Media Classic支持技术人员指示更改此服务器名称，否则请勿更改此名称。
+**来源服务器名称** 此服务器仅用于质量保证测试。 除非Dynamic Media Classic支持技术人员指示更改此服务器名称，否则请勿更改此名称。
 
 **AGM服务器名称** 此服务器用于Web到打印模板。 在公司范围内设置此服务器。除非Dynamic Media Classic支持技术人员指示更改此服务器名称，否则请勿更改此名称。
 
-**Test&amp;Target服务器名称** Test&amp;Target URL，最多包括。com。 有关获取此URL的说明，请参阅将Dynamic Media Classic与Target Classic集成。
+**Test&amp;目标服务器名** Test&amp;目标URL，最多包括。com。 有关获取此URL的说明，请参阅将Dynamic Media Classic与目标经典集成。
 
-**iOS Streaming server名称** Dynamic Media Classic iOS流服务器的URL。 该服务器使用 HTTP 协议将流视频发送至 iOS 设备。
+**iOS Streaming Server名称** Dynamic Media Classic iOS流服务器的URL。 该服务器使用 HTTP 协议将流视频发送至 iOS 设备。
 
 **渐进式视频服务器名** ，指向Dynamic Media Classic渐进式视频服务器的URL。 该服务器使用 HTTP 协议发送渐进式视频。
 
 **显示未发布资产的URL** 如果您希望Dynamic Media Classic在预览任何资产时显示URL（无论是否已发布），请选择此选项。 如果资源未发布，此 URL 将无效。但是，您可以使用 URL 进行计划或组织。
 
-**允许AIR安装** 选择此选项可允许用户将Scene7 Publishing system桌面版本下载到其本地硬盘。 用户从“个人设置”屏幕的“桌面版本”区域中安装该应用程序。
+**允许AIR安装** 选择此选项可允许用户将Scene7 Publishing System桌面版本下载到其本地硬盘。 用户从“个人设置”屏幕的“桌面版本”区域中安装该应用程序。
 
 AIR 用户必须手动卸载其现有应用程序，并通过 Scene7 Publishing System 的 Web 版本（在“个人设置”中）重新安装。在本次一次性重新安装后，只要服务器有 Scene7 Publishing System AIR 的新版本就会提示您升级。Scene7 Publishing System 与应用程序更新框架集成在一起，从而简化了升级过程。
 
-**CDN失效模板** 指定用于使CDN（内容交付网络）缓存失效的模板。
+**CDN失效模板** 指定用于使CDN(内容投放网络)缓存失效的模板。
 
 For example, suppose you enter an image URL (including image presets or modifiers) referencing `<ID>`, instead of a specific image ID as in the following example:
 
@@ -59,7 +59,7 @@ For example, suppose you enter an image URL (including image presets or modifier
 
 If the Template just contains `<ID>`, then SPS fills in the `https://<server>/is/image`, where `<server>` is the Publish Server Name that is defined in General Settings.
 
-如果设置 CDN 失效模板，选择名为 Backpack_B 的图像，然后单击“**文件**”&gt;“**使 CDN 失效**”，则会在“使 CDN 失效”界面中生成以下 URL：
+如果设置 CDN 失效模板，选择名为 Backpack_B 的图像，然后单击“**文件**”>“**使 CDN 失效**”，则会在“使 CDN 失效”界面中生成以下 URL：
 
 `https://sample.scene7.com/is/image/Company/Backpack_B?$s7product$`
 
@@ -67,7 +67,7 @@ If the Template just contains `<ID>`, then SPS fills in the `https://<server>/is
 
 在选择 CDN 失效模板并发出使 CDN 失效请求后，将在用户界面中弹出指示符以估算清除缓存需要多长时间。
 
-同样，如果在单击“**文件**”&gt;“**使 CDN 失效**”时在 SPS 中选择了多个图像，将在保存的模板 URL 中引用每个图像。因此，您可以定义一个引用您网站上所引用的各 URL（如产品详细信息、搜索结果等）的 CDN 失效模板。随后，当您从缓存中选择一个或多个图像以便设为失效时，这些 URL 将自动填充界面。
+同样，如果在单击“**文件**”>“**使 CDN 失效**”时在 SPS 中选择了多个图像，将在保存的模板 URL 中引用每个图像。因此，您可以定义一个引用您网站上所引用的各 URL（如产品详细信息、搜索结果等）的 CDN 失效模板。然后，当您从缓存中选择一个或多个要失效的图像时，URL 会自动填充该界面。
 
 请参阅[内容缓存](scene7-platform-overview.md#content_caching)。
 
@@ -87,7 +87,7 @@ If the Template just contains `<ID>`, then SPS fills in the `https://<server>/is
 
 但是，您仍可以访问主视频或自适应视频集的各个编码视频。要执行以上操作，请双击视频缩略图图像，打开详细信息视图。然后单击右边侧面板的“**编码的视频**”，访问所有“子”视频。
 
-您也可以使用“**文件”&gt;“重新处理**”以直接从自适应视频集创建更多编码的“子”视频。Scene7 Publishing System 可自动查找自适应视频集的“父”主视频并将其用作转码的源视频。但是，如果保存新的单个编码视频，您在搜索或浏览时将看不到这些视频。但是，您仍可以从详细信息视图的“编码的视频”选项卡进行访问。
+您也可以使用“**文件”>“重新处理**”以直接从自适应视频集创建更多编码的“子”视频。Scene7 Publishing System 可自动查找自适应视频集的“父”主视频并将其用作转码的源视频。但是，如果保存新的单个编码视频，您在搜索或浏览时将看不到这些视频。但是，您仍可以从详细信息视图的“编码的视频”选项卡进行访问。
 
 请参阅[上载和转码视频](uploading-encoding-videos.md#uploading_and_encoding_videos)。
 
@@ -97,15 +97,15 @@ If the Template just contains `<ID>`, then SPS fills in the `https://<server>/is
 
 >[注意]
 >
->如果您未使用Scene7 Publishing system上传视频资产并对其进行编码，Dynamic Media Classic会显示您的所有单独编码视频，即使取消选择此选项也是如此。
+>如果您未使用Scene7 Publishing System上传视频资产并对其进行编码，Dynamic Media Classic会显示您的所有单独编码视频，即使取消选择此选项也是如此。
 
 **显示“刷新子文件夹** ”按钮打开或关闭子文件夹“刷新”按钮的显示。
 
 **Dynamic Media Classic FTP帐户**
 
-**服务器** 列出您的FTP帐户服务器。
+**服务器** 列表您的FTP帐户服务器。
 
-**用户名** ，列出您的FTP帐户用户名。
+**用户名** ,列表您的FTP帐户用户名。
 
 **上载到应用程序**
 
@@ -127,9 +127,9 @@ If the Template just contains `<ID>`, then SPS fills in the `https://<server>/is
 
 此选项是最具包容性的替换规则。可以将替换图像上载到与原始文件所在文件夹不同的文件夹，使用不同的文件扩展名上载文件，并替换原始文件。如果原始文件在不同的文件夹中，替换图像则位于其所上载至的新文件夹。
 
-**保留发布** ：指定上传到Dynamic Media Classic的替换图像是保留其要替换的图像的“准备发布”设置，还是在上传时指定该设置。
+**保留发布** ：指定上传到Dynamic Media Classic的替换图像是保留要替换的图像的“准备发布”设置，还是在上传时指定该设置。
 
-**默认颜色配置文件** -指定在添加CMYK图像时作为默认颜色配置文件选项的一部分应用的颜色配置文件。
+**默认颜色用户档案** ：指定在添加CMYK图像时作为“默认颜色用户档案选项”的一部分应用的颜色用户档案。
 
 **默认上传选项** 打开“上传作业选项”对话框，您可以在其中指定默认的上传选项。 有关这些选项的信息，请参阅上载选项。
 
@@ -161,13 +161,13 @@ If the Template just contains `<ID>`, then SPS fills in the `https://<server>/is
 
 管理员可以创建导出资源的预设。用户可以在导出图像时选择预设，这同时将按照管理员指定的规范重新设置图像的格式。
 
-To open the Image Preset screen, on the Global Navigation bar, click **Setup** &gt; **Image Presets**.
+To open the Image Preset screen, on the Global Navigation bar, click **Setup** > **Image Presets**.
 
 请参阅 [智能成像](https://helpx.adobe.com/experience-manager/6-3/assets/using/imaging-faq.html)。
 
 ### 创建和编辑图像预设 {#creating-and-editing-image-presets}
 
-1. 单击“**设置**”&gt;“**图像预设**”。
+1. 单击“**设置**”>“**图像预设**”。
 1. 创建新预设或从现有预设开始：
    * **创建图像预设** -单击“添 **加”**。
    * **从现有预设创建图像预设** -选择与要创建的图像预设最相似的图像预设，然后单击编辑。
@@ -254,23 +254,23 @@ To open the Image Preset screen, on the Global Navigation bar, click **Setup** &
 
 **颜色** ：选择以下选项：
 
-**输出颜色配置文件** 选择“使用默认值”或Scene7 Publishing system上提供的ICC颜色配置文件之一。
+**输出颜色用户档案** 选择“使用默认值”或Scene7 Publishing System上可用的ICC颜色用户档案之一。
 
 另请参阅[ ICC 配置文件](icc-profiles.md#icc_profiles)。
 
-**渲染方法** 如果要覆盖颜色配置文件的默认渲染方法，请选择一个选项。 其中一个默认 ICC 配置文件是颜色转换的目标颜色空间、输出设备（打印机或显示器）具有此配置文件、指定的渲染方法对此配置文件有效时，请使用此选项。
+**渲染方法** 如果要覆盖颜色用户档案的默认渲染方法，请选择一个选项。 其中一个默认 ICC 配置文件是颜色转换的目标颜色空间、输出设备（打印机或显示器）具有此配置文件、指定的渲染方法对此配置文件有效时，请使用此选项。
 
-**嵌入配置文件** -选择此选项后，如果您在Adobe® Photoshop®中打开此图像，它将使用此配置文件。
+**嵌入用户档案** 选择此选项，这样，如果您在Adobe® Photoshop®中打开此图像，它就会使用此用户档案。
 
 **打印分辨率** ：选择打印此图像的分辨率；默认为72像素。
 
 **URL修饰符** 如果您希望指定用于定义图像预设的URL修饰符，而不是设置，请在此处输入修饰符。
 
-**示例图像URL** 列出Dynamic Media图像服务器用来传送包含您添加或编辑的图像预设的图像的“原始”URL字符串。 该 URL 字符串编码您在“添加预设”或“编辑预设”屏幕中选择的所有格式设置。
+**示例图像URL** 列表Dynamic Media图像服务器用来传送包含您添加或编辑的图像预设的图像的“原始”URL字符串。 该 URL 字符串编码您在“添加预设”或“编辑预设”屏幕中选择的所有格式设置。
 
 ### 编辑、删除或停用图像预设 {#editing-removing-or-deactivating-an-image-preset}
 
-1. 单击“**设置**”&gt;“**图像预设**”。
+1. 单击“**设置**”>“**图像预设**”。
 1. 在“图像预设”屏幕中，选择表中的某个预设，然后执行以下任一操作：
 
    * Click **Edit** and then specify new options in the Edit Preset dialog box.
@@ -279,7 +279,7 @@ To open the Image Preset screen, on the Global Navigation bar, click **Setup** &
 
 ## 激活或停用自适应视频预设 {#activating-or-deactivating-adaptive-video-presets}
 
-Dynamic Media Classic提供自适应视频编码预设。 它是一个将 16:9 自适应视频预设和 4:3 自适应视频预设合并为一组的总预设列表。这些预定义的预设反映了最常用的编码设置，并且经过优化以便在目标移动设备、平板电脑和台式机上播放。
+Dynamic Media Classic优惠自适应视频编码预设。 它是一个将 16:9 自适应视频预设和 4:3 自适应视频预设合并为一组的总预设列表。这些预定义的预设反映了最常用的编码设置，并且经过优化以便在目标移动设备、平板电脑和台式机上播放。
 
 默认情况下，仅激活（启用或“打开”）“自适应视频”编码预设。您可以根据需要将其停用。在“上载作业选项”对话框的 eVideo 部分中，非活动自适应视频预设不会显示为可选择的选项。
 
@@ -287,7 +287,7 @@ Dynamic Media Classic提供自适应视频编码预设。 它是一个将 16:9 �
 
 **激活或停用自适应视频预设**
 
-1. 在 Scene7 Publishing System 的右上角附近，单击“**设置**”&gt;“**应用程序设置**”&gt;“**视频预设**”&gt;“**自适应视频预设**”。
+1. 在 Scene7 Publishing System 的右上角附近，单击“**设置**”>“**应用程序设置**”>“**视频预设**”>“**自适应视频预设**”。
 1. 在“自适应视频预设”页中，取消选中某个预设名称旁边的复选框，以将该预设从“上载作业选项”对话框的“eVideo 选项”列表中删除。
 1. 单击“**关闭**”。
 
@@ -303,11 +303,11 @@ Dynamic Media Classic提供自适应视频编码预设。 它是一个将 16:9 �
 
    **16:9 自适应视频**
 
-   创建16:9长宽比视频，以交付到台式机、手机(iPhone、iPad、Android)和平板电脑(iPad、Android)，并使用最匹配查看器连接速度的分辨率和比特率进行优化。
+   创建16:9长宽比视频，用于投放到台式机、手机(iPhone、iPad、Android)和平板电脑(iPad、Android)，其分辨率和比特率与查看器的连接速度最匹配。
 
    **4:3 自适应视频**
 
-   创建4:3长宽比视频，以交付到台式机、手机(iPhone、iPad、Android)和平板电脑(iPad、Android)，并使用最匹配查看器连接速度的分辨率和比特率进行优化。
+   创建用于投放到台式机、手机(iPhone、iPad、Android)和平板电脑(iPad、Android)的4:3长宽比视频，其分辨率和比特率与查看器的连接速度最匹配。
 
    **自适应视频**
 
@@ -319,7 +319,7 @@ Dynamic Media Classic提供自适应视频编码预设。 它是一个将 16:9 �
 
    **自适应视频编码（16:9 或 4:3）**
 
-   创建16:9和4:3长宽比视频，以便交付到台式机、手机(iPhone、iPad、Android)和平板电脑(iPad、Android)，并使用最匹配查看器连接速度的分辨率和比特率进行优化。
+   创建16:9和4:3长宽比视频，以便投放到台式机、手机(iPhone、iPad、Android)和平板电脑(iPad、Android)，并使用最匹配查看器连接速度的分辨率和比特率进行优化。
 
    请参阅[自适应视频编码（16:9 或 4:3）视频预设](application-setup.md#adaptive_video_encoding_16_9_or_4_3_video_presets)。
 
@@ -443,7 +443,7 @@ Dynamic Media Classic提供自适应视频编码预设。 它是一个将 16:9 �
 
 >[!NOTE]
 >
->**Flash查看器生命周期结束通知** -自2017年1月31日起，Adobe Scene7 Publishing system正式终止对Flash查看器平台的支持。 有关此重要更改的更多信息，请参阅以下常见问题解答网站： [https://docs.adobe.com/content/docs/en/aem/6-1/administer/integration/marketing-cloud/scene7/flash-eol.html](https://docs.adobe.com/content/docs/en/aem/6-1/administer/integration/marketing-cloud/scene7/flash-eol.html)。
+>**Flash查看器生命周期结束通知** -自2017年1月31日起，Adobe Scene7 Publishing System正式终止对Flash查看器平台的支持。 有关此重要更改的更多信息，请参阅以下常见问题解答网站： [https://docs.adobe.com/content/docs/en/aem/6-1/administer/integration/marketing-cloud/scene7/flash-eol.html](https://docs.adobe.com/content/docs/en/aem/6-1/administer/integration/marketing-cloud/scene7/flash-eol.html)。
 
 *查看器预设*&#x200B;是一组设置，决定了用户如何在其计算机屏幕和移动设备上查看富媒体资源。作为管理员，您可以创建查看器预设。提供适用于一系列查看器配置选项的设置。例如，您可以更改查看器显示尺寸、缩放行为、颜色方案、边框和字体。
 
@@ -475,11 +475,11 @@ See [Responsive Static Image library](https://marketing.adobe.com.com/resources/
 
 **混合媒体集查看器** -在一个查看器中显示不同类型的媒体。 您可以包括样本集、旋转集、图像和视频。您可以设置各个选项卡，以包含不同类型的内容，例如，一个选项卡用于图像集、一个选项卡用于视频。从混合媒体集播放的视频使用具有时间线和视频控件（如停止、暂停、回放和播放）的标准视频查看器。您设置混合媒体集查看器预设时，指定要将哪些查看器用于“混合媒体集”中的不同类型的资源。您还可以使用“网格查看器”或“轮盘式查看器”来查看混合媒体集。
 
-**旋转集查看器** -提供图像的多个视图，以便用户可以旋转对象以检查不同的侧面和角度。
+**旋转集查看器** -提供图像的多视图，以便用户可以旋转对象以检查不同的侧边和角度。
 
 **视频查看器** -使用源文件的分辨率尺寸或自定义大小显示视频。 Dynamic Media Classic附带许多用于播放视频的预定义查看器预设，如果您是管理员，则可以创建自定义视频查看器预设。 有十几种不同的设置可用于配置“视频查看器”。您可以配置其大小、前景和背景颜色、视频和音频控件、进度条、用户界面外观、社交功能和“帮助”。
 
-**缩放查看器** ：提供三种缩放查看器类型的选项：
+**缩放查看器** ,优惠三种缩放查看器：
 
 **缩放查看器** -允许用户通过单击来放大区域。 用户可以单击控件来放大、缩小图像、并将图像重置为其默认大小。
 
@@ -489,9 +489,9 @@ See [Responsive Static Image library](https://marketing.adobe.com.com/resources/
 
 例如，如果您的主图像大小是 350 X 350 像素，缩放系数为 3，则生成的弹出图像是 1050 X 1050 像素。如果您的主图像大小是 300 X 300 像素，缩放系数为 4，则弹出图像是 1200 X 1200 像素。根据 JPEG 品质设置（推荐的设置介于 80-90），您可以显著地减少文件大小。建议的缩放系数为 2.5 至 4，取决于您的主图像的大小。
 
-### Dynamic Media Classic查看器预设兼容性表 {#scene-viewer-preset-compatibility-matrix}
+### Dynamic Media Classic Viewer预设兼容性表 {#scene-viewer-preset-compatibility-matrix}
 
-**Flash查看器生命周期结束通知**:自2017年1月31日起，Adobe Scene7 Publishing system正式终止对Flash查看器平台的支持。
+**Flash查看器生命周期结束通知**:自2017年1月31日起，Adobe Scene7 Publishing System正式终止对Flash查看器平台的支持。
 
 有关此重要更改的更多信息，请参阅以下常见问题解答网站： [https://docs.adobe.com/content/docs/en/aem/6-1/administer/integration/marketing-cloud/scene7/flash-eol.html](https://docs.adobe.com/content/docs/en/aem/6-1/administer/integration/marketing-cloud/scene7/flash-eol.html)。
 
@@ -569,7 +569,7 @@ Dynamic Media Classic支持MP4 H.264视频的移动视频播放。
 
 ### 关于“查看者预设”屏幕 {#about-the-viewer-preset-screen}
 
-在“查看器预设”屏幕上创建和管理“查看器预设”。要打开此屏幕，请单击“**设置**”&gt;“**查看器预设**”。
+在“查看器预设”屏幕上创建和管理“查看器预设”。要打开此屏幕，请单击“**设置**”>“**查看器预设**”。
 
 “查看器预设”屏幕提供了用于执行以下任务的工具：
 
@@ -587,7 +587,7 @@ Dynamic Media Classic支持MP4 H.264视频的移动视频播放。
 
 请参 [阅导出HTML5查看器预设](application-setup.md#exporting_an_html5_viewer_preset)。
 
-**筛选查看器预设列表** 使用这些工具筛选列表：
+**筛选查看器预设列表** 使用这些工具筛选列表:
 
 * 打开“**活动/非活动**”下拉列表并选择一个选项，以显示活动预设、非活动预设或所有预设。
 * 打开“**查看器**”下拉列表并选择一个选项，以仅查看特定类型的查看器。选择“**所有查看器**”以查看所有查看器。
@@ -610,7 +610,7 @@ Dynamic Media Classic支持MP4 H.264视频的移动视频播放。
 
 **添加和编辑查看器预设**
 
-1. 在 Scene7 Publishing System 的右上角附近，单击“**设置**”&gt;“**查看器预设**”。
+1. 在 Scene7 Publishing System 的右上角附近，单击“**设置**”>“**查看器预设**”。
 
    您可以过滤预设列表。例如，要仅查看视频查看器的预设，请从表正上方的工具栏上的“查看器”下拉列表中选择“视频查看器”。
 
@@ -657,7 +657,7 @@ Dynamic Media Classic支持MP4 H.264视频的移动视频播放。
 https://s7d1.scene7.com/is/image/Scene7SharedAssets/FullScreenButton_dark_sprite?scl=1&fmt=png-alpha
 ```
 
-1. 单击“**设置**”&gt;“**查看器预设**”。
+1. 单击“**设置**”>“**查看器预设**”。
 1. On the Viewer Presets toolbar, in the second drop-down list from the left, select **HTML5**.
 1. 在左边的第三个下拉列表中，选择“**所有查看器**”。
 1. 选择要用作新HTML5查看器预设基础的查看器预设。
@@ -687,7 +687,7 @@ https://s7d1.scene7.com/is/image/Scene7SharedAssets/FullScreenButton_dark_sprite
 
 **激活或停用查看器预设**
 
-1. Choose **Setup** &gt; **Viewer Presets** to open the Viewer Presets screen.
+1. Choose **Setup** > **Viewer Presets** to open the Viewer Presets screen.
 1. 选择或取消选择“活动”选项以激活或停用“查看器预设”。
 
 ### 复制查看器预设的 URL {#copying-the-url-of-a-viewer-preset}
@@ -702,20 +702,20 @@ URL 即复制到剪贴板中。您可以根据需要在网页的 HTML 代码、�
 1. 在“资源浏览”面板上方的工具栏右侧，执行以下任一操作：
 
    * 单击“**网格视图**”。在“资源浏览”面板中，双击单个资源以便在详细信息视图中将其打开。在右侧的“URL 和嵌入代码”面板中，单击所需查看器右侧的“**复制 URL**”。
-   * 单击“**网格视图**”。在“资源浏览”面板中，选择单个资源，然后在缩略图图像下方单击“**预览**”&gt;“**查看器列表**”。
+   * 单击“**网格视图**”。在“资源浏览”面板中，选择单个资源，然后在缩略图图像下方单击“**预览**”>“**查看器列表**”。
    在“查看器列表”页面中表的“操作”列下，单击“**复制 URL**”。
 
-   * 单击“**列表视图**”。在“资源浏览”面板中，选择单个资源，然后在缩略图图像右侧单击“**预览**”&gt;“**查看器列表**”。
+   * 单击“**列表视图**”。在“资源浏览”面板中，选择单个资源，然后在缩略图图像右侧单击“**预览**”>“**查看器列表**”。
    在“查看器列表”页面中表的“操作”列下，单击“**复制 URL**”。
 
-   * 单击“**网格视图**”、“**列表视图**”或“**详细信息视图**”。在同一工具栏上，单击“**预览**”&gt;“**查看器列表**”。
+   * 单击“**网格视图**”、“**列表视图**”或“**详细信息视图**”。在同一工具栏上，单击“**预览**”>“**查看器列表**”。
    在“查看器列表”页面中表的“操作”列下，单击“**复制 URL**”。
 
 ### 复制查看器预设的嵌入代码 {#copying-the-embed-code-of-a-viewer-preset}
 
 使用嵌入代码功能，您可以查看用于所选查看器预设的查看器代码。您也可以将代码复制到剪贴板中，以便可以将其粘贴到网页中以部署查看器。
 
-在“嵌入代码”对话框中不允许编辑代码。
+不允许在“嵌入代码”对 话框中编辑代码 。
 
 **复制查看器预设的嵌入代码**
 
@@ -723,13 +723,13 @@ URL 即复制到剪贴板中。您可以根据需要在网页的 HTML 代码、�
 1. 在“资源浏览”面板上方的工具栏右侧，执行以下任一操作：
 
    * 单击“**网格视图**”。在“资源浏览”面板中，双击单个资源以便在详细信息视图中将其打开。在右侧的“URL”面板中，单击“**嵌入代码**”。
-   * 单击“**网格视图**”。在“资源浏览”面板中，选择单个资源，然后在缩略图图像下方单击“**预览**”&gt;“**查看器列表**”。
+   * 单击“**网格视图**”。在“资源浏览”面板中，选择单个资源，然后在缩略图图像下方单击“**预览**”>“**查看器列表**”。
    在“查看器列表”页面中表的“操作”列下，单击“**嵌入代码**”。
 
-   * 单击“**列表视图**”。在“资源浏览”面板中，选择单个资源，然后在缩略图图像右侧单击“**预览**”&gt;“**查看器列表**”。
+   * 单击“**列表视图**”。在“资源浏览”面板中，选择单个资源，然后在缩略图图像右侧单击“**预览**”>“**查看器列表**”。
    在“查看器列表”页面中表的“操作”列下，单击“**嵌入代码**”。
 
-   * 单击“**网格视图**”、“**列表视图**”或“**详细信息视图**”。在同一工具栏上，单击“**预览**”&gt;“**查看器列表**”。
+   * 单击“**网格视图**”、“**列表视图**”或“**详细信息视图**”。在同一工具栏上，单击“**预览**”>“**查看器列表**”。
    在“查看器列表”页面中表的“操作”列下，单击“**嵌入代码**”。
 
 1. 在“嵌入代码”对话框中，单击“**复制到剪贴板**”。
@@ -750,7 +750,7 @@ URL 即复制到剪贴板中。您可以根据需要在网页的 HTML 代码、�
 **配置默认查看器**
 
 1. In the Setup drop-down list, click **Application Setup**.
-1. In the Setup window, in the left pane, expand **Application Setup** &gt; **Viewers**
+1. In the Setup window, in the left pane, expand **Application Setup** > **Viewers**
 1. Click **Default Viewers**.
 1. 在“默认查看器”窗口中，在每种资源类型的下拉列表中，选择要与该资源的预览关联的查看器。
 1. In the lower-right corner of the Default Viewers window, click **Save Settings**.
@@ -764,7 +764,7 @@ Dynamic Media Classic附带预定义的元数据视图，管理员可以创建�
 
 ### 创建元数据视图 {#creating-a-metadata-view}
 
-1. Click **Setup** &gt; **Application Setup** &gt; **Metadata** &gt; **Metadata Views**.
+1. Click **Setup** > **Application Setup** > **Metadata** > **Metadata Views**.
 1. 单击“**添加**”。
 1. 在“预设名称”文本字段中，输入视图的名称。
 1. (Optional) Check **Make Default** to make this view the one that users see when they open the Metadata panel in Detail View.
@@ -776,7 +776,7 @@ Dynamic Media Classic附带预定义的元数据视图，管理员可以创建�
 
 ### 管理元数据视图 {#managing-metadata-views}
 
-1. Click **Setup** &gt; **Application Setup** &gt; **Metadata** &gt; **Metadata Views**.
+1. Click **Setup** > **Application Setup** > **Metadata** > **Metadata Views**.
 1. 执行以下任一操作：
 
    * 要预览视图，请将其选中。视图中的字段将显示在“预览”面板中。
@@ -792,10 +792,10 @@ Dynamic Media Classic附带预定义的元数据视图，管理员可以创建�
 
 ### 创建或编辑元数据预设 {#creating-or-editing-a-metadata-preset}
 
-1. Click **Setup** &gt; **Application Setup** &gt; **Metadata** &gt; **Metadata Presets** .
+1. Click **Setup** > **Application Setup** > **Metadata** > **Metadata Presets** .
 1. 在“元数据预设”屏幕中，执行以下任一操作：
 
-   * To create a preset, click **Add**. 在“元数据模板名称”文本字段中，键入预设的名称，然后单击“元数据视图” **，并从下拉列表中选择一个视图(请参** 阅元数据视图 [](application-setup.md#metadata_views))。
+   * To create a preset, click **Add**. 在元数据模板名称文本字段中，键入预设的名称，然后单击 **元数据视图** ，并从下拉列表中选择一个视图(请参阅元 [数据视图](application-setup.md#metadata_views))。
    * To edit an existing preset, select the preset from the Metadata Presets list and then click **Edit**.
 
 1. 展开您要在预设中包括的标题，并在您要在预设中包括的不同字段中输入值。
@@ -805,7 +805,7 @@ Dynamic Media Classic附带预定义的元数据视图，管理员可以创建�
 
 ### 管理元数据预设 {#managing-metadata-presets}
 
-1. Click **Setup** &gt; **Application Setup** &gt; **Metadata** &gt; **Metadata Presets**.
+1. Click **Setup** > **Application Setup** > **Metadata** > **Metadata Presets**.
 1. 执行以下任一操作：
 
    * 要预览预设，请选择您要预览的预设。预设信息（类别和字段）将显示在“预览”屏幕中。
@@ -813,9 +813,9 @@ Dynamic Media Classic附带预定义的元数据视图，管理员可以创建�
 
 ## 用户定义的字段 {#user-defined-fields}
 
-Media Portal 管理员或公司管理员可以创建自定义的、用户定义的元数据字段。自定义字段可以帮助您在Scene7 Publishing system中组织资产。 您可以根据需要将字段标记为“活动”。 激活后，这些自定义元数据字段的名称会显示在详细信息视图中的“元数据”面板中。用户可以在用户定义的元数据字段中输入信息以描述资源。用户也可以使用户定义的元数据字段成为搜索条件。
+Media Portal 管理员或公司管理员可以创建自定义的、用户定义的元数据字段。自定义字段可以帮助您在Scene7 Publishing System中组织资产。 您可以根据需要将字段标记为“活动”。 激活后，这些自定义元数据字段的名称会显示在详细信息视图中的“元数据”面板中。用户可以在用户定义的元数据字段中输入信息以描述资源。用户也可以使用户定义的元数据字段成为搜索条件。
 
-高效使用用户定义的元数据字段的一种方式是为特定启动或销售延迟资源的激活时间。您可以根据“日期”类型定义“激活” *字段*。 Then, using the **Metadata** panel in **Detail** view or **File** &gt; **Edit Info**, you can specify when the asset is activated. Scene7 Publishing System 会检查资源的发布状态和发布历史记录。如果它不在激活时间内，则发布状态显示为“未发布”。
+高效使用用户定义的元数据字段的一种方式是为特定启动或销售延迟资源的激活时间。您可以根据“日期”类型定义“激活” *字段*。 Then, using the **Metadata** panel in **Detail** view or **File** > **Edit Info**, you can specify when the asset is activated. Scene7 Publishing System 会检查资源的发布状态和发布历史记录。如果发布状态不在激活时间内，则显示为“未发布”。
 
 >[!NOTE]
 >
@@ -823,11 +823,11 @@ Media Portal 管理员或公司管理员可以创建自定义的、用户定义�
 
 >[!NOTE]
 >
->要使用自定义的、用户定义的字段搜索资源，请单击“**设置**”&gt;“**个人设置**”，然后选择“**在搜索中包括 UDF**”。请参阅[个人设置](personal-setup.md#personal_setup)。
+>要使用自定义的、用户定义的字段搜索资源，请单击“**设置**”>“**个人设置**”，然后选择“**在搜索中包括 UDF**”。请参阅[个人设置](personal-setup.md#personal_setup)。
 
 ### 创建用户定义的元数据字段 {#creating-a-user-defined-metadata-field}
 
-1. 单击“**设置**”&gt;“**应用程序设置**”&gt;“**元数据**”&gt;“**用户定义的字段**”。
+1. 单击“**设置**”>“**应用程序设置**”>“**元数据**”>“**用户定义的字段**”。
 1. 单击“**添加**”。
 1. 在“自定义字段”对话框中，设置所需的选项。
 
@@ -867,7 +867,7 @@ Media Portal 管理员或公司管理员可以创建自定义的、用户定义�
 
 只有 Media Portal 管理员或公司管理员可以管理用户定义的字段。
 
-要打开该屏幕，请单击“**设置**”&gt;“**应用程序设置**”&gt;“**元数据**”&gt;“**用户定义的字段**”。
+要打开该屏幕，请单击“**设置**”>“**应用程序设置**”>“**元数据**”>“**用户定义的字段**”。
 
 **编辑字段** 选择字段，然后单击“编 **辑”**。
 
@@ -881,7 +881,7 @@ Media Portal 管理员或公司管理员可以创建自定义的、用户定义�
 
 Scene7 Publishing System 会在您的文件中搜索，并且只优化那些之前未完全优化的图像。
 
-1. 选择“ **设置** ”&gt;“应 **用程序设置**”，然后选择“**优化文件”**。
+1. 选择“ **设置** ”>“应 **用程序设置**”，然后选择“**优化文件”**。
 1. Enter information for the optimization job and click **Submit**.
 
    如果您在与多家公司协作，请分别优化属于不同公司的文件。
@@ -900,8 +900,8 @@ Scene7 Publishing System 会在您的文件中搜索，并且只优化那些之�
 
 虽然使用批量集预设功能不需要设置默认命名约定，但建议您最好使用默认命名约定来尽可能多地定义您要分组在一个集合中的命名约定元素，以简化批量集创建。
 
-1. 单击“**设置**”&gt;“**应用程序设置**”&gt;“**批量集预设**”&gt;“**默认命名**”。
-1. 选择“**查看表单**”或“**查看代码**”，以指定您希望如何查看和输入有关每个元素的信息。
+1. 单击“**设置**”>“**应用程序设置**”>“**批量集预设**”>“**默认命名**”。
+1. 选择&#x200B;**查看表单**&#x200B;或&#x200B;**查看代码**，以指定要查看的方式并输入有关每个元素的信息。
 
    您可以选中“查看代码”复选框，以查看和您的表单选项一起构建的正则表达式值。如果表单视图因某种原因对您构成限制，您可以输入或更改上述值，以帮助定义命名约定的元素。如果在表单视图中无法解析您的值，则表单字段会变为非活动状态。
 
@@ -928,7 +928,7 @@ Dynamic Media Classic使用批量集预设将共享一些公共信息或内容�
 
 **创建批量集预设**
 
-1. 单击“**设置**”&gt;“**应用程序设置**”&gt;“**批量集预设**”&gt;“**批量集预设**”。默认视图为“**查看表单**”（在“详细信息”页面的右上角设置）。
+1. 单击“**设置**”>“**应用程序设置**”>“**批量集预设**”>“**批量集预设**”。默认视图为“**查看表单**”（在“详细信息”页面的右上角设置）。
 1. 在“预设列表”面板中，单击“**添加**”以激活屏幕右侧“详细信息”面板中的定义字段。
 1. 在“详细信息”面板的“预设名称”字段中，键入预设的名称。
 1. 在“批量集类型”下拉菜单中，选择预设类型。
@@ -937,7 +937,7 @@ Dynamic Media Classic使用批量集预设将共享一些公共信息或内容�
 
 1. 执行以下任一操作：
 
-   * 如果您使用的是之前在“应用程序设置”&gt;“批量集预设”&gt;“默认命名”下设置的默认命名约定，请展开“**资源命名约定**”，然后在“文件命名”下拉列表中，单击“**默认**”。
+   * 如果您使用的是之前在“应用程序设置”>“批量集预设”>“默认命名”下设置的默认命名约定，请展开“**资源命名约定**”，然后在“文件命名”下拉列表中，单击“**默认**”。
    * 要在设置预设时定义命名约定，请展开“**资源命名约定**”，然后在“文件命名”下拉列表中，单击“**自定义**”。
 
 1. 对于“序列”顺序，定义在Dynamic Media Classic中将图像集分组在一起后图像的顺序。 默认情况下，将按字母数字顺序对您的资源排序。不过，可以使用逗号分隔的正则表达式列表来定义顺序。
@@ -971,19 +971,19 @@ spin-03-12
 
 ![](assets/se_batch_set_recipe.png)
 
-将旋转集的共享资源名称部分的分组添加到“**匹配**”字段（高亮显示）。将包含行和列的资源名称的变量部分分别添加到“**行**”和“**列**”字段。
+旋转集的共享资产名称部分的分组将添加到“匹 **配** ”字段（高亮显示）。 资产名称中包含行和列的变量部分将分别添加到 **行** 和 **列字段** 。
 
-在上载和发布旋转集时，将激活在“**上载作业选项**”对话框的“**批量集预设**”下面列出的 2D 旋转集方法名称。
+上传和发布旋转集后，您可以激活&#x200B;**上传作业选项**&#x200B;对话框中&#x200B;**批集预设**&#x200B;下方 2D 旋转集方法的名称。
 
 **创建用于自动生成 2D 旋转集的批量集预设**
 
-1. 选择“**设置**”&gt;“**应用程序设置**”&gt;“**批量集预设**”&gt;“**批量集预设**”。默认视图为“**查看表单**”（在“详细信息”页面的右上角设置）。
+1. 选择“**设置**”>“**应用程序设置**”>“**批量集预设**”>“**批量集预设**”。默认视图为“**查看表单**”（在“详细信息”页面的右上角设置）。
 1. 在“预设列表”面板中，单击“**添加**”以激活屏幕右侧“详细信息”面板中的定义字段。
 1. 在“详细信息”面板的“预设名称”字段中，键入预设的名称。
-1. 在“批量集类型”下拉菜单中，选择“**资源集**”。
+1. 在“批集类型”下拉菜单中，选择&#x200B;**资产集**。
 1. 在“子类型”下拉列表中，选择“**多轴旋转集**”。
 1. 展开“**资源命名约定**”，然后在“文件命名”下拉列表中，单击“**自定义**”。
-1. 使用“**匹配**”和（可选）“**基本名称**”属性定义用于对构成分组的图像资源进行命名的正则表达式。
+1. 使用&#x200B;**匹配**&#x200B;和（可选）**基本名称**&#x200B;属性定义组成分组的图像资产命名的正则表达式。
 
    例如，文本匹配正则表达式可能如下所示：
 
