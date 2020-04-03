@@ -2,13 +2,13 @@
 title: 准备要上载的样本集资源
 seo-title: 准备要上载的样本集资源
 description: 'null'
-seo-description: 了解如何准备用于上传的样本集资源。
-uuid: ed78da8c-d708-418b-97ce-3c37 d9 df9 c90
+seo-description: 了解如何准备要上传的样本集资产。
+uuid: ed78da8c-d708-418b-97ce-3c37d9df9c90
 contentOwner: admin
-content-type: 引用
-products: SG_ EXPERIENCE MANAGER/Dynamic-Media-Scene-7
-geptopics: SG_ SCENESELEFERENDER_ PK/categories/swatch_ set
-discoiquuid: 0c851et-be05-46a9-8654-3d028 f3217 a4
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/swatch_sets
+discoiquuid: 0c851ecd-be05-46a9-8654-3d028f3217a4
 translation-type: tm+mt
 source-git-commit: a1722c15d3c049f05959d895e85297d47d730872
 
