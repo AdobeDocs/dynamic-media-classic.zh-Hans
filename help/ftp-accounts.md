@@ -3,12 +3,12 @@ title: 管理 FTP 帐户
 seo-title: 管理 FTP 帐户
 description: 'null'
 seo-description: 了解如何管理FTP帐户。
-uuid: c9410f44-14bf-4f55-a199-f0 f0 de459221
+uuid: c9410f44-14bf-4f55-a199-f0f0de459219
 contentOwner: admin
-content-type: 引用
-products: SG_ EXPERIENCE MANAGER/Dynamic-Media-Scene-7
-geptopics: SG_ SCENESELEFERENDER_ PK/categories/media_ Portal
-discoiquuid: d592f0a7-1c27-446-998a-07351147da1d
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/media_portal
+discoiquuid: d592f0a7-1c27-4463-998a-07351147da1d
 translation-type: tm+mt
 source-git-commit: 75f006fd81b0fe2dad5479cdd98e45eaada46b2a
 
@@ -23,7 +23,7 @@ source-git-commit: 75f006fd81b0fe2dad5479cdd98e45eaada46b2a
 
 请参阅[激活或停用用户](administration-setup.md#activating_or_deactivating_users)。
 
-1. 单击“**设置**”&gt;“**Media Portal**”&gt;“**FTP 帐户**”。
+1. 单击“**设置**”>“**Media Portal**”>“**FTP 帐户**”。
 1. 在“添加 FTP 帐户”页面上，在“FTP 帐户用户名”下拉列表中，选择用户。
 
    如果未列出用户，您可能需要首先使用“管理设置”将他们添加为 Media Portal 管理员、Media Portal 参与者用户或 Media Portal 参与者。添加具有正确角色的用户之后，可从下拉列表中获取他们的用户名。
@@ -39,7 +39,7 @@ source-git-commit: 75f006fd81b0fe2dad5479cdd98e45eaada46b2a
 
 ## 删除现有 FTP 帐户 {#deleting-an-existing-ftp-account}
 
-1. 单击“**设置**”&gt;“**Media Portal**”&gt;“**FTP 帐户**”。
+1. 单击“**设置**”>“**Media Portal**”>“**FTP 帐户**”。
 1. 在“添加 FTP 帐户”页面上，从“现有帐户”表中，选择您要删除的 FTP 帐户。
 1. 单击“**删除**”。
 
