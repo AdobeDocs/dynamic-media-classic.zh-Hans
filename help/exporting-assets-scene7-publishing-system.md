@@ -2,12 +2,12 @@
 title: 从 Scene7 Publishing System 导出资源
 seo-title: 从 Scene7 Publishing System 导出资源
 description: 'null'
-seo-description: 了解如何从Scene7 Publishing system导出资源。
+seo-description: 了解如何从Scene7 Publishing System导出资源。
 uuid: d42b7a73-80c0-4a9a-a04e-7ef53e6fcf22
 contentOwner: admin
-content-type: 引用
+content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
-geptopics: SG_SCENESEEVENTONDEMAND_PK/categories/managing_assets
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: eb850ec7-a669-41ea-b2b0-4c9178e34f95
 translation-type: tm+mt
 source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
@@ -25,7 +25,7 @@ Dynamic Media Classic在“作业”屏幕中保留导出作业的记录。
 
 **从 Scene7 Publishing System 导出资源**
 
-1. 选择要导出的资源，然后单击“**文件**”&gt;“**导出**”。
+1. 选择要导出的资源，然后单击“**文件**”>“**导出**”。
 1. 在“导出所选资源”窗口中，单击“**图像选项**”，然后指定以下任一选项（管理员可确定哪些选项对用户可用）：
 
    * **预设**（可选）在导出资产时，选择图像预设以设置其格式。 如果选择了图像预设，其他格式选项将不可用，因为资源会采用由图像预设定义的格式。
