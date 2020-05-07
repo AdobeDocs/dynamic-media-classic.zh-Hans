@@ -7,7 +7,7 @@ contentOwner: rbrough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
 translation-type: tm+mt
-source-git-commit: 36d716d080cf9afde2361d8fce1c9123bb085bf1
+source-git-commit: 718067c87239044a827c66f72f7a2d0a476a23f6
 workflow-type: tm+mt
 source-wordcount: '981'
 ht-degree: 0%
