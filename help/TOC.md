@@ -2,19 +2,22 @@
 cloud: experience-cloud
 product: dynamic media classic
 audience: end-user
-user-guide-title: Dynamic Media Classic Help
+user-guide-title: Dynamic Media Classic帮助
 index: y
 translation-type: tm+mt
-source-git-commit: 94432c916b175845e341bd4beb6d2cc96f613142
+source-git-commit: 7739d61eac6ca4d278e88d570e9890a67669bcb8
+workflow-type: tm+mt
+source-wordcount: '726'
+ht-degree: 78%
 
 ---
 
 
 # Dynamic Media Classic帮助 {#using}
 
-+ [Dynamic Media Classic文档主页](home.md)
-+ [2020年上半年推出新的Dynamic Media Classic用户界面](new-ui-2020.md)
-+ [Dynamic Media Newsletter by Experience League](dynamic-media-newsletter.md)
++ [动态媒体经典文档主页](home.md)
++ [2020年上半年推出全新的Dynamic Media Classic用户界面](new-ui-2020.md)
++ [按体验联盟列出的动态媒体新闻快讯](dynamic-media-newsletter.md)
 + 介绍Adobe Dynamic Media Classic {#intro}
    + [关于Dynamic Media Classic](introduction.md)
    + [开发人员资源](developer-resources.md)
@@ -42,7 +45,7 @@ source-git-commit: 94432c916b175845e341bd4beb6d2cc96f613142
    + [Administration Setup](administration-setup.md)
 + Media Portal {#media-portal}
    + [系统要求](system-requirements-1.md)
-   + [快速开始:媒体门户](quick-start-media-portal-administration.md)
+   + [快速开始: 媒体门户](quick-start-media-portal-administration.md)
    + [Media Portal 用户角色](media-portal-user-roles.md)
    + [Creating and managing Media Portal groups](creating-media-portal-groups.md)
    + [添加和管理 Media Portal 用户](adding-media-portal-users.md)
@@ -60,7 +63,7 @@ source-git-commit: 94432c916b175845e341bd4beb6d2cc96f613142
 + 管理资源 {#managing-assets}
    + [关于管理资产](about-managing-assets.md)
    + [使用资源文件夹](asset-folders.md)
-   + [在浏览面板中查看资源](viewing-assets-browse-panel.md)
+   + [在“浏览”面板中查看资源](viewing-assets-browse-panel.md)
    + [在浏览面板中选择资源](selecting-assets-browse-panel.md)
    + [搜索资源](searching-assets.md)
    + [预览资源](previewing-asset.md)
@@ -87,14 +90,14 @@ source-git-commit: 94432c916b175845e341bd4beb6d2cc96f613142
    + [发布缩放图像](publishing-zoom-images.md)
    + [将缩放查看器链接到网页](linking-zoom-viewers-web-pages.md)
 + eCatalog {#ecatalogs}
-   + [快速开始:电子目录](quick-start-ecatalog.md)
+   + [快速开始: 电子目录](quick-start-ecatalog.md)
    + [上载 PDF 文件](uploading-pdf-files.md)
    + [Creating an eCatalog](creating-ecatalog.md)
    + [Creating eCatalog Image Maps](creating-ecatalog-image-maps.md)
    + [管理电子目录中的信息面板内容](info-panel-content.md)
    + [设置 eCatalog 查看器预设](setting-ecatalog-viewer-presets.md)
    + [在 eCatalog 查看器中预览 eCatalog](previewing-ecatalogs-ecatalog-viewer.md)
-   + [发布电子目录和关联的PDF](publishing-ecatalogs-associated-pdfs.md)
+   + [发布电子目录和相关PDF](publishing-ecatalogs-associated-pdfs.md)
    + [将 eCatalog 链接到网页](linking-ecatalog-web-page.md)
 + 图像集 {#image-sets}
    + [快速入门：图像集](quick-start-image-sets.md)
@@ -127,16 +130,6 @@ source-git-commit: 94432c916b175845e341bd4beb6d2cc96f613142
    + [发布模板](publishing-templates.md)
    + [将模板链接到网页](linking-template-web-page.md)
    + [管理内容变体](content-variations.md)
-+ Template publishing {#template-publishing}
-   + [快速开始:模板发布](quick-start-template-publishing.md)
-   + [在Adobe Illustrator中创建初始模板](create-initial-template-illustrator.md)
-   + [Upload files for Template Publishing](upload-files-template-publishing.md)
-   + [定义可变性：参数化与 DOM 处理](defining-variability-parameterization-versus-dom.md)
-   + [在Dynamic Media Classic中参数化模板](parameterizing-template-scene7.md)
-   + [预览和更新模板属性](preview-update-template-attributes.md)
-   + [DOM 处理](dom-manipulation.md)
-   + [将 FXG 模板链接到网页](linking-fxg-template-web-page.md)
-   + [创建 PDF 文档](creating-pdf-document.md)
 + 视频 {#video}
    + [快速入门：视频](quick-start-video.md)
    + [最佳做法：使用 HTML5 视频查看器](best-practice-using-html5-video.md)
@@ -153,7 +146,7 @@ source-git-commit: 94432c916b175845e341bd4beb6d2cc96f613142
    + [发布混合媒体集](publishing-mixed-media-set.md)
    + [将混合媒体集与网页链接](linking-mixed-media-set-web.md)
 + Adobe Analytics instrumentation kit {#analytics-kit}
-   + [快速开始:将Dynamic Media Classic与Adobe Analytics集成](quick-start-integrating-scene7-analytics.md)
+   + [快速开始: 将Dynamic Media Classic与Adobe Analytics集成](quick-start-integrating-scene7-analytics.md)
    + [登录到 Adobe Analytics](log-analytics.md)
    + [配置 Adobe Analytics 报告](configuring-analytics-reports.md)
    + [使用 Adobe Analytics 仪器包实施查看器](instrumenting-viewer-using-analytics-instrumentation.md)
@@ -162,10 +155,10 @@ source-git-commit: 94432c916b175845e341bd4beb6d2cc96f613142
    + [启用 Adobe Analytics 视频报告](enabling-analytics-video-reports.md)
    + [发布 Adobe Analytics 配置信息](publishing-analytics-configuration-information.md)
 + 目标经典集成 {#target-classic}
-   + [快速开始:目标经典集成](quick-start-target-classic-integration.md)
-   + [将Adobe Dynamic Media Classic与Adobe目标Classic集成](integrating-scene7-target-classic.md)
+   + [快速开始: 目标经典集成](quick-start-target-classic-integration.md)
+   + [将Adobe Dynamic Media Classic与Adobe Dynamic Media Classic集成](integrating-scene7-target-classic.md)
    + [Creating an offer set](creating-offer-set.md)
-   + [将优惠集推送到Adobe目标经典](pushing-offer-sets-target-classic.md)
+   + [将优惠集推送到Adobe目标Classic](pushing-offer-sets-target-classic.md)
 + 用户生成的内容 {#user-generated-content}
    + [关于用户生成的内容](about-ugc.md)
    + [删除上载的资源](deleting-uploaded-asset.md)
