@@ -9,7 +9,10 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
 discoiquuid: b2bc3bf9-e313-481a-8670-c3bedde21b1a
 translation-type: tm+mt
-source-git-commit: e37612b066909fdba486bd72ee4ae3712294f50a
+source-git-commit: d5dcc67200b636cafcf1c87b2ecdfb2271b7b9a2
+workflow-type: tm+mt
+source-wordcount: '3867'
+ht-degree: 52%
 
 ---
 
@@ -52,6 +55,8 @@ TAR 和 ZIP 上载支持包括一个复选框，用于选择是否要解压缩�
 ### Dynamic Media中不支持的图像格式 {#unsupported-image-formats-dynamic-media}
 
 以下列表描述了Dynamic Media不支持的栅格图像文件 *格式* 的子类型。
+
+另请参 [阅检测不支持的Dynamic Media文件格式](https://helpx.adobe.com/experience-manager/kb/detect-unsupported-assets-for-dynamic-media.html)。
 
 * IDAT区块大小大于100 MB的PNG文件。
 * PSB文件。
