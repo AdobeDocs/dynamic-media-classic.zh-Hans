@@ -5,10 +5,10 @@ audience: end-user
 user-guide-title: Dynamic Media Classic帮助
 index: y
 translation-type: tm+mt
-source-git-commit: 2ba41733263b9b186c45e97e6b2350aeb2b400ac
+source-git-commit: 3fa61a14b21b7cdc6c71d43d5ad9fd84c1ee89b4
 workflow-type: tm+mt
-source-wordcount: '723'
-ht-degree: 79%
+source-wordcount: '725'
+ht-degree: 78%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 79%
    + [开发人员资源](developer-resources.md)
    + [What’s new](whats-new.md)
    + [系统要求](system-requirements.md)
-   + [Adobe Scene7 Publishing System 桌面应用程序](scene7-publishing-system-desktop-applications.md)
+   + [Adobe Dynamic Media Classic桌面应用程序即将推出！](dynamic-media-classic-desktop-app.md)
    + [支持](support.md)
    + [Dynamic Media Classic Media Portal帮助](help-scene7-media-portal.md)
    + [Adobe 培训服务](training-services.md)
