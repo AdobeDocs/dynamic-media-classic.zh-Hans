@@ -10,7 +10,10 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
 discoiquuid: 8164466e-2520-482a-88ec-6191fdc77ea3
 translation-type: tm+mt
-source-git-commit: 6b0833287291f6475ab15106e8f33ed0dda0b2d4
+source-git-commit: 707afa544ffcea8885631c9fca8b432bc7af6860
+workflow-type: tm+mt
+source-wordcount: '1527'
+ht-degree: 61%
 
 ---
 
@@ -21,13 +24,13 @@ source-git-commit: 6b0833287291f6475ab15106e8f33ed0dda0b2d4
 
 Dynamic Media Classic包含100多个图像服务命令，用于调整和优化图像以及渲染结果。 以下准则可以帮助您简化流程，并使用一些基本命令和最佳做法快速获得较好的效果。
 
-另请参阅智 [能成像](https://helpx.adobe.com/experience-manager/6-3/assets/using/imaging-faq.html)。
+另请参 [阅智能成像](https://helpx.adobe.com/experience-manager/6-3/assets/using/imaging-faq.html)。
 
 ## 图像格式的最佳做法 (&amp;fmt=) {#best-practices-for-image-format-fmt}
 
 * 在提供具有较好质量和可控制大小和粗细的图像方面，JPG 或 PNG 是最佳选择。
-* 如果URL中未提供格式命令，则Dynamic Media图像服务默认为JPG以进行投放。
-* JPG 压缩比率为 10:1，通常生成较小的图像文件。PNG 压缩比率为 2:1，但在某些情况下除外，例如，图像包含白色背景。通常，PNG 文件比 JPG 文件大。
+* 如果URL中未提供任何格式命令，则Dynamic Media图像服务默认为JPG以进行投放。
+* JPG 压缩比率为 10:1，通常生成较小的图像文件。PNG的压缩比率约为2:1，但某些情况除外，例如当图像包含空背景时。 通常，PNG 文件比 JPG 文件大。
 * JPG 使用有损压缩，这意味着在压缩过程中删除了一些图像元素（像素）；而 PNG 使用无损压缩。
 * 通常，JPG 压缩摄影图像的保真度比具有清晰边缘和对比度的合成图像好。
 * 如果图像包含透明度，请使用 PNG，因为 JPG 不支持透明度。
@@ -36,7 +39,7 @@ As a best practice for image format, start with the most common setting `&fmt=JP
 
 ## 图像大小的最佳做法 {#best-practices-for-image-size}
 
-动态缩小图像大小是Dynamic Media图像服务执行的最常见任务之一。 这包括指定大小，以及指定用于减小图像的缩减像素采样模式（可选）。
+动态缩减图像大小是Dynamic Media图像服务执行的最常见的任务之一。 这包括指定大小，以及指定用于减小图像的缩减像素采样模式（可选）。
 
 * For image sizing, the best and most straightforward approach is to use `&wid=<value>` and `&hei=<value>` or just `&hei=<value>`. 这些参数自动根据高宽比设置图像宽度。
 * `&resMode=<value>` 控制用于缩减采样的算法。 开始 `&resMode=sharp2`。 该值提供了最佳的图像质量。While using the downsampling value `=bilin` is faster, it often results in the aliasing of artifacts.
@@ -51,7 +54,7 @@ Best practices white paper [Sharpening images in Adobe Scene7 Publishing System 
 
 另请参阅 [使用USM锐化锐化图像](https://helpx.adobe.com/photoshop/atv/cs6-tutorials/sharpening-an-image-with-unsharp-mask.html)。
 
-借助Dynamic Media Classic，您可以在摄取时、在投放时或在两者中锐化图像。 大多数情况下，只应使用一种方法锐化图像，而不能同时使用两种方法。传送时在 URL 上锐化图像通常可以获得最佳的效果。
+借助Dynamic Media Classic，您可以在摄取、投放或同时在两者中锐化图像。 大多数情况下，只应使用一种方法锐化图像，而不能同时使用两种方法。传送时在 URL 上锐化图像通常可以获得最佳的效果。
 
 可以使用以下两种图像锐化方法：
 
@@ -65,16 +68,16 @@ Best practices white paper [Sharpening images in Adobe Scene7 Publishing System 
 
          请记住，`radius` 和 `amount` 参数的作用是相反的。Reducing `radius` can be compensated by increasing `amount`. `Radius` 可以进行更精确的控制，因为较低的值仅锐化边缘像素，而较高的值锐化范围更宽的像素。
 
-      * `threshold` （0-255，效果敏感度。）
+      * `threshold` （0-255，效果的敏感性。）
 
          此参数确定锐化的像素与周围区域必须有多大的不同，才会被视为边缘像素，而滤镜会锐化这些像素。 阈值有助于避免出现具有类似颜色的过度锐化区域，如肤色。例如，阈值为12时，会忽略肤色亮度的细微变化，以避免添加“杂色”，同时仍会为高对比度区域添加边缘对比度，如睫毛与皮肤相遇的地方。
       有关如何设置三个参数的详细信息（包括使用滤镜的最佳做法），请参阅以下资源：
 
-      Dynamic Media Classic帮助主题：锐 [化图像](https://help.adobe.com/en_US/scene7/using/WS389B162D-2981-41e5-9253-15D22D2ECBC8.html)。
+      有关锐化图像的Dynamic Media Classic [帮助主题](https://help.adobe.com/en_US/scene7/using/WS389B162D-2981-41e5-9253-15D22D2ECBC8.html)。
 
       Best practices white paper [Sharpening images in Adobe Scene7 Publishing System and on Image Server](/help/assets/s7_sharpening_images.pdf).
 
-   * Dynamic Media Classic还允许您控制第四个参数：monochrome( `0,1`)。 此参数确定是使用值 `0` 将 USM 锐化分别应用于每个颜色分量，还是使用值 `1` 将 USM 锐化应用于图像亮度/强度。
+   * Dynamic Media Classic还允许您控制第四个参数： monochrome( `0,1`)。 此参数确定是使用值 `0` 将 USM 锐化分别应用于每个颜色分量，还是使用值 `1` 将 USM 锐化应用于图像亮度/强度。
 
 
 作为最佳做法，请从 USM 锐化 radius 参数入手。可以最初使用以下 radius 设置：
