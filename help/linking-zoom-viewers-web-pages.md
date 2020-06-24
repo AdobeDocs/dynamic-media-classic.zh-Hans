@@ -10,14 +10,17 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/zoom
 discoiquuid: df5471c1-ccda-4dd4-a7f1-5b9193b41f98
 translation-type: tm+mt
-source-git-commit: e3c64b90e0af0129571a21b132477c0c86d06405
+source-git-commit: 74238f90f45f0fb9a4566915a20a1d41dfb69fe1
+workflow-type: tm+mt
+source-wordcount: '674'
+ht-degree: 89%
 
 ---
 
 
 # 将缩放查看器链接到网页{#linking-zoom-viewers-to-your-web-pages}
 
-您的网站和应用程序通过URL字符串或嵌入代码访问Dynamic Media Image Server内容，包括主图像和关联的缩放目标，以及缩放查看器预设。 这些 URL 字符串在发布过程中被激活。要将 URL 字符串或嵌入代码放到网页和应用程序中，请先从 Scene7 Publishing System 进行复制。
+您的网站和应用程序通过URL字符串或嵌入代码访问Dynamic Media图像服务器内容，包括主图像和关联的缩放目标，以及缩放查看器预设。 这些 URL 字符串在发布过程中被激活。要将 URL 字符串或嵌入代码放到网页和应用程序中，请先从 Scene7 Publishing System 进行复制。
 
 >[!NOTE]
 >
@@ -45,7 +48,7 @@ source-git-commit: e3c64b90e0af0129571a21b132477c0c86d06405
 
 网站访客通常通过先选择“缩放”图标（通常该图标显示为放大镜图像）来缩放图像。选择该图标会启动一个动态网页（ASP 或 JSP），该网页在弹出窗口中显示该图像。弹出窗口是访客实际缩放该图像的位置。
 
-有关其他详细信息和代码示例，请参 [阅《Adobe查看器参考指南》中的嵌入HTML5 Basic Zoom Viewer](https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/c_html5_20_basic_zoom_viewer_about.html)。
+有关其他详细信息和代码示例，请 [参阅《Adobe Viewers Reference Guide》中的“Embedding HTML5 Basic Zoom Viewer”](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/basic-zoom/c-html5-20-basic-zoom-viewer-about.html)。
 
 ## 复制缩放查看器的嵌入代码 {#copying-the-embed-copy-of-a-zoom-viewer}
 
