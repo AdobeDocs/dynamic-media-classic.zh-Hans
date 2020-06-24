@@ -2,7 +2,7 @@
 title: 系统要求
 seo-title: 系统要求
 description: 'null'
-seo-description: '了解使用Dynamic Media Classic获得最佳体验的系统要求。 '
+seo-description: '了解系统要求以获得最佳体验，使用Dynamic Media经典。 '
 uuid: 8dfc925b-7350-41af-9207-3b2a743c0998
 contentOwner: admin
 content-type: reference
@@ -10,16 +10,19 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_scene7
 discoiquuid: 27278fef-8b0e-41cd-b393-7a4c3625d5c0
 translation-type: tm+mt
-source-git-commit: 75f006fd81b0fe2dad5479cdd98e45eaada46b2a
+source-git-commit: 1c4fdd6493d36be91ed015f019f5d4205d5cae41
+workflow-type: tm+mt
+source-wordcount: '95'
+ht-degree: 47%
 
 ---
 
 
 # 系统要求 {#system-requirements}
 
-为了在使用 Scene7 Publishing System 时获得最佳体验，请确保您的系统满足下列系统要求和建议：
+为获得使用Dynamic Media经典桌面应用程序的最佳体验，请确保您的系统满足以下系统要求和建议：
 
-* 需要 Microsoft® Windows® 7 或更高版本、Mac OS X 10.6 或更高版本以及 Macintosh® Intel 处理器。
+* 需要Microsoft® Windows® 7或更高版本或macOS X 10.6或更高版本的Macintosh® Intel处理器。
 * 需要 3 GB RAM 或更高（建议使用 4 GB 或更高）。
 * 彩色监视器。
 * 支持 1280x1024 分辨率或更高分辨率真彩色的视频卡。
