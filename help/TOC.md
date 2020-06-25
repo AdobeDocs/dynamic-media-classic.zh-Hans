@@ -2,35 +2,36 @@
 cloud: experience-cloud
 product: dynamic media classic
 audience: end-user
-user-guide-title: Dynamic Media Classic帮助
+user-guide-title: Dynamic Media经典帮助
 index: y
 translation-type: tm+mt
-source-git-commit: 46285648da0e4c53c9ce08fc088705853e6a3a46
+source-git-commit: c554e643d287680c34a3b0e79c8dfd7c306a0111
 workflow-type: tm+mt
-source-wordcount: '719'
-ht-degree: 77%
+source-wordcount: '730'
+ht-degree: 76%
 
 ---
 
 
-# Dynamic Media Classic帮助 {#using}
+# Dynamic Media经典帮助 {#using}
 
-+ [动态媒体经典文档主页](home.md)
-+ [新增动态媒体经典登录体验2020年6月30日发布](new-ui-2020.md)
-+ [按体验联盟列出的动态媒体新闻快讯](dynamic-media-newsletter.md)
-+ 介绍Adobe Dynamic Media Classic {#intro}
-   + [关于Dynamic Media Classic](introduction.md)
++ [Dynamic Media经典文档主页](home.md)
++ [最佳实践教程](https://docs.adobe.com/content/help/en/experience-manager-learn/dynamic-media-classic-tutorial/overview.html)
++ [新Dynamic Media经典登录体验于2020年6月30日推出](new-ui-2020.md)
++ [Dynamic Media新闻快讯（按体验联盟）](dynamic-media-newsletter.md)
++ 介绍AdobeDynamic Media经典 {#intro}
+   + [关于Dynamic Media经典](introduction.md)
    + [开发人员资源](developer-resources.md)
    + [What’s new](whats-new.md)
    + [系统要求](system-requirements.md)
-   + [Adobe Dynamic Media Classic桌面应用程序即将推出！](dynamic-media-classic-desktop-app.md)
+   + [AdobeDynamic Media经典桌面应用程序即将推出！](dynamic-media-classic-desktop-app.md)
    + [支持](support.md)
-   + [Dynamic Media Classic Media Portal帮助](help-scene7-media-portal.md)
+   + [Dynamic Media经典媒体门户帮助](help-scene7-media-portal.md)
    + [Adobe 培训服务](training-services.md)
    + [常用资源](popular-resources.md)
    + [培训视频](training-videos.md)
 + 快速入门 {#getting-started}
-   + [Adobe Dynamic Media Classic平台概述](scene7-platform-overview.md)
+   + [AdobeDynamic Media经典平台概述](scene7-platform-overview.md)
    + [Media Portal](media-portal.md)
    + [登录和注销](signing-out.md)
    + [导航基础知识](navigation-basics.md)
@@ -145,7 +146,7 @@ ht-degree: 77%
    + [发布混合媒体集](publishing-mixed-media-set.md)
    + [将混合媒体集与网页链接](linking-mixed-media-set-web.md)
 + Adobe Analytics instrumentation kit {#analytics-kit}
-   + [快速开始: 将Dynamic Media Classic与Adobe Analytics集成](quick-start-integrating-scene7-analytics.md)
+   + [快速开始: 将Dynamic Media经典与AdobeAnalytics集成](quick-start-integrating-scene7-analytics.md)
    + [登录到 Adobe Analytics](log-analytics.md)
    + [配置 Adobe Analytics 报告](configuring-analytics-reports.md)
    + [使用 Adobe Analytics 仪器包实施查看器](instrumenting-viewer-using-analytics-instrumentation.md)
@@ -155,9 +156,9 @@ ht-degree: 77%
    + [发布 Adobe Analytics 配置信息](publishing-analytics-configuration-information.md)
 + 目标经典集成 {#target-classic}
    + [快速开始: 目标经典集成](quick-start-target-classic-integration.md)
-   + [将Adobe Dynamic Media Classic与Adobe Dynamic Media Classic集成](integrating-scene7-target-classic.md)
+   + [将AdobeDynamic Media经典与Adobe Target经典集成](integrating-scene7-target-classic.md)
    + [Creating an offer set](creating-offer-set.md)
-   + [将优惠集推送到Adobe目标Classic](pushing-offer-sets-target-classic.md)
+   + [将优惠集推送到Adobe Target经典](pushing-offer-sets-target-classic.md)
 + 用户生成的内容 {#user-generated-content}
    + [关于用户生成的内容](about-ugc.md)
    + [删除上载的资源](deleting-uploaded-asset.md)
