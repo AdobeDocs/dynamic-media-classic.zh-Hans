@@ -8,7 +8,7 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_classic
 translation-type: tm+mt
-source-git-commit: 37f9a42b89ad1ade0aa7f8fc542b03c930bd9c27
+source-git-commit: f2b8c8a5bdac38a48157c6eaa80cd09692ee2259
 workflow-type: tm+mt
 source-wordcount: '679'
 ht-degree: 0%
@@ -47,18 +47,18 @@ AdobeDynamic Media经典桌面应用程序兼容以下操作系统：
 
    * **对于macOS** —— 在“ **[!UICONTROL 拖放以安装]** ”对话框中，拖 **[!UICONTROL 动AdobeDynamic MediaClassic]** 并将其放入“应用程 **[!UICONTROL 序”]**。
 
-      ![在macOS上拖放安装](/help/assets/dragondrop-install.png)
+      ![在macOS上拖放安装](/help/assets/dragondrop-install1.png)
 
    * 在“应用 **[!UICONTROL 程序]** ”文件夹中，点按AdobeDynamic Media经典图标。
    * 在对话框中，点按打 **[!UICONTROL 开]** ，以打开AdobeDynamic Media经典桌面应用程序。
 
-      ![打开下载的应用程序](/help/assets/open-dmclassicapp.png)
+      ![打开下载的应用程序](/help/assets/open-dmclassicapp1.png)
 
    * **对于Windows** —— 运行安装程序二进制文件，按照屏幕上的说明安装桌面应用程序。
 
 1. 打开应用程序时，将显示新的AdobeDynamic Media经典登录页面：
 
-   ![Dynamic Media经典登录](/help/assets/dmclassic-login.png)
+   ![Dynamic Media经典登录](/help/assets/dmclassic-login1.png)
 
 1. 使用与浏览器凭据相同的凭据登录AdobeDynamic Media经典。
 
@@ -80,15 +80,15 @@ AdobeDynamic Media经典桌面应用程序兼容以下操作系统：
 * 在Dynamic Media经典应用程序中，从公司下拉列表中选择新公司。
 * 出现弹出窗口时，点 **[!UICONTROL 击]** “确定”注销并关闭应用程序。
 
-   ![重新启动应用程序以使用新公司](/help/assets/dmclassic-new-company.png)
+   ![重新启动应用程序以使用新公司](/help/assets/dmclassic-new-company1.png)
 * 重新启动Dynamic Media经典，然后照常登录以使用新公司。
 
 ## 提示与技巧
 
 **_我无法在Dynamic Media经典登陆页上看到“Media Cart（媒体购物车）”面板。_**<br>&#x200B;在Dynamic Media经典中，点 **[!UICONTROL 按设置>个人设置]**。 在“浏览器”部分，确保选 **[!UICONTROL 中(已选中]** )“显示媒体门户功能”。 点按 **[!UICONTROL 保存>关闭]**。
 
-**_资产的发布状态（绿色指示符）反映不正确。_**<br>&#x200B;在浏览器UI中，需要重新登录UI才能查看资产的正确发布状态。 在桌面应用程序中，我们在工具栏 **[!UICONTROL 上]** “选择无”按钮右侧引入了 **[!UICONTROL 刷新图标]** 。 点按刷 **[!UICONTROL 新]** 图标，以查看给定页面上所有资产的最新状态。 无需像浏览器UI一样重新登录。
+**_资产的发布状态（绿色指示符）反映不正确。_**<br>&#x200B;在浏览器UI中，需要重新登录UI才能查看资产的正确发布状态。 在桌面应用程序中，我们在工具栏 **[!UICONTROL 上]** “选择无”按钮右侧引入了 **[!UICONTROL “刷新”图标]** 。 点按刷 **[!UICONTROL 新]** 图标，以查看给定页面上所有资产的最新状态。 无需像浏览器UI一样重新登录。
 
-![刷新图标](/help/assets/refresh-icon.png)*刷新图标*
+![刷新图标](/help/assets/refresh-icon1.png)*刷新图标*
 
 **_我看不到批集预设在桌面应用程序中工作。_**<br>&#x200B;点按 **[!UICONTROL 上传>作业选项>批集预设]**。 确保启用相 **[!UICONTROL 关批集预]** 设。 单击 **[!UICONTROL 保存并提交上传]**。
