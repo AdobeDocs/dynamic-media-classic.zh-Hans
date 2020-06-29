@@ -8,98 +8,87 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_classic
 translation-type: tm+mt
-source-git-commit: 871d12eccc3ce183c8fb2785bad02ad490491157
+source-git-commit: 59116a685629cfd788c32fb5082f35d90e66fb5a
 workflow-type: tm+mt
-source-wordcount: '82'
-ht-degree: 1%
+source-wordcount: '679'
+ht-degree: 0%
 
 ---
 
 
-# 即将推出： AdobeDynamic Media经典桌面应用程序 {#dynamic-media-classic-desktop-app}
+# 现已推出： AdobeDynamic Media经典桌面应用程序 {#dynamic-media-classic-desktop-app}
 
-Dynamic Media经典用户将获得不再依赖浏览器中的Adobe Flash技术的新桌面应用程序体验。 此新应用程序将于2020年6月30日面向Windows和macOS推出。
+Dynamic Media经典用户现在可以获得不再依赖浏览器中的Adobe Flash技术的新桌面应用程序体验。
 
-查看2020年6月30日 [即将推出的新Dynamic Media经典登录体验的常见问题解答](/help/new-ui-2020.md)。
-
-<!--
-
-# Adobe Dynamic Media Classic desktop app {#dynamic-media-classic-desktop-app}
-
-Dynamic Media Classic users now have access to a new desktop app experience that no longer relies on Adobe Flash technology in the browser. 
-
-This new app is now available for Windows and macOS.
+此新应用程序现在可用于Windows和macOS。
 
 >[!IMPORTANT]
 >
->We recommend that you install the new Adobe Dynamic Media Classic desktop app by October 1, 2020. Doing so will ensure you have a smooth transition before Adobe Flash Player is deprecated on December 31, 2020. On that date, you will no longer be able to log on to the browser version of Adobe Dynamic Media Classic user interface, labeled as Scene7 Publishing System in the product.
+>我们建议您在2020年10月1日之前安装新的AdobeDynamic Media经典桌面应用程序。 这样做将确保您在2020年12月31日弃用Adobe Flash Player之前拥有流畅的过渡。 在该日期，您将无法再登录到浏览器版的AdobeDynamic Media经典用户界面，产品中标为Scene7 Publishing System。
 
-See the FAQ for the [New Dynamic Media Classic sign in experience now available](/help/new-ui-2020.md).
+查看现在提供的 [新Dynamic Media经典登录体验的常见问题解答](/help/new-ui-2020.md)。
 
-## System requirements for Adobe Dynamic Media Classic desktop app {#system-requirements-dmc-app}
+## AdobeDynamic Media经典桌面应用程序的系统要求 {#system-requirements-dmc-app}
 
-Adobe Dynamic Media Classic desktop app is compatible with the following operating systems:
-* macOS X 10.10 or newer.
-* Windows 7 or newer.
+AdobeDynamic Media经典桌面应用程序兼容以下操作系统：
+* macOS X 10.10或更高版本。
+* Windows 7或更高版本。
 
-## Download and install Adobe Dynamic Media Classic desktop app {#installation-dmc-app}
+## 下载和安装AdobeDynamic Media经典桌面应用程序 {#installation-dmc-app}
 
-1. Uninstall any older Dynamic Media Classic desktop app versions on your system.
+1. 在您的系统上卸载任何旧版Dynamic Media经典桌面应用程序版本。
 
-1. Download the latest installer for Adobe Dynamic Media Classic desktop app.
+1. 下载AdobeDynamic Media经典桌面应用程序的最新安装程序。
 
-    * macOS (.dmg) &ndash; [Text](link).
-    * Windows (.exe) &ndash; [Text](link).
+   * macOS(.dmg)-下 [载](http://download.macromedia.com/dynamic-media-classic/20.20.1/adobe-dynamic-media-classic-20.20.1.dmg)。
+   * Windows(.exe)-下 [载](lhttp://download.macromedia.com/dynamic-media-classic/20.20.1/adobe-dynamic-media-classic-20.20.1.exe)。
 
-1. Do one of the following based on the installer you downloaded.
+1. 根据您下载的安装程序执行下列操作之一。
 
-    * **For macOS** &ndash; In the **[!UICONTROL Drag & drop to install]** dialog box, drag **[!UICONTROL Adobe Dynamic Media Classic]** and drop it onto **[!UICONTROL Applications]**.
+   * **对于macOS** —— 在“ **[!UICONTROL 拖放以安装]** ”对话框中，拖 **[!UICONTROL 动AdobeDynamic MediaClassic]** 并将其放入“应用程 **[!UICONTROL 序”]**。
 
-        ![Drag and drop install on macOS](/help/assets/dragondrop-install.png)
+      ![在macOS上拖放安装](/help/assets/dragondrop-install.png)
 
-    * In the **[!UICONTROL Applications]** folder, tap the Adobe Dynamic Media Classic icon.
-    * In the dialog box, tap **[!UICONTROL Open]** to open the Adobe Dynamic Media Classic desktop app.
+   * 在“应用 **[!UICONTROL 程序]** ”文件夹中，点按AdobeDynamic Media经典图标。
+   * 在对话框中，点按打 **[!UICONTROL 开]** ，以打开AdobeDynamic Media经典桌面应用程序。
 
-        ![Open downloaded app](/help/assets/open-dmclassicapp.png)
+      ![打开下载的应用程序](/help/assets/open-dmclassicapp.png)
 
-    * **For Windows** &ndash; Run the installer binary and follow the on-screen instructions to install the desktop app.
+   * **对于Windows** —— 运行安装程序二进制文件，按照屏幕上的说明安装桌面应用程序。
 
-1. When you open the application, the new Adobe Dynamic Media Classic Sign In page is displayed:
+1. 打开应用程序时，将显示新的AdobeDynamic Media经典登录页面：
 
-    ![Dynamic Media Classic sign in](/help/assets/dmclassic-login.png)
+   ![Dynamic Media经典登录](/help/assets/dmclassic-login.png)
 
-1. Use the same credentials as your browser credentials to sign in to Adobe Dynamic Media Classic.
+1. 使用与浏览器凭据相同的凭据登录AdobeDynamic Media经典。
 
-    For the **[!UICONTROL Server]** to use, see the following mapping for the production environment:
+   要使 **[!UICONTROL 用服务器]** ，请参阅生产环境的以下映射：
 
-    | Browser URL | Desktop app server name |
-    |---|---|
-    | https://s7sps1.scene7.com/ | NA (North America) production |
-    | https://s7sps3.scene7.com/ | EMEA (Europe, Middle East, and Africa) production |
-    | https://s7sps5.scene7.com/ | APAC (Asia-Pacific) production |
- 
-1. Post the login UI, you will notice the familiar browser UI experience. You can carry your day to day activity as usual now on the desktop app UI.
+   | 浏览器URL | 桌面应用程序服务器名称 |
+   |---|---|
+   | https://s7sps1.scene7.com/ | NA（北美）生产 |
+   | https://s7sps3.scene7.com/ | EMEA（欧洲、中东和非洲）生产 |
+   | https://s7sps5.scene7.com/ | 亚太地区生产 |
 
-## Known limitations in Dynamic Media Classic 
- 
-**_Applies to Windows only &ndash; Is there a limitation on the number of files that can be uploaded through the desktop app UI?_**<br>Yes, a maximum of 150 files can be uploaded at a time by way of the desktop app UI.
+1. 登录UI发布后，您会注意到您熟悉的浏览器UI体验。 您现在可以在桌面应用程序UI中像往常一样将日常活动带入您的日常。
 
-**_Applies to Windows and macOS &ndash; How do I switch between companies?_**<br>To switch between companies, do the following:
-* In the Dynamic Media Classic app, select the new company from the company drop-down list.
-* When the pop-up appears, tap **[!UICONTROL OK]** to sign out and close the app.
+## Dynamic Media经典中的已知限制
 
-    ![Restart the app to use the new company](/help/assets/dmclassic-new-company.png)
-* Restart Dynamic Media Classic, then sign in as usual to work with the new company.
+**_仅适用于Windows —— 是否对可通过桌面应用程序UI上传的文件数有限制？_**<br>&#x200B;是，通过桌面应用程序UI，一次最多可上传150个文件。
 
-## Tips and Tricks 
+**_适用于Windows和macOS —— 如何在公司之间切换？_**<br>&#x200B;要在公司之间切换，请执行以下操作：
+* 在Dynamic Media经典应用程序中，从公司下拉列表中选择新公司。
+* 出现弹出窗口时，点 **[!UICONTROL 击]** “确定”注销并关闭应用程序。
 
-**_I am unable to see Media Cart panel on the landing page of Dynamic Media Classic._**<br>In Dynamic Media Classic, tap **[!UICONTROL Setup > Personal Setup]**. In the Browser section, make sure **[!UICONTROL Show MediaPortal Features]** is selected (checked). Tap **[!UICONTROL Save > Close]**.
- 
-**_Publish state (green indicator) of an asset is not reflected correctly._**<br>In the browser UI, a re-login to the UI was required to see the correct publish state of assets. In the desktop app, we have introduced a **[!UICONTROL Refresh]** icon on the toolbar, to the right of the **[!UICONTROL Select None]** button. Tap the **[!UICONTROL Refresh]** icon to see the latest status of all the assets on the given page. No re-login required as with the browser UI.
+   ![重新启动应用程序以使用新公司](/help/assets/dmclassic-new-company.png)
+* 重新启动Dynamic Media经典，然后照常登录以使用新公司。
 
-![Refresh icon](/help/assets/refresh-icon.png)
-*Refresh icon*
- 
-**_I don't see batch set presets working in the desktop app._**<br>Tap **[!UICONTROL Upload > Job Options > Batch Set Presets]**. Ensure the relevant **[!UICONTROL Batch Set Preset]** is enabled. Click **[!UICONTROL Save and Submit upload]**. 
+## 提示与技巧
 
--->
+**_我无法在Dynamic Media经典登陆页上看到“Media Cart（媒体购物车）”面板。_**<br>&#x200B;在Dynamic Media经典中，点 **[!UICONTROL 按设置>个人设置]**。 在“浏览器”部分，确保选 **[!UICONTROL 中(已选中]** )“显示媒体门户功能”。 点按 **[!UICONTROL 保存>关闭]**。
+
+**_资产的发布状态（绿色指示符）反映不正确。_**<br>&#x200B;在浏览器UI中，需要重新登录UI才能查看资产的正确发布状态。 在桌面应用程序中，我们在工具栏 **[!UICONTROL 上]** “选择无”按钮右侧引入了 **[!UICONTROL 刷新图标]** 。 点按刷 **[!UICONTROL 新]** 图标，以查看给定页面上所有资产的最新状态。 无需像浏览器UI一样重新登录。
+
+![刷新图标](/help/assets/refresh-icon.png)*刷新图标*
+
+**_我看不到批集预设在桌面应用程序中工作。_**<br>&#x200B;点按 **[!UICONTROL 上传>作业选项>批集预设]**。 确保启用相 **[!UICONTROL 关批集预]** 设。 单击 **[!UICONTROL 保存并提交上传]**。
