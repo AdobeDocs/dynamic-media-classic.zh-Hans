@@ -8,7 +8,7 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_classic
 translation-type: tm+mt
-source-git-commit: 59116a685629cfd788c32fb5082f35d90e66fb5a
+source-git-commit: 37f9a42b89ad1ade0aa7f8fc542b03c930bd9c27
 workflow-type: tm+mt
 source-wordcount: '679'
 ht-degree: 0%
@@ -26,7 +26,7 @@ Dynamic Media经典用户现在可以获得不再依赖浏览器中的Adobe Flas
 >
 >我们建议您在2020年10月1日之前安装新的AdobeDynamic Media经典桌面应用程序。 这样做将确保您在2020年12月31日弃用Adobe Flash Player之前拥有流畅的过渡。 在该日期，您将无法再登录到浏览器版的AdobeDynamic Media经典用户界面，产品中标为Scene7 Publishing System。
 
-查看现在提供的 [新Dynamic Media经典登录体验的常见问题解答](/help/new-ui-2020.md)。
+查看现在提供的 [新Dynamic Media经典登录体验常见问题解答。](/help/new-ui-2020.md)
 
 ## AdobeDynamic Media经典桌面应用程序的系统要求 {#system-requirements-dmc-app}
 
@@ -40,8 +40,8 @@ AdobeDynamic Media经典桌面应用程序兼容以下操作系统：
 
 1. 下载AdobeDynamic Media经典桌面应用程序的最新安装程序。
 
-   * macOS(.dmg)-下 [载](http://download.macromedia.com/dynamic-media-classic/20.20.1/adobe-dynamic-media-classic-20.20.1.dmg)。
-   * Windows(.exe)-下 [载](lhttp://download.macromedia.com/dynamic-media-classic/20.20.1/adobe-dynamic-media-classic-20.20.1.exe)。
+   * [macOS(.dmg)-下载。](http://download.macromedia.com/dynamic-media-classic/20.20.1/adobe-dynamic-media-classic-20.20.1.dmg)
+   * [Windows(.exe)-下载。](lhttp://download.macromedia.com/dynamic-media-classic/20.20.1/adobe-dynamic-media-classic-20.20.1.exe)
 
 1. 根据您下载的安装程序执行下列操作之一。
 
