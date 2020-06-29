@@ -5,9 +5,9 @@ audience: end-user
 user-guide-title: Dynamic Media经典帮助
 index: y
 translation-type: tm+mt
-source-git-commit: c554e643d287680c34a3b0e79c8dfd7c306a0111
+source-git-commit: d3870442babfbcc14734b4e31f9989f5e5837049
 workflow-type: tm+mt
-source-wordcount: '730'
+source-wordcount: '731'
 ht-degree: 76%
 
 ---
@@ -17,14 +17,14 @@ ht-degree: 76%
 
 + [Dynamic Media经典文档主页](home.md)
 + [最佳实践教程](https://docs.adobe.com/content/help/en/experience-manager-learn/dynamic-media-classic-tutorial/overview.html)
-+ [新Dynamic Media经典登录体验于2020年6月30日推出](new-ui-2020.md)
++ [新增Dynamic Media经典登录体验现已推出](new-ui-2020.md)
 + [Dynamic Media新闻快讯（按体验联盟）](dynamic-media-newsletter.md)
 + 介绍AdobeDynamic Media经典 {#intro}
+   + [AdobeDynamic Media经典桌面应用程序——现已推出](dynamic-media-classic-desktop-app.md)
    + [关于Dynamic Media经典](introduction.md)
    + [开发人员资源](developer-resources.md)
    + [What’s new](whats-new.md)
    + [系统要求](system-requirements.md)
-   + [AdobeDynamic Media经典桌面应用程序即将推出！](dynamic-media-classic-desktop-app.md)
    + [支持](support.md)
    + [Dynamic Media经典媒体门户帮助](help-scene7-media-portal.md)
    + [Adobe 培训服务](training-services.md)
