@@ -1,20 +1,20 @@
 ---
-title: 新Dynamic Media经典登录体验现已推出
-seo-title: 新Dynamic Media经典桌面应用程序现已推出
+title: AdobeDynamic Media经典桌面应用程序
+seo-title: AdobeDynamic Media经典桌面应用程序
 description: Dynamic Media经典用户现在可以体验到用户界面的完全刷新。 该体验提供包含有价值资源链接的更新登录，此更新不再依赖浏览器中的Adobe Flash技术。
 contentOwner: rbrough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
 translation-type: tm+mt
-source-git-commit: 42d2a6e5d1a4b33149043eed590137ea826fe146
+source-git-commit: d3870442babfbcc14734b4e31f9989f5e5837049
 workflow-type: tm+mt
-source-wordcount: '1116'
+source-wordcount: '1109'
 ht-degree: 0%
 
 ---
 
 
-# 新Dynamic Media经典登录体验现已推出 {#new-ui-2020}
+# AdobeDynamic Media经典桌面应用程序——现已推出 {#new-ui-2020}
 
 请参 [阅AdobeDynamic Media经典桌面应用程序](/help/dynamic-media-classic-desktop-app.md) ，查看系统要求、下载并安装新应用程序，然后登录到该应用程序。
 
