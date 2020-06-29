@@ -5,9 +5,9 @@ audience: end-user
 user-guide-title: Dynamic Media经典帮助
 index: y
 translation-type: tm+mt
-source-git-commit: d3870442babfbcc14734b4e31f9989f5e5837049
+source-git-commit: b034ef968788ff6cdd95aa261302017307df120d
 workflow-type: tm+mt
-source-wordcount: '731'
+source-wordcount: '732'
 ht-degree: 76%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 76%
 + [Dynamic Media新闻快讯（按体验联盟）](dynamic-media-newsletter.md)
 + 介绍AdobeDynamic Media经典 {#intro}
    + [AdobeDynamic Media经典桌面应用程序——现已推出](dynamic-media-classic-desktop-app.md)
-   + [关于Dynamic Media经典](introduction.md)
+   + [关于Dynamic Media经典帮助](introduction.md)
    + [开发人员资源](developer-resources.md)
    + [What’s new](whats-new.md)
    + [系统要求](system-requirements.md)
