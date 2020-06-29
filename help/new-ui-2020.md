@@ -6,9 +6,9 @@ contentOwner: rbrough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
 translation-type: tm+mt
-source-git-commit: c554e643d287680c34a3b0e79c8dfd7c306a0111
+source-git-commit: 42d2a6e5d1a4b33149043eed590137ea826fe146
 workflow-type: tm+mt
-source-wordcount: '1139'
+source-wordcount: '1116'
 ht-degree: 0%
 
 ---
@@ -25,8 +25,6 @@ Dynamic Media经典用户现在可以获得不再依赖浏览器中的Adobe Flas
 ### **_2020年12月31日浏览器停止支持Adobe Flash时，Dynamic Media经典（以前称为Scene7）是否会受到影响？_**
 
 Adobe Flash Player是一个Web浏览器插件，它允许Web浏览器使用在Adobe Flash平台上开发的内容。 Dynamic Media经典(当前在产品中标 [!DNL Scene7 Publishing System] 记 [!DNL SPS] 或标记)的Web用户界面需要Adobe Flash Player。 2020年12月31日弃用Adobe Flash时，Dynamic Media经典客户将无法再登录到Web用户界面。 因此，Adobe为客户提供了替代浏览器体验的桌面应用程序。
-
-请参 [阅AdobeDynamic Media经典桌面应用程序](/help/dynamic-media-classic-desktop-app.md) ，查看系统要求、下载并安装新应用程序，然后登录到该应用程序。
 
 ### **_如何访问新的桌面应用程序？_**
 
