@@ -8,9 +8,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_classic
 translation-type: tm+mt
-source-git-commit: f2b8c8a5bdac38a48157c6eaa80cd09692ee2259
+source-git-commit: 8858ca1482b8a33e3294df345bc2e5fc34483e07
 workflow-type: tm+mt
-source-wordcount: '679'
+source-wordcount: '684'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ AdobeDynamic Media经典桌面应用程序兼容以下操作系统：
 1. 下载AdobeDynamic Media经典桌面应用程序的最新安装程序。
 
    * [macOS(.dmg)-下载。](http://download.macromedia.com/dynamic-media-classic/20.20.1/adobe-dynamic-media-classic-20.20.1.dmg)
-   * [Windows(.exe)-下载。](lhttp://download.macromedia.com/dynamic-media-classic/20.20.1/adobe-dynamic-media-classic-20.20.1.exe)
+   * [Windows(.exe)-下载。](http://download.macromedia.com/dynamic-media-classic/20.20.1/adobe-dynamic-media-classic-20.20.1.exe)
 
 1. 根据您下载的安装程序执行下列操作之一。
 
