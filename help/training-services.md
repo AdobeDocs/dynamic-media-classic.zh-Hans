@@ -10,14 +10,17 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_scene7
 discoiquuid: 2bccf91d-ec27-4cdf-a322-55804b6ba0d3
 translation-type: tm+mt
-source-git-commit: a886163176973bdea4c7f0feddefc6c228c3b83c
+source-git-commit: 2fb7e34b734dba1e0bd1d150580d7d6c74ee1b79
+workflow-type: tm+mt
+source-wordcount: '170'
+ht-degree: 57%
 
 ---
 
 
 # Adobe 培训服务{#adobe-training-services}
 
-Dynamic Media Classic优惠培训，形式包括视频教程、由讲师指导的研讨会和Web会话以及演示。
+Dynamic Media经典优惠培训，形式包括视频教程、有导师指导的研讨会和Web会话以及演示。
 
 **Adobe 培训服务**
 
@@ -25,20 +28,14 @@ Adobe 培训服务提供专为贵组织设计的、内容深入的自定义课�
 
 请参 [阅Adobe培训服务](https://training.adobe.com/training.html)[](https://www.adobe.com/go/learn_sc7_trainingrequest_en)。
 
-**快速入门视频教程**
-
-了解 Media Portal、动态成像、eCatalog、eVideo、Web-to-Print 以及与了解和使用 Scene7 Publishing System 有关的很多其他主题。
-
-See [Quick Start Video Tutorials](https://marketing.adobe.com/resources/help/en_US/home/index.html#Scene7).
-
 **演示**
 
-观看Dynamic Media Classic查看器功能的演示。
+观看Dynamic Media经典查看器功能的演示。
 
 请参 [阅演示](https://www.adobe.com/solutions/web-experience-management/rich-media-assets-demos.html)。
 
 **帮助的快速入门章节**
 
-帮助系统的“入门”部分为Dynamic Media Classic新用户提供说明。 该部分将解释平台、导航、设置、资源管理及构建富媒体的基础知识。
+帮助系统的“入门”部分向不熟悉Dynamic Media经典的用户提供说明。 该部分将解释平台、导航、设置、资源管理及构建富媒体的基础知识。
 
 请参阅[快速入门](scene7-platform-overview.md)。
