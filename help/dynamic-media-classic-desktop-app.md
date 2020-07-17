@@ -8,9 +8,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_classic
 translation-type: tm+mt
-source-git-commit: 8858ca1482b8a33e3294df345bc2e5fc34483e07
+source-git-commit: 88f73056803a34ef2748b19eafbe7d50933b4d6a
 workflow-type: tm+mt
-source-wordcount: '684'
+source-wordcount: '717'
 ht-degree: 0%
 
 ---
@@ -71,6 +71,10 @@ AdobeDynamic Media经典桌面应用程序兼容以下操作系统：
    | https://s7sps5.scene7.com/ | 亚太地区生产 |
 
 1. 登录UI发布后，您会注意到您熟悉的浏览器UI体验。 您现在可以在桌面应用程序UI中像往常一样将日常活动带入您的日常。
+
+## 使用Dynamic Media经典桌面应用程序的视频演练
+
+观看使 [用Dynamic Media经典桌面应用程序的视频浏览](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/dynamic-media/dynamic-media-classic-desktop-application.html) (长度： 2分36秒)。
 
 ## Dynamic Media经典中的已知限制
 
