@@ -6,38 +6,41 @@ seo-description: 了解如何管理垃圾桶文件夹。
 uuid: 3992a5b8-1919-4924-b07d-7fb25565effd
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: 553c95fc-0a41-4f06-af50-a62bc1438149
 translation-type: tm+mt
-source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '542'
+ht-degree: 61%
 
 ---
 
 
 # 管理垃圾桶文件夹{#managing-the-trash-folder}
 
-您从 Scene7 Publishing System 删除的项目会移到垃圾桶文件夹。它们在该文件夹中保留七天，如果不被恢复则被永久删除。您可以通过选择位于资源库底部的“垃圾桶”图标 ，查看垃圾桶文件夹中的项目来检查删除的项目。
+从Dynamic Media经典中删除的项目将移至垃圾桶文件夹。 它们在该文件夹中保留七天，如果不被恢复则被永久删除。您可以通过选择位于资源库底部的“垃圾桶”图标 ，查看垃圾桶文件夹中的项目来检查删除的项目。
 
 所有用户都可以将垃圾桶文件夹中的项目恢复到删除之前所在的文件夹。所有用户也都可以清空垃圾桶文件中的所有内容。
 
-删除垃圾桶文件夹中的项目会从 Scene7 Publishing System 永久删除此项目；从垃圾桶文件夹删除的项目将无法恢复。对于公司管理员，有关在资源将要从垃圾桶自动删除时设置通知的信息，请参阅[应用程序常规设置](application-setup.md#general_settings)。
+从垃圾桶文件夹删除项目会永久删除Dynamic Media经典中的项目； 无法再还原从垃圾桶文件夹删除的项目。 对于公司管理员，有关在资源将要从垃圾桶自动删除时设置通知的信息，请参阅[应用程序常规设置](application-setup.md#general_settings)。
 
 >[!NOTE]
 >
->已移到垃圾桶文件夹的资源仍会在 Scene7 Publishing System 上注册。如果您尝试上传的文件与垃圾桶文件夹中已删除的文件同名，则Dynamic Media Classic会将要上传的资产视为重复资产。 因此，会将一个数字附加到其名称中。
+>已移到垃圾桶文件夹的资产仍会在Dynamic Media经典中注册。 如果您尝试上传的文件与垃圾桶文件夹中已删除的文件同名，则Dynamic Media经典会将要上传的资产视为重复资产。 因此，会将一个数字附加到其名称中。
 
 ## 关于垃圾桶文件夹 {#about-the-trash-folder}
 
 删除文件夹中的某个项目会将此项目放置在垃圾桶文件夹中。在删除项目并将其移至垃圾桶文件夹时，会发生以下情况：
 
-* 虽然已从 Scene7 Publishing System 文件夹删除了项目，但此项目仍位于垃圾桶文件夹中，其 ID 无法分配给其他资源。如果您尝试上传的资产名称与垃圾桶文件夹中的文件相同，Dynamic Media Classic会在资产名称中附加一个数字。
+* 尽管该项目已从您的Dynamic Media经典文件夹中删除，但其ID仍保留在垃圾桶文件夹中时无法分配给其他资产。 如果您尝试上传的资产名称与垃圾桶文件夹中的文件名称相同，则“Dynamic Media经典”会在资产名称中附加一个数字。
 * 无法发布该项目。即使在删除项目时将其标记为发布，也不会将其发布。
 * 在七天之内，该项目一直停留在垃圾桶文件夹中，直到得到恢复，或有人选择“清空垃圾桶”命令。在七天之后，系统会自动执行清除操作永久删除该项目。
 
 ## 从垃圾桶文件夹恢复资源 {#restoring-assets-from-the-trash-folder}
 
-被删除资源不必由删除它的人来恢复；任何人都可以恢复垃圾桶文件夹中的资源。恢复的资源会放到被删除时所在的文件夹。如果这些文件夹不再存在，Scene7 Publishing System 会重新创建，恢复的资源会放入重新创建的文件夹。
+被删除资源不必由删除它的人来恢复；任何人都可以恢复垃圾桶文件夹中的资源。恢复的资源会放到被删除时所在的文件夹。如果这些文件夹不再存在，Dynamic Media经典会重新创建它们，并且恢复的资产会放置在重新创建的文件夹中。
 
 请执行以下步骤，将资源从垃圾桶文件夹恢复到删除之前所在的文件夹：
 
@@ -51,9 +54,9 @@ source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
 
 要永久删除垃圾桶文件夹中的资源，请选择“垃圾桶”图标  打开垃圾桶文件夹。然后删除文件夹中的单个资源或所有资源：
 
-* **删除单个资产** ，选择要永久删除的资产，然后单击文 **[!UICONTROL 件>从垃圾桶中清空]**。
+* **删除单个资产** 选择要永久删除的资产，然后单击文 **[!UICONTROL 件>从垃圾桶中清空]**。
 
-* **删除所有资产** ，单击 **[!UICONTROL 文件>清空垃圾桶]**。
+* **删除所有资源** ，单 **[!UICONTROL 击文件>清空垃圾桶]**。
 
 >[!MORELIKETHIS]
 >
