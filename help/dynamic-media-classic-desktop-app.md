@@ -8,7 +8,7 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_classic
 translation-type: tm+mt
-source-git-commit: 9f541bf3a6f364029df868215953b14c15ae474c
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
 workflow-type: tm+mt
 source-wordcount: '716'
 ht-degree: 0%
@@ -24,7 +24,7 @@ Dynamic Media经典用户现在可以获得不再依赖浏览器中的Adobe Flas
 
 >[!IMPORTANT]
 >
->我们建议您在2020年10月1日之前安装新的AdobeDynamic Media经典桌面应用程序。 这样做将确保您在2020年12月31日弃用Adobe Flash Player之前拥有流畅的过渡。 在该日期，您将无法再登录到浏览器版的AdobeDynamic Media经典用户界面，产品中标为Scene7 Publishing System。
+>我们建议您在2020年10月1日之前安装新的AdobeDynamic Media经典桌面应用程序。 这样做将确保您在2020年12月31日弃用Adobe Flash Player之前拥有流畅的过渡。 在该日期，您将无法再登录到浏览器版的AdobeDynamic Media经典用户界面，该用户界面在产品中标记为Dynamic Media经典。
 
 查看现在提供的 [新Dynamic Media经典登录体验常见问题解答。](/help/new-ui-2020.md)
 
