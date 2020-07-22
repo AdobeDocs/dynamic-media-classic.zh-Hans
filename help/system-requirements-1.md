@@ -6,11 +6,11 @@ seo-description: '了解系统要求以获得最佳媒体门户使用体验。 '
 uuid: e870b198-19ae-4647-8833-2764358de53d
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/media_portal
 discoiquuid: 43df059d-7c4d-481a-978a-ca4c74e604b4
 translation-type: tm+mt
-source-git-commit: 1c4fdd6493d36be91ed015f019f5d4205d5cae41
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
 workflow-type: tm+mt
 source-wordcount: '96'
 ht-degree: 44%
