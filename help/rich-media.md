@@ -2,15 +2,15 @@
 title: 多媒體
 seo-title: 多媒體
 description: 'null'
-seo-description: 了解Dynamic Media Classic中可用于创建富媒体的各种工具。
+seo-description: 了解Dynamic Media经典中可用于创建富媒体的各种工具。
 uuid: b64981a3-c3c2-4010-9b65-f9982ea0a664
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/getting_started
 discoiquuid: 86f72d31-19aa-4077-a746-2badb53b02ec
 translation-type: tm+mt
-source-git-commit: df0c2897b9fceddde648be53b23e25b13388d6b9
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
 workflow-type: tm+mt
 source-wordcount: '459'
 ht-degree: 52%
@@ -20,13 +20,13 @@ ht-degree: 52%
 
 # 多媒體{#rich-media}
 
-Dynamic Media Classic优惠了许多用于创建富媒体的工具。 您可以创建以下富媒体类型：
+Dynamic Media经典优惠了用于创建富媒体的多种工具。 您可以创建以下富媒体类型：
 
 * **电子目**&#x200B;录展示您的目录或其他印刷资料的交互式、支持搜索的Web版本。 创建可显示变换内容并允许客户翻页、缩放、平移和向页面添加附注的可单击区域（称为“图像映射”）。请参阅[快速入门：eCatalog](/help/quick-start-ecatalog.md)。
 
-* **电子视**&#x200B;频将高质量视频体验投放到包括台式机、移动设备和平板电脑在内的多个屏幕。 使用预定义的Dynamic Media Classic编码预设或自定义编码来控制视频的质量和大小。 利用对元数据的全面支持来组织、浏览和搜索视频，从而高效地管理视频资源。请参阅[快速入门：eVideo](/help/quick-start-video.md)。
+* **电子视**&#x200B;频将高质量视频体验投放到包括台式机、移动设备和平板电脑在内的多个屏幕。 使用预定义的Dynamic Media经典编码预设或自定义编码来控制视频的质量和大小。 利用对元数据的全面支持来组织、浏览和搜索视频，从而高效地管理视频资源。请参阅[快速入门：eVideo](/help/quick-start-video.md)。
 
-* **图像映射**&#x200B;在整个网站中以任何大小和格式动态提供图像。 您只使用一个主图像，而不是手动创建许多不同尺寸的图像。随着Dynamic Media Classic提供所请求的图像，它会优化图像，以获得最高质量的大小、格式、权重、质量和锐化效果。 请参阅[快速入门：调整图像大小](/help/quick-start-image-sizing.md)。
+* **图像映射**&#x200B;在整个网站中以任何大小和格式动态提供图像。 您只使用一个主图像，而不是手动创建许多不同尺寸的图像。由于Dynamic Media经典提供所请求的图像，因此它优化图像以获得最高质量的大小、格式、权重、质量和锐化效果。 请参阅[快速入门：调整图像大小](/help/quick-start-image-sizing.md)。
 
 * **图像集**&#x200B;提供交互式购物体验，用户可以通过该体验在多个视图中视图产品。 可以将缩放、多视图和颜色样本结合在一起，从而实现集成的观看体验。请参阅[快速入门：图像集](/help/quick-start-image-sets.md)。
 
@@ -38,4 +38,4 @@ Dynamic Media Classic优惠了许多用于创建富媒体的工具。 您可以�
 
 * **模板基础**&#x200B;知识创建数据驱动的模板，这些模板将字体、图像和图形组合在一起，用于编排、在线个性化和促销。 例如，在产品图像上放置特惠销售或其他促销图形的图层，或将客户姓名放在 T 恤或咖啡杯上。客户可以在电子邮件或寄给他们的印刷宣传册中看到他们的姓名。请参阅[快速入门：模板基础](/help/quick-start-template-basics.md)。
 
-* **缩放目标**&#x200B;允许客户使用Dynamic Media Classic附带的可配置查看器放大、缩小和平移图像。 客户可以快捷地交互查看高分辨率的产品细节。请参阅[快速入门：缩放](/help/quick-start-zoom.md)。
+* **缩放目标**&#x200B;允许客户使用Dynamic Media经典附带的可配置查看器放大、缩小和平移图像。 客户可以快捷地交互查看高分辨率的产品细节。请参阅[快速入门：缩放](/help/quick-start-zoom.md)。
