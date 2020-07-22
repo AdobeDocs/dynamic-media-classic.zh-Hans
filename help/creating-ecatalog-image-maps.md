@@ -2,15 +2,18 @@
 title: 创建 eCatalog 图像映射
 seo-title: 创建 eCatalog 图像映射
 description: 'null'
-seo-description: 了解如何创建eCatalog图像映射。
+seo-description: 了解如何创建电子目录图像映射。
 uuid: 943ad3f7-a885-4bc2-88cb-77083384bdf8
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
 discoiquuid: 4cf63359-63b5-4da7-9498-335d91b4776c
 translation-type: tm+mt
-source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '1496'
+ht-degree: 77%
 
 ---
 
@@ -28,10 +31,10 @@ source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
 1. 在“映射页面”屏幕的左侧，选择所需页面。
 1. 在“图像映射”区域中，绘制一个矩形或多边形（多个边）图像映射：
 
-   * **矩形图**&#x200B;选择矩形图像映射工具并在页面上拖动以创建矩形。
+   * **矩形**&#x200B;图选择矩形图像映射工具，并在页面上拖动以创建矩形。
 
-   * **多边形映**&#x200B;射选择“多边形图像映射”工具，并在图像周围单击所需次数。 单击时，Dynamic Media Classic将绘制图像映射的边框。
-   在您绘制图像映射后，Dynamic Media Classic会在图像映射列表中为其分配一个名称。 要形成名称，Dynamic Media Classic会在您正在处理的eCatalog页面的名称中附加一个顺序编号。
+   * **多边形**&#x200B;映射选择“多边形图像映射”工具，并在图像周长周围根据需要单击多次。 单击时，Dynamic Media经典将绘制图像映射的边框。
+   绘制图像映射后，Dynamic Media经典会在图像映射列表中为其分配一个名称。 要形成名称，Dynamic Media经典会将一个顺序编号附加到您正在处理的eCatalog页面的名称中。
 
 1. （可选）在“图像映射”列表面板中的“名称”列下，为图像映射输入新名称。输入的名称中不能包含空格。
 1. 可以使查看者在单击“图像映射”时打开新的网页。在“图像映射”列表面板中的“URL”列中输入网页的 URL。
@@ -72,15 +75,16 @@ source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
 
 从 eCatalog 屏幕的“映射页面”选项卡上开始，使用以下方法来编辑 eCatalog 图像映射：
 
-* **调整位置**&#x200B;选择平移工具，并将指针移到地图边框的附近，但不移到该边框上。 当指针显示为四向箭头时，将图像映射拖动到新位置。
+* **调整位置**&#x200B;选择“平移”工具，将指针移近但不移过地图的边框。 当指针显示为四向箭头时，将图像映射拖动到新位置。
 
    请参阅[调整图像映射的位置、形状和大小](creating-image-maps.md#adjusting_the_position_shape_and_size_of_image_maps)。
 
-* **更改形状和大小要调**&#x200B;整矩形图像映射的大小，请选择平移工具。 然后将指针移动到边框或角上，看到双向箭头图标时进行拖动。要调整多边形图像映射的大小，请拖动正方形选择手柄。要创建选择手柄，单击图像映射的边框并拖动。
+* **更改形状和大小要**&#x200B;调整矩形图像映射的大小，请选择“平移”工具。 然后将指针移动到边框或角上，看到双向箭头图标时进行拖动。要调整多边形图像映射的大小，请拖动正方形选择手柄。要创建选择手柄，单击图像映射的边框并拖动。
 
    请参阅[调整图像映射的位置、形状和大小](creating-image-maps.md#adjusting_the_position_shape_and_size_of_image_maps)。
 
-* **删除图像映**&#x200B;射选择平移工具，单击图像映射以将其选中，然后单击 **删除**。
+* **删除图像**&#x200B;映射选择平移工具，单击图像映射以将其选中，然后单击 
+**删除**.
 
    To remove all Image Maps from an eCatalog, click the **Order Pages** tab, and then click **Clear Maps**.
 
@@ -128,7 +132,7 @@ source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
 
 ## 在 eCatalog 之间复制图像映射 {#copying-image-maps-between-ecatalogs}
 
-可以将 eCatalog 中的所有图像映射复制到其他 eCatalog 中。这种复制图像映射的方法是在相同的 eCatalog 的外语翻译之间复制图像映射的方便方法。为使复制成功，Dynamic Media Classic建议在具有相同数量的页面和相同图像的电子目录之间复制。
+可以将 eCatalog 中的所有图像映射复制到其他 eCatalog 中。这种复制图像映射的方法是在相同的 eCatalog 的外语翻译之间复制图像映射的方便方法。为了成功复制，Dynamic Media经典建议在页面数相同且图像相同的电子目录之间进行复制。
 
 >[!NOTE]
 >
@@ -140,4 +144,4 @@ source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
 1. 在“排序页面”选项卡上，单击“复制映射”。
 1. 在“选择资源”对话框中，选择要在其中复制图像映射的 eCatalog，然后单击“选择”。
 
-如果目标eCatalog（您将图像映射复制到的eCatalog）具有不同数量的页面或图像，则Dynamic Media Classic会显示一条警告消息。 可以忽略该警告，单击“继续”来复制图像映射。
+Dynamic Media经典：如果目标eCatalog（您将图像映射复制到的eCatalog）具有不同大小的页数或图像，则会显示一条警告消息。 可以忽略该警告，单击“继续”来复制图像映射。
