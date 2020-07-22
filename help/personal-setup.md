@@ -2,18 +2,18 @@
 title: 个人设置
 seo-title: 个人设置
 description: 'null'
-seo-description: 所有用户都可以更改Dynamic Media Classic的“个人设置”屏幕上的设置。
+seo-description: 所有用户都可以更改Dynamic Media经典“个人设置”屏幕上的设置。
 uuid: 29cb825a-f158-4a1e-9d5f-7636ee411b6e
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/setup
 discoiquuid: 6314e7b7-5bde-4fe2-8674-e4fc525d4d1c
 translation-type: tm+mt
-source-git-commit: df0c2897b9fceddde648be53b23e25b13388d6b9
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
 workflow-type: tm+mt
-source-wordcount: '1209'
-ht-degree: 82%
+source-wordcount: '1194'
+ht-degree: 76%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 82%
 
 >[!NOTE]
 >
->“个人设置”屏幕会列出您在 Scene7 Publishing System 中有哪些用户角色：“公司管理员”、“管理员”或“用户”。
+>“个人设置”屏幕列表您在Dynamic Media经典中具有的用户角色： 公司管理员、管理员或用户。
 
 “个人设置”设置控制浏览面板的默认行为、您接收电子邮件的方式以及密码设置。在更改这些设置之后，请记住单击“保存”。
 
@@ -34,11 +34,11 @@ ht-degree: 82%
 
 ### 桌面版
 
-单击“立即安装”，将 Scene7 Publishing System 的桌面版本安装在您的本地硬盘上。或者，单击“立即重新安装”，再次安装桌面版本。
+单击“立即安装”，在本地硬盘上安装Dynamic Media经典的桌面版本。 或者，单击“立即重新安装”，再次安装桌面版本。
 
 ## 在本地硬盘中安装插件
 
-1. 在 Scene7 Publishing System 的“个人设置”页中的“用于 Web-to-Print 的 Illustrator 插件”下面，单击“**立即下载**”以下载 **Illustrator Plug-in for Web-to-Print.zip** 文件。
+1. On the Personal Setup page in Dynamic Media Classic, under Illustrator Plug-in for Web-to-Print, click **Download Now** to download the **Illustrator Plug-in for Web-to-Print.zip** file.
 1. 将该 ZIP 文件解压缩到一个临时文件夹中。
 
    在解压缩的文件的根目录中包含一个自述文件以提供有关该插件的其他信息。
@@ -83,8 +83,6 @@ ht-degree: 82%
    * 在图像后显示灰白格图层，使您可以轻松地看到具有 Alpha 通道的图像的透明区域。
 * **显示文件大小**
    * 在您浏览时显示资源的文件大小。
-* **在退出 SPS 时确认**
-   * 在您退出 Scene7 Publishing System 之前，显示确认窗口。
 * **在搜索中包括 UDF**
    * 取消选择（默认）可提高您运行的大多数元数据搜索的系统性能。
 
@@ -106,7 +104,7 @@ ht-degree: 82%
 ## 电子邮件
 
 * **电子邮件选项**
-   * 选择您希望Dynamic Media Classic在上传和发布作业完成时通过电子邮件通知您的方式。 可以选择仅当发生警告或错误时接收作业完成通知。
+   * 选择您希望Dynamic Media经典在上传和发布作业完成时通过电子邮件通知您的方式。 可以选择仅当发生警告或错误时接收作业完成通知。
 * **电子邮件范围**
    * 确定您是接收公司的所有作业电子邮件，还是只接收有关您启动的上载和发布作业的电子邮件。
 * **电子邮件类型**
