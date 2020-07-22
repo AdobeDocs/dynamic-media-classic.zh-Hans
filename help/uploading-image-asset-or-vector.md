@@ -6,10 +6,13 @@ seo-description: 了解如何上传图像资产或矢量资产。
 uuid: d0e4a754-8a49-4b0f-b202-e9003bdb8f20
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: de21dca9-99fe-4183-b647-debfe112fda4
 translation-type: tm+mt
-source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '1522'
+ht-degree: 86%
 
 ---
 
@@ -22,7 +25,7 @@ source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
 
 通过向 Scene 7 技术支持（邮箱为 s7support@adobe.com）发送电子邮件来请求一个&#x200B;*共享密钥*。
 
-在电子邮件中，请提供要用于上载图像资源的公司名称。从Dynamic Media Classic收到密钥后，请将其保存在本地以供将来使用。
+在电子邮件中，请提供要用于上载图像资源的公司名称。从Dynamic Media经典收到密钥后，将其保存在本地以供将来使用。
 
 ## 检索上载令牌 {#retrieving-the-upload-token}
 
@@ -123,7 +126,7 @@ The `file_limit` parameter specifies the file-size limit in bytes. `file_exts` �
 * 文件大小限制.
 * 文件扩展名的列表.
 * 是否保留与资产关联的颜色用户档案和文件名。
-* 是否使用挖空背景。 如果启用“挖空背景”，则设置“角”(Corner)、“容差”(Tolerance)和“填充方法”(Fill Method)。 请参阅上传时“图像编 [辑”选项中的挖空背景](image-editing-options-upload.md#image-editing-options-at-upload)。
+* 是否使用挖空背景。 如果启用“挖空背景”，请设置“角”、“容差”和“填充方法”。 请参阅上传时图像编 [辑选项中的挖空背景](image-editing-options-upload.md#image-editing-options-at-upload)。
 * 待上载文件的名称
 
 <!-- 
@@ -286,7 +289,7 @@ The `file_limit` parameter specifies the file-size limit in bytes. `file_exts` �
 * 文件大小限制.
 * 文件扩展名的列表.
 * 是否保留与资产关联的颜色用户档案和文件名。
-* 是否使用挖空背景。 如果启用“挖空背景”，则设置“角”(Corner)、“容差”(Tolerance)和“填充方法”(Fill Method)。 请参阅上传时“图像编 [辑”选项中的挖空背景](image-editing-options-upload.md#image-editing-options-at-upload)。
+* 是否使用挖空背景。 如果启用“挖空背景”，请设置“角”、“容差”和“填充方法”。 请参阅上传时图像编 [辑选项中的挖空背景](image-editing-options-upload.md#image-editing-options-at-upload)。
 * 待上载文件的名称
 
 <!-- 
