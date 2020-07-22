@@ -2,15 +2,18 @@
 title: 创建和管理 Media Portal 组
 seo-title: 创建和管理 Media Portal 组
 description: 'null'
-seo-description: 了解如何创建和管理Media Portal组。
+seo-description: 了解如何创建和管理媒体门户组。
 uuid: 23f360e1-ddcb-491b-ab9f-428f3ac9c316
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/media_portal
 discoiquuid: 91524d36-b77a-4dc4-acba-a7bd85297e98
 translation-type: tm+mt
-source-git-commit: 75f006fd81b0fe2dad5479cdd98e45eaada46b2a
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '829'
+ht-degree: 96%
 
 ---
 
@@ -94,7 +97,7 @@ source-git-commit: 75f006fd81b0fe2dad5479cdd98e45eaada46b2a
 1. 单击“**设置**”>“**Media Portal 设置**”>“**组**”。
 1. 在“组列表”页面上，选择一个组，然后进行编辑或删除。
 
-   **编辑组单击** “编辑”，然后在“编辑组”对话框中选择选项。
+   **编辑组** ，单击编辑，然后在编辑组对话框中选择选项。
 
    **删除用户组** ，单击删除。
 
