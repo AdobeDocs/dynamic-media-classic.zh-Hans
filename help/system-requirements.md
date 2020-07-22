@@ -6,11 +6,11 @@ seo-description: '了解系统要求以获得最佳体验，使用Dynamic Media�
 uuid: 8dfc925b-7350-41af-9207-3b2a743c0998
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_scene7
 discoiquuid: 27278fef-8b0e-41cd-b393-7a4c3625d5c0
 translation-type: tm+mt
-source-git-commit: 1c4fdd6493d36be91ed015f019f5d4205d5cae41
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
 workflow-type: tm+mt
 source-wordcount: '95'
 ht-degree: 47%
