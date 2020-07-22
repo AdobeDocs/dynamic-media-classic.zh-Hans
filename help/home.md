@@ -3,11 +3,11 @@ title: Dynamic Media经典技术文档
 seo-title: AdobeDynamic Media经典的技术文档和自助
 description: Dynamic Media经典技术文档
 seo-description: 'AdobeDynamic Media经典（以前称为Scene 7）的技术文档、发行说明和自助资料 '
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 translation-type: tm+mt
-source-git-commit: 2fb7e34b734dba1e0bd1d150580d7d6c74ee1b79
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
 workflow-type: tm+mt
-source-wordcount: '667'
+source-wordcount: '669'
 ht-degree: 11%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 11%
 * [Dynamic Media每月新闻快讯](dynamic-media-newsletter.md)
 * [指南： 使用Dynamic Media经典的最佳实践](https://www.adobe.com/content/dam/www/us/en/marketing/experience-manager-assets/dynamic-media/adobe-dynamic-media-classic-best-practices-guide.pdf)
 * [指南： 锐化图像的最佳实践指南](/help/assets/s7_sharpening_images.pdf)
-* [指南： Adobe动态媒体经典如何支持SEO](/help/assets/s7_seo.pdf) —— 搜索引擎现在支持搜索网站和图像。 SPS支持使图像搜索引擎友好化的努力，以使更多流量流向Dynamic Media经典用户的网站。 PDF中的本指南为您提供实现这一目标的背景和实施建议。
+* [指南： Adobe动态媒体经典如何支持SEO](/help/assets/s7_seo.pdf) —— 搜索引擎现在支持搜索网站和图像。 Dynamic Media经典支持使图像搜索引擎友好化的工作，以便将更多流量驱动到Dynamic Media经典用户的网站。 PDF中的本指南为您提供实现这一目标的背景和实施建议。
 * [网络研讨会： 响应式设计最佳实践](http://offers.adobe.com/en/na/marketing/landings/_40458_responsive_design_live_on_demand_webinar.html) -了解有关如何改进移动战略的实用提示。 查看响应式设计的实战案例。创建一个能够跨多种设备工作的主资源，并通过动态更改图像分辨率或图像的横向/纵向显示方向，提高移动表现。还可以了解如何进行动态裁切、缩放，或调整图像大小。
 * [网络研讨会： 最佳实践通过Dynamic Media经典提供交互式体验](http://seminars.adobeconnect.com/p7wb8ej3u6d/) -了解如何在Dynamic Media经典中导入和导出内容，以及如何设置图像预设以实现最佳性能和体验。 您还可以了解查看器预设和缓存配置。
 * [网络研讨会： 最大化资产投资回报](https://adobecustomersuccess.adobeconnect.com/p5ar3hfrrec/?launcher=false&amp;fcsContent=true&amp;pbMode=normal&amp;proto=true) -学习行业最佳实践，在您的网站和移动App中提供富媒体。 在此网络研讨会中，我们举出了一些示例和演示，向您展示如何跨设备高效交付视频、在营销活动中提供动态创意并通过使任何图像、风格指南或商品手册变为可购物来提高转化率。
