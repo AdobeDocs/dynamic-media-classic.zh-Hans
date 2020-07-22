@@ -6,18 +6,21 @@ seo-description: 了解如何调整图像
 uuid: c052acd3-e8c1-4134-ad21-b9c41578097f
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
 discoiquuid: 47a23980-2886-4da3-ab2d-6cd50e00d188
 translation-type: tm+mt
-source-git-commit: 32f5e03766466ceaafe58780e9e80dbdd4a0c3dd
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '554'
+ht-degree: 95%
 
 ---
 
 
 # 调整图像{#adjusting-an-image}
 
-Dynamic Media Classic优惠各种命令以调整图像的外观。 您可以翻转、旋转、模糊处理、更改颜色平衡，以及为图像着色。在使用这些命令进行试验时，您可以在正在处理的图像上看到命令效果。
+Dynamic Media经典优惠各种用于调整图像外观的命令。 您可以翻转、旋转、模糊处理、更改颜色平衡，以及为图像着色。在使用这些命令进行试验时，您可以在正在处理的图像上看到命令效果。
 
 另请参阅[为图像创建别名](adjusting-image.md#creating_an_alias_for_an_image)。
 
