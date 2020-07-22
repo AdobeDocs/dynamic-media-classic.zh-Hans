@@ -6,11 +6,14 @@ seo-description: 了解如何创建图像集。
 uuid: 689fdc14-4f51-4c94-8515-cd8551e101d8
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sets
 discoiquuid: 3f356410-b30e-4870-ad95-6e5a9dc126c8
 translation-type: tm+mt
-source-git-commit: 75f006fd81b0fe2dad5479cdd98e45eaada46b2a
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '586'
+ht-degree: 89%
 
 ---
 
@@ -34,9 +37,9 @@ source-git-commit: 75f006fd81b0fe2dad5479cdd98e45eaada46b2a
 
 1. 执行以下操作之一：
 
-   **首先选择图像** 。在浏览面板中，选择要用于图像集的图像，然后单击构建>图像集。
+   **首先选择图像** 。在浏览面板中，选择要用于图像集的图像，单击构建>图像集。
 
-   **开始从“图像集”屏幕中** ，单击“构建”>“图像集”。 “图像集”屏幕随即打开。在资源库中选择一个文件夹，然后将要用于图像集的图像拖到“图像集”屏幕中。
+   **开始自图像集屏幕** ，单击构建>图像集。 “图像集”屏幕随即打开。在资源库中选择一个文件夹，然后将要用于图像集的图像拖到“图像集”屏幕中。
 
 1. 要更改图像顺序，将图像拖到新位置即可。
 1. 确保在页面右下角附近选择了“**保存后发布**”（默认）。
