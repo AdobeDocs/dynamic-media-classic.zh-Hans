@@ -1,23 +1,26 @@
 ---
-title: “快速开始:媒体门户”
-seo-title: “快速开始:媒体门户”
+title: '“快速开始: 媒体门户”'
+seo-title: '“快速开始: 媒体门户”'
 description: 'null'
-seo-description: 介绍和Media Portal的快速开始，帮助您快速入门和使用Media Portal技术和管理。
+seo-description: 介质门户简介和快速开始，可帮助您使用媒体门户技术和管理快速入门和运行。
 uuid: 0dbd6146-b392-4e03-955b-0b323b654b9f
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/media_portal
 discoiquuid: 1385a092-0b2c-4e05-ad1e-ce3685022300
 translation-type: tm+mt
-source-git-commit: a1722c15d3c049f05959d895e85297d47d730872
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '709'
+ht-degree: 84%
 
 ---
 
 
 # Quick Start: Media Portal{#quick-start-media-portal}
 
-通过Media Portal,公司可以轻松地获得、控制和向外部合作伙伴和渠道以及内部业务用户分发获准的创意资产。 此基于浏览器的“自助”环境为Media Portal用户提供管理员控制的Dynamic Media Classic资产的“视图”，以便以公司批准的格式轻松访问、浏览、搜索、预览和导出资产。
+媒体门户使公司能够轻松地获取、控制获准的创意资产并将其分发给外部合作伙伴和渠道以及内部业务用户。 此基于浏览器的“自助”环境为Media Portal用户提供管理员控制的“视图”到Dynamic Media经典资产中，以便以公司批准的格式轻松访问、浏览、搜索、预览和导出资产。
 
 作为管理员，您可以控制用户在 Media Portal 中查看、访问和使用资源的方式。此外，您可以自定义 Media Portal 界面，使其匹配您的网站和品牌。您可以指定字体、字体颜色和字体大小，并将徽标等品牌元素加入 Media Portal 界面中。
 
@@ -45,7 +48,7 @@ Media Portal 用户分为三个角色，即用户、参与者和用户参与者�
 
 **4. 管理 FTP 帐户**
 
-您可以设置单独的 FTP 帐户，这些帐户与 Media Portal 关联，并映射到 Scene7 Publishing System 帐户的特定文件夹中。这种功能意味着，您可以允许用户使用单独的 FTP 帐户将数字资源上载到您的帐户中。
+您可以拥有与Media Portal关联并映射到Dynamic Media经典帐户中特定文件夹的单独FTP帐户。 这种功能意味着，您可以允许用户使用单独的 FTP 帐户将数字资源上载到您的帐户中。
 
 请参阅[管理 FTP 帐户](ftp-accounts.md#managing_ftp_accounts)。
 
