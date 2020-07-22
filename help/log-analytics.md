@@ -2,24 +2,27 @@
 title: 登录到 Adobe Analytics
 seo-title: 登录到 Adobe Analytics
 description: 'null'
-seo-description: 了解如何登录Adobe Analytics。
+seo-description: 了解如何登录AdobeAnalytics。
 uuid: 5614babe-1097-4228-a3dc-27e5a25366d5
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/adobe_analytics_instrumentation_kit
 discoiquuid: e5b510a8-8b7f-4c60-869e-d664a8157e63
 translation-type: tm+mt
-source-git-commit: d5bf894d56687561c93ef08762bc19d3597225e6
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '282'
+ht-degree: 58%
 
 ---
 
 
 # 登录到 Adobe Analytics{#log-in-to-adobe-analytics}
 
-在登录以配置Adobe Analytics报告并将Adobe Analytics报告变量与Dynamic Media Classic事件匹配之前，请确认您已作为Adobe Analytics中Web服务访问组的成员添加。 该组中的成员可以通过 Marketing Cloud 的 Web 服务 API 访问指定报表包中的所有报表，而无论是否在界面中设置了权限。要在组中添加成员，请在 Adobe Analytics 中单击“**管理工具**”>“**用户管理**”>“**编辑组**”。
+在登录以配置AdobeAnalytics报表并将AdobeAnalytics报表变量与Dynamic Media经典事件匹配之前，请验证您是否已添加为AdobeAnalytics中Web服务访问组的成员。 该组中的成员可以通过 Marketing Cloud 的 Web 服务 API 访问指定报表包中的所有报表，而无论是否在界面中设置了权限。要在组中添加成员，请在 Adobe Analytics 中单击“**管理工具**”>“**用户管理**”>“**编辑组**”。
 
-登录后，您可以选择输入您的Marketing Cloud组织ID以使用最新的视频分析实施。 如果选择不输入ID，视频报告仍然有效。 但是，这可能导致数据无法与来自Dynamic Media Classic外部的该客户端的其他数据正确集成。
+登录后，您可以选择输入Marketing Cloud组织ID以使用最新的视频分析实施。 如果您选择不输入ID，视频报告仍然有效。 但是，它可能导致数据无法与来自外部Dynamic Media经典的该客户端的其他数据正确集成。
 
 **登录到 Adobe Analytics**
 
