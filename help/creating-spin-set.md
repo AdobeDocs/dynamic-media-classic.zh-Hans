@@ -6,26 +6,29 @@ seo-description: 了解如何创建旋转集。
 uuid: 697bd78f-5e39-46bf-aa6d-ad8ab99fe40e
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/spin_sets
 discoiquuid: 735b5867-e249-4627-a5a5-25c19c2255bf
 translation-type: tm+mt
-source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '906'
+ht-degree: 74%
 
 ---
 
 
 # 创建旋转集{#creating-a-spin-set}
 
-要创建有效的旋转集，请确保正确拍摄图像。您可以在Dynamic Media Classic中通过选择“构建”按钮并选择“旋转集”来创建旋转集。 在“旋转集”屏幕中编辑旋转集。
+要创建有效的旋转集，请确保正确拍摄图像。您可以通过选择“构建”按钮并选择“旋转集”，在Dynamic Media经典中创建旋转集。 在“旋转集”屏幕中编辑旋转集。
 
 >[!NOTE]
 >
->先前版本的Dynamic Media Classic未优惠二维旋转集。 如果您在Dynamic Media Classic的先前版本中创建了旋转集，则不能先以其他名称保存一维旋转集。 在旋转集屏幕中单击另存为，然后输入新名称，以便在Dynamic Media Classic中编辑它。
+>Dynamic Media经典的先前版本未优惠二维旋转集。 如果您在Dynamic Media经典的先前版本中创建了旋转集，则不能先以其他名称保存一维旋转集。 在旋转集屏幕中单击另存为，然后输入新名称，以便在Dynamic Media经典中编辑它。
 
 ## 旋转集图像拍摄指南 {#guidelines-for-shooting-spin-set-images}
 
-通常，旋转集中的图像越多，图像的旋转效果越好。不过，在旋转集中加入许多图像会增加图像的加载时间。Dynamic Media Classic建议拍摄用于旋转集的图像的以下准则：
+通常，旋转集中的图像越多，图像的旋转效果越好。不过，在旋转集中加入许多图像会增加图像的加载时间。Dynamic Media经典为拍摄用于旋转集的图像建议以下准则：
 
 * 在一维旋转集中至少使用8-12幅图像，在二维旋转集中至少使用16-24幅图像。
 * 请使用无损格式；建议使用 TIFF 和 PNG。
@@ -35,7 +38,7 @@ source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
 
 ## 创建旋转集 {#create}
 
-请注意，在 Scene7 中制作或创建旋转集的顺序是非常重要的。根据将图像拖放到“旋转集”页面上的网格中的顺序，旋转集将按特定的方向旋转。因此，旋转集在生成器中显示的顺序就是用户从左向右移动鼠标指针或手指时旋转资源的方式。
+请注意，旋转集在Dynamic Media经典中的创作或创建顺序很重要。 根据将图像拖放到“旋转集”页面上的网格中的顺序，旋转集将按特定的方向旋转。因此，旋转集在生成器中显示的顺序就是用户从左向右移动鼠标指针或手指时旋转资源的方式。
 
 在创建集时，“**保存后发布**”选项按以下方式影响集和集成员：
 
@@ -82,13 +85,15 @@ source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
 1. 单击旋转集的变换“**编辑**”按钮。
 1. 执行任何以下操作：
 
-   * **删除图像**&#x200B;选择图像，然后单击“删 **除”**。
+   * **删除图像**&#x200B;选择图像，然后单击 
+**删除**.
 
    * **添加图像**&#x200B;将图像拖入单元格。
 
-   * **重新排序行（二维旋转集）**&#x200B;单击行选择器框（在行左侧），然后单击“向下移动 **行** ”或“向 **上移动行”**。
+   * **重新排列行（二维旋转集）**&#x200B;单击行选择器框（在行左侧），然后单击 
+**下移行** 或 **上移行**。
 
-   * **添加行和单元格**&#x200B;在“行”框和“单元格”框中输入一个数字，以确定行数和每行中的单元格数。
+   * **添加行和单元格**&#x200B;在“行”框和“单元格”框中输入一个数字，以确定每行中的行数和单元格数。
 
 1. 在完成编辑后，确保在页面右下角附近选择了“**保存后发布**”（默认）。
 1. 单击“**保存**”，选择一个存储文件夹，输入该集的名称，然后单击“**保存**”。
