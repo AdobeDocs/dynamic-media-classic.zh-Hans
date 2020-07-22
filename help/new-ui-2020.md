@@ -4,9 +4,9 @@ seo-title: AdobeDynamic Media经典桌面应用程序
 description: Dynamic Media经典用户现在可以体验到用户界面的完全刷新。 该体验提供包含有价值资源链接的更新登录，此更新不再依赖浏览器中的Adobe Flash技术。
 contentOwner: rbrough
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 translation-type: tm+mt
-source-git-commit: a3cd7494663337d55fa9b26b6ebe550791d32c7c
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
 workflow-type: tm+mt
 source-wordcount: '1128'
 ht-degree: 0%
@@ -80,7 +80,7 @@ Adobe致力于确保我们的产品满足其客户的安全要求。 新的Dynam
 
 ### **_如何启用Dynamic Media经典桌面应用程序的升级？_**
 
-在2020年6月30日发布AdobeDynamic Media经典桌面应用程序后，如果Adobe发布了新版本，客户需要像往常一样下载新版本和安装(替换应用程序中的现有应 **[!UICONTROL 用]**)。 客户将通过Dynamic Media新闻快讯或其客户服务经理获得新版本的通知。 Adobe还在开发一个应用程序内升级通知机制，该机制将通知用户进行升级。
+在2020年6月30日发布AdobeDynamic Media经典桌面应用程序后，如果Adobe发布了新版本，客户需要像往常一样下载新版本和安装(替换应用程序中的现有应 **[!UICONTROL 用]**)。 客户将通过Dynamic Media新闻快讯或其客户服务经理获知新版本。 Adobe还在开发一个应用程序内升级通知机制，该机制将通知用户进行升级。
 
 ### **_如何获得有关Dynamic Media经典桌面应用程序的任何问题的帮助？_**
 
