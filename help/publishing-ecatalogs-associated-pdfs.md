@@ -1,27 +1,30 @@
 ---
-title: 发布电子目录和关联的PDF
-seo-title: 发布电子目录和关联的PDF
+title: 发布电子目录和相关PDF
+seo-title: 发布电子目录和相关PDF
 description: 'null'
 seo-description: 了解如何发布电子目录和关联的PDF。
 uuid: 6f2f2c79-921a-4096-8f80-24e69c8983fa
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
 discoiquuid: 76e5732a-83c6-4e6b-a29f-a393b1c971aa
 translation-type: tm+mt
-source-git-commit: e3c64b90e0af0129571a21b132477c0c86d06405
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '188'
+ht-degree: 34%
 
 ---
 
 
-# 发布电子目录和关联的PDF{#publishing-ecatalogs-and-associated-pdfs}
+# 发布电子目录和相关PDF{#publishing-ecatalogs-and-associated-pdfs}
 
-发布会将您的电子目录和PDF放在Dynamic Media图像服务器上，以便它可用于您的网站或应用程序。 在发布过程中，Scene7 Publishing System 将激活 URL 字符串。可以将此 URL 字符串放到 HTML 网页代码中。
+Publishing将您的电子目录和PDF放在Dynamic Media图像服务器上，这样，您的网站或应用程序就可以使用它。 在发布过程中，Dynamic Media经典会激活URL字符串。 可以将此 URL 字符串放到 HTML 网页代码中。
 
 >[!NOTE]
 >
->确保电子目录和PDF位于同一文件夹中，在发布之前，它们已在浏览面板或资产详细信息页面中标记为要发布。
+>在发布电子目录和PDF之前，请确保它们位于同一文件夹中，并且在“浏览面板”或“资产详细信息”页面中标记为要发布。
 
 要将电子目录发布到Dynamic Media图像服务器，请执行以下操作：
 
