@@ -6,21 +6,21 @@ seo-description: 了解如何将电子目录链接到网页。
 uuid: 90098a90-180b-477a-8533-24a52a93200b
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
 discoiquuid: 140640f2-3ca4-4b6c-a240-5f01be87fa9c
 translation-type: tm+mt
-source-git-commit: 74238f90f45f0fb9a4566915a20a1d41dfb69fe1
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
 workflow-type: tm+mt
-source-wordcount: '679'
-ht-degree: 91%
+source-wordcount: '678'
+ht-degree: 87%
 
 ---
 
 
 # 将 eCatalog 链接到网页{#linking-an-ecatalog-to-a-web-page}
 
-您的网站和应用程序通过URL字符串或嵌入代码访问Dynamic Media图像服务器内容，包括eCatalog。 这些 URL 字符串在发布过程中被激活。要将 eCatalog 的 URL 字符串或嵌入代码放到网页和应用程序中，需要从 Scene7 Publishing System 中复制该字符串或代码。
+您的网站和应用程序通过URL字符串或嵌入代码访问Dynamic Media图像服务器内容，包括eCatalog。 这些 URL 字符串在发布过程中被激活。要将eCatalog的URL字符串或嵌入代码放置到网页和应用程序中，请从Dynamic Media经典中复制它。
 
 >[!NOTE]
 >
