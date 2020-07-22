@@ -6,11 +6,14 @@ seo-description: 了解如何向视频添加章节标记。
 uuid: 4e1e6daf-afc6-49d9-ac90-183fe2a903b2
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/video
 discoiquuid: 8bc5e552-2abb-41f0-89d2-bdf3ae5d96c2
 translation-type: tm+mt
-source-git-commit: 32f5e03766466ceaafe58780e9e80dbdd4a0c3dd
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '625'
+ht-degree: 88%
 
 ---
 
@@ -55,7 +58,7 @@ See [WebVTT: The Web Video Text Tracks format](https://dev.w3.org/html5/webvtt/)
 
 **在视频中添加章节标记**
 
-1. 可通过在 Scene7 Publishing System 外部使用简单文本编辑器，创建视频章节文件。
+1. 在Dynamic Media经典之外使用简单的文本编辑器创建视频章节文件。
 
    >[!NOTE]
    >
@@ -65,7 +68,7 @@ See [WebVTT: The Web Video Text Tracks format](https://dev.w3.org/html5/webvtt/)
 
    通常，您希望使用视频文件名命名章节 VTT 文件，并在后面附加 `chapters`。这有助于使用现有的 Web 内容管理系统自动生成视频 URL。
 
-1. 在 Scene7 Publishing System 中，上载您的 WebVTT 章节文件。
+1. 在Dynamic Media经典中，上传WebVTT章文件。
 
    请参阅[上载文件](uploading-files.md#uploading_files)。
 
