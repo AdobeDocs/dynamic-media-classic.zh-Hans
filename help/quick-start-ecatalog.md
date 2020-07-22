@@ -1,28 +1,31 @@
 ---
-title: “快速开始:eCatalogs”
-seo-title: “快速开始:eCatalogs”
+title: '“快速开始: 电子目录”'
+seo-title: '“快速开始: 电子目录”'
 description: 'null'
 seo-description: 电子目录简介和快速开始，帮助您快速使用电子目录技术。
 uuid: 1ec41927-3df6-4845-8d9d-bb92cf6dca08
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
 discoiquuid: 781dacd0-ef0c-42b7-92e0-12791994874d
 translation-type: tm+mt
-source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '1450'
+ht-degree: 64%
 
 ---
 
 
-# 快速开始:电子目录{#quick-start-ecatalogs}
+# 快速开始: 电子目录{#quick-start-ecatalogs}
 
 eCatalog 是数字网络版本的印刷材料，例如目录、小册子、传单、产品手册或广告传单。eCatalog 显示在网站的 eCatalog 查看器中。该查看器会模拟阅读印刷材料的体验。根据您为eCatalog选择的设置，查看器可让您执行以下操作：
 
-* 在目录中搜索关键字或关键字。 搜索结果在目录左侧的搜索面板中显示为缩略图的列表。 每个可单击的缩略图代表一个找到高亮显示搜索词的目录跨页。
+* 搜索目录以查找关键字或关键字。 搜索结果将作为缩略图的列表显示在目录左侧的搜索面板中。 每个可单击的缩略图都表示一个找到突出显示的搜索词的目录跨页。
 
-* 通过社交媒体共享目录；下载目录脱机视图;启用“收藏夹”可标记要快速返回的项目或打印目录。
-* 使用目录或页面网格视图导航目录；通过单击页面的中间边缘向前或向后翻页。
+* 通过社交媒体分享目录； 下载目录以脱机视图; 启用“收藏夹”可标记要快速返回的项目或打印目录。
+* 使用目录或页面网格视图导航目录； 通过单击页面的中间边缘向前或向后翻页。
 * 放大、缩小及平移以仔细查看页面上的物品。
 * 将指针移动到页面上某个区域（称为图像映射），可以看到一个弹出窗口，其中包含关于某个物品的信息。
 * 单击页面某个区域可以打开新的网页，其中包含关于某个物品的更多信息。
@@ -39,9 +42,9 @@ eCatalog 是数字网络版本的印刷材料，例如目录、小册子、传�
 
 >[!NOTE]
 >
->如果您是AEM Dynamic Media - Scene7模式用户并想使用eCatalog，则需要在CRXDE Lite中编 `pdfbrochure` 辑该值。 为此，在AEM中，单击“工 **[!UICONTROL 具”>“常规”>“CRXDE Lite]**”。 在左侧面板导航树中，导航到 `/conf/global/settings/cloudconfigs/dmscene7/jcr:content/mimeTypes/application_pdf`。
-在右下方窗格的“属性” **[!UICONTROL 选项卡]** ，选择 `jobParam` 行。 将值从 `pdfbrochure` 到 `false` 设置 `true`。 与在 `pdfbrochure=true`CRXDE Lite页面的左上角一样，单击“全 **[!UICONTROL 部保存”]**。
-您现在可以在SPS中创作eCatalog。
+>如果您是AEMDynamic Media- Scene7模式用户并想使用eCatalogs，则需要在CRXDE Lite中 `pdfbrochure` 编辑该值。 为此，在AEM中，单击“工 **[!UICONTROL 具”>“常规”>“CRXDE Lite]**”。 在左侧面板导航树中，导航到 `/conf/global/settings/cloudconfigs/dmscene7/jcr:content/mimeTypes/application_pdf`。
+在右下方窗格的“属性” **[!UICONTROL 选项卡]** 中，选择 `jobParam` 行。 设置从到 `pdfbrochure` 的 `false` 值 `true`。 与在 `pdfbrochure=true`CRXDE Lite页面的左上角一样，单击“全部 **[!UICONTROL 保存”]**。
+您现在可以在Dynamic Media经典中创作电子目录。
 
 **快速开始**
 
@@ -49,9 +52,9 @@ eCatalog 是数字网络版本的印刷材料，例如目录、小册子、传�
 
 **1. 上载 PDF 文件**
 
-eCatalog 通常由 Adobe PDF 文件生成。由于 PDF 文件要用于印刷，因此通常包含 CMYK 图像。Scene7 Publishing System 会检测到这些图像，并使用标准 CMYK 颜色配置文件转换这些图像。但您可能必须上载并使用自定颜色配置文件。
+eCatalog 通常由 Adobe PDF 文件生成。由于 PDF 文件要用于印刷，因此通常包含 CMYK 图像。Dynamic Media经典版检测这些图像，并使用标准CMYK颜色用户档案进行转换。 但您可能必须上载并使用自定颜色配置文件。
 
-单击全局导航栏上的“上传”以开始为电子目录上传PDF文件或图像。 可以从桌面或通过 FTP 上载文件；如果上载大量文件或大于 100 MB 的文件，则推荐使用 FTP。
+单击“全局导航”栏上的“上传”以开始为电子目录上传PDF文件或图像。 可以从桌面或通过 FTP 上载文件；如果上载大量文件或大于 100 MB 的文件，则推荐使用 FTP。
 
 “上载”屏幕的“PDF 选项”下面提供了一些选项，用于上载分辨率合适并且颜色空间正确的 PDF 文件。推荐使用 150 PPI 的分辨率。上载 PDF 文件时，可以选择“自动生成 eCatalog”选项来创建 eCatalog。
 
@@ -65,7 +68,7 @@ eCatalog 通常由 Adobe PDF 文件生成。由于 PDF 文件要用于印刷，�
 
 要添加页面，在“资源库”中选择一个文件夹，然后将其中的 PDF 或图像文件拖动到“排序页面”屏幕中。除默认提供页码外，您还可以提供自定义页面名称或导入大量页面名称。
 
-Click **[!UICONTROL Save]**, enter a name for your eCatalog, choose an SPS folder for storing it, and click **[!UICONTROL Save]**. Each time you change the page order or edit your eCatalog, save your changes by clicking **[!UICONTROL Save]**.
+单击 **[!UICONTROL 保存]**，输入电子目录的名称，选择一个Dynamic Media经典文件夹进行存储，然后单击保 **[!UICONTROL 存]**。 Each time you change the page order or edit your eCatalog, save your changes by clicking **[!UICONTROL Save]**.
 
 请参阅[创建 eCatalog](creating-ecatalog.md)。
 
@@ -87,9 +90,9 @@ Click **[!UICONTROL Save]**, enter a name for your eCatalog, choose an SPS folde
 
 **4. 设置 eCatalog 查看器预设**
 
-最终用户在“eCatalog 查看器中”看到您的 eCatalog。如果您是管理员，还可以配置 eCatalog 查看器。可以更改其轮廓颜色，并选择新的“外观”来确立 eCatalog 品牌。Dynamic Media Classic附带了多个“最佳实践”eCatalog查看器预设。 可以选择这些预设中的一个预设来显示 eCatalog。如果您是管理员，还可以创建自己的 eCatalog 查看器预设。
+最终用户在“eCatalog 查看器中”看到您的 eCatalog。如果您是管理员，还可以配置 eCatalog 查看器。可以更改其轮廓颜色，并选择新的“外观”来确立 eCatalog 品牌。Dynamic Media经典附带了多种“最佳实践” eCatalog查看器预设。 可以选择这些预设中的一个预设来显示 eCatalog。如果您是管理员，还可以创建自己的 eCatalog 查看器预设。
 
-要创建电子目录查看器预设，请在全局导航栏上单击“设置” **** ，然后选择“查 **[!UICONTROL 看器预设”]**。 Then click **[!UICONTROL Add]**, choose a platform, then click **[!UICONTROL eCatalog > Viewer]**.
+要创建电子目录查看器预设，请在全局导航栏上单击“设置” **[!UICONTROL ，然后]** 选择“查 **[!UICONTROL 看器预设]**”。 Then click **[!UICONTROL Add]**, choose a platform, then click **[!UICONTROL eCatalog > Viewer]**.
 
 请参阅[设置 eCatalog 查看器预设](setting-ecatalog-viewer-presets.md#setting-up-ecatalog-viewer-presets)。
 
@@ -105,15 +108,15 @@ To find out how eCatalog Viewer Presets display your eCatalog, select your eCata
 
 **6. 发布电子目录和关联的PDF**
 
-发布电子目录和关联的PDF会将其放在Dynamic Media图像服务器上，以便能够将其交付到您的网站和应用程序。 在发布过程中，Scene7 Publishing System 会激活 eCatalog 的 URL 字符串。使用此URL将eCatalog从Dynamic Media图像服务器调用到您的网站或应用程序。
+发布电子目录和关联的PDF会将其放在Dynamic Media图像服务器上，以便能够将其交付到您的网站和应用程序。 在发布过程中，Dynamic Media经典将激活电子目录的URL字符串。 使用此URL从Dynamic Media图像服务器调用电子目录到您的网站或应用程序。
 
-在浏览面板中将电子目录和PDF标记为要发布后，在全局导航栏上选择“发布”按钮以启动发布。 On the Publish screen, click **[!UICONTROL Start Publish]**.
+在浏览面板中将电子目录和PDF标记为要发布后，选择全局导航栏上的“发布”按钮以启动发布。 On the Publish screen, click **[!UICONTROL Start Publish]**.
 
 请参 [阅发布电子目录和关联的PDF](publishing-ecatalogs-associated-pdfs.md#publishing-ecatalogs-and-associated-pdfs)。
 
 **7. 将 eCatalog 链接到网页**
 
-Dynamic Media Classic在将eCatalog发布到Dynamic Media Image Server时激活显示eCatalog所需的URL标注字符串。 可以在“预览”屏幕和浏览面板（在详细信息视图中）上选择 URL 来复制该 URL 字符串。复制 URL 字符串之后，该 URL 便可用于您的网站和应用程序。
+Dynamic Media经典在将eCatalog发布到Dynamic Media图像服务器时，会激活显示该eCatalog所需的URL标注字符串。 可以在“预览”屏幕和浏览面板（在详细信息视图中）上选择 URL 来复制该 URL 字符串。复制 URL 字符串之后，该 URL 便可用于您的网站和应用程序。
 
 与您的 IT 团队合作，将 eCatalog 链接放在网页中的合适位置。当用户单击该链接时，将显示 eCatalog 查看器，用户即可浏览您的 eCatalog。
 
