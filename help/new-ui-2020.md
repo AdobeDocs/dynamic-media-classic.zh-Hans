@@ -6,9 +6,9 @@ contentOwner: rbrough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
 translation-type: tm+mt
-source-git-commit: d3870442babfbcc14734b4e31f9989f5e5837049
+source-git-commit: a3cd7494663337d55fa9b26b6ebe550791d32c7c
 workflow-type: tm+mt
-source-wordcount: '1109'
+source-wordcount: '1128'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ Adobe Flash Player是一个Web浏览器插件，它允许Web浏览器使用在Ad
 
 >[!IMPORTANT]
 >
->一次只能安装并激活桌面应用程序的一个实例。
+>在给定的计算机上，一次只能安装 *并激活* 一个桌面应用程序实例。 但是，您可以跨计算机安装的次数不受限制。
 
 ### **_如果我使用Dynamic Media经典API访问产品，而不通过Web用户界面登录，该怎么办？_**
 
