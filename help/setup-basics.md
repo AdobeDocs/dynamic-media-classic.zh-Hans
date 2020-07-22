@@ -2,22 +2,25 @@
 title: 设置基础
 seo-title: 设置基础
 description: 'null'
-seo-description: 了解如何使用“设置”屏幕输入您的个人设置。 如果您是管理员，可设置您公司的设置。
+seo-description: 了解如何使用安装屏幕输入您的个人设置。 如果您是管理员，可设置您公司的设置。
 uuid: 38f487d7-33f2-4a9e-a32e-bb08f3dd3284
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/getting_started
 discoiquuid: 753677ad-9957-43d9-97ad-bd73a5da5ccb
 translation-type: tm+mt
-source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '196'
+ht-degree: 66%
 
 ---
 
 
 # 设置基础{#setup-basics}
 
-使用 Scene7 Publishing System“设置”屏幕可输入您的个人设置。如果您是管理员，可设置您公司的设置。要打开“设置”屏幕，请单击全局导航栏上的“设置”按钮。
+使用Dynamic Media经典设置屏幕输入您的个人设置。 如果您是管理员，可设置您公司的设置。要打开“设置”屏幕，请单击全局导航栏上的“设置”按钮。
 
 该屏幕上可用的设置取决于您的状态是用户还是管理员：
 
@@ -26,13 +29,13 @@ source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
 
 管理员还可以在“设置”屏幕中设置“图像预设”和“查看器预设”：
 
-* **图像预设**&#x200B;图像预设是保存的格式，用于以不同大小和格式显示主图像。
+* **图像预设**&#x200B;图像预设是保存格式，用于以不同大小和格式显示主控图像。
 
 * **查看器预**&#x200B;设查看器预设决定了在查看器中查看富媒体时如何查看富媒体。
 
 >[!MORELIKETHIS]
 >
->* [Dynamic Media Classic用户角色和权限](administration-setup.md#user_administration)
+>* [Dynamic Media经典用户角色和权限](administration-setup.md#user_administration)
 >* [Image Presets](application-setup.md#image_presets)
 >* [Viewer Presets](application-setup.md#viewer_presets)
 
