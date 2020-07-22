@@ -6,14 +6,14 @@ seo-description: 了解如何设置Dynamic Media经典的应用程序区域。
 uuid: 3e2f1d30-8f33-4a9d-bbe4-e8c3dbc968f8
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/setup
 discoiquuid: ae2d1895-a437-4463-bfac-3960c8027551
 translation-type: tm+mt
-source-git-commit: 74238f90f45f0fb9a4566915a20a1d41dfb69fe1
+source-git-commit: 7c9b1976ced6ef5ad48b624b99aeeffed380168a
 workflow-type: tm+mt
-source-wordcount: '11120'
-ht-degree: 71%
+source-wordcount: '10982'
+ht-degree: 68%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 71%
 
 >[!NOTE]
 >
->只有 Scene7 Publishing System 管理员可以在“应用程序设置”页面上更改这些设置。
+>只有Dynamic Media经典管理员才能更改“应用程序设置”页面上的设置。
 
 ## 常规设置 {#general-settings}
 
@@ -36,119 +36,113 @@ ht-degree: 71%
 
 另请参阅[测试安全测试服务](testing-assets-making-them-public.md#testing_the_secure_testing_service)。
 
-**发布的服务器名** 此服务器是用于特定于您的帐户的所有系统生成的URL调用的实时CDN服务器。 除非Dynamic Media经典支持技术人员指示您更改此服务器名称。
+* **发布服务器名** -此服务器是在特定于您的帐户的所有系统生成的URL调用中使用的实时CDN服务器。 除非Dynamic Media经典支持技术人员指示您更改此服务器名称。
 
-**来源服务器名** 此服务器仅用于质量保证测试。 除非Dynamic Media经典支持技术人员指示更改此服务器名称。
+* **来源服务器** 名称——此服务器仅用于质量保证测试。 除非Dynamic Media经典支持技术人员指示更改此服务器名称。
 
-**AGM服务器名称** 此服务器用于Web到打印模板。 在公司范围内设置此服务器。除非Dynamic Media经典支持技术人员指示更改此服务器名称。
+<!-- **AGM Server Name** This server is used for Web-to-Print templates. This server is set on a company-wide basis. Do not change this server name unless instructed to do so by a Dynamic Media Classic support technician. -->
 
-**Test&amp;目标服务器名** Test&amp;目标URL，最多包括。com。 有关获取此URL的说明，请参阅将Dynamic Media经典与目标经典集成。
+* **Test&amp;目标服务器名称** -您的Test&amp;目标URL，最多包括。com。 For instructions about obtaining this URL, see Integrating [!DNL Dynamic Media Classic] with [!DNL Target Standard/Premium].
 
-**iOS Streaming Server名称** ，指向Dynamic Media经典iOS流服务器的URL。 该服务器使用 HTTP 协议将流视频发送至 iOS 设备。
+<!-- **Test Publish Context Server Name** -->
 
-**渐进式视频服务器** 名称指向Dynamic Media经典渐进式视频服务器的URL。 该服务器使用 HTTP 协议发送渐进式视频。
+* **iOS流服务器名称** -指向iOS流服 [!DNL Dynamic Media Classic] 务器的URL。 该服务器使用 HTTP 协议将流视频发送至 iOS 设备。
 
-**显示未发布资产的URL** 如果您希望Dynamic Media经典在预览任何资产时显示URL（无论是否已发布），请选择此选项。 如果资源未发布，此 URL 将无效。但是，您可以使用 URL 进行计划或组织。
+* **渐进式视频服务器** 名称——指向渐进式视 [!DNL Dynamic Media Classic] 频服务器的URL。 该服务器使用 HTTP 协议发送渐进式视频。
 
-**允许AIR安装** 选择此选项可允许用户将Scene7 Publishing System桌面版本下载到其本地硬盘。 用户从“个人设置”屏幕的“桌面版本”区域中安装该应用程序。
+* **显示未发布资产的URL** —— 如果您希望在预览任何资产时 [!DNL Dynamic Media Classic] 显示URL（无论该资产是否已发布），请选择此选项。 如果资源未发布，此 URL 将无效。但是，您可以使用 URL 进行计划或组织。
 
-AIR 用户必须手动卸载其现有应用程序，并通过 Scene7 Publishing System 的 Web 版本（在“个人设置”中）重新安装。在本次一次性重新安装后，只要服务器有 Scene7 Publishing System AIR 的新版本就会提示您升级。Scene7 Publishing System 与应用程序更新框架集成在一起，从而简化了升级过程。
+<!-- **Allow AIR install** Select this option to allow users to download Dynamic Media Classic desktop version to their local hard drives. Users install the application from the Desktop Version area of the Personal Setup screen. -->
 
-**CDN失效模板** 指定用于使CDN(内容投放网络)缓存失效的模板。
+<!-- AIR users must manually uninstall their existing app and reinstall from the web version of Dynamic Media Classic (in Personal Settings). After this one-time reinstallation, you are prompted to upgrade whenever the server has a newer version of Dynamic Media Classic AIR. Dynamic Media Classic is integrated with the Application Update Framework which streamlines the upgrade process. -->
 
-For example, suppose you enter an image URL (including image presets or modifiers) referencing `<ID>`, instead of a specific image ID as in the following example:
+* **CDN失效模板** -指定用于使CDN(内容投放网络)缓存失效的模板。
 
-`https://sample.scene7.com/is/image/Company/<ID>?$s7product$`
+   For example, suppose you enter an image URL (including image presets or modifiers) referencing `<ID>`, instead of a specific image ID as in the following example:
 
-If the Template just contains `<ID>`, then SPS fills in the `https://<server>/is/image`, where `<server>` is the Publish Server Name that is defined in General Settings.
+   `https://sample.scene7.com/is/image/Company/<ID>?$s7product$`
 
-如果设置 CDN 失效模板，选择名为 Backpack_B 的图像，然后单击“**文件**”>“**使 CDN 失效**”，则会在“使 CDN 失效”界面中生成以下 URL：
+   If the Template just contains `<ID>`, then Dynamic Media Classic fills in the `https://<server>/is/image`, where `<server>` is the Publish Server Name that is defined in General Settings.
 
-`https://sample.scene7.com/is/image/Company/Backpack_B?$s7product$`
+   如果设置 CDN 失效模板，选择名为 Backpack_B 的图像，然后单击“**文件**”>“**使 CDN 失效**”，则会在“使 CDN 失效”界面中生成以下 URL：
 
-在 URL 列表框中，单击“**继续**”以清除该特定图像 URL 调用的缓存。请注意，也可以键入 URL 或将其粘贴到 URL 列表框中以添加 URL；无需预先设置模板。
+   `https://sample.scene7.com/is/image/Company/Backpack_B?$s7product$`
 
-在选择 CDN 失效模板并发出使 CDN 失效请求后，将在用户界面中弹出指示符以估算清除缓存需要多长时间。
+   在 URL 列表框中，单击“**继续**”以清除该特定图像 URL 调用的缓存。请注意，也可以键入 URL 或将其粘贴到 URL 列表框中以添加 URL；无需预先设置模板。
 
-同样，如果在单击“**文件**”>“**使 CDN 失效**”时在 SPS 中选择了多个图像，将在保存的模板 URL 中引用每个图像。因此，您可以定义一个引用您网站上所引用的各 URL（如产品详细信息、搜索结果等）的 CDN 失效模板。然后，当您从缓存中选择一个或多个要失效的图像时，URL 会自动填充该界面。
+   在选择 CDN 失效模板并发出使 CDN 失效请求后，将在用户界面中弹出指示符以估算清除缓存需要多长时间。
 
-请参阅[内容缓存](scene7-platform-overview.md#content_caching)。
+   Similarly, if multiple images are selected within Dynamic Media Classic when you click **File** > **Invalidate CDN**, each image is referenced in the saved Template URL. 因此，您可以定义一个引用您网站上所引用的各 URL（如产品详细信息、搜索结果等）的 CDN 失效模板。然后，当您从缓存中选择一个或多个要失效的图像时，URL 会自动填充该界面。
 
-请参阅[重新发布的资源和 CDN 延迟](publishing-files.md#republished_assets_and_cdn_delays)。
+   请参阅[内容缓存](dmc-platform-overview.md#content_caching)。
 
-**浏览**
+   请参阅[重新发布的资源和 CDN 延迟](publishing-files.md#republished_assets_and_cdn_delays)。
 
-**显示项目** 确定项目是否可作为组织Dynamic Media经典资产的一种方式。 请参阅用项目组织工作。
+### 浏览
 
-**显示示例eVideo内容** 打开或关闭eVideo示例内容的显示。
+* **显示项目** -确定项目是否可作为组织Dynamic Media经典资产的一种方式。 请参阅用项目组织工作。
 
-**在文件夹中显示** “生成的内容”，显示从资产生成的内容。 例如，当PDF文件在上传时栅格化时，Dynamic Media经典为原始PDF中的每页创建一幅图像。 如果选择“显示生成的内容”，则在上载原始 PDF 时生成的每个图像都会与该 PDF 一起显示在将 PDF 上载到的文件夹中。
+* **显示示例eVideo内容** -打开或关闭eVideo示例内容的显示。
 
-**默认情况下** ，显示已取消选择的编码视频。
+* **显示生成的内容** -在文件夹中，显示从资产生成的内容。 例如，当PDF文件在上传时栅格化时，Dynamic Media经典为原始PDF中的每页创建一幅图像。 如果选择“显示生成的内容”，则在上载原始 PDF 时生成的每个图像都会与该 PDF 一起显示在将 PDF 上载到的文件夹中。
 
-若要在 Scene7 发布系统中快速搜索和浏览视频，而无需在同一视频的大量编码派生项中导航，请取消选择此选项（默认设置）。用户界面上显示的只有“主视频”缩略图（您上传并用于创建所有派生项的源视频）和“父”自适应视频集缩略图（包含编码视频集的所有“子”派生项）。
+* **显示编码视频** -默认情况下取消选择（关闭）。
 
-但是，您仍可以访问主视频或自适应视频集的各个编码视频。要执行以上操作，请双击视频缩略图图像，打开详细信息视图。然后单击右边侧面板的“**编码的视频**”，访问所有“子”视频。
+   要在Dynamic Media经典中快速搜索和浏览视频，而无需浏览同一视频的许多编码衍生项，请取消选择此选项（默认）。 用户界面上显示的只有“主视频”缩略图（您上传并用于创建所有派生项的源视频）和“父”自适应视频集缩略图（包含编码视频集的所有“子”派生项）。
 
-您也可以使用“**文件”>“重新处理**”以直接从自适应视频集创建更多编码的“子”视频。Scene7 Publishing System 可自动查找自适应视频集的“父”主视频并将其用作转码的源视频。但是，如果保存新的单个编码视频，您在搜索或浏览时将看不到这些视频。但是，您仍可以从详细信息视图的“编码的视频”选项卡进行访问。
+   但是，您仍可以访问主视频或自适应视频集的各个编码视频。要执行以上操作，请双击视频缩略图图像，打开详细信息视图。然后单击右边侧面板的“**编码的视频**”，访问所有“子”视频。
 
-请参阅[上载和转码视频](uploading-encoding-videos.md#uploading_and_encoding_videos)。
+   您也可以使用“**文件”>“重新处理**”以直接从自适应视频集创建更多编码的“子”视频。Dynamic Media经典会自动查找自适应视频集的“父”主控视频，并将其用作转码的源视频。 但是，如果保存新的单个编码视频，您在搜索或浏览时将看不到这些视频。但是，您仍可以从详细信息视图的“编码的视频”选项卡进行访问。
 
-要继续保留在搜索和浏览时可以访问所有编码视频派生的功能，请选择“**显示已编码视频**”。
+   请参阅[上载和转码视频](uploading-encoding-videos.md#uploading_and_encoding_videos)。
 
-“构建”菜单上的某些操作只能对单个视频或选择性地对单个视频生效。此功能要求必须显示所有可以选择的编码视频派生（无论如何设置“**显示已编码视频**”）。The Build actions that over-ride the **Show Encoded Videos** setting include **Adaptive Video Sets**, and **eCatalogs**.
+   要继续保留在搜索和浏览时可以访问所有编码视频派生的功能，请选择“**显示已编码视频**”。
 
->[注意]
->
->如果您未使用Scene7 Publishing System上传视频资产并对其进行编码，Dynamic Media经典会显示您的所有单独编码视频，即使取消选择此选项也是如此。
+   “构建”菜单上的某些操作只能对单个视频或选择性地对单个视频生效。此功能要求必须显示所有可以选择的编码视频派生（无论如何设置“**显示已编码视频**”）。The Build actions that over-ride the **Show Encoded Videos** setting include **Adaptive Video Sets**, and **eCatalogs**.
 
-**显示“刷新子文件夹** ”按钮打开或关闭子文件夹“刷新”按钮的显示。
+   >[注意]
+   >
+   >如果您未使用Dynamic Media经典来上传和编码视频资产，Dynamic Media经典会显示您的所有单独编码的视频，即使取消选择此选项也是如此。
 
-**Dynamic Media经典FTP帐户**
+* **显示“刷新子文件夹** ”按钮——打开或关闭子文件夹“刷新”按钮的显示。
 
-**服务器** 列表您的FTP帐户服务器。
+### Dynamic Media经典FTP帐户
 
-**用户名** 列表您的FTP帐户用户名。
+* **服务器** -列表您的FTP帐户服务器。
 
-**上载到应用程序**
+* **用户名** -列表您的FTP帐户用户名。
 
-**“覆盖图像** ”Dynamic Media“经典”不允许两个文件具有相同的名称。 每个项目的 Scene7 Publishing System ID（图像名称去掉文件扩展名）必须唯一。由于此规则，“上载”对话框中有一个“覆盖”选项。该选项的准确效果取决于指定的“覆盖图像”选项。这些选项指定了如何上载替换图像：替换原始图像，还是成为重复图像。重复图像会用“-1”重命名（例如，chair.tif 会重命名为 chair-1.tif）。这些选项会影响上载到的文件夹与原始图像不同的图像，或文件扩展名（如 JPG、TIF 或 PNG）与原始图像不同的图像。（请参阅使用覆盖图像选项。）
+### 上载到应用程序
 
-**在当前文件夹内，使用相同的基本图像名称和扩展名进行覆盖**
+* **覆盖图像** -Dynamic Media经典不允许两个文件具有相同的名称。 每个项的Dynamic Media经典ID（图像名称减去文件扩展名）必须是唯一的。 由于此规则，“上载”对话框中有一个“覆盖”选项。该选项的准确效果取决于指定的“覆盖图像”选项。这些选项指定了如何上载替换图像：替换原始图像，还是成为重复图像。重复图像会用“-1”重命名（例如，chair.tif 会重命名为 chair-1.tif）。这些选项会影响上载到的文件夹与原始图像不同的图像，或文件扩展名（如 JPG、TIF 或 PNG）与原始图像不同的图像。（请参阅使用覆盖图像选项。）
 
-该选项是替换的最严格规则。它要求您将替换图像上载到原始图像所在的文件夹中，并且该替换图像与原始图像具有相同的文件扩展名。如果不满足这些要求，则会创建重复的图像。
+   * **在当前文件夹中覆盖，基本图像名称／扩展名相同** -此选项是最严格的替换规则。 它要求您将替换图像上载到原始图像所在的文件夹中，并且该替换图像与原始图像具有相同的文件扩展名。如果不满足这些要求，则会创建重复的图像。
 
-**在当前文件夹内，使用相同的基本资源名称（不论扩展名是什么）进行覆盖**
+   * **在当前文件夹中覆盖相同的基本资产名称(无论扩展名如何** )-要求您将替换图像上传到与原始图像相同的文件夹，但文件扩展名可以与原始图像不同。 例如，chair.tif 会替换 chair.jpg。
 
-要求您将替换图像上载到原始图像所在的文件夹中，文件扩展名可以不同于原始图像。例如，chair.tif 会替换 chair.jpg。
+   * **在任何文件夹中覆盖相同的基本资源名称／扩展名** -要求替换图像的文件扩展名与原始图像相同（例如，chair.jpg必须替换chair.jpg，而不是chair.tif）。 但是，可以将替换图像上载到与原始图像不同的文件夹中。更新的图像位于新文件夹；而不再位于其原始位置
 
-**在任意文件夹内，使用相同的基本资源名称和扩展名进行覆盖**
+   * **在任意文件夹中覆盖相同的基本资产名称，而不考虑扩展名** -此选项是最包含内容的替换规则。 可以将替换图像上载到与原始文件所在文件夹不同的文件夹，使用不同的文件扩展名上载文件，并替换原始文件。如果原始文件在不同的文件夹中，替换图像则位于其所上载至的新文件夹。
 
-要求替换图像必须具有与原始图像一样的文件扩展名（例如，chair.jpg 必须替换 chair.jpg，而不是替换 chair.tif）。但是，可以将替换图像上载到与原始图像不同的文件夹中。更新的图像位于新文件夹；而不再位于其原始位置
+* **保留发布** -指定上传到Dynamic Media经典的替换图像是保留要替换的图像的“准备发布”设置，还是在上传时指定该设置。
 
-**在任意文件夹内，使用相同的基本资源名称（不论扩展名是什么）进行覆盖**
+* **默认颜色用户档案** -指定在添加CMYK图像时作为默认颜色用户档案选项的一部分应用的颜色用户档案。
 
-此选项是最具包容性的替换规则。可以将替换图像上载到与原始文件所在文件夹不同的文件夹，使用不同的文件扩展名上载文件，并替换原始文件。如果原始文件在不同的文件夹中，替换图像则位于其所上载至的新文件夹。
+* **默认上传选项** -打开“上传作业选项”对话框，在该对话框中可以指定默认上传选项。 有关这些选项的信息，请参阅上载选项。
 
-**保留发布** 指定上传到Dynamic Media经典的替换图像是保留要替换的图像的“准备发布”设置，还是在上传时指定该设置。
+### 应用程序的图像映射编辑器
 
-**默认颜色用户档案** 指定在添加CMYK图像时作为默认颜色用户档案选项的一部分应用的颜色用户档案。
+* **默认图像映射** HREF —— 定义用于图像映射href列的默认URL。 此 URL 是您在创建新图像映射时看到的默认 URL。
 
-**默认上传选项** 打开“上传作业选项”对话框，您可以在其中指定默认的上传选项。 有关这些选项的信息，请参阅上载选项。
+* **默认图像映射模板** -为图像映射href模板定义默认Javascript。 每当单击图像映射时，都可以在此处设置要执行的自定义代码。
 
-**应用程序的图像映射编辑器**
+### 应用程序的其他设置
 
-**默认图像映射** HREF定义用于图像映射href列的默认URL。 此 URL 是您在创建新图像映射时看到的默认 URL。
-
-**默认图像映射模板** 为图像映射href模板定义默认Javascript。 每当单击图像映射时，都可以在此处设置要执行的自定义代码。
-
-**应用程序的其他设置**
-
-**垃圾桶可以清除警告** ，垃圾桶中的资源会在七天内自动删除。 如果您需要在“垃圾桶”中的资源距永久删除还有四天时间时向公司管理员发送通知，请选择“自动删除垃圾桶项目之前会发送电子邮件”。请参阅管理垃圾桶文件夹。
+* **垃圾桶可以清除警告** -垃圾桶中的资产会在七天内自动删除。 如果您需要在“垃圾桶”中的资源距永久删除还有四天时间时向公司管理员发送通知，请选择“自动删除垃圾桶项目之前会发送电子邮件”。请参阅管理垃圾桶文件夹。
 
 ## 使用“覆盖图像”选项 {#using-the-overwrite-images-option}
 
-Dynamic Media经典不允许两个文件具有相同的名称。 每个项目的 Scene7 Publishing System ID（图像名称去掉文件扩展名）必须唯一。由于该规则，所以“上载”对话框会包括“覆盖图像”选项。该选项的具体影响取决于每个公司 Scene7 Publishing System 内部设置的设置。
+Dynamic Media经典不允许两个文件具有相同的名称。 每个项的Dynamic Media经典ID（图像名称减去文件扩展名）必须是唯一的。 由于该规则，所以“上载”对话框会包括“覆盖图像”选项。此选项的确切效果取决于每个公司的Dynamic Media经典内部设置的设置。
 
 如果您之前上传了图像，然后更改了原始文件（或替换了它们），则选择的“覆盖”选项将指定Dynamic Media经典如何替换图像。 没有关于图像更改的信息，但是新图像会替换旧图像。如果文件夹还包含Dynamic Media经典中尚未包含的图像，则会添加这些图像。
 
@@ -160,7 +154,7 @@ Dynamic Media经典不允许两个文件具有相同的名称。 每个项目的
 
 ## 图像预设 {#image-presets}
 
-“图像预设”屏幕用于创建和编辑图像预设。图像预设使Dynamic Media经典能够以不同大小动态传送来自同一主图像的图像。 每个图像预设都表示用于显示图像的一组预定义大小和格式命令。在您创建图像预设时，可以选择图像的传送大小。您还可以选择格式命令，以便在传送图像供查看时优化图像的外观。
+“图像预设”屏幕用于创建和编辑图像预设。图像预设使Dynamic Media经典能够以不同大小动态传送同一主控图像的图像。 每个图像预设都表示用于显示图像的一组预定义大小和格式命令。在您创建图像预设时，可以选择图像的传送大小。您还可以选择格式命令，以便在传送图像供查看时优化图像的外观。
 
 管理员可以创建导出资源的预设。用户可以在导出图像时选择预设，这同时将按照管理员指定的规范重新设置图像的格式。
 
@@ -257,7 +251,7 @@ To open the Image Preset screen, on the Global Navigation bar, click **Setup** >
 
 **颜色** :
 
-**输出颜色用户档案** 选择“使用默认”或Scene7 Publishing System上提供的ICC颜色用户档案之一。
+**输出颜色用户档案** 选择“使用默认”或Dynamic Media经典版上可用的ICC颜色用户档案之一。
 
 另请参阅[ ICC 配置文件](icc-profiles.md#icc_profiles)。
 
@@ -278,7 +272,7 @@ To open the Image Preset screen, on the Global Navigation bar, click **Setup** >
 
    * Click **Edit** and then specify new options in the Edit Preset dialog box.
    * Click **Delete** to remove the preset from the list.
-   * 取消选中预设名称旁的“活动”复选框将预设从 MediaPortal 用户的整个 Scene7 Publishing System 用户界面中删除。
+   * 取消选中预设名称旁边的“活动”复选框，将其从MediaPortal用户的整个Dynamic Media经典用户界面中删除。
 
 ## 激活或停用自适应视频预设 {#activating-or-deactivating-adaptive-video-presets}
 
@@ -290,7 +284,7 @@ Dynamic Media经典优惠自适应视频编码预设。 它是一个将 16:9 自
 
 **激活或停用自适应视频预设**
 
-1. 在 Scene7 Publishing System 的右上角附近，单击“**设置**”>“**应用程序设置**”>“**视频预设**”>“**自适应视频预设**”。
+1. Near the upper-right corner of Dynamic Media Classic, click **Setup** > **Application Setup** > **Video Presets** > **Adaptive Video Presets**.
 1. 在“自适应视频预设”页中，取消选中某个预设名称旁边的复选框，以将该预设从“上载作业选项”对话框的“eVideo 选项”列表中删除。
 1. 单击“**关闭**”。
 
@@ -446,7 +440,7 @@ Dynamic Media经典优惠自适应视频编码预设。 它是一个将 16:9 自
 
 >[!NOTE]
 >
->**Flash查看器生命周期终止通知** -自2017年1月31日起，Adobe Scene7 Publishing System正式终止对Flash查看器平台的支持。 有关此重要更改的更多信息，请参阅以下常见问题解答网站： [https://docs.adobe.com/content/docs/en/aem/6-1/administer/integration/marketing-cloud/scene7/flash-eol.html](https://docs.adobe.com/content/docs/en/aem/6-1/administer/integration/marketing-cloud/scene7/flash-eol.html)。
+>**Flash查看器生命周期终止通知** -自2017年1月31日起，AdobeDynamic Media经典正式终止了对Flash查看器平台的支持。 有关此重要更改的更多信息，请参阅以下常见问题解答网站： [https://docs.adobe.com/content/docs/en/aem/6-1/administer/integration/marketing-cloud/scene7/flash-eol.html](https://docs.adobe.com/content/docs/en/aem/6-1/administer/integration/marketing-cloud/scene7/flash-eol.html)。
 
 *查看器预设*&#x200B;是一组设置，决定了用户如何在其计算机屏幕和移动设备上查看富媒体资源。作为管理员，您可以创建查看器预设。提供适用于一系列查看器配置选项的设置。例如，您可以更改查看器显示尺寸、缩放行为、颜色方案、边框和字体。
 
@@ -494,7 +488,7 @@ See [Responsive Static Image library](https://marketing.adobe.com.com/resources/
 
 ### Dynamic Media经典查看器预设兼容性矩阵 {#scene-viewer-preset-compatibility-matrix}
 
-**Flash查看器生命周期结束通知**: 自2017年1月31日起，Adobe Scene7 Publishing System正式终止了对Flash查看器平台的支持。
+**Flash查看器生命周期结束通知**: 自2017年1月31日起，AdobeDynamic Media经典正式终止了对Flash查看器平台的支持。
 
 有关此重要更改的更多信息，请参阅以下常见问题解答网站： [https://docs.adobe.com/content/docs/en/aem/6-1/administer/integration/marketing-cloud/scene7/flash-eol.html](https://docs.adobe.com/content/docs/en/aem/6-1/administer/integration/marketing-cloud/scene7/flash-eol.html)。
 
@@ -613,7 +607,7 @@ Dynamic Media经典支持MP4 H.264视频的移动视频播放。
 
 **添加和编辑查看器预设**
 
-1. 在 Scene7 Publishing System 的右上角附近，单击“**设置**”>“**查看器预设**”。
+1. Near the upper-right corner of Dynamic Media Classic, click **Setup** > **Viewer Presets**.
 
    您可以过滤预设列表。例如，要仅查看视频查看器的预设，请从表正上方的工具栏上的“查看器”下拉列表中选择“视频查看器”。
 
@@ -647,7 +641,7 @@ Dynamic Media经典支持MP4 H.264视频的移动视频播放。
 
 您可以导出现有HTML5查看器预设，以用作创建新HTML5查看器预设的基础。 该导出选项很有用，因为您不必从头开始创建查看器。相反，您会导出外观和行为与所需预设接近的预设，然后以此为基础开始进行设计调整。
 
-请注意，SPS中所有默认的现成查看器预设CSS文件都使用指向位于上的资源的相对图像服务路径 `Scene7SharedAssets`。 例如，以下是位于以下位置的查看器预设CSS文件中图像资产的相对路径 `Scene7SharedAsset`: `.s7videoviewer .s7fullscreenbutton[state][selected] { background-image: url(/is/image/Scene7SharedAssets/FullScreenButton_dark_sprite?scl=1&fmt=png-alpha); }`但是，如果您在自己的站点上承载查看器CSS文件，则必须在自己的环境中使用指向图像服务器的显式路径来解析这些相对图像路径。 为便于说明，如果要将上面的相对路径更新为显式路径，则可能如下所示，其中 `https://s7d1.scene7.com` 是到图像服务器的直接路径： `https://s7d1.scene7.com/is/image/Scene7SharedAssets/FullScreenButton_dark_sprite?scl=1&fmt=png-alpha`
+请注意，Dynamic Media经典中所有默认的现成查看器预设CSS文件都使用指向上的资产的相对图像服务路径 `Scene7SharedAssets`。 例如，以下是位于以下位置的查看器预设CSS文件中图像资产的相对路径 `Scene7SharedAsset`: `.s7videoviewer .s7fullscreenbutton[state][selected] { background-image: url(/is/image/Scene7SharedAssets/FullScreenButton_dark_sprite?scl=1&fmt=png-alpha); }`但是，如果您在自己的站点上承载查看器CSS文件，则必须在自己的环境中使用指向图像服务器的显式路径来解析这些相对图像路径。 为便于说明，如果要将上面的相对路径更新为显式路径，则可能如下所示，其中 `https://s7d1.scene7.com` 是到图像服务器的直接路径： `https://s7d1.scene7.com/is/image/Scene7SharedAssets/FullScreenButton_dark_sprite?scl=1&fmt=png-alpha`
 
 **导出HTML5查看器预设**
 
@@ -670,7 +664,7 @@ https://s7d1.scene7.com/is/image/Scene7SharedAssets/FullScreenButton_dark_sprite
    导出后，您将获得CSS文件。 下载并解压缩此文件。
 
 1. 在 CSS 编辑器中打开 CSS 文件，进行更改，然后保存该文件。
-1. 将CSS文件上传到Scene7 Publishing System。
+1. 将CSS文件上传到Dynamic Media经典。
 
    请参阅[上载文件](uploading-files.md#uploading_files)。
 
@@ -706,12 +700,15 @@ URL 即复制到剪贴板中。您可以根据需要在网页的 HTML 代码、�
 
    * 单击“**网格视图**”。在“资源浏览”面板中，双击单个资源以便在详细信息视图中将其打开。在右侧的“URL 和嵌入代码”面板中，单击所需查看器右侧的“**复制 URL**”。
    * 单击“**网格视图**”。在“资源浏览”面板中，选择单个资源，然后在缩略图图像下方单击“**预览**”>“**查看器列表**”。
+
    在“查看器列表”页面中表的“操作”列下，单击“**复制 URL**”。
 
    * 单击“**列表视图**”。在“资源浏览”面板中，选择单个资源，然后在缩略图图像右侧单击“**预览**”>“**查看器列表**”。
+
    在“查看器列表”页面中表的“操作”列下，单击“**复制 URL**”。
 
    * 单击“**网格视图**”、“**列表视图**”或“**详细信息视图**”。在同一工具栏上，单击“**预览**”>“**查看器列表**”。
+
    在“查看器列表”页面中表的“操作”列下，单击“**复制 URL**”。
 
 ### 复制查看器预设的嵌入代码 {#copying-the-embed-code-of-a-viewer-preset}
@@ -727,12 +724,15 @@ URL 即复制到剪贴板中。您可以根据需要在网页的 HTML 代码、�
 
    * 单击“**网格视图**”。在“资源浏览”面板中，双击单个资源以便在详细信息视图中将其打开。在右侧的“URL”面板中，单击“**嵌入代码**”。
    * 单击“**网格视图**”。在“资源浏览”面板中，选择单个资源，然后在缩略图图像下方单击“**预览**”>“**查看器列表**”。
+
    在“查看器列表”页面中表的“操作”列下，单击“**嵌入代码**”。
 
    * 单击“**列表视图**”。在“资源浏览”面板中，选择单个资源，然后在缩略图图像右侧单击“**预览**”>“**查看器列表**”。
+
    在“查看器列表”页面中表的“操作”列下，单击“**嵌入代码**”。
 
    * 单击“**网格视图**”、“**列表视图**”或“**详细信息视图**”。在同一工具栏上，单击“**预览**”>“**查看器列表**”。
+
    在“查看器列表”页面中表的“操作”列下，单击“**嵌入代码**”。
 
 1. 在“嵌入代码”对话框中，单击“**复制到剪贴板**”。
@@ -740,7 +740,7 @@ URL 即复制到剪贴板中。您可以根据需要在网页的 HTML 代码、�
 
 ## 配置默认查看器 {#configuring-default-viewers}
 
-您可以使用默认查看器来配置默认查看器，当您在 Scene7 Publishing System 中使用预览时，该默认查看器与资源关联。您可以为下列资源类型设置默认预览体验：
+在Dynamic Media经典中使用预览时，您可以使用默认查看器配置与资产关联的默认查看器。 您可以为下列资源类型设置默认预览体验：
 
 * 图像
 * 视频
@@ -816,9 +816,9 @@ Dynamic Media经典包含预定义的元数据视图，管理员可以创建自�
 
 ## 用户定义的字段 {#user-defined-fields}
 
-Media Portal 管理员或公司管理员可以创建自定义的、用户定义的元数据字段。自定义字段可以帮助您在Scene7 Publishing System中组织资产。 您可以根据需要将字段标记为“活动”。 激活后，这些自定义元数据字段的名称会显示在详细信息视图中的“元数据”面板中。用户可以在用户定义的元数据字段中输入信息以描述资源。用户也可以使用户定义的元数据字段成为搜索条件。
+Media Portal 管理员或公司管理员可以创建自定义的、用户定义的元数据字段。自定义字段可以帮助您在Dynamic Media经典中组织资产。 您可以根据需要将字段标记为“活动”。 激活后，这些自定义元数据字段的名称会显示在详细信息视图中的“元数据”面板中。用户可以在用户定义的元数据字段中输入信息以描述资源。用户也可以使用户定义的元数据字段成为搜索条件。
 
-高效使用用户定义的元数据字段的一种方式是为特定启动或销售延迟资源的激活时间。您可以根据“日期”类型定义“激活” *字段*。 Then, using the **Metadata** panel in **Detail** view or **File** > **Edit Info**, you can specify when the asset is activated. Scene7 Publishing System 会检查资源的发布状态和发布历史记录。如果发布状态不在激活时间内，则显示为“未发布”。
+高效使用用户定义的元数据字段的一种方式是为特定启动或销售延迟资源的激活时间。您可以根据“日期”类型定义“激活” *字段*。 Then, using the **Metadata** panel in **Detail** view or **File** > **Edit Info**, you can specify when the asset is activated. Dynamic Media经典将检查资产的发布状态和发布历史记录。 如果发布状态不在激活时间内，则显示为“未发布”。
 
 >[!NOTE]
 >
@@ -880,9 +880,9 @@ Media Portal 管理员或公司管理员可以创建自定义的、用户定义�
 
 ## 优化文件 {#optimize-files}
 
-在将文件上载到 Scene7 Publishing System 时，系统会针对存储和发布优化对文件进行优化。然而，如果上载过程中断，则无法优化某些图像。在这种情况下，您会看到“尚未优化图像”消息。然而，如果您是管理员，则可以优化这些文件。
+将文件上传到Dynamic Media经典时，系统将优化这些文件以进行存储和发布。 然而，如果上载过程中断，则无法优化某些图像。在这种情况下，您会看到“尚未优化图像”消息。然而，如果您是管理员，则可以优化这些文件。
 
-Scene7 Publishing System 会在您的文件中搜索，并且只优化那些之前未完全优化的图像。
+Dynamic Media经典可搜索您的文件，并仅优化之前未完全优化过的图像。
 
 1. 选择“ **设置** ”>“ **应用程序设置**”，然后选择“**优化文件”**。
 1. Enter information for the optimization job and click **Submit**.
@@ -891,7 +891,7 @@ Scene7 Publishing System 会在您的文件中搜索，并且只优化那些之�
 
 ## 批量集预设 {#batch-set-presets}
 
-使用批量集预设在作业运行时自动创建图像集或旋转集，以将资源上载到 Scene7 Publishing System。
+在作业运行时，使用批集预设自动创建图像集或旋转集，从而将资产上传到Dynamic Media经典。
 
 公司管理员首先要分为一组的资源定义命名约定。然后，您可以创建批量集预设来引用这些图像。每个预设都是单独命名的、自成体系的指令集，指令集可定义如何使用与预设方法中定义的命名约定匹配的图像构建集。
 
