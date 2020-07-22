@@ -6,11 +6,14 @@ seo-description: 了解如何创建电子目录。
 uuid: 2aff05c2-7052-426c-b61d-7f9091f7ace8
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
 discoiquuid: 28889c60-596a-40d2-85d4-f48a4f86b932
 translation-type: tm+mt
-source-git-commit: 1941567db5c154620bb0dcd12e363d7eebc61b20
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '1005'
+ht-degree: 78%
 
 ---
 
@@ -38,7 +41,7 @@ source-git-commit: 1941567db5c154620bb0dcd12e363d7eebc61b20
 
    **首先选择文件** 。在浏览面板中，选择文件，然后单击“构建”>“电子目录”。
 
-   **开始从eCatalog屏幕中** ，单击“构建”>“eCatalogs”。 在资源库中选择一个文件夹，将该文件夹中的文件拖到 eCatalog 页面的“排序页面”选项卡中。
+   **开始从电子目录屏幕** ，单击“构建”>“电子目录”。 在资源库中选择一个文件夹，将该文件夹中的文件拖到 eCatalog 页面的“排序页面”选项卡中。
 
    ***note**: To view the items in the Asset Library by name instead of thumbnail, select the Name option for Default Asset Library View in Personal Setup. *
 
@@ -46,11 +49,11 @@ source-git-commit: 1941567db5c154620bb0dcd12e363d7eebc61b20
 1. 也可以单击各个页面或页面跨页，然后选择“单页”按钮、“双页”按钮或“自定义”按钮，来更改其布局（可选）。“更改 eCatalog 布局”对话框随即显示。Select the Selected Spreads options and click **OK**.
 1. 根据需要采用以下方法之一重新排序页面：
 
-   **将页面** 或页面跨页拖动到新位置。 垂直栏显示要移动的页面的位置。
+   **拖动** 将页面或跨页拖动到新位置。 垂直栏显示要移动的页面的位置。
 
-   **“移到”按钮** “选择页面或页面跨页”，单击“移到”按钮，然后在菜单上选择您希望页面之前显示的页面。
+   **“移到”按钮** 选择一个页面或页面跨页，单击“移到”按钮，然后在菜单上选择您希望之前显示页面的页面。
 
-   **序列#** 在列表视图中，在序列#字段中输入页码。
+   **序列** #在列表视图中，在序列#字段中输入页码。
 
 1. 完成后，确保在页面右下角附近选择了“**保存后发布**”（默认）。
 1. 单击“**保存**”。
@@ -92,7 +95,7 @@ source-git-commit: 1941567db5c154620bb0dcd12e363d7eebc61b20
 
 ## 自定义目录 (TOC) {#customizing-the-table-of-contents-toc}
 
-Dynamic Media Classic在eCatalog屏幕的“订单页面”选项卡上提供eCatalog中的默认页码。 要自定义页面名称，可以更改构成目录 (TOC) 的页标签。推荐重命名封面和封底。例如，封面可以阅读“封面”而不是“第0-1页”。
+Dynamic Media经典在电子目录屏幕的“订单页面”选项卡上提供电子目录中的默认页码。 要自定义页面名称，可以更改构成目录 (TOC) 的页标签。推荐重命名封面和封底。例如，封面可以阅读“封面”而不是“第0-1页”。
 
 可以采用手动方式或通过从 CSV（仅 Mac）或 XML 文件导入页面名称来为 eCatalog 创建自定义目录 (TOC)。
 
@@ -108,7 +111,7 @@ Dynamic Media Classic在eCatalog屏幕的“订单页面”选项卡上提供eCa
 
 如果处理包含很多页面的 eCatalog，则推荐使用导入页面名称的方法。可以从制表符分隔的文件或 XML 文件导入名称。
 
-目录标签存储在图像的“用户数据”字段中；将此数据格式化为列表 `name=<value>`` pairs separated by two question marks “??” `例如，要为名为tocEN &quot;的目录字段设置一个标签，请将图像的“用户数据”设置为：
+目录标签存储在图像的“用户数据”字段中； 将此数据格式化为列表 `name=<value>`` pairs separated by two question marks “??” `。 例如，要为名为tocEN &quot;的目录字段设置一个标签，请将图像的用户数据设置为：
 
 tocEN=&lt;EN_page_label>
 
