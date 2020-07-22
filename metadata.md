@@ -4,14 +4,14 @@ solution-title: 学习和支持
 solution-hub-url: https://helpx.adobe.com/support/experience-manager.html
 solution-image: null
 getting-started-title: 開始使用
-getting-started-url: https://docs.adobe.com/content/help/en/dynamic-media-classic/using/getting-started/scene7-platform-overview.html
+getting-started-url: https://docs.adobe.com/content/help/en/dynamic-media-classic/using/getting-started/dmc-platform-overview.html
 tutorials-title: 教程
 tutorials-url: https://docs.adobe.com/content/help/en/dynamic-media-classic/using/intro/training-videos.html
 git-repo: https://git.corp.adobe.com/AdobeDocs/dynamic-media-classic.zh-Hans
 translation-type: tm+mt
-source-git-commit: 2fb7e34b734dba1e0bd1d150580d7d6c74ee1b79
+source-git-commit: 7c9b1976ced6ef5ad48b624b99aeeffed380168a
 workflow-type: tm+mt
-source-wordcount: '139'
+source-wordcount: '138'
 ht-degree: 2%
 
 ---
