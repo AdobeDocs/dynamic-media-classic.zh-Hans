@@ -6,12 +6,12 @@ seo-description: 了解如何向视频添加字幕
 uuid: 4cc64469-4369-44a9-83db-63bad51aba8a
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 translation-type: tm+mt
-source-git-commit: 74238f90f45f0fb9a4566915a20a1d41dfb69fe1
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
 workflow-type: tm+mt
 source-wordcount: '909'
-ht-degree: 70%
+ht-degree: 64%
 
 ---
 
@@ -40,13 +40,13 @@ See [Serving static (non-image) contents](https://docs.adobe.com/content/help/en
 
 **在视频中添加题注**
 
-1. 通过在 Scene7 Publishing System 外部使用第三方应用程序，根据您使用的查看器类型创建视频题注文件。
+1. 在Dynamic Media经典之外使用第三方应用程序，根据您所使用的查看器类型创建视频题注文件。
 
    | 查看器类型 | 题注文件 |
    |--- |--- |
-   | HTML5 | 如果您使用 HTML5 视频查看器，请确保您创建的题注文件遵循 WebVTT（Web 视频文本跟踪）标准。题注文件的扩展名为 .vtt。您可以了解有关 WebVTT 题注标准的详细信息。<br><br>[请参阅WebVTT](https://dev.w3.org/html5/webvtt/): Web视频文本跟踪格式。 <br><br>可以使用免费和付费工具和服务在 Scene7 Publishing System 外部创作题注文件。例如，要创建不带样式的简单视频题注文件，您可以使用以下免费的在线题注创作和编辑工具： <br><br>[WebVTT字幕制作](https://testdrive-archive.azurewebsites.net/Graphics/CaptionMaker/Default.html)<br><br>器为获得最佳效果，请使用Internet Explorer 9或更高版本、Google Chrome或Safari中的工具。 <br><br>在工具的“<b>输入视频文件的 URL</b>”字段中粘贴您的视频文件的 URL，然后单击“<b>载入</b>”。<br><br>例如，如果对视频文件使用Dynamic Media经典URL，则在SPS中，多次单击单个视频资产（不是自适应视频集或主视频），以在详细视图中打开它。 在“详细信息视图”的右侧面板中，展开“URL 和嵌入代码”。然后在“移动设备”组下“移动设备（渐进式）”的右侧，单击“复制 URL”。This process gives you the URL to the video file itself which you can then paste into the <b>Enter URL of video file</b> field. 随后，Internet Explorer、Chrome 或 Safari 可以本机播放视频。现在，按照屏幕上的站点说明创作并保存您的 WebVTT 文件。在完成后，将题注文件内容复制并粘贴到纯文本编辑器中，然后将其保存为扩展名为 .vtt 的文件。<br><br><b>注意：</b> 要全局支持英语以外的语言的视频字幕，请注意，WebVTT标准要求您为要支持的每种语言创建单独的。vtt文件和调用。 <br><br>通常，您需要以视频文件的名称来命名题注 VTT 文件，并在后面附加 captions。这样将有助于使用现有的 Web 内容管理系统自动生成视频 URL。 |
+   | HTML5 | 如果您使用 HTML5 视频查看器，请确保您创建的题注文件遵循 WebVTT（Web 视频文本跟踪）标准。题注文件的扩展名为 .vtt。您可以了解有关 WebVTT 题注标准的详细信息。<br><br>[请参阅WebVTT](https://dev.w3.org/html5/webvtt/): Web视频文本跟踪格式。 <br><br>您可以使用免费和付费工具和服务在Dynamic Media经典之外创作题注文件。 例如，要创建不带样式的简单视频题注文件，您可以使用以下免费的在线题注创作和编辑工具： <br><br>[WebVTT字幕制作](https://testdrive-archive.azurewebsites.net/Graphics/CaptionMaker/Default.html)<br><br>器为获得最佳效果，请使用Internet Explorer 9或更高版本、Google Chrome或Safari中的工具。 <br><br>在工具的“<b>输入视频文件的 URL</b>”字段中粘贴您的视频文件的 URL，然后单击“<b>载入</b>”。<br><br>例如，如果您正在为视频文件使用Dynamic Media经典URL，则在DMC中，多次单击单个视频资产(非自适应视频集或主控视频)，以在详细视图中打开它。 在“详细信息视图”的右侧面板中，展开“URL 和嵌入代码”。然后在“移动设备”组下“移动设备（渐进式）”的右侧，单击“复制 URL”。This process gives you the URL to the video file itself which you can then paste into the <b>Enter URL of video file</b> field. 随后，Internet Explorer、Chrome 或 Safari 可以本机播放视频。现在，按照屏幕上的站点说明创作并保存您的 WebVTT 文件。在完成后，将题注文件内容复制并粘贴到纯文本编辑器中，然后将其保存为扩展名为 .vtt 的文件。<br><br><b>注意：</b> 要全局支持英语以外的语言的视频字幕，请注意，WebVTT标准要求您为要支持的每种语言创建单独的。vtt文件和调用。 <br><br>通常，您需要以视频文件的名称来命名题注 VTT 文件，并在后面附加 captions。这有助于使用现有的 Web 内容管理系统自动生成视频 URL。 |
 
-1. 在 Scene7 Publishing System 中，上载您的 WebVTT、DFXP 或 SMPTE XML 题注文件。
+1. 在Dynamic Media经典中，上传WebVTT、DFXP或SMPTE XML字幕文件。
 
    请参阅[上载文件](uploading-files.md#uploading_files)。
 
