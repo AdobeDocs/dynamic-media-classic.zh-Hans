@@ -6,11 +6,14 @@ seo-description: 了解如何设置混合媒体集查看器预设。
 uuid: d5bf1840-e453-445d-bebc-84889b29f3c8
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/mixed_media_sets
 discoiquuid: 8029aad8-d696-4d7c-99e2-3b08edb68181
 translation-type: tm+mt
-source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '611'
+ht-degree: 82%
 
 ---
 
@@ -26,6 +29,7 @@ source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
 
    * To create a new preset, click **Add**. In the Add Viewer Preset dialog box, choose a platform, choose Mixed Media Set Viewer, then click **Add**.
    * To edit a Mixed Media Set Viewer preset, select it, then click **Edit**.
+
    “配置查看器”屏幕随即打开。
 
 1. 在“预设名称”框中键入混合媒体集查看器预设的名称。
@@ -53,11 +57,14 @@ source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
 
    * **电子邮**&#x200B;件单击“打开”可在查看器中启用“电子邮件”按钮。 如果用户在查看集合时单击“电子邮件”按钮，将打开一封电子邮件，其中包含指向该集合的链接。
 
-   * **嵌入**&#x200B;单击“实时”。 在“嵌入按钮标签”框中，键入要在查看器中显示的“嵌入”按钮的名称。If desired, click **Browse** to locate and select a custom skin for the button.
+   * **嵌入**&#x200B;单击“实时”。 在“嵌入按钮标签”框中，键入要在查看器中显示的“嵌入”按钮的名称。如果需要，请单击 
+**浏览** ，找到并选择按钮的自定义外观。
 
-   * **链接**&#x200B;单击“实时”。 在“链接按钮标签”框中，键入要在查看器中显示的“链接按钮”名称。If desired, click **Browse** to locate and select a custom skin for the button.
+   * **链接**&#x200B;单击“实时”。 在“链接按钮标签”框中，键入要在查看器中显示的“链接按钮”名称。如果需要，请单击 
+**浏览** ，找到并选择按钮的自定义外观。
 
-   * **访问**&#x200B;单击 **“实时**”。 在“访问按钮标签”框中，键入要在查看器中显示的“访问按钮”名称。在“访问 URL”框中，键入网站的 URL，该网站是您希望在用户单击链接时打开的网站。
+   * **访问**&#x200B;单击 
+**实时**. 在“访问按钮标签”框中，键入要在查看器中显示的“访问按钮”名称。在“访问 URL”框中，键入网站的 URL，该网站是您希望在用户单击链接时打开的网站。
 
 1. 根据需要指定其他选项。要查看选项的说明，请单击选项旁的“信息提示”图标 。
 
