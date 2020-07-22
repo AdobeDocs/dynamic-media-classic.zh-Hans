@@ -6,32 +6,35 @@ seo-description: 了解如何发布文件。
 uuid: cdcf519b-4c1e-430b-b43a-2f20f75071b1
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/upload_and_publish_assets
 discoiquuid: 39099bc0-9228-46f0-9bee-3542059f4695
 translation-type: tm+mt
-source-git-commit: 917ba4469b5ef22e62c572f80008e470dccdebe4
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '1657'
+ht-degree: 76%
 
 ---
 
 
 # 发布文件{#publishing-files}
 
-您可以将资产发布到Dynamic Media Image Server。 您可以一次性发布资产，也可以安排Dynamic Media Classic在循环计划中发布资产。 发布资源后，这些资源即可用来传送。您可以从 Scene7 Publishing System 中复制 URL 调用，并将其添加到您的网站或应用程序中。
+您将资产发布到Dynamic Media图像服务器。 您可以一次性发布资产，也可以安排Dynamic Media经典以在重复计划发布资产。 发布资源后，这些资源即可用来传送。您可以从Dynamic Media经典复制URL调用，并将其添加到您的网站或应用程序。
 
-Scene7 Publishing System现在支持通过HTTP/2投放所有图像和视频。 即，图像或视频的已发布URL或嵌入代码可与接受托管资产的任何应用程序集成。 然后，通过HTTP/2协议传送已发布的资产。 此投放方法改进了浏览器和服务器通信的方式，使所有Dynamic Media Classic资源的响应和加载时间都更好。 请参 [阅HTTP2投放内容常见问题解答](https://docs.adobe.com/content/docs/en/aem/6-2/administer/integration/marketing-cloud/scene7/http2faq.html)。
+Dynamic Media经典现在支持通过HTTP/2投放所有图像和视频。 即，图像或视频的已发布URL或嵌入代码可与接受托管资产的任何应用程序集成。 随后，将通过HTTP/2协议传送已发布的资产。 此投放方法改进了浏览器和服务器通信的方式，使所有Dynamic Media经典资源的响应和加载时间都更好。 请参 [阅HTTP2投放内容常见问题解答](https://docs.adobe.com/content/docs/en/aem/6-2/administer/integration/marketing-cloud/scene7/http2faq.html)。
 
 ## 在上载之后发布 {#publish-after-uploading}
 
-资源处于已发布或未发布的状态。默认情况下，上传到Dynamic Media Classic中的所有资产都会自动标记为发布。
+资源处于已发布或未发布的状态。默认情况下，您上传到Dynamic Media经典中的所有资产都会自动标记为发布。
 
-有关详细信息，请参阅“即 [时发布声明”PDF](/help/assets/rendering-instant-publish-notification.pdf)。
+有关详细信息，请参 [阅即时发布声明PDF](/help/assets/rendering-instant-publish-notification.pdf)。
 
 使用以下方法将资源标记为发布：
 
-* **上传后发**&#x200B;布在上传页面底部附近，选择上传后发布。 默认情况下，将处于选定状态。
+* **上传后发**&#x200B;布在上传页面的底部附近，选择上传后发布。 默认情况下，将处于选定状态。
 
-* **上传后发布**&#x200B;在“作业选项”对话框中，选择“上传后发布”。 默认情况下，将处于选定状态。
+* **在“作业选**&#x200B;项”对话框中，选择“上传后发布”。 默认情况下，将处于选定状态。
 
 如果父项资源标记为发布，则一些“子项”资源会自动标记为发布。该表列出自动标记为发布的子项资源。
 
@@ -46,7 +49,7 @@ Scene7 Publishing System现在支持通过HTTP/2投放所有图像和视频。 �
 
 ## 创建发布作业 {#creating-a-publish-job}
 
-创建发布作业，以发布已上传到Dynamic Media Classic服务器的资产，但选择尚未自动发布这些资产。 您可以执行一次性发布作业，或者计划定期循环发布作业。Dynamic Media Classic优惠高级发布选项，用于发布到特定服务器，以及用于重新发布已发布的资产的选项。
+创建发布作业以发布已上传到Dynamic Media经典服务器但选择尚未自动发布的资产。 您可以执行一次性发布作业，或者计划定期循环发布作业。Dynamic Media经典优惠高级发布选项，用于发布到特定服务器，选项用于重新发布已发布的资产。
 
 **创建发布作业**
 
@@ -62,7 +65,7 @@ Scene7 Publishing System现在支持通过HTTP/2投放所有图像和视频。 �
 
 1. 单击“**提交发布**”。
 
-SPS 在“作业”页中跟踪发布作业。您可以在该页中查看发布作业。
+Dynamic Media经典跟踪“作业”页上的发布作业。 您可以在该页中查看发布作业。
 
 >[!NOTE]
 >
@@ -78,7 +81,7 @@ SPS 在“作业”页中跟踪发布作业。您可以在该页中查看发布�
 
 在“发布”页中，选择“重复”选项以创建重复发布作业。
 
-然后选择“重复”选项（“每天”、“每周”、“每月”或“自定义”），以声明重复发布作业的时间。Dynamic Media Classic提供日历工具，用于安排重复发布作业。 您可以选择“自定义”选项，并在“规则”框中输入规则来描述自定义作业时间间隔。
+然后选择“重复”选项（“每天”、“每周”、“每月”或“自定义”），以声明重复发布作业的时间。Dynamic Media经典显示用于计划重复发布作业的日历工具。 您可以选择“自定义”选项，并在“规则”框中输入规则来描述自定义作业时间间隔。
 
 请参阅[创建自定义上载或发布作业时间间隔](checking-job-files.md#creating_a_custom_upload_or_publish_job_time_interval)。
 
@@ -90,9 +93,9 @@ SPS 在“作业”页中跟踪发布作业。您可以在该页中查看发布�
 
 您可以在“发布”页中显示高级选项，并选择这些选项以处理发布作业：
 
-* **发布到**&#x200B;选择一种服务器类型，以仅将资产发布到特定服务器，而不是所有服务器。
+* **发布到选**&#x200B;择一种服务器类型，以仅将资产发布到特定服务器，而不是发布到所有服务器。
 
-* **发布**&#x200B;默认情况下，SPS仅发布新资源，且之前尚未发布（“自上次发布后新建”选项）。 但也可以选择“完全发布”，从而发布自上次发布以来已经更新或更改的资源。如果要发布 eCatalog 并且希望读者能够通过关键字搜索到该 eCatalog，则选择“全部（包含搜索数据）”。
+* **发布**&#x200B;默认情况下，Dynamic Media经典仅发布之前尚未发布的新资产（自上次发布以来新增的选项）。 但也可以选择“完全发布”，从而发布自上次发布以来已经更新或更改的资源。如果要发布 eCatalog 并且希望读者能够通过关键字搜索到该 eCatalog，则选择“全部（包含搜索数据）”。
 
 * **运行作业**&#x200B;从列表中选择用户名。 可以在“作业”页中按用户名对作业进行排序。可以通过选择名称将发布作业与用户关联。
 
@@ -148,11 +151,11 @@ SPS 在“作业”页中跟踪发布作业。您可以在该页中查看发布�
 
 ## 重新发布的资源和 CDN 延迟 {#republished-assets-and-cdn-delays}
 
-Dynamic Media Classic资源分发在内容投放网络(CDN)上。 CDN 是指联成网络的计算机服务器系统，这些服务器以完全透明的方式合作，将内容（尤其是大型媒体内容）传递给最终用户。在 CDN 系统中，Web 内容存储在整个 Internet 的网络缓存中（称为边缘缓存网络）。Web 内容从这些网络缓存传递到最终用户，从而提高了传递速度。
+Dynamic Media经典资源分发在内容投放网络(CDN)上。 CDN 是指联成网络的计算机服务器系统，这些服务器以完全透明的方式合作，将内容（尤其是大型媒体内容）传递给最终用户。在 CDN 系统中，Web 内容存储在整个 Internet 的网络缓存中（称为边缘缓存网络）。Web 内容从这些网络缓存传递到最终用户，从而提高了传递速度。
 
 用户首次下载网页时，这些资源即传递到 CDN 网络缓存服务器。资源存储在该服务器上，这样，当下次同一区域中有人访问该网页时，可以更快地传递缓存的相同内容。内容传递速度更快是因为其位置更接近最终用户。CDN 提高了网页显示速度。它降低了中央服务器上的带宽要求，因为内容是从边缘缓存网络传递，而不是从每个实例的中央服务器传递。
 
-新发布的Dynamic Media Classic内容可立即向最终用户提供，并可快速填充边缘缓存网络。 但重新发布的内容（与之前发布到图像服务器的图像完全同名的图像）在 CDN 上最多需要十个小时才会更新。最终用户看到的则是 CDN 网络上的网络缓存中的内容。因此，您的Dynamic Media Classic重新发布的资产在十小时内可能无法显示给最终用户。
+新发布的Dynamic Media经典内容可立即提供给最终用户，并快速填充边缘缓存网络。 但重新发布的内容（与之前发布到图像服务器的图像完全同名的图像）在 CDN 上最多需要十个小时才会更新。最终用户看到的则是 CDN 网络上的网络缓存中的内容。因此，您的Dynamic Media经典重新发布的资产在十小时内可能不会显示给最终用户。
 
 如果希望重新发布的图像资源在可用前的延迟时间小于 10 小时，可以刷新 CDN 上的网络缓存。刷新这些网络缓存可以从 CDN 网络缓存中删除旧内容，并将其替换为最新发布的资源。
 
