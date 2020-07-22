@@ -2,22 +2,25 @@
 title: '"快速入门：旋转集"'
 seo-title: '"快速入门：旋转集"'
 description: 'null'
-seo-description: 旋转集简介和快速开始，可帮助您快速入门和运行。
+seo-description: 旋转集简介和快速开始，帮助您快速入门和运行。
 uuid: d0af9db6-cb6f-48f0-89f6-f3ab2da0659f
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/spin_sets
 discoiquuid: 282b8e83-b20f-43f7-b9f8-6eebd5b1c5a7
 translation-type: tm+mt
-source-git-commit: e3c64b90e0af0129571a21b132477c0c86d06405
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '757'
+ht-degree: 68%
 
 ---
 
 
 # 快速入门：旋转集{#quick-start-spin-sets}
 
-旋转集用于模拟转动物品进行查看时的真实动作。利用旋转集能够从任意角度查看物品，从而获得任意角度的重要视觉详细信息。旋转集会模拟 360 度的查看体验。Dynamic Media Classic优惠了查看器可旋转项目的一维旋转集，以及查看器可旋转和翻转项目的二维旋转集。 此外，用户只需单击几下鼠标即可“自由变形”缩放和平移任何视图。 通过这种方式，用户能够以特定的视角，更仔细地查看物品。
+旋转集用于模拟转动物品进行查看时的真实动作。利用旋转集能够从任意角度查看物品，从而获得任意角度的重要视觉详细信息。旋转集会模拟 360 度的查看体验。Dynamic Media经典优惠查看器可以旋转项目的一维旋转集，以及查看器可以旋转和翻转项目的二维旋转集。 此外，用户只需单击几下鼠标即可“自由缩放”并平移任何视图。 通过这种方式，用户能够以特定的视角，更仔细地查看物品。
 
 ![旋转集的图像。](/help/assets/spin_set.png)
 
@@ -27,13 +30,13 @@ source-git-commit: e3c64b90e0af0129571a21b132477c0c86d06405
 
 **快速开始**
 
-此旋转集快速开始旨在借助Dynamic Media Classic中的旋转集技术快速启动和运行。 按照步骤 1 到 7 操作。每个步骤的结尾都有到某个主题标题的交叉引用，如需要，可从中找到更多详细信息。
+此旋转集快速开始旨在借助Dynamic Media经典中的旋转集技术快速启动和运行。 按照步骤 1 到 7 操作。每个步骤的结尾都有到某个主题标题的交叉引用，如需要，可从中找到更多详细信息。
 
 **1. 创建和上载图像**
 
-对于一维旋转集，您至少需要8-12个项目拍摄照片，对于二维旋转集，至少需要16-24个项目拍摄照片。 拍摄照片时必须间隔一定的角度，以便让人感觉物品正在旋转和翻转。例如，如果某个一维旋转集中有 12 张照片，则每拍一张照片将物品旋转 30 度 (360/12)。
+对于一维旋转集，一个项目至少需要8-12张照片；对于二维旋转集，一个项目至少需要16-24张照片。 拍摄照片时必须间隔一定的角度，以便让人感觉物品正在旋转和翻转。例如，如果某个一维旋转集中有 12 张照片，则每拍一张照片将物品旋转 30 度 (360/12)。
 
-在全局导航栏上选择“上载”按钮，以便将旋转图像从您的计算机或网络上载到 Scene7 Publishing System。
+选择全局导航栏上的“上传”按钮，将旋转图像从您的计算机或网络上传到Dynamic Media经典。
 
 请参阅[旋转集图像拍摄指南](creating-spin-set.md#guidelines-for-shooting-spin-set-images)。
 
@@ -85,16 +88,16 @@ Last Modified Date:
 
 **6. 发布旋转集**
 
-发布旋转集会将其放置在Dynamic Media Classic服务器上，以便动态地将其交付到您的网站或应用程序。 它还会激活URL字符串，该字符串将旋转集从Dynamic Media图像服务器调用到您的网站或应用程序。
+发布旋转集会将其放置在Dynamic Media经典服务器上，以便能够动态地将其交付到您的网站或应用程序。 它还会激活URL字符串，该字符串将旋转集从Dynamic Media图像服务器调用到您的网站或应用程序。
 
-To publish a Spin Set, mark it for publish by selecting the **Mark for Publish** icon beside its name in the Browse Panel. 单击 **全局导航栏** 上的发布以启动发布。 On the Publish screen, click **Start Publish**.
+To publish a Spin Set, mark it for publish by selecting the **Mark for Publish** icon beside its name in the Browse Panel. 单击 **全局导** 航栏上的“发布”以启动发布。 On the Publish screen, click **Start Publish**.
 
 请参阅[发布旋转集](publishing-spin-set.md#publishing-a-spin-set)。
 
 **7. 将旋转集链接到网页**
 
-Dynamic Media Classic为旋转集创建URL标注字符串，并在您发布它们后将其激活。 可以从“预览”屏幕复制这些 URL。
+Dynamic Media经典为旋转集创建URL标注字符串，并在发布后将其激活。 可以从“预览”屏幕复制这些 URL。
 
-选择旋转集，然后单击“ **预览”**。 “预览”屏幕随即打开。选择旋转集查看器预设。然后单击 **复制URL**。
+选择旋转集，然后单击 **预览**。 “预览”屏幕随即打开。选择旋转集查看器预设。然后，单 **击复制URL**。
 
 请参阅[将旋转集链接到网页](linking-spin-set-web-page.md#linking-a-spin-set-to-a-web-page)。
