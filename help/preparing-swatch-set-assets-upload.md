@@ -6,11 +6,14 @@ seo-description: 了解如何准备要上传的样本集资产。
 uuid: ed78da8c-d708-418b-97ce-3c37d9df9c90
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/swatch_sets
 discoiquuid: 0c851ecd-be05-46a9-8654-3d028f3217a4
 translation-type: tm+mt
-source-git-commit: a1722c15d3c049f05959d895e85297d47d730872
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '179'
+ht-degree: 85%
 
 ---
 
@@ -24,7 +27,7 @@ source-git-commit: a1722c15d3c049f05959d895e85297d47d730872
 * 同一外套的黑色、棕色和绿色快照。
 * 黑色、棕色及绿色样本。
 
-由于用户可以在样本集中缩放图像，因此确保图像最大尺寸至少为 2000 像素。Dynamic Media Classic支持许多图像文件格式，但建议使用无损的TIFF、PNG和EPS图像。
+由于用户可以在样本集中缩放图像，因此确保图像最大尺寸至少为 2000 像素。Dynamic Media经典支持多种图像文件格式，但建议使用无损的TIFF、PNG和EPS图像。
 
 有关上载资源的详细说明，请参阅[上载文件](uploading-files.md#uploading_files)。
 
