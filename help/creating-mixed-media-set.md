@@ -6,10 +6,13 @@ seo-description: 了解如何创建混合媒体集。
 uuid: a0c6e5fa-7a85-4376-b9a3-b72ae63d3d95
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: 0ff9e763-897c-4ba5-b606-a95d5e45f35e
 translation-type: tm+mt
-source-git-commit: 2f99190eb0c346b87402e69c4067e94365042339
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '625'
+ht-degree: 95%
 
 ---
 
