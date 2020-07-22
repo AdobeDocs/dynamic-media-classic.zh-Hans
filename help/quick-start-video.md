@@ -6,14 +6,14 @@ seo-description: 视频简介和快速开始，帮助您快速入门和运行。
 uuid: bf0ecf87-a1f2-4e83-8041-df5192dd26a1
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/video
 discoiquuid: 6cef541b-e9df-48eb-9a16-ca3e1f07238e
 translation-type: tm+mt
-source-git-commit: 74238f90f45f0fb9a4566915a20a1d41dfb69fe1
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
 workflow-type: tm+mt
-source-wordcount: '1444'
-ht-degree: 66%
+source-wordcount: '1443'
+ht-degree: 65%
 
 ---
 
@@ -42,7 +42,7 @@ AdobeDynamic Media经典视频是一款端到端解决方案，它可轻松发�
 
    当生成自适应视频集时，它包括MP4视频。
 
-   `**Note:**` 主／源视频和任何其他源格式视频 *不会* 添加到自适应视频集。
+   `**Note:**` 主控/源视频和任何其他源格式视频 *不会* 添加到自适应视频集。
 
 * Univeral_HTML5_Video、Universal_HTML5_MixedMedia_dark和Universal_HTML5_MixedMedia_light查看器中的视频字幕以及Universal_HTML5_Video、Universal_HTML5_Mixedia_dark和Universal_HTML5_MixedMedia_Mided中的视频章节导航轻量级查看器。
 
@@ -82,9 +82,9 @@ AdobeDynamic Media经典视频是一款端到端解决方案，它可轻松发�
 可以使用以下两种方案之一上载并生成自适应视频集：
 
 * **上传预编码视频**&#x200B;如果您的视频已在Dynamic Media经典之外进行编码，请单击 
-**在全局** 导航栏上传，以浏览MP4视频文件并将其直接上传到Scene7 Publishing System。 然后，单击“**构建”>“自适应视频集**”。浏览至您的视频文件。将需要的视频文件拖放到“自适应视频集”表中，然后保存此视频集。
-* **上传主源视频**&#x200B;如果您的视频未进行编码，请单击 
-**在全局** 导航栏上传主视频源文件（非MP4），并让Scene7 Publishing System为您的MP4文件进行编码。 在“上载作业选项”对话框中，在“eVideo 选项”下面选择“**自适应视频**。
+**在全局** 导航栏上传，以浏览MP4视频文件并将其直接上传到Dynamic Media经典。 然后，单击“**构建”>“自适应视频集**”。浏览至您的视频文件。将需要的视频文件拖放到“自适应视频集”表中，然后保存此视频集。
+* **上传主控源视频**&#x200B;如果您的视频未进行编码，请单击 
+**在全局** 导航栏上传主控视频源文件（非MP4），并让Dynamic Media经典对它们进行编码，以供您使用。 在“上载作业选项”对话框中，在“eVideo 选项”下面选择“**自适应视频**。
 
    通过使用此首选的选项，可以创建一个自适应视频集以自动将正确编码预设应用于视频（不论是 16:9 还是 4:3），以便与您上载的视频尺寸相匹配。提交上载作业时，系统会自动为您创建一个自适应视频集，其中包含三个具有正确高宽比的视频编码。
 
@@ -112,7 +112,7 @@ Dynamic Media经典优惠大量预定义的视频编码预设。 这些预定义
 
 **可选**
 
-查看器预设自定义-Dynamic Media经典优惠预定义的用于传送视频的查看器预设。 这些预设决定了查看器的外观及其播放控件的工作方式。要自定义视频查看器，管理员可以从“视频预设”页中添加和管理视频预设。要打开该页，请在 Scene7 Publishing System 的右上角，单击“设置”>“查看器预设”。“查看器预设”页提供用于添加、编辑、删除和激活查看器预设的命令。
+查看器预设自定义-Dynamic Media经典优惠预定义的用于传送视频的查看器预设。 这些预设决定了查看器的外观及其播放控件的工作方式。要自定义视频查看器，管理员可以从“视频预设”页中添加和管理视频预设。要打开此页面，请在Dynamic Media经典的右上角，单击设置>查看器预设。 “查看器预设”页提供用于添加、编辑、删除和激活查看器预设的命令。
 
 请参阅[使用视频查看器预设](previewing-videos-video-viewer.md#working_with_video_viewer_presets)。
 
