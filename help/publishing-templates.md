@@ -6,18 +6,21 @@ seo-description: 了解如何发布模板。
 uuid: 9b8e5b94-6958-4725-bcbc-5e6a9c4d1b02
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/template_basics
 discoiquuid: 87a5a25e-210b-4359-821a-7dfe8c304f9b
 translation-type: tm+mt
-source-git-commit: e3c64b90e0af0129571a21b132477c0c86d06405
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '175'
+ht-degree: 41%
 
 ---
 
 
 # 发布模板{#publishing-templates}
 
-发布模板后，模板会放在Dynamic Media图像服务器上，您的网站和应用程序可在该服务器上使用。 在发布过程中，Scene7 Publishing System 将激活网站和应用程序所需的 URL。
+发布模板后，模板将放在Dynamic Media图像服务器上，您的网站和应用程序可在此处访问它。 在发布过程中，Dynamic Media经典会激活您的网站和应用程序所需的URL。
 
 >[!NOTE]
 >
