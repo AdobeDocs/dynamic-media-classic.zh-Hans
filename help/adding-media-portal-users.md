@@ -6,11 +6,14 @@ seo-description: 了解如何添加和管理Media Portal用户
 uuid: 96d4103c-6428-4ce1-b9e4-231599304f27
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/media_portal
 discoiquuid: 5e933045-ce1a-41b9-ba8b-2151c396b7a2
 translation-type: tm+mt
-source-git-commit: 32f5e03766466ceaafe58780e9e80dbdd4a0c3dd
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '1032'
+ht-degree: 84%
 
 ---
 
@@ -105,23 +108,23 @@ source-git-commit: 32f5e03766466ceaafe58780e9e80dbdd4a0c3dd
 
 ## 为 Media Portal 用户设置欢迎电子邮件 {#setting-up-the-welcome-e-mail-message-for-media-portal-users}
 
-添加新 Media Portal 用户、参与者和参与者用户时，您可以发送一封欢迎电子邮件。您可以配置此电子邮件，或告知Dynamic Media Classic不要发送它。
+添加新 Media Portal 用户、参与者和参与者用户时，您可以发送一封欢迎电子邮件。您可以配置此电子邮件，或告知Dynamic Media经典系统不发送它。
 
 1. 选择“**设置**”>“**应用程序设置**”>“**管理设置**”>“**用户管理**”。
 1. In the User Administration Setup screen, click **Email Settings**.
 1. 在“电子邮件设置”对话框中，指定以下任何设置：
 
-   **发送电子邮件** 如果不想通过电子邮件通知新用户您已注册他们，请取消选择此选项。
+   **发送电子邮件** 如果不想通过电子邮件通知新用户您已注册，请取消选择此选项。
 
-   **默认密码** 为新用户输入临时密码，或将字段留空以让Dynamic Media Classic生成随机密码。 首次登录时，系统会要求用户更改密码。
+   **默认密码** 为新用户输入临时密码，或将字段留空以使Dynamic Media经典生成随机密码。 首次登录时，系统会要求用户更改密码。
 
-   **替换URL** 如果用户通过其他URL访问Dynamic Media Classic，请输入与默认URL不同的URL。
+   **替换URL** 如果用户通过其他URL访问Dynamic Media经典，请输入与默认URL不同的URL。
 
 ## 其他用户管理任务 {#other-user-management-tasks}
 
 从“用户管理设置”屏幕开始，您还可以执行以下任务：
 
-**过滤用户列表并对其排序** 过滤Media Portal用户的列表以定位用户。 请参阅过滤和排序用户列表。
+**过滤用户列表并对其排序** 过滤Media Portal用户的列表以查找用户。 请参阅过滤和排序用户列表。
 
 **删除用户** 从列表中删除用户。 请参阅删除用户。
 
@@ -129,6 +132,6 @@ source-git-commit: 32f5e03766466ceaafe58780e9e80dbdd4a0c3dd
 
 **编辑用户信息** 输入有关用户的最新信息。 请参阅编辑用户信息。
 
-**创建用户定义字段** 创建自定义的、用户定义的元数据字段，以帮助组织Scene7 Publishing System中的资产。 必要时，也可以激活或停用这些字段。
+**创建用户定义字段** 创建自定义、用户定义的元数据字段，以帮助在Dynamic Media经典中组织资产。 必要时，也可以激活或停用这些字段。
 
 请参阅[用户定义的字段](application-setup.md#user_defined_fields)。
