@@ -5,10 +5,10 @@ audience: end-user
 user-guide-title: Dynamic Media经典帮助
 index: y
 translation-type: tm+mt
-source-git-commit: b034ef968788ff6cdd95aa261302017307df120d
+source-git-commit: 38f5cf5264f9775a225d354ed9dc2f6caee236f2
 workflow-type: tm+mt
-source-wordcount: '732'
-ht-degree: 76%
+source-wordcount: '736'
+ht-degree: 75%
 
 ---
 
@@ -26,12 +26,12 @@ ht-degree: 76%
    + [What’s new](whats-new.md)
    + [系统要求](system-requirements.md)
    + [支持](support.md)
-   + [Dynamic Media经典媒体门户帮助](help-scene7-media-portal.md)
+   + [Dynamic Media经典媒体门户帮助](help-dmc-media-portal.md)
    + [Adobe 培训服务](training-services.md)
    + [常用资源](popular-resources.md)
    + [培训视频](training-videos.md)
 + 快速入门 {#getting-started}
-   + [AdobeDynamic Media经典平台概述](scene7-platform-overview.md)
+   + [AdobeDynamic Media经典平台概述](dmc-platform-overview.md)
    + [Media Portal](media-portal.md)
    + [登录和注销](signing-out.md)
    + [导航基础知识](navigation-basics.md)
@@ -70,7 +70,7 @@ ht-degree: 76%
    + [移动、重命名和删除资源](moving-renaming-deleting-assets.md)
    + [使用“详细信息”视图](detail-view.md)
    + [查看、添加和导出元数据](viewing-adding-exporting-metadata.md)
-   + [从 Scene7 Publishing System 导出资源](exporting-assets-scene7-publishing-system.md)
+   + [从Dynamic Media经典导出资源](exporting-assets-from-dmc.md)
    + [与对等客户端实时共享资源更改](sharing-asset-changes-peers-real.md)
    + [打印资源](printing-assets.md)
    + [Managing the Trash folder](trash-folder.md)
@@ -146,7 +146,7 @@ ht-degree: 76%
    + [发布混合媒体集](publishing-mixed-media-set.md)
    + [将混合媒体集与网页链接](linking-mixed-media-set-web.md)
 + Adobe Analytics instrumentation kit {#analytics-kit}
-   + [快速开始: 将Dynamic Media经典与AdobeAnalytics集成](quick-start-integrating-scene7-analytics.md)
+   + [快速开始: 将Dynamic Media经典与AdobeAnalytics集成](quick-start-integrating-dmc-analytics.md)
    + [登录到 Adobe Analytics](log-analytics.md)
    + [配置 Adobe Analytics 报告](configuring-analytics-reports.md)
    + [使用 Adobe Analytics 仪器包实施查看器](instrumenting-viewer-using-analytics-instrumentation.md)
@@ -154,11 +154,11 @@ ht-degree: 76%
    + [查看 Adobe Analytics 报告以测试集成](testing-integration-viewing-analytics-report.md)
    + [启用 Adobe Analytics 视频报告](enabling-analytics-video-reports.md)
    + [发布 Adobe Analytics 配置信息](publishing-analytics-configuration-information.md)
-+ 目标经典集成 {#target-classic}
-   + [快速开始: 目标经典集成](quick-start-target-classic-integration.md)
-   + [将AdobeDynamic Media经典与Adobe Target经典集成](integrating-scene7-target-classic.md)
++ Target Standard/高级版集成 {#target-classic}
+   + [快速开始: Target Standard/高级版集成](quick-start-target-integration.md)
+   + [将AdobeDynamic Media经典与Adobe Target标准版／高级版集成](integrating-dmc-with-target.md)
    + [Creating an offer set](creating-offer-set.md)
-   + [将优惠集推送到Adobe Target经典](pushing-offer-sets-target-classic.md)
+   + [将优惠集推送到Adobe Target标准版／高级版](pushing-offer-sets-target.md)
 + 用户生成的内容 {#user-generated-content}
    + [关于用户生成的内容](about-ugc.md)
    + [删除上载的资源](deleting-uploaded-asset.md)
