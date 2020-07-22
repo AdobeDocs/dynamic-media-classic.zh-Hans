@@ -6,27 +6,27 @@ seo-description: 了解哪些开发人员资源可供Dynamic Media使用。
 uuid: 97702f33-fb9c-4ba7-9c42-757dec7e6645
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: a802ead0-401e-4600-aedf-e6414f7983e1
 translation-type: tm+mt
-source-git-commit: 74238f90f45f0fb9a4566915a20a1d41dfb69fe1
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
 workflow-type: tm+mt
 source-wordcount: '287'
-ht-degree: 41%
+ht-degree: 39%
 
 ---
 
 
 # 开发人员资源{#developer-resources}
 
-Dynamic Media经典提供有关每个Dynamic Media经典软件模块最新主版本的文档。 模块文档可用于图像创作、Scene7 Publishing System、图像服务器和图像渲染以及查看器。
+Dynamic Media经典提供有关每个Dynamic Media经典软件模块最新主版本的文档。 模块文档可用于图像创作、Dynamic Media经典、图像服务器和图像渲染以及查看器。
 
 对于一些模块，也提供了发行说明。发行说明中提供了有关相应发行版的详细信息，其中包括增强功能、新增功能、提示、故障排除建议以及已知的未决问题。发行说明还提供富媒体功能的交互示例，并解释这些功能的激活方法。此外，发行说明针对带有授权软件的客户端提供了安装和配置说明。
 
 图像服务和图像渲染的参考指南和查看器介绍了适用于这些服务器模块的http协议。 希望为网站或自定义应用程序进一步自定义和利用Dynamic Media经典富媒体的网站开发人员可以使用这些指南。 Dynamic Media经典假定读者熟悉桌面应用程序、一般http协议标准和惯例以及基本的图像术语。
 
 
-**Scene7 Publishing System API**
+**Dynamic Media经典API**
 
 | 文档 | 网页地址 |
 |--- |--- |
