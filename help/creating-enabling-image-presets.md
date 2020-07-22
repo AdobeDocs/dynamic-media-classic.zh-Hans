@@ -6,11 +6,14 @@ seo-description: 了解如何创建和启用图像预设。
 uuid: 62cfc6fa-da91-4c42-a3ed-10956384d633
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/media_portal
 discoiquuid: 84257b2a-681c-4fe9-a6e5-3633c1d61d8c
 translation-type: tm+mt
-source-git-commit: 75f006fd81b0fe2dad5479cdd98e45eaada46b2a
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '258'
+ht-degree: 89%
 
 ---
 
@@ -19,7 +22,7 @@ source-git-commit: 75f006fd81b0fe2dad5479cdd98e45eaada46b2a
 
 当用户使用 Media Portal 导出图像资源时，他们可以在“导出所选资源”对话框中选择一种“图像预设”。图像预设是一组预定义的设置，用于更改图像在导出时的外观大小、图像质量、格式、分辨率以及其他方面。
 
-Media Portal 管理员可以创建图像预设，以便控制导出时如何重设它们的格式。当用户从 Scene7 Publishing System 导出图像时，“图像预设”会根据您公司的规范重设图像的格式。用户按照“图像预设”的精确规范导出图像，而非自已重设图像的格式。
+Media Portal 管理员可以创建图像预设，以便控制导出时如何重设它们的格式。当用户从公司经典中导出图像时，图像预设会根据Dynamic Media的规格重新设置图像格式。 用户按照“图像预设”的精确规范导出图像，而非自已重设图像的格式。
 
 导出图像资源时，有下列限制：
 
