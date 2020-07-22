@@ -5,12 +5,15 @@ description: 'null'
 seo-description: 了解如何管理图像集中的信息面板内容。
 uuid: ed7b4344-f180-41fc-a95a-62a9767dc056
 contentOwner: rbrough
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 content-type: reference
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sets
 discoiquuid: ba5d1fb1-af54-471c-a471-853ace7f72fd
 translation-type: tm+mt
-source-git-commit: d5bf894d56687561c93ef08762bc19d3597225e6
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '776'
+ht-degree: 73%
 
 ---
 
@@ -19,7 +22,7 @@ source-git-commit: d5bf894d56687561c93ef08762bc19d3597225e6
 
 除了在图像集中将图像映射文本用于变换之外，还可以使用“信息面板”添加大量变换文本（包括链接）。还可以使用定时缓存和计划内容更新来管理信息面板。
 
-可以使用 Scene7 Publishing System 中的以下功能管理信息面板设置和数据：
+您可以在Dynamic Media经典中使用以下功能管理InfoPanel设置和数据：
 
 * “信息面板设置”面板可用来指定用于显示“信息面板”文本、默认错误响应以及信息缓存的小时数等信息的模板。此外，可以指定是否自动发布图像集。
 * “信息面板数据输入”面板可用来指定包含要在信息面板变换文本中显示的文本的 CSV 文件，以及计划更新信息的时间。
@@ -38,7 +41,7 @@ source-git-commit: d5bf894d56687561c93ef08762bc19d3597225e6
    * 选择“默认”以使用默认响应。模板设计的 XML 在“用户模板”文本框中灰显。
    * 选择“自定义”创建自己的响应模板。在“用户模板”文本框中，键入模板 XML 定义。您可以使用已在该文本框定义的默认模板作为您自己的响应的基模板。
 
-1. （可选）在“默认响应”框中，键入当Dynamic Media Classic在检索图像映射的信息时遇到错误时要显示的文本。 例如，如果系统收到公司名称和图像集名称，但是没有变换标识符，则将为用户显示该消息。
+1. （可选）在“默认响应”框中，键入在Dynamic Media经典在检索图像映射信息时遇到错误时要显示的文本。 例如，如果系统收到公司名称和图像集名称，但是没有变换标识符，则将为用户显示该消息。
 1. 在“响应 TTL”文本字段中，输入要在缓存数据之前等待的小时数。
 
    * 如果在一整天内需要频繁更新数据，则设置一个较小的值。
@@ -51,7 +54,7 @@ source-git-commit: d5bf894d56687561c93ef08762bc19d3597225e6
 
 1. In the InfoPanel Setup panel, click **Publish**.
 
-## 为图像集中的“信息”面板导入源内容 {#import-source-content-for-the-info-panel-in-image-sets}
+## 导入图像集中“信息”面板的源内容 {#import-source-content-for-the-info-panel-in-image-sets}
 
 您可以将采用 ASCII 编码（必须对非 ASCII 字符进行 HTML 编码）的 CSV（逗号分隔值）文件或制表符分隔文件用于图像集信息面板的源文本。制表符分隔文件必须使用 UTF-16 (Unicode) 编码。使用不同的方法导入不同的文件类型。
 
