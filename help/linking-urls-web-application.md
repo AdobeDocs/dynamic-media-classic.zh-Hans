@@ -6,26 +6,29 @@ seo-description: 了解如何将URL关联到您的Web应用程序。
 uuid: 1179bdd3-9b39-47f9-945d-1c1ca186bf96
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sizing
 discoiquuid: 71299640-676d-49b7-841d-6118f31044e8
 translation-type: tm+mt
-source-git-commit: e3c64b90e0af0129571a21b132477c0c86d06405
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '841'
+ht-degree: 72%
 
 ---
 
 
 # 将 URL 链接至 Web 应用程序{#linking-urls-to-your-web-application}
 
-您的网站和应用程序通过URL字符串访问Dynamic Media Image Server内容。 发布图像后，Dynamic Media Classic会激活引用Dynamic Media图像服务器上的图像预设的URL字符串。 可将这些 URL 粘贴至 Web 浏览器进行测试。
+您的网站和应用程序通过URL字符串访问Dynamic Media图像服务器内容。 发布图像后，Dynamic Media经典将激活引用Dynamic Media图像服务器上的图像预设的URL字符串。 可将这些 URL 粘贴至 Web 浏览器进行测试。
 
-要将这些 URL 字符串放置到网页和应用程序中，请从 Scene7 Publishing System 复制它们。要获得由图像预设生成的 URL 字符串，请转到“预览”屏幕或浏览面板（在中）。
+要将这些URL字符串放置到网页和应用程序中，请从Dynamic Media经典中复制它们。 要获得由图像预设生成的 URL 字符串，请转到“预览”屏幕或浏览面板（在中）。
 
 ## 获得图像预设 URL {#obtaining-an-image-preset-url}
 
 可从“预览”或详细信息视图中获得由图像预设生成的 URL 字符串。复制 URL 后，该字符串将放置在剪贴板上，以便在必要时进行粘贴。
 
-***注意&#x200B;**:在您发布资产之前，该URL才处于活动状态。*
+***注意&#x200B;**: 在您发布资产之前，该URL不会处于活动状态。*
 
 ### 从预览中获得图像预设 URL {#obtaining-an-image-preset-url-from-preview}
 
@@ -54,7 +57,7 @@ source-git-commit: e3c64b90e0af0129571a21b132477c0c86d06405
 
 *路径*/*图像服务器名称*/*帐户名称*/*图像名称*?*修饰符1*&amp;*修饰符2*&amp;...
 
-在Dynamic Media Image Server URL中，显示图像的服务器说明显示在问号(?)之后。 例如，以下 URL 调用将传送一个名为“backpack”宽度为 250 个像素的图像：
+在Dynamic Media图像服务器URL中，在问号(?)后将显示显示图像的服务器说明。 例如，以下 URL 调用将传送一个名为“backpack”宽度为 250 个像素的图像：
 
 ```as3
 https://s7d1.scene7.com/is/image/S7learn/backpack?wid=250
