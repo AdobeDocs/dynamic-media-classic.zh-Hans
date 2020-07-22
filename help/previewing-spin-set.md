@@ -6,11 +6,14 @@ seo-description: 了解如何预览旋转集。
 uuid: 5b9d4c37-a4ec-40c5-8f14-da875d71226e
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/spin_sets
 discoiquuid: 4b32ffff-4387-4699-9ba9-c3b23a2c3607
 translation-type: tm+mt
-source-git-commit: 0f6c8e6ac69e29aab7a48425aab76c10170d9ddf
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '259'
+ht-degree: 97%
 
 ---
 
