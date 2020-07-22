@@ -6,11 +6,14 @@ seo-description: 了解如何在样本集中包含缩放目标和图像映射。
 uuid: e46ebebd-b086-450c-9812-22290a92db8c
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/swatch_sets
 discoiquuid: f75f6d5b-d689-4640-838f-a32d77859f62
 translation-type: tm+mt
-source-git-commit: 0f6c8e6ac69e29aab7a48425aab76c10170d9ddf
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '170'
+ht-degree: 92%
 
 ---
 
