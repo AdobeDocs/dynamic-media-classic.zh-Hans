@@ -6,11 +6,14 @@ seo-description: 了解如何创建样本集。
 uuid: 250b3525-310d-4481-b0bc-f9057e823e0b
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/swatch_sets
 discoiquuid: 631d2b2d-9e69-4b96-8392-17e00a1a8de0
 translation-type: tm+mt
-source-git-commit: 75f006fd81b0fe2dad5479cdd98e45eaada46b2a
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '706'
+ht-degree: 84%
 
 ---
 
@@ -23,8 +26,11 @@ source-git-commit: 75f006fd81b0fe2dad5479cdd98e45eaada46b2a
 
 ## 创建样本集 {#create}
 
-创建集时，“保存后发 **布** ”选项会通过以下方式影响集和集成员：
-|“保存后发布”选项在保存前是否被选中？|保存后设置的状态|保存后设置成员的状态||—|—|—||是|已发布|已发布||否|未发布|集成员将保留其已发布或未发布的状态。|
+创建集时，“保存后发 **布”选项** 会通过以下方式影响集和设置成员：
+|“保存后发布”选项在保存前被选中？|保存后设置的状态|保存后设置成员的状态|
+|— |— |— |
+|是|已发布|已发布|
+|无|未发布|集成员将保留其已发布或未发布的状态。|
 
 另请参阅[手动发布资源](publishing-files.md#manually_publishing_assets)和[手动取消发布资源](publishing-files.md#manually_unpublishing_assets)。
 
@@ -32,9 +38,9 @@ source-git-commit: 75f006fd81b0fe2dad5479cdd98e45eaada46b2a
 
 1. 执行以下操作之一：
 
-   **首先选择图像** 。在浏览面板中，选择图像，然后单击“构建”>“样本集”。
+   **首先在浏览面板** 中选择图像，选择图像，然后单击“构建”>“样本集”。
 
-   **开始从“样本集”屏幕中** ，单击“构建”>“样本集”。 从资源库中选择一个文件夹，然后将图像拖到“样本集”页面的“视图”部分中。
+   **开始从“样本集”屏幕** ，单击“构建”>“样本集”。 从资源库中选择一个文件夹，然后将图像拖到“样本集”页面的“视图”部分中。
 
 1. 将样本颜色、模式或光泽度拖到“样本集”页面上的样本占位符框中。
 
