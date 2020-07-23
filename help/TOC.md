@@ -5,9 +5,9 @@ audience: end-user
 user-guide-title: Dynamic Media经典帮助
 index: y
 translation-type: tm+mt
-source-git-commit: 38f5cf5264f9775a225d354ed9dc2f6caee236f2
+source-git-commit: 1ed0c74e3d2c94b22daa2fe2ac5c2a051e6768bc
 workflow-type: tm+mt
-source-wordcount: '736'
+source-wordcount: '737'
 ht-degree: 75%
 
 ---
@@ -154,9 +154,9 @@ ht-degree: 75%
    + [查看 Adobe Analytics 报告以测试集成](testing-integration-viewing-analytics-report.md)
    + [启用 Adobe Analytics 视频报告](enabling-analytics-video-reports.md)
    + [发布 Adobe Analytics 配置信息](publishing-analytics-configuration-information.md)
-+ Target Standard/高级版集成 {#target-classic}
-   + [快速开始: Target Standard/高级版集成](quick-start-target-integration.md)
-   + [将AdobeDynamic Media经典与Adobe Target标准版／高级版集成](integrating-dmc-with-target.md)
++ Adobe Target标准版／高级版集成 {#target-classic}
+   + [快速开始: Adobe Target标准版／高级版集成](quick-start-target-integration.md)
+   + [将Dynamic Media经典与Adobe Target标准版／高级版集成](integrating-dmc-with-target.md)
    + [Creating an offer set](creating-offer-set.md)
    + [将优惠集推送到Adobe Target标准版／高级版](pushing-offer-sets-target.md)
 + 用户生成的内容 {#user-generated-content}
