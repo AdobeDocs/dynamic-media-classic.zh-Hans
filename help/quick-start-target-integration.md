@@ -10,15 +10,15 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/target_classic_integration
 discoiquuid: f8c25768-cf59-45ec-8193-522404191d57
 translation-type: tm+mt
-source-git-commit: 38f5cf5264f9775a225d354ed9dc2f6caee236f2
+source-git-commit: 1ed0c74e3d2c94b22daa2fe2ac5c2a051e6768bc
 workflow-type: tm+mt
-source-wordcount: '478'
+source-wordcount: '481'
 ht-degree: 19%
 
 ---
 
 
-# 快速开始: Target Standard/高级版集成{#quick-start-target-integration}
+# 快速开始: Adobe Target标准版／高级版集成{#quick-start-target-integration}
 
 Adobe Target标准／高级版将控制权直接交付给营销人员，以便快速、持续地运行多个A/B和多变量测试，衡量有效性，并通过细分、定位和自动个性化提高在线内容的相关性。
 
@@ -34,7 +34,7 @@ Dynamic Media经典允许您为Target Standard/高级活动创建优惠和优惠
 
 此快速开始旨在帮助您快速设置和运行Target Standard/高级HTML优惠集。 请执行步骤 1 到 3。每个步骤的后面都有一个交叉引用，可以跳转到相应的主题标题，供您了解更多信息。
 
-**1. Enter your Target Standard/Premium URL in the Application General Settings screen.**
+**1. Enter your Adobe Target Standard/Premium URL in the Application General Settings screen.**
 
 Dynamic Media经典需要您的Target Standard/高级URL与Target Standard/高级集成。 Copy the portion of your Target Standard/Premium URL up to and including *.com*, and enter it in the Dynamic Media Classic Application General Settings screen. 请参 [阅将Dynamic Media经典与Target Standard/高级集成](integrating-dmc-with-target.md#integrating-dmc-with-target)。
 
@@ -50,6 +50,6 @@ Dynamic Media经典需要您的Target Standard/高级URL与Target Standard/高�
 
 请参阅[创建优惠套餐](creating-offer-set.md#creating_an_offer_set)。
 
-**3. 将优惠集推送到Target Standard/高级**
+**3. 将优惠集推送至Adobe TargetStandard/Premium**
 
 In the Test&amp;Target Offer Set screen, click **Push Offers**, and enter your login credentials in the Test&amp;Target Login dialog box. 请参 [阅将优惠集推送到Target Standard/高级](pushing-offer-sets-target.md#pushing_offer_sets_to_target)。
