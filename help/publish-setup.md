@@ -9,9 +9,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: cba59093-28b6-4490-b838-d942b72ad1ec
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 5622464ae7ae9cd47b7674449c7d1f7897bf4319
 workflow-type: tm+mt
-source-wordcount: '2397'
+source-wordcount: '2409'
 ht-degree: 65%
 
 ---
@@ -37,7 +37,7 @@ ht-degree: 65%
 
 **目录管理** 这些设置决定了Dynamic Media经典与目录的交互方式。 与大多数Web服务器不同，Dynamic Media图像服务器URL调用将转至清单或目录文件，而不是图像文件本身。 目录文件（不要与 eCatalog 混淆）中包含发布到图像服务器的所有内容的列表，以及每个图像的路径。如果您有 Digimarc ID，请在“Digimarc 用户信息”部分中输入您的用户信息。
 
-**请求属性** 这些设置对可以从服务器传送的图像施加限制。
+**请求属性** 这些设置对可以从服务器传送的图像施加限制。 例如，“回复 *图像***[!UICONTROL 大小]** ”的最大限 **[!UICONTROL 制为Width]** 5000 **[!UICONTROL 和Height]** 5000。
 
 **默认请求属性** 这些设置与图像的默认外观有关。
 
