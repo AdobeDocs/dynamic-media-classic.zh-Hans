@@ -1,8 +1,8 @@
 ---
 title: 应用程序设置
 seo-title: 应用程序设置
-description: 了解如何设置Dynamic Media经典的应用程序区域。
-seo-description: 了解如何设置Dynamic Media经典的应用程序区域。
+description: 了解如何设置Dynamic Media Classic的应用程序区域。
+seo-description: 了解如何设置Dynamic Media Classic的应用程序区域。
 uuid: 3e2f1d30-8f33-4a9d-bbe4-e8c3dbc968f8
 contentOwner: admin
 content-type: reference
@@ -10,9 +10,9 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/setup
 discoiquuid: ae2d1895-a437-4463-bfac-3960c8027551
 translation-type: tm+mt
-source-git-commit: 7c9b1976ced6ef5ad48b624b99aeeffed380168a
+source-git-commit: ffb8113750e526fe9124a06ac071ceadf23f9f5c
 workflow-type: tm+mt
-source-wordcount: '10982'
+source-wordcount: '10979'
 ht-degree: 68%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 68%
 
 >[!NOTE]
 >
->只有Dynamic Media经典管理员才能更改“应用程序设置”页面上的设置。
+>只有Dynamic Media Classic管理员才能更改“应用程序设置”页面上的设置。
 
 ## 常规设置 {#general-settings}
 
@@ -32,13 +32,13 @@ ht-degree: 68%
 
 ### 服务器
 
-在创建帐户时，Dynamic Media经典会自动为您的公司提供分配的服务器。 这些服务器用于构建网站和应用程序的 URL 字符串。这些 URL 调用是您的帐户所特有的。
+在创建帐户时，Dynamic Media Classic会自动为您的公司提供分配的服务器。 这些服务器用于构建网站和应用程序的 URL 字符串。这些 URL 调用是您的帐户所特有的。
 
 另请参阅[测试安全测试服务](testing-assets-making-them-public.md#testing_the_secure_testing_service)。
 
-* **发布服务器名** -此服务器是在特定于您的帐户的所有系统生成的URL调用中使用的实时CDN服务器。 除非Dynamic Media经典支持技术人员指示您更改此服务器名称。
+* **发布服务器名** -此服务器是在特定于您的帐户的所有系统生成的URL调用中使用的实时CDN服务器。 除非动态媒体经典支持技术人员指示您更改此服务器名称。
 
-* **来源服务器** 名称——此服务器仅用于质量保证测试。 除非Dynamic Media经典支持技术人员指示更改此服务器名称。
+* **来源服务器** 名称——此服务器仅用于质量保证测试。 除非动态媒体经典支持技术人员指示更改此服务器名称，否则不要更改此服务器名称。
 
 <!-- **AGM Server Name** This server is used for Web-to-Print templates. This server is set on a company-wide basis. Do not change this server name unless instructed to do so by a Dynamic Media Classic support technician. -->
 
@@ -80,19 +80,19 @@ ht-degree: 68%
 
 ### 浏览
 
-* **显示项目** -确定项目是否可作为组织Dynamic Media经典资产的一种方式。 请参阅用项目组织工作。
+* **显示项目** -确定项目是否可作为组织Dynamic Media Classic资产的一种方式。 请参阅用项目组织工作。
 
 * **显示示例eVideo内容** -打开或关闭eVideo示例内容的显示。
 
-* **显示生成的内容** -在文件夹中，显示从资产生成的内容。 例如，当PDF文件在上传时栅格化时，Dynamic Media经典为原始PDF中的每页创建一幅图像。 如果选择“显示生成的内容”，则在上载原始 PDF 时生成的每个图像都会与该 PDF 一起显示在将 PDF 上载到的文件夹中。
+* **显示生成的内容** -在文件夹中，显示从资产生成的内容。 例如，当PDF文件在上传时栅格化时，Dynamic Media Classic会为原始PDF中的每页创建一幅图像。 如果选择“显示生成的内容”，则在上载原始 PDF 时生成的每个图像都会与该 PDF 一起显示在将 PDF 上载到的文件夹中。
 
 * **显示编码视频** -默认情况下取消选择（关闭）。
 
-   要在Dynamic Media经典中快速搜索和浏览视频，而无需浏览同一视频的许多编码衍生项，请取消选择此选项（默认）。 用户界面上显示的只有“主视频”缩略图（您上传并用于创建所有派生项的源视频）和“父”自适应视频集缩略图（包含编码视频集的所有“子”派生项）。
+   要在Dynamic Media Classic中快速搜索和浏览视频，而无需浏览同一视频的大量编码衍生项，请取消选中此选项（默认）。 用户界面上显示的只有“主视频”缩略图（您上传并用于创建所有派生项的源视频）和“父”自适应视频集缩略图（包含编码视频集的所有“子”派生项）。
 
    但是，您仍可以访问主视频或自适应视频集的各个编码视频。要执行以上操作，请双击视频缩略图图像，打开详细信息视图。然后单击右边侧面板的“**编码的视频**”，访问所有“子”视频。
 
-   您也可以使用“**文件”>“重新处理**”以直接从自适应视频集创建更多编码的“子”视频。Dynamic Media经典会自动查找自适应视频集的“父”主控视频，并将其用作转码的源视频。 但是，如果保存新的单个编码视频，您在搜索或浏览时将看不到这些视频。但是，您仍可以从详细信息视图的“编码的视频”选项卡进行访问。
+   您也可以使用“**文件”>“重新处理**”以直接从自适应视频集创建更多编码的“子”视频。Dynamic Media Classic会自动查找自适应视频集的“父”主控视频，并将其用作转码的源视频。 但是，如果保存新的单个编码视频，您在搜索或浏览时将看不到这些视频。但是，您仍可以从详细信息视图的“编码的视频”选项卡进行访问。
 
    请参阅[上载和转码视频](uploading-encoding-videos.md#uploading_and_encoding_videos)。
 
@@ -100,13 +100,13 @@ ht-degree: 68%
 
    “构建”菜单上的某些操作只能对单个视频或选择性地对单个视频生效。此功能要求必须显示所有可以选择的编码视频派生（无论如何设置“**显示已编码视频**”）。The Build actions that over-ride the **Show Encoded Videos** setting include **Adaptive Video Sets**, and **eCatalogs**.
 
-   >[注意]
+   >[!NOTE]
    >
-   >如果您未使用Dynamic Media经典来上传和编码视频资产，Dynamic Media经典会显示您的所有单独编码的视频，即使取消选择此选项也是如此。
+   >如果您未使用Dynamic Media Classic上传视频资产并对其进行编码，则Dynamic Media Classic会显示您的所有单独编码的视频，即使取消选择此选项也是如此。
 
 * **显示“刷新子文件夹** ”按钮——打开或关闭子文件夹“刷新”按钮的显示。
 
-### Dynamic Media经典FTP帐户
+### 动态媒体经典FTP帐户
 
 * **服务器** -列表您的FTP帐户服务器。
 
@@ -114,7 +114,7 @@ ht-degree: 68%
 
 ### 上载到应用程序
 
-* **覆盖图像** -Dynamic Media经典不允许两个文件具有相同的名称。 每个项的Dynamic Media经典ID（图像名称减去文件扩展名）必须是唯一的。 由于此规则，“上载”对话框中有一个“覆盖”选项。该选项的准确效果取决于指定的“覆盖图像”选项。这些选项指定了如何上载替换图像：替换原始图像，还是成为重复图像。重复图像会用“-1”重命名（例如，chair.tif 会重命名为 chair-1.tif）。这些选项会影响上载到的文件夹与原始图像不同的图像，或文件扩展名（如 JPG、TIF 或 PNG）与原始图像不同的图像。（请参阅使用覆盖图像选项。）
+* **覆盖图像** - Dynamic Media Classic不允许两个文件具有相同的名称。 每个项目的Dynamic Media Classic ID（图像名称减去文件扩展名）必须是唯一的。 由于此规则，“上载”对话框中有一个“覆盖”选项。该选项的准确效果取决于指定的“覆盖图像”选项。这些选项指定了如何上载替换图像：替换原始图像，还是成为重复图像。重复图像会用“-1”重命名（例如，chair.tif 会重命名为 chair-1.tif）。这些选项会影响上载到的文件夹与原始图像不同的图像，或文件扩展名（如 JPG、TIF 或 PNG）与原始图像不同的图像。（请参阅使用覆盖图像选项。）
 
    * **在当前文件夹中覆盖，基本图像名称／扩展名相同** -此选项是最严格的替换规则。 它要求您将替换图像上载到原始图像所在的文件夹中，并且该替换图像与原始图像具有相同的文件扩展名。如果不满足这些要求，则会创建重复的图像。
 
@@ -124,7 +124,7 @@ ht-degree: 68%
 
    * **在任意文件夹中覆盖相同的基本资产名称，而不考虑扩展名** -此选项是最包含内容的替换规则。 可以将替换图像上载到与原始文件所在文件夹不同的文件夹，使用不同的文件扩展名上载文件，并替换原始文件。如果原始文件在不同的文件夹中，替换图像则位于其所上载至的新文件夹。
 
-* **保留发布** -指定上传到Dynamic Media经典的替换图像是保留要替换的图像的“准备发布”设置，还是在上传时指定该设置。
+* **保留发布** -指定上传到Dynamic Media Classic的替换图像是保留其要替换的图像的“准备发布”设置，还是在上传时指定该设置。
 
 * **默认颜色用户档案** -指定在添加CMYK图像时作为默认颜色用户档案选项的一部分应用的颜色用户档案。
 
@@ -142,19 +142,19 @@ ht-degree: 68%
 
 ## 使用“覆盖图像”选项 {#using-the-overwrite-images-option}
 
-Dynamic Media经典不允许两个文件具有相同的名称。 每个项的Dynamic Media经典ID（图像名称减去文件扩展名）必须是唯一的。 由于该规则，所以“上载”对话框会包括“覆盖图像”选项。此选项的确切效果取决于每个公司的Dynamic Media经典内部设置的设置。
+动态媒体经典不允许两个文件具有相同的名称。 每个项目的Dynamic Media Classic ID（图像名称减去文件扩展名）必须是唯一的。 由于该规则，所以“上载”对话框会包括“覆盖图像”选项。此选项的确切效果取决于每个公司的Dynamic Media Classic内部设置的设置。
 
-如果您之前上传了图像，然后更改了原始文件（或替换了它们），则选择的“覆盖”选项将指定Dynamic Media经典如何替换图像。 没有关于图像更改的信息，但是新图像会替换旧图像。如果文件夹还包含Dynamic Media经典中尚未包含的图像，则会添加这些图像。
+如果您之前上传了图像，然后更改了原始文件（或替换了它们），则选择的“覆盖”选项将指定Dynamic Media Classic如何替换图像。 没有关于图像更改的信息，但是新图像会替换旧图像。如果文件夹中还包含Dynamic Media Classic中尚未包含的图像，则会添加这些图像。
 
 如果您已上载的图像在某些方面有所更改（图像已改变），但是对图像的引用保持不变，请使用此选项。在上载和翻录 Adobe® PDF 时“覆盖”也很有用。To fine-tune how Dynamic Media Classic *rips* the image, adjust the ICC color profile options in the Upload dialog box and re-upload using the Overwrite feature.
 
-用于从生产服务器访问图像的Dynamic Media经典ID源自图像文件名。 在替换现有文件和用于访问图像的Dynamic Media经典ID时，文件名中使用大写和小写字符很重要。 在上传到Dynamic Media经典之前，请确保文件名中大小写字符的使用正确，以避免Dynamic Media经典ID在同一图像中只有大小写不同。
+用于从生产服务器访问图像的Dynamic Media Classic ID是从图像文件名派生的。 在替换现有文件和用于访问图像的Dynamic Media Classic ID时，文件名中使用大写和小写字符很重要。 在上传到Dynamic Media Classic之前，请确保文件名中的大小写字符使用正确，以避免Dynamic Media Classic ID在同一图像中只有大小写不同时才会有所不同。
 
 如果您取消选择此选项，将与现有图像具有相同文件名的所有图像都视为重复图像，并且不予添加。
 
 ## 图像预设 {#image-presets}
 
-“图像预设”屏幕用于创建和编辑图像预设。图像预设使Dynamic Media经典能够以不同大小动态传送同一主控图像的图像。 每个图像预设都表示用于显示图像的一组预定义大小和格式命令。在您创建图像预设时，可以选择图像的传送大小。您还可以选择格式命令，以便在传送图像供查看时优化图像的外观。
+“图像预设”屏幕用于创建和编辑图像预设。图像预设使Dynamic Media Classic能够以不同大小动态传送同一主控图像的图像。 每个图像预设都表示用于显示图像的一组预定义大小和格式命令。在您创建图像预设时，可以选择图像的传送大小。您还可以选择格式命令，以便在传送图像供查看时优化图像的外观。
 
 管理员可以创建导出资源的预设。用户可以在导出图像时选择预设，这同时将按照管理员指定的规范重新设置图像的格式。
 
@@ -231,13 +231,13 @@ To open the Image Preset screen, on the Global Navigation bar, click **Setup** >
 
 **重新取样模式** 选择重新取样模式选项。 当图像缩减像素取样时，以下选项锐化该图像：
 
-**B-Linear** （线性）最快的重采样方法； 会出现一些锯齿伪像。
+**B-Linear** （线性）最快的重采样方法；会出现一些锯齿伪像。
 
 **两次立方** (Bi-Cubic)可提高图像服务器的CPU使用率，但会生成更锐利的图像，出现的锯齿伪像较少。
 
 **锐化** 2与“两次立方”选项相比，效果会略为锐化，但图像服务器的CPU成本更高。
 
-**三线性** （如果可用）同时使用较高和较低分辨率； 仅当出现锯齿问题时，才推荐使用。 由于减少了高频数据，此方法会减小 JPEG 的大小。
+**三线性** （如果可用）同时使用较高和较低分辨率；仅当出现锯齿问题时，才推荐使用。 由于减少了高频数据，此方法会减小 JPEG 的大小。
 
 **USM锐化** 选择以下选项可微调锐化：
 
@@ -251,19 +251,19 @@ To open the Image Preset screen, on the Global Navigation bar, click **Setup** >
 
 **颜色** :
 
-**输出颜色用户档案** 选择“使用默认”或Dynamic Media经典版上可用的ICC颜色用户档案之一。
+**输出颜色用户档案** 选择“使用默认”或Dynamic Media Classic上提供的ICC颜色用户档案之一。
 
 另请参阅[ ICC 配置文件](icc-profiles.md#icc_profiles)。
 
 **渲染方法** 如果要覆盖颜色用户档案的默认渲染方法，请选择一个选项。 其中一个默认 ICC 配置文件是颜色转换的目标颜色空间、输出设备（打印机或显示器）具有此配置文件、指定的渲染方法对此配置文件有效时，请使用此选项。
 
-**嵌入用户档案** 选择此选项，当您在Adobe® Photoshop®中打开此图像时，它会使用此用户档案。
+**嵌入用户档案** 选择此选项，当您在Adobe®Photoshop®中打开此图像时，它会使用此用户档案。
 
-**打印分辨率** 选择用于打印此图像的分辨率； 默认为72像素。
+**打印分辨率** 选择用于打印此图像的分辨率；默认为72像素。
 
 **URL修饰符** 如果您希望指定用于定义图像预设的URL修饰符，而不是设置，请在此处输入修饰符。
 
-**示例图像URL** 列表Dynamic Media图像服务器用来传送带有您正在添加或编辑的图像预设的图像的“原始”URL字符串。 该 URL 字符串编码您在“添加预设”或“编辑预设”屏幕中选择的所有格式设置。
+**示例图像URL** 列表Dynamic Media图像服务器用于传送包含您正在添加或编辑的图像预设的图像的“原始”URL字符串。 该 URL 字符串编码您在“添加预设”或“编辑预设”屏幕中选择的所有格式设置。
 
 ### 编辑、删除或停用图像预设 {#editing-removing-or-deactivating-an-image-preset}
 
@@ -272,11 +272,11 @@ To open the Image Preset screen, on the Global Navigation bar, click **Setup** >
 
    * Click **Edit** and then specify new options in the Edit Preset dialog box.
    * Click **Delete** to remove the preset from the list.
-   * 取消选中预设名称旁边的“活动”复选框，将其从MediaPortal用户的整个Dynamic Media经典用户界面中删除。
+   * 取消选中预设名称旁边的“活动”复选框，将其从MediaPortal用户的整个Dynamic Media Classic用户界面中删除。
 
 ## 激活或停用自适应视频预设 {#activating-or-deactivating-adaptive-video-presets}
 
-Dynamic Media经典优惠自适应视频编码预设。 它是一个将 16:9 自适应视频预设和 4:3 自适应视频预设合并为一组的总预设列表。这些预定义的预设反映了最常用的编码设置，并且经过优化以便在目标移动设备、平板电脑和台式机上播放。
+Dynamic Media Classic优惠自适应视频编码预设。 它是一个将 16:9 自适应视频预设和 4:3 自适应视频预设合并为一组的总预设列表。这些预定义的预设反映了最常用的编码设置，并且经过优化以便在目标移动设备、平板电脑和台式机上播放。
 
 默认情况下，仅激活（启用或“打开”）“自适应视频”编码预设。您可以根据需要将其停用。在“上载作业选项”对话框的 eVideo 部分中，非活动自适应视频预设不会显示为可选择的选项。
 
@@ -294,7 +294,7 @@ Dynamic Media经典优惠自适应视频编码预设。 它是一个将 16:9 自
 
 >[!NOTE]
 >
->除了“自适应视频”（默认启用）以外，在“上载作业选项”对话框中看不到所有其他自适应视频或单个视频编码预设。Dynamic Media经典管理员确定在“上传作业选项”对话框中可以看到哪些视频编码预设。
+>除了“自适应视频”（默认启用）以外，在“上载作业选项”对话框中看不到所有其他自适应视频或单个视频编码预设。Dynamic Media Classic管理员确定在“上传作业选项”对话框中可以看到哪些视频编码预设。
 
 * 从下列自适应视频编码或单个编码预设中进行选择：
 
@@ -322,7 +322,7 @@ Dynamic Media经典优惠自适应视频编码预设。 它是一个将 16:9 自
 
    **单个编码预设**
 
-   >[注��]
+   >[!NOTE]
    >
    >要将视频传送到 iPad，您可以选择“移动设备”编码预设，或“平板电脑”编码预设。平板电脑预设专为 iPad 而设计，通常具有更高的分辨率和质量，以充分利用更大的屏幕尺寸和带宽连接。传送使用平板电脑预设编码的视频文件要求您在移动站点或应用程序上加入设备检测代码。此代码会根据播放设备在 iPhone 或 iPad 视频体验之间切换。更简单的工作流程是选择移动设备预设将视频文件传送到 iPad。原因在于您可以将同一视频文件用于 iPhone 和 iPad。但是，将质量标准化为分辨率更低的 iPhone 体验。
 
@@ -342,7 +342,7 @@ Dynamic Media经典优惠自适应视频编码预设。 它是一个将 16:9 自
 
 **视频比特率(数据速率** )编码以组成一秒钟视频回放的数据量（千比特／秒）。
 
-**像素宽度** /高度屏幕图像的宽度尺寸，以像素为单位； 屏幕图像的高度尺寸（以像素为单位）。
+**像素宽度** /高度屏幕图像的宽度尺寸，以像素为单位；屏幕图像的高度尺寸（以像素为单位）。
 
 **每秒帧数(fps)** 每秒视频的帧数，或静止图像。 在美国和日本，大部分视频以 29.97 fps 拍摄；在欧洲和亚洲（不包括日本），大部分视频以 25 fps 拍摄。电影以 24 fps 拍摄。
 
@@ -440,25 +440,25 @@ Dynamic Media经典优惠自适应视频编码预设。 它是一个将 16:9 自
 
 >[!NOTE]
 >
->**Flash查看器生命周期终止通知** -自2017年1月31日起，AdobeDynamic Media经典正式终止了对Flash查看器平台的支持。 有关此重要更改的更多信息，请参阅以下常见问题解答网站： [https://docs.adobe.com/content/docs/en/aem/6-1/administer/integration/marketing-cloud/scene7/flash-eol.html](https://docs.adobe.com/content/docs/en/aem/6-1/administer/integration/marketing-cloud/scene7/flash-eol.html)。
+>**Flash查看器生命周期终止通知** -自2017年1月31日起，AdobeDynamic Media Classic正式终止对Flash查看器平台的支持。 有关此重要更改的更多信息，请参阅以下常见问题解答网站： [https://docs.adobe.com/content/docs/en/aem/6-1/administer/integration/marketing-cloud/scene7/flash-eol.html](https://docs.adobe.com/content/docs/en/aem/6-1/administer/integration/marketing-cloud/scene7/flash-eol.html)。
 
 *查看器预设*&#x200B;是一组设置，决定了用户如何在其计算机屏幕和移动设备上查看富媒体资源。作为管理员，您可以创建查看器预设。提供适用于一系列查看器配置选项的设置。例如，您可以更改查看器显示尺寸、缩放行为、颜色方案、边框和字体。
 
-作为最佳实践，请使用Dynamic Media经典HTML5视频查看器。 HTML5 视频查看器中使用的预设是功能强大的视频播放器。将使用 HTML5 和 CSS 设计播放组件的功能合并到一个单独播放器中实现了嵌入播放，并可根据浏览器功能选择使用自适应流和渐进式流，从而将富媒体内容的范围扩展到台式机、平板电脑和移动用户并确保视频体验一体化。
+作为最佳实践，请使用Dynamic Media Classic HTML5视频查看器。 HTML5 视频查看器中使用的预设是功能强大的视频播放器。将使用 HTML5 和 CSS 设计播放组件的功能合并到一个单独播放器中实现了嵌入播放，并可根据浏览器功能选择使用自适应流和渐进式流，从而将富媒体内容的范围扩展到台式机、平板电脑和移动用户并确保视频体验一体化。
 
-请参 [阅《Adobe查看器参考指南](hhttps://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/viewers-for-aem-assets-only/c-html5-aem-asset-viewers.html) 》中的“关于HTML5查看器”。
+请参 [阅《Adobe查看器](hhttps://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/viewers-for-aem-assets-only/c-html5-aem-asset-viewers.html) 参考指南》中的“关于HTML5查看器”。
 
-请参 [阅Dynamic Media经典查看器预设兼容性矩阵](application-setup.md#scene7_viewer_preset_compatibility_matrix)。
+请参 [阅Dynamic Media Classic Viewer预设兼容性列表](application-setup.md#scene7_viewer_preset_compatibility_matrix)。
 
 请参阅[最佳做法：使用 HTML5 视频查看器](best-practice-using-html5-video.md#best_practice_using_the_html5_video_viewer)。
 
-您可以根据查看器添加社区功能。社区功能包括“嵌入”按钮、“电子邮件”按钮、“链接”按钮和“访问站点”按钮。通过这些按钮，使用查看器的用户可以与他人共享查看器或打开Dynamic Media经典网站。
+您可以根据查看器添加社区功能。社区功能包括“嵌入”按钮、“电子邮件”按钮、“链接”按钮和“访问站点”按钮。通过这些按钮，使用查看器的用户可以与他人共享查看器或打开Dynamic Media Classic网站。
 
-另请参 [阅Adobe查看器参考库示例](https://landing.adobe.com/zh-Hans/na/dynamic-media/ctir-2755/live-demos.html)。
+另请参阅 [Adobe查看器参考库示例](https://landing.adobe.com/zh-Hans/na/dynamic-media/ctir-2755/live-demos.html)。
 
 ### 用于响应式设计网页的查看器支持 {#viewer-support-for-responsive-designed-web-pages}
 
-不同的网页具有不同的需求。有时，您希望在网页中提供一个链接，以便在单独的浏览器窗口中打开 HTML5 查看器。在其他情况下，可能需要直接在承载页面中嵌入 HTML5 查看器。对于后一种情况，网页可能具有静态的布局。或者，网页也可能是“响应式的”，将针对不同的设备或浏览器窗口大小显示不同的内容。为满足这些需求，Dynamic Media经典附带的HTML5查看器支持静态网页和响应式设计的网页。
+不同的网页具有不同的需求。有时，您希望在网页中提供一个链接，以便在单独的浏览器窗口中打开 HTML5 查看器。在其他情况下，可能需要直接在承载页面中嵌入 HTML5 查看器。对于后一种情况，网页可能具有静态的布局。或者，网页也可能是“响应式的”，将针对不同的设备或浏览器窗口大小显示不同的内容。为了满足这些需求，Dynamic Media Classic附带的HTML5查看器支持静态网页和响应式设计网页。
 
 See [Responsive Static Image library](https://marketing.adobe.com.com/resources/help/en_US/s7/is_ir_api/is_api/c_about_responsive_static_image_library.html)in the *Adobe Image Serving API Help* for more information on how to embed responsive viewers onto your web pages.
 
@@ -474,31 +474,31 @@ See [Responsive Static Image library](https://marketing.adobe.com.com/resources/
 
 **旋转集查看器** -提供图像的多视图，以便用户可以旋转对象以检查不同的侧边和角度。
 
-**视频查看器** -使用源文件的分辨率尺寸或自定义大小显示视频。 Dynamic Media经典随附许多用于播放视频的预定义查看器预设，如果您是管理员，则可以创建自定义视频查看器预设。 有十几种不同的设置可用于配置“视频查看器”。您可以配置其大小、前景和背景颜色、视频和音频控件、进度条、用户界面外观、社交功能和“帮助”。
+**视频查看器** -使用源文件的分辨率尺寸或自定义大小显示视频。 Dynamic Media Classic附带许多用于播放视频的预定义查看器预设，如果您是管理员，则可以创建自定义视频查看器预设。 有十几种不同的设置可用于配置“视频查看器”。您可以配置其大小、前景和背景颜色、视频和音频控件、进度条、用户界面外观、社交功能和“帮助”。
 
 **缩放查看器** 优惠三种缩放查看器：
 
 **缩放查看器** -允许用户通过单击该区域来放大该区域。 用户可以单击控件来放大、缩小图像、并将图像重置为其默认大小。
 
-**缩放查看器： 浮出** “在原始图像旁边显示缩放区域的第二幅图像。 没有控件可以使用，用户只需将选取范围移动到他们要查看的区域上即可。
+**缩放查看器：浮出** “在原始图像旁边显示缩放区域的第二幅图像。 没有控件可以使用，用户只需将选取范围移动到他们要查看的区域上即可。
 
 在确定此查看器的完整带宽使用量时，请考虑在查看器中有主图像和弹出图像。主图像大小（舞台宽度和高度）和缩放系数决定了弹出图像大小。为防止弹出文件大小变得太大，需对这两个值进行平衡：如果您的主图像大小很大，请降低缩放系数值。（弹出宽度和弹出高度决定了弹出窗口的大小，但不决定提供给查看器的弹出图像的大小。）
 
 例如，如果您的主图像大小是 350 X 350 像素，缩放系数为 3，则生成的弹出图像是 1050 X 1050 像素。如果您的主图像大小是 300 X 300 像素，缩放系数为 4，则弹出图像是 1200 X 1200 像素。根据 JPEG 品质设置（推荐的设置介于 80-90），您可以显著地减少文件大小。建议的缩放系数为 2.5 至 4，取决于您的主图像的大小。
 
-### Dynamic Media经典查看器预设兼容性矩阵 {#scene-viewer-preset-compatibility-matrix}
+### Dynamic Media Classic Viewer预设兼容性矩阵 {#scene-viewer-preset-compatibility-matrix}
 
-**Flash查看器生命周期结束通知**: 自2017年1月31日起，AdobeDynamic Media经典正式终止了对Flash查看器平台的支持。
+**Flash查看器生命周期结束通知**:自2017年1月31日起，Adobe动态媒体经典正式终止对Flash查看器平台的支持。
 
 有关此重要更改的更多信息，请参阅以下常见问题解答网站： [https://docs.adobe.com/content/docs/en/aem/6-1/administer/integration/marketing-cloud/scene7/flash-eol.html](https://docs.adobe.com/content/docs/en/aem/6-1/administer/integration/marketing-cloud/scene7/flash-eol.html)。
 
-下表列出了当前可用的Dynamic Media经典查看器预设。 该表还指定了查看器与桌面和移动设备的兼容性，以及对每个指定查看器使用的技术。
+下表标识了当前可用的Dynamic Media Classic查看器预设。 该表还指定了查看器与桌面和移动设备的兼容性，以及对每个指定查看器使用的技术。
 
-另请参 [阅Adobe查看器参考库示例](https://landing.adobe.com/zh-Hans/na/dynamic-media/ctir-2755/live-demos.html)。
+另请参阅 [Adobe查看器参考库示例](https://landing.adobe.com/zh-Hans/na/dynamic-media/ctir-2755/live-demos.html)。
 
 有关查看器支持的 Web 浏览器和操作系统版本的信息，您可以查阅查看器发行说明。
 
-请参 [阅Adobe查看器参考发行说明](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/home.html)。
+请参阅 [Adobe查看器参考发行说明](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/home.html)。
 
 |  | 查看器技术 | 桌面 | Apple iPhone | Apple iPad | Android 智能手机 | Android 平板电脑 |
 |--- |--- |--- |--- |--- |--- |--- |
@@ -537,7 +537,7 @@ See [Responsive Static Image library](https://marketing.adobe.com.com/resources/
 
 **eVideo 查看器**
 
-Dynamic Media经典支持MP4 H.264视频的移动视频播放。
+Dynamic Media Classic支持MP4 H.264视频的移动视频回放。
 
 * 您可以在以下位置找到支持此视频格式的Blackberry设备： [Blackberry上支持的视频格式](https://developer.blackberry.com/devzone/develop/supported_media/bb10_media_support.html)
 * 您还可以在以下位置找到支持此视频格式的Windows设备：Windows Phone[上支持的视频格式](https://docs.microsoft.com/en-us/previous-versions/windows/apps/ff462087(v=vs.105)?redirectedfrom=MSDN)
@@ -626,7 +626,7 @@ Dynamic Media经典支持MP4 H.264视频的移动视频播放。
 1. 在“配置查看器”屏幕的“预设名称”字段中，输入或编辑预设名称。
 1. 设置其余所需的选项。
 
-   >[注��]
+   >[!NOTE]
    >
    >选择“与源相同”，可将“视频查看器”自动调整为编码视频自身的分辨率大小。如果选择该选项，则不能输入“舞台宽度”和“舞台高度”。相反，这些选项来自视频自身。如果您选择“与源相同”，请设置“边距大小”选项，以反映视频播放区域外部的外观尺寸。该边距大小是视频控件的像素高度和宽度。您可以借助以下图示来帮助您确定要使用的边距大小。*
 
@@ -641,7 +641,7 @@ Dynamic Media经典支持MP4 H.264视频的移动视频播放。
 
 您可以导出现有HTML5查看器预设，以用作创建新HTML5查看器预设的基础。 该导出选项很有用，因为您不必从头开始创建查看器。相反，您会导出外观和行为与所需预设接近的预设，然后以此为基础开始进行设计调整。
 
-请注意，Dynamic Media经典中所有默认的现成查看器预设CSS文件都使用指向上的资产的相对图像服务路径 `Scene7SharedAssets`。 例如，以下是位于以下位置的查看器预设CSS文件中图像资产的相对路径 `Scene7SharedAsset`: `.s7videoviewer .s7fullscreenbutton[state][selected] { background-image: url(/is/image/Scene7SharedAssets/FullScreenButton_dark_sprite?scl=1&fmt=png-alpha); }`但是，如果您在自己的站点上承载查看器CSS文件，则必须在自己的环境中使用指向图像服务器的显式路径来解析这些相对图像路径。 为便于说明，如果要将上面的相对路径更新为显式路径，则可能如下所示，其中 `https://s7d1.scene7.com` 是到图像服务器的直接路径： `https://s7d1.scene7.com/is/image/Scene7SharedAssets/FullScreenButton_dark_sprite?scl=1&fmt=png-alpha`
+请注意，Dynamic Media Classic中所有默认的现成查看器预设CSS文件都使用指向上的资产的相对图像服务路径 `Scene7SharedAssets`。 例如，以下是位于以下位置的查看器预设CSS文件中图像资产的相对路径 `Scene7SharedAsset`: `.s7videoviewer .s7fullscreenbutton[state][selected] { background-image: url(/is/image/Scene7SharedAssets/FullScreenButton_dark_sprite?scl=1&fmt=png-alpha); }`但是，如果您在自己的站点上承载查看器CSS文件，则必须在自己的环境中使用指向图像服务器的显式路径来解析这些相对图像路径。 为便于说明，如果要将上面的相对路径更新为显式路径，则可能如下所示，其中 `https://s7d1.scene7.com` 是到图像服务器的直接路径： `https://s7d1.scene7.com/is/image/Scene7SharedAssets/FullScreenButton_dark_sprite?scl=1&fmt=png-alpha`
 
 **导出HTML5查看器预设**
 
@@ -664,11 +664,11 @@ https://s7d1.scene7.com/is/image/Scene7SharedAssets/FullScreenButton_dark_sprite
    导出后，您将获得CSS文件。 下载并解压缩此文件。
 
 1. 在 CSS 编辑器中打开 CSS 文件，进行更改，然后保存该文件。
-1. 将CSS文件上传到Dynamic Media经典。
+1. 将CSS文件上传到Dynamic Media Classic。
 
    请参阅[上载文件](uploading-files.md#uploading_files)。
 
-1. 将CSS文件发布到Dynamic Media图像服务器。
+1. 将CSS文件发布到Dynamic Media Image Server。
 
    请参阅[发布文件](publishing-files.md#publishing_files)。
 
@@ -740,7 +740,7 @@ URL 即复制到剪贴板中。您可以根据需要在网页的 HTML 代码、�
 
 ## 配置默认查看器 {#configuring-default-viewers}
 
-在Dynamic Media经典中使用预览时，您可以使用默认查看器配置与资产关联的默认查看器。 您可以为下列资源类型设置默认预览体验：
+在Dynamic Media Classic中使用预览时，您可以使用默认查看器配置与资产关联的默认查看器。 您可以为下列资源类型设置默认预览体验：
 
 * 图像
 * 视频
@@ -761,9 +761,9 @@ URL 即复制到剪贴板中。您可以根据需要在网页的 HTML 代码、�
 
 ## 元数据视图 {#metadata-views}
 
-*元数据*&#x200B;是关于资源的标准化信息。您可以使用元数据来简化工作流程、组织资源和改进搜索。Dynamic Media经典支持IPTC（国际新闻电信委员会）标准和XMP（可扩展元数据平台）标准。 在用户在详细信息视图中查看或输入有关资源的元数据之前，可以打开“元数据视图”菜单，并选择要查看或用于描述资源的一组元数据字段。
+*元数据*&#x200B;是关于资源的标准化信息。您可以使用元数据来简化工作流程、组织资源和改进搜索。动态媒体经典支持IPTC（国际新闻电信委员会）标准和XMP（可扩展元数据平台）标准。 在用户在详细信息视图中查看或输入有关资源的元数据之前，可以打开“元数据视图”菜单，并选择要查看或用于描述资源的一组元数据字段。
 
-Dynamic Media经典包含预定义的元数据视图，管理员可以创建自己的元数据视图，供用户在输入元数据时进行选择。
+Dynamic Media Classic附带预定义的元数据视图，管理员可以创建自己的元数据视图，供用户在输入元数据时进行选择。
 
 ### 创建元数据视图 {#creating-a-metadata-view}
 
@@ -816,9 +816,9 @@ Dynamic Media经典包含预定义的元数据视图，管理员可以创建自�
 
 ## 用户定义的字段 {#user-defined-fields}
 
-Media Portal 管理员或公司管理员可以创建自定义的、用户定义的元数据字段。自定义字段可以帮助您在Dynamic Media经典中组织资产。 您可以根据需要将字段标记为“活动”。 激活后，这些自定义元数据字段的名称会显示在详细信息视图中的“元数据”面板中。用户可以在用户定义的元数据字段中输入信息以描述资源。用户也可以使用户定义的元数据字段成为搜索条件。
+Media Portal 管理员或公司管理员可以创建自定义的、用户定义的元数据字段。自定义字段可以帮助您在Dynamic Media Classic中组织资产。 您可以根据需要将字段标记为“活动”。 激活后，这些自定义元数据字段的名称会显示在详细信息视图中的“元数据”面板中。用户可以在用户定义的元数据字段中输入信息以描述资源。用户也可以使用户定义的元数据字段成为搜索条件。
 
-高效使用用户定义的元数据字段的一种方式是为特定启动或销售延迟资源的激活时间。您可以根据“日期”类型定义“激活” *字段*。 Then, using the **Metadata** panel in **Detail** view or **File** > **Edit Info**, you can specify when the asset is activated. Dynamic Media经典将检查资产的发布状态和发布历史记录。 如果发布状态不在激活时间内，则显示为“未发布”。
+高效使用用户定义的元数据字段的一种方式是为特定启动或销售延迟资源的激活时间。您可以根据“日期”类型定义“激活” *字段*。 Then, using the **Metadata** panel in **Detail** view or **File** > **Edit Info**, you can specify when the asset is activated. 动态媒体经典会检查资产的发布状态和发布历史记录。 如果发布状态不在激活时间内，则显示为“未发布”。
 
 >[!NOTE]
 >
@@ -852,7 +852,7 @@ Media Portal 管理员或公司管理员可以创建自定义的、用户定义�
 
    **颜色** 颜色的名称。
 
-   **尺寸** 资产的宽度和高度。
+   **Dimension** 资产的宽度和高度。
 
    **无类型** ，以实现向后兼容性。 请勿选择此选项。
 
@@ -880,9 +880,9 @@ Media Portal 管理员或公司管理员可以创建自定义的、用户定义�
 
 ## 优化文件 {#optimize-files}
 
-将文件上传到Dynamic Media经典时，系统将优化这些文件以进行存储和发布。 然而，如果上载过程中断，则无法优化某些图像。在这种情况下，您会看到“尚未优化图像”消息。然而，如果您是管理员，则可以优化这些文件。
+将文件上传到Dynamic Media Classic时，系统将优化这些文件以进行存储和发布。 然而，如果上载过程中断，则无法优化某些图像。在这种情况下，您会看到“尚未优化图像”消息。然而，如果您是管理员，则可以优化这些文件。
 
-Dynamic Media经典可搜索您的文件，并仅优化之前未完全优化过的图像。
+Dynamic Media Classic可搜索您的文件，并仅优化之前未完全优化过的图像。
 
 1. 选择“ **设置** ”>“ **应用程序设置**”，然后选择“**优化文件”**。
 1. Enter information for the optimization job and click **Submit**.
@@ -891,11 +891,11 @@ Dynamic Media经典可搜索您的文件，并仅优化之前未完全优化过�
 
 ## 批量集预设 {#batch-set-presets}
 
-在作业运行时，使用批集预设自动创建图像集或旋转集，从而将资产上传到Dynamic Media经典。
+在作业运行时，使用批集预设自动创建图像集或旋转集，从而将资产上传到Dynamic Media Classic。
 
 公司管理员首先要分为一组的资源定义命名约定。然后，您可以创建批量集预设来引用这些图像。每个预设都是单独命名的、自成体系的指令集，指令集可定义如何使用与预设方法中定义的命名约定匹配的图像构建集。
 
-“上载作业选项”对话框会列出公司的所有活动批量集预设，以便您指定要在每个上载会话期间应用的预设。公司管理员将看到所有活动和非活动的批量集预设。上传文件时，Dynamic Media经典会自动创建一个集，其中包含与活动预设中定义的命名约定相匹配的所有文件。
+“上载作业选项”对话框会列出公司的所有活动批量集预设，以便您指定要在每个上载会话期间应用的预设。公司管理员将看到所有活动和非活动的批量集预设。上传文件时，Dynamic Media Classic会自动创建一个集，其中包含与活动预设中定义的命名规范相匹配的所有文件。
 
 ### 默认命名 {#default-naming}
 
@@ -921,7 +921,7 @@ Dynamic Media经典可搜索您的文件，并仅优化之前未完全优化过�
 
 ### 创建批量集预设 {#creating-a-batch-set-preset}
 
-Dynamic Media经典版使用批量集预设将共享一些常见信息或内容的资产组织成一组图像，以便在查看器中显示。 批集预设菜谱会与您在Dynamic Media经典中计划的资产导入作业一起自动运行。
+Dynamic Media Classic使用批量集预设将共享某些公共信息或内容的资产组织到一组图像中，以供在查看器中显示。 批集预设菜谱会与您在Dynamic Media Classic中计划的资产导入作业一起自动运行。
 
 可以使用“批量集预设”创建、编辑和管理批量集预设。您可以创建所需数量的批量集预设以满足所需的所有资源采纳作业的要求。共有两种形式的批量集预设定义：一种用于您可能已设置的默认命名约定，另一种用于您临时创建的自定义命名约定。
 
@@ -943,8 +943,8 @@ Dynamic Media经典版使用批量集预设将共享一些常见信息或内容�
    * 如果您使用的是之前在“应用程序设置”>“批量集预设”>“默认命名”下设置的默认命名约定，请展开“**资源命名约定**”，然后在“文件命名”下拉列表中，单击“**默认**”。
    * 要在设置预设时定义命名约定，请展开“**资源命名约定**”，然后在“文件命名”下拉列表中，单击“**自定义**”。
 
-1. 对于“序列”顺序，定义在Dynamic Media经典中将图像集组合到一起后图像的顺序。 默认情况下，将按字母数字顺序对您的资源排序。不过，可以使用逗号分隔的正则表达式列表来定义顺序。
-1. 对于设置命名和创建约定，为您在“资源命名约定”中定义的基本名称指定后缀或前缀。还定义在Dynamic Media经典文件夹结构中创建图像集的位置。
+1. 对于“序列顺序”，定义在Dynamic Media Classic中将图像集组合在一起后图像的顺序。 默认情况下，将按字母数字顺序对您的资源排序。不过，可以使用逗号分隔的正则表达式列表来定义顺序。
+1. 对于设置命名和创建约定，为您在“资源命名约定”中定义的基本名称指定后缀或前缀。还可以定义在Dynamic Media Classic文件夹结构中创建图像集的位置。
 
    如果定义大量图像集，您可能要将这些图像集与资源本身所在的文件夹分开。许多客户会创建一个“图像集”文件夹，并让应用程序将批量集生成的集合放在此处。
 
@@ -1017,7 +1017,7 @@ spin-03-12
    >[!NOTE]
    如果行和列正则表达式的组合无法确定资源在多维旋转集数组中的位置，则不会将该资源添加到集中，而会记录错误。
 
-1. 对于设置命名和创建约定，为您在“资源命名约定”中定义的基本名称指定后缀或前缀。还定义在Dynamic Media经典文件夹结构中创建图像集的位置。
+1. 对于设置命名和创建约定，为您在“资源命名约定”中定义的基本名称指定后缀或前缀。还可以定义在Dynamic Media Classic文件夹结构中创建图像集的位置。
 
    如果定义大量图像集，您可能要将这些图像集与资源本身所在的文件夹分开。许多客户会创建一个“图像集”文件夹，并让应用程序将批量集生成的集合放在此处。
 
