@@ -2,17 +2,17 @@
 title: 管理设置
 seo-title: 管理设置
 description: 'null'
-seo-description: 了解如何设置Dynamic Media经典的管理区域。
+seo-description: 了解如何设置Dynamic Media Classic的管理区域。
 uuid: 16ba9fed-b5c6-4991-83b3-8d7d7129013a
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: 3c9ee4ec-dd37-498d-98d6-1339b80177ff
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 1ee586fab6a4e10a946848fd079438ade38490d9
 workflow-type: tm+mt
-source-wordcount: '2213'
-ht-degree: 56%
+source-wordcount: '1945'
+ht-degree: 64%
 
 ---
 
@@ -21,25 +21,25 @@ ht-degree: 56%
 
 # 管理设置{#administration-setup}
 
-“管理设置”屏幕用于管理Dynamic Media经典用户。 使用这些屏幕，用户可以在Dynamic Media经典中工作，并通过电子邮件与用户通信。
+“管理设置”屏幕用于管理Dynamic Media Classic用户。 使用这些屏幕，用户可以在Dynamic Media Classic中工作，并通过电子邮件与用户进行交流。
 
 1. To access Administration Setup options, click **Setup** > **Personal Setup** > **Administration Setup**.
 
 ## 用户管理 {#user-administration}
 
-所有Dynamic Media经典用户都会被分配一个角色，用于确定其权限和对Dynamic Media经典中功能的访问权限。 管理员会为自己负责的公司确定不同角色和职责。
+为所有Dynamic Media Classic用户分配一个角色，决定其权限和对Dynamic Media Classic中功能的访问权限。 管理员会为自己负责的公司确定不同角色和职责。
 
-通常，Dynamic Media经典配置第一组公司并分配公司管理员。 然后，公司管理员设置并管理Dynamic Media经典用户。
+通常，Dynamic Media Classic配置第一组公司并分配公司管理员。 然后，公司管理员设置并管理Dynamic Media Classic用户。
 
-Dynamic Media经典支持多个用户角色。 这些角色可以访问为公司经典设置的Dynamic Media:
+动态媒体经典支持多个用户角色。 这些角色可以访问为Dynamic Media Classic设置的公司:
 
 <!-- **Adobe Dynamic Media Classic Administrator** Can view and administer all features in Dynamic Media Classic, as well as set up companies and add administrators and users. -->
 
-**AdobeDynamic Media经典用户** -可以访问分配给他们的公司; 不能履行任何管理职责。
+**AdobeDynamic Media Classic用户** ，可以访问已分配给他们的公司;不能履行任何管理职责。
 
-**AdobeDynamic Media经典公司管理员** 仅可以视图和管理自己的公司。 公司管理员还可以执行所有管理功能，包括添加管理员和用户。公司管理员可以将用户添加到DMC公司管理员帐户。 （该角色是默认用户角色。）
+**Adobe动态媒体经典公司管理** -只能视图和管理自己的公司。 公司管理员还可以执行所有管理功能，包括添加管理员和用户。公司管理员可以将用户添加到DMC公司管理员帐户。 （该角色是默认用户角色。）
 
-添加用户后，Dynamic Media经典会向用户发送欢迎电子邮件。 该消息包括口令和Dynamic Media经典URL。
+添加用户后，Dynamic Media Classic会向用户发送欢迎电子邮件。 该消息包括口令和Dynamic Media Classic URL。
 
 ### 添加用户或管理员 {#adding-a-user-or-administrator}
 
@@ -53,7 +53,7 @@ Dynamic Media经典支持多个用户角色。 这些角色可以访问为公司
 
 1. 选择“角色”选项，为用户指定一个角色。
 
-   请参 [阅Dynamic Media经典用户角色和权限](administration-setup.md#user_administration)。
+   请参 [阅Dynamic Media Classic用户角色和权限](administration-setup.md#user_administration)。
 
 1. 选择公司名以将用户添加到公司中。
 1. 如果要将用户添加到组中（如果添加的是 Media Portal 用户或参与者），请单击“下一步”并添加用户。
@@ -61,17 +61,17 @@ Dynamic Media经典支持多个用户角色。 这些角色可以访问为公司
 
    保存之后，系统将提示您是否要将用户添加到其他公司。如果要将用户添加到公司中，请单击“添加”。
 
-   所有新用户都会得到一个随机生成的密码； 用户首次登录Dynamic Media经典时，需要更改口令。
+   所有新用户都会得到一个随机生成的密码；用户首次登录Dynamic Media Classic时需要更改口令。
 
    在您添加新用户后，会向他们发送欢迎电子邮件。电子邮件会提供临时密码，并说明如何登录到 Scene7 Publishing System。
 
-   如果用户未收到欢迎电子邮件，请让他们转到Dynamic Media经典登录页(https://s7sps1.scene7.com)，然后单击“忘记我的密码”。 将重置密码并发送新的电子邮件。如果用户未收到电子邮件，并且该电子邮件不在“垃圾邮件”文件夹中，请联系技术支持人员。
+   如果用户未收到欢迎电子邮件，请让他们转到Dynamic Media Classic登录页(https://s7sps1.scene7.com)，然后单击“忘记我的口令”。 将重置密码并发送新的电子邮件。如果用户未收到电子邮件，并且该电子邮件不在“垃圾邮件”文件夹中，请联系技术支持人员。
 
    添加新的 Media Portal 用户时，也可以转到“设置”>“应用程序设置”>“用户管理”，然后单击“上载用户列表”，并选择其中用户数包含不超过 500 个的 .csv 文件。
 
 ### 删除用户 {#deleting-a-user}
 
-您可以通过将用户设置为无效，从Dynamic Media经典中删除用户。 无效用户会从系统和所有帐户中被删除。
+您可以通过将用户设置为无效，从Dynamic Media Classic中删除用户。 无效用户会从系统和所有帐户中被删除。
 
 1. 单击“**设置**”>“**应用程序设置**”>“**管理设置**”>“**用户管理**”。
 1. 从列表中选择一个用户，然后单击“**编辑**”。
@@ -114,36 +114,37 @@ Dynamic Media经典支持多个用户角色。 这些角色可以访问为公司
 
 如果您有许多用户，可以通过选择“最大列表大小”菜单并选择一个数值来限制列表的大小。
 
-### 将IMS用户标识关联到Dynamic Media经典IPS用户帐户 {#linking-an-ims-user-identity-to-a-scene-ips-user-account}
+<!-- CQDOC-16690 TOPIC REMOVED AS PER JIRA TICKET INSTRUCTIONS ### Linking an IMS user identity to a Dynamic Media Classic IPS user account {#linking-an-ims-user-identity-to-a-scene-ips-user-account}
 
-您可以将Adobe IMS用户标识链接到Dynamic Media经典IPS用户帐户，以便使用SSO（单点登录）从Adobe Marketing Cloud中登录和启动Scene7 Publishing System。
+You can link an Adobe IMS user identity to a Dynamic Media Classic IPS user account so you can use SSO (Single Sign On) to log on and launch Scene7 Publishing System from within Adobe Marketing Cloud.
 
-1. Adobe应已经在Adobe Marketing Cloud组织中设置了您的帐户并将其链接到您的Scene7 Publishing System产品上下文。 如果此设置尚未完成或您不确定是否已完成，请与Adobe客户服务部联系。
+1. Adobe should already have setup your account with an Adobe Marketing Cloud organization and linked it to your Scene7 Publishing System product context. If this setup is not yet done or you are unsure if it has been done, contact Adobe Customer Care.
 
-   安装完成后，您可以登录Adobe Marketing Cloud，并通过执行以下操作将Adobe Marketing Cloud身份链接到Dynamic Media经典用户帐户。
+   When the setup is complete, you can can log on to Adobe Marketing Cloud and link your Adobe Marketing Cloud identity to your Dynamic Media Classic user account by doing the following.
 
-1. 在Adobe Marketing Cloud中，导航到帐户设置。
-1. 单击“ **管理组织**”。
-1. 单击 **链接帐户** 或获 **取访问权限**。
-1. 选择 **Experience Manager**，然后键入您的凭据。
+1. In Adobe Marketing Cloud, navigate to your account settings.
+1. Click **Manage Organizations**.
+1. Click **Link Account** or **Get Access**.
+1. Select **Experience Manager**, and then type your credentials.
 
-   您的凭据包括您的IPS公司区域、电子邮件地址和密码。
+   Your credentials include your IPS company region, email address, and password.
 
-1. 单击 **链接**。
-1. 设置链接后，您可以从Adobe Marketing Cloud中启动Scene7 Publishing System，也可以直接启动它。
+1. Click **Link**.
+1. When the link is set, you can launch Scene7 Publishing System from within Adobe Marketing Cloud, or you can launch it directly.
 
-   执行以下任一操作：
+   Do one of the following:
 
-   * 要从Adobe Marketing Cloud中启动Dynamic Media经典，请在Adobe Marketing Cloud的左边栏中，单击 **解决方** > **Experience Manager**。 在Dynamic Media经典卡下，单击“ **启动**”。
-   * 要使用IMS凭据直接登录到Scene7 Publishing System，请使用以下网站：
+    * To launch Dynamic Media Classic from within Adobe Marketing Cloud, in the left rail of Adobe Marketing Cloud, click **Solutions** &gt; **Experience Manager**. Under the Dynamic Media Classic card, click **Launch**.
+    * To log on to Scene7 Publishing System directly using your IMS credentials, use the following website:
 
       https://s7spsN.scene7.com/IpsWeb?ims=1
 
-      将上述路径中的“N”替换为IPS公司区域的编号。 即北美为N=1; 3适用于EMEA; 或5表示JAPAC。
+      Replace “N” in the above path with the number for your IPS company region. That is, N = 1 for North America; 3 for EMEA; or 5 for JAPAC.
+ -->
 
 ## 带宽和存储 {#bandwidth-storage}
 
-Dynamic Media经典管理员可以为所管理的公司生成带宽、存储和其他类型的报告。 这些报告在“带宽与存储”屏幕上。
+Dynamic Media Classic管理员可以为所管理的公司生成带宽、存储和其他类型的报告。 这些报告在“带宽与存储”屏幕上。
 
 要打开该屏幕，请单击“设置”>“个人设置”。展开“管理设置”，然后单击“带宽和存储”。
 
@@ -156,7 +157,7 @@ Dynamic Media经典管理员可以为所管理的公司生成带宽、存储和�
 | 带宽 | 公司的带宽使用情况 | 跟踪公司在特定日期范围内的带宽使用量，以确定流量模式。 |
 | 存储 | 存储使用情况 | 跟踪公司上载的数据量。 |
 | 图像内容 | 按类型划分的图像请求数目 | 跟踪不同图像类型的请求数量和容量。 |
-| 域 | 按域划分的 URL 请求数目 | 根据特定公司的图像请求的域，跟踪图像使用情况。(Dynamic Media经典可以为每个帐户提供多个域。 有关更多信息，请联系技术支持。） |
+| 域 | 按域划分的 URL 请求数目 | 根据特定公司的图像请求的域，跟踪图像使用情况。(Dynamic Media Classic可以为每个帐户提供多个域。 有关更多信息，请联系技术支持。） |
 | 视频流 | 流视频的带宽使用情况 | 跟踪公司在特定日期范围内的流视频使用情况，以确定流量模式。 |
 | 视频内容 | 不同视频的播放时间 | 确定哪些是最常观看和最少观看的视频。 |
 
@@ -193,7 +194,7 @@ Dynamic Media经典管理员可以为所管理的公司生成带宽、存储和�
 
 在“带宽与存储”页面上生成报告后，您可以选择用于查看信息的选项。您可以选择如何显示信息，如何在图表或数据网格中查看信息，以及指定用于捕获信息的时间段。在“数据”视图中，您还可以排序信息并重新排列各个列。
 
-**在图表或数据网格中查看视图** 单击“图表”选项以视图图表中的数据； 单击“视图”选项以视图数据网格中的数据。
+**在图表或数据网格中查看视图** 单击“图表”选项以视图图表中的数据；单击“视图”选项以视图数据网格中的数据。
 
 **选择报表演示文稿类型** 在“报表类型”菜单上，选择“摘要”、“每日”或“每月”，以按天或按月以摘要形式组织数据。 并非所有报告都提供该选项。
 
@@ -217,7 +218,7 @@ Dynamic Media经典管理员可以为所管理的公司生成带宽、存储和�
 
 ## 图像错误 {#image-errors}
 
-Dynamic Media经典管理员可以生成图像错误报告。 “图像错误”报告针对您当前登录的公司，提供了过去 24 小时内 20 个最常见的图像错误。按照以下步骤操作可生成“图像错误”报告：
+Dynamic Media Classic管理员可以生成图像错误报告。 “图像错误”报告针对您当前登录的公司，提供了过去 24 小时内 20 个最常见的图像错误。按照以下步骤操作可生成“图像错误”报告：
 
 1. 单击“设置”>“个人设置”。
 1. 展开“管理设置”，然后单击“图像错误”。
