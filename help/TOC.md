@@ -1,37 +1,37 @@
 ---
 cloud: experience-cloud
-product: dynamic media classic
+product: Adobe Dynamic Media Classic
 audience: end-user
-user-guide-title: Dynamic Media经典帮助
+user-guide-title: Adobe动态媒体经典指南
 index: y
 translation-type: tm+mt
-source-git-commit: 1ed0c74e3d2c94b22daa2fe2ac5c2a051e6768bc
+source-git-commit: 17e152e3768f527a9db2eadb664ca420778372ae
 workflow-type: tm+mt
-source-wordcount: '737'
-ht-degree: 75%
+source-wordcount: '739'
+ht-degree: 74%
 
 ---
 
 
-# Dynamic Media经典帮助 {#using}
+# Adobe动态媒体经典指南 {#using}
 
-+ [Dynamic Media经典文档主页](home.md)
++ [Adobe动态媒体经典指南](home.md)
 + [最佳实践教程](https://docs.adobe.com/content/help/en/experience-manager-learn/dynamic-media-classic-tutorial/overview.html)
-+ [新增Dynamic Media经典登录体验现已推出](new-ui-2020.md)
-+ [Dynamic Media新闻快讯（按体验联盟）](dynamic-media-newsletter.md)
-+ 介绍AdobeDynamic Media经典 {#intro}
-   + [AdobeDynamic Media经典桌面应用程序——现已推出](dynamic-media-classic-desktop-app.md)
-   + [关于Dynamic Media经典帮助](introduction.md)
++ [新增功能Dynamic Media Classic登录体验现已推出](new-ui-2020.md)
++ [按体验联盟列出的动态媒体新闻快讯](dynamic-media-newsletter.md)
++ 介绍Adobe动态媒体经典 {#intro}
+   + [AdobeDynamic Media Classic桌面应用程序——现已推出](dynamic-media-classic-desktop-app.md)
+   + [关于Dynamic Media Classic帮助](introduction.md)
    + [开发人员资源](developer-resources.md)
    + [What’s new](whats-new.md)
    + [系统要求](system-requirements.md)
    + [支持](support.md)
-   + [Dynamic Media经典媒体门户帮助](help-dmc-media-portal.md)
+   + [Dynamic Media Classic Media Portal帮助](help-dmc-media-portal.md)
    + [Adobe 培训服务](training-services.md)
    + [常用资源](popular-resources.md)
    + [培训视频](training-videos.md)
 + 快速入门 {#getting-started}
-   + [AdobeDynamic Media经典平台概述](dmc-platform-overview.md)
+   + [AdobeDynamic Media Classic平台概述](dmc-platform-overview.md)
    + [Media Portal](media-portal.md)
    + [登录和注销](signing-out.md)
    + [导航基础知识](navigation-basics.md)
@@ -45,7 +45,7 @@ ht-degree: 75%
    + [Administration Setup](administration-setup.md)
 + Media Portal {#media-portal}
    + [系统要求](system-requirements-1.md)
-   + [快速开始: 媒体门户](quick-start-media-portal-administration.md)
+   + [快速开始:媒体门户](quick-start-media-portal-administration.md)
    + [Media Portal 用户角色](media-portal-user-roles.md)
    + [Creating and managing Media Portal groups](creating-media-portal-groups.md)
    + [添加和管理 Media Portal 用户](adding-media-portal-users.md)
@@ -70,7 +70,7 @@ ht-degree: 75%
    + [移动、重命名和删除资源](moving-renaming-deleting-assets.md)
    + [使用“详细信息”视图](detail-view.md)
    + [查看、添加和导出元数据](viewing-adding-exporting-metadata.md)
-   + [从Dynamic Media经典导出资源](exporting-assets-from-dmc.md)
+   + [从Dynamic Media Classic导出资源](exporting-assets-from-dmc.md)
    + [与对等客户端实时共享资源更改](sharing-asset-changes-peers-real.md)
    + [打印资源](printing-assets.md)
    + [Managing the Trash folder](trash-folder.md)
@@ -90,7 +90,7 @@ ht-degree: 75%
    + [发布缩放图像](publishing-zoom-images.md)
    + [将缩放查看器链接到网页](linking-zoom-viewers-web-pages.md)
 + eCatalog {#ecatalogs}
-   + [快速开始: 电子目录](quick-start-ecatalog.md)
+   + [快速开始:电子目录](quick-start-ecatalog.md)
    + [上载 PDF 文件](uploading-pdf-files.md)
    + [Creating an eCatalog](creating-ecatalog.md)
    + [Creating eCatalog Image Maps](creating-ecatalog-image-maps.md)
@@ -146,7 +146,7 @@ ht-degree: 75%
    + [发布混合媒体集](publishing-mixed-media-set.md)
    + [将混合媒体集与网页链接](linking-mixed-media-set-web.md)
 + Adobe Analytics instrumentation kit {#analytics-kit}
-   + [快速开始: 将Dynamic Media经典与AdobeAnalytics集成](quick-start-integrating-dmc-analytics.md)
+   + [快速开始:将Dynamic Media Classic与Adobe Analytics集成](quick-start-integrating-dmc-analytics.md)
    + [登录到 Adobe Analytics](log-analytics.md)
    + [配置 Adobe Analytics 报告](configuring-analytics-reports.md)
    + [使用 Adobe Analytics 仪器包实施查看器](instrumenting-viewer-using-analytics-instrumentation.md)
@@ -154,9 +154,9 @@ ht-degree: 75%
    + [查看 Adobe Analytics 报告以测试集成](testing-integration-viewing-analytics-report.md)
    + [启用 Adobe Analytics 视频报告](enabling-analytics-video-reports.md)
    + [发布 Adobe Analytics 配置信息](publishing-analytics-configuration-information.md)
-+ Adobe Target标准版／高级版集成 {#target-classic}
-   + [快速开始: Adobe Target标准版／高级版集成](quick-start-target-integration.md)
-   + [将Dynamic Media经典与Adobe Target标准版／高级版集成](integrating-dmc-with-target.md)
++ Adobe Target标准／高级集成 {#target-classic}
+   + [快速开始:Adobe Target标准／高级集成](quick-start-target-integration.md)
+   + [将Dynamic Media Classic与Adobe Target标准版／高级版集成](integrating-dmc-with-target.md)
    + [Creating an offer set](creating-offer-set.md)
    + [将优惠集推送到Adobe Target标准版／高级版](pushing-offer-sets-target.md)
 + 用户生成的内容 {#user-generated-content}
