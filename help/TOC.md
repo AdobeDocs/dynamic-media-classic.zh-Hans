@@ -3,9 +3,11 @@ cloud: experience-cloud
 product: Adobe Dynamic Media Classic
 audience: end-user
 user-guide-title: Adobe动态媒体经典指南
+breadcrumb-title: Dynamic Media Classic Guide
+user-guide-description: Learn more about using Dynamic Media Classic (formerly known as Scene7)
 index: y
 translation-type: tm+mt
-source-git-commit: 17e152e3768f527a9db2eadb664ca420778372ae
+source-git-commit: 4d2052f1ddb2394a08fbaa5cb3b8b8fd9d5c5217
 workflow-type: tm+mt
 source-wordcount: '739'
 ht-degree: 74%
