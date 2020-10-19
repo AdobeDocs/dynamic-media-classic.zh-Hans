@@ -2,24 +2,24 @@
 title: 发布设置
 seo-title: 发布设置
 description: 'null'
-seo-description: “发布设置”屏幕设置决定资产在默认情况下如何从Dynamic Media经典服务器交付到网站或应用程序。
+seo-description: “发布设置”屏幕设置决定默认情况下如何将资产从Dynamic Media Classic服务器交付到网站或应用程序。
 uuid: 196f25c8-abf5-4c5d-8f6f-bc70007a0301
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: cba59093-28b6-4490-b838-d942b72ad1ec
 translation-type: tm+mt
-source-git-commit: 5622464ae7ae9cd47b7674449c7d1f7897bf4319
+source-git-commit: df88ca77d3f9c40c59d796e6854942b93cef5729
 workflow-type: tm+mt
-source-wordcount: '2409'
-ht-degree: 65%
+source-wordcount: '2421'
+ht-degree: 64%
 
 ---
 
 
 # 发布设置 {#publish-setup}
 
-“发布设置”屏幕设置决定资产在默认情况下如何从Dynamic Media经典服务器交付到网站或应用程序。 如果未指定任何设置，Dynamic Media经典服务器会根据发布设置屏幕上的默认设置传送资产。 例如，传送不含分辨率属性的图像的请求会以“图像服务器”屏幕上的“默认对象分辨率”设置生成图像。
+“发布设置”屏幕设置决定默认情况下如何将资产从Dynamic Media Classic服务器交付到网站或应用程序。 如果未指定任何设置，则Dynamic Media Classic服务器会根据“发布设置”屏幕上的默认设置传送资产。 例如，传送不含分辨率属性的图像的请求会以“图像服务器”屏幕上的“默认对象分辨率”设置生成图像。
 
 管理员可以更改“图像服务器”、“图像渲染器”和“晕影”屏幕上的默认设置，以建立用于从服务器传送资源的默认设置。
 
@@ -27,15 +27,15 @@ ht-degree: 65%
 
 >[!NOTE]
 >
->“发布设置”屏幕可供有经验的网站开发人员和程序员使用。Dynamic Media经典假定在这些屏幕上更改设置的用户熟悉Dynamic Media经典、HTTP协议标准和惯例以及基本的图像技术。
+>“发布设置”屏幕可供有经验的网站开发人员和程序员使用。Dynamic Media Classic假定更改这些屏幕设置的用户熟悉Dynamic Media Classic、HTTP协议标准和惯例以及基本的图像处理技术。
 
 ## 图像服务器 {#image-server}
 
 “图像服务器”屏幕建立用于从图像服务器传送图像的默认设置。设置分为五个类别（有关设置的详细说明，请参阅“图像服务器”屏幕）。
 
-仅在Dynamic Media经典支持人员的帮助下更改这些设置。
+只有在Dynamic Media Classic支持人员的帮助下，才可更改这些设置。
 
-**目录管理** 这些设置决定了Dynamic Media经典与目录的交互方式。 与大多数Web服务器不同，Dynamic Media图像服务器URL调用将转至清单或目录文件，而不是图像文件本身。 目录文件（不要与 eCatalog 混淆）中包含发布到图像服务器的所有内容的列表，以及每个图像的路径。如果您有 Digimarc ID，请在“Digimarc 用户信息”部分中输入您的用户信息。
+**目录管理** 这些设置决定了Dynamic Media Classic与目录的交互方式。 与大多数Web服务器不同，Dynamic Media Image Server URL调用会转到清单或目录文件，而不是图像文件本身。 目录文件（不要与 eCatalog 混淆）中包含发布到图像服务器的所有内容的列表，以及每个图像的路径。如果您有 Digimarc ID，请在“Digimarc 用户信息”部分中输入您的用户信息。
 
 **请求属性** 这些设置对可以从服务器传送的图像施加限制。 例如，“回复 *图像***[!UICONTROL 大小]** ”的最大限 **[!UICONTROL 制为Width]** 5000 **[!UICONTROL 和Height]** 5000。
 
@@ -54,7 +54,7 @@ ht-degree: 65%
 例如，如果您的品牌在多个不同国家/地区销售，您可以确保每个国家/地区都有自己特定区域设置的查看器。要实现该功能，请指定区域设置映射字符串。然后，在查看器预设中编辑工具提示文本，添加所需语言的翻译文本字符串。
 
 >[!NOTE]
-> 要设置本地化支持选项，请与AdobeDynamic Media经典技术支持联系或发送电子邮件至s7support@adobe.com请求设置帮助。
+> 要设置本地化支持选项， [请使用Admin Console创建支持案例。](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) 在您的支持案例中，请求设置帮助。
 
 有关设置“**本地化支持**”的更多信息，请参阅[设置资源本地化时的注意事项](publish-setup.md#considerations_when_setting_up_localization_of_assets)。
 
@@ -62,9 +62,9 @@ ht-degree: 65%
 
 >[!NOTE]
 >
->如果要在Dynamic Media经典（如区域设置映射字段）中设置本地化支持选项，请与AdobeDynamic Media经典技术支持联系。 或者，向 s7support@adobe.com 发送电子邮件寻求设置帮助。
+>如果要在Dynamic Media Classic中设置本地化支持选项（如区域设置映射字段）, [请使用Admin Console创建支持案例。](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) 在您的支持案例中，请求设置帮助。
 
-使用Dynamic Media经典的一种常见方法是管理电子商务网站上的产品图像。 国际企业面临如下挑战：类似产品的资源在各个国家/地区之间存在一些差异。通常，这些差异仅出现在整体媒体的极少部分。通过复制每个国家/地区的所有资源，并仅覆盖其中的差异可以处理此类差异，但这项工作非常艰巨，而且可能会使单个主要资源发生冲突。从包含不同音轨的国家/地区特定视频，到产品所用电源线的细微但重要的差异，此类资源差异可能会持续存在。Dynamic Media经典使用基本的查找机制。 您可以从所需的区域设置开始，定义图像服务器查找资源后缀的顺序。
+使用Dynamic Media Classic的一种常见方法是管理电子商务网站上的产品图像。 国际企业面临如下挑战：类似产品的资源在各个国家/地区之间存在一些差异。通常，这些差异仅出现在整体媒体的极少部分。通过复制每个国家/地区的所有资源，并仅覆盖其中的差异可以处理此类差异，但这项工作非常艰巨，而且可能会使单个主要资源发生冲突。从包含不同音轨的国家/地区特定视频，到产品所用电源线的细微但重要的差异，此类资源差异可能会持续存在。动态媒体经典使用基本的查找机制。 您可以从所需的区域设置开始，定义图像服务器查找资源后缀的顺序。
 
 **如何本地化资源**
 
@@ -100,7 +100,7 @@ Some of the benefits of using `locale=` and `attribute::DefaultLocale` include t
 
 **实施资源本地化**
 
-Dynamic Media经典和图像服务具有一个界面，允许本地化图像和静态内容。
+Dynamic Media Classic和Image Serving的界面允许一本地化图像和静态内容。
 
 当没有本地化版本时，图像服务器 URL 如下所示：
 
@@ -120,7 +120,7 @@ On receipt of the http call by the Image Server, the `locale=` parameter is pars
 
 >[!NOTE]
 >
->当前，仅当通过API设置全局区域设置时，才可能在Dynamic Media经典界面中设置它。
+>当前，仅当通过API设置全局区域设置时，才可能进行全局区域设置，而不能在Dynamic Media Classic界面中进行设置。
 
 **后缀示例**
 
@@ -140,7 +140,7 @@ If an unknown or empty locale parameter is supplied with `locale=`, then the loc
 
 **关于 defaultImage**
 
-图像服务器会为请求的区域设置逐个试用选项。如果找不到匹配项，则会对 defaultImage 应用区域设置选项，并返回匹配版本。因此，每个区域设置都应包含一个图像选项，该选项不带本地化，或者应在Dynamic Media经典中提供本地化的defaultImage版本。
+图像服务器会为请求的区域设置逐个试用选项。如果找不到匹配项，则会对 defaultImage 应用区域设置选项，并返回匹配版本。因此，每个区域设置都应包含一个图像选项，而不使用本地化，或者应在Dynamic Media Classic中提供本地化的defaultImage版本。
 
 **用于查找 localeMap 的方案**
 
@@ -223,7 +223,7 @@ Using the first example as a basis, images for all languages may have the suffix
 
 “图像渲染器”屏幕建立用于从图像渲染服务器传送图像集的默认设置。设置分为五个类别（有关设置的详细说明，请参阅“图像服务器”屏幕）：
 
-**目录管理** 这些设置决定了Dynamic Media经典与目录文件的交互方式。 Dynamic Media经典渲染服务器URL调用到目录，而目录又调用从服务器传送图像。 仅在Dynamic Media经典支持人员的帮助下更改这些设置。
+**目录管理** 这些设置决定了Dynamic Media Classic与目录文件的交互方式。 Dynamic Media Classic Render Server URL调用目录，而目录调用则用于从服务器传送图像。 只有在Dynamic Media Classic支持人员的帮助下，才可更改这些设置。
 
 **会话属性** 这些设置可建立错误参数、相对图像URL的URL以及是否允许对象重叠。
 
