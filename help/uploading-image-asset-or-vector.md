@@ -9,10 +9,10 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: de21dca9-99fe-4183-b647-debfe112fda4
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: df88ca77d3f9c40c59d796e6854942b93cef5729
 workflow-type: tm+mt
-source-wordcount: '1522'
-ht-degree: 86%
+source-wordcount: '1536'
+ht-degree: 84%
 
 ---
 
@@ -23,9 +23,9 @@ ht-degree: 86%
 
 ## 请求共享密钥 {#requesting-a-shared-secret-key}
 
-通过向 Scene 7 技术支持（邮箱为 s7support@adobe.com）发送电子邮件来请求一个&#x200B;*共享密钥*。
+使用 *Admin Console创建*[支持案例，请求共享密钥。](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) 在您的支持情况下，请求共享机密密钥。
 
-在电子邮件中，请提供要用于上载图像资源的公司名称。从Dynamic Media经典收到密钥后，将其保存在本地以供将来使用。
+在电子邮件中，请提供要用于上载图像资源的公司名称。从Dynamic Media Classic收到密钥后，请将其保存在本地以供将来使用。
 
 ## 检索上载令牌 {#retrieving-the-upload-token}
 
