@@ -8,7 +8,7 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_classic
 translation-type: tm+mt
-source-git-commit: e6deebcd9acd2125629f65d1d21171f5ac2ce696
+source-git-commit: bc79edcdb378fab906df851971acd33f8af18105
 workflow-type: tm+mt
 source-wordcount: '1422'
 ht-degree: 0%
@@ -63,8 +63,8 @@ AdobeDynamic Media Classic桌面应用程序与以下操作系统兼容：
 
    GA（一般可用性）版本为20.20.1，具体位置如下：
 
-   * [macOS(.DMG)-下载。](http://download.macromedia.com/dynamic-media-classic/20.20.2/adobe-dynamic-media-classic-20.20.1.dmg)
-   * [Windows(.EXE)-下载。](http://download.macromedia.com/dynamic-media-classic/20.20.2/adobe-dynamic-media-classic-20.20.1.exe)
+   * [macOS(.DMG)-下载。](http://download.macromedia.com/dynamic-media-classic/20.20.1/adobe-dynamic-media-classic-20.20.1.dmg)
+   * [Windows(.EXE)-下载。](http://download.macromedia.com/dynamic-media-classic/20.20.1/adobe-dynamic-media-classic-20.20.1.exe)
 
 
 
