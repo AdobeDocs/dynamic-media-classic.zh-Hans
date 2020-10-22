@@ -8,9 +8,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_classic
 translation-type: tm+mt
-source-git-commit: 477a8fd6ffee00cd586d91f6eeda8e676753a90f
+source-git-commit: 8d226f9b68e8f4d756825b26599bae37e06cf088
 workflow-type: tm+mt
-source-wordcount: '1244'
+source-wordcount: '1422'
 ht-degree: 0%
 
 ---
@@ -34,19 +34,39 @@ AdobeDynamic Media Classic桌面应用程序与以下操作系统兼容：
 * macOS X 10.10或更高版本。
 * Windows 7或更高版本。
 
-## 在macOS或Windows上下载和安装AdobeDynamic Media Classic桌面应用程序 {#installation-dmc-app}
+## 最新版20.20.2中的修复 {#latest-fixes-desktop-app}
+
+* 无限制可通过macOS和Windows桌面应用程序用户界面上传的文件数。
+* 无需注销桌面应用程序即可在公司之间切换。
+* 现在，Ctrl+V在Windows上可进行粘贴操作。
+* 将来，当发布新版本的桌面应用程序时，用户将在桌面应用程序本身中收到通知。
+
+## 在macOS或Windows上下载并安装最新的AdobeDynamic Media Classic桌面应用程序 {#installation-dmc-app}
 
 另请参阅:
 
-* [在macOS上下 *载和静* 默安装AdobeDynamic Media Classic桌面应用程序](#install-silent-mac-dmc-app)
-* [在Windows上下 *载和静* 默安装AdobeDynamic Media Classic桌面应用程序](#install-silent-windows-dmc-app)
+* [下载并静 *默安装* macOS上最新的AdobeDynamic Media Classic桌面应用程序](#install-silent-mac-dmc-app)
+* [下载并静 *默安装* Windows上最新的AdobeDynamic Media Classic桌面应用程序](#install-silent-windows-dmc-app)
 
 1. 在您的系统上卸载任何旧版Dynamic Media Classic桌面应用程序。
 
 1. 下载AdobeDynamic Media Classic桌面应用程序的最新安装程序。
 
-   * [macOS(.DMG)-下载。](http://download.macromedia.com/dynamic-media-classic/20.20.1/adobe-dynamic-media-classic-20.20.1.dmg)
-   * [Windows(.EXE)-下载。](http://download.macromedia.com/dynamic-media-classic/20.20.1/adobe-dynamic-media-classic-20.20.1.exe)
+   >[!NOTE]
+   >
+   >已安装GA版本的用户应先从本 *地* Windows系统卸载它，然后再安装最新版本。 或者，用户只需将 *其本地* macOS系统上已安装的GA版本替换为最新版本。 新用户应直接安装最新版本20.20.2。
+
+   最新版本为20.20.2，可从以下位置获得：
+
+   * [macOS(.DMG)-下载。](http://download.macromedia.com/dynamic-media-classic/20.20.2/adobe-dynamic-media-classic-20.20.2.dmg)
+   * [Windows(.EXE)-下载。](http://download.macromedia.com/dynamic-media-classic/20.20.2/adobe-dynamic-media-classic-20.20.2.exe)
+
+   GA（一般可用性）版本为20.20.1，具体位置如下：
+
+   * [macOS(.DMG)-下载。](http://download.macromedia.com/dynamic-media-classic/20.20.2/adobe-dynamic-media-classic-20.20.1.dmg)
+   * [Windows(.EXE)-下载。](http://download.macromedia.com/dynamic-media-classic/20.20.2/adobe-dynamic-media-classic-20.20.1.exe)
+
+
 
 1. 根据您下载的安装程序执行下列操作之一。
 
@@ -77,24 +97,24 @@ AdobeDynamic Media Classic桌面应用程序与以下操作系统兼容：
 
 1. 登录UI发布后，您会注意到您熟悉的浏览器UI体验。 您现在可以在桌面应用程序UI中像往常一样将日常活动带入您的日常。
 
-## 在macOS上下 *载和静* 默安装AdobeDynamic Media Classic桌面应用程序 {#install-silent-mac-dmc-app}
+## 下载并静 *默安装* macOS上最新的AdobeDynamic Media Classic桌面应用程序 {#install-silent-mac-dmc-app}
 
 另请参阅:
 
-* [在Mac或Windows上下载和安装AdobeDynamic Media Classic桌面应用程序](#installation-dmc-app)
-* [在Windows上下 *载和静* 默安装AdobeDynamic Media Classic桌面应用程序](#install-silent-windows-dmc-app)
+* [在Mac或Windows上下载并安装最新的AdobeDynamic Media Classic桌面应用程序](#installation-dmc-app)
+* [下载并静 *默安装* Windows上最新的AdobeDynamic Media Classic桌面应用程序](#install-silent-windows-dmc-app)
 
-要在macOS上下 *载和静默* 安装AdobeDynamic Media Classic桌面应用程序，请执行以下操作：
+要在macOS上下 *载和静默* 安装最新版AdobeDynamic Media Classic桌面应用程序，请执行以下操作：
 
 1. 在您的系统上卸载任何旧版Dynamic Media Classic桌面应用程序。
 
 1. 下载适用于macOS的AdobeDynamic Media Classic桌面应用程序的最新安装程序。
 
-   * [macOS(.DMG)-下载。](http://download.macromedia.com/dynamic-media-classic/20.20.1/adobe-dynamic-media-classic-20.20.1.dmg)
+   * [macOS(.DMG)-下载。](http://download.macromedia.com/dynamic-media-classic/20.20.1/adobe-dynamic-media-classic-20.20.2.dmg)
 
 1. 使用以下命令将下载的磁盘映像(.DMG)装载到装载点位置：
 
-   `hdiutil attach adobe-dynamic-media-classic-20.20.1.dmg -mountpoint <mount_point_path>`
+   `hdiutil attach adobe-dynamic-media-classic-20.20.2.dmg -mountpoint <mount_point_path>`
 
 1. 使用以下命令将。 **[!UICONTROL APP文]** 件复制到应用程序：
 
@@ -115,34 +135,34 @@ Unmount DMG - hdiutil detach <mount_point_path>`
    | https://s7sps3.scene7.com/ | EMEA（欧洲、中东和非洲）生产 |
    | https://s7sps5.scene7.com/ | 亚太地区生产 |
 
-## 在Windows上下 *载和静* 默安装AdobeDynamic Media Classic桌面应用程序 {#install-silent-windows-dmc-app}
+## 下载并静 *默安装* Windows上最新的AdobeDynamic Media Classic桌面应用程序 {#install-silent-windows-dmc-app}
 
 您使用的命令用于基本的MSI静默安装。 但是，Dynamic Media Classic桌面应用程序安装程序是使用InstallShield创建的InstallScript MSI安装程序。 在记录模式下运行安装程序时，任何用户交互都会记录在响应文件中。 然后，此响应文件用于静默安装，如在静默模 [式下运行安装中所述。](https://docs.flexera.com/installshield19helplib/helplibrary/SilentInstall.htm)
 
 另请参阅:
 
-* [在Mac或Windows上下载和安装AdobeDynamic Media Classic桌面应用程序](#installation-dmc-app)
-* [在Windows上下 *载和静* 默安装AdobeDynamic Media Classic桌面应用程序](#install-silent-windows-dmc-app)
+* [在Mac或Windows上下载并安装最新的AdobeDynamic Media Classic桌面应用程序](#installation-dmc-app)
+* [下载并静 *默安装* Windows上最新的AdobeDynamic Media Classic桌面应用程序](#install-silent-windows-dmc-app)
 
-要在Windows上下 *载和静* 默安装AdobeDynamic Media Classic桌面应用程序，请执行以下操作：
+要在Windows上下 *载和静* 默安装最新版AdobeDynamic Media Classic桌面应用程序，请执行以下操作：
 
 1. 在您的系统上卸载任何旧版Dynamic Media Classic桌面应用程序。
 
 1. 下载AdobeDynamic Media Classic桌面应用程序的最新安装程序。
 
-   * [Windows(.EXE)-下载。](http://download.macromedia.com/dynamic-media-classic/20.20.1/adobe-dynamic-media-classic-20.20.1.exe)
+   * [Windows(.EXE)-下载。](http://download.macromedia.com/dynamic-media-classic/20.20.1/adobe-dynamic-media-classic-20.20.2.exe)
 
 1. 使用以下命令在记录模式下运行安装程序：
 
-   `adobe-dynamic-media-classic-20.20.1.exe /r /f1"C:\Setup.iss"`
+   `adobe-dynamic-media-classic-20.20.2.exe /r /f1"C:\Setup.iss"`
 
 1. 在GUI安装程序窗口中，按照安装步骤进行安装，以便交互／输入（如安装位置）记录在文 `Setup.iss` 件中。
 
-1. 将创建的文 `Setup.iss` 件复制 `adobe-dynamic-media-classic-20.20.1.exe` 到其他计算机。
+1. 将创建的文 `Setup.iss` 件复制 `adobe-dynamic-media-classic-20.20.2.exe` 到其他计算机。
 
 1. 为静默安装运行以下命令：
 
-   `adobe-dynamic-media-classic-20.20.1.exe /s /f1"C:\Setup.iss"`
+   `adobe-dynamic-media-classic-20.20.2.exe /s /f1"C:\Setup.iss"`
 
    有关命令行参数的详细 [信息，请参阅Setup.exe和Update.exe命令行参数。](https://docs.flexera.com/installshield19helplib/helplibrary/IHelpSetup_EXECmdLine.htm)
 
@@ -165,7 +185,7 @@ Unmount DMG - hdiutil detach <mount_point_path>`
 
 观看使 [用Dynamic Media Classic桌面应用程序的视频演练](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/dynamic-media/dynamic-media-classic-desktop-application.html) (长度：2分36秒)。
 
-## Dynamic Media Classic的已知限制
+## Dynamic Media Classic 20.20.1的已知限制（在20.20.2中修复）
 
 **_仅适用于Windows —— 是否对可通过桌面应用程序UI上传的文件数有限制？_**<br>是，通过桌面应用程序UI，一次最多可上传150个文件。
 
