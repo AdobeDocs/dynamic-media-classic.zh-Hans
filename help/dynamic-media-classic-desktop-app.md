@@ -8,9 +8,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_classic
 translation-type: tm+mt
-source-git-commit: 3f79517399e9f242149b66c1b71f6cca26bdb37d
+source-git-commit: e6deebcd9acd2125629f65d1d21171f5ac2ce696
 workflow-type: tm+mt
-source-wordcount: '1423'
+source-wordcount: '1422'
 ht-degree: 0%
 
 ---
@@ -45,7 +45,7 @@ AdobeDynamic Media Classic桌面应用程序与以下操作系统兼容：
 
 另请参阅:
 
-* [在Mac或Windows上下载并安装最新的AdobeDynamic Media Classic桌面应用程序](#installation-dmc-app)
+* [下载并静默安装Mac上最新的AdobeDynamic Media Classic桌面应用程序](#install-silent-mac-dmc-app)
 * [下载并静默安装Windows上最新的AdobeDynamic Media Classic桌面应用程序](#install-silent-windows-dmc-app)
 
 1. 在您的系统上卸载任何旧版Dynamic Media Classic桌面应用程序。
@@ -143,7 +143,7 @@ Unmount DMG - hdiutil detach <mount_point_path>`
 另请参阅:
 
 * [在Mac或Windows上下载并安装最新的AdobeDynamic Media Classic桌面应用程序](#installation-dmc-app)
-* [下载并静默安装Windows上最新的AdobeDynamic Media Classic桌面应用程序](#install-silent-windows-dmc-app)
+* [在macOS上下载并静默安装最新的AdobeDynamic Media Classic桌面应用程序](#install-silent-mac-dmc-app)
 
 要在Windows上下 *载和静* 默安装最新版AdobeDynamic Media Classic桌面应用程序，请执行以下操作：
 
