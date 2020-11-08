@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/video
 discoiquuid: 8bc5e552-2abb-41f0-89d2-bdf3ae5d96c2
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '625'
 ht-degree: 88%
@@ -58,7 +58,7 @@ See [WebVTT: The Web Video Text Tracks format](https://dev.w3.org/html5/webvtt/)
 
 **在视频中添加章节标记**
 
-1. 在Dynamic Media经典之外使用简单的文本编辑器创建视频章节文件。
+1. 使用Dynamic Media Classic外部的简单文本编辑器创建视频章节文件。
 
    >[!NOTE]
    >
@@ -68,23 +68,23 @@ See [WebVTT: The Web Video Text Tracks format](https://dev.w3.org/html5/webvtt/)
 
    通常，您希望使用视频文件名命名章节 VTT 文件，并在后面附加 `chapters`。这有助于使用现有的 Web 内容管理系统自动生成视频 URL。
 
-1. 在Dynamic Media经典中，上传WebVTT章文件。
+1. 在Dynamic Media Classic中，上传您的WebVTT章节文件。
 
    请参阅[上载文件](uploading-files.md#uploading_files)。
 
 1. 在左侧的“资源库”面板中，导航到包含要与上载的章节文件关联的视频文件的资源文件夹。
-1. 在“资源浏览”面板中，选择单个视频资源，然后单击资源缩览图下面的“**预览**”>“**查看器列表**”。
+1. 在“资源浏览”面板中，选择单个视频资源，然后单击资源缩览图下面的“**[!UICONTROL 预览]**”>“**[!UICONTROL 查看器列表]**”。
 1. 在“查看器列表”表中，找到名为 **Univeral_HTML5_Video** 的 HTML5 查看器，然后执行以下操作之一：
 
-   * 针对弹出式视频查看器，请在名称的最右侧单击“**复制 URL**”。
+   * 针对弹出式视频查看器，请在名称的最右侧单击“**[!UICONTROL 复制 URL]**”。
 
       使用下列语法附加该视频的已复制 URL，以便将其与您的题注文件的已复制 URL 相关联：
 
       `&navigation=*<full Copy URL path to the chapter navigation file .vtt>*`
 
-   * 为了针对嵌入视频查看器，请在名称的最右侧单击“**嵌入代码**”。
+   * 为了针对嵌入视频查看器，请在名称的最右侧单击“**[!UICONTROL 嵌入代码]**”。
 
-      在“嵌入代码”对话框中，单击“**复制到剪贴板**”。
+      在“嵌入代码”对话框中，单击“**[!UICONTROL 复制到剪贴板]**”。
 
       For the HTML5 `Universal_HTML5_Video` viewer, append the copied embed code with the following:
 
