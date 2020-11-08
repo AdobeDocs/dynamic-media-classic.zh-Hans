@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: effef4e7-37c5-42e2-9266-ecd026cad628
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '1407'
 ht-degree: 77%
@@ -20,7 +20,7 @@ ht-degree: 77%
 
 # 搜索资源{#searching-assets}
 
-要在Dynamic Media经典中查找文件资产，您可以按类型视图资产，在浏览面板中对资产进行排序，执行简单搜索，执行高级搜索并筛选资产。
+要在Dynamic Media Classic中查找文件资产，您可以按类型视图资产，在浏览面板中对资产进行排序，执行简单搜索，执行高级搜索，以及筛选资产。
 
 >[!NOTE]
 >
@@ -53,7 +53,7 @@ ht-degree: 77%
 
 >[!NOTE]
 >
->Dynamic Media经典跟踪搜索。 要再次运行搜索，请选择“搜索”按钮并从“搜索”菜单底部选择该搜索的名称。
+>Dynamic Media Classic跟踪搜索。 要再次运行搜索，请选择“搜索”按钮并从“搜索”菜单底部选择该搜索的名称。
 
 ## 执行高级搜索 {#conducting-an-advanced-search}
 
@@ -63,7 +63,7 @@ ht-degree: 77%
 
 **按资产类型筛选** 仅通过在菜单中选择资产类型，将搜索范围缩小为一个资产类型。
 
-**文件和文件夹** 选择要搜索的位置： 在所有文件和文件夹中，在选定文件夹中，或在选定的文件夹和子文件夹中。
+**文件和文件夹** 选择要搜索的位置：在所有文件和文件夹中，在选定文件夹中，或在选定的文件夹和子文件夹中。
 
 **所有发布状态** 搜索标记为准备发布、未标记为准备发布的文件，或搜索所有文件。
 
@@ -111,7 +111,7 @@ ht-degree: 77%
 
    **选择元数据** 字段在筛选菜单中选择字段的名称。
 
-   ***注&#x200B;**: 筛选菜单中只显示默认元数据视图中元数据字段的名称。*
+   ***注&#x200B;**:筛选菜单中只显示默认元数据视图中元数据字段的名称。*
 
    请参阅[元数据视图](application-setup.md#metadata_views)。
 
@@ -155,7 +155,7 @@ ht-degree: 77%
 
 **即时发布** 在进行元数据更改时自动推送这些更改，包括新资产、关键字更改等。
 
-**XMP包发布** XMP包。 该数据包不能用于搜索，但可提供最新的 XMP。
+**XMP** Packet发布XMP Packet。 该数据包不能用于搜索，但可提供最新的 XMP。
 
 **关键字** 将您的关键字发布到元数据服务器以用于搜索。
 
