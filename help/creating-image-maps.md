@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
 discoiquuid: 4eddf983-38cb-4f00-b3be-85c20bdd6f69
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '2444'
 ht-degree: 74%
@@ -22,7 +22,7 @@ ht-degree: 74%
 
 图像映射是图像、eCatalog 页面上的区域或旋转集中的图像，显示含文本的变换面板。当用户单击图像映射时，将触发某种操作。例如，将启动网页，供用户了解产品的更多相关信息。为了使用户注意到图像映射，当用户将指针移到图像映射上时，其四周会显示轮廓。
 
-除了在Dynamic Media经典中创建图像映射的功能，或者在Adobe Acrobat或Adobe InDesign中设计目录时也可以创建图像映射。
+除了在Dynamic Media Classic中创建图像映射的功能外，您还可以在Adobe Acrobat或Adobe InDesign设计目录时创建图像映射。
 
 创建图像映射时，您可以执行以下任何操作：
 
@@ -51,9 +51,9 @@ ht-degree: 74%
 
    **多边形映射** 选择“多边形图像映射”工具，并单击要包围的图像区域周长上的点。 使用多边形密度滑块改变多边形中的点密度。如果选择其他映射，将记住原始密度。如果在多边形中添加、删除或移动任何点，将丢失原始密度，同时滑块重置为其最大值。
 
-1. 如果需要，在“图像映射”列表中为图像映射输入名称。在您绘制图像映射后，Dynamic Media经典会为其指定一个名称。
+1. 如果需要，在“图像映射”列表中为图像映射输入名称。绘制图像映射后，Dynamic Media Classic会为其指定一个名称。
 
-   要创建名称，“Dynamic Media经典”会在您所处理的图像或电子目录页面的名称中附加一个顺序编号。 您可以输入您选择的名称。
+   要创建名称，Dynamic Media Classic会在您所处理的图像或电子目录页面的名称中附加一个连续编号。 您可以输入您选择的名称。
 
 1. 如果希望用户在单击图像映射时打开新的网页，请在“图像映射”列表中输入 URL。
 
@@ -80,7 +80,7 @@ ht-degree: 74%
 
 **更改大小和形状** 更改图像映射的形状和大小的方式取决于您使用的是矩形还是多边形图像映射：
 
-***提示&#x200B;**: 您可以拖动屏幕底部的“大小”滑块来更改视图，并更好地查看图像映射。*
+***提示&#x200B;**:您可以拖动屏幕底部的“大小”滑块来更改视图，并更好地查看图像映射。*
 
 **矩形图像映射** 将指针移动到图像映射的一侧或一角上。 当您看见双向箭头图标时，开始拖动。拖动时，按住 Shift 键，以更改大小，但保持高宽比（形状）不变。
 
@@ -140,11 +140,11 @@ Javascript:loadProduct(‘$$’);void(0);
 
 请将在图像映射之间不会发生变化的所有值放在 URL 模板中。仅仅将那些会在 URL 列中发生变化的值添加到“图像映射”列表中。例如：
 
-* URL模板： j `avascript:loadProduct(‘https://www.examplesitehere.com/$$’);void(0);`
+* URL模板：j `avascript:loadProduct(‘https://www.examplesitehere.com/$$’);void(0);`
 * URL值： `product.htm`
 * 生成的实际URL: `javascript:loadProduct(‘https://www.examplesitehere.com/product.html);void(0);`
 
-By default, the URL template includes a proprietary Dynamic Media Classic JavaScript handler called `loadProduct` that opens a new window with the URL destination. 但是，可以使用任何JavaScript代码替换此JavaScript处理程序，或使用以下Dynamic Media经典处理程序之一：
+By default, the URL template includes a proprietary Dynamic Media Classic JavaScript handler called `loadProduct` that opens a new window with the URL destination. 但是，可以使用任何JavaScript代码替换此JavaScript处理程序，或使用以下Dynamic Media Classic处理程序之一：
 
 * `loadProductCW`
 
@@ -154,7 +154,7 @@ By default, the URL template includes a proprietary Dynamic Media Classic JavaSc
 
    在父窗口（打开当前窗口的页面）中显示在 URL 列中指定的 URL 目标。当前窗口仍处于打开状态，但父窗口切换为显示 URL 目标。
 
-   ***注&#x200B;**: 该处理`loadProductPW`函数不支持DHTML和HTML5查看器。*
+   ***注&#x200B;**:该处理 `loadProductPW` 函数不支持DHTML和HTML5查看器。*
 
 ### 创建 URL 模板 {#creating-a-url-template}
 
@@ -194,7 +194,7 @@ By default, the URL template includes a proprietary Dynamic Media Classic JavaSc
 
 在 Adobe Acrobat 或 Adobe InDesign 中设计 eCatalog 时，您可以创建图像映射。
 
-在 Acrobat 或 InDesign 中，创建您希望在其中出现图像映射的超链接引用，然后为图像映射指定 URL 位置。将PDF文件上传到Dynamic Media经典时，选择“提取链接”选项会自动将链接转换为图像映射。
+在 Acrobat 或 InDesign 中，创建您希望在其中出现图像映射的超链接引用，然后为图像映射指定 URL 位置。将PDF文件上传到Dynamic Media Classic时，选择“提取链接”选项会自动将链接转换为图像映射。
 
 有关更多信息，请参阅 InDesign 帮助或 Acrobat 帮助。
 
@@ -204,15 +204,15 @@ By default, the URL template includes a proprietary Dynamic Media Classic JavaSc
 1. 选择要创建图像映射的文本、帧或图形。
 1. 在“超链接”面板中，单击面板菜单中的“新建超链接”。
 1. 在“新建超链接”对话框中，从“链接到”菜单中选择 URL。
-1. 在 URL 框中键入或粘贴产品 ID，然后单击“确定”。(Dynamic Media经典使用图像映射URL模板完成URL。)
+1. 在 URL 框中键入或粘贴产品 ID，然后单击“确定”。（Dynamic Media Classic使用图像映射URL模板完成URL。）
 
    >[!NOTE]
    >
-   >您不需要在 InDesign 中设置外观选项。您可以在Dynamic Media经典中指定外观。
+   >您不需要在 InDesign 中设置外观选项。您可以在Dynamic Media Classic中指定外观。
 
 1. 对于您想要创建的所有图像映射，重复步骤 2 到 5。
 1. 将文件导出为 PDF。
-1. 将PDF上传到Dynamic Media经典，然后从PDF选项中选择“提取链接”。
+1. 将PDF上传到Dynamic Media Classic，然后从PDF选项中选择“提取链接”。
 
 ### 在 Adobe Acrobat 中创建图像映射 {#to-create-image-maps-in-adobe-acrobat}
 
@@ -220,12 +220,12 @@ By default, the URL template includes a proprietary Dynamic Media Classic JavaSc
 1. 拖动以创建图像映射。将打开“创建链接”框。
 1. 选择“自定义链接”，然后单击“下一步”。
 
-   ***注&#x200B;**: 您无需在Acrobat中设置外观选项。 您可以在Dynamic Media经典中指定外观。*
+   ***注&#x200B;**:您无需在Acrobat设置外观选项。 您可以在Dynamic Media Classic中指定外观。*
 
 1. 在“链接属性”框中，单击“动作”。
 1. 从“选择动作”菜单中选择“打开网络链接”，然后单击“添加”。
-1. 在“编辑 URL”框中键入图像映射的产品 ID，然后单击“确定”。(Dynamic Media经典使用图像映射URL模板完成URL。)
+1. 在“编辑 URL”框中键入图像映射的产品 ID，然后单击“确定”。（Dynamic Media Classic使用图像映射URL模板完成URL。）
 1. 对于您想要创建的所有图像映射，重复步骤 1 到 7。
 1. 保存文件。
-1. 将PDF上传到Dynamic Media经典，然后从PDF选项中选择“提取链接”。
+1. 将PDF上传到Dynamic Media Classic，然后从PDF选项中选择“提取链接”。
 
