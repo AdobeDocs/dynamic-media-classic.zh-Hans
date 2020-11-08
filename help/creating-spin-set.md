@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/spin_sets
 discoiquuid: 735b5867-e249-4627-a5a5-25c19c2255bf
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '906'
 ht-degree: 74%
@@ -20,15 +20,15 @@ ht-degree: 74%
 
 # 创建旋转集{#creating-a-spin-set}
 
-要创建有效的旋转集，请确保正确拍摄图像。您可以通过选择“构建”按钮并选择“旋转集”，在Dynamic Media经典中创建旋转集。 在“旋转集”屏幕中编辑旋转集。
+要创建有效的旋转集，请确保正确拍摄图像。您可以在Dynamic Media Classic中通过选择“构建”按钮并选择“旋转集”来创建旋转集。 在“旋转集”屏幕中编辑旋转集。
 
 >[!NOTE]
 >
->Dynamic Media经典的先前版本未优惠二维旋转集。 如果您在Dynamic Media经典的先前版本中创建了旋转集，则不能先以其他名称保存一维旋转集。 在旋转集屏幕中单击另存为，然后输入新名称，以便在Dynamic Media经典中编辑它。
+>先前版本的Dynamic Media Classic未优惠二维旋转集。 如果您在先前版本的Dynamic Media Classic中创建了旋转集，则不能先以其他名称保存一维旋转集。 在旋转集屏幕中单击另存为，然后输入新名称，以便在Dynamic Media Classic中编辑它。
 
 ## 旋转集图像拍摄指南 {#guidelines-for-shooting-spin-set-images}
 
-通常，旋转集中的图像越多，图像的旋转效果越好。不过，在旋转集中加入许多图像会增加图像的加载时间。Dynamic Media经典为拍摄用于旋转集的图像建议以下准则：
+通常，旋转集中的图像越多，图像的旋转效果越好。不过，在旋转集中加入许多图像会增加图像的加载时间。Dynamic Media Classic建议拍摄用于旋转集的图像遵循以下准则：
 
 * 在一维旋转集中至少使用8-12幅图像，在二维旋转集中至少使用16-24幅图像。
 * 请使用无损格式；建议使用 TIFF 和 PNG。
@@ -38,7 +38,7 @@ ht-degree: 74%
 
 ## 创建旋转集 {#create}
 
-请注意，旋转集在Dynamic Media经典中的创作或创建顺序很重要。 根据将图像拖放到“旋转集”页面上的网格中的顺序，旋转集将按特定的方向旋转。因此，旋转集在生成器中显示的顺序就是用户从左向右移动鼠标指针或手指时旋转资源的方式。
+请注意，旋转集在Dynamic Media Classic中的创作或创建顺序很重要。 根据将图像拖放到“旋转集”页面上的网格中的顺序，旋转集将按特定的方向旋转。因此，旋转集在生成器中显示的顺序就是用户从左向右移动鼠标指针或手指时旋转资源的方式。
 
 在创建集时，“**保存后发布**”选项按以下方式影响集和集成员：
 
