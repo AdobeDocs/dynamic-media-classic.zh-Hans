@@ -9,7 +9,7 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: 9bfd95da-3714-4e38-98af-331a04c685f5
 translation-type: tm+mt
-source-git-commit: 38f5cf5264f9775a225d354ed9dc2f6caee236f2
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '376'
 ht-degree: 82%
@@ -26,7 +26,7 @@ ht-degree: 82%
 * 可用于导出作业的 Zip 压缩导出文件的最大文件大小为 1 GB。
 * 每个导出作业最多可以有 500 个总资源。
 
-另请参阅 [从Dynamic Media经典导出资产](exporting-assets-from-dmc.md#exporting-assets-from_dmc)。
+另请参 [阅从Dynamic Media Classic导出资产](exporting-assets-from-dmc.md#exporting-assets-from_dmc)。
 
 **指定 Media Portal 用户可以使用的导出选项**
 
