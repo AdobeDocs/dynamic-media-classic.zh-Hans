@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: 17d0bfd6-fc62-4ed6-8a51-7ac1a6bb96cc
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '1023'
 ht-degree: 98%
@@ -26,7 +26,7 @@ ht-degree: 98%
 
 如果您正在预览带参数图层的模板资源，则可以更改参数或图像预设。因为您所做的更改是嵌入式的，所以可以立即从相同的“预览”窗口查看结果。
 
-另请参 [阅Adobe查看器参考库示例](https://landing.adobe.com/zh-Hans/na/dynamic-media/ctir-2755/live-demos.html)。
+另请参阅 [Adobe查看器参考库示例](https://landing.adobe.com/zh-Hans/na/dynamic-media/ctir-2755/live-demos.html)。
 
 **预览资源**
 
