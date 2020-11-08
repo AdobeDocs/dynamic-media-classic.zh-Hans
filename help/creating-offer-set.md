@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/target_integration
 discoiquuid: 59b6437d-c21e-4929-9291-3032dbb34565
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '1220'
 ht-degree: 57%
@@ -28,11 +28,11 @@ ht-degree: 57%
 
 For templates, click **Add and Preview**, then set the parameters you choose. 其他优惠套餐类型不包括参数，但仍可以单击“**预览**”并更改可用的预设以进行自定义。
 
-Dynamic Media经典优惠工具，用于编辑和创建优惠集。
+Dynamic Media Classic优惠工具，用于编辑和创建优惠集。
 
 >[!NOTE]
 >
->在创建优惠集之前，请确保将要用于该集的所有资产发布到Dynamic Media经典。 请参阅[手动发布资源](publishing-files.md#manually_publishing_assets)和[手动取消发布资源](publishing-files.md#manually_unpublishing_assets)。
+>在创建优惠集之前，请确保发布要用于该集的所有资产，并将其设置为Dynamic Media Classic。 请参阅[手动发布资源](publishing-files.md#manually_publishing_assets)和[手动取消发布资源](publishing-files.md#manually_unpublishing_assets)。
 
 ## 优惠套餐的类型 {#types-of-offer-sets}
 
@@ -40,7 +40,7 @@ Dynamic Media经典优惠工具，用于编辑和创建优惠集。
 
 * **图像**&#x200B;您可以为优惠集组合图像。 每个图像在集合中包含不同的优惠。
 
-* **图像模板**&#x200B;您可以使用“构建”>“模板基础知识”命令在Dynamic Media经典中参数化图像模板。 通过参数，可换出及自定义模板的各组成部分（文本框架中的文本、不同的图像）。对于优惠套餐，举例来说，您可以使用模板参数在优惠套餐中的同一图像上创建变型。有关创建及参数化图像模板的信息，请参阅创建模板参数。
+* **图像模板**&#x200B;您可以使用“构建”>“模板基础知识”命令在Dynamic Media Classic中参数化图像模板。 通过参数，可换出及自定义模板的各组成部分（文本框架中的文本、不同的图像）。对于优惠套餐，举例来说，您可以使用模板参数在优惠套餐中的同一图像上创建变型。有关创建及参数化图像模板的信息，请参阅创建模板参数。
 
 * **视频**&#x200B;您可以为优惠集组合视频。 每个视频是套餐中的一个不同优惠。
 
@@ -75,7 +75,7 @@ Dynamic Media经典优惠工具，用于编辑和创建优惠集。
 1. When you finish, near the lower-right corner of the page, ensure that **Publish after save** is selected (default).
 1. Click **Close**, enter a name for the offer set, and then click **Save**.
 
-在关闭“Test&amp;目标优惠集”页之前，将优惠集推送到“Target Standard/高级”。 请参阅[将优惠套餐推送到 Test&amp;Target](pushing-offer-sets-target.md#pushing_offer_sets_to_target)。
+在关闭“Test&amp;目标优惠集”页之前，请将优惠集推送到Target Standard/Premium。 请参阅[将优惠套餐推送到 Test&amp;Target](pushing-offer-sets-target.md#pushing_offer_sets_to_target)。
 
 ## 使用图像或视频创建优惠套餐 {#creating-an-offer-set-with-images-or-videos}
 
@@ -106,7 +106,7 @@ Dynamic Media经典优惠工具，用于编辑和创建优惠集。
 1. After you finish creating offers for the offer set and choosing Image Presets for different images, ensure that **Publish after save** is selected (default).
 1. 单击“**保存**”，输入优惠套餐的名称，然后单击“**保存**”。
 
-在关闭“Test&amp;目标优惠集”页之前，将优惠集推送到“Target Standard/高级”。 请参阅[将优惠套餐推送到 Test&amp;Target](pushing-offer-sets-target.md#pushing_offer_sets_to_target)。
+在关闭“Test&amp;目标优惠集”页之前，将优惠集推送到Target Standard/Premium。 请参阅[将优惠套餐推送到 Test&amp;Target](pushing-offer-sets-target.md#pushing_offer_sets_to_target)。
 
 ## 编辑优惠套餐 {#editing-an-offer-set}
 
@@ -134,7 +134,7 @@ Dynamic Media经典优惠工具，用于编辑和创建优惠集。
    * **图像和视频**&#x200B;将图像或视频拖动到“Test&amp;目标优惠集”页面。
    >[!NOTE]
    >
-   >您无法删除与某个活动相关联的优惠套餐。要删除与优惠关联的活动集，请先登录到Target Standard/高级，然后删除活动关联。 即使从活动取消关联后，资产也只能从动态媒体经典中删除，这需要登录到Target Standard/高级版，而不能从Target Standard/高级版中。
+   >您无法删除与某个活动相关联的优惠套餐。要删除与优惠关联的活动集，请先登录到Target Standard/Premium，然后删除活动关联。 即使从活动取消关联后，资产也只能从动态媒体经典中删除，这需要登录到Target Standard/Premium，而不能从Target Standard/Premium中。
 
 1. When you finish editing, near the lower-right corner of the page, ensure that **Publish after save** is selected (default).
 1. 单击“**保存**”，选择一个存储文件夹，输入该集的名称，然后单击“**保存**”。
