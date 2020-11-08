@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/swatch_sets
 discoiquuid: 1ea70fdf-3cbd-409c-ae7d-06286c99c6ac
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '390'
 ht-degree: 64%
@@ -20,17 +20,17 @@ ht-degree: 64%
 
 # 快速入门：样本集{#quick-start-swatch-sets}
 
-Dynamic Media经典样本集为用户提供集成的查看体验。 在动态的样本集查看器中，只需单击缩略图，用户即可看到以不同颜色、材质、纹理、光泽度或织物渲染的项目。
+动态媒体经典样本集为用户提供集成的查看体验。 在动态的样本集查看器中，只需单击缩略图，用户即可看到以不同颜色、材质、纹理、光泽度或织物渲染的项目。
 
 **快速开始**
 
-此样本集快速开始旨在借助Dynamic Media经典中的样本集技术快速设置并运行。
+此样本集快速开始旨在借助Dynamic Media Classic中的样本集技术快速设置并运行。
 
 **1. 上载图像和样本文件**
 
 首先为样本集上载图像和样本文件。
 
-单击全局导航栏上的“上传”，将文件从计算机上传到Dynamic Media经典上的文件夹。 请参阅[准备要上载的样本集资源](preparing-swatch-set-assets-upload.md#preparing-swatch-set-assets-for-upload)和[上载文件](uploading-files.md#uploading-your-files)。
+单击全局导航栏上的上传，将文件从计算机上传到Dynamic Media Classic上的文件夹。 请参阅[准备要上载的样本集资源](preparing-swatch-set-assets-upload.md#preparing-swatch-set-assets-for-upload)和[上载文件](uploading-files.md#uploading-your-files)。
 
 **2. 创建样本集**
 
@@ -38,7 +38,7 @@ Dynamic Media经典样本集为用户提供集成的查看体验。 在动态的
 
 **3. 设置样本集查看器预设**
 
-管理员可以创建或修改图像集查看器预设。Dynamic Media经典随附每种富媒体类型的默认查看器预设。 使用“缩放查看器: 自定义 > 图像集/颜色样本”预设查看您的样本集。
+管理员可以创建或修改图像集查看器预设。Dynamic Media Classic随附每种富媒体类型的默认查看器预设。 使用“缩放查看器: 自定义 > 图像集/颜色样本”预设查看您的样本集。
 
 请参阅[创建和编辑查看器预设](application-setup.md#adding-and-editing-viewer-presets)。
 
@@ -50,7 +50,7 @@ Dynamic Media经典样本集为用户提供集成的查看体验。 在动态的
 
 **5. 发布样本集**
 
-发布样本集会将其放置在Dynamic Media经典服务器上并激活URL字符串。
+发布样本集会将其放置在Dynamic Media Classic服务器上，并激活URL字符串。
 
 Click the **Mark For Publish** icon to the left of its name in the Browse Panel. Then, click **Publish**. On the Publish screen, click **Start Publish**.
 
@@ -58,6 +58,6 @@ Click the **Mark For Publish** icon to the left of its name in the Browse Panel.
 
 **6. 将样本集链接至网页**
 
-Dynamic Media经典为样本集创建URL调用，并在发布后将其激活。 可以从“预览”屏幕复制这些 URL。
+Dynamic Media Classic为样本集创建URL调用，并在发布后将其激活。 可以从“预览”屏幕复制这些 URL。
 
 选择“样本集”，然后选择“预览”按钮。“预览”屏幕随即打开。选择一个样本集查看器预设，然后选择“复制 URL”按钮。请参阅[将样本集链接至网页](linking-swatch-set-web-page.md#linking-a-swatch-set-to-a-web-page)。
