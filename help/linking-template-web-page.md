@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/template_basics
 discoiquuid: 989dba07-448a-45b1-b157-af50abb5359a
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '340'
 ht-degree: 70%
@@ -20,9 +20,9 @@ ht-degree: 70%
 
 # 将模板链接到网页{#linking-a-template-to-a-web-page}
 
-您的网站和应用程序通过URL字符串访问Dynamic Media图像服务器内容。 发布模板后，Dynamic Media经典将激活引用Dynamic Media图像服务器上模板的URL字符串。 可以将该 URL 粘贴到 Web 浏览器中进行测试。
+您的网站和应用程序通过URL字符串访问Dynamic Media Image Server内容。 发布模板后，Dynamic Media Classic会激活引用Dynamic Media Image Server上的模板的URL字符串。 可以将该 URL 粘贴到 Web 浏览器中进行测试。
 
-要将URL字符串放置到网页和应用程序中，请从Dynamic Media经典中复制这些字符串。 要获取使用图像预设生成的模板 URL 字符串，请转至“预览”屏幕或浏览面板（在“细节”视图中）。然后选择“图像预设”并选择“复制 URL”按钮。
+要将URL字符串放置到网页和应用程序中，请从Dynamic Media Classic复制这些字符串。 要获取使用图像预设生成的模板 URL 字符串，请转至“预览”屏幕或浏览面板（在“细节”视图中）。然后选择“图像预设”并选择“复制 URL”按钮。
 
 >[!NOTE]
 >
