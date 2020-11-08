@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/support_files
 discoiquuid: 44f1b4c4-6d7f-4e0f-84ce-11d26745e0f0
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '444'
 ht-degree: 71%
@@ -22,13 +22,13 @@ ht-degree: 71%
 
 ICC （国际色彩联盟）配置文件是描述如何正确地将图像文件从一个颜色空间转换到另一个颜色空间的文件。ICC 配置文件有助于为图像获取正确的颜色。例如，到正确地显示用于在计算机显示器上打印的图像，可以选择 ICC 配置文件。该配置文件将图像转换到不同的颜色空间并确保颜色正确地联机显示。
 
-在Dynamic Media经典中，您可以选择ICC用户档案，在上传图像时将图像转换为不同的色彩空间。 默认情况下，所有标准Photoshop ICC用户档案均可用于Dynamic Media经典。 要在“上载”屏幕中查看颜色配置文件的名称，请选择“颜色配置文件”菜单。然后选择“自定义从>到”，再从“转换至”和“转换到”菜单中选择 ICC 配置文件的名称。请参阅[上载时的图像编辑选项](image-editing-options-upload.md#image-editing-options-at-upload)。
+在Dynamic Media Classic中，您可以选择ICC用户档案，在上传图像时将图像转换为不同的色彩空间。 默认情况下，所有标准PhotoshopICC用户档案均在Dynamic Media Classic上可用。 要在“上载”屏幕中查看颜色配置文件的名称，请选择“颜色配置文件”菜单。然后选择“自定义从>到”，再从“转换至”和“转换到”菜单中选择 ICC 配置文件的名称。请参阅[上载时的图像编辑选项](image-editing-options-upload.md#image-editing-options-at-upload)。
 
-除了使用默认的ICC用户档案，您还可以将其他ICC用户档案上传到Dynamic Media经典，并使其可用于色彩空间转换。 在浏览面板中切换到详细信息视图，以便调查 ICC 配置文件的配置文件类、颜色空间类型和 PCS 类型。
+除了使用默认的ICC用户档案，您还可以将其他ICC用户档案上传到Dynamic Media Classic，并使其可用于色彩空间转换。 在浏览面板中切换到详细信息视图，以便调查 ICC 配置文件的配置文件类、颜色空间类型和 PCS 类型。
 
 ## 上载 ICC 配置文件 {#uploading-icc-profiles}
 
-通过与上载文件时所使用的技术相同的技术上载 ICC 配置文件。您可以将ICC用户档案存储在任何Dynamic Media经典文件夹中。 请参阅[上载文件](uploading-files.md#uploading_your_files)。
+通过与上载文件时所使用的技术相同的技术上载 ICC 配置文件。您可以将ICC用户档案存储在任何Dynamic Media Classic文件夹中。 请参阅[上载文件](uploading-files.md#uploading_your_files)。
 
 ## 检查 ICC 配置文件 {#examining-an-icc-profile}
 
