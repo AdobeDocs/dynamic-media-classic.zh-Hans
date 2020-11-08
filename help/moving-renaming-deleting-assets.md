@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: 1c9e29f0-3083-4d22-a439-2a01faf59683
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '573'
 ht-degree: 66%
@@ -40,7 +40,7 @@ ht-degree: 66%
    * 选择名称，键入新名称，然后按下 Enter 或单击名称以外的区域。
    * 选择“文件”>“重命名”。资源的名称被高亮显示。输入一个新名称并按 Enter。
 
-请确保不要输入现有Dynamic Media经典资产的名称。
+请确保不要输入现有Dynamic Media Classic资产的名称。
 
 ## 删除资源 {#delete-assets}
 
@@ -61,13 +61,13 @@ ht-degree: 66%
 
 >[!NOTE]
 >
->Dynamic Media经典建议，如果您删除资产文件的原因是要用同名的资产文件替换它，则应覆盖资产文件，而不要删除它们。
+>如果删除资产文件的原因是使用同名的资产文件替换资产文件，则动态媒体经典建议覆盖资产文件，而不是删除它们。
 
 ## 使用文本文件删除多个资源 {#delete-multiple-assets-with-a-text-file}
 
-要在整个资产库中同时删除多个资产，您可以在文本文件中列表要删除的资产，并将列表提交给Dynamic Media经典。
+要在整个资产库中同时删除多个资产，您可以列表要在文本文件中删除的资产，并将列表提交到Dynamic Media Classic。
 
-创建Dynamic Media经典ID的列表，并将其另存为文本(.txt)文件。 每个Dynamic Media经典ID都必须在其自己的行中（后跟硬返回）。
+创建Dynamic Media Classic ID的列表，并将其另存为文本(.txt)文件。 每个Dynamic Media Classic ID都必须在其自己的行中（后跟硬返回）。
 
 在创建列表之后，请执行以下步骤，以使用列表来删除资源：
 
@@ -75,7 +75,7 @@ ht-degree: 66%
 1. 在“删除资源列表”对话框中，浏览或键入包含要删除的资源列表的文本文件路径。
 1. 单击“删除”按钮。
 
-当您使用文本文件删除资产时，如果Dynamic Media经典ID未在列表上，则会显示一条消息，告知您Dynamic Media经典是“无法在您的列表验证这些条目：”，以及条目的列表。 但是，Dynamic Media经典不会在作业屏幕上生成错误。
+当您使用文本文件删除资产时，如果列表中没有任何Dynamic Media Classic ID，则会显示一条消息，告知您Dynamic Media Classic是“无法在列表验证这些条目：”，并显示条目的列表。 但是，Dynamic Media Classic不会在作业屏幕上生成错误。
 
 >[!MORELIKETHIS]
 >
