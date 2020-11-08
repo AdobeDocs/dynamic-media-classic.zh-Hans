@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/swatch_sets
 discoiquuid: 0edab47b-531c-41a9-89c3-2e179c4f9fa4
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '688'
 ht-degree: 94%
@@ -49,7 +49,7 @@ ht-degree: 94%
 
 部署样本集的最常用方式是将一个链接（通过导航图标）放在网页中。单击后，链接会启动可在弹出式缩放窗口中显示样本集的动态页面（ASP 或 JSP）。缩放链接会打开一个弹出窗口，其中包含实际的缩放功能。
 
-有关其他详细信息和代码示例，请 [参阅《Adobe查看器参考指南》中的“嵌入HTML5缩放查看器”](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/zoom/c-html5-20-zoom-viewer-about.html)。
+有关其他详细信息和代码示例，请参 [阅《Adobe查看器参考指南》中的“嵌入HTML5缩放查看器”](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/zoom/c-html5-20-zoom-viewer-about.html)。
 
 ## 复制样本集查看器的嵌入代码 {#copying-the-embed-code-of-a-swatch-set-viewer}
 
