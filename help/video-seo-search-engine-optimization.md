@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/setup
 discoiquuid: 34ecd868-775f-452b-b26e-d139f0e280ae
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '984'
 ht-degree: 66%
@@ -22,7 +22,7 @@ ht-degree: 66%
 
 SEO 是改进从搜索引擎到网站流量的过程。虽然搜索引擎擅长收集有关基于文本的内容，但却无法充分获取有关视频的信息，除非向它们提供此信息。
 
-使用Dynamic Media经典视频SEO，您可以利用视频元数据为搜索引擎提供视频描述。 Dynamic Media经典提供了创建视频站点地图和mRSS源的功能。 以下是用于将视频信息提交给搜索引擎的标准 XML 文件：
+使用Dynamic Media Classic Video SEO，您可以利用视频元数据为搜索引擎提供视频描述。 Dynamic Media Classic提供创建视频站点地图和mRSS源的功能。 以下是用于将视频信息提交给搜索引擎的标准 XML 文件：
 
 **视频站点地图** -准确告知Google视频内容在站点上的位置和内容。 因此，在 Google 上视频是完全可搜索的。例如，视频站点地图可以指定视频的运行时间和类别。有关视频站点地图的信息，请参阅https://www.google.com/support/webmasters/bin/answer.py?answer=80471。
 
@@ -32,17 +32,17 @@ SEO 是改进从搜索引擎到网站流量的过程。虽然搜索引擎擅长�
 >
 >Google 支持使用视频站点地图和 mRSS 新闻频道协议将信息提交给搜索引擎。
 
-Dynamic Media经典可以根据每个视频存储的元数据生成视频站点地图和mRSS源。 您创建视频站点地图和 mRSS 新闻频道时，要决定要包括视频文件的哪些元数据字段。这样，您会向搜索引擎描述您的视频，以便搜索引擎可以更准确地将流量引导到网站上的视频
+Dynamic Media Classic可以根据每个视频所存储的元数据生成视频站点地图和mRSS源。 您创建视频站点地图和 mRSS 新闻频道时，要决定要包括视频文件的哪些元数据字段。这样，您会向搜索引擎描述您的视频，以便搜索引擎可以更准确地将流量引导到网站上的视频
 
 >[!NOTE]
 >
 >在创建视频站点地图或 mRSS 新闻频道之前，要了解搜索引擎在 XML 文件中需要哪些字段，以及如何构建这些字段。要创建成功的视频站点地图或 mRSS 新闻频道，必须满足搜索引擎的要求。
 
-Dynamic Media经典在您生成视频站点地图和mRSS源后会创建相关报告。 这些报告可从“视频 SEO 报告”屏幕获得。
+Dynamic Media Classic在生成视频站点地图和mRSS源后创建有关它们的报告。 这些报告可从“视频 SEO 报告”屏幕获得。
 
 >[!NOTE]
 >
->对于视频站点地图和mRSS源，Dynamic Media经典仅从标记为发布的视频捕获元数据。 请将视频标记为发布，以将其元数据加入视频站点地图和 mRSS 新闻频道中。
+>对于视频站点地图和mRSS源，Dynamic Media Classic仅从标记为发布的视频捕获元数据。 请将视频标记为发布，以将其元数据加入视频站点地图和 mRSS 新闻频道中。
 
 ## Choosing video SEO settings {#choosing-video-seo-settings}
 
@@ -66,9 +66,9 @@ Dynamic Media经典在您生成视频站点地图和mRSS源后会创建相关报
 
 在“自动/手动模式”下拉列表中，选择是自动生成，还是手动生成：
 
-**自动模式** Dynamic Media经典每天自动生成一个视频站点地图、媒体RSS(mRSS)源或两者。 选择“标记为发布”选项，以自动标记为发布Dynamic Media经典生成的XML文件。
+**自动模式** Dynamic Media Classic每天自动生成一个视频站点地图、媒体RSS(mRSS)源或两个源。 选择“标记为发布”选项，以自动标记为发布Dynamic Media Classic生成的XML文件。
 
-**手动模式** Dynamic Media经典在单击“视频搜索优化设置”屏幕中的“生成”或“保存并生成”时，会生成视频站点地图、媒体RSS(mRSS)服务或两者。 还要选择以下选项：
+**手动模式** Dynamic Media Classic在单击“视频搜索优化设置”屏幕中的“生成”或“保存并生成”时，会生成视频站点地图、媒体RSS(mRSS)服务或两者。 还要选择以下选项：
 
 **无其他设置** ：不标记为发布生成的XML文件。
 
@@ -78,7 +78,7 @@ Dynamic Media经典在您生成视频站点地图和mRSS源后会创建相关报
 
 ### 选择生成设置 {#choosing-generation-settings}
 
-“生成设置”区域会列出视频站点地图和/或 mRSS 新闻频道的输入字段，并在“元数据”面板中列出元数据字段的名称。使用“常规设置”区域来将输入字段映射到元数据字段。这样，您就告诉Dynamic Media经典，从何处获取视频站点地图和／或mRSS源的元数据。
+“生成设置”区域会列出视频站点地图和/或 mRSS 新闻频道的输入字段，并在“元数据”面板中列出元数据字段的名称。使用“常规设置”区域来将输入字段映射到元数据字段。这样，您就告诉Dynamic Media Classic从何处获取视频站点地图和／或mRSS源的元数据。
 
 1. 在“元数据视图”菜单上，选择一个元数据视图。您选择一个视图后，元数据字段的名称会显示在“元数据”面板中。（有关元数据视图的信息，请参阅[元数据视图](application-setup.md#metadata_views)。）
 1. 将元数据字段名称从“元数据”面板拖动到“登陆页面”、“标题”、“说明”、“标签”以及“类别”输入字段。“登陆页面”、“标题”、“说明”字段是必填的。
