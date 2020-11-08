@@ -2,7 +2,7 @@
 title: 使用 PDF
 seo-title: 使用 PDF
 description: 'null'
-seo-description: 了解如何在Dynamic Media经典中使用PDF。
+seo-description: 了解如何在Dynamic Media Classic中使用PDF。
 uuid: 26d70d28-9393-49b1-9051-d70456deca67
 contentOwner: admin
 content-type: reference
@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
 discoiquuid: 5a073de3-6b1d-4c3e-8c03-9182f9f3874a
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '674'
 ht-degree: 56%
@@ -20,7 +20,7 @@ ht-degree: 56%
 
 # 使用 PDF{#working-with-pdfs}
 
-PDF(可移植文档格式)文件最常用于Dynamic Media经典中创建电子目录。 当您上传PDF文件、Dynamic Media经典栅格化或翻页时，默认情况下，这些页面可用于构建富媒体。
+PDF(可移植文档格式)文件在Dynamic Media Classic中最常用于创建电子目录。 当您上传PDF文件、Dynamic Media Classic栅格化或翻页时，默认情况下，这些页面可用于构建富媒体。
 
 ## PDF 上载选项 {#pdf-upload-options}
 
@@ -64,7 +64,7 @@ PDF(可移植文档格式)文件最常用于Dynamic Media经典中创建电子�
 
 **保留原始色彩空间** ，保留原始色彩空间。
 
-**“自定义自”>“至** ”打开菜单，因此您可以选择“转换自”和“转换至色彩空间”。 您可以选择标准Photoshop色彩空间或上传到Dynamic Media经典的色彩空间。
+**“自定义自”>“至** ”打开菜单，因此您可以选择“转换自”和“转换至色彩空间”。 您可以选择标准的Photoshop色彩空间或上传到Dynamic Media Classic的色彩空间。
 
 请参阅[ICC 配置文件](icc-profiles.md#icc_profiles)。
 
@@ -83,7 +83,7 @@ PDF(可移植文档格式)文件最常用于Dynamic Media经典中创建电子�
 
    **基于颜色的修剪** 指定0仅当像素与您在PDF角中选择的颜色完全匹配时，才可裁剪像素。 数字越接近 1，允许的色差越大。
 
-   **基于透明度的修剪** 指定0可仅在像素完全透明时裁剪像素； 接近1的数字意味着更加透明。
+   **基于透明度的修剪** 指定0可仅在像素完全透明时裁剪像素；接近1的数字意味着更加透明。
 
 ## 从 PDF 页边裁切 {#cropping-from-the-sides-of-pdf-pages}
 
