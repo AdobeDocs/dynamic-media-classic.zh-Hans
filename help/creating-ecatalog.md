@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
 discoiquuid: 28889c60-596a-40d2-85d4-f48a4f86b932
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '1005'
 ht-degree: 78%
@@ -95,7 +95,7 @@ ht-degree: 78%
 
 ## 自定义目录 (TOC) {#customizing-the-table-of-contents-toc}
 
-Dynamic Media经典在电子目录屏幕的“订单页面”选项卡上提供电子目录中的默认页码。 要自定义页面名称，可以更改构成目录 (TOC) 的页标签。推荐重命名封面和封底。例如，封面可以阅读“封面”而不是“第0-1页”。
+Dynamic Media Classic在电子目录屏幕的“订单页面”选项卡上提供电子目录中的默认页码。 要自定义页面名称，可以更改构成目录 (TOC) 的页标签。推荐重命名封面和封底。例如，封面可以阅读“封面”而不是“第0-1页”。
 
 可以采用手动方式或通过从 CSV（仅 Mac）或 XML 文件导入页面名称来为 eCatalog 创建自定义目录 (TOC)。
 
@@ -111,7 +111,7 @@ Dynamic Media经典在电子目录屏幕的“订单页面”选项卡上提供�
 
 如果处理包含很多页面的 eCatalog，则推荐使用导入页面名称的方法。可以从制表符分隔的文件或 XML 文件导入名称。
 
-目录标签存储在图像的“用户数据”字段中； 将此数据格式化为列表 `name=<value>`` pairs separated by two question marks “??” `。 例如，要为名为tocEN &quot;的目录字段设置一个标签，请将图像的用户数据设置为：
+目录标签存储在图像的“用户数据”字段中；将此数据格式化为列表 `name=<value>`` pairs separated by two question marks “??” `。 例如，要为名为tocEN &quot;的目录字段设置一个标签，请将图像的用户数据设置为：
 
 tocEN=&lt;EN_page_label>
 
