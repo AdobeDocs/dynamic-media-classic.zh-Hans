@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
 discoiquuid: 4086e3db-5aca-41a0-8f15-302afbf67ddb
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '1030'
 ht-degree: 64%
@@ -20,9 +20,9 @@ ht-degree: 64%
 
 # 使用 PSD 文件{#working-with-psd-files}
 
-PSD(Photoshop文档文件)最常用于Dynamic Media经典中创建模板。 上传PSD文件时，可以从文件自动创建Dynamic Media经典模板（在“上传”屏幕上选择“创建模板”选项）。
+PSD(Photoshop文档文件)在Dynamic Media Classic中最常用于创建模板。 上传PSD文件时，可以自动从文件创建Dynamic Media Classic模板（在“上传”屏幕上选择“创建模板”选项）。
 
-Dynamic Media经典(Classic)在PSD文件中创建多幅图像时，如果使用该文件创建模板，则会使用图层； 它为每个图层创建一个图像。
+如果您使用PSD文件创建模板，Dynamic Media Classic会通过图层从PSD文件创建多个图像；它为每个图层创建一个图像。
 
 ## PSD 上载选项 {#psd-upload-options}
 
@@ -50,7 +50,7 @@ Dynamic Media经典(Classic)在PSD文件中创建多幅图像时，如果使用�
 
 **保留原始色彩空间** 保留图像的原始色彩空间。
 
-**“自定义自”>“至** ”打开菜单，因此您可以选择“转换自”和“转换至色彩空间”。 您可以选择标准Photoshop色彩空间或上传到Dynamic Media经典的色彩空间。 请参阅ICC 配置文件。
+**“自定义自”>“至** ”打开菜单，因此您可以选择“转换自”和“转换至色彩空间”。 您可以选择标准的Photoshop色彩空间或上传到Dynamic Media Classic的色彩空间。 请参阅ICC 配置文件。
 
 **维护图层** 将PSD中的图层（如果有）拆分为单个资源。 资源图层仍然与 PSD 关联。查看方法是，在详细信息视图中打开 PSD 文件，然后选择图层面板。请参阅查看和编辑 PSD 文件中的图层。
 
@@ -60,11 +60,11 @@ Dynamic Media经典(Classic)在PSD文件中创建多幅图像时，如果使用�
 
 **将图层扩展到背景大小** 将已撕开的图像图层的大小扩展到背景图层的大小。
 
-**PSD文件中** 的“图层命名图层”作为单独的图像上传。 选择一个选项以Dynamic Media经典命名这些图像：
+**PSD文件中** 的“图层命名图层”作为单独的图像上传。 在Dynamic Media Classic中选择一个选项来命名这些图像：
 
 **图层名称** 在PSD文件中将图像命名在其图层名称之后。 例如，原始 PSD 文件中名为“Price Tag”的图层将成为名为“Price Tag”的图像。但是，如果 PSD 文件中的图层名称是默认 Photoshop 图层名称（“Background”、“Layer 1”、“Layer 2”等等），将以该文件中的图层编号而不是默认图层名称为图像命名。
 
-**Photoshop和图层编号** -在PSD文件中将图像命名为图层编号之后，忽略原始图层名称。 使用 Photoshop 文件名和附加的图层编号为图像命名。例如，在名为“Spring Ad.psd”的文件中，即使第二个图层在 Photoshop 中具有非默认名称，也会以“Spring Ad_2”命名该图层。
+**Photoshop和图层编号** -将图像命名为PSD文件中图层编号之后的图像，忽略原始图层名称。 使用 Photoshop 文件名和附加的图层编号为图像命名。例如，在名为“Spring Ad.psd”的文件中，即使第二个图层在 Photoshop 中具有非默认名称，也会以“Spring Ad_2”命名该图层。
 
 **Photoshop和图层名称** 在PSD文件后面命名图像，后跟图层名称或图层编号。 如果 PSD 文件中的图层名称是默认的 Photoshop 图层名称，则将使用图层编号。例如，在 PSD 文件“SpringAd”中名为“Price Tag”的图层将命名为“Spring Ad_Price Tag”。具有默认名称“Layer 2”的图层命名为“Spring Ad_2”。
 
@@ -72,11 +72,11 @@ Dynamic Media经典(Classic)在PSD文件中创建多幅图像时，如果使用�
 
 ## 查看和编辑 PSD 文件中的图层 {#viewing-and-editing-layers-in-a-psd-file}
 
-如果您在上传PSD时选择了“维护图层”选项，则“Dynamic Media经典”会将各个图层撕裂到资产中。 您可以在浏览面板的详细信息视图中打开 PSD 文件，以查看和编辑属于该文件的资源图层。
+如果您在上传PSD时选择了“维护图层”选项，Dynamic Media Classic会将各个图层撕裂为资产。 您可以在浏览面板的详细信息视图中打开 PSD 文件，以查看和编辑属于该文件的资源图层。
 
 1. 在浏览面板中双击完整的 PSD 文件，则可以在详细信息视图中打开该文件。
 
-   ***注&#x200B;**: 确保打开完整资产，而不是某个PSD图层。*
+   ***注&#x200B;**:确保打开完整资产，而不是某个PSD图层。*
 
 1. 单击“图层”打开“图层”面板。在“图层”面板中将以单独的图像显示所有各图层。
 1. 双击图层打开该图层并执行以下任一操作：
