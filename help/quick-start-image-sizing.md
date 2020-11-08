@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sizing
 discoiquuid: dcaa9b21-b925-4dbb-865e-7918cdbda50c
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '851'
 ht-degree: 55%
@@ -20,9 +20,9 @@ ht-degree: 55%
 
 # 快速入门：调整图像大小{#quick-start-image-sizing}
 
-图像大小调整是指Dynamic Media经典根据单个高分辨率图像创建多个衍生图像的能力。 您为网站或应用程序提供的不是手动创建多个图像(例如缩略图和放大的视图图像)，而是单个主控图像。 Dynamic Media经典会按照您的请求生成所有修改的图像。 能根据单个主图像动态提交图像有许多优势：
+图像大小调整是指Dynamic Media Classic根据单个高分辨率图像创建多个衍生图像的能力。 您为网站或应用程序提供的不是手动创建多个图像(例如缩略图和放大的视图图像)，而是单个主控图像。 Dynamic Media Classic会按您的请求生成所有修改的图像。 能根据单个主图像动态提交图像有许多优势：
 
-* 不必手动创建多个不同大小的图像副本。您向Dynamic Media经典提供一个主控图像，Dynamic Media经典从主控图像生成不同大小的衍生图像。
+* 不必手动创建多个不同大小的图像副本。您向Dynamic Media Classic提供一个主控图像，Dynamic Media Classic从主控图像生成不同大小的衍生图像。
 * 可以快速更改整个网站或应用程序中某图像类型的大小。例如，要更改所有缩略图图像，可修改“缩略图”图像预设。图像预设（类似于宏）是大小和格式属性的集合。可以通过修改“缩略图”图像预设来更改整个网站或应用程序中的所有缩略图图像的大小。
 * 不必在任何内容或资源管理系统内部或外部管理主图像和所有各种各样的派生图像。
 
@@ -30,17 +30,17 @@ ht-degree: 55%
 
 **快速开始**
 
-此图像大小调整快速开始旨在帮助您快速入门并使用经典Dynamic Media中的图像大小调整技术。 按照步骤1-5进行操作。 每个步骤末尾都有一个交叉引用，如果需要可从中找到更多信息。
+此图像大小调整快速开始旨在帮助您快速入门和使用Dynamic Media Classic中的图像大小调整技术。 按照步骤1-5进行操作。 每个步骤末尾都有一个交叉引用，如果需要可从中找到更多信息。
 
 **1. 上载主图像**
 
-开始，将主控图像上传到Dynamic Media经典。 至于大小，Dynamic Media经典建议使用您预期在网站或应用程序中使用的最大图像。 例如，如果希望观众能够缩放图像，请上载长边像素至少为 2000 的图像。Dynamic Media经典支持多种图像文件格式，但建议使用无损的TIFF和PNG图像。
+开始，将主控图像上传到Dynamic Media Classic。 关于大小，Dynamic Media Classic建议使用您预期在网站或应用程序中使用的最大大小的图像。 例如，如果希望观众能够缩放图像，请上载长边像素至少为 2000 的图像。Dynamic Media Classic支持多种图像文件格式，但建议使用无损的TIFF和PNG图像。
 
-选择全局导航栏上的“上传”按钮，将文件从计算机上传到Dynamic Media经典上的文件夹。 请参阅[上载主图像](uploading-master-images.md#uploading_master_images)。
+选择全局导航栏上的“上传”按钮，将文件从计算机上传到Dynamic Media Classic上的文件夹。 请参阅[上载主图像](uploading-master-images.md#uploading_master_images)。
 
 **2. 设置图像预设**
 
-像宏一样，图像预设是用某个名称保存的一组预定义大小和格式命令。图像预设将控制从Dynamic Media图像服务器传送图像时所使用的大小和格式。 如果您是公司的管理员，则可以自己设置图像预设。Dynamic Media经典还附带默认的图像预设，您可以使用它们动态传送图像。
+像宏一样，图像预设是用某个名称保存的一组预定义大小和格式命令。图像预设可以控制从Dynamic Media图像服务器传送图像时使用的大小和格式。 如果您是公司的管理员，则可以自己设置图像预设。Dynamic Media Classic还附带默认图像预设，您可以使用它们动态传送图像。
 
 要创建图像预设（如果您是管理员），请选择“设置”>“应用程序设置”。在“设置”屏幕上，显示“应用程序设置”选项并选择“图像预设”。然后，单 **击** “添 **加”或** “编辑”以创建图像预设。
 
@@ -61,12 +61,12 @@ To explore Image Presets, click **Setup** > **Image Presets**, and then browse t
 发布主图像文件有两个主要目的：
 
 * 将主控图像发布到Dynamic Media图像服务器，以便将图像动态交付到您的网站和应用程序。
-* 发布时会激活URL字符串，用于将图像从Dynamic Media图像服务器调用到您的网站或应用程序。 发布后，您可以在网站或应用程序中根据需要复制和放置Dynamic Media经典生成的URL。
+* 发布时会激活URL字符串，用于将图像从Dynamic Media图像服务器调用到网站或应用程序。 发布后，您可以在网站或应用程序中根据需要复制和放置Dynamic Media Classic生成的URL。
 
 选择全局导航栏上的“发布”按钮来启动发布。在“发布”屏幕上，选择“开始发布”按钮。请参阅[发布主图像](publishing-master-images.md#publishing_master_images)。
 
 **5. 将 URL 链接至 Web 应用程序**
 
-Dynamic Media经典创建图像的URL标注字符串。 将图像发布到Dynamic Media图像服务器时，URL变为活动状态。 可从浏览面板（在中）或“预览”屏幕复制这些 URL 字符串。在复制 URL 字符串之后，便可以在网站和应用程序中使用它们了。用于调整图像大小的 URL 将取代网页代码中对静态图像名称的引用。对于每个要显示的新图像，URL 将引用一个由数据库取代的主图像名称。
+Dynamic Media Classic为图像创建URL标注字符串。 将图像发布到Dynamic Media图像服务器时，URL变为活动状态。 可从浏览面板（在中）或“预览”屏幕复制这些 URL 字符串。在复制 URL 字符串之后，便可以在网站和应用程序中使用它们了。用于调整图像大小的 URL 将取代网页代码中对静态图像名称的引用。对于每个要显示的新图像，URL 将引用一个由数据库取代的主图像名称。
 
 由图像预设生成的 URL 字符串包含图像预设的名称。This name is enclosed in dollar signs (`$`). For example, `$thumbnail$` can be the Image Preset designed to show master images at thumbnail size. 请参阅[将 URL 链接至 Web 应用程序](linking-urls-web-application.md#linking_urls_to_your_web_application)。
