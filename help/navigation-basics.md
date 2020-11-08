@@ -2,7 +2,7 @@
 title: 导航基础知识
 seo-title: 导航基础知识
 description: 'null'
-seo-description: 了解如何导航Dynamic Media经典的用户界面。
+seo-description: 了解如何导航Dynamic Media Classic的用户界面。
 uuid: ee143695-e42d-479d-b907-fe61ef6cfc0f
 contentOwner: admin
 content-type: reference
@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/getting_started
 discoiquuid: 825b8949-f961-4ef9-828c-07349013d40d
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '612'
 ht-degree: 52%
@@ -20,7 +20,7 @@ ht-degree: 52%
 
 # 导航基础知识{#navigation-basics}
 
-Dynamic Media经典屏幕包括三个主要区域： 全局导航栏、资源库和浏览面板／构建面板。
+Dynamic Media Classic屏幕包括三个主要方面：全局导航栏、资源库和浏览面板／构建面板。
 
 ![导航基础知识](/help/assets/gs_navigation_basics_popup_popup.png)
 
@@ -30,17 +30,17 @@ Dynamic Media经典屏幕包括三个主要区域： 全局导航栏、资源库
 
 **从菜单中选择** “公司选择要访问的公司”。 如果您正在对一家公司执行操作，此按钮不可用。
 
-**上传** 打开“上传”屏幕，您可以将文件从计算机或网络上传到Dynamic Media经典。 您可以从桌面或通过 FTP 上载文件。请参阅上载文件。
+**上传** 打开上传屏幕，您可以将文件从计算机或网络上传到Dynamic Media Classic。 您可以从桌面或通过 FTP 上载文件。请参阅上载文件。
 
 **构建** 从菜单中选择构建任务。 会打开构建面板，以便您创建资源类型。
 
-**发布** 打开发布屏幕，这样您就可以将富媒体资产发布到Dynamic Media图像服务器和Dynamic Media经典SAAS基础结构的其余部分。 请参阅发布。
+**发布** 打开发布屏幕，这样您就可以将富媒体资产发布到Dynamic Media Image Server和Dynamic Media Classic SAAS Infrastructure的其余部分。 请参阅发布。
 
 **作业** 打开“作业”屏幕，以便检查上载和发布作业的记录。
 
 **“最近** ”打开“最近活动”屏幕，以便视图最近修改的资产的名称以及最近上传和发布的作业。
 
-**设置** 打开设置屏幕，以便您选择设置或管理选项以优化Dynamic Media经典的使用。 请参阅设置。
+**设置** 打开设置屏幕，以便您选择设置或管理选项以优化Dynamic Media Classic的使用。 请参阅设置。
 
 **帮助** “选择帮助”选项：
 
@@ -50,11 +50,11 @@ Dynamic Media经典屏幕包括三个主要区域： 全局导航栏、资源库
 
 **“帮助”>“帮助内容** ”打开“帮助”系统，进入“简介”页面。 您可以单击目录来查找并查看不同的主题。
 
-**“帮助”>“关** 于”告诉您正在运行的Dynamic Media经典版本。
+**“帮助”>** “关于”告诉您正在运行的Dynamic Media Classic版本。
 
-**“帮助”>“支持** ”告诉您如何从Dynamic Media经典获得技术支持。
+**帮助>支持** 告诉您如何从Dynamic Media Classic获得技术支持。
 
-**注销退出** ExitsDynamic Media经典。
+**注销** ，退出Dynamic Media Classic。
 
 ## 资产库 {#asset-library}
 
