@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/video
 discoiquuid: 6cef541b-e9df-48eb-9a16-ca3e1f07238e
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '1443'
 ht-degree: 65%
@@ -20,11 +20,11 @@ ht-degree: 65%
 
 # 快速入门：视频{#quick-start-video}
 
-AdobeDynamic Media经典视频是一款端到端解决方案，它可轻松发布高质量自适应视频以跨多种屏幕（包括桌面、iOS、Android、Blackberry和Windows移动设备）进行流化。 自适应视频集可将同一视频以不同比特率和格式（如 400 kbps、800 kbps 和 1000 kbps）编码的不同版本分组在一起。台式计算机或移动设备可检测可用带宽。
+Adobe动态媒体经典视频是一款端到端解决方案，它可轻松发布高质量自适应视频以跨多个屏幕（包括桌面、iOS、Android、Blackberry和Windows移动设备）进行流化。 自适应视频集可将同一视频以不同比特率和格式（如 400 kbps、800 kbps 和 1000 kbps）编码的不同版本分组在一起。台式计算机或移动设备可检测可用带宽。
 
 例如，在 iOS 移动设备上，可检测 3G、4G 或 Wi-Fi 等带宽。然后，从自适应视频集内的不同视频比特率中自动选择正确的编码视频。视频将流式传输到台式机、移动设备或平板电脑。
 
-另外，如果台式机或移动设备上的网络条件发生变化，则会自动动态切换视频质量。此外，如果客户在桌面上进入全屏模式，自适应视频集会以更好的分辨率响应，从而改善客户的查看体验。使用自适应视频集为在多个屏幕和设备上播放Dynamic Media经典视频的客户提供了最佳播放方式。
+另外，如果台式机或移动设备上的网络条件发生变化，则会自动动态切换视频质量。此外，如果客户在桌面上进入全屏模式，自适应视频集会以更好的分辨率响应，从而改善客户的查看体验。使用自适应视频集，为在多个屏幕和设备上播放Dynamic Media Classic视频的客户提供最佳的播放方式。
 
 视频播放器用于确定要播放或选择的编码视频的逻辑取决于以下算法：
 
@@ -36,9 +36,9 @@ AdobeDynamic Media经典视频是一款端到端解决方案，它可轻松发�
 
 有关算法的技术信息，请 [参阅](https://android.googlesource.com/platform/frameworks/av/+/master/media/libstagefright/httplive/LiveSession.cpp) https://android.googlesource.com/platform/frameworks/av/+/master/media/libstagefright/httplive/LiveSession.cpp中算法的逻辑。
 
-为了管理单个视频和自适应视频集，Dynamic Media经典支持以下功能：
+为了管理单个视频和自适应视频集，Dynamic Media Classic支持以下功能：
 
-* 上载很多支持的视频格式和音频格式的视频，并将视频编码为 MP4 H.264 格式以在多个屏幕中进行播放。您可以使用预定义的Dynamic Media经典自适应视频预设、单个视频编码预设，或自定义您自己的编码以控制视频的质量和大小。
+* 上载很多支持的视频格式和音频格式的视频，并将视频编码为 MP4 H.264 格式以在多个屏幕中进行播放。您可以使用预定义的Dynamic Media Classic自适应视频预设、单个视频编码预设，或自定义您自己的编码以控制视频的质量和大小。
 
    当生成自适应视频集时，它包括MP4视频。
 
@@ -57,7 +57,7 @@ AdobeDynamic Media经典视频是一款端到端解决方案，它可轻松发�
 
    请参阅《Adobe查看器参考指南》 [中的最新支持](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/home.html)。
 
-   Dynamic Media经典支持MP4 H.264视频的移动视频播放。 您可以在以下网站中找到支持该视频格式的 Blackberry 设备：
+   Dynamic Media Classic支持MP4 H.264视频的移动视频回放。 您可以在以下网站中找到支持该视频格式的 Blackberry 设备：
 
    请参 [阅Blackberry上支持的视频格式](https://support.blackberry.com/kb/articleDetail?ArticleNumber=000005482)。
 
@@ -65,7 +65,7 @@ AdobeDynamic Media经典视频是一款端到端解决方案，它可轻松发�
 
    请参 [阅Windows Phone上支持的视频格式](https://msdn.microsoft.com/en-us/library/ff462087(v=vs.92).aspx)。
 
-* 使用Dynamic Media经典查看器预设播放视频，包括：
+* 使用Dynamic Media Classic查看器预设播放视频，包括：
 
    * 单视频查看器。
    * 兼有视频和图像内容的混合媒体查看器。
@@ -75,16 +75,16 @@ AdobeDynamic Media经典视频是一款端到端解决方案，它可轻松发�
 
 **快速开始**
 
-以下工作流分步说明旨在帮助您在Dynamic Media经典中快速设置和运行自适应视频集。 每个步骤的后面都有一个交叉引用，可以跳转到相应的主题标题，供您了解更多信息。
+以下工作流分步说明旨在帮助您快速设置并运行Dynamic Media Classic中的自适应视频集。 每个步骤的后面都有一个交叉引用，可以跳转到相应的主题标题，供您了解更多信息。
 
 **1. 上载和编码视频**
 
 可以使用以下两种方案之一上载并生成自适应视频集：
 
-* **上传预编码视频**&#x200B;如果您的视频已在Dynamic Media经典之外进行编码，请单击 
-**在全局** 导航栏上传，以浏览MP4视频文件并将其直接上传到Dynamic Media经典。 然后，单击“**构建”>“自适应视频集**”。浏览至您的视频文件。将需要的视频文件拖放到“自适应视频集”表中，然后保存此视频集。
+* **上传预编码的视**&#x200B;频如果您的视频已在Dynamic Media Classic外部进行编码，请单击 
+**在全局** 导航栏上传，以浏览MP4视频文件并将其直接上传到Dynamic Media Classic。 然后，单击“**构建”>“自适应视频集**”。浏览至您的视频文件。将需要的视频文件拖放到“自适应视频集”表中，然后保存此视频集。
 * **上传主控源视频**&#x200B;如果您的视频未进行编码，请单击 
-**在全局** 导航栏上传主控视频源文件（非MP4），并让Dynamic Media经典对它们进行编码，以供您使用。 在“上载作业选项”对话框中，在“eVideo 选项”下面选择“**自适应视频**。
+**在全局** 导航栏上传主控视频源文件（非MP4），并让Dynamic Media Classic为它们编码为MP4文件。 在“上载作业选项”对话框中，在“eVideo 选项”下面选择“**自适应视频**。
 
    通过使用此首选的选项，可以创建一个自适应视频集以自动将正确编码预设应用于视频（不论是 16:9 还是 4:3），以便与您上载的视频尺寸相匹配。提交上载作业时，系统会自动为您创建一个自适应视频集，其中包含三个具有正确高宽比的视频编码。
 
@@ -96,7 +96,7 @@ AdobeDynamic Media经典视频是一款端到端解决方案，它可轻松发�
 
 **可选**
 
-Dynamic Media经典优惠大量预定义的视频编码预设。 这些预定义的预设反映了目前使用的最常见编码设置，并针对在目标屏幕上播放进行了优化。
+Dynamic Media Classic优惠大量预定义的视频编码预设。 这些预定义的预设反映了目前使用的最常见编码设置，并针对在目标屏幕上播放进行了优化。
 
 不过，如果需要进一步自定义，管理员可以创建视频预设，以便为最终用户自定义视频大小和播放体验。管理员可以从“设置”>“应用程序设置”>“视频预设”>“单个编码预设”下面的“视频预设”页中添加和管理视频预设。“视频预设”页提供用于添加、编辑、删除和激活视频预设的选项。
 
@@ -112,7 +112,7 @@ Dynamic Media经典优惠大量预定义的视频编码预设。 这些预定义
 
 **可选**
 
-查看器预设自定义-Dynamic Media经典优惠预定义的用于传送视频的查看器预设。 这些预设决定了查看器的外观及其播放控件的工作方式。要自定义视频查看器，管理员可以从“视频预设”页中添加和管理视频预设。要打开此页面，请在Dynamic Media经典的右上角，单击设置>查看器预设。 “查看器预设”页提供用于添加、编辑、删除和激活查看器预设的命令。
+查看器预设自定义- Dynamic Media Classic优惠用于传送视频的预定义查看器预设。 这些预设决定了查看器的外观及其播放控件的工作方式。要自定义视频查看器，管理员可以从“视频预设”页中添加和管理视频预设。要打开此页面，请在Dynamic Media Classic的右上角，单击设置>查看器预设。 “查看器预设”页提供用于添加、编辑、删除和激活查看器预设的命令。
 
 请参阅[使用视频查看器预设](previewing-videos-video-viewer.md#working_with_video_viewer_presets)。
 
