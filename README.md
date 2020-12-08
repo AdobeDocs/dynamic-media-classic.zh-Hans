@@ -1,18 +1,14 @@
 ---
-source-git-commit: 9168ecfc0871874c71f9338e27a48e04aea47804
+source-git-commit: 2e36fc555c7e16406e68d289a97be72b87be8036
 workflow-type: tm+mt
 translation-type: tm+mt
-source-wordcount: '155'
-ht-degree: 3%
+source-wordcount: '73'
+ht-degree: 0%
 
 ---
-# AdobeDynamic Media Classic文档
+# AdobeDynamic Media经典文档
 
-| EXL-PR | EXL | 预览 | 激活 | 已发布 | 帮助 |
-|--- |--- |--- |--- |--- |--- |
-| [![生成状态](https://docs.ci.corp.adobe.com/view/exl-pr/job/dynamic-media-classic.en_pr-exl/badge/icon)](https://docs.ci.corp.adobe.com/view/exl-pr/job/dynamic-media-classic.en_pr-exl/lastBuild/) | [![生成状态](https://docs.ci.corp.adobe.com/view/exl-pr/job/dynamic-media-classic.en_exl/lastBuild/badge/icon)](https://docs.ci.corp.adobe.com/view/exl-pr/job/dynamic-media-classic.en_exl/lastBuild/lastBuild) | [预览URL](https://experienceleague.corp.adobe.com/docs/dynamic-media-classic/using/home.html?lang=en) | [activate-exl](https://docs.ci.corp.adobe.com/job/activate-exl/build/) | [实时URL](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/home.html?lang=en) | [Authoring 指南](https://experienceleague.adobe.com/docs/authoring-guide-exl/using/home.html?lang=en) |
-
-这是AdobeDynamic Media Classic文档的存储库。
+这是AdobeDynamic Media经典文档的存储库。
 
 欢迎您对文档做出贡献。 请参阅以下资源：
 
