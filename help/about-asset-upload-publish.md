@@ -19,17 +19,17 @@ ht-degree: 35%
 
 # 关于上传和发布资产{#about-uploading-and-publishing-assets}
 
-您在Dynamic Media经典中的工作涉及三个基本方面：
+您在Dynamic Media经典中的工作主要涉及三个基本方面：
 
-* 将文件资产上传到Dynamic Media经典。
+* 将文件资源上传到Dynamic Media经典。
 * 对文件进行管理，以使用这些文件构建富媒体资源。
-* 将资产文件发布到Dynamic Media经典服务器，以便投放到您的网站和应用程序。
+* 将您的资源文件发布到Dynamic Media经典服务器，以便投放到您的网站和应用程序。
 
 将资产文件上传到DMC时，以及将资产文件发布到Dynamic Media经典服务器时，系统会在“作业”页面记录这些文件传输。 您可以转到该页面以跟踪和监视上载和发布活动。
 
 >[!NOTE]
 >
->*上传文件时，Dynamic Media经典将生成该文件的URL。 该 URL 在您发布文件后才会激活。*
+>*上传文件时，Dynamic Media经典会生成该文件的URL。该 URL 在您发布文件后才会激活。*
 
 >[!NOTE]
 >
