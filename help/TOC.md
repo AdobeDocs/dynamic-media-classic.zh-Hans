@@ -4,13 +4,13 @@ product: Adobe Dynamic Media Classic
 audience: end-user
 user-guide-title: Adobe Dynamic Media Classic 指南
 breadcrumb-title: Dynamic Media Classic 指南
-user-guide-description: 了解有关使用Dynamic Media Classic的更多信息
+user-guide-description: 了解有关使用 Dynamic Media Classic 的更多信息
 index: y
 translation-type: tm+mt
 source-git-commit: 98d5363c1a692cff234903b9ab0417ca803b5f96
 workflow-type: tm+mt
 source-wordcount: '750'
-ht-degree: 76%
+ht-degree: 77%
 
 ---
 
@@ -19,21 +19,21 @@ ht-degree: 76%
 
 + [Adobe Dynamic Media Classic 指南](home.md)
 + [最佳实践教程](https://docs.adobe.com/content/help/en/experience-manager-learn/dynamic-media-classic-tutorial/overview.html)
-+ [新增功能Dynamic Media Classic登录体验现已推出](new-ui-2020.md)
-+ [动态媒体新闻快讯，作者：Experience League](dynamic-media-newsletter.md)
-+ 介绍Adobe动态媒体经典 {#intro}
-   + [AdobeDynamic Media Classic桌面应用程序——现已推出](dynamic-media-classic-desktop-app.md)
-   + [关于Dynamic Media Classic帮助](introduction.md)
++ [新Dynamic Media经典登录体验现已推出](new-ui-2020.md)
++ [Dynamic Media通讯，由Experience League撰写](dynamic-media-newsletter.md)
++ 介绍AdobeDynamic Media经典{#intro}
+   + [AdobeDynamic Media经典桌面应用程序——现已推出](dynamic-media-classic-desktop-app.md)
+   + [关于Dynamic Media经典帮助](introduction.md)
    + [开发人员资源](developer-resources.md)
    + [What’s new](whats-new.md)
    + [系统要求](system-requirements.md)
    + [支持](support.md)
-   + [Dynamic Media Classic Media Portal帮助](help-dmc-media-portal.md)
+   + [Dynamic Media经典媒体门户帮助](help-dmc-media-portal.md)
    + [Adobe 培训服务](training-services.md)
    + [常用资源](popular-resources.md)
    + [培训视频](training-videos.md)
 + 快速入门 {#getting-started}
-   + [AdobeDynamic Media Classic平台概述](dmc-platform-overview.md)
+   + [AdobeDynamic Media经典平台概述](dmc-platform-overview.md)
    + [Media Portal](media-portal.md)
    + [登录和注销](signing-out.md)
    + [导航基础知识](navigation-basics.md)
@@ -72,12 +72,12 @@ ht-degree: 76%
    + [移动、重命名和删除资源](moving-renaming-deleting-assets.md)
    + [使用“详细信息”视图](detail-view.md)
    + [查看、添加和导出元数据](viewing-adding-exporting-metadata.md)
-   + [从Dynamic Media Classic导出资源](exporting-assets-from-dmc.md)
+   + [从Dynamic Media经典导出资产](exporting-assets-from-dmc.md)
    + [与对等客户端实时共享资源更改](sharing-asset-changes-peers-real.md)
    + [打印资源](printing-assets.md)
    + [Managing the Trash folder](trash-folder.md)
    + [用项目组织工作](organizing-projects.md)
-+ Image sizing {#image-sizing}
++ 调整图像大小{#image-sizing}
    + [快速入门：调整图像大小](quick-start-image-sizing.md)
    + [上载主图像](uploading-master-images.md)
    + [发布主图像](publishing-master-images.md)
@@ -124,7 +124,7 @@ ht-degree: 76%
    + [发布旋转集](publishing-spin-set.md)
    + [设置旋转集查看器预设](setting-spin-set-viewer-presets.md)
    + [将旋转集链接到网页](linking-spin-set-web-page.md)
-+ Template basics {#template-basics}
++ 模板基础知识{#template-basics}
    + [Quick Start: Template Basics](quick-start-template-basics.md)
    + [上载模板文件](uploading-template-files.md)
    + [创建模板](creating-template.md)
@@ -141,14 +141,14 @@ ht-degree: 76%
    + [在视频中添加章节标记](adding-chapter-markers-video.md)
    + [将视频部署到网站和移动站点](deploying-video-websites-mobile-sites.md)
    + [导出源和编码视频](exporting-source-encoded-videos.md)
-+ Mixed media sets {#mixed-media-sets}
++ 混合媒体集{#mixed-media-sets}
    + [快速入门：混合媒体集](quick-start-mixed-media-sets.md)
    + [设置混合媒体集查看器预设](setting-mixed-media-set-viewer.md)
    + [创建混合媒体集](creating-mixed-media-set.md)
    + [发布混合媒体集](publishing-mixed-media-set.md)
    + [将混合媒体集与网页链接](linking-mixed-media-set-web.md)
-+ Adobe Analytics instrumentation kit {#analytics-kit}
-   + [快速开始:将Dynamic Media Classic与Adobe Analytics集成](quick-start-integrating-dmc-analytics.md)
++ Adobe Analytics仪器包{#analytics-kit}
+   + [快速开始:Dynamic Media经典与Adobe Analytics](quick-start-integrating-dmc-analytics.md)
    + [登录到 Adobe Analytics](log-analytics.md)
    + [配置 Adobe Analytics 报告](configuring-analytics-reports.md)
    + [使用 Adobe Analytics 仪器包实施查看器](instrumenting-viewer-using-analytics-instrumentation.md)
@@ -156,9 +156,9 @@ ht-degree: 76%
    + [查看 Adobe Analytics 报告以测试集成](testing-integration-viewing-analytics-report.md)
    + [启用 Adobe Analytics 视频报告](enabling-analytics-video-reports.md)
    + [发布 Adobe Analytics 配置信息](publishing-analytics-configuration-information.md)
-+ Adobe Target标准／高级集成 {#target-classic}
++ Adobe Target标准／高级集成{#target-classic}
    + [快速开始:Adobe Target标准／高级集成](quick-start-target-integration.md)
-   + [将Dynamic Media Classic与Adobe Target标准版／高级版集成](integrating-dmc-with-target.md)
+   + [将Dynamic Media经典与Adobe Target标准／高级版集成](integrating-dmc-with-target.md)
    + [Creating an offer set](creating-offer-set.md)
    + [将优惠集推送到Adobe Target标准版／高级版](pushing-offer-sets-target.md)
 + 用户生成的内容 {#user-generated-content}
