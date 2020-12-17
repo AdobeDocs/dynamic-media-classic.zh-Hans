@@ -20,7 +20,7 @@ ht-degree: 41%
 
 # 发布模板{#publishing-templates}
 
-发布模板后，模板将放在Dynamic Media图像服务器上，您的网站和应用程序可在此处访问它。 在发布过程中，Dynamic Media经典会激活您的网站和应用程序所需的URL。
+发布模板后，将其放置在Dynamic Media图像服务器上，您的网站和应用程序可在该服务器上找到它。 在发布过程中，Dynamic Media经典会激活您的网站和应用程序所需的URL。
 
 >[!NOTE]
 >
@@ -28,7 +28,7 @@ ht-degree: 41%
 
 ## 将模板标记为发布 {#marking-templates-for-publish}
 
-模板及其所有支持文件必须标记为发布，才能放在Dynamic Media图像服务器上。 You can mark these items for publish in the Browse Panel by clicking the **Mark for Publish** icon.
+模板及其所有支持文件必须标记为发布，才能放在Dynamic Media图像服务器上。 单击&#x200B;**标记为发布**&#x200B;图标，可在浏览面板中将这些项目标记为发布。
 
 ## 发布模板 {#publishing-your-template}
 
