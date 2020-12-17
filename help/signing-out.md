@@ -1,8 +1,6 @@
 ---
-title: 登录和注销
-seo-title: 登录和注销
-description: 'null'
-seo-description: 了解如何在Dynamic Media经典中登录和注销
+title: 登录和注销AdobeDynamic Media经典
+description: 了解如何登录和注销Dynamic Media经典Adobe，以及如何连接到北美(NA)或欧洲、中东、非洲(EMEA)或亚太地区(APAC)的生产环境服务器。
 uuid: eaf51ab7-d17a-4b7b-b6a4-1ec78bfee36b
 contentOwner: admin
 content-type: reference
@@ -10,24 +8,24 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/getting_started
 discoiquuid: ad418881-ff31-43b1-bbb6-ab2fbcf89bea
 translation-type: tm+mt
-source-git-commit: 436717a3a5326477b5507db0893892342c54dcef
+source-git-commit: d3c9b805f5d17c130fe5b4590bd7864351dc9d24
 workflow-type: tm+mt
-source-wordcount: '472'
-ht-degree: 6%
+source-wordcount: '496'
+ht-degree: 4%
 
 ---
 
 
 <!-- UPDATE THIS TOPIC AFTER DECEMBER 31, 2020!!!!! -->
 
-# 登录Dynamic Media经典{#sign-in}
+# 登录AdobeDynamic Media经典{#sign-in}
 
-登录Dynamic Media经典和注销的方式取决于您是使用桌面应用程序还是Web浏览器。
+登录Dynamic Media经典和注销的方式取决于您是使用[桌面应用程序](#sign-in-dmc-app)还是[Web浏览器](#sign-out)。
 
 无论您如何登录，在使用Dynamic Media经典之前，都应确保您具备以下各项：
 
-* **登**
-录名使用电子邮件地址作为登录名。
+* **用**
+户名您使用电子邮件地址作为登录名。
 
 * **口**
 令您从Dynamic Media经典或Dynamic Media经典管理员的“欢迎”电子邮件中获取临时口令。您第一次登录时，会提示您更改此临时密码。
