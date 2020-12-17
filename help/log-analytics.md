@@ -20,9 +20,9 @@ ht-degree: 37%
 
 # 登录到 Adobe Analytics{#log-in-to-adobe-analytics}
 
-登录配置Adobe Analytics报告并将Adobe Analytics报告变量与动态媒体经典事件匹配之前，请验证您是否已添加为Adobe AnalyticsWeb服务访问组的成员。 该组中的成员可以通过 Marketing Cloud 的 Web 服务 API 访问指定报表包中的所有报表，而无论是否在界面中设置了权限。要在组中添加成员，请在 Adobe Analytics 中单击“**管理工具**”>“**用户管理**”>“**编辑组**”。
+在登录以配置Adobe Analytics报告并将Adobe Analytics报告变量与Dynamic Media经典事件匹配之前，请验证您是否已添加为Adobe Analytics的Web服务访问组的成员。 该组中的成员可以通过 Marketing Cloud 的 Web 服务 API 访问指定报表包中的所有报表，而无论是否在界面中设置了权限。要在组中添加成员，请在 Adobe Analytics 中单击“**管理工具**”>“**用户管理**”>“**编辑组**”。
 
-登录后，您可以选择输入Marketing Cloud组织ID以使用最新的视频分析实施。 如果您选择不输入ID，视频报告仍然有效。 但是，这可能会导致数据无法与来自Dynamic Media Classic外部的该客户端的其他数据正确集成。
+登录后，您可以选择输入Marketing Cloud组织ID以使用最新的视频分析实施。 如果您选择不输入ID，视频报告仍然有效。 但是，这可能会导致数据无法与来自Dynamic Media经典之外的该客户端的其他数据正确集成。
 
 >[!NOTE]
 >
@@ -30,15 +30,15 @@ ht-degree: 37%
 
 **登录到 Adobe Analytics**
 
-1. 在Dynamic Media Classic页面的右上角附近，点按设置>应 **[!UICONTROL 用程序设置]**。
-1. In the left pane, under **[!UICONTROL Application Setup]**, tap **[!UICONTROL Adobe Analytics]**.
-1. In the Adobe Analytics Configuration page, tap **[!UICONTROL Adobe Analytics Login]**.
-1. 在“Adobe Analytics **[!UICONTROL 登录名]** ”对话框中，在“密码”文本字段中输入您的公司名、Marketing Cloud组织ID（可选）、 *用户名和密码* 密钥 **** 。
+1. 在Dynamic Media经典页面的右上角附近，点按&#x200B;**[!UICONTROL 设置>应用程序设置]**。
+1. 在左窗格的&#x200B;**[!UICONTROL 应用程序设置]**&#x200B;下，点按&#x200B;**[!UICONTROL Adobe Analytics]**。
+1. 在“Adobe Analytics配置”页中，点按&#x200B;**[!UICONTROL Adobe Analytics登录]**。
+1. 在&#x200B;**[!UICONTROL Adobe Analytics登录]**&#x200B;对话框中，在&#x200B;**[!UICONTROL 密码]**&#x200B;文本字段中输入您的公司名、Marketing Cloud组织ID（可选）、用户名和&#x200B;*共享机密*&#x200B;键。
 
-   您可以从Analytics管 *理员控制台* 检索共享密钥。 请参 [阅如何获取用户帐户的API凭据](https://helpx.adobe.com/analytics/kb/how-to-get-api-credentials-for-user-accounts-.html)。
+   您可以从Analytics管理员控制台检索&#x200B;*共享机密*&#x200B;密钥。 请参阅[如何获取用户帐户的API凭据](https://helpx.adobe.com/analytics/kb/how-to-get-api-credentials-for-user-accounts-.html)。
 
 1. 按一下&#x200B;**[!UICONTROL 登入]**。
-1. 在“报 **[!UICONTROL 表包]** ”下拉菜单中，选择一个报表包，然后单击 **[!UICONTROL 确定]**。
+1. 在&#x200B;**[!UICONTROL 报表包]**&#x200B;下拉菜单中，选择报表包，然后单击&#x200B;**[!UICONTROL 确定]**。
 
    >[!NOTE]
    >
