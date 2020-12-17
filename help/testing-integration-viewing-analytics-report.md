@@ -20,15 +20,15 @@ ht-degree: 42%
 
 # 查看 Adobe Analytics 报告以测试集成{#testing-the-integration-by-viewing-an-adobe-analytics-report}
 
-在Adobe Analytics创建必要变量后，将它们链接到Dynamic Media Classic事件并完成必要的实施步骤，您应测试设置。 您可以在 Adobe Analytics 中测试和验证是否正在捕获数据。如果设置正常，则无需其他步骤。假定您按照上述步骤操作并将Dynamic Media Classic事件数据链接到一个或多个自定义流量变量，则按照此工作流程在Adobe Analytics测试数据。
+在Adobe Analytics创建必要变量后，将它们链接到Dynamic Media经典事件并完成必要的实施步骤，您应测试设置。 您可以在 Adobe Analytics 中测试和验证是否正在捕获数据。如果设置正常，则无需其他步骤。假定您按照上述步骤操作并将您的Dynamic Media经典事件数据链接到一个或多个自定义流量变量，则按照此工作流测试您在Adobe Analytics的数据。
 
 **通过查看报告测试 Adobe Analytics 集成**
 
-1. 从您的帐户启动Dynamic Media Classic查看器，尤其是广播要捕获的度量并与其交互以创建一些事件数据的查看器。
+1. 从您的帐户启动Dynamic Media经典查看器，尤其是广播您要捕获的指标并与其交互以创建一些事件数据的查看器。
 
    例如，如果您想测量某个图像集中最受欢迎的替代视图，请预览该图像集并单击其他缩略图图像。
 
-1. Inside Adobe Analytics, go to Custom Traffic > Custom Traffic 1-10 > [Name of prop], selecting your traffic prop name from the menu choices.
+1. 在Adobe Analytics，转到“自定义流量”>“自定义流量1-10”>“prop]的名称”，从菜单选项中选择您的流量prop名称。[
 
    例如，要访问我们的示例帐户的 LoadAsset 属性，正确的菜单选择顺序是“自定义流量”>“自定义流量 1-10”>“LoadAsset”。如果您的自定义属性超过 10 个，那么还可以看到其他的菜单选择项。
 
@@ -36,6 +36,6 @@ ht-degree: 42%
 
 >[!NOTE]
 >
->所有Dynamic Media Classic查看器数据均在Adobe Analytics的“自定义流量”报告或“自定义转换”报告中显示和报告。
+>所有Dynamic Media经典查看器数据均在Adobe Analytics的“自定义流量”报告或“自定义转换”报告中显示和报告。
 
-有关详细信息，请参 [阅www.adobe.com/go/learn_sc7_sitecatalystguide_en](https://www.adobe.com/go/learn_sc7_sitecatalystguide_en)。
+有关详细信息，请参阅[www.adobe.com/go/learn_sc7_sitecatalystguide_en](https://www.adobe.com/go/learn_sc7_sitecatalystguide_en)。
