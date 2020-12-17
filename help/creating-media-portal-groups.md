@@ -32,7 +32,7 @@ ht-degree: 96%
 >
 >用户可以属于多个组。当一个用户属于两个对某个文件夹具有不同访问权限的组时，该用户将被授予最高访问权限。
 
-## 添加组 {#adding-a-group}
+## 添加组  {#adding-a-group}
 
 1. 单击“**设置**”>“**Media Portal 设置**”>“**组**”。
 1. 单击“**添加**”。
@@ -48,7 +48,7 @@ ht-degree: 96%
 
 1. 单击“**关闭**”。
 
-## 建立组的资源访问权限 {#establishing-asset-access-permissions-for-a-group}
+## 建立组的资源访问权限  {#establishing-asset-access-permissions-for-a-group}
 
 1. 单击“**设置**”>“**Media Portal 设置**”>“**组**”。
 1. 在“组列表”页面上，执行下列操作之一：
@@ -76,7 +76,7 @@ ht-degree: 96%
 >
 >选中一个框后，即可设置访问权限。向某个文件夹指定权限时，其所含的子文件夹和所有文件将被授予与父文件夹相同的权限。但是，您可以为单个子文件夹和资源文件指定不同的权限。
 
-## 为组选择图像预设访问权限 {#choosing-image-preset-access-permissions-for-a-group}
+## 为组选择图像预设访问权限  {#choosing-image-preset-access-permissions-for-a-group}
 
 如果您要指定组成员在使用 Media Portal 导出资源时可以使用的图像预设，请为组选择图像预设访问权限。
 
@@ -92,12 +92,12 @@ ht-degree: 96%
 1. 选择或取消选择“图像预设”，以便指定 Media Portal 用户在导出资源时可以使用的预设。
 1. 单击“**关闭**”。
 
-## 编辑和删除组 {#edit-and-delete-groups}
+## 编辑和删除组  {#edit-and-delete-groups}
 
 1. 单击“**设置**”>“**Media Portal 设置**”>“**组**”。
 1. 在“组列表”页面上，选择一个组，然后进行编辑或删除。
 
-   **编辑组** ，单击编辑，然后在编辑组对话框中选择选项。
+   **编辑组** 单击编辑，然后在编辑组对话框中选择选项。
 
-   **删除用户组** ，单击删除。
+   **删除组单** 击删除。
 
