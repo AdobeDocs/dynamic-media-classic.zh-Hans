@@ -50,15 +50,15 @@ Chapter 4
 Cost-efficient access to rapidly evolving technology.
 ```
 
-在上面的示例中，`Chapter 1` 是可选的提示标识符。`00:00:000 --> 01:04:364` 提示时间使用 00:00:000 格式指定章节的开始和结束时间。最后三个数字是毫秒；如果需要，可以将其保留为 000。The chapter title of `The bicycle store behind it all` is the actual description of the chapter’s contents. 在用户将鼠标指针悬停在视频时间轴中的可视提示点上时，将在视频播放器的弹出窗口中显示提示标识符、开始提示时间和章节标题。
+在上面的示例中，`Chapter 1` 是可选的提示标识符。`00:00:000 --> 01:04:364` 提示时间使用 00:00:000 格式指定章节的开始和结束时间。最后三个数字是毫秒；如果需要，可以将其保留为 000。`The bicycle store behind it all`的章节标题是本章内容的实际描述。 在用户将鼠标指针悬停在视频时间轴中的可视提示点上时，将在视频播放器的弹出窗口中显示提示标识符、开始提示时间和章节标题。
 
 由于使用的是 HTML5 视频查看器，请确保创建的章节文件遵循 WebVTT（Web 视频文本跟踪）标准。章节文件的扩展名为 .vtt。您可以了解有关 WebVTT 题注标准的详细信息。
 
-See [WebVTT: The Web Video Text Tracks format](https://dev.w3.org/html5/webvtt/).
+请参阅[WebVTT:Web视频文本跟踪格式](https://dev.w3.org/html5/webvtt/)。
 
 **在视频中添加章节标记**
 
-1. 使用Dynamic Media Classic外部的简单文本编辑器创建视频章节文件。
+1. 使用Dynamic Media经典之外的简单文本编辑器创建视频章节文件。
 
    >[!NOTE]
    >
@@ -68,7 +68,7 @@ See [WebVTT: The Web Video Text Tracks format](https://dev.w3.org/html5/webvtt/)
 
    通常，您希望使用视频文件名命名章节 VTT 文件，并在后面附加 `chapters`。这有助于使用现有的 Web 内容管理系统自动生成视频 URL。
 
-1. 在Dynamic Media Classic中，上传您的WebVTT章节文件。
+1. 在Dynamic Media经典中，上传您的WebVTT章文件。
 
    请参阅[上载文件](uploading-files.md#uploading_files)。
 
@@ -86,7 +86,7 @@ See [WebVTT: The Web Video Text Tracks format](https://dev.w3.org/html5/webvtt/)
 
       在“嵌入代码”对话框中，单击“**[!UICONTROL 复制到剪贴板]**”。
 
-      For the HTML5 `Universal_HTML5_Video` viewer, append the copied embed code with the following:
+      对于HTML5 `Universal_HTML5_Video`查看器，在复制的嵌入代码后面附加以下代码：
 
       `videoViewer.setParam("navigation","*<full Copy URL path to the chapter navigation file .vtt>*”`
 
