@@ -20,7 +20,7 @@ ht-degree: 30%
 
 # 发布主图像{#publishing-master-images}
 
-发布图像文件会将其发布到Dynamic Media图像服务器，您的网站和应用程序可在这些服务器上访问它们。 此外，在发布过程中，Dynamic Media经典会激活您为网站和应用程序所需的URL字符串。
+发布图像文件后，会将其发布到Dynamic Media图像服务器，在该服务器中，您的网站和应用程序都可以访问它们。 此外，在发布过程中，Dynamic Media经典会激活您的网站和应用程序所需的URL字符串。
 
 ## 将主图像标记为发布 {#marking-master-images-for-publish}
 
@@ -28,7 +28,7 @@ ht-degree: 30%
 
 ## 发布主图像 {#publishing-your-master-images}
 
-要将主控图像发布到Dynamic Media图像服务器，请通过选择全局导航栏上的“发布”按钮进行开始。 然后选择一个“时间”选项（“一次”或“循环”），也可以为发布作业输入名称，然后选择“开始发布”按钮。
+要将主控图像发布到Dynamic Media图像服务器，请开始选择全局导航栏上的“发布”按钮。 然后选择一个“时间”选项（“一次”或“循环”），也可以为发布作业输入名称，然后选择“开始发布”按钮。
 
 >[!NOTE]
 >
