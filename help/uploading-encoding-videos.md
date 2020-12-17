@@ -19,19 +19,19 @@ ht-degree: 81%
 
 # 上载和编码视频{#uploading-and-encoding-videos}
 
-要创建单个视频或自适应视频集以投放到Web或移动设备，请首先将主控的视频文件上传到Dynamic Media Classic。 Dynamic Media Classic将视频编码为MP4格式，并以下列文件格式发布视频：
+要创建单个视频或自适应视频集以投放到Web或移动设备，您首先将主控视频文件上传到Dynamic Media经典。 Dynamic Media经典将视频编码为MP4格式，并以下列文件格式发布视频：
 
-**MP4** Dynamic Media Classic建议将MP4作为首选视频文件格式。 将 MP4 文件用于以下内容：
+**MP4** Dynamic Media经典推荐MP4作为首选视频文件格式。将 MP4 文件用于以下内容：
 
 * 桌面的 HTTP 动态流。
 * HTTP 实时流（Apple 的流协议）。
 * 传送到 Android、Blackberry 和 Windows 移动设备的渐进式视频。
 
-Dynamic Media Classic优惠了两种工作流，用于上传视频文件：
+Dynamic Media经典优惠两个上传视频文件的工作流:
 
-**预编码视频您** 将MP4文件直接上传到Dynamic Media Classic。 对于该工作流程，在上载文件时，不会对文件进行编码。文件在准备传送到桌面和移动设备时进行预编码。
+**预编码视** 频您将MP4文件直接上传到Dynamic Media经典。对于该工作流程，在上载文件时，不会对文件进行编码。文件在准备传送到桌面和移动设备时进行预编码。
 
-**主控源视频** 上传主控源视频文件，并在上传时将这些文件编码为MP4文件。 在浏览面板中，编码的视频标记为“视频”。Dynamic Media Classic支持多种格式的视频文件编码。
+**主控** 源视频上传主控源视频文件，并在上传时将这些文件编码为MP4文件。在浏览面板中，编码的视频标记为“视频”。Dynamic Media经典支持多种格式的视频文件编码。
 
 * 请确保支持要编码的主源视频文件。
 
@@ -43,7 +43,7 @@ Dynamic Media Classic优惠了两种工作流，用于上传视频文件：
 
    请参阅[视频编码最佳做法](uploading-encoding-videos.md#best-practices-for-video-encoding)。
 
-Dynamic Media Classic还生成视频缩略图。 您可以了解有关视频缩略图的详细信息，如何获取其 URL 以及修改海报帧。
+Dynamic Media经典还生成视频缩略图。 您可以了解有关视频缩略图的详细信息，如何获取其 URL 以及修改海报帧。
 
 请参阅[使用视频缩略图](deploying-video-websites-mobile-sites.md#working-with-video-thumbnails)。
 
@@ -55,12 +55,12 @@ Dynamic Media Classic还生成视频缩略图。 您可以了解有关视频缩�
 
 1. 在全局导航栏上，单击“**上载**”。
 1. 在“上载”屏幕中，单击“**从桌面**”选项卡。
-1. On the Upload page, in the Select Files for Upload panel, click **Browse**, navigate to an MP4 video file, and then click **Open**.
+1. 在“上传”页面的“选择要上传的文件”面板中，单击&#x200B;**浏览**，导览至MP4视频文件，然后单击&#x200B;**打开**。
 1. 在“选择文件夹目标”面板中，为上载的文件选择一个文件夹。
 1. 在“上载”页中，请确保选中了“**在上载之后发布**”。
 1. 单击“**提交上载**”。
 
-*如果您希望使用Dynamic Media Classic对视频进行编码*
+*如果您希望使用Dynamic Media经典对视频进行编码*
 
 1. 在全局导航栏上，单击“**上载**”。
 1. 在“上载”屏幕中，单击“**从桌面**”选项卡。
@@ -77,7 +77,7 @@ Dynamic Media Classic还生成视频缩略图。 您可以了解有关视频缩�
 
 如果要重新编码以前上载的视频文件
 
-1. 在Dynamic Media Classic的“浏览”面板中，导览至视频并将其选中。
+1. 在Dynamic Media经典中，在浏览面板中，导览至视频并将其选中。
 1. 单击“**文件**”>“**重新处理**”。
 1. 在“重新处理资源”对话框中，展开“eVideo 选项”。
 1. 执行以下任一操作：
@@ -93,9 +93,9 @@ Dynamic Media Classic还生成视频缩略图。 您可以了解有关视频缩�
 
 下表列出了在上载文件时可以编码为 MP4 或 OGV 格式的视频文件类型（包含允许的视频编解码器）。此表列出了文件格式和编码解码器：
 
-**视频文件格式** 与ZIP文件类似，视频文件格式决定如何在视频文件中包含文件。 视频文件通常包含多个轨道 — 一个视频轨道（没有音频）和一个或多个音频轨道（没有视频） — 这些轨道相互联系并且同步。视频文件格式决定了这些不同的数据轨道和元数据的组织方式。
+**视频文** 件格式与ZIP文件类似，视频文件格式决定视频文件中包含文件的方式。视频文件通常包含多个轨道 — 一个视频轨道（没有音频）和一个或多个音频轨道（没有视频） — 这些轨道相互联系并且同步。视频文件格式决定了这些不同的数据轨道和元数据的组织方式。
 
-**视频编解码器** 视频编解码器描述了对视频进行编码的算法。 视频播放器根据其编码解码器对视频进行解码，然后在屏幕显示一系列图像或帧。编解码器将视频文件存储为播放视频所需的信息量降至最低。只会存储一个帧和下一个帧之间差异的相关信息，而不存储每个单独帧的相关信息。因为大部分视频从一个帧到下一帧会稍有不同，所以编码解码器可实现高压缩率，这会导致文件大小更小。
+**视频** 编解码器视频编解码器描述对视频进行编码的算法。视频播放器根据其编码解码器对视频进行解码，然后在屏幕显示一系列图像或帧。编解码器将视频文件存储为播放视频所需的信息量降至最低。只会存储一个帧和下一个帧之间差异的相关信息，而不存储每个单独帧的相关信息。因为大部分视频从一个帧到下一帧会稍有不同，所以编码解码器可实现高压缩率，这会导致文件大小更小。
 
 | 视频文件格式 | 视频编解码器 |
 |:--- |:--- |
@@ -122,11 +122,11 @@ Dynamic Media Classic还生成视频缩略图。 您可以了解有关视频缩�
 
 ## 视频编码最佳做法 {#best-practices-for-video-encoding}
 
-以下是在Dynamic Media Classic中对源视频文件进行编码的最佳实践提示。
+以下是在Dynamic Media经典中对源视频文件进行编码的最佳实践提示。
 
 有关视频编码的更多建议，请参阅以下内容：
 
-* Article: *Streaming 101: The Basics — Codecs, Bandwidth, Data Rate, and Resolution: * [www.adobe.com/go/learn_s7_streaming101_en](https://www.adobe.com/go/learn_s7_streaming101_en).
+* 文章：*流101:基础知识——编解码器、带宽、数据速率和分辨率：* [www.adobe.com/go/learn_s7_streaming101_en](https://www.adobe.com/go/learn_s7_streaming101_en)。
 * 视频：*视频编码基础知识：* [www.adobe.com/go/learn_s7_encoding_en](https://www.adobe.com/go/learn_s7_encoding_en)。
 
 ### 源视频文件 {#source-video-files}
@@ -141,15 +141,15 @@ Dynamic Media Classic还生成视频缩略图。 您可以了解有关视频缩�
 | 1280 X 720 | 16:9 | 3000 - 6000 kbps，具体取决于视频中动作的数量。 |
 | 1920 X 1080 | 16:9 | 6000 - 8000 kbps，具体取决于视频中动作的数量。 |
 
-### 获取文件元数据 {#obtaining-a-file-s-metadata}
+### 获取文件元数据  {#obtaining-a-file-s-metadata}
 
-您可以通过在Dynamic Media Classic中查看文件的元数据、使用视频编辑工具，或使用专为获取元数据而设计的应用程序，来获取文件的元数据。 以下是使用第三方应用程序 MediaInfo 获取视频文件元数据的说明：
+您可以通过在Dynamic Media经典中查看文件的元数据、使用视频编辑工具或使用专为获取元数据而设计的应用程序来获取文件的元数据。 以下是使用第三方应用程序 MediaInfo 获取视频文件元数据的说明：
 
-1. Go to this web page: [https://mediainfo.sourceforge.net/en/Download](https://mediainfo.sourceforge.net/en/Download).
+1. 转到此网页：[https://mediainfo.sourceforge.net/en/Download](https://mediainfo.sourceforge.net/en/Download)。
 1. 选择和下载图形界面版本的安装程序，并按安装说明操作。
 1. 安装后，右键单击视频文件（仅限 Windows），并选择 MediaInfo，或者打开 MediaInfo 并将您的视频文件拖动到应用程序中。您会看到与视频文件相关的所有元数据，其中包括其宽度、高度和 fps。
 
-### 高宽比 {#aspect-ratio}
+### 高宽比  {#aspect-ratio}
 
 在为主视频文件选择或创建视频编码预设时，请确保该预设具有与主视频文件相同的高宽比。*高宽比*&#x200B;是视频宽度和视频高度的比例。
 
@@ -168,9 +168,9 @@ Dynamic Media Classic还生成视频缩略图。 您可以了解有关视频缩�
 
 例如，1440（宽度）x 1080（高度）的视频的高宽比为 1440/1080 或 1.33。在这种情况下，选择高宽比为 4:3 的视频编码预设来编码视频文件。
 
-### 数据速率 {#data-rate}
+### 数据速率  {#data-rate}
 
-The *data rate* (also called the* bit rate*) is the amount of data that is encoded to make up a single second of video playback. 数据速率以千比特/秒 (Kbps) 为度量单位。
+*数据速率*（也称为*位速率*）是编码成一秒钟视频回放的数据量。 数据速率以千比特/秒 (Kbps) 为度量单位。
 
 >[!NOTE]
 >
@@ -187,7 +187,7 @@ The *data rate* (also called the* bit rate*) is the amount of data that is encod
 | 2000 | 标准带宽桌面连接。对于此连接，目标数据率范围为800-2000 Kbps，大多数目标的平均速率为1200-1500 Kbps。 |
 | 5000 | 标准高带宽连接。不推荐在此上限范围内编码，因为大部分消费者无法使用此速度的视频传送。 |
 
-### 分辨率 {#resolution}
+### 分辨率  {#resolution}
 
 *分辨率*&#x200B;说明了视频文件的高度和宽度（以像素为单位）。大多数源视频都以高分辨率（例如，1920 x 1080）存储。为了实现流，将源视频压缩为更小的分辨率（640 x 480 或更小）。
 
@@ -220,13 +220,13 @@ The *data rate* (also called the* bit rate*) is the amount of data that is encod
 | 720p | 720 | 大屏幕 |
 | 1080p | 1080 | 高清大屏幕 |
 
-### Fps（每秒帧数） {#fps-frames-per-second}
+### Fps（每秒帧数）  {#fps-frames-per-second}
 
 在美国和日本，大部分视频以 29.97 帧/秒 (fps) 拍摄；在欧洲，大部分视频以 25 fps 拍摄。电影以 24 fps 拍摄。
 
 选择与您的主视频文件的 fps 比率匹配的视频编码预设。例如，如果您的主视频是 25 fps，选择 25 fps 的编码预设。默认情况下，所有自定义编码都使用主视频文件的 fps。因此，在创建视频编码预设时，您不需要明确指定 fps 设置。
 
-### 视频编码尺寸 {#video-encoding-dimensions}
+### 视频编码尺寸  {#video-encoding-dimensions}
 
 为获得最佳结果，请选择编码尺寸，以便源视频是您的所有编码视频的整数倍。
 
@@ -243,17 +243,17 @@ The *data rate* (also called the* bit rate*) is the amount of data that is encod
 | 编码视频 | 640 x 360 | 3 | 3 |
 | 编码视频 | 480 x 270 | 4 | 4 |
 
-### 编码视频文件格式 {#encoded-video-file-format}
+### 编码视频文件格式  {#encoded-video-file-format}
 
-AdobeDynamic Media Classic建议使用MP4 H.264视频编码预设。 由于 MP4 文件使用 H.264 视频编解码器，因此可以提供压缩文件大小的高品质视频。
+AdobeDynamic Media经典建议使用MP4 H.264视频编码预设。 由于 MP4 文件使用 H.264 视频编解码器，因此可以提供压缩文件大小的高品质视频。
 
-## 使用视频编码预设 {#working-with-video-encoding-presets}
+## 使用视频编码预设  {#working-with-video-encoding-presets}
 
 通过视频制作设备和视频编辑软件创建的主视频文件通常太大，并且格式不适用于传送到在线的目标位置。要将数字视频转换为适用于在不同屏幕上播放的适当格式和规格，您可以将视频文件&#x200B;*转码*（此过程也称为&#x200B;*编码*）。在编码过程中，视频将压缩为最适合传送到网站和移动设备的较小且有效的文件大小。
 
 请参阅[上载和编码视频](uploading-encoding-videos.md#uploading-and-encoding-videos)。
 
-Dynamic Media Classic为您提供了一个预定义的视频编码预设库，这些预设反映了目前使用的最常见的编码设置。 这些编码预设针对在目标屏幕上播放进行了优化。此外，管理员还可以创建自己的视频编码预设，以便为最终用户自定义视频大小和播放质量。所有视频编码预设，无论是Dynamic Media Classic的现成预设，还是自定义的MP4文件格式输出视频。
+Dynamic Media经典为您提供了一套预定义的视频编码预设库，这些预设反映了目前使用的最常见的编码设置。 这些编码预设针对在目标屏幕上播放进行了优化。此外，管理员还可以创建自己的视频编码预设，以便为最终用户自定义视频大小和播放质量。所有视频编码预设，无论是来自Dynamic Media经典的现成预设，还是自定义的MP4文件格式输出视频。
 
 在“视频预设”屏幕上，管理员可以设置和管理视频编码。他们可以执行以下操作：
 
@@ -262,7 +262,7 @@ Dynamic Media Classic为您提供了一个预定义的视频编码预设库，�
 * 编辑视频编码预设。
 * 删除视频预设。
 
-上传到Dynamic Media Classic或在Dynamic Media Classic中编码的任何视频均视为“视频”。 即此资源类别表示您可以传送此视频以便在桌面、移动设备或同时在两者上播放。例如，您可以在Dynamic Media Classic中预览这些类型的视频。 也可以生成 URL（使用复制 URL）和可嵌入的代码（使用嵌入代码）以用于视频播放器、网站，等等。
+上传到Dynamic Media经典或在Dynamic Media经典中编码的任何视频均被视为“视频”。 即此资源类别表示您可以传送此视频以便在桌面、移动设备或同时在两者上播放。例如，您可以在Dynamic Media经典中预览这些类型的视频。 也可以生成 URL（使用复制 URL）和可嵌入的代码（使用嵌入代码）以用于视频播放器、网站，等等。
 
 请参阅[在视频查看器中预览视频](previewing-videos-video-viewer.md#previewing-videos-in-a-video-viewer)。
 
@@ -270,17 +270,17 @@ Dynamic Media Classic为您提供了一个预定义的视频编码预设库，�
 
 请参阅[在网页中嵌入视频查看器](deploying-video-websites-mobile-sites.md#embedding-the-video-viewer-on-a-web-page)。
 
-对于在Dynamic Media Classic中上传和编码的视频资产，视频将以下文件格式传送：
+对于在Dynamic Media经典中上传和编码的视频资产，视频以以下文件格式传送：
 
-**MP4 H.264对** MP4文件进行以下操作：
+**MP4 H.264对** 于以下文件使用MP4文件：
 
 * 桌面的 HTTP 动态流。
 * HLS（HTTP实时流，Apple的流协议）。
 * 传送到 Android、Blackberry 和 Windows 移动设备的渐进式视频。
 
-任何其他视频格式和编解码器均被视为“主控视频”。 此资源类别表示此类视频为源视频文件，无法进行传送以便在桌面或移动设备上播放。例如，您无法在Dynamic Media Classic中预览这些类型的视频。 您也无法生成复制 URL 和嵌入代码，以便在视频播放器、网站等平台上使用。
+任何其他视频格式和编解码器均被视为“主控视频”。 此资源类别表示此类视频为源视频文件，无法进行传送以便在桌面或移动设备上播放。例如，您无法在Dynamic Media经典中预览这些类型的视频。 您也无法生成复制 URL 和嵌入代码，以便在视频播放器、网站等平台上使用。
 
-### 过滤视频编码预设列表 {#filtering-the-list-of-video-encoding-presets}
+### 过滤视频编码预设列表  {#filtering-the-list-of-video-encoding-presets}
 
 “视频预设”和“自适应视频预设”页包含一个表格，其中列出了每个视频预设的活动状态、预设名称、预期播放设备、视频尺寸和目标数据速率。
 
@@ -290,7 +290,7 @@ Dynamic Media Classic为您提供了一个预定义的视频编码预设库，�
 
 **过滤视频编码预设列表**
 
-1. In Dynamic Media Classic, click **Setup** > **Application Setup** > **Video Presets** > **Adaptive Video Presets** or **Single Encoding Presets**.
+1. 在Dynamic Media经典中，单击&#x200B;**设置** > **应用程序设置** > **视频预设** > **自适应视频预设**&#x200B;或&#x200B;**单个编码预设**。
 
    “自适应视频预设”和“单个编码预设”页包含一个表格，其中列出了每个视频预设的活动状态、预设名称、预期播放设备、视频尺寸和目标数据速率。
 
@@ -299,13 +299,13 @@ Dynamic Media Classic为您提供了一个预定义的视频编码预设库，�
    * 在第一个较小的下拉列表中，选择“**两者全部**”以查看所有视频预设，或者选择“**活动**”或“**非活动**”以将列表范围缩小为活动或非活动预设。
    * 在第二个较大的下拉列表中，选择一个播放设备选项以将列表范围缩小为用于在台式机、移动设备或平板设备上播放视频的视频预设。
 
-### 激活或停用视频编码预设 {#activating-or-deactivating-video-encoding-presets}
+### 激活或停用视频编码预设  {#activating-or-deactivating-video-encoding-presets}
 
 激活的视频预设将显示在“上载作业选项”对话框中。这是用户在上载期间上载视频文件时显示的对话框。他们可以从所有激活的编码预设列表中进行选择。
 
 **激活或停用视频编码预设**
 
-1. 在Dynamic Media Classic中，单击“设 **置** ”>“ **应用程序设置** ” **>“**&#x200B;视频预设”。
+1. 在Dynamic Media经典中，单击&#x200B;**设置** > **应用程序设置** > **视频预设**。
 1. 执行以下任一操作：
 
    * 单击“**自适应视频预设**”。
@@ -316,15 +316,15 @@ Dynamic Media Classic为您提供了一个预定义的视频编码预设库，�
    * 要激活某个视频预设，请在“预设”页中的“活动”列下面，选中预设名称旁边的复选框。
    * 要停用视频预设，请取消选中要停用的视频预设旁边的框。
 
-      ***note**: Inactive Video Presets do not appear in the Upload Job Options dialog box. *
+      ***注**:不活动的视频预设不会显示在上传作业选项对话框中。*
 
 1. 在页面的右下角，单击“**关闭**”。
 
-### 添加或编辑视频编码预设 {#adding-or-editing-a-video-encoding-preset}
+### 添加或编辑视频编码预设  {#adding-or-editing-a-video-encoding-preset}
 
-您可以创建自己的自定义编码视频预设，并将其添加到视频预设表中。您还可以更改Dynamic Media Classic附带的任何预定义单个编码视频预设，前提是您用新名称保存已编辑的预设。
+您可以创建自己的自定义编码视频预设，并将其添加到视频预设表中。您还可以更改Dynamic Media经典附带的任何预定义单个编码视频预设，前提是您用新名称保存已编辑的预设。
 
-Dynamic Media Classic已对目标数据速率、分辨率高度和分辨率宽度设置最大限制，以确保获得正确的播放体验。 如果超过以下限制，则会显示警告消息：
+Dynamic Media经典已对目标数据速率、分辨率高度和分辨率宽度设置最大限制，以确保获得正确的播放体验。 如果超过以下限制，则会显示警告消息：
 
 * 对于计算机播放，限制为：（宽度/16）*（高度/16）&lt; 8192。
 * 对于移动设备播放，限制为：（宽度/16）*（高度/16）&lt; 660；目标数据速率 &lt; 4000。
@@ -332,14 +332,14 @@ Dynamic Media Classic已对目标数据速率、分辨率高度和分辨率宽�
 
 **添加或编辑视频编码预设**
 
-1. 在Dynamic Media Classic中，单击“设 **置** ”>“ **应用程序设置** ” **>“**&#x200B;视频预设”。
+1. 在Dynamic Media经典中，单击&#x200B;**设置** > **应用程序设置** > **视频预设**。
 1. 单击“**单个编码预设**”以打开“视频预设”页。
 1. 在“视频预设”页中，执行以下操作之一：
 
    * 在“视频预设”工具栏上，单击“**添加**”以添加新的视频预设。
    * 选择一个视频预设。在工具栏中，单击“**编辑**”。
 
-      You cannot edit Dynamic Media Classic predefined presets; you can only create a preset from an existing one by choosing **Save As**.
+      您无法编辑Dynamic Media经典预定义预设；您只能通过选择&#x200B;**另存为**&#x200B;从现有预设创建预设。
 
 1. 在“添加视频预设”或“编辑视频预设”页中，设置所需的视频预设选项。
 
@@ -354,20 +354,20 @@ Dynamic Media Classic已对目标数据速率、分辨率高度和分辨率宽�
    | 高宽比 | 高宽比是视频宽度和视频高度的比例。下面列出的前两个高宽比通常用于水平显示视频：<ul><li> 4:3 - 适用于几乎所有的标清电视广播内容。</li><li>16:9 - 适用于几乎所有的宽屏高清电视内容 (HDTV) 和影片。</li><li>自动缩放 -（默认）这是适用于任何高宽比的单个编码预设，可用于创建传送到移动设备、平板电脑和台式机的视频。使用该预设编码的上载的源视频将设置为固定高度。但是，自动调整宽度以保持视频的高宽比。</li><li>自定义 - 要定义非标准视频大小时使用。</li><li>您选择的高宽比决定了分辨率大小的宽度和高度设置；宽度和高度值会自动缩放为适当的高宽比。</li></ul> |
    | 分辨率大小 | 分辨率大小决定了尺寸，由以像素数表示的宽乘以以像素数表示的高来表示。以像素为单位输入宽度和高度值，或拖动滑块来输入这些值。分辨率范围列出了标准分辨率大小。宽度和高度值将自动遵循所选的高宽比。例如，如果选择4:3作为宽高比，并输入400作为宽度，则会自动为高度输入300。如果您为“宽高比”设置选择了“自动缩放”，则“分辨率大小”的“宽度”值将自动设置为“自动”。单击“预览”可打开浏览器窗口，并查看您的分辨率选择。 |
    | 编码文件后缀 | 输入后缀。该后缀会附加到生成的编码视频文件的后面。您可以在名称中输入连字符和下划线；不允许使用空格和特殊字符。 |
-   | 其他设置 | Dynamic Media Classic根据最佳实践编码准则自动确定所有其他编码设置。 |
+   | 其他设置 | Dynamic Media经典根据最佳实践编码准则自动确定所有其他编码设置。 |
 
 1. 执行以下任一操作：
 
    * 如果添加或编辑了“视频预设”，请单击“**保存**”。
    * 如果通过现有的预设添加视频预设，请单击“**另存为**”。
 
-### 删除视频编码预设 {#deleting-a-video-encoding-preset}
+### 删除视频编码预设  {#deleting-a-video-encoding-preset}
 
-管理员可以删除自定义视频预设。无法删除Dynamic Media Classic附带的视频预设。
+管理员可以删除自定义视频预设。无法删除Dynamic Media经典附带的视频预设。
 
 **删除辑视频编码预设**
 
-1. 在Dynamic Media Classic中，单击“设 **置** ”>“ **应用程序设置** ” **>“**&#x200B;视频预设”。
+1. 在Dynamic Media经典中，单击&#x200B;**设置** > **应用程序设置** > **视频预设**。
 1. 单击“**单个编码预设**”以打开“视频预设”页。
 1. 在“视频预设”页中，在表格中选择不再需要的视频预设。
 1. 在“视频预设”工具栏上，单击“**删除**”。
