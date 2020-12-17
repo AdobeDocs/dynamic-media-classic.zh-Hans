@@ -1,6 +1,6 @@
 ---
-title: '“快速开始: 媒体门户”'
-seo-title: '“快速开始: 媒体门户”'
+title: “快速开始:媒体门户”
+seo-title: “快速开始:媒体门户”
 description: 'null'
 seo-description: 介质门户简介和快速开始，可帮助您使用媒体门户技术和管理快速入门和运行。
 uuid: 0dbd6146-b392-4e03-955b-0b323b654b9f
@@ -18,9 +18,9 @@ ht-degree: 84%
 ---
 
 
-# Quick Start: Media Portal{#quick-start-media-portal}
+# 快速开始:媒体门户{#quick-start-media-portal}
 
-媒体门户使公司能够轻松地获取、控制获准的创意资产并将其分发给外部合作伙伴和渠道以及内部业务用户。 此基于浏览器的“自助”环境为Media Portal用户提供管理员控制的“视图”到Dynamic Media经典资产中，以便以公司批准的格式轻松访问、浏览、搜索、预览和导出资产。
+媒体门户使公司能够轻松地获取、控制获准的创意资产并将其分发给外部合作伙伴和渠道以及内部业务用户。 此基于浏览器的“自助”环境为Media Portal用户提供管理员控制的“视图”，可轻松访问、浏览、搜索、预览和以公司批准的格式导出资产。
 
 作为管理员，您可以控制用户在 Media Portal 中查看、访问和使用资源的方式。此外，您可以自定义 Media Portal 界面，使其匹配您的网站和品牌。您可以指定字体、字体颜色和字体大小，并将徽标等品牌元素加入 Media Portal 界面中。
 
@@ -34,21 +34,21 @@ Media Portal 用户分为三个角色，即用户、参与者和用户参与者�
 
 请参阅[Media Portal 用户角色](media-portal-user-roles.md#media_portal_user_roles)。
 
-**2. 创建用于管理用户的组**
+**2.创建用于管理用户的组**
 
 组决定了用户有权访问的文件夹和文件、用户可以在这些文件夹和文件中执行的操作以及可以使用的图像预设。作为管理员，您的首要任务是创建组。对于每个组，决定组成员可以访问哪些文件夹、文件和图像预设。此外，向组成员授予读取、写入和删除权限。这些权限决定了成员是否可以浏览、编辑、重命名和删除他们可以访问的文件夹和文件。
 
 请参阅[创建和管理 Media Portal 组](creating-media-portal-groups.md#creating_and_managing_media_portal_groups)。
 
-**3. 添加用户**
+**3.添加用户**
 
 添加用户时，为用户指定一个角色（用户、参与者或用户参与者）。还要将该用户指定给一个或多个组。要加快添加用户的过程，您可以 CSV 文件形式上载用户列表。新用户会收到用于登录 Media Portal 的欢迎电子邮件和说明。
 
 请参阅[添加和管理 Media Portal 用户](adding-media-portal-users.md#adding_and_managing_media_portal_users)。
 
-**4. 管理 FTP 帐户**
+**4.管理 FTP 帐户**
 
-您可以拥有与Media Portal关联并映射到Dynamic Media经典帐户中特定文件夹的单独FTP帐户。 这种功能意味着，您可以允许用户使用单独的 FTP 帐户将数字资源上载到您的帐户中。
+您可以拥有与媒体门户关联并映射到Dynamic Media经典帐户中特定文件夹的单独FTP帐户。 这种功能意味着，您可以允许用户使用单独的 FTP 帐户将数字资源上载到您的帐户中。
 
 请参阅[管理 FTP 帐户](ftp-accounts.md#managing_ftp_accounts)。
 
@@ -58,25 +58,25 @@ Media Portal 用户分为三个角色，即用户、参与者和用户参与者�
 
 请参阅[Media Portal 用户角色](media-portal-user-roles.md#media_portal_user_roles)。
 
-**5. 指定导出选项**
+**5.指定导出选项**
 
 导出文件时，Media Portal 用户可以重设这些文件的格式并导出原始主文件（如果您已授予他们执行此操作的权限）。作为管理员，您可以决定用户如何导出文件。
 
 请参阅[指定 Media Portal 用户可以使用的导出选项](specifying-export-options-available-media.md#specifying_export_options_available_to_media_portal_users)。
 
-**6. 创建图像预设**
+**6.创建图像预设**
 
 图像预设是一组预定义的设置，用于更改图像在导出时的外观大小、图像质量、格式、分辨率以及其他方面。您可以创建图像预设，以便控制用户在导出图像时如何重设这些图像的格式。
 
 请参阅[创建和启用图像预设](creating-enabling-image-presets.md#creating_and_enabling_image_presets)。
 
-**7. 创建元数据预设和用户定义的元数据字段**
+**7.创建元数据预设和用户定义的元数据字段**
 
 元数据描述和标识了一个文件；它用于搜索和组织资源。为确保正确输入了元数据并且需要数据的元数据字段都已填充，可以创建元数据预设。元数据预设是一组预定义的元数据条目。您还可以创建元数据字段来唯一地描述您所处理的文件。
 
 请参阅[更有效地利用元数据](making-efficient-metadata.md#making_more_efficient_use_of_metadata)。
 
-**8. 自定义 Media Portal 屏幕**
+**8.自定义 Media Portal 屏幕**
 
 通过 Media Portal 样式设置，您可以在 Media Portal 屏幕中标上您公司的徽标和颜色。使用样式设置将您公司的图章放在 Media Portal 上。
 
