@@ -18,7 +18,7 @@ ht-degree: 44%
 ---
 
 
-# 媒体门户系统要求 {#system-requirements}
+# 媒体门户系统要求{#system-requirements}
 
 为获得使用Dynamic Media经典媒体门户的最佳体验，请确保您的系统满足以下系统要求和建议：
 
