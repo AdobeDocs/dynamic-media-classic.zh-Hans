@@ -22,7 +22,7 @@ ht-degree: 79%
 
 在浏览面板中，源视频标为“主视频”。编码视频标为“视频”。您可以导出源视频和主视频。要导出视频文件，请在浏览面板中将其选中，并选择“文件”>“导出”。
 
-请参 [阅从Dynamic Media Classic导出资产](exporting-assets-from-dmc.md#exporting-assets-from-dmc)。
+请参阅[从Dynamic Media经典导出资产](exporting-assets-from-dmc.md#exporting-assets-from-dmc)。
 
 >[!MORELIKETHIS]
 >
