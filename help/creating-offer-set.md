@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/target_integration
 discoiquuid: 59b6437d-c21e-4929-9291-3032dbb34565
 translation-type: tm+mt
-source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
+source-git-commit: 4819803428adee539e46498c73e5f2ba6a952693
 workflow-type: tm+mt
 source-wordcount: '1220'
 ht-degree: 57%
@@ -95,11 +95,9 @@ Dynamic Media经典优惠工具，用于编辑和创建优惠集。
 
 1. 为优惠集组合图像或视频。 开始在“Test&amp;目标优惠集”屏幕或“Grid视图”或“列表”视图中，并使用以下方法之一：
 
-   * **Test&amp;目标优惠集屏**
-幕单 **[!UICONTROL 击“构建”>“Test&amp;目标优惠集”]**。将图像或视频拖到屏幕上。要创建大小不同的视频或图像，请拖入图像或视频的多个副本，然后逐个设置每个大小。
+   * **Test&amp;目标优惠集屏** 幕单 **[!UICONTROL 击“构建”>“Test&amp;目标优惠集”]**。将图像或视频拖到屏幕上。要创建大小不同的视频或图像，请拖入图像或视频的多个副本，然后逐个设置每个大小。
 
-   * **网格或列表**
-视图选择图像或视频，然后单击“ **[!UICONTROL 构建”>“测试和目标优惠集”]**。
+   * **网格或列表** 视图选择图像或视频，然后单击“ **[!UICONTROL 构建”>“测试和目标优惠集”]**。
 
 1. 或者，选择一个图像或视频，然后单击“**预览**”。在“预览优惠”页面上，您可以更改所选图像或视频的大小和外观。 或者，您可以更改优惠集中的所有图像或视频。
 
