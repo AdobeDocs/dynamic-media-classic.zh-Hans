@@ -26,7 +26,7 @@ ht-degree: 98%
 
 如果您正在预览带参数图层的模板资源，则可以更改参数或图像预设。因为您所做的更改是嵌入式的，所以可以立即从相同的“预览”窗口查看结果。
 
-另请参阅 [Adobe查看器参考库示例](https://landing.adobe.com/zh-Hans/na/dynamic-media/ctir-2755/live-demos.html)。
+另请参阅[Adobe查看器引用库示例](https://landing.adobe.com/zh-Hans/na/dynamic-media/ctir-2755/live-demos.html)。
 
 **预览资源**
 
@@ -79,7 +79,7 @@ ht-degree: 98%
 
 1. 在“查看器列表”窗口的右下角，单击“关闭”以返回到“资源”屏幕。
 
-## 基于图像预设预览图像资源 {#previewing-an-image-asset-based-on-its-image-preset}
+## 基于图像预设预览图像资源  {#previewing-an-image-asset-based-on-its-image-preset}
 
 您可以基于图像预设来预览图像资源，从而查看在图像以不同大小动态地传送到网站或应用程序时的显示情况。
 
