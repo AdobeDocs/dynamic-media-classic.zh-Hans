@@ -2,7 +2,7 @@
 title: 关于管理资产
 seo-title: 关于管理资产
 description: 'null'
-seo-description: 介绍在Dynamic Media经典中管理资产
+seo-description: Dynamic Media经典资产管理简介
 uuid: 875e3227-d8a9-4e6c-be4e-6f0328eb4ef8
 contentOwner: rbrough
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
