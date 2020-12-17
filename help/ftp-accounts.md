@@ -20,7 +20,7 @@ ht-degree: 89%
 
 # 管理 FTP 帐户{#managing-ftp-accounts}
 
-只有 Media Portal 管理员可以监管和管理 FTP 帐户。In addition, only users with the role of *Media Portal Contributor-User *or *Media Portal Contributor* can upload digital assets.
+只有 Media Portal 管理员可以监管和管理 FTP 帐户。此外，只有角色为*Media Portal Contributor-User *或&#x200B;*Media Portal Contributor*&#x200B;的用户才能上传数字资产。
 
 请记住，您可以通过“管理设置”中的“用户管理”页面来激活或停用现有的 Media Portal 用户。
 
