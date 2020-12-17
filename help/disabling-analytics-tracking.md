@@ -2,7 +2,7 @@
 title: 禁用 Adobe Analytics 跟踪
 seo-title: 禁用 Adobe Analytics 跟踪
 description: 'null'
-seo-description: 了解如何禁用AdobeAnalytics跟踪。
+seo-description: 了解如何禁用Adobe Analytics跟踪。
 uuid: 6998bb18-1809-4fc7-a1b6-d75c24798620
 contentOwner: admin
 content-type: reference
@@ -22,8 +22,8 @@ ht-degree: 54%
 
 **禁用 Adobe Analytics 跟踪**
 
-1. 在事件经典中关闭AdobeAnalytics配置页面中的所有Dynamic Media。
+1. 关闭Dynamic Media经典中“Adobe Analytics配置”页面中的所有事件。
 1. 保存并发布。
 
-This turns off the support through Dynamic Media Classic and through URLs obtained from the **CopyURL** feature. 如果您实施了自定义跟踪，请在“配置”页中进行设置时禁用 Adobe Analytics 跟踪，以防止与自定义实施发生冲突。
+这将关闭通过Dynamic Media经典和通过从&#x200B;**CopyURL**&#x200B;功能获取的URL提供支持。 如果您实施了自定义跟踪，请在“配置”页中进行设置时禁用 Adobe Analytics 跟踪，以防止与自定义实施发生冲突。
 
