@@ -24,7 +24,7 @@ ht-degree: 56%
 UGC 支持以下文件格式：
 
 * 栅格：JPG、PNG、TIFF
-* 矢量： AI、EPS（不支持Adobe Illustrator 2018的EPS文件）、PDF（仅当PDF文件之前在Adobe Illustrator CS6中打开并保存时）
+* 矢量：AI、EPS(不支持Adobe Illustrator2018的EPS文件)、PDF(仅当PDF文件之前在Adobe IllustratorCS6中打开并保存时)
 
 上载资源之前，请获取共享密钥。使用此密钥来检索上载令牌。上载资源及执行其他 UGC 任务时，需要提交上载令牌。
 
