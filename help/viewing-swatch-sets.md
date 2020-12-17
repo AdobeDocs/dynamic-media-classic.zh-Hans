@@ -22,7 +22,7 @@ ht-degree: 86%
 
 可以使用可用预设在“预览”窗口中查看样本集。可使用样本集的“缩放查看器: 自定义查看器预设”。
 
-Dynamic Media Classic附带默认的查看器预设。 管理员可以创建或修改查看器预设。
+Dynamic Media经典版附带默认查看器预设。 管理员可以创建或修改查看器预设。
 
 ## 为样本集设置缩放查看器预设 {#setting-up-zoom-viewer-presets-for-swatch-sets}
 
@@ -31,8 +31,8 @@ Dynamic Media Classic附带默认的查看器预设。 管理员可以创建或�
 1. 单击“**设置**”>“**查看器预设**”。
 1. 执行以下任一操作：
 
-   * To create a new preset, click **Add**. In the Add Viewer Preset dialog box, choose a platform, choose Swatch Set Viewer, then click **Add**.
-   * To edit an existing Swatch Set Viewer preset, select the preset, then click **Edit**.
+   * 要创建新预设，请单击&#x200B;**添加**。 在“添加查看器预设”对话框中，选择一个平台，选择“样本集查看器”，然后单击&#x200B;**添加**。
+   * 要编辑现有的样本集查看器预设，请选择该预设，然后单击&#x200B;**编辑**。
 
 1. 在样本集查看器预设的“预设名称”框中键入名称。
 1. 在“配置查看器”屏幕中选择选项。
@@ -54,7 +54,7 @@ Dynamic Media Classic附带默认的查看器预设。 管理员可以创建或�
    * 在“资源”窗口上方的工具栏右侧，单击“**列表视图**”。在“资源”窗口中，将光标悬停在资源上，然后单击“**预览**”。
    * 在“资源”窗口上方的工具栏右侧，单击“**网格视图**”。在“资源”窗口的资源缩略图窗口中，单击“**预览**”。
    * 在“资源”窗口上方的工具栏的右侧，单击“**详细信息视图**”。在同一工具栏上，单击“**预览**”。
-   * 在“资源”窗口中，选择一个资源。On the toolbar, click **File** > **Preview**.
+   * 在“资源”窗口中，选择一个资源。在工具栏上，单击&#x200B;**文件** > **预览**。
 
 1. （可选）在预览窗口底部的下拉列表中，选择要在复制资源的 URL 时应用的 URL 编码。
 1. 单击查看器链接，在所选查看器中预览资源。
