@@ -20,7 +20,7 @@ ht-degree: 83%
 
 # 与对等客户端实时共享资源更改{#sharing-asset-changes-with-peers-in-real-time}
 
-在同一公司的一台或多台计算机上运行Dynamic Media经典的多个副本时，来自任何Dynamic Media经典客户端的以下操作都会与所有对等客户端实时更新：
+在同一公司的一台或多台计算机上运行多个Dynamic Media经典副本时，来自任何Dynamic Media经典客户端的以下操作都会与所有对等客户端实时更新：
 
 * 编辑资源（生成器、图像编辑器等。）
 * 重命名资源
