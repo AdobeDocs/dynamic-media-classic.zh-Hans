@@ -20,7 +20,7 @@ ht-degree: 48%
 
 # 发布旋转集{#publishing-a-spin-set}
 
-发布旋转集会将图像放在Dynamic Media图像服务器上，您的网站或应用程序可在这些服务器上访问它们。 此外，在发布过程中，Dynamic Media经典会激活您为网站或应用程序所需的旋转集URL字符串。
+发布旋转集会将图像放在Dynamic Media图像服务器上的旋转集中，您的网站或应用程序可在该服务器上使用这些图像。 此外，在发布过程中，Dynamic Media经典会激活您的网站或应用程序所需的旋转集URL字符串。
 
 ## 将旋转集标记为发布 {#marking-a-spin-set-for-publish}
 
@@ -28,7 +28,7 @@ ht-degree: 48%
 
 ## 发布旋转集 {#publishing-the-spin-set}
 
-要将旋转集发布到Dynamic Media图像服务器，请开始，方法是选择全局导航栏上的“发布”按钮。 然后选择一个“时间”选项，也可以为发布作业输入名称，然后选择“开始发布”按钮。
+要将旋转集发布到Dynamic Media图像服务器，请开始全局导航栏上的“发布”按钮。 然后选择一个“时间”选项，也可以为发布作业输入名称，然后选择“开始发布”按钮。
 
 >[!MORELIKETHIS]
 >
