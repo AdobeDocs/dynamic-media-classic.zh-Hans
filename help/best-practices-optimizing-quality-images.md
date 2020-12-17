@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
 discoiquuid: 8164466e-2520-482a-88ec-6191fdc77ea3
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 40105974e344859b7aa92a591f63d02f880eb1ef
 workflow-type: tm+mt
 source-wordcount: '1527'
 ht-degree: 61%
@@ -71,14 +71,14 @@ Dynamic Media经典包含100多个图像服务命令，用于调整和优化图�
       * `threshold` （0-255，效果的敏感性。）
 
          此参数确定锐化的像素与周围区域必须有多大的不同，才会被视为边缘像素，而滤镜会锐化这些像素。 阈值有助于避免出现具有类似颜色的过度锐化区域，如肤色。例如，阈值为12时，会忽略肤色亮度的细微变化，以避免添加“杂色”，同时仍会为高对比度区域添加边缘对比度，如睫毛与皮肤相遇的地方。
-      有关如何设置三个参数的详细信息（包括使用滤镜的最佳做法），请参阅以下资源：
 
-      关于[锐化图像](https://help.adobe.com/en_US/scene7/using/WS389B162D-2981-41e5-9253-15D22D2ECBC8.html)的Dynamic Media经典帮助主题。
+         有关如何设置三个参数的详细信息（包括使用滤镜的最佳做法），请参阅以下资源：
 
-      最佳实践白皮书[在Adobe Scene7出版系统和图像服务器上锐化图像](/help/assets/s7_sharpening_images.pdf)。
+         关于[锐化图像](https://help.adobe.com/en_US/scene7/using/WS389B162D-2981-41e5-9253-15D22D2ECBC8.html)的Dynamic Media经典帮助主题。
 
-   * Dynamic Media经典还允许您控制第四个参数：monochrome(`0,1`)。 此参数确定是使用值 `0` 将 USM 锐化分别应用于每个颜色分量，还是使用值 `1` 将 USM 锐化应用于图像亮度/强度。
+         最佳实践白皮书[在Adobe Scene7出版系统和图像服务器上锐化图像](/help/assets/s7_sharpening_images.pdf)。
 
+      * Dynamic Media经典还允许您控制第四个参数：monochrome(`0,1`)。 此参数确定是使用值 `0` 将 USM 锐化分别应用于每个颜色分量，还是使用值 `1` 将 USM 锐化应用于图像亮度/强度。
 
 作为最佳做法，请从 USM 锐化 radius 参数入手。可以最初使用以下 radius 设置：
 
@@ -130,4 +130,3 @@ Dynamic Media经典包含100多个图像服务命令，用于调整和优化图�
 * 实时尝试和测试不同的参数，可以直接在Dynamic Media经典URL上，也可以使用Dynamic Media经典的图像调整功能，该功能为调整操作提供实时预览。
 * 作为最佳实践，请记住，您可以将Dynamic Media图像服务命令分组到图像预设中。 图像预设基本上是具有自定义预设名称（如`$thumb_low$`和`&product_high$`）的URL命令宏。 URL 路径中的自定义预设名称将调用这些预设。此功能帮助您针对网站上的图像的不同使用方式管理命令和质量设置，并缩短 URL 的总体长度。
 * Dynamic Media经典还提供更高级的图像质量调整方法，如在摄取时应用锐化图像。 对于可以选择使用预设进一步调整和优化图像以及提供相应结果的高级使用案例，Adobe 专业服务部门可以为您提供自定义分析和最佳做法。
-
