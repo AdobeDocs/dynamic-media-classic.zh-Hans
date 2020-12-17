@@ -20,7 +20,7 @@ ht-degree: 88%
 
 # 将旋转集链接到网页{#linking-a-spin-set-to-a-web-page}
 
-网站和应用程序通过URL字符串或嵌入代码访问Dynamic Media Image Server内容，包括旋转集。 这些 URL 字符串在发布过程中被激活。要将旋转集的URL字符串或嵌入代码放置到网页和应用程序中，请从Dynamic Media Classic中复制它。
+网站和应用程序通过URL字符串或嵌入代码访问Dynamic Media图像服务器内容，包括旋转集。 这些 URL 字符串在发布过程中被激活。要将旋转集的URL字符串或嵌入代码放置到网页和应用程序中，请从Dynamic Media经典中复制它。
 
 >[!NOTE]
 >
@@ -45,15 +45,15 @@ ht-degree: 88%
 
       在“查看器列表”页面中表的“操作”列下，单击“**复制 URL**”。
 
-## 将旋转集 URL 添加到您的网页 {#adding-spin-set-urls-to-your-web-page}
+## 将旋转集 URL 添加到您的网页  {#adding-spin-set-urls-to-your-web-page}
 
-旋转集的部署方式与所有缩放查看器一样，即通过在缩放窗口中显示旋转集的动态页面（ASP 或 JSP）进行部署。对Dynamic Media Classic平台的URL调用在缩放查看器上遵循相同的协议。 不过，查看器预设名称取决于您的管理员所定义的默认旋转集查看器预设。例如，以下非实时 URL 语法示例包括名为 `viewer.jsp` 的预设名称，而 SKU 参数现在为旋转集名称：
+旋转集的部署方式与所有缩放查看器一样，即通过在缩放窗口中显示旋转集的动态页面（ASP 或 JSP）进行部署。对Dynamic Media经典平台的URL调用遵循缩放查看器上的相同协议。 不过，查看器预设名称取决于您的管理员所定义的默认旋转集查看器预设。例如，以下非实时 URL 语法示例包括名为 `viewer.jsp` 的预设名称，而 SKU 参数现在为旋转集名称：
 
 ```as3
 https://sample.scene7.com/s7ondemand/spin/viewer.jsp?company=S7Web&sku=backpack_spin
 ```
 
-在此 URL 语法示例中（链接处于不活动状态），请注意 SKU 编号 (`sku=backpack_spin`)。The string after `sku=` is the Spin Set name ( `backpack spin`).
+在此 URL 语法示例中（链接处于不活动状态），请注意 SKU 编号 (`sku=backpack_spin`)。`sku=`后的字符串是旋转集名称(`backpack spin`)。
 
 ## 复制旋转集查看器的嵌入代码 {#copying-the-embed-code-of-a-spin-set-viewer}
 
