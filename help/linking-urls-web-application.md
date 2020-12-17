@@ -20,9 +20,9 @@ ht-degree: 72%
 
 # 将 URL 链接至 Web 应用程序{#linking-urls-to-your-web-application}
 
-您的网站和应用程序通过URL字符串访问Dynamic Media Image Server内容。 在发布图像后，Dynamic Media Classic会激活引用Dynamic Media图像服务器上的图像预设的URL字符串。 可将这些 URL 粘贴至 Web 浏览器进行测试。
+您的网站和应用程序通过URL字符串访问Dynamic Media图像服务器内容。 发布图像后，Dynamic Media经典会激活引用Dynamic Media图像服务器上的图像预设的URL字符串。 可将这些 URL 粘贴至 Web 浏览器进行测试。
 
-要将这些URL字符串放置到网页和应用程序中，请从Dynamic Media Classic中复制它们。 要获得由图像预设生成的 URL 字符串，请转到“预览”屏幕或浏览面板（在中）。
+要将这些URL字符串放置到网页和应用程序中，请从Dynamic Media经典中复制它们。 要获得由图像预设生成的 URL 字符串，请转到“预览”屏幕或浏览面板（在中）。
 
 ## 获得图像预设 URL {#obtaining-an-image-preset-url}
 
@@ -43,7 +43,7 @@ ht-degree: 72%
 1. 在“图像预设列表”窗口中，在预览窗格的右上角区域中，单击所选预设类型对应的“复制 URL”。
 1. 在“图像预设列表”窗口的右下角，单击“关闭”以返回到“资源”屏幕。
 
-### 从浏览面板中获得图像预设 URL {#obtaining-an-image-preset-url-from-the-browse-panel}
+### 从浏览面板中获得图像预设 URL  {#obtaining-an-image-preset-url-from-the-browse-panel}
 
 1. 在左侧“资源库”面板中，导航到包含要预览的图像资源的“资源”文件夹。
 1. 在“资源”窗口上方，工具栏的右侧，单击“网格视图”。在“资源”窗口中，选择单个图像资源。
@@ -51,13 +51,13 @@ ht-degree: 72%
 1. 单击屏幕右侧面板上的 URL 以展开图像预设列表。
 1. 单击带有要复制到剪贴板的 URL 的图像预设名称旁的“复制 URL”链接。
 
-## 关于图像预设 URL 字符串 {#about-image-preset-url-strings}
+## 关于图像预设 URL 字符串  {#about-image-preset-url-strings}
 
 对Dynamic Media图像服务器的图像大小调整URL调用具有以下基本语法：
 
 *路径*/*图像服务器名称*/*帐户名称*/*图像名称*?*修饰符1*&amp;*修饰符2*&amp;...
 
-在Dynamic Media图像服务器URL中，显示图像的说明显示在问号(?)后。 例如，以下 URL 调用将传送一个名为“backpack”宽度为 250 个像素的图像：
+在Dynamic Media图像服务器URL中，在问号(?)后将显示显示图像的服务器说明。 例如，以下 URL 调用将传送一个名为“backpack”宽度为 250 个像素的图像：
 
 ```as3
 https://s7d1.scene7.com/is/image/S7learn/backpack?wid=250
@@ -75,11 +75,11 @@ https://s7d1.scene7.com/is/image/S7learn/backpack?wid=250&fmt=jpeg&qlt=80,0&resM
 https://s7d1.scene7.com/is/image/S7learn/backpack?$Large$
 ```
 
-在 URL 中图像预设名称用美元符号 ($) 括起。When a Dynamic Media Image Server encounters the Image Preset portion of the URL (the `Large` in this case), using the size and formatting instructions defined by the “Large” Image Preset.
+在 URL 中图像预设名称用美元符号 ($) 括起。当Dynamic Media图像服务器遇到URL的“图像预设”部分（本例中为`Large`）时，请使用“大”图像预设定义的大小和格式说明。
 
 ## 将动态图像添加到网页中 {#adding-dynamic-images-to-your-web-page}
 
-To add dynamic images to your web page, the `<IMG>` tag in your HTML web page code typically is modified using the Dynamic Media Classic URL string to make a request to Dynamic Media Image Servers. 该字符串会按图像预设定义的大小和格式规范生成图像。
+要向网页添加动态图像，HTML网页代码中的`<IMG>`标记通常会使用Dynamic Media经典URL字符串进行修改，以向Dynamic Media图像服务器发出请求。 该字符串会按图像预设定义的大小和格式规范生成图像。
 
 例如，与以下用于打开静态图像的典型调用不同
 
@@ -87,10 +87,10 @@ To add dynamic images to your web page, the `<IMG>` tag in your HTML web page co
 img src="/company_images/products/backpack_thumbnail.jpg"
 ```
 
-you now use the `<IMG>`tag to replace the reference to a static image with an Image Preset call to the Dynamic Media Classic platform. 示例调用如下所示：
+您现在使用`<IMG>`标记将对静态图像的引用替换为对Dynamic Media经典平台的图像预设调用。 示例调用如下所示：
 
 ```as3
 img src="https://s7d2.scene7.com/is/image/S7learn/backpack_trns?$thumbnail$”
 ```
 
-In this example, a Dynamic Media Image Server “looks up” the definition of `$thumbnail$` and dynamically generates the appropriate image with the sizing and formatting specifications defined by the `thumbnail`Image Preset. 在 URL 字符串中，除产品图像文件名称（本例中为`backpack_trns` ）之外的所有项目都由网页模版所固定。唯一可从商业服务器自动插入到网页模版的元素是 IPS ID 或图像名称。
+在此示例中，Dynamic Media图像服务器“查找”`$thumbnail$`的定义，并动态生成相应的图像，其大小调整和格式设置规范由`thumbnail`图像预设定义。 在 URL 字符串中，除产品图像文件名称（本例中为`backpack_trns` ）之外的所有项目都由网页模版所固定。唯一可从商业服务器自动插入到网页模版的元素是 IPS ID 或图像名称。
