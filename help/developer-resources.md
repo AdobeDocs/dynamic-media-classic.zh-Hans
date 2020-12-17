@@ -2,7 +2,7 @@
 title: 开发人员资源
 seo-title: 开发人员资源
 description: 'null'
-seo-description: 了解哪些开发人员资源可供Dynamic Media使用。
+seo-description: 了解可用于Dynamic Media的开发人员资源。
 uuid: 97702f33-fb9c-4ba7-9c42-757dec7e6645
 contentOwner: admin
 content-type: reference
@@ -19,7 +19,7 @@ ht-degree: 39%
 
 # 开发人员资源{#developer-resources}
 
-Dynamic Media经典提供有关每个Dynamic Media经典软件模块最新主版本的文档。 模块文档可用于图像创作、Dynamic Media经典、图像服务器和图像渲染以及查看器。
+Dynamic Media经典为每个Dynamic Media经典软件模块的最新主要版本提供文档。 模块文档可用于图像创作、Dynamic Media经典、图像服务器和图像渲染以及查看器。
 
 对于一些模块，也提供了发行说明。发行说明中提供了有关相应发行版的详细信息，其中包括增强功能、新增功能、提示、故障排除建议以及已知的未决问题。发行说明还提供富媒体功能的交互示例，并解释这些功能的激活方法。此外，发行说明针对带有授权软件的客户端提供了安装和配置说明。
 
@@ -30,7 +30,7 @@ Dynamic Media经典提供有关每个Dynamic Media经典软件模块最新主版
 
 | 文档 | 网页地址 |
 |--- |--- |
-| API 参考指南 | 联系Dynamic Media经典技术支持以获取文档。 |
+| API 参考指南 | 请与Dynamic Media经典技术支持联系以获取文档。 |
 
 **图像创作**
 
