@@ -9,10 +9,10 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: 3c9ee4ec-dd37-498d-98d6-1339b80177ff
 translation-type: tm+mt
-source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
+source-git-commit: 3a8283196c9c99a5709cf4995c426da7e4f6c83b
 workflow-type: tm+mt
-source-wordcount: '1945'
-ht-degree: 64%
+source-wordcount: '1947'
+ht-degree: 63%
 
 ---
 
@@ -61,9 +61,9 @@ Dynamic Media经典支持多个用户角色。 这些角色可以访问为Dynami
 
    保存之后，系统将提示您是否要将用户添加到其他公司。如果要将用户添加到公司中，请单击“添加”。
 
-   所有新用户都会得到一个随机生成的密码；用户首次登录Dynamic Media经典时，需要更改密码。
+   所有新用户都会得到一个随机生成的密码；用户首次登录Dynamic Media经典桌面应用程序时需要更改密码。
 
-   在您添加新用户后，会向他们发送欢迎电子邮件。电子邮件会提供临时密码，并说明如何登录到 Scene7 Publishing System。
+   在您添加新用户后，会向他们发送欢迎电子邮件。该电子邮件提供临时密码并说明如何登录Dynamic Media经典。
 
    如果用户未收到欢迎电子邮件，请让他们转到Dynamic Media经典登录页(https://s7sps1.scene7.com)，然后单击“忘记我的密码”。 将重置密码并发送新的电子邮件。如果用户未收到电子邮件，并且该电子邮件不在“垃圾邮件”文件夹中，请联系技术支持人员。
 
