@@ -10,10 +10,10 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/media_portal
 discoiquuid: 5e933045-ce1a-41b9-ba8b-2151c396b7a2
 translation-type: tm+mt
-source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
+source-git-commit: 3a8283196c9c99a5709cf4995c426da7e4f6c83b
 workflow-type: tm+mt
 source-wordcount: '1032'
-ht-degree: 84%
+ht-degree: 83%
 
 ---
 
@@ -117,7 +117,7 @@ ht-degree: 84%
 
    **[!UICONTROL 发送]** 电子邮件如果您不想通过电子邮件通知新用户您已注册，请取消选择此选项。
 
-   **[!UICONTROL 默认]** 密码为新用户输入临时密码，或将字段留空以让Dynamic Media经典生成随机密码。首次登录时，系统会要求用户更改密码。
+   **[!UICONTROL 默认]** 密码为新用户输入临时密码，或将字段留空以让Dynamic Media经典生成随机密码。用户首次登录时会被要求更改密码。
 
    **[!UICONTROL 替]** 换URL如果用户通过其他URL访问Dynamic Media经典，请输入一个与默认URL不同的URL。
 
