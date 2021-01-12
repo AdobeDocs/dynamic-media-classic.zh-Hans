@@ -5,7 +5,7 @@ description: AdobeDynamic Media经典技术文档
 seo-description: 'AdobeDynamic Media经典（以前称为Scene 7）的技术文档、发行说明和自助资料 '
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 translation-type: tm+mt
-source-git-commit: 17e152e3768f527a9db2eadb664ca420778372ae
+source-git-commit: 3a8283196c9c99a5709cf4995c426da7e4f6c83b
 workflow-type: tm+mt
 source-wordcount: '670'
 ht-degree: 13%
@@ -19,7 +19,7 @@ ht-degree: 13%
 
 ## 新Dynamic Media经典登录体验于2020年6月30日推出
 
-2020年6月30日，Dynamic Media经典用户将获得新的登录体验，该体验不再依赖浏览器中的AdobeFlash技术。 请阅读以下常见问题解答以了解更多信息。
+2020年6月30日，Dynamic Media经典用户将获得一种新的登录体验，该体验不再依赖浏览器中的AdobeFlash技术。 请阅读以下常见问题解答以了解更多信息。
 
 请参阅[常见问题解答](new-ui-2020.md)。 截至2020年5月7日的新更新。
 
