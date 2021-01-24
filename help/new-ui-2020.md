@@ -6,9 +6,9 @@ contentOwner: rbrough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 60aedff7e46d134537e2a0639d1c28c3a7909b90
 workflow-type: tm+mt
-source-wordcount: '1128'
+source-wordcount: '1148'
 ht-degree: 0%
 
 ---
@@ -99,6 +99,12 @@ Dynamic Media经典是一款功能强大且功能丰富的解决方案，旨在�
 ### **_我想进一步了解如何与AEM Assets一起升级到Dynamic Media。在哪里可以找到更多信息？_**
 
 要进一步了解升级到下一代富媒体创作、发布和动态投放的优势，请访问[Dynamic Media升级门户](http://exploreadobe.com/dynamic-media-upgrade/)。
+
+>[!MORELIKETHIS]
+>
+>* [登录和注销Dynamic Media经典桌面应用程序](/help/signing-out.md)
+>* [下载和安装Dynamic Media经典桌面应用程序](/help/dynamic-media-classic-desktop-app.md)
+
 
 
 <!-- SAVE - OLD LINK TO BEST PRACTICES GUIDE IN PDF https://www.adobe.com/content/dam/www/us/en/marketing/experience-manager-assets/dynamic-media/adobe-dynamic-media-classic-best-practices-guide.pdf -->
