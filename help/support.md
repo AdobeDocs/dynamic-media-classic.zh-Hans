@@ -1,8 +1,6 @@
 ---
 title: 支持
-seo-title: 支持
-description: 'null'
-seo-description: 了解技术支持选项。
+description: 了解技术支持选项。
 uuid: b4927dc0-3a58-43da-b967-d00e2582cb15
 contentOwner: admin
 content-type: reference
@@ -10,10 +8,10 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_scene7
 discoiquuid: 05e443b2-ac15-4d87-859a-271699593304
 translation-type: tm+mt
-source-git-commit: df88ca77d3f9c40c59d796e6854942b93cef5729
+source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
 workflow-type: tm+mt
-source-wordcount: '187'
-ht-degree: 35%
+source-wordcount: '185'
+ht-degree: 34%
 
 ---
 
