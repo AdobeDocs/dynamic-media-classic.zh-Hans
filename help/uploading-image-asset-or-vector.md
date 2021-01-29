@@ -1,17 +1,15 @@
 ---
 title: 上载图像资源或矢量资源
-seo-title: 上载图像资源或矢量资源
-description: 'null'
-seo-description: 了解如何上传图像资产或矢量资产。
+description: 了解如何上传图像资产或矢量资产。
 uuid: d0e4a754-8a49-4b0f-b202-e9003bdb8f20
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: de21dca9-99fe-4183-b647-debfe112fda4
 translation-type: tm+mt
-source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
+source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
 workflow-type: tm+mt
-source-wordcount: '1536'
+source-wordcount: '1527'
 ht-degree: 84%
 
 ---
@@ -126,7 +124,7 @@ https://s7ugc1.scene7.com/ugc/image?op=upload&upload_token=aa2a378a-cd25-4c80-99
 * 文件大小限制.
 * 文件扩展名的列表.
 * 是否保留与资产关联的颜色用户档案和文件名。
-* 是否使用挖空背景。 如果启用“挖空背景”，请设置“角”、“容差”和“填充方法”。 请参阅上载[的“图像编辑”选项中的挖空背景。](image-editing-options-upload.md#image-editing-options-at-upload)
+* 是否使用挖空背景。 如果启用“挖空背景”，请设置“角”、“容差”和“填充方法”。 请参阅上载](image-editing-options-upload.md#image-editing-options-at-upload)的“图像编辑”选项中的挖空背景。[
 * 待上载文件的名称
 
 <!-- 
@@ -289,7 +287,7 @@ https://s7ugc1.scene7.com/ugc/vector?op=upload&upload_token=aa2a378a-cd25-4c80-9
 * 文件大小限制.
 * 文件扩展名的列表.
 * 是否保留与资产关联的颜色用户档案和文件名。
-* 是否使用挖空背景。 如果启用“挖空背景”，请设置“角”、“容差”和“填充方法”。 请参阅上载[的“图像编辑”选项中的挖空背景。](image-editing-options-upload.md#image-editing-options-at-upload)
+* 是否使用挖空背景。 如果启用“挖空背景”，请设置“角”、“容差”和“填充方法”。 请参阅上载](image-editing-options-upload.md#image-editing-options-at-upload)的“图像编辑”选项中的挖空背景。[
 * 待上载文件的名称
 
 <!-- 
