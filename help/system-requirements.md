@@ -1,8 +1,6 @@
 ---
 title: 系统要求
-seo-title: 系统要求
-description: 'null'
-seo-description: '了解系统要求以获得最佳体验，使用Dynamic Media经典。 '
+description: '了解系统要求以获得最佳体验，使用Dynamic Media经典。 '
 uuid: 8dfc925b-7350-41af-9207-3b2a743c0998
 contentOwner: admin
 content-type: reference
@@ -10,10 +8,10 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_scene7
 discoiquuid: 27278fef-8b0e-41cd-b393-7a4c3625d5c0
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
 workflow-type: tm+mt
-source-wordcount: '95'
-ht-degree: 47%
+source-wordcount: '92'
+ht-degree: 45%
 
 ---
 
