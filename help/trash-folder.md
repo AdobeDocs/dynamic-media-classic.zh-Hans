@@ -1,8 +1,6 @@
 ---
 title: 管理垃圾桶文件夹
-seo-title: 管理垃圾桶文件夹
-description: 'null'
-seo-description: 了解如何管理垃圾桶文件夹。
+description: 了解如何管理垃圾桶文件夹。
 uuid: 3992a5b8-1919-4924-b07d-7fb25565effd
 contentOwner: admin
 content-type: reference
@@ -10,9 +8,9 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: 553c95fc-0a41-4f06-af50-a62bc1438149
 translation-type: tm+mt
-source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
+source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
 workflow-type: tm+mt
-source-wordcount: '542'
+source-wordcount: '537'
 ht-degree: 61%
 
 ---
