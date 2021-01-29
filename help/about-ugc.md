@@ -1,18 +1,16 @@
 ---
 title: 关于用户生成的内容
-seo-title: 关于用户生成的内容
-description: 'null'
-seo-description: 用户生成内容的简介。
+description: 用户生成内容的简介。
 uuid: ba867a6a-84a4-4968-9a77-712f3ce5dad5
 contentOwner: rbrough
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/user_generated_content
 discoiquuid: c1594abf-8cc2-46dd-88bf-af93db7db607
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
 workflow-type: tm+mt
-source-wordcount: '139'
-ht-degree: 56%
+source-wordcount: '135'
+ht-degree: 57%
 
 ---
 
