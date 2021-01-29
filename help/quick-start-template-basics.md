@@ -1,8 +1,6 @@
 ---
 title: '"快速入门：模板基础"'
-seo-title: '"快速入门：模板基础"'
-description: 'null'
-seo-description: 模板基础知识的简介和快速开始，帮助您快速入门和使用。
+description: 模板基础知识的简介和快速开始，帮助您快速入门和使用。
 uuid: 16d78cbb-f762-4263-aea9-5712eb933693
 contentOwner: admin
 content-type: reference
@@ -10,9 +8,9 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/template_basics
 discoiquuid: dd0fbb39-3f6a-496b-a9b6-63b11dcb823a
 translation-type: tm+mt
-source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
+source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
 workflow-type: tm+mt
-source-wordcount: '789'
+source-wordcount: '784'
 ht-degree: 71%
 
 ---
