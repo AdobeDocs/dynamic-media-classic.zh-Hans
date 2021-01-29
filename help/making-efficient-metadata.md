@@ -1,8 +1,6 @@
 ---
 title: 更加有效地利用元数据
-seo-title: 更加有效地利用元数据
-description: 'null'
-seo-description: 了解如何更有效地使用元数据。
+description: 了解如何更有效地使用元数据。
 uuid: 6690b815-ca5f-491f-94eb-3d4657fbb8ed
 contentOwner: admin
 content-type: reference
@@ -10,9 +8,9 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/media_portal
 discoiquuid: b399c2b2-3e59-43e7-aa7d-dd4fdf4e9bad
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
 workflow-type: tm+mt
-source-wordcount: '169'
+source-wordcount: '162'
 ht-degree: 89%
 
 ---
