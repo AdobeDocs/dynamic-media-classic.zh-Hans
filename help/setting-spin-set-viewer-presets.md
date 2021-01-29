@@ -1,8 +1,6 @@
 ---
 title: 设置旋转集查看器预设
-seo-title: 设置旋转集查看器预设
-description: 'null'
-seo-description: 了解如何设置旋转集查看器预设。
+description: 了解如何设置旋转集查看器预设。
 uuid: e095f989-f3df-46ea-be62-812922805dc0
 contentOwner: admin
 content-type: reference
@@ -10,10 +8,10 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/spin_sets
 discoiquuid: 9dfaa37a-59ab-46ae-94c3-c0ab9f940023
 translation-type: tm+mt
-source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
+source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
 workflow-type: tm+mt
-source-wordcount: '237'
-ht-degree: 76%
+source-wordcount: '230'
+ht-degree: 75%
 
 ---
 
