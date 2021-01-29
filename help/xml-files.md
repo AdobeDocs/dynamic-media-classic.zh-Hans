@@ -1,18 +1,14 @@
 ---
 title: XML 文件
-seo-title: XML 文件
-description: 'null'
-seo-description: 使用基于XML的系统管理图像和图像信息的网站可以将XML文件上传到Dynamic Media经典。 进一步了解XML文件。
-uuid: 6301d042-2040-4408-b816-8f134482beb7
+description: 使用基于XML的系统管理图像和图像信息的网站可以将XML文件上传到Dynamic Media经典。 进一步了解XML文件。
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
-discoiquuid: 16216ce8-a81f-4efa-8ca6-a985256604db
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
 workflow-type: tm+mt
-source-wordcount: '124'
-ht-degree: 62%
+source-wordcount: '121'
+ht-degree: 61%
 
 ---
 
