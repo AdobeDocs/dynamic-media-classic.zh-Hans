@@ -1,8 +1,6 @@
 ---
 title: 创建图像映射
-seo-title: 创建图像映射
-description: 'null'
-seo-description: 了解如何创建图像映射。
+description: 了解如何创建图像映射。
 uuid: 0dcc4956-006e-4a74-9d6a-6d4bb23790ce
 contentOwner: admin
 content-type: reference
@@ -10,9 +8,9 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
 discoiquuid: 4eddf983-38cb-4f00-b3be-85c20bdd6f69
 translation-type: tm+mt
-source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
+source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
 workflow-type: tm+mt
-source-wordcount: '2444'
+source-wordcount: '2440'
 ht-degree: 74%
 
 ---
