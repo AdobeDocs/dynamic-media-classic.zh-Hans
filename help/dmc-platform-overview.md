@@ -1,8 +1,6 @@
 ---
 title: AdobeDynamic Media经典平台概述
-seo-title: AdobeDynamic Media经典平台概述
-description: 'null'
-seo-description: Dynamic Media经典平台和工作流程概述。
+description: Dynamic Media经典平台和工作流程概述。
 uuid: e7d3bfb3-1cfe-43ea-b862-aae3b3928c71
 contentOwner: admin
 content-type: reference
@@ -10,9 +8,9 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/getting_started
 discoiquuid: 2b134cfa-7f46-4f5f-959e-b30aae610bb9
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
 workflow-type: tm+mt
-source-wordcount: '449'
+source-wordcount: '442'
 ht-degree: 32%
 
 ---
