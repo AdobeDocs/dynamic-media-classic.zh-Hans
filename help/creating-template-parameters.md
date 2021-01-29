@@ -1,8 +1,6 @@
 ---
 title: 创建模板参数
-seo-title: 创建模板参数
-description: 'null'
-seo-description: 了解如何创建模板参数。
+description: 了解如何创建模板参数。
 uuid: d17168a8-4776-4761-b022-8258d5997604
 contentOwner: admin
 content-type: reference
@@ -10,9 +8,9 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/template_basics
 discoiquuid: d263f041-5a0d-4c4f-9266-aeff51a5a7e2
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
 workflow-type: tm+mt
-source-wordcount: '791'
+source-wordcount: '787'
 ht-degree: 98%
 
 ---
