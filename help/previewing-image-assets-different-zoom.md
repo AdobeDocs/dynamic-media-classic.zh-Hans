@@ -1,8 +1,6 @@
 ---
 title: 使用不同的缩放查看器预览图像资源
-seo-title: 使用不同的缩放查看器预览图像资源
-description: 'null'
-seo-description: 了解如何使用不同的缩放查看器预览图像资源。
+description: 了解如何使用不同的缩放查看器预览图像资源。
 uuid: 244c0faa-2a33-416f-8987-bdc0c85f5c2e
 contentOwner: admin
 content-type: reference
@@ -10,10 +8,10 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/zoom
 discoiquuid: b072d3b7-0d30-4903-9c87-5fbbcc89bd51
 translation-type: tm+mt
-source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
+source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
 workflow-type: tm+mt
-source-wordcount: '255'
-ht-degree: 87%
+source-wordcount: '247'
+ht-degree: 90%
 
 ---
 
