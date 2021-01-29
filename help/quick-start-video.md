@@ -1,8 +1,6 @@
 ---
 title: '"快速入门：视频"'
-seo-title: '"快速入门：视频"'
-description: 'null'
-seo-description: 视频简介和快速开始，帮助您快速入门和运行。
+description: 视频简介和快速开始，帮助您快速入门和运行。
 uuid: bf0ecf87-a1f2-4e83-8041-df5192dd26a1
 contentOwner: admin
 content-type: reference
@@ -10,9 +8,9 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/video
 discoiquuid: 6cef541b-e9df-48eb-9a16-ca3e1f07238e
 translation-type: tm+mt
-source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
+source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
 workflow-type: tm+mt
-source-wordcount: '1443'
+source-wordcount: '1439'
 ht-degree: 65%
 
 ---
