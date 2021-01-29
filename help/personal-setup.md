@@ -1,8 +1,6 @@
 ---
 title: 个人设置
-seo-title: 个人设置
-description: 'null'
-seo-description: 所有用户都可以更改Dynamic Media经典的个人设置屏幕上的设置。
+description: 所有用户都可以更改Dynamic Media经典的个人设置屏幕上的设置。
 uuid: 29cb825a-f158-4a1e-9d5f-7636ee411b6e
 contentOwner: admin
 content-type: reference
@@ -10,9 +8,9 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/setup
 discoiquuid: 6314e7b7-5bde-4fe2-8674-e4fc525d4d1c
 translation-type: tm+mt
-source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
+source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
 workflow-type: tm+mt
-source-wordcount: '1194'
+source-wordcount: '1191'
 ht-degree: 76%
 
 ---
