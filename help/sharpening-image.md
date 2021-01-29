@@ -1,8 +1,6 @@
 ---
 title: 锐化图像
-seo-title: 锐化图像
-description: 'null'
-seo-description: 了解如何锐化图像。
+description: 了解如何锐化图像。
 uuid: d86af74a-89c5-4f2b-96ba-f2e7da600bca
 contentOwner: admin
 content-type: reference
@@ -10,9 +8,9 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
 discoiquuid: 11cd5362-d90a-4c1e-bfbd-46a65a554409
 translation-type: tm+mt
-source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
+source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
 workflow-type: tm+mt
-source-wordcount: '2159'
+source-wordcount: '2155'
 ht-degree: 73%
 
 ---
