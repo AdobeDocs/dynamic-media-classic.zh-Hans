@@ -1,18 +1,16 @@
 ---
 title: 指定Media Portal用户可用的导出选项
-seo-title: 指定Media Portal用户可用的导出选项
-description: 'null'
-seo-description: 了解如何指定Media Portal用户可用的导出选项。
+description: 了解如何指定Media Portal用户可用的导出选项。
 uuid: 5258b8a4-0704-43cd-97d1-c9af2e4e298b
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: 9bfd95da-3714-4e38-98af-331a04c685f5
 translation-type: tm+mt
-source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
+source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
 workflow-type: tm+mt
-source-wordcount: '376'
-ht-degree: 82%
+source-wordcount: '368'
+ht-degree: 83%
 
 ---
 
