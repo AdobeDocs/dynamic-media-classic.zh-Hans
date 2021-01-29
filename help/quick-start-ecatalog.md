@@ -1,8 +1,6 @@
 ---
 title: “快速开始:电子目录”
-seo-title: “快速开始:电子目录”
-description: 'null'
-seo-description: 电子目录简介和快速开始，帮助您快速使用电子目录技术。
+description: 电子目录简介和快速开始，帮助您快速使用电子目录技术。
 uuid: 1ec41927-3df6-4845-8d9d-bb92cf6dca08
 contentOwner: admin
 content-type: reference
@@ -10,9 +8,9 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
 discoiquuid: 781dacd0-ef0c-42b7-92e0-12791994874d
 translation-type: tm+mt
-source-git-commit: 83b88623b898fdadd1b334b1c12901830c831c5c
+source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
 workflow-type: tm+mt
-source-wordcount: '1450'
+source-wordcount: '1446'
 ht-degree: 64%
 
 ---
