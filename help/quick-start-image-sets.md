@@ -1,8 +1,6 @@
 ---
 title: '"快速入门：图像集"'
-seo-title: '"快速入门：图像集"'
-description: 'null'
-seo-description: 图像集的简介和快速开始，可帮助您快速设置和运行图像集技术。
+description: 图像集的简介和快速开始，可帮助您快速设置和运行图像集技术。
 uuid: daf17d13-9c06-41f0-8fc5-2e56d460d341
 contentOwner: admin
 content-type: reference
@@ -10,9 +8,9 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sets
 discoiquuid: 612a425f-2840-46c4-8e5a-c0bc5f738f4e
 translation-type: tm+mt
-source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
+source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
 workflow-type: tm+mt
-source-wordcount: '565'
+source-wordcount: '560'
 ht-degree: 62%
 
 ---
