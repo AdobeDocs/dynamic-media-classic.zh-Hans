@@ -1,8 +1,6 @@
 ---
 title: 使用 PDF
-seo-title: 使用 PDF
-description: 'null'
-seo-description: 了解如何在Dynamic Media经典中使用PDF。
+description: 了解如何在Dynamic Media经典中使用PDF。
 uuid: 26d70d28-9393-49b1-9051-d70456deca67
 contentOwner: admin
 content-type: reference
@@ -10,9 +8,9 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
 discoiquuid: 5a073de3-6b1d-4c3e-8c03-9182f9f3874a
 translation-type: tm+mt
-source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
+source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
 workflow-type: tm+mt
-source-wordcount: '674'
+source-wordcount: '670'
 ht-degree: 56%
 
 ---
