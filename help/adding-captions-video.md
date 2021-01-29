@@ -1,17 +1,15 @@
 ---
 title: 在视频中添加题注
-seo-title: 在视频中添加题注
-description: 'null'
-seo-description: 了解如何向视频添加字幕
+description: 了解如何向视频添加字幕
 uuid: 4cc64469-4369-44a9-83db-63bad51aba8a
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 translation-type: tm+mt
-source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
+source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
 workflow-type: tm+mt
-source-wordcount: '909'
-ht-degree: 64%
+source-wordcount: '904'
+ht-degree: 63%
 
 ---
 
