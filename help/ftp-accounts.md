@@ -1,8 +1,6 @@
 ---
 title: 管理 FTP 帐户
-seo-title: 管理 FTP 帐户
-description: 'null'
-seo-description: 了解如何管理FTP帐户。
+description: 了解如何管理FTP帐户。
 uuid: c9410f44-14bf-4f55-a199-f0f0de459219
 contentOwner: admin
 content-type: reference
@@ -10,9 +8,9 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/media_portal
 discoiquuid: d592f0a7-1c27-4463-998a-07351147da1d
 translation-type: tm+mt
-source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
+source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
 workflow-type: tm+mt
-source-wordcount: '235'
+source-wordcount: '231'
 ht-degree: 89%
 
 ---
