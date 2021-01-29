@@ -1,8 +1,6 @@
 ---
 title: 管理内容变体
-seo-title: 管理内容变体
-description: 'null'
-seo-description: 了解如何管理内容变体。
+description: 了解如何管理内容变体。
 uuid: 1e40a526-02f8-41d9-886f-6d094546bc13
 contentOwner: admin
 content-type: reference
@@ -10,9 +8,9 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/template_basics
 discoiquuid: aa129b0e-fc73-4fc2-a894-4560b3f46c4f
 translation-type: tm+mt
-source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
+source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
 workflow-type: tm+mt
-source-wordcount: '248'
+source-wordcount: '244'
 ht-degree: 97%
 
 ---
