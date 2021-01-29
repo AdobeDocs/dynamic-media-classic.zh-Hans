@@ -1,17 +1,15 @@
 ---
 title: 上载文件
-seo-title: 上载文件
-description: 'null'
-seo-description: 了解如何上传文件。
+description: 了解如何上传文件。
 uuid: b3025f84-4f28-4276-bc9c-f0c0c2a26e12
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: b2bc3bf9-e313-481a-8670-c3bedde21b1a
 translation-type: tm+mt
-source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
+source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
 workflow-type: tm+mt
-source-wordcount: '3855'
+source-wordcount: '3852'
 ht-degree: 44%
 
 ---
