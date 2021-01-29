@@ -1,8 +1,6 @@
 ---
 title: 创建 eCatalog
-seo-title: 创建 eCatalog
-description: 'null'
-seo-description: 了解如何创建电子目录。
+description: 了解如何创建电子目录。
 uuid: 2aff05c2-7052-426c-b61d-7f9091f7ace8
 contentOwner: admin
 content-type: reference
@@ -10,9 +8,9 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
 discoiquuid: 28889c60-596a-40d2-85d4-f48a4f86b932
 translation-type: tm+mt
-source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
+source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
 workflow-type: tm+mt
-source-wordcount: '1005'
+source-wordcount: '1001'
 ht-degree: 78%
 
 ---
