@@ -1,8 +1,6 @@
 ---
 title: 将缩放查看器链接到网页
-seo-title: 将缩放查看器链接到网页
-description: 'null'
-seo-description: 了解如何将缩放查看器关联到网页。
+description: 了解如何将缩放查看器关联到网页。
 uuid: cd350ea4-267e-4a8a-aed8-7553df86b438
 contentOwner: admin
 content-type: reference
@@ -10,9 +8,9 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/zoom
 discoiquuid: df5471c1-ccda-4dd4-a7f1-5b9193b41f98
 translation-type: tm+mt
-source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
+source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
 workflow-type: tm+mt
-source-wordcount: '673'
+source-wordcount: '665'
 ht-degree: 86%
 
 ---
