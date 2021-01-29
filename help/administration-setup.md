@@ -1,17 +1,15 @@
 ---
 title: 管理设置
-seo-title: 管理设置
-description: 'null'
-seo-description: 了解如何设置Dynamic Media经典的管理区域。
+description: 了解如何设置Dynamic Media经典的管理区域。
 uuid: 16ba9fed-b5c6-4991-83b3-8d7d7129013a
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: 3c9ee4ec-dd37-498d-98d6-1339b80177ff
 translation-type: tm+mt
-source-git-commit: 3a8283196c9c99a5709cf4995c426da7e4f6c83b
+source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
 workflow-type: tm+mt
-source-wordcount: '1947'
+source-wordcount: '1944'
 ht-degree: 63%
 
 ---
