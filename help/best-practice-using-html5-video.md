@@ -1,8 +1,6 @@
 ---
-title: '"最佳做法：使用 HTML5 视频查看器"'
-seo-title: '"最佳做法：使用 HTML5 视频查看器"'
-description: 'null'
-seo-description: 了解使用HTML5视频查看器的最佳实践。
+title: 使用HTML5视频查看器的最佳实践
+description: 了解使用HTML5视频查看器的最佳实践。
 uuid: 3c8924dc-7bea-4c25-b77b-005f57b71b64
 contentOwner: admin
 content-type: reference
@@ -10,15 +8,15 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/video
 discoiquuid: 4b11cab7-88cf-42dd-8554-2eea530753bb
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
 workflow-type: tm+mt
-source-wordcount: '428'
-ht-degree: 30%
+source-wordcount: '422'
+ht-degree: 26%
 
 ---
 
 
-# 最佳做法：使用 HTML5 视频查看器{#best-practice-using-the-html-video-viewer}
+# 使用HTML5视频查看器的最佳实践{#best-practice-using-the-html-video-viewer}
 
 Dynamic Media经典HTML5视频查看器预设是功能强大的视频播放器。 在播放器的设计方面，您可以使用标准Web开发工具创建视频播放器的所有功能。 例如，您可以使用 HTML5 和 CSS 设计按钮、控件和自定义海报图像背景，以便通过自定义的界面外观吸引客户。
 
