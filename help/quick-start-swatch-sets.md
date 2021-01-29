@@ -1,8 +1,6 @@
 ---
 title: '"快速入门：样本集"'
-seo-title: '"快速入门：样本集"'
-description: 'null'
-seo-description: 样本集的简介和快速开始，帮助您快速入门和运行。
+description: 样本集的简介和快速开始，帮助您快速入门和运行。
 uuid: 6f8a95e8-e82a-477f-9f21-d2b7b511f8ae
 contentOwner: admin
 content-type: reference
@@ -10,10 +8,10 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/swatch_sets
 discoiquuid: 1ea70fdf-3cbd-409c-ae7d-06286c99c6ac
 translation-type: tm+mt
-source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
+source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
 workflow-type: tm+mt
-source-wordcount: '390'
-ht-degree: 64%
+source-wordcount: '385'
+ht-degree: 63%
 
 ---
 
