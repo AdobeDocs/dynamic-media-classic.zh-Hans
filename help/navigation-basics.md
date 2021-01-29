@@ -1,8 +1,6 @@
 ---
 title: 导航基础知识
-seo-title: 导航基础知识
-description: 'null'
-seo-description: 了解如何导航Dynamic Media经典的用户界面。
+description: 了解如何导航Dynamic Media经典的用户界面。
 uuid: ee143695-e42d-479d-b907-fe61ef6cfc0f
 contentOwner: admin
 content-type: reference
@@ -10,9 +8,9 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/getting_started
 discoiquuid: 825b8949-f961-4ef9-828c-07349013d40d
 translation-type: tm+mt
-source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
+source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
 workflow-type: tm+mt
-source-wordcount: '612'
+source-wordcount: '609'
 ht-degree: 52%
 
 ---
