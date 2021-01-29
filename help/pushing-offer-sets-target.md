@@ -1,8 +1,6 @@
 ---
 title: 将优惠集推送到Adobe Target标准版／高级版
-seo-title: 将优惠集推送到Adobe Target标准版／高级版
-description: 'null'
-seo-description: 了解如何将优惠集推送到Adobe Target标准版／高级版。
+description: 了解如何将优惠集推送到Adobe Target标准版／高级版。
 uuid: 8c895a7c-21b4-4d85-8b0b-a3d2a420bf2e
 contentOwner: admin
 content-type: reference
@@ -10,9 +8,9 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/target_integration
 discoiquuid: 39a05654-4f66-4f1e-aec5-ebe6d174353f
 translation-type: tm+mt
-source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
+source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
 workflow-type: tm+mt
-source-wordcount: '288'
+source-wordcount: '279'
 ht-degree: 11%
 
 ---
