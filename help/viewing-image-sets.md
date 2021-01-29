@@ -1,8 +1,6 @@
 ---
 title: 查看图像集
-seo-title: 查看图像集
-description: 'null'
-seo-description: 了解如何视图图像集。
+description: 了解如何视图图像集。
 uuid: bb5b0fee-abc0-4236-ac43-09edb9bb3651
 contentOwner: admin
 content-type: reference
@@ -10,10 +8,10 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sets
 discoiquuid: 027aa3e0-f085-48ae-aff9-7b805bbdf8ab
 translation-type: tm+mt
-source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
+source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
 workflow-type: tm+mt
-source-wordcount: '460'
-ht-degree: 90%
+source-wordcount: '456'
+ht-degree: 89%
 
 ---
 
