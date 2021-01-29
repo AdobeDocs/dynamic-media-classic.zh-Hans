@@ -1,8 +1,6 @@
 ---
 title: '"快速入门：缩放"'
-seo-title: '"快速入门：缩放"'
-description: 'null'
-seo-description: 简介和快速缩放开始可帮助您快速入门。
+description: 简介和快速缩放开始可帮助您快速入门。
 uuid: 31eda632-3469-4f90-885b-e90c6a2e5e75
 contentOwner: admin
 content-type: reference
@@ -10,10 +8,10 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/zoom
 discoiquuid: 559c986d-313d-46df-a5ff-0b49316ad3a7
 translation-type: tm+mt
-source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
+source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
 workflow-type: tm+mt
-source-wordcount: '841'
-ht-degree: 65%
+source-wordcount: '837'
+ht-degree: 64%
 
 ---
 
