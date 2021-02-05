@@ -6,9 +6,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_classic
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: 84a36e45ecf5fb027645e0f9da40b00ad3ce29e0
 workflow-type: tm+mt
-source-wordcount: '1563'
+source-wordcount: '1585'
 ht-degree: 0%
 
 ---
@@ -22,21 +22,22 @@ Dynamic Media经典用户现在可以获得新的桌面应用程序体验，不�
 
 >[!IMPORTANT]
 >
->我们建议您在2020年10月1日之前安装新的AdobeDynamic Media经典桌面应用程序。 这样做将确保在2020年12月31日弃用AdobeFlash Player之前，您拥有一个流畅的过渡。 在该日期，您将无法再登录到浏览器版的AdobeDynamic Media经典用户界面，产品中标记为Dynamic Media经典。
+>Adobe建议您在2020年10月1日之前安装新的AdobeDynamic Media经典桌面应用程序。 这样做将确保在2020年12月31日弃用AdobeFlash Player之前，您拥有一个流畅的过渡。 在该日期之后，您无法登录到AdobeDynamic Media经典用户界面的浏览器版本，产品中标为Dynamic Media经典。
 
 请参阅[新Dynamic Media经典登录体验的常见问题解答。](/help/new-ui-2020.md)
 
 ## AdobeDynamic Media经典桌面应用程序{#system-requirements-dmc-app}的系统要求
 
 AdobeDynamic Media经典桌面应用程序兼容以下操作系统：
-* macOS X 10.10或更高版本。
+
+* macOS 10.10或更高版本。
 * Windows 7或更高版本。
 
 ## 最新版本(20.21.1){#latest-fixes-desktop-app}中的修复
 
-* 由于超时导致的登录问题导致以下消息：*此用户可能在未获得权限的情况下被分配给组。 请联系您的管理员。*
+* 由于超时导致的登录问题导致以下消息：*未经许可，可将此用户分配给组或组。 与管理员联系。*
 * 查看器预设与每次错误的密码尝试重复。
-* 由于根文件夹中的大量资源，桌面应用程序变得无响应。 (在Windows上修复；在macOS上按需工作。)
+* 由于根文件夹中的许多资源，桌面应用程序变得无响应。 (在Windows上修复；在macOS上按需工作。)
 
 ## 先前版本(20.20.2){#previous-version-fixes-desktop-app}中的修复
 
@@ -84,7 +85,7 @@ AdobeDynamic Media经典桌面应用程序兼容以下操作系统：
 
    ![Dynamic Media经典登录](/help/assets/dmclassic-login1.png)
 
-1. 使用与您的浏览器凭据相同的凭据登录到AdobeDynamic Media经典。
+1. 要登录AdobeDynamic Media经典桌面应用程序，请使用您在浏览器中登录Dynamic Media经典时所用的相同凭据。
 
    要使用&#x200B;**[!UICONTROL Server]**，请参阅生产环境的以下映射：
 
@@ -94,7 +95,7 @@ AdobeDynamic Media经典桌面应用程序兼容以下操作系统：
    | https://s7sps3.scene7.com/ | EMEA（欧洲、中东和非洲）生产 |
    | https://s7sps5.scene7.com/ | 亚太地区生产 |
 
-1. 登录UI发布后，您会注意到您熟悉的浏览器UI体验。 您现在可以在桌面应用程序UI中像往常一样将日常活动带入您的日常。
+1. 登录后，请注意熟悉的浏览器用户界面体验。 您可以像往常一样在桌面应用程序上继续日常的Dynamic Media经典活动。
 
 ## 下载并&#x200B;*silent*&#x200B;在macOS {#install-silent-mac-dmc-app}上安装最新的AdobeDynamic Media经典桌面应用程序
 
@@ -124,7 +125,7 @@ Unmount DMG - hdiutil detach <mount_point_path>`
 
    ![Dynamic Media经典登录](/help/assets/dmclassic-login1.png)
 
-1. 使用与您的浏览器凭据相同的凭据登录到AdobeDynamic Media经典。
+1. 要登录AdobeDynamic Media经典桌面应用程序，请使用您在浏览器中登录Dynamic Media经典时所用的相同凭据。
 
    要使用&#x200B;**[!UICONTROL Server]**，请参阅生产环境的以下映射：
 
@@ -169,7 +170,7 @@ Unmount DMG - hdiutil detach <mount_point_path>`
 
    ![Dynamic Media经典登录](/help/assets/dmclassic-login1.png)
 
-1. 使用与您的浏览器凭据相同的凭据登录到AdobeDynamic Media经典。
+1. 要登录AdobeDynamic Media经典桌面应用程序，请使用您在浏览器中登录Dynamic Media经典时所用的相同凭据。
 
    要使用&#x200B;**[!UICONTROL Server]**，请参阅生产环境的以下映射：
 
@@ -194,7 +195,7 @@ Unmount DMG - hdiutil detach <mount_point_path>`
 
 ### 手动清除图像缓存和资产缓存
 
-除了使用桌面应用程序清除图像和资产缓存外，您还可以通过直接从文件系统清除缓存来手动完成此任务。
+除了使用桌面应用程序清除图像和资产缓存外，您还可以直接从文件系统手动清除缓存。
 
 1. 根据您的操作系统，导航到以下内容：
 
@@ -216,7 +217,7 @@ Unmount DMG - hdiutil detach <mount_point_path>`
 
 **_我无法在Dynamic Media经典登陆页上看到“Media Cart（媒体购物车）”面板。_**<br>在Dynamic Media经典中，点**[!UICONTROL 按设置>个人设置&#x200B;]**。在“浏览器”部分，确保选中**[!UICONTROL “显示MediaPortal功能&#x200B;]**”（已选中）。 点按**[!UICONTROL 保存>关闭&#x200B;]**。
 
-**_资产的发布状态（绿色指示符）反映不正确。_**<br>在浏览器UI中，需要重新登录UI才能查看资产的正确发布状态。在桌面应用程序中，我们在工具栏的**[!UICONTROL 选择无&#x200B;]**按钮右侧引入了**[!UICONTROL 刷新&#x200B;]**图标。 点按**[!UICONTROL 刷新&#x200B;]**图标，查看给定页面上所有资产的最新状态。 无需像浏览器UI一样重新登录。
+**_资产的发布状态（绿色指示符）反映不正确。_**<br>在浏览器用户界面中，需要重新登录UI才能查看资产的正确发布状态。在桌面应用程序中，Adobe在工具栏的**[!UICONTROL 选择无&#x200B;]**按钮右侧引入了**[!UICONTROL 刷新&#x200B;]**图标。 点按**[!UICONTROL 刷新&#x200B;]**图标，查看给定页面上所有资产的最新状态。 无需像浏览器UI一样重新登录。
 
 ![刷新图](/help/assets/refresh-icon1.png)
 *标刷新图标*
