@@ -5,9 +5,9 @@ description: AdobeDynamic Media经典技术文档
 seo-description: 'AdobeDynamic Media经典（以前称为Scene 7）的技术文档、发行说明和自助资料 '
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 translation-type: tm+mt
-source-git-commit: 3a8283196c9c99a5709cf4995c426da7e4f6c83b
+source-git-commit: 2f7366a77c0fa5f3953721cdd5328123d9c2a052
 workflow-type: tm+mt
-source-wordcount: '670'
+source-wordcount: '668'
 ht-degree: 13%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 13%
 
 ## Dynamic Media 开发人员资源
 
-* [Dynamic Media开发人员资源](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/landing/home.html) 登陆页-包括查看器参考指南、图像服务／图像渲染API、图像生产系统API和Dynamic Media经典发行说明。
+* [Dynamic Media开发人员资源](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/landing/home.html) 登陆页-包括查看器参考指南、图像服务／图像渲染API、图像生产系统API和Dynamic Media经典发行说明。
 * [查看器库示例](https://landing.adobe.com/zh-Hans/na/dynamic-media/ctir-2755/live-demos.html) -包括视频、购物媒体、混合媒体、旋转集、内联缩放、图像和样本集以及滤镜的查看器示例。
 
 ## Dynamic Media经典用户资源
