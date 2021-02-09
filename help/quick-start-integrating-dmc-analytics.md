@@ -1,16 +1,14 @@
 ---
 title: “快速开始:整合Dynamic Media经典与Adobe Analytics”
-description: 将Dynamic Media经典与Adobe分析相集成的简介和快速开始，帮助您快速入门。
-uuid: 3f9e2c91-15d4-4b53-8220-9b1ca57c0b1d
+description: 集成Dynamic Media经典和Adobe Analytics的简介和快速开始，帮助您快速入门。
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/adobe_analytics_instrumentation_kit
-discoiquuid: abec9a85-013c-4030-b129-bf27a89cb464
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: 2f7366a77c0fa5f3953721cdd5328123d9c2a052
 workflow-type: tm+mt
-source-wordcount: '673'
+source-wordcount: '671'
 ht-degree: 45%
 
 ---
@@ -24,7 +22,7 @@ Adobe Analytics 是一款行业领先的产品，营销人员可用来评估、�
 
 通过使用 Adobe Analytics 报告，可以非常清楚地了解客户在网站上的活动。您可以确定哪些产品演示会改变客户的想法，哪些产品演示不会引起客户的兴趣。
 
-另请参阅[在 Adobe Analytics 中测量视频](https://docs.adobe.com/content/help/en/media-analytics/using/media-overview.html)。
+另请参阅[在 Adobe Analytics 中测量视频](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html)。
 
 >[!NOTE]
 >
