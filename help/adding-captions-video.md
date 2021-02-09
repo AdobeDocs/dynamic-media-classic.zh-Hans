@@ -6,9 +6,9 @@ contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: 2f7366a77c0fa5f3953721cdd5328123d9c2a052
 workflow-type: tm+mt
-source-wordcount: '904'
+source-wordcount: '905'
 ht-degree: 63%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 63%
 
 Dynamic Media经典能够将题注文件转换为JSON（JavaScript对象表示法）格式。 这种转换意味着，您可以将 JSON 文本作为视频的隐藏但完整的文本嵌入到网页中。然后，搜索引擎可以对内容进行爬网和索引，以便更轻松地找到视频，并为客户提供有关视频内容的附加详细信息。
 
-有关在URL中使用JSON函数的详细信息，请参阅&#x200B;*Adobe图像服务API帮助*&#x200B;中的[服务静态（非图像）内容](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/image-serving-api/image-serving-api/c-serving-static-nonimage-contents.html)。
+有关在URL中使用JSON函数的详细信息，请参阅&#x200B;*Adobe图像服务API帮助*&#x200B;中的[服务静态（非图像）内容](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/c-serving-static-nonimage-contents.html?lang=en#image-serving-api)。
 
 **在视频中添加题注**
 
