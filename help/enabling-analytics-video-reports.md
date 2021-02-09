@@ -1,17 +1,15 @@
 ---
 title: 启用 Adobe Analytics 视频报告
 description: 了解如何启用Adobe Analytics视频报告。
-uuid: 078594b2-7d53-4714-8128-ff3b5c3a5e36
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/adobe_analytics_instrumentation_kit
-discoiquuid: 18644a53-92da-40ab-b961-318d8332c54d
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: 2f7366a77c0fa5f3953721cdd5328123d9c2a052
 workflow-type: tm+mt
-source-wordcount: '209'
-ht-degree: 23%
+source-wordcount: '244'
+ht-degree: 20%
 
 ---
 
@@ -20,13 +18,17 @@ ht-degree: 23%
 
 使用基于Adobe Analytics心跳的视频报告，在Dynamic Media经典中配置Adobe Analytics时，您不再需要启用四个视频查看器事件（播放、暂停、停止、里程碑）。 视频心跳可以与现成的Dynamic Media经典HTML5视频和混合媒体查看器配合使用。 视频播放器生成跟踪数据以在 Adobe Analytics 视频报告中查看。
 
+* 有关流媒体和“心跳测量”的介绍，请参阅[关于Adobe Analytics的流媒体](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html#about-adobe-analytics-for-streaming-media)。
+
 * 将Adobe Analytics视频报表与Dynamic Media经典集成支持解决方案变量，但不支持自定义变量。
 
-   有关解决方案变量和自定义变量的详细信息，请参阅[配置分析视频报告](https://microsite.omniture.com/t2/help/en_US/sc/appmeasurement/hbvideo/video_analytics_config.html)。
+   有关解决方案变量和自定义变量的详细信息，请参阅[音频和视频参数](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#metrics-and-metadata)。
 
 * 支持一分钟增量的现成区段。不过，不支持自定义区段报告，例如，客户根据时间增量定义的里程碑（百分比里程碑）或偏移里程碑。
 
-有关视频心跳要求和设置的详细信息，请参阅[使用视频心跳测量Adobe Analytics的视频](https://microsite.omniture.com/t2/help/en_US/sc/appmeasurement/hbvideo/)。
+   有关流媒体要求和设置的详细信息，请参阅[在Adobe Analytics测量流媒体](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html)。
+
+* 有关自定义变量和解决方案变量的信息，请参见[媒体报告enablement](https://experienceleague.adobe.com/docs/media-analytics/using/media-reports/media-reports-enable.html?lang=en#media-reports)。
 
 >[!NOTE]
 >
