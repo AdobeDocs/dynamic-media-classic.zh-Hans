@@ -1,16 +1,14 @@
 ---
 title: '"快速入门：视频"'
-description: 视频简介和快速开始，帮助您快速入门和运行。
-uuid: bf0ecf87-a1f2-4e83-8041-df5192dd26a1
+description: AdobeDynamic Media经典视频的简介和快速开始，帮助您快速入门和运行。
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/video
-discoiquuid: 6cef541b-e9df-48eb-9a16-ca3e1f07238e
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: 2f7366a77c0fa5f3953721cdd5328123d9c2a052
 workflow-type: tm+mt
-source-wordcount: '1439'
+source-wordcount: '1441'
 ht-degree: 65%
 
 ---
@@ -53,7 +51,7 @@ AdobeDynamic Media经典视频是一款端到端解决方案，它可轻松发�
 
    在各种不同的 iOS 平台上支持自适应视频流。
 
-   请参阅[Adobe查看器参考指南](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/home.html)中的最新支持。
+   请参阅[Adobe查看器参考指南](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/home.html)中的最新支持。
 
    Dynamic Media经典支持MP4 H.264视频的移动视频播放。 您可以在以下网站中找到支持该视频格式的 Blackberry 设备：
 
