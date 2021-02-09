@@ -8,10 +8,10 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sets
 discoiquuid: 40f4abab-9059-4d92-a761-f6d573b42e00
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: 2f7366a77c0fa5f3953721cdd5328123d9c2a052
 workflow-type: tm+mt
-source-wordcount: '671'
-ht-degree: 91%
+source-wordcount: '680'
+ht-degree: 90%
 
 ---
 
@@ -47,7 +47,7 @@ ht-degree: 91%
 
 部署图像集最常见的方法是在网页上放置链接（通过导航图标）。单击该链接后，将启动一个动态页(JSP)，在弹出缩放窗口中显示图像集。 缩放链接会打开一个弹出窗口，其中包含实际的缩放功能。
 
-有关其他详细信息和代码示例，请参阅《Adobe查看器参考指南》](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/zoom/c-html5-20-zoom-viewer-about.html)中的[嵌入HTML5缩放查看器。
+有关其他详细信息和代码示例，请参阅《Adobe查看器参考指南》](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/zoom/c-html5-20-zoom-viewer-about.html#section-e1c3106f5b3e445d9b95be337c2f94e2)中的[嵌入HTML5缩放查看器。
 
 ## 复制图像集查看器的嵌入代码 {#copying-the-embed-code-of-an-image-set-viewer}
 
