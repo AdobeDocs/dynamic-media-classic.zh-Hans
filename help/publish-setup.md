@@ -1,13 +1,11 @@
 ---
 title: 发布设置
 description: “发布设置”屏幕设置决定默认情况下如何将资产从Dynamic Media经典服务器交付到网站或应用程序。
-uuid: 196f25c8-abf5-4c5d-8f6f-bc70007a0301
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
-discoiquuid: cba59093-28b6-4490-b838-d942b72ad1ec
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: 2f7366a77c0fa5f3953721cdd5328123d9c2a052
 workflow-type: tm+mt
 source-wordcount: '2418'
 ht-degree: 64%
@@ -21,7 +19,7 @@ ht-degree: 64%
 
 管理员可以更改“图像服务器”、“图像渲染器”和“晕影”屏幕上的默认设置，以建立用于从服务器传送资源的默认设置。
 
-要打开“发布设置”屏幕，请单击“设置”>“应用程序设置”>“发布设置”。
+要打开“发布设置”屏幕，请单击&#x200B;**设置** > **应用程序设置** > **发布设置**。
 
 >[!NOTE]
 >
