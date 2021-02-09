@@ -1,16 +1,14 @@
 ---
 title: 优化图像质量的最佳做法
 description: 了解优化图像质量的最佳实践。
-uuid: 102e83fe-ee2a-443b-ba92-6ad5cc3daef0
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
-discoiquuid: 8164466e-2520-482a-88ec-6191fdc77ea3
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: 2f7366a77c0fa5f3953721cdd5328123d9c2a052
 workflow-type: tm+mt
-source-wordcount: '1517'
+source-wordcount: '1474'
 ht-degree: 61%
 
 ---
@@ -22,7 +20,7 @@ ht-degree: 61%
 
 Dynamic Media经典包含100多个图像服务命令，用于调整和优化图像以及渲染结果。 以下准则可以帮助您简化流程，并使用一些基本命令和最佳做法快速获得较好的效果。
 
-另请参阅[智能成像](https://helpx.adobe.com/experience-manager/6-3/assets/using/imaging-faq.html)。
+另请参阅[智能成像](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/imaging-faq.html#dynamic)。
 
 ## 图像格式的最佳做法 (&amp;fmt=) {#best-practices-for-image-format-fmt}
 
@@ -50,7 +48,7 @@ Dynamic Media经典包含100多个图像服务命令，用于调整和优化图�
 
 最佳实践白皮书[在Dynamic Media经典Adobe和图像服务器](/help/assets/s7_sharpening_images.pdf)上锐化图像。
 
-另请参阅[使用USM锐化锐化图像](https://helpx.adobe.com/photoshop/atv/cs6-tutorials/sharpening-an-image-with-unsharp-mask.html)。
+<!-- Give a 404 See also [Sharpening an image with unsharp mask](https://helpx.adobe.com/photoshop/atv/cs6-tutorials/sharpening-an-image-with-unsharp-mask.html). -->
 
 借助Dynamic Media经典，您可以在摄取、投放或两者时锐化图像。 大多数情况下，只应使用一种方法锐化图像，而不能同时使用两种方法。传送时在 URL 上锐化图像通常可以获得最佳的效果。
 
@@ -70,11 +68,7 @@ Dynamic Media经典包含100多个图像服务命令，用于调整和优化图�
 
          此参数确定锐化的像素与周围区域必须有多大的不同，才会被视为边缘像素，而滤镜会锐化这些像素。 阈值有助于避免出现具有类似颜色的过度锐化区域，如肤色。例如，阈值为12时，会忽略肤色亮度的细微变化，以避免添加“杂色”，同时仍会为高对比度区域添加边缘对比度，如睫毛与皮肤相遇的地方。
 
-         有关如何设置三个参数的详细信息（包括使用滤镜的最佳做法），请参阅以下资源：
-
-         关于[锐化图像](https://help.adobe.com/en_US/scene7/using/WS389B162D-2981-41e5-9253-15D22D2ECBC8.html)的Dynamic Media经典帮助主题。
-
-         最佳实践白皮书[在Adobe Scene7出版系统和图像服务器上锐化图像](/help/assets/s7_sharpening_images.pdf)。
+         有关如何设置这三个参数（包括与滤镜一起使用的最佳实践）的详细信息，请参阅[在Adobe Scene7出版系统和图像服务器上锐化图像](/help/assets/s7_sharpening_images.pdf)。
 
       * Dynamic Media经典还允许您控制第四个参数：monochrome(`0,1`)。 此参数确定是使用值 `0` 将 USM 锐化分别应用于每个颜色分量，还是使用值 `1` 将 USM 锐化应用于图像亮度/强度。
 
