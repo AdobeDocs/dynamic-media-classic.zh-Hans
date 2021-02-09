@@ -1,17 +1,15 @@
 ---
 title: 将缩放查看器链接到网页
 description: 了解如何将缩放查看器关联到网页。
-uuid: cd350ea4-267e-4a8a-aed8-7553df86b438
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/zoom
-discoiquuid: df5471c1-ccda-4dd4-a7f1-5b9193b41f98
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: 2f7366a77c0fa5f3953721cdd5328123d9c2a052
 workflow-type: tm+mt
-source-wordcount: '665'
-ht-degree: 86%
+source-wordcount: '674'
+ht-degree: 85%
 
 ---
 
@@ -46,7 +44,7 @@ ht-degree: 86%
 
 网站访客通常通过先选择“缩放”图标（通常该图标显示为放大镜图像）来缩放图像。选择该图标会启动一个动态网页（ASP 或 JSP），该网页在弹出窗口中显示该图像。弹出窗口是访客实际缩放该图像的位置。
 
-有关其他详细信息和代码示例，请参阅《Adobe查看器参考指南》](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/basic-zoom/c-html5-20-basic-zoom-viewer-about.html)中的[嵌入HTML5 Basic Zoom Viewer。
+有关其他详细信息和代码示例，请参阅《Adobe查看器参考指南》](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/basic-zoom/c-html5-20-basic-zoom-viewer-about.html#section-e1c3106f5b3e445d9b95be337c2f94e2)中的[嵌入HTML5 Basic Zoom Viewer。
 
 ## 复制缩放查看器的嵌入代码 {#copying-the-embed-copy-of-a-zoom-viewer}
 
@@ -74,5 +72,4 @@ ht-degree: 86%
 
    在“嵌入代码”对话框中不允许编辑代码。
 
-1. 单击关闭。
-
+1. 单击&#x200B;**关闭**。
