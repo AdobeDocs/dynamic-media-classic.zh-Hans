@@ -1,14 +1,13 @@
 ---
 title: AdobeDynamic Media经典桌面应用程序
-seo-title: AdobeDynamic Media经典桌面应用程序
 description: Dynamic Media经典用户现在可以体验到用户界面的完全刷新。 该体验提供包含有价值资源链接的更新登录，此更新不再依赖浏览器中的AdobeFlash技术。
 contentOwner: rbrough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 translation-type: tm+mt
-source-git-commit: 60aedff7e46d134537e2a0639d1c28c3a7909b90
+source-git-commit: 2f7366a77c0fa5f3953721cdd5328123d9c2a052
 workflow-type: tm+mt
-source-wordcount: '1148'
+source-wordcount: '1140'
 ht-degree: 0%
 
 ---
@@ -90,11 +89,11 @@ Adobe致力于确保我们的产品满足其客户的安全要求。 新的Dynam
 
 Dynamic Media经典是一款功能强大且功能丰富的解决方案，旨在增强您的富媒体战略。 要确保充分利用所有功能，请务必探索以下实用资源：
 
-* [Dynamic Media最佳做法教程](https://docs.adobe.com/content/help/en/experience-manager-learn/dynamic-media-classic-tutorial/overview.html)
+* [Dynamic Media最佳做法教程](https://experienceleague.adobe.com/docs/experience-manager-learn/dynamic-media-classic-tutorial/overview.html)
 * [Dynamic Media博客文章](https://theblog.adobe.com/tag/dynamic-media/)
-* [Dynamic Media通讯档案](https://docs.adobe.com/content/help/en/dynamic-media-classic/using/dynamic-media-newsletter.html)
+* [Dynamic Media通讯档案](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/dynamic-media-newsletter.html)
 
-此外，[订阅Dynamic Media新闻快讯](https://www.adobe.com/subscription/dynamic-media-newsletter.html)，了解最新新闻、信息、培训机会、[智能成像](https://helpx.adobe.com/experience-manager/6-3/assets/using/imaging-faq.html)等强大功能以及补充审计项目。
+此外，[订阅Dynamic Media新闻快讯](https://www.adobe.com/subscription/dynamic-media-newsletter.html)，了解最新新闻、信息、培训机会、[智能成像](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/imaging-faq.html#dynamic)等强大功能以及补充审计项目。
 
 ### **_我想进一步了解如何与AEM Assets一起升级到Dynamic Media。在哪里可以找到更多信息？_**
 
