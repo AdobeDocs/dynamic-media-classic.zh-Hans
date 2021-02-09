@@ -1,18 +1,14 @@
 ---
 title: 应用程序设置
-seo-title: 应用程序设置
-description: 了解如何设置Dynamic Media经典的应用程序区域。
-seo-description: 了解如何设置Dynamic Media经典的应用程序区域。
-uuid: 3e2f1d30-8f33-4a9d-bbe4-e8c3dbc968f8
+description: 了解如何设置Dynamic Media经典的“应用程序”区域。
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/setup
-discoiquuid: ae2d1895-a437-4463-bfac-3960c8027551
 translation-type: tm+mt
-source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
+source-git-commit: 2f7366a77c0fa5f3953721cdd5328123d9c2a052
 workflow-type: tm+mt
-source-wordcount: '10979'
+source-wordcount: '10914'
 ht-degree: 68%
 
 ---
@@ -160,7 +156,7 @@ Dynamic Media经典不允许两个文件同名。 每个项目的Dynamic Media�
 
 要打开“图像预设”屏幕，请在全局导航栏上单击&#x200B;**设置** > **图像预设**。
 
-请参阅[智能成像](https://helpx.adobe.com/experience-manager/6-3/assets/using/imaging-faq.html)。
+请参阅[智能成像](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/imaging-faq.html#dynamic)。
 
 ### 创建和编辑图像预设 {#creating-and-editing-image-presets}
 
@@ -372,12 +368,12 @@ Dynamic Media经典优惠自适应视频编码预设。 它是一个将 16:9 自
 
 |  | 编码预设名称/工具提示文本 | 目标连接速度 (Kbps) | 编码文件后缀 | 视频数据速率 (Kbps) | 宽度/高度（像素） | Fps | 音频比特率 (kbps) | 推荐 |
 |--- |--- |--- |--- |--- |--- |--- |--- |--- |
-| 1 | 16:9，512x288，移动设备（iPhone、iPad、Android），(400 Kbps) | 500 | _Mobile_512x288_400K | 400 | 512x288 | 与源相同 | 64 | 低分辨率、3G |
+| 3 | 16:9，512x288，移动设备（iPhone、iPad、Android），(400 Kbps) | 500 | _Mobile_512x288_400K | 400 | 512x288 | 与源相同 | 64 | 低分辨率、3G |
 | 2 | 4:3，384x288px，移动设备（iPhone、iPad、Android），(400 Kbps) | 500 | _Mobile_384x288_400K | 400 | 384x288 | 与源相同 | 64 | 低分辨率、3G |
-| 1 | 16:9，512x288，移动设备（iPhone、iPad、Android），(600 Kbps) | 700 | _Mobile_512x288_600K | 600 | 512x288 | 与源相同 | 64 | 中分辨率、3G |
+| 3 | 16:9，512x288，移动设备（iPhone、iPad、Android），(600 Kbps) | 700 | _Mobile_512x288_600K | 600 | 512x288 | 与源相同 | 64 | 中分辨率、3G |
 | 4 | 4:3，384x288，移动设备（iPhone、iPad、Android），(600 Kbps) | 700 | _Mobile_384x288_600 | 600 | 384x288 | 与源相同 | 64 | 中分辨率、3G |
-| 5 | 16:9，640x360，平板电脑（iPad、Android），(800 Kbps) | 900 | _iPad_640x360_800K | 600 | 640x360 | 与源相同 | 80 | 中分辨率、WiFi |
-| 6 | 4:3，640x480，平板电脑（iPad、Android），(800 Kbps) | 900 | _iPad_640x480_800K | 600 | 640x480 | 与源相同 | 80 | 中分辨率、WiFi |
+| 5 | 16:9，640x360，平板电脑（iPad、Android），(800 Kbps) | 900 | _iPad_640x360_800K | 800 | 640x360 | 与源相同 | 80 | 中分辨率、WiFi |
+| 6 | 4:3，640x480，平板电脑（iPad、Android），(800 Kbps) | 900 | _iPad_640x480_800K | 800 | 640x480 | 与源相同 | 80 | 中分辨率、WiFi |
 | 7 | 16:9，768x432，平板电脑（iPad、Android），(1200 Kbps) | 1.5 Mbps | _iPad_768x432_1200K | 1200 | 768 x 432 | 与源相同 | 96 | 高分辨率、WiFi |
 | 8 | 4:3，768x576，平板电脑（iPad、Android），(1200 Kbps) | 1.5 Mbps | _iPad_768x576_1200K | 1200 | 768x576 | 与源相同 | 96 | 高分辨率、WiFi |
 | 9 | 16:9,1280x720，台式机，(2000 Kbps) | 3.0 Mbps | _1280x720_2000K | 2000 | 1280x720 | 与源相同 | 128 | 高清、宽屏 |
@@ -394,11 +390,11 @@ Dynamic Media经典优惠自适应视频编码预设。 它是一个将 16:9 自
 |  | 编码预设名称/工具提示文本 | 目标连接速度 (Kbps) | 编码文件后缀 | 视频数据速率 (Kbps) | 宽度/高度（像素） | Fps | 音频比特率 (Kbps) | 推荐 |
 |--- |--- |--- |--- |--- |--- |--- |--- |--- |
 | 3 | 16:9、480x270 (400 Kbps) | 500 | _480x270_400K | 400 | 480x270 | 与源相同 | 64 | 低宽屏分辨率 |
-| 2 | 16:9、640x360 (800 Kbps) | 900 | _640x360_800K | 600 | 640x360 | 与源相同 | 80 | 中等宽屏分辨率 |
+| 2 | 16:9、640x360 (800 Kbps) | 900 | _640x360_800K | 800 | 640x360 | 与源相同 | 80 | 中等宽屏分辨率 |
 | 1 | 16:9、800x450 (1200 Kbps) | 1.5 Mbps | _800x450_1200K | 1200 | 800x450 | 与源相同 | 96 | 中高分辨率 |
 | 4 | 16:9、1280x720 (2000 Kbps) | 3.0 Mbps | _1280x720_2000K | 2000 | 1280x720 | 与源相同 | 128 | 高清、宽屏 |
 | 5 | 4:3、320x240 (400 Kbps) | 500 | _320X240_400K | 400 | 320x240 | 与源相同 | 64 | 低分辨率 |
-| 6 | 4:3、480x360 (800 Kbps) | 900 | _480x360_800K | 600 | 480x360 | 与源相同 | 80 | 中分辨率 |
+| 6 | 4:3、480x360 (800 Kbps) | 900 | _480x360_800K | 800 | 480x360 | 与源相同 | 80 | 中分辨率 |
 | 7 | 4:3、640x480 (1200 Kbps) | 1.5 Mbps | _640x480_1200K | 1200 | 640x480 | 与源相同 | 96 | 中高分辨率 |
 | 8 | 4:3、1280x960 (2000 Kbps) | 3.0 Mbps | _1280x960_2000K | 2000 | 1280x960 | 与源相同 | 128 | 高清 |
 
@@ -406,12 +402,12 @@ Dynamic Media经典优惠自适应视频编码预设。 它是一个将 16:9 自
 
 |  | 编码预设名称/工具提示文本 | 目标连接速度 (Kbps) | 编码文件后缀 | 视频数据速率 (Kbps) | 宽度/高度（像素） | Fps | 音频比特率 (Kbps) | 推荐 |
 |--- |--- |--- |--- |--- |--- |--- |--- |--- |
-| 1 | 16:9、480x270 (400 Kbps)、OGG | 500 | _OGG_480x270_400K | 400 | 480x270 | 与源相同 | 64 | 低宽屏分辨率 |
-| 2 | 16:9、640x360 (800 Kbps)、OGG | 900 | _OGG_640x360_800K | 600 | 640x360 | 与源相同 | 80 | 中等宽屏分辨率 |
-| 1 | 16:9、800x450 (1200 Kbps)、OGG | 1.5 Mbps | _OGG_800x450_1200K | 1200 | 800x450 | 与源相同 | 96 | 中高分辨率 |
+| 3 | 16:9、480x270 (400 Kbps)、OGG | 500 | _OGG_480x270_400K | 400 | 480x270 | 与源相同 | 64 | 低宽屏分辨率 |
+| 2 | 16:9、640x360 (800 Kbps)、OGG | 900 | _OGG_640x360_800K | 800 | 640x360 | 与源相同 | 80 | 中等宽屏分辨率 |
+| 3 | 16:9、800x450 (1200 Kbps)、OGG | 1.5 Mbps | _OGG_800x450_1200K | 1200 | 800x450 | 与源相同 | 96 | 中高分辨率 |
 | 4 | 16:9、1280x720 (2000 Kbps)、OGG | 3.0 Mbps | _OGG_1280x720_2000K | 2000 | 1280x720 | 与源相同 | 128 | 高清、宽屏 |
 | 5 | 4:3、320x240 (400 Kbps)、OGG | 500 | _OGG_320X240_400K | 400 | 320x240 | 与源相同 | 64 | 低分辨率 |
-| 6 | 4:3、480x360 (800 Kbps)、OGG | 900 | _OGG_480x360_800K | 600 | 480x360 | 与源相同 | 80 | 中分辨率 |
+| 6 | 4:3、480x360 (800 Kbps)、OGG | 900 | _OGG_480x360_800K | 800 | 480x360 | 与源相同 | 80 | 中分辨率 |
 | 7 | 4:3、640x480 (1200 Kbps)、OGG | 1.5 Mbps | _OGG_640x480_1200K | 1200 | 640x480 | 与源相同 | 96 | 中高分辨率 |
 | 8 | 4:3、1280x960 (2000 Kbps)、OGG | 3.0 Mbps | _OGG_1280x960_2000K | 2000 | 1280x960 | 与源相同 | 128 | 高清 |
 
@@ -426,13 +422,13 @@ Dynamic Media经典优惠自适应视频编码预设。 它是一个将 16:9 自
 |  | 编码预设名称/工具提示文本 | 目标连接速度 (Kbps) | 编码文件后缀 | 视频比特率 (Kbps) | 像素宽度/高度 | Fps | 音频比特率 (Kbps) | 推荐 |
 |--- |--- |--- |--- |--- |--- |--- |--- |--- |
 | 1 | 16:9、512x288、移动设备 (400 Kbps) | 500 | _Mobile_512x288_400K | 400 | 512x288 | 与源相同 | 64 | 低分辨率、3G |
-| 2 | 16:9、512x288、移动设备 (600 Kbps) | 700 | _Mobile_512x288_600K | 600 | 512x288 | 与源相同 | 64 | 中分辨率、3G |
-| 3 | 16:9、512x288、移动设备 (800 Kbps) | 900 | _Mobile_512x288_800K | 600 | 512x288 | 与源相同 | 80 | 中等分辨率、Wi-Fi |
+| 2 | 16:9、512x288、移动设备 (600 Kbps) | 700 | _Mobile_512x288_600K | 800 | 512x288 | 与源相同 | 64 | 中分辨率、3G |
+| 1 | 16:9、512x288、移动设备 (800 Kbps) | 900 | _Mobile_512x288_800K | 800 | 512x288 | 与源相同 | 80 | 中等分辨率、Wi-Fi |
 | 4 | 16:9、512x288、移动设备 (1000 Kbps) | 1.2 Mbps | _Mobile_512x288_1000K | 1000 | 512x288 | 与源相同 | 80 | 高分辨率、Wi-Fi |
 | 5 | 16:9、512x288、移动设备 (1200 Kbps) | 1.5 Mbps | _Mobile_512x288_1200K | 1200 | 512x288 | 与源相同 | 96 | 高分辨率、Wi-Fi |
 | 6 | 4:3、384x288、移动设备 (400 Kbps) | 500 | _Mobile_384x288_400K | 400 | 384x288 | 与源相同 | 64 | 低分辨率、3G |
-| 7 | 4:3、384x288、移动设备 (600 Kbps) | 700 | _Mobile_384x288_600K | 600 | 384x288 | 与源相同 | 64 | 中分辨率、3G |
-| 8 | 4:3、448x336、移动设备 (800 Kbps) | 900 | _Mobile_448x336_800K | 600 | 448x336 | 与源相同 | 80 | 中等分辨率、Wi-Fi |
+| 7 | 4:3、384x288、移动设备 (600 Kbps) | 700 | _Mobile_384x288_600K | 800 | 384x288 | 与源相同 | 64 | 中分辨率、3G |
+| 8 | 4:3、448x336、移动设备 (800 Kbps) | 900 | _Mobile_448x336_800K | 800 | 448x336 | 与源相同 | 80 | 中等分辨率、Wi-Fi |
 | 9 | 4:3、448x336、移动设备 (1000 Kbps) | 1.2 Mbps | _Mobile_448x336_1000K | 1000 | 448x336 | 与源相同 | 80 | 高分辨率、Wi-Fi |
 | 10 | 4:3、448x336、移动设备 (1200 Kbps) | 1.5 Mbps | _Mobile_448x336_1200K | 1200 | 448x336 | 与源相同 | 96 | 高分辨率、Wi-Fi |
 
@@ -440,13 +436,13 @@ Dynamic Media经典优惠自适应视频编码预设。 它是一个将 16:9 自
 
 >[!NOTE]
 >
->**Flash查看器生命周期终止通知** -自2017年1月31日起，AdobeDynamic Media经典正式终止对Flash查看器平台的支持。有关此重要更改的更多信息，请参阅以下常见问题解答网站：[https://docs.adobe.com/content/docs/en/aem/6-1/administer/integration/marketing-cloud/scene7/flash-eol.html](https://docs.adobe.com/content/docs/en/aem/6-1/administer/integration/marketing-cloud/scene7/flash-eol.html)。
+>**Flash查看器生命周期终止通知** -自2017年1月31日起，AdobeDynamic Media经典正式终止对Flash查看器平台的支持。
 
 *查看器预设*&#x200B;是一组设置，决定了用户如何在其计算机屏幕和移动设备上查看富媒体资源。作为管理员，您可以创建查看器预设。提供适用于一系列查看器配置选项的设置。例如，您可以更改查看器显示尺寸、缩放行为、颜色方案、边框和字体。
 
 作为最佳实践，请使用Dynamic Media经典HTML5视频查看器。 HTML5 视频查看器中使用的预设是功能强大的视频播放器。将使用 HTML5 和 CSS 设计播放组件的功能合并到一个单独播放器中实现了嵌入播放，并可根据浏览器功能选择使用自适应流和渐进式流，从而将富媒体内容的范围扩展到台式机、平板电脑和移动用户并确保视频体验一体化。
 
-请参阅《Adobe查看器参考指南》中的[关于HTML5查看器](hhttps://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/viewers-for-aem-assets-only/c-html5-aem-asset-viewers.html)。
+请参阅《Adobe查看器参考指南》中的[关于HTML5查看器](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/viewers-for-aem-assets-only/c-html5-aem-asset-viewers.html?lang=en#viewers-for-aem-assets-only)。
 
 请参阅[Dynamic Media经典查看器预设兼容性矩阵](application-setup.md#scene7_viewer_preset_compatibility_matrix)。
 
@@ -490,15 +486,13 @@ Dynamic Media经典优惠自适应视频编码预设。 它是一个将 16:9 自
 
 **Flash查看器生命周期结束通知**:自2017年1月31日起，AdobeDynamic Media经典正式终止了对Flash查看器平台的支持。
 
-有关此重要更改的更多信息，请参阅以下常见问题解答网站：[https://docs.adobe.com/content/docs/en/aem/6-1/administer/integration/marketing-cloud/scene7/flash-eol.html](https://docs.adobe.com/content/docs/en/aem/6-1/administer/integration/marketing-cloud/scene7/flash-eol.html)。
-
 下表列出了当前可用的Dynamic Media经典查看器预设。 该表还指定了查看器与桌面和移动设备的兼容性，以及对每个指定查看器使用的技术。
 
 另请参阅[Adobe查看器引用库示例](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)。
 
 有关查看器支持的 Web 浏览器和操作系统版本的信息，您可以查阅查看器发行说明。
 
-请参阅[Adobe查看器参考发行说明](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/home.html)。
+请参阅[Adobe查看器参考发行说明](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/home.html)。
 
 |  | 查看器技术 | 桌面 | Apple iPhone | Apple iPad | Android 智能手机 | Android 平板电脑 |
 |--- |--- |--- |--- |--- |--- |--- |
@@ -630,7 +624,7 @@ Dynamic Media经典支持MP4 H.264视频的移动视频播放。
    >
    >选择“与源相同”，可将“视频查看器”自动调整为编码视频自身的分辨率大小。如果选择该选项，则不能输入“舞台宽度”和“舞台高度”。相反，这些选项来自视频自身。如果您选择“与源相同”，请设置“边距大小”选项，以反映视频播放区域外部的外观尺寸。该边距大小是视频控件的像素高度和宽度。您可以借助以下图示来帮助您确定要使用的边距大小。*
 
-   ![](assets/vs_video_viewer_configure_margin.png)
+   ![视频查看器的边距配置](assets/vs_video_viewer_configure_margin.png)
 
 1. 执行以下任一操作：
 
