@@ -7,9 +7,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: a802ead0-401e-4600-aedf-e6414f7983e1
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: 2f7366a77c0fa5f3953721cdd5328123d9c2a052
 workflow-type: tm+mt
-source-wordcount: '284'
+source-wordcount: '282'
 ht-degree: 39%
 
 ---
@@ -41,13 +41,13 @@ Dynamic Media经典为每个Dynamic Media经典软件模块的最新主要版本
 
 | 文档 | 网页地址 |
 |--- |--- |
-| API 参考指南 | [https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/image-serving-api/home.html](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/image-serving-api/home.html) |
+| API 参考指南 | [https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/home.html](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/home.html?lang=en) |
 
 **查看器**
 
 | 文档 | 网页地址 |
 |--- |--- |
-| 查看器参考指南和发行说明 | [https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/home.html](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/home.html) |
+| 查看器参考指南和发行说明 | [https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/home.html?lang=en](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/home.html?lang=en) |
 | 查看器库示例 | [https://landing.adobe.com/zh-Hans/na/dynamic-media/ctir-2755/live-demos.html](https://landing.adobe.com/zh-Hans/na/dynamic-media/ctir-2755/live-demos.html) |
 
 
