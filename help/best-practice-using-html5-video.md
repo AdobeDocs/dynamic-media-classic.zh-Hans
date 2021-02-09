@@ -8,9 +8,9 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/video
 discoiquuid: 4b11cab7-88cf-42dd-8554-2eea530753bb
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: 2f7366a77c0fa5f3953721cdd5328123d9c2a052
 workflow-type: tm+mt
-source-wordcount: '422'
+source-wordcount: '423'
 ht-degree: 26%
 
 ---
@@ -24,7 +24,7 @@ Dynamic Media经典HTML5视频查看器预设是功能强大的视频播放器�
 
 将使用 HTML5 和 CSS 设计播放组件的功能合并到一个单独播放器中实现了嵌入播放，并可根据浏览器功能选择使用自适应流和渐进式流，从而将富媒体内容的范围扩展到台式机用户和移动用户并确保视频体验一体化。
 
-另请参阅《Adobe查看器参考指南》中的[关于HTML5查看器](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/viewers-for-aem-assets-only/c-html5-aem-asset-viewers.html)。
+另请参阅《Adobe查看器参考指南》中的[关于HTML5查看器](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/viewers-for-aem-assets-only/c-html5-aem-asset-viewers.html?lang=en#viewers-for-aem-assets-only)。
 
 ## 使用Dynamic Media经典视频查看器{#playback-of-video-on-desktop-computers-and-mobile-devices-using-the-scene-video-viewer}在桌面计算机和移动设备上播放视频
 
