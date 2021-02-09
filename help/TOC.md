@@ -7,9 +7,9 @@ breadcrumb-title: Dynamic Media Classic 指南
 user-guide-description: 了解有关使用 Dynamic Media Classic 的更多信息
 index: y
 translation-type: tm+mt
-source-git-commit: 98d5363c1a692cff234903b9ab0417ca803b5f96
+source-git-commit: 2f7366a77c0fa5f3953721cdd5328123d9c2a052
 workflow-type: tm+mt
-source-wordcount: '750'
+source-wordcount: '748'
 ht-degree: 77%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 77%
 # Adobe Dynamic Media Classic 指南 {#using}
 
 + [Adobe Dynamic Media Classic 指南](home.md)
-+ [最佳实践教程](https://docs.adobe.com/content/help/en/experience-manager-learn/dynamic-media-classic-tutorial/overview.html)
++ [最佳实践教程](https://experienceleague.adobe.com/docs/experience-manager-learn/dynamic-media-classic-tutorial/overview.html)
 + [新Dynamic Media经典登录体验现已推出](new-ui-2020.md)
 + [Dynamic Media通讯，由Experience League撰写](dynamic-media-newsletter.md)
 + 介绍AdobeDynamic Media经典{#intro}
