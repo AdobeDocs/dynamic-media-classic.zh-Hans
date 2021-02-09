@@ -1,17 +1,15 @@
 ---
 title: 发布文件
-description: 了解如何发布文件。
-uuid: cdcf519b-4c1e-430b-b43a-2f20f75071b1
+description: 您将资产发布到Dynamic Media图像服务器。 您可以一次性发布资产，也可以安排Dynamic Media经典在重复计划发布资产。 发布资源后，这些资源即可用来传送。您可以从Dynamic Media经典复制URL调用并将其添加到您的网站或应用程序。
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/upload_and_publish_assets
-discoiquuid: 39099bc0-9228-46f0-9bee-3542059f4695
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: 2f7366a77c0fa5f3953721cdd5328123d9c2a052
 workflow-type: tm+mt
-source-wordcount: '1654'
-ht-degree: 76%
+source-wordcount: '1706'
+ht-degree: 75%
 
 ---
 
@@ -20,7 +18,7 @@ ht-degree: 76%
 
 您将资产发布到Dynamic Media图像服务器。 您可以一次性发布资产，也可以安排Dynamic Media经典在重复计划发布资产。 发布资源后，这些资源即可用来传送。您可以从Dynamic Media经典复制URL调用并将其添加到您的网站或应用程序。
 
-Dynamic Media经典现在支持通过HTTP/2投放所有图像和视频。 即，图像或视频的已发布URL或嵌入代码可与接受托管资产的任何应用程序集成。 随后，将通过HTTP/2协议传送已发布的资产。 此投放方法改进了浏览器和服务器通信的方式，使所有Dynamic Media经典资源的响应和加载时间都更好。 请参阅[HTTP2投放内容常见问题解答](https://docs.adobe.com/content/docs/en/aem/6-2/administer/integration/marketing-cloud/scene7/http2faq.html)。
+Dynamic Media经典现在支持通过HTTP/2投放所有图像和视频。 即，图像或视频的已发布URL或嵌入代码可与接受托管资产的任何应用程序集成。 随后，将通过HTTP/2协议传送已发布的资产。 此投放方法改进了浏览器和服务器通信的方式，使所有Dynamic Media经典资源的响应和加载时间都更好。 请参阅[HTTP2投放内容常见问题解答](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/http2.html#dynamic)。
 
 ## 在上载之后发布 {#publish-after-uploading}
 
