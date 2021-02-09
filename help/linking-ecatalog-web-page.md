@@ -8,10 +8,10 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
 discoiquuid: 140640f2-3ca4-4b6c-a240-5f01be87fa9c
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: 2f7366a77c0fa5f3953721cdd5328123d9c2a052
 workflow-type: tm+mt
-source-wordcount: '670'
-ht-degree: 87%
+source-wordcount: '679'
+ht-degree: 86%
 
 ---
 
@@ -47,7 +47,7 @@ ht-degree: 87%
 
 部署 eCatalog 的最常用方法是在网页上放入一个 eCatalog 缩略图封面形式的链接。与 IT 团队合作，以确保在一个居中弹出的空白窗口中启动 eCatalog。请您的 IT 团队协助在浏览器中不显示工具栏和地址栏。
 
-有关其他详细信息和代码示例，请参阅《Adobe查看器参考指南》](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/ecatalog/c-html5-20-ecatalog-viewer-about.html)中的[嵌入HTML5 eCatalog查看器。
+有关其他详细信息和代码示例，请参阅《Adobe查看器参考指南》](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/ecatalog/c-html5-20-ecatalog-viewer-about.html#section-e1c3106f5b3e445d9b95be337c2f94e2)中的[嵌入HTML5 eCatalog查看器。
 
 ## 复制 eCatalog 查看器的嵌入代码 {#copying-the-embed-code-of-an-ecatalog-viewer}
 
