@@ -1,34 +1,34 @@
 ---
-title: AdobeDynamic Media经典桌面应用程序——现已推出
-description: 进一步了解Dynamic Media经典桌面应用程序。
+title: Adobe Dynamic Media Classic桌面应用程序 — 现已推出
+description: 进一步了解Dynamic Media Classic桌面应用程序。
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_classic
 translation-type: tm+mt
-source-git-commit: 2f7366a77c0fa5f3953721cdd5328123d9c2a052
+source-git-commit: 0aad46c6fd3c520e0e40e177be0bd0cb25188719
 workflow-type: tm+mt
-source-wordcount: '1584'
+source-wordcount: '1658'
 ht-degree: 0%
 
 ---
 
 
-# 现已推出：AdobeDynamic Media经典桌面应用程序{#dynamic-media-classic-desktop-app}
+# 现已推出：Adobe Dynamic Media Classic桌面应用程序{#dynamic-media-classic-desktop-app}
 
-Dynamic Media经典用户现在可以获得新的桌面应用程序体验，不再依赖浏览器中的AdobeFlash技术。
+Dynamic Media Classic用户现在可以访问新的桌面应用程序体验，而不再依赖浏览器中的AdobeFlash技术。
 
 此新应用程序现在可用于Windows和macOS。
 
 >[!IMPORTANT]
 >
->Adobe建议您在2020年10月1日之前安装新的AdobeDynamic Media经典桌面应用程序。 这样做将确保在2020年12月31日弃用AdobeFlash Player之前，您拥有一个流畅的过渡。 在该日期之后，您无法登录到AdobeDynamic Media经典用户界面的浏览器版本，产品中标为Dynamic Media经典。
+>Adobe建议您在2020年10月1日之前安装新的Adobe Dynamic Media Classic桌面应用程序。 这样做将确保在2020年12月31日弃用AdobeFlash Player之前，您拥有一个流畅的过渡。 在该日期之后，您无法登录到浏览器版Adobe Dynamic Media Classic用户界面，产品中标记为Dynamic Media Classic。
 
-请参阅[新Dynamic Media经典登录体验的常见问题解答。](/help/new-ui-2020.md)
+有关[现已推出的新Dynamic Media经典登录体验，请参阅常见问题解答。](/help/new-ui-2020.md)
 
-## AdobeDynamic Media经典桌面应用程序{#system-requirements-dmc-app}的系统要求
+## Adobe Dynamic Media Classic桌面应用程序{#system-requirements-dmc-app}的系统要求
 
-AdobeDynamic Media经典桌面应用程序兼容以下操作系统：
+Adobe Dynamic Media Classic桌面应用程序与以下操作系统兼容：
 
 * macOS 10.10或更高版本。
 * Windows 7或更高版本。
@@ -37,55 +37,56 @@ AdobeDynamic Media经典桌面应用程序兼容以下操作系统：
 
 * 由于超时导致的登录问题导致以下消息：*未经许可，可将此用户分配给组或组。 与管理员联系。*
 * 查看器预设与每次错误的密码尝试重复。
-* 由于根文件夹中的许多资源，桌面应用程序变得无响应。 (在Windows上修复；在macOS上按需工作。)
+* 由于根文件夹中的许多资源，桌面应用程序变得不响应。 (在Windows上修复；在macOS上按需工作。)
+* jlkjlkj
 
-## 先前版本(20.20.2){#previous-version-fixes-desktop-app}中的修复
+## 修复了先前版本(20.20.2){#previous-version-fixes-desktop-app}
 
-* 无限制可通过macOS和Windows桌面应用程序用户界面上传的文件数。
+* 无限制可通过macOS和Windows的桌面应用程序用户界面上传的文件数。
 * 无需注销桌面应用程序即可在公司之间切换。
-* 现在，Ctrl+V在Windows上可进行粘贴操作。
+* Ctrl+V现在可在Windows上执行粘贴操作。
 * 将来，当发布新版本的桌面应用程序时，用户将在桌面应用程序本身中收到通知。 —>
 
-## 在macOS或Windows {#installation-dmc-app}上下载并安装最新的AdobeDynamic Media经典桌面应用程序
+## 在macOS或Windows {#installation-dmc-app}上下载并安装最新的Adobe Dynamic Media Classic桌面应用程序
 
 另请参阅:
 
-* [下载并静默安装Mac上最新的AdobeDynamic Media经典桌面应用程序](#install-silent-mac-dmc-app)
-* [下载并静默安装Windows上最新的AdobeDynamic Media经典桌面应用程序](#install-silent-windows-dmc-app)
+* [下载并静默安装Mac上最新的Adobe Dynamic Media Classic桌面应用程序](#install-silent-mac-dmc-app)
+* [在Windows上下载并静默安装最新的Adobe Dynamic Media Classic桌面应用程序](#install-silent-windows-dmc-app)
 
-1. 在您的系统上卸载任何旧版Dynamic Media经典桌面应用程序。
+1. 在您的系统上卸载任何旧版Dynamic Media Classic桌面应用程序。
 
-1. 下载AdobeDynamic Media经典桌面应用程序的最新安装程序。
+1. 下载Adobe Dynamic Media Classic桌面应用程序的最新安装程序。
 
-   * 最新版本(20.21.1)可在以下网站获得：
+   * 最新版本(20.21.1)可在以下位置获得：
 
-      * [macOS(.DMG)-下载。](https://download.macromedia.com/dynamic-media-classic/20.21.1/adobe-dynamic-media-classic-20.21.1.dmg)
-      * [Windows(.EXE)-下载。](https://download.macromedia.com/dynamic-media-classic/20.21.1/adobe-dynamic-media-classic-20.21.1.exe)
-   * 以前的版本(20.20.2)可在以下位置获得：
+      * [macOS(.DMG) — 下载。](https://download.macromedia.com/dynamic-media-classic/20.21.1/adobe-dynamic-media-classic-20.21.1.dmg)
+      * [Windows(.EXE) — 下载。](https://download.macromedia.com/dynamic-media-classic/20.21.1/adobe-dynamic-media-classic-20.21.1.exe)
+   * 以前版本(20.20.2)可在以下位置获得：
 
-      * [macOS(.DMG)-下载。](https://download.macromedia.com/dynamic-media-classic/20.20.2/adobe-dynamic-media-classic-20.20.2.dmg)
-      * [Windows(.EXE)-下载。](https://download.macromedia.com/dynamic-media-classic/20.20.2/adobe-dynamic-media-classic-20.20.2.exe)
+      * [macOS(.DMG) — 下载。](https://download.macromedia.com/dynamic-media-classic/20.20.2/adobe-dynamic-media-classic-20.20.2.dmg)
+      * [Windows(.EXE) — 下载。](https://download.macromedia.com/dynamic-media-classic/20.20.2/adobe-dynamic-media-classic-20.20.2.exe)
 
 
 
 1. 根据您下载的安装程序执行下列操作之一。
 
-   * **对于macOS**  —— 在“拖放 **[!UICONTROL 到安装”对]** 话框中，拖放 **[!UICONTROL Adobe“Dynamic Media]** 类”并将其放 **[!UICONTROL 到应用程序]**。
+   * **对于macOS**  — 在“拖放 **[!UICONTROL 到安装”对]** 话框中，拖放 **[!UICONTROL Adobe Dynamic Media]** 类并将其放 **[!UICONTROL 到Applications]**&#x200B;上。
 
       ![在macOS上拖放安装](/help/assets/dragondrop-install1.png)
 
-   * 在&#x200B;**[!UICONTROL Applications]**&#x200B;文件夹中，点按AdobeDynamic Media经典图标。
-   * 在对话框中，点按&#x200B;**[!UICONTROL 打开]**&#x200B;以打开AdobeDynamic Media经典桌面应用程序。
+   * 在&#x200B;**[!UICONTROL Applications]**&#x200B;文件夹中，点按Adobe Dynamic Media Classic图标。
+   * 在对话框中，点按&#x200B;**[!UICONTROL 打开]**&#x200B;以打开Adobe Dynamic Media Classic桌面应用程序。
 
       ![打开下载的应用程序](/help/assets/open-dmclassicapp1.png)
 
-   * **对于Windows**  —— 运行安装程序二进制文件，然后按照屏幕上的说明安装桌面应用程序。
+   * **对于Windows**  — 运行安装程序二进制文件，然后按照屏幕上的说明安装桌面应用程序。
 
-1. 打开应用程序时，将显示新的AdobeDynamic Media经典登录页：
+1. 打开应用程序时，将显示新的Adobe Dynamic Media经典登录页面：
 
-   ![Dynamic Media经典登录](/help/assets/dmclassic-login1.png)
+   ![Dynamic Media Classic登录](/help/assets/dmclassic-login1.png)
 
-1. 要登录AdobeDynamic Media经典桌面应用程序，请使用您在浏览器中登录Dynamic Media经典时所用的相同凭据。
+1. 要登录Adobe Dynamic Media Classic桌面应用程序，请使用您在浏览器中登录Dynamic Media Classic时所用的相同凭据。
 
    要使用&#x200B;**[!UICONTROL Server]**，请参阅生产环境的以下映射：
 
@@ -93,39 +94,39 @@ AdobeDynamic Media经典桌面应用程序兼容以下操作系统：
    |---|---|
    | https://s7sps1.scene7.com/ | NA（北美）生产 |
    | https://s7sps3.scene7.com/ | EMEA（欧洲、中东和非洲）生产 |
-   | https://s7sps5.scene7.com/ | 亚太地区生产 |
+   | https://s7sps5.scene7.com/ | 亚太（亚太）生产 |
 
-1. 登录后，请注意熟悉的浏览器用户界面体验。 您可以像往常一样在桌面应用程序上继续日常的Dynamic Media经典活动。
+1. 登录后，请注意熟悉的浏览器用户界面体验。 您可以像往常一样在桌面应用程序上继续使用Dynamic Media Classic活动。
 
-## 下载并&#x200B;*silent*&#x200B;在macOS {#install-silent-mac-dmc-app}上安装最新的AdobeDynamic Media经典桌面应用程序
+## 下载并&#x200B;*silent*&#x200B;在macOS {#install-silent-mac-dmc-app}上安装最新的Adobe Dynamic Media Classic桌面应用程序
 
 另请参阅:
 
-* [在Mac或Windows上下载并安装最新的AdobeDynamic Media经典桌面应用程序](#installation-dmc-app)
-* [下载并静默安装Windows上最新的AdobeDynamic Media经典桌面应用程序](#install-silent-windows-dmc-app)
+* [在Mac或Windows上下载并安装最新的Adobe Dynamic Media Classic桌面应用程序](#installation-dmc-app)
+* [在Windows上下载并静默安装最新的Adobe Dynamic Media Classic桌面应用程序](#install-silent-windows-dmc-app)
 
-要下载并&#x200B;*silent*&#x200B;安装macOS上最新版的AdobeDynamic Media经典桌面应用程序：
+要下载并&#x200B;*silent*&#x200B;安装macOS上最新版Adobe Dynamic Media Classic桌面应用程序，请执行以下操作：
 
-1. 在您的系统上卸载任何旧版Dynamic Media经典桌面应用程序。
+1. 在您的系统上卸载任何旧版Dynamic Media Classic桌面应用程序。
 
-1. 下载适用于macOS的AdobeDynamic Media经典桌面应用程序的最新安装程序。
+1. 下载适用于macOS的Adobe Dynamic Media Classic桌面应用程序的最新安装程序。
 
-   * [macOS(.DMG)-下载。](https://download.macromedia.com/dynamic-media-classic/20.21.1/adobe-dynamic-media-classic-20.21.1.dmg)
+   * [macOS(.DMG) — 下载。](https://download.macromedia.com/dynamic-media-classic/20.21.1/adobe-dynamic-media-classic-20.21.1.dmg)
 
-1. 使用以下命令将下载的磁盘映像(.DMG)装载到装载点位置：
+1. 使用以下命令将下载的磁盘映像(.DMG)装载到安装点位置：
 
    `hdiutil attach adobe-dynamic-media-classic-20.21.1.dmg -mountpoint <mount_point_path>`
 
-1. 使用以下命令将。APP文件复制到&#x200B;**[!UICONTROL Applications]**:
+1. 使用以下命令将.APP文件复制到&#x200B;**[!UICONTROL Applications]**:
 
    `rsync -a <mount_point_path>/Adobe\ Dynamic\ Media\ Classic.app /Applications/
 Unmount DMG - hdiutil detach <mount_point_path>`
 
-1. 打开应用程序时，将显示新的AdobeDynamic Media经典登录页：
+1. 打开应用程序时，将显示新的Adobe Dynamic Media经典登录页面：
 
-   ![Dynamic Media经典登录](/help/assets/dmclassic-login1.png)
+   ![Dynamic Media Classic登录](/help/assets/dmclassic-login1.png)
 
-1. 要登录AdobeDynamic Media经典桌面应用程序，请使用您在浏览器中登录Dynamic Media经典时所用的相同凭据。
+1. 要登录Adobe Dynamic Media Classic桌面应用程序，请使用您在浏览器中登录Dynamic Media Classic时所用的相同凭据。
 
    要使用&#x200B;**[!UICONTROL Server]**，请参阅生产环境的以下映射：
 
@@ -133,44 +134,44 @@ Unmount DMG - hdiutil detach <mount_point_path>`
    |---|---|
    | https://s7sps1.scene7.com/ | NA（北美）生产 |
    | https://s7sps3.scene7.com/ | EMEA（欧洲、中东和非洲）生产 |
-   | https://s7sps5.scene7.com/ | 亚太地区生产 |
+   | https://s7sps5.scene7.com/ | 亚太（亚太）生产 |
 
-## 下载并&#x200B;*silent*&#x200B;在Windows {#install-silent-windows-dmc-app}上安装最新的AdobeDynamic Media经典桌面应用程序
+## 下载并&#x200B;*silent*&#x200B;安装Windows {#install-silent-windows-dmc-app}上最新的Adobe Dynamic Media Classic桌面应用程序
 
-您使用的命令用于基本的MSI静默安装。 但是，Dynamic Media经典桌面应用程序安装程序是使用InstallShield创建的InstallScript MSI安装程序。 在记录模式下运行安装程序时，任何用户交互都会记录在响应文件中。 然后，此响应文件用于静默安装，如[在静默模式下运行安装中所述。](https://docs.flexera.com/installshield19helplib/helplibrary/SilentInstall.htm)
+您使用的命令用于基本的MSI静默安装。 但是，Dynamic Media Classic桌面应用程序安装程序是使用InstallShield创建的InstallScript MSI安装程序。 在记录模式下运行安装程序时，任何用户交互都会记录在响应文件中。 然后，此响应文件用于静默安装，如[在静默模式下运行安装中所述。](https://docs.flexera.com/installshield19helplib/helplibrary/SilentInstall.htm)
 
 另请参阅:
 
-* [在Mac或Windows上下载并安装最新的AdobeDynamic Media经典桌面应用程序](#installation-dmc-app)
-* [下载并静默安装macOS上最新的AdobeDynamic Media经典桌面应用程序](#install-silent-mac-dmc-app)
+* [在Mac或Windows上下载并安装最新的Adobe Dynamic Media Classic桌面应用程序](#installation-dmc-app)
+* [在macOS上下载并静默安装最新的Adobe Dynamic Media Classic桌面应用程序](#install-silent-mac-dmc-app)
 
-要下载并&#x200B;*silent*&#x200B;安装Windows上最新版的AdobeDynamic Media经典桌面应用程序：
+要在Windows上下载并&#x200B;*silent*&#x200B;安装最新版Adobe Dynamic Media Classic桌面应用程序，请执行以下操作：
 
-1. 在您的系统上卸载任何旧版Dynamic Media经典桌面应用程序。
+1. 在您的系统上卸载任何旧版Dynamic Media Classic桌面应用程序。
 
-1. 下载AdobeDynamic Media经典桌面应用程序的最新安装程序。
+1. 下载Adobe Dynamic Media Classic桌面应用程序的最新安装程序。
 
-   * [Windows(.EXE)-下载。](https://download.macromedia.com/dynamic-media-classic/20.21.1/adobe-dynamic-media-classic-20.21.1.exe)
+   * [Windows(.EXE) — 下载。](https://download.macromedia.com/dynamic-media-classic/20.21.1/adobe-dynamic-media-classic-20.21.1.exe)
 
 1. 使用以下命令在记录模式下运行安装程序：
 
    `adobe-dynamic-media-classic-20.21.1.exe /r /f1"C:\Setup.iss"`
 
-1. 在GUI安装程序窗口中，按照安装步骤进行安装，以便交互／输入（如安装位置）记录在`Setup.iss`文件中。
+1. 在GUI安装程序窗口中，按照安装步骤进行安装，以便在`Setup.iss`文件中记录交互/输入（如安装位置）。
 
 1. 将创建的`Setup.iss`文件和`adobe-dynamic-media-classic-20.21.1.exe`复制到其他计算机。
 
-1. 为静默安装运行以下命令：
+1. 对静默安装运行以下命令：
 
    `adobe-dynamic-media-classic-20.21.1.exe /s /f1"C:\Setup.iss"`
 
    有关命令行参数的详细信息，请访问[Setup.exe和Update.exe命令行参数。](https://docs.flexera.com/installshield19helplib/helplibrary/IHelpSetup_EXECmdLine.htm)
 
-1. 打开应用程序时，将显示新的AdobeDynamic Media经典登录页：
+1. 打开应用程序时，将显示新的Adobe Dynamic Media经典登录页面：
 
-   ![Dynamic Media经典登录](/help/assets/dmclassic-login1.png)
+   ![Dynamic Media Classic登录](/help/assets/dmclassic-login1.png)
 
-1. 要登录AdobeDynamic Media经典桌面应用程序，请使用您在浏览器中登录Dynamic Media经典时所用的相同凭据。
+1. 要登录Adobe Dynamic Media Classic桌面应用程序，请使用您在浏览器中登录Dynamic Media Classic时所用的相同凭据。
 
    要使用&#x200B;**[!UICONTROL Server]**，请参阅生产环境的以下映射：
 
@@ -178,22 +179,22 @@ Unmount DMG - hdiutil detach <mount_point_path>`
    |---|---|
    | https://s7sps1.scene7.com/ | NA（北美）生产 |
    | https://s7sps3.scene7.com/ | EMEA（欧洲、中东和非洲）生产 |
-   | https://s7sps5.scene7.com/ | 亚太地区生产 |
+   | https://s7sps5.scene7.com/ | 亚太（亚太）生产 |
 
 
-## 使用Dynamic Media经典桌面应用程序{#dmc-app-video-walk-through}的视频浏览
+## 使用Dynamic Media Classic桌面应用程序{#dmc-app-video-walk-through}的视频浏览
 
-观看[使用Dynamic Media经典桌面应用程序的视频浏览](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/dynamic-media/dynamic-media-classic-desktop-application.html#dynamic-media)(长度：2分36秒)。
+观看使用Dynamic Media Classic桌面应用程序](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/dynamic-media/dynamic-media-classic-desktop-application.html#dynamic-media)的视频浏览(长度：2分36秒)。[
 
 ## 使用桌面应用程序清除您计算机上的图像缓存和资产缓存
 
-1. 在Dynamic Media经典桌面应用程序的右上角附近，点按&#x200B;**[!UICONTROL 设置]** > **[!UICONTROL 个人设置]**。
+1. 在Dynamic Media Classic桌面应用程序的右上角附近，点按&#x200B;**[!UICONTROL 设置]** > **[!UICONTROL 个人设置]**。
 1. 在&#x200B;**[!UICONTROL 个人设置]**&#x200B;页面的&#x200B;**[!UICONTROL 桌面]**&#x200B;标题下，执行下列任一操作：
-   * 点按&#x200B;**[!UICONTROL 清除图像缓存]**&#x200B;以从您的计算机中删除所有AdobeDynamic Media缓存的图像文件。 点按&#x200B;**[!UICONTROL 确定]**。
-   * 点按&#x200B;**[!UICONTROL 清除资产缓存]**&#x200B;以从您的计算机中删除所有AdobeDynamic Media缓存的资产文件。 点按&#x200B;**[!UICONTROL 确定]**。
+   * 要从您的计算机中删除所有Adobe Dynamic Media缓存的图像文件，请点按&#x200B;**[!UICONTROL 清除图像缓存]**，然后点按&#x200B;**[!UICONTROL 确定]**。
+   * 要从您的计算机中删除所有Adobe Dynamic Media缓存的资产文件，请点按&#x200B;**[!UICONTROL 清除资产缓存]**，然后点按&#x200B;**[!UICONTROL 确定]**。
 1. 在页面的右下角，点按&#x200B;**[!UICONTROL 关闭]**。
 
-### 手动清除图像缓存和资产缓存
+### 手动清除图像缓存和资产缓存{#clear-cache}
 
 除了使用桌面应用程序清除图像和资产缓存外，您还可以直接从文件系统手动清除缓存。
 
@@ -202,24 +203,29 @@ Unmount DMG - hdiutil detach <mount_point_path>`
    * macOS:`~/Library/Application\ Support/com.adobe.DMCDesktop/Local\ Store/`
    * Windows: `C:\Users\YourUserName\AppData\Roaming\com.adobe.DMCDesktop\Local Store`
 
-## Dynamic Media经典20.20.1中的已知限制（在20.20.2中修复）
+## Dynamic Media Classic 2021.1的已知限制
 
-**_仅适用于Windows —— 是否对可通过桌面应用程序UI上传的文件数有限制？_**<br>是，通过桌面应用程序UI，一次最多可上传150个文件。
+* **[!UICONTROL Server]**&#x200B;下拉列表在更新到Dynamic Media Classic桌面应用程序20.21.1后为空 — 方案：您将安装并登录Dynamic Media Classic 20.20.1或20.20.2，然后关闭应用程序。 然后更新到Dynamic Media Classic 20.21.1。尝试登录时，**[!UICONTROL 登录到帐户]**&#x200B;对话框中的&#x200B;**[!UICONTROL Server]**&#x200B;下拉列表为空。 要解决此问题，[手动清除缓存](#clear-cache)。
 
-**_适用于Windows和macOS —— 如何在公司之间切换？_**<br>要在公司之间切换，请执行以下操作：
-* 在“Dynamic Media经典”应用程序中，从“公司”下拉列表中选择新公司。
+## Dynamic Media Classic 20.20.1中的已知限制（在20.20.2中修复）
+
+**_仅适用于Windows — 是否对可通过桌面应用程序UI上载的文件数有限制？_**<br>是，通过桌面应用程序UI，一次最多可上载150个文件。
+
+**_适用于Windows和macOS — 如何在公司之间切换？_**<br>要在公司之间切换，请执行以下操作：
+* 在Dynamic Media Classic应用程序中，从公司下拉列表中选择新公司。
 * 出现弹出窗口时，点按&#x200B;**[!UICONTROL 确定]**&#x200B;以注销并关闭应用程序。
 
-   ![重新启动应用程序以使用新公司](/help/assets/dmclassic-new-company1.png)
-* 重新启动Dynamic Media经典，然后照常登录以与新公司配合使用。
+   ![要使用新公司，请重新启动应用程序](/help/assets/dmclassic-new-company1.png)
+
+* 重新启动Dynamic Media Classic，然后照常登录以使用新公司。
 
 ## 提示与技巧
 
-**_我无法在Dynamic Media经典登陆页上看到“Media Cart（媒体购物车）”面板。_**<br>在Dynamic Media经典中，点**[!UICONTROL 按设置>个人设置&#x200B;]**。在“浏览器”部分，确保选中**[!UICONTROL “显示MediaPortal功能&#x200B;]**”（已选中）。 点按**[!UICONTROL 保存>关闭&#x200B;]**。
+**_我无法在Dynamic Media Classic的登陆页上看到“Media Cart（媒体购物车）”面板。_**<br>在Dynamic Media Classic中，点按**[!UICONTROL 设置>个人设置&#x200B;]**。在“浏览器”部分，确保选中了**[!UICONTROL “显示MediaPortal功能&#x200B;]**”（已选中）。 点按**[!UICONTROL 保存>关闭&#x200B;]**。
 
-**_资产的发布状态（绿色指示符）反映不正确。_**<br>在浏览器用户界面中，需要重新登录UI才能查看资产的正确发布状态。在桌面应用程序中，Adobe在工具栏的**[!UICONTROL 选择无&#x200B;]**按钮右侧引入了**[!UICONTROL 刷新&#x200B;]**图标。 点按**[!UICONTROL 刷新&#x200B;]**图标，查看给定页面上所有资产的最新状态。 无需像浏览器UI一样重新登录。
+**_资产的发布状态（绿色指示符）反映不正确。_**<br>在浏览器用户界面中，需要重新登录UI才能查看资产的正确发布状态。在桌面应用程序中，Adobe在工具栏中的**[!UICONTROL 选择无&#x200B;]**按钮右侧引入了**[!UICONTROL 刷新&#x200B;]**图标。 点按**[!UICONTROL 刷新&#x200B;]**图标，以查看给定页面上所有资产的最新状态。 无需重新登录，就像浏览器UI一样。
 
-![刷新图](/help/assets/refresh-icon1.png)
-*标刷新图标*
+![“刷新”](/help/assets/refresh-icon1.png)
+*图标“刷新”图标*
 
-**_我看不到批集预设在桌面应用程序中工作。_**<br>点按**[!UICONTROL 上传>作业选项>批集预设&#x200B;]**。确保已启用相关的**[!UICONTROL 批集预设&#x200B;]**。 单击**[!UICONTROL 保存并提交上传&#x200B;]**。
+**_我看不到批量集预设在桌面应用程序中工作。_**<br>点按**[!UICONTROL 上传>作业选项>批集预设&#x200B;]**。确保已启用相关的**[!UICONTROL 批集预设&#x200B;]**。 单击**[!UICONTROL 保存并提交上载&#x200B;]**。
