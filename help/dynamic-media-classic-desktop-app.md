@@ -6,7 +6,7 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_classic
 translation-type: tm+mt
-source-git-commit: 077f6cc18f6cd88ef18a7555e7df49a975b6f229
+source-git-commit: 556deae011dd82e847b72c00981a84190f9a5805
 workflow-type: tm+mt
 source-wordcount: '1664'
 ht-degree: 0%
@@ -186,7 +186,7 @@ Unmount DMG - hdiutil detach <mount_point_path>`
 
 观看使用Dynamic Media Classic桌面应用程序](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/dynamic-media/dynamic-media-classic-desktop-application.html#dynamic-media)的视频浏览(长度：2分36秒)。[
 
-## 使用桌面应用程序清除您计算机上的图像缓存和资产缓存
+## 使用桌面应用程序{#clear-cache}清除您计算机上的图像缓存和资产缓存
 
 1. 在Dynamic Media Classic桌面应用程序的右上角附近，点按&#x200B;**[!UICONTROL 设置]** > **[!UICONTROL 个人设置]**。
 1. 在&#x200B;**[!UICONTROL 个人设置]**&#x200B;页面的&#x200B;**[!UICONTROL 桌面]**&#x200B;标题下，执行下列任一操作：
@@ -194,7 +194,7 @@ Unmount DMG - hdiutil detach <mount_point_path>`
    * 要从您的计算机中删除所有Adobe Dynamic Media缓存的资产文件，请点按&#x200B;**[!UICONTROL 清除资产缓存]**，然后点按&#x200B;**[!UICONTROL 确定]**。
 1. 在页面的右下角，点按&#x200B;**[!UICONTROL 关闭]**。
 
-### 手动清除图像缓存和资产缓存{#clear-cache}
+### 手动清除图像缓存和资产缓存
 
 除了使用桌面应用程序清除图像和资产缓存外，您还可以直接从文件系统手动清除缓存。
 
