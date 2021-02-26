@@ -6,9 +6,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_classic
 translation-type: tm+mt
-source-git-commit: 0aad46c6fd3c520e0e40e177be0bd0cb25188719
+source-git-commit: 077f6cc18f6cd88ef18a7555e7df49a975b6f229
 workflow-type: tm+mt
-source-wordcount: '1658'
+source-wordcount: '1664'
 ht-degree: 0%
 
 ---
@@ -205,7 +205,7 @@ Unmount DMG - hdiutil detach <mount_point_path>`
 
 ## Dynamic Media Classic 2021.1的已知限制
 
-* **[!UICONTROL Server]**&#x200B;下拉列表在更新到Dynamic Media Classic桌面应用程序20.21.1后为空 — 方案：您将安装并登录Dynamic Media Classic 20.20.1或20.20.2，然后关闭应用程序。 然后更新到Dynamic Media Classic 20.21.1。尝试登录时，**[!UICONTROL 登录到帐户]**&#x200B;对话框中的&#x200B;**[!UICONTROL Server]**&#x200B;下拉列表为空。 要解决此问题，[手动清除缓存](#clear-cache)。
+* **[!UICONTROL Server]**&#x200B;下拉列表在更新到Dynamic Media Classic桌面应用程序20.21.1后为空 — 方案：您将安装并登录Dynamic Media Classic 20.20.1或20.20.2，然后关闭应用程序。 然后更新到Dynamic Media Classic 20.21.1。尝试登录时，**[!UICONTROL 登录到帐户]**&#x200B;对话框中的&#x200B;**[!UICONTROL Server]**&#x200B;下拉列表为空。 要解决此问题，您必须[手动清除缓存](#clear-cache)（请参阅上面的步骤）。
 
 ## Dynamic Media Classic 20.20.1中的已知限制（在20.20.2中修复）
 
