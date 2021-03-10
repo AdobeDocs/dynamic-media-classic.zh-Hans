@@ -6,9 +6,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_classic
 translation-type: tm+mt
-source-git-commit: 5b9529a03e6d3c84b81088493be00a8063163f42
+source-git-commit: 9f93993fe1d3a94e3dcf23b5a151432346b09726
 workflow-type: tm+mt
-source-wordcount: '1664'
+source-wordcount: '1663'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,6 @@ Adobe Dynamic Media Classic桌面应用程序与以下操作系统兼容：
 * 由于超时导致的登录问题导致以下消息：*未经许可，可将此用户分配给组或组。 与管理员联系。*
 * 查看器预设与每次错误的密码尝试重复。
 * 由于根文件夹中的许多资源，桌面应用程序变得不响应。 (在Windows上修复；在macOS上按需工作。)
-* jlkjlkj
 
 ## 修复了先前版本(20.20.2){#previous-version-fixes-desktop-app}
 
