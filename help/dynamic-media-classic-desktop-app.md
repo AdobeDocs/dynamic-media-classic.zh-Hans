@@ -6,7 +6,7 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_classic
 translation-type: tm+mt
-source-git-commit: 9f93993fe1d3a94e3dcf23b5a151432346b09726
+source-git-commit: 22536021ff68704173b5c1fc7eb9018b9e19f2aa
 workflow-type: tm+mt
 source-wordcount: '1663'
 ht-degree: 0%
@@ -44,7 +44,7 @@ Adobe Dynamic Media Classic桌面应用程序与以下操作系统兼容：
 * 无限制可通过macOS和Windows的桌面应用程序用户界面上传的文件数。
 * 无需注销桌面应用程序即可在公司之间切换。
 * Ctrl+V现在可在Windows上执行粘贴操作。
-* 将来，当发布新版本的桌面应用程序时，用户将在桌面应用程序本身中收到通知。 —>
+* 将来，当发布新版本的桌面应用程序时，用户将在桌面应用程序本身中收到通知。
 
 ## 在macOS或Windows {#installation-dmc-app}上下载并安装最新的Adobe Dynamic Media Classic桌面应用程序
 
