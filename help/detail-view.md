@@ -1,17 +1,19 @@
 ---
 title: 使用“详细信息”视图
-description: 了解如何在详细视图中工作。
+description: 了解如何在详细信息视图中工作。
 uuid: cb62f765-9b7f-4a53-8206-99afae2fb80d
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: eaa214ff-d1ef-4691-9148-d01bf243c810
+feature: Dynamic Media Classic，资产管理
+role: 业务从业者
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '583'
-ht-degree: 79%
+source-wordcount: '590'
+ht-degree: 78%
 
 ---
 
@@ -43,7 +45,7 @@ Last Modified Date: 2018-06-14T13:52:46.623-0400
 1. 在浏览面板中，执行以下任一操作：
 
    * 双击资源。
-   * 选择资产，然后单击&#x200B;**[!UICONTROL 详细视图]**。
+   * 选择资产，然后单击&#x200B;**[!UICONTROL 详细信息视图]**。
    * 选择资产，然后单击&#x200B;**[!UICONTROL 文件>详细信息]**。
 
 >[!NOTE]
@@ -52,7 +54,7 @@ Last Modified Date: 2018-06-14T13:52:46.623-0400
 
 ## 在“详细信息”视图中获取信息 {#getting-information-in-detail-view}
 
-详细信息视图可提供有关资源或文件的信息。它显示有关项目的以下信息：存储它的文件夹、文件名、项目上传到Dynamic Media经典的日期及其发布历史记录。 也可以在详细信息视图中查看和编辑元数据，为资源添加关键字。
+详细信息视图可提供有关资源或文件的信息。它显示有关项目的以下信息：存储它的文件夹、文件名、将项目上传到Dynamic Media Classic的日期及其发布历史记录。 也可以在详细信息视图中查看和编辑元数据，为资源添加关键字。
 
 可以在详细信息视图中获得资源 URL；但只有在发布了资源之后 URL 才被激活。对于图像，详细信息视图还提供了一个列表，其中包含创建的资源和派生的资源以及元数据，如缩放目标和图像集。
 
@@ -60,11 +62,11 @@ Last Modified Date: 2018-06-14T13:52:46.623-0400
 
 详细信息视图提供了用于处理打开的资源的工具。具体哪些工具可用取决于您正在使用的资源的类型，但详细信息视图始终提供以下功能：
 
-* **要发布**
-的项目单 **** 击名称左侧的“发布”，或单击“文件”>“发布 **[!UICONTROL 者]** 文件”>“ **[!UICONTROL 取消发布”]**。
+* **要发布的**
+项目单 **** 击名称左侧的“发布”，或单击“文件”>“发布 **[!UICONTROL 器]** 文件” **[!UICONTROL >“取消发布]**”。
 
-* **重命名资**
-产选择名称并输入新名称。
+* **重命名**
+资产选择名称并输入新名称。
 
 * **编辑和添加元**
 数据选择“元数据”面板并根据需要进行更改。请参阅[查看、添加和导出元数据](/help/viewing-adding-exporting-metadata.md)。
