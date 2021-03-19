@@ -7,11 +7,13 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sets
 discoiquuid: 027aa3e0-f085-48ae-aff9-7b805bbdf8ab
+feature: Dynamic Media Classic，查看器，图像集
+role: 业务从业者
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '456'
-ht-degree: 89%
+source-wordcount: '464'
+ht-degree: 88%
 
 ---
 
@@ -20,7 +22,7 @@ ht-degree: 89%
 
 可以使用可用预设在“预览”窗口中查看图像集。可对图像集使用“缩放查看器: 自定义”查看器预设。
 
-Dynamic Media经典版附带默认查看器预设。 管理员可以创建或修改查看器预设。
+Dynamic Media Classic附带默认的查看器预设。 管理员可以创建或修改查看器预设。
 
 ## 为图像集设置缩放查看器预设 {#setting-up-zoom-viewer-presets-for-image-sets}
 
@@ -31,7 +33,7 @@ Dynamic Media经典版附带默认查看器预设。 管理员可以创建或修
 
    **创** 建单击添加。在“添加查看器预设”对话框中，选择一个平台，选择“缩放查看器: 自定义”，然后单击“添加”。也可以使用现有的预设来创建缩放查看器预设。显示预设的名称，将其选中，然后选择“编辑”按钮。在“配置查看器”屏幕上，为预设输入新名称。
 
-   **编** 辑显示预设的名称，选择该预设，然后单击编 **辑**。
+   **编** 辑显示预设的名称，选择该预设，然后单击“编 **辑”**。
 
 1. 在“配置查看器”屏幕中选择选项。
 
