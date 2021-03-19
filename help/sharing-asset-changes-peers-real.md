@@ -7,18 +7,20 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: ca7c8a7f-76f4-4a25-8c36-617a029e55be
+feature: Dynamic Media Classic，资产管理，协作
+role: 管理员，业务从业者
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '270'
-ht-degree: 70%
+source-wordcount: '279'
+ht-degree: 68%
 
 ---
 
 
 # 与对等客户端实时共享资源更改{#sharing-asset-changes-with-peers-in-real-time}
 
-在同一公司的一台或多台计算机上运行多个Dynamic Media经典副本时，来自任何Dynamic Media经典客户端的以下操作都会与所有对等客户端实时更新：
+在同一公司的一台或多台计算机上运行多个Dynamic Media Classic副本时，来自任何Dynamic Media Classic客户端的以下操作将与所有对等客户端实时更新：
 
 * 编辑资源（生成器、图像编辑器等。）
 * 重命名资源
