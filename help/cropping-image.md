@@ -1,24 +1,26 @@
 ---
 title: 裁切图像
-description: 了解如何裁切图像。
+description: 了解如何裁剪图像。
 uuid: 84f199de-cbfc-4d06-877f-6e9148e82e15
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
 discoiquuid: 99dfa476-4f11-4569-a27e-a76ed7787674
+feature: Dynamic Media Classic，资产管理
+role: 业务从业者
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '552'
-ht-degree: 86%
+source-wordcount: '559'
+ht-degree: 85%
 
 ---
 
 
 # 裁切图像{#cropping-an-image}
 
-您可以在Dynamic Media经典中裁切图像。 系统保留裁切图像的相关信息，以便您将它们恢复到初始状态。您还可以裁切某个图像，然后使用新名称保存裁切的版本。
+您可以在Dynamic Media Classic中裁切图像。 系统保留裁切图像的相关信息，以便您将它们恢复到初始状态。您还可以裁切某个图像，然后使用新名称保存裁切的版本。
 
 您可以裁切图像以移除其周围的空白，或裁切图像的某个区域。
 
@@ -44,9 +46,9 @@ ht-degree: 86%
 
 ## 选择要裁切的区域  {#select-an-area-to-crop}
 
-1. 要裁剪图像，请单击其翻转“编辑”按钮并选择&#x200B;**“裁剪**”，或在“浏览面板”的“详细视图”中显示它，然后单击&#x200B;**裁剪**。
+1. 要裁剪图像，请单击其翻转“编辑”按钮并选择&#x200B;**“裁剪**”，或在“浏览面板”的“详细信息”视图中显示它，然后单击&#x200B;**裁剪**。
 
-1. 在“裁剪编辑器”窗口中，将不想裁剪的图像部分放在裁剪框中。 单击&#x200B;**保存**&#x200B;并裁剪图像时，框内显示的内容仍保留。
+1. 在“裁剪编辑器”窗口中，将不想裁剪的图像部分放在裁剪框中。 当您单击&#x200B;**保存**&#x200B;并裁剪图像时，框内显示的内容仍保留。
 1. 要调整裁切区域，请执行以下任一操作：
 
    * 拖动框的一边或一角。拖动时，按住 Shift 键，以更改大小，但保持裁切框的高宽比（形状）不变。
