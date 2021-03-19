@@ -1,26 +1,28 @@
 ---
 title: 管理图像集中的信息面板内容
-description: 了解如何管理图像集中的信息面板内容。
+description: 了解如何管理图像集中的“信息面板”内容。
 uuid: ed7b4344-f180-41fc-a95a-62a9767dc056
 contentOwner: rbrough
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 content-type: reference
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sets
 discoiquuid: ba5d1fb1-af54-471c-a471-853ace7f72fd
+feature: Dynamic Media Classic，查看器，图像集
+role: 业务从业者
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '768'
-ht-degree: 74%
+source-wordcount: '776'
+ht-degree: 73%
 
 ---
 
 
-# 管理图像集中的信息面板内容{#managing-info-panel-content-in-image-sets}
+# 管理图像集{#managing-info-panel-content-in-image-sets}中的信息面板内容
 
 除了在图像集中将图像映射文本用于变换之外，还可以使用“信息面板”添加大量变换文本（包括链接）。还可以使用定时缓存和计划内容更新来管理信息面板。
 
-您可以使用Dynamic Media经典中的以下功能管理InfoPanel设置和数据：
+您可以使用Dynamic Media Classic中的以下功能管理InfoPanel设置和数据：
 
 * “信息面板设置”面板可用来指定用于显示“信息面板”文本、默认错误响应以及信息缓存的小时数等信息的模板。此外，可以指定是否自动发布图像集。
 * “信息面板数据输入”面板可用来指定包含要在信息面板变换文本中显示的文本的 CSV 文件，以及计划更新信息的时间。
@@ -39,14 +41,14 @@ ht-degree: 74%
    * 选择“默认”以使用默认响应。模板设计的 XML 在“用户模板”文本框中灰显。
    * 选择“自定义”创建自己的响应模板。在“用户模板”文本框中，键入模板 XML 定义。您可以使用已在该文本框定义的默认模板作为您自己的响应的基模板。
 
-1. （可选）在“默认响应”框中，键入在检索图像映射信息时遇到错误的Dynamic Media经典时要显示的文本。 例如，如果系统收到公司名称和图像集名称，但是没有变换标识符，则将为用户显示该消息。
+1. （可选）在“默认响应”框中，键入在Dynamic Media Classic检索图像映射信息时遇到错误时要显示的文本。 例如，如果系统收到公司名称和图像集名称，但是没有变换标识符，则将为用户显示该消息。
 1. 在“响应 TTL”文本字段中，输入要在缓存数据之前等待的小时数。
 
    * 如果在一整天内需要频繁更新数据，则设置一个较小的值。
    * 如果数据相对稳定并且不需要整天频繁更新，则设置一个较大的值。默认为十小时。
 
-1. 单击&#x200B;**上传**&#x200B;以根据rollover_key值将信息面板内容上传到s7info。
-1. 在“S7Info上传”对话框中，浏览至要使用的文件，然后单击&#x200B;**上传**。
+1. 单击&#x200B;**上载**&#x200B;可根据rollover_key值将信息面板内容上载到s7info。
+1. 在“S7Info上传”对话框中，浏览到要使用的文件，然后单击&#x200B;**上传**。
 
    支持的文件格式包括采用 UTF-16 编码的制表符分隔文件以及采用 ASCII 编码的 CSV 文件。对于 CSV 文件，必须对非 ASCII 字符进行 HTML 编码。
 
