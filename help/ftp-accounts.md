@@ -7,18 +7,20 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/media_portal
 discoiquuid: d592f0a7-1c27-4463-998a-07351147da1d
+feature: Dynamic Media Classic，协作，资产管理
+role: 管理员，业务从业者
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '231'
-ht-degree: 89%
+source-wordcount: '240'
+ht-degree: 85%
 
 ---
 
 
 # 管理 FTP 帐户{#managing-ftp-accounts}
 
-只有 Media Portal 管理员可以监管和管理 FTP 帐户。此外，只有角色为*Media Portal Contributor-User *或&#x200B;*Media Portal Contributor*&#x200B;的用户才能上传数字资产。
+只有 Media Portal 管理员可以监管和管理 FTP 帐户。此外，只有具有*Media Portal Contributor-User *或&#x200B;*Media Portal Contributor*&#x200B;角色的用户才能上传数字资产。
 
 请记住，您可以通过“管理设置”中的“用户管理”页面来激活或停用现有的 Media Portal 用户。
 
