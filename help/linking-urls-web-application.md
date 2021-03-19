@@ -7,10 +7,12 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sizing
 discoiquuid: 71299640-676d-49b7-841d-6118f31044e8
+feature: Dynamic Media Classic
+role: 业务从业者
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '834'
+source-wordcount: '839'
 ht-degree: 72%
 
 ---
@@ -18,9 +20,9 @@ ht-degree: 72%
 
 # 将 URL 链接至 Web 应用程序{#linking-urls-to-your-web-application}
 
-您的网站和应用程序通过URL字符串访问Dynamic Media图像服务器内容。 发布图像后，Dynamic Media经典会激活引用Dynamic Media图像服务器上的图像预设的URL字符串。 可将这些 URL 粘贴至 Web 浏览器进行测试。
+您的网站和应用程序通过URL字符串访问Dynamic Media Image Server内容。 在发布图像后，Dynamic Media Classic会激活引用Dynamic Media图像服务器上的图像预设的URL字符串。 可将这些 URL 粘贴至 Web 浏览器进行测试。
 
-要将这些URL字符串放置到网页和应用程序中，请从Dynamic Media经典中复制它们。 要获得由图像预设生成的 URL 字符串，请转到“预览”屏幕或浏览面板（在中）。
+要将这些URL字符串放置到网页和应用程序中，请从Dynamic Media Classic中复制它们。 要获得由图像预设生成的 URL 字符串，请转到“预览”屏幕或浏览面板（在中）。
 
 ## 获得图像预设 URL {#obtaining-an-image-preset-url}
 
@@ -55,7 +57,7 @@ ht-degree: 72%
 
 *路径*/*图像服务器名称*/*帐户名称*/*图像名称*?*修饰符1*&amp;*修饰符2*&amp;...
 
-在Dynamic Media图像服务器URL中，在问号(?)后将显示显示图像的服务器说明。 例如，以下 URL 调用将传送一个名为“backpack”宽度为 250 个像素的图像：
+在Dynamic Media图像服务器URL中，显示图像的服务器说明显示在问号(?)之后。 例如，以下 URL 调用将传送一个名为“backpack”宽度为 250 个像素的图像：
 
 ```as3
 https://s7d1.scene7.com/is/image/S7learn/backpack?wid=250
@@ -77,7 +79,7 @@ https://s7d1.scene7.com/is/image/S7learn/backpack?$Large$
 
 ## 将动态图像添加到网页中 {#adding-dynamic-images-to-your-web-page}
 
-要向网页添加动态图像，HTML网页代码中的`<IMG>`标记通常会使用Dynamic Media经典URL字符串进行修改，以向Dynamic Media图像服务器发出请求。 该字符串会按图像预设定义的大小和格式规范生成图像。
+要向网页添加动态图像，通常会使用Dynamic Media Classic URL字符串修改HTML网页代码中的`<IMG>`标记，以向Dynamic Media图像服务器发出请求。 该字符串会按图像预设定义的大小和格式规范生成图像。
 
 例如，与以下用于打开静态图像的典型调用不同
 
@@ -85,10 +87,10 @@ https://s7d1.scene7.com/is/image/S7learn/backpack?$Large$
 img src="/company_images/products/backpack_thumbnail.jpg"
 ```
 
-您现在使用`<IMG>`标记将对静态图像的引用替换为对Dynamic Media经典平台的图像预设调用。 示例调用如下所示：
+您现在使用`<IMG>`标记将对静态图像的引用替换为对Dynamic Media Classic平台的图像预设调用。 示例调用如下所示：
 
 ```as3
 img src="https://s7d2.scene7.com/is/image/S7learn/backpack_trns?$thumbnail$”
 ```
 
-在此示例中，Dynamic Media图像服务器“查找”`$thumbnail$`的定义，并动态生成相应的图像，其大小调整和格式设置规范由`thumbnail`图像预设定义。 在 URL 字符串中，除产品图像文件名称（本例中为`backpack_trns` ）之外的所有项目都由网页模版所固定。唯一可从商业服务器自动插入到网页模版的元素是 IPS ID 或图像名称。
+在此示例中，Dynamic Media图像服务器“查找”`$thumbnail$`的定义，并使用`thumbnail`图像预设定义的大小和格式规范动态生成相应的图像。 在 URL 字符串中，除产品图像文件名称（本例中为`backpack_trns` ）之外的所有项目都由网页模版所固定。唯一可从商业服务器自动插入到网页模版的元素是 IPS ID 或图像名称。
