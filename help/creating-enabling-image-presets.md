@@ -7,11 +7,13 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/media_portal
 discoiquuid: 84257b2a-681c-4fe9-a6e5-3633c1d61d8c
+feature: Dynamic Media经典，协作，图像预设，资产管理
+role: 管理员，业务从业者
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '252'
-ht-degree: 89%
+source-wordcount: '263'
+ht-degree: 85%
 
 ---
 
@@ -20,7 +22,7 @@ ht-degree: 89%
 
 当用户使用 Media Portal 导出图像资源时，他们可以在“导出所选资源”对话框中选择一种“图像预设”。图像预设是一组预定义的设置，用于更改图像在导出时的外观大小、图像质量、格式、分辨率以及其他方面。
 
-Media Portal 管理员可以创建图像预设，以便控制导出时如何重设它们的格式。当用户从Dynamic Media经典中导出图像时，图像预设会根据公司的规范重新设置图像格式。 用户按照“图像预设”的精确规范导出图像，而非自已重设图像的格式。
+Media Portal 管理员可以创建图像预设，以便控制导出时如何重设它们的格式。当用户从Dynamic Media Classic导出图像时，图像预设会根据您的公司规范重新设置图像格式。 用户按照“图像预设”的精确规范导出图像，而非自已重设图像的格式。
 
 导出图像资源时，有下列限制：
 
