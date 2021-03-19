@@ -1,24 +1,26 @@
 ---
 title: 设置基础
-description: 了解如何使用安装屏幕输入您的个人设置。 如果您是管理员，可设置您公司的设置。
+description: 了解如何使用“设置”屏幕输入您的个人设置。 如果您是管理员，可设置您公司的设置。
 uuid: 38f487d7-33f2-4a9e-a32e-bb08f3dd3284
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/getting_started
 discoiquuid: 753677ad-9957-43d9-97ad-bd73a5da5ccb
+feature: Dynamic Media Classic
+role: 管理员，业务从业者
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '193'
-ht-degree: 66%
+source-wordcount: '199'
+ht-degree: 64%
 
 ---
 
 
 # 设置基础{#setup-basics}
 
-使用“Dynamic Media经典设置”屏幕输入您的个人设置。 如果您是管理员，可设置您公司的设置。要打开“设置”屏幕，请单击全局导航栏上的“设置”按钮。
+使用Dynamic Media Classic Setup屏幕输入您的个人设置。 如果您是管理员，可设置您公司的设置。要打开“设置”屏幕，请单击全局导航栏上的“设置”按钮。
 
 该屏幕上可用的设置取决于您的状态是用户还是管理员：
 
@@ -28,10 +30,10 @@ ht-degree: 66%
 管理员还可以在“设置”屏幕中设置“图像预设”和“查看器预设”：
 
 * **图像预**
-设图像预设是保存格式，用于以不同大小和格式显示主控图像。
+设图像预设是存储格式，用于显示大小和格式不同的主控图像。
 
 * **查看**
-器预设查看器预设决定在查看器中查看富媒体时如何查看富媒体。
+器预设查看器预设决定了在查看器中查看富媒体时如何查看富媒体。
 
 >[!MORELIKETHIS]
 >
