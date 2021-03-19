@@ -7,11 +7,13 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/video
 discoiquuid: 8bc5e552-2abb-41f0-89d2-bdf3ae5d96c2
+feature: Dynamic Media Classic，查看器，视频
+role: 业务从业者
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '619'
-ht-degree: 88%
+source-wordcount: '626'
+ht-degree: 87%
 
 ---
 
@@ -52,11 +54,11 @@ Cost-efficient access to rapidly evolving technology.
 
 由于使用的是 HTML5 视频查看器，请确保创建的章节文件遵循 WebVTT（Web 视频文本跟踪）标准。章节文件的扩展名为 .vtt。您可以了解有关 WebVTT 题注标准的详细信息。
 
-请参阅[WebVTT:Web视频文本跟踪格式](https://dev.w3.org/html5/webvtt/)。
+请参阅[WebVTT:Web视频文本轨道格式](https://dev.w3.org/html5/webvtt/)。
 
 **在视频中添加章节标记**
 
-1. 使用Dynamic Media经典之外的简单文本编辑器创建视频章节文件。
+1. 使用Dynamic Media Classic外部的简单文本编辑器创建您的视频章节文件。
 
    >[!NOTE]
    >
@@ -66,7 +68,7 @@ Cost-efficient access to rapidly evolving technology.
 
    通常，您希望使用视频文件名命名章节 VTT 文件，并在后面附加 `chapters`。这有助于使用现有的 Web 内容管理系统自动生成视频 URL。
 
-1. 在Dynamic Media经典中，上传您的WebVTT章文件。
+1. 在Dynamic Media Classic中，上传您的WebVTT章节文件。
 
    请参阅[上载文件](uploading-files.md#uploading_files)。
 
