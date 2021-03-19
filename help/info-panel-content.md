@@ -7,11 +7,13 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
 discoiquuid: be277831-77cc-4011-ae30-e75c18eec99b
+feature: Dynamic Media Classic，查看器，电子目录
+role: 业务从业者
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '868'
-ht-degree: 82%
+source-wordcount: '875'
+ht-degree: 81%
 
 ---
 
@@ -20,7 +22,7 @@ ht-degree: 82%
 
 除了在 eCatalog 中将图像映射文本用于变换之外，还可以使用“信息面板”添加大量变换文本（包括链接）。还可以使用定时缓存和计划内容更新来管理信息面板。
 
-您可以使用Dynamic Media经典中的以下功能管理InfoPanel设置和数据：
+您可以使用Dynamic Media Classic中的以下功能管理InfoPanel设置和数据：
 
 * “信息面板设置”面板可用来指定用于显示“信息面板”文本、默认错误响应以及信息缓存的小时数等信息的模板。此外，可以指定是否自动发布 eCatalog。
 * “信息面板数据输入”面板可用来指定包含要在“信息面板”变换文本中显示的文本的 CSV 文件，以及计划更新信息的时间。
@@ -33,7 +35,7 @@ ht-degree: 82%
 
 >[!NOTE]
 >
->也可以在“查看器预设”中设置响应模板。要改用查看器预设中的响应模板，请将`fmt=1`添加到查看器预设中的信息服务器URL的末尾。
+>也可以在“查看器预设”中设置响应模板。要改用查看器预设中的响应模板，请将`fmt=1`添加到查看器预设中的“信息服务器URL”的末尾。
 >
 >请参阅[设置 eCatalog 查看器预设](setting-ecatalog-viewer-presets.md#setting_up_ecatalog_viewer_presets)。
 
@@ -44,7 +46,7 @@ ht-degree: 82%
    * 从“响应模板”菜单中选择预设。模板设计的 XML 显示在“用户模板”框中。
    * 选择“自定义”创建自己的响应模板。在“用户模板”框中键入模板 XML 定义。可以将预设模板作为您自己的模板的基础。
 
-1. （可选）在“默认响应”框中，键入当Dynamic Media经典在检索图像映射信息时遇到错误时要显示的文本。 例如，如果系统收到公司名称和 eCatalog 名称，但是没有变换标识符，则将为用户显示该消息。
+1. （可选）在“默认响应”框中，键入在Dynamic Media Classic检索图像映射信息时遇到错误时要显示的文本。 例如，如果系统收到公司名称和 eCatalog 名称，但是没有变换标识符，则将为用户显示该消息。
 1. 在“响应 TTL”框中，输入要在缓存数据之前等待的小时数：
 
    * 如果在一整天内需要频繁更新数据，则设置一个较小的值。
@@ -52,7 +54,7 @@ ht-degree: 82%
 
 1. 单击&#x200B;**发布**。
 
-## 导入eCatalogs {#import-source-content-for-the-info-panel-in-ecatalogs}中“信息面板”的源内容
+## 导入eCatalogs {#import-source-content-for-the-info-panel-in-ecatalogs}中“信息”面板的源内容
 
 可以为 eCatalog 的“信息面板”源文本使用逗号分隔值文件 (CSV) 或制表符分隔文件 (TXT)。制表符分隔文件必须使用 UTF16 (Unicode) 编码。使用不同的方法导入不同的文件类型。
 
@@ -62,7 +64,7 @@ ht-degree: 82%
 * 确保数据的第一项或列是变换标识符（与图像映射 URL 的 rollover_key 值关联）。
 * 确保标识符后面的每个制表符分隔或逗号分隔的项目都是要替换到响应模板中的项目（因此第一列取代 $1$，第二列取代 $2$，依此类推）。
 
-### 从外部托管位置{#import-csv-content-into-ecatalogs-from-an-externally-hosted-location}将CSV内容导入电子目录
+### 从外部托管位置{#import-csv-content-into-ecatalogs-from-an-externally-hosted-location}将CSV内容导入eCatalog
 
 1. 双击 eCatalog，以在详细信息视图中将其打开。
 1. 单击“信息面板数据输入”面板以将其打开。
@@ -88,7 +90,7 @@ Last Modified Date:
 1. 单击&#x200B;**浏览**，选择要使用的制表符分隔的TXT文件、CSV或SSV文件，然后单击&#x200B;**打开**。
 1. 按一下&#x200B;**上載**。
 
-Dynamic Media经典会向您发送一封电子邮件，告知您上传是否成功。
+Dynamic Media Classic会向您发送一封电子邮件，告知您上载是否成功。
 
 ## 预览图像映射的变换键文本 {#preview-rollover-key-text-for-an-image-map}
 
