@@ -1,22 +1,24 @@
 ---
 title: 将缩放查看器链接到网页
-description: 了解如何将缩放查看器关联到网页。
+description: 了解如何将缩放查看器关联到您的网页。
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/zoom
+feature: Dynamic Media Classic，查看器，缩放
+role: 业务从业者
 translation-type: tm+mt
-source-git-commit: 2f7366a77c0fa5f3953721cdd5328123d9c2a052
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '674'
-ht-degree: 85%
+source-wordcount: '681'
+ht-degree: 84%
 
 ---
 
 
 # 将缩放查看器链接到网页{#linking-zoom-viewers-to-your-web-pages}
 
-您的网站和应用程序通过URL字符串或嵌入代码访问Dynamic Media图像服务器内容，包括主控图像和关联的缩放目标以及缩放查看器预设。 这些 URL 字符串在发布过程中被激活。要将这些URL字符串或嵌入代码放置到网页和应用程序中，可从Dynamic Media经典中复制它们。
+您的网站和应用程序可通过URL字符串或嵌入代码访问Dynamic Media Image Server内容，包括主控图像和关联的缩放目标，以及缩放查看器预设。 这些 URL 字符串在发布过程中被激活。要将这些URL字符串或嵌入的代码放置到您的网页和应用程序中，可从Dynamic Media Classic中复制它们。
 
 >[!NOTE]
 >
