@@ -7,11 +7,13 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: 036dfc1f-8317-4887-a6e1-d8f2cb61819c
+feature: Dynamic Media Classic，资产管理
+role: 业务从业者
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '481'
-ht-degree: 59%
+source-wordcount: '488'
+ht-degree: 58%
 
 ---
 
@@ -26,7 +28,7 @@ ht-degree: 59%
 
 >[!NOTE]
 >
->Dynamic Media经典建议使用元数据而不是项目来组织资产。 请参阅[查看、添加和导出元数据](viewing-adding-exporting-metadata.md)。
+>Dynamic Media Classic建议使用元数据而不是项目来组织资产。 请参阅[查看、添加和导出元数据](viewing-adding-exporting-metadata.md)。
 
 >[!NOTE]
 >
@@ -34,10 +36,10 @@ ht-degree: 59%
 
 ## 创建项目文件夹 {#creating-a-project-folder}
 
-您可以从资产库开始或在将文件上传到Dynamic Media经典时创建项目文件夹：
+您可以从资源库开始或在将文件上传到Dynamic Media Classic时，创建一个项目文件夹：
 
-* **在资产库**
-中，滚动到资产库的底部，滚动到“项目”部分，然后选择添加项目按钮。然后输入项目的名称。
+* **在“资源库”**
+中，滚动到资源库底部，滚动到“项目”部分，然后选择“添加项目”按钮。然后输入项目的名称。
 
 * **上传文**
 件时，在“上传”屏幕中，选择“添加到项目”菜单，然后选择“创建项目”。然后输入项目的名称。
@@ -50,21 +52,21 @@ ht-degree: 59%
 
 按以下说明显示、删除和重命名项目文件夹：
 
-* **浏览**
-内容选择资产库中文件夹的名称。其资源将显示在浏览面板中。
+* **浏**
+览内容选择资源库中文件夹的名称。其资源将显示在浏览面板中。
 
-* **删除项目文**
-件夹选择项目文件夹，然后选择删除项目按钮。从项目文件夹删除资产不会从Dynamic Media经典中删除资产；资产将保留在存储资产的原始文件夹中。
+* **删除项目**
+文件夹选择项目文件夹，然后选择“删除项目”按钮。从项目文件夹删除资源不会从Dynamic Media Classic中删除资源；资产将保留在存储资产的原始文件夹中。
 
-* **重命名项**
-目文件夹在“资产”面板中双击文件夹的名称，然后输入新名称。
+* **重命名**
+项目文件夹在“资源”面板中双击文件夹的名称，然后输入新名称。
 
 ## 将资源添加到项目文件夹 {#adding-assets-to-a-project-folder}
 
-您可以从浏览面板开始或将文件上传到Dynamic Media经典时，向项目文件夹添加图像：
+您可以从浏览面板开始，或在将文件上传到Dynamic Media Classic时，向项目文件夹添加图像：
 
 * **从浏览面**
-板中选择资产并将其拖至项目文件夹。也可以选择“文件”>“添加到项目”，在“选择项目”对话框中选择一个项目文件夹名称，然后选择“提交”按钮。
+板中选择资源，并将其拖动到项目文件夹。也可以选择“文件”>“添加到项目”，在“选择项目”对话框中选择一个项目文件夹名称，然后选择“提交”按钮。
 
-* **上传文**
-件时，在“上传”屏幕中单击“作业选项”按钮。在“上载作业选项”对话框中，选择“项目”，然后选择一个项目名称。
+* **上载文**
+件时，在“上载”屏幕中，单击“作业选项”按钮。在“上载作业选项”对话框中，选择“项目”，然后选择一个项目名称。
