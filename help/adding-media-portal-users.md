@@ -7,11 +7,13 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/media_portal
 discoiquuid: 5e933045-ce1a-41b9-ba8b-2151c396b7a2
+feature: Dynamic Media Classic，协作，资产管理
+role: 管理员，业务从业者
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '1025'
-ht-degree: 83%
+source-wordcount: '1034'
+ht-degree: 82%
 
 ---
 
@@ -107,30 +109,30 @@ ht-degree: 83%
 
 ## 为 Media Portal 用户设置欢迎电子邮件  {#setting-up-the-welcome-e-mail-message-for-media-portal-users}
 
-添加新 Media Portal 用户、参与者和参与者用户时，您可以发送一封欢迎电子邮件。您可以配置此电子邮件，或告知Dynamic Media经典不要发送。
+添加新 Media Portal 用户、参与者和参与者用户时，您可以发送一封欢迎电子邮件。您可以配置此电子邮件或告知Dynamic Media Classic不要发送它。
 
 1. 选择“**[!UICONTROL 设置]**”>“**[!UICONTROL 应用程序设置]**”>“**[!UICONTROL 管理设置]**”>“**[!UICONTROL 用户管理]**”。
 1. 在“用户管理设置”屏幕中，单击&#x200B;**[!UICONTROL 电子邮件设置]**。
 1. 在“电子邮件设置”对话框中，指定以下任何设置：
 
-   **[!UICONTROL 发送]** 电子邮件如果您不想通过电子邮件通知新用户您已注册，请取消选择此选项。
+   **[!UICONTROL 发送]** 电子邮件如果您不希望通过电子邮件通知新用户您已注册，请取消选择此选项。
 
-   **[!UICONTROL 默认]** 密码为新用户输入临时密码，或将字段留空以让Dynamic Media经典生成随机密码。用户首次登录时会被要求更改密码。
+   **[!UICONTROL 默认]** 密码为新用户输入临时密码，或将字段留空以使Dynamic Media Classic生成随机密码。用户首次登录时会被要求更改密码。
 
-   **[!UICONTROL 替]** 换URL如果用户通过其他URL访问Dynamic Media经典，请输入一个与默认URL不同的URL。
+   **[!UICONTROL 替]** 换URL如果用户通过其他URL访问Dynamic Media Classic，请输入与默认URL不同的URL。
 
 ## 其他用户管理任务 {#other-user-management-tasks}
 
 从“用户管理设置”屏幕开始，您还可以执行以下任务：
 
-**[!UICONTROL 过滤用户列表并对用]** 户列表进行排序筛选Media Portal用户的列表以查找用户。请参阅过滤和排序用户列表。
+**[!UICONTROL 筛选和排序用户列]** 表筛选Media Portal用户的列表以查找用户。请参阅过滤和排序用户列表。
 
 **[!UICONTROL 删除]** 用户从列表中删除用户。请参阅删除用户。
 
-**[!UICONTROL 激活和取消激]** 活用户暂停用户访问文件夹。请参阅激活和停用用户。
+**[!UICONTROL 激活和取消激活用]** 户暂停用户访问文件夹。请参阅激活和停用用户。
 
-**[!UICONTROL 编辑用]** 户信息输入用户的最新信息。请参阅编辑用户信息。
+**[!UICONTROL 编辑用]** 户信息输入有关用户的最新信息。请参阅编辑用户信息。
 
-**[!UICONTROL 创建用户定义字]** 段创建自定义、用户定义的元数据字段，帮助组织Dynamic Media经典中的资产。必要时，也可以激活或停用这些字段。
+**[!UICONTROL 创建用户定义字]** 段创建自定义、用户定义的元数据字段，以帮助组织Dynamic Media经典中的资产。必要时，也可以激活或停用这些字段。
 
 请参阅[用户定义的字段](application-setup.md#user_defined_fields)。
