@@ -7,11 +7,13 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/swatch_sets
 discoiquuid: 0c851ecd-be05-46a9-8654-3d028f3217a4
+feature: Dynamic Media Classic，查看器
+role: 业务从业者
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '172'
-ht-degree: 84%
+source-wordcount: '178'
+ht-degree: 82%
 
 ---
 
@@ -25,7 +27,7 @@ ht-degree: 84%
 * 同一外套的黑色、棕色和绿色快照。
 * 黑色、棕色及绿色样本。
 
-由于用户可以在样本集中缩放图像，因此确保图像最大尺寸至少为 2000 像素。Dynamic Media经典支持多种图像文件格式，但建议使用无损的TIFF、PNG和EPS图像。
+由于用户可以在样本集中缩放图像，因此确保图像最大尺寸至少为 2000 像素。Dynamic Media Classic支持许多图像文件格式，但建议使用无损的TIFF、PNG和EPS图像。
 
 有关上载资源的详细说明，请参阅[上载文件](uploading-files.md#uploading_files)。
 
