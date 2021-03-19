@@ -1,17 +1,19 @@
 ---
 title: 查看样本集
-description: 了解如何视图样本集。
+description: 了解如何视图色板集。
 uuid: 80df403b-b03f-428f-9784-c3f774567bd0
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/swatch_sets
 discoiquuid: 48de8604-2bb4-4862-82ee-0c7847f0d0e7
+feature: Dynamic Media Classic，查看器
+role: 业务从业者
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '430'
-ht-degree: 86%
+source-wordcount: '436'
+ht-degree: 85%
 
 ---
 
@@ -20,7 +22,7 @@ ht-degree: 86%
 
 可以使用可用预设在“预览”窗口中查看样本集。可使用样本集的“缩放查看器: 自定义查看器预设”。
 
-Dynamic Media经典版附带默认查看器预设。 管理员可以创建或修改查看器预设。
+Dynamic Media Classic附带默认的查看器预设。 管理员可以创建或修改查看器预设。
 
 ## 为样本集设置缩放查看器预设 {#setting-up-zoom-viewer-presets-for-swatch-sets}
 
@@ -29,8 +31,8 @@ Dynamic Media经典版附带默认查看器预设。 管理员可以创建或修
 1. 单击“**设置**”>“**查看器预设**”。
 1. 执行以下任一操作：
 
-   * 要创建新预设，请单击&#x200B;**添加**。 在“添加查看器预设”对话框中，选择一个平台，选择“样本集查看器”，然后单击&#x200B;**添加**。
-   * 要编辑现有的样本集查看器预设，请选择该预设，然后单击&#x200B;**编辑**。
+   * 要创建新预设，请单击&#x200B;**添加**。 在“添加查看器预设”对话框中，选择一个平台，选择“色板集查看器”，然后单击&#x200B;**添加**。
+   * 要编辑现有的色板集查看器预设，请选择该预设，然后单击&#x200B;**编辑**。
 
 1. 在样本集查看器预设的“预设名称”框中键入名称。
 1. 在“配置查看器”屏幕中选择选项。
