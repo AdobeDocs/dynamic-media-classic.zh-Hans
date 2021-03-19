@@ -4,10 +4,12 @@ description: 了解如何上传图像资产或矢量资产。
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
+feature: Dynamic Media Classic
+role: 业务从业者
 translation-type: tm+mt
-source-git-commit: 2f7366a77c0fa5f3953721cdd5328123d9c2a052
+source-git-commit: 5efad4fff11c9818d43d46ebbbce5335ee1e72b8
 workflow-type: tm+mt
-source-wordcount: '1527'
+source-wordcount: '1532'
 ht-degree: 84%
 
 ---
@@ -19,9 +21,9 @@ ht-degree: 84%
 
 ## 请求共享密钥 {#requesting-a-shared-secret-key}
 
-使用该Admin Console请求&#x200B;*共享机密密钥*&#x200B;以创建支持案例。[](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) 在您的支持情况下，请求共享机密密钥。
+使用Admin Console创建支持案例，请求[的&#x200B;*共享密钥*。](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) 在您的支持情况下，请求共享机密密钥。
 
-在电子邮件中，请提供要用于上载图像资源的公司名称。从Dynamic Media经典收到密钥后，将其保存在本地以供将来使用。
+在电子邮件中，请提供要用于上载图像资源的公司名称。从Dynamic Media Classic收到密钥后，将其保存在本地以供将来使用。
 
 ## 检索上载令牌 {#retrieving-the-upload-token}
 
@@ -122,7 +124,7 @@ https://s7ugc1.scene7.com/ugc/image?op=upload&upload_token=aa2a378a-cd25-4c80-99
 * 文件大小限制.
 * 文件扩展名的列表.
 * 是否保留与资产关联的颜色用户档案和文件名。
-* 是否使用挖空背景。 如果启用“挖空背景”，请设置“角”、“容差”和“填充方法”。 请参阅上载](image-editing-options-upload.md#image-editing-options-at-upload)的“图像编辑”选项中的挖空背景。[
+* 是否使用挖空背景。 如果启用“挖空背景”，则设置“角”、“公差”和“填充方法”。 请参阅上载](image-editing-options-upload.md#image-editing-options-at-upload)时的“图像编辑”选项中的挖空背景。[
 * 待上载文件的名称
 
 <!-- 
@@ -143,7 +145,7 @@ Last Modified Date:
 
 在Firefox中，右键单击浏览器窗口，然后单击&#x200B;**视图页面源**。 该代码将显示当用户单击“**提交**”时运行的相应 URL 查询字符串和 POST 方法。
 
-要在 Internet Explorer 中查看 XML 响应，请单击“**查看”>“源文件**”。要在Firefox中视图XML响应，请单击&#x200B;**工具> Web开发人员>页面源**。 建议使用 Firefox 查看 XML 响应。
+要在 Internet Explorer 中查看 XML 响应，请单击“**查看”>“源文件**”。要在Firefox中视图XML响应，请单击&#x200B;**“工具”>“Web开发人员”>“页面源”**。 建议使用 Firefox 查看 XML 响应。
 
 下面是成功上载的示例响应：
 
@@ -285,7 +287,7 @@ https://s7ugc1.scene7.com/ugc/vector?op=upload&upload_token=aa2a378a-cd25-4c80-9
 * 文件大小限制.
 * 文件扩展名的列表.
 * 是否保留与资产关联的颜色用户档案和文件名。
-* 是否使用挖空背景。 如果启用“挖空背景”，请设置“角”、“容差”和“填充方法”。 请参阅上载](image-editing-options-upload.md#image-editing-options-at-upload)的“图像编辑”选项中的挖空背景。[
+* 是否使用挖空背景。 如果启用“挖空背景”，则设置“角”、“公差”和“填充方法”。 请参阅上载](image-editing-options-upload.md#image-editing-options-at-upload)时的“图像编辑”选项中的挖空背景。[
 * 待上载文件的名称
 
 <!-- 
@@ -376,7 +378,7 @@ https://s7w2p1.scene7.com/is/agm/W2PTest/ugc/8875744.fxg?fmt=png&wid=500&hei=500
 |--- |--- |--- |
 | op | 必需 | 上载 |
 | upload_token | 必需 | 与公司关联的共享密钥的上载令牌。 |
-| 公司名 | 必需 | 执行上载的公司的名称。 |
+| 公司_name | 必需 | 执行上载的公司的名称。 |
 | file_limit | 可选 | 资源的文件大小限制（以字节为单位）。 |
 | file_exts | 可选 | 资源文件允许的扩展名列表。 |
 
