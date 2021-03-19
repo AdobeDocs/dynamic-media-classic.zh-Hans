@@ -7,18 +7,20 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/template_basics
 discoiquuid: 87a5a25e-210b-4359-821a-7dfe8c304f9b
+feature: Dynamic Media Classic
+role: 业务从业者
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '172'
-ht-degree: 40%
+source-wordcount: '177'
+ht-degree: 38%
 
 ---
 
 
 # 发布模板{#publishing-templates}
 
-发布模板后，将其放置在Dynamic Media图像服务器上，您的网站和应用程序可在该服务器上找到它。 在发布过程中，Dynamic Media经典会激活您的网站和应用程序所需的URL。
+发布模板后，该模板会放置在Dynamic Media图像服务器上，您的网站和应用程序可以在该服务器上使用它。 在发布过程中，Dynamic Media Classic会激活您的网站和应用程序所需的URL。
 
 >[!NOTE]
 >
