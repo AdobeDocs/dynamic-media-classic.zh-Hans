@@ -7,10 +7,12 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/video
 discoiquuid: 0d006314-c4cc-4f6c-a51c-6075bb445e39
+feature: Dynamic Media Classic，查看器，视频
+role: 业务从业者
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '1680'
+source-wordcount: '1687'
 ht-degree: 68%
 
 ---
@@ -18,7 +20,7 @@ ht-degree: 68%
 
 # 将视频部署到网站和移动站点{#deploying-video-to-your-websites-and-mobile-sites}
 
-网站、移动站点和桌面应用程序使用URL字符串或嵌入代码访问Dynamic Media经典服务器内容，包括视频。 Dynamic Media经典在发布过程中激活这些URL字符串。 要将视频的URL字符串或嵌入代码放在网页、移动页面和桌面应用程序中，请从Dynamic Media经典中复制它。
+网站、移动站点和桌面应用程序使用URL字符串或嵌入代码访问Dynamic Media Classic服务器内容（包括视频）。 Dynamic Media Classic在发布过程中激活这些URL字符串。 要将视频的URL字符串或嵌入代码放置到网页、移动页面和桌面应用程序中，请从Dynamic Media Classic中复制它。
 
 >[!NOTE]
 >
@@ -26,19 +28,19 @@ ht-degree: 68%
 
 ## 发布视频 {#publishing-video}
 
-发布视频使Dynamic Media经典服务器能够将视频交付到您的网站、移动站点或应用程序。
+发布视频使Dynamic Media Classic Server能够将视频交付到您的网站、移动站点或应用程序。
 
 可以使用两种不同的方法发布视频：
 
 * **在上载时自动立即发布视频**
 
-   作为视频上传过程的一部分，Dynamic Media经典可以在上传和编码视频时自动发布视频。 立即发布功能意味着，无需事后单独发布视频。
+   在视频上传过程中，Dynamic Media Classic可以在上传和编码视频时自动发布这些视频。 立即发布功能意味着，无需事后单独发布视频。
 
 * **在上载后手动发布视频**
 
    如果不想立即发布视频，您可以随时手动发布视频。
 
-发布视频后，Dynamic Media经典将激活HTML页面或应用程序代码的URL字符串。
+发布视频后，Dynamic Media Classic会为您的HTML页面或应用程序代码激活URL字符串。
 
 **发布视频**
 
@@ -88,18 +90,18 @@ ht-degree: 68%
 1. 在左侧的“资源库”面板中，导航到包含要复制其嵌入代码的视频或自适应视频集的资源文件夹。
 1. 在“资源浏览”面板上方的工具栏右侧，执行以下任一操作：
 
-   * 单击“**网格视图**”或“**列表视图**”。在“资源浏览”面板中，双击单个资源的视频缩略图，以便在详细信息视图中将其打开。在右侧的“URL 和嵌入代码”面板中，在“HTTP 流”下面单击所需查看器右侧的“**嵌入代码**”。作为最佳实践，请单击与`Universal_HTML5_Video`查看器关联的&#x200B;**嵌入代码**。
+   * 单击“**网格视图**”或“**列表视图**”。在“资源浏览”面板中，双击单个资源的视频缩略图，以便在详细信息视图中将其打开。在右侧的“URL 和嵌入代码”面板中，在“HTTP 流”下面单击所需查看器右侧的“**嵌入代码**”。作为最佳实践，单击与`Universal_HTML5_Video`查看器关联的&#x200B;**嵌入代码**。
    * 单击“**网格视图**”。在“资源浏览”面板中，选择单个资源，然后在视图缩略图图像下方单击“**预览**”>“**查看器列表**”。
 
-      在“查看器列表”页面中表的“操作”列下，单击“**嵌入代码**”。作为最佳实践，请单击与`Universal_HTML5_Video`查看器关联的&#x200B;**嵌入代码**。
+      在“查看器列表”页面中表的“操作”列下，单击“**嵌入代码**”。作为最佳实践，单击与`Universal_HTML5_Video`查看器关联的&#x200B;**嵌入代码**。
 
    * 单击“**列表视图**”。在“资源浏览”面板中，选择单个资源，然后在缩略图图像右侧单击“**预览**”>“**查看器列表**”。
 
-      在“查看器列表”页面中表的“操作”列下，单击“**嵌入代码**”。作为最佳实践，请单击与`Universal_HTML5_Video`查看器关联的&#x200B;**嵌入代码**。
+      在“查看器列表”页面中表的“操作”列下，单击“**嵌入代码**”。作为最佳实践，单击与`Universal_HTML5_Video`查看器关联的&#x200B;**嵌入代码**。
 
    * 单击“**网格视图**”、“**列表视图**”或“**详细信息视图**”。在同一工具栏上，单击“**预览**”>“**查看器列表**”。
 
-      在“查看器列表”页面中表的“操作”列下，单击“**嵌入代码**”。作为最佳实践，请单击与`Universal_HTML5_Video`查看器关联的&#x200B;**嵌入代码**。
+      在“查看器列表”页面中表的“操作”列下，单击“**嵌入代码**”。作为最佳实践，单击与`Universal_HTML5_Video`查看器关联的&#x200B;**嵌入代码**。
 
 1. 在“嵌入代码”对话框中，单击“**复制到剪贴板**”。
 
@@ -108,9 +110,9 @@ ht-degree: 68%
 1. 单击&#x200B;**关闭**。
 1. 在网页中粘贴嵌入代码。
 
-### 实现嵌入代码以将HTML5视频与MP4视频资源{#implementing-embed-code-for-using-html-video-with-mp-video-assets}一起使用
+### 实施嵌入代码以将HTML5视频与MP4视频资源{#implementing-embed-code-for-using-html-video-with-mp-video-assets}结合使用
 
-如果您不使用Dynamic Media经典HTML5视频播放器，而是想将本机HTML5 `<video>`标签用于MP4视频资源，则可以使用以下嵌入代码示例：
+如果您不使用Dynamic Media Classic HTML5视频播放器，而是想对MP4视频资源使用本机HTML5 `<video>`标签，则可以使用以下嵌入代码示例：
 
 ```as3
 <video poster="S7 video thumbnail URL" controls> 
@@ -124,7 +126,7 @@ ht-degree: 68%
 
    请参阅[获得视频缩略图 URL](deploying-video-websites-mobile-sites.md#obtaining_video_thumbnail_urls)。
 
-* 将`"S7 OGG video asset URL (no player)"`替换为视频的OGG视频渐进URL。
+* 将`"S7 OGG video asset URL (no player)"`替换为OGG视频的视频渐进式URL。
 
    请参阅[将视频 URL 链接到移动站点或网站](deploying-video-websites-mobile-sites.md#linking_a_video_url_to_a_mobile_site_or_a_website)。
 
@@ -138,36 +140,36 @@ ht-degree: 68%
 
 **使用第三方视频播放器部署视频**
 
-1. 在Dynamic Media经典中，在全局导航栏上，单击&#x200B;**设置** > **应用程序设置** > **常规设置**。
+1. 在Dynamic Media Classic中，在全局导航栏上，单击&#x200B;**设置** > **应用程序设置** > **常规设置**。
 1. 根据要使用的 URL 类型，请执行以下任务之一：
-* 生成直接HLS流视频URL（多比特率）
+* 要生成直接HLS流视频URL（多比特率）
 
-   在&#x200B;**应用程序常规设置**&#x200B;页面的&#x200B;**服务器**&#x200B;组的&#x200B;**发布的服务器名称**&#x200B;文本字段中，使用以下语法构建直接URL:`server/is/content/company/folder/filename.m3u8`
-例如，假定发布的服务器名称为`https://s7d9.scene7.com/.`使用步骤2中的语法，直接URL可能如下所示：
+   在&#x200B;**“应用程序常规设置”**&#x200B;页面的&#x200B;**Servers**&#x200B;组的&#x200B;**“发布的服务器名称**”文本字段中，使用以下语法构建直接URL:`server/is/content/company/folder/filename.m3u8`
+例如，假设“已发布”服务器名称为`https://s7d9.scene7.com/.`使用步骤2中的语法，则直接URL可能如下所示：
    `https://s7d9.scene7.com/is/content/GeoRetail/AdobeRIA-AVS.m3u8`
 
 * 生成直接HLS流视频URL（单位速率）
 
-   在&#x200B;**应用程序常规设置**&#x200B;页面的&#x200B;**服务器**&#x200B;组的&#x200B;**HLS流服务器名称**文本字段中，使用以下语法构建直接URL:
+   在&#x200B;**应用程序常规设置**&#x200B;页面的&#x200B;**Servers**&#x200B;组的&#x200B;**HLS流服务器名称**文本字段中，使用以下语法构建直接URL:
    `server/company/folder/filename.ext.m3u8`
-例如，假定HLS流服务器名称为 `https://s7mbrstream.scene7.com/hls-vod/`。使用步骤 2 中的语法，直接 URL 可能如下所示：
+例如，假设HLS流服务器名为 `https://s7mbrstream.scene7.com/hls-vod/`。使用步骤 2 中的语法，直接 URL 可能如下所示：
    `https://s7mbrstream.scene7.com/hls-vod/GeoRetail/MBR/ToyStory3\_Teaser1\_High\_iPad\_768x432\_1296K.mp4.m3u8`
 
 * 生成直接渐进式视频 URL
 
    在“**应用程序常规设置**”页面的“**服务器**”组的“**渐进式视频服务器名称**”文本框中，使用以下语法构建直接 eVideo URL：  `server/company/folder/filename`
-例如，假定渐进式视频服务器名称为 `https://s7d9.scene7.com/is/content/`。使用步骤 2 中的语法，直接 URL 可能如下所示：
+例如，假设渐进式视频服务器名 `https://s7d9.scene7.com/is/content/`称。使用步骤 2 中的语法，直接 URL 可能如下所示：
    `https://s7d9.scene7.com/e2/GeoRetail/SourceVideo/outdoors.mp4`
 
 ## 使用视频缩略图 {#working-with-video-thumbnails}
 
-Dynamic Media经典为编码视频和预编码视频生成缩略图。 您可以像使用任何图像资源一样使用视频缩略图。此外，您还可以获取Dynamic Media经典生成的视频缩略图的URL，并在Dynamic Media经典之外部署这些URL。 例如，您可以在搜索结果、相关视频列表和网站上的视频播放列表中部署缩略图。
+Dynamic Media Classic为编码视频和预编码视频生成缩略图。 您可以像使用任何图像资源一样使用视频缩略图。此外，您还可以获取Dynamic Media Classic生成的视频缩略图的URL，并在Dynamic Media Classic外部部署这些URL。 例如，您可以在搜索结果、相关视频列表和网站上的视频播放列表中部署缩略图。
 
 基于视频的第一个异构帧（不是全黑帧或全白帧等）生成缩略图。
 
 ### 获得视频缩略图 URL {#obtaining-video-thumbnail-urls}
 
-Dynamic Media经典在上传过程中自动生成视频缩略图。 缩略图显示在列表视图和网格视图中的“浏览”面板中。
+Dynamic Media Classic在上传过程中自动生成视频缩略图。 缩略图显示在列表视图和网格视图中的“浏览”面板中。
 
 要生成视频缩略图的 URL，请执行发布操作。
 
@@ -177,7 +179,7 @@ Dynamic Media经典在上传过程中自动生成视频缩略图。 缩略图显
 
 ### 在视频浏览器中修改海报帧  {#modifying-poster-frames-in-video-viewers}
 
-*海报帧*&#x200B;是在开始播放视频之前在视频查看器中显示的初始帧。Dynamic Media经典将视频缩略图用作海报帧。
+*海报帧*&#x200B;是在开始播放视频之前在视频查看器中显示的初始帧。Dynamic Media Classic将视频缩略图用作海报框。
 
 您可以将图像修饰符应用于海报帧。例如，您可以裁切海报帧或使其变得透明。要修改海报帧，请打开视频查看器配置屏幕，并在“海报图像修饰符”部分中输入修饰符。
 
