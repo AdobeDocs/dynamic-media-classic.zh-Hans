@@ -7,22 +7,24 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/adobe_analytics_instrumentation_kit
 discoiquuid: deeb9fed-ef27-4d58-af98-f381de33c431
+feature: Dynamic Media Classic
+role: 数据工程师，管理员，业务从业者
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '143'
-ht-degree: 44%
+source-wordcount: '151'
+ht-degree: 41%
 
 ---
 
 
 # 发布 Adobe Analytics 配置信息{#publishing-adobe-analytics-configuration-information}
 
-发布您的Dynamic Media经典查看器，以便将有关配置Adobe Analytics报告的信息发送到Dynamic Media经典服务器。 该信息将嵌入查看器中。必须进行发布，以便查看器中包含的信息可在Dynamic Media经典服务器上使用。 用户在查看器上执行活动后，可以将信息从服务器传送到 Adobe Analytics。
+发布Dynamic Media Classic查看器，以便将有关配置Adobe Analytics报表的信息发送到Dynamic Media Classic服务器。 该信息将嵌入查看器中。必须进行发布，以便查看器中包含的信息在Dynamic Media Classic服务器上可用。 用户在查看器上执行活动后，可以将信息从服务器传送到 Adobe Analytics。
 
 >[!NOTE]
 >
->只要在Adobe Analytics更改“Adobe Analytics报告”设置，请确保从Dynamic Media经典中重新登录到Adobe Analytics，重新保存您的Adobe Analytics配置设置，然后重新发布。
+>在Adobe Analytics中更改Adobe Analytics报表设置时，请确保从Dynamic Media Classic中重新登录到Adobe Analytics，重新保存Adobe Analytics配置设置，然后重新发布。
 
 请参阅[登录到 Adobe Analytics](log-analytics.md#log_in_to_adobe_analytics)。
 
