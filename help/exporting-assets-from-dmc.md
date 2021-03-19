@@ -1,30 +1,32 @@
 ---
-title: 从Dynamic Media经典导出资产
-description: 了解如何从Dynamic Media经典中导出资产。
+title: 从Dynamic Media Classic导出资源
+description: 了解如何从Dynamic Media Classic导出资源。
 uuid: d42b7a73-80c0-4a9a-a04e-7ef53e6fcf22
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: eb850ec7-a669-41ea-b2b0-4c9178e34f95
+feature: Dynamic Media Classic，资产管理
+role: 业务从业者
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '424'
-ht-degree: 70%
+source-wordcount: '431'
+ht-degree: 69%
 
 ---
 
 
-# 从Dynamic Media经典导出资源{#exporting-assets-from-dmc}
+# 从Dynamic Media Classic{#exporting-assets-from-dmc}导出资源
 
-您可以将在Dynamic Media经典中编辑的资源保存到本地网络驱动器。 导出的资源会打包成一个 Zip 文件，供下载或通过电子邮件发送。
+您可以将在Dynamic Media Classic中编辑的资源保存到本地网络驱动器。 导出的资源会打包成一个 Zip 文件，供下载或通过电子邮件发送。
 
 可用于导出作业的 Zip 压缩文件的最大文件大小为 1 GB。另外，请注意，每个导出作业最多允许有 500 个总资源。
 
-Dynamic Media·经典在“工作”屏幕中保留了出口工作记录。
+Dynamic Media Classic在“作业”屏幕中保留导出作业的记录。
 
-**从Dynamic Media经典出口资产**
+**从Dynamic Media Classic导出资源**
 
 1. 选择要导出的资源，然后单击“**文件**”>“**导出**”。
 1. 在“导出所选资源”窗口中，单击“**图像选项**”，然后指定以下任一选项（管理员可确定哪些选项对用户可用）：
@@ -49,11 +51,11 @@ Dynamic Media·经典在“工作”屏幕中保留了出口工作记录。
    * **分**
 辨率选择72、150或300 ppi。
 
-   * **作业**
-名称您可以为导出分配作业名称。
+   * **作**
+业名称您可以为导出分配作业名称。
 
    * **发送电**
-子邮件至（可选）输入电子邮件地址，以通过电子邮件发送资产。电子邮件会列出收件人可从中下载资源的 URL。
+子邮件至（可选）输入电子邮件地址以通过电子邮件发送资产。电子邮件会列出收件人可从中下载资源的 URL。
 
 1. 单击“**导出**”。
 
