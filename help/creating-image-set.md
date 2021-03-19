@@ -7,11 +7,13 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sets
 discoiquuid: 3f356410-b30e-4870-ad95-6e5a9dc126c8
+feature: Dynamic Media Classic，查看器，图像集
+role: 业务从业者
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '581'
-ht-degree: 89%
+source-wordcount: '589'
+ht-degree: 88%
 
 ---
 
@@ -35,9 +37,9 @@ ht-degree: 89%
 
 1. 执行以下操作之一：
 
-   **首先选择图** 像在浏览面板中，选择要用于图像集的图像，单击构建>图像集。
+   **首先选择图** 像在浏览面板中，选择您要用于图像集的图像，然后单击构建>图像集。
 
-   **开始自图像集屏幕** 单击构建>图像集。“图像集”屏幕随即打开。在资源库中选择一个文件夹，然后将要用于图像集的图像拖到“图像集”屏幕中。
+   **开始从“图像集”屏** 幕单击“构建”>“图像集”。“图像集”屏幕随即打开。在资源库中选择一个文件夹，然后将要用于图像集的图像拖到“图像集”屏幕中。
 
 1. 要更改图像顺序，将图像拖到新位置即可。
 1. 确保在页面右下角附近选择了“**保存后发布**”（默认）。
