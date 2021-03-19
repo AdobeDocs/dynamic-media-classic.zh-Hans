@@ -7,16 +7,18 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/zoom
 discoiquuid: b072d3b7-0d30-4903-9c87-5fbbcc89bd51
+feature: Dynamic Media Classic，查看器，缩放
+role: 业务从业者
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '247'
-ht-degree: 90%
+source-wordcount: '254'
+ht-degree: 87%
 
 ---
 
 
-# 使用不同的缩放查看器预览图像资产{#previewing-image-assets-with-different-zoom-viewers}
+# 使用不同的缩放查看器预览图像资源{#previewing-image-assets-with-different-zoom-viewers}
 
 在“查看器列表”屏幕上，您可以使用不同缩放查看器预设预览图像。
 
