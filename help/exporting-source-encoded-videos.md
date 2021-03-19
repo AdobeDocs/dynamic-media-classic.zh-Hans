@@ -7,11 +7,13 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/video
 discoiquuid: f6a2dc19-7eb5-41f7-b6f2-de1979ed1d4e
+feature: Dynamic Media Classic，查看器，视频
+role: 业务从业者
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '68'
-ht-degree: 77%
+source-wordcount: '75'
+ht-degree: 70%
 
 ---
 
@@ -20,7 +22,7 @@ ht-degree: 77%
 
 在浏览面板中，源视频标为“主视频”。编码视频标为“视频”。您可以导出源视频和主视频。要导出视频文件，请在浏览面板中将其选中，并选择“文件”>“导出”。
 
-请参阅[从Dynamic Media经典导出资产](exporting-assets-from-dmc.md#exporting-assets-from-dmc)。
+请参阅[从Dynamic Media Classic](exporting-assets-from-dmc.md#exporting-assets-from-dmc)导出资源。
 
 >[!MORELIKETHIS]
 >
