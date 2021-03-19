@@ -7,11 +7,13 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: 17d0bfd6-fc62-4ed6-8a51-7ac1a6bb96cc
+feature: Dynamic Media Classic，资产管理，查看器
+role: 业务从业者
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '1019'
-ht-degree: 98%
+source-wordcount: '1027'
+ht-degree: 97%
 
 ---
 
@@ -24,7 +26,7 @@ ht-degree: 98%
 
 如果您正在预览带参数图层的模板资源，则可以更改参数或图像预设。因为您所做的更改是嵌入式的，所以可以立即从相同的“预览”窗口查看结果。
 
-另请参阅[Adobe查看器引用库示例](https://landing.adobe.com/zh-Hans/na/dynamic-media/ctir-2755/live-demos.html)。
+另请参阅[Adobe查看器参考库示例](https://landing.adobe.com/zh-Hans/na/dynamic-media/ctir-2755/live-demos.html)。
 
 **预览资源**
 
