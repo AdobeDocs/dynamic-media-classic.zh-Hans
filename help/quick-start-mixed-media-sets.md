@@ -1,17 +1,19 @@
 ---
 title: '"快速入门：混合媒体集"'
-description: 混合媒体集的简介和快速开始，帮助您快速入门和运行。
+description: 混合媒体集的简介和快速开始，可帮助您快速入门和使用。
 uuid: 0ef033d5-b053-4d7c-b1e1-1980f899fd88
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/mixed_media_sets
 discoiquuid: 2708d077-94fc-4045-8992-ad3589ed9cfd
+feature: Dynamic Media Classic，查看器，混合媒体集
+role: 业务从业者
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '643'
-ht-degree: 80%
+source-wordcount: '652'
+ht-degree: 79%
 
 ---
 
@@ -24,13 +26,13 @@ ht-degree: 80%
 
 **快速开始**
 
-此混合媒体集快速开始设计为使用Dynamic Media经典中的混合媒体集技术快速入门和运行。
+此混合媒体集快速开始旨在借助Dynamic Media Classic中的混合媒体集技术快速入门和运行。
 
 **1. 上载图像、样本文件和视频**
 
 首先为混合媒体集上载图像、样本文件和视频。由于用户可以在混合媒体集查看器中缩放图像，因此在选择图像时，请考虑缩放因素。 确保图像的最大尺寸至少为2000像素。
 
-单击全局导航栏上的“上传”，将文件从您的计算机上传到Dynamic Media经典上的文件夹。
+单击全局导航栏上的“上传”，将文件从计算机上传到Dynamic Media Classic上的文件夹。
 
 请参阅[上载文件](uploading-files.md#uploading-your-files)。
 
@@ -48,7 +50,7 @@ ht-degree: 80%
 
 **4.设置混合媒体查看器预设**
 
-Dynamic Media经典带有混合媒体集的默认查看器预设。 管理员可以创建或修改混合媒体集查看器预设。
+Dynamic Media Classic附带混合媒体集的默认查看器预设。 管理员可以创建或修改混合媒体集查看器预设。
 
 设置混合媒体集查看器预设时，为集合中所有其他资源添加查看器预设。例如，如果混合媒体集包括视频，则在混合媒体查看器预设中添加视频查看器预设。也可以将音轨添加到查看器中。该音轨在查看器打开时播放，但在视频处于活动状态时不播放。
 
@@ -62,7 +64,7 @@ Dynamic Media经典带有混合媒体集的默认查看器预设。 管理员可
 
 **6.发布混合媒体集**
 
-发布混合媒体集会将其放置在Dynamic Media经典服务器上并激活URL字符串。
+发布混合媒体集会将其放置在Dynamic Media Classic服务器上并激活URL字符串。
 
 混合媒体集要求同时发布到&#x200B;**视频服务器**&#x200B;和&#x200B;**图像服务器**。使用&#x200B;**视频服务器**&#x200B;发布已标记为发布的实际视频。此外，您还可以使用&#x200B;**图像服务器**&#x200B;发布相关资产（如视频缩略图），并为任何自适应视频集设置信息。
 
@@ -70,6 +72,6 @@ Dynamic Media经典带有混合媒体集的默认查看器预设。 管理员可
 
 **7.将混合媒体集与网页链接**
 
-Dynamic Media经典在您发布混合媒体集后激活其URL调用。 可以从“预览”屏幕复制这些 URL。
+Dynamic Media Classic在您发布混合媒体集后激活其URL调用。 可以从“预览”屏幕复制这些 URL。
 
 选择混合媒体集，然后单击“预览”。在“预览”屏幕中，选择混合媒体集查看器预设，然后单击“复制 URL”按钮。请参阅[将混合媒体集与网页链接](linking-mixed-media-set-web.md#linking-a-mixed-media-set-to-a-web-page)。
