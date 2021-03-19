@@ -7,18 +7,20 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
 discoiquuid: 140640f2-3ca4-4b6c-a240-5f01be87fa9c
+feature: Dynamic Media Classic，查看器，电子目录
+role: 业务从业者
 translation-type: tm+mt
-source-git-commit: 2f7366a77c0fa5f3953721cdd5328123d9c2a052
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '679'
-ht-degree: 86%
+source-wordcount: '686'
+ht-degree: 85%
 
 ---
 
 
 # 将 eCatalog 链接到网页{#linking-an-ecatalog-to-a-web-page}
 
-您的网站和应用程序通过URL字符串或嵌入代码访问Dynamic Media图像服务器内容，包括eCatalog。 这些 URL 字符串在发布过程中被激活。要将eCatalog的URL字符串或嵌入代码放置到网页和应用程序中，请从Dynamic Media经典中复制它。
+您的网站和应用程序通过URL字符串或嵌入代码访问Dynamic Media Image Server内容，包括eCatalog。 这些 URL 字符串在发布过程中被激活。要将eCatalog的URL字符串或嵌入代码放置到网页和应用程序中，请从Dynamic Media Classic中复制它。
 
 >[!NOTE]
 >
