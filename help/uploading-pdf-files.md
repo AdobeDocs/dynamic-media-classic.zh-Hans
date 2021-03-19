@@ -1,16 +1,18 @@
 ---
 title: 上载 PDF 文件
-description: 了解如何上传与电子目录相关的PDF文件。
+description: 了解如何上传与电子目录关联的PDF文件。
 uuid: 9e178bb2-ac09-427a-b61a-aad4e87a5837
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: 0097cba5-c886-4115-bc35-7ae7a500202f
+feature: Dynamic Media Classic，查看器，电子目录
+role: 业务从业者
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '696'
-ht-degree: 71%
+source-wordcount: '703'
+ht-degree: 70%
 
 ---
 
@@ -21,13 +23,13 @@ ht-degree: 71%
 
 ## 准备 PDF 文件 {#preparing-your-pdf-files}
 
-在将PDF文件上传到Dynamic Media经典之前，请准备这些文件：
+在将PDF文件上传到Dynamic Media Classic之前，请准备这些文件：
 
 * 将所有文件放入您的计算机或网络上的同一文件夹中，以便于上载文件。
 * 按照页面的字母数字顺序命名文件。如果对页面进行排序，则在文件上载之后，更容易按正确顺序放置页面。
-* 检查 PDF 页，以查看这些页面中是否包含裁切标记、对齐目标或颜色条。这些标记决定了印刷文档时的切纸位置，将 eCatalog 放到网络中之前，必须删除这些标记。Dynamic Media经典为上传PDF文件时的裁剪标记提供了选项。
+* 检查 PDF 页，以查看这些页面中是否包含裁切标记、对齐目标或颜色条。这些标记决定了印刷文档时的切纸位置，将 eCatalog 放到网络中之前，必须删除这些标记。Dynamic Media Classic提供了在您上传PDF文件时裁剪标记的选项。
 * 如果希望观众按关键字搜索 eCatalog，应确认您的 PDF 文件是否已“平面化”。从平面化的 PDF 文件中无法提取搜索词。要确认 PDF 是否平面化，尝试选择其中的文本。如果无法选择文本，则表明 PDF 已平面化，观众无法在 eCatalog 中按关键字进行搜索。
-* 由于 PDF 文件要用于印刷，因此通常包含 CMYK 图像。默认情况下，Dynamic Media经典可以智能检测这些CMYK图像，并使用内部CMYK颜色用户档案转换它们。 但如果需要，也可以使用自定颜色配置文件来转换 CMYK 图像。
+* 由于 PDF 文件要用于印刷，因此通常包含 CMYK 图像。默认情况下，Dynamic Media Classic可以智能检测这些CMYK图像，并使用内部CMYK颜色用户档案转换它们。 但如果需要，也可以使用自定颜色配置文件来转换 CMYK 图像。
 
    请参阅[ICC 配置文件](icc-profiles.md#icc_profiles)。
 
@@ -37,17 +39,17 @@ ht-degree: 71%
 
 选择要上载的文件，然后选择以下&#x200B;*最佳实践* PDF 选项：
 
-* **裁剪**
-如果页面包含裁剪标记、套版色标记或其他标记，请选择“裁剪”菜单并选择“手动”。输入要从页面的上侧、右侧、下侧及左侧裁切的像素数。裁切标记通常设置为半英寸边距。假定选择 150 PPI 的分辨率（推荐设置），则若分别在“上”、“右”、“下”和“左”文本框中输入 75、75、75、75，则将从边距中裁切半英寸（150 PPI 时，半英寸等于 75 像素）。
+* **裁**
+剪如果页面包含裁剪标记、套版色标记或其他标记，请选择“裁剪”菜单并选择“手动”。输入要从页面的上侧、右侧、下侧及左侧裁切的像素数。裁切标记通常设置为半英寸边距。假定选择 150 PPI 的分辨率（推荐设置），则若分别在“上”、“右”、“下”和“左”文本框中输入 75、75、75、75，则将从边距中裁切半英寸（150 PPI 时，半英寸等于 75 像素）。
 
 * **处**
 理选择“处理”菜单，然后选择“栅格化”。PDF 文件必须经过栅格化才能在 eCatalog 中显示所有页面和图像。
 
 * **提取搜索词（可选）**
-如果希望查看者能够在电子目录中按关键字进行搜索，请选择此选项。
+如果希望查看者能够在eCatalog中按关键字搜索，请选择此选项。
 
-* **自动从多页PDF生成电子目录（可选）选**
-择此选项，在上传时自动创建电子目录。可以直接进入 eCatalog 屏幕，并开始使用 eCatalog，无需先选择 PDF 文件及选择“构建”命令。eCatalog 用 PDF 文件的名称命名。
+* **从多页PDF自动生成电子目录（可选）选**
+择此选项可在上传时自动创建电子目录。可以直接进入 eCatalog 屏幕，并开始使用 eCatalog，无需先选择 PDF 文件及选择“构建”命令。eCatalog 用 PDF 文件的名称命名。
 
 * **分**
 辨率动态媒体经典建议每英寸150像素。
@@ -61,13 +63,13 @@ Media Classic建议选择“自动检测”。通常，为印刷输出创建的 
 配置文件选择颜色用户档案选项：
 
 * **转换为**
-SRGBC转换为SRGB（标准红绿蓝）。在网页上显示图像时，推荐使用 SRGB 颜色空间。
+SRGBConverts到SRGB（标准红绿蓝）。在网页上显示图像时，推荐使用 SRGB 颜色空间。
 
-* **保留原始色彩空**
-间保留原始色彩空间。
+* **保留原始色彩**
+空间保留原始色彩空间。
 
-* **“自定义自”>“**
-至打开”菜单，因此您可以选择“转换自”和“转换为色彩空间”。您可以选择标准的Photoshop色彩空间或上传到Dynamic Media经典的色彩空间。
+* **“自定”>“**
+至打开”菜单，因此您可以选择“从中转换”和“转换为色彩空间”。您可以选择标准Photoshop色彩空间或上传到Dynamic Media Classic的色彩空间。
 
 请参阅[ICC 配置文件](icc-profiles.md#icc_profiles)。
 
