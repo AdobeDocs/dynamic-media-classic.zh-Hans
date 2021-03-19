@@ -2,10 +2,12 @@
 description: 'Experience League的Dynamic Media新闻快讯是每月新闻快讯。 它旨在帮助您快速掌握Dynamic Media和Dynamic Media Classic，以便您能够立即实现价值。 这一一站式商店时事通讯中提供了宝贵的知识建设资源。 它包括视频制作和解决方案概述。 还介绍了图像预设、查看器预设和视频用户档案等主要功能。 '
 keywords: 动态媒体；新闻快讯；产品更新；提示与技巧；事件；客户成功；博客；博客；图像；视频；功能；功能
 title: Dynamic Media新闻快讯
+feature: Dynamic Media Classic
+role: 管理员，业务从业者
 translation-type: tm+mt
-source-git-commit: 416ac66db1cbe60a2cac80f72db1e3e0354f9e0a
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '1166'
+source-wordcount: '1172'
 ht-degree: 0%
 
 ---
