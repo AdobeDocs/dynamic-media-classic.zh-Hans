@@ -1,24 +1,26 @@
 ---
 title: 使用 PDF
-description: 了解如何在Dynamic Media经典中使用PDF。
+description: 了解如何在Dynamic Media Classic中使用PDF。
 uuid: 26d70d28-9393-49b1-9051-d70456deca67
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
 discoiquuid: 5a073de3-6b1d-4c3e-8c03-9182f9f3874a
+feature: Dynamic Media Classic，资产管理
+role: 业务从业者
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '670'
-ht-degree: 56%
+source-wordcount: '677'
+ht-degree: 55%
 
 ---
 
 
 # 使用 PDF{#working-with-pdfs}
 
-PDF(可移植文档格式)文件在Dynamic Media经典中最常用于创建电子目录。 当您上传PDF文件、Dynamic Media经典栅格化或翻页时，默认情况下，这些页面可用于构建富媒体。
+Dynamic Media Classic中最常使用PDF(可移植文档格式)文件创建电子目录。 当您上传PDF文件、Dynamic Media Classic栅格化或翻页时，默认情况下会对页面进行栅格化或翻页，以便这些页面可用于构建富媒体。
 
 ## PDF 上载选项 {#pdf-upload-options}
 
@@ -30,13 +32,13 @@ PDF(可移植文档格式)文件在Dynamic Media经典中最常用于创建电�
 
 “处理”选项如下所述：
 
-**栅格** 化（默认）将PDF文件中的页面翻转，并将矢量图形转换为位图图像。选择此选项可以创建 eCatalog。
+**栅格化** （默认）将翻阅PDF文件中的页面，并将矢量图形转换为位图图像。选择此选项可以创建 eCatalog。
 
-**提取搜** 索词从PDF文件提取词，以便在电子目录查看器中按关键字搜索文件。
+**提取搜** 索词从PDF文件提取词，以便在eCatalog查看器中按关键字搜索文件。
 
-**提取** 链接从PDF文件提取链接并将其转换为电子目录查看器中使用的图像映射。
+**提取** 链接从PDF文件提取链接，并将其转换为在电子目录查看器中使用的图像映射。
 
-**自动生成包含多页的电子目** 录PDF自动从PDF文件创建电子目录。eCatalog 以您上载的 PDF 文件命名。（只有当上载 PDF 文件时栅格化该文件，才可以使用此选项。）
+**自动生成包含多页PDF的电子目** 录从PDF文件自动创建电子目录。eCatalog 以您上载的 PDF 文件命名。（只有当上载 PDF 文件时栅格化该文件，才可以使用此选项。）
 
 **分辨率**
 
@@ -50,7 +52,7 @@ PDF(可移植文档格式)文件在Dynamic Media经典中最常用于创建电�
 
 **强制作** 为RGBC转换为RGB色彩空间。
 
-**强制为** CMYK转换为CMYK色彩空间。
+**强制为** CMYK转换到CMYK色彩空间。
 
 **强制为灰** 度转换为灰度色彩空间。
 
@@ -58,11 +60,11 @@ PDF(可移植文档格式)文件在Dynamic Media经典中最常用于创建电�
 
 选择“颜色配置文件”选项：
 
-**转换为** sRGBC转换为sRGB（标准红绿蓝）。在网页上显示图像时，推荐使用 sRGB 颜色空间。
+**转换为** sRGBConverts到sRGB（标准红绿蓝）。在网页上显示图像时，推荐使用 sRGB 颜色空间。
 
-**保留原始色彩空** 间保留原始色彩空间。
+**保留原始色彩** 空间保留原始色彩空间。
 
-**“自定义自”>“** 至打开”菜单，因此您可以选择“转换自”和“转换为色彩空间”。您可以选择标准的Photoshop色彩空间或上传到Dynamic Media经典的色彩空间。
+**“自定”>“** 至打开”菜单，因此您可以选择“从中转换”和“转换为色彩空间”。您可以选择标准Photoshop色彩空间或上传到Dynamic Media Classic的色彩空间。
 
 请参阅[ICC 配置文件](icc-profiles.md#icc_profiles)。
 
@@ -71,17 +73,17 @@ PDF(可移植文档格式)文件在Dynamic Media经典中最常用于创建电�
 1. 要在上载 PDF 文件时自动裁切其空白区域像素，请选择“裁切”菜单并选择“修剪”。
 1. 指定以下选项：
 
-   **根据修剪移** 开选择是基于颜色还是透明度进行裁剪：
+   **基于修剪移去** 选择是基于颜色还是透明度进行裁剪：
 
-   **颜** 色选择颜色选项。然后选择“角”菜单，并选择其颜色最接近于您要裁切的空白区域颜色的 PDF 角。
+   **颜** 色选择“颜色”选项。然后选择“角”菜单，并选择其颜色最接近于您要裁切的空白区域颜色的 PDF 角。
 
-   **透** 明度选择透明度选项。
+   **透** 明度选择“透明度”选项。
 
    **容** 差拖动滑块可指定从0到1的容差：
 
-   **基于颜色的** 修剪指定0仅当像素与您在PDF角中选择的颜色完全匹配时，才能裁剪像素。数字越接近 1，允许的色差越大。
+   **基于颜色** 修剪指定0可仅裁剪与您在PDF角中选择的颜色完全匹配的像素。数字越接近 1，允许的色差越大。
 
-   **基于透明度的** 修剪指定0可仅在像素完全透明时裁剪像素；接近1的数字意味着更加透明。
+   **基于透明度的** 修剪指定0可仅裁剪完全透明的像素；接近1的数字意味着更加透明。
 
 ## 从 PDF 页边裁切 {#cropping-from-the-sides-of-pdf-pages}
 
