@@ -7,11 +7,13 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: 1c9e29f0-3083-4d22-a439-2a01faf59683
+feature: Dynamic Media Classic，资产管理
+role: 业务从业者
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '567'
-ht-degree: 66%
+source-wordcount: '574'
+ht-degree: 65%
 
 ---
 
@@ -53,19 +55,19 @@ ht-degree: 66%
 1. 执行以下任一操作：
 
    * 要删除一个或多个资源，请在浏览面板中选择资源，然后按“删除”或选择“文件”>“删除”。
-   * 要删除文件夹，请在资产库中选择文件夹，然后单击&#x200B;**删除文件夹**。
+   * 要删除文件夹，请在“资源库”中选择该文件夹，然后单击&#x200B;**删除文件夹**。
 
       删除文件夹时会删除文件夹、文件夹中的所有资源，以及其子文件夹中的所有资源。
 
 >[!NOTE]
 >
->Dynamic Media经典建议，如果您删除资产文件的原因是要用同名的资产文件替换它，则应覆盖资产文件，而不要删除它们。
+>Dynamic Media Classic建议，如果删除资产文件的原因是要用同名的其他文件替换它，则应覆盖资产文件，而不是删除它们。
 
 ## 使用文本文件删除多个资源 {#delete-multiple-assets-with-a-text-file}
 
-要在整个资产库中同时删除多个资产，您可以在文本文件中列表要删除的资产，并将列表提交到Dynamic Media经典。
+要在整个资源库中同时删除多个资源，您可以在文本文件中列表要删除的资源，然后将列表提交到Dynamic Media Classic。
 
-创建Dynamic Media经典ID的列表，并将其另存为文本(.txt)文件。 每个Dynamic Media经典ID都必须在其自己的行中（后面跟硬返回）。
+创建Dynamic Media Classic ID的列表，并将其另存为文本(.txt)文件。 每个Dynamic Media Classic ID都必须在其自己的行上（后跟硬返回）。
 
 在创建列表之后，请执行以下步骤，以使用列表来删除资源：
 
@@ -73,7 +75,7 @@ ht-degree: 66%
 1. 在“删除资源列表”对话框中，浏览或键入包含要删除的资源列表的文本文件路径。
 1. 单击“删除”按钮。
 
-当您使用文本文件删除资产时，如果列表上没有任何Dynamic Media经典ID，则会显示一条消息，告知您Dynamic Media经典“无法在您的列表验证这些条目：”以及条目的列表。 但是，Dynamic Media经典不会在作业屏幕上生成错误。
+当您使用文本文件删除资产时，如果Dynamic Media中没有任何Dynamic Media经典ID，则会显示一条消息，告知您列表经典“无法在您的列表中验证这些条目：”以及条目的列表。 但是，Dynamic Media Classic不会在“作业”屏幕上生成错误。
 
 >[!MORELIKETHIS]
 >
