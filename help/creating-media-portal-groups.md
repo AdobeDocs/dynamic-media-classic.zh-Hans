@@ -7,11 +7,13 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/media_portal
 discoiquuid: 91524d36-b77a-4dc4-acba-a7bd85297e98
+feature: Dynamic Media Classic，协作，资产管理
+role: 管理员，业务从业者
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '822'
-ht-degree: 96%
+source-wordcount: '831'
+ht-degree: 95%
 
 ---
 
@@ -95,7 +97,7 @@ ht-degree: 96%
 1. 单击“**设置**”>“**Media Portal 设置**”>“**组**”。
 1. 在“组列表”页面上，选择一个组，然后进行编辑或删除。
 
-   **编辑组** 单击编辑，然后在编辑组对话框中选择选项。
+   **编辑组** 单击“编辑”，然后在“编辑组”对话框中选择选项。
 
-   **删除组单** 击删除。
+   **删除用户** 组单击删除。
 
