@@ -7,22 +7,24 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/mixed_media_sets
 discoiquuid: 4e8694f7-c1b5-4d45-a18b-2b9494db1757
+feature: Dynamic Media Classic，查看器，混合媒体集
+role: 业务从业者
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '252'
-ht-degree: 59%
+source-wordcount: '261'
+ht-degree: 57%
 
 ---
 
 
 # 发布混合媒体集{#publishing-a-mixed-media-set}
 
-创建发布作业以发布已标记为发布到Dynamic Media经典视频服务器和图像服务器的混合媒体集。 Dynamic Media经典优惠高级发布选项，用于发布到特定服务器，以及用于重新发布已发布的资产的选项。
+创建发布作业，以发布您标记为要发布到Dynamic Media Classic Video Server和图像服务器的混合媒体集。 Dynamic Media Classic优惠了高级发布选项，用于发布到特定服务器以及用于重新发布已发布的资产的选项。
 
-***注&#x200B;**:混合媒体集要求您发布到视**频&#x200B;**服务器以及**图像服务器&#x200B;**。使用**视频服务器&#x200B;**发布已标记为发布的实际视频。此外，您可以使用**图像服务器&#x200B;**发布相关资产（如视频缩略图），并为任何自适应视频集设置信息。*
+***注意&#x200B;**:混合媒体集要求您发布到视**频&#x200B;**服务器，也**要发布到Image Server **。使用**视频服务器&#x200B;**发布已标记为发布的实际视频。此外，您还可以使用**图像服务器&#x200B;**发布相关资产（如视频缩略图），并设置任何自适应视频集的信息。*
 
-Dynamic Media·经典在“作业”屏幕上跟踪发布作业。
+Dynamic Media Classic在“作业”屏幕上跟踪发布作业。
 
 请参阅[发布](publishing-files.md#publishing_files)。
 
