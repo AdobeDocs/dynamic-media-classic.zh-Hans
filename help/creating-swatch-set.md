@@ -1,16 +1,18 @@
 ---
 title: 创建样本集
-description: 了解如何创建样本集。
+description: 了解如何创建色板集。
 uuid: 250b3525-310d-4481-b0bc-f9057e823e0b
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/swatch_sets
 discoiquuid: 631d2b2d-9e69-4b96-8392-17e00a1a8de0
+feature: Dynamic Media Classic，查看器
+role: 业务从业者
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '701'
+source-wordcount: '707'
 ht-degree: 84%
 
 ---
@@ -24,11 +26,11 @@ ht-degree: 84%
 
 ## 创建样本集 {#create}
 
-创建集时，**保存后发布**选项通过以下方式影响集和设置成员：
-|“保存后发布”选项在保存前被选中？|保存后设置的状态|保存后设置成员的状态|
-|— |— |— |
+创建集时，**保存**后发布选项会通过以下方式影响集和设置成员：
+|“保存后发布”选项在保存前选中？|保存后设置的状态|保存后设置成员的状态|
+| | | |
 |是|已发布|已发布|
-|无|未发布|集成员将保留其已发布或未发布的状态。|
+|否|未发布|集成员将保留其已发布或未发布的状态。|
 
 另请参阅[手动发布资源](publishing-files.md#manually_publishing_assets)和[手动取消发布资源](publishing-files.md#manually_unpublishing_assets)。
 
@@ -36,9 +38,9 @@ ht-degree: 84%
 
 1. 执行以下操作之一：
 
-   **首先选择图** 像在浏览面板中，选择图像，然后单击构建>样本集。
+   **首先选择图** 像。在浏览面板中，选择图像，然后单击构建>样本集。
 
-   **开始自“样本集”屏** 幕单击“构建”>“样本集”。从资源库中选择一个文件夹，然后将图像拖到“样本集”页面的“视图”部分中。
+   **开始从“色板集”屏** 幕单击“构建”>“色板集”。从资源库中选择一个文件夹，然后将图像拖到“样本集”页面的“视图”部分中。
 
 1. 将样本颜色、模式或光泽度拖到“样本集”页面上的样本占位符框中。
 
