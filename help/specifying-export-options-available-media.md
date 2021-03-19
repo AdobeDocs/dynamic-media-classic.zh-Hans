@@ -6,11 +6,13 @@ contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: 9bfd95da-3714-4e38-98af-331a04c685f5
+feature: Dynamic Media Classic，协作，资产管理
+role: 管理员，业务从业者
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '368'
-ht-degree: 83%
+source-wordcount: '377'
+ht-degree: 81%
 
 ---
 
@@ -24,15 +26,15 @@ ht-degree: 83%
 * 可用于导出作业的 Zip 压缩导出文件的最大文件大小为 1 GB。
 * 每个导出作业最多可以有 500 个总资源。
 
-另请参阅[从Dynamic Media经典导出资产](exporting-assets-from-dmc.md#exporting-assets-from_dmc)。
+另请参阅[从Dynamic Media Classic](exporting-assets-from-dmc.md#exporting-assets-from_dmc)导出资源。
 
 **指定 Media Portal 用户可以使用的导出选项**
 
 1. 单击“**设置**”>“**图像预设**”。
 1. 在“图像预设”窗口中，选择下列任一选项：
 
-   * **启用用户定**
-义的转换选中此选项后，用户可以从“导出选定资产”窗口的“大小”下拉列表中选择其他转换。然后用户可以选择度量单位（如像素或厘米），并指定所需的宽度和高度。当他们导出或下载这些文件时，图像文件将重新格式化。
+   * **启用用户定义的**
+转换选中此选项后，用户可从“导出选定的资产”窗口的“大小”下拉列表中选择其他转换。然后用户可以选择度量单位（如像素或厘米），并指定所需的宽度和高度。当他们导出或下载这些文件时，图像文件将重新格式化。
 
       从“**大小**”下拉列表中选择“**像素**”时，生成的图像宽度 x 高度不得超过 1 亿像素。此大小相当于正方形图像的 10,000 x 10,000 像素，或大约为 2x3 宽高比图像的 8,000 x 12,000 像素。如果导出原始主图像，则不会应用此大小限制。
 
