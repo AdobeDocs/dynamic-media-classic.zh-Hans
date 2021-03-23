@@ -10,10 +10,10 @@ discoiquuid: 34ecd868-775f-452b-b26e-d139f0e280ae
 feature: Dynamic Media Classic
 role: 管理员
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 3def4a02eda8dc36f2811b3d4f0e870fff1994e4
 workflow-type: tm+mt
 source-wordcount: '982'
-ht-degree: 66%
+ht-degree: 62%
 
 ---
 
@@ -22,9 +22,9 @@ ht-degree: 66%
 
 SEO 是改进从搜索引擎到网站流量的过程。虽然搜索引擎擅长收集有关基于文本的内容，但却无法充分获取有关视频的信息，除非向它们提供此信息。
 
-使用Dynamic Media Classic视频SEO，您可以利用视频元数据为搜索引擎提供视频描述。 Dynamic Media Classic提供了创建视频站点地图和mRSS源的功能。 以下是用于将视频信息提交给搜索引擎的标准 XML 文件：
+使用Dynamic Media经典视频SEO，您可以应用视频元数据来为搜索引擎提供视频描述。 Dynamic Media Classic使您能够创建视频站点地图和mRSS源。 以下标准XML文件用于向搜索引擎提交视频信息：
 
-**视** 频站点地图告知Google视频内容在站点上的确切位置和内容。因此，在 Google 上视频是完全可搜索的。例如，视频站点地图可以指定视频的运行时间和类别。有关视频站点地图的信息，请参阅https://www.google.com/support/webmasters/bin/answer.py?answer=80471。
+**视** 频站点地图告知Google视频内容在站点上的确切位置和内容。因此，视频在谷歌上是完全可搜索的。 例如，视频站点地图可以指定视频的运行时间和类别。有关视频站点地图的信息，请参阅https://www.google.com/support/webmasters/bin/answer.py?answer=80471。
 
 **mRSS（媒体真正简单的整合）** 源内容发布者用于将媒体文件馈送到Yahoo!视频搜索。有关mRSS源的信息，请参阅https://www.rssboard.org/media-rss。
 
@@ -62,7 +62,7 @@ Dynamic Media Classic在生成视频站点地图和mRSS源后会创建相关报�
 
 **两** 者创建两种类型的XML文件。
 
-**关** 闭选择此选项可停止生成视频站点地图和媒体RSS(mRSS)源。
+**关** 闭要停止生成视频站点地图和媒体RSS(mRSS)源，请选择此选项。
 
 在“自动/手动模式”下拉列表中，选择是自动生成，还是手动生成：
 
@@ -74,7 +74,7 @@ Dynamic Media Classic在生成视频站点地图和mRSS源后会创建相关报�
 
 **标记为** PublishMarks以发布生成的XML文件。
 
-**允许部** 分生成如果XML文件不包含所有视频的完整元数据信息，则搜索引擎可能会拒绝该文件。即使某些视频没有元数据，该选项也会生成 XML 文件。在“报告”屏幕上会注册一个警告。如果您打算导出 XML 文件并手动处理缺失信息，请选择该选项。
+**允许部分** 生成如果XML文件不包含所有视频的完整元数据信息，搜索引擎可以拒绝该文件。即使某些视频没有元数据，该选项也会生成 XML 文件。在“报告”屏幕上会注册一个警告。如果您打算导出 XML 文件并手动处理缺失信息，请选择该选项。
 
 ### 选择生成设置  {#choosing-generation-settings}
 
@@ -93,7 +93,7 @@ Dynamic Media Classic在生成视频站点地图和mRSS源后会创建相关报�
 
 >[!NOTE]
 >
->必须先发布视频站点地图或 mRSS 新闻频道，才可以将其提交给搜索引擎。视频站点地图和媒体 RSS (mRSS) 新闻频道文件存储在公司的根文件夹中。如需要，将这些 XML 文件标记为发布，然后单击“发布”。
+>在将视频站点地图或mRSS源提交到搜索引擎之前，请先发布该视频站点地图或mRSS源。 视频站点地图和媒体 RSS (mRSS) 新闻频道文件存储在公司的根文件夹中。如需要，将这些 XML 文件标记为发布，然后单击“发布”。
 
 ## 将视频站点地图和 mRSS 新闻频道文件提交给搜索引擎  {#submitting-video-sitemap-and-mrss-feed-files-to-search-engines}
 
