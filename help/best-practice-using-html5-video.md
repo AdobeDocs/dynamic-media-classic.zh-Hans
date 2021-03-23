@@ -10,21 +10,27 @@ discoiquuid: 4b11cab7-88cf-42dd-8554-2eea530753bb
 feature: Dynamic Media Classic，查看器，视频
 role: 业务从业者
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 3def4a02eda8dc36f2811b3d4f0e870fff1994e4
 workflow-type: tm+mt
-source-wordcount: '430'
-ht-degree: 25%
+source-wordcount: '427'
+ht-degree: 13%
 
 ---
 
 
 # 使用HTML5视频查看器的最佳实践{#best-practice-using-the-html-video-viewer}
 
-Dynamic Media Classic HTML5视频查看器预设是功能强大的视频播放器。 在播放器的设计方面，您可以使用标准Web开发工具创建视频播放器的所有功能。 例如，您可以使用 HTML5 和 CSS 设计按钮、控件和自定义海报图像背景，以便通过自定义的界面外观吸引客户。
+Dynamic Media Classic HTML5视频查看器预设是功能强大的视频播放器。 在播放器的设计方面，您可以使用标准Web开发工具创建视频播放器的整个功能。 例如，您可以使用 HTML5 和 CSS 设计按钮、控件和自定义海报图像背景，以便通过自定义的界面外观吸引客户。
 
 在查看器的播放端，它将自动检测浏览器的视频功能。然后，它使用HLS（自适应视频流）来提供视频。 或者，如果该投放方法不存在，则改用HTML5渐进式方法。
 
-将使用 HTML5 和 CSS 设计播放组件的功能合并到一个单独播放器中实现了嵌入播放，并可根据浏览器功能选择使用自适应流和渐进式流，从而将富媒体内容的范围扩展到台式机用户和移动用户并确保视频体验一体化。
+通过将以下功能组合为单个播放器：
+
+* 使用HTML5和CSS设计的回放组件
+* 嵌入式播放
+* 根据浏览器功能使用自适应和渐进式流
+
+您将丰富媒体内容的触及范围扩展到桌面和移动用户。 您还可以确保简化的视频体验。
 
 另请参阅《Adobe查看器参考指南》中的[关于HTML5查看器](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/viewers-for-aem-assets-only/c-html5-aem-asset-viewers.html?lang=en#viewers-for-aem-assets-only)。
 
@@ -38,15 +44,15 @@ Dynamic Media Classic HTML5视频查看器预设是功能强大的视频播放�
 
 | 设备 | 浏览器 | 视频播放模式 |
 |--- |--- |--- |
-| 德科普 | Internet Explorer 9和10 | 渐进式下载。 |
+| 桌面 | Internet Explorer 9和10 | 渐进式下载。 |
 | 桌面 | Internet Explorer 11+ | HLS视频流。 |
 | 桌面 | Firefox 23-44 | 渐进式下载。 |
 | 桌面 | Firefox 45 或更高版本 | HLS视频流。 |
 | 桌面 | 铬黄 | HLS视频流。 |
 | 桌面 | Safari(Mac) | HLS视频流。 |
-| 移动 | Chrome（Android 6或更早版本） | 渐进式下载。 |
-| 移动 | Chrome（Android 7或更高版本） | HLS视频流。 |
-| 移动 | Android（默认浏览器） | 渐进式下载。 |
+| 移动 | Chrome(Android™ 6或更早版本) | 渐进式下载。 |
+| 移动 | Chrome(Android™ 7或更高版本) | HLS视频流。 |
+| 移动 | Android™（默认浏览器） | 渐进式下载。 |
 | 移动 | Safari(iOS) | HLS视频流。 |
 | 移动 | Chrome(iOS) | HLS视频流。 |
-| 移动 | Blackberry | HLS视频流。 |
+| 移动 | BlackBerry® | HLS视频流。 |
