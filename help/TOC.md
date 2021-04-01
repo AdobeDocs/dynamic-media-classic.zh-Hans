@@ -1,5 +1,5 @@
 ---
-cloud: experience-cloud
+cloud: Experience Cloud
 product: Adobe Dynamic Media Classic
 audience: end-user
 user-guide-title: Adobe Dynamic Media Classic 指南
@@ -7,7 +7,7 @@ breadcrumb-title: Dynamic Media Classic 指南
 user-guide-description: 了解有关使用 Dynamic Media Classic 的更多信息
 index: y
 translation-type: tm+mt
-source-git-commit: 2f7366a77c0fa5f3953721cdd5328123d9c2a052
+source-git-commit: 94f0166a975b681eef355ada47750a33f2d2e65f
 workflow-type: tm+mt
 source-wordcount: '748'
 ht-degree: 77%
