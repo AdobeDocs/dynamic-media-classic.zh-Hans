@@ -1,11 +1,11 @@
 ---
-cloud: experience-cloud
+cloud: Experience Cloud
 solution: Dynamic Media Classic
 type: 文档
 feature-set: Experience Manager Assets
 git-repo: https://git.corp.adobe.com/AdobeDocs/dynamic-media-classic.zh-Hans
 translation-type: tm+mt
-source-git-commit: 3eff8818ff9c8acb100ebb6aa7edeee0f84a85f1
+source-git-commit: 94f0166a975b681eef355ada47750a33f2d2e65f
 workflow-type: tm+mt
 source-wordcount: '112'
 ht-degree: 1%
