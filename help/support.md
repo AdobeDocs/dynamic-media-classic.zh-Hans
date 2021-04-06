@@ -7,8 +7,9 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_scene7
 feature: Dynamic Media Classic
 role: 管理员，业务从业者
+exl-id: 708f32f1-fdbb-4a32-a1b7-836c99b458be
 translation-type: tm+mt
-source-git-commit: 9801d5707bef099da72f9163826188b703e75168
+source-git-commit: ed39a8f7febe194a70fb00acbb9d346f6e9a57ca
 workflow-type: tm+mt
 source-wordcount: '189'
 ht-degree: 28%
