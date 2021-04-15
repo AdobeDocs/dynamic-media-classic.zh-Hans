@@ -8,15 +8,15 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/media_portal
 discoiquuid: 5e933045-ce1a-41b9-ba8b-2151c396b7a2
 feature: Dynamic Media Classic，协作，资产管理
-role: 管理员，业务从业者
+role: Administrator,Business Practitioner
+exl-id: 9590c53c-fd38-4bf2-b723-cd7369702364
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 31ac96e6fd11c47284d58540f5ec0135f0e6223b
 workflow-type: tm+mt
-source-wordcount: '1034'
-ht-degree: 82%
+source-wordcount: '1009'
+ht-degree: 81%
 
 ---
-
 
 # 添加和管理 Media Portal 用户{#adding-and-managing-media-portal-users}
 
@@ -83,8 +83,8 @@ ht-degree: 82%
 
 | 名字 | 姓氏 | 电子邮件 | 密码 | 用户角色 | 组 |
 |--- |--- |--- |--- |--- |--- |
-| Peter | Peterson | `petep@company.com` | welcome | Media Portal 管理员 | PortalCo/IT、PortalCo/Admin |
-| Kevin | Marks | `kevinm@myco.com` | 欢迎 | Media Portal 用户 | PortalCo/MktgGroup、PortalCo/test |
+| 大草原 | 凯特 | `prairiek@company.com` | welcome | Media Portal 管理员 | PortalCo/IT、PortalCo/Admin |
+| 里克 | 布鲁格 | `rickb@myco.com` | 欢迎 | Media Portal 用户 | PortalCo/MktgGroup、PortalCo/test |
 
 
 ### 上载 CSV 文件  {#uploading-the-csv-file}
@@ -105,9 +105,9 @@ ht-degree: 82%
 
 1. 单击“**[!UICONTROL 设置]**”>“**[!UICONTROL 应用程序设置]**”>“**[!UICONTROL 管理设置]**”>“**[!UICONTROL 用户管理]**”。
 1. 在“**[!UICONTROL 按用户角色]**”下拉列表中，选择 Media Portal 用户角色的名称，然后单击“**[!UICONTROL 刷新]**”以显示一类 Media Portal 用户的名称。
-1. 单击“**[!UICONTROL 弹出列表]**”，打开弹出窗口。您可以复制和粘贴该列表。
+1. 单击“**[!UICONTROL 弹出列表]**”，打开弹出窗口。复制并粘贴此列表。
 
-## 为 Media Portal 用户设置欢迎电子邮件  {#setting-up-the-welcome-e-mail-message-for-media-portal-users}
+## 为 Media Portal 用户设置欢迎电子邮件 {#setting-up-the-welcome-e-mail-message-for-media-portal-users}
 
 添加新 Media Portal 用户、参与者和参与者用户时，您可以发送一封欢迎电子邮件。您可以配置此电子邮件或告知Dynamic Media Classic不要发送它。
 
@@ -115,24 +115,24 @@ ht-degree: 82%
 1. 在“用户管理设置”屏幕中，单击&#x200B;**[!UICONTROL 电子邮件设置]**。
 1. 在“电子邮件设置”对话框中，指定以下任何设置：
 
-   **[!UICONTROL 发送]** 电子邮件如果您不希望通过电子邮件通知新用户您已注册，请取消选择此选项。
+   * **[!UICONTROL 发送电子邮件]**  — 如果您不想通过电子邮件通知新用户您已注册，请取消选择此选项。
 
-   **[!UICONTROL 默认]** 密码为新用户输入临时密码，或将字段留空以使Dynamic Media Classic生成随机密码。用户首次登录时会被要求更改密码。
+   * **[!UICONTROL 默认密码]**  — 为新用户输入临时密码，或将字段留空以使Dynamic Media Classic生成随机密码。用户首次登录时会被要求更改密码。
 
-   **[!UICONTROL 替]** 换URL如果用户通过其他URL访问Dynamic Media Classic，请输入与默认URL不同的URL。
+   * **[!UICONTROL 替换URL]**  — 如果用户通过其他URL访问Dynamic Media Classic，请输入与默认URL不同的URL。
 
 ## 其他用户管理任务 {#other-user-management-tasks}
 
 从“用户管理设置”屏幕开始，您还可以执行以下任务：
 
-**[!UICONTROL 筛选和排序用户列]** 表筛选Media Portal用户的列表以查找用户。请参阅过滤和排序用户列表。
+* **[!UICONTROL 筛选和排序用户列表]**  — 筛选Media Portal用户的列表以查找用户。
 
-**[!UICONTROL 删除]** 用户从列表中删除用户。请参阅删除用户。
+* **[!UICONTROL 删除用户]**  — 从列表中删除用户。
 
-**[!UICONTROL 激活和取消激活用]** 户暂停用户访问文件夹。请参阅激活和停用用户。
+* **[!UICONTROL 激活和取消激活用户]**  — 暂停用户访问文件夹。
 
-**[!UICONTROL 编辑用]** 户信息输入有关用户的最新信息。请参阅编辑用户信息。
+* **[!UICONTROL 编辑用户信息]**  — 输入有关用户的最新信息。
 
-**[!UICONTROL 创建用户定义字]** 段创建自定义、用户定义的元数据字段，以帮助组织Dynamic Media经典中的资产。必要时，也可以激活或停用这些字段。
+* **[!UICONTROL 创建用户定义字段]**  — 创建自定义、用户定义的元数据字段，以帮助组织Dynamic Media Classic中的资产。必要时，也可以激活或停用这些字段。
 
 请参阅[用户定义的字段](application-setup.md#user_defined_fields)。
