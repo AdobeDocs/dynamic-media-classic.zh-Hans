@@ -6,15 +6,15 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
 feature: Dynamic Media Classic，资产管理
-role: 业务从业者
+role: Business Practitioner
+exl-id: 3c50e706-b9ed-49db-8c08-f179de52b9cf
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 31ac96e6fd11c47284d58540f5ec0135f0e6223b
 workflow-type: tm+mt
-source-wordcount: '1481'
-ht-degree: 61%
+source-wordcount: '1465'
+ht-degree: 55%
 
 ---
-
 
 # 优化图像质量的最佳做法{#best-practices-for-optimizing-the-quality-of-your-images}
 
@@ -28,7 +28,7 @@ Dynamic Media Classic包含100多个图像服务命令，用于调整和优化�
 
 * 在提供具有较好质量和可控制大小和粗细的图像方面，JPG 或 PNG 是最佳选择。
 * 如果URL中未提供任何格式命令，则Dynamic Media图像服务默认为JPG以进行投放。
-* JPG 压缩比率为 10:1，通常生成较小的图像文件。PNG的压缩比约为2:1，但某些情况除外，例如当图像包含空背景时。 通常，PNG 文件比 JPG 文件大。
+* JPG 压缩比率为 10:1，通常生成较小的图像文件。PNG的压缩比约为2:1，但有时图像包含空背景时除外。 通常，PNG 文件比 JPG 文件大。
 * JPG 使用有损压缩，这意味着在压缩过程中删除了一些图像元素（像素）；而 PNG 使用无损压缩。
 * 通常，JPG 压缩摄影图像的保真度比具有清晰边缘和对比度的合成图像好。
 * 如果图像包含透明度，请使用 PNG，因为 JPG 不支持透明度。
@@ -52,7 +52,7 @@ Dynamic Media Classic包含100多个图像服务命令，用于调整和优化�
 
 <!-- Give a 404 See also [Sharpening an image with unsharp mask](https://helpx.adobe.com/photoshop/atv/cs6-tutorials/sharpening-an-image-with-unsharp-mask.html). -->
 
-借助Dynamic Media Classic，您可以在摄取、投放或同时在两种情况下锐化图像。 大多数情况下，只应使用一种方法锐化图像，而不能同时使用两种方法。传送时在 URL 上锐化图像通常可以获得最佳的效果。
+借助Dynamic Media Classic，您可以在摄取、投放或同时在两种情况下锐化图像。 但是，通常只使用一种方法锐化图像，而不同时使用两种方法。 传送时在 URL 上锐化图像通常可以获得最佳的效果。
 
 可以使用以下两种图像锐化方法：
 
@@ -100,7 +100,7 @@ Dynamic Media Classic包含100多个图像服务命令，用于调整和优化�
 
 ## JPEG 大小调整的最佳做法 (&amp;jpegSize=) {#best-practices-for-jpeg-sizing-jpegsize}
 
-如果要确保图像不超过特定大小以传送到具有有限内存的设备，`jpegSize` 是一个非常有用的参数。
+如果要保证图像不会超过某个大小，以投放到内存有限的设备，则参数`jpegSize`很有用。
 
 * 此参数以千字节(`jpegSize=<size_in_kilobytes>`)为单位设置。 它定义了图像传送允许的最大大小。
 * `&jpegSize=` 与JPG压缩参数交互 `&qlt=`。如果具有指定JPG压缩参数(`&qlt=`)的JPG响应未超过`jpegSize`值，则将按照定义以`&qlt=`返回图像。 否则，`&qlt=`会逐渐减小，直到图像符合允许的最大大小，或直到系统确定它无法适应并返回错误。
@@ -119,8 +119,8 @@ Dynamic Media Classic包含100多个图像服务命令，用于调整和优化�
 
 如果锐化效果仍不令人满意，请按小数点增加 radius 值。每增加一个小数点，请再次将 amount 从 1.75 逐渐增加到 4。重复此过程，直到获得所需的效果。尽管创意工作室已对上面的值进行了验证，但要记住，您最初可以使用其他值和采用其他策略。您对结果是否满意是一个非常主观的问题，因此，进行结构化的试验是至关重要的。
 
-在进行试验时，您还可能会发现以下常规建议对优化工作流程非常有用：
+在您进行试验时，以下一般建议对优化工作流很有帮助：
 
-* 直接在Dynamic Media Classic URL上或使用Dynamic Media Classic的图像调整功能(提供调整操作的实时预览)实时尝试和测试不同的参数。
-* 作为最佳实践，请记住，您可以将Dynamic Media图像服务命令分组到图像预设中。 图像预设基本上就是具有自定义预设名称（如`$thumb_low$`和`&product_high$`）的URL命令宏。 URL 路径中的自定义预设名称将调用这些预设。此功能帮助您针对网站上的图像的不同使用方式管理命令和质量设置，并缩短 URL 的总体长度。
-* Dynamic Media Classic还提供了更高级的图像质量调整方法，例如在摄取时应用锐化图像。 对于可以选择使用预设进一步调整和优化图像以及提供相应结果的高级使用案例，Adobe 专业服务部门可以为您提供自定义分析和最佳做法。
+* 直接在Dynamic Media Classic URL上或使用Dynamic Media Classic的图像调整功能，实时尝试和测试不同的参数。 后者为调整操作提供实时预览。
+* 作为最佳实践，请记住，您可以将Dynamic Media图像服务命令分组到图像预设中。 图像预设基本上就是具有自定义预设名称（如`$thumb_low$`和`&product_high$`）的URL命令宏。 URL路径中的自定义预设名称会调用这些预设。 此功能帮助您针对网站上的图像的不同使用方式管理命令和质量设置，并缩短 URL 的总体长度。
+* Dynamic Media Classic还提供了更高级的图像质量调整方法，例如在摄取时应用图像锐化。 对于高级用例，如果需要进一步调整和优化渲染结果，Adobe Professional Services可以帮助您进行自定义分析和最佳实践。
