@@ -6,15 +6,15 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/upload_and_publish_assets
 discoiquuid: 47dcbb26-b90f-40d7-964e-f08fe98fcdbb
 feature: Dynamic Media Classic，资产管理
-role: 业务从业者
+role: Business Practitioner
+exl-id: 98b12031-f88b-47ea-a95b-31d71eaf22c2
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 31ac96e6fd11c47284d58540f5ec0135f0e6223b
 workflow-type: tm+mt
-source-wordcount: '222'
-ht-degree: 34%
+source-wordcount: '148'
+ht-degree: 25%
 
 ---
-
 
 # 关于上传和发布资产{#about-uploading-and-publishing-assets}
 
@@ -24,12 +24,12 @@ ht-degree: 34%
 * 对文件进行管理，以使用这些文件构建富媒体资源。
 * 将资源文件发布到Dynamic Media Classic服务器，以便可以将它们投放到您的网站和应用程序。
 
-将资产文件上传到DMC时，以及将资产文件发布到Dynamic Media Classic服务器时，系统会在“作业”页面中记录这些文件传输。 您可以转到该页面以跟踪和监视上载和发布活动。
+将资产文件上传到Dynamic Media Classic和将资产文件发布到Dynamic Media Classic服务器时，系统会在&#x200B;**[!UICONTROL 作业]**&#x200B;页面上记录这些文件传输。 您可以转到该页面以跟踪和监视上载和发布活动。
 
 >[!NOTE]
 >
->*上传文件时，Dynamic Media Classic会生成文件的URL。该 URL 在您发布文件后才会激活。*
+>上传文件时，Dynamic Media Classic会生成文件的URL。 该 URL 在您发布文件后才会激活。
 
->[!NOTE]
+<!-- >[!NOTE]
 >
->DMC 6.0发布后不久即推出了新的“即时发布”功能。此功能通过一步即可立即发布资源，现在正在逐步推出，取代了“标记为发布”功能。 在加入到推出列表之前，某些用户在一段时间内仍将看到当前界面和功能。此外，在推出该功能之后的一段时间内，某些资源仍将使用“标记为发布”过程。
+>A new Instant Publish feature was made available shortly after the release of Dynamic Media Classic 6.0. This feature, which publishes assets immediately with one step, is being rolled out gradually, replacing the **[!UICONTROL Mark for Publish]** functionality. Some users will continue to see the current interface and functionality for a while, until they are included in the rollout. In addition, some assets will continue to use the “Mark for Publish” process for a while after the rollout. -->
