@@ -8,15 +8,15 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sets
 discoiquuid: 1a9b525e-6120-44c7-b11a-e56bfb7cd017
 feature: Dynamic Media Classic，查看器，图像集
-role: 业务从业者
+role: Business Practitioner
+exl-id: e2c22d93-061e-4e57-9999-120592dbd56a
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 31ac96e6fd11c47284d58540f5ec0135f0e6223b
 workflow-type: tm+mt
-source-wordcount: '103'
-ht-degree: 83%
+source-wordcount: '101'
+ht-degree: 85%
 
 ---
-
 
 # 自动生成图像集{#automated-image-set-generation}
 
@@ -34,12 +34,11 @@ Last Modified Date:
 
 **自动生成图像集**
 
-1. 单击“**文件**”>“**生成集**”。
+1. 单击“**[!UICONTROL 文件]**”>“**[!UICONTROL 生成集]**”。
 1. 在“生成集”对话框中，指定作业名称。
 
    默认情况下，为作业指定的名称指示这是一个生成的作业以及作业的生成时间。
 
 1. 选择要应用的预设。
-1. 单击“**目标文件夹**”并指定要使用的文件夹。
-1. 单击“**提交**”。
-
+1. 单击“**[!UICONTROL 目标文件夹]**”并指定要使用的文件夹。
+1. 单击“**[!UICONTROL 提交]**”。
