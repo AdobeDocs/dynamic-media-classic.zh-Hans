@@ -9,10 +9,10 @@ feature: Dynamic Media Classic
 role: Administrator,Business Practitioner
 exl-id: 604b4630-4704-4254-84b5-91b33bb19d58
 translation-type: tm+mt
-source-git-commit: 31ac96e6fd11c47284d58540f5ec0135f0e6223b
+source-git-commit: 8427c3ea6ca3083fd0868286e634a5569c62f7ab
 workflow-type: tm+mt
-source-wordcount: '1666'
-ht-degree: 0%
+source-wordcount: '1845'
+ht-degree: 1%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 Dynamic Media Classic用户现在可以访问新的桌面应用程序体验，而不再依赖浏览器中的AdobeFlash技术。
 
-此新应用程序现在可用于Windows和macOS。
+此新应用程序现在可用于Windows®和macOS。
 
 >[!IMPORTANT]
 >
@@ -33,41 +33,57 @@ Dynamic Media Classic用户现在可以访问新的桌面应用程序体验，�
 Adobe Dynamic Media Classic桌面应用程序与以下操作系统兼容：
 
 * macOS 10.10或更高版本。
-* Windows 7或更高版本。
+* Windows® 7或更高版本。
+
+>[!NOTE]
+>
+>对于&#x200B;*次要*&#x200B;版本，不会为Dynamic Media Classic桌面应用程序内的升级通知生成。 从次要版本中的修复中受益的客户可以进行升级。
+
+## 修复了次要版本(20.21.2){#minor-release}中的问题
+
+* 20.21.1中服务器下拉列表的已知限制为空。
+* 在&#x200B;**[!UICONTROL 上传作业选项]**&#x200B;中，**[!UICONTROL Photoshop选项]**&#x200B;下的图层命名默认值现在为&#x200B;**[!UICONTROL Photoshop和图层名称]**。 PSD 文件中的图层以单独图像形式上载。
+   * 早期的&#x200B;**[!UICONTROL 图层名称]**&#x200B;默认值，在PSD文件中将图像命名为图层名称或图层编号。 如果PSD文件中的图层名称是默认的Photoshop图层名称，则使用图层编号。
+   * 新的默认值&#x200B;**[!UICONTROL Photoshop和图层名称]**&#x200B;将图像命名在PSD文件后面，后面是图层名称或图层编号。 如果 PSD 文件中的图层名称是默认的 Photoshop 图层名称，则将使用图层编号。
+   * 由于Dynamic Media Classic中的图层图像现在具有唯一的名称，因此不会更新现有PSD或模板（原始PSD文件中共享的图层名称）。
+* 资源的缩略图已损坏。
 
 ## 最新版本(20.21.1){#latest-fixes-desktop-app}中的修复
 
 * 由于超时导致的登录问题导致以下消息：*未经许可，可将此用户分配给组或组。 与管理员联系。*
 * 查看器预设与每次错误的密码尝试重复。
-* 由于根文件夹中的许多资源，桌面应用程序变得不响应。 (在Windows上修复；在macOS上按需工作。)
+* 由于根文件夹中的许多资源，桌面应用程序变得不响应。 (在Windows®上修复；在macOS上按需工作。)
 
 ## 修复了先前版本(20.20.2){#previous-version-fixes-desktop-app}
 
-* 无限制可通过macOS和Windows的桌面应用程序用户界面上传的文件数。
+* 无限制可通过macOS和Windows®的桌面应用程序用户界面上传的文件数。
 * 无需注销桌面应用程序即可在公司之间切换。
-* Ctrl+V现在可在Windows上执行粘贴操作。
+* 现在，Ctrl+V可在Windows®上进行粘贴操作。
 * 将来，当发布新版本的桌面应用程序时，用户将在桌面应用程序本身中收到通知。
 
-## 在macOS或Windows {#installation-dmc-app}上下载并安装最新的Adobe Dynamic Media Classic桌面应用程序
+## 在macOS或Windows® {#installation-dmc-app}上下载并安装最新的Adobe Dynamic Media Classic桌面应用程序
 
 另请参阅:
 
 * [下载并静默安装Mac上最新的Adobe Dynamic Media Classic桌面应用程序](#install-silent-mac-dmc-app)
-* [在Windows上下载并静默安装最新的Adobe Dynamic Media Classic桌面应用程序](#install-silent-windows-dmc-app)
+* [在Windows®上下载并静默安装最新的Adobe Dynamic Media Classic桌面应用程序](#install-silent-windows-dmc-app)
 
 1. 在您的系统上卸载任何旧版Dynamic Media Classic桌面应用程序。
 
 1. 下载Adobe Dynamic Media Classic桌面应用程序的最新安装程序。
 
-   * 最新版本(20.21.1)可在以下位置获得：
+   * 最新版本(20.21.2)可在以下位置获得：
 
-      * [macOS(.DMG) — 下载。](https://download.macromedia.com/dynamic-media-classic/20.21.1/adobe-dynamic-media-classic-20.21.1.dmg)
-      * [Windows(.EXE) — 下载。](https://download.macromedia.com/dynamic-media-classic/20.21.1/adobe-dynamic-media-classic-20.21.1.exe)
-   * 以前版本(20.20.2)可在以下位置获得：
+      * [macOS(.DMG) — 下载](https://download.macromedia.com/dynamic-media-classic/20.21.2/adobe-dynamic-media-classic-20.21.2.dmg)
+      * [Windows®(.EXE) — 下载](https://download.macromedia.com/dynamic-media-classic/20.21.2/adobe-dynamic-media-classic-20.21.2.exe)
+   * 以前版本(20.21.1)可在以下位置获得：
 
-      * [macOS(.DMG) — 下载。](https://download.macromedia.com/dynamic-media-classic/20.20.2/adobe-dynamic-media-classic-20.20.2.dmg)
-      * [Windows(.EXE) — 下载。](https://download.macromedia.com/dynamic-media-classic/20.20.2/adobe-dynamic-media-classic-20.20.2.exe)
+      * [macOS(.DMG) — 下载](https://download.macromedia.com/dynamic-media-classic/20.21.1/adobe-dynamic-media-classic-20.21.1.dmg)
+      * [Windows®(.EXE) — 下载](https://download.macromedia.com/dynamic-media-classic/20.21.1/adobe-dynamic-media-classic-20.21.1.exe)
 
+
+<!--         * [macOS (.DMG) - Download.](https://download.macromedia.com/dynamic-media-classic/20.20.2/adobe-dynamic-media-classic-20.20.2.dmg)
+        * [Windows (.EXE) - Download.](https://download.macromedia.com/dynamic-media-classic/20.20.2/adobe-dynamic-media-classic-20.20.2.exe) -->
 
 
 1. 根据您下载的安装程序执行下列操作之一。
@@ -103,8 +119,8 @@ Adobe Dynamic Media Classic桌面应用程序与以下操作系统兼容：
 
 另请参阅:
 
-* [在Mac或Windows上下载并安装最新的Adobe Dynamic Media Classic桌面应用程序](#installation-dmc-app)
-* [在Windows上下载并静默安装最新的Adobe Dynamic Media Classic桌面应用程序](#install-silent-windows-dmc-app)
+* [在Mac或Windows®上下载并安装最新的Adobe Dynamic Media Classic桌面应用程序](#installation-dmc-app)
+* [在Windows®上下载并静默安装最新的Adobe Dynamic Media Classic桌面应用程序](#install-silent-windows-dmc-app)
 
 要下载并&#x200B;*silent*&#x200B;安装macOS上最新版Adobe Dynamic Media Classic桌面应用程序，请执行以下操作：
 
@@ -112,11 +128,11 @@ Adobe Dynamic Media Classic桌面应用程序与以下操作系统兼容：
 
 1. 下载适用于macOS的Adobe Dynamic Media Classic桌面应用程序的最新安装程序。
 
-   * [macOS(.DMG) — 下载。](https://download.macromedia.com/dynamic-media-classic/20.21.1/adobe-dynamic-media-classic-20.21.1.dmg)
+   * [macOS(.DMG) — 下载](https://download.macromedia.com/dynamic-media-classic/20.21.2/adobe-dynamic-media-classic-20.21.2.dmg)
 
 1. 使用以下命令将下载的磁盘映像(.DMG)装载到安装点位置：
 
-   `hdiutil attach adobe-dynamic-media-classic-20.21.1.dmg -mountpoint <mount_point_path>`
+   `hdiutil attach adobe-dynamic-media-classic-20.21.2.dmg -mountpoint <mount_point_path>`
 
 1. 使用以下命令将.APP文件复制到&#x200B;**[!UICONTROL Applications]**:
 
@@ -137,36 +153,36 @@ Unmount DMG - hdiutil detach <mount_point_path>`
    | https://s7sps3.scene7.com/ | EMEA（欧洲、中东和非洲）生产 |
    | https://s7sps5.scene7.com/ | 亚太（亚太）生产 |
 
-## 下载并&#x200B;*silent*&#x200B;安装Windows {#install-silent-windows-dmc-app}上最新的Adobe Dynamic Media Classic桌面应用程序
+## 下载并&#x200B;*silent*&#x200B;安装Windows® {#install-silent-windows-dmc-app}上最新的Adobe Dynamic Media Classic桌面应用程序
 
-您使用的命令用于基本的MSI静默安装。 但是，Dynamic Media Classic桌面应用程序安装程序是使用InstallShield创建的InstallScript MSI安装程序。 在记录模式下运行安装程序时，任何用户交互都会记录在响应文件中。 然后，此响应文件用于静默安装，如[在静默模式下运行安装中所述。](https://docs.flexera.com/installshield19helplib/helplibrary/SilentInstall.htm)
+您使用的命令用于基本的MSI静默安装。 但是，Dynamic Media Classic桌面应用程序安装程序是使用InstallShield创建的InstallScript MSI安装程序。 在记录模式下运行安装程序时，任何用户交互都会记录在响应文件中。 然后，此响应文件用于静默安装，如[在静默模式下运行安装中所述。](https://docs.revenera.com/installshield19helplib/helplibrary/SilentInstall.htm)
 
 另请参阅:
 
-* [在Mac或Windows上下载并安装最新的Adobe Dynamic Media Classic桌面应用程序](#installation-dmc-app)
+* [在Mac或Windows®上下载并安装最新的Adobe Dynamic Media Classic桌面应用程序](#installation-dmc-app)
 * [在macOS上下载并静默安装最新的Adobe Dynamic Media Classic桌面应用程序](#install-silent-mac-dmc-app)
 
-要在Windows上下载并&#x200B;*silent*&#x200B;安装最新版Adobe Dynamic Media Classic桌面应用程序，请执行以下操作：
+要下载并&#x200B;*silent*&#x200B;安装Windows®上最新版Adobe Dynamic Media Classic桌面应用程序，请执行以下操作：
 
 1. 在您的系统上卸载任何旧版Dynamic Media Classic桌面应用程序。
 
 1. 下载Adobe Dynamic Media Classic桌面应用程序的最新安装程序。
 
-   * [Windows(.EXE) — 下载。](https://download.macromedia.com/dynamic-media-classic/20.21.1/adobe-dynamic-media-classic-20.21.1.exe)
+   * [Windows®(.EXE) — 下载](https://download.macromedia.com/dynamic-media-classic/20.21.2/adobe-dynamic-media-classic-20.21.2.exe)
 
 1. 使用以下命令在记录模式下运行安装程序：
 
-   `adobe-dynamic-media-classic-20.21.1.exe /r /f1"C:\Setup.iss"`
+   `adobe-dynamic-media-classic-20.21.2.exe /r /f1"C:\Setup.iss"`
 
 1. 在GUI安装程序窗口中，按照安装步骤进行安装，以便在`Setup.iss`文件中记录交互/输入（如安装位置）。
 
-1. 将创建的`Setup.iss`文件和`adobe-dynamic-media-classic-20.21.1.exe`复制到其他计算机。
+1. 将创建的`Setup.iss`文件和`adobe-dynamic-media-classic-20.21.2.exe`复制到其他计算机。
 
 1. 对静默安装运行以下命令：
 
-   `adobe-dynamic-media-classic-20.21.1.exe /s /f1"C:\Setup.iss"`
+   `adobe-dynamic-media-classic-20.21.2.exe /s /f1"C:\Setup.iss"`
 
-   有关命令行参数的详细信息，请访问[Setup.exe和Update.exe命令行参数。](https://docs.flexera.com/installshield19helplib/helplibrary/IHelpSetup_EXECmdLine.htm)
+   有关命令行参数的详细信息，请访问[Setup.exe和Update.exe命令行参数。](https://docs.revenera.com/installshield19helplib/helplibrary/IHelpSetup_EXECmdLine.htm)
 
 1. 打开应用程序时，将显示新的Adobe Dynamic Media经典登录页面：
 
@@ -202,7 +218,7 @@ Unmount DMG - hdiutil detach <mount_point_path>`
 1. 根据您的操作系统，导航到以下内容：
 
    * macOS:`~/Library/Application\ Support/com.adobe.DMCDesktop/Local\ Store/`
-   * Windows: `C:\Users\YourUserName\AppData\Roaming\com.adobe.DMCDesktop\Local Store`
+   * Windows®: `C:\Users\YourUserName\AppData\Roaming\com.adobe.DMCDesktop\Local Store`
 
 ## Dynamic Media Classic 20.21.1中的已知限制
 
@@ -210,9 +226,10 @@ Unmount DMG - hdiutil detach <mount_point_path>`
 
 ## Dynamic Media Classic 20.20.1中的已知限制（在20.20.2中修复）
 
-**_仅适用于Windows — 是否对可通过桌面应用程序UI上载的文件数有限制？_**<br>是，通过桌面应用程序UI，一次最多可上载150个文件。
+**_仅适用于Windows® — 是否对可通过桌面应用程序UI上载的文件数有限制？_**<br>是，通过桌面应用程序UI，一次最多可上载150个文件。
 
-**_适用于Windows和macOS — 如何在公司之间切换？_**<br>要在公司之间切换，请执行以下操作：
+**_适用于Windows®和macOS — 如何在公司之间切换？_**<br>要在公司之间切换，请执行以下操作：
+
 * 在Dynamic Media Classic应用程序中，从公司下拉列表中选择新公司。
 * 出现弹出窗口时，点按&#x200B;**[!UICONTROL 确定]**&#x200B;以注销并关闭应用程序。
 
