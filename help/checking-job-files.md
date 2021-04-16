@@ -8,15 +8,15 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/upload_and_publish_assets
 discoiquuid: d53ae5dd-8daf-4d87-b9a6-3039bad30538
 feature: Dynamic Media Classic，资产管理
-role: 业务从业者
+role: Business Practitioner
+exl-id: b6b11e1c-5eda-4bdb-8ffb-ecd3678f2352
 translation-type: tm+mt
-source-git-commit: 3def4a02eda8dc36f2811b3d4f0e870fff1994e4
+source-git-commit: 98463dbc24e141547d01bd3f71b1b9fe3a692c14
 workflow-type: tm+mt
-source-wordcount: '1586'
+source-wordcount: '1584'
 ht-degree: 60%
 
 ---
-
 
 # 检查作业文件{#checking-job-files}
 
@@ -121,7 +121,7 @@ ht-degree: 60%
 | 小时 | 0-23 | 注意使用 24 小时制。 | `, - * /` |
 | 日期 | 1-31 | 不能为“日期”和“星期”同时指定数字值。其中一个字段必须使用`?`通配符。 | `, - * / ? L C` |
 | 月 | 1-12或1月、2月、3月、4月、5月、6月、7月、8月、9月、9月、10月、11月、12月 | 值区分大小写。 | `, - * /` |
-| 星期 | 周一、周二、周三、周四、周五、周六、周日 | 值区分大小写。 不能为“日期”和“星期”同时指定数字值。这些字段中必须有一个字段使用 ？通配符。 | `, - * / ? L C #` |
+| 星期 | 周一、周二、周三、周四、周五、周六、周日 | 值区分大小写。 不能为“日期”和“星期”同时指定数字值。其中一个字段必须使用`?`通配符。 | `, - * / ? L C #` |
 | 年（可选） | 空或1970-2099 |  | `, - * /` |
 
 
