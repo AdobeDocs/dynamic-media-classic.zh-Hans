@@ -8,21 +8,21 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/adobe_analytics_instrumentation_kit
 discoiquuid: f4c8c2b3-cc95-416f-9a5d-da81c231dfc2
 feature: Dynamic Media Classic
-role: 数据工程师，管理员，业务从业者
+role: Data Engineer,Administrator,Business Practitioner
+exl-id: d9fda3b8-7da8-4a30-a5f8-9bb34ec1b43d
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 98463dbc24e141547d01bd3f71b1b9fe3a692c14
 workflow-type: tm+mt
-source-wordcount: '1207'
-ht-degree: 50%
+source-wordcount: '1196'
+ht-degree: 46%
 
 ---
-
 
 # 配置 Adobe Analytics 报告{#configuring-adobe-analytics-reports}
 
 要向 Adobe Analytics 通知 Adobe Analytics 报告中所需的信息，请转到“Adobe Analytics 配置”屏幕。配置报表后，此屏幕列表将针对您需要的每个查看器事件显示相应的Adobe Analytics变量和Dynamic Media Classic变量。 这些查看器事件-Adobe Analytics变量 — Dynamic Media Classic变量组合决定报告哪些信息。
 
-除了将查看器事件与变量相关联之外，“Adobe Analytics 配置”屏幕还提供了用于激活、编辑和删除查看器事件的工具。
+除了将查看器事件与变量关联外，Adobe Analytics配置屏幕还会优惠用于激活、编辑和删除查看器事件的工具。
 
 >[!NOTE]
 >
@@ -38,7 +38,7 @@ ht-degree: 50%
 
 **将Adobe Analytics变量分配给Dynamic Media Classic查看器事件和变量**
 
-1. 在从Dynamic Media Classic中登录Adobe Analytics并选择报表包后，在表最右侧的“Adobe Analytics配置”页面上，单击&#x200B;**启用**&#x200B;以激活查看器事件。
+1. 在从Dynamic Media Classic中登录Adobe Analytics并选择报表包后，在Adobe Analytics配置页的右表列中，单击&#x200B;**[!UICONTROL 启用]**&#x200B;以激活查看器事件。
 1. 在“变量”列下，单击所需的查看器事件的箭头按钮，显示变量对选择器。
 
    请参阅[查看器事件](configuring-analytics-reports.md#viewer_events)。
@@ -60,7 +60,7 @@ ht-degree: 50%
 
 ### 查看器事件 {#viewer-events}
 
-查看器事件描述了用户使用Dynamic Media Classic查看器执行的操作。 当用户启动某个特定操作，例如单击缩览图，或者启动或停止视频时，查看器会将事件和与该事件关联的数据一起“传播”到网页中。
+查看器事件描述了用户使用Dynamic Media Classic查看器执行的操作。 当用户启动某些操作（如单击缩略图或启动或停止视频）时，查看器将事件“广播”到网页，以及与该事件关联的数据。
 
 下表描述了可添加到“Adobe Analytics 配置”屏幕中的查看器事件。
 
