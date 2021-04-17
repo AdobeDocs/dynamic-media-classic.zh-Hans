@@ -7,16 +7,16 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: effef4e7-37c5-42e2-9266-ecd026cad628
-feature: Dynamic Media Classic，资产管理，搜索
-role: 业务从业者
+feature: Dynamic Media Classic，资产管理
+role: Business Practitioner
+exl-id: 4b3f690c-7dff-4bf0-9366-085ba918fe6b
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: a5a6596213e273d806fbc012e2c63bf3458127b0
 workflow-type: tm+mt
-source-wordcount: '1412'
+source-wordcount: '1409'
 ht-degree: 77%
 
 ---
-
 
 # 搜索资源{#searching-assets}
 
