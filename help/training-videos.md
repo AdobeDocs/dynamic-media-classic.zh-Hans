@@ -2,7 +2,7 @@
 title: Dynamic Media Classic Training视频
 description: Dynamic Media经典培训视频，介绍入门、动态图像、视频、媒体门户、模板以及图像创作和渲染。
 feature: Dynamic Media Classic
-role: 管理员，业务从业者
+role: Administrator,Business Practitioner
 translation-type: tm+mt
 source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt

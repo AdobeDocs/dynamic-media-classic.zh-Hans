@@ -3,7 +3,7 @@ description: 'Experience League的Dynamic Media新闻快讯是每月新闻快讯
 keywords: 动态媒体；新闻快讯；产品更新；提示与技巧；事件；客户成功；博客；博客；图像；视频；功能；功能
 title: Dynamic Media新闻快讯
 feature: Dynamic Media Classic
-role: 管理员，业务从业者
+role: Administrator,Business Practitioner
 translation-type: tm+mt
 source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
