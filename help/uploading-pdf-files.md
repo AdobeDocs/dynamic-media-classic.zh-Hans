@@ -6,16 +6,16 @@ contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: 0097cba5-c886-4115-bc35-7ae7a500202f
-feature: Dynamic Media Classic,Viewers,eCatalog
+feature: Dynamic Media Classic，查看器，电子目录
 role: Business Practitioner
+exl-id: a787d6b5-48c8-4cf7-b136-60ba3d3eb2f2
 translation-type: tm+mt
-source-git-commit: 3def4a02eda8dc36f2811b3d4f0e870fff1994e4
+source-git-commit: 7456226cf6469f40e66ff327475d4c605b6d6e13
 workflow-type: tm+mt
-source-wordcount: '701'
+source-wordcount: '699'
 ht-degree: 56%
 
 ---
-
 
 # 上载 PDF 文件{#uploading-the-pdf-files}
 
@@ -76,4 +76,3 @@ SRGBConverts到SRGB（标准红绿蓝）。在网页上显示图像时，推荐�
 >[!NOTE]
 >
 >有关所有 PDF 选项的详细信息，请参阅[PDF 上载选项](pdfs.md#pdf_upload_options)。
-
