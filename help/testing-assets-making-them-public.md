@@ -7,16 +7,16 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/upload_and_publish_assets
 discoiquuid: 52fadf99-7d11-46f7-8483-a9f87ffc2f67
-feature: Dynamic Media Classic,Asset Management
+feature: Dynamic Media Classic，资产管理
 role: Business Practitioner
+exl-id: fd78d535-391e-43eb-a8aa-25fa6c2885cb
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 7456226cf6469f40e66ff327475d4c605b6d6e13
 workflow-type: tm+mt
-source-wordcount: '1103'
-ht-degree: 54%
+source-wordcount: '1100'
+ht-degree: 55%
 
 ---
-
 
 # 公开资源前测试资源 {#testing-assets-before-making-them-public}
 
@@ -46,7 +46,9 @@ ht-degree: 54%
 
 通过安全测试服务，可以立即使用未发布的资源，无需发布。这使您可以在将资源发布到面向公众的图像服务器之前运行预览。
 
-***注意&#x200B;**:安全测试服务利用配置了内部发布上下文的目录服务器。因此，如果您的公司配置为发布到安全测试，请注意，Dynamic Media Classic中的所有上传资产都会立即在安全测试服务上可用。 无论资源是否在上载时标记为发布，此功能都有效。*
+>[!NOTE]
+>
+>安全测试服务使用以内部发布上下文配置的目录服务器。因此，如果您的公司配置为发布到安全测试，请注意，Dynamic Media Classic中的所有上传资产都会立即在安全测试服务上可用。 无论资源是否在上载时标记为发布，此功能都有效。
 
 安全测试服务当前支持以下资产类型和功能：
 
@@ -145,4 +147,3 @@ Last Modified Date:
    从外部（如从家庭计算机或通过 3G 连接）访问您的网络，然后确认站点的公开版本显示有所已发布的资源，但不显示未发布的内容。
 
    确认临时版本未显示任何资源，因为您正在从未获批准的 IP 地址访问安全测试服务。
-
