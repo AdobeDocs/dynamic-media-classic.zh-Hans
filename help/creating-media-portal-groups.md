@@ -7,16 +7,16 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/media_portal
 discoiquuid: 91524d36-b77a-4dc4-acba-a7bd85297e98
-feature: Dynamic Media Classic,Collaboration,Asset Management
+feature: Dynamic Media Classic，协作，资产管理
 role: Administrator,Business Practitioner
+exl-id: 0deb7133-b895-4c3f-8e5e-8604a6f2d16b
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 7456226cf6469f40e66ff327475d4c605b6d6e13
 workflow-type: tm+mt
-source-wordcount: '831'
-ht-degree: 95%
+source-wordcount: '827'
+ht-degree: 86%
 
 ---
-
 
 # 创建和管理 Media Portal 组{#creating-and-managing-media-portal-groups}
 
@@ -26,7 +26,7 @@ ht-degree: 95%
 
 要在不同级别授予访问权限，请创建组。为每个组指定对不同文件夹和文件夹中资源的读取、写入和删除权限。此外，您还要决定该组可以使用的图像预设。然后，向组指定用户。一个用户可以是多个组的成员。使用组可以灵活地指定对所有内容中有限的一部分内容的访问权限。
 
-如果您没有为某个组特别授予对某个资源或文件夹的权限，该资源或文件夹将继承您指定给其父文件夹（文件夹层次结构中位于其上方的文件夹）的权限。如果您想确保父文件夹的所有子文件夹继承相同的权限，请为父文件夹授予权限。
+如果您没有专门授予某个资产或文件夹的组权限，则该资产或文件夹会继承您分配给其父文件夹（文件夹层次结构中位于其上方的文件夹）的权限。 如果您想确保父文件夹的所有子文件夹继承相同的权限，请为父文件夹授予权限。
 
 >[!NOTE]
 >
@@ -34,29 +34,29 @@ ht-degree: 95%
 
 ## 添加组  {#adding-a-group}
 
-1. 单击“**设置**”>“**Media Portal 设置**”>“**组**”。
-1. 单击“**添加**”。
-1. 在“添加组”对话框中，在“组名称”框中输入该组的名称，然后单击“**添加组**”。
+1. 单击“**[!UICONTROL 设置]**”>“**[!UICONTROL Media Portal 设置]**”>“**[!UICONTROL 组]**”。
+1. 单击“**[!UICONTROL 添加]**”。
+1. 在“添加组”对话框中，在“组名称”框中输入该组的名称，然后单击“**[!UICONTROL 添加组]**”。
 1. 根据需要选中用户名称旁的方框，以便将用户添加到新组。
-1. 此时如果您要指定访问权限，请单击“**资源访问权限**”选项卡，然后指定相应的选项。
+1. 如果您现在要指定访问权限，请单击&#x200B;**[!UICONTROL 资产访问权限]**&#x200B;选项卡，然后指定所需的选项。
 
    请参阅[建立组的资源访问权限](creating-media-portal-groups.md#establishing_asset_access_permissions_for_a_group)。
 
-1. 如果您要选择可用于组的图像预设，请单击“**图像预设访问权限**”选项卡，然后选择该组可以使用的图像预设。
+1. 如果您要选择可用于组的图像预设，请单击“**[!UICONTROL 图像预设访问权限]**”选项卡，然后选择该组可以使用的图像预设。
 
    请参阅[为组选择图像预设访问权限](creating-media-portal-groups.md#choosing_image_preset_access_permissions_for_a_group)。
 
-1. 单击“**关闭**”。
+1. 单击“**[!UICONTROL 关闭]**”。
 
 ## 建立组的资源访问权限  {#establishing-asset-access-permissions-for-a-group}
 
-1. 单击“**设置**”>“**Media Portal 设置**”>“**组**”。
+1. 单击“**[!UICONTROL 设置]**”>“**[!UICONTROL Media Portal 设置]**”>“**[!UICONTROL 组]**”。
 1. 在“组列表”页面上，执行下列操作之一：
 
-   * 要添加组并指定权限，请单击“**添加**”。在“添加组”对话框中，输入该组的名称，单击“**添加组**”，然后向该组添加用户。
-   * 要编辑某个组的权限，请选择该组，然后单击“**编辑**”。
+   * 要添加组并指定权限，请单击“**[!UICONTROL 添加]**”。在“添加组”对话框中，输入该组的名称，单击“**[!UICONTROL 添加组]**”，然后向该组添加用户。
+   * 要编辑某个组的权限，请选择该组，然后单击“**[!UICONTROL 编辑]**”。
 
-1. 在“添加组”或“编辑组”对话框中，单击“**资源访问权限**”选项卡。该选项卡的右侧提供了用于建立文件夹和资源读取、写入和删除权限的方框。您可以在左窗格中展开和折叠文件夹和子文件夹。
+1. 在“添加组”或“编辑组”对话框中，单击“**[!UICONTROL 资源访问权限]**”选项卡。该选项卡的右侧提供了用于建立文件夹和资源读取、写入和删除权限的方框。您可以在左窗格中展开和折叠文件夹和子文件夹。
 1. 要向文件夹或单个资源指定权限，请在左窗格中选择该文件夹。文件夹内容便会显示在右窗格中。然后，在右窗格中选中相应文件或文件夹的方框，为该组指定权限。
 
    下表显示了不同任务所对应的读取、写入和删除权限。
@@ -70,7 +70,7 @@ ht-degree: 95%
    | 重命名文件 |  | X |  |
    | 删除文件 |  |  | X |
 
-1. 单击&#x200B;**关闭**。
+1. 单击&#x200B;**[!UICONTROL 关闭]**。
 
 >[!NOTE]
 >
@@ -82,22 +82,21 @@ ht-degree: 95%
 
 另请参见[指定 Media Portal 用户可以使用的导出选项](specifying-export-options-available-media.md#specifying_export_options_available_to_media_portal_users)。
 
-1. 单击“**设置**”>“**Media Portal 设置**”>“**组**”。
+1. 单击“**[!UICONTROL 设置]**”>“**[!UICONTROL Media Portal 设置]**”>“**[!UICONTROL 组]**”。
 1. 在“组列表”页面上，执行下列操作之一：
 
-   * 要添加一个组并指定其可以使用的图像预设，请单击“**添加**”。在“添加组”对话框中，输入该组的名称，单击“**添加组**”，然后向该组添加用户。
-   * 要编辑某个组的“图像预设”选项，请选择该组，然后单击“**编辑**”。
+   * 要添加一个组并指定其可以使用的图像预设，请单击“**[!UICONTROL 添加]**”。在“添加组”对话框中，输入该组的名称，单击“**[!UICONTROL 添加组]**”，然后向该组添加用户。
+   * 要编辑某个组的“图像预设”选项，请选择该组，然后单击“**[!UICONTROL 编辑]**”。
 
-1. 在“添加组”或“编辑组”对话框中，单击“**图像预设访问权限**”选项卡。
-1. 选择或取消选择“图像预设”，以便指定 Media Portal 用户在导出资源时可以使用的预设。
-1. 单击“**关闭**”。
+1. 在“添加组”或“编辑组”对话框中，单击“**[!UICONTROL 图像预设访问权限]**”选项卡。
+1. 要指定在Media Portal用户导出资产时可以使用的预设，请选择或取消选择图像预设。
+1. 单击“**[!UICONTROL 关闭]**”。
 
 ## 编辑和删除组  {#edit-and-delete-groups}
 
-1. 单击“**设置**”>“**Media Portal 设置**”>“**组**”。
+1. 单击“**[!UICONTROL 设置]**”>“**[!UICONTROL Media Portal 设置]**”>“**[!UICONTROL 组]**”。
 1. 在“组列表”页面上，选择一个组，然后进行编辑或删除。
 
-   **编辑组** 单击“编辑”，然后在“编辑组”对话框中选择选项。
+   **编辑组**  — 单击 **[!UICONTROL 编辑]**，然后在“编辑组”对话框中选择选项。
 
-   **删除用户** 组单击删除。
-
+   **删除用户组**  — 单击 **[!UICONTROL 删除]**。
