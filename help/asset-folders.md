@@ -7,11 +7,11 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: 588944c3-78ba-4bd1-a8da-9a6dd99a27a9
-feature: Dynamic Media Classic,Asset Management
+feature: Dynamic Media Classic，资产管理
 role: Business Practitioner
 exl-id: 8599d4a3-57eb-4432-812f-7e55a4315c1b
 translation-type: tm+mt
-source-git-commit: 31ac96e6fd11c47284d58540f5ec0135f0e6223b
+source-git-commit: 7456226cf6469f40e66ff327475d4c605b6d6e13
 workflow-type: tm+mt
 source-wordcount: '442'
 ht-degree: 49%
@@ -36,7 +36,9 @@ Dynamic Media Classic中的文件资源保留在文件夹中。 这些文件夹�
 
 * **打开文件夹**  — 选择一个文件夹，在浏览面板中显示其内容。
 
-***提示&#x200B;**:通过单击资产库左侧的展开/折叠控件，可以隐藏或显示资产库。当需要更多空间来处理浏览面板中的内容时，可将“资源库”面板折叠起来。*
+>[!TIP]
+>
+>单击资产库左侧的&#x200B;**[!UICONTROL 展开]**&#x200B;或&#x200B;**[!UICONTROL 折叠]**&#x200B;控件，可隐藏或显示资产库。 当需要更多空间来处理浏览面板中的内容时，可将“资源库”面板折叠起来。
 
 ## 创建文件夹 {#creating-folders}
 
@@ -50,7 +52,7 @@ Dynamic Media Classic中的文件资源保留在文件夹中。 这些文件夹�
    >
    >通过FTP上传文件时，您还可以在Dynamic Media Classic中创建文件夹。 在通过 FTP 上载文件时选择“包括子文件夹”选项，即可将您计算机中的文件夹结构复制到该系统。您的计算机或网络上的文件和子文件夹都会复制到资源库中，您上载的资源会置于这些文件夹中。
 
-## 删除和重命名文件夹 {#deleting-and-renaming-folders}
+## 删除和重命名文件夹  {#deleting-and-renaming-folders}
 
 选择一个文件夹，然后使用以下方法对其进行删除或重命名：
 
