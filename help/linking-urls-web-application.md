@@ -9,14 +9,14 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sizing
 discoiquuid: 71299640-676d-49b7-841d-6118f31044e8
 feature: Dynamic Media Classic
 role: Business Practitioner
+exl-id: ca629427-da33-4bab-9d08-6d9368042f7e
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 7456226cf6469f40e66ff327475d4c605b6d6e13
 workflow-type: tm+mt
-source-wordcount: '839'
-ht-degree: 72%
+source-wordcount: '836'
+ht-degree: 73%
 
 ---
-
 
 # 将 URL 链接至 Web 应用程序{#linking-urls-to-your-web-application}
 
@@ -28,9 +28,11 @@ ht-degree: 72%
 
 可从“预览”或详细信息视图中获得由图像预设生成的 URL 字符串。复制 URL 后，该字符串将放置在剪贴板上，以便在必要时进行粘贴。
 
-***注意&#x200B;**:在您发布资产之前，该URL不会处于活动状态。*
+>[!NOTE]
+>
+>在发布资源之前，URL 处于非激活状态。
 
-### 从预览中获得图像预设 URL {#obtaining-an-image-preset-url-from-preview}
+### 从预览中获得图像预设 URL  {#obtaining-an-image-preset-url-from-preview}
 
 1. 在左侧“资源库”面板中，导航到包含要预览的图像资源的“资源”文件夹。
 1. 执行以下任一操作：
