@@ -7,31 +7,31 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
 discoiquuid: 4eddf983-38cb-4f00-b3be-85c20bdd6f69
-feature: Dynamic Media Classic,Asset Management
+feature: Dynamic Media Classic，资产管理
 role: Business Practitioner
+exl-id: deafbd03-06bc-4d7e-87a1-5620ebcac426
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 7456226cf6469f40e66ff327475d4c605b6d6e13
 workflow-type: tm+mt
-source-wordcount: '2447'
-ht-degree: 74%
+source-wordcount: '2427'
+ht-degree: 62%
 
 ---
 
-
 # 创建图像映射{#creating-image-maps}
 
-图像映射是图像、eCatalog 页面上的区域或旋转集中的图像，显示含文本的变换面板。当用户单击图像映射时，将触发某种操作。例如，将启动网页，供用户了解产品的更多相关信息。为了使用户注意到图像映射，当用户将指针移到图像映射上时，其四周会显示轮廓。
+图像映射是图像、eCatalog 页面上的区域或旋转集中的图像，显示含文本的变换面板。当用户单击图像映射时，将触发某种操作。例如，将启动网页，供用户了解产品的更多相关信息。当用户将指针移到图像映射上时，图像映射周围会显示一个轮廓。
 
-除了在Dynamic Media Classic中创建图像映射的功能，或者在Adobe Acrobat或Adobe InDesign中设计目录时也可以创建图像映射。
+除了在Dynamic Media Classic中创建图像映射的功能，在Adobe Acrobat或Adobe InDesign中设计目录时，您还可以创建图像映射。
 
-创建图像映射时，您可以执行以下任何操作：
+创建图像映射时，可以执行下列任一操作：
 
 * 输入变换文本。
-* 输入用于启动网页的 JavaScript 和 URL。
+* 输入JavaScript™和URL以启动网页。
 * 为图像映射创建 URL 模板。
 * 将图像映射复制到其他图像、eCatalog 页面或旋转集。
 * 把图像映射导出到 CSV 或 XML。
-* 从制表符分隔文件或 XML 文件导入图像元数据。
+* 从制表符分隔的文件或XML文件导入图像元数据。
 * 定义万维网联盟所确定的其他操作。
 * 预览图像映射。
 
@@ -57,7 +57,7 @@ ht-degree: 74%
 
 1. 如果希望用户在单击图像映射时打开新的网页，请在“图像映射”列表中输入 URL。
 
-   请参见[输入 JavaScript 和 URL](creating-image-maps.md#using_a_template_to_enter_javascript_and_urls)。
+   请参阅[以输入JavaScript™和URL](creating-image-maps.md#using_a_template_to_enter_javascript_and_urls)。
 
 1. 要在用户将指针移动到图像映射上时显示变换文本，请在“图像映射”列表中输入文本。在“图像映射”列表中，选择“显示”菜单，并选择“变换文本”。接下来输入您想要用户在屏幕上看到的文本。可以在文字处理程序中写入文本，然后将其复制到“变换文本”字段中。
 1. 如果您希望在用户将鼠标移动到图像映射上时发生其他操作效果，请定义该操作。在“显示”下拉列表中，单击“其他操作”。输入操作的属性。（单击“显示”>“两者全部”可为图像映射创建滚动文本和操作。）
@@ -66,25 +66,27 @@ ht-degree: 74%
 
 1. （可选）请执行下列操作之一：
 
-   * 单击“预览”来预览图像映射。
-   * 要删除图像映射或多边形顶点，请选择图像上的形状，然后单击“删除”。或者，对于 eCatalog，在“排序页面”选项卡上，单击“清除映射”从所有页面中删除图像映射。
+   * 要预览图像映射，请单击&#x200B;**[!UICONTROL 预览]**。
+   * 要删除图像映射或多边形顶点，请在图像上选择一个形状，然后单击&#x200B;**[!UICONTROL 删除]**。 或者，对于eCatalog，在“订购页面”选项卡上，单击&#x200B;**[!UICONTROL 清除映射]**&#x200B;以从所有页面中删除图像映射。
    * 要将某个图像映射临时从图像、旋转集中的图像或 eCatalog 页面中移走而不删除，请在“图像映射”列表中取消选中相应的“开”选项。
 
-1. 单击“保存”。
+1. 单击“**[!UICONTROL 保存]**”。
 
-### 调整图像映射的位置、形状和大小  {#adjusting-the-position-shape-and-size-of-image-maps}
+### 调整图像映射的位置、形状和大小 {#adjusting-the-position-shape-and-size-of-image-maps}
 
-要更改图像映射的位置、形状和大小，请选择“图像映射”按钮 。然后，选择“平移”工具并按照以下说明操作：
+要更改图像映射的位置、形状和大小，请选择“图像映射”按钮 。然后，选择&#x200B;**[!UICONTROL 平移]**&#x200B;工具并按照以下说明操作：
 
-**更改** 位置将指针移到图像映射的边框附近，但不移到边框上。当您看见四向箭头图标时，将映射拖到新位置。
+**更改位置**  — 将指针移到图像映射的边框附近，但不移到边框上。当您看见四向箭头图标时，将映射拖到新位置。
 
-**更改大小和形** 状更改图像映射的形状和大小取决于您使用的是矩形还是多边形图像映射：
+**更改大小和形状**  — 更改图像映射的形状和大小的方式取决于您使用的是矩形还是多边形图像映射：
 
-***提示&#x200B;**:您可以拖动屏幕底部的“大小”滑块来更改视图，并更好地查看图像映射。*
+>[!TIP]
+>
+>您可以拖动屏幕底部的“大小”滑块以更改视图，使您更轻松地查看图像映射。
 
-**矩形图** 像映射将指针移动到图像映射的一侧或一角上。当您看见双向箭头图标时，开始拖动。拖动时，按住 Shift 键，以更改大小，但保持高宽比（形状）不变。
+**矩形图像映射**  — 将指针移动到图像映射的一侧或一角上。当您看见双向箭头图标时，开始拖动。拖动时，按住 Shift 键，以更改大小，但保持高宽比（形状）不变。
 
-**多边形图** 像映射拖动方形选择手柄。要创建选择手柄，单击图像映射的边框，然后开始拖动。
+**多边形图像映射**  — 拖动一个方形选择手柄。要创建选择手柄，单击图像映射的边框，然后开始拖动。
 
 ### 处理重叠的图像映射 {#handling-overlapping-image-maps}
 
@@ -107,9 +109,9 @@ ht-degree: 74%
 
 ### 复制图像映射  {#copying-image-maps}
 
-您可以将图像映射从一个图像或 eCatalog 页面复制到另一个。使用“复制图像映射”能够提高创建的速度。您还可以通过复制图像映射，在共用相同布局或映射结构的图像或页面中重新创建这些图像映射。
+您可以将图像映射从一个图像或 eCatalog 页面复制到另一个。使用&#x200B;**[!UICONTROL 复制图像映射]**&#x200B;获取创建图像映射的头部开始。 您还可以通过复制图像映射，在共用相同布局或映射结构的图像或页面中重新创建这些图像映射。
 
-例如，在 eCatalog 中复制图像映射是一种在相同 eCatalog 的不同外语版本之间复制所有图像映射的简便方式。为获得最佳结果，如果您在具有相同数量的页面和相同图像的不同 eCatalog 之间复制，则复制是最成功的。如果图像映射所复制到的 eCatalog 已经包含图像映射，请注意复制时将删除原有的图像映射。
+例如，在 eCatalog 中复制图像映射是一种在相同 eCatalog 的不同外语版本之间复制所有图像映射的简便方式。为获得最佳结果，如果您在具有相同数量的页面和相同图像的不同 eCatalog 之间复制，则复制是最成功的。如果您复制到的eCatalog已包含图像映射，则在复制时会删除这些图像映射。
 
 **复制图像映射**
 
@@ -122,15 +124,15 @@ ht-degree: 74%
 
 1. 单击“选择”。
 
-## 使用模板输入 JavaScript 和 URL  {#using-a-template-to-enter-javascript-and-urls}
+## 使用模板输入JavaScript™和URL {#using-a-template-to-enter-javascript-and-urls}
 
-您可以定义 URL 模板（也称为 Href 模板），以便在输入图像映射 URL 时更轻松更有效。如果您的大部分图像映射 URL 都共享通用的固定格式，请定义 URL 模板。在输入固定 URL 部分以作为 URL 模板后，每次创建图像映射时，无需输入该部分 URL。您的 URL 模板也可以包含 JavaScript 命令、路径名和参数。默认情况下，URL模板包含一个名为`loadProduct`的专有Dynamic Media Classic JavaScript处理函数，该处理函数在新窗口中打开图像。
+您可以定义 URL 模板（也称为 Href 模板），以便在输入图像映射 URL 时更轻松更有效。如果您的大部分图像映射 URL 都共享通用的固定格式，请定义 URL 模板。在输入固定 URL 部分以作为 URL 模板后，每次创建图像映射时，无需输入该部分 URL。您的URL模板还可以包含JavaScript™命令、路径名和参数。 默认情况下，URL模板包含一个名为`loadProduct`的专有Dynamic Media Classic JavaScript™处理函数，该处理函数在新窗口中打开图像。
 
 >[!NOTE]
 >
->请注意，在图像映射的 HREF 属性中添加 Javascript 代码时，将在客户端计算机上运行该代码。因此，请确保 Javascript 代码是安全的。
+>将JavaScript™代码添加到图像映射的HREF属性中时，该代码将在客户端的计算机上运行。 因此，请确保JavaScript™代码是安全的。
 
-### 关于 URL 模板  {#about-url-templates}
+### 关于 URL 模板 {#about-url-templates}
 
 URL 模板的工作方式是，在模板中使用两个美元符号 (&#39;$$&#39;) 代替“图像映射”列表中 URL 列的内容：
 
@@ -138,13 +140,13 @@ URL 模板的工作方式是，在模板中使用两个美元符号 (&#39;$$&#39
 Javascript:loadProduct(‘$$’);void(0);
 ```
 
-请将在图像映射之间不会发生变化的所有值放在 URL 模板中。仅仅将那些会在 URL 列中发生变化的值添加到“图像映射”列表中。例如：
+将所有在图像映射之间未更改的值放置在URL模板中。 仅仅将那些会在 URL 列中发生变化的值添加到“图像映射”列表中。例如：
 
 * URL模板：j `avascript:loadProduct(‘https://www.examplesitehere.com/$$’);void(0);`
 * URL值：`product.htm`
 * 实际生成的URL:`javascript:loadProduct(‘https://www.examplesitehere.com/product.html);void(0);`
 
-默认情况下，URL模板包含一个名为`loadProduct`的专有Dynamic Media Classic JavaScript处理函数，该处理函数打开一个包含URL目标的新窗口。 但是，您可以使用任何JavaScript代码替换此JavaScript处理函数，或使用下列Dynamic Media经典处理函数之一：
+默认情况下，URL模板包含一个名为`loadProduct`的专有Dynamic Media Classic JavaScript™处理函数，该处理函数打开一个包含URL目标的新窗口。 但是，可以使用任何JavaScript™代码来替换此JavaScript™处理函数，或使用以下Dynamic Media Classic处理函数之一：
 
 * `loadProductCW`
 
@@ -154,61 +156,63 @@ Javascript:loadProduct(‘$$’);void(0);
 
    在父窗口（打开当前窗口的页面）中显示在 URL 列中指定的 URL 目标。当前窗口仍处于打开状态，但父窗口切换为显示 URL 目标。
 
-   ***注意&#x200B;**:该处理 `loadProductPW` 函数不支持DHTML和HTML5查看器。*
+   >[!NOTE]
+   >
+   >处理程序 `loadProductPW` 不支持 DHTML 和 HTML5 查看器。
 
 ### 创建 URL 模板 {#creating-a-url-template}
 
 要创建 URL 模板，请执行以下操作：
 
 1. 在“映射编辑器”屏幕（图像或旋转集）或 eCatalog 屏幕 (eCatalog) 的“映射页面”选项卡上，选择“URL 模板”选项旁边的“编辑”。将打开“编辑映射模板”对话框。
-1. 输入JavaScript代码和完整的URL（变量部分由美元符号[$$]替换）。 您可以通过右键单击并选择“粘贴”来粘贴代码。
+1. 输入JavaScript™代码和完整的URL（变量部分由美元符号[$$]替换）。 您可以通过右键单击并选择“粘贴”来粘贴代码。
 1. 选择“保存”按钮。
 
 ### 处理 URL 模板  {#handling-url-templates}
 
 “映射编辑器”页面（图像和旋转集）和 eCatalog 屏幕 (eCatalog) 的“映射页面”选项卡提供以下用于处理 URL 模板的命令：
 
-**URL模板选** 项选择“URL模板”选项，可将URL模板应用于图像或电子目录页面上的所有图像映射。
+* **URL模板选** 项选择“URL模板”选项，可将URL模板应用于图像或电子目录页面上的所有图像映射。
 
-**模板** 选项如果您不希望单个图像映射使用URL模板，请在“URL图像映射”列表中取消选择“模板”选项。
+* **模板** 选项如果您不希望单个图像映射使用URL模板，请在“URL图像映射”列表中取消选择“模板”选项。
 
 ## 定义图像映射的其他操作 {#defining-other-actions-for-image-maps}
 
 您可以选择“显示”菜单，然后选择“其他操作”以触发除变换文本和网页启动之外的操作。当用户将指针移动到图像映射上时，您可以启动一个操作。这些操作是万维网联盟 HTML 规范为客户端图像映射定义的属性。它们是：
 
-**** accesskey当用户按下键盘上的指定键时触发操作。
+* **accesskey**  — 当用户按下键盘上的指定键时触发操作。
 
-**onfocus** 当图像映射收到焦点时触发事件 — 通过光标、按下Tab键或按下访问键。例如，当图像映射被激活时，您可以启动网页，当图像映射被取消激活时，您可以将其关闭。
+* **onfocus**  — 当图像映射收到焦点时触发事件 — 通过光标、Tab键或按访问键。例如，当图像映射被激活时，您可以启动网页，当图像映射被取消激活时，您可以将其关闭。
 
-**onblur** 当图像映射失去焦点时（通过光标或Tab键）触发事件。
+* **onblur**  — 当图像映射失去焦点时（通过光标或Tab键）触发事件。
 
-**定义图像映射的其他操作**
+**定义图像映射的其他操作:**
 
 1. 在“映射编辑器”屏幕（图像和旋转集）或 eCatalog 屏幕 (eCatalog) 的“映射页面”选项卡上，选择“显示”菜单，然后选择“其他操作”。
 1. 使用由万维网联盟 HTML 规范指定的语法，在“图像映射”列表的“其他操作”列中添加支持的属性。
-1. 单击“**保存**”。
+1. 单击“**[!UICONTROL 保存]**”。
 
-选择“显示”菜单，然后选择“两者全部”（如果您希望图像映射同时具有变换文本和操作）。
+如果希望图像映射具有翻转文本和动作，请选择&#x200B;**[!UICONTROL 显示]**&#x200B;菜单并选择&#x200B;**[!UICONTROL 两者]**。
 
-## 在 Adobe Acrobat 或 Adobe InDesign 中创建图像映射  {#creating-image-maps-in-adobe-acrobat-or-adobe-indesign}
+## 在 Adobe Acrobat 或 Adobe InDesign 中创建图像映射 {#creating-image-maps-in-adobe-acrobat-or-adobe-indesign}
 
 在 Adobe Acrobat 或 Adobe InDesign 中设计 eCatalog 时，您可以创建图像映射。
 
 在 Acrobat 或 InDesign 中，创建您希望在其中出现图像映射的超链接引用，然后为图像映射指定 URL 位置。在将PDF文件上传到Dynamic Media Classic时，选择“提取链接”选项会自动将链接转换为图像映射。
 
-有关更多信息，请参阅 InDesign 帮助或 Acrobat 帮助。
+有关详细信息，请参阅Adobe InDesign帮助或Adobe Acrobat帮助。
 
-### 在 Adobe InDesign 中创建图像映射  {#to-create-image-maps-in-adobe-indesign}
+### 在 Adobe InDesign 中创建图像映射 {#to-create-image-maps-in-adobe-indesign}
 
-1. 在 InDesign 中，单击“窗口”>“交互”>“超链接”，打开“超链接”面板。
+1. 在InDesign中，单击&#x200B;**[!UICONTROL Windows®]** > **[!UICONTROL Interactive]** > **[!UICONTROL Hyperlinks]**&#x200B;打开“超链接”面板。
 1. 选择要创建图像映射的文本、帧或图形。
-1. 在“超链接”面板中，单击面板菜单中的“新建超链接”。
-1. 在“新建超链接”对话框中，从“链接到”菜单中选择 URL。
-1. 在 URL 框中键入或粘贴产品 ID，然后单击“确定”。(Dynamic Media Classic使用图像映射URL模板完成URL。)
+1. 在“超链接”面板中，单击面板菜单中的&#x200B;**[!UICONTROL 新建超链接]**。
+1. 在“新建超链接”对话框中，从“链接到”菜单中选择&#x200B;**[!UICONTROL URL]**。
+1. 在URL框中键入或粘贴产品ID，然后单击&#x200B;**[!UICONTROL 确定]**。 (Dynamic Media Classic使用图像映射URL模板完成URL。)
 
    >[!NOTE]
    >
-   >您不需要在 InDesign 中设置外观选项。您可以指定Dynamic Media Classic中的外观。
+   >您无需在Adobe InDesign中设置外观选项。 您可以指定Dynamic Media Classic中的外观。
 
 1. 对于您想要创建的所有图像映射，重复步骤 2 到 5。
 1. 将文件导出为 PDF。
@@ -216,16 +220,17 @@ Javascript:loadProduct(‘$$’);void(0);
 
 ### 在 Adobe Acrobat 中创建图像映射 {#to-create-image-maps-in-adobe-acrobat}
 
-1. 在 Acrobat 中，选择“工具”>“高级编辑”>“链接工具”。
+1. 在Acrobat中，单击&#x200B;**[!UICONTROL 工具]** > **[!UICONTROL 高级编辑]** > **[!UICONTROL 链接工具]**。
 1. 拖动以创建图像映射。将打开“创建链接”框。
-1. 选择“自定义链接”，然后单击“下一步”。
+1. 选择&#x200B;**[!UICONTROL 自定义链接]**，然后单击&#x200B;**[!UICONTROL 下一步]**。
 
-   ***注意&#x200B;**:您无需在Acrobat中设置外观选项。可以在Dynamic Media Classic中指定外观。*
+>[!NOTE]
+>
+>您无需在Adobe Acrobat中设置外观选项。 您可以指定Dynamic Media Classic中的外观。
 
-1. 在“链接属性”框中，单击“动作”。
-1. 从“选择动作”菜单中选择“打开网络链接”，然后单击“添加”。
-1. 在“编辑 URL”框中键入图像映射的产品 ID，然后单击“确定”。(Dynamic Media Classic使用图像映射URL模板完成URL。)
+1. 在“链接属性”框中，单击&#x200B;**[!UICONTROL 操作]**。
+1. 从“选择操作”菜单中选择&#x200B;**[!UICONTROL 打开Web链接]**，然后单击&#x200B;**[!UICONTROL 添加]**。
+1. 在“编辑URL”框中键入图像映射的产品ID，然后单击&#x200B;**[!UICONTROL 确定]**。 (Dynamic Media Classic使用图像映射URL模板完成URL。)
 1. 对于您想要创建的所有图像映射，重复步骤 1 到 7。
 1. 保存文件。
 1. 将PDF上传到Dynamic Media Classic，然后从PDF选项中选择“提取链接”。
-
