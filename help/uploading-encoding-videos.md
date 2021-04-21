@@ -8,16 +8,16 @@ contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: a0941823-850c-4373-9e37-f32032de3805
-feature: Dynamic Media Classic,Viewers,Video
+feature: Dynamic Media Classic，查看器，视频
 role: Business Practitioner
+exl-id: 93ad91d7-f3dd-484b-b62c-633fcb864bbf
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 7456226cf6469f40e66ff327475d4c605b6d6e13
 workflow-type: tm+mt
-source-wordcount: '3945'
-ht-degree: 81%
+source-wordcount: '3942'
+ht-degree: 82%
 
 ---
-
 
 # 上载和编码视频{#uploading-and-encoding-videos}
 
@@ -240,9 +240,9 @@ Dynamic Media Classic还生成视频缩略图。 您可以了解有关视频缩�
 
 | 视频类型 | 宽度 X 高度 | 宽度比例 | 高度比例 |
 |--- |--- |--- |--- |
-| 源视频 | 1920 x 1080 | 1 | 3 |
+| 源视频 | 1920 x 1080 | 1 | 1 |
 | 编码视频 | 960 x 540 | 2 | 2 |
-| 编码视频 | 640 x 360 | 3 | 1 |
+| 编码视频 | 640 x 360 | 3 | 3 |
 | 编码视频 | 480 x 270 | 4 | 4 |
 
 ### 编码视频文件格式  {#encoded-video-file-format}
@@ -305,22 +305,24 @@ Dynamic Media Classic为您提供了一个预定义的视频编码预设库，�
 
 激活的视频预设将显示在“上载作业选项”对话框中。这是用户在上载期间上载视频文件时显示的对话框。他们可以从所有激活的编码预设列表中进行选择。
 
-**激活或停用视频编码预设**
+**激活或停用视频编码预设:**
 
-1. 在Dynamic Media Classic中，单击&#x200B;**设置** > **应用程序设置** > **视频预设**。
+1. 在Dynamic Media Classic中，单击&#x200B;**[!UICONTROL 设置]** > **[!UICONTROL 应用程序设置]** > **[!UICONTROL 视频预设]**。
 1. 执行以下任一操作：
 
-   * 单击“**自适应视频预设**”。
-   * 单击“**单个编码预设**”。
+   * 单击“**[!UICONTROL 自适应视频预设]**”。
+   * 单击“**[!UICONTROL 单个编码预设]**”。
 
 1. 执行以下任一操作：
 
    * 要激活某个视频预设，请在“预设”页中的“活动”列下面，选中预设名称旁边的复选框。
    * 要停用视频预设，请取消选中要停用的视频预设旁边的框。
 
-      ***注**:不活动的视频预设不会显示在“上传作业选项”对话框中。*
+      >[!NOTE]
+      >
+      >非活动视频预设不会显示在“上载作业选项”对话框中。
 
-1. 在页面的右下角，单击“**关闭**”。
+1. 在页面的右下角，单击“**[!UICONTROL 关闭]**”。
 
 ### 添加或编辑视频编码预设  {#adding-or-editing-a-video-encoding-preset}
 
