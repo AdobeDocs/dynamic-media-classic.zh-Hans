@@ -7,16 +7,16 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sizing
 discoiquuid: 1ec39fe5-7b2a-4034-9570-6b5595f97052
-feature: Dynamic Media Classic,Image Presets
+feature: Dynamic Media经典，图像预设
 role: Business Practitioner
+exl-id: 336802cc-b032-49b2-b2e6-d699bc997ee5
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 7456226cf6469f40e66ff327475d4c605b6d6e13
 workflow-type: tm+mt
-source-wordcount: '656'
+source-wordcount: '654'
 ht-degree: 66%
 
 ---
-
 
 # 设置图像预设{#setting-up-image-presets}
 
@@ -30,7 +30,7 @@ Dynamic Media Classic附带了几个“最佳实践”图像预设，这些预�
 
 如果您是公司的管理员，则可以创建自己的图像预设。您可以使用Dynamic Media Classic提供的默认图像预设创建新的图像预设或开始，对其进行编辑，然后使用新名称进行保存。
 
-**创建图像预设**
+**创建图像预设:**
 
 1. 单击“**设置**”>“**图像预设**”。
 
@@ -65,7 +65,7 @@ Dynamic Media Classic附带了几个“最佳实践”图像预设，这些预�
    |--- |--- |--- |--- |--- |
    | 交叉销售（微型缩略图） | 75 x 75 | 1.5 | 0.8 | 5 |
    | 缩略图 | 150 x 150 | 1.1 | 1 | 5 |
-   | 主图像 | 350 x 350 | 3 | 1 | 6 |
+   | 主图像 | 350 x 350 | 1 | 1 | 6 |
    | 放大 | 500 x 500 | 1.2 | 1.2 | 5 |
 
 1. 单击“**保存**”。
