@@ -7,14 +7,14 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/upload_and_publish_assets
 discoiquuid: d53ae5dd-8daf-4d87-b9a6-3039bad30538
-feature: Dynamic Media Classic,Asset Management
+feature: Dynamic Media Classic，资产管理
 role: Business Practitioner
 exl-id: b6b11e1c-5eda-4bdb-8ffb-ecd3678f2352
 translation-type: tm+mt
-source-git-commit: 98463dbc24e141547d01bd3f71b1b9fe3a692c14
+source-git-commit: bd0659c015f259e25d6d07b620f5b1e948cabcbf
 workflow-type: tm+mt
-source-wordcount: '1584'
-ht-degree: 60%
+source-wordcount: '1583'
+ht-degree: 61%
 
 ---
 
@@ -54,7 +54,9 @@ ht-degree: 60%
 
 **已提** 交者已上传资产的列表。
 
-***注意&#x200B;**:单击进度栏旁边的“取消”按钮，可以取消进行中的发布和上传作业。*
+>[!NOTE]
+>
+>单击进度栏旁的“取消”按钮可以取消进行中的发布和上载作业。
 
 ## 在“作业”页中更改视图 {#changing-views-on-the-jobs-page}
 
@@ -88,7 +90,7 @@ ht-degree: 60%
 >
 >您可以使用“作业类型”和“显示”菜单在“已计划”选项卡上过滤作业列表。选择作业类型，以将列表范围缩小至特定类型的发布作业。选择“显示”选项以显示您创建的作业或者您公司的每个人所创建的作业。
 
-### 编辑、删除、暂停和恢复重复作业 {#editing-deleting-pausing-and-resuming-recurring-jobs}
+### 编辑、删除、暂停和恢复重复作业  {#editing-deleting-pausing-and-resuming-recurring-jobs}
 
 在“作业”页中选择重复作业，并按照以下说明编辑或删除该作业：
 
