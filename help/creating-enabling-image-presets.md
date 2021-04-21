@@ -7,16 +7,16 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/media_portal
 discoiquuid: 84257b2a-681c-4fe9-a6e5-3633c1d61d8c
-feature: Dynamic Media Classic,Collaboration,Image Presets,Asset Management
+feature: Dynamic Media经典，协作，图像预设，资产管理
 role: Administrator,Business Practitioner
+exl-id: 94c6c388-226b-4172-a6c7-a8dcf9c0f0cf
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 7456226cf6469f40e66ff327475d4c605b6d6e13
 workflow-type: tm+mt
-source-wordcount: '263'
-ht-degree: 85%
+source-wordcount: '260'
+ht-degree: 81%
 
 ---
-
 
 # 创建和启用图像预设{#creating-and-enabling-image-presets}
 
@@ -27,7 +27,7 @@ Media Portal 管理员可以创建图像预设，以便控制导出时如何重�
 导出图像资源时，有下列限制：
 
 * 每张图像的宽 x 高必须小于或等于 100 MB。例如，图像不能超过 10K x 10K，或以下任意宽高比变体（如 8K x 12K）。
-* 每个导出作业的总文件大小最大为 1 GB。
+* 每个导出作业最多有1-GB的总文件大小。
 * 每个导出作业最多可以有 500 个总资源。
 
 >[!NOTE]
