@@ -6,14 +6,14 @@ seo-description: Dynamic Media Classic概述
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 feature: Dynamic Media Classic
 role: Administrator,Business Practitioner
+exl-id: 7bf94d8c-23ff-4a43-83cc-7e6879a7cded
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 27d9a9b9f158846b54e4318119aec9e4dc9c4c0d
 workflow-type: tm+mt
-source-wordcount: '252'
-ht-degree: 30%
+source-wordcount: '249'
+ht-degree: 31%
 
 ---
-
 
 # Dynamic Media Classic Help {#scene7-overview}
 
@@ -41,4 +41,3 @@ ht-degree: 30%
 * [快速开始:模板基础知识](/help/quick-start-template-basics.md)
 * [快速入门：视频](/help/quick-start-video.md)
 * [快速入门：缩放](/help/quick-start-zoom.md)
-
