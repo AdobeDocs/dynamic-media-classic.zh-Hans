@@ -6,14 +6,14 @@ seo-description: 'Adobe Dynamic Media Classic（以前称为Scene 7）的技术�
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 feature: Dynamic Media Classic
 role: Administrator,Business Practitioner
+exl-id: af29eabb-f7c6-420b-9c63-9d60ee2dc148
 translation-type: tm+mt
-source-git-commit: 3def4a02eda8dc36f2811b3d4f0e870fff1994e4
+source-git-commit: 27d9a9b9f158846b54e4318119aec9e4dc9c4c0d
 workflow-type: tm+mt
-source-wordcount: '588'
-ht-degree: 6%
+source-wordcount: '585'
+ht-degree: 7%
 
 ---
-
 
 # Adobe Dynamic Media Classic 指南 {#scene7-overview}
 
