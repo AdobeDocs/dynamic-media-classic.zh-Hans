@@ -7,16 +7,16 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: eaa214ff-d1ef-4691-9148-d01bf243c810
-feature: Dynamic Media Classic,Asset Management
+feature: Dynamic Media Classic，资产管理
 role: Business Practitioner
+exl-id: 618ae6a4-6f60-4a80-b197-a9d35b3c47af
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 4e79c98b92dfa4e1a9890ed8a291cdf564126466
 workflow-type: tm+mt
-source-wordcount: '590'
-ht-degree: 78%
+source-wordcount: '587'
+ht-degree: 69%
 
 ---
-
 
 # 使用“详细信息”视图{#working-in-detail-view}
 
@@ -46,11 +46,11 @@ Last Modified Date: 2018-06-14T13:52:46.623-0400
 
    * 双击资源。
    * 选择资产，然后单击&#x200B;**[!UICONTROL 详细信息视图]**。
-   * 选择资产，然后单击&#x200B;**[!UICONTROL 文件>详细信息]**。
+   * 选择资产，然后单击&#x200B;**[!UICONTROL 文件]** > **[!UICONTROL 详细信息]**。
 
 >[!NOTE]
 >
->通过选择“上一个资源”或“下一个资源”按钮，可以在详细信息视图中逐个查看同一文件夹中的资源。这些按钮位于详细信息视图的右上角。
+>通过选择“上一个资源”或“下一个资源”按钮，可以在详细信息视图中逐个查看同一文件夹中的资源。这些按钮位于“详细信息”视图的右上角。
 
 ## 在“详细信息”视图中获取信息 {#getting-information-in-detail-view}
 
@@ -62,45 +62,40 @@ Last Modified Date: 2018-06-14T13:52:46.623-0400
 
 详细信息视图提供了用于处理打开的资源的工具。具体哪些工具可用取决于您正在使用的资源的类型，但详细信息视图始终提供以下功能：
 
-* **要发布的**
-项目单 **** 击名称左侧的“发布”，或单击“文件”>“发布 **[!UICONTROL 器]** 文件” **[!UICONTROL >“取消发布]**”。
+* **要发布的项**  — 单击名称左 **** 侧的“发布”，或单击“文件”>“发布 **[!UICONTROL 器]** 文件” **[!UICONTROL >“取消发布]**”。
 
-* **重命名**
-资产选择名称并输入新名称。
+* **重命名资产**  — 选择名称并输入新名称。
 
-* **编辑和添加元**
-数据选择“元数据”面板并根据需要进行更改。请参阅[查看、添加和导出元数据](/help/viewing-adding-exporting-metadata.md)。
+* **编辑和添加元数据**  — 选择“元数据”面板，然后根据需要进行更改。请参阅[查看、添加和导出元数据](/help/viewing-adding-exporting-metadata.md)。
 
-* **编辑和添加关**
-键字选择关键字，然后根据需要添加或删除它们。请参阅[添加或编辑关键字](/help/viewing-adding-exporting-metadata.md)。
+* **编辑和添加关键字**  — 选择关键字，然后根据需要添加或删除关键字。请参阅[添加或编辑关键字](/help/viewing-adding-exporting-metadata.md)。
 
-* **删除资产**
-单击 **[!UICONTROL 文件>删除]**。
+* **删除资产**  — 单击 **[!UICONTROL 文件]** > **[!UICONTROL 删]**&#x200B;除。
 
 对于不关联的文件（如图像、图像集和字体），可以在详细信息视图中查看发布和编辑历史记录并检查作业详细信息。
 
-下表显示了对于详细信息视图中不同类型资源可用的其他选项。
+此表显示了在详细信息视图中对不同类型的资产可用的其他选项。
 
 | 资源类型 | 编辑/调整 | 预览 |
 |--- |--- |--- |
-| 图像 | 添加图像映射 添加缩放目标裁剪锐化创建调整的视图 | 是；缩放和图像预设. |
-| CAB 和窗饰图像 | 否 | 缩略图。 |
-| eCatalog | 编辑 | 是。信息面板也可用。 |
-| 字体 | 编辑字体信息 | 否。 |
-| FXG 文件 | 编辑 | 是。 |
-| ICC 配置文件 | 编辑配置文件信息 | 否。 |
-| Illustrator 文件 | 否（除非转换为 FXG） | 否。 |
-| 图像集 | 编辑 | 是。 |
-| InDesign 文件 | 否（除非转换为 FXG） | 否。 |
-| PDF 文件 | 否 | 否。 |
-| PSD 文件 | 对于个别图层可用 | 对于个别图层可用。 |
-| 旋转集 | 编辑 | 是。 |
-| SVG 文件 | 否 | 否。 |
-| 模板 | 编辑 | 是。 |
-| 视频 | 否 | 是。 |
-| 晕影和渲染的晕影 | 否 | 显示图像。可以按 XML 格式查看晕影可渲染元素的内容和结构。 |
-| XML 文件 | 否 | 显示内容。 |
-| ZIP 文件 | 否 | 不显示内容。 |
+| 图像 | 添加图像映射<br>添加缩放目<br><br><br>标裁剪锐化创建调整的视图 | 是；缩放和图像预设 |
+| CAB 和窗饰图像 | 否 | 缩略图 |
+| eCatalog | 编辑 | 是<br>信息面板也可用 |
+| 字体 | 编辑字体信息 | 否 |
+| FXG 文件 | 编辑 | 是 |
+| ICC 配置文件 | 编辑配置文件信息 | 否 |
+| Illustrator 文件 | 否（除非转换为 FXG） | 否 |
+| 图像集 | 编辑 | 是 |
+| InDesign 文件 | 否（除非转换为 FXG） | 否 |
+| PDF 文件 | 否 | 否 |
+| PSD 文件 | 对于个别图层可用 | 对于个别图层可用 |
+| 旋转集 | 编辑 | 是 |
+| SVG 文件 | 否 | 否 |
+| 模板 | 编辑 | 是 |
+| 视频 | 否 | 是 |
+| 晕影和渲染的晕影 | 否 | 图像显示<br>您可以视图晕影的可渲染元素的内容和结构，以XML格式 |
+| XML 文件 | 否 | 显示内容 |
+| ZIP 文件 | 否 | 不显示内容 |
 
 >[!MORELIKETHIS]
 >
