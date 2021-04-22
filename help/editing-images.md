@@ -7,37 +7,31 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
 discoiquuid: efa2c56e-4543-47fa-a4e8-b94021102d01
-feature: Dynamic Media Classic,Asset Management
+feature: Dynamic Media Classic，资产管理
 role: Business Practitioner
+exl-id: 1c368c25-78e6-4bcc-b390-d9133073821a
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 27d9a9b9f158846b54e4318119aec9e4dc9c4c0d
 workflow-type: tm+mt
-source-wordcount: '319'
-ht-degree: 40%
+source-wordcount: '315'
+ht-degree: 41%
 
 ---
-
 
 # 编辑图像{#editing-images}
 
 Dynamic Media Classic优惠了许多用于创建富媒体效果的工具。 通过单击变换“编辑”按钮以及在浏览面板的详细信息视图中可获得这些工具。您可以在Dynamic Media Classic中执行以下图像编辑任务:
 
-* **创建图像**
-映射选择“图像”命令或“图像映射”按钮可创建图像映射。图像映射是图像或 eCatalog 页上的热点或旋转集中的图像，显示含滚动文本的面板。用户可单击“图像映射”来执行诸如启动新网页的操作。请参阅创建图像映射。
+* **创建图像映射**  — 要创建图像映射，请选择“图像”命令或“图 **[!UICONTROL 像]** 映射”按钮。图像映射是图像或 eCatalog 页上的热点或旋转集中的图像，显示含滚动文本的面板。用户可单击“图像映射”来执行诸如启动新网页的操作。请参阅[创建图像映射](/help/creating-image-maps.md)。
 
-* **创建缩放**
-目标选择“缩放目标”命令或“缩放目标”按钮可创建缩览图目标。用户可在缩放查看器中单击某个缩略图目标以直接缩放到图像的特定部分。请参阅为引导式缩放创建缩放目标。
+* **创建缩放目标**  — 要创建缩览图目标，请选择“缩放目标”命令或“缩 **[!UICONTROL 放]** 目标”按钮。用户可在缩放查看器中单击某个缩略图目标以直接缩放到图像的特定部分。请参阅[为引导式缩放创建缩放目标](/help/creating-zoom-targets-guided-zoom.md)。
 
-* **裁剪图**
-像选择“裁剪”命令或“裁剪”按钮可裁剪图像。请参阅裁切图像。
+* **裁剪图像**  — 要裁剪图像，请选择“裁剪”命令或“裁剪” **** 按钮。请参阅[裁切图像](/help/cropping-image.md)。
 
-* **锐化图像**
-选择“锐化”命令或“锐化”按钮可锐化图像，使其轮廓更模糊、更清晰。请参阅锐化图像。
+* **锐化图像**  — 要锐化图像并使其轮廓更模糊、更清晰，请选择“锐化”命令或“锐化” **** 按钮。请参阅[锐化图像](/help/sharpening-image.md)。
 
-* **调整图**
-像选择“调整”命令或“调整”按钮可翻转、旋转、模糊、着色或更改图像的色彩平衡。请参阅调整图像。
+* **调整图像**  — 选择“调整”命令或“调 **** 整”按钮可翻转、旋转、模糊、着色或更改图像的色彩平衡。请参阅[调整图像](/help/adjusting-image.md)。
 
-* **编辑**
-图层单击“图层”选项卡可在PSD文件中显示单个可编辑图层。上传PSD文件时，所有图层将单独作为单独的文件上传，以便您在Dynamic Media Classic中编辑它们。
+* **编辑图层**  — 要在PSD文件中显示单个可编辑图层，请单击“图层” **** 选项卡。上传PSD文件时，所有图层将单独作为单独的文件上传，以便您在Dynamic Media Classic中编辑它们。
 
-除了使用这些工具编辑图像之外，您还可以在将图像上传到Dynamic Media Classic时编辑它们。 例如，您可以在上载图像时裁切图像、从剪切路径创建蒙版以及为图像选择颜色配置文件。
+除了使用这些工具编辑图像外，您还可以在将图像上传到Dynamic Media Classic时对其进行编辑。 例如，您可以在上载图像时裁切图像、从剪切路径创建蒙版以及为图像选择颜色配置文件。
