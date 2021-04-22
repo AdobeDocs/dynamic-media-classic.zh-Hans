@@ -9,32 +9,32 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/adobe_analytics_instrumentation_k
 discoiquuid: a2824244-1755-42de-a167-42af117cf038
 feature: Dynamic Media Classic
 role: Data Engineer,Administrator,Business Practitioner
+exl-id: 9ea1546d-e6d1-4ba4-8fa1-26b4e69375ba
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 27d9a9b9f158846b54e4318119aec9e4dc9c4c0d
 workflow-type: tm+mt
-source-wordcount: '307'
-ht-degree: 35%
+source-wordcount: '299'
+ht-degree: 28%
 
 ---
-
 
 # 使用 Adobe Analytics 仪器包实施查看器{#instrumenting-a-viewer-using-the-adobe-analytics-instrumentation-kit}
 
 您可以使用Adobe Analytics Instrumentation Kit将HTML5查看器与Adobe Analytics集成。
 
-如果您使用任何预定义的Dynamic Media Classic HTML5查看器预设，请注意，它们已包含将数据发送到Adobe Analytics所需的所有实施代码，您无需进行进一步的检测。
+如果您使用任何预定义的Dynamic Media Classic HTML5查看器预设，则这些查看器预设中已包含将数据发送到Adobe Analytics的所有实施代码；您无需进行进一步的测试。
 
 ## 从Dynamic Media Classic {#set-up-adobe-analytics-tracking-from-scene-publishing-system}设置Adobe Analytics跟踪
 
-对于所有HTML5查看器，将以下JavaScript添加到HTML容器，通常在&lt;head>元素中：
+对于所有HTML5查看器，将以下JavaScript™添加到HTML容器，通常在&lt;head>元素中：
 
 ```as3
-<!-- ***** Site Catalyst Tracking ***** --><script type="text/javascript" src="https://s7d6.scene7.com/s7viewers/s_code.jsp?company=<Dynamic Media Classic Company ID>&preset=companypreset-1"></script>
+<!-- ***** Adobe Analytics Tracking ***** --><script type="text/javascript" src="https://s7d6.scene7.com/s7viewers/s_code.jsp?company=<Dynamic Media Classic Company ID>&preset=companypreset-1"></script>
 ```
 
-`Company` 设置为Dynamic Media经典公司名称。`&preset` 为可选项，除非公司预设名称不 `companypreset`是。在这种情况下，它可能为`companypreset-1, companypreset-2`，依此类推。 数字越大预设实例越新。要确定正确的公司预设值名称，请单击&#x200B;**复制URL**，然后查看`preset=`参数以查找公司预设名称。
+其中`Dynamic Media Classic Company ID`设置为Dynamic Media经典公司名称。 除非公司预设名称不是`companypreset`，否则`&preset`是可选的。 在这种情况下，它可能为`companypreset-1, companypreset-2`，依此类推。 数字越大预设实例越新。要确定正确的公司预设值名称，请单击&#x200B;**[!UICONTROL 复制URL]**，然后查看`preset=`参数以查找公司预设名称。
 
-接下来，添加一个将查看器事件传送到 Adobe Analytics 跟踪代码的函数。
+继续，现在添加一个将查看器事件传输到Adobe Analytics跟踪代码的函数。
 
 将`s7ComponentEvent()`函数添加到容器 HTML（或JSP、ASPX或其他）：
 
@@ -42,7 +42,7 @@ ht-degree: 35%
 function s7ComponentEvent(objectId, componentClass, instanceName, timeStamp, eventData) {     s7track(eventData); }
 ```
 
-函数名区分大小写。传递给`s7componentEvent`的唯一必需参数是最后一个：`eventData`。 `s7track()` 定义。`s7track` 处理每个事件的所有跟踪。（要进一步自定义传送到 Adobe Analytics 的数据，可以在该区域执行此操作。）
+函数名区分大小写。 传递给`s7componentEvent`的唯一必需参数是最后一个：`eventData`。 其中`s7track()`在上面包含的s_code.jsp中定义。 而`s7track`将处理每个事件的所有跟踪。 （要进一步自定义传送到 Adobe Analytics 的数据，可以在该区域执行此操作。）
 
 ## 启用 HREF 和 ITEM 事件 {#enabling-href-and-item-events}
 
