@@ -9,14 +9,14 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/getting_started
 discoiquuid: 2b134cfa-7f46-4f5f-959e-b30aae610bb9
 feature: Dynamic Media Classic
 role: Administrator,Business Practitioner
+exl-id: ac50cb9c-fd87-4608-80cb-8d40a0b8f131
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 4e79c98b92dfa4e1a9890ed8a291cdf564126466
 workflow-type: tm+mt
-source-wordcount: '448'
-ht-degree: 32%
+source-wordcount: '436'
+ht-degree: 31%
 
 ---
-
 
 # Adobe Dynamic Media Classic平台概述{#adobe-scene-platform-overview}
 
@@ -26,17 +26,13 @@ Dynamic Media Classic是一个集成的富媒体管理、发布和服务环境�
 
 关键的Dynamic Media Classic工作流步骤是：
 
-* **上传和管理您的资**
-产将媒体资产上传到Dynamic Media Classic。您可以组织、浏览和搜索系统上的资源，也可以将元数据应用到资源。
+* **上传和管理您的资产**  — 将媒体资产上传到Dynamic Media Classic。您可以组织、浏览和搜索系统上的资源，也可以将元数据应用到资源。
 
-* **创建富**
-媒体 — 创建资产的不同配置，如eCatalog、图像集、旋转集、样本集、混合媒体集、基本模板和FXG模板。有关更多信息，请参阅关于富媒体。
+* **创建富媒体**  — 创建资产的不同配置，如eCatalog、图像集、旋转集、样本集、混合媒体集、基本模板和FXG模板。
 
-* **发布和**
-管理将资产发布到Dynamic Media Classic Saas网络，并在资产发布时监控资产的状态，管理用户权限并维护安全性。
+* **发布和管理**  — 将资产发布到Dynamic Media Classic SaaS网络，以及监视资产在发布时的状态，管理用户权限并维护安全性。
 
-* **服**
-务将媒体从Dynamic Media Classic SaaS网络交付到网页、应用程序和移动设备；媒体经过性能优化，并通过CDN缓存提供。Dynamic Media Classic为您提供了每个资产的URL。 在您发布资源之后，URL 即处于活动状态。
+* **服务**  — 将媒体从Dynamic Media Classic SaaS网络交付到网页、应用程序和移动设备；媒体经过性能优化，并通过CDN缓存提供。Dynamic Media Classic为您提供了每个资产的URL。 在您发布资源之后，URL 即处于活动状态。
 
 ![Dynamic Media Classic工作流程](/help/assets/gs_workflow.png)
 
@@ -50,4 +46,4 @@ Dynamic Media Classic与其他系统有本质的不同，因为您可以使用Dy
 
 ## 内容缓存 {#content-caching}
 
-Dynamic Media经典动态生成的图像是缓存友好型的；在大多数情况下，它们是具有唯一URL调用的JPEG图像，用于识别它们。 图像会传送到内容传递网络 (CDN)，这是一个服务器系统，这些服务器在 Internet 上彼此互联以更快的速度传送内容。图像从位于全球的服务器发布到计算机。使用任何CDN供应商实施缓存机制时，您只需将服务器名称更改为指向支持CDN的Dynamic Media Image Server。 所有Dynamic Media Classic版本都包含捆绑的CDN缓存。
+Dynamic Media经典动态生成的图像是缓存友好型的；通常，它们是具有唯一URL调用的JPEG图像，用于标识它们。 图像会传送到内容传递网络 (CDN)，这是一个服务器系统，这些服务器在 Internet 上彼此互联以更快的速度传送内容。图像从位于全球的服务器发布到计算机。使用任何CDN供应商实施缓存机制时，您只需将服务器名称更改为指向支持CDN的Dynamic Media Image Server。 所有Dynamic Media Classic版本都包含捆绑的CDN缓存。
