@@ -7,16 +7,16 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
 discoiquuid: be277831-77cc-4011-ae30-e75c18eec99b
-feature: Dynamic Media Classic,Viewers,eCatalog
+feature: Dynamic Media Classic，查看器，电子目录
 role: Business Practitioner
+exl-id: bfb9c5a4-5068-4adb-9fe2-a4ead8656289
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 27d9a9b9f158846b54e4318119aec9e4dc9c4c0d
 workflow-type: tm+mt
-source-wordcount: '875'
-ht-degree: 81%
+source-wordcount: '862'
+ht-degree: 67%
 
 ---
-
 
 # 管理eCatalogs{#managing-info-panel-content-in-ecatalogs}中的“信息面板”内容
 
@@ -25,7 +25,7 @@ ht-degree: 81%
 您可以使用Dynamic Media Classic中的以下功能管理InfoPanel设置和数据：
 
 * “信息面板设置”面板可用来指定用于显示“信息面板”文本、默认错误响应以及信息缓存的小时数等信息的模板。此外，可以指定是否自动发布 eCatalog。
-* “信息面板数据输入”面板可用来指定包含要在“信息面板”变换文本中显示的文本的 CSV 文件，以及计划更新信息的时间。
+* 通过“信息面板数据源”面板，可以指定一个CSV文件，其中包含要显示在“信息面板”变换文本中的文本，以及更新信息的计划时间。
 * “导入元数据”对话框（从“映射页面”视图访问）可用来导入包含变换文本信息的制表符分隔 TXT 文件。可以将该 TXT 选项或“数据输入”面板与“CSV 文件”选项结合，用于变换文本。
 * “映射页面”视图提供了用于预览为特定图像映射而显示的 XML 的选项。
 
@@ -40,11 +40,11 @@ ht-degree: 81%
 >请参阅[设置 eCatalog 查看器预设](setting-ecatalog-viewer-presets.md#setting_up_ecatalog_viewer_presets)。
 
 1. 双击 eCatalog 以在详细信息视图中将其打开。
-1. 单击“信息面板设置”面板将其打开。
+1. 单击“信息”(Info)“面板设置”(Panel Setup)面板。
 1. 选择“响应模板”：
 
    * 从“响应模板”菜单中选择预设。模板设计的 XML 显示在“用户模板”框中。
-   * 选择“自定义”创建自己的响应模板。在“用户模板”框中键入模板 XML 定义。可以将预设模板作为您自己的模板的基础。
+   * 要创建自己的响应模板，请选择&#x200B;**[!UICONTROL 自定义]**。 在“用户模板”框中键入模板 XML 定义。可以将预设模板作为您自己的模板的基础。
 
 1. （可选）在“默认响应”框中，键入在Dynamic Media Classic检索图像映射信息时遇到错误时要显示的文本。 例如，如果系统收到公司名称和 eCatalog 名称，但是没有变换标识符，则将为用户显示该消息。
 1. 在“响应 TTL”框中，输入要在缓存数据之前等待的小时数：
@@ -52,7 +52,7 @@ ht-degree: 81%
    * 如果在一整天内需要频繁更新数据，则设置一个较小的值。
    * 如果数据相对稳定并且不需要整天频繁更新，则设置一个较大的值。默认为十小时。
 
-1. 单击&#x200B;**发布**。
+1. 单击&#x200B;**[!UICONTROL 发布]**。
 
 ## 导入eCatalogs {#import-source-content-for-the-info-panel-in-ecatalogs}中“信息”面板的源内容
 
@@ -62,12 +62,12 @@ ht-degree: 81%
 
 * 确保制表符分隔数据和逗号分隔数据包含变换模板所必需的列数。
 * 确保数据的第一项或列是变换标识符（与图像映射 URL 的 rollover_key 值关联）。
-* 确保标识符后面的每个制表符分隔或逗号分隔的项目都是要替换到响应模板中的项目（因此第一列取代 $1$，第二列取代 $2$，依此类推）。
+* 确保标识符后的每个制表符或逗号分隔项是要替换到响应模板中的项。因此，第一列被替换为$1$，第二列被替换为$2$，依此类推。
 
 ### 从外部托管位置{#import-csv-content-into-ecatalogs-from-an-externally-hosted-location}将CSV内容导入eCatalog
 
 1. 双击 eCatalog，以在详细信息视图中将其打开。
-1. 单击“信息面板数据输入”面板以将其打开。
+1. 单击“信息面板”“数据源”面板。
 1. 在“外部承载的 CSV 文件位置”框中，输入 CSV 文件的 URL。可以将 URL 粘贴至该字段，或直接键入。
 1. （可选）指定使用“计划更新”菜单更新内容的时间，然后单击“添加”。可以选择多个更新时间。每个更新时间显示在“更新时间”框中。（要删除时间，请将其选中，然后单击“删除”。）
 1. （可选）单击“立即运行更新”以立即更新内容。
@@ -85,10 +85,10 @@ Last Modified Date:
  -->
 
 1. 双击 eCatalog，以在详细信息视图中将其打开。
-1. 单击“信息面板设置”面板将其打开。
-1. **单击“上传S7Info内容”**。
-1. 单击&#x200B;**浏览**，选择要使用的制表符分隔的TXT文件、CSV或SSV文件，然后单击&#x200B;**打开**。
-1. 按一下&#x200B;**上載**。
+1. 单击“信息”(Info)“面板设置”(Panel Setup)面板。
+1. 单击&#x200B;**[!UICONTROL 上传S7Info内容]**。
+1. 单击&#x200B;**[!UICONTROL 浏览]**，选择要使用的制表符分隔的TXT文件、CSV或SSV文件，然后单击&#x200B;**[!UICONTROL 打开]**。
+1. 按一下&#x200B;**[!UICONTROL 上載]**。
 
 Dynamic Media Classic会向您发送一封电子邮件，告知您上载是否成功。
 
@@ -96,9 +96,8 @@ Dynamic Media Classic会向您发送一封电子邮件，告知您上载是否�
 
 使用“映射页面”屏幕，您可以快速、轻松地查看 eCatalog 特定页面上“图像映射”的“信息面板”文本。
 
-1. 单击目录的变换“编辑”按钮。
-1. 单击“映射页面”。
-1. 在屏幕右侧表格的顶部，从“显示”菜单中选择“信息面板”。
+1. 单击目录的滚动&#x200B;**[!UICONTROL 编辑]**&#x200B;按钮。
+1. 单击&#x200B;**[!UICONTROL 映射页面]**。
+1. 在屏幕右侧表格的顶部，从“显示”菜单中选择“**[!UICONTROL 信息面板]**”。
 
    在每个包含“信息面板”文本的“图像映射”旁边，都会出现密钥滚动更新文本。
-
