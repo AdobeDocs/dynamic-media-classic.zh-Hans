@@ -11,10 +11,10 @@ feature: Dynamic Media Classic
 role: Business Practitioner
 exl-id: ca629427-da33-4bab-9d08-6d9368042f7e
 translation-type: tm+mt
-source-git-commit: 7456226cf6469f40e66ff327475d4c605b6d6e13
+source-git-commit: 38d09bb78834c6b3614bf2b96fd6aee5661e0a5a
 workflow-type: tm+mt
-source-wordcount: '836'
-ht-degree: 73%
+source-wordcount: '832'
+ht-degree: 53%
 
 ---
 
@@ -37,23 +37,23 @@ ht-degree: 73%
 1. 在左侧“资源库”面板中，导航到包含要预览的图像资源的“资源”文件夹。
 1. 执行以下任一操作：
 
-   * 在“资源”窗口上方，工具栏的右侧，单击“网格视图”。在“资源”窗口中，选择单个图像资源，然后在缩略图图像下方，单击“预览”>“图像预设列表”。
-   * 在“资源”窗口上方，工具栏的右侧，单击“列表视图”。在“资源”窗口中，选择单个图像资源，然后在缩略图图像右侧，单击“预览”>“图像预设列表”。
-   * 在“资源”窗口上方，工具栏的右侧，单击“详细信息视图”。在同一工具栏上，单击“预览”>“图像预设列表”。
+   * 在“资源”窗口上方的工具栏右侧，单击“**[!UICONTROL 网格视图]**”。在“资产”窗口中，选择一个图像资产，然后在缩略图图像下方，单击&#x200B;**[!UICONTROL 预览]** > **[!UICONTROL 图像预设列表]**。
+   * 在“资源”窗口上方的工具栏右侧，单击“**[!UICONTROL 列表视图]**”。在“资产”窗口中，选择一个图像资产，然后在缩略图的右侧，单击&#x200B;**[!UICONTROL 预览]** > **[!UICONTROL 图像预设列表]**。
+   * 在“资源”窗口上方的工具栏的右侧，单击“**[!UICONTROL 详细信息视图]**”。在同一工具栏上，单击&#x200B;**[!UICONTROL 预览]** > **[!UICONTROL 图像预设列表]**。
 
-1. （可选）在“图像预设列表”窗口底部的“用于生成副本 URL 的 URL 编码”下拉列表中，选择要在复制图像资源的 URL 时应用的 URL 编码。
-1. 在“图像预设列表”窗口中，在预览窗格的右上角区域中，单击所选预设类型对应的“复制 URL”。
-1. 在“图像预设列表”窗口的右下角，单击“关闭”以返回到“资源”屏幕。
+1. （可选）在图像预设列表的“复制URL生成的URL编码”下拉列表中，选择要在复制图像资产的URL时应用到的URL编码。
+1. 在“图像预设”列表窗口的预览窗格的右上角区域，单击选定预设类型的&#x200B;**[!UICONTROL 复制URL]**。
+1. 在“图像预设”列表窗口的右下角，单击&#x200B;**[!UICONTROL 关闭]**&#x200B;以返回“资产”屏幕。
 
-### 从浏览面板中获得图像预设 URL  {#obtaining-an-image-preset-url-from-the-browse-panel}
+### 从浏览面板中获得图像预设 URL {#obtaining-an-image-preset-url-from-the-browse-panel}
 
 1. 在左侧“资源库”面板中，导航到包含要预览的图像资源的“资源”文件夹。
-1. 在“资源”窗口上方，工具栏的右侧，单击“网格视图”。在“资源”窗口中，选择单个图像资源。
-1. 在“资源”窗口上方，工具栏的右侧，单击“详细信息视图”。
-1. 单击屏幕右侧面板上的 URL 以展开图像预设列表。
-1. 单击带有要复制到剪贴板的 URL 的图像预设名称旁的“复制 URL”链接。
+1. 在“资源”窗口上方的工具栏右侧，单击“**[!UICONTROL 网格视图]**”。在“资源”窗口中，选择单个图像资源。
+1. 在“资源”窗口上方的工具栏的右侧，单击“**[!UICONTROL 详细信息视图]**”。
+1. 单击屏幕右侧面板上的&#x200B;**[!UICONTROL URL]**&#x200B;以展开图像预设的列表。
+1. 单击包含要复制到剪贴板的URL的图像预设名称旁边的&#x200B;**[!UICONTROL 复制URL]**&#x200B;链接。
 
-## 关于图像预设 URL 字符串  {#about-image-preset-url-strings}
+## 关于图像预设 URL 字符串 {#about-image-preset-url-strings}
 
 对Dynamic Media图像服务器的图像大小调整URL调用具有以下基本语法：
 
@@ -89,7 +89,7 @@ https://s7d1.scene7.com/is/image/S7learn/backpack?$Large$
 img src="/company_images/products/backpack_thumbnail.jpg"
 ```
 
-您现在使用`<IMG>`标记将对静态图像的引用替换为对Dynamic Media Classic平台的图像预设调用。 示例调用如下所示：
+现在，您可以使用`<IMG>`标记将对静态图像的引用替换为对Dynamic Media Classic平台的图像预设调用。 示例调用如下所示：
 
 ```as3
 img src="https://s7d2.scene7.com/is/image/S7learn/backpack_trns?$thumbnail$”
