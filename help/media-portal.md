@@ -7,20 +7,20 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/getting_started
 discoiquuid: bdd0742e-902c-48f7-93e6-6e50d2a7628b
-feature: Dynamic Media Classic,Asset Management
+feature: Dynamic Media Classic，资产管理
 role: Administrator,Business Practitioner
+exl-id: 41995df7-fb67-4d40-aa42-76c507abaa9a
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 38d09bb78834c6b3614bf2b96fd6aee5661e0a5a
 workflow-type: tm+mt
-source-wordcount: '108'
-ht-degree: 40%
+source-wordcount: '103'
+ht-degree: 15%
 
 ---
 
-
 # Media Portal{#media-portal}
 
-公司利用 Adobe Media Portal 可以轻松地获取、控制已批准的创作资源，并将其分发给外部的合作伙伴和渠道以及内部企业用户。此基于浏览器的“自助”环境为门户用户提供管理员控制的“视图”，可以轻松访问Dynamic Media Classic资产，以便以公司批准的格式上传、浏览、搜索、预览和导出资产。
+Adobe Medium门户使公司能够轻松获取、控制获准资产并将其分发给外部合作伙伴和渠道以及内部用户。 基于浏览器的“自助”环境为门户用户提供管理员控制的“视图”，可以轻松访问Dynamic Media Classic资产，以便以公司批准的格式上传、浏览、搜索、预览和导出资产。
 
 有关媒体门户（包括系统要求）的详细信息，请参阅[www.adobe.com/go/learn_sc7_mediaportalusing_en](https://www.adobe.com/go/learn_sc7_mediaportalusing_en)。
 
