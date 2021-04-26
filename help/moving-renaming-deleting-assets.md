@@ -7,16 +7,16 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: 1c9e29f0-3083-4d22-a439-2a01faf59683
-feature: Dynamic Media Classic,Asset Management
+feature: Dynamic Media Classic，资产管理
 role: Business Practitioner
+exl-id: 391eb7ce-ed89-47a8-a6c6-5adb3e95bf78
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 38d09bb78834c6b3614bf2b96fd6aee5661e0a5a
 workflow-type: tm+mt
-source-wordcount: '574'
-ht-degree: 65%
+source-wordcount: '553'
+ht-degree: 44%
 
 ---
-
 
 # 移动、重命名和删除资源{#moving-renaming-and-deleting-assets}
 
@@ -29,22 +29,20 @@ ht-degree: 65%
 1. 在浏览面板中选择一个或多个资源，然后执行以下任一操作：
 
    * 在资源库中显示要将资源移至的文件夹，然后将资源拖到此文件夹。
-   * 选择“文件”>“移动”，在“移动资源”窗口中选择一个文件夹，然后选择“移动”。
+   * 单击&#x200B;**[!UICONTROL 文件]** > **[!UICONTROL 移动]**，在“移动资产”窗口中选择文件夹，然后选择&#x200B;**[!UICONTROL 移动]**。
 
 ## 重命名资源 {#rename-assets}
 
-要重命名资源：
-
 1. 在浏览面板中选择资源，然后执行以下任一操作：
 
-   * 选择名称，键入新名称，然后按下 Enter 或单击名称以外的区域。
-   * 选择“文件”>“重命名”。资源的名称被高亮显示。输入一个新名称并按 Enter。
+   * 选择名称，键入新名称，然后按&#x200B;**[!UICONTROL Enter]**&#x200B;键或单击离开该名称的位置。
+   * 单击&#x200B;**[!UICONTROL 文件]** > **[!UICONTROL 重命名]**。 资源的名称被高亮显示。输入新名称，然后按&#x200B;**[!UICONTROL Enter]**。
 
 请确保不要输入现有Dynamic Media经典资产的名称。
 
 ## 删除资源 {#delete-assets}
 
-可以删除浏览面板中的选定资源，也可以删除整个文件夹。删除的资源和文件夹将移至回收站文件夹，在其中保留七天，之后将被永久删除。
+您可以在浏览面板中删除选定的资源，并删除整个文件夹。 删除的资源和文件夹将移至回收站文件夹，在其中保留七天，之后将被永久删除。
 
 在删除资源时，由此资源派生出的所有资源也会随之删除。例如，删除已为其创建了缩放目标的图像时，缩放目标也会随图像一起删除。
 
@@ -54,10 +52,10 @@ ht-degree: 65%
 
 1. 执行以下任一操作：
 
-   * 要删除一个或多个资源，请在浏览面板中选择资源，然后按“删除”或选择“文件”>“删除”。
-   * 要删除文件夹，请在“资源库”中选择该文件夹，然后单击&#x200B;**删除文件夹**。
+   * 要删除一个或多个资源，请在浏览面板中选择资源，然后按&#x200B;**[!UICONTROL 删除]**&#x200B;或单击&#x200B;**[!UICONTROL 文件]** > **[!UICONTROL 删除]**。
+   * 要删除文件夹，请在“资源库”中选择该文件夹，然后单击&#x200B;**[!UICONTROL 删除文件夹]**。
 
-      删除文件夹时会删除文件夹、文件夹中的所有资源，以及其子文件夹中的所有资源。
+      删除文件夹会删除该文件夹、该文件夹中的所有资产及其子文件夹中的所有资产。
 
 >[!NOTE]
 >
@@ -71,11 +69,11 @@ ht-degree: 65%
 
 在创建列表之后，请执行以下步骤，以使用列表来删除资源：
 
-1. 选择“文件”>“删除资源列表”。
-1. 在“删除资源列表”对话框中，浏览或键入包含要删除的资源列表的文本文件路径。
-1. 单击“删除”按钮。
+1. 单击&#x200B;**[!UICONTROL 文件]** > **[!UICONTROL 删除资产列表]**。
+1. 在删除资产列表对话框中，浏览或键入具有要删除的资产列表的文本文件的路径。
+1. 单击“**[!UICONTROL 删除]**”。
 
-当您使用文本文件删除资产时，如果Dynamic Media中没有任何Dynamic Media经典ID，则会显示一条消息，告知您列表经典“无法在您的列表中验证这些条目：”以及条目的列表。 但是，Dynamic Media Classic不会在“作业”屏幕上生成错误。
+当您使用文本文件删除资产时，如果Dynamic Media上没有任何列表经典ID，则会显示消息“无法在列表中验证这些条目：”，并列表条目。 但是，Dynamic Media Classic不会在“作业”页面上生成错误。
 
 >[!MORELIKETHIS]
 >
