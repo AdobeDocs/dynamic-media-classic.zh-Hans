@@ -7,16 +7,16 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sets
 discoiquuid: 40f4abab-9059-4d92-a761-f6d573b42e00
-feature: Dynamic Media Classic,Viewers,Image Sets
+feature: Dynamic Media Classic，查看器，图像集
 role: Business Practitioner
+exl-id: df4e5218-2a66-413c-b247-b2a16d884041
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 38d09bb78834c6b3614bf2b96fd6aee5661e0a5a
 workflow-type: tm+mt
-source-wordcount: '688'
+source-wordcount: '686'
 ht-degree: 89%
 
 ---
-
 
 # 将图像集链接到网页{#linking-an-image-set-to-a-web-page}
 
@@ -28,57 +28,57 @@ ht-degree: 89%
 
 ## 复制图像集 URL {#copying-an-image-set-url}
 
-1. 在“资源浏览”面板的“显示”下拉列表中，单击“**图像集**”。
+1. 在“资源浏览”面板的“显示”下拉列表中，单击“**[!UICONTROL 图像集]**”。
 1. 在左侧的“资源库”面板中，导航至要复制其嵌入代码的图像集所在的资源文件夹。
 1. 在“资源浏览”面板上方的工具栏右侧，执行以下任一操作：
 
-   * 单击“**网格视图**”。在“资源浏览”面板中，双击单个资源以便在详细信息视图中将其打开。在右侧的“URL 和嵌入代码”面板中，单击所需查看器右侧的“**复制 URL**”。
-   * 单击“**网格视图**”。在“资源浏览”面板中，选择单个资源，然后在缩略图图像下方单击“**预览**”>“**查看器列表**”。
+   * 单击“**[!UICONTROL 网格视图]**”。在“资源浏览”面板中，双击单个资源以便在详细信息视图中将其打开。在右侧的“URL 和嵌入代码”面板中，单击所需查看器右侧的“**[!UICONTROL 复制 URL]**”。
+   * 单击“**[!UICONTROL 网格视图]**”。在“资源浏览”面板中，选择单个资源，然后在缩略图图像下方单击“**[!UICONTROL 预览]**”>“**[!UICONTROL 查看器列表]**”。
 
-      在“查看器列表”页面中表的“操作”列下，单击“**复制 URL**”。
+      在“查看器列表”页面中表的“操作”列下，单击“**[!UICONTROL 复制 URL]**”。
 
-   * 单击“**列表视图**”。在“资源浏览”面板中，选择单个资源，然后在缩略图图像右侧单击“**预览**”>“**查看器列表**”。
+   * 单击“**[!UICONTROL 列表视图]**”。在“资源浏览”面板中，选择单个资源，然后在缩略图图像右侧单击“**[!UICONTROL 预览]**”>“**[!UICONTROL 查看器列表]**”。
 
-      在“查看器列表”页面中表的“操作”列下，单击“**复制 URL**”。
+      在“查看器列表”页面中表的“操作”列下，单击“**[!UICONTROL 复制 URL]**”。
 
-   * 单击“**网格视图**”、“**列表视图**”或“**详细信息视图**”。在同一工具栏上，单击“**预览**”>“**查看器列表**”。
+   * 单击“**[!UICONTROL 网格视图]**”、“**[!UICONTROL 列表视图]**”或“**[!UICONTROL 详细信息视图]**”。在同一工具栏上，单击“**[!UICONTROL 预览]**”>“**[!UICONTROL 查看器列表]**”。
 
-      在“查看器列表”页面中表的“操作”列下，单击“**复制 URL**”。
+      在“查看器列表”页面中表的“操作”列下，单击“**[!UICONTROL 复制 URL]**”。
 
 ## 将图像集 URL 添加到网页 {#adding-image-set-urls-to-your-web-page}
 
 部署图像集最常见的方法是在网页上放置链接（通过导航图标）。单击该链接后，将启动一个动态页(JSP)，该页在弹出缩放窗口中显示图像集。 缩放链接会打开一个弹出窗口，其中包含实际的缩放功能。
 
-有关其他详细信息和代码示例，请参阅《Adobe查看器参考指南》](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/zoom/c-html5-20-zoom-viewer-about.html#section-e1c3106f5b3e445d9b95be337c2f94e2)中的“嵌入HTML5缩放查看器”。[
+有关更多详细信息和代码示例，请参阅《Adobe查看器参考指南》](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/zoom/c-html5-20-zoom-viewer-about.html#section-e1c3106f5b3e445d9b95be337c2f94e2)中的“嵌入HTML5缩放查看器”。[
 
 ## 复制图像集查看器的嵌入代码 {#copying-the-embed-code-of-an-image-set-viewer}
 
 使用嵌入代码功能，您可以查看用于所选图像集的查看器代码。您也可以将代码复制到剪贴板中，以便可以将其粘贴到网页中以部署查看器。不允许在“嵌入代码”对 话框中编辑代码 。
 
-**复制图像集查看器的嵌入代码**
+**复制图像集查看器的嵌入代码:**
 
-1. 在“资源浏览”面板的“显示”下拉列表中，单击“**图像集**”。
+1. 在“资源浏览”面板的“显示”下拉列表中，单击“**[!UICONTROL 图像集]**”。
 1. 在左侧的“资源库”面板中，导航至要复制其嵌入代码的图像集所在的资源文件夹。
 1. 在“资源浏览”面板上方的工具栏右侧，执行以下任一操作：
 
-   * 单击“**网格视图**”。在“资源浏览”面板中，双击单个资源以便在详细信息视图中将其打开。在右侧的“URL”面板中，单击“**嵌入代码**”。
-   * 单击“**网格视图**”。在“资源浏览”面板中，选择单个资源，然后在缩略图图像下方单击“**预览**”>“**查看器列表**”。
+   * 单击“**[!UICONTROL 网格视图]**”。在“资源浏览”面板中，双击单个资源以便在详细信息视图中将其打开。在右侧的“URL”面板中，单击“**[!UICONTROL 嵌入代码]**”。
+   * 单击“**[!UICONTROL 网格视图]**”。在“资源浏览”面板中，选择单个资源，然后在缩略图图像下方单击“**[!UICONTROL 预览]**”>“**[!UICONTROL 查看器列表]**”。
 
-      在“查看器列表”页面中表的“操作”列下，单击“**嵌入代码**”。
+      在“查看器列表”页面中表的“操作”列下，单击“**[!UICONTROL 嵌入代码]**”。
 
-   * 单击“**列表视图**”。在“资源浏览”面板中，选择单个资源，然后在缩略图图像右侧单击“**预览**”>“**查看器列表**”。
+   * 单击“**[!UICONTROL 列表视图]**”。在“资源浏览”面板中，选择单个资源，然后在缩略图图像右侧单击“**[!UICONTROL 预览]**”>“**[!UICONTROL 查看器列表]**”。
 
-      在“查看器列表”页面中表的“操作”列下，单击“**嵌入代码**”。
+      在“查看器列表”页面中表的“操作”列下，单击“**[!UICONTROL 嵌入代码]**”。
 
-   * 单击“**网格视图**”、“**列表视图**”或“**详细信息视图**”。在同一工具栏上，单击“**预览**”>“**查看器列表**”。
+   * 单击“**[!UICONTROL 网格视图]**”、“**列表视图**”或“**详细信息视图**”。在同一工具栏上，单击“**[!UICONTROL 预览]**”>“**[!UICONTROL 查看器列表]**”。
 
-      在“查看器列表”页面中表的“操作”列下，单击“**嵌入代码**”。
+      在“查看器列表”页面中表的“操作”列下，单击“**[!UICONTROL 嵌入代码]**”。
 
-1. 在“嵌入代码”对话框中，单击“**复制到剪贴板**”。
+1. 在“嵌入代码”对话框中，单击“**[!UICONTROL 复制到剪贴板]**”。
 
    在“嵌入代码”对话框中不允许编辑代码。
 
-1. 单击&#x200B;**关闭**。
+1. 单击&#x200B;**[!UICONTROL 关闭]**。
 
 >[!MORELIKETHIS]
 >
