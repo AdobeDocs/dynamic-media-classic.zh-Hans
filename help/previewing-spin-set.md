@@ -7,16 +7,16 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/spin_sets
 discoiquuid: 4b32ffff-4387-4699-9ba9-c3b23a2c3607
-feature: Dynamic Media Classic,Viewers,Spin Sets
+feature: Dynamic Media Classic，查看器，旋转集
 role: Business Practitioner
+exl-id: 6231a29e-d1b9-47d3-a23a-1940e91ebbc5
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: c4e2b8b42b56420269087d0d4f262490464270c0
 workflow-type: tm+mt
-source-wordcount: '262'
-ht-degree: 94%
+source-wordcount: '253'
+ht-degree: 81%
 
 ---
-
 
 # 预览旋转集{#previewing-a-spin-set}
 
@@ -26,19 +26,19 @@ ht-degree: 94%
 
 请参阅[预览资源](previewing-asset.md#previewing_an_asset)。
 
-**预览旋转集**
+**预览旋转集:**
 
 1. 在左侧的“资源库”面板中，在“显示”下拉列表中，选择旋转集资源类型。
 1. 在左侧的“资源库”面板中，找到要使用查看器进行预览的旋转集所在的资源文件夹。
 1. 执行以下任一操作：
 
-   * 在“资源”窗口上方，工具栏的右侧，单击“网格视图”。在“资源”窗口中的缩略图图像下，单击“预览”>“查看器列表”。
-   * 在“资源”窗口上方，工具栏的右侧，单击“列表视图”。在“资源”窗口中选择资源，然后在缩略图图像右侧，单击“预览”>“查看器列表”。
-   * 在“资源”窗口上方，工具栏的右侧，单击“详细信息视图”。在同一工具栏上，单击“预览”>“查看器列表”。
+   * 在“资源”窗口上方的工具栏右侧，单击“**[!UICONTROL 网格视图]**”。在“资产”窗口的缩略图图像下方，单击&#x200B;**[!UICONTROL 预览]** > **[!UICONTROL 查看器列表]**。
+   * 在“资源”窗口上方的工具栏右侧，单击“**[!UICONTROL 列表视图]**”。在“资源”窗口中选择资源，然后在缩略图图像右侧，单击“**[!UICONTROL 预览]**”>“**[!UICONTROL 查看器列表]**”。
+   * 在“资源”窗口上方的工具栏的右侧，单击“**[!UICONTROL 详细信息视图]**”。在同一工具栏上，单击“**[!UICONTROL 预览]**”>“**[!UICONTROL 查看器列表]**”。
 
 1. 在“查看器列表”窗口的表中，单击查看器链接以在选定的查看器中预览资源。
-1. 关闭显示的查看器以返回到“查看器列表”屏幕。
-1. 在“查看器列表”窗口的右下角，单击“关闭”以返回到“资源”屏幕。
+1. 关闭显示的查看器。
+1. 在查看器列表窗口的右下角，单击&#x200B;**[!UICONTROL 关闭]**&#x200B;以返回到“资产”屏幕。
 
 >[!MORELIKETHIS]
 >
