@@ -7,16 +7,16 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
 discoiquuid: 76e5732a-83c6-4e6b-a29f-a393b1c971aa
-feature: Dynamic Media Classic,Viewers,eCatalog
+feature: Dynamic Media Classic，查看器，电子目录
 role: Business Practitioner
+exl-id: 00b70162-2394-433d-a46c-1d90667030af
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: c4e2b8b42b56420269087d0d4f262490464270c0
 workflow-type: tm+mt
-source-wordcount: '189'
-ht-degree: 33%
+source-wordcount: '190'
+ht-degree: 26%
 
 ---
-
 
 # 发布电子目录和关联的PDF{#publishing-ecatalogs-and-associated-pdfs}
 
@@ -26,15 +26,15 @@ Publishing将您的电子目录和PDF放在Dynamic Media图像服务器上，以
 >
 >在发布电子目录和PDF之前，请确保它们位于同一文件夹中，并且在“浏览面板”或“资产详细信息”页面中标记为要发布。
 
-要将电子目录发布到Dynamic Media Image Server，请执行以下操作：
+**要发布电子目录和关联的PDF，请执行以下操作：**
 
-1. 单击全局导航栏上的&#x200B;**发布**。
-1. 在“发布”屏幕上，选择“时间”选项（“一次”或“重复”）。
-1. （可选）输入发布作业的名称，但保留时间和日期戳。
+1. 在全局导航栏上，单击“**[!UICONTROL 发布]**”。
+1. 在“发布”屏幕上，单击&#x200B;**[!UICONTROL 一次]**&#x200B;或&#x200B;**[!UICONTROL 重复]**。
+1. （可选）在“作业名称”字段中，输入发布作业的名称，但保留预定义的日期和时间文本。
 
-   如果将 eCatalog 设置为查看人员可以执行关键字搜索，应确保发布关键字数据。单击“高级”，然后单击“高级”选项。 在“发布”下拉菜单中，单击“完全包含搜索数据”。 此选项默认为已选中。
+   如果将 eCatalog 设置为查看人员可以执行关键字搜索，应确保发布关键字数据。在“发布”对话框中，单击&#x200B;**[!UICONTROL 高级]**。 从&#x200B;**[!UICONTROL 发布]**&#x200B;下拉菜单中，单击&#x200B;**[!UICONTROL 完整搜索数据]**。 此选项默认为已选中。
 
-1. 单击&#x200B;**开始发布**。
+1. 单击“****[!UICONTROL 提交发布]****”。
 
 >[!MORELIKETHIS]
 >
