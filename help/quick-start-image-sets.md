@@ -7,16 +7,16 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sets
 discoiquuid: 612a425f-2840-46c4-8e5a-c0bc5f738f4e
-feature: Dynamic Media Classic,Viewers,Image Sets
+feature: Dynamic Media Classic，查看器，图像集
 role: Business Practitioner
+exl-id: 280e7201-84d6-46b1-94bb-0499beca2992
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: c4e2b8b42b56420269087d0d4f262490464270c0
 workflow-type: tm+mt
-source-wordcount: '568'
+source-wordcount: '566'
 ht-degree: 61%
 
 ---
-
 
 # 快速入门：图像集{#quick-start-image-sets}
 
@@ -66,11 +66,11 @@ Dynamic Media经典图像集为用户提供了集成的查看体验。 在动态
 >
 >如果您在创建和保存图像集时选择了**保存后发布**（默认），则不需要执行此步骤。
 
-在浏览面板中，单击其名称左侧的“标记为发布”图标。然后，单击&#x200B;**发布**。 在“发布”屏幕上，单击&#x200B;**开始发布**。
+在浏览面板中，单击其名称左侧的“标记为发布”图标。然后，单击&#x200B;**发布**。 在“发布”屏幕上，单击&#x200B;**提交发布**。
 
 请参阅[发布](publishing-files.md#publishing-files)。
 
-**6.将图像集链接到网站**
+**6.将图像集链接到网站:**
 
 Dynamic Media Classic会为图像集创建URL调用，并在发布后将其激活。 可以从“预览”屏幕复制这些 URL。
 
