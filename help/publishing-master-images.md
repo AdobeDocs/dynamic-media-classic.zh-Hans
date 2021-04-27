@@ -7,16 +7,16 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sizing
 discoiquuid: 815e2a19-c64d-45c7-96bc-7f955e54f56e
-feature: Dynamic Media Classic,Asset Management
+feature: Dynamic Media Classic，资产管理
 role: Business Practitioner
+exl-id: b0010107-248c-4ebc-955c-7514462f351d
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: c4e2b8b42b56420269087d0d4f262490464270c0
 workflow-type: tm+mt
-source-wordcount: '176'
-ht-degree: 27%
+source-wordcount: '160'
+ht-degree: 22%
 
 ---
-
 
 # 发布主图像{#publishing-master-images}
 
@@ -24,11 +24,13 @@ ht-degree: 27%
 
 ## 将主图像标记为发布 {#marking-master-images-for-publish}
 
-必须将主控图像标记为发布，才能将其复制到Dynamic Media图像服务器。 单击“标记为发布”图标，即可在浏览面板中标记要发布的主控图像。 在将图像上传到Dynamic Media Classic时，还可以将图像标记为发布。
+必须标记主控图像以进行发布，才能将其复制到Dynamic Media Image Server。 单击&#x200B;**[!UICONTROL 标记为发布]**&#x200B;图标，可在浏览面板中将主控图像标记为发布。 在将图像上传到Dynamic Media Classic时，还可以将图像标记为发布。
 
 ## 发布主图像 {#publishing-your-master-images}
 
-要将主控图像发布到Dynamic Media图像服务器，请通过选择全局导航栏上的“发布”按钮进行开始。 然后选择一个“时间”选项（“一次”或“循环”），也可以为发布作业输入名称，然后选择“开始发布”按钮。
+1. 在全局导航栏上，单击“**[!UICONTROL 发布]**”。在“发布”对话框中，选择“时间”选项（**[!UICONTROL One-Time]**&#x200B;或&#x200B;**[!UICONTROL Recuring]**），然后选择输入发布作业的名称
+
+1. 单击“**[!UICONTROL 提交发布]**”。
 
 >[!NOTE]
 >
