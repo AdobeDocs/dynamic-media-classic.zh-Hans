@@ -7,16 +7,16 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/spin_sets
 discoiquuid: 282b8e83-b20f-43f7-b9f8-6eebd5b1c5a7
-feature: Dynamic Media Classic,Viewers,Spin Sets
+feature: Dynamic Media Classic，查看器，旋转集
 role: Business Practitioner
+exl-id: 26e3cd5b-f070-4b92-af36-25631723460e
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: c4e2b8b42b56420269087d0d4f262490464270c0
 workflow-type: tm+mt
-source-wordcount: '760'
+source-wordcount: '758'
 ht-degree: 67%
 
 ---
-
 
 # 快速入门：旋转集{#quick-start-spin-sets}
 
@@ -90,7 +90,7 @@ Last Modified Date:
 
 发布旋转集会将其放置在Dynamic Media Classic服务器上，以便将其动态交付到您的网站或应用程序。 它还会激活URL字符串，该字符串将旋转集从Dynamic Media图像服务器调用到您的网站或应用程序。
 
-要发布旋转集，请在浏览面板中选择其名称旁的&#x200B;**标记为发布图标**，将其标记为发布。 单击全局导航栏上的&#x200B;**发布**&#x200B;以启动发布。 在“发布”屏幕上，单击&#x200B;**开始发布**。
+要发布旋转集，请在浏览面板中选择其名称旁的&#x200B;**标记为发布图标**，将其标记为发布。 单击全局导航栏上的&#x200B;**发布**&#x200B;以启动发布。 在“发布”屏幕上，单击&#x200B;**提交发布**。
 
 请参阅[发布旋转集](publishing-spin-set.md#publishing-a-spin-set)。
 
