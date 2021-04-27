@@ -7,16 +7,16 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/zoom
 discoiquuid: 34a99fd0-8148-41d4-843a-909637542dd9
-feature: Dynamic Media Classic,Viewers,Zoom
+feature: Dynamic Media Classic，查看器，缩放
 role: Business Practitioner
+exl-id: 74cf0346-be79-4916-8a98-16865c3ba3de
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: c4e2b8b42b56420269087d0d4f262490464270c0
 workflow-type: tm+mt
-source-wordcount: '157'
-ht-degree: 25%
+source-wordcount: '151'
+ht-degree: 20%
 
 ---
-
 
 # 发布缩放图像{#publishing-zoom-images}
 
@@ -24,11 +24,11 @@ ht-degree: 25%
 
 ## 将图像标记为发布 {#marking-images-for-publish}
 
-必须将图像标记为发布，才能将其复制到Dynamic Media图像服务器。 通过选择&#x200B;**标记为发布**&#x200B;图标，可以在浏览面板中将图像标记为发布。 也可以在上载时将图像标记为发布。
+必须标记图像以进行发布，才能将其复制到Dynamic Media图像服务器。 通过选择&#x200B;**[!UICONTROL 标记为发布]**&#x200B;图标，可以在浏览面板中将图像标记为发布。 您还可以在上传图像时将其标记为发布。
 
 ## 发布图像 {#publishing-the-images}
 
-要发布缩放图像，请单击全局导航栏上的&#x200B;**发布**&#x200B;进行开始。 然后，选择&#x200B;**当选项（一次或循环）**，选择输入发布作业的名称，然后单击&#x200B;**开始发布**。
+要发布缩放图像，请在全局导航栏上单击&#x200B;**[!UICONTROL 发布]**，然后选择&#x200B;**[!UICONTROL 当]**&#x200B;选项（**[!UICONTROL 一次性]**&#x200B;或&#x200B;**[!UICONTROL 重复]**）。 您可以选择输入发布作业的名称。 单击“**提交发布**”。
 
 >[!MORELIKETHIS]
 >
