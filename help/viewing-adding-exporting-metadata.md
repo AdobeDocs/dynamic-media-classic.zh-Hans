@@ -7,16 +7,16 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: 5414b4f5-6e05-468c-8725-385423596342
-feature: Dynamic Media Classic,Asset Management,Metadata
+feature: Dynamic Media经典，资产管理，元数据
 role: Business Practitioner
+exl-id: 2be50cc7-9a8b-4f7b-8ebf-18a3208654f2
 translation-type: tm+mt
-source-git-commit: 3def4a02eda8dc36f2811b3d4f0e870fff1994e4
+source-git-commit: c4e2b8b42b56420269087d0d4f262490464270c0
 workflow-type: tm+mt
-source-wordcount: '2250'
+source-wordcount: '2248'
 ht-degree: 63%
 
 ---
-
 
 # 查看、添加和导出元数据{#viewing-adding-and-exporting-metadata}
 
@@ -181,7 +181,7 @@ Dynamic Media Classic优惠用于创建用于录制元数据的模板的命令�
 
 >[!NOTE]
 >
->对架构所做的更改永远不会更改资源元数据自身。但是，它们并非对所有Dynamic Media Classic和元数据服务器功能都可见，在更改后无法访问。 同样，如果资产的元数据存在，则通过创建匹配模式，可以在Dynamic Media Classic和元数据服务器中使用元数据。
+>对架构所做的更改永远不会更改资源元数据自身。但是，它们并非对所有Dynamic Media Classic和元数据服务器功能都可见，并且在更改后无法访问。 同样，如果资产的元数据存在，则通过创建匹配模式，可以在Dynamic Media Classic和元数据服务器中使用元数据。
 
 元数据模式编辑器优惠了一种在Dynamic Media Classic中添加或编辑自定义公司模式的图形方式。 架构由前缀、命名空间和一系列属性定义。
 
