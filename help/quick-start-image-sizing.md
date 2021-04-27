@@ -7,16 +7,16 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sizing
 discoiquuid: dcaa9b21-b925-4dbb-865e-7918cdbda50c
-feature: Dynamic Media Classic,Asset Management
+feature: Dynamic Media Classic，资产管理
 role: Business Practitioner
+exl-id: f1d46f03-57a1-43d8-a0ee-74b92b590736
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: c4e2b8b42b56420269087d0d4f262490464270c0
 workflow-type: tm+mt
-source-wordcount: '853'
-ht-degree: 55%
+source-wordcount: '850'
+ht-degree: 54%
 
 ---
-
 
 # 快速入门：调整图像大小{#quick-start-image-sizing}
 
@@ -63,9 +63,9 @@ ht-degree: 55%
 * 将主控图像发布到Dynamic Media图像服务器，以便将图像动态交付到您的网站和应用程序。
 * 发布时会激活URL字符串，用于将图像从Dynamic Media图像服务器调到网站或应用程序。 发布后，您可以在网站或应用程序中根据需要复制和放置Dynamic Media Classic生成的URL。
 
-选择全局导航栏上的“发布”按钮来启动发布。在“发布”屏幕上，选择“开始发布”按钮。请参阅[发布主图像](publishing-master-images.md#publishing_master_images)。
+选择全局导航栏上的“发布”按钮来启动发布。在“发布”对话框中，单击&#x200B;**[!UICONTROL 提交发布]**。 请参阅[发布主图像](publishing-master-images.md#publishing_master_images)。
 
-**5.将 URL 链接至 Web 应用程序**
+**5.将 URL 链接至 Web 应用程序:**
 
 Dynamic Media Classic为图像创建URL标注字符串。 将图像发布到Dynamic Media图像服务器时，URL变为活动状态。 可从浏览面板（在中）或“预览”屏幕复制这些 URL 字符串。在复制 URL 字符串之后，便可以在网站和应用程序中使用它们了。用于调整图像大小的 URL 将取代网页代码中对静态图像名称的引用。对于每个要显示的新图像，URL 将引用一个由数据库取代的主图像名称。
 
