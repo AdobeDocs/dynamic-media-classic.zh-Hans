@@ -9,9 +9,9 @@ feature: Dynamic Media Classic
 role: Administrator,Business Practitioner
 exl-id: 604b4630-4704-4254-84b5-91b33bb19d58
 translation-type: tm+mt
-source-git-commit: 4e79c98b92dfa4e1a9890ed8a291cdf564126466
+source-git-commit: c4e2b8b42b56420269087d0d4f262490464270c0
 workflow-type: tm+mt
-source-wordcount: '1849'
+source-wordcount: '1850'
 ht-degree: 1%
 
 ---
@@ -246,4 +246,4 @@ Unmount DMG - hdiutil detach <mount_point_path>`
 ![“刷新”](/help/assets/refresh-icon1.png)
 *图标“刷新”图标*
 
-**_我看不到批量集预设在桌面应用程序中工作。_**<br>点按**[!UICONTROL 上传>作业选项>批集预设&#x200B;]**。确保已启用相关的**[!UICONTROL 批集预设&#x200B;]**。 单击**[!UICONTROL 保存并提交上载&#x200B;]**。
+**_我看不到批集预设在桌面应用程序中工作。_**<br>点按**[!UICONTROL 上传>作业选项>批集预设&#x200B;]**。确保已启用相关的**[!UICONTROL 批集预设&#x200B;]**。 单击**[!UICONTROL 保存并提交上载&#x200B;]**。
