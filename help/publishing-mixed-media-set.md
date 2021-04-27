@@ -11,16 +11,16 @@ feature: Dynamic Media Classic，查看器，混合媒体集
 role: Business Practitioner
 exl-id: 1fca9640-d127-454a-b3aa-b2ac82136e62
 translation-type: tm+mt
-source-git-commit: 7456226cf6469f40e66ff327475d4c605b6d6e13
+source-git-commit: c4e2b8b42b56420269087d0d4f262490464270c0
 workflow-type: tm+mt
 source-wordcount: '258'
-ht-degree: 63%
+ht-degree: 55%
 
 ---
 
 # 发布混合媒体集{#publishing-a-mixed-media-set}
 
-创建发布作业，以发布您标记为要发布到Dynamic Media Classic Video Server和图像服务器的混合媒体集。 Dynamic Media Classic优惠了高级发布选项，用于发布到特定服务器以及用于重新发布已发布的资产的选项。
+创建发布作业以发布已标记为要发布到Dynamic Media Classic Video Server和Image Server的混合媒体集。 Dynamic Media Classic优惠了高级发布选项，用于发布到特定服务器以及用于重新发布已发布的资产的选项。
 
 >[!NOTE]
 >
@@ -40,7 +40,7 @@ Last Modified Date:
 
  -->
 
-**发布混合媒体集**
+**发布混合媒体集:**
 
 1. 执行以下任一操作：
 
@@ -52,12 +52,12 @@ Last Modified Date:
 1. （可选）在“**[!UICONTROL 作业名称]**”字段中，输入发布作业的名称。
 1. 在“**[!UICONTROL 高级]**”选项的“**[!UICONTROL 发布至]**”下拉列表中，选择“**[!UICONTROL 视频服务器]**”。
 
-   有关您可以设置的其他选项，请参阅[高级发布选项](publishing-files.md#advanced_publish_options)。
+   有关可设置的更多选项，请参阅[高级发布选项](publishing-files.md#advanced_publish_options)。
 
 1. 单击“**[!UICONTROL 提交发布]**”。
 1. 重复上述步骤 2 到步骤 4。
 1. 在“**[!UICONTROL 高级]**”的“**[!UICONTROL 发布至]**”下拉列表中，选择“**[!UICONTROL 图像服务器]**”。
 
-   有关您可以设置的其他选项，请参阅[高级发布选项](publishing-files.md#advanced_publish_options)。
+   有关可设置的更多选项，请参阅[高级发布选项](publishing-files.md#advanced_publish_options)。
 
 1. 单击“**[!UICONTROL 提交发布]**”。
