@@ -7,16 +7,16 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/zoom
 discoiquuid: b072d3b7-0d30-4903-9c87-5fbbcc89bd51
-feature: Dynamic Media Classic,Viewers,Zoom
+feature: Dynamic Media Classic，查看器，缩放
 role: Business Practitioner
+exl-id: bc83a94d-540a-46ad-aae0-e4a32ee9a302
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: c4e2b8b42b56420269087d0d4f262490464270c0
 workflow-type: tm+mt
-source-wordcount: '254'
-ht-degree: 87%
+source-wordcount: '245'
+ht-degree: 74%
 
 ---
-
 
 # 使用不同的缩放查看器预览图像资源{#previewing-image-assets-with-different-zoom-viewers}
 
@@ -26,19 +26,19 @@ ht-degree: 87%
 
 请参阅[预览资源](previewing-asset.md#previewing_an_asset)。
 
-**使用不同缩放查看器预览图像资源**
+**使用不同缩放查看器预览图像资源:**
 
 1. 在左侧“资源库”面板的“显示”下拉列表中，选择基于图像的资源类型（如图像或图像集）。
 1. 在左侧“资源库”面板中，定位到包含要使用缩放查看器预览的图像的资源文件夹。
 1. 执行以下任一操作：
 
-   * 在“资源”窗口上方，工具栏的右侧，单击“网格视图”。在“资源”窗口中的缩略图图像下，单击“预览”>“查看器列表”。
-   * 在“资源”窗口上方，工具栏的右侧，单击“列表视图”。在“资源”窗口中选择资源，然后在缩略图图像右侧，单击“预览”>“查看器列表”。
-   * 在“资源”窗口上方，工具栏的右侧，单击“详细信息视图”。在同一工具栏上，单击“预览”>“查看器列表”。
+   * 在“资源”窗口上方的工具栏右侧，单击“**[!UICONTROL 网格视图]**”。在“资产”窗口的缩略图图像下方，单击&#x200B;**[!UICONTROL 预览]** > **[!UICONTROL 查看器列表]**。
+   * 在“资源”窗口上方的工具栏右侧，单击“**[!UICONTROL 列表视图]**”。在“资源”窗口中选择资源，然后在缩略图图像右侧，单击“**[!UICONTROL 预览]**”>“**[!UICONTROL 查看器列表]**”。
+   * 在“资源”窗口上方的工具栏的右侧，单击“**[!UICONTROL 详细信息视图]**”。在同一工具栏上，单击“**[!UICONTROL 预览]**”>“**[!UICONTROL 查看器列表]**”。
 
 1. 在“查看器列表”窗口的表中，单击查看器链接以在选定的查看器中预览资源。
-1. 关闭显示的查看器以返回到“查看器列表”屏幕。
-1. 在“查看器列表”窗口的右下角，单击“关闭”以返回到“资源”屏幕。
+1. 关闭显示的查看器。
+1. 在查看器列表窗口的右下角，单击&#x200B;**[!UICONTROL 关闭]**&#x200B;以返回到“资产”屏幕。
 
 >[!MORELIKETHIS]
 >
