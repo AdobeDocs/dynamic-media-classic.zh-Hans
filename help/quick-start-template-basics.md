@@ -9,14 +9,14 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/template_basics
 discoiquuid: dd0fbb39-3f6a-496b-a9b6-63b11dcb823a
 feature: Dynamic Media Classic
 role: Business Practitioner
+exl-id: bf695fee-821c-4396-829a-d57ccf475b0c
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: c4e2b8b42b56420269087d0d4f262490464270c0
 workflow-type: tm+mt
-source-wordcount: '789'
-ht-degree: 71%
+source-wordcount: '785'
+ht-degree: 70%
 
 ---
-
 
 # Quick Start: Template Basics{#quick-start-template-basics}
 
@@ -64,7 +64,7 @@ ht-degree: 71%
 
 请确保发布与模板相关的所有图像。
 
-要发布模板，请将其标记为发布，然后在全局导航栏上选择“发布”按钮。然后选择“开始发布”按钮。请参阅[发布模板](publishing-templates.md#publishing_templates)。
+要发布模板，请将其标记为发布，然后在全局导航栏上选择“发布”按钮。然后单击&#x200B;**[!UICONTROL 提交发布]**。 请参阅[发布模板](publishing-templates.md#publishing_templates)。
 
 **5.将模板链接至网页**
 
