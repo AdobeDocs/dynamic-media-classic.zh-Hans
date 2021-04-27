@@ -7,16 +7,16 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/spin_sets
 discoiquuid: 38efb70d-e17e-4cef-8af1-be748f66f3ea
-feature: Dynamic Media Classic,Viewers,Spin Sets
+feature: Dynamic Media Classic，查看器，旋转集
 role: Business Practitioner
+exl-id: b085f7ea-4623-402e-97f5-ed8ad5f368c7
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: c4e2b8b42b56420269087d0d4f262490464270c0
 workflow-type: tm+mt
-source-wordcount: '182'
-ht-degree: 44%
+source-wordcount: '176'
+ht-degree: 22%
 
 ---
-
 
 # 发布旋转集{#publishing-a-spin-set}
 
@@ -24,11 +24,11 @@ ht-degree: 44%
 
 ## 将旋转集标记为发布 {#marking-a-spin-set-for-publish}
 
-标记要发布的旋转集，以便将其复制到Dynamic Media经典图像服务器。 可在浏览面板中将您的旋转集标记为发布，方法是选择旋转集名称左侧的“标记为发布”图标 。如果将旋转集本身标记为发布，则旋转集中的所有图像均被标记为发布。
+标记要发布的旋转集，以便将其复制到Dynamic Media经典图像服务器。 单击其名称左侧的&#x200B;**[!UICONTROL 标记为发布]**&#x200B;图标，即可在浏览面板中将旋转集标记为发布。 如果将旋转集本身标记为发布，则旋转集中的所有图像均被标记为发布。
 
 ## 发布旋转集 {#publishing-the-spin-set}
 
-要将旋转集发布到Dynamic Media图像服务器，请通过选择全局导航栏上的“发布”按钮进行开始。 然后选择一个“时间”选项，也可以为发布作业输入名称，然后选择“开始发布”按钮。
+要将旋转集发布到Dynamic Media图像服务器，请在全局导航栏上单击&#x200B;**[!UICONTROL 发布]**。 然后选择&#x200B;**[!UICONTROL 当]**&#x200B;选项。 您可以选择输入发布作业的名称。 单击“**[!UICONTROL 提交发布]**”。
 
 >[!MORELIKETHIS]
 >
