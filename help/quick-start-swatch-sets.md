@@ -7,16 +7,16 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/swatch_sets
 discoiquuid: 1ea70fdf-3cbd-409c-ae7d-06286c99c6ac
-feature: Dynamic Media Classic,Viewers
+feature: Dynamic Media Classic，查看器
 role: Business Practitioner
+exl-id: b0c345dc-539f-4b03-a873-091681e2f2c2
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: c4e2b8b42b56420269087d0d4f262490464270c0
 workflow-type: tm+mt
-source-wordcount: '391'
+source-wordcount: '389'
 ht-degree: 62%
 
 ---
-
 
 # 快速入门：样本集{#quick-start-swatch-sets}
 
@@ -52,7 +52,7 @@ Dynamic Media经典色板集为用户提供集成的查看体验。 在动态的
 
 发布样本集会将其放置在Dynamic Media Classic服务器上，并激活URL字符串。
 
-在浏览面板中，单击其名称左侧的&#x200B;**标记为发布**&#x200B;图标。然后，单击&#x200B;**发布**。 在“发布”屏幕上，单击&#x200B;**开始发布**。
+在浏览面板中，单击其名称左侧的&#x200B;**标记为发布**&#x200B;图标。然后，单击&#x200B;**发布**。 在“发布”屏幕上，单击&#x200B;**提交发布**。
 
 请参阅[发布](publishing-files.md#publishing-files)。
 
