@@ -7,16 +7,16 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/zoom
 discoiquuid: 559c986d-313d-46df-a5ff-0b49316ad3a7
-feature: Dynamic Media Classic,Viewers,Zoom
+feature: Dynamic Media Classic，查看器，缩放
 role: Business Practitioner
+exl-id: eae35207-000c-4ced-b9ab-714c2384a9e7
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: c4e2b8b42b56420269087d0d4f262490464270c0
 workflow-type: tm+mt
-source-wordcount: '844'
-ht-degree: 64%
+source-wordcount: '835'
+ht-degree: 63%
 
 ---
-
 
 # 快速入门：缩放{#quick-start-zoom}
 
@@ -62,7 +62,7 @@ Dynamic Media经典优惠缩放查看器预设选项允许您选择查看器的�
 
 发布缩放图像后，这些图像会放置在Dynamic Media图像服务器上，以便能够将它们交付到您的网站和应用程序。 在发布过程中，Dynamic Media Classic会激活URL字符串。 这些URL字符串将缩放图像从Dynamic Media图像服务器调用到您的网站或应用程序。
 
-选择全局导航栏上的“发布”按钮来启动发布。在“发布”屏幕上，选择“开始发布”按钮。请参阅[发布缩放图像](publishing-zoom-images.md#publishing_zoom_images)。
+在全局导航栏上，单击“**[!UICONTROL 发布]**”。在“发布”对话框中，单击“提交发布”。 请参阅[发布缩放图像](publishing-zoom-images.md#publishing_zoom_images)。
 
 **6.将缩放查看器链接到网页**
 
