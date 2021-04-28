@@ -11,9 +11,9 @@ feature: Dynamic Media Classic，查看器，电子目录
 role: Business Practitioner
 exl-id: 9e2df814-465d-412a-a032-ef3e8cb462ba
 translation-type: tm+mt
-source-git-commit: c4e2b8b42b56420269087d0d4f262490464270c0
+source-git-commit: c5c8c4f96f18339734f4441733cdb1e7f34d3071
 workflow-type: tm+mt
-source-wordcount: '1429'
+source-wordcount: '1427'
 ht-degree: 51%
 
 ---
@@ -50,11 +50,9 @@ eCatalog 是数字网络版本的印刷材料，例如目录、小册子、传�
 >
 >您现在可以在Dynamic Media Classic中创作eCatalog。
 
-## 快速开始
-
 本 eCatalog 快速入门旨在帮助您快速学会如何使用 eCatalog。按照步骤 1 到 7 操作。每个步骤的后面都有一个交叉引用，可以跳转到相应的主题标题，供您了解更多信息。
 
-### 1.上传PDF文件
+## 1.上传PDF文件
 
 eCatalog 通常由 Adobe PDF 文件生成。由于 PDF 文件要用于印刷，因此通常包含 CMYK 图像。Dynamic Media Classic会检测这些图像，并使用标准CMYK颜色用户档案转换它们。 但是，您必须上传并使用自定义颜色用户档案。
 
@@ -64,7 +62,7 @@ eCatalog 通常由 Adobe PDF 文件生成。由于 PDF 文件要用于印刷，�
 
 请参阅[上载 PDF 文件](uploading-pdf-files.md#uploading_the_pdf_files)。
 
-### 2.创建电子目录
+## 2.创建电子目录
 
 通过在浏览面板中选择PDF或图像文件来创建电子目录。 单击&#x200B;**[!UICONTROL 构建]**，然后选择&#x200B;**[!UICONTROL eCatalogs]**。
 
@@ -76,7 +74,7 @@ eCatalog 通常由 Adobe PDF 文件生成。由于 PDF 文件要用于印刷，�
 
 请参阅[创建 eCatalog](creating-ecatalog.md)。
 
-### 3.创建图像映射
+## 3.创建图像映射
 
 图像映射向eCatalog页面添加了另一个方面。 图像映射是页面上的一个区域，可提供关于某个物品的更多信息。当观众在“图像映射”上滚动鼠标指针时，他们会看到物品的说明。单击“图像映射”会激活一个外部引用，该引用打开一个新的网页，您可以从中了解关于某个物品的更多信息。
 
@@ -92,7 +90,7 @@ eCatalog 通常由 Adobe PDF 文件生成。由于 PDF 文件要用于印刷，�
 
 请参阅[管理信息面板内容](info-panel-content.md#managing-info-panel-content)。
 
-### 4.设置电子目录查看器预设
+## 4.设置电子目录查看器预设
 
 最终用户在“eCatalog 查看器中”看到您的 eCatalog。如果您是管理员，还可以配置 eCatalog 查看器。可以更改其轮廓颜色，并选择新的“外观”来确立 eCatalog 品牌。Dynamic Media Classic附带了多种“最佳实践” eCatalog查看器预设。 可以选择这些预设中的一个预设来显示 eCatalog。如果您是管理员，还可以创建自己的 eCatalog 查看器预设。
 
@@ -100,7 +98,7 @@ eCatalog 通常由 Adobe PDF 文件生成。由于 PDF 文件要用于印刷，�
 
 请参阅[设置 eCatalog 查看器预设](setting-ecatalog-viewer-presets.md#setting-up-ecatalog-viewer-presets)。
 
-### 5.在eCatalog Viewer中预览eCatalog
+## 5.在eCatalog Viewer中预览eCatalog
 
 eCatalog 查看器预设决定了 eCatalog 查看器的样式和行为。
 
@@ -110,7 +108,7 @@ eCatalog 查看器预设决定了 eCatalog 查看器的样式和行为。
 
 请参阅[在 eCatalog 查看器中预览 eCatalog](previewing-ecatalogs-ecatalog-viewer.md#previewing-ecatalogs-in-the-ecatalog-viewer)。
 
-### 6.发布电子目录和关联的PDF
+## 6.发布电子目录和关联的PDF
 
 发布电子目录和关联的PDF会将其放在Dynamic Media图像服务器上，以便能够将其交付到您的网站和应用程序。 在发布过程中，Dynamic Media Classic会激活您的eCatalog的URL字符串。 使用此URL将eCatalog从Dynamic Media Image Servers调用到您的网站或应用程序。
 
@@ -118,7 +116,7 @@ eCatalog 查看器预设决定了 eCatalog 查看器的样式和行为。
 
 请参阅[发布eCatalog和关联的PDF](publishing-ecatalogs-associated-pdfs.md#publishing-ecatalogs-and-associated-pdfs)。
 
-### 7.将电子目录链接到网页
+## 7.将电子目录链接到网页
 
 Dynamic Media Classic在将eCatalog发布到Dynamic Media Image Server时，将激活显示该eCatalog所需的URL标注字符串。 可以在“预览”屏幕和浏览面板（在详细信息视图中）上选择 URL 来复制该 URL 字符串。复制 URL 字符串之后，该 URL 便可用于您的网站和应用程序。
 
