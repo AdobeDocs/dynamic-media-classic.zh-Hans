@@ -11,10 +11,10 @@ feature: Dynamic Media Classic，查看器，图像集
 role: Business Practitioner
 exl-id: 280e7201-84d6-46b1-94bb-0499beca2992
 translation-type: tm+mt
-source-git-commit: c4e2b8b42b56420269087d0d4f262490464270c0
+source-git-commit: c5c8c4f96f18339734f4441733cdb1e7f34d3071
 workflow-type: tm+mt
-source-wordcount: '566'
-ht-degree: 61%
+source-wordcount: '553'
+ht-degree: 41%
 
 ---
 
@@ -26,25 +26,25 @@ Dynamic Media经典图像集为用户提供了集成的查看体验。 在动态
 
 此图像集快速开始旨在借助Dynamic Media Classic中的图像集技术快速入门和使用。
 
-**1. 为多个视图和样本上载主图像**
+## 1.上传适用于多个视图和色板的主控图像
 
-首先要向图像集上载图像。因为用户可以在图像集查看器中缩放图像，所以在选择图像时应考虑到缩放。确保图像的最大尺寸至少为2000像素。Dynamic Media Classic支持许多图像文件格式，但建议使用无损的TIFF、PNG和EPS图像。
+首先要向图像集上载图像。由于用户可以在图像集查看器中缩放图像，因此在选择图像时，请务必考虑此功能。 确保图像的最大大小至少为2000像素。 Dynamic Media Classic支持许多图像文件格式，但建议使用无损的TIFF、PNG和EPS图像。
 
-选择全局导航栏上的“上传”按钮，将文件从计算机上传到Dynamic Media Classic上的文件夹。
+在全局导航栏上，单击&#x200B;**[!UICONTROL 上传]**，将文件从计算机上传到Dynamic Media Classic上的文件夹。
 
 请参阅[准备要上载的图像集资源](preparing-image-set-assets-upload.md#preparing-image-set-assets-for-upload)和[上载文件](uploading-files.md#uploading-your-files)。
 
-**2.创建图像集**
+## 2.创建图像集
 
 在图像集中，用户单击图像集查看器中的缩略图图像便可看到另一侧或另一角度的图像。
 
-要创建图像集，请单击“构建”按钮并选择“图像集”。然后，在“图像集”屏幕上，将图像拖动到屏幕上以组成图像集。根据需要组织、添加和删除图像。
+要创建图像集，请在全局导航栏上单击&#x200B;**[!UICONTROL 构建]**，然后选择&#x200B;**[!UICONTROL 图像集]**。 在“图像集”窗口中，将图像拖到页面上以合成图像集。 根据需要组织、添加和删除图像。
 
 请参阅[创建图像集](creating-image-set.md#creating-an-image-set)。
 
 另请参阅[在图像集中加入缩放目标和图像映射](including-zoom-targets-image-maps.md#including-zoom-targets-and-image-maps-in-image-sets)
 
-**3.根据需要设置图像集查看器预设**
+## 3.根据需要设置图像集查看器预设
 
 管理员可以创建或修改图像集查看器预设。Dynamic Media Classic随附每种富媒体类型的默认查看器预设。 使用“缩放查看器: 自定义”>“图像”，或者“图像集/多个视图”预设即可查看您的图像集。
 
@@ -52,28 +52,28 @@ Dynamic Media经典图像集为用户提供了集成的查看体验。 在动态
 
 请参阅[创建和编辑查看器预设](application-setup.md#adding-and-editing-viewer-presets)。
 
-**4.预览图像集**
+## 4.预览图像集
 
-在浏览面板中选择图像集，然后单击“预览”。您的图像集便会出现在“预览”屏幕中。单击缩略图图标以在选定的查看器中检查图像集。可以从“预设”菜单中选择不同的查看器。
+在浏览面板中选择图像集，然后单击&#x200B;**[!UICONTROL 预览]**。 在预览页中，单击缩略图图标以在选定的查看器中检查图像集。 可以从“预设”菜单中选择不同的查看器。
 
 请参阅[预览资源](previewing-asset.md#previewing-an-asset)。
 
-**5.发布图像集**
+## 5.发布图像集
 
 发布图像集会将图像集放置在Dynamic Media Classic服务器上，并激活URL字符串。
 
 >[!NOTE]
 >
->如果您在创建和保存图像集时选择了**保存后发布**（默认），则不需要执行此步骤。
+>如果在创建并保存图像集时选择了“**[!UICONTROL 保存后发布]**”（默认），则不需要执行此步骤。
 
-在浏览面板中，单击其名称左侧的“标记为发布”图标。然后，单击&#x200B;**发布**。 在“发布”屏幕上，单击&#x200B;**提交发布**。
+在浏览面板中，单击其名称左侧的&#x200B;**[!UICONTROL 标记为发布]**&#x200B;图标。 然后，单击&#x200B;**[!UICONTROL 发布]**。 在“发布”页面上，单击&#x200B;**[!UICONTROL 提交发布]**。
 
 请参阅[发布](publishing-files.md#publishing-files)。
 
-**6.将图像集链接到网站:**
+## 6.将图像集关联到您的网站
 
 Dynamic Media Classic会为图像集创建URL调用，并在发布后将其激活。 可以从“预览”屏幕复制这些 URL。
 
-选择图像集，然后单击“预览”按钮。“预览”屏幕随即打开。选择图像集查看器预设，然后单击&#x200B;**复制URL**。
+选择图像集，然后单击&#x200B;**[!UICONTROL 预览]**。 现在，选择一个图像集查看器预设，然后单击&#x200B;**[!UICONTROL 复制URL]**。
 
 请参阅[将图像集链接到网页](linking-image-set-web-page.md#linking-an-image-set-to-a-web-page)。
