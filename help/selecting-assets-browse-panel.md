@@ -7,29 +7,25 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: 8e6ce2bf-c99b-4106-942a-1716f152c7b2
-feature: Dynamic Media Classic,Asset Management
+feature: Dynamic Media Classic，资产管理
 role: Business Practitioner
+exl-id: eb8afc39-7784-4e32-80b6-2b87f3e0acff
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 6f3801a71dd2a5f162acacf7d8199dbf8c3520f7
 workflow-type: tm+mt
 source-wordcount: '106'
-ht-degree: 29%
+ht-degree: 18%
 
 ---
 
-
 # 在浏览面板{#selecting-assets-in-the-browse-panel}中选择资源
 
-在浏览面板中选择要使用的资源。请使用以下方法来选择资源：
+在浏览面板中选择一个资源，以便您能够使用它。 请使用以下方法来选择资源：
 
-* **单个资**
-产单击资产(按住多次单击可在详细信息视图中打开资产)。
+* **单个资产**  — 单击资产(按住多次单击，在详细信息视图中打开资产)。
 
-* **多个**
-资源按住Ctrl键并单击(Windows)或按住Command键并单击(Macintosh)资源，以在浏览面板上的不同位置选择资源。按住 Shift 键单击资源（单击一个资源，然后按住 Shift 键再单击另一个资源）可选择邻近的资源。
+* **多个资源**  — 按住Ctrl键(Windows®)或Command键(Macintosh)并单击资源，以在浏览面板上的不同位置选择资源。按住 Shift 键单击资源（单击一个资源，然后按住 Shift 键再单击另一个资源）可选择邻近的资源。
 
-* **浏览面板中的所有资**
-源单击选择>全部。
+* **浏览面板中的所有资源**  — 单击 **[!UICONTROL 选择]** > **[!UICONTROL 全部]**。
 
-* **无资**
-产单击选择>无。
+* **无资产**  — 单击 **[!UICONTROL 选择]** > **[!UICONTROL 无]**。
