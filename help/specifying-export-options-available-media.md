@@ -1,21 +1,21 @@
 ---
-title: 指定Media Portal用户可用的导出选项
+title: 指定 Media Portal 用户可以使用的导出选项
 description: 了解如何指定Media Portal用户可用的导出选项。
 uuid: 5258b8a4-0704-43cd-97d1-c9af2e4e298b
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: 9bfd95da-3714-4e38-98af-331a04c685f5
-feature: Dynamic Media Classic,Collaboration,Asset Management
+feature: Dynamic Media Classic，协作，资产管理
 role: Administrator,Business Practitioner
+exl-id: c27df6c2-76f4-441c-bd26-cee98203291e
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 1beb30b9eda4487dcd549034906079dee0b3149a
 workflow-type: tm+mt
-source-wordcount: '377'
-ht-degree: 81%
+source-wordcount: '380'
+ht-degree: 71%
 
 ---
-
 
 # 指定 Media Portal 用户可以使用的导出选项 {#specifying-export-options-available-to-media-portal-users}
 
@@ -28,20 +28,18 @@ ht-degree: 81%
 
 另请参阅[从Dynamic Media Classic](exporting-assets-from-dmc.md#exporting-assets-from_dmc)导出资源。
 
-**指定 Media Portal 用户可以使用的导出选项**
+**指定 Media Portal 用户可以使用的导出选项:**
 
-1. 单击“**设置**”>“**图像预设**”。
+1. 在全局导航栏上，单击&#x200B;**[!UICONTROL 设置]** > **[!UICONTROL 图像预设]**。
 1. 在“图像预设”窗口中，选择下列任一选项：
 
-   * **启用用户定义的**
-转换选中此选项后，用户可从“导出选定的资产”窗口的“大小”下拉列表中选择其他转换。然后用户可以选择度量单位（如像素或厘米），并指定所需的宽度和高度。当他们导出或下载这些文件时，图像文件将重新格式化。
+   * **启用用户定义的转换**  — 选中此选项后，用户可以从“导出选定的资 **** 产”窗口的缩放列表中选择其他转换。然后用户可以选择度量单位（如像素或厘米），并指定所需的宽度和高度。当他们导出或下载这些文件时，图像文件将重新格式化。
 
-      从“**大小**”下拉列表中选择“**像素**”时，生成的图像宽度 x 高度不得超过 1 亿像素。此大小相当于正方形图像的 10,000 x 10,000 像素，或大约为 2x3 宽高比图像的 8,000 x 12,000 像素。如果导出原始主图像，则不会应用此大小限制。
+      从“**[!UICONTROL 大小]**”下拉列表中选择“**[!UICONTROL 像素]**”时，生成的图像宽度 x 高度不得超过 1 亿像素。此大小相当于正方形图像的 10,000 x 10,000 像素，或大约为 2x3 宽高比图像的 8,000 x 12,000 像素。如果导出原始主图像，则不会应用此大小限制。
 
       如果您希望用户下载文件，而不在下载时重设文件的格式，请取消选择该选项。
 
-   * **启用导出原**
-稿允许您导出原始主控图像。在“导出所选资源”面板中，用户可以打开“转换”下拉菜单，并选择“导出原始”以导出原始文件。如果您要在用户导出图像时强制他们选择“图像预设”或转换选项，请取消选择该选项。
+   * **启用导出原稿**  — 允许您导出原始主控图像。在&#x200B;**[!UICONTROL “导出所选资源]**”面板中，用户可以打开&#x200B;**[!UICONTROL 转换]**&#x200B;下拉菜单并选择&#x200B;**[!UICONTROL 导出原稿]**&#x200B;以导出原始文件。 如果要强制用户在导出图像时选择图像预设或选择转换选项，请取消选择此选项。
 
 >[!MORELIKETHIS]
 >
