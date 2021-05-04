@@ -7,14 +7,14 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/getting_started
 feature: Dynamic Media Classic
 role: Administrator,Business Practitioner
+exl-id: 8d70db72-b02b-4915-b4c3-6efb146b7f08
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 1beb30b9eda4487dcd549034906079dee0b3149a
 workflow-type: tm+mt
-source-wordcount: '231'
-ht-degree: 6%
+source-wordcount: '228'
+ht-degree: 7%
 
 ---
-
 
 <!-- UPDATE THIS TOPIC AFTER DECEMBER 31, 2020!!!!! -->
 
@@ -22,11 +22,9 @@ ht-degree: 6%
 
 在使用Dynamic Media Classic桌面应用程序之前，请确保您具有以下各项：
 
-* **用**
-户名您使用电子邮件地址作为登录名。
+* **用户名**  — 您使用您的电子邮件地址作为登录名。
 
-* **口**
-令您可以从Dynamic Media Classic或Dynamic Media Classic管理员的“欢迎”电子邮件中获得临时口令。您第一次登录时，会提示您更改此临时密码。
+* **密码**  — 您可以从Dynamic Media Classic或Dynamic Media Classic管理员的“欢迎”电子邮件中获取临时密码。您第一次登录时，会提示您更改此临时密码。
 
 1. 打开Adobe Dynamic Media Classic桌面应用程序。
 
