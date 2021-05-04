@@ -1,6 +1,6 @@
 ---
-title: Adobe Dynamic Media Classic平台概述
-description: Dynamic Media Classic平台和工作流程的概述。
+title: Adobe Dynamic Media Classic项目概述
+description: Dynamic Media Classic项目和工作流程概述。
 uuid: e7d3bfb3-1cfe-43ea-b862-aae3b3928c71
 contentOwner: admin
 content-type: reference
@@ -11,14 +11,14 @@ feature: Dynamic Media Classic
 role: Administrator,Business Practitioner
 exl-id: ac50cb9c-fd87-4608-80cb-8d40a0b8f131
 translation-type: tm+mt
-source-git-commit: 4e79c98b92dfa4e1a9890ed8a291cdf564126466
+source-git-commit: 1beb30b9eda4487dcd549034906079dee0b3149a
 workflow-type: tm+mt
 source-wordcount: '436'
 ht-degree: 31%
 
 ---
 
-# Adobe Dynamic Media Classic平台概述{#adobe-scene-platform-overview}
+# Adobe Dynamic Media Classic项目概述{#adobe-scene-platform-overview}
 
 Dynamic Media Classic是一个集成的富媒体管理、发布和服务环境。 富媒体可以传送给所有营销和销售渠道，包括网站，印刷材料、电子邮件营销活动、门户网站、桌面以及设备。
 
