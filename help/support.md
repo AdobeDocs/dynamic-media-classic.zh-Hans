@@ -9,10 +9,10 @@ feature: Dynamic Media Classic
 role: Administrator,Business Practitioner
 exl-id: 708f32f1-fdbb-4a32-a1b7-836c99b458be
 translation-type: tm+mt
-source-git-commit: ed39a8f7febe194a70fb00acbb9d346f6e9a57ca
+source-git-commit: 1beb30b9eda4487dcd549034906079dee0b3149a
 workflow-type: tm+mt
-source-wordcount: '189'
-ht-degree: 28%
+source-wordcount: '186'
+ht-degree: 25%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 28%
 | 社区论坛 | [Experience Manager社区论坛](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/ct-p/adobe-experience-manager-community)。 |
 | SLA（服务级别协议） | [支持服务/条款和条件](https://helpx.adobe.com/support/programs/support-policies-terms-conditions.html)。 |
 | 支持的用户 | 每个组织最多可指定10个用户为受支持用户，他们可以通过客户关怀打开案例。 |
-| 免费实时在线培训和视频教程 | 包含。 |
+| 免费的实时Web培训和说明视频 | 包含. |
 | 电话支持 | <ul><li>美国和加拿大：1-800-497-0335 </li><li>[其他地区的电话号码](https://helpx.adobe.com/contact/dma-external/DMACustomeCareRegionalPhoneNumbers.html)。</li></ul> |
 
 <!-- |Create a support case| [https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) | -->
