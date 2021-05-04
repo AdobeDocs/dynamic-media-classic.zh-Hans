@@ -9,7 +9,7 @@ feature: Dynamic Media Classic，查看器，视频
 role: Business Practitioner
 exl-id: 1157400c-b33a-422e-848c-258660ddc748
 translation-type: tm+mt
-source-git-commit: c5c8c4f96f18339734f4441733cdb1e7f34d3071
+source-git-commit: 1beb30b9eda4487dcd549034906079dee0b3149a
 workflow-type: tm+mt
 source-wordcount: '1425'
 ht-degree: 43%
@@ -40,7 +40,9 @@ Adobe Dynamic Media Classic Video是一个端到端解决方案，它使发布�
 
    当生成自适应视频集时，它包括MP4视频。
 
-   `**Note:**` 主控/源视频和任何其他源格式的视频不 ** 会添加到自适应视频集。
+   >[!NOTE]
+   >
+   >主控/源视频和任何其他源格式视频均&#x200B;*不*&#x200B;添加到自适应视频集。
 
 * 在Univeral_HTML5_Video、Universal_HTML5_MixedMedia_dark和Universal_HTML5_Video、Universal_HTML5_MixedMedia_dark和Universal_HTML5_MixedMedia_dark中显示视频字幕轻量级查看器。
 
