@@ -11,20 +11,20 @@ feature: Dynamic Media Classic，资产管理
 role: Business Practitioner
 exl-id: fd78d535-391e-43eb-a8aa-25fa6c2885cb
 translation-type: tm+mt
-source-git-commit: 7456226cf6469f40e66ff327475d4c605b6d6e13
+source-git-commit: 1beb30b9eda4487dcd549034906079dee0b3149a
 workflow-type: tm+mt
-source-wordcount: '1100'
-ht-degree: 55%
+source-wordcount: '1027'
+ht-degree: 37%
 
 ---
 
 # 公开资源前测试资源 {#testing-assets-before-making-them-public}
 
-安全测试可根据一组可配置的 IP 地址和范围来帮助您定义安全的测试环境并构建可靠的 B2B 解决方案。利用此功能，您可以将Dynamic Media Classic部署与内容管理和商务平台的架构相匹配。
+“安全测试”可帮助您定义安全测试环境，并基于一组可配置的IP地址和范围构建强大的B2B解决方案。 利用此功能，您可以将Dynamic Media Classic部署与内容管理和业务系统的架构相匹配。
 
 通过安全测试，可以预览包含未发布内容的临时版网站。
 
-基于下列原因，您可能希望创建临时环境，而不是公开资源：
+如果需要，请创建暂存环境，而不是出于以下原因公开提供资产：
 
 * 在公开发布之前预览网站（临时网站）。
 * 提供要求限制访问的资源，如在 B2B Web 应用程序中显示价格的 eCatalog。
@@ -42,13 +42,13 @@ ht-degree: 55%
 
 通过安全测试，Dynamic Media Classic为登台环境或内部应用程序建立了专用的图像服务器。 对此服务器的所有请求都将检查原始 IP 地址。如果传入请求不在获批准的 IP 地址列表中，则返回失败响应。Dynamic Media Classic公司管理员为公司的安全测试环境配置IP地址的已批准列表。
 
-由于必须确认原始请求的位置，因此安全测试服务的流量不会通过内容分发网络(如公共Dynamic Media Image Server流量)路由。 与公共Dynamic Media映像服务器相比，请求安全测试服务的延迟可能稍高一些。
+由于必须确认原始请求的位置，因此安全测试服务的流量不会通过内容分发网络(如公共Dynamic Media Image Server流量)路由。 与公共Dynamic Media映像服务器相比，发送到安全测试服务的请求的延迟稍高一些。
 
-通过安全测试服务，可以立即使用未发布的资源，无需发布。这使您可以在将资源发布到面向公众的图像服务器之前运行预览。
+通过安全测试服务，可以立即使用未发布的资源，无需发布。这样，您就可以在资产发布到面向公共的图像服务器之前运行预览。
 
 >[!NOTE]
 >
->安全测试服务使用以内部发布上下文配置的目录服务器。因此，如果您的公司配置为发布到安全测试，请注意，Dynamic Media Classic中的所有上传资产都会立即在安全测试服务上可用。 无论资源是否在上载时标记为发布，此功能都有效。
+>安全测试服务使用配置了内部发布上下文的目录服务器。 因此，如果您的公司配置为发布到安全测试，则Dynamic Media Classic中所有上传的资产都会立即在安全测试服务上可用。 无论资产是否标记为在上传时发布，此功能均为true。
 
 安全测试服务当前支持以下资产类型和功能：
 
@@ -81,12 +81,13 @@ Last Modified Date:
 
 ## 测试安全测试服务 {#testing-the-secure-testing-service}
 
-您应测试安全测试服务以确保其正常运行。
+测试安全测试服务，确保其正常工作。
 
-注意：如果未提及“设置”>“发布设置”>“图像服务器”>“测试图像服务”下的任何IP
-如果您只添加一个IP，则IP将能够调用资产，而不允许其他IP进行调用。 只要该部分未提及IP，所有IP都允许对资产发出调用，并且它们将会出现。
+<!-- >[!NOTE]
+>
+>*If you do not mention any IPs under **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Publish Setup]** > **[!UICONTROL Image Server]** > **[!UICONTROL Test Image Service]*** - If you add an IP only, that IP is able to call the assets and no other IP are allowed to make the calls. As long there is no IP mentioned under that section, all IPs are allowed to make the calls for the assets, and they show up. -->
 
-**准备帐户**
+### 准备帐户
 
 <!-- 
 
@@ -98,20 +99,20 @@ Last Modified Date:
 
  -->
 
-1. 请联系技术支持人员，并请求对您的帐户启用安全测试。
-1. 在Dynamic Media Classic中，单击&#x200B;**设置** > **发布设置** > **图像服务器**。
-1. 在“图像服务器发布”页中，在“发布上下文”下拉列表中选择“**测试图像服务**”。
-1. 在“客户端地址过滤器”中，单击“**添加**”。
-1. 选中复选框以启用（打开）地址，然后分别在相应的文本字段中键入 IP 地址和网络掩码。
+1. 与Adobe客户关怀联系，并请求他们在您的帐户中启用安全测试。
+1. 在Dynamic Media Classic中，在全局导航栏上，单击&#x200B;**[!UICONTROL 设置]** > **[!UICONTROL 发布设置]** > **[!UICONTROL 图像服务器]**。
+1. 在“图像服务器发布”页面的&#x200B;**[!UICONTROL 发布上下文]**&#x200B;下拉列表中，选择&#x200B;**[!UICONTROL 测试图像服务]**。
+1. 在“客户端地址过滤器”中，单击“**[!UICONTROL 添加]**”。
+1. 选中复选框以启用（打开）地址，然后在相应的文本字段中键入IP地址和网络掩码。
 
    >[!NOTE]
    >
-   >如果添加单个IP地址和网络掩码，则该地址可进行资产调用。 但是，您添加的任何其他IP地址和网络掩码均不允许进行资产调用。 因此，您可能希望考虑禁用（关闭）上述步骤中的复选框，以关闭指定IP地址和网络掩码的功能。 这样做会有效地允许&#x200B;*所有* IP地址进行资产调用，所有这些IP地址都会显示出来。
+   >如果添加单个IP地址和网络掩码，则该地址可进行资产调用。 但是，您添加的任何其他IP地址和网络掩码均不允许进行资产调用。 因此，请考虑禁用（关闭）上述步骤中的复选框，以关闭指定IP地址和网络掩码的功能。 这样做会有效地允许&#x200B;*所有* IP地址进行资产调用，并且它们都会显示。
 
 1. 执行以下任一操作：
-   * 重复前两个步骤以添加更多 IP 地址。
+   * 如果必须添加更多IP地址，请重复前两个步骤。
    * 继续执行下一步。
-1. 在“图像服务器发布”页面的左下方，单击“**保存**”。
+1. 在“图像服务器发布”页面的左下角，单击&#x200B;**[!UICONTROL 保存]**
 1. 将所需的图像上传到您的Dynamic Media Classic帐户。
 
    请参阅[上载文件](uploading-files.md#uploading_files)。
@@ -120,25 +121,25 @@ Last Modified Date:
 
    请参阅[发布](publishing-files.md#publishing_files)。
 
-1. 通过单击“**设置**”>“**应用程序设置**”>“**常规设置**”，确定您的安全测试服务的名称。
-1. 在“应用程序常规设置”页面上，在“服务器”组下，在“**测试发布上下文服务器名称**”右侧找到该名称。
+1. 通过单击“**[!UICONTROL 设置]**”>“**[!UICONTROL 应用程序设置]**”>“**[!UICONTROL 常规设置]**”，确定您的安全测试服务的名称。
+1. 在“应用程序常规设置”页面上，在“服务器”组下，在“**[!UICONTROL 测试发布上下文服务器名称]**”右侧找到该名称。
 
 如果服务器名称缺失或服务器的URL不起作用，请与Adobe关怀联系。
 
-**准备网站变体**
+### 准备网站变体
 
 您需要两个网站变体，分别链接已发布和未发布的资源：
 
 * 公共版本 — 使用传统Dynamic Media Classic URL语法链接资源。
 * 暂存版本 — 使用相同的语法但使用安全测试站点名称链接资产。
 
-**运行测试**
+### 运行测试
 
 执行以下测试：
 
 1. 检查是否可从公司网络内部访问资源。
 
-   从公司网络内部（根据以前定义的 IP 地址范围确定）访问时，网站的临时版本应显示所有图像，无论图像是否标记为发布。这使得您在测试时可以避免在预览审批或产品推出前意外地将图像设为可用。
+   从由先前定义的IP地址范围标识的公司网络中，网站的暂存版本显示所有映像，无论是否标记为发布。 因此，您可以在预览批准或产品启动之前进行测试，而不会意外使图像可用。
 
    确认网站的公共版本显示的已发布资产与之前使用Dynamic Media Classic时的体验相同。
 
