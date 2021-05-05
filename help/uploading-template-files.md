@@ -9,14 +9,14 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/template_basics
 discoiquuid: 75658717-5c39-473e-9d32-718d00706310
 feature: Dynamic Media Classic
 role: Business Practitioner
+exl-id: a105c18a-7e06-43cb-938c-a3bcdc3e9d22
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 06bd65c92c88595786b14213944a7cebd0d2590b
 workflow-type: tm+mt
-source-wordcount: '294'
-ht-degree: 69%
+source-wordcount: '236'
+ht-degree: 48%
 
 ---
-
 
 # 上载模板文件{#uploading-template-files}
 
@@ -30,8 +30,11 @@ ht-degree: 69%
 
 有关上载文件的详细说明，请参阅[上载文件](uploading-files.md#uploading_files)。上载模板文件时请注意以下事项：
 
-* 如果上载的是 PSD 文件，则可以从该文件创建模板。Dynamic Media Classic为PSD中的每个图层创建一个单独的图像。 在“上载作业选项”对话框中，选择“Photoshop 选项”，选择“保持图层”选项，然后选择“创建模板”选项。然后，在“图层命名”菜单上选择一个选项，以命名Dynamic Media Classic从PSD中的图层创建的图像。 请参阅[PSD 上载选项](psd-files.md#psd_upload_options)。
-* 如果上载的是图像，则可以从其剪贴路径创建蒙版。该选项适用于使用创建了剪切路径的图像编辑应用程序所创建的图像。在“上载作业选项”对话框中，选择“图像编辑选项”，然后选择“从剪切路径创建蒙版”选项。请参阅[上载时的图像编辑选项](image-editing-options-upload.md#image-editing-options-at-upload)。
+* 如果上传的是PSD文件，则可以从中创建模板。 Dynamic Media Classic为PSD中的每个图层创建一个单独的图像。 在“上载作业选项”对话框中，单击&#x200B;**[!UICONTROL Photoshop选项]**，然后选择“维护层&#x200B;]**”和“创建模板]**”。 **[!UICONTROL **[!UICONTROL &#x200B;然后，从&#x200B;**[!UICONTROL 图层命名]**下拉列表中选择一个选项，以命名Dynamic Media Classic从PSD中的图层创建的图像。
+请参阅[PSD 上载选项](psd-files.md#psd_upload_options)。
+
+<!-- THERE IS NO LONGER AN IMAGE EDITING OPTIONS MENU * If you are uploading images, you can create a mask from its clipping path. This option applies to images created with image-editing applications in which a clipping path was created. In the Upload Job Options dialog box, select Image Editing Options and select the Create Mask From Clipping Path option. 
+See [Image editing options at upload](image-editing-options-upload.md#image-editing-options-at-upload). -->
 
 >[!MORELIKETHIS]
 >
