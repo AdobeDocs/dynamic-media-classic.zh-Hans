@@ -6,14 +6,14 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 feature: Dynamic Media Classic
 role: Business Practitioner
+exl-id: 2ef78fe6-1e7c-4f48-86da-137ddaa55bbf
 translation-type: tm+mt
-source-git-commit: 5efad4fff11c9818d43d46ebbbce5335ee1e72b8
+source-git-commit: 06bd65c92c88595786b14213944a7cebd0d2590b
 workflow-type: tm+mt
-source-wordcount: '1532'
-ht-degree: 84%
+source-wordcount: '1497'
+ht-degree: 78%
 
 ---
-
 
 # 上载图像资源或矢量资源{#uploading-an-image-asset-or-a-vector-asset}
 
@@ -29,7 +29,7 @@ ht-degree: 84%
 
 *上载令牌*&#x200B;可确保他人不能使用相同的共享密钥来上载资源。它可确保上载合法且来自信任的来源。
 
-上载令牌是字母数字字符串，只能在特定时间段内使用。请使用以下 URL 代替您的共享密钥来检索上载令牌。
+上载令牌是字母数字字符串，只能在特定时间段内使用。请使用以下URL替换您的共享密钥，以便您可以检索上传令牌。
 
 * 图像
    `https://s7ugc1.scene7.com/ugc/image?op=get_uploadtoken&shared_secret=fece4b21-87ee-47fc-9b99-2e29b78b602`在此示例中，共享密钥为  `fece4b21-87ee-47fc-9b99-2e29b78b602`
@@ -43,7 +43,7 @@ ht-degree: 84%
 https://s7ugc1.scene7.com/ugc/image?op=get_uploadtoken&shared_secret=fece4b21-87ee-47fc-9b99-2e29b78b602&expires=1800
 ```
 
-图像的成功响应如下所示：
+图像的成功响应与以下内容类似：
 
 ```as3
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?> 
@@ -82,7 +82,8 @@ https://s7ugc1.scene7.com/ugc/image?op=get_uploadtoken&shared_secret=fece4b21-87
 
 `https://s7ugc1.scene7.com/ugc/vector?op=get_uploadtoken&shared_secret=2d19f60e-890a-4e79-a1a5-9ac2875429b9&expires=5000`
 
-**允许的 HTTP 方法：** GET 和 POST
+**允许的HTTP方**
+`GET` 法  `POST`
 
 您现在可以上载图像资源。
 
@@ -124,8 +125,9 @@ https://s7ugc1.scene7.com/ugc/image?op=upload&upload_token=aa2a378a-cd25-4c80-99
 * 文件大小限制.
 * 文件扩展名的列表.
 * 是否保留与资产关联的颜色用户档案和文件名。
-* 是否使用挖空背景。 如果启用“挖空背景”，则设置“角”、“公差”和“填充方法”。 请参阅上载](image-editing-options-upload.md#image-editing-options-at-upload)时的“图像编辑”选项中的挖空背景。[
-* 待上载文件的名称
+* 是否使用挖空背景。 如果启用“挖空背景”，则设置“角”、“公差”和“填充方法”。
+请参阅上载](image-editing-options-upload.md#image-editing-options-at-upload)时的图像编辑选项中的挖空背景。[
+* 待上载文件的名称.
 
 <!-- 
 
@@ -137,15 +139,11 @@ Last Modified Date:
 
  -->
 
-![]()
+可以通过单击[https://s7ugc1.scene7.com/ugc/upload.html](https://s7ugc1.scene7.com/ugc/upload.html)视图与上述表单关联的HTML源代码
 
-您可以通过单击以下链接视图与上述表单关联的HTML源代码：
+在Firefox中，右键单击浏览器窗口，然后单击&#x200B;**[!UICONTROL 视图页面源]**。 该代码将显示当用户单击“**[!UICONTROL 提交]**”时运行的相应 URL 查询字符串和 POST 方法。
 
-[https://s7ugc1.scene7.com/ugc/upload.html](https://s7ugc1.scene7.com/ugc/upload.html)
-
-在Firefox中，右键单击浏览器窗口，然后单击&#x200B;**视图页面源**。 该代码将显示当用户单击“**提交**”时运行的相应 URL 查询字符串和 POST 方法。
-
-要在 Internet Explorer 中查看 XML 响应，请单击“**查看”>“源文件**”。要在Firefox中视图XML响应，请单击&#x200B;**“工具”>“Web开发人员”>“页面源”**。 建议使用 Firefox 查看 XML 响应。
+要在 Internet Explorer 中查看 XML 响应，请单击“**[!UICONTROL 查看]**”>“**[!UICONTROL 源文件]**”。要在Firefox中视图XML响应，请单击&#x200B;**[!UICONTROL 工具]** > **[!UICONTROL 浏览器工具]** > **[!UICONTROL Web开发人员工具]**。 建议使用 Firefox 查看 XML 响应。
 
 下面是成功上载的示例响应：
 
@@ -183,13 +181,13 @@ https://s7w2p1.scene7.com/is/image/S7WebUGC/ugc/9536356.tif?&wid=800&hei=100&fit
 
 | URL 参数 | 必需或可选 | 值 |
 |--- |--- |--- |
-| op | 必需 | 上载 |
-| upload_token | 必需 | 与公司关联的共享密钥的上载令牌。 |
-| company_name | 必需 | 执行上载的公司的名称。 |
-| file_limit | 可选 | 资源的文件大小限制（以字节为单位）。 |
-| file_exts | 可选 | 图像资源文件容许扩展名的列表。 |
-| preserve_colorprofile | 可选 | 用于在将上载文件转换成 PTIFF 格式时保留任何嵌入的颜色配置文件。可能的值为 true 或 false。默认值为 false。 |
-| preserve_filename | 可选 | 保留所上载资源的文件名。可能的值为 true 或 false。默认值为 false。 |
+| `op` | 必需 | 上载 |
+| `upload_token` | 必需 | 与公司关联的共享密钥的上载令牌。 |
+| `company_name` | 必需 | 执行上载的公司的名称。 |
+| `file_limit` | 可选 | 资源的文件大小限制（以字节为单位）。 |
+| `file_exts` | 可选 | 图像资源文件容许扩展名的列表。 |
+| `preserve_colorprofile` | 可选 | 用于在将上载文件转换成 PTIFF 格式时保留任何嵌入的颜色配置文件。可能的值为 true 或 false。默认值为 false。 |
+| `preserve_filename` | 可选 | 保留所上载资源的文件名。可能的值为 true 或 false。默认值为 false。 |
 
 >[!NOTE]
 >
@@ -211,7 +209,7 @@ POST
 https://s7ugc1.scene7.com/ugc/image?op=image_info&shared_secret=fece4b21-87ee-47fc-9b99-2e29b78b602&image_name=1442564.tif
 ```
 
-成功响应的示例如下所示：
+成功的响应示例如下所示：
 
 ```as3
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?> 
@@ -239,9 +237,9 @@ https://s7ugc1.scene7.com/ugc/image?op=image_info&shared_secret=fece4b21-87ee-47
 
 | URL 参数 | 必需或可选 | 值 |
 |--- |--- |--- |
-| op | 必需 | image_info |
-| shared_secret | 必需 | 公司的共享密钥。 |
-| image_name | 必需 | 图像的名称。 |
+| `op` | 必需 | image_info |
+| `shared_secret` | 必需 | 公司的共享密钥。 |
+| `image_name` | 必需 | 图像的名称。 |
 
 **示例 URL：**
 
@@ -287,8 +285,9 @@ https://s7ugc1.scene7.com/ugc/vector?op=upload&upload_token=aa2a378a-cd25-4c80-9
 * 文件大小限制.
 * 文件扩展名的列表.
 * 是否保留与资产关联的颜色用户档案和文件名。
-* 是否使用挖空背景。 如果启用“挖空背景”，则设置“角”、“公差”和“填充方法”。 请参阅上载](image-editing-options-upload.md#image-editing-options-at-upload)时的“图像编辑”选项中的挖空背景。[
-* 待上载文件的名称
+* 是否使用挖空背景。 如果启用“挖空背景”，则设置“角”、“公差”和“填充方法”。
+请参阅上载](image-editing-options-upload.md#image-editing-options-at-upload)时的图像编辑选项中的挖空背景。[
+* 待上载文件的名称.
 
 <!-- 
 
@@ -300,9 +299,7 @@ Last Modified Date:
 
  -->
 
-![]()
-
-当您在浏览器窗口中右键单击，然后针对插图中显示的表单单击“**查看源代码**”时，将显示以下 HTML 代码。该代码将显示当用户单击“**提交**”时运行的相应 URL 查询字符串和 POST 方法。
+当您在浏览器窗口中右键单击，然后单击&#x200B;**[!UICONTROL 视图源]**&#x200B;查看示例中显示的表单时，将显示以下HTML代码。 该代码将显示当用户单击“**[!UICONTROL 提交]**”时运行的相应 URL 查询字符串和 POST 方法。
 
 ```as3
 <body> 
@@ -336,7 +333,7 @@ return true;
 </body>
 ```
 
-要在 Internet Explorer 中查看 XML 响应，请单击“**查看**”>“**源文件**”。要在 Firefox 中查看 XML 响应，请单击“**查看**”>“**页面源代码**”。建议使用 Firefox 查看 XML 响应。
+要在 Internet Explorer 中查看 XML 响应，请单击“**[!UICONTROL 查看]**”>“**[!UICONTROL 源文件]**”。要在Firefox中视图XML响应，请单击&#x200B;**[!UICONTROL 工具]** > **[!UICONTROL 浏览器工具]** > **[!UICONTROL 页面源]**。 建议使用 Firefox 查看 XML 响应。
 
 下面是成功上载的示例响应：
 
@@ -366,7 +363,7 @@ return true;
 >
 >上载的资源（AI、EPS、PDF 等）将转换为 FXG 格式，且响应将发送指向该 FXG 资源的直接链接。
 
-该资源类似于其它 Web-to-print 资源；您可以对其应用处理查询。例如，以下 URL 可将 FXG 资源转换为 500x500 png 图像。
+该资产与任何其他网络到打印资源一样；将处理查询应用于它。 例如，以下 URL 可将 FXG 资源转换为 500x500 png 图像。
 
 ```as3
 https://s7w2p1.scene7.com/is/agm/W2PTest/ugc/8875744.fxg?fmt=png&wid=500&hei=500
@@ -376,11 +373,11 @@ https://s7w2p1.scene7.com/is/agm/W2PTest/ugc/8875744.fxg?fmt=png&wid=500&hei=500
 
 | URL 参数 | 必需或可选 | 值 |
 |--- |--- |--- |
-| op | 必需 | 上载 |
-| upload_token | 必需 | 与公司关联的共享密钥的上载令牌。 |
-| 公司_name | 必需 | 执行上载的公司的名称。 |
-| file_limit | 可选 | 资源的文件大小限制（以字节为单位）。 |
-| file_exts | 可选 | 资源文件允许的扩展名列表。 |
+| `op` | 必需 | 上载 |
+| `upload_token` | 必需 | 与公司关联的共享密钥的上载令牌。 |
+| `company_name` | 必需 | 执行上载的公司的名称。 |
+| `file_limit` | 可选 | 资源的文件大小限制（以字节为单位）。 |
+| `file_exts` | 可选 | 资源文件允许的扩展名列表。 |
 
 >[!NOTE]
 >
