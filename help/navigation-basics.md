@@ -11,18 +11,20 @@ feature: Dynamic Media Classic
 role: Administrator,Business Practitioner
 exl-id: 3ffcfab2-c29d-4b0f-b223-c4a5ca99f21a
 translation-type: tm+mt
-source-git-commit: 38d09bb78834c6b3614bf2b96fd6aee5661e0a5a
+source-git-commit: eb37440a2917094aae8f32e9337b4c187ec6c1c2
 workflow-type: tm+mt
-source-wordcount: '610'
-ht-degree: 27%
+source-wordcount: '644'
+ht-degree: 25%
 
 ---
 
 # 导航基础知识{#navigation-basics}
 
-Dynamic Media Classic屏幕包括三个主要方面：全局导航栏、资源库和浏览面板/构建面板。
+Dynamic Media Classic屏幕包括三个主要方面：全局导航栏、资产库、资产过滤器选项卡、浏览面板/构建面板和媒体购物车（仅限Media Portal）。
 
-![导航基础知识](/help/assets/gs_navigation_basics_popup_popup.png)
+![导航基](/help/assets/gs_navigation_basics_popup_popup.png)
+*础知识主Dynamic Media*
+*Classic区域A)全局导航栏B)“资源库”面板C)“资源过滤器”选项卡D)“浏览”面板E)“媒体购物车”（仅限媒体门户）*
 
 ## 全局导航栏 {#global-navigation-bar}
 
