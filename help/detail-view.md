@@ -11,10 +11,10 @@ feature: Dynamic Media Classic，资产管理
 role: Business Practitioner
 exl-id: 618ae6a4-6f60-4a80-b197-a9d35b3c47af
 translation-type: tm+mt
-source-git-commit: 4e79c98b92dfa4e1a9890ed8a291cdf564126466
+source-git-commit: eb37440a2917094aae8f32e9337b4c187ec6c1c2
 workflow-type: tm+mt
-source-wordcount: '587'
-ht-degree: 69%
+source-wordcount: '612'
+ht-degree: 65%
 
 ---
 
@@ -32,7 +32,8 @@ Last Modified Date: 2018-06-14T13:52:46.623-0400
 
  -->
 
-![“详细信息”视图](/help/assets/image_0.img.png)
+![详细](/help/assets/image_0.img.png)
+*信息视图在左侧的视图中隐藏“资源库”面板的详细信息视图。*
 
 >[!NOTE]
 >
@@ -42,10 +43,10 @@ Last Modified Date: 2018-06-14T13:52:46.623-0400
 
 要精确检查、预览或处理资源，可以在详细信息视图中显示该资源。
 
-1. 在浏览面板中，执行以下任一操作：
+1. 在“浏览”面板中，执行下列任一操作：
 
+   * 选择该资源。在Dynamic Media Classic右上角附近，单击&#x200B;**[!UICONTROL 详细视图]**&#x200B;图标。
    * 双击资源。
-   * 选择资产，然后单击&#x200B;**[!UICONTROL 详细信息视图]**。
    * 选择资产，然后单击&#x200B;**[!UICONTROL 文件]** > **[!UICONTROL 详细信息]**。
 
 >[!NOTE]
