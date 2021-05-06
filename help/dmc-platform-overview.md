@@ -11,10 +11,10 @@ feature: Dynamic Media Classic
 role: Administrator,Business Practitioner
 exl-id: ac50cb9c-fd87-4608-80cb-8d40a0b8f131
 translation-type: tm+mt
-source-git-commit: 1beb30b9eda4487dcd549034906079dee0b3149a
+source-git-commit: eb37440a2917094aae8f32e9337b4c187ec6c1c2
 workflow-type: tm+mt
-source-wordcount: '436'
-ht-degree: 31%
+source-wordcount: '454'
+ht-degree: 30%
 
 ---
 
@@ -43,6 +43,7 @@ Dynamic Media Classic与其他系统有本质的不同，因为您可以使用Dy
 您使用Dynamic Media Classic生成的URL字符串包含说明，这些说明告诉服务器在交付资产时如何显示资产。 例如，传送同一主图象时，可以使用不同的大小、格式、粗细、颜色以及缩放视图。在使用Dynamic Media Classic构建和发布媒体资源时，您可以直观地配置效果。 在此过程中，您可以创建 URL 调用，这些调用会正确指示服务器如何把您的主资源呈现给应用程序。
 
 ![Dynamic Media Classic可以将相同的主控图像以不同的大小和格式提供给不同媒体。](/help/assets/gs_dynamic_publishing.png)
+*Dynamic Media Classic可确保向任何屏幕提供一致的高质量体验，而不管屏幕大小或带宽。*
 
 ## 内容缓存 {#content-caching}
 
