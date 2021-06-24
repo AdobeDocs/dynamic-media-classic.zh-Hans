@@ -1,6 +1,6 @@
 ---
 title: 将混合媒体集与网页链接
-description: 了解如何将混合媒体集链接到网页。
+description: 了解如何将混合媒体集关联到网页。
 uuid: 120326a2-77e9-4d6f-9b02-0a00fa9cbab1
 contentOwner: admin
 content-type: reference
@@ -10,7 +10,6 @@ discoiquuid: b33dacc4-509d-4878-a769-76642bfaeb4e
 feature: Dynamic Media Classic，查看器，混合媒体集
 role: Business Practitioner
 exl-id: 76a7530c-0cc7-4a7f-bc31-2950c4946871
-translation-type: tm+mt
 source-git-commit: 38d09bb78834c6b3614bf2b96fd6aee5661e0a5a
 workflow-type: tm+mt
 source-wordcount: '645'
@@ -45,7 +44,7 @@ ht-degree: 97%
 
 部署混合媒体集的最常见的方法是在网页上放入一个链接（通过导航图标）。单击该链接时，该链接将启动一个动态页面（ASP 或 JSP），以在混合媒体集查看器中显示混合媒体集。
 
-## 复制混合媒体集查看器的嵌入代码  {#copying-the-embed-code-of-a-mixed-media-set-viewer}
+## 复制混合媒体集查看器的嵌入代码 {#copying-the-embed-code-of-a-mixed-media-set-viewer}
 
 使用嵌入代码功能，您可以查看用于所选混合媒体集的查看器代码。您也可以将代码复制到剪贴板中，以便可以将其粘贴到网页中以部署查看器。不允许在“嵌入代码”对 话框中编辑代码 。
 
@@ -76,5 +75,5 @@ ht-degree: 97%
 
 >[!MORELIKETHIS]
 >
->* [Publishing](publishing-files.md#publishing_files)
+>* [发布](publishing-files.md#publishing_files)
 
