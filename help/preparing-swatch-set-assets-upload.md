@@ -1,22 +1,21 @@
 ---
 title: 准备要上载的样本集资源
-description: 了解如何准备要上传的样本集资产。
+description: 了解如何准备上传样本集资产。
 uuid: ed78da8c-d708-418b-97ce-3c37d9df9c90
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/swatch_sets
 discoiquuid: 0c851ecd-be05-46a9-8654-3d028f3217a4
-feature: Dynamic Media Classic,Viewers
+feature: Dynamic Media Classic，查看器
 role: Business Practitioner
-translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+exl-id: 90216519-4b14-4f8b-8e72-3d7ce9ec89ff
+source-git-commit: 217e5bf81cc2108e4bf283f585dfd83d319ff7c9
 workflow-type: tm+mt
-source-wordcount: '178'
+source-wordcount: '176'
 ht-degree: 82%
 
 ---
-
 
 # 准备要上载的样本集资源{#preparing-swatch-set-assets-for-upload}
 
@@ -27,11 +26,11 @@ ht-degree: 82%
 * 同一外套的黑色、棕色和绿色快照。
 * 黑色、棕色及绿色样本。
 
-由于用户可以在样本集中缩放图像，因此确保图像最大尺寸至少为 2000 像素。Dynamic Media Classic支持许多图像文件格式，但建议使用无损的TIFF、PNG和EPS图像。
+由于用户可以在样本集中缩放图像，因此确保图像最大尺寸至少为 2000 像素。Dynamic Media Classic支持多种图像文件格式，但建议使用无损的TIFF、PNG和EPS图像。
 
 有关上载资源的详细说明，请参阅[上载文件](uploading-files.md#uploading_files)。
 
 >[!MORELIKETHIS]
 >
->* [Working with vignette, window covering, and cabinet files](vignette-window-covering-cabinet-files.md#working_with_vignette_window_covering_and_cabinet_files)
+>* [使用晕影、窗饰和 CAB 文件](vignette-window-covering-cabinet-files.md#working_with_vignette_window_covering_and_cabinet_files)
 
