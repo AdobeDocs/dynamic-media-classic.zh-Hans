@@ -1,16 +1,15 @@
 ---
-title: 从Dynamic Media Classic导出资源
-description: 了解如何从Dynamic Media Classic导出资源。
+title: 从Dynamic Media Classic导出资产
+description: 了解如何从Dynamic Media Classic导出资产。
 uuid: d42b7a73-80c0-4a9a-a04e-7ef53e6fcf22
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: eb850ec7-a669-41ea-b2b0-4c9178e34f95
-feature: Dynamic Media Classic，资产管理
+feature: Dynamic Media Classic，Asset Management
 role: Business Practitioner
 exl-id: 5e3b0002-5ae2-4437-862f-caa098b04362
-translation-type: tm+mt
 source-git-commit: 27d9a9b9f158846b54e4318119aec9e4dc9c4c0d
 workflow-type: tm+mt
 source-wordcount: '426'
@@ -18,15 +17,15 @@ ht-degree: 63%
 
 ---
 
-# 从Dynamic Media Classic{#exporting-assets-from-dmc}导出资源
+# 从Dynamic Media Classic导出资产{#exporting-assets-from-dmc}
 
-您可以将在Dynamic Media Classic中编辑的资源保存到本地网络驱动器。 导出的资源会打包成一个 Zip 文件，供下载或通过电子邮件发送。
+您可以将在Dynamic Media Classic中编辑的资产保存到本地网络驱动器。 导出的资源会打包成一个 Zip 文件，供下载或通过电子邮件发送。
 
-可用于导出作业的 Zip 压缩文件的最大文件大小为 1 GB。此外，每个导出作业最多允许处理的资产总数为500个。
+可用于导出作业的 Zip 压缩文件的最大文件大小为 1 GB。此外，每个导出作业最多允许500个资产总数。
 
-Dynamic Media Classic在“作业”屏幕中保留导出作业的记录。
+Dynamic Media Classic会在“作业”屏幕中保留导出作业的记录。
 
-**要从Dynamic Media Classic导出资源，请执行以下操作：**
+**要从Dynamic Media Classic导出资产，请执行以下操作：**
 
 1. 选择要导出的资源，然后单击“**[!UICONTROL 文件]**”>“**[!UICONTROL 导出]**”。
 1. 在“导出所选资源”窗口中，单击“**图像选项**”，然后指定以下任一选项（管理员可确定哪些选项对用户可用）：
@@ -45,9 +44,9 @@ Dynamic Media Classic在“作业”屏幕中保留导出作业的记录。
 
    * **分辨率**  — 选择72 ppi、150 ppi或300 ppi。
 
-   * **作业名**  — 您可以为导出分配作业名。
+   * **作业名称**  — 您可以为导出分配作业名称。
 
-   * **发送电子邮件至**  — （可选）输入电子邮件地址，以通过电子邮件发送资产。电子邮件会列出收件人可从中下载资源的 URL。
+   * **发送电子邮件至**  — （可选）输入电子邮件地址以通过电子邮件发送资产。电子邮件会列出收件人可从中下载资源的 URL。
 
 1. 单击“**[!UICONTROL 导出]**”。
 
@@ -57,7 +56,7 @@ Dynamic Media Classic在“作业”屏幕中保留导出作业的记录。
 * 使用预设转换（使用图像预调为资源设置格式）
 * 无预设转换（使用导出对话框来指定图像修饰符）
 
-无法导出下列资源类型。所有其他组件都生成导出。
+无法导出下列资源类型。所有其他产品都会生成导出。
 
 * 图像集
 * 渲染集
