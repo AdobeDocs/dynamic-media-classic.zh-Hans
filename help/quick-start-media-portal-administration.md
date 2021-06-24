@@ -1,6 +1,6 @@
 ---
-title: “快速开始:媒体门户”
-description: 介绍和快速开始Media Portal，帮助您快速入门和使用Media Portal技术和管理。
+title: “快速入门：媒体门户”
+description: 介绍和Media Portal快速入门，可帮助您快速启动和运行Media Portal技术和管理。
 uuid: 0dbd6146-b392-4e03-955b-0b323b654b9f
 contentOwner: admin
 content-type: reference
@@ -10,7 +10,6 @@ discoiquuid: 1385a092-0b2c-4e05-ad1e-ce3685022300
 feature: Dynamic Media Classic，协作，资产管理
 role: Administrator,Business Practitioner
 exl-id: bff613c8-a93b-4cca-94db-8cad1cc36296
-translation-type: tm+mt
 source-git-commit: c5c8c4f96f18339734f4441733cdb1e7f34d3071
 workflow-type: tm+mt
 source-wordcount: '692'
@@ -18,13 +17,13 @@ ht-degree: 73%
 
 ---
 
-# 快速开始:媒体门户{#quick-start-media-portal}
+# 快速入门：媒体门户{#quick-start-media-portal}
 
-媒体门户使公司能轻松获取、控制获准资产并将其分发给外部合作伙伴和渠道以及公司的内部用户。 此基于浏览器的“自助”环境为Media Portal用户提供了管理员控制的“视图”，可用于轻松访问、浏览、搜索、预览和导出公司批准格式的资产。
+通过媒体门户，公司可以轻松地获取、控制已批准的资产并将其分发给外部合作伙伴和渠道以及公司的内部用户。 此基于浏览器的“自助”环境为Media Portal用户提供了由管理员控制的“视图”，可用于访问、浏览、搜索、预览和导出经公司批准的格式的资产。Dynamic Media Classic资产由管理员控制。
 
-作为管理员，您可以控制用户在 Media Portal 中查看、访问和使用资源的方式。此外，您可以自定义 Media Portal 界面，使其匹配您的网站和品牌。您可以在Media Portal界面中指定字体、字体颜色、字体大小并合并品牌元素，如徽标。
+作为管理员，您可以控制用户在 Media Portal 中查看、访问和使用资源的方式。此外，您可以自定义 Media Portal 界面，使其匹配您的网站和品牌。您可以在Media Portal界面中指定字体、字体颜色、字体大小，并合并品牌元素，如徽标。
 
-本“快速入门”旨在帮助您快速学会如何使用 Media Portal 管理。在每个步骤的结尾，单击主题链接以了解更多。
+本“快速入门”旨在帮助您快速学会如何使用 Media Portal 管理。在每个步骤的末尾，单击主题链接以了解更多信息。
 
 ## 1. 了解 Media Portal 用户角色
 
@@ -46,7 +45,7 @@ Media Portal 用户分为三个角色，即用户、参与者和用户参与者�
 
 ## 4. 管理 FTP 帐户
 
-您可以有与Media Portal关联并映射到Dynamic Media Classic帐户中特定文件夹的单独FTP帐户。 这种功能意味着，您可以允许用户使用单独的 FTP 帐户将数字资源上载到您的帐户中。
+您可以拥有与Media Portal关联并映射到Dynamic Media Classic帐户中特定文件夹的单独FTP帐户。 这种功能意味着，您可以允许用户使用单独的 FTP 帐户将数字资源上载到您的帐户中。
 
 请参阅[管理 FTP 帐户](ftp-accounts.md#managing_ftp_accounts)。
 
@@ -74,8 +73,8 @@ Media Portal 用户分为三个角色，即用户、参与者和用户参与者�
 
 请参阅[更有效地利用元数据](making-efficient-metadata.md#making_more_efficient_use_of_metadata)。
 
-## 8.自定义Media Portal页面
+## 8.自定义媒体门户页面
 
-Media Portal样式设置允许您使用公司徽标和颜色为Media Portal页面添加品牌。 使用样式设置将您的公司品牌放在Media Portal上。
+通过媒体门户样式设置，您可以使用公司徽标和颜色来对媒体门户页面进行品牌标识。 使用样式设置将您的公司品牌策略放在媒体门户上。
 
 请参阅[自定义媒体门户页面](customizing-media-portal-screen.md#customizing_the_media_portal_screen)。
