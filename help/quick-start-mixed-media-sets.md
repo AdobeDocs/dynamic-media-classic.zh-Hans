@@ -1,6 +1,6 @@
 ---
 title: '"快速入门：混合媒体集"'
-description: 混合媒体集的简介和快速开始，可帮助您快速入门和使用。
+description: 混合媒体集的简介和快速入门可帮助您快速启动并运行。
 uuid: 0ef033d5-b053-4d7c-b1e1-1980f899fd88
 contentOwner: admin
 content-type: reference
@@ -10,7 +10,6 @@ discoiquuid: 2708d077-94fc-4045-8992-ad3589ed9cfd
 feature: Dynamic Media Classic，查看器，混合媒体集
 role: Business Practitioner
 exl-id: 757893ae-7507-42a0-a67b-f6542e7231c7
-translation-type: tm+mt
 source-git-commit: c5c8c4f96f18339734f4441733cdb1e7f34d3071
 workflow-type: tm+mt
 source-wordcount: '637'
@@ -24,17 +23,17 @@ ht-degree: 52%
 
 “混合媒体集查看器预设”包括最终用户用来嵌入代码、复制 URL 以及链接到主网站的社区选项。用户可以使用这些选项在其个人网站或社交网站上共享有关产品的信息。
 
-此混合媒体集快速开始旨在借助Dynamic Media Classic中的混合媒体集技术快速入门和运行。
+此混合媒体集快速入门旨在使用Dynamic Media Classic中的混合媒体集技术快速启动并运行。
 
 ## 1.上传图像、色板文件和视频
 
 首先为混合媒体集上载图像、样本文件和视频。由于用户可以在混合媒体集查看器中缩放图像，因此在选择图像时，请务必考虑此功能。 确保图像的最大大小至少为2000像素。
 
-在全局导航栏上，单击&#x200B;**[!UICONTROL 上传]**，将文件从计算机上传到Dynamic Media Classic上的文件夹。
+在全局导航栏上，单击&#x200B;**[!UICONTROL Upload]** ，将文件从计算机上传到Dynamic Media Classic上的文件夹。
 
 请参阅[上载文件](uploading-files.md#uploading-your-files)。
 
-## 2.创建要在混合媒体集中使用的媒体集
+## 2.创建媒体集以在混合媒体集中使用
 
 可以将图像、图像集、样本集、旋转集和视频添加到混合媒体集中。先准备好媒体集，然后再将其添加到混合媒体集中。
 
@@ -42,15 +41,15 @@ ht-degree: 52%
 
 ## 3.创建混合媒体集
 
-在全局导航栏上，单击&#x200B;**[!UICONTROL 生成]** > **[!UICONTROL 混合媒体集]**。 将图像、色板集、图像集和视频拖到“混合媒体集”页面。 要添加音轨，将音频文件拖动到“音轨”框中。
+在全局导航栏上，单击&#x200B;**[!UICONTROL 生成]** > **[!UICONTROL 混合媒体集]**。 将图像、色板集、图像集和视频拖到混合媒体集页面上。 要添加音轨，将音频文件拖动到“音轨”框中。
 
 请参阅[创建混合媒体集](creating-mixed-media-set.md#creating-a-mixed-media-set)。
 
 ## 4.设置混合媒体查看器预设
 
-Dynamic Media Classic附带混合媒体集的默认查看器预设。 管理员可以创建或修改混合媒体集查看器预设。
+Dynamic Media Classic附带了混合媒体集的默认查看器预设。 管理员可以创建或修改混合媒体集查看器预设。
 
-在设置混合媒体集查看器预设时，请为您的集合中的所有其他资产添加查看器预设。 例如，如果混合媒体集包括视频，则在混合媒体查看器预设中添加视频查看器预设。也可以将音轨添加到查看器中。该音轨在查看器打开时播放，但在视频处于活动状态时不播放。
+在设置混合媒体集查看器预设时，请为您的媒体集中的所有其他资产添加查看器预设。 例如，如果混合媒体集包括视频，则在混合媒体查看器预设中添加视频查看器预设。也可以将音轨添加到查看器中。该音轨在查看器打开时播放，但在视频处于活动状态时不播放。
 
 请参阅[设置混合媒体集查看器预设](setting-mixed-media-set-viewer.md#setting-up-a-mixed-media-set-viewer-preset)和[创建和编辑查看器预设](application-setup.md#adding-and-editing-viewer-presets)。
 
@@ -70,6 +69,6 @@ Dynamic Media Classic附带混合媒体集的默认查看器预设。 管理员�
 
 ## 7.将混合媒体集关联到网页
 
-Dynamic Media Classic在您发布混合媒体集后激活其URL调用。 您可以从预览页面复制这些URL。
+Dynamic Media Classic在您发布混合媒体集后，会激活它们的URL调用。 您可以从预览页面复制这些URL。
 
-选择混合媒体集，然后单击&#x200B;**[!UICONTROL 预览]**。 在预览页中，选择混合媒体集查看器预设，然后单击&#x200B;**[!UICONTROL 复制URL]**。 请参阅[将混合媒体集与网页链接](linking-mixed-media-set-web.md#linking-a-mixed-media-set-to-a-web-page)。
+选择混合媒体集，然后单击&#x200B;**[!UICONTROL 预览]**。 在“预览”页面中，选择混合媒体集查看器预设，然后单击&#x200B;**[!UICONTROL 复制URL]**。 请参阅[将混合媒体集与网页链接](linking-mixed-media-set-web.md#linking-a-mixed-media-set-to-a-web-page)。
