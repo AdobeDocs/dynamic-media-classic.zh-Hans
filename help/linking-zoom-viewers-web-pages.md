@@ -1,6 +1,6 @@
 ---
 title: 将缩放查看器链接到网页
-description: 了解如何将缩放查看器关联到您的网页。
+description: 了解如何将缩放查看器链接到网页。
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -8,7 +8,6 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/zoom
 feature: Dynamic Media Classic，查看器，缩放
 role: Business Practitioner
 exl-id: 2073d95b-1600-481f-8038-d29e8acacf7d
-translation-type: tm+mt
 source-git-commit: 38d09bb78834c6b3614bf2b96fd6aee5661e0a5a
 workflow-type: tm+mt
 source-wordcount: '678'
@@ -18,7 +17,7 @@ ht-degree: 81%
 
 # 将缩放查看器链接到网页{#linking-zoom-viewers-to-your-web-pages}
 
-您的网站和应用程序可通过URL字符串或嵌入代码访问Dynamic Media Image Server内容，包括主控图像和关联的缩放目标，以及缩放查看器预设。 这些 URL 字符串在发布过程中被激活。要将这些URL字符串或嵌入的代码放置到您的网页和应用程序中，可从Dynamic Media Classic中复制它们。
+您的网站和应用程序可通过URL字符串或嵌入代码访问Dynamic Media图像服务器内容，包括主控图像和关联的缩放目标，以及缩放查看器预设。 这些 URL 字符串在发布过程中被激活。要将这些URL字符串或嵌入的代码放置在网页和应用程序中，请从Dynamic Media Classic中复制它们。
 
 >[!NOTE]
 >
@@ -42,11 +41,11 @@ ht-degree: 81%
 
       在“查看器列表”页面中表的“操作”列下，单击“**[!UICONTROL 复制 URL]**”。
 
-## 将缩放查看器 URL 添加到网页中  {#adding-zoom-viewer-urls-to-your-web-page}
+## 将缩放查看器 URL 添加到网页中 {#adding-zoom-viewer-urls-to-your-web-page}
 
-通常，访客首先选择“缩放”图标（通常该图标显示放大镜的图像）来缩放网站上的图像。 选择该图标会启动一个动态网页（ASP 或 JSP），该网页在弹出窗口中显示该图像。弹出窗口是访客实际缩放该图像的位置。
+通常，访客会首先选择缩放图标来缩放网站上的图像（通常该图标会显示放大镜的图像）。 选择该图标会启动一个动态网页（ASP 或 JSP），该网页在弹出窗口中显示该图像。弹出窗口是访客实际缩放该图像的位置。
 
-有关更多详细信息和代码示例，请参阅《Adobe查看器参考指南》](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/basic-zoom/c-html5-20-basic-zoom-viewer-about.html#section-e1c3106f5b3e445d9b95be337c2f94e2)中的[嵌入HTML5 Basic Zoom Viewer。
+有关更多详细信息和代码示例，请参阅《Adobe查看器参考指南》](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/basic-zoom/c-html5-20-basic-zoom-viewer-about.html#section-e1c3106f5b3e445d9b95be337c2f94e2)中的[嵌入HTML5基本缩放查看器。
 
 ## 复制缩放查看器的嵌入代码 {#copying-the-embed-copy-of-a-zoom-viewer}
 
