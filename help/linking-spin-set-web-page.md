@@ -1,6 +1,6 @@
 ---
 title: 将旋转集链接到网页
-description: 了解如何将旋转集链接到网页。
+description: 了解如何将旋转集关联到网页。
 uuid: d3c5773e-60c4-4e8b-9c48-e1e3eb8028d0
 contentOwner: admin
 content-type: reference
@@ -10,7 +10,6 @@ discoiquuid: 651b21ef-e322-4e6d-8e37-45ffd56f7a58
 feature: Dynamic Media Classic，查看器，旋转集
 role: Business Practitioner
 exl-id: af75547e-20e8-44c2-b165-01532d6e21d0
-translation-type: tm+mt
 source-git-commit: 38d09bb78834c6b3614bf2b96fd6aee5661e0a5a
 workflow-type: tm+mt
 source-wordcount: '720'
@@ -20,7 +19,7 @@ ht-degree: 87%
 
 # 将旋转集链接到网页{#linking-a-spin-set-to-a-web-page}
 
-网站和应用程序通过URL字符串或嵌入代码访问Dynamic Media Image Server内容，包括旋转集。 这些 URL 字符串在发布过程中被激活。要将旋转集的URL字符串或嵌入代码放置到您的网页和应用程序中，请从Dynamic Media Classic中复制它。
+网站和应用程序通过URL字符串或嵌入代码访问Dynamic Media图像服务器内容（包括旋转集）。 这些 URL 字符串在发布过程中被激活。要将旋转集的URL字符串或嵌入代码放置在网页和应用程序中，请从Dynamic Media Classic中复制该代码。
 
 >[!NOTE]
 >
@@ -45,7 +44,7 @@ ht-degree: 87%
 
       在“查看器列表”页面中表的“操作”列下，单击“**[!UICONTROL 复制 URL]**”。
 
-## 将旋转集 URL 添加到您的网页  {#adding-spin-set-urls-to-your-web-page}
+## 将旋转集 URL 添加到您的网页 {#adding-spin-set-urls-to-your-web-page}
 
 旋转集的部署方式与所有缩放查看器一样，即通过在缩放窗口中显示旋转集的动态页面（ASP 或 JSP）进行部署。对Dynamic Media Classic平台的URL调用遵循缩放查看器上的相同协议。 不过，查看器预设名称取决于您的管理员所定义的默认旋转集查看器预设。例如，以下非实时 URL 语法示例包括名为 `viewer.jsp` 的预设名称，而 SKU 参数现在为旋转集名称：
 
