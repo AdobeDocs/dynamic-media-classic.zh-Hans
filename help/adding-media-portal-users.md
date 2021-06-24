@@ -7,10 +7,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/media_portal
 discoiquuid: 5e933045-ce1a-41b9-ba8b-2151c396b7a2
-feature: Dynamic Media Classic,Collaboration,Asset Management
+feature: Dynamic Media Classic，协作，资产管理
 role: Administrator,Business Practitioner
 exl-id: 9590c53c-fd38-4bf2-b723-cd7369702364
-translation-type: tm+mt
 source-git-commit: 31ac96e6fd11c47284d58540f5ec0135f0e6223b
 workflow-type: tm+mt
 source-wordcount: '1009'
@@ -38,7 +37,7 @@ ht-degree: 81%
 >
 >可以更改密码的 Media Portal 用户可以通过单击“**[!UICONTROL 设置]**”>“**[!UICONTROL 个人设置]**”并在“个人设置”屏幕上更改密码来执行此操作。
 
-## 添加 Media Portal 用户  {#adding-a-media-portal-user}
+## 添加 Media Portal 用户 {#adding-a-media-portal-user}
 
 1. 单击“**[!UICONTROL 设置]**”>“**[!UICONTROL 应用程序设置]**”>“**[!UICONTROL 管理设置]**”>“**[!UICONTROL 用户管理]**”。
 1. 在“用户管理”页面上，单击“**添加**”。
@@ -60,13 +59,13 @@ ht-degree: 81%
 
 在添加用户后，Media Portal 向该用户发送一封欢迎电子邮件。该消息包括一个临时密码和 Media Portal URL。
 
-## 上载 Media Portal 用户列表  {#uploading-a-media-portal-user-list}
+## 上载 Media Portal 用户列表 {#uploading-a-media-portal-user-list}
 
 如果您要添加多个用户，可以上载一个用户列表。用户便会自动添加到当前所选的帐户中。
 
 以 CSV（逗点分隔值）文件形式创建包含用户信息的用户列表。上载此列表后，此列表中的用户便会自动添加到具有其指定组分配的帐户中。向每个新用户发送一封欢迎电子邮件，其中包括到 Media Portal 的链接和一个临时密码。
 
-### 创建 CSV 文件  {#creating-the-csv-file}
+### 创建 CSV 文件 {#creating-the-csv-file}
 
 创建一个符合以下格式和字段的 CSV 文件 (filename.csv)。该文件的第一行必须包含此表中列出的列标题；您可以根据需要对这些列进行排序。全部都是必需列。
 
@@ -87,7 +86,7 @@ ht-degree: 81%
 | 里克 | 布鲁格 | `rickb@myco.com` | 欢迎 | Media Portal 用户 | PortalCo/MktgGroup、PortalCo/test |
 
 
-### 上载 CSV 文件  {#uploading-the-csv-file}
+### 上载 CSV 文件 {#uploading-the-csv-file}
 
 1. 打开“用户管理设置”屏幕。
 1. 单击“**[!UICONTROL 上载用户列表]**”。
@@ -99,7 +98,7 @@ ht-degree: 81%
 >
 >如果 CSV 文件的格式不正确，会出现以下错误消息：“处理上载的 CSV 文件时出错”。检查文件内容是否为有效数据。此外，如果 CSV 包含现有 IP 或 IPS 用户，则该用户不会添加到“用户列表”中。
 
-## 生成一个可选择的 Media Portal 用户列表  {#generating-a-selectable-list-of-media-portal-users}
+## 生成一个可选择的 Media Portal 用户列表 {#generating-a-selectable-list-of-media-portal-users}
 
 您可以在一个弹出窗口中显示 Media Portal 用户的姓名和电子邮件地址。如果您要剪切和粘贴用户名和地址以便在 Media Portal 外部使用，此列表会非常有用。
 
@@ -109,30 +108,30 @@ ht-degree: 81%
 
 ## 为 Media Portal 用户设置欢迎电子邮件 {#setting-up-the-welcome-e-mail-message-for-media-portal-users}
 
-添加新 Media Portal 用户、参与者和参与者用户时，您可以发送一封欢迎电子邮件。您可以配置此电子邮件或告知Dynamic Media Classic不要发送它。
+添加新 Media Portal 用户、参与者和参与者用户时，您可以发送一封欢迎电子邮件。您可以配置此电子邮件，或告知Dynamic Media Classic不要发送它。
 
 1. 选择“**[!UICONTROL 设置]**”>“**[!UICONTROL 应用程序设置]**”>“**[!UICONTROL 管理设置]**”>“**[!UICONTROL 用户管理]**”。
 1. 在“用户管理设置”屏幕中，单击&#x200B;**[!UICONTROL 电子邮件设置]**。
 1. 在“电子邮件设置”对话框中，指定以下任何设置：
 
-   * **[!UICONTROL 发送电子邮件]**  — 如果您不想通过电子邮件通知新用户您已注册，请取消选择此选项。
+   * **[!UICONTROL 发送电子邮件]**  — 如果您不想通过电子邮件通知新用户您已经注册了他们，请取消选择此选项。
 
-   * **[!UICONTROL 默认密码]**  — 为新用户输入临时密码，或将字段留空以使Dynamic Media Classic生成随机密码。用户首次登录时会被要求更改密码。
+   * **[!UICONTROL 默认密码]**  — 为新用户输入临时密码，或将字段留空以使Dynamic Media Classic生成随机密码。用户在首次登录时需要更改密码。
 
-   * **[!UICONTROL 替换URL]**  — 如果用户通过其他URL访问Dynamic Media Classic，请输入与默认URL不同的URL。
+   * **[!UICONTROL 替换URL]**  — 如果您的用户通过其他URL访问Dynamic Media Classic，请输入与默认URL不同的URL。
 
 ## 其他用户管理任务 {#other-user-management-tasks}
 
 从“用户管理设置”屏幕开始，您还可以执行以下任务：
 
-* **[!UICONTROL 筛选和排序用户列表]**  — 筛选Media Portal用户的列表以查找用户。
+* **[!UICONTROL 过滤并排序用户列表]**  — 过滤Media Portal用户列表以查找用户。
 
 * **[!UICONTROL 删除用户]**  — 从列表中删除用户。
 
-* **[!UICONTROL 激活和取消激活用户]**  — 暂停用户访问文件夹。
+* **[!UICONTROL 激活和停用用户]**  — 暂停用户访问文件夹。
 
 * **[!UICONTROL 编辑用户信息]**  — 输入有关用户的最新信息。
 
-* **[!UICONTROL 创建用户定义字段]**  — 创建自定义、用户定义的元数据字段，以帮助组织Dynamic Media Classic中的资产。必要时，也可以激活或停用这些字段。
+* **[!UICONTROL 创建用户定义的字段]**  — 创建自定义的用户定义的元数据字段，以帮助组织Dynamic Media Classic中的资产。必要时，也可以激活或停用这些字段。
 
 请参阅[用户定义的字段](application-setup.md#user_defined_fields)。
