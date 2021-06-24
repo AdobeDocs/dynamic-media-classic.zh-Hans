@@ -1,16 +1,15 @@
 ---
 title: 将 eCatalog 链接到网页
-description: 了解如何将电子目录链接到网页。
+description: 了解如何将eCatalog链接到网页。
 uuid: 90098a90-180b-477a-8533-24a52a93200b
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
 discoiquuid: 140640f2-3ca4-4b6c-a240-5f01be87fa9c
-feature: Dynamic Media Classic，查看器，电子目录
+feature: Dynamic Media Classic，查看器，eCatalog
 role: Business Practitioner
 exl-id: aee72576-1e3e-401c-953d-cc2be27f7dfd
-translation-type: tm+mt
 source-git-commit: 38d09bb78834c6b3614bf2b96fd6aee5661e0a5a
 workflow-type: tm+mt
 source-wordcount: '684'
@@ -20,7 +19,7 @@ ht-degree: 85%
 
 # 将 eCatalog 链接到网页{#linking-an-ecatalog-to-a-web-page}
 
-您的网站和应用程序通过URL字符串或嵌入代码访问Dynamic Media Image Server内容，包括eCatalog。 这些 URL 字符串在发布过程中被激活。要将eCatalog的URL字符串或嵌入代码放置到网页和应用程序中，请从Dynamic Media Classic中复制它。
+您的网站和应用程序可通过URL字符串或嵌入代码访问Dynamic Media图像服务器内容（包括eCatalog）。 这些 URL 字符串在发布过程中被激活。要将eCatalog的URL字符串或嵌入代码放置在网页和应用程序中，请从Dynamic Media Classic中复制该代码。
 
 >[!NOTE]
 >
@@ -45,7 +44,7 @@ ht-degree: 85%
 
       在“查看器列表”页面中表的“操作”列下，单击“**复制 URL**”。
 
-## 将 eCatalog URL 添加网页中  {#adding-ecatalog-urls-to-your-web-page}
+## 将 eCatalog URL 添加网页中 {#adding-ecatalog-urls-to-your-web-page}
 
 部署 eCatalog 的最常用方法是在网页上放入一个 eCatalog 缩略图封面形式的链接。与 IT 团队合作，以确保在一个居中弹出的空白窗口中启动 eCatalog。请您的 IT 团队协助在浏览器中不显示工具栏和地址栏。
 
