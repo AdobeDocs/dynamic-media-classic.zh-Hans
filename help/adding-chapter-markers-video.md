@@ -7,16 +7,15 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/video
 discoiquuid: 8bc5e552-2abb-41f0-89d2-bdf3ae5d96c2
-feature: Dynamic Media Classic,Viewers,Video
+feature: Dynamic Media Classic，查看器，视频
 role: Business Practitioner
-translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+exl-id: a9250841-2dba-4fdc-8a6e-91b2fecef72f
+source-git-commit: 217e5bf81cc2108e4bf283f585dfd83d319ff7c9
 workflow-type: tm+mt
-source-wordcount: '626'
-ht-degree: 87%
+source-wordcount: '624'
+ht-degree: 85%
 
 ---
-
 
 # 在视频中添加章节标记{#adding-chapter-markers-to-video}
 
@@ -50,15 +49,15 @@ Chapter 4
 Cost-efficient access to rapidly evolving technology.
 ```
 
-在上面的示例中，`Chapter 1` 是可选的提示标识符。`00:00:000 --> 01:04:364` 提示时间使用 00:00:000 格式指定章节的开始和结束时间。最后三个数字是毫秒；如果需要，可以将其保留为 000。`The bicycle store behind it all`的章节标题是本章内容的实际描述。 在用户将鼠标指针悬停在视频时间轴中的可视提示点上时，将在视频播放器的弹出窗口中显示提示标识符、开始提示时间和章节标题。
+在上面的示例中，`Chapter 1` 是可选的提示标识符。`00:00:000 --> 01:04:364`的提示时间以00:00:000格式指定章节的开始时间和结束时间。 最后三个数字是毫秒；如果需要，可以将其保留为 000。`The bicycle store behind it all`的章节标题是章节内容的实际描述。 在用户将鼠标指针悬停在视频时间轴中的可视提示点上时，将在视频播放器的弹出窗口中显示提示标识符、开始提示时间和章节标题。
 
 由于使用的是 HTML5 视频查看器，请确保创建的章节文件遵循 WebVTT（Web 视频文本跟踪）标准。章节文件的扩展名为 .vtt。您可以了解有关 WebVTT 题注标准的详细信息。
 
-请参阅[WebVTT:Web视频文本轨道格式](https://dev.w3.org/html5/webvtt/)。
+请参阅[WebVTT:Web视频文本跟踪格式](https://dev.w3.org/html5/webvtt/)。
 
 **在视频中添加章节标记**
 
-1. 使用Dynamic Media Classic外部的简单文本编辑器创建您的视频章节文件。
+1. 使用Dynamic Media Classic以外的简单文本编辑器，创建您的视频章节文件。
 
    >[!NOTE]
    >
@@ -86,7 +85,6 @@ Cost-efficient access to rapidly evolving technology.
 
       在“嵌入代码”对话框中，单击“**[!UICONTROL 复制到剪贴板]**”。
 
-      对于HTML5 `Universal_HTML5_Video`查看器，在复制的嵌入代码后面附加以下代码：
+      对于HTML5 `Universal_HTML5_Video`查看器，将复制的嵌入代码附加到以下内容：
 
       `videoViewer.setParam("navigation","*<full Copy URL path to the chapter navigation file .vtt>*”`
-
