@@ -1,6 +1,6 @@
 ---
 title: 将样本集链接至网页
-description: 了解如何将样本集链接到网页。
+description: 了解如何将样本集关联到网页。
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -8,7 +8,6 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/swatch_sets
 feature: Dynamic Media Classic，查看器
 role: Business Practitioner
 exl-id: 8bb1c744-270a-4752-b163-443708fca6c2
-translation-type: tm+mt
 source-git-commit: 38d09bb78834c6b3614bf2b96fd6aee5661e0a5a
 workflow-type: tm+mt
 source-wordcount: '692'
@@ -47,7 +46,7 @@ ht-degree: 92%
 
 部署样本集的最常用方式是将一个链接（通过导航图标）放在网页中。单击后，链接会启动可在弹出式缩放窗口中显示样本集的动态页面（ASP 或 JSP）。缩放链接会打开一个弹出窗口，其中包含实际的缩放功能。
 
-有关更多详细信息和代码示例，请参阅《Adobe查看器参考指南》](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/zoom/c-html5-20-zoom-viewer-about.html#section-e1c3106f5b3e445d9b95be337c2f94e2)中的“嵌入HTML5缩放查看器”。[
+有关更多详细信息和代码示例，请参阅《Adobe查看器参考指南》](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/zoom/c-html5-20-zoom-viewer-about.html#section-e1c3106f5b3e445d9b95be337c2f94e2)中的[嵌入HTML5缩放查看器。
 
 ## 复制样本集查看器的嵌入代码 {#copying-the-embed-code-of-a-swatch-set-viewer}
 
@@ -80,5 +79,5 @@ ht-degree: 92%
 
 >[!MORELIKETHIS]
 >
->* [Publishing](publishing-files.md#publishing_files)
+>* [发布](publishing-files.md#publishing_files)
 
