@@ -1,16 +1,15 @@
 ---
 title: 公开资源前测试资源
-description: 了解如何在资产公开之前对其进行测试。
+description: 了解如何在将资产公开之前对其进行测试。
 uuid: 5e8f3bec-6cf1-408e-8ea1-aebde0012a70
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/upload_and_publish_assets
 discoiquuid: 52fadf99-7d11-46f7-8483-a9f87ffc2f67
-feature: Dynamic Media Classic，资产管理
+feature: Dynamic Media Classic，Asset Management
 role: Business Practitioner
 exl-id: fd78d535-391e-43eb-a8aa-25fa6c2885cb
-translation-type: tm+mt
 source-git-commit: 1beb30b9eda4487dcd549034906079dee0b3149a
 workflow-type: tm+mt
 source-wordcount: '1027'
@@ -20,11 +19,11 @@ ht-degree: 37%
 
 # 公开资源前测试资源 {#testing-assets-before-making-them-public}
 
-“安全测试”可帮助您定义安全测试环境，并基于一组可配置的IP地址和范围构建强大的B2B解决方案。 利用此功能，您可以将Dynamic Media Classic部署与内容管理和业务系统的架构相匹配。
+安全测试可帮助您定义安全测试环境，并基于一组可配置的IP地址和范围构建强大的B2B解决方案。 此功能允许您将Dynamic Media Classic部署与内容管理和业务系统的架构相匹配。
 
 通过安全测试，可以预览包含未发布内容的临时版网站。
 
-如果需要，请创建暂存环境，而不是出于以下原因公开提供资产：
+如果需要，请创建暂存环境，而不是公开提供资产，原因如下：
 
 * 在公开发布之前预览网站（临时网站）。
 * 提供要求限制访问的资源，如在 B2B Web 应用程序中显示价格的 eCatalog。
@@ -32,23 +31,23 @@ ht-degree: 37%
 
 >[!NOTE]
 >
->安全测试不会影响对Dynamic Media Classic的访问。 Dynamic Media Classic安全性保持一致，并且需要通常的凭据才能访问Dynamic Media Classic和相关Web服务。
+>安全测试不会影响对Dynamic Media Classic的访问。 Dynamic Media Classic安全性保持一致，需要使用常规凭据来访问Dynamic Media Classic和相关Web服务。
 
 ## 安全测试的工作原理 {#how-secure-testing-works}
 
 大多数公司在防火墙后运行 Internet。可以通过某些路由，通常是通过限定范围的公共 IP 地址访问 Internet。
 
-从您的公司网络，您可以使用https://whatismyip.com等网站确定您的公共IP地址，或从您的公司IT部门请求此信息。
+从您的公司网络中，您可以使用https://whatismyip.com之类的网站确定您的公共IP地址，或向您的公司IT组织请求此信息。
 
-通过安全测试，Dynamic Media Classic为登台环境或内部应用程序建立了专用的图像服务器。 对此服务器的所有请求都将检查原始 IP 地址。如果传入请求不在获批准的 IP 地址列表中，则返回失败响应。Dynamic Media Classic公司管理员为公司的安全测试环境配置IP地址的已批准列表。
+通过安全测试，Dynamic Media Classic为暂存环境或内部应用程序建立专用的图像服务器。 对此服务器的所有请求都将检查原始 IP 地址。如果传入请求不在获批准的 IP 地址列表中，则返回失败响应。Dynamic Media Classic公司管理员为其公司的安全测试环境配置已批准的IP地址列表。
 
-由于必须确认原始请求的位置，因此安全测试服务的流量不会通过内容分发网络(如公共Dynamic Media Image Server流量)路由。 与公共Dynamic Media映像服务器相比，发送到安全测试服务的请求的延迟稍高一些。
+由于必须确认原始请求的位置，因此安全测试服务的流量不会通过内容分发网络(如公共Dynamic Media图像服务器流量)路由。 与公共的Dynamic Media图像服务器相比，对安全测试服务的请求的滞后时间略高。
 
-通过安全测试服务，可以立即使用未发布的资源，无需发布。这样，您就可以在资产发布到面向公共的图像服务器之前运行预览。
+通过安全测试服务，可以立即使用未发布的资源，无需发布。这样，您就可以在将资产发布到其面向公众的图像服务器之前，运行预览。
 
 >[!NOTE]
 >
->安全测试服务使用配置了内部发布上下文的目录服务器。 因此，如果您的公司配置为发布到安全测试，则Dynamic Media Classic中所有上传的资产都会立即在安全测试服务上可用。 无论资产是否标记为在上传时发布，此功能均为true。
+>安全测试服务使用配置了内部发布上下文的目录服务器。 因此，如果您的公司配置为发布到安全测试，则Dynamic Media Classic中任何上传的资产都将立即在安全测试服务上可用。 无论资产是否标记为上传后发布，此功能都为true。
 
 安全测试服务当前支持以下资产类型和功能：
 
@@ -64,7 +63,7 @@ Last Modified Date:
 
 * 图像.
 * 晕影（渲染服务器请求）。
-* 渲染服务器请求（支持，但必须由客户明确请求）。
+* 呈现服务器请求（支持，但必须由客户明确请求）。
 * 集，包括图像集、eCatalog、渲染集和媒体集。
 * 标准Dynamic Media Classic富媒体查看器。
 * Dynamic Media Classic OnDemand JSP页。
@@ -81,7 +80,7 @@ Last Modified Date:
 
 ## 测试安全测试服务 {#testing-the-secure-testing-service}
 
-测试安全测试服务，确保其正常工作。
+测试安全测试服务以确保其正常工作。
 
 <!-- >[!NOTE]
 >
@@ -99,20 +98,20 @@ Last Modified Date:
 
  -->
 
-1. 与Adobe客户关怀联系，并请求他们在您的帐户中启用安全测试。
-1. 在Dynamic Media Classic中，在全局导航栏上，单击&#x200B;**[!UICONTROL 设置]** > **[!UICONTROL 发布设置]** > **[!UICONTROL 图像服务器]**。
+1. 请联系Adobe客户关怀团队，要求他们在您的帐户中启用安全测试。
+1. 在Dynamic Media Classic的全局导航栏上，单击&#x200B;**[!UICONTROL 设置]** > **[!UICONTROL 发布设置]** > **[!UICONTROL 图像服务器]**。
 1. 在“图像服务器发布”页面的&#x200B;**[!UICONTROL 发布上下文]**&#x200B;下拉列表中，选择&#x200B;**[!UICONTROL 测试图像服务]**。
 1. 在“客户端地址过滤器”中，单击“**[!UICONTROL 添加]**”。
-1. 选中复选框以启用（打开）地址，然后在相应的文本字段中键入IP地址和网络掩码。
+1. 选中此复选框以启用（打开）地址，然后在相应的文本字段中键入IP地址和网络掩码。
 
    >[!NOTE]
    >
-   >如果添加单个IP地址和网络掩码，则该地址可进行资产调用。 但是，您添加的任何其他IP地址和网络掩码均不允许进行资产调用。 因此，请考虑禁用（关闭）上述步骤中的复选框，以关闭指定IP地址和网络掩码的功能。 这样做会有效地允许&#x200B;*所有* IP地址进行资产调用，并且它们都会显示。
+   >如果您添加单个IP地址和网络掩码，则该地址可以发起资产调用。 但是，您添加的任何其他IP地址和网络掩码都不允许进行资产调用。 因此，请考虑禁用（关闭）上述步骤中的复选框，以关闭指定IP地址和网络掩码的功能。 这样做实际上会允许&#x200B;*所有* IP地址发起资产调用，并且它们都会显示。
 
 1. 执行以下任一操作：
-   * 如果必须添加更多IP地址，请重复前两个步骤。
-   * 继续执行下一步。
-1. 在“图像服务器发布”页面的左下角，单击&#x200B;**[!UICONTROL 保存]**
+   * 如果必须添加更多IP地址，请重复上述两个步骤。
+   * 继续下一步。
+1. 在“图像服务器发布”页面左下角，单击&#x200B;**[!UICONTROL Save]**
 1. 将所需的图像上传到您的Dynamic Media Classic帐户。
 
    请参阅[上载文件](uploading-files.md#uploading_files)。
@@ -124,14 +123,14 @@ Last Modified Date:
 1. 通过单击“**[!UICONTROL 设置]**”>“**[!UICONTROL 应用程序设置]**”>“**[!UICONTROL 常规设置]**”，确定您的安全测试服务的名称。
 1. 在“应用程序常规设置”页面上，在“服务器”组下，在“**[!UICONTROL 测试发布上下文服务器名称]**”右侧找到该名称。
 
-如果服务器名称缺失或服务器的URL不起作用，请与Adobe关怀联系。
+如果服务器名称缺失或指向服务器的URL不起作用，请联系Adobe关怀。
 
 ### 准备网站变体
 
 您需要两个网站变体，分别链接已发布和未发布的资源：
 
-* 公共版本 — 使用传统Dynamic Media Classic URL语法链接资源。
-* 暂存版本 — 使用相同的语法但使用安全测试站点名称链接资产。
+* 公共版本 — 使用传统的Dynamic Media Classic URL语法关联资产。
+* 测试版本 — 使用相同语法但具有安全测试网站名称的资产链接。
 
 ### 运行测试
 
@@ -139,9 +138,9 @@ Last Modified Date:
 
 1. 检查是否可从公司网络内部访问资源。
 
-   从由先前定义的IP地址范围标识的公司网络中，网站的暂存版本显示所有映像，无论是否标记为发布。 因此，您可以在预览批准或产品启动之前进行测试，而不会意外使图像可用。
+   在由先前定义的IP地址范围标识的公司网络中，网站的暂存版本显示所有图像，无论是否标记为发布。 因此，在预览批准或产品发布之前，您无需意外地使图像可用，即可进行测试。
 
-   确认网站的公共版本显示的已发布资产与之前使用Dynamic Media Classic时的体验相同。
+   确认您网站的公共版本显示的已发布资产与以前使用Dynamic Media Classic时一样。
 
 1. 从公司网络外部，确认未发布的资源（即未标记为发布）受到保护，第三方无法访问。
 
