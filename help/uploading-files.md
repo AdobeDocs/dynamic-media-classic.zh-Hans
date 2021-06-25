@@ -121,7 +121,7 @@ Dynamic Media Classic不提供用于生成静态内容的预览URL的选项。
 * 最佳做法是确保资源 ID 不包含空格（例如 black jacket.tif 和 blue jacket.jpg）。Dynamic Media Classic ASCII在使用资产名称构建URL字符串时，会对资产名称中的空格进行编码。 这些 ASCII 编码不易理解，从而使 URL 更难理解。
 * 文件名中允许特定语言字符。但是，文件名中不能出现以下字符：
 
-   \ ;/ ? :@ &amp; = + $ , * &quot; &lt; > | ` { } %
+   \ ;/ ? :@ &amp; = + $ , * &quot; &lt; > | &grave; { } %
 
    如果文件名包含一个或多个上述字符，将会在上载时删除这些字符。
 
