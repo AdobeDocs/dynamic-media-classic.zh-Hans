@@ -135,8 +135,7 @@ AdobeDynamic Media Classic桌面应用程序与以下操作系统兼容：
 
 1. 使用以下命令将.APP文件复制到&#x200B;**[!UICONTROL Applications]**:
 
-   `rsync -a <mount_point_path>/Adobe\ Dynamic\ Media\ Classic.app /Applications/
-Unmount DMG - hdiutil detach <mount_point_path>`
+   `rsync -a <mount_point_path>/Adobe\ Dynamic\ Media\ Classic.app /Applications/ Unmount DMG - hdiutil detach <mount_point_path>`
 
 1. 打开应用程序时，将显示新的AdobeDynamic Media Classic登录页面：
 
