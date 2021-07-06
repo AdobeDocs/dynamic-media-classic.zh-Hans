@@ -8,9 +8,9 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/target_integration
 discoiquuid: 39a05654-4f66-4f1e-aec5-ebe6d174353f
 feature: Dynamic Media Classic
-role: Data Engineer,Administrator,Business Practitioner
+role: Data Engineer,Admin,User
 exl-id: 778fd54b-a9e5-40c5-aff1-a156a5c15923
-source-git-commit: c4e2b8b42b56420269087d0d4f262490464270c0
+source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
 workflow-type: tm+mt
 source-wordcount: '283'
 ht-degree: 6%
