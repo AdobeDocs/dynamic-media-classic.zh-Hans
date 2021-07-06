@@ -8,9 +8,9 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/template_basics
 discoiquuid: 8f7093da-d215-4337-ac95-69f0a5bf8648
 feature: Dynamic Media Classic
-role: Business Practitioner
+role: User
 exl-id: 23ac1a0f-c90b-4250-ae36-93702fb5ebd9
-source-git-commit: 223bbacab2f244b91763de2ea324a5c8d777feb9
+source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
 workflow-type: tm+mt
 source-wordcount: '3382'
 ht-degree: 52%
