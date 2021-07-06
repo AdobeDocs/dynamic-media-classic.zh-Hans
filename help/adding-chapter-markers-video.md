@@ -10,22 +10,22 @@ discoiquuid: 8bc5e552-2abb-41f0-89d2-bdf3ae5d96c2
 feature: Dynamic Media Classic，查看器，视频
 role: User
 exl-id: a9250841-2dba-4fdc-8a6e-91b2fecef72f
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 885fcd16559d31d3b9bad88705b4b6bec18515ee
 workflow-type: tm+mt
-source-wordcount: '624'
-ht-degree: 85%
+source-wordcount: '627'
+ht-degree: 56%
 
 ---
 
 # 在视频中添加章节标记{#adding-chapter-markers-to-video}
 
-可通过在单个视频或自适应视频集中添加章节标记，更轻松地观看和导航较长的视频。在用户播放视频时，他们可以单击视频时间轴（也称为视频洗刷）上的章节标记以轻松导航到焦点，或者立即跳到新的内容、演示和教程，等等。
+可通过在单个视频或自适应视频集中添加章节标记，更轻松地观看和导航较长的视频。用户播放视频时，可以单击视频时间轴上的章节标记（也称为视频清理器）。 这样，他们就可以轻松导航到自己的目标点，或立即跳转到新内容、演示、教程等。
 
 >[!NOTE]
 >
 >使用的视频播放器必须支持使用章节标记。
 
-请参阅[添加或编辑视频查看器预设](previewing-videos-video-viewer.md#adding_or_editing_a_video_viewer_preset)，以便为 `Universal_HTML5_Video` 查看器 (HTML5) 配置章节导航提示点和章节标题弹出文本。
+如果要为`Universal_HTML5_Video`查看器(HTML5)配置章节导航提示点和章节标题弹出文本，请参阅[添加或编辑视频查看器预设](previewing-videos-video-viewer.md#adding_or_editing_a_video_viewer_preset)。
 
 请参阅[添加和编辑查看器预设](application-setup.md#adding_and_editing_viewer_presets)。
 
@@ -49,21 +49,21 @@ Chapter 4
 Cost-efficient access to rapidly evolving technology.
 ```
 
-在上面的示例中，`Chapter 1` 是可选的提示标识符。`00:00:000 --> 01:04:364`的提示时间以00:00:000格式指定章节的开始时间和结束时间。 最后三个数字是毫秒；如果需要，可以将其保留为 000。`The bicycle store behind it all`的章节标题是章节内容的实际描述。 在用户将鼠标指针悬停在视频时间轴中的可视提示点上时，将在视频播放器的弹出窗口中显示提示标识符、开始提示时间和章节标题。
+在上面的示例中，`Chapter 1` 是可选的提示标识符。`00:00:000 --> 01:04:364`的提示时间以00:00:000格式指定章节的开始时间和结束时间。 最后三个数字是毫秒；如果需要，可以将其保留为 000。`The bicycle store behind it all`的章节标题是章节内容的实际描述。 当指针悬停在视频时间轴中的可视提示点上时，提示标识符、开始提示时间和章节标题都会显示在视频播放器的弹出窗口中。
 
-由于使用的是 HTML5 视频查看器，请确保创建的章节文件遵循 WebVTT（Web 视频文本跟踪）标准。章节文件的扩展名为 .vtt。您可以了解有关 WebVTT 题注标准的详细信息。
+由于使用的是 HTML5 视频查看器，请确保创建的章节文件遵循 WebVTT（Web 视频文本跟踪）标准。章节文件扩展名为.VTT。 您可以了解有关 WebVTT 题注标准的详细信息。
 
-请参阅[WebVTT:Web视频文本跟踪格式](https://dev.w3.org/html5/webvtt/)。
+请参阅[WebVTT:Web视频文本跟踪格式](https://w3c.github.io/webvtt/)。
 
-**在视频中添加章节标记**
+**在视频中添加章节标记:**
 
 1. 使用Dynamic Media Classic以外的简单文本编辑器，创建您的视频章节文件。
 
    >[!NOTE]
    >
-   >要让视频章节获得英语之外的其他语言的全球支持，请注意，WebVTT 标准要求为每种要支持的语言创建单独的 .vtt 文件和调用。
+   >为全球支持英语以外语言的视频章节，WebVTT标准要求您为要支持的每种语言分别创建单独的.vtt文件和调用。
 
-1. 使用 UTF8 编码保存 .vtt 文件，以避免章节标题文本出现字符再现问题。
+1. 以UTF8编码格式保存VTT文件，以避免章节标题文本中的字符呈现问题。
 
    通常，您希望使用视频文件名命名章节 VTT 文件，并在后面附加 `chapters`。这有助于使用现有的 Web 内容管理系统自动生成视频 URL。
 
@@ -77,7 +77,7 @@ Cost-efficient access to rapidly evolving technology.
 
    * 针对弹出式视频查看器，请在名称的最右侧单击“**[!UICONTROL 复制 URL]**”。
 
-      使用下列语法附加该视频的已复制 URL，以便将其与您的题注文件的已复制 URL 相关联：
+      将复制的视频URL附加以下语法，以便将其与复制的URL关联到您的字幕文件：
 
       `&navigation=*<full Copy URL path to the chapter navigation file .vtt>*`
 
