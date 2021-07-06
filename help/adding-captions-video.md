@@ -5,9 +5,9 @@ contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 feature: Dynamic Media Classic，查看器，视频
-role: Business Practitioner
+role: User
 exl-id: 66a1ab20-6036-4c3d-bb66-dd06d917c7f2
-source-git-commit: 210c501f56f97b7fab08b71c263be1c03d3d0fac
+source-git-commit: 9ff171590c65f55cef8c9e5a2b4e77ddbbfa6895
 workflow-type: tm+mt
 source-wordcount: '897'
 ht-degree: 51%
