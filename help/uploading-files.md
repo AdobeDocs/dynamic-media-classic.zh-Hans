@@ -7,9 +7,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: b2bc3bf9-e313-481a-8670-c3bedde21b1a
 feature: Dynamic Media Classic，Asset Management
-role: Business Practitioner
+role: User
 exl-id: 8dfcfb3f-6472-4efd-bc87-d5111eee45ce
-source-git-commit: 1beb30b9eda4487dcd549034906079dee0b3149a
+source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
 workflow-type: tm+mt
 source-wordcount: '3833'
 ht-degree: 37%
@@ -121,7 +121,7 @@ Dynamic Media Classic不提供用于生成静态内容的预览URL的选项。
 * 最佳做法是确保资源 ID 不包含空格（例如 black jacket.tif 和 blue jacket.jpg）。Dynamic Media Classic ASCII在使用资产名称构建URL字符串时，会对资产名称中的空格进行编码。 这些 ASCII 编码不易理解，从而使 URL 更难理解。
 * 文件名中允许特定语言字符。但是，文件名中不能出现以下字符：
 
-   \ ;/ ? :@ &amp; = + $ , * &quot; &lt; > | &grave; { } %
+   \ ;/ ? :@ &amp; = + $ , * &quot; &lt; > | ` { } %
 
    如果文件名包含一个或多个上述字符，将会在上载时删除这些字符。
 
