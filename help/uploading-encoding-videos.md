@@ -9,9 +9,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: a0941823-850c-4373-9e37-f32032de3805
 feature: Dynamic Media Classic，查看器，视频
-role: Business Practitioner
+role: User
 exl-id: 93ad91d7-f3dd-484b-b62c-633fcb864bbf
-source-git-commit: 1beb30b9eda4487dcd549034906079dee0b3149a
+source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
 workflow-type: tm+mt
 source-wordcount: '3882'
 ht-degree: 70%
@@ -241,9 +241,9 @@ For advice about video encoding, see the following:
 
 | 视频类型 | 宽度 X 高度 | 宽度比例 | 高度比例 |
 |--- |--- |--- |--- |
-| 源视频 | 1920 x 1080 | 1 | 3 |
+| 源视频 | 1920 x 1080 | 1 | 1 |
 | 编码视频 | 960 x 540 | 2 | 2 |
-| 编码视频 | 640 x 360 | 3 | 3 |
+| 编码视频 | 640 x 360 | 3 | 1 |
 | 编码视频 | 480 x 270 | 4 | 4 |
 
 ### 编码视频文件格式 {#encoded-video-file-format}
