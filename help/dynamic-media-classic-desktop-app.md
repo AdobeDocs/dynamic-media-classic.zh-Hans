@@ -6,9 +6,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_classic
 feature: Dynamic Media Classic
-role: Administrator,Business Practitioner
+role: Admin,User
 exl-id: 604b4630-4704-4254-84b5-91b33bb19d58
-source-git-commit: cba2c0ff2478b480d51b3c0f132003e14463a08a
+source-git-commit: 9ff171590c65f55cef8c9e5a2b4e77ddbbfa6895
 workflow-type: tm+mt
 source-wordcount: '1850'
 ht-degree: 1%
