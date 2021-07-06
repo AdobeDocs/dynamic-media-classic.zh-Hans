@@ -8,9 +8,9 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
 discoiquuid: 92022dce-6534-4d93-befe-9dd2818c7b41
 feature: Dynamic Media Classic，查看器，eCatalog
-role: Business Practitioner
+role: User
 exl-id: 580cb169-0e26-412d-8dff-74dc63da25d8
-source-git-commit: c4e2b8b42b56420269087d0d4f262490464270c0
+source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
 workflow-type: tm+mt
 source-wordcount: '252'
 ht-degree: 81%
