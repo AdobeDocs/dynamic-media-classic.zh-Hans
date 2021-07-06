@@ -8,9 +8,9 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sets
 discoiquuid: 027aa3e0-f085-48ae-aff9-7b805bbdf8ab
 feature: Dynamic Media Classic，查看器，图像集
-role: Business Practitioner
+role: User
 exl-id: c8d742a4-a1a1-4b5f-bcfd-6a1972edf9bc
-source-git-commit: eb37440a2917094aae8f32e9337b4c187ec6c1c2
+source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
 workflow-type: tm+mt
 source-wordcount: '493'
 ht-degree: 33%
