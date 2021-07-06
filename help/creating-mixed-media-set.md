@@ -7,11 +7,11 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: 0ff9e763-897c-4ba5-b606-a95d5e45f35e
 feature: Dynamic Media Classic，查看器，混合媒体集
-role: Business Practitioner
+role: User
 exl-id: 18669c65-a1c4-4012-8587-cd5095f4bd4e
-source-git-commit: 7456226cf6469f40e66ff327475d4c605b6d6e13
+source-git-commit: 5f7e0c821dc2a34170e811157c9e689370d36d21
 workflow-type: tm+mt
-source-wordcount: '625'
+source-wordcount: '626'
 ht-degree: 88%
 
 ---
@@ -40,7 +40,7 @@ ht-degree: 88%
 
    >[!NOTE]
    >
-   >混合媒体集不支持具有包含以下任意字符的文件名的资产：`( ) { }`。
+   >混合媒体集不支持文件名包含以下任何字符的资产：`( ) { }`。
 
 1. 执行以下任一操作：
 
