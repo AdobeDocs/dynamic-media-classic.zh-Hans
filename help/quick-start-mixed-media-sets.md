@@ -1,5 +1,5 @@
 ---
-title: '"快速入门：混合媒体集"'
+title: “快速入门：混合媒体集”
 description: 混合媒体集的简介和快速入门可帮助您快速启动并运行。
 uuid: 0ef033d5-b053-4d7c-b1e1-1980f899fd88
 contentOwner: admin
@@ -8,9 +8,9 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/mixed_media_sets
 discoiquuid: 2708d077-94fc-4045-8992-ad3589ed9cfd
 feature: Dynamic Media Classic，查看器，混合媒体集
-role: Business Practitioner
+role: User
 exl-id: 757893ae-7507-42a0-a67b-f6542e7231c7
-source-git-commit: c5c8c4f96f18339734f4441733cdb1e7f34d3071
+source-git-commit: 591feb7ee4ac88e39941b429a8aa965d4d919738
 workflow-type: tm+mt
 source-wordcount: '637'
 ht-degree: 52%
