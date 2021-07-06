@@ -8,9 +8,9 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sizing
 discoiquuid: 1ec39fe5-7b2a-4034-9570-6b5595f97052
 feature: Dynamic Media Classic，图像预设
-role: Business Practitioner
+role: User
 exl-id: 336802cc-b032-49b2-b2e6-d699bc997ee5
-source-git-commit: 7456226cf6469f40e66ff327475d4c605b6d6e13
+source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
 workflow-type: tm+mt
 source-wordcount: '654'
 ht-degree: 66%
@@ -64,7 +64,7 @@ Dynamic Media Classic附带了一些“最佳实践”图像预设，这些预�
    |--- |--- |--- |--- |--- |
    | 交叉销售（微型缩略图） | 75 x 75 | 1.5 | 0.8 | 5 |
    | 缩略图 | 150 x 150 | 1.1 | 1 | 5 |
-   | 主图像 | 350 x 350 | 3 | 3 | 6 |
+   | 主图像 | 350 x 350 | 1 | 1 | 6 |
    | 放大 | 500 x 500 | 1.2 | 1.2 | 5 |
 
 1. 单击“**保存**”。
