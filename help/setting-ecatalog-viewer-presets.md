@@ -7,9 +7,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: 6c123f85-3bc4-4392-a7fb-55618127c65e
 feature: Dynamic Media Classic，查看器，查看器预设，eCatalog
-role: Business Practitioner
+role: User
 exl-id: 4357e6b8-fbc5-4e93-9476-db92a7dc7464
-source-git-commit: 6f3801a71dd2a5f162acacf7d8199dbf8c3520f7
+source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
 workflow-type: tm+mt
 source-wordcount: '486'
 ht-degree: 42%
