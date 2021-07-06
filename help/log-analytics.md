@@ -10,18 +10,18 @@ discoiquuid: e5b510a8-8b7f-4c60-869e-d664a8157e63
 feature: Dynamic Media Classic
 role: Data Engineer,Admin,User
 exl-id: 261b8f7c-c61c-4ce3-b9dc-8549347aca2e
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 885fcd16559d31d3b9bad88705b4b6bec18515ee
 workflow-type: tm+mt
-source-wordcount: '355'
-ht-degree: 35%
+source-wordcount: '354'
+ht-degree: 27%
 
 ---
 
 # 登录到 Adobe Analytics{#log-in-to-adobe-analytics}
 
-在登录以配置Adobe Analytics报表并将Adobe Analytics报表变量与Dynamic Media Classic事件匹配之前，请确认您是Adobe Analytics中Web服务访问组的成员。 该组中的成员可以通过 Marketing Cloud 的 Web 服务 API 访问指定报表包中的所有报表，而无论是否在界面中设置了权限。要在组中添加成员，请在 Adobe Analytics 中单击“**[!UICONTROL 管理工具]**”>“**[!UICONTROL 用户管理]**”>“**[!UICONTROL 编辑组]**”。
+在登录以配置Adobe Analytics报表并将Adobe Analytics报表变量与Dynamic Media Classic事件匹配之前，请确认您是Adobe Analytics中Web服务访问组的成员。 无论在界面中设置何种权限，此群组中的成员都可以通过Experience Cloud的Web服务API访问指定报表包中的所有报表。 要在组中添加成员，请在 Adobe Analytics 中单击“**[!UICONTROL 管理工具]**”>“**[!UICONTROL 用户管理]**”>“**[!UICONTROL 编辑组]**”。
 
-登录后，您可以选择输入Marketing Cloud组织ID以使用最新的视频分析实施。 如果您选择不输入您的ID，则视频报告仍然有效。 但是，这可能会导致数据无法与来自Dynamic Media Classic外部的该客户端的其他数据正确集成。
+登录后，您可以选择输入Experience Cloud组织ID以使用最新的视频分析实施。 如果您选择不输入您的ID，则视频报告仍然有效。 但是，这可能会导致数据无法与来自Dynamic Media Classic外部的该客户端的其他数据正确集成。
 
 >[!NOTE]
 >
@@ -32,7 +32,7 @@ ht-degree: 35%
 1. 在Dynamic Media Classic页面的右上角附近，点按&#x200B;**[!UICONTROL 设置]** > **[!UICONTROL 应用程序设置]**。
 1. 在左窗格的&#x200B;**[!UICONTROL 应用程序设置]**&#x200B;下，点按&#x200B;**[!UICONTROL Adobe Analytics]**。
 1. 在Adobe Analytics配置页面中，点按&#x200B;**[!UICONTROL Adobe Analytics登录]**。
-1. 在&#x200B;**[!UICONTROL Adobe Analytics登录]**&#x200B;对话框中，在&#x200B;**[!UICONTROL 密码]**&#x200B;文本字段中输入公司名称、Marketing Cloud组织ID（可选）、用户名和&#x200B;*共享密钥*&#x200B;键。
+1. 在&#x200B;**[!UICONTROL Adobe Analytics登录]**&#x200B;对话框中，在&#x200B;**[!UICONTROL 密码]**&#x200B;文本字段中输入公司名称、Experience Cloud组织ID（可选）、用户名和&#x200B;*共享密钥*&#x200B;键。
 
    您可以从AnalyticsAdmin Console中检索&#x200B;*共享密钥*&#x200B;密钥。 请参阅[如何获取用户帐户的API凭据](https://github.com/AdobeDocs/analytics-2.0-apis/blob/master/create-oauth-client.md)。
 
