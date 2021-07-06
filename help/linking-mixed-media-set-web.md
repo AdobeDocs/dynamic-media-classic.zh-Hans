@@ -8,12 +8,12 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/mixed_media_sets
 discoiquuid: b33dacc4-509d-4878-a769-76642bfaeb4e
 feature: Dynamic Media Classic，查看器，混合媒体集
-role: Business Practitioner
+role: User
 exl-id: 76a7530c-0cc7-4a7f-bc31-2950c4946871
-source-git-commit: 38d09bb78834c6b3614bf2b96fd6aee5661e0a5a
+source-git-commit: 591feb7ee4ac88e39941b429a8aa965d4d919738
 workflow-type: tm+mt
-source-wordcount: '645'
-ht-degree: 97%
+source-wordcount: '648'
+ht-degree: 93%
 
 ---
 
@@ -42,7 +42,7 @@ ht-degree: 97%
 
 ## 将混合媒体集 URL 添加到网页中 {#add-mixed-media-set-urls-to-your-web-page}
 
-部署混合媒体集的最常见的方法是在网页上放入一个链接（通过导航图标）。单击该链接时，该链接将启动一个动态页面（ASP 或 JSP），以在混合媒体集查看器中显示混合媒体集。
+部署混合媒体集的最常见方式是在网页上放置链接（通过导航图标）。 单击该链接时，该链接将启动一个动态页面（ASP 或 JSP），以在混合媒体集查看器中显示混合媒体集。
 
 ## 复制混合媒体集查看器的嵌入代码 {#copying-the-embed-code-of-a-mixed-media-set-viewer}
 
