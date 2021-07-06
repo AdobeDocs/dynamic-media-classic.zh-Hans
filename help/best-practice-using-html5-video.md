@@ -8,9 +8,9 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/video
 discoiquuid: 4b11cab7-88cf-42dd-8554-2eea530753bb
 feature: Dynamic Media Classic，查看器，视频
-role: Business Practitioner
+role: User
 exl-id: ce49e4ce-8dc0-41e1-865a-249f23757553
-source-git-commit: 31ac96e6fd11c47284d58540f5ec0135f0e6223b
+source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
 workflow-type: tm+mt
 source-wordcount: '431'
 ht-degree: 13%
