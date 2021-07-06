@@ -3,9 +3,9 @@ title: Popular resources
 description: 网络研讨会、培训视频、最佳实践信息和开发人员资源的链接。
 contentOwner: Rick Brough
 feature: Dynamic Media Classic
-role: Administrator,Business Practitioner
+role: Admin,User
 exl-id: f67a0645-a37d-4791-a0da-69d844fea40e
-source-git-commit: c4e2b8b42b56420269087d0d4f262490464270c0
+source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
 workflow-type: tm+mt
 source-wordcount: '556'
 ht-degree: 16%
