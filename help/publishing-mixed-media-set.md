@@ -8,9 +8,9 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/mixed_media_sets
 discoiquuid: 4e8694f7-c1b5-4d45-a18b-2b9494db1757
 feature: Dynamic Media Classic，查看器，混合媒体集
-role: Business Practitioner
+role: User
 exl-id: 1fca9640-d127-454a-b3aa-b2ac82136e62
-source-git-commit: c4e2b8b42b56420269087d0d4f262490464270c0
+source-git-commit: 591feb7ee4ac88e39941b429a8aa965d4d919738
 workflow-type: tm+mt
 source-wordcount: '258'
 ht-degree: 55%
