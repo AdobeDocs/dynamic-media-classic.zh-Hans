@@ -8,9 +8,9 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/media_portal
 discoiquuid: 43df059d-7c4d-481a-978a-ca4c74e604b4
 feature: Dynamic Media Classic，协作，资产管理
-role: Administrator
+role: Admin
 exl-id: aa268ff7-c474-409a-af3e-3fd8ae1e6241
-source-git-commit: 1beb30b9eda4487dcd549034906079dee0b3149a
+source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
 workflow-type: tm+mt
 source-wordcount: '99'
 ht-degree: 31%
