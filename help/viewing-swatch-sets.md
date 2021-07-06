@@ -8,9 +8,9 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/swatch_sets
 discoiquuid: 48de8604-2bb4-4862-82ee-0c7847f0d0e7
 feature: Dynamic Media Classic，查看器
-role: Business Practitioner
+role: User
 exl-id: 05769eeb-5f1b-42ff-9392-2669f5051140
-source-git-commit: eb37440a2917094aae8f32e9337b4c187ec6c1c2
+source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
 workflow-type: tm+mt
 source-wordcount: '454'
 ht-degree: 34%
