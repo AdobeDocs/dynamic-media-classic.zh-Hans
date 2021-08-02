@@ -1,28 +1,32 @@
 ---
-description: '按Experience League划分的Dynamic Media新闻稿是每月的新闻稿。 它旨在帮助您快速掌握Dynamic Media和Dynamic Media Classic，以便您立即实现价值。 本一站式商店快讯中提供宝贵的知识建设资源。 其中包括如何观看视频和解决方案概述。 此外，还介绍了图像预设、查看器预设和视频配置文件等关键特性和功能。 '
+description: '按Experience League存档的Dynamic Media新闻稿是每月一次的新闻稿。 它旨在帮助您快速掌握Dynamic Media和Dynamic Media Classic，以便您能够立即实现价值。 已存档的快讯包含宝贵的知识建设资源，这些资源可在此一站式商店快讯中提供，该快讯现已停止。 存档的新闻稿包括操作方法视频和解决方案概述。 此外，还介绍了图像预设、查看器预设和视频配置文件等关键特性和功能。 '
 keywords: Dynamic Media；新闻稿；产品更新；提示和技巧；事件；客户成功；博客；博客；图像；视频；功能
-title: Dynamic Media新闻稿
+title: Dynamic Media新闻稿存档
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 5f2a0cfc-d627-42be-9e68-111b65680ad8
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 6da0de3f4d50d75020e0c66119d56e24cc27fae7
 workflow-type: tm+mt
-source-wordcount: '1169'
+source-wordcount: '1067'
 ht-degree: 0%
 
 ---
 
 # ![Dynamic Media时事通讯徽标](/help/assets/dynamic-media-newsletter-logo.png)
 
-按Experience League划分的每月Dynamic Media新闻稿旨在帮助您快速了解Dynamic Media和Dynamic Media Classic，以便您能够立即开始实现价值。
+>[!NOTE]
+>
+>每月新闻稿现已终止。 但是，您仍可以访问下面的新闻稿存档。
 
-在此一站式商店快讯中，查找宝贵的知识构建资源，如操作方法视频和解决方案概述。 此外，还介绍了图像预设、查看器预设和视频配置文件等关键特性和功能。
+按Experience League排列的Dynamic Media时事通讯旨在帮助您快速掌握Dynamic Media和Dynamic Media Classic，以便您能够立即开始实现价值。
 
-## 激发灵感。 随时通知。
+在这个一站式商店存档的时事通讯中，您可以找到宝贵的知识构建资源，如操作方法视频和解决方案概述。 此外，还介绍了图像预设、查看器预设和视频配置文件等关键特性和功能。
 
-[登](https://www.adobe.com/subscription/dynamic-media-newsletter.html) 录以在您的收件箱中按月接收Dynamic Media新闻稿。
+<!-- ## Get inspired. Stay informed.
 
-## 错过了《Dynamic Media快讯》一期？
+[Sign up](https://www.adobe.com/subscription/dynamic-media-newsletter.html) to receive the Dynamic Media newsletter on a monthly basis in your inbox. -->
+
+## Dynamic Media新闻稿存档
 
 <!-- * **[May 2020, Issue 4](https://expleague.azureedge.net/assets/aem/Experience-Insider-vol.31.html)**
 
@@ -50,9 +54,9 @@ ht-degree: 0%
    * 进一步了解Adobe的免费Dynamic Media Classic审核。
    * 会见客户成功服务高级项目经理John Monroe。
 
-      >[!IMPORTANT]
-      >
-      >Adobe希望确保他们只向希望接收Dynamic Media时事通讯的人员发送该新闻稿。 要在此问题后继续接收新闻稿，请在[此处](https://nam04.safelinks.protection.outlook.com/?url=http%3A%2F%2Ft.messages.adobe.com%2Fr%2F%3Fid%3Dha6c66e%2C266d7ba%2C26edbee&amp;data=02%7C01%7Crbrough%40adobe.com%7Ce0ec0f8dde0f4eb03d9c08d7e2173fd3%7Cfa7b1b5a7b34438794aed2c178decee1%7C0%7C0%7C637226461801398160&amp;sdata=3c1oREsqy%2FeDPKC3dd4IO9dXomQ1XbokaBAYQl8obrk%3D&amp;reserved=0)注册。
+<!--     >[!IMPORTANT]
+    >
+    >Adobe wants to make sure they are only sending the Dynamic Media newsletter to people who want to receive it. To continue receiving the newsletter after this issue, sign up for it [here](https://nam04.safelinks.protection.outlook.com/?url=http%3A%2F%2Ft.messages.adobe.com%2Fr%2F%3Fid%3Dha6c66e%2C266d7ba%2C26edbee&data=02%7C01%7Crbrough%40adobe.com%7Ce0ec0f8dde0f4eb03d9c08d7e2173fd3%7Cfa7b1b5a7b34438794aed2c178decee1%7C0%7C0%7C637226461801398160&sdata=3c1oREsqy%2FeDPKC3dd4IO9dXomQ1XbokaBAYQl8obrk%3D&reserved=0). -->
 
 * **[2020年2月，第2期](https://expleague.azureedge.net/assets/dynamic-media/Dynamic_Media_Newsletter_02_2020_Feb.html)**
 
@@ -63,7 +67,7 @@ ht-degree: 0%
    * 探索如何使用Dynamic Media的裁剪魔力。
    * 为帮助您从Dynamic Media Classic中获得更多价值，请利用Adobe的免费审核。
    * 了解Dynamic Media Classic的新用户界面。
-   * 会见Adobe Experience Cloud客户成功经理Georgia Myers。
+   * 会见`Georgia Myers`,Adobe Experience Cloud客户成功经理。
 
 * **[2020年1月，第1期](https://expleague.azureedge.net/assets/dynamic-media/Dynamic_Media_Newsletter_01_2020_Jan.html)**
 
@@ -83,7 +87,7 @@ ht-degree: 0%
    * 强大的新安全功能。
    * Adobe的准备情况，让您的假日季节很成功。
    * 与您的同事共享新闻稿，以培养团队专业知识。
-   * 请见Dynamic Media高级产品经理Apoorva Gupta。
+   * 会见Dynamic Media高级产品经理`Apoorva Gupta`。
 
 * **[2019年10月，第10期](https://expleague.azureedge.net/assets/dynamic-media/Dynamic_Media_Newsletter_10_2019_Oct.html)**
 
@@ -93,7 +97,7 @@ ht-degree: 0%
    * 提供高质量图像和视频时的颌骨折结果的提示信息图。
    * 一篇CMSwire文章，可帮助您了解如何更新富媒体策略以满足当今客户的期望。
    * 访问技能培养系列中有关Dynamic Media的按需网络研讨会。
-   * 会见Adobe Experience Manager网站可靠性工程部经理Nick Peters。
+   * 满足Adobe Experience Manager站点可靠性工程部经理`Nick Peters`的要求。
    * 在Experience League中加快Dynamic Media和Dynamic Media Classic的运行速度。
 
 * **[2019年9月，09期](https://expleague.azureedge.net/assets/dynamic-media/Dynamic_Media_Newsletter_09_2019_Sept.html)**
@@ -116,7 +120,7 @@ ht-degree: 0%
    * 了解网络研讨会系列，旨在帮助您快速了解Adobe Experience Manager Assets和Dynamic Media。
    * 开始您的旅程，从Dynamic Media获取Experience League价值。
    * 今年9月将推出一款功能强大的集成，让您能够分析访客与富媒体的交互方式。
-   * 会见Dynamic Media技术支持部的PieterJan Pieper。
+   * 满足`PieterJan Pieper`,Dynamic Media技术支持wiz。
 
 * **[2019年7月，07期](https://expleague.azureedge.net/assets/dynamic-media/Dynamic_Media_Newsletter_07_2019_July.html)**
 
@@ -127,7 +131,7 @@ ht-degree: 0%
    * 下一站将观看信息丰富的Adobe内幕浏览。
    * 在Adobe Experience Manager Assets(AEM Assets)中拥有Dynamic Media时，可提供令人兴奋的功能。
    * 将360度视频和自定义视频缩略图添加到您的网站。
-   * 与AEM Assets的Dynamic Media首席解决方案顾问Andrew Hathaway会面。
+   * 会见AEM Assets内Dynamic Media的`Andrew Hathaway`首席解决方案顾问。
 
 * **[2019年6月，06期](https://expleague.azureedge.net/assets/dynamic-media/Dynamic_Media_Newsletter_06_2019_June.html)**
 
@@ -138,7 +142,7 @@ ht-degree: 0%
    * 进一步了解即将召开的Adobe内幕浏览。
    * 了解如何保护您的数字资产免遭盗用。
    * 了解AI驱动的图像智能裁剪。
-   * 与Alex Thiers会面，Alex Thiers是Dynamic Media和Dynamic Media Classic中众多伟大功能和创新背后的推动力之一。
+   * 会见`Alex Thiers`，这是Dynamic Media和Dynamic Media Classic中众多伟大功能和创新背后的驱动力之一。
 
 * **[2019年5月，05期](https://expleague.azureedge.net/assets/dynamic-media/Dynamic_Media_Newsletter_05_2019_May.html)**
 
@@ -152,7 +156,7 @@ ht-degree: 0%
 
 * **[2019年4月，04期](https://expleague.azureedge.net/assets/dynamic-media/Dynamic_Media_Newsletter_04_2019_April.html)**
 
-   欢迎阅读Dynamic Media快讯的就职典礼，Adobe的新月度快讯在Adobe Experience Manager Assets和AdobeDynamic Media Classic中为Dynamic Media用户填充了新闻、事件和资源。
+   欢迎阅读Dynamic Media快讯的就职发行，该Adobe的快讯在Adobe Experience Manager Assets和AdobeDynamic Media Classic中为Dynamic Media用户填充了新闻、事件和资源。
 
    在此问题中：
 
