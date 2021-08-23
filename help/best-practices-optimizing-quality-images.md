@@ -8,7 +8,7 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
 feature: Dynamic Media Classic，Asset Management
 role: User
 exl-id: 3c50e706-b9ed-49db-8c08-f179de52b9cf
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1c7900b2807e6b67e9802e6361e42cce893b0217
 workflow-type: tm+mt
 source-wordcount: '1465'
 ht-degree: 55%
@@ -69,7 +69,7 @@ Dynamic Media Classic包含100多个图像服务命令，用于调整和优化�
 
          此参数确定锐化的像素与周围区域必须有多大的不同，才会被视为边缘像素，而滤镜会锐化这些像素。 阈值有助于避免出现具有类似颜色的过度锐化区域，如肤色。例如，阈值为12时，会忽略肤色亮度的细微变化，以避免添加“杂色”，同时仍会为高对比度区域添加边缘对比度，如睫毛与皮肤相遇的地方。
 
-         有关如何设置这三个参数的更多信息（包括与过滤器一起使用的最佳实践），请参阅[在Adobe Scene7 Publishing System和图像服务器上锐化图像](/help/assets/s7_sharpening_images.pdf)。
+         有关如何设置这三个参数的更多信息（包括与滤镜一起使用的最佳实践），请参阅[在Dynamic Media ClassicAdobe和图像服务器](/help/assets/s7_sharpening_images.pdf)上锐化图像。
 
       * Dynamic Media Classic还允许您控制第四个参数：单色(`0,1`)。 此参数确定是使用值 `0` 将 USM 锐化分别应用于每个颜色分量，还是使用值 `1` 将 USM 锐化应用于图像亮度/强度。
 
