@@ -5,7 +5,7 @@ title: Dynamic Media新闻稿存档
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 5f2a0cfc-d627-42be-9e68-111b65680ad8
-source-git-commit: ca42d0167f72adc1b22f1e6e65b7026b6f6897a3
+source-git-commit: 0b0556cdd05b6155e5e72b3cb40021589b232101
 workflow-type: tm+mt
 source-wordcount: '1079'
 ht-degree: 0%
@@ -21,6 +21,8 @@ ht-degree: 0%
 按Experience League排列的Dynamic Media时事通讯旨在帮助您快速掌握Dynamic Media和Dynamic Media Classic，以便您能够立即开始实现价值。
 
 在这个一站式商店存档的时事通讯中，您可以找到宝贵的知识构建资源，如操作方法视频和解决方案概述。 此外，还介绍了图像预设、查看器预设和视频配置文件等关键特性和功能。
+
+<!-- microsite demo page https://experienceleague.adobe.com/tools/dynamic-media-demo/index.html -->
 
 <!-- ## Get inspired. Stay informed.
 
