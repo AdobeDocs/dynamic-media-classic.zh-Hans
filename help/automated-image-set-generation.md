@@ -1,6 +1,6 @@
 ---
 title: 自动生成图像集
-description: '了解如何自动生成图像集。 '
+description: '了解如何在Dynamic Media Classic中自动生成图像集。 '
 uuid: bd4b3252-3e77-4230-9684-cd6d28b8eecb
 contentOwner: admin
 content-type: reference
@@ -10,10 +10,10 @@ discoiquuid: 1a9b525e-6120-44c7-b11a-e56bfb7cd017
 feature: Dynamic Media Classic，查看器，图像集
 role: User
 exl-id: e2c22d93-061e-4e57-9999-120592dbd56a
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d30c98b76ebe78ff60bae87bd112de7a577182d
 workflow-type: tm+mt
-source-wordcount: '101'
-ht-degree: 85%
+source-wordcount: '107'
+ht-degree: 63%
 
 ---
 
@@ -31,13 +31,13 @@ Last Modified Date:
 
 您可以将集生成自动设为独立于上载的单独作业。
 
-**自动生成图像集**
+**自动生成图像集:**
 
-1. 单击“**[!UICONTROL 文件]**”>“**[!UICONTROL 生成集]**”。
+1. 转到&#x200B;**[!UICONTROL File]** > **[!UICONTROL Generate Set]**。
 1. 在“生成集”对话框中，指定作业名称。
 
    默认情况下，为作业指定的名称指示这是一个生成的作业以及作业的生成时间。
 
 1. 选择要应用的预设。
-1. 单击“**[!UICONTROL 目标文件夹]**”并指定要使用的文件夹。
-1. 单击“**[!UICONTROL 提交]**”。
+1. 选择&#x200B;**[!UICONTROL 目标文件夹]**，然后指定要使用的文件夹。
+1. 选择&#x200B;**[!UICONTROL Submit]**。
