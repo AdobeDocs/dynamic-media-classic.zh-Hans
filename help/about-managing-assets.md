@@ -1,5 +1,5 @@
 ---
-title: 关于管理资产
+title: 关于在Dynamic Media Classic中管理资产
 description: 关于在Dynamic Media Classic中管理资产的简介
 contentOwner: rbrough
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -7,14 +7,14 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 feature: Dynamic Media Classic，Asset Management
 role: User
 exl-id: d15aaa18-123d-442e-928f-8e71fa266a64
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d30c98b76ebe78ff60bae87bd112de7a577182d
 workflow-type: tm+mt
-source-wordcount: '157'
-ht-degree: 80%
+source-wordcount: '165'
+ht-degree: 76%
 
 ---
 
-# 关于管理资产{#about-managing-assets}
+# 关于在Dynamic Media Classic中管理资产 {#about-managing-assets}
 
 Dynamic Media Classic提供了用于管理资产的资产库。 “资源库”中包含用于存储资源文件的文件夹。在“资源库”中选择文件夹时会在浏览面板中显示该文件夹的内容。可以在浏览面板中的网格视图、列表视图或详细信息视图中查看项目。如果要关注单个资源，请在浏览面板中双击该资源，使其在详细信息视图中显示。
 
