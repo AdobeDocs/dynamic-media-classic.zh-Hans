@@ -1,6 +1,6 @@
 ---
-title: 在视频中添加章节标记
-description: 了解如何向视频添加章节标记。
+title: 向视频添加章节标记
+description: 了解如何在Dynamic Media Classic中向视频添加章节标记。
 uuid: 4e1e6daf-afc6-49d9-ac90-183fe2a903b2
 contentOwner: admin
 content-type: reference
@@ -10,16 +10,16 @@ discoiquuid: 8bc5e552-2abb-41f0-89d2-bdf3ae5d96c2
 feature: Dynamic Media Classic，查看器，视频
 role: User
 exl-id: a9250841-2dba-4fdc-8a6e-91b2fecef72f
-source-git-commit: 885fcd16559d31d3b9bad88705b4b6bec18515ee
+source-git-commit: 1d30c98b76ebe78ff60bae87bd112de7a577182d
 workflow-type: tm+mt
-source-wordcount: '627'
-ht-degree: 56%
+source-wordcount: '631'
+ht-degree: 42%
 
 ---
 
-# 在视频中添加章节标记{#adding-chapter-markers-to-video}
+# 向视频添加章节标记 {#adding-chapter-markers-to-video}
 
-可通过在单个视频或自适应视频集中添加章节标记，更轻松地观看和导航较长的视频。用户播放视频时，可以单击视频时间轴上的章节标记（也称为视频清理器）。 这样，他们就可以轻松导航到自己的目标点，或立即跳转到新内容、演示、教程等。
+可通过在单个视频或自适应视频集中添加章节标记，更轻松地观看和导航较长的视频。当用户播放视频时，他们可以选择视频时间轴上的章节标记（也称为视频清理器）。 这样，他们就可以轻松导航到自己的目标点，或立即跳转到新内容、演示、教程等。
 
 >[!NOTE]
 >
@@ -27,7 +27,7 @@ ht-degree: 56%
 
 如果要为`Universal_HTML5_Video`查看器(HTML5)配置章节导航提示点和章节标题弹出文本，请参阅[添加或编辑视频查看器预设](previewing-videos-video-viewer.md#adding_or_editing_a_video_viewer_preset)。
 
-请参阅[添加和编辑查看器预设](application-setup.md#adding_and_editing_viewer_presets)。
+另请参阅[添加和编辑查看器预设](application-setup.md#adding_and_editing_viewer_presets)。
 
 可以按照与创建题注非常类似的方法为视频创建章节列表。即，创建一个 WebVTT 文件。但要注意，该文件不能与可能还会使用的任何 WebVTT 题注文件相同；无法将题注和章节合并到一个 WebVTT 文件中。
 
@@ -69,21 +69,21 @@ Cost-efficient access to rapidly evolving technology.
 
 1. 在Dynamic Media Classic中，上传您的WebVTT章节文件。
 
-   请参阅[上载文件](uploading-files.md#uploading_files)。
+   请参阅[上传文件](uploading-files.md#uploading_files)。
 
 1. 在左侧的“资源库”面板中，导航到包含要与上载的章节文件关联的视频文件的资源文件夹。
-1. 在“资源浏览”面板中，选择单个视频资源，然后单击资源缩览图下面的“**[!UICONTROL 预览]**”>“**[!UICONTROL 查看器列表]**”。
+1. 在“资产浏览”面板中，选择一个视频资产，然后在资产的缩略图图像下方，选择&#x200B;**[!UICONTROL 预览]** > **[!UICONTROL 查看器列表]**。
 1. 在“查看器列表”表中，找到名为 **Univeral_HTML5_Video** 的 HTML5 查看器，然后执行以下操作之一：
 
-   * 针对弹出式视频查看器，请在名称的最右侧单击“**[!UICONTROL 复制 URL]**”。
+   * 对于弹出式视频查看器体验，请选择名称最右侧的&#x200B;**[!UICONTROL 复制URL]**。
 
       将复制的视频URL附加以下语法，以便将其与复制的URL关联到您的字幕文件：
 
       `&navigation=*<full Copy URL path to the chapter navigation file .vtt>*`
 
-   * 为了针对嵌入视频查看器，请在名称的最右侧单击“**[!UICONTROL 嵌入代码]**”。
+   * 对于嵌入式视频查看器体验，请选择名称最右侧的&#x200B;**[!UICONTROL 嵌入代码]**。
 
-      在“嵌入代码”对话框中，单击“**[!UICONTROL 复制到剪贴板]**”。
+      在“嵌入代码”对话框中，选择&#x200B;**[!UICONTROL 复制到剪贴板]**。
 
       对于HTML5 `Universal_HTML5_Video`查看器，将复制的嵌入代码附加到以下内容：
 
