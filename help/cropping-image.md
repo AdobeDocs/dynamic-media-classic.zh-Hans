@@ -10,10 +10,10 @@ discoiquuid: 99dfa476-4f11-4569-a27e-a76ed7787674
 feature: Dynamic Media Classic，Asset Management
 role: User
 exl-id: aec4c256-f5ed-4307-afec-dec848be95f9
-source-git-commit: 885fcd16559d31d3b9bad88705b4b6bec18515ee
+source-git-commit: 7be3f63bfadeafa71eeb2567f982f579ccb85975
 workflow-type: tm+mt
-source-wordcount: '547'
-ht-degree: 43%
+source-wordcount: '548'
+ht-degree: 39%
 
 ---
 
@@ -34,8 +34,8 @@ ht-degree: 43%
 1. 要裁剪图像，请选择其滚动图像&#x200B;**[!UICONTROL 编辑]**&#x200B;按钮，然后选择&#x200B;**[!UICONTROL 裁剪]**，或在“浏览”面板的“详细信息”视图中显示该图像，然后选择&#x200B;**[!UICONTROL 裁剪]**&#x200B;按钮。
 1. 在“裁剪编辑器”页面上，执行以下操作之一：
 
-   * 要裁切颜色像素，请转到&#x200B;**[!UICONTROL Trim]** > **[!UICONTROL Color]**。 此时将显示“按颜色自动裁切”对话框。选择&#x200B;**[!UICONTROL Corner]**&#x200B;菜单，然后选择要裁剪的背景颜色的角。 然后输入从0到1的&#x200B;**[!UICONTROL 容差]**&#x200B;设置。 如果设置为 0，则仅裁切与图像角中选定颜色精确匹配的像素。数字越接近 1，允许的色差越大。选择&#x200B;**[!UICONTROL 裁剪]**。
-   * 要裁切透明像素，请转到&#x200B;**[!UICONTROL Trim]** > **[!UICONTROL Transparent]**。 此时将显示“根据透明度自动裁切”对话框。输入容差设置，范围为 0 至 1。0设置仅会在像素透明时裁剪像素。 数字越接近 1，则裁切透明度越高的像素。选择&#x200B;**[!UICONTROL 裁剪]**。
+   * 要裁切颜色像素，请转到&#x200B;**[!UICONTROL Trim]** > **[!UICONTROL Color]**。 在&#x200B;**[!UICONTROL 自动按颜色裁剪]**&#x200B;对话框中，选择&#x200B;**[!UICONTROL 角]**&#x200B;菜单，然后选择背景颜色要裁剪掉的角。 然后输入从0到1的&#x200B;**[!UICONTROL 容差]**&#x200B;设置。 如果设置为 0，则仅裁切与图像角中选定颜色精确匹配的像素。数字越接近 1，允许的色差越大。选择&#x200B;**[!UICONTROL 裁剪]**。
+   * 要裁切透明像素，请转到&#x200B;**[!UICONTROL Trim]** > **[!UICONTROL Transparent]**。 在&#x200B;**[!UICONTROL 透明度自动裁剪]**&#x200B;对话框中，输入从0到1的公差设置。 0设置仅会在像素透明时裁剪像素。 数字越接近 1，则裁切透明度越高的像素。选择&#x200B;**[!UICONTROL 裁剪]**。
 
 1. 选择&#x200B;**[!UICONTROL Save]**。
 
