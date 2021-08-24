@@ -1,6 +1,6 @@
 ---
-title: 创建 eCatalog 图像映射
-description: 了解如何创建eCatalog图像映射。
+title: 创建eCatalog图像映射
+description: 了解如何在Dynamic Media Classic中创建eCatalog图像映射。
 uuid: 943ad3f7-a885-4bc2-88cb-77083384bdf8
 contentOwner: admin
 content-type: reference
@@ -10,18 +10,18 @@ discoiquuid: 4cf63359-63b5-4da7-9498-335d91b4776c
 feature: Dynamic Media Classic，查看器，eCatalog
 role: User
 exl-id: 5e7f39a5-36a6-40df-8752-064a582c9346
-source-git-commit: 1d30c98b76ebe78ff60bae87bd112de7a577182d
+source-git-commit: 7be3f63bfadeafa71eeb2567f982f579ccb85975
 workflow-type: tm+mt
-source-wordcount: '1487'
-ht-degree: 46%
+source-wordcount: '1491'
+ht-degree: 40%
 
 ---
 
-# 创建 eCatalog 图像映射{#creating-ecatalog-image-maps}
+# 创建eCatalog图像映射{#creating-ecatalog-image-maps}
 
 图像映射是eCatalog页面上的一个区域，您可以使用鼠标滚动该区域，或选择该区域以触发各种操作。 例如，当将指针移动到图像映射上时，您会看到项目的滚动文本描述。 当您选择图像映射时，将启动另一个操作。 例如，您可以打开网页，以便查看器可以更多地了解一个项目或购买它，您还可以启动视频来查看使用中的项目。
 
-## 绘制 eCatalog 图像映射 {#drawing-ecatalog-image-maps}
+## 绘制eCatalog图像映射 {#drawing-ecatalog-image-maps}
 
 对于 eCatalog，可以在 eCatalog 屏幕的“映射页面”选项卡上绘制图像映射。该屏幕包括显示 eCatalog 页面的图像映射区域，右侧显示“图像映射”列表。创建图像映射时，其名称会输入到“图像映射”列表中。
 
@@ -41,19 +41,19 @@ ht-degree: 46%
 
    要更便于输入URL（Href模板），请选择&#x200B;**[!UICONTROL 编辑]**&#x200B;并输入模板。
 
-请参阅[使用模板输入 JavaScript 和 URL](creating-image-maps.md#using_a_template_to_enter_javascript_and_urls)。
+请参阅[使用模板输入JavaScript和URL](creating-image-maps.md#using_a_template_to_enter_javascript_and_urls)。
 
 1. （可选）在“显示”下拉列表中，选择&#x200B;**[!UICONTROL 滚动文本]**，然后输入您希望用户在图像映射上移动指针时在屏幕上看到的文本。
 1. （可选）在“显示”下拉列表中，选择&#x200B;**[!UICONTROL 其他操作]**，然后输入属性，以在用户将指针移动到图像映射上时触发模糊或焦点操作。
 
-   请参阅[定义图像映射的其他操作](creating-image-maps.md#defining_other_actions_for_image_maps)。
+   请参阅[为图像映射定义其他操作](creating-image-maps.md#defining_other_actions_for_image_maps)。
 
 1. 选择&#x200B;**[!UICONTROL Save]**。
 1. （可选）选择&#x200B;**[!UICONTROL 预览]**&#x200B;以查看具有默认eCatalog查看器预设的eCatalog。
 
 要删除图像映射，请在图像映射列表中选择其名称，然后选择&#x200B;**[!UICONTROL Delete]**。 要在页面中临时禁用图像映射而不删除该图像映射，可以在“图像映射”列表面板上取消选择图像映射的“开”选项。
 
-## 在 eCatalog 中嵌入富媒体 {#embedding-rich-media-in-an-ecatalog}
+## 将富媒体嵌入到eCatalog中 {#embedding-rich-media-in-an-ecatalog}
 
 可以使用 eCatalog 的富媒体选项向已添加到 eCatalog 的图像映射添加 MP4 格式的视频或旋转集。当用户选择eCatalog中的图像映射区域时，将显示关联的旋转集或视频。 如果想要客户查看使用中的项目，或者从不同的角度和透视图查看项目，此功能将特别有用。
 
@@ -63,7 +63,7 @@ ht-degree: 46%
 
 1. 绘制 eCatalog 图像映射。
 
-   请参阅[绘制 eCatalog 图像映射](creating-ecatalog-image-maps.md#drawing_ecatalog_image_maps)。
+   请参阅[绘制eCatalog图像映射](creating-ecatalog-image-maps.md#drawing_ecatalog_image_maps)。
 
 1. 在“显示”下拉列表中，选择&#x200B;**[!UICONTROL 富媒体]**。
 1. 在左侧的“添加资源”面板中，导航到要嵌入的旋转集或视频（MP4 格式）资源所在的文件夹。
@@ -75,7 +75,7 @@ ht-degree: 46%
 
 从 eCatalog 屏幕的“映射页面”选项卡上开始，使用以下方法来编辑 eCatalog 图像映射：
 
-* **调整位置**  — 选择“平移”工具，将指针移到地图边框附近，但不移到边界上。当指针显示为四向箭头时，将图像映射拖动到新位置。
+* **调整位置**  — 选择“平移”工具，将指针移到地图边框附近，但不移到边框上。当指针显示为四向箭头时，将图像映射拖动到新位置。
 
    请参阅[调整图像映射的位置、形状和大小](creating-image-maps.md#adjusting_the_position_shape_and_size_of_image_maps)。
 
@@ -97,9 +97,9 @@ ht-degree: 46%
 
 >[!NOTE]
 >
->除了将图像映射复制到eCatalog中的不同页面之外，您还可以将eCatalog中的所有图像映射复制到其他eCatalog。 请参阅[在 eCatalog 之间复制图像映射](creating-ecatalog-image-maps.md#copying_image_maps_between_ecatalogs)。
+>除了将图像映射复制到eCatalog中的不同页面之外，您还可以将eCatalog中的所有图像映射复制到其他eCatalog。 请参阅[在eCatalogs之间复制图像映射](creating-ecatalog-image-maps.md#copying_image_maps_between_ecatalogs)。
 
-## 检查并导入图像映射数据 {#reviewing-and-importing-image-map-data}
+## 查看和导入图像映射数据 {#reviewing-and-importing-image-map-data}
 
 “映射摘要”屏幕提供了关于您的 eCatalog 的元数据。也可以从“映射摘要”屏幕开始为 eCatalog 批量导入图像映射数据。用这种方法导入图像映射数据可以简化图像映射 URL 及变换文本的输入。
 
@@ -129,7 +129,7 @@ ht-degree: 46%
 1. 在“作业名称”字段中，键入文件的名称（注意保留其扩展名）。
 1. 选择&#x200B;**[!UICONTROL Upload]**。
 
-## 在 eCatalog 之间复制图像映射 {#copying-image-maps-between-ecatalogs}
+## 在电子目录之间复制图像映射 {#copying-image-maps-between-ecatalogs}
 
 可以将 eCatalog 中的所有图像映射复制到其他 eCatalog 中。这种复制图像映射的方法是在相同的 eCatalog 的外语翻译之间复制图像映射的方便方法。为了成功进行复制，Dynamic Media Classic建议在具有相同页数和相同图像的eCatalog之间进行复制。
 
