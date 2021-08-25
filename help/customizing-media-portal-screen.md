@@ -1,19 +1,19 @@
 ---
 title: 自定义 Media Portal 屏幕
-description: 了解如何自定义媒体门户屏幕。
+description: 了解如何在Dynamic Media Classic中自定义媒体门户屏幕。
 uuid: bd1a65a6-723b-49d0-8eac-849da00e0e1a
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/media_portal
 discoiquuid: 8b000c25-c9c3-481e-9b25-96257471571f
-feature: Dynamic Media Classic，协作，资产管理
+feature: Dynamic Media Classic,Collaboration,Asset Management
 role: Admin,User
 exl-id: b0c5f70a-2388-42aa-a1ed-fd745ff90518
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 976f739e5233ae9da24b06cffa729353a7d03c46
 workflow-type: tm+mt
-source-wordcount: '347'
-ht-degree: 46%
+source-wordcount: '345'
+ht-degree: 32%
 
 ---
 
@@ -21,23 +21,23 @@ ht-degree: 46%
 
 通过 Media Portal 样式设置，您可以在 Media Portal 屏幕中标上您公司的徽标和颜色。使用样式设置将您的公司品牌策略放在媒体门户上。
 
-要访问样式设置，请选择“**[!UICONTROL 设置]**”>“**[!UICONTROL Media Portal 设置]**”>“**[!UICONTROL 样式设置]**”。设置后请确保单击“**[!UICONTROL 保存]**”以保存设置。您可以单击“**[!UICONTROL 还原]**”恢复默认设置。当您做出选择时，“预览”面板会向您显示您选择的样式。
+要访问样式设置，请转到&#x200B;**[!UICONTROL 设置]** > **[!UICONTROL 媒体门户设置]** > **[!UICONTROL 样式设置]**。 确保在设置后选择&#x200B;**[!UICONTROL Save]**&#x200B;以保存设置。 您可以选择&#x200B;**[!UICONTROL Restore]**&#x200B;以恢复默认设置。 在您进行选择时，“预览”面板会显示它们的显示方式。
 
-* **徽标**  — 单击“浏 **** 览”，然后在“选择徽标图像”窗口中选择图形。
+* **[!UICONTROL 徽标]**  — 选择 **[!UICONTROL 浏览]**，然后在“选择徽标图像”窗口中选择图形。
 
-* **应用**  — 通过在“背景渐变颜色”菜单中进行选择，创建渐变颜色混合。
+* **[!UICONTROL 应用]**  — 通过在“背景渐变颜色”菜单中进行选择，创建渐变颜色混合。
 
-* **树**  — 选择一种变换颜色（将指针移动到项目上时显示的颜色）和选择颜色（选择项目时显示的颜色）。
+* **[!UICONTROL 树]**  — 选择一种变换颜色（将指针移动到项目上时显示的颜色）和选择颜色（选择项目时显示的颜色）。
 
-* **折叠**  — 为“详细信息”视图屏幕右侧显示的折叠面板选择背景颜色、边框样式和滚动图像以及选定颜色。
+* **[!UICONTROL 折叠]**  — 为“详细信息”视图屏幕右侧显示的折叠面板选择背景颜色、边框样式和滚动图像以及选定颜色。
 
-* **折叠项标题**  — 选择是否在折叠项标题粗体中创建文本。
+* **[!UICONTROL 折叠项标题]**  — 选择是否在折叠项标题粗体中创建文本。
 
-* **数据网格**  — 为数据网格中的标题行选择颜色。
+* **[!UICONTROL 数据网格]**  — 为数据网格中的标题行选择颜色。
 
-* **警报**  — 为警报消息框选择背景颜色。
+* **[!UICONTROL 警报]**  — 为警报消息框选择背景颜色。
 
-* **进度栏**  — 为栏选择指示上传和下载进度的颜色。
+* **[!UICONTROL 进度栏]**  — 为栏选择指示上传和下载进度的颜色。
 
 要使Media Portal用户能够查看您选择的样式设置，他们必须将`?company=(company name)`附加到访问Media Portal的URL后面。 例如，要查看样式设置，访问 PortalCo 公司网站 (
 
