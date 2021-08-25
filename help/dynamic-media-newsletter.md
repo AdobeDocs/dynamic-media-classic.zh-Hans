@@ -1,16 +1,17 @@
 ---
+title: Dynamic Media新闻稿存档
 description: '按Experience League存档的Dynamic Media新闻稿是每月一次的新闻稿。 它旨在帮助您快速掌握Dynamic Media和Dynamic Media Classic，以便您能够立即实现价值。 已存档的快讯包含宝贵的知识建设资源，这些资源可在此一站式商店快讯中提供，该快讯现已停止。 存档的新闻稿包括操作方法视频和解决方案概述。 此外，还介绍了图像预设、查看器预设和视频配置文件等关键特性和功能。 '
 keywords: Dynamic Media；新闻稿；产品更新；提示和技巧；事件；客户成功；博客；博客；图像；视频；功能
-title: Dynamic Media新闻稿存档
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 5f2a0cfc-d627-42be-9e68-111b65680ad8
-source-git-commit: 0b0556cdd05b6155e5e72b3cb40021589b232101
+source-git-commit: 47845c30311fb9afb3fffb8502b6e7c534e4bfdb
 workflow-type: tm+mt
-source-wordcount: '1079'
+source-wordcount: '1076'
 ht-degree: 0%
 
 ---
+
 
 # ![Dynamic Media时事通讯徽标](/help/assets/dynamic-media-newsletter-logo.png)
 
