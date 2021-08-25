@@ -8,9 +8,9 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_c
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 604b4630-4704-4254-84b5-91b33bb19d58
-source-git-commit: 9ff171590c65f55cef8c9e5a2b4e77ddbbfa6895
+source-git-commit: 47845c30311fb9afb3fffb8502b6e7c534e4bfdb
 workflow-type: tm+mt
-source-wordcount: '1850'
+source-wordcount: '1841'
 ht-degree: 1%
 
 ---
@@ -25,7 +25,7 @@ Dynamic Media Classic用户现在可以访问新的桌面应用程序体验，�
 >
 >Adobe建议您在2020年10月1日之前安装新的AdobeDynamic Media Classic桌面应用程序。 这样做可确保在2020年12月31日弃用AdobeFlash Player之前实现顺利过渡。 在该日期之后，您将无法登录到AdobeDynamic Media Classic用户界面的浏览器版本，该版本在产品中标记为Dynamic Media Classic。
 
-有关[新Dynamic Media Classic登录体验的常见问题解答，请参阅。](/help/new-ui-2020.md)
+请参阅[新Dynamic Media Classic登录体验的常见问题解答。](/help/new-ui-2020.md)
 
 ## AdobeDynamic Media Classic桌面应用程序的系统要求 {#system-requirements-dmc-app}
 
@@ -87,7 +87,7 @@ AdobeDynamic Media Classic桌面应用程序与以下操作系统兼容：
 
 1. 根据您下载的安装程序执行下列操作之一。
 
-   * **对于macOS**  — 在拖放到 **[!UICONTROL 安装对话]** 框中，将 **[!UICONTROL AdobeDynamic Media]** 类拖放到应用程 **[!UICONTROL 序]**&#x200B;中。
+   * **macOS**  — 在拖放到 **[!UICONTROL 安装对话]** 框中，将AdobeDynamic Media **[!UICONTROL 类拖]** 放到应用程序 **[!UICONTROL 上]**。
 
       ![在macOS上拖放安装](/help/assets/dragondrop-install1.png)
 
@@ -96,7 +96,7 @@ AdobeDynamic Media Classic桌面应用程序与以下操作系统兼容：
 
       ![打开下载的应用程序](/help/assets/open-dmclassicapp1.png)
 
-   * **对于Windows**  — 运行安装程序二进制文件，并按照屏幕上的说明安装桌面应用程序。
+   * **Windows**  — 运行安装程序二进制文件，并按照屏幕上的说明安装桌面应用程序。
 
 1. 打开应用程序时，将显示新的AdobeDynamic Media Classic登录页面：
 
@@ -107,7 +107,7 @@ AdobeDynamic Media Classic桌面应用程序与以下操作系统兼容：
    要使用&#x200B;**[!UICONTROL Server]**，请参阅生产环境的以下映射：
 
    | 浏览器URL | 桌面应用程序服务器名称 |
-   |---|---|
+   | --- | --- |
    | https://s7sps1.scene7.com/ | NA（北美）生产 |
    | https://s7sps3.scene7.com/ | EMEA（欧洲、中东和非洲）生产 |
    | https://s7sps5.scene7.com/ | APAC（亚太地区）生产 |
@@ -149,7 +149,7 @@ AdobeDynamic Media Classic桌面应用程序与以下操作系统兼容：
    要使用&#x200B;**[!UICONTROL Server]**，请参阅生产环境的以下映射：
 
    | 浏览器URL | 桌面应用程序服务器名称 |
-   |---|---|
+   | --- | --- |
    | https://s7sps1.scene7.com/ | NA（北美）生产 |
    | https://s7sps3.scene7.com/ | EMEA（欧洲、中东和非洲）生产 |
    | https://s7sps5.scene7.com/ | APAC（亚太地区）生产 |
@@ -194,7 +194,7 @@ AdobeDynamic Media Classic桌面应用程序与以下操作系统兼容：
    要使用&#x200B;**[!UICONTROL Server]**，请参阅生产环境的以下映射：
 
    | 浏览器URL | 桌面应用程序服务器名称 |
-   |---|---|
+   | --- | --- |
    | https://s7sps1.scene7.com/ | NA（北美）生产 |
    | https://s7sps3.scene7.com/ | EMEA（欧洲、中东和非洲）生产 |
    | https://s7sps5.scene7.com/ | APAC（亚太地区）生产 |
