@@ -1,18 +1,18 @@
 ---
 title: 创建混合媒体集
-description: 了解如何创建混合媒体集。
+description: 了解如何在Dynamic Media Classic中创建混合媒体集。
 uuid: a0c6e5fa-7a85-4376-b9a3-b72ae63d3d95
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: 0ff9e763-897c-4ba5-b606-a95d5e45f35e
-feature: Dynamic Media Classic，查看器，混合媒体集
+feature: Dynamic Media Classic,Viewers,Mixed Media Sets
 role: User
 exl-id: 18669c65-a1c4-4012-8587-cd5095f4bd4e
-source-git-commit: 5f7e0c821dc2a34170e811157c9e689370d36d21
+source-git-commit: 976f739e5233ae9da24b06cffa729353a7d03c46
 workflow-type: tm+mt
-source-wordcount: '626'
-ht-degree: 88%
+source-wordcount: '625'
+ht-degree: 77%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 88%
 在创建集时，“**保存后发布**”选项按以下方式影响集和集成员：
 
 | 是否在保存之前选择了“保存后发布”选项？ | 保存后的集状态 | 保存后的集成员状态 |
-|--- |--- |--- |
+| --- | --- | --- |
 | 是 | 已发布 | 已发布 |
 | 否 | 未发布 | 集成员保持其已发布或未发布状态。 |
 
@@ -35,7 +35,7 @@ ht-degree: 88%
 
 **创建混合媒体集:**
 
-1. 单击“**[!UICONTROL 构建]**”>“**[!UICONTROL 混合媒体集]**。
+1. 转到&#x200B;**[!UICONTROL Build]** > **[!UICONTROL 混合媒体集]**。
 1. 将视频、图像集、旋转集以及样本从“资源库”拖动到“混合媒体集”屏幕。
 
    >[!NOTE]
@@ -49,9 +49,11 @@ ht-degree: 88%
    * （可选）要在查看器中添加代表某个视频的自定义缩略图，请将图像文件从“资源库”拖动到“缩略图”占位符框。
 
 1. 确保在页面右下角附近选择了“**[!UICONTROL 保存后发布]**”（默认）。
-1. 单击“**[!UICONTROL 保存]**”，选择一个文件夹以存储混合媒体集，输入该集的名称，然后单击“**[!UICONTROL 保存]**”。
+1. 选择&#x200B;**[!UICONTROL Save]**。
+1. 选择用于存储混合媒体集的文件夹，然后输入该集的名称。
+1. 选择&#x200B;**[!UICONTROL Save]**。
 
-   要查看图像集组合查看器中的图像集外观，请单击&#x200B;**[!UICONTROL 预览]**。
+   要查看图像集组合查看器中的图像集外观，请选择&#x200B;**[!UICONTROL 预览]**。
 
 ## 编辑混合媒体集 {#edit-a-mixed-media-set}
 
@@ -59,8 +61,8 @@ ht-degree: 88%
 
 无论您是编辑已发布的集还是未发布的集，**[!UICONTROL 保存后发布]**&#x200B;选项都会通过以下方式影响集和集成员：
 
-| 是否已发布集？ | 是否在保存编辑内容之前选择了“保存后发布”选项？ | 保存后的集状态 | 保存后的集成员状态 |
-|--- |--- |--- |--- |
+| 是否已发布集？ | **[!UICONTROL 在保存您]** 的编辑之前选择保存选项后发布？ | 保存后的集状态 | 保存后的集成员状态 |
+| --- |--- |--- |--- |
 | 是 | 是 | 已发布 | 已发布 |
 | 是 | 否 | 已发布 | 现有的集成员保持其已发布状态。在编辑期间添加的任何新的集成员保持其已发布或未发布状态。 |
 | 否 | 是 | 已发布 | 已发布 |
@@ -70,14 +72,14 @@ ht-degree: 88%
 
 **编辑混合媒体集:**
 
-1. 单击混合媒体集的变换“**[!UICONTROL 编辑]**”按钮。
+1. 选择混合媒体集的滚动更新&#x200B;**[!UICONTROL 编辑]**&#x200B;按钮。
 1. 执行任何以下操作：
 
-   * 要删除项目，请选择这些项目，然后单击“**[!UICONTROL 删除]**”。
+   * 要删除项目，请选择它们，然后选择&#x200B;**[!UICONTROL 删除]**。
    * 要重新对项目进行排序，请将项目拖到新位置。
 
 1. 在编辑完集后，确保在页面右下角附近选择了“**[!UICONTROL 保存后发布]**”（默认）。
-1. 单击“**[!UICONTROL 保存]**”或“**[!UICONTROL 另存为]**”。
+1. 选择&#x200B;**[!UICONTROL Save]**&#x200B;或&#x200B;**[!UICONTROL Save As]**。
 
 ## 删除混合媒体集 {#deleting-a-mixed-media-set}
 
@@ -88,4 +90,4 @@ ht-degree: 88%
 **删除混合媒体集:**
 
 1. 在网格视图、列表视图或详细信息视图中，选择一个或多个混合媒体集。
-1. 在全局导航栏上，单击“**[!UICONTROL 文件]**”>“**[!UICONTROL 删除]**”>“**[!UICONTROL 删除]**”。
+1. 在全局导航栏上，转到&#x200B;**[!UICONTROL 文件]** > **[!UICONTROL 删除]** > **[!UICONTROL 删除]**。
