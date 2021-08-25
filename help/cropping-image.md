@@ -1,19 +1,19 @@
 ---
 title: 裁切图像
-description: 了解如何裁剪图像。
+description: 了解如何在Dynamic Media Classic中裁剪图像。
 uuid: 84f199de-cbfc-4d06-877f-6e9148e82e15
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
 discoiquuid: 99dfa476-4f11-4569-a27e-a76ed7787674
-feature: Dynamic Media Classic，Asset Management
+feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: aec4c256-f5ed-4307-afec-dec848be95f9
-source-git-commit: 7be3f63bfadeafa71eeb2567f982f579ccb85975
+source-git-commit: 976f739e5233ae9da24b06cffa729353a7d03c46
 workflow-type: tm+mt
 source-wordcount: '548'
-ht-degree: 39%
+ht-degree: 35%
 
 ---
 
@@ -25,13 +25,13 @@ ht-degree: 39%
 
 >[!NOTE]
 >
->裁剪后，您可以选择&#x200B;**[!UICONTROL 另存为]**，然后使用其他名称保存图像的裁剪版本。 在“另存为”窗口中，选择“另存为新的主页”保存图像的另外一个副本。选择&#x200B;**[!UICONTROL Save As Addition View Of 主控]**，以便您可以使用其他名称保存原始版本及其裁剪版本。 选择&#x200B;**[!UICONTROL 替换原始文件]**&#x200B;以删除您从中裁剪图像的原始文件。 然后输入图像的名称，并选择&#x200B;**[!UICONTROL Submit]**。
+>裁剪后，您可以选择&#x200B;**[!UICONTROL 另存为]**，然后使用其他名称保存图像的裁剪版本。 在“另存为”窗口中，选择&#x200B;**[!UICONTROL 另存为新主控]**&#x200B;以保存图像的第二个副本。 选择&#x200B;**[!UICONTROL Save As Addition View Of 主控]**，以便您可以使用其他名称保存原始版本及其裁剪版本。 选择&#x200B;**[!UICONTROL 替换原始文件]**&#x200B;以删除您从中裁剪图像的原始文件。 然后输入图像的名称，并选择&#x200B;**[!UICONTROL Submit]**。
 
 ## 裁切以删除图像周围的空白区域 {#crop-to-remove-white-space-around-an-image}
 
 您可以将图像边缘的透明或纯色像素区域裁切掉。
 
-1. 要裁剪图像，请选择其滚动图像&#x200B;**[!UICONTROL 编辑]**&#x200B;按钮，然后选择&#x200B;**[!UICONTROL 裁剪]**，或在“浏览”面板的“详细信息”视图中显示该图像，然后选择&#x200B;**[!UICONTROL 裁剪]**&#x200B;按钮。
+1. 要裁剪图像，请选择其滚动图像&#x200B;**[!UICONTROL 编辑]**&#x200B;按钮，然后选择&#x200B;**[!UICONTROL 裁剪]**，或在“浏览面板”的“详细信息”视图中显示该图像，然后选择&#x200B;**[!UICONTROL 裁剪]**&#x200B;按钮。
 1. 在“裁剪编辑器”页面上，执行以下操作之一：
 
    * 要裁切颜色像素，请转到&#x200B;**[!UICONTROL Trim]** > **[!UICONTROL Color]**。 在&#x200B;**[!UICONTROL 自动按颜色裁剪]**&#x200B;对话框中，选择&#x200B;**[!UICONTROL 角]**&#x200B;菜单，然后选择背景颜色要裁剪掉的角。 然后输入从0到1的&#x200B;**[!UICONTROL 容差]**&#x200B;设置。 如果设置为 0，则仅裁切与图像角中选定颜色精确匹配的像素。数字越接近 1，允许的色差越大。选择&#x200B;**[!UICONTROL 裁剪]**。
@@ -63,6 +63,6 @@ ht-degree: 39%
 >[!MORELIKETHIS]
 >
 >* [上传时用于图像编辑的选项](image-editing-options-upload.md#image-editing-options-at-upload)
-* [从PDF文件裁剪空格](pdfs.md#cropping_white_space_from_a_pdf_file)
-* [从PDF页面的侧边裁剪](pdfs.md#cropping_from_the_sides_of_pdf_pages)
+>* [从PDF文件裁剪空格](pdfs.md#cropping_white_space_from_a_pdf_file)
+>* [从PDF页面的侧边裁剪](pdfs.md#cropping_from_the_sides_of_pdf_pages)
 
