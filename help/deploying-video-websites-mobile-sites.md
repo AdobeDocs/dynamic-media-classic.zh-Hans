@@ -1,19 +1,19 @@
 ---
 title: 将视频部署到网站和移动站点
-description: 了解如何将视频部署到您的网站和移动设备网站。
+description: 了解如何从Dynamic Media Classic将视频部署到您的网站和移动设备网站。
 uuid: 22bb4402-c0ab-4df0-89b9-99707d111927
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/video
 discoiquuid: 0d006314-c4cc-4f6c-a51c-6075bb445e39
-feature: Dynamic Media Classic，查看器，视频
+feature: Dynamic Media Classic,Viewers,Video
 role: User
 exl-id: 3df22d48-edb5-4927-aefb-104b53f81f1a
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 47845c30311fb9afb3fffb8502b6e7c534e4bfdb
 workflow-type: tm+mt
-source-wordcount: '1683'
-ht-degree: 63%
+source-wordcount: '1689'
+ht-degree: 35%
 
 ---
 
@@ -41,71 +41,71 @@ ht-degree: 63%
 
 1. 执行以下任一操作：
 
-   * 要在上传时自动且即时地发布视频，请在上传页面中，单击&#x200B;**[!UICONTROL 上传后发布]**。 您已完成相应的操作，不需要执行其他步骤。
-   * 要在上载后手动发布视频，请在浏览面板中选择视频，然后单击全局导航栏上的“**发布**”。
+   * 要在上传时自动且立即发布视频，请在“上传”页面中，选择&#x200B;**[!UICONTROL 上传后发布]**。 您已完成相应的操作，不需要执行其他步骤。
+   * 要在上传后手动发布视频，请在浏览面板中，选择视频，然后在全局导航栏中，选择&#x200B;**发布**。
 
-## 将视频 URL 链接到移动站点或网站 {#linking-a-video-url-to-a-mobile-site-or-a-website}
+## 将视频URL关联到移动设备网站或网站 {#linking-a-video-url-to-a-mobile-site-or-a-website}
 
 在发布视频后，您可以获取该视频的 URL 以在网站、移动站点或台式机应用程序中使用。如果要在网页顶部的弹出或模式窗口中显示视频，请使用视频 URL。
 
-在客户单击链接时，将自动检测其设备、带宽和屏幕大小。在桌面的预定义查看器中会显示适当的视频进行播放，智能手机和平板电脑在移动设备的本地视频播放器中播放。
+当客户选择链接时，会自动检测其设备、带宽和屏幕大小。 在桌面的预定义查看器中会显示适当的视频进行播放，智能手机和平板电脑在移动设备的本地视频播放器中播放。
 
-另请参阅[在网页中嵌入视频查看器](deploying-video-websites-mobile-sites.md#embedding_the_video_viewer_on_a_web_page)。
+另请参阅[将视频查看器嵌入网页](deploying-video-websites-mobile-sites.md#embedding_the_video_viewer_on_a_web_page)。
 
 **将视频 URL 链接到移动站点或网站:**
 
-1. 在“资产浏览”面板的&#x200B;**[!UICONTROL 显示]**&#x200B;下拉列表中，单击&#x200B;**[!UICONTROL 视频]**&#x200B;或&#x200B;**[!UICONTROL 自适应视频集]**。
+1. 在“资产浏览”面板的&#x200B;**[!UICONTROL 显示]**&#x200B;下拉列表中，选择&#x200B;**[!UICONTROL 视频]**&#x200B;或&#x200B;**[!UICONTROL 自适应视频集]**。
 1. 在左侧的“资源库”面板中，导航到包含要链接到的视频或自适应视频集的资源文件夹。
 1. 在“资源浏览”面板上方的工具栏右侧，执行以下任一操作：
 
-   * 单击“**[!UICONTROL 网格视图]**”或“**[!UICONTROL 列表视图]**”。在“资源浏览”面板中，双击单个资源的视频缩略图，以便在详细信息视图中将其打开。在右侧的“URL 和嵌入代码”面板中，在“HTTP 流”下面单击所需查看器右侧的“**[!UICONTROL 复制 URL]**”。最佳做法是复制与`Universal_HTML5_Video`查看器关联的URL。
-   * 单击“**[!UICONTROL 网格视图]**”。在“资源浏览”面板中，选择单个资源，然后在缩略图图像下方单击“**[!UICONTROL 预览]**”>“**[!UICONTROL 查看器列表]**”。
+   * 选择&#x200B;**[!UICONTROL 网格视图]**&#x200B;或&#x200B;**[!UICONTROL 列表视图]**。 在“资源浏览”面板中，双击单个资源的视频缩略图，以便在详细信息视图中将其打开。在右侧的“URL和嵌入代码”面板的HTTP流下，选择所需查看器右侧的&#x200B;**[!UICONTROL 复制URL]** 。 最佳做法是复制与`Universal_HTML5_Video`查看器关联的URL。
+   * 选择&#x200B;**[!UICONTROL 网格视图]**。 在“资产浏览”面板中，选择一个资产，然后在缩略图图像下方，转到&#x200B;**[!UICONTROL 预览]** > **[!UICONTROL 查看器列表]**。
 
-      在“查看器列表”页面中表的“操作”列下，单击“**[!UICONTROL 复制 URL]**”。最佳做法是复制与`Universal_HTML5_Video`查看器关联的URL。
+      在“查看器列表”页面的表的“操作”列下，选择&#x200B;**[!UICONTROL 复制URL]**。 最佳做法是复制与`Universal_HTML5_Video`查看器关联的URL。
 
-   * 单击“**[!UICONTROL 列表视图]**”。在“资源浏览”面板中，选择单个资源，然后在缩略图图像右侧单击“**[!UICONTROL 预览]**”>“**[!UICONTROL 查看器列表]**”。
+   * 选择&#x200B;**[!UICONTROL 列表视图]**。 在“资产浏览”面板中，选择一个资产，然后转到缩略图图像右侧的&#x200B;**[!UICONTROL 预览]** > **[!UICONTROL 查看器列表]**。
 
-      在“查看器列表”页面中表的“操作”列下，单击“**[!UICONTROL 复制 URL]**”。最佳做法是复制与`Universal_HTML5_Video`查看器关联的URL。
+      在“查看器列表”页面的表的“操作”列下，选择&#x200B;**[!UICONTROL 复制URL]**。 最佳做法是复制与`Universal_HTML5_Video`查看器关联的URL。
 
-   * 单击“**[!UICONTROL 网格视图]**”、“**[!UICONTROL 列表视图]**”或“**[!UICONTROL 详细信息视图]**”。在同一工具栏上，单击“**[!UICONTROL 预览]**”>“**[!UICONTROL 查看器列表]**”。
+   * 选择&#x200B;**[!UICONTROL 网格视图]**、**[!UICONTROL 列表视图]**&#x200B;或&#x200B;**[!UICONTROL 详细信息视图]**。 在同一工具栏中，转到&#x200B;**[!UICONTROL 预览]** > **[!UICONTROL 查看器列表]**。
 
-      在“查看器列表”页面中表的“操作”列下，单击“**[!UICONTROL 复制 URL]**”。最佳做法是复制与`Universal_HTML5_Video`查看器关联的URL。
+      在“查看器列表”页面的表的“操作”列下，选择&#x200B;**[!UICONTROL 复制URL]**。 最佳做法是复制与`Universal_HTML5_Video`查看器关联的URL。
 
 1. 将 HTML5 视频 URL 链接粘贴到您的网站和移动站点中。
 
-## 在网页中嵌入视频查看器 {#embedding-the-video-viewer-on-a-web-page}
+## 在网页上嵌入视频查看器 {#embedding-the-video-viewer-on-a-web-page}
 
 如果要播放网页中嵌入的视频，请使用嵌入代码功能。将嵌入代码复制到剪贴板，以便将其粘贴到网页中。 不允许在“嵌入代码”对 话框中编辑代码 。
 
-另请参阅[将视频 URL 链接到移动站点或网站](deploying-video-websites-mobile-sites.md#linking_a_video_url_to_a_mobile_site_or_a_website)。
+另请参阅[将视频URL链接到移动网站或网站](deploying-video-websites-mobile-sites.md#linking_a_video_url_to_a_mobile_site_or_a_website)。
 
 **在网页中嵌入视频查看器:**
 
-1. 在“资源浏览”面板的“显示”下拉列表中，单击“**[!UICONTROL 视频]**”或“**[!UICONTROL 自适应视频集]**”。
+1. 在“资产浏览”面板的“显示”下拉列表中，选择&#x200B;**[!UICONTROL 视频]**&#x200B;或&#x200B;**[!UICONTROL 自适应视频集]**。
 1. 在左侧的“资源库”面板中，导航到包含要复制其嵌入代码的视频或自适应视频集的资源文件夹。
 1. 在“资源浏览”面板上方的工具栏右侧，执行以下任一操作：
 
-   * 单击“**[!UICONTROL 网格视图]**”或“**[!UICONTROL 列表视图]**”。在“资源浏览”面板中，双击单个资源的视频缩略图，以便在详细信息视图中将其打开。在右侧的“URL 和嵌入代码”面板中，在“HTTP 流”下面单击所需查看器右侧的“**[!UICONTROL 嵌入代码]**”。作为最佳实践，单击与`Universal_HTML5_Video`查看器关联的&#x200B;**[!UICONTROL 嵌入代码]**。
-   * 单击“**[!UICONTROL 网格视图]**”。在“资源浏览”面板中，选择单个资源，然后在视图缩略图图像下方单击“**[!UICONTROL 预览]**”>“**[!UICONTROL 查看器列表]**”。
+   * 选择&#x200B;**[!UICONTROL 网格视图]**&#x200B;或&#x200B;**[!UICONTROL 列表视图]**。 在“资源浏览”面板中，双击单个资源的视频缩略图，以便在详细信息视图中将其打开。在右侧的“URL和嵌入代码”面板的HTTP流下，选择所需查看器右侧的&#x200B;**[!UICONTROL 嵌入代码]** 。 最好选择与`Universal_HTML5_Video`查看器关联的&#x200B;**[!UICONTROL 嵌入代码]**。
+   * 选择&#x200B;**[!UICONTROL 网格视图]**。 在“资产浏览”面板中，选择一个资产，然后在视频缩略图图像的下方，选择&#x200B;**[!UICONTROL 预览]** > **[!UICONTROL 查看器列表]**。
 
-      在“查看器列表”页面中表的“操作”列下，单击“**[!UICONTROL 嵌入代码]**”。作为最佳实践，单击与`Universal_HTML5_Video`查看器关联的&#x200B;**[!UICONTROL 嵌入代码]**。
+      在“查看器列表”页面的表的“操作”列下，选择&#x200B;**[!UICONTROL 嵌入代码]**。 最好选择与`Universal_HTML5_Video`查看器关联的&#x200B;**[!UICONTROL 嵌入代码]**。
 
-   * 单击“**[!UICONTROL 列表视图]**”。在“资源浏览”面板中，选择单个资源，然后在缩略图图像右侧单击“**[!UICONTROL 预览]**”>“**[!UICONTROL 查看器列表]**”。
+   * 选择&#x200B;**[!UICONTROL 列表视图]**。 在“资产浏览”面板中，选择一个资产，然后转到缩略图图像右侧的&#x200B;**[!UICONTROL 预览]** > **[!UICONTROL 查看器列表]**。
 
-      在“查看器列表”页面中表的“操作”列下，单击“**[!UICONTROL 嵌入代码]**”。作为最佳实践，单击与`Universal_HTML5_Video`查看器关联的&#x200B;**[!UICONTROL 嵌入代码]**。
+      在“查看器列表”页面的表的“操作”列下，选择&#x200B;**[!UICONTROL 嵌入代码]**。 最好选择与`Universal_HTML5_Video`查看器关联的&#x200B;**[!UICONTROL 嵌入代码]**。
 
-   * 单击“**[!UICONTROL 网格视图]**”、“**[!UICONTROL 列表视图]**”或“**[!UICONTROL 详细信息视图]**”。在同一工具栏上，单击“**[!UICONTROL 预览]**”>“**[!UICONTROL 查看器列表]**”。
+   * 选择&#x200B;**[!UICONTROL 网格视图]**、**[!UICONTROL 列表视图]**&#x200B;或&#x200B;**[!UICONTROL 详细信息视图]**。 在同一工具栏中，转到&#x200B;**[!UICONTROL 预览]** > **[!UICONTROL 查看器列表]**。
 
-      在“查看器列表”页面中表的“操作”列下，单击“**[!UICONTROL 嵌入代码]**”。作为最佳实践，单击与`Universal_HTML5_Video`查看器关联的&#x200B;**[!UICONTROL 嵌入代码]**。
+      在“查看器列表”页面的表的“操作”列下，选择&#x200B;**[!UICONTROL 嵌入代码]**。 最好选择与`Universal_HTML5_Video`查看器关联的&#x200B;**[!UICONTROL 嵌入代码]**。
 
-1. 在“嵌入代码”对话框中，单击“**[!UICONTROL 复制到剪贴板]**”。
+1. 在“嵌入代码”对话框中，选择&#x200B;**[!UICONTROL 复制到剪贴板]**。
 
    在“嵌入代码”对话框中不允许编辑代码。
 
-1. 单击&#x200B;**[!UICONTROL 关闭]**。
+1. 选择&#x200B;**[!UICONTROL 关闭]**。
 1. 在网页中粘贴嵌入代码。
 
-### 实施嵌入代码以将HTML5视频与MP4视频资产结合使用 {#implementing-embed-code-for-using-html-video-with-mp-video-assets}
+### 实施用于在MP4视频资产中使用HTML5视频的嵌入代码 {#implementing-embed-code-for-using-html-video-with-mp-video-assets}
 
 如果您未使用Dynamic Media Classic HTML5视频播放器，而是希望将本机HTML5 `<video>`标记与MP4视频资产结合使用，则可以使用以下嵌入代码示例：
 
@@ -119,15 +119,15 @@ ht-degree: 63%
 
 * 将`"S7 video thumbnail URL"`替换为视频的缩略图URL，即用户在播放视频之前看到的视频缩略图图像。
 
-   请参阅[获得视频缩略图 URL](deploying-video-websites-mobile-sites.md#obtaining_video_thumbnail_urls)。
+   请参阅[获取视频缩略图URL](deploying-video-websites-mobile-sites.md#obtaining_video_thumbnail_urls)。
 
 * 将`"S7 OGG video asset URL (no player)"`替换为OGG视频的视频渐进式URL。
 
-   请参阅[将视频 URL 链接到移动站点或网站](deploying-video-websites-mobile-sites.md#linking_a_video_url_to_a_mobile_site_or_a_website)。
+   请参阅[将视频URL链接到移动网站或网站](deploying-video-websites-mobile-sites.md#linking_a_video_url_to_a_mobile_site_or_a_website)。
 
 * 将`"S7 MP4 mobile progressive video asset URL (no player)"`替换为视频的移动渐进式URL。
 
-   请参阅[将视频 URL 链接到移动站点或网站](deploying-video-websites-mobile-sites.md#linking_a_video_url_to_a_mobile_site_or_a_website)。
+   请参阅[将视频URL链接到移动网站或网站](deploying-video-websites-mobile-sites.md#linking_a_video_url_to_a_mobile_site_or_a_website)。
 
 ## 使用第三方视频播放器部署视频 {#deploying-video-using-a-third-party-video-player}
 
@@ -135,7 +135,7 @@ ht-degree: 63%
 
 **使用第三方视频播放器部署视频:**
 
-1. 在Dynamic Media Classic的全局导航栏上，单击&#x200B;**[!UICONTROL 设置]** > **[!UICONTROL 应用程序设置]** > **[!UICONTROL 常规设置]**。
+1. 在Dynamic Media Classic的全局导航栏上，转到&#x200B;**[!UICONTROL 设置]** > **[!UICONTROL 应用程序设置]** > **[!UICONTROL 常规设置]**。
 1. 根据要使用的 URL 类型，请执行以下任务之一：
 
 * 生成直接HLS流视频URL（多比特率）
@@ -169,7 +169,7 @@ Dynamic Media Classic为编码视频和预编码视频生成缩略图。 您可�
 
 基于视频的第一个异构帧（不是全黑帧或全白帧等）生成缩略图。
 
-### 获得视频缩略图 URL {#obtaining-video-thumbnail-urls}
+### 获取视频缩略图URL {#obtaining-video-thumbnail-urls}
 
 Dynamic Media Classic在上传过程中自动生成视频缩略图。 缩略图显示在列表视图和网格视图中的“浏览”面板中。
 
@@ -177,9 +177,9 @@ Dynamic Media Classic在上传过程中自动生成视频缩略图。 缩略图�
 
 请参阅[发布视频](deploying-video-websites-mobile-sites.md#publishing_video)。
 
-发布后，您可以在“URL 和嵌入代码”面板的“详细信息视图”中获取视频缩略图 URL。单击视频缩略图右侧的“**[!UICONTROL 复制 URL]**”即可复制其 URL。。
+发布后，您可以在“URL 和嵌入代码”面板的“详细信息视图”中获取视频缩略图 URL。选择视频缩略图右侧的&#x200B;**[!UICONTROL 复制URL]** ，以便复制其URL。
 
-### 在视频浏览器中修改海报帧 {#modifying-poster-frames-in-video-viewers}
+### 在视频查看器中修改海报帧 {#modifying-poster-frames-in-video-viewers}
 
 *海报帧*&#x200B;是在开始播放视频之前在视频查看器中显示的初始帧。Dynamic Media Classic使用视频缩略图作为海报框架。
 
