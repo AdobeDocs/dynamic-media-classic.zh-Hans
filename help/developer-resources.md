@@ -6,13 +6,13 @@ contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: a802ead0-401e-4600-aedf-e6414f7983e1
-feature: Dynamic Media Classic，SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer
 exl-id: eaa6bf7b-ff38-4a15-b5b5-c60c3b75a35f
-source-git-commit: 4e79c98b92dfa4e1a9890ed8a291cdf564126466
+source-git-commit: 47845c30311fb9afb3fffb8502b6e7c534e4bfdb
 workflow-type: tm+mt
-source-wordcount: '273'
-ht-degree: 40%
+source-wordcount: '268'
+ht-degree: 41%
 
 ---
 
@@ -24,30 +24,29 @@ Dynamic Media Classic提供了每个Dynamic Media Classic软件模块最新主�
 
 图像提供和图像呈现参考指南，以及查看器介绍了这些服务器模块的http协议。 如果网站开发人员希望进一步自定义和使用Dynamic Media Classic富媒体以用于网站或自定义应用程序，则可以使用这些指南。 Dynamic Media Classic假定用户熟悉桌面应用程序、一般http协议标准和惯例以及基本的成像术语。
 
-
 ## Dynamic Media Classic API
 
 | 文档 | 网页地址 |
-|--- |--- |
+| --- | --- |
 | API 参考指南 | 请联系Dynamic Media Classic技术支持以获取相关文档。 |
 
 ## 图像创作
 
 | 文档 | 网页地址 |
-|--- |--- |
+| --- | --- |
 | 用户指南 | 请联系Dynamic Media Classic技术支持以获取此文档。 |
 | 发行说明 | 请联系Dynamic Media Classic技术支持以获取此文档。 |
 
 ## 图像提供和图像呈现
 
 | 文档 | 网页地址 |
-|--- |--- |
+| --- | --- |
 | API 参考指南 | [https://experienceleague.adobe.com/docs/dynamic-media-developer-resources.html](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources.html) |
 
 ## 查看器
 
 | 文档 | 网页地址 |
-|--- |--- |
+| --- | --- |
 | 查看器参考指南和发行说明 | [https://experienceleague.adobe.com/docs/dynamic-media-developer-resources.html](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources.html) |
 | 查看器库示例 | [https://landing.adobe.com/zh-Hans/na/dynamic-media/ctir-2755/live-demos.html](https://landing.adobe.com/zh-Hans/na/dynamic-media/ctir-2755/live-demos.html) |
 
