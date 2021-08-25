@@ -1,6 +1,6 @@
 ---
-title: 创建和启用图像预设
-description: 了解如何创建和启用图像预设。
+title: 创建并启用图像预设
+description: 了解如何在Dynamic Media Classic中创建并启用图像预设。
 uuid: 62cfc6fa-da91-4c42-a3ed-10956384d633
 contentOwner: admin
 content-type: reference
@@ -10,14 +10,14 @@ discoiquuid: 84257b2a-681c-4fe9-a6e5-3633c1d61d8c
 feature: Dynamic Media Classic，协作，图像预设，资产管理
 role: Admin,User
 exl-id: 94c6c388-226b-4172-a6c7-a8dcf9c0f0cf
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 7be3f63bfadeafa71eeb2567f982f579ccb85975
 workflow-type: tm+mt
-source-wordcount: '260'
-ht-degree: 81%
+source-wordcount: '264'
+ht-degree: 76%
 
 ---
 
-# 创建和启用图像预设{#creating-and-enabling-image-presets}
+# 创建并启用图像预设{#creating-and-enabling-image-presets}
 
 当用户使用 Media Portal 导出图像资源时，他们可以在“导出所选资源”对话框中选择一种“图像预设”。图像预设是一组预定义的设置，用于更改图像在导出时的外观大小、图像质量、格式、分辨率以及其他方面。
 
