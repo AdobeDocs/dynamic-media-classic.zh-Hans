@@ -1,6 +1,6 @@
 ---
-title: 启用 Adobe Analytics 视频报告
-description: 了解如何启用Adobe Analytics视频报表。
+title: 启用Adobe Analytics视频报表
+description: 了解如何在Adobe Analytics Classic中启用Dynamic Media视频报表。
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -8,14 +8,14 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/adobe_analytics_instrumentation_k
 feature: Dynamic Media Classic
 role: Data Engineer,Admin,User
 exl-id: 9d017742-1ed2-411d-a8a6-438102bf1557
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 20a5e54a9f3fa442d3a993afae07aa5b1b13e9c3
 workflow-type: tm+mt
-source-wordcount: '244'
-ht-degree: 17%
+source-wordcount: '245'
+ht-degree: 13%
 
 ---
 
-# 启用 Adobe Analytics 视频报告{#enabling-adobe-analytics-video-reports}
+# 启用Adobe Analytics视频报表{#enabling-adobe-analytics-video-reports}
 
 在Dynamic Media Classic中配置Adobe Analytics时，使用基于Adobe Analytics心率的视频报告功能，您不必再启用四个视频查看器事件（播放、暂停、停止、里程碑）。 视频心率适用于开箱即用的Dynamic Media Classic HTML5视频和混合媒体查看器。 视频播放器生成跟踪数据以在 Adobe Analytics 视频报告中查看。
 

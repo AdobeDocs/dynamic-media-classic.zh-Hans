@@ -7,13 +7,13 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
 discoiquuid: 781dacd0-ef0c-42b7-92e0-12791994874d
-feature: Dynamic Media Classic，查看器，eCatalog
+feature: Dynamic Media Classic,Viewers,eCatalog
 role: User
 exl-id: 9e2df814-465d-412a-a032-ef3e8cb462ba
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1f3a110e8d795e766c37e43ea7f878cc0eec2ec2
 workflow-type: tm+mt
-source-wordcount: '1427'
-ht-degree: 51%
+source-wordcount: '1424'
+ht-degree: 50%
 
 ---
 
@@ -87,7 +87,7 @@ eCatalog 通常由 Adobe PDF 文件生成。由于 PDF 文件要用于印刷，�
 
 可以在 eCatalog 屏幕中使用“信息面板”设置来建立和管理图像映射文本。
 
-请参阅[管理信息面板内容](info-panel-content.md#managing-info-panel-content)。
+请参阅eCatalogs](/help/info-panel-content-ecatalog.md)中的[管理信息面板内容。
 
 ## 4.设置eCatalog查看器预设
 

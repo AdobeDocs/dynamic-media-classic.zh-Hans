@@ -1,6 +1,6 @@
 ---
 title: 获取磁盘使用情况信息
-description: 了解如何获取磁盘使用信息。
+description: 了解如何在Dynamic Media Classic中获取磁盘使用信息。
 uuid: 01361693-53d0-4072-b7c3-f284631d28cf
 contentOwner: admin
 content-type: reference
@@ -9,10 +9,10 @@ discoiquuid: 6763546d-83c4-42dc-879f-6bbfc8b56482
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 337a4681-ac9a-40d9-82e8-1999bbed980c
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 20a5e54a9f3fa442d3a993afae07aa5b1b13e9c3
 workflow-type: tm+mt
-source-wordcount: '88'
-ht-degree: 88%
+source-wordcount: '89'
+ht-degree: 78%
 
 ---
 
@@ -45,7 +45,7 @@ https://s7ugc1.scene7.com/ugc/image?op=disk_info&shared_secret=d03b7e0b-c9dc-4c6
 您可以在 URL 查询字符串中使用以下字段来获取磁盘使用情况信息：
 
 | URL 参数 | 必需/可选 | 值 |
-|--- |--- |--- |
+| --- | --- | --- |
 | op | 必需 | disk_info |
 | shared_secret | 必需 | 公司的共享密钥 |
 

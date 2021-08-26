@@ -7,13 +7,13 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: eb850ec7-a669-41ea-b2b0-4c9178e34f95
-feature: Dynamic Media Classic，Asset Management
+feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 5e3b0002-5ae2-4437-862f-caa098b04362
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 20a5e54a9f3fa442d3a993afae07aa5b1b13e9c3
 workflow-type: tm+mt
-source-wordcount: '426'
-ht-degree: 63%
+source-wordcount: '425'
+ht-degree: 52%
 
 ---
 
@@ -27,28 +27,28 @@ Dynamic Media Classic会在“作业”屏幕中保留导出作业的记录。
 
 **要从Dynamic Media Classic导出资产，请执行以下操作：**
 
-1. 选择要导出的资源，然后单击“**[!UICONTROL 文件]**”>“**[!UICONTROL 导出]**”。
-1. 在“导出所选资源”窗口中，单击“**图像选项**”，然后指定以下任一选项（管理员可确定哪些选项对用户可用）：
+1. 选择要导出的资产，然后转到&#x200B;**[!UICONTROL 文件]** > **[!UICONTROL 导出]**。
+1. 在“导出所选资源”窗口中，单击“**[!UICONTROL 图像选项]**”，然后指定以下任一选项（管理员可确定哪些选项对用户可用）：
 
-   * **预设**  — （可选）在导出资产时，选择图像预设以设置资产的格式。如果选择了图像预设，其他格式选项将不可用，因为资源会采用由图像预设定义的格式。
+   * **[!UICONTROL 预设]**  — （可选）在导出资产时，选择图像预设以设置资产的格式。如果选择了图像预设，其他格式选项将不可用，因为资源会采用由图像预设定义的格式。
 
-   * **转换**  — 转换资产文件或原始图像。
+   * **[!UICONTROL 转换]**  — 转换资产文件或原始图像。
 
-   * **大小**  — 您可以选择标准大小。您也可以从“大小”下拉列表中单击“**[!UICONTROL 其他]**”，选择所需的度量单位，然后指定宽度和高度。****
+   * **[!UICONTROL 大小]**  — 您可以选择标准大小。或者，您也可以从&#x200B;**[!UICONTROL 大小]**&#x200B;下拉列表中选择&#x200B;**[!UICONTROL 其他]**，选择所需的度量单位，然后指定宽度和高度。
 
-      另请参见[指定 Media Portal 用户可以使用的导出选项](specifying-export-options-available-media.md#specifying_export_options_available_to_media_portal_users)。
+      另请参阅[指定Media Portal用户可用的导出选项](specifying-export-options-available-media.md#specifying_export_options_available_to_media_portal_users)。
 
-   * **格式**  — 选择图像格式。
+   * **[!UICONTROL 格式]**  — 选择图像格式。
 
-   * **颜色**  — 选择RGB、CMYK或灰色。
+   * **[!UICONTROL 颜色]**  — 选择RGB、CMYK或灰色。
 
-   * **分辨率**  — 选择72 ppi、150 ppi或300 ppi。
+   * **[!UICONTROL 分辨率]**  — 选择72 ppi、150 ppi或300 ppi。
 
-   * **作业名称**  — 您可以为导出分配作业名称。
+   * **[!UICONTROL 作业名称]**  — 您可以为导出分配作业名称。
 
-   * **发送电子邮件至**  — （可选）输入电子邮件地址以通过电子邮件发送资产。电子邮件会列出收件人可从中下载资源的 URL。
+   * **[!UICONTROL 发送电子邮件至]**  — （可选）如果您打算通过电子邮件发送资产，请输入电子邮件地址。电子邮件会列出收件人可从中下载资源的 URL。
 
-1. 单击“**[!UICONTROL 导出]**”。
+1. 选择&#x200B;**[!UICONTROL 导出]**。
 
 系统支持以下三种基本导出操作：
 

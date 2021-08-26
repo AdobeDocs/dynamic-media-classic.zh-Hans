@@ -7,12 +7,12 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sets
 discoiquuid: 612a425f-2840-46c4-8e5a-c0bc5f738f4e
-feature: Dynamic Media Classic，查看器，图像集
+feature: Dynamic Media Classic,Viewers,Image Sets
 role: User
 exl-id: 280e7201-84d6-46b1-94bb-0499beca2992
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1f3a110e8d795e766c37e43ea7f878cc0eec2ec2
 workflow-type: tm+mt
-source-wordcount: '553'
+source-wordcount: '547'
 ht-degree: 41%
 
 ---
@@ -41,7 +41,7 @@ Dynamic Media经典图像集为用户提供了集成的查看体验。 在动态
 
 请参阅[创建图像集](creating-image-set.md#creating-an-image-set)。
 
-另请参阅[在图像集中加入缩放目标和图像映射](including-zoom-targets-image-maps.md#including-zoom-targets-and-image-maps-in-image-sets)
+另请参阅[在图像集中加入缩放目标和图像映射](/help/including-zoom-targets-image-maps-image-sets.md)
 
 ## 3.根据需要设置图像集查看器预设
 
