@@ -1,6 +1,6 @@
 ---
 title: ICC（国际颜色联盟）配置文件
-description: 了解Dynamic Media Classic中的ICC配置文件。
+description: 了解Dynamic Media Classic中的ICC配置文件Adobe。
 uuid: 708ff2ad-9a47-4e3e-b643-5b19648f726b
 contentOwner: admin
 content-type: reference
@@ -10,10 +10,10 @@ discoiquuid: 44f1b4c4-6d7f-4e0f-84ce-11d26745e0f0
 feature: Dynamic Media Classic
 role: User
 exl-id: 989f2761-f5d0-4ece-b2a6-f7b4577aa8a2
-source-git-commit: 20a5e54a9f3fa442d3a993afae07aa5b1b13e9c3
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '446'
-ht-degree: 64%
+source-wordcount: '451'
+ht-degree: 54%
 
 ---
 
@@ -21,21 +21,21 @@ ht-degree: 64%
 
 ICC （国际色彩联盟）配置文件是描述如何正确地将图像文件从一个颜色空间转换到另一个颜色空间的文件。ICC 配置文件有助于为图像获取正确的颜色。例如，到正确地显示用于在计算机显示器上打印的图像，可以选择 ICC 配置文件。该配置文件将图像转换到不同的颜色空间并确保颜色正确地联机显示。
 
-在Dynamic Media Classic中，您可以选择ICC配置文件，以在上传图像时将图像转换为不同的色彩空间。 默认情况下，所有标准Photoshop ICC配置文件均在Dynamic Media Classic上可用。 要在“上载”屏幕中查看颜色配置文件的名称，请选择“颜色配置文件”菜单。然后选择“自定义从>到”，再从“转换至”和“转换到”菜单中选择 ICC 配置文件的名称。
+在AdobeDynamic Media Classic中，您可以选择ICC配置文件，以在上传图像时将图像转换为不同的色彩空间。 默认情况下，所有标准Photoshop ICC配置文件均可在AdobeDynamic Media Classic上使用。 要在“上载”屏幕中查看颜色配置文件的名称，请选择“颜色配置文件”菜单。然后选择“自定义从>到”，再从“转换至”和“转换到”菜单中选择 ICC 配置文件的名称。
 
 请参阅上载](image-editing-options-upload.md#image-editing-options-at-upload)时的[图像编辑选项。
 
-除了使用默认的ICC配置文件外，您还可以将其他ICC配置文件上传到Dynamic Media Classic，并使其可用于色彩空间转换。 在浏览面板中切换到详细信息视图，以便调查 ICC 配置文件的配置文件类、颜色空间类型和 PCS 类型。
+除了使用默认的ICC配置文件外，您还可以上传其他ICC配置文件以AdobeDynamic Media Classic，并使其可用于色彩空间转换。 在“浏览”面板中切换到“详细信息视图”，以调查ICC配置文件的配置文件类、色彩空间类型和PCS类型。
 
 ## 上传ICC配置文件 {#uploading-icc-profiles}
 
-通过与上载文件时所使用的技术相同的技术上载 ICC 配置文件。您可以将ICC配置文件存储在任何Dynamic Media Classic文件夹中。
+通过与上载文件时所使用的技术相同的技术上载 ICC 配置文件。您可以将ICC配置文件存储在任何AdobeDynamic Media Classic文件夹中。
 
 请参阅[上传文件](uploading-files.md#uploading_your_files)。
 
 ## 检查ICC配置文件 {#examining-an-icc-profile}
 
-要检查 ICC 配置文件，请在浏览面板中选择该文件并在详细信息视图中进行显示。“详细信息视图”提供了有关ICC配置文件的以下信息：
+要检查ICC配置文件，请在“浏览”面板中选择该配置文件，然后在“详细信息视图”中显示该配置文件。 “详细信息视图”提供了有关ICC配置文件的以下信息：
 
 * **[!UICONTROL 配置文件类]**  - ICC（国际颜色联盟）定义每个类以涵盖应用程序类型。例如，输入配置文件应用于数码相机和扫描仪等设备，输出配置文件应用于打印机。
 

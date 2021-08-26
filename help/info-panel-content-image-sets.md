@@ -1,6 +1,6 @@
 ---
 title: 管理图像集中的信息面板内容
-description: 了解如何在Dynamic Media Classic中管理图像集中的信息面板内容。
+description: 了解如何在Dynamic Media Classic中管理图像集中的“信息面板”Adobe。
 uuid: ed7b4344-f180-41fc-a95a-62a9767dc056
 contentOwner: rbrough
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -10,9 +10,9 @@ discoiquuid: ba5d1fb1-af54-471c-a471-853ace7f72fd
 feature: Dynamic Media Classic,Viewers,Image Sets
 role: User
 exl-id: 09fafdb4-51e2-4719-83b6-056f79d1ba9e
-source-git-commit: bb387446f294cf1e90d26ae1df4422879ad29db7
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '764'
+source-wordcount: '767'
 ht-degree: 51%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 51%
 
 除了在图像集中将图像映射文本用于变换之外，还可以使用“信息面板”添加大量变换文本（包括链接）。还可以使用定时缓存和计划内容更新来管理信息面板。
 
-您可以在Dynamic Media Classic中使用以下功能管理InfoPanel设置和数据：
+您可以使用Dynamic Media Classic中的以下功能管理InfoPanel设置和Adobe:
 
 * “信息面板设置”面板可用来指定用于显示“信息面板”文本、默认错误响应以及信息缓存的小时数等信息的模板。此外，可以指定是否自动发布图像集。
 * “信息面板数据馈送”面板允许您指定一个CSV文件，其中包含要在“信息”面板滚动更新文本中显示的文本，并计划更新信息的时间。
@@ -40,7 +40,7 @@ ht-degree: 51%
    * 要使用默认响应，请选择&#x200B;**[!UICONTROL Default]**。 模板设计的 XML 在“用户模板”文本框中灰显。
    * 要创建自己的响应模板，请选择&#x200B;**[!UICONTROL Custom]**。 在“用户模板”文本框中，键入模板 XML 定义。您可以使用已在该文本框定义的默认模板作为您自己的响应的基模板。
 
-1. （可选）在默认响应框中，键入当Dynamic Media Classic在检索图像映射信息时遇到错误时要显示的文本。 例如，如果系统收到公司名称和图像集名称，但是没有变换标识符，则将为用户显示该消息。
+1. （可选）在默认响应框中，键入在AdobeDynamic Media Classic在检索图像映射信息时遇到错误时要显示的文本。 例如，如果系统收到公司名称和图像集名称，但是没有变换标识符，则将为用户显示该消息。
 1. 在“响应 TTL”文本字段中，输入要在缓存数据之前等待的小时数。
 
    * 如果在一整天内需要频繁更新数据，则设置一个较小的值。

@@ -7,25 +7,25 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/zoom
 discoiquuid: 5023a933-e229-4d3c-8e91-3ac5e9f4970b
-feature: Dynamic Media Classic，查看器，缩放
+feature: Dynamic Media Classic,Viewers,Zoom
 role: User
 exl-id: ddaaff6c-5447-408e-9c92-bcdfd1a0e72e
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '607'
+source-wordcount: '606'
 ht-degree: 52%
 
 ---
 
 # 设置缩放查看器预设{#setting-up-zoom-viewer-presets}
 
-缩放查看器预设可确定缩放查看器的样式、行为和外观。Dynamic Media Classic提供了许多用于自定义和设置查看器外观的选项。 Dynamic Media Classic提供了默认的基本（快速）、弹出和自定义缩放查看器预设。 如果您是管理员，则可以创建公司缩放查看器预设或编辑默认预设，然后使用新名称进行保存。
+缩放查看器预设可确定缩放查看器的样式、行为和外观。AdobeDynamic Media Classic提供了许多用于自定义和设置查看器外观的选项。 AdobeDynamic Media Classic附带默认的基本（快速）、弹出式和自定义缩放查看器预设。 如果您是管理员，则可以创建公司缩放查看器预设或编辑默认预设，然后使用新名称进行保存。
 
 所有缩放查看器都带有用于放大、缩小、平移并在缩放后将图像重置为原始状态的按钮。这些按钮的外观以及窗口本身的显示方式取决于您选择的缩放查看器预设。 您可以使用不同的颜色、边框、字体及图像设置来配置缩放查看器预设。配置引导式缩放查看器时，还可以选择缩放目标的放置位置。缩放目标指的是用户单击后可缩放到指定区域的缩略图。
 
 ## 关于缩放查看器预设 {#about-zoom-viewer-presets}
 
-Dynamic Media Classic提供了以下缩放查看器预设：
+AdobeDynamic Media Classic提供了以下缩放查看器预设：
 
 * **缩放查看器：基本**  — 提供对原始图像的基本缩放。
 
@@ -35,7 +35,7 @@ Dynamic Media Classic提供了以下缩放查看器预设：
 
 例如，如果您的主图像大小是 350 X 350 像素，缩放系数为 3，则生成的弹出图像是 1050 X 1050 像素。如果您的主图像大小是 300 X 300 像素，缩放系数为 4，则弹出图像是 1200 X 1200 像素。根据 JPEG 品质设置（推荐的设置介于 80-90），您可以显著地减少文件大小。建议的缩放系数为 2.5 至 4，取决于您的主图像的大小。
 
-Dynamic Media Classic建议以下参数用于快速缩小查看器预设：
+AdobeDynamic Media Classic建议以下参数用于快速缩小查看器预设：
 
 * **放大图像大小**  — 大约1500 x 1500像素，不超过2000 x 2000像素。
 
@@ -65,5 +65,5 @@ Dynamic Media Classic建议以下参数用于快速缩小查看器预设：
 
 >[!MORELIKETHIS]
 >
->* [创建和编辑查看器预设](application-setup.md#adding_and_editing_viewer_presets)
+>* [Creating and editing Viewer Presets](application-setup.md#adding_and_editing_viewer_presets)
 

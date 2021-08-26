@@ -1,6 +1,6 @@
 ---
 title: 上传时的图像微调选项
-description: 了解在Dynamic Media Classic中上传时可用的图像微调选项。
+description: 了解在上传时在Dynamic Media Classic中提供的图像微调选项Adobe。
 uuid: 0912ae6f-41c9-41b5-94d1-e266face782e
 contentOwner: admin
 content-type: reference
@@ -10,9 +10,9 @@ discoiquuid: d3f21cdf-2cb3-46e8-955a-b8daf0b233bc
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 2d9fc6d8-973f-4aaa-bc2c-b49cda2cde58
-source-git-commit: 20a5e54a9f3fa442d3a993afae07aa5b1b13e9c3
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '1161'
+source-wordcount: '1166'
 ht-degree: 51%
 
 ---
@@ -58,7 +58,7 @@ ht-degree: 51%
 
 * **[!UICONTROL 保留原始色彩空间]**  — 保留原始色彩空间。
 
-* **[!UICONTROL 自定义自]**  >  **[!UICONTROL 至]**  — 打开菜单，以便您可以选择“从中转换”和“转换为色彩空间”。您可以选择标准的Photoshop色彩空间或上传到Dynamic Media Classic的色彩空间。
+* **[!UICONTROL 自定义自]**  >  **[!UICONTROL 至]**  — 打开菜单，以便您可以选择“从中转换”和“转换为色彩空间”。您可以选择标准的Photoshop色彩空间或上传到AdobeDynamic Media Classic的色彩空间。
 
 请参阅[ICC 配置文件](icc-profiles.md#icc_profiles)。
 
@@ -76,7 +76,7 @@ ht-degree: 51%
 
 | USM 锐化选项 | 说明 |
 | --- | --- |
-| 数量 | 控制应用于边缘像素的对比度数量。<br><br>将其视为效果的强度。Dynamic Media Classic中USM锐化的量值与Adobe Photoshop中的量值之间的主要区别在于，Photoshop的量范围在1%到500%之间。 而在Dynamic Media Classic中，值的范围是0.0到5.0。在Dynamic Media Classic中，值为5.0大致相当于Photoshop中的500%;值0.9等于90%，依此类推。 |
+| 数量 | 控制应用于边缘像素的对比度数量。<br><br>将其视为效果的强度。在Adobe Dynamic Media Classic中，USM锐化的量值与在Adobe Photoshop中的量值之间的主要区别是，Photoshop的量范围在1%到500%之间。 而在Adobe Dynamic Media Classic中，值范围为0.0到5.0。在AdobeDynamic Media Classic中，值为5.0大致相当于在Photoshop中的500%;值0.9等于90%，依此类推。 |
 | 半径 | 控制效果的半径。<br><br>值范围是 0-250。此效果应用于图像中的所有像素，并从所有像素向四面八方辐射。半径以像素为单位。例如，要对2000 x 2000像素图像和500 x 500像素图像获得类似的锐化效果，应在2000 x 2000像素图像上设置两个像素的半径。 然后，在500 x 500像素图像上设置一个像素的半径值。 较大的值用于具有更多像素的图像。 |
 | 阈值 | 阈值是在应用 USM 锐化滤镜时忽略的对比度范围。此效果很重要，因此在使用此滤镜时，图像不会引入“杂色”。 值范围是 0-255，它是灰度图像中亮度级的数目。0=黑色，128=50% 灰色，255=白色。<br><br>例如，阈值 12 忽略肤色亮度的细微变化以避免产生杂色，但仍会在对比强烈的区域中添加边缘对比度，例如，睫毛与皮肤交接的位置。<br><br>例如，如果您有某人的脸部照片，则“钝化蒙版”会影响图像的反面部分。例如，睫毛和皮肤会聚以创建明显的对比度区域，以及平滑的皮肤本身。 甚至最平滑的皮肤也会展现亮度值的细微更改。如果不使用阈值，该滤镜将强调皮肤像素的这些细微变化。反过来，将产生不需要的杂色效果，同时还会增加睫毛的对比度，从而提高清晰度。<br><br>为了避免出现该问题，请使用此类阈值：可使滤镜忽略未显著更改对比度的像素（如平滑的皮肤）。<br><br>在前面显示的拉链图像中，请注意拉链旁边的纹理。将显示图像杂色，因为阈值太低而无法抑制杂色。 |
 | 单色 | 选择 USM 锐化图像亮度（强度）。<br><br>分别取消选择每个颜色分量的 USM 锐化。 |

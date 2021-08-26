@@ -7,19 +7,19 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/upload_and_publish_assets
 discoiquuid: 52fadf99-7d11-46f7-8483-a9f87ffc2f67
-feature: Dynamic Media Classic，Asset Management
+feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: fd78d535-391e-43eb-a8aa-25fa6c2885cb
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '1027'
+source-wordcount: '1036'
 ht-degree: 37%
 
 ---
 
 # 公开资源前测试资源 {#testing-assets-before-making-them-public}
 
-安全测试可帮助您定义安全测试环境，并基于一组可配置的IP地址和范围构建强大的B2B解决方案。 此功能允许您将Dynamic Media Classic部署与内容管理和业务系统的架构相匹配。
+安全测试可帮助您定义安全测试环境，并基于一组可配置的IP地址和范围构建强大的B2B解决方案。 此功能允许您将AdobeDynamic Media Classic部署与内容管理和业务系统的架构相匹配。
 
 通过安全测试，可以预览包含未发布内容的临时版网站。
 
@@ -31,7 +31,7 @@ ht-degree: 37%
 
 >[!NOTE]
 >
->安全测试不会影响对Dynamic Media Classic的访问。 Dynamic Media Classic安全性保持一致，需要使用常规凭据来访问Dynamic Media Classic和相关Web服务。
+>安全测试不会影响对AdobeDynamic Media Classic的访问。 AdobeDynamic Media Classic安全性保持一致，需要使用常规凭据来访问AdobeDynamic Media Classic和相关Web服务。
 
 ## 安全测试的工作原理 {#how-secure-testing-works}
 
@@ -39,7 +39,7 @@ ht-degree: 37%
 
 从您的公司网络中，您可以使用https://whatismyip.com之类的网站确定您的公共IP地址，或向您的公司IT组织请求此信息。
 
-通过安全测试，Dynamic Media Classic为暂存环境或内部应用程序建立专用的图像服务器。 对此服务器的所有请求都将检查原始 IP 地址。如果传入请求不在获批准的 IP 地址列表中，则返回失败响应。Dynamic Media Classic公司管理员为其公司的安全测试环境配置已批准的IP地址列表。
+通过安全测试，AdobeDynamic Media Classic可为暂存环境或内部应用程序建立专用的图像服务器。 对此服务器的所有请求都将检查原始 IP 地址。如果传入请求不在获批准的 IP 地址列表中，则返回失败响应。AdobeDynamic Media Classic公司管理员为其公司的安全测试环境配置IP地址的已批准列表。
 
 由于必须确认原始请求的位置，因此安全测试服务的流量不会通过内容分发网络(如公共Dynamic Media图像服务器流量)路由。 与公共的Dynamic Media图像服务器相比，对安全测试服务的请求的滞后时间略高。
 
@@ -47,7 +47,7 @@ ht-degree: 37%
 
 >[!NOTE]
 >
->安全测试服务使用配置了内部发布上下文的目录服务器。 因此，如果您的公司配置为发布到安全测试，则Dynamic Media Classic中任何上传的资产都将立即在安全测试服务上可用。 无论资产是否标记为上传后发布，此功能都为true。
+>安全测试服务使用配置了内部发布上下文的目录服务器。 因此，如果您的公司配置为发布到安全测试，则Dynamic Media ClassicAdobe中任何上传的资产都会立即在安全测试服务上可用。 无论资产是否标记为上传后发布，此功能都为true。
 
 安全测试服务当前支持以下资产类型和功能：
 
@@ -65,8 +65,8 @@ Last Modified Date:
 * 晕影（渲染服务器请求）。
 * 呈现服务器请求（支持，但必须由客户明确请求）。
 * 集，包括图像集、eCatalog、渲染集和媒体集。
-* 标准Dynamic Media Classic富媒体查看器。
-* Dynamic Media Classic OnDemand JSP页。
+* 标准AdobeDynamic Media Classic富媒体查看器。
+* AdobeDynamic Media Classic OnDemand JSP页。
 * 静态内容，如 PDF 文件和逐步提供的视频。
 * HTTP 视频流。
 * 渐进式视频流。
@@ -76,7 +76,7 @@ Last Modified Date:
 * RTMP 视频流
 * UGC 服务
 * Web-to-print
-* Dynamic Media Classic Info或eCatalog搜索
+* AdobeDynamic Media Classic信息或eCatalog搜索
 
 ## 测试安全测试服务 {#testing-the-secure-testing-service}
 
@@ -99,7 +99,7 @@ Last Modified Date:
  -->
 
 1. 请联系Adobe客户关怀团队，要求他们在您的帐户中启用安全测试。
-1. 在Dynamic Media Classic的全局导航栏上，单击&#x200B;**[!UICONTROL 设置]** > **[!UICONTROL 发布设置]** > **[!UICONTROL 图像服务器]**。
+1. 在AdobeDynamic Media Classic的全局导航栏上，单击&#x200B;**[!UICONTROL 设置]** > **[!UICONTROL 发布设置]** > **[!UICONTROL 图像服务器]**。
 1. 在“图像服务器发布”页面的&#x200B;**[!UICONTROL 发布上下文]**&#x200B;下拉列表中，选择&#x200B;**[!UICONTROL 测试图像服务]**。
 1. 在“客户端地址过滤器”中，单击“**[!UICONTROL 添加]**”。
 1. 选中此复选框以启用（打开）地址，然后在相应的文本字段中键入IP地址和网络掩码。
@@ -112,7 +112,7 @@ Last Modified Date:
    * 如果必须添加更多IP地址，请重复上述两个步骤。
    * 继续下一步。
 1. 在“图像服务器发布”页面左下角，单击&#x200B;**[!UICONTROL Save]**
-1. 将所需的图像上传到您的Dynamic Media Classic帐户。
+1. 将所需的图像上传到您的AdobeDynamic Media Classic帐户。
 
    请参阅[上载文件](uploading-files.md#uploading_files)。
 
@@ -129,7 +129,7 @@ Last Modified Date:
 
 您需要两个网站变体，分别链接已发布和未发布的资源：
 
-* 公共版本 — 使用传统的Dynamic Media Classic URL语法关联资产。
+* 公共版本 — 使用传统AdobeDynamic Media Classic URL语法来关联资产。
 * 测试版本 — 使用相同语法但具有安全测试网站名称的资产链接。
 
 ### 运行测试
@@ -140,7 +140,7 @@ Last Modified Date:
 
    在由先前定义的IP地址范围标识的公司网络中，网站的暂存版本显示所有图像，无论是否标记为发布。 因此，在预览批准或产品发布之前，您无需意外地使图像可用，即可进行测试。
 
-   确认您网站的公共版本显示的已发布资产与以前使用Dynamic Media Classic时一样。
+   确认您网站的公共版本显示的已发布资产与以前使用AdobeDynamic Media Classic时一样。
 
 1. 从公司网络外部，确认未发布的资源（即未标记为发布）受到保护，第三方无法访问。
 

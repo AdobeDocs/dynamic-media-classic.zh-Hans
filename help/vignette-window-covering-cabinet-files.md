@@ -7,25 +7,25 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
 discoiquuid: 42df9adc-e563-4de2-87a4-bd40cef77cdf
-feature: Dynamic Media Classic，Asset Management
+feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 8d1e0c37-a648-4c7b-8f68-4b2ab71dfa11
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '141'
-ht-degree: 26%
+source-wordcount: '139'
+ht-degree: 27%
 
 ---
 
 # 使用晕影、窗饰和 CAB 文件{#working-with-vignette-window-covering-and-cabinet-files}
 
-Dynamic Media Classic图像创作工具的用户可以&#x200B;*使用*&#x200B;晕影（VNT文件）、窗口覆盖（VNW文件）和文件柜（VNC文件）。 无法在Dynamic Media Classic中创建或编辑这些文件。
+AdobeDynamic Media Classic图像创作工具的用户可以&#x200B;*使用*&#x200B;晕影（VNT文件）、窗口覆盖（VNW文件）和文件柜（VNC文件）。 这些文件无法在AdobeDynamic Media Classic中创建或编辑。
 
-晕影、窗饰和 CAB 是制作的图像。使用名为“图像创作”的其他Dynamic Media Classic程序，您可以掩盖图像中的对象，以便用户能够通过各种纹理或颜色查看同一图像。 例如，用户会看到一张沙发，沙发上装有各种织物软垫，窗户上装有各种窗户护理，柜子上装有不同种类的木材。
+晕影、窗饰和 CAB 是制作的图像。使用名为“图像创作”的其他AdobeDynamic Media Classic程序，您可以掩盖图像中的对象，以便用户能够通过各种纹理或颜色查看同一图像。 例如，用户会看到一张沙发，沙发上装有各种织物软垫，窗户上装有各种窗户护理，柜子上装有不同种类的木材。
 
 晕影、窗饰和 CAB 的上载与任何其他文件的上载相同。
 
 >[!MORELIKETHIS]
 >
->* [查看器预设](application-setup.md#viewer_presets)
+>* [Viewer Presets](application-setup.md#viewer_presets)
 

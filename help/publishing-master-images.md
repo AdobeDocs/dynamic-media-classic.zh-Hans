@@ -7,19 +7,19 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sizing
 discoiquuid: 815e2a19-c64d-45c7-96bc-7f955e54f56e
-feature: Dynamic Media Classic，Asset Management
+feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: b0010107-248c-4ebc-955c-7514462f351d
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '160'
+source-wordcount: '157'
 ht-degree: 22%
 
 ---
 
 # 发布主图像{#publishing-master-images}
 
-发布图像文件会将其发布到Dynamic Media图像服务器，以供您的网站和应用程序使用。 此外，在发布过程中，Dynamic Media Classic会激活您的网站和应用程序所需的URL字符串。
+发布图像文件会将其发布到Dynamic Media图像服务器，以供您的网站和应用程序使用。 此外，在发布过程中，AdobeDynamic Media Classic可激活您的网站和应用程序所需的URL字符串。
 
 ## 将主图像标记为发布 {#marking-master-images-for-publish}
 
@@ -37,5 +37,5 @@ ht-degree: 22%
 
 >[!MORELIKETHIS]
 >
->* [发布](publishing-files.md#publishing_files)
+>* [Publishing](publishing-files.md#publishing_files)
 

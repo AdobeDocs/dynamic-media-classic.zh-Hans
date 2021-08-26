@@ -1,6 +1,6 @@
 ---
 title: 创建旋转集
-description: 了解如何在Dynamic Media Classic中创建旋转集。
+description: 了解如何在AdobeDynamic Media Classic中创建旋转集。
 uuid: 697bd78f-5e39-46bf-aa6d-ad8ab99fe40e
 contentOwner: admin
 content-type: reference
@@ -10,24 +10,24 @@ discoiquuid: 735b5867-e249-4627-a5a5-25c19c2255bf
 feature: Dynamic Media Classic,Viewers,Spin Sets
 role: User
 exl-id: 35e8e7fc-5b3c-441a-959c-df2e39ea0d4b
-source-git-commit: 976f739e5233ae9da24b06cffa729353a7d03c46
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '903'
-ht-degree: 56%
+source-wordcount: '910'
+ht-degree: 55%
 
 ---
 
 # 创建旋转集{#creating-a-spin-set}
 
-要创建有效的旋转集，请确保正确拍摄图像。您可以在Dynamic Media Classic中通过选择生成按钮并选择旋转集来创建旋转集。 在“旋转集”屏幕中编辑旋转集。
+要创建有效的旋转集，请确保正确拍摄图像。您可以在AdobeDynamic Media Classic中创建旋转集，方法是选择生成按钮并选择旋转集。 在“旋转集”屏幕中编辑旋转集。
 
 >[!NOTE]
 >
->Dynamic Media Classic的先前版本不提供二维旋转集。 如果您是在以前版本的Dynamic Media Classic中创建的旋转集，则要先以其他名称保存一维旋转集，然后再保存它。 在旋转集屏幕中选择&#x200B;**[!UICONTROL 另存为]**，然后输入新名称，以便在Dynamic Media Classic中对其进行编辑。
+>AdobeDynamic Media Classic的早期版本不提供二维旋转集。 如果您是在以前版本的AdobeDynamic Media Classic中创建的旋转集，则要先以其他名称保存一维旋转集，然后再保存它。 在旋转集屏幕中选择&#x200B;**[!UICONTROL 另存为]**&#x200B;并输入新名称，以便在AdobeDynamic Media Classic中对其进行编辑。
 
 ## 旋转集图像拍摄指南 {#guidelines-for-shooting-spin-set-images}
 
-通常，旋转集中的图像越多，图像的旋转效果越好。不过，在旋转集中加入许多图像会增加图像的加载时间。Dynamic Media Classic建议在拍摄图像以在旋转集中使用时遵循以下准则：
+通常，旋转集中的图像越多，图像的旋转效果越好。不过，在旋转集中加入许多图像会增加图像的加载时间。AdobeDynamic Media Classic建议遵循以下准则来拍摄图像以在旋转集中使用：
 
 * 在一维旋转集中至少使用8-12幅图像，在二维旋转集中至少使用16-24幅图像。
 * 请使用无损格式；建议使用 TIFF 和 PNG。
@@ -37,7 +37,7 @@ ht-degree: 56%
 
 ## 创建旋转集 {#create}
 
-在Dynamic Media Classic中创作或创建旋转集的顺序很重要。 根据将图像拖放到“旋转集”页面上的网格中的顺序，旋转集将按特定的方向旋转。因此，在生成器中以可视方式显示资产的顺序是，当用户移动鼠标指针或移动手指时，资产的旋转方式。
+在Dynamic Media Classic中创作或创建Adobe集的顺序很重要。 根据将图像拖放到“旋转集”页面上的网格中的顺序，旋转集将按特定的方向旋转。因此，在生成器中以可视方式显示资产的顺序是，当用户移动鼠标指针或移动手指时，资产的旋转方式。
 
 在创建集时，“**[!UICONTROL 保存后发布]**”选项按以下方式影响集和集成员：
 

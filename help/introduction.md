@@ -1,26 +1,24 @@
 ---
-title: Dynamic Media Classic帮助
-seo-title: Adobe Dynamic Media Classic
-description: Dynamic Media Classic概述
-seo-description: Dynamic Media Classic overview
+title: AdobeDynamic Media Classic帮助
+description: AdobeDynamic Media Classic概述
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 7bf94d8c-23ff-4a43-83cc-7e6879a7cded
-source-git-commit: bb387446f294cf1e90d26ae1df4422879ad29db7
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '238'
-ht-degree: 32%
+source-wordcount: '244'
+ht-degree: 33%
 
 ---
 
-# Dynamic Media Classic帮助 {#scene7-overview}
+# AdobeDynamic Media Classic帮助 {#scene7-overview}
 
-欢迎AdobeDynamic Media Classic，它是领先的按需跨媒体发布系统，用于上传、管理、增强动态富内容并将其发布到所有设备和屏幕。 AdobeDynamic Media Classic解决方案包括：
+欢迎使用AdobeAdobeDynamic Media Classic，它是领先的按需跨媒体发布系统，用于上传、管理、增强动态富内容并将其发布到所有设备和屏幕。 AdobeDynamic Media Classic解决方案包括：
 
 * 动态成像：实时编辑、调整格式和大小、交互式缩放和平移；颜色样本和纹理样本；360 度旋转；图像模板；多媒体查看器。
 * 电子目录：创作、热点链接、启用搜索功能、发布动态提供的在线目录并将其交付到可配置的查看器中。
-* 媒体门户：自助服务环境为门户用户提供了由管理员控制的“视图”，可用于访问Dynamic Media Classic资产，以便轻松上传、浏览、搜索、预览和导出资产。
+* 媒体门户：自助服务环境为门户用户提供了由管理员控制的“视图”，可用于AdobeDynamic Media Classic资产，以便于上传、浏览、搜索、预览和导出资产。
 * 电子视频：以任何格式上传最终视频，管理、编辑、创建热点和视频模板，发布并流入可配置的视频查看器中
 * 可视配置器：用于启用在线可视配置的实时呈现技术，以实现个性化和自定义的效果（例如在产品图像或场景中实时呈现颜色、纹理、表面、图案、字母组织以及雕刻效果）。
 * 确定电子邮件受众并打印：交付与客户资料、产品和渠道数据库关联的电子邮件营销活动，这些活动以可视的方式确定受众并进行个性化定制。
@@ -28,10 +26,10 @@ ht-degree: 32%
 ## 关键资源
 
 * [入门和概述](/help/dmc-platform-overview.md)
-* [快速入门：埃卡塔洛](/help/quick-start-ecatalog.md)
+* [快速入门：eCatalog](/help/quick-start-ecatalog.md)
 * [快速入门：图像集](/help/quick-start-image-sets.md)
 * [快速入门：图像大小调整](/help/quick-start-image-sizing.md)
-* [快速入门：集成Dynamic Media Classic Analytics](/help/quick-start-integrating-dmc-analytics.md)
+* [快速入门：集成AdobeDynamic Media Classic分析](/help/quick-start-integrating-dmc-analytics.md)
 * [快速入门：媒体门户](/help/quick-start-media-portal-administration.md)
 * [快速入门：混合媒体集](/help/quick-start-mixed-media-sets.md)
 * [快速入门：旋转集](/help/quick-start-spin-sets.md)

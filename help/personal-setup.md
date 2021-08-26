@@ -1,6 +1,6 @@
 ---
 title: 个人设置
-description: 所有用户都可以更改Dynamic Media Classic的“个人设置”屏幕上的设置。
+description: 所有用户都可以更改Dynamic Media ClassicAdobe的“个人设置”屏幕上的设置。
 uuid: 29cb825a-f158-4a1e-9d5f-7636ee411b6e
 contentOwner: admin
 content-type: reference
@@ -10,9 +10,9 @@ discoiquuid: 6314e7b7-5bde-4fe2-8674-e4fc525d4d1c
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: a019f973-7647-466f-8af3-5312e9225e89
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '819'
+source-wordcount: '820'
 ht-degree: 28%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 28%
 
 >[!NOTE]
 >
->“个人设置”屏幕列出了您在Dynamic Media Classic中拥有的用户角色：公司管理员、管理员或用户。
+>“个人设置”屏幕列出了您在AdobeDynamic Media Classic中拥有的用户角色：公司管理员、管理员或用户。
 
 “个人设置”设置控制浏览面板的默认行为、您接收电子邮件的方式以及密码设置。在更改这些设置之后，请记住单击“保存”。
 
@@ -45,7 +45,7 @@ ht-degree: 28%
 
 **安装AdobeDynamic MediaCreative Suite扩展：**
 
-1. 在Dynamic Media Classic的工具栏上，单击&#x200B;**[!UICONTROL 设置]** > **[!UICONTROL 个人设置]**，在Creative Suite扩展下，单击&#x200B;**[!UICONTROL 立即下载]**&#x200B;以下载`s7csxs.zxp`文件。
+1. 在AdobeDynamic Media Classic的工具栏上，单击&#x200B;**[!UICONTROL 设置]** > **[!UICONTROL 个人设置]**，在Creative Suite扩展下，单击&#x200B;**[!UICONTROL 立即下载]**&#x200B;以下载`s7csxs.zxp`文件。
 1. 单击&#x200B;**[!UICONTROL Installation]**&#x200B;和&#x200B;**[!UICONTROL System Requirements]**&#x200B;链接，以获取有关该扩展的其他信息。
 
 <!--    A readme file is included at the root of the unzipped file to provide you with additional information about the extension.
@@ -72,11 +72,11 @@ The plug-in is now available for you to use in Adobe Illustrator. -->
 
 ## 浏览器
 
-* **缩略图大小**  — 在“浏览”面板的“网格”视图中确定缩略图图像的默认大小。
+* **缩略图大小**  — 在浏览面板的网格视图中确定缩略图图像的默认大小。
 * **默认资产库视图**  — 确定内部版本集的资产库中的资产是显示为缩略图还是按名称显示。如果要处理资源库中的大量资源，可以按名称查看资源。例如，如果要使用许多 PDF 文件构建较大的 eCatalog，可以按名称查看资源，以使列表变得简短。
 * **默认浏览排序顺序**  — 确定资产在浏览面板中默认显示的顺序。在菜单中选择排序条件，并选择是升序排序还是降序排序。
 * **默认浏览位置**  — 允许您将浏览位置设置为默认位置、最后浏览的文件夹，或设置为您导航到并标识的特定位置。还可以将浏览位置设置为按升序或降序排序文件和文件夹。
-* **默认浏览视图**  — 确定在首次打开“浏览”面板时，网格视图或列表视图是默认视图。
+* **默认浏览视图**  — 确定“网格视图”或“列表视图”是首次打开“浏览”面板时您看到的默认视图。
 * **闪屏显示**  — 确定您是否看到任何闪屏，包括欢迎闪屏。
 * **显示工具提示**  — 确定当将指针移到按钮、菜单和导航链接上时是否显示工具提示。工具提示描述屏幕上的用户界面项。
 * **棋盘背景**  — 在图像后面显示一个棋盘层，让您能够轻松查看具有Alpha通道的图像的透明区域。
@@ -95,7 +95,7 @@ The plug-in is now available for you to use in Adobe Illustrator. -->
 
 ## 电子邮件
 
-* **电子邮件选项**  — 选择您希望Dynamic Media Classic在上传和发布作业完成后通过电子邮件通知您的方式。可以选择仅当发生警告或错误时接收作业完成通知。
+* **电子邮件选项**  — 选择您希望如何AdobeDynamic Media Classic，以在上传和发布作业完成后通过电子邮件通知您。可以选择仅当发生警告或错误时接收作业完成通知。
 * **电子邮件范围**  — 确定您是收到公司的所有作业电子邮件，还是只收到有关您启动的上载和发布作业的电子邮件。
 * **电子邮件类型**  — 确定上传作业和发布作业完成时是否会通知您。
 

@@ -1,6 +1,6 @@
 ---
 title: 使用Adobe Analytics Instrumentation Kit设置查看器
-description: 了解如何使用Dynamic Media Classic中的Adobe Analytics Instrumentation Kit来乐器查看器。
+description: 了解如何使用AdobeDynamic Media Classic中的Adobe Analytics Instrumentation Kit来乐器查看器。
 uuid: cf9a4002-966d-4641-9cd0-2ee8b5454f60
 contentOwner: admin
 content-type: reference
@@ -10,9 +10,9 @@ discoiquuid: a2824244-1755-42de-a167-42af117cf038
 feature: Dynamic Media Classic
 role: Data Engineer,Admin,User
 exl-id: 9ea1546d-e6d1-4ba4-8fa1-26b4e69375ba
-source-git-commit: bb387446f294cf1e90d26ae1df4422879ad29db7
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '300'
+source-wordcount: '304'
 ht-degree: 20%
 
 ---
@@ -21,17 +21,17 @@ ht-degree: 20%
 
 您可以使用Adobe Analytics Instrumentation Kit将HTML5查看器与Adobe Analytics集成。
 
-如果您使用任何预定义的Dynamic Media Classic HTML5查看器预设，则它们已包含所有用于将数据发送到Adobe Analytics的实施代码；您无需进行进一步的检测。
+如果您使用任何预定义的AdobeDynamic Media Classic HTML5查看器预设，则它们已包含所有用于将数据发送到Adobe Analytics的实施代码；您无需进行进一步的检测。
 
-## 从Dynamic Media Classic设置Adobe Analytics跟踪 {#set-up-adobe-analytics-tracking-from-scene-publishing-system}
+## 从AdobeDynamic Media Classic设置Adobe Analytics跟踪 {#set-up-adobe-analytics-tracking-from-scene-publishing-system}
 
 对于所有HTML5查看器，将以下JavaScript添加到HTML容器中，通常是在&lt;head>元素中：
 
 ```as3
-<!-- ***** Adobe Analytics Tracking ***** --><script type="text/javascript" src="https://s7d6.scene7.com/s7viewers/s_code.jsp?company=<Dynamic Media Classic Company ID>&preset=companypreset-1"></script>
+<!-- ***** Adobe Analytics Tracking ***** --><script type="text/javascript" src="https://s7d6.scene7.com/s7viewers/s_code.jsp?company=<Adobe Dynamic Media Classic Company ID>&preset=companypreset-1"></script>
 ```
 
-其中，将`Dynamic Media Classic Company ID`设置为Dynamic Media Classic公司名称。 和`&preset`是可选的，除非公司预设名称不是`companypreset`。 在这种情况下，该参数可能为`companypreset-1, companypreset-2`，依此类推。 数字越大预设实例越新。要确定正确的公司预设值名称，请选择&#x200B;**[!UICONTROL 复制URL]** ，然后查看`preset=`参数以查找公司预设名称。
+其中，将`Adobe Dynamic Media Classic Company ID`设置为AdobeDynamic Media Classic公司名称。 和`&preset`是可选的，除非公司预设名称不是`companypreset`。 在这种情况下，该参数可能为`companypreset-1, companypreset-2`，依此类推。 数字越大预设实例越新。要确定正确的公司预设值名称，请选择&#x200B;**[!UICONTROL 复制URL]** ，然后查看`preset=`参数以查找公司预设名称。
 
 继续，现在添加一个函数，以将查看器事件传输到Adobe Analytics跟踪代码。
 

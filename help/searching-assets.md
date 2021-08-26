@@ -7,12 +7,12 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: effef4e7-37c5-42e2-9266-ecd026cad628
-feature: Dynamic Media Classic，Asset Management
+feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 4b3f690c-7dff-4bf0-9366-085ba918fe6b
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '1494'
+source-wordcount: '1491'
 ht-degree: 24%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 24%
 
 >[!NOTE]
 >
->如果左侧未显示“资产库”面板，请单击左侧的右三角形箭头(在Dynamic Media Classic窗口的下半侧)以打开资产库。
+>如果左侧未显示“Adobe库”面板，请单击左侧的右三角形箭头（在“资产库”窗口的下半方向）以打开资产库。
 
 ## 在浏览面板中排序文件 {#sorting-files-in-the-browse-panel}
 
@@ -55,7 +55,7 @@ ht-degree: 24%
 
 <!-- Does not appear to be working anymore >[!NOTE]
 >
->Dynamic Media Classic tracks searches. To run a search a second time, click **[!UICONTROL Search]** and choose the name of a search at the bottom of the Search menu. -->
+>Adobe Dynamic Media Classic tracks searches. To run a search a second time, click **[!UICONTROL Search]** and choose the name of a search at the bottom of the Search menu. -->
 
 ## 执行高级搜索 {#conducting-an-advanced-search}
 
@@ -171,5 +171,5 @@ ht-degree: 24%
 >[!MORELIKETHIS]
 >
 >* [导航基础知识](navigation-basics.md#navigation_basics)
-* [查看、添加和导出元数据](viewing-adding-exporting-metadata.md#viewing_adding_and_exporting_metadata)
+>* [查看、添加和导出元数据](viewing-adding-exporting-metadata.md#viewing_adding_and_exporting_metadata)
 

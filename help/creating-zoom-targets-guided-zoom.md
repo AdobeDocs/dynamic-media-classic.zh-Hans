@@ -1,6 +1,6 @@
 ---
 title: 为引导式缩放创建缩放目标
-description: 了解如何在Dynamic Media Classic中为引导式缩放创建缩放目标。
+description: 了解如何在Dynamic Media Classic中为引导式缩放创建缩放Adobe。
 uuid: 501ea37b-adc5-4290-87eb-52a3501e5d26
 contentOwner: admin
 content-type: reference
@@ -10,9 +10,9 @@ discoiquuid: e7b4673c-8681-4741-912e-9a31cf106449
 feature: Dynamic Media Classic,Viewers,Zoom
 role: User
 exl-id: ffb799ba-1cf1-48e0-91a8-dea758139140
-source-git-commit: 976f739e5233ae9da24b06cffa729353a7d03c46
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '727'
+source-wordcount: '728'
 ht-degree: 44%
 
 ---
@@ -38,7 +38,7 @@ ht-degree: 44%
 
 在“缩放目标编辑器”屏幕上创建并编辑缩放目标。要打开该屏幕，请选择一个图像并执行以下任一操作：
 
-* 选择滚动滚动&#x200B;**[!UICONTROL 编辑]**&#x200B;按钮，然后选择缩放目标。
+* 选择滚动鼠标&#x200B;**[!UICONTROL Edit]**&#x200B;按钮，然后选择“缩放目标”。
 * 在“浏览”面板中，在&#x200B;**[!UICONTROL 详细信息视图]**&#x200B;中显示图像，然后选择&#x200B;**[!UICONTROL 缩放目标]**。
 
 在缩放目标编辑器屏幕上，选择&#x200B;**[!UICONTROL 选择目标]**&#x200B;按钮（箭头）以在更改目标大小或位置之前选择目标。 要在图像上创建缩放目标，请选择&#x200B;**[!UICONTROL 添加目标]**（矩形）。 “缩放目标编辑器”页面还提供了用于删除、复制和命名缩放目标的工具。

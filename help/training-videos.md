@@ -1,10 +1,10 @@
 ---
-title: Dynamic Media Classic培训视频
-description: Dynamic Media Classic培训视频，介绍快速入门、动态图像、视频、媒体门户、模板以及图像创作和渲染。
+title: AdobeDynamic Media Classic培训视频
+description: AdobeDynamic Media Classic培训视频，介绍入门、动态图像、视频、媒体门户、模板以及图像创作和渲染。
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 21e67a41-16a2-4f41-8cfe-a5d7941c73a0
-source-git-commit: 885fcd16559d31d3b9bad88705b4b6bec18515ee
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
 source-wordcount: '6546'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # AdobeDynamic Media Classic培训视频 {#training-videos}
 
-Dynamic Media Classic培训视频，介绍快速入门、动态图像、视频、媒体门户、模板以及图像创作和渲染。
+AdobeDynamic Media Classic培训视频，介绍入门、动态图像、视频、媒体门户、模板以及图像创作和渲染。
 
 ## 開始使用 {#get-started-training}
 

@@ -1,22 +1,22 @@
 ---
 title: 发布设置
-description: “发布设置”设置允许您确定资产在默认情况下如何从Dynamic Media Classic服务器交付到网站或应用程序。
+description: 通过“发布设置”设置，您可以确定资产在默认情况下如何从AdobeDynamic Media Classic服务器交付到网站或应用程序。
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 feature: Dynamic Media Classic
 role: Admin
 exl-id: 699d4c12-e47b-4c6b-86f3-dc7aaaa56c1e
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '2403'
-ht-degree: 47%
+source-wordcount: '2416'
+ht-degree: 46%
 
 ---
 
 # 发布设置 {#publish-setup}
 
-“发布设置”页面设置决定了资产默认如何从Dynamic Media Classic服务器交付到网站或应用程序。 如果未指定任何设置，Dynamic Media Classic服务器将根据“发布设置”页面上的默认设置来传送资产。 例如，如果请求传送的图像不包含分辨率属性，则会生成一个图像，其中图像服务器页面上具有默认对象分辨率设置。
+“发布设置”页面设置决定了默认情况下如何将资产从Dynamic Media Classic服务器Adobe到网站或应用程序。 如果未指定任何设置，AdobeDynamic Media Classic服务器将根据“发布设置”页面上的默认设置来传送资产。 例如，如果请求传送的图像不包含分辨率属性，则会生成一个图像，其中图像服务器页面上具有默认对象分辨率设置。
 
 管理员可以更改“图像服务器”、“图像渲染器”和“晕影”页面上的默认设置，以建立用于从服务器传送资产的默认设置。
 
@@ -24,15 +24,15 @@ ht-degree: 47%
 
 >[!NOTE]
 >
->“发布设置”页面供经验丰富的网站开发人员和程序员使用。 Dynamic Media Classic假定更改这些页面上设置的用户熟悉Dynamic Media Classic、HTTP协议标准和惯例以及基本成像技术。
+>“发布设置”页面供经验丰富的网站开发人员和程序员使用。 AdobeDynamic Media Classic假定更改这些页面上设置的用户熟悉AdobeDynamic Media Classic、HTTP协议标准和惯例以及基本成像技术。
 
 ## 图像服务器 {#image-server}
 
 “图像服务器”页为从图像服务器传送图像建立了默认设置。 这五个类别中都提供了设置（有关这些设置的详细描述，请参阅图像服务器页面本身）。
 
-仅在Dynamic Media Classic支持人员的协助下更改这些设置。
+仅在AdobeDynamic Media Classic支持人员的协助下更改这些设置。
 
-* **目录管理**  — 这些设置决定了Dynamic Media Classic与目录的交互方式。与大多数Web服务器不同，Dynamic Media图像服务器URL调用会转到清单或目录文件，而不是正确的图像文件。 目录文件（不要与 eCatalog 混淆）中包含发布到图像服务器的所有内容的列表，以及每个图像的路径。如果您有 Digimarc ID，请在“Digimarc 用户信息”部分中输入您的用户信息。
+* **目录管理**  — 这些设置决定了AdobeDynamic Media Classic与目录的交互方式。与大多数Web服务器不同，Dynamic Media图像服务器URL调用会转到清单或目录文件，而不是正确的图像文件。 目录文件（不要与 eCatalog 混淆）中包含发布到图像服务器的所有内容的列表，以及每个图像的路径。如果您有 Digimarc ID，请在“Digimarc 用户信息”部分中输入您的用户信息。
 
 * **请求属性**  — 这些设置对可从服务器传送的图像施加了限制。例如，*最大* **[!UICONTROL 回复图像大小限制]**&#x200B;为&#x200B;**[!UICONTROL 宽度]** 5000和&#x200B;**[!UICONTROL 高度]** 5000。
 
@@ -59,9 +59,9 @@ ht-degree: 47%
 
 >[!NOTE]
 >
->如果要在Dynamic Media Classic中设置“本地化支持”选项（如“区域设置映射”字段），请[使用Admin Console创建支持案例。](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) 在您的支持案例中，请求设置帮助。
+>如果要在AdobeDynamic Media Classic中设置“本地化支持”选项，例如“区域设置映射”字段，请[使用Admin Console创建支持案例。](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) 在您的支持案例中，请求设置帮助。
 
-使用Dynamic Media Classic的一种常见方式是管理电子商务网站上的产品图像。 国际企业面临如下挑战：类似产品的资源在各个国家/地区之间存在一些差异。通常，在整个媒体的一小部分方面存在差异。 通过复制每个国家/地区的所有资源，并仅覆盖其中的差异可以处理此类差异，但这项工作非常艰巨，而且可能会使单个主要资源发生冲突。从包含不同音轨的国家/地区特定视频，到产品所用电源线的细微但重要的差异，此类资源差异可能会持续存在。Dynamic Media Classic使用基本查找机制。 您可以从所需的区域设置开始，定义图像服务器查找资源后缀的顺序。
+使用AdobeDynamic Media Classic的一种常见方式是管理电子商务网站上的产品图像。 国际企业面临如下挑战：类似产品的资源在各个国家/地区之间存在一些差异。通常，在整个媒体的一小部分方面存在差异。 通过复制每个国家/地区的所有资源，并仅覆盖其中的差异可以处理此类差异，但这项工作非常艰巨，而且可能会使单个主要资源发生冲突。从包含不同音轨的国家/地区特定视频，到产品所用电源线的细微但重要的差异，此类资源差异可能会持续存在。AdobeDynamic Media Classic使用基本查找机制。 您可以从所需的区域设置开始，定义图像服务器查找资源后缀的顺序。
 
 #### 如何本地化资源
 
@@ -97,7 +97,7 @@ IS支持可打印的任意ASCII字符串。 `locale=`命令具有全局范围，
 
 #### 实施资源本地化
 
-Dynamic Media Classic和Image Serving具有一个界面，允许将图像和静态内容本地化。
+AdobeDynamic Media Classic和图像服务具有一个界面，允许将图像和静态内容本地化。
 
 当没有本地化版本时，图像服务器 URL 如下所示：
 
@@ -117,7 +117,7 @@ Dynamic Media Classic和Image Serving具有一个界面，允许将图像和静�
 
 >[!NOTE]
 >
->仅当您通过API进行设置，而不是在Dynamic Media Classic界面中进行设置时，才可以设置全局区域设置。
+>仅当您通过API设置全局区域设置，而不是在AdobeDynamic Media Classic界面中设置全局区域设置时，才可能使用全局区域设置。
 
 **后缀示例:**
 
@@ -137,7 +137,7 @@ Dynamic Media Classic和Image Serving具有一个界面，允许将图像和静�
 
 #### 关于defaultImage
 
-图像服务器会为请求的区域设置逐个试用选项。如果找不到匹配项，则区域设置选项将应用于defaultImage，并返回匹配的版本。 因此，每个区域设置都必须包含一个用于图像的选项，而不进行本地化，或者使用本地化的defaultImage版本在Dynamic Media Classic中提供。
+图像服务器会为请求的区域设置逐个试用选项。如果找不到匹配项，则区域设置选项将应用于defaultImage，并返回匹配的版本。 因此，每个区域设置都必须包含一个用于图像的选项，而不进行本地化，或者使用本地化的defaultImage版本来AdobeDynamic Media Classic。
 
 #### 用于查找 localeMap 的方案
 
@@ -220,7 +220,7 @@ Dynamic Media Classic和Image Serving具有一个界面，允许将图像和静�
 
 “图像渲染器”页面可建立用于从图像渲染服务器传送图像集的默认设置。 这五个类别中都提供了设置（有关设置的详细描述，请参阅图像服务器页面本身）：
 
-* **目录管理**  — 这些设置决定了Dynamic Media Classic与目录文件的交互方式。Dynamic Media Classic Render服务器URL调用会发送到目录，而目录又调用从服务器交付图像。 仅在Dynamic Media Classic支持人员的协助下更改这些设置。
+* **目录管理**  — 这些设置决定了AdobeDynamic Media Classic与目录文件的交互方式。AdobeDynamic Media Classic呈现服务器URL调用会发送到目录，而目录又调用从服务器交付图像。 仅在AdobeDynamic Media Classic支持人员的协助下更改这些设置。
 
 * **会话属性**  — 这些设置可建立错误参数、相对图像URL的URL，以及是否允许对象重叠。
 

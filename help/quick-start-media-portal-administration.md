@@ -7,19 +7,19 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/media_portal
 discoiquuid: 1385a092-0b2c-4e05-ad1e-ce3685022300
-feature: Dynamic Media Classic，协作，资产管理
+feature: Dynamic Media Classic,Collaboration,Asset Management
 role: Admin,User
 exl-id: bff613c8-a93b-4cca-94db-8cad1cc36296
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '692'
+source-wordcount: '688'
 ht-degree: 73%
 
 ---
 
 # 快速入门：媒体门户{#quick-start-media-portal}
 
-通过媒体门户，公司可以轻松地获取、控制已批准的资产并将其分发给外部合作伙伴和渠道以及公司的内部用户。 此基于浏览器的“自助”环境为Media Portal用户提供了由管理员控制的“视图”，可用于访问、浏览、搜索、预览和导出经公司批准的格式的资产。Dynamic Media Classic资产由管理员控制。
+通过媒体门户，公司可以轻松地获取、控制已批准的资产并将其分发给外部合作伙伴和渠道以及公司的内部用户。 此基于浏览器的“自助”环境为Media Portal用户提供了由管理员控制的“视图”，可AdobeDynamic Media Classic资产，以便用户以公司批准的格式轻松访问、浏览、搜索、预览和导出资产。
 
 作为管理员，您可以控制用户在 Media Portal 中查看、访问和使用资源的方式。此外，您可以自定义 Media Portal 界面，使其匹配您的网站和品牌。您可以在Media Portal界面中指定字体、字体颜色、字体大小，并合并品牌元素，如徽标。
 
@@ -45,7 +45,7 @@ Media Portal 用户分为三个角色，即用户、参与者和用户参与者�
 
 ## 4. 管理 FTP 帐户
 
-您可以拥有与Media Portal关联并映射到Dynamic Media Classic帐户中特定文件夹的单独FTP帐户。 这种功能意味着，您可以允许用户使用单独的 FTP 帐户将数字资源上载到您的帐户中。
+您可以在AdobeDynamic Media Classic帐户中拥有与Media Portal关联并映射到特定文件夹的单独FTP帐户。 这种功能意味着，您可以允许用户使用单独的 FTP 帐户将数字资源上载到您的帐户中。
 
 请参阅[管理 FTP 帐户](ftp-accounts.md#managing_ftp_accounts)。
 

@@ -1,5 +1,5 @@
 ---
-title: 关于Dynamic Media Classic中用户生成的内容
+title: 关于AdobeDynamic Media Classic中的用户生成内容
 description: 用户生成内容的简介。
 uuid: ba867a6a-84a4-4968-9a77-712f3ce5dad5
 contentOwner: rbrough
@@ -9,16 +9,16 @@ discoiquuid: c1594abf-8cc2-46dd-88bf-af93db7db607
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 14729192-7b9d-4f42-99da-6564a3f35959
-source-git-commit: 1d30c98b76ebe78ff60bae87bd112de7a577182d
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
 source-wordcount: '146'
 ht-degree: 53%
 
 ---
 
-# 关于Dynamic Media Classic中用户生成的内容 {#about-user-generated-content}
+# 关于AdobeDynamic Media Classic中的用户生成内容 {#about-user-generated-content}
 
-使用UGC（用户生成的内容）包括将资产上传到专用的Dynamic Media Classic存储库并执行相关操作。
+使用UGC（用户生成的内容）包括将资产上传到专用AdobeDynamic Media Classic存储存储库并执行相关操作。
 
 UGC 支持以下文件格式：
 

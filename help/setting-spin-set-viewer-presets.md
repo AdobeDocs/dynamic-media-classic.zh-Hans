@@ -7,19 +7,19 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/spin_sets
 discoiquuid: 9dfaa37a-59ab-46ae-94c3-c0ab9f940023
-feature: Dynamic Media Classic，查看器，旋转集，查看器预设
+feature: Dynamic Media Classic,Viewers,Spin Sets,Viewer Presets
 role: User
 exl-id: cb9e996c-ab90-4656-8e93-5e7cbeeadb7f
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '240'
-ht-degree: 31%
+source-wordcount: '233'
+ht-degree: 32%
 
 ---
 
 # 设置旋转集查看器预设{#setting-up-spin-set-viewer-presets}
 
-旋转集查看器预设确定您的查看器的样式、行为和外观。Dynamic Media Classic附带默认的旋转集查看器预设。 如果您是管理员，也可以创建您自己的旋转集查看器预设。您可以使用不同颜色、边界、字体和图像设置来配置旋转集查看器预设。
+旋转集查看器预设确定您的查看器的样式、行为和外观。AdobeDynamic Media Classic附带默认的旋转集查看器预设。 如果您是管理员，也可以创建您自己的旋转集查看器预设。您可以使用不同颜色、边界、字体和图像设置来配置旋转集查看器预设。
 
 **要创建旋转集查看器预设，请执行以下操作：**
 
@@ -44,5 +44,5 @@ ht-degree: 31%
 
 >[!MORELIKETHIS]
 >
->* [查看器预设](application-setup.md#viewer_presets)
+>* [Viewer Presets](application-setup.md#viewer_presets)
 

@@ -8,21 +8,21 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_scene7
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 708f32f1-fdbb-4a32-a1b7-836c99b458be
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '186'
+source-wordcount: '187'
 ht-degree: 25%
 
 ---
 
 # 支持 {#support}
 
-技术支持服务旨在满足各种规模公司的需求。下表介绍了Dynamic Media Classic客户关怀服务：
+技术支持服务旨在满足各种规模公司的需求。下表介绍了AdobeDynamic Media Classic客户关怀服务：
 
 | 支持 | 订阅 |
 |--- |--- |
 | 服务限制 | 无限制. |
-| 检查Adobe系统状态 | [Dynamic Media Classic系统状态](https://status.adobe.com/products/1175)。 |
+| 检查Adobe系统状态 | [AdobeDynamic Media Classic系统状态](https://status.adobe.com/products/1175)。 |
 | 找不到答案？ | [要从支持部门获得帮助，请打开一个票证](https://experienceleague.adobe.com/?support-solution=General#support)。 |
 | 社区论坛 | [Experience Manager社区论坛](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/ct-p/adobe-experience-manager-community)。 |
 | SLA（服务级别协议） | [支持服务/条款和条件](https://helpx.adobe.com/support/programs/support-policies-terms-conditions.html)。 |
@@ -34,9 +34,9 @@ ht-degree: 25%
 
 向技术支持部门报告问题时，请包括以下信息：
 
-* Dynamic Media Classic公司名称。
+* AdobeDynamic Media Classic公司名称。
 * 您的姓名、电话号码和电子邮件地址.
-* Dynamic Media Classic应用程序、平台和版本。
+* AdobeDynamic Media Classic应用程序、平台和版本。
 * 问题说明及再现问题所需的步骤.
 * 错误消息（如果有）。
 * 浏览器类型和版本（如果适用）。

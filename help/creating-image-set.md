@@ -1,6 +1,6 @@
 ---
 title: 创建图像集
-description: 了解如何在Dynamic Media Classic中创建图像集。
+description: 了解如何在Dynamic Media Classic中创建图像集Adobe。
 uuid: 689fdc14-4f51-4c94-8515-cd8551e101d8
 contentOwner: admin
 content-type: reference
@@ -10,9 +10,9 @@ discoiquuid: 3f356410-b30e-4870-ad95-6e5a9dc126c8
 feature: Dynamic Media Classic,Viewers,Image Sets
 role: User
 exl-id: c18bb98c-b087-45d0-a4c9-44f58a3b514f
-source-git-commit: 976f739e5233ae9da24b06cffa729353a7d03c46
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '587'
+source-wordcount: '588'
 ht-degree: 63%
 
 ---
@@ -60,7 +60,7 @@ ht-degree: 63%
 
 **编辑图像集:**
 
-1. 在“网格”视图中，浏览到一个ImageSet，然后在图像下方，选择&#x200B;**[!UICONTROL 编辑]**。
+1. 在“网格视图”中，浏览到ImageSet，然后在图像下方选择&#x200B;**[!UICONTROL 编辑]**。
 1. 执行任何以下操作：
 
    * 要添加图像（已发布或未发布），请在“添加资源”中将其从文件夹拖到图像集的“**[!UICONTROL 视图]**”页面上。

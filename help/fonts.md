@@ -1,6 +1,6 @@
 ---
 title: 字体
-description: 了解如何在Dynamic Media Classic中使用字体。
+description: 了解如何在AdobeDynamic Media Classic中使用字体。
 uuid: bddec9c2-8530-4bbd-8db7-1562a347e482
 contentOwner: admin
 content-type: reference
@@ -10,18 +10,18 @@ discoiquuid: 97cecd6a-30aa-44fe-a611-fd71b02fd5ae
 feature: Dynamic Media Classic
 role: User
 exl-id: 186f4c7f-16f6-42f5-bc0e-55362c55e794
-source-git-commit: 20a5e54a9f3fa442d3a993afae07aa5b1b13e9c3
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '422'
-ht-degree: 33%
+source-wordcount: '429'
+ht-degree: 28%
 
 ---
 
 # 字体{#fonts}
 
-有时，Dynamic Media Classic要求您上传字体文件，以输入或渲染特定字体的文本。 例如，要在模板图层上将特定的字体用于文本，请上载字体文件。要以特定的字体显示 eCatalog 查看器页码，请上载字体文件。
+有时，AdobeDynamic Media Classic会要求您上传字体文件，以输入或渲染特定字体的文本。 例如，要在模板图层上将特定的字体用于文本，请上载字体文件。要以特定的字体显示 eCatalog 查看器页码，请上载字体文件。
 
-Dynamic Media Classic支持以下字体类型：
+AdobeDynamic Media Classic支持以下字体类型：
 
 * 所有 TrueType 字体
 * PostScript®字体
@@ -29,21 +29,21 @@ Dynamic Media Classic支持以下字体类型：
 * OpenType/PostScript 字体
 * PhotoFont
 
-上传字体文件后，您可以更改其Dynamic Media Classic ID、字体名称，并在“编辑信息”屏幕上键入相应信息。
+上传字体文件后，您可以更改其AdobeDynamic Media Classic ID、字体名称，以及在“编辑信息”屏幕上键入信息。
 
 >[!NOTE]
 >
->Dynamic Media Classic建议，如果您计划在模板图层中使用字体，请上传所有字体样式（粗体、斜体、粗体/斜体和常规）。 Dynamic Media Classic需要这些字体样式来处理请求。 还建议上载与某种字体相关的所有 PostScript/Adobe Type 1 文件，因为其中的某些字体包含详细的字距调整信息。
+>AdobeDynamic Media Classic如果您计划在模板图层中使用字体，则建议上传所有字体样式（粗体、斜体、粗体/斜体和常规）。 AdobeDynamic Media Classic需要这些字体样式来处理请求。 还建议上载与某种字体相关的所有 PostScript/Adobe Type 1 文件，因为其中的某些字体包含详细的字距调整信息。
 
 ## 上传字体文件 {#uploading-font-files}
 
-使用与上载其他文件相同的方法上载字体文件。您可以将字体文件存储在任何Dynamic Media Classic文件夹中。 请参阅[上载文件](uploading-files.md#uploading_your_files)。
+使用与上载其他文件相同的方法上载字体文件。您可以将字体文件存储在任何Adobe的Dynamic Media Classic文件夹中。 请参阅[上载文件](uploading-files.md#uploading_your_files)。
 
 ## 编辑字体文件信息 {#editing-font-file-information}
 
 您可以更改字体的ID名称及其类型信息。 编辑字体文件会有助于搜索，并且使得字体更易于识别。
 
-在浏览面板中，选择您要在详细信息视图中编辑的字体文件，然后选择“文件”>“编辑信息”。此时将打开“编辑信息”屏幕。选择以下选项，然后选择&#x200B;**[!UICONTROL Submit]**。
+在“浏览”面板中，选择要在“详细信息视图”中编辑的字体文件，然后选择“文件”>“编辑信息”。 此时将打开“编辑信息”屏幕。选择以下选项，然后选择&#x200B;**[!UICONTROL Submit]**。
 
 * **[!UICONTROL 字体名称]**  — 此名称在发布时标识字体。
 

@@ -1,27 +1,27 @@
 ---
 title: 使用资产文件夹
-description: 了解如何在Dynamic Media Classic中使用资产文件夹。
+description: 了解如何在Dynamic Media Classic中使用Adobe文件夹。
 uuid: 3bd83701-e2c2-4e39-b225-c2d27ad836c2
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: 588944c3-78ba-4bd1-a8da-9a6dd99a27a9
-feature: Dynamic Media Classic，Asset Management
+feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 8599d4a3-57eb-4432-812f-7e55a4315c1b
-source-git-commit: 1d30c98b76ebe78ff60bae87bd112de7a577182d
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '450'
+source-wordcount: '451'
 ht-degree: 39%
 
 ---
 
 # 使用资产文件夹{#working-with-asset-folders}
 
-Dynamic Media Classic中的文件资产保留在文件夹中。 这些文件夹在“资源库”面板中按字母顺序排列。在将文件从计算机或网络上传到Dynamic Media Classic之前，系统会要求您命名用于存储文件的文件夹。 请在上载任何文件之前创建这些文件夹。
+AdobeDynamic Media Classic中的文件资产保留在文件夹中。 这些文件夹在“资源库”面板中按字母顺序排列。在将文件从计算机或网络上传到AdobeDynamic Media Classic之前，系统会要求您命名用于存储文件的文件夹。 请在上载任何文件之前创建这些文件夹。
 
-在上传文件之前，请务必建立文件夹结构和组织，以在Dynamic Media Classic上存储文件。
+在上传文件之前，请务必在AdobeDynamic Media Classic上建立用于存储文件的文件夹结构和组织。
 
 ## 显示、移动、隐藏和打开文件夹 {#displaying-moving-hiding-and-opening-folders}
 
@@ -47,7 +47,7 @@ Dynamic Media Classic中的文件资产保留在文件夹中。 这些文件夹�
 
    >[!NOTE]
    >
-   >通过FTP上传文件时，您还可以在Dynamic Media Classic中创建文件夹。 当您通过FTP上传时，选择&#x200B;**[!UICONTROL 包含子文件夹]**&#x200B;选项会在系统中的计算机上复制文件夹结构。 您的计算机或网络上的文件和子文件夹都会复制到资源库中，您上载的资源会置于这些文件夹中。
+   >通过FTP上传文件时，您还可以在AdobeDynamic Media Classic中创建文件夹。 当您通过FTP上传时，选择&#x200B;**[!UICONTROL 包含子文件夹]**&#x200B;选项会在系统中的计算机上复制文件夹结构。 您的计算机或网络上的文件和子文件夹都会复制到资源库中，您上载的资源会置于这些文件夹中。
 
 ## 删除和重命名文件夹 {#deleting-and-renaming-folders}
 
@@ -59,4 +59,4 @@ Dynamic Media Classic中的文件资产保留在文件夹中。 这些文件夹�
 
 >[!NOTE]
 >
->您无法复制文件夹或资产，因为这样做会在Dynamic Media Classic上创建重复的文件夹和资产，并且不允许重复。
+>您无法复制文件夹或资产，因为这样做会在Dynamic Media Classic上创建重复的文件夹和资产，并且不允许重复Adobe。

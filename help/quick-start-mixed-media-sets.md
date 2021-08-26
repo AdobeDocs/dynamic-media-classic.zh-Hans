@@ -7,12 +7,12 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/mixed_media_sets
 discoiquuid: 2708d077-94fc-4045-8992-ad3589ed9cfd
-feature: Dynamic Media Classic，查看器，混合媒体集
+feature: Dynamic Media Classic,Viewers,Mixed Media Sets
 role: User
 exl-id: 757893ae-7507-42a0-a67b-f6542e7231c7
-source-git-commit: 591feb7ee4ac88e39941b429a8aa965d4d919738
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '637'
+source-wordcount: '635'
 ht-degree: 52%
 
 ---
@@ -23,13 +23,13 @@ ht-degree: 52%
 
 “混合媒体集查看器预设”包括最终用户用来嵌入代码、复制 URL 以及链接到主网站的社区选项。用户可以使用这些选项在其个人网站或社交网站上共享有关产品的信息。
 
-此混合媒体集快速入门旨在使用Dynamic Media Classic中的混合媒体集技术快速启动并运行。
+此混合媒体集快速入门旨在使用Dynamic Media Classic中的混合媒体集技术快速启动和运行Adobe。
 
 ## 1.上传图像、色板文件和视频
 
 首先为混合媒体集上载图像、样本文件和视频。由于用户可以在混合媒体集查看器中缩放图像，因此在选择图像时，请务必考虑此功能。 确保图像的最大大小至少为2000像素。
 
-在全局导航栏上，单击&#x200B;**[!UICONTROL Upload]** ，将文件从计算机上传到Dynamic Media Classic上的文件夹。
+在全局导航栏上，单击&#x200B;**[!UICONTROL Upload]** ，将文件从计算机上传到Dynamic Media Classic上的Adobe文件夹。
 
 请参阅[上载文件](uploading-files.md#uploading-your-files)。
 
@@ -47,7 +47,7 @@ ht-degree: 52%
 
 ## 4.设置混合媒体查看器预设
 
-Dynamic Media Classic附带了混合媒体集的默认查看器预设。 管理员可以创建或修改混合媒体集查看器预设。
+AdobeDynamic Media Classic附带混合媒体集的默认查看器预设。 管理员可以创建或修改混合媒体集查看器预设。
 
 在设置混合媒体集查看器预设时，请为您的媒体集中的所有其他资产添加查看器预设。 例如，如果混合媒体集包括视频，则在混合媒体查看器预设中添加视频查看器预设。也可以将音轨添加到查看器中。该音轨在查看器打开时播放，但在视频处于活动状态时不播放。
 
@@ -61,7 +61,7 @@ Dynamic Media Classic附带了混合媒体集的默认查看器预设。 管理�
 
 ## 6.发布混合媒体集
 
-发布混合媒体集会将其放置在Dynamic Media Classic服务器上，并激活URL字符串。
+发布混合媒体集会将其放置在AdobeDynamic Media Classic服务器上，并激活URL字符串。
 
 混合媒体集要求同时发布到&#x200B;**视频服务器**&#x200B;和&#x200B;**图像服务器**。使用&#x200B;**视频服务器**&#x200B;发布已标记为发布的实际视频。此外，您还可以使用&#x200B;**图像服务器**&#x200B;发布相关资产（如视频缩略图），并为任何自适应视频集设置信息。
 
@@ -69,6 +69,6 @@ Dynamic Media Classic附带了混合媒体集的默认查看器预设。 管理�
 
 ## 7.将混合媒体集关联到网页
 
-Dynamic Media Classic在您发布混合媒体集后，会激活它们的URL调用。 您可以从预览页面复制这些URL。
+AdobeDynamic Media Classic在您发布混合媒体集后，会激活它们的URL调用。 您可以从预览页面复制这些URL。
 
 选择混合媒体集，然后单击&#x200B;**[!UICONTROL 预览]**。 在“预览”页面中，选择混合媒体集查看器预设，然后单击&#x200B;**[!UICONTROL 复制URL]**。 请参阅[将混合媒体集与网页链接](linking-mixed-media-set-web.md#linking-a-mixed-media-set-to-a-web-page)。

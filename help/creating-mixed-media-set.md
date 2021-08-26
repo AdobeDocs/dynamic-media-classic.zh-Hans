@@ -1,6 +1,6 @@
 ---
 title: 创建混合媒体集
-description: 了解如何在Dynamic Media Classic中创建混合媒体集。
+description: 了解如何在Dynamic Media Classic中创建混合媒体集Adobe。
 uuid: a0c6e5fa-7a85-4376-b9a3-b72ae63d3d95
 contentOwner: admin
 content-type: reference
@@ -9,9 +9,9 @@ discoiquuid: 0ff9e763-897c-4ba5-b606-a95d5e45f35e
 feature: Dynamic Media Classic,Viewers,Mixed Media Sets
 role: User
 exl-id: 18669c65-a1c4-4012-8587-cd5095f4bd4e
-source-git-commit: 976f739e5233ae9da24b06cffa729353a7d03c46
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '625'
+source-wordcount: '626'
 ht-degree: 77%
 
 ---

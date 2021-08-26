@@ -1,6 +1,6 @@
 ---
 title: 创建模板
-description: 了解如何在Dynamic Media Classic中创建模板。
+description: 了解如何在AdobeDynamic Media Classic中创建模板。
 uuid: c762224b-7c6c-4434-bada-c26570079645
 contentOwner: admin
 content-type: reference
@@ -10,9 +10,9 @@ discoiquuid: 8f7093da-d215-4337-ac95-69f0a5bf8648
 feature: Dynamic Media Classic
 role: User
 exl-id: 23ac1a0f-c90b-4250-ae36-93702fb5ebd9
-source-git-commit: 976f739e5233ae9da24b06cffa729353a7d03c46
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '3397'
+source-wordcount: '3405'
 ht-degree: 45%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 45%
 
 >[!NOTE]
 >
->如果您编辑在早期版本的Dynamic Media Classic中创建的模板，系统会在保存“是否要添加画布层？”时提示您。 选择&#x200B;**[!UICONTROL 否]**&#x200B;以避免添加基层。 如果意外选择了&#x200B;**[!UICONTROL Yes]**，请删除URL中的`&allowCanvasPrompt`和`&layer=0`修饰符，然后按&#x200B;**[!UICONTROL Enter]**&#x200B;或&#x200B;**[!UICONTROL Return]**。
+>如果您编辑在早期版本的AdobeDynamic Media Classic中创建的模板，系统会在保存时提示您“是否要添加画布层？”。 选择&#x200B;**[!UICONTROL 否]**&#x200B;以避免添加基层。 如果意外选择了&#x200B;**[!UICONTROL Yes]**，请删除URL中的`&allowCanvasPrompt`和`&layer=0`修饰符，然后按&#x200B;**[!UICONTROL Enter]**&#x200B;或&#x200B;**[!UICONTROL Return]**。
 
 ## 创建初始模板 {#creating-the-initial-template}
 
@@ -52,7 +52,7 @@ ht-degree: 45%
 1. 选择&#x200B;**[!UICONTROL Save]**。
 1. 选择用于存储模板的文件夹，输入模板的名称，然后选择&#x200B;**[!UICONTROL Submit]**。
 
-   Dynamic Media Classic会根据需要收缩图像以将其放入画布上，画布是“模板”屏幕上用于定义模板的区域。
+   AdobeDynamic Media Classic会根据需要在画布上缩小图像，画布是模板屏幕上用于定义模板的区域。
 
 ## 编辑模板集 {#editing-a-template-set}
 
@@ -69,7 +69,7 @@ ht-degree: 45%
 
 **要编辑模板集，请执行以下操作：**
 
-1. 在网格视图中，浏览到模板集，然后在图像下方，选择&#x200B;**[!UICONTROL 编辑]**。
+1. 在“网格视图”中，浏览到模板集，然后在图像下方选择&#x200B;**[!UICONTROL 编辑]**。
 1. 根据需要更改模板。
 1. 在完成编辑后，确保在页面右下角附近选择了“**[!UICONTROL 保存后发布]**”（默认）。
 1. 选择&#x200B;**[!UICONTROL Save]**，选择存储文件夹，输入集的名称，然后选择&#x200B;**[!UICONTROL Save]**。
@@ -103,7 +103,7 @@ ht-degree: 45%
 
    >[!NOTE]
    >
-   >文本编辑器v4.2计划作为Dynamic Media Classic中的一个选项进行删除，因此建议您尽可能使用文本编辑器4.3。 **[!UICONTROL 文字换行]**&#x200B;选项将纳入文本编辑器的未来版本中。
+   >文本编辑器v4.2计划作为AdobeDynamic Media Classic中的一个选项进行删除，因此建议尽可能使用文本编辑器4.3。 **[!UICONTROL 文字换行]**&#x200B;选项将纳入文本编辑器的未来版本中。
 
 * **[!UICONTROL 设计人员和开发人员]**  — 选择最能描述您的角色的选项。
 
@@ -121,7 +121,7 @@ ht-degree: 45%
 
    >[!NOTE]
    >
-   >如有必要，Dynamic Media Classic会在您创建图像图层时收缩图像，以使其适合画布。
+   >如有必要，AdobeDynamic Media Classic会在您创建图像图层时收缩图像以使其适合画布。
 
 ## 创建文本图层 {#creating-a-text-layer}
 
@@ -142,7 +142,7 @@ ht-degree: 45%
 1. 在文本编辑器的文本框中，选择要设置格式的文本。 您可以选择所有文本、文本的某些部分或单个字符。
 1. 指定以下任意格式选项，然后选择&#x200B;**[!UICONTROL Apply]**。
 
-   * **[!UICONTROL 字体]**  — 在“字体”菜单上选择一种字体。如果菜单上未显示您想要的字体，则可以将其上传到Dynamic Media Classic。 请参阅字体。
+   * **[!UICONTROL 字体]**  — 在“字体”菜单上选择一种字体。如果菜单中未显示您想要的字体，则可以将其上传到AdobeDynamic Media Classic。 请参阅字体。
 
    * **[!UICONTROL 字体大小]**  — 从菜单中选择字体大小，在框中键入特定大小，或选择“上箭头”或“下箭头” ****  **** 以将大小增加或减小两点。
 
@@ -244,7 +244,7 @@ ht-degree: 45%
 
 >[!NOTE]
 >
->Dynamic Media Classic建议创建一个与模板大小完全相同的图像预设。 图像预设大小与模板大小相匹配可确保模板的最终输出大小及锐化选项设置正确。创建此图像预设之后，可以从“模板预览”屏幕上的“应用预设”菜单中进行选择。此屏幕将显示图像从服务器发送后显示的效果。请参阅[设置图像预设](setting-image-presets.md#setting_up_image_presets)。
+>AdobeDynamic Media Classic建议创建一个与模板大小完全相同的图像预设。 图像预设大小与模板大小相匹配可确保模板的最终输出大小及锐化选项设置正确。创建此图像预设之后，可以从“模板预览”屏幕上的“应用预设”菜单中进行选择。此屏幕将显示图像从服务器发送后显示的效果。请参阅[设置图像预设](setting-image-presets.md#setting_up_image_presets)。
 
 * **更改图层的大小**  — 要更改图层或画布的大小，请在“图层”列表中选择图层或画布，然后使用以下技术之一：
 
@@ -288,7 +288,7 @@ ht-degree: 45%
 
 ## 对图层使用阴影和发光效果 {#using-shadow-and-glow-effects-on-layers}
 
-您可以将阴影或发光效果应用于图层。将阴影或发光应用于图层的周边并向内或向外扩展，具体取决于您选择的阴影或发光选项。如果您的模板源自具有阴影和发光效果的PSD文件，则可以在Dynamic Media Classic中调整这些效果。
+您可以将阴影或发光效果应用于图层。将阴影或发光应用于图层的周边并向内或向外扩展，具体取决于您选择的阴影或发光选项。如果您的模板源自具有阴影和发光效果的PSD文件，则可以在AdobeDynamic Media Classic中调整这些效果。
 
 应用阴影或发光效果之后，您可以在“模板”屏幕的“图层属性”区域调整其大小、颜色、不透明度和位置。
 

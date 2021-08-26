@@ -6,13 +6,13 @@ contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: 9bfd95da-3714-4e38-98af-331a04c685f5
-feature: Dynamic Media Classic，协作，资产管理
+feature: Dynamic Media Classic,Collaboration,Asset Management
 role: Admin,User
 exl-id: c27df6c2-76f4-441c-bd26-cee98203291e
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '380'
-ht-degree: 71%
+source-wordcount: '375'
+ht-degree: 72%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 71%
 * 可用于导出作业的 Zip 压缩导出文件的最大文件大小为 1 GB。
 * 每个导出作业最多可以有 500 个总资源。
 
-另请参阅[从Dynamic Media Classic](exporting-assets-from-dmc.md#exporting-assets-from_dmc)导出资产。
+另请参阅[从AdobeDynamic Media Classic](exporting-assets-from-dmc.md#exporting-assets-from_dmc)导出资产。
 
 **指定 Media Portal 用户可以使用的导出选项:**
 
@@ -42,6 +42,6 @@ ht-degree: 71%
 
 >[!MORELIKETHIS]
 >
->* [图像预设](application-setup.md#image_presets)
-* [为组选择图像预设访问权限](creating-media-portal-groups.md#choosing_image_preset_access_permissions_for_a_group)
+>* [Image Presets](application-setup.md#image_presets)
+>* [为组选择图像预设访问权限](creating-media-portal-groups.md#choosing_image_preset_access_permissions_for_a_group)
 

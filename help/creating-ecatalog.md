@@ -1,18 +1,18 @@
 ---
 title: 创建eCatalog
-description: 了解如何在Dynamic Media Classic中创建eCatalog。
+description: 了解如何在AdobeDynamic Media Classic中创建eCatalog。
 uuid: 2aff05c2-7052-426c-b61d-7f9091f7ace8
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
 discoiquuid: 28889c60-596a-40d2-85d4-f48a4f86b932
-feature: Dynamic Media Classic，查看器，eCatalog
+feature: Dynamic Media Classic,Viewers,eCatalog
 role: User
 exl-id: 51d411b2-b4bc-4cf6-afca-dd0ed0d219a1
-source-git-commit: 7be3f63bfadeafa71eeb2567f982f579ccb85975
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '970'
+source-wordcount: '967'
 ht-degree: 57%
 
 ---
@@ -96,7 +96,7 @@ ht-degree: 57%
 
 ## 自定义目录（目录） {#customizing-the-table-of-contents-toc}
 
-Dynamic Media Classic在eCatalog屏幕的“订单页面”选项卡上提供eCatalog中的默认页码。 要自定义页面名称，可以更改构成目录 (TOC) 的页标签。推荐重命名封面和封底。例如，封面可以是“封面”，而不是“第0-1页”。
+AdobeDynamic Media Classic在eCatalog屏幕的“订单页面”选项卡上提供eCatalog中的默认页码。 要自定义页面名称，可以更改构成目录 (TOC) 的页标签。推荐重命名封面和封底。例如，封面可以是“封面”，而不是“第0-1页”。
 
 可以采用手动方式或通过从 CSV（仅 Mac）或 XML 文件导入页面名称来为 eCatalog 创建自定义目录 (TOC)。
 

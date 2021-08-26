@@ -1,6 +1,6 @@
 ---
 title: 管理电子目录中的信息面板内容
-description: 了解如何在Dynamic Media Classic中管理电子目录中的信息面板内容。
+description: 了解如何在Dynamic Media Classic中管理电子目录中的“信息面板”Adobe。
 uuid: 5aa634f9-0874-4bb5-a3d9-8ce4d5577941
 contentOwner: admin
 content-type: reference
@@ -10,9 +10,9 @@ discoiquuid: be277831-77cc-4011-ae30-e75c18eec99b
 feature: Dynamic Media Classic,Viewers,eCatalog
 role: User
 exl-id: bfb9c5a4-5068-4adb-9fe2-a4ead8656289
-source-git-commit: bb387446f294cf1e90d26ae1df4422879ad29db7
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '862'
+source-wordcount: '866'
 ht-degree: 59%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 59%
 
 除了在 eCatalog 中将图像映射文本用于变换之外，还可以使用“信息面板”添加大量变换文本（包括链接）。还可以使用定时缓存和计划内容更新来管理信息面板。
 
-您可以在Dynamic Media Classic中使用以下功能管理InfoPanel设置和数据：
+您可以使用Dynamic Media Classic中的以下功能管理InfoPanel设置和Adobe:
 
 * “信息面板设置”面板可用来指定用于显示“信息面板”文本、默认错误响应以及信息缓存的小时数等信息的模板。此外，可以指定是否自动发布 eCatalog。
 * 通过“信息面板数据馈送”面板，可以指定包含要在“信息面板”滚动文本中显示的文本的CSV文件，并计划更新信息的时间。
@@ -45,7 +45,7 @@ ht-degree: 59%
    * 从“响应模板”菜单中选择预设。模板设计的 XML 显示在“用户模板”框中。
    * 要创建自己的响应模板，请选择&#x200B;**[!UICONTROL Custom]**。 在“用户模板”框中键入模板 XML 定义。可以将预设模板作为您自己的模板的基础。
 
-1. （可选）在默认响应框中，键入当Dynamic Media Classic在检索图像映射信息时遇到错误时要显示的文本。 例如，如果系统收到公司名称和 eCatalog 名称，但是没有变换标识符，则将为用户显示该消息。
+1. （可选）在默认响应框中，键入在AdobeDynamic Media Classic在检索图像映射信息时遇到错误时要显示的文本。 例如，如果系统收到公司名称和 eCatalog 名称，但是没有变换标识符，则将为用户显示该消息。
 1. 在“响应 TTL”框中，输入要在缓存数据之前等待的小时数：
 
    * 如果在一整天内需要频繁更新数据，则设置一个较小的值。
@@ -89,7 +89,7 @@ Last Modified Date:
 1. 选择&#x200B;**[!UICONTROL 浏览]**，选择要使用的以制表符分隔的TXT文件、CSV或SSV文件，然后选择&#x200B;**[!UICONTROL 打开]**。
 1. 选择&#x200B;**[!UICONTROL Upload]**。
 
-Dynamic Media Classic会向您发送一封电子邮件，告知您上传是否成功。
+AdobeDynamic Media Classic会向您发送一封电子邮件，告知您上传是否成功。
 
 ## 预览图像映射的变换键文本 {#preview-rollover-key-text-for-an-image-map}
 

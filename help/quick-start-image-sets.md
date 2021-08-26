@@ -10,26 +10,26 @@ discoiquuid: 612a425f-2840-46c4-8e5a-c0bc5f738f4e
 feature: Dynamic Media Classic,Viewers,Image Sets
 role: User
 exl-id: 280e7201-84d6-46b1-94bb-0499beca2992
-source-git-commit: 1f3a110e8d795e766c37e43ea7f878cc0eec2ec2
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '547'
+source-wordcount: '554'
 ht-degree: 41%
 
 ---
 
 # 快速入门：图像集{#quick-start-image-sets}
 
-Dynamic Media经典图像集为用户提供了集成的查看体验。 在动态图像集查看器中，用户单击缩略图图像便可以看到物品的各种不同视图。图像集允许您显示项目的替代高分辨率视图。
+AdobeDynamic Media Classic图像集为用户提供了集成的查看体验。 在动态图像集查看器中，用户单击缩略图图像便可以看到物品的各种不同视图。图像集允许您显示项目的替代高分辨率视图。
 
 图像集查看器具有缩放工具，可用来仔细查看图像。如果需要，可以将引导式缩放目标和图像映射添加到图像集中。图像集可为用户带来更协调、更详尽的观看体验。
 
-此图像集快速入门旨在使用Dynamic Media Classic中的图像集技术快速启动并运行。
+此图像集快速入门旨在使用Dynamic Media Classic中的图像集技术快速启动和运行Adobe。
 
 ## 1.上传多个视图和色板的主控图像
 
-首先要向图像集上载图像。由于用户可以在图像集查看器中缩放图像，因此在选择图像时，请务必考虑这项功能。 确保图像的最大大小至少为2000像素。 Dynamic Media Classic支持多种图像文件格式，但建议使用无损的TIFF、PNG和EPS图像。
+首先要向图像集上载图像。由于用户可以在图像集查看器中缩放图像，因此在选择图像时，请务必考虑这项功能。 确保图像的最大大小至少为2000像素。 AdobeDynamic Media Classic支持多种图像文件格式，但建议使用无损的TIFF、PNG和EPS图像。
 
-在全局导航栏上，单击&#x200B;**[!UICONTROL Upload]** ，将文件从计算机上传到Dynamic Media Classic上的文件夹。
+在全局导航栏上，单击&#x200B;**[!UICONTROL Upload]** ，将文件从计算机上传到Dynamic Media Classic上的Adobe文件夹。
 
 请参阅[准备要上载的图像集资源](preparing-image-set-assets-upload.md#preparing-image-set-assets-for-upload)和[上载文件](uploading-files.md#uploading-your-files)。
 
@@ -45,7 +45,7 @@ Dynamic Media经典图像集为用户提供了集成的查看体验。 在动态
 
 ## 3.根据需要设置图像集查看器预设
 
-管理员可以创建或修改图像集查看器预设。Dynamic Media Classic随附每个富媒体类型的默认查看器预设。 使用“缩放查看器: 自定义”>“图像”，或者“图像集/多个视图”预设即可查看您的图像集。
+管理员可以创建或修改图像集查看器预设。AdobeDynamic Media Classic随附每种富媒体类型的默认查看器预设。 使用“缩放查看器: 自定义”>“图像”，或者“图像集/多个视图”预设即可查看您的图像集。
 
 可在“应用程序设置”屏幕中添加或编辑查看器预设。
 
@@ -59,7 +59,7 @@ Dynamic Media经典图像集为用户提供了集成的查看体验。 在动态
 
 ## 5.发布图像集
 
-发布图像集会会将其放置到Dynamic Media Classic服务器上，并激活URL字符串。
+发布图像集会会将其放置在AdobeDynamic Media Classic服务器上，并激活URL字符串。
 
 >[!NOTE]
 >
@@ -71,7 +71,7 @@ Dynamic Media经典图像集为用户提供了集成的查看体验。 在动态
 
 ## 6.将图像集关联到您的网站
 
-Dynamic Media Classic会为图像集创建URL调用，并在您发布后激活它们。 可以从“预览”屏幕复制这些 URL。
+AdobeDynamic Media Classic会为图像集创建URL调用，并在您发布后激活它们。 可以从“预览”屏幕复制这些 URL。
 
 选择图像集，然后单击&#x200B;**[!UICONTROL 预览]**。 现在，选择一个图像集查看器预设，然后单击&#x200B;**[!UICONTROL 复制URL]**。
 

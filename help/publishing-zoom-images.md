@@ -7,19 +7,19 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/zoom
 discoiquuid: 34a99fd0-8148-41d4-843a-909637542dd9
-feature: Dynamic Media Classic，查看器，缩放
+feature: Dynamic Media Classic,Viewers,Zoom
 role: User
 exl-id: 74cf0346-be79-4916-8a98-16865c3ba3de
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '151'
-ht-degree: 20%
+source-wordcount: '147'
+ht-degree: 21%
 
 ---
 
 # 发布缩放图像{#publishing-zoom-images}
 
-发布后，您的缩放图像会放置在Dynamic Media图像服务器上，以便能够在您的网站和应用程序中使用这些图像。 在发布过程中，Dynamic Media Classic会激活URL字符串。 可以将这些 URL 字符串放在网站的 HTML 代码中。
+发布后，您的缩放图像会放置在Dynamic Media图像服务器上，以便能够在您的网站和应用程序中使用这些图像。 在发布过程中，AdobeDynamic Media Classic会激活URL字符串。 可以将这些 URL 字符串放在网站的 HTML 代码中。
 
 ## 将图像标记为发布 {#marking-images-for-publish}
 
@@ -31,5 +31,5 @@ ht-degree: 20%
 
 >[!MORELIKETHIS]
 >
->* [发布](publishing-files.md#publishing_files)
+>* [Publishing](publishing-files.md#publishing_files)
 

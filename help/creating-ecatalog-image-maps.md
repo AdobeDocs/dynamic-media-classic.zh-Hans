@@ -1,18 +1,18 @@
 ---
 title: 创建eCatalog图像映射
-description: 了解如何在Dynamic Media Classic中创建eCatalog图像映射。
+description: 了解如何在AdobeDynamic Media Classic中创建eCatalog图像映射。
 uuid: 943ad3f7-a885-4bc2-88cb-77083384bdf8
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
 discoiquuid: 4cf63359-63b5-4da7-9498-335d91b4776c
-feature: Dynamic Media Classic，查看器，eCatalog
+feature: Dynamic Media Classic,Viewers,eCatalog
 role: User
 exl-id: 5e7f39a5-36a6-40df-8752-064a582c9346
-source-git-commit: 7be3f63bfadeafa71eeb2567f982f579ccb85975
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '1491'
+source-wordcount: '1493'
 ht-degree: 40%
 
 ---
@@ -32,9 +32,9 @@ ht-degree: 40%
 
    * **矩形映射**  — 选择“矩形图像映射”工具并在页面上拖动以创建矩形。
 
-   * **多边形映射**  — 选择“多边形图像映射”工具，然后在图像周长周围根据需要选择任意次数的图像。在您选择时，Dynamic Media Classic会绘制图像映射的边框。
+   * **多边形映射**  — 选择“多边形图像映射”工具，然后在图像周长周围根据需要选择任意次数的图像。选择时，AdobeDynamic Media Classic会绘制图像映射的边框。
 
-      绘制图像映射后，Dynamic Media Classic会在图像映射列表中为其分配一个名称。 要形成名称，Dynamic Media Classic会在您正在工作的eCatalog页面的名称中附加一个连续编号。
+      绘制图像映射后，AdobeDynamic Media Classic会在图像映射列表中为其分配一个名称。 要形成名称，AdobeDynamic Media Classic会在您正在工作的eCatalog页面的名称中附加一个连续编号。
 
 1. （可选）从“图像映射”列表的[!UICONTROL 名称]列中，可以为“图像映射”输入新名称。 输入的名称中不能包含空格。
 1. 当查看者选择图像映射时，您可以让他们打开一个新网页。 在“图像映射”列表面板中的“URL”列中输入网页的 URL。
@@ -131,7 +131,7 @@ ht-degree: 40%
 
 ## 在电子目录之间复制图像映射 {#copying-image-maps-between-ecatalogs}
 
-可以将 eCatalog 中的所有图像映射复制到其他 eCatalog 中。这种复制图像映射的方法是在相同的 eCatalog 的外语翻译之间复制图像映射的方便方法。为了成功进行复制，Dynamic Media Classic建议在具有相同页数和相同图像的eCatalog之间进行复制。
+可以将 eCatalog 中的所有图像映射复制到其他 eCatalog 中。这种复制图像映射的方法是在相同的 eCatalog 的外语翻译之间复制图像映射的方便方法。为了成功进行复制，AdobeAdobeDynamic Media Classic建议在具有相同页数和相同图像的eCatalog之间进行复制。
 
 >[!NOTE]
 >
@@ -143,4 +143,4 @@ ht-degree: 40%
 1. 在顺序页面选项卡上，选择&#x200B;**[!UICONTROL 复制映射]**。
 1. 在“选择资产”对话框中，选择要在其中复制图像映射的eCatalog ，然后选择&#x200B;**[!UICONTROL 选择]**。
 
-Dynamic Media Classic如果目标eCatalog（您将图像映射复制到的eCatalog）的页面或图像数量不同，且大小不同，则会显示一条警告消息。 选择&#x200B;**[!UICONTROL 继续]**&#x200B;以复制图像映射（尽管出现警告）。
+AdobeDynamic Media Classic如果目标eCatalog（您将图像映射复制到的eCatalog）的页面或图像数量不同且大小不同，则会显示一条警告消息。 选择&#x200B;**[!UICONTROL 继续]**&#x200B;以复制图像映射（尽管出现警告）。

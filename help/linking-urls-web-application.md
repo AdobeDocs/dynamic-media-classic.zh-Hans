@@ -1,6 +1,6 @@
 ---
-title: 将 URL 链接至 Web 应用程序
-description: 了解如何将URL关联到您的Web应用程序。
+title: 将URL关联到您的Web应用程序
+description: 了解如何从AdobeDynamic Media Classic将URL关联到您的Web应用程序。
 uuid: 1179bdd3-9b39-47f9-945d-1c1ca186bf96
 contentOwner: admin
 content-type: reference
@@ -10,20 +10,20 @@ discoiquuid: 71299640-676d-49b7-841d-6118f31044e8
 feature: Dynamic Media Classic
 role: User
 exl-id: ca629427-da33-4bab-9d08-6d9368042f7e
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '832'
-ht-degree: 53%
+source-wordcount: '843'
+ht-degree: 37%
 
 ---
 
-# 将 URL 链接至 Web 应用程序{#linking-urls-to-your-web-application}
+# 将URL关联到您的Web应用程序{#linking-urls-to-your-web-application}
 
-您的网站和应用程序可通过URL字符串访问Dynamic Media图像服务器内容。 发布图像后，Dynamic Media Classic会激活一个URL字符串，该字符串会在Dynamic Media图像服务器上引用图像预设。 可将这些 URL 粘贴至 Web 浏览器进行测试。
+您的网站和应用程序可通过URL字符串访问Dynamic Media图像服务器内容。 发布图像后，AdobeDynamic Media Classic会激活在Dynamic Media图像服务器上引用图像预设的URL字符串。 可将这些 URL 粘贴至 Web 浏览器进行测试。
 
-要将这些URL字符串放置在您的网页和应用程序中，请从Dynamic Media Classic中复制它们。 要获得由图像预设生成的 URL 字符串，请转到“预览”屏幕或浏览面板（在中）。
+要将这些URL字符串放置在您的网页和应用程序中，请从AdobeDynamic Media Classic中复制它们。 要获取通过图像预设生成的URL字符串，请转到“预览”屏幕或“浏览面板”（在“详细信息”视图中）。
 
-## 获得图像预设 URL {#obtaining-an-image-preset-url}
+## 获取图像预设URL {#obtaining-an-image-preset-url}
 
 可从“预览”或详细信息视图中获得由图像预设生成的 URL 字符串。复制 URL 后，该字符串将放置在剪贴板上，以便在必要时进行粘贴。
 
@@ -31,26 +31,26 @@ ht-degree: 53%
 >
 >在发布资源之前，URL 处于非激活状态。
 
-### 从预览中获得图像预设 URL {#obtaining-an-image-preset-url-from-preview}
+### 从预览中获取图像预设URL {#obtaining-an-image-preset-url-from-preview}
 
 1. 在左侧“资源库”面板中，导航到包含要预览的图像资源的“资源”文件夹。
 1. 执行以下任一操作：
 
-   * 在“资源”窗口上方的工具栏右侧，单击“**[!UICONTROL 网格视图]**”。在“资产”窗口中，选择一个图像资产，然后在缩略图图像的下方，单击&#x200B;**[!UICONTROL 预览]** > **[!UICONTROL 图像预设列表]**。
-   * 在“资源”窗口上方的工具栏右侧，单击“**[!UICONTROL 列表视图]**”。在“资产”窗口中，选择单个图像资产，然后单击缩略图右侧的&#x200B;**[!UICONTROL 预览]** > **[!UICONTROL 图像预设列表]**。
-   * 在“资源”窗口上方的工具栏的右侧，单击“**[!UICONTROL 详细信息视图]**”。在同一工具栏上，单击&#x200B;**[!UICONTROL 预览]** > **[!UICONTROL 图像预设列表]**。
+   * 在“资产”窗口的工具栏右侧上方，选择&#x200B;**[!UICONTROL 网格视图]**。 在“资产”窗口中，选择一个图像资产，然后在缩略图图像的下方，转到&#x200B;**[!UICONTROL 预览]** > **[!UICONTROL 图像预设列表]**。
+   * 在“资产”窗口的工具栏右侧上方，选择&#x200B;**[!UICONTROL 列表视图]**。 在“资产”窗口中，选择一个图像资产，然后转到缩略图右侧的&#x200B;**[!UICONTROL 预览]** > **[!UICONTROL 图像预设列表]**。
+   * 在“资产”窗口的工具栏右侧上方，选择&#x200B;**[!UICONTROL 详细信息视图]**。 在同一工具栏中，转到&#x200B;**[!UICONTROL 预览]** > **[!UICONTROL 图像预设列表]**。
 
 1. （可选）在“图像预设列表”的“用于生成复制URL的URL编码”下拉列表中，选择要在复制图像资产的URL时对其应用的URL编码。
-1. 在“图像预设列表”窗口的预览窗格的右上角，单击选定预设类型的&#x200B;**[!UICONTROL 复制URL]** 。
-1. 在“图像预设列表”窗口的右下角，单击&#x200B;**[!UICONTROL 关闭]**&#x200B;以返回到“资产”屏幕。
+1. 在“图像预设列表”窗口的预览窗格的右上角，为选定的预设类型选择&#x200B;**[!UICONTROL 复制URL]** 。
+1. 在“图像预设列表”窗口的右下角，选择&#x200B;**[!UICONTROL 关闭]**&#x200B;以返回到“资产”屏幕。
 
-### 从浏览面板中获得图像预设 URL {#obtaining-an-image-preset-url-from-the-browse-panel}
+### 从浏览面板获取图像预设URL {#obtaining-an-image-preset-url-from-the-browse-panel}
 
 1. 在左侧“资源库”面板中，导航到包含要预览的图像资源的“资源”文件夹。
-1. 在“资源”窗口上方的工具栏右侧，单击“**[!UICONTROL 网格视图]**”。在“资源”窗口中，选择单个图像资源。
-1. 在“资源”窗口上方的工具栏的右侧，单击“**[!UICONTROL 详细信息视图]**”。
-1. 单击屏幕右侧面板上的&#x200B;**[!UICONTROL URL]**&#x200B;以展开图像预设列表。
-1. 单击图像预设名称旁边的&#x200B;**[!UICONTROL 复制URL]**&#x200B;链接，其中包含要复制到剪贴板的URL。
+1. 在“资产”窗口的工具栏右侧上方，选择&#x200B;**[!UICONTROL 网格视图]**。 在“资源”窗口中，选择单个图像资源。
+1. 在“资产”窗口的工具栏右侧上方，选择&#x200B;**[!UICONTROL 详细信息视图]**。
+1. 在屏幕右侧的面板上选择&#x200B;**[!UICONTROL URL]**，以便您可以展开图像预设列表。
+1. 选择图像预设名称旁边的&#x200B;**[!UICONTROL 复制URL]**&#x200B;链接，该链接包含要复制到剪贴板的URL。
 
 ## 关于图像预设 URL 字符串 {#about-image-preset-url-strings}
 
@@ -78,9 +78,9 @@ https://s7d1.scene7.com/is/image/S7learn/backpack?$Large$
 
 在 URL 中图像预设名称用美元符号 ($) 括起。当Dynamic Media图像服务器遇到URL的“图像预设”部分（本例中为`Large`）时，将使用“大”图像预设定义的大小和格式说明。
 
-## 将动态图像添加到网页中 {#adding-dynamic-images-to-your-web-page}
+## 向网页中添加动态图像 {#adding-dynamic-images-to-your-web-page}
 
-要向网页添加动态图像，通常会使用Dynamic Media Classic URL字符串修改HTML网页代码中的`<IMG>`标记，以向Dynamic Media图像服务器发出请求。 该字符串会按图像预设定义的大小和格式规范生成图像。
+要向网页添加动态图像，通常会使用AdobeDynamic Media Classic URL字符串修改HTML网页代码中的`<IMG>`标记，以向Dynamic Media图像服务器发出请求。 该字符串会按图像预设定义的大小和格式规范生成图像。
 
 例如，与以下用于打开静态图像的典型调用不同
 
@@ -88,7 +88,7 @@ https://s7d1.scene7.com/is/image/S7learn/backpack?$Large$
 img src="/company_images/products/backpack_thumbnail.jpg"
 ```
 
-现在，您可以使用`<IMG>`标记将对静态图像的引用替换为对Dynamic Media Classic平台的图像预设调用。 示例调用如下所示：
+现在，您可以使用`<IMG>`标记将对静态图像的引用替换为对AdobeDynamic Media Classic平台的图像预设调用。 示例调用如下所示：
 
 ```as3
 img src="https://s7d2.scene7.com/is/image/S7learn/backpack_trns?$thumbnail$”

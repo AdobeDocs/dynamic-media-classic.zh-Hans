@@ -1,6 +1,6 @@
 ---
-title: 从Dynamic Media Classic导出资产
-description: 了解如何从Dynamic Media Classic导出资产。
+title: 从AdobeDynamic Media Classic导出资产
+description: 了解如何从AdobeDynamic Media Classic导出资产。
 uuid: d42b7a73-80c0-4a9a-a04e-7ef53e6fcf22
 contentOwner: admin
 content-type: reference
@@ -10,22 +10,22 @@ discoiquuid: eb850ec7-a669-41ea-b2b0-4c9178e34f95
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 5e3b0002-5ae2-4437-862f-caa098b04362
-source-git-commit: 20a5e54a9f3fa442d3a993afae07aa5b1b13e9c3
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '425'
+source-wordcount: '431'
 ht-degree: 52%
 
 ---
 
-# 从Dynamic Media Classic导出资产{#exporting-assets-from-dmc}
+# 从AdobeDynamic Media Classic导出资产{#exporting-assets-from-dmc}
 
-您可以将在Dynamic Media Classic中编辑的资产保存到本地网络驱动器。 导出的资源会打包成一个 Zip 文件，供下载或通过电子邮件发送。
+您可以将在Dynamic Media Classic中编辑的Adobe保存到本地网络驱动器。 导出的资源会打包成一个 Zip 文件，供下载或通过电子邮件发送。
 
 可用于导出作业的 Zip 压缩文件的最大文件大小为 1 GB。此外，每个导出作业最多允许500个资产总数。
 
-Dynamic Media Classic会在“作业”屏幕中保留导出作业的记录。
+AdobeDynamic Media Classic会在“作业”屏幕中保留导出作业的记录。
 
-**要从Dynamic Media Classic导出资产，请执行以下操作：**
+**要从AdobeDynamic Media Classic导出资产，请执行以下操作：**
 
 1. 选择要导出的资产，然后转到&#x200B;**[!UICONTROL 文件]** > **[!UICONTROL 导出]**。
 1. 在“导出所选资源”窗口中，单击“**[!UICONTROL 图像选项]**”，然后指定以下任一选项（管理员可确定哪些选项对用户可用）：

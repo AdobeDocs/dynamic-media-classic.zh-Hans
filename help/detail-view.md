@@ -1,6 +1,6 @@
 ---
 title: 在“详细信息”视图中工作
-description: 了解如何在Dynamic Media Classic中以详细视图工作。
+description: 了解如何在AdobeDynamic Media Classic中以详细视图工作。
 uuid: cb62f765-9b7f-4a53-8206-99afae2fb80d
 contentOwner: admin
 content-type: reference
@@ -10,9 +10,9 @@ discoiquuid: eaa214ff-d1ef-4691-9148-d01bf243c810
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 618ae6a4-6f60-4a80-b197-a9d35b3c47af
-source-git-commit: 47845c30311fb9afb3fffb8502b6e7c534e4bfdb
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '612'
+source-wordcount: '615'
 ht-degree: 24%
 
 ---
@@ -44,7 +44,7 @@ Last Modified Date: 2018-06-14T13:52:46.623-0400
 
 1. 在“浏览”面板中，执行以下任一操作：
 
-   * 选择该资源。在Dynamic Media Classic的右上角附近，选择&#x200B;**[!UICONTROL 详细信息视图]**&#x200B;图标。
+   * 选择该资源。在AdobeDynamic Media Classic的右上角附近，选择&#x200B;**[!UICONTROL 详细信息视图]**&#x200B;图标。
    * 双击资源。
    * 选择资产，然后转到&#x200B;**[!UICONTROL 文件]** > **[!UICONTROL 详细信息]**。
 
@@ -54,7 +54,7 @@ Last Modified Date: 2018-06-14T13:52:46.623-0400
 
 ## 在“详细信息”视图中获取信息 {#getting-information-in-detail-view}
 
-详细信息视图提供有关资产或文件的信息。 它显示了有关某个项目的以下信息：存储该内容的文件夹、文件名、项目上传到Dynamic Media Classic的日期及其发布历史记录。 您还可以在详细信息视图中查看和编辑元数据，以及添加资产的关键词。
+详细信息视图提供有关资产或文件的信息。 它显示了有关某个项目的以下信息：存储该内容的文件夹、文件名、项目上传到AdobeDynamic Media Classic的日期以及其发布历史记录。 您还可以在详细信息视图中查看和编辑元数据，以及添加资产的关键词。
 
 您可以在详细信息视图中获取资产URL;但是，在发布资产之前，该URL不会处于活动状态。 对于图像，“详细信息视图”还提供了内部版本和派生资产及元数据的列表，例如缩放目标和图像集。
 

@@ -1,25 +1,25 @@
 ---
 title: 使用 PDF
-description: 了解如何在Dynamic Media Classic中使用PDF。
+description: 了解如何在Dynamic Media Classic中使用PDFAdobe。
 uuid: 26d70d28-9393-49b1-9051-d70456deca67
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
 discoiquuid: 5a073de3-6b1d-4c3e-8c03-9182f9f3874a
-feature: Dynamic Media Classic，Asset Management
+feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 02892514-61fe-48ba-a2e3-eeb30580a1e4
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '663'
+source-wordcount: '662'
 ht-degree: 45%
 
 ---
 
 # 使用 PDF{#working-with-pdfs}
 
-PDF（可移植文档格式）文件在Dynamic Media Classic中创建电子目录时最常用。 在上传PDF文件、Dynamic Media Classic栅格化或锐化时，默认情况下会显示页面，以便页面可用于构建富媒体。
+PDF（可移植文档格式）文件最常用于AdobeDynamic Media Classic以创建电子目录。 在上传PDF文件、AdobeDynamic Media Classic时，默认情况下会对页面进行栅格化或锐化，以便这些页面可用于构建富媒体。
 
 ## PDF 上载选项 {#pdf-upload-options}
 
@@ -59,7 +59,7 @@ PDF（可移植文档格式）文件在Dynamic Media Classic中创建电子目�
 
 * **保留原始色彩空间**  — 保留原始色彩空间。
 
-* **自定义从>自定义到**  — 打开菜单，以便您可以选择“从中转换”和“转换为色彩空间”。您可以选择标准的Photoshop色彩空间或上传到Dynamic Media Classic的色彩空间。
+* **自定义从>自定义到**  — 打开菜单，以便您可以选择“从中转换”和“转换为色彩空间”。您可以选择标准的Photoshop色彩空间或上传到AdobeDynamic Media Classic的色彩空间。
 
 另请参阅[ ICC 配置文件](/help/icc-profiles.md#icc_profiles)。
 

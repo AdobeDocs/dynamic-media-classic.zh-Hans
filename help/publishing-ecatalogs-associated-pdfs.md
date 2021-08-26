@@ -7,19 +7,19 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
 discoiquuid: 76e5732a-83c6-4e6b-a29f-a393b1c971aa
-feature: Dynamic Media Classic，查看器，eCatalog
+feature: Dynamic Media Classic,Viewers,eCatalog
 role: User
 exl-id: 00b70162-2394-433d-a46c-1d90667030af
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '190'
+source-wordcount: '186'
 ht-degree: 26%
 
 ---
 
 # 发布电子目录和关联的PDF{#publishing-ecatalogs-and-associated-pdfs}
 
-Publishing会将您的eCatalog和PDF放置在Dynamic Media图像服务器上，以便该目录和PDF可供您的网站或应用程序使用。 在发布过程中，Dynamic Media Classic会激活URL字符串。 可以将此 URL 字符串放到 HTML 网页代码中。
+Publishing会将您的eCatalog和PDF放置在Dynamic Media图像服务器上，以便该目录和PDF可供您的网站或应用程序使用。 在发布过程中，AdobeDynamic Media Classic会激活URL字符串。 可以将此 URL 字符串放到 HTML 网页代码中。
 
 >[!NOTE]
 >
@@ -37,5 +37,5 @@ Publishing会将您的eCatalog和PDF放置在Dynamic Media图像服务器上，�
 
 >[!MORELIKETHIS]
 >
->* [发布](publishing-files.md)
+>* [Publishing](publishing-files.md)
 

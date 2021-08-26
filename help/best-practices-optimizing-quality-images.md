@@ -5,12 +5,12 @@ contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
-feature: Dynamic Media Classic，Asset Management
+feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 3c50e706-b9ed-49db-8c08-f179de52b9cf
-source-git-commit: 1c7900b2807e6b67e9802e6361e42cce893b0217
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '1465'
+source-wordcount: '1467'
 ht-degree: 55%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 55%
 
 优化图像质量可能是一个需要很长时间的过程，因为很多因素都会影响提供可接受的结果。结果在一定程度上是主观性的，因为个人评价图像质量的标准不尽相同。因此，进行结构化的试验是至关重要的。
 
-Dynamic Media Classic包含100多个图像服务命令，用于调整和优化图像以及渲染结果。 以下准则可以帮助您简化流程，并使用一些基本命令和最佳做法快速获得较好的效果。
+AdobeDynamic Media Classic包含100多个图像服务命令，用于调整和优化图像以及渲染结果。 以下准则可以帮助您简化流程，并使用一些基本命令和最佳做法快速获得较好的效果。
 
 另请参阅[智能成像](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/imaging-faq.html#dynamic)。
 
@@ -45,13 +45,13 @@ Dynamic Media Classic包含100多个图像服务命令，用于调整和优化�
 
 ## 图像锐化的最佳做法 {#best-practices-for-image-sharpening}
 
-图像锐化是在您的网站上控制图像的最复杂任务，可能会出现很多错误。请花些时间，通过参考以下有用资源，详细了解Dynamic Media Classic中锐化和USM锐化的工作原理：
+图像锐化是在您的网站上控制图像的最复杂任务，可能会出现很多错误。请花些时间，通过参考以下有用资源，详细了解AdobeDynamic Media Classic如何使用锐化和USM锐化：
 
 最佳实践白皮书[在AdobeDynamic Media Classic和图像服务器上锐化图像](/help/assets/s7_sharpening_images.pdf)。
 
 <!-- Give a 404 See also [Sharpening an image with unsharp mask](https://helpx.adobe.com/photoshop/atv/cs6-tutorials/sharpening-an-image-with-unsharp-mask.html). -->
 
-借助Dynamic Media Classic，您可以在摄取、交付或同时在两者中锐化图像。 但是，通常只使用一种方法锐化图像，而不使用两种方法锐化图像。 传送时在 URL 上锐化图像通常可以获得最佳的效果。
+使用AdobeDynamic Media Classic，您可以在摄取、交付或同时在两者中锐化图像。 但是，通常只使用一种方法锐化图像，而不使用两种方法锐化图像。 传送时在 URL 上锐化图像通常可以获得最佳的效果。
 
 可以使用以下两种图像锐化方法：
 
@@ -71,7 +71,7 @@ Dynamic Media Classic包含100多个图像服务命令，用于调整和优化�
 
          有关如何设置这三个参数的更多信息（包括与滤镜一起使用的最佳实践），请参阅[在Dynamic Media ClassicAdobe和图像服务器](/help/assets/s7_sharpening_images.pdf)上锐化图像。
 
-      * Dynamic Media Classic还允许您控制第四个参数：单色(`0,1`)。 此参数确定是使用值 `0` 将 USM 锐化分别应用于每个颜色分量，还是使用值 `1` 将 USM 锐化应用于图像亮度/强度。
+      * AdobeDynamic Media Classic还允许您控制第四个参数：单色(`0,1`)。 此参数确定是使用值 `0` 将 USM 锐化分别应用于每个颜色分量，还是使用值 `1` 将 USM 锐化应用于图像亮度/强度。
 
 作为最佳做法，请从 USM 锐化 radius 参数入手。可以最初使用以下 radius 设置：
 
@@ -120,6 +120,6 @@ Dynamic Media Classic包含100多个图像服务命令，用于调整和优化�
 
 在您进行实验时，以下常规建议有助于优化工作流：
 
-* 可以直接在Dynamic Media Classic URL上或使用Dynamic Media Classic的图像调整功能，实时尝试和测试不同的参数。 后者提供调整操作的实时预览。
+* 可以直接在AdobeDynamic Media Classic URL上或使用AdobeDynamic Media Classic的图像调整功能，实时尝试和测试不同的参数。 后者提供调整操作的实时预览。
 * 作为最佳实践，请记住，可以将Dynamic Media图像提供命令分组到图像预设中。 图像预设基本上就是具有自定义预设名称（如`$thumb_low$`和`&product_high$`）的URL命令宏。 URL路径中的自定义预设名称会调用这些预设。 此功能帮助您针对网站上的图像的不同使用方式管理命令和质量设置，并缩短 URL 的总体长度。
-* Dynamic Media Classic还提供了更高级的图像质量调整方法，例如在摄取时应用图像锐化。 对于高级用例，如果可以进一步调整和优化渲染的结果，Adobe Professional Services可以帮助您获得自定义的洞察信息和最佳实践。
+* AdobeDynamic Media Classic还提供了更高级的图像质量调整方法，例如在摄取时应用图像锐化。 对于高级用例，如果可以进一步调整和优化渲染的结果，Adobe Professional Services可以帮助您获得自定义的洞察信息和最佳实践。

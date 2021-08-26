@@ -10,16 +10,16 @@ discoiquuid: 87a5a25e-210b-4359-821a-7dfe8c304f9b
 feature: Dynamic Media Classic
 role: User
 exl-id: d4315312-195c-453d-a3aa-c5e9f9365fc7
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '171'
+source-wordcount: '169'
 ht-degree: 22%
 
 ---
 
 # 发布模板{#publishing-templates}
 
-发布模板会将其放置在Dynamic Media图像服务器上，您的网站和应用程序都可以使用该模板。 在发布过程中，Dynamic Media Classic会激活您的网站和应用程序所需的URL。
+发布模板会将其放置在Dynamic Media图像服务器上，您的网站和应用程序都可以使用该模板。 在发布过程中，AdobeDynamic Media Classic会激活您的网站和应用程序所需的URL。
 
 >[!NOTE]
 >
@@ -36,5 +36,5 @@ ht-degree: 22%
 >[!MORELIKETHIS]
 >
 >* [将资源标记为发布](publishing-files.md#publish_after_uploading)
-* [创建发布作业](publishing-files.md#creating_a_publish_job)
+>* [创建发布作业](publishing-files.md#creating_a_publish_job)
 

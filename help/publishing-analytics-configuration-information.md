@@ -10,20 +10,20 @@ discoiquuid: deeb9fed-ef27-4d58-af98-f381de33c431
 feature: Dynamic Media Classic
 role: Data Engineer,Admin,User
 exl-id: 02782dc0-601f-453a-98d1-1fdd7267df3b
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '146'
+source-wordcount: '147'
 ht-degree: 37%
 
 ---
 
 # 发布 Adobe Analytics 配置信息{#publishing-adobe-analytics-configuration-information}
 
-发布Dynamic Media Classic查看器，以便有关配置Adobe Analytics报表的信息会发送到Dynamic Media Classic服务器。 该信息将嵌入查看器中。必须进行发布，以便查看器中包含的信息可在Dynamic Media Classic服务器上使用。 用户在查看器上执行活动后，可以将信息从服务器传送到 Adobe Analytics。
+发布您的AdobeDynamic Media Classic查看器，以便有关配置Adobe Analytics报表的信息会发送到AdobeDynamic Media Classic服务器。 该信息将嵌入查看器中。必须进行发布，以便查看器中包含的信息可在AdobeDynamic Media Classic服务器上使用。 用户在查看器上执行活动后，可以将信息从服务器传送到 Adobe Analytics。
 
 >[!NOTE]
 >
->每当您在Adobe Analytics中更改Adobe Analytics报表设置时，请确保从Dynamic Media Classic中重新登录到Adobe Analytics，重新保存Adobe Analytics配置设置，然后重新发布。
+>每当您在Adobe Analytics中更改Adobe Analytics报表设置时，请确保从Adobe Dynamic Media Classic中重新登录到Adobe Analytics，重新保存Adobe Analytics配置设置，然后重新发布。
 
 请参阅[登录到 Adobe Analytics](log-analytics.md#log_in_to_adobe_analytics)。
 

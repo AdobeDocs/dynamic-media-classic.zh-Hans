@@ -7,25 +7,25 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/mixed_media_sets
 discoiquuid: 4e8694f7-c1b5-4d45-a18b-2b9494db1757
-feature: Dynamic Media Classic，查看器，混合媒体集
+feature: Dynamic Media Classic,Viewers,Mixed Media Sets
 role: User
 exl-id: 1fca9640-d127-454a-b3aa-b2ac82136e62
-source-git-commit: 591feb7ee4ac88e39941b429a8aa965d4d919738
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '258'
-ht-degree: 55%
+source-wordcount: '254'
+ht-degree: 56%
 
 ---
 
 # 发布混合媒体集{#publishing-a-mixed-media-set}
 
-创建发布作业以发布您标记为要发布到Dynamic Media Classic视频服务器和图像服务器的混合媒体集。 Dynamic Media Classic提供了高级发布选项，用于发布到特定服务器，以及用于重新发布已发布资产的选项。
+创建发布作业以发布您标记为要发布到Dynamic Media Classic视频服务器和图像服务器的混合媒体集。 AdobeDynamic Media Classic提供了高级发布选项以发布到特定服务器，以及用于重新发布已发布的资产的选项。
 
 >[!NOTE]
 >
 >混合媒体集要求同时发布到&#x200B;**视频服务器**&#x200B;和&#x200B;**图像服务器**。使用&#x200B;**视频服务器**&#x200B;发布已标记为发布的实际视频。此外，您还可以使用&#x200B;**图像服务器**&#x200B;发布相关资产（如视频缩略图），并为任何自适应视频集设置信息。
 
-Dynamic Media Classic在“作业”屏幕中跟踪发布作业。
+AdobeDynamic Media Classic可在“作业”屏幕中跟踪发布作业。
 
 请参阅[发布](publishing-files.md#publishing_files)。
 

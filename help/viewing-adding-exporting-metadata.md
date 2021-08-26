@@ -7,29 +7,29 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: 5414b4f5-6e05-468c-8725-385423596342
-feature: Dynamic Media Classic，资产管理，元数据
+feature: Dynamic Media Classic,Asset Management,Metadata
 role: User
 exl-id: 2be50cc7-9a8b-4f7b-8ebf-18a3208654f2
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '2254'
-ht-degree: 48%
+source-wordcount: '2268'
+ht-degree: 47%
 
 ---
 
 # 查看、添加和导出元数据{#viewing-adding-and-exporting-metadata}
 
-您可以存储特定于您在Dynamic Media Classic中处理的文件的信息；此信息称为&#x200B;*metadata*。 您可以使用Dynamic Media Classic中的元数据来组织、搜索、筛选和排序资产。
+您可以在Dynamic Media Classic中存储特定于您处理的文件的Adobe信息；此信息称为&#x200B;*metadata*。 您可以使用Dynamic Media Classic中的元Adobe来组织、搜索、过滤和排序资产。
 
-元数据会与Dynamic Media Classic生成的信息（如文件创建日期、发布日期和关键字）一起显示在“详细信息”视图中。 要查看元数据，请在“详细信息”视图中打开资产，然后选择元数据面板。 可以在详细信息视图中输入并编辑元数据。
+元数据会与AdobeDynamic Media Classic生成的信息（如文件创建日期、发布日期和关键字）一起显示在详细信息视图中。 要查看元数据，请在详细信息视图中打开资产，然后选择元数据面板。 可以在详细信息视图中输入和编辑 元数据。
 
-一些元数据直接嵌入到文件中。如果文件包含此元数据，Dynamic Media Classic会自动将其与文件一起上传。 您可以将元数据嵌入到Adobe Photoshop、InDesign、Illustrator和其他应用程序中的源资产中；Dynamic Media Classic可识别此元数据。 也可以将元数据添加到详细信息视图的“元数据”面板中的单个文件中。为了确保资源的一致性，公司管理员创建了元数据模板，提供可以填写的元数据字段。
+一些元数据直接嵌入到文件中。如果文件包含此元数据，则AdobeDynamic Media Classic会自动将其与文件一起上传。 您可以将元数据嵌入到Adobe Photoshop、InDesign、Illustrator和其他应用程序中的源资产中；AdobeDynamic Media Classic可识别此元数据。 您还可以在详细信息视图的元数据面板中将元数据添加到单个文件。 为了确保资源的一致性，公司管理员创建了元数据模板，提供可以填写的元数据字段。
 
 有关嵌入式元数据的更多信息，请参阅[www.adobe.com/go/learn_s7_xmp_en](https://www.adobe.com/go/learn_s7_xmp_en)。
 
 ## 查看元数据 {#view-metadata}
 
-要查看资产的元数据，请在详细信息视图中打开资产，然后点按元数据面板。 要选择一组元数据字段，请在元数据视图菜单中选择一个选项。 Dynamic Media Classic提供了以下元数据视图：
+要查看资产的元数据，请在详细信息视图中打开资产，然后点按元数据面板。 要选择一组元数据字段，请在元数据视图菜单中选择一个选项。 AdobeDynamic Media Classic提供了以下元数据视图：
 
 * **紧凑视图**  — 基本的值列表。
 
@@ -43,7 +43,7 @@ ht-degree: 48%
 
 ## 为资源手动输入元数据 {#manually-enter-metadata-for-an-asset}
 
-1. 在详细信息视图中打开资源。
+1. 在“详细信息视图”中打开资产。
 1. 打开“元数据”面板并执行以下一项操作或全部操作：
 
    * 选择一种元数据视图，以确定面板中显示哪些元数据字段。
@@ -72,7 +72,7 @@ ht-degree: 48%
 
 >[!NOTE]
 >
->您可以在将关键词上传到Dynamic Media Classic时，将其添加到文件。 在“上传作业选项”对话框中，选择&#x200B;**[!UICONTROL 其他元数据]**并输入关键字。
+>您可以在将关键词上传到Dynamic Media Classic时，将其添加到文件中。 在“上传作业选项”对话框中，选择&#x200B;**[!UICONTROL 其他元数据]**并输入关键字。
 >请参阅[上载选项](uploading-files.md#upload_options)。
 
 ## 导入元数据 {#import-metadata}
@@ -81,7 +81,7 @@ ht-degree: 48%
 
 >[!NOTE]
 >
->您可以创建用于输入元数据的模板，以便能够将其正确导入到Dynamic Media Classic。 创建模板之后，可以使用该模板输入元数据。
+>您可以创建用于输入元数据的模板，以便能够将其正确导入以AdobeDynamic Media Classic。 创建模板之后，可以使用该模板输入元数据。
 >请参阅[创建模板以输入要上载的元数据](viewing-adding-exporting-metadata.md#create_a_template_for_entering_metadata_to_upload)。
 
 有关标准化属性的更多信息，请访问[AdobeXMP开发人员中心](https://www.adobe.com/devnet/xmp.html)。
@@ -135,9 +135,9 @@ XML 导入仅接受有效的 XML。导入XMP或元数据架构字段时，会添
 
 ## 使用元数据批量重命名 ID {#batch-rename-ids-using-metadata}
 
-使用从制表符分隔文件或XML文件导入的元数据，可以重命名Dynamic Media Classic ID。 导入的元数据仅适用于在元数据文件自身中指定的图像。是否在“浏览”面板上选择图像并不重要。
+使用从制表符分隔文件或XML文件导入的元数据，可以重命名AdobeDynamic Media Classic ID。 导入的元数据仅适用于在元数据文件自身中指定的图像。是否在“浏览”面板上选择图像并不重要。
 
-要重命名图像的Dynamic Media Classic ID，请将标有&#x200B;*newipsid*&#x200B;的列添加到以制表符分隔的文件中，或向XML数据添加名为`new_vc_objectname`的字段。
+要重命名图像的AdobeDynamic Media Classic ID，请将标有&#x200B;*newipsid*&#x200B;的列添加到以制表符分隔的文件中，或向XML数据添加名为`new_vc_objectname`的字段。
 
 例如：
 
@@ -150,7 +150,7 @@ XML 导入仅接受有效的 XML。导入XMP或元数据架构字段时，会添
 
 ## 创建模板以输入要上载的元数据 {#create-a-template-for-entering-metadata-to-upload}
 
-Dynamic Media Classic提供了用于创建用于记录元数据的模板的命令。 使用模板可确保以正确的格式输入元数据，以便能够将元数据正确上传到Dynamic Media Classic。 要创建用于记录元数据并将元数据导入Dynamic Media Classic的模板，请执行以下步骤：
+AdobeDynamic Media Classic提供了用于创建用于记录元数据的模板的命令。 使用模板可确保以正确的格式输入元数据，以便能够将其正确上传到AdobeDynamic Media Classic。 要创建用于记录和导入元数据以AdobeDynamic Media Classic的模板，请执行以下步骤：
 
 1. 选择具有模板所需的元数据字段的图像资源。
 1. 单击“**[!UICONTROL 文件]**”>“**[!UICONTROL 导入元数据]**”。
@@ -181,15 +181,15 @@ Dynamic Media Classic提供了用于创建用于记录元数据的模板的命�
 
 >[!NOTE]
 >
->对架构所做的更改永远不会更改资源元数据自身。但是，它们在所有Dynamic Media Classic和元数据服务器功能中都不可见，并且在进行更改后无法访问。 同样，如果资产的元数据存在，则创建匹配的架构会使该元数据在Dynamic Media Classic和元数据服务器中可用。
+>对架构所做的更改永远不会更改资源元数据自身。但是，它们对于所有AdobeDynamic Media Classic和元数据服务器功能都不可见，并且在进行更改后无法访问。 同样，如果Adobe存在元数据，则创建匹配的架构会使元数据在Dynamic Media Classic和元数据服务器中可用。
 
-元数据架构编辑器提供了一种图形方式，用于在Dynamic Media Classic中添加或编辑自定义公司架构。 架构由前缀、命名空间和一系列属性定义。
+元数据架构编辑器提供了一种图形方式，用于在AdobeDynamic Media Classic中添加或编辑自定义公司架构。 架构由前缀、命名空间和一系列属性定义。
 
 * **名称**  — 架构的UI — 名称。用于在元数据视图和高级搜索中识别属性。类似于 XMP 部分，如“基本”、IPTC、PDF。
 
-* **前缀**  — 架构的技术唯一标识符。限于字母a-z和A-Z。前缀在Dynamic Media经典UI中不可见，但在将资产的元数据存储到XMP块和数据库中时会使用。 前缀用于在元数据服务器上的元数据搜索查询中或导入时唯一识别元数据字段。
+* **前缀**  — 架构的技术唯一标识符。限于字母a-z和A-Z。前缀在AdobeDynamic Media经典UI中不可见，但在将资产的元数据存储到XMP块和数据库中时会使用。 前缀用于在元数据服务器上的元数据搜索查询中或导入时唯一识别元数据字段。
 
-* **命名空间**  — 架构的技术唯一标识符，通常为格式为的URL  `https://your.company.com/name/version/`。有关示例，请参阅标准架构列表。命名空间在Dynamic Media经典UI中不可见，但用于在XMP块中存储元数据。
+* **命名空间**  — 架构的技术唯一标识符，通常为格式为的URL  `https://your.company.com/name/version/`。有关示例，请参阅标准架构列表。命名空间在AdobeDynamic Media经典UI中不可见，但用于在XMP块中存储元数据。
 
 * **描述**  — 架构的自由格式描述。
 
@@ -201,7 +201,7 @@ Dynamic Media Classic提供了用于创建用于记录元数据的模板的命�
 
 | 属性 | 说明 |
 |--- |--- |
-| ID | 该属性的技术性标识符。该ID在Dynamic Media经典UI中不可见，但在将资产的元数据存储到XMP块和数据库中时会使用。 ID 用于在元数据服务器上创建搜索查询。ID 具有以下限制： <ul><li>不得包含空格</li><li>不得包含“.”、“:”和“$”</li><li>第一个字符不得为数字</li><li>最好使用 a-z 或 A-Z 作为第一个字符</li></ul> <br>创建后，ID 即无法更改。 |
+| ID | 该属性的技术性标识符。该ID在AdobeDynamic Media经典UI中不可见，但在将资产的元数据存储到XMP块和数据库中时使用。 ID 用于在元数据服务器上创建搜索查询。ID 具有以下限制： <ul><li>不得包含空格</li><li>不得包含“.”、“:”和“$”</li><li>第一个字符不得为数字</li><li>最好使用 a-z 或 A-Z 作为第一个字符</li></ul> <br>创建后，ID 即无法更改。 |
 | 标签 | 该属性的 UI 名称。 |
 | 结构 | 与数据类型一起确定属性的类型。结构可能为：<ul><li>简单类型：单个数据类型值</li><li>序列：相同数据类型的值的列表</li><li>开放式选项：从预定义的值列表中选择一项，或随意输入文本。数据类型仅可为字符串型或整型</li><li>限定式选项：从预定义的值列表（弹出窗口或组合框）中选择一项</li></ul> |
 | 数据类型 | 从以下可用的类型中选择： <ul><li>字符串型</li><li>整型</li><li>浮点型</li><li>是/否（布尔型）</li><li>日期</li></ul> |
@@ -210,11 +210,11 @@ Dynamic Media Classic提供了用于创建用于记录元数据的模板的命�
 
 | 属性 | 说明 |
 |--- |--- |
-| ID | 该值的技术性标识符。该ID在Dynamic Media经典UI中不可见，但当资产的元数据存储在XMP块和数据库中时，会使用该ID。 ID 用于元数据服务器上的搜索查询。ID 不可包含空格。创建后，ID 即无法更改。 |
+| ID | 该值的技术性标识符。该ID在AdobeDynamic Media Classic UI中不可见，但当资产的元数据存储在XMP块和数据库中时，会使用该ID。 ID 用于元数据服务器上的搜索查询。ID 不可包含空格。创建后，ID 即无法更改。 |
 | 标签 | 该值的 UI 名称。 |
 
 >[!MORELIKETHIS]
 >
->* [查看器预设](application-setup.md#viewer_presets)
-* [元数据预设](application-setup.md#metadata_presets)
+>* [Viewer Presets](application-setup.md#viewer_presets)
+>* [Metadata Presets](application-setup.md#metadata_presets)
 

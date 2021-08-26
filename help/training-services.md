@@ -10,10 +10,10 @@ discoiquuid: 2bccf91d-ec27-4cdf-a322-55804b6ba0d3
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: e2840200-246e-4c68-b10f-a66461f2a118
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '163'
-ht-degree: 52%
+source-wordcount: '162'
+ht-degree: 53%
 
 ---
 
@@ -29,12 +29,12 @@ Adobe 培训服务提供专为贵组织设计的、内容深入的自定义课�
 
 ## 演示
 
-观看Dynamic Media Classic查看器功能的演示。
+观看AdobeDynamic Media Classic查看器功能的演示。
 
 请参阅[演示](https://landing.adobe.com/zh-Hans/na/dynamic-media/ctir-2755/live-demos.html)。
 
 ## 帮助的快速入门章节
 
-帮助系统的快速入门部分向初次使用Dynamic Media Classic的用户提供说明。 本文介绍了有关程序、导航、设置、资产管理和构建富媒体的基础知识。
+帮助系统的快速入门部分向初次AdobeDynamic Media Classic的用户提供说明。 本文介绍了有关程序、导航、设置、资产管理和构建富媒体的基础知识。
 
 请参阅[快速入门](dmc-platform-overview.md)。

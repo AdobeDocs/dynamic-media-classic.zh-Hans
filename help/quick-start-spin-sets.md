@@ -7,19 +7,19 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/spin_sets
 discoiquuid: 282b8e83-b20f-43f7-b9f8-6eebd5b1c5a7
-feature: Dynamic Media Classic，查看器，旋转集
+feature: Dynamic Media Classic,Viewers,Spin Sets
 role: User
 exl-id: 26e3cd5b-f070-4b92-af36-25631723460e
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '724'
+source-wordcount: '723'
 ht-degree: 32%
 
 ---
 
 # 快速入门：旋转集{#quick-start-spin-sets}
 
-旋转集用于模拟转动物品进行查看时的真实动作。利用旋转集能够从任意角度查看物品，从而获得任意角度的重要视觉详细信息。旋转集会模拟 360 度的查看体验。Dynamic Media Classic提供了一维旋转集（查看者可以在其中旋转项目）和二维旋转集（查看者可以在其中旋转和翻转项目）。 此外，用户只需单击几下鼠标即可“自由”缩放和平移任何视图。 通过这种方式，用户能够以特定的视角，更仔细地查看物品。
+旋转集用于模拟转动物品进行查看时的真实动作。利用旋转集能够从任意角度查看物品，从而获得任意角度的重要视觉详细信息。旋转集会模拟 360 度的查看体验。AdobeDynamic Media Classic提供了一维旋转集（查看者可以在其中旋转项目）和二维旋转集（查看者可以在其中旋转和翻转项目）。 此外，用户只需单击几下鼠标即可“自由”缩放和平移任何视图。 通过这种方式，用户能够以特定的视角，更仔细地查看物品。
 
 ![旋转集的图像。](/help/assets/spin_set.png)
 
@@ -27,13 +27,13 @@ ht-degree: 32%
 
 请参阅[创建图像映射](creating-image-maps.md)。
 
-此旋转集快速入门旨在通过Dynamic Media Classic中的旋转集技术快速启动并运行。 按照步骤 1 到 7 操作。在每个步骤的末尾，您可以单击主题链接以了解更多信息。
+此旋转集快速入门旨在通过AdobeDynamic Media Classic中的旋转集技术快速启动并运行。 按照步骤 1 到 7 操作。在每个步骤的末尾，您可以单击主题链接以了解更多信息。
 
 ## 1.创建和上传图像
 
 对于一维旋转集，您至少需要一个项目8-12张拍照；对于二维旋转集，您至少需要16-24张拍照。 拍摄照片时必须间隔一定的角度，以便让人感觉物品正在旋转和翻转。例如，如果一维旋转集包含12张照片，则对于每张照片，旋转项目30° (360/12)。
 
-在全局导航栏上，单击&#x200B;**[!UICONTROL Upload]** ，将旋转图像从您的计算机或网络上传到Dynamic Media Classic。
+在全局导航栏上，单击&#x200B;**[!UICONTROL Upload]** ，以从计算机或网络上传旋转图像以AdobeDynamic Media Classic。
 
 请参阅[旋转集图像拍摄指南](creating-spin-set.md#guidelines-for-shooting-spin-set-images)。
 
@@ -85,7 +85,7 @@ Last Modified Date:
 
 ## 6.发布旋转集
 
-发布旋转集会将其放置在Dynamic Media Classic服务器上，以便能够将其动态交付到您的网站或应用程序。 它还会激活URL字符串，以将旋转集从Dynamic Media图像服务器调用到您的网站或应用程序。
+发布旋转集会将其放置在AdobeDynamic Media Classic服务器上，以便能够将其动态交付到您的网站或应用程序。 它还会激活URL字符串，以将旋转集从Dynamic Media图像服务器调用到您的网站或应用程序。
 
 要发布旋转集，请在浏览面板中选择旋转集名称旁边的&#x200B;**[!UICONTROL 标记为发布]**&#x200B;图标，以将其标记为发布。 在全局导航栏上，单击&#x200B;**[!UICONTROL Publish]**&#x200B;以启动发布。 在“发布”屏幕上，单击&#x200B;**[!UICONTROL 提交发布]**。
 
@@ -93,7 +93,7 @@ Last Modified Date:
 
 ## 7.将旋转集关联到网页
 
-Dynamic Media Classic会为旋转集创建URL标注字符串，并在您发布它们后将其激活。 您可以从预览页面复制这些URL。
+AdobeDynamic Media Classic会为旋转集创建URL标注字符串，并在您发布它们后将其激活。 您可以从预览页面复制这些URL。
 
 选择旋转集，然后单击&#x200B;**[!UICONTROL 预览]**。 选择旋转集查看器预设。然后，单击&#x200B;**[!UICONTROL 复制URL]**。
 

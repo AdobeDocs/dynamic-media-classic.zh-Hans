@@ -8,10 +8,10 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/getting_started
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 8d70db72-b02b-4915-b4c3-6efb146b7f08
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '228'
-ht-degree: 7%
+source-wordcount: '230'
+ht-degree: 6%
 
 ---
 
@@ -19,15 +19,15 @@ ht-degree: 7%
 
 # 登录AdobeDynamic Media Classic {#dmc-sign-in}
 
-在使用Dynamic Media Classic桌面应用程序之前，请确保您具有以下功能：
+在使用AdobeDynamic Media Classic桌面应用程序之前，请确保您具有以下功能：
 
 * **用户名**  — 使用您的电子邮件地址作为登录名。
 
-* **密码**  — 您可以在“欢迎”电子邮件中从Dynamic Media Classic或Dynamic Media Classic管理员处获取临时密码。您第一次登录时，会提示您更改此临时密码。
+* **密码**  — 您可以从AdobeDynamic Media Classic或AdobeDynamic Media Classic管理员的“欢迎”电子邮件中获取临时密码。您第一次登录时，会提示您更改此临时密码。
 
 1. 打开AdobeDynamic Media Classic桌面应用程序。
 
-   ![Dynamic Media Classic登录](/help/assets/dmclassic-login1.png)
+   ![AdobeDynamic Media Classic登录](/help/assets/dmclassic-login1.png)
 
 1. 在&#x200B;**[!UICONTROL 用户名]**&#x200B;字段中，输入您的电子邮件地址。
 1. 在&#x200B;**[!UICONTROL Password]**&#x200B;字段中，键入密码。
@@ -44,9 +44,9 @@ ht-degree: 7%
 
 ## 从AdobeDynamic Media Classic注销 {#dmc-sign-out}
 
-1. 在Dynamic Media Classic桌面应用程序的右上角，点按&#x200B;**[!UICONTROL 注销]**，然后再次点按&#x200B;**[!UICONTROL 注销]**。
+1. 在AdobeDynamic Media Classic桌面应用程序的右上角，点按&#x200B;**[!UICONTROL 注销]**，然后再次点按&#x200B;**[!UICONTROL 注销]**。
 
 >[!MORELIKETHIS]
 >
->* [个人设置](personal-setup.md#personal_setup)
+>* [Personal Setup](personal-setup.md#personal_setup)
 

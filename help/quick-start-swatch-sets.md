@@ -7,27 +7,27 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/swatch_sets
 discoiquuid: 1ea70fdf-3cbd-409c-ae7d-06286c99c6ac
-feature: Dynamic Media Classic，查看器
+feature: Dynamic Media Classic,Viewers
 role: User
 exl-id: b0c345dc-539f-4b03-a873-091681e2f2c2
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '388'
+source-wordcount: '390'
 ht-degree: 35%
 
 ---
 
 # 快速入门：样本集{#quick-start-swatch-sets}
 
-Dynamic Media经典色板集为用户提供了集成的查看体验。 在动态的样本集查看器中，只需单击缩略图，用户即可看到以不同颜色、材质、纹理、光泽度或织物渲染的项目。
+AdobeDynamic Media Classic色板集为用户提供了集成的查看体验。 在动态的样本集查看器中，只需单击缩略图，用户即可看到以不同颜色、材质、纹理、光泽度或织物渲染的项目。
 
-此样本集快速入门旨在使用Dynamic Media Classic中的样本集技术快速启动并运行。
+此样本集快速入门旨在使用AdobeDynamic Media Classic中的样本集技术快速启动并运行。
 
 ## 1.上传图像和色板文件
 
 首先为样本集上载图像和样本文件。
 
-在全局导航栏上，单击&#x200B;**[!UICONTROL Upload]** ，将文件从计算机上传到Dynamic Media Classic上的文件夹。 请参阅[准备要上载的样本集资源](preparing-swatch-set-assets-upload.md#preparing-swatch-set-assets-for-upload)和[上载文件](uploading-files.md#uploading-your-files)。
+在全局导航栏上，单击&#x200B;**[!UICONTROL Upload]** ，将文件从计算机上传到Dynamic Media Classic上的Adobe文件夹。 请参阅[准备要上载的样本集资源](preparing-swatch-set-assets-upload.md#preparing-swatch-set-assets-for-upload)和[上载文件](uploading-files.md#uploading-your-files)。
 
 ## 2.创建色板集
 
@@ -35,7 +35,7 @@ Dynamic Media经典色板集为用户提供了集成的查看体验。 在动态
 
 ## 3.设置样本集查看器预设
 
-管理员可以创建或修改图像集查看器预设。Dynamic Media Classic随附每个富媒体类型的默认查看器预设。 使用“缩放查看器: 自定义 > 图像集/颜色样本”预设查看您的样本集。
+管理员可以创建或修改图像集查看器预设。AdobeDynamic Media Classic随附每种富媒体类型的默认查看器预设。 使用“缩放查看器: 自定义 > 图像集/颜色样本”预设查看您的样本集。
 
 请参阅[创建和编辑查看器预设](application-setup.md#adding-and-editing-viewer-presets)。
 
@@ -47,7 +47,7 @@ Dynamic Media经典色板集为用户提供了集成的查看体验。 在动态
 
 ## 5.发布色板集
 
-发布色板集会将其放置在Dynamic Media Classic服务器上，并激活URL字符串。
+发布色板集会将其放置在AdobeDynamic Media Classic服务器上，并激活URL字符串。
 
 在“浏览”面板中，单击其名称左侧的&#x200B;**[!UICONTROL 标记为发布]**&#x200B;图标。然后，单击&#x200B;**[!UICONTROL Publish]**。 在“发布”页面上，单击&#x200B;**[!UICONTROL 提交发布]**。
 
@@ -55,6 +55,6 @@ Dynamic Media经典色板集为用户提供了集成的查看体验。 在动态
 
 ## 6.将色板集链接到网页
 
-Dynamic Media Classic会为色板集创建URL调用，并在您发布后激活它们。 您可以从预览页面复制这些URL。
+AdobeDynamic Media Classic会为色板集创建URL调用，并在您发布后激活它们。 您可以从预览页面复制这些URL。
 
 选择“样本集”，然后选择“预览”按钮。此时将打开预览页面。 选择一个样本集查看器预设，然后选择“复制 URL”按钮。请参阅[将样本集链接至网页](linking-swatch-set-web-page.md#linking-a-swatch-set-to-a-web-page)。

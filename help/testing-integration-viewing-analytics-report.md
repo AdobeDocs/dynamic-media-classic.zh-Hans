@@ -10,20 +10,20 @@ discoiquuid: 1ddc89ff-d2e9-42eb-a442-aa6b9871c991
 feature: Dynamic Media Classic
 role: Data Engineer,Admin,User
 exl-id: 6186fcf0-99b4-447d-ae94-b4124dcb405b
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '334'
+source-wordcount: '335'
 ht-degree: 15%
 
 ---
 
 # 查看 Adobe Analytics 报告以测试集成{#testing-the-integration-by-viewing-an-adobe-analytics-report}
 
-在Adobe Analytics中创建必需的变量，将它们链接到Dynamic Media Classic事件，并完成必要的实施步骤后，您可以测试设置。 您可以在 Adobe Analytics 中测试和验证是否正在捕获数据。如果设置正常，则无需其他步骤。假定您按照上述步骤操作并将Dynamic Media Classic事件数据链接到一个或多个自定义流量变量，然后按照此工作流在Adobe Analytics中测试您的数据。
+在Adobe Analytics中创建必需的变量，将它们链接到AdobeDynamic Media Classic事件，并完成必要的实施步骤后，您可以测试设置。 您可以在 Adobe Analytics 中测试和验证是否正在捕获数据。如果设置正常，则无需其他步骤。假定您按照上述步骤操作并将AdobeDynamic Media Classic事件数据链接到一个或多个自定义流量变量，然后按照此工作流在Adobe Analytics中测试您的数据。
 
 **要通过查看Adobe Analytics报表来测试集成，请执行以下操作：**
 
-1. 从您的帐户启动Dynamic Media Classic查看器，尤其是用于广播您要获取的量度的查看器，并与其交互以创建一些事件数据。
+1. 从您的帐户启动AdobeDynamic Media Classic查看器，尤其是用于广播您要获取的量度并与其交互以创建一些事件数据的查看器。
 
    例如，如果要测量图像集中的常用替代视图，请预览图像集并单击不同的缩略图图像。
 
@@ -35,6 +35,6 @@ ht-degree: 15%
 
 >[!NOTE]
 >
->所有Dynamic Media Classic查看器数据都在Adobe Analytics的自定义流量报表或自定义转化报表中显示和报告。
+>所有AdobeDynamic Media Classic查看器数据均在Adobe Analytics的自定义流量报表或自定义转化报表中显示和报告。
 
 有关更多信息，请参阅[AnalyticsTutorials](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/overview.html)。

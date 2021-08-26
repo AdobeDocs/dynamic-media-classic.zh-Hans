@@ -1,25 +1,25 @@
 ---
 title: 检查作业文件
-description: 了解如何在Dynamic Media Classic中检查作业文件。
+description: 了解如何在AdobeDynamic Media Classic中检查作业文件。
 uuid: 8241a894-3014-4a5c-96ef-71f3aaa3716a
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/upload_and_publish_assets
 discoiquuid: d53ae5dd-8daf-4d87-b9a6-3039bad30538
-feature: Dynamic Media Classic，Asset Management
+feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: b6b11e1c-5eda-4bdb-8ffb-ecd3678f2352
-source-git-commit: 7be3f63bfadeafa71eeb2567f982f579ccb85975
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '1590'
+source-wordcount: '1592'
 ht-degree: 36%
 
 ---
 
 # 检查作业文件{#checking-job-files}
 
-要监控文件上传到Dynamic Media Classic以及您发布到Dynamic Media Classic服务器的文件，Dynamic Media Classic提供了“作业”页面。 您可以在“作业”页中查看上载和发布作业，并通过该页检查作业状态和取消发布作业。您也可以计划上载和发布作业。
+要监控文件上传到AdobeDynamic Media Classic以及您发布到AdobeDynamic Media Classic服务器的文件，请AdobeDynamic Media Classic提供“作业”页面。 您可以在“作业”页中查看上载和发布作业，并通过该页检查作业状态和取消发布作业。您也可以计划上载和发布作业。
 
 在您上载资源时，“作业”菜单旁会显示一个旋转的图标，指示作业正在进行中以及进行中的文件的数量。您可以选择图标以查看有关活动作业的更多信息。
 
@@ -71,7 +71,7 @@ ht-degree: 36%
 
 ## 查看、复制或打印“作业详细信息”报表 {#viewing-copying-or-printing-a-job-details-report}
 
-在“作业”页面上双击报表的名称，以打开“作业详细信息”页面。 该页提供了有关作业中的文件的摘要报告。选择&#x200B;**[!UICONTROL 查看详细信息]**，以便您能够看到条目的Dynamic Media Classic ID、目标路径和状态信息。 如果您上传的PDF或PostScript文件要求使用Dynamic Media Classic中不可用的字体，则报表会列出缺少的字体。
+在“作业”页面上双击报表的名称，以打开“作业详细信息”页面。 该页提供了有关作业中的文件的摘要报告。选择&#x200B;**[!UICONTROL 查看详细信息]**，以便您能够看到条目的AdobeDynamic Media Classic ID、目标路径和状态信息。 如果您上传的PDF或PostScript文件要求使用AdobeDynamic Media Classic中不可用的字体，则报表会列出缺少的字体。
 
 您可以将该信息复制到剪贴板。
 

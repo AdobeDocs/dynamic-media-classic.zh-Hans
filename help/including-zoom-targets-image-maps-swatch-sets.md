@@ -1,6 +1,6 @@
 ---
 title: 在样本集中包含缩放目标和图像映射
-description: 了解如何在Dynamic Media Classic的样本集中包含缩放目标和图像映射。
+description: 了解如何在Dynamic Media Classic的Adobe中，在样本集中包含缩放目标和图像映射。
 uuid: e46ebebd-b086-450c-9812-22290a92db8c
 contentOwner: admin
 content-type: reference
@@ -10,10 +10,10 @@ discoiquuid: f75f6d5b-d689-4640-838f-a32d77859f62
 feature: Dynamic Media Classic,Viewers
 role: User
 exl-id: 1eaffe17-1fa3-4726-b0a1-369fabb9ee7e
-source-git-commit: 20a5e54a9f3fa442d3a993afae07aa5b1b13e9c3
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '164'
-ht-degree: 46%
+source-wordcount: '165'
+ht-degree: 32%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 46%
 
 如果在样本集中为图像定义缩放目标和图像映射，这些目标和映射会显示在样本集查看器中。例如，用户可以在样本集查看器中选择图像映射，并在您的网站上打开一个包含项目相关信息的新页面。 用户可以在样本集查看器中选择目标缩略图图像，并自动缩放到图像的一部分。
 
-如果要使用户可以使用缩放目标和图像映射，请在样本集中为图像创建缩放目标和图像映射。可以在“样本集”屏幕或浏览面板（在详细信息视图中）中操作图像映射或缩放目标工具。
+如果要使用户可以使用缩放目标和图像映射，请在样本集中为图像创建缩放目标和图像映射。在“色板集”屏幕或“浏览面板”（在“详细信息视图”中）中，可以使用“图像映射”或“缩放目标”工具来执行此操作。
 
 >[!MORELIKETHIS]
 >

@@ -1,6 +1,6 @@
 ---
 title: 创建样本集
-description: 了解如何在Dynamic Media Classic中创建色板集。
+description: 了解如何在AdobeDynamic Media Classic中创建色板集。
 uuid: 250b3525-310d-4481-b0bc-f9057e823e0b
 contentOwner: admin
 content-type: reference
@@ -10,9 +10,9 @@ discoiquuid: 631d2b2d-9e69-4b96-8392-17e00a1a8de0
 feature: Dynamic Media Classic,Viewers
 role: User
 exl-id: 426b6e6b-daed-4ca6-b095-99bb06604b07
-source-git-commit: 976f739e5233ae9da24b06cffa729353a7d03c46
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '707'
+source-wordcount: '708'
 ht-degree: 61%
 
 ---
@@ -65,7 +65,7 @@ ht-degree: 61%
 
 **编辑样本集:**
 
-1. 在“网格”视图中，浏览到一个色板集，然后在图像下方选择&#x200B;**[!UICONTROL 编辑]**。
+1. 在“网格视图”中，浏览到一个色板集，然后在图像下方选择&#x200B;**[!UICONTROL 编辑]**。
 1. 执行任何以下操作：
 
    * 要添加图像（已发布或未发布），请在“添加资源”中将其从文件夹拖到样本集的“**[!UICONTROL 视图]**”页面上。

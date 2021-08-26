@@ -10,16 +10,16 @@ discoiquuid: 753677ad-9957-43d9-97ad-bd73a5da5ccb
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 7e99de68-a5de-4b42-9754-c394e9b41369
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '192'
+source-wordcount: '191'
 ht-degree: 23%
 
 ---
 
 # 设置基础{#setup-basics}
 
-使用Dynamic Media Classic设置页面输入您的个人设置。 如果您是管理员，可设置您公司的设置。要打开“设置”页面，请在“全局导航”栏上单击&#x200B;**[!UICONTROL Setup]**。
+使用AdobeDynamic Media Classic设置页面输入您的个人设置。 如果您是管理员，可设置您公司的设置。要打开“设置”页面，请在“全局导航”栏上单击&#x200B;**[!UICONTROL Setup]**。
 
 此页面上的可用设置取决于您作为用户或管理员的状态：
 
@@ -34,7 +34,7 @@ ht-degree: 23%
 
 >[!MORELIKETHIS]
 >
->* [Dynamic Media Classic用户角色和权限](administration-setup.md#user_administration)
-* [图像预设](application-setup.md#image_presets)
-* [查看器预设](application-setup.md#viewer_presets)
+>* [AdobeDynamic Media Classic用户角色和权限](administration-setup.md#user_administration)
+>* [Image Presets](application-setup.md#image_presets)
+>* [Viewer Presets](application-setup.md#viewer_presets)
 

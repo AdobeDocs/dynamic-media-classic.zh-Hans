@@ -1,18 +1,18 @@
 ---
 title: 添加和管理Media Portal用户
-description: 了解如何在Dynamic Media Classic中添加和管理Media Portal用户。
+description: 了解如何在AdobeDynamic Media Classic中添加和管理Media Portal用户。
 uuid: 96d4103c-6428-4ce1-b9e4-231599304f27
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/media_portal
 discoiquuid: 5e933045-ce1a-41b9-ba8b-2151c396b7a2
-feature: Dynamic Media Classic，协作，资产管理
+feature: Dynamic Media Classic,Collaboration,Asset Management
 role: Admin,User
 exl-id: 9590c53c-fd38-4bf2-b723-cd7369702364
-source-git-commit: 1d30c98b76ebe78ff60bae87bd112de7a577182d
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '1018'
+source-wordcount: '1017'
 ht-degree: 58%
 
 ---
@@ -107,7 +107,7 @@ ht-degree: 58%
 
 ## 为 Media Portal 用户设置欢迎电子邮件消息 {#setting-up-the-welcome-e-mail-message-for-media-portal-users}
 
-添加新 Media Portal 用户、参与者和参与者用户时，您可以发送一封欢迎电子邮件。您可以配置此电子邮件，或告知Dynamic Media Classic不要发送它。
+添加新 Media Portal 用户、参与者和参与者用户时，您可以发送一封欢迎电子邮件。您可以配置此电子邮件，或告知AdobeDynamic Media Classic不要发送它。
 
 1. 导航至&#x200B;**[!UICONTROL 设置]** > **[!UICONTROL 应用程序设置]** > **[!UICONTROL 管理设置]** > **[!UICONTROL 用户管理]**。
 1. 在“用户管理设置”屏幕中，选择&#x200B;**[!UICONTROL 电子邮件设置]**。
@@ -115,9 +115,9 @@ ht-degree: 58%
 
    * **[!UICONTROL 发送电子邮件]**  — 如果您不想通过电子邮件通知新用户您已经注册了他们，请取消选择此选项。
 
-   * **[!UICONTROL 默认密码]**  — 为新用户输入临时密码，或将字段留空以使Dynamic Media Classic生成随机密码。用户在首次登录时需要更改密码。
+   * **[!UICONTROL 默认密码]**  — 为新用户输入临时密码，或将字段留空以使AdobeDynamic Media Classic生成随机密码。用户在首次登录时需要更改密码。
 
-   * **[!UICONTROL 替换URL]**  — 如果您的用户通过其他URL访问Dynamic Media Classic，请输入与默认URL不同的URL。
+   * **[!UICONTROL 替换URL]**  — 如果您的用户通过其他URL访问AdobeDynamic Media Classic，请输入与默认URL不同的URL。
 
 ## 其他用户管理任务 {#other-user-management-tasks}
 
@@ -131,6 +131,6 @@ ht-degree: 58%
 
 * **[!UICONTROL 编辑用户信息]**  — 输入有关用户的最新信息。
 
-* **[!UICONTROL 创建用户定义的字段]**  — 创建自定义的用户定义元数据字段，以便它们可以帮助您组织Dynamic Media Classic中的资产。必要时，也可以激活或停用这些字段。
+* **[!UICONTROL 创建用户定义字段]**  — 创建自定义的用户定义元数据字段，以便它们可以帮助您在AdobeDynamic Media Classic中组织资产。必要时，也可以激活或停用这些字段。
 
 请参阅[用户定义的字段](application-setup.md#user_defined_fields)。

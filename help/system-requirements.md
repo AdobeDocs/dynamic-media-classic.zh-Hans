@@ -1,6 +1,6 @@
 ---
-title: 系统要求
-description: '了解系统要求以获得最佳的使用Dynamic Media Classic体验。 '
+title: AdobeDynamic Media Classic桌面应用程序的系统要求
+description: '了解使用Dynamic Media Classic获得最佳体验的系统要求Adobe。 '
 uuid: 8dfc925b-7350-41af-9207-3b2a743c0998
 contentOwner: admin
 content-type: reference
@@ -10,16 +10,16 @@ discoiquuid: 27278fef-8b0e-41cd-b393-7a4c3625d5c0
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 3460f3bd-1616-44e7-9ddb-fe74ee0c8729
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: a8b5ad338ef8c8b2c50acea5d4c0560820c40ae4
 workflow-type: tm+mt
-source-wordcount: '95'
-ht-degree: 34%
+source-wordcount: '108'
+ht-degree: 26%
 
 ---
 
-# 系统要求 {#system-requirements}
+# AdobeDynamic Media Classic桌面应用程序的系统要求 {#system-requirements}
 
-为了获得使用Dynamic Media Classic桌面应用程序的最佳体验，请确保您的系统满足以下系统要求和建议：
+为了获得使用AdobeDynamic Media Classic桌面应用程序的最佳体验，请确保您的系统满足以下系统要求和建议：
 
 * 需要Microsoft® Windows® 7或更高版本或macOS X 10.6或更高版本的Macintosh Intel®处理器。
 * 需要3 GB或更高的RAM（建议为4 GB或更高）。
