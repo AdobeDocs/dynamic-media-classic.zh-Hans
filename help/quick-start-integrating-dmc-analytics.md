@@ -1,6 +1,6 @@
 ---
 title: “快速入门：集成AdobeDynamic Media Classic和Adobe Analytics”
-description: 集成AdobeDynamic Media Classic和Adobe Analytics的简介和快速入门，可帮助您快速启动并运行。
+description: 介绍如何集成AdobeDynamic Media Classic和Adobe Analytics，以帮助您快速启动和运行。
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -8,10 +8,10 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/adobe_analytics_instrumentation_k
 feature: Dynamic Media Classic
 role: Data Engineer,Admin,User
 exl-id: a8fa2414-af01-4a58-bb33-dfd12c1056cc
-source-git-commit: ad5270545be502d3aaabba574353787622ab0445
+source-git-commit: 44045daa35052f01a26c67e0b2a0fb1405c53292
 workflow-type: tm+mt
-source-wordcount: '687'
-ht-degree: 39%
+source-wordcount: '690'
+ht-degree: 27%
 
 ---
 
@@ -23,7 +23,7 @@ Adobe Analytics 是一款行业领先的产品，营销人员可用来评估、�
 
 通过使用 Adobe Analytics 报告，可以非常清楚地了解客户在网站上的活动。您可以确定哪些产品演示可导致转化，哪些产品演示不吸引客户兴趣。
 
-另请参阅[在 Adobe Analytics 中测量视频](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html)。
+另请参阅[在Adobe Analytics中测量视频](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html)。
 
 >[!NOTE]
 >
@@ -35,13 +35,13 @@ Adobe Analytics 是一款行业领先的产品，营销人员可用来评估、�
 
 >[!NOTE]
 >
->在配置Adobe Analytics报表并匹配Adobe Analytics报表变量以AdobeDynamic Media Classic事件之前，请确认您已作为Adobe Analytics中Web服务访问组的成员添加。 该组中的成员可以通过 Marketing Cloud 的 Web 服务 API 访问指定报表包中的所有报表，而无论是否在界面中设置了权限。要在组中添加成员，请在 Adobe Analytics 中单击“**[!UICONTROL 管理工具]**”>“**[!UICONTROL 用户管理]**”>“**[!UICONTROL 编辑组]**”。
+>在配置Adobe Analytics报表并匹配Adobe Analytics报表变量以AdobeDynamic Media Classic事件之前，请确认您已作为Adobe Analytics中Web服务访问组的成员添加。 无论在界面中设置何种权限，此群组中的成员都可以通过Experience Cloud的Web服务API访问指定报表包中的所有报表。 要向组添加成员，请在Adobe Analytics中，转到&#x200B;**[!UICONTROL 管理工具]** > **[!UICONTROL 用户管理]** > **[!UICONTROL 编辑组]**。
 
-确认您是Web服务访问组的成员后，在AdobeDynamic Media Classic中，转到&#x200B;**[!UICONTROL 设置]** > **[!UICONTROL 应用程序设置]** > **[!UICONTROL Adobe Analytics]**。 在“Adobe Analytics 配置”页中，单击“**[!UICONTROL Adobe Analytics 登录]**”。
+确认您是Web服务访问组的成员后，在AdobeDynamic Media Classic中，转到&#x200B;**[!UICONTROL 设置]** > **[!UICONTROL 应用程序设置]** > **[!UICONTROL Adobe Analytics]**。 在Adobe Analytics配置页面上，选择&#x200B;**[!UICONTROL Adobe Analytics登录]**。
 
 请参阅[登录到 Adobe Analytics](log-analytics.md#log_in_to_adobe_analytics)。
 
-在“Adobe Analytics登录”对话框中，键入您的Marketing Cloud组织ID（可选）和完整凭据，然后单击&#x200B;**[!UICONTROL 登录]**。 在“报告套件”下拉菜单中，选择要使用的报告套件的名称。
+在“Adobe Analytics登录”对话框中，键入您的Experience Cloud组织ID（可选）和完整凭据，然后选择&#x200B;**[!UICONTROL 登录]**。 在“报告套件”下拉菜单中，选择要使用的报告套件的名称。
 
 ## 2.将Adobe Analytics报表变量分配给AdobeDynamic Media Classic查看器事件和AdobeDynamic Media Classic变量
 
@@ -52,9 +52,9 @@ Adobe Analytics 是一款行业领先的产品，营销人员可用来评估、�
 
 “Adobe Analytics 配置”还提供了用于激活、编辑和删除查看器事件的工具。
 
-在“Adobe Analytics配置”页面中单击&#x200B;**[!UICONTROL Save]**&#x200B;后，将在AdobeDynamic Media Classic查看器中插入用于测量用户活动的自定义跟踪代码。 可以通过该功能在 Adobe Analytics 报告中跟踪用户活动。
+在“Adobe Analytics配置”页面中选择&#x200B;**[!UICONTROL Save]**&#x200B;后，将在AdobeDynamic Media Classic查看器中插入用于测量用户活动的自定义跟踪代码。 可以通过该功能在 Adobe Analytics 报告中跟踪用户活动。
 
-请参阅[配置 Adobe Analytics 报告](configuring-analytics-reports.md#configuring_adobe_analytics_reports)。
+请参阅[配置Adobe Analytics报表](configuring-analytics-reports.md#configuring_adobe_analytics_reports)。
 
 ## 3.发布AdobeDynamic Media Classic查看器
 
@@ -70,4 +70,4 @@ Adobe Analytics 是一款行业领先的产品，营销人员可用来评估、�
 
 要查看 Adobe Analytics 报告，请访问 Adobe Analytics 网站。通过“报告”页面可以查看数据及生成图形和图表，以便通过不同查看器来评估用户活动。
 
-请参阅[查看 Adobe Analytics 报告以测试 Adobe Analytics 集成](testing-integration-viewing-analytics-report.md#testing_the_integration_by_viewing_an_adobe_analytics_report)。
+请参阅[通过查看Adobe Analytics报表来测试Adobe Analytics集成](testing-integration-viewing-analytics-report.md#testing_the_integration_by_viewing_an_adobe_analytics_report)。

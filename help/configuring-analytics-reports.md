@@ -10,7 +10,7 @@ discoiquuid: f4c8c2b3-cc95-416f-9a5d-da81c231dfc2
 feature: Dynamic Media Classic
 role: Data Engineer,Admin,User
 exl-id: d9fda3b8-7da8-4a30-a5f8-9bb34ec1b43d
-source-git-commit: ad5270545be502d3aaabba574353787622ab0445
+source-git-commit: 44045daa35052f01a26c67e0b2a0fb1405c53292
 workflow-type: tm+mt
 source-wordcount: '1228'
 ht-degree: 30%
@@ -83,7 +83,7 @@ ht-degree: 30%
 
 ### AdobeDynamic Media Classic变量 {#scene-variables}
 
-对于Adobe Analytics Configuration屏幕上的每个查看器事件，选择一个Adobe Analytics变量和一个&#x200B;*AdobeDynamic Media Classic变量*。 AdobeDynamic Media Classic变量表示您可以为报表获取的数据。 例如，`searchTerm` 变量可列出在 eCatalog 搜索中使用的关键字。
+对于Adobe Analytics配置屏幕上的每个查看器事件，选择一个Adobe Analytics变量和一个&#x200B;*AdobeDynamic Media Classic变量*。 AdobeDynamic Media Classic变量表示您可以为报表获取的数据。 例如，`searchTerm` 变量可列出在 eCatalog 搜索中使用的关键字。
 
 下表介绍了AdobeDynamic Media Classic变量：
 

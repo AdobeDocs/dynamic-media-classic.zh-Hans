@@ -8,9 +8,9 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 3c50e706-b9ed-49db-8c08-f179de52b9cf
-source-git-commit: ad5270545be502d3aaabba574353787622ab0445
+source-git-commit: 44045daa35052f01a26c67e0b2a0fb1405c53292
 workflow-type: tm+mt
-source-wordcount: '1467'
+source-wordcount: '1463'
 ht-degree: 55%
 
 ---
@@ -120,6 +120,6 @@ AdobeDynamic Media Classic包含100多个图像服务命令，用于调整和优
 
 在您进行实验时，以下常规建议有助于优化工作流：
 
-* 可以直接在AdobeDynamic Media Classic URL上或使用AdobeDynamic Media Classic的图像调整功能，实时尝试和测试不同的参数。 后者提供调整操作的实时预览。
+* 可以直接在URL上或使用AdobeDynamic Media Classic的图像调整功能，实时尝试并测试不同的参数。 后者提供调整操作的实时预览。
 * 作为最佳实践，请记住，可以将Dynamic Media图像提供命令分组到图像预设中。 图像预设基本上就是具有自定义预设名称（如`$thumb_low$`和`&product_high$`）的URL命令宏。 URL路径中的自定义预设名称会调用这些预设。 此功能帮助您针对网站上的图像的不同使用方式管理命令和质量设置，并缩短 URL 的总体长度。
 * AdobeDynamic Media Classic还提供了更高级的图像质量调整方法，例如在摄取时应用图像锐化。 对于高级用例，如果可以进一步调整和优化渲染的结果，Adobe Professional Services可以帮助您获得自定义的洞察信息和最佳实践。

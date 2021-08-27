@@ -8,7 +8,7 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/setup
 feature: Dynamic Media Classic
 role: Admin
 exl-id: 3f96606e-ef5c-4c01-aa0f-3148f14e28be
-source-git-commit: ad5270545be502d3aaabba574353787622ab0445
+source-git-commit: 44045daa35052f01a26c67e0b2a0fb1405c53292
 workflow-type: tm+mt
 source-wordcount: '10951'
 ht-degree: 44%
@@ -35,7 +35,7 @@ ht-degree: 44%
 
 * **[!UICONTROL 已发布的服务器名称]**  — 此服务器是实时内容交付网络(CDN)服务器，用于特定于您帐户的所有系统生成的URL调用。除非AdobeDynamic Media Classic支持技术人员指示您更改此服务器名称，否则请勿更改此服务器名称。
 
-* **[!UICONTROL 源服务器名称]**  — 此服务器仅用于质量保证测试。除非AdobeDynamicMedia Classic支持技术人员指示您更改此服务器名称，否则请勿更改此服务器名称。
+* **[!UICONTROL 源服务器名称]**  — 此服务器仅用于质量保证测试。除非AdobeDynamic Media Classic支持技术人员指示您更改此服务器名称，否则请勿更改此服务器名称。
 
 <!-- **AGM Server Name** This server is used for Web-to-Print templates. This server is set on a company-wide basis. Do not change this server name unless instructed to do so by an Adobe DynamicMedia Classic support technician. -->
 
@@ -623,7 +623,7 @@ AdobeDynamic Media Classic支持在移动设备上播放MP4 H.264视频。
 
 您可以导出现有的HTML5查看器预设，以用作创建HTML5查看器预设的基础。 该导出选项很有用，因为您不必从头开始创建查看器。相反，您会导出外观和行为与所需预设接近的预设，然后以此为基础开始进行设计调整。
 
-AdobeAdobeDynamic Media Classic中所有默认的现成查看器预设CSS文件都使用指向`Scene7SharedAssets`上资产的相对图像服务路径。 例如，以下是查看器预设CSS文件中图像资产的相对路径，位于
+AdobeDynamic Media Classic中所有现成的默认查看器预设CSS文件都使用指向`Scene7SharedAssets`上资产的相对图像服务路径。 例如，以下是查看器预设CSS文件中图像资产的相对路径，位于
 
 `Scene7SharedAsset`:  `.s7videoviewer .s7fullscreenbutton[state][selected] { background-image: url(/is/image/Scene7SharedAssets/FullScreenButton_dark_sprite?scl=1&fmt=png-alpha); }`
 
