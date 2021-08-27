@@ -7,9 +7,9 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: af29eabb-f7c6-420b-9c63-9d60ee2dc148
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: 3185824deca4d4b3c5549bda2e47f179094110e7
 workflow-type: tm+mt
-source-wordcount: '564'
+source-wordcount: '563'
 ht-degree: 7%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 7%
 ## AdobeDynamic Media Classic用户资源
 
 * [Dynamic Media月度快讯](dynamic-media-newsletter.md)
-* [指南：AdobeDynamic Media Classic最佳实践教程](https://experienceleague.adobe.com/docs/experience-manager-learn/dynamic-media-classic-tutorial/overview.html)
+* [AdobeDynamic Media Classic最佳实践教程](https://experienceleague.adobe.com/docs/experience-manager-learn/dynamic-media-classic-tutorial/overview.html)
 * [指南：锐化图像的最佳实践指南](/help/assets/s7_sharpening_images.pdf)
 * [指南：AdobeDynamic Media Classic如何支持SEO](/help/assets/s7_seo.pdf)  — 现在，搜索引擎可以搜索网站和图像。AdobeDynamic Media Classic支持使图像搜索引擎友好，以便将更多流量引至AdobeDynamic Media Classic用户网站。 PDF格式的本指南为您提供了实现此目标的背景和实施建议。
 <!-- * [Webinar: Best Practices for Responsive Design](http://offers.adobe.com/en/na/marketing/landings/_40458_responsive_design_live_on_demand_webinar.html) - Learn practical tips on how to improve your mobile strategy. See real-world examples of responsive design in action. Create one master asset that works across multiple devices and increase mobile performance by dynamically changing the resolution of images or the orientation of images for portrait or landscape displays. Learn how to also dynamically crop, scale, or resize images. -->

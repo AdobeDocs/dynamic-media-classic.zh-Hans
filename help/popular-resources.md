@@ -1,14 +1,14 @@
 ---
 title: Popular resources
-description: 网络研讨会、培训视频、最佳实践信息和开发人员资源的链接。
+description: 网络研讨会、培训视频、最佳实践信息和开发人员资源的链接，用于AdobeDynamic Media Classic。
 contentOwner: Rick Brough
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: f67a0645-a37d-4791-a0da-69d844fea40e
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: 3185824deca4d4b3c5549bda2e47f179094110e7
 workflow-type: tm+mt
-source-wordcount: '565'
-ht-degree: 16%
+source-wordcount: '578'
+ht-degree: 15%
 
 ---
 
@@ -25,8 +25,9 @@ ht-degree: 16%
 * [查看器库示例](https://landing.adobe.com/zh-Hans/na/dynamic-media/ctir-2755/live-demos.html)
 * [图像提供和图像呈现 API](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources.html)
 
-## AdobeDynamic Media Classic网络研讨会和Tutorials
+## AdobeDynamic Media Classic时事通讯、Tutorials和网络研讨会
 
+* [AdobeDynamic Media Classic时事通讯的存档](/help/dynamic-media-newsletter.md)
 * [锐化图像的最佳实践](/help/assets/s7_sharpening_images.pdf)
 * [最大限度地提高资产投资回报](https://adobecustomersuccess.adobeconnect.com/p5ar3hfrrec/?launcher=false&amp;fcsContent=true&amp;pbMode=normal&amp;proto=true)  — 了解在网站和移动设备应用程序中提供富媒体的行业最佳实践。在此网络研讨会中，示例和演示向您展示了如何跨设备高效交付视频，在营销活动中提供动态创意，以及通过将任何图像、风格指南或回顾手册购物来提高转化率。
 * [加快内容交付生命周期](https://adobecustomersuccess.adobeconnect.com/p88ducm9pqv/)  — 此网络研讨会为您介绍和演示了Adobe Experience Manager Assets（按需），这是新一代富媒体管理和交付计划。了解如何在创意团队和营销团队之间协作和共享资产，以简化资产审核流程。 了解有效管理资产元数据的最佳实践，以便轻松查找、使用、重复使用和共享资产。 了解如何提供交互式跨渠道富媒体体验。

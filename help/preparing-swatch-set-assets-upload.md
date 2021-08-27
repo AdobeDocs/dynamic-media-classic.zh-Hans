@@ -1,6 +1,6 @@
 ---
-title: 准备要上载的样本集资源
-description: 了解如何准备上传样本集资产。
+title: 准备上传的样本集资产
+description: 了解如何准备样本集资产以上传到AdobeDynamic Media Classic。
 uuid: ed78da8c-d708-418b-97ce-3c37d9df9c90
 contentOwner: admin
 content-type: reference
@@ -10,14 +10,14 @@ discoiquuid: 0c851ecd-be05-46a9-8654-3d028f3217a4
 feature: Dynamic Media Classic,Viewers
 role: User
 exl-id: 90216519-4b14-4f8b-8e72-3d7ce9ec89ff
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: 3185824deca4d4b3c5549bda2e47f179094110e7
 workflow-type: tm+mt
-source-wordcount: '173'
-ht-degree: 84%
+source-wordcount: '178'
+ht-degree: 65%
 
 ---
 
-# 准备要上载的样本集资源{#preparing-swatch-set-assets-for-upload}
+# 准备上传的样本集资产{#preparing-swatch-set-assets-for-upload}
 
 上载所需的图像之前，请确保图像的尺寸和格式正确。此外还需要组合所需的样本文件。
 
@@ -28,9 +28,9 @@ ht-degree: 84%
 
 由于用户可以在样本集中缩放图像，因此确保图像最大尺寸至少为 2000 像素。AdobeDynamic Media Classic支持多种图像文件格式，但建议使用无损的TIFF、PNG和EPS图像。
 
-有关上载资源的详细说明，请参阅[上载文件](uploading-files.md#uploading_files)。
+有关上传资产的详细说明，请参阅[上传文件](uploading-files.md#uploading_files)。
 
 >[!MORELIKETHIS]
 >
->* [Working with vignette, window covering, and cabinet files](vignette-window-covering-cabinet-files.md#working_with_vignette_window_covering_and_cabinet_files)
+>* [使用晕影、窗口覆盖和机柜文件](vignette-window-covering-cabinet-files.md#working_with_vignette_window_covering_and_cabinet_files)
 

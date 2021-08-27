@@ -10,10 +10,10 @@ discoiquuid: 6a2e6df1-9186-42e2-9b85-01f132936c72
 feature: Dynamic Media Classic,Viewers,Video
 role: User
 exl-id: b8d1a0b4-67ab-482d-a685-a087fb850143
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: 3185824deca4d4b3c5549bda2e47f179094110e7
 workflow-type: tm+mt
-source-wordcount: '765'
-ht-degree: 67%
+source-wordcount: '766'
+ht-degree: 34%
 
 ---
 
@@ -29,19 +29,19 @@ ht-degree: 67%
 1. 在左侧的“资源库”面板中，浏览资源文件夹，以选择您要预览的视频。
 1. 执行以下任一操作：
 
-   * 在“资源”窗口上方的工具栏右侧，单击“**[!UICONTROL 列表视图]**”。在“资源”窗口中，将光标悬停在资源上，然后单击“**[!UICONTROL 预览]**”。
-   * 在“资源”窗口上方的工具栏右侧，单击“**[!UICONTROL 网格视图]**”。在“资源”窗口的资源缩略图窗口中，单击“**[!UICONTROL 预览]**”。
-   * 在“资源”窗口上方的工具栏的右侧，单击“**[!UICONTROL 详细信息视图]**”。在同一工具栏上，单击“**[!UICONTROL 预览]**”。
-   * 在“资源”窗口中，选择一个资源。在工具栏中，单击“**[!UICONTROL 文件]**”>“**[!UICONTROL 预览]**”。
+   * 在“资产”窗口的工具栏右侧上方，选择&#x200B;**[!UICONTROL 列表视图]**。 在“资产”窗口中，将鼠标悬停在资产上，然后选择&#x200B;**[!UICONTROL 预览]**。
+   * 在“资产”窗口的工具栏右侧上方，选择&#x200B;**[!UICONTROL 网格视图]**。 在资产窗口的资产缩略图窗口中，选择&#x200B;**[!UICONTROL 预览]**。
+   * 在“资产”窗口的工具栏右侧上方，选择&#x200B;**[!UICONTROL 详细信息视图]**。 在同一工具栏上，选择&#x200B;**[!UICONTROL 预览]**。
+   * 在“资源”窗口中，选择一个资源。在工具栏中，转到&#x200B;**[!UICONTROL File]** > **[!UICONTROL Preview]**。
 
 1. （可选）在预览窗口底部的下拉列表中，选择要在复制资源的 URL 时应用的 URL 编码。
-1. 单击预览链接，以便在选定的查看器中预览资产。
+1. 选择&#x200B;**[!UICONTROL 预览]**&#x200B;链接，以便在选定的查看器中查看资产。
 1. 关闭显示的查看器。
-1. 单击“**[!UICONTROL 关闭]**”返回“资源”屏幕。
+1. 选择&#x200B;**[!UICONTROL 关闭]**&#x200B;以返回到“资产”屏幕。
 
 >[!NOTE]
 >
->AdobeDynamic Media Classic提供了一种在桌面上预览MP4视频的便捷方法。 使用此方法可在桌面上预览移动内容，而不必在移动设备上对其进行实际测试。但要注意，您在桌面预览中看到的内容并不是在移动设备上实际播放时的效果。要预览视频在移动设备上的外观和播放方式，请转到“预览”屏幕，单击&#x200B;**[!UICONTROL 复制URL]**，然后在移动设备的Web浏览器中输入该URL。 有关详细信息，请参阅[将视频部署到网站和移动站点](deploying-video-websites-mobile-sites.md#deploying_video_to_your_websites_and_mobile_sites)。
+>AdobeDynamic Media Classic提供了一种在桌面上预览MP4视频的便捷方法。 使用此方法可在桌面上预览移动内容，而不必在移动设备上对其进行实际测试。但是，请注意，桌面预览中显示的内容并不现实地显示移动设备上的播放外观。 要预览视频在移动设备上的外观和播放方式，请转到“预览”屏幕，选择&#x200B;**[!UICONTROL 复制URL]**，然后在移动设备的Web浏览器中输入该URL。 有关更多信息，请参阅[将视频部署到您的网站和移动站点](deploying-video-websites-mobile-sites.md#deploying_video_to_your_websites_and_mobile_sites)。
 
 ## 使用视频查看器预设 {#working-with-video-viewer-presets}
 
@@ -61,31 +61,31 @@ AdobeDynamic Media Classic附带许多用于播放视频的预定义查看器预
 
 **添加或编辑视频查看器预设:**
 
-1. 在AdobeDynamic Media Classic的右上角附近，单击&#x200B;**[!UICONTROL 设置]** > **[!UICONTROL 查看器预设]**。
+1. 在AdobeDynamic Media Classic的右上角附近，转到&#x200B;**[!UICONTROL 设置]** > **[!UICONTROL 查看器预设]**。
 
    要仅查看视频查看器的预设，请从表格正上方工具栏的打开的查看器下拉列表中选择视频查看器。
 
 1. 添加或编辑用于显示视频的“查看器预设”：
 
-   * **添加**  — 单击工 **** 具栏中的添加。在“添加查看器预设”对话框中，从相应的下拉列表中选择平台和查看器，然后单击“**[!UICONTROL 添加]**”。
-   请参阅[添加和编辑查看器预设](application-setup.md#adding_and_editing_viewer_presets)。
+   * **添加**  — 选择 **** 在工具栏中添加。在“添加查看器预设”对话框中，从相应的下拉列表中选择一个平台和查看器，然后选择&#x200B;**[!UICONTROL 添加]**。
+   另请参阅[添加和编辑查看器预设](application-setup.md#adding_and_editing_viewer_presets)。
 
-   * **从现有查看器预设开始添加**  — 在表中，选择视频查看器预设，然后单击工具栏 **** 中的编辑。
-   在重新配置“视频查看器”后，在“预设名称”文本字段中单击“**[!UICONTROL 另存为]**”以使用不同的名称保存预设。
+   * **从现有的查看器预设开始添加**  — 在表中，选择视频查看器预设，然后选择工具栏 **** 中的编辑。
+   重新配置视频查看器后，选择&#x200B;**[!UICONTROL 另存为]**，以在“预设名称”文本字段中使用其他名称保存预设。
 
-   * **编辑**  — 选择视频查看器预设，然后单击 **[!UICONTROL 编辑]**。
+   * **编辑**  — 选择视频查看器预设，然后选择编辑 ****。
 
 
 
 1. 在“配置查看器”页面的“预设名称”字段中，输入或编辑预设名称。
 1. 设置其余所需的选项。
 
-   要查看某个选项的说明，请单击其“信息提示”图标 。
+   要查看选项的描述，请选择其“信息提示”图标。
 
 1. 执行以下任一操作：
 
-   * 如果通过现有的预设添加查看器预设，请单击“**[!UICONTROL 另存为]**”。
-   * 如果添加或编辑了查看器预设，请单击“**[!UICONTROL 保存]**”。
+   * 如果通过从现有预设开始添加查看器预设，请选择&#x200B;**[!UICONTROL 另存为]**。
+   * 如果添加或编辑了查看器预设，请选择&#x200B;**[!UICONTROL Save]**。
 
 >[!MORELIKETHIS]
 >
