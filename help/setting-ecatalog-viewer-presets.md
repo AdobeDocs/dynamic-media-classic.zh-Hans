@@ -9,9 +9,9 @@ discoiquuid: 6c123f85-3bc4-4392-a7fb-55618127c65e
 feature: Dynamic Media Classic,Viewers,Viewer Presets,eCatalog
 role: User
 exl-id: 4357e6b8-fbc5-4e93-9476-db92a7dc7464
-source-git-commit: 44045daa35052f01a26c67e0b2a0fb1405c53292
+source-git-commit: fa0a3992e02f70e5fb4a54e770e2fe2b4f0371e1
 workflow-type: tm+mt
-source-wordcount: '488'
+source-wordcount: '489'
 ht-degree: 34%
 
 ---
@@ -46,7 +46,7 @@ eCatalog 查看器预设提供很多设置，包括页间跳转、缩放、搜�
    | --- | --- | --- |
    | `$1$` | rollover_key 值 | 映射`<area>`元素中的项目标识符。 |
    | `$2$` | frame | 图像集中当前显示的帧的序号。 |
-   | `$3$` | imageroot | 在图像命令中指定的第一个物品的第一个路径元素（通常为指定图像集的目录条目的图像目录 ID）。 |
+   | `$3$` | 图像根 | 在图像命令中指定的第一个物品的第一个路径元素（通常为指定图像集的目录条目的图像目录 ID）。 |
 
 1. （可选）在&#x200B;**[!UICONTROL 信息面板设置]**&#x200B;的&#x200B;**[!UICONTROL 响应模板]**&#x200B;框中，键入在AdobeDynamic Media Classic在检索图像映射信息时遇到错误时要显示的文本。 例如，如果系统收到公司名称和 eCatalog 名称，但是没有变换标识符，则将为用户显示该消息。
 
