@@ -9,7 +9,7 @@ discoiquuid: 6c123f85-3bc4-4392-a7fb-55618127c65e
 feature: Dynamic Media Classic,Viewers,Viewer Presets,eCatalog
 role: User
 exl-id: 4357e6b8-fbc5-4e93-9476-db92a7dc7464
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: ad5270545be502d3aaabba574353787622ab0445
 workflow-type: tm+mt
 source-wordcount: '482'
 ht-degree: 42%
@@ -31,7 +31,7 @@ eCatalog 查看器预设提供很多设置，包括页间跳转、缩放、搜�
 
    * **创建eCatalog查看器预设**  — 单击 **[!UICONTROL 添加]**。在“添加查看器预设”对话框中，选择平台，选择eCatalog查看器，然后单击&#x200B;**[!UICONTROL 添加]**。
 
-   * **编辑eCatalog查看器预设**  — 选择eCatalog查看器预设，然后单击“编辑”。创建完预设后，单击&#x200B;**[!UICONTROL 另存为]**。
+   * **编辑eCatalog查看器预设**  — 选择eCatalog查看器预设，然后单击 **[!UICONTROL 编辑]**。创建完预设后，单击&#x200B;**[!UICONTROL 另存为]**。
 
 1. 在“配置查看器”屏幕上，输入 eCatalog 查看器预设的名称。
 1. 在“配置查看器”屏幕上，设置所需选项。

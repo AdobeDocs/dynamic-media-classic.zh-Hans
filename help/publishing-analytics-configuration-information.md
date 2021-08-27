@@ -1,6 +1,6 @@
 ---
-title: 发布 Adobe Analytics 配置信息
-description: 了解如何发布Adobe Analytics配置信息。
+title: 发布Adobe Analytics配置信息
+description: 了解如何从AdobeAdobe Analytics Classic发布Dynamic Media配置信息。
 uuid: 39b1c2bd-8eb8-43a8-9482-9623115c5374
 contentOwner: admin
 content-type: reference
@@ -10,14 +10,14 @@ discoiquuid: deeb9fed-ef27-4d58-af98-f381de33c431
 feature: Dynamic Media Classic
 role: Data Engineer,Admin,User
 exl-id: 02782dc0-601f-453a-98d1-1fdd7267df3b
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: ad5270545be502d3aaabba574353787622ab0445
 workflow-type: tm+mt
-source-wordcount: '147'
-ht-degree: 37%
+source-wordcount: '152'
+ht-degree: 21%
 
 ---
 
-# 发布 Adobe Analytics 配置信息{#publishing-adobe-analytics-configuration-information}
+# 发布Adobe Analytics配置信息{#publishing-adobe-analytics-configuration-information}
 
 发布您的AdobeDynamic Media Classic查看器，以便有关配置Adobe Analytics报表的信息会发送到AdobeDynamic Media Classic服务器。 该信息将嵌入查看器中。必须进行发布，以便查看器中包含的信息可在AdobeDynamic Media Classic服务器上使用。 用户在查看器上执行活动后，可以将信息从服务器传送到 Adobe Analytics。
 
@@ -27,9 +27,9 @@ ht-degree: 37%
 
 请参阅[登录到 Adobe Analytics](log-analytics.md#log_in_to_adobe_analytics)。
 
-请参阅[配置 Adobe Analytics 报告](configuring-analytics-reports.md#configuring_adobe_analytics_reports)。
+请参阅[配置Adobe Analytics报表](configuring-analytics-reports.md#configuring_adobe_analytics_reports)。
 
 **发布配置信息:**
 
-1. 在全局导航栏上，单击“**[!UICONTROL 发布]**”。
-1. 在“发布”对话框中，单击&#x200B;**[!UICONTROL 提交发布]**。
+1. 在全局导航栏上，选择&#x200B;**[!UICONTROL Publish]**。
+1. 在“发布”对话框中，选择&#x200B;**[!UICONTROL 提交发布]**。

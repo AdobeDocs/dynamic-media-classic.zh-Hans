@@ -1,6 +1,6 @@
 ---
 title: 发布电子目录和关联的PDF
-description: 了解如何发布电子目录和关联的PDF。
+description: 了解如何从AdobeDynamic Media Classic发布电子目录和关联的PDF。
 uuid: 6f2f2c79-921a-4096-8f80-24e69c8983fa
 contentOwner: admin
 content-type: reference
@@ -10,10 +10,10 @@ discoiquuid: 76e5732a-83c6-4e6b-a29f-a393b1c971aa
 feature: Dynamic Media Classic,Viewers,eCatalog
 role: User
 exl-id: 00b70162-2394-433d-a46c-1d90667030af
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: ad5270545be502d3aaabba574353787622ab0445
 workflow-type: tm+mt
-source-wordcount: '186'
-ht-degree: 26%
+source-wordcount: '192'
+ht-degree: 21%
 
 ---
 
@@ -27,15 +27,15 @@ Publishing会将您的eCatalog和PDF放置在Dynamic Media图像服务器上，�
 
 **要发布电子目录和关联的PDF，请执行以下操作：**
 
-1. 在全局导航栏上，单击“**[!UICONTROL 发布]**”。
-1. 在“发布”屏幕上，单击&#x200B;**[!UICONTROL 一次]**&#x200B;或&#x200B;**[!UICONTROL 循环]**。
+1. 在全局导航栏上，选择&#x200B;**[!UICONTROL Publish]**。
+1. 在“发布”屏幕上，选择&#x200B;**[!UICONTROL 一次]**&#x200B;或&#x200B;**[!UICONTROL 循环]**。
 1. （可选）在“作业名称”字段中，输入发布作业的名称，但保留预定义的日期和时间文本。
 
-   如果将 eCatalog 设置为查看人员可以执行关键字搜索，应确保发布关键字数据。在“发布”对话框中，单击&#x200B;**[!UICONTROL Advanced]**。 从&#x200B;**[!UICONTROL Publish]**&#x200B;下拉菜单中，单击&#x200B;**[!UICONTROL Full w/ Search Data]**。 此选项默认为已选中。
+   如果将 eCatalog 设置为查看人员可以执行关键字搜索，应确保发布关键字数据。在“发布”对话框中，选择&#x200B;**[!UICONTROL Advanced]**。 从&#x200B;**[!UICONTROL Publish]**&#x200B;下拉菜单中，选择&#x200B;**[!UICONTROL Full w/ Search Data]**。 此选项默认为已选中。
 
-1. 单击“****[!UICONTROL 提交发布]****”。
+1. 单击“**[!UICONTROL 提交发布]**”。
 
 >[!MORELIKETHIS]
 >
->* [Publishing](publishing-files.md)
+>* [发布文件](publishing-files.md)
 

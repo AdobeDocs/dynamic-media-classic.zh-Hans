@@ -7,10 +7,10 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 feature: Dynamic Media Classic
 role: Admin
 exl-id: 699d4c12-e47b-4c6b-86f3-dc7aaaa56c1e
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: ad5270545be502d3aaabba574353787622ab0445
 workflow-type: tm+mt
-source-wordcount: '2416'
-ht-degree: 46%
+source-wordcount: '2410'
+ht-degree: 44%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 46%
 
 管理员可以更改“图像服务器”、“图像渲染器”和“晕影”页面上的默认设置，以建立用于从服务器传送资产的默认设置。
 
-要打开“发布设置”页，请单击&#x200B;**[!UICONTROL 设置]** > **[!UICONTROL 应用程序设置]** > **[!UICONTROL 发布设置]**。
+要打开“发布设置”页，请转到&#x200B;**[!UICONTROL 设置]** > **[!UICONTROL 应用程序设置]** > **[!UICONTROL 发布设置]**。
 
 >[!NOTE]
 >
@@ -32,28 +32,28 @@ ht-degree: 46%
 
 仅在AdobeDynamic Media Classic支持人员的协助下更改这些设置。
 
-* **目录管理**  — 这些设置决定了AdobeDynamic Media Classic与目录的交互方式。与大多数Web服务器不同，Dynamic Media图像服务器URL调用会转到清单或目录文件，而不是正确的图像文件。 目录文件（不要与 eCatalog 混淆）中包含发布到图像服务器的所有内容的列表，以及每个图像的路径。如果您有 Digimarc ID，请在“Digimarc 用户信息”部分中输入您的用户信息。
+* **[!UICONTROL 目录管理]**  — 这些设置决定了AdobeDynamic Media Classic与目录的交互方式。与大多数Web服务器不同，Dynamic Media图像服务器URL调用会转到清单或目录文件，而不是正确的图像文件。 目录文件（不要与 eCatalog 混淆）中包含发布到图像服务器的所有内容的列表，以及每个图像的路径。如果您有 Digimarc ID，请在“Digimarc 用户信息”部分中输入您的用户信息。
 
-* **请求属性**  — 这些设置对可从服务器传送的图像施加了限制。例如，*最大* **[!UICONTROL 回复图像大小限制]**&#x200B;为&#x200B;**[!UICONTROL 宽度]** 5000和&#x200B;**[!UICONTROL 高度]** 5000。
+* **[!UICONTROL 请求属性]**  — 这些设置对可从服务器传送的图像施加了限制。例如，*最大* **[!UICONTROL 回复图像大小限制]**&#x200B;为&#x200B;**[!UICONTROL 宽度]** 5000和&#x200B;**[!UICONTROL 高度]** 5000。
 
-* **默认请求属性**  — 这些设置与图像的默认外观有关。
+* **[!UICONTROL 默认请求属性]**  — 这些设置与图像的默认外观有关。
 
-* **常用缩略图属性**  — 这些设置与缩略图图像的默认外观和对齐方式有关。
+* **[!UICONTROL 常用缩略图属性]**  — 这些设置与缩略图图像的默认外观和对齐方式有关。
 
-* **目录字段的默认值**  — 这些设置与图像的分辨率和默认缩略图类型有关。
+* **[!UICONTROL 目录字段的默认值]**  — 这些设置与图像的分辨率和默认缩略图类型有关。
 
-* **色彩管理属性**  — 这些设置确定使用的ICC颜色配置文件。
+* **[!UICONTROL 色彩管理属性]**  — 这些设置确定使用的ICC颜色配置文件。
 
-* **兼容性属性**  — 为了向后兼容，此设置允许文本层中的前导和尾随段落与版本3.6中的段落一样进行处理。
+* **[!UICONTROL 兼容性属性]**  — 为了向后兼容，此设置允许文本层中的前导和尾随段落与版本3.6中的段落一样进行处理。
 
-* **本地化支持**  — 这些设置允许您管理多个区域设置属性。它还允许您指定区域设置映射字符串，以便定义查看器中的各种工具提示所需的支持语言。
+* **[!UICONTROL 本地化支持]*** — 这些设置允许您管理多个区域设置属性。它还允许您指定区域设置映射字符串，以便定义查看器中的各种工具提示所需的支持语言。
 
    例如，如果您的品牌在多个不同国家/地区销售，您可以确保每个国家/地区都有自己特定区域设置的查看器。要实现该功能，请指定区域设置映射字符串。然后，在查看器预设中编辑工具提示文本，添加所需语言的翻译文本字符串。
 
    >[!NOTE]
    > 要设置“本地化支持”选项，请[使用Admin Console创建支持案例。](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) 在您的支持案例中，请求设置帮助。
 
-   有关设置“**本地化支持**”的更多信息，请参阅[设置资源本地化时的注意事项](publish-setup.md#considerations_when_setting_up_localization_of_assets)。
+   有关设置“**[!UICONTROL 本地化支持]**”的更多信息，请参阅[设置资源本地化时的注意事项](publish-setup.md#considerations_when_setting_up_localization_of_assets)。
 
 ### 设置资源本地化时的注意事项 {#considerations-when-setting-up-localization-of-assets}
 
@@ -90,12 +90,12 @@ IS支持可打印的任意ASCII字符串。 `locale=`命令具有全局范围，
 #### 应用程序方案
 
 | 应用程序 | 方案 |
-|--- |--- |
+| --- | --- |
 | 查看器本地化 | 在实施静态内容目录后，本地化可完全通过 locale= 参数控制，该参数会附加到对 IS 的所有请求后面。配置记录、外观和启动画面等可以具有区域设置特定的变量，也可以没有。正确内容由 IS 提供，查看器无需知道哪些内容进行了本地化以及其 ID 是什么。 |
 | 图像和视频 | 跨国公司通常同时拥有通用内容和区域设置特定的内容。通过这种机制，对图像或视频的引用可以是泛型引用，并且 IS 会提供区域设置特定的内容（如果可用）。 |
 | 图像集和媒体集 | 对于某些区域设置（例如，当eCatalog不同时），整个图像集可能不同，从通用图像到查看器处理的特定于区域设置的图像集的转换。 更常见的是，通用集中的单个ID可以引用本地化的内容。 例如，除了控制面板的照片之外，设备的大多数照片可以在所有语言中都相同。 IS 会自动转换 ID，因此无需生成区域设置特定的图像集。 |
 
-#### 实施资源本地化
+#### 实施资产本地化
 
 AdobeDynamic Media Classic和图像服务具有一个界面，允许将图像和静态内容本地化。
 
@@ -107,7 +107,7 @@ AdobeDynamic Media Classic和图像服务具有一个界面，允许将图像和
 
 `https://server/is/image/company/image?locale=de_DE`
 
-在收到图像服务器的http调用后，将通过&#x200B;**[!UICONTROL Setup]** > **[!UICONTROL 应用程序设置]** > **[!UICONTROL 发布设置]** > **[!UICONTROL 图像服务器]** > **[!UICONTROL 本地化支持]**&#x200B;组中的localeMap字段解析`locale=`参数。
+在收到图像服务器发出http调用后，将通过&#x200B;**[!UICONTROL Setup]** > **[!UICONTROL 应用程序设置]** > **[!UICONTROL 发布设置]** > **[!UICONTROL 图像服务器]** > **[!UICONTROL 本地化支持]**&#x200B;组中的`localeMap`字段解析`locale=`参数。
 
 “区域设置映射”字段包含一个用管道符号 (|) 分隔的条目列表。
 
@@ -122,18 +122,18 @@ AdobeDynamic Media Classic和图像服务具有一个界面，允许将图像和
 **后缀示例:**
 
 | URL | localeMap ID | 结果 |
-|--- |--- |--- |
-| `https://server/is/image/company/image?locale=de_DE` | `de_DE,_DE,|fr_FR,_FR,` | 请注意，这里没有定义 GlobalLocale。区域设置参数 de_DE 与 localeMap 中的第一个条目匹配。第一个对应值 _DE 将添加为资源 image_DE 的后缀，并尝试在图像服务器上查找该资源。如果在服务器上找到该资源，则会将其返回。否则，使用第二个值“”作为后缀，返回图像本身。 |
+| --- | --- | --- |
+| `https://server/is/image/company/image?locale=de_DE` | `de_DE,_DE,|fr_FR,_FR,` | 请注意，这里没有定义 GlobalLocale。区域设置参数de_DE与`localeMap`中的第一个条目匹配。 第一个对应值 _DE 将添加为资源 image_DE 的后缀，并尝试在图像服务器上查找该资源。如果在服务器上找到该资源，则会将其返回。否则，使用第二个值“”作为后缀，返回图像本身。 |
 
 **替换示例:**
 
-| URL | GlobalLocale 和 localeMap ID | 结果 |
+| URL | `GlobalLocale` 和 `localeMap` ID | 结果 |
 |--- |--- |--- |
-| `https://server/is/image/company/image-main-01?locale=de_DE` | `GlobalLocale=mainlocaleMap -` <br><br/> `de_DE,de,main|fr_FR,fr,main` | 在以上替换示例中，GlobalLocale 被设置为 main。区域设置参数 de_DE 与 localeMap 中的第一个条目匹配。在localeMap中，找到GlobalLocale子字符串，并将其替换为第一个对应值`de`:`image-de-01`。 如果在图像服务器上找到，则会将其返回。否则，替换第二个值，最终生成 `image-main-01`。 |
+| `https://server/is/image/company/image-main-01?locale=de_DE` | `GlobalLocale=mainlocaleMap -` <br><br/> `de_DE,de,main|fr_FR,fr,main` | 在以上替换示例中，GlobalLocale 被设置为 main。区域设置参数de_DE与`localeMap`中的第一个条目匹配。 在`localeMap`中找到GlobalLocale子字符串，并将其替换为第一个对应值`de`:`image-de-01`。 如果在图像服务器上找到，则会将其返回。否则，替换第二个值，最终生成 `image-main-01`。 |
 
 如果 URL 中没有定义区域设置，则图像服务器会采用 DefaultLocale（如果定义）并将其应用到 URL。
 
-如果`locale=`中提供了未知或空的区域设置参数，则会扫描localeMap以查找空值“开头为”。 为未知区域设置应用默认区域设置很重要。
+如果`locale=`中提供了未知或空的区域设置参数，则会扫描`localeMap`中的空值“开头为，”。 为未知区域设置应用默认区域设置很重要。
 
 #### 关于defaultImage
 
@@ -154,7 +154,7 @@ AdobeDynamic Media Classic和图像服务具有一个界面，允许将图像和
 `attribute::LocaleMap=en,_E,|en_us,_E,|en_uk,_E,|fr,_F,|de,_D,|de_at,_D,|de_de,_D,`
 
 | locale= | 要搜索的输出 ID |
-|--- |--- |
+| --- | --- |
 | en,en_us, en_uk | myImg_E,myImg |
 | de,de_de,de_at | myImg_D,myImg |
 | fr | myImg_F,myImg |
@@ -167,10 +167,10 @@ AdobeDynamic Media Classic和图像服务具有一个界面，允许将图像和
 `attribute::LocaleMap=en,_E,|en_us,_E,|en_uk,_E,|fr,_F,|de,_D,|de_at,_D,|de_de,_D,|,_E,`
 
 | locale= | 要搜索的输出 ID |
-|--- |--- |
-| de，de_de，de_at | myImg_D，myImg |
-| fr | myImg_F，myImg |
-| 所有其他区域设置 | myImg_E，myImg |
+| --- | --- |
+| de,de_de,de_at | myImg_D,myImg |
+| fr | myImg_F,myImg |
+| 所有其他区域设置 | myImg_E,myImg |
 
 您还可以仅对未知区域设置使用专用locSuffix（如U），如果不存在`_U`，则强制使用默认图像，如下所示：
 
@@ -180,7 +180,7 @@ AdobeDynamic Media Classic和图像服务具有一个界面，允许将图像和
 
 `attribute::LocaleMap=en,_E,|en_us,_E,|en_uk,_E,|fr,_F,|de,_D,|de_at,_D,|de_de,_D,|,`
 
-##### 使用多层查找来找到 localeMap
+##### 使用多层查找查找查找localeMap
 
 通常，最好对区域设置（如欧洲、中东和北美）进行分组以应对区域标准，如外观曝光。可以使用多层查找来实现这种效果。
 
@@ -189,14 +189,14 @@ AdobeDynamic Media Classic和图像服务具有一个界面，允许将图像和
 `attribute::LocaleMap=w1,-W,|w2,-W2,-W,|w3,-W,|m1,-M1,-M,|m2,-M2,-M,|,`
 
 | locale= | 要搜索的输出 ID |
-|--- |--- |
+| --- | --- |
 | w1, w3 | myImg-W, myImg |
 | w2 | myImg-W2, myImg-W, myImg |
 | m1 | myImg-M1, myImg-M, myImg |
 | m2 | myImg-M2, myImg-M, myImg |
 | 所有其他区域设置 | mylmg |
 
-##### 通过搜索特定 ID 查找 localeMap
+##### 通过搜索特定ID查找localeMap
 
 某些图像命名约定不支持通用图像ID。 必须将请求中的通用 ID 映射到目录中的特定 ID。但是，在某些情况下，并不知道具体的ID。
 
@@ -205,7 +205,7 @@ AdobeDynamic Media Classic和图像服务具有一个界面，允许将图像和
 `attribute::LocaleMap=,_1,_2,_3|fr,_22,_23,_1,_2,_3|de,_470,_480,_1,_2,_3|de_at,_470,_480,_1,_2,_3|de_de,_470,_480,_1,_2,_3`
 
 | locale= | 要搜索的输出 ID |
-|--- |--- |
+| --- | --- |
 | fr | myImg_22, myImg_23, myImg_1, myImg_2, myImg_3 |
 | de, de_at, de_de | myImg_470, myImg_480, myImg_1, myImg_2,myImg_3 |
 | 所有其他区域设置 | myImg_1, myImg_2, myImg_3 |
@@ -220,15 +220,15 @@ AdobeDynamic Media Classic和图像服务具有一个界面，允许将图像和
 
 “图像渲染器”页面可建立用于从图像渲染服务器传送图像集的默认设置。 这五个类别中都提供了设置（有关设置的详细描述，请参阅图像服务器页面本身）：
 
-* **目录管理**  — 这些设置决定了AdobeDynamic Media Classic与目录文件的交互方式。AdobeDynamic Media Classic呈现服务器URL调用会发送到目录，而目录又调用从服务器交付图像。 仅在AdobeDynamic Media Classic支持人员的协助下更改这些设置。
+* **[!UICONTROL 目录管理]**  — 这些设置决定了AdobeDynamic Media Classic与目录文件的交互方式。AdobeDynamic Media Classic呈现服务器URL调用会发送到目录，而目录又调用从服务器交付图像。 仅在AdobeDynamic Media Classic支持人员的协助下更改这些设置。
 
-* **会话属性**  — 这些设置可建立错误参数、相对图像URL的URL，以及是否允许对象重叠。
+* **[!UICONTROL 会话属性]**  — 这些设置可建立错误参数、相对图像URL的URL，以及是否允许对象重叠。
 
-* **默认材料属性**  — 这些设置可为图像建立默认分辨率和锐化设置。
+* **[!UICONTROL 默认材料属性]**  — 这些设置可为图像建立默认分辨率和锐化设置。
 
-* **响应图像属性**  — 这些设置与图像的默认外观有关。
+* **[!UICONTROL 响应图像属性]**  — 这些设置与图像的默认外观有关。
 
-* **色彩管理属性**  — 这些设置与图像的默认颜色设置相关。
+* **[!UICONTROL 色彩管理属性]**  — 这些设置与图像的默认颜色设置相关。
 
 ## 晕影 {#vignette}
 

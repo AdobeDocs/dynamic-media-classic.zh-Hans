@@ -8,9 +8,9 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/setup
 feature: Dynamic Media Classic
 role: Admin
 exl-id: 3f96606e-ef5c-4c01-aa0f-3148f14e28be
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: ad5270545be502d3aaabba574353787622ab0445
 workflow-type: tm+mt
-source-wordcount: '10952'
+source-wordcount: '10951'
 ht-degree: 44%
 
 ---
@@ -35,9 +35,9 @@ ht-degree: 44%
 
 * **[!UICONTROL 已发布的服务器名称]**  — 此服务器是实时内容交付网络(CDN)服务器，用于特定于您帐户的所有系统生成的URL调用。除非AdobeDynamic Media Classic支持技术人员指示您更改此服务器名称，否则请勿更改此服务器名称。
 
-* **[!UICONTROL 源服务器名称]**  — 此服务器仅用于质量保证测试。除非AdobeDynamic Media Classic支持技术人员指示您更改此服务器名称，否则请勿更改此服务器名称。
+* **[!UICONTROL 源服务器名称]**  — 此服务器仅用于质量保证测试。除非AdobeDynamicMedia Classic支持技术人员指示您更改此服务器名称，否则请勿更改此服务器名称。
 
-<!-- **AGM Server Name** This server is used for Web-to-Print templates. This server is set on a company-wide basis. Do not change this server name unless instructed to do so by a Adobe Dynamic Media Classic support technician. -->
+<!-- **AGM Server Name** This server is used for Web-to-Print templates. This server is set on a company-wide basis. Do not change this server name unless instructed to do so by an Adobe DynamicMedia Classic support technician. -->
 
 * **[!UICONTROL Test&amp;Target服务器名称]**  — 您的Test&amp;Target URL，最多包括.com。有关获取此URL的说明，请参阅将[!DNL Adobe Dynamic Media Classic]与[!DNL Adobe Target Standard/Premium]集成。
 

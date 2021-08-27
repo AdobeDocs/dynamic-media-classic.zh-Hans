@@ -8,9 +8,9 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/adobe_analytics_instrumentation_k
 feature: Dynamic Media Classic
 role: Data Engineer,Admin,User
 exl-id: a8fa2414-af01-4a58-bb33-dfd12c1056cc
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: ad5270545be502d3aaabba574353787622ab0445
 workflow-type: tm+mt
-source-wordcount: '686'
+source-wordcount: '687'
 ht-degree: 39%
 
 ---
@@ -37,7 +37,7 @@ Adobe Analytics 是一款行业领先的产品，营销人员可用来评估、�
 >
 >在配置Adobe Analytics报表并匹配Adobe Analytics报表变量以AdobeDynamic Media Classic事件之前，请确认您已作为Adobe Analytics中Web服务访问组的成员添加。 该组中的成员可以通过 Marketing Cloud 的 Web 服务 API 访问指定报表包中的所有报表，而无论是否在界面中设置了权限。要在组中添加成员，请在 Adobe Analytics 中单击“**[!UICONTROL 管理工具]**”>“**[!UICONTROL 用户管理]**”>“**[!UICONTROL 编辑组]**”。
 
-确认您是Web服务访问组的成员后，在AdobeDynamic Media Classic中，单击&#x200B;**[!UICONTROL 设置]** > **[!UICONTROL 应用程序设置]** > **[!UICONTROL Adobe Analytics]**。 在“Adobe Analytics 配置”页中，单击“**[!UICONTROL Adobe Analytics 登录]**”。
+确认您是Web服务访问组的成员后，在AdobeDynamic Media Classic中，转到&#x200B;**[!UICONTROL 设置]** > **[!UICONTROL 应用程序设置]** > **[!UICONTROL Adobe Analytics]**。 在“Adobe Analytics 配置”页中，单击“**[!UICONTROL Adobe Analytics 登录]**”。
 
 请参阅[登录到 Adobe Analytics](log-analytics.md#log_in_to_adobe_analytics)。
 

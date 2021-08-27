@@ -9,7 +9,7 @@ discoiquuid: b2bc3bf9-e313-481a-8670-c3bedde21b1a
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 8dfcfb3f-6472-4efd-bc87-d5111eee45ce
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: ad5270545be502d3aaabba574353787622ab0445
 workflow-type: tm+mt
 source-wordcount: '3863'
 ht-degree: 36%
@@ -89,7 +89,7 @@ TAR 和 ZIP 上载支持包括一个复选框，用于选择是否要解压缩�
 
 >[!NOTE]
 >
->在将图像文件和PDF上传到AdobeDynamic Media Classic时，系统会将这些源文件转换为P-TIFF(Pyramid TIFF)文件。 这些P-TIFF是稍后发布到Dynamic Media图像服务器的文件。 AdobeDynamic Media Classic使用Pyramid Tiff文件格式，因为它包含各种缩放比率，当使用AdobeDynamic Media Classic缩放查看器查看时，这些比例允许快速缩放。
+>在将图像文件和PDF上传到AdobeDynamic Media Classic时，系统会将这些源文件转换为P-TIFF(Pyramid TIFF)文件。 这些P-TIFF是稍后发布到Dynamic Media图像服务器的文件。 AdobeDynamic Media Classic使用Pyramid Tiff文件格式，因为它包含各种缩放比率，当使用AdobeDynamic Media Classic缩放查看器查看时，这些比率允许快速缩放。
 
 ### 支持静态文件格式 {#supported-static-file-formats}
 
