@@ -10,10 +10,10 @@ discoiquuid: 86f72d31-19aa-4077-a746-2badb53b02ec
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 52937d52-92a6-4310-a363-d3c8a266e9ef
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: e47c22508230adbb1ece323be0c1413a3f27ad89
 workflow-type: tm+mt
-source-wordcount: '456'
-ht-degree: 48%
+source-wordcount: '461'
+ht-degree: 47%
 
 ---
 
@@ -23,7 +23,7 @@ AdobeDynamic Media Classic提供了许多用于创建富媒体的工具。 您�
 
 * **电子目录**  — 提供您的目录或其他打印材料的交互式、支持搜索的Web版本。创建可显示变换内容并允许客户翻页、缩放、平移和向页面添加附注的可单击区域（称为“图像映射”）。请参阅[快速入门：eCatalog](/help/quick-start-ecatalog.md)。
 
-* **eVideo**  — 向多个屏幕（包括台式机、移动设备和平板电脑）提供高质量的视频体验。使用预定义的AdobeDynamic Media Classic编码预设或自定义编码来控制视频的质量和大小。 利用对元数据的全面支持来组织、浏览和搜索视频，从而高效地管理视频资源。请参阅[快速入门：eVideo](/help/quick-start-video.md)。
+* **eVideo**  — 向多个屏幕（包括台式机、移动设备和平板电脑）提供高质量的视频体验。使用预定义的AdobeDynamic Media Classic编码预设或自定义编码来控制视频的质量和大小。 利用对元数据的全面支持来组织、浏览和搜索视频，从而高效地管理视频资源。请参阅[快速入门：AdobeDynamic Media Classic](/help/quick-start-video.md)中的视频。
 
 * **图像映射**  — 在您的网站中动态提供任何大小和格式的图像。您只使用一个主图像，而不是手动创建许多不同尺寸的图像。由于AdobeDynamic Media Classic提供了所请求的图像，因此它可以优化图像，从而在大小、格式、粗细、质量和锐化方面获得最高质量的结果。
 请参阅[快速入门：调整图像大小](/help/quick-start-image-sizing.md)。

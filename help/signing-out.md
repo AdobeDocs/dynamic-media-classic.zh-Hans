@@ -8,16 +8,16 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/getting_started
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 8d70db72-b02b-4915-b4c3-6efb146b7f08
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: e47c22508230adbb1ece323be0c1413a3f27ad89
 workflow-type: tm+mt
-source-wordcount: '230'
+source-wordcount: '231'
 ht-degree: 6%
 
 ---
 
 <!-- UPDATE THIS TOPIC AFTER DECEMBER 31, 2020!!!!! -->
 
-# 登录AdobeDynamic Media Classic {#dmc-sign-in}
+# 登录到AdobeDynamic Media Classic {#dmc-sign-in}
 
 在使用AdobeDynamic Media Classic桌面应用程序之前，请确保您具有以下功能：
 
@@ -35,16 +35,16 @@ ht-degree: 6%
 使用以下映射选择要使用的生产环境。
 
    | 浏览器URL | 桌面应用程序服务器名称 |
-   |---|---|
+   | --- | --- |
    | https://s7sps1.scene7.com/ | NA（北美）生产 |
    | https://s7sps3.scene7.com/ | EMEA（欧洲、中东和非洲）生产 |
    | https://s7sps5.scene7.com/ | APAC（亚太地区）生产 |
 
-1. 点按&#x200B;**[!UICONTROL 登录]**。
+1. 选择&#x200B;**[!UICONTROL 登录]**。
 
 ## 从AdobeDynamic Media Classic注销 {#dmc-sign-out}
 
-1. 在AdobeDynamic Media Classic桌面应用程序的右上角，点按&#x200B;**[!UICONTROL 注销]**，然后再次点按&#x200B;**[!UICONTROL 注销]**。
+1. 在AdobeDynamic Media Classic桌面应用程序的右上角，选择&#x200B;**[!UICONTROL 注销]**，然后再次选择&#x200B;**[!UICONTROL 注销]**。
 
 >[!MORELIKETHIS]
 >

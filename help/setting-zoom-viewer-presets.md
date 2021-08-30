@@ -1,6 +1,6 @@
 ---
 title: 设置缩放查看器预设
-description: 了解如何设置缩放查看器预设。
+description: 了解如何在Dynamic Media Classic中设置缩放查看器预设Adobe。
 uuid: 202d80cb-8282-45d4-89e8-942c8677aa93
 contentOwner: admin
 content-type: reference
@@ -10,10 +10,10 @@ discoiquuid: 5023a933-e229-4d3c-8e91-3ac5e9f4970b
 feature: Dynamic Media Classic,Viewers,Zoom
 role: User
 exl-id: ddaaff6c-5447-408e-9c92-bcdfd1a0e72e
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: e47c22508230adbb1ece323be0c1413a3f27ad89
 workflow-type: tm+mt
-source-wordcount: '606'
-ht-degree: 52%
+source-wordcount: '613'
+ht-degree: 47%
 
 ---
 
@@ -43,27 +43,27 @@ AdobeDynamic Media Classic建议以下参数用于快速缩小查看器预设：
 
 * **缩放查看器：自定义**  — 为图像、具有多个视图的图像集或颜色样本集提供引导式或取消引导式缩放。
 
-## 创建并编辑缩放查看器预设 {#creating-and-editing-zoom-viewer-presets}
+## 创建和编辑缩放查看器预设 {#creating-and-editing-zoom-viewer-presets}
 
-1. 在全局导航栏上，单击&#x200B;**[!UICONTROL 设置]** > **[!UICONTROL 查看器预设]**。
+1. 在全局导航栏上，转到&#x200B;**[!UICONTROL Setup]** > **[!UICONTROL 查看器预设]**。
 1. 执行以下任一操作：
 
-   * **创建预设**  — 单击 **[!UICONTROL 添加]**。在“添加查看器预设”对话框中，选择平台，选择缩放查看器，然后单击&#x200B;**[!UICONTROL 添加]**。 在预设名称框中输入预设的名称。
+   * **创建预设**  — 选择 **[!UICONTROL 添加]**。在“添加查看器预设”对话框中，选择平台，选择缩放查看器，然后选择&#x200B;**[!UICONTROL 添加]**。 在预设名称框中输入预设的名称。
 
-   * **编辑预设**  — 选择缩放查看器预设，然后单击 **[!UICONTROL 编辑]**。
+   * **编辑预设**  — 选择缩放查看器预设，然后选择 **[!UICONTROL 编辑]**。
 
 1. 根据需要指定设置。
 
-   要查看选项的说明，请单击选项旁边的&#x200B;**[!UICONTROL 信息提示]**&#x200B;图标。
+   要查看选项的说明，请选择选项旁边的&#x200B;**[!UICONTROL 信息提示]**&#x200B;图标。
 
    在您更新和更改设置时，“预览”页面会显示查看器。
 
-1. 单击“**[!UICONTROL 保存]**”或“**[!UICONTROL 另存为]**”。
-1. 在“查看器预设”页面上，检查您创建的缩放查看器预设或引导式缩放查看器预设。 如果需要调整，请单击&#x200B;**[!UICONTROL 编辑]**，更改“配置查看器”页面上的设置，然后单击&#x200B;****[!UICONTROL 保存]****。
+1. 选择&#x200B;**[!UICONTROL Save]**&#x200B;或&#x200B;**[!UICONTROL Save As]**。
+1. 在“查看器预设”页面上，检查您创建的缩放查看器预设或引导式缩放查看器预设。 如果需要调整，请选择&#x200B;**[!UICONTROL 编辑]**，更改“配置查看器”页面上的设置，然后选择&#x200B;**[!UICONTROL 保存]**。
 
 有关在“查看器预设”屏幕上管理查看器预设的信息，请参阅[查看器预设](application-setup.md#viewer_presets)。
 
 >[!MORELIKETHIS]
 >
->* [Creating and editing Viewer Presets](application-setup.md#adding_and_editing_viewer_presets)
+>* [创建和编辑查看器预设](application-setup.md#adding_and_editing_viewer_presets)
 

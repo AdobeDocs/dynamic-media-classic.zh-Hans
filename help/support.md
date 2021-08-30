@@ -1,6 +1,6 @@
 ---
 title: 支持
-description: 了解技术支持选项。
+description: 了解AdobeDynamic Media Classic的技术支持选项。
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -8,10 +8,10 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_scene7
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 708f32f1-fdbb-4a32-a1b7-836c99b458be
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: 523d6e82a5410d8b1ae1a69b4ea2c0a0a4793fc7
 workflow-type: tm+mt
-source-wordcount: '187'
-ht-degree: 25%
+source-wordcount: '192'
+ht-degree: 24%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 25%
 技术支持服务旨在满足各种规模公司的需求。下表介绍了AdobeDynamic Media Classic客户关怀服务：
 
 | 支持 | 订阅 |
-|--- |--- |
+| --- | --- |
 | 服务限制 | 无限制. |
 | 检查Adobe系统状态 | [AdobeDynamic Media Classic系统状态](https://status.adobe.com/products/1175)。 |
 | 找不到答案？ | [要从支持部门获得帮助，请打开一个票证](https://experienceleague.adobe.com/?support-solution=General#support)。 |
@@ -28,7 +28,7 @@ ht-degree: 25%
 | SLA（服务级别协议） | [支持服务/条款和条件](https://helpx.adobe.com/support/programs/support-policies-terms-conditions.html)。 |
 | 受支持用户 | 每个组织最多可以将10个用户指定为受支持用户，他们可以通过客户关怀部门打开案例。 |
 | 免费实时Web培训和指导视频 | 包含. |
-| 电话支持 | <ul><li>美国和加拿大：1-800-497-0335 </li><li>[其他地区的电话号码](https://helpx.adobe.com/contact/dma-external/DMACustomeCareRegionalPhoneNumbers.html)。</li></ul> |
+| 电话支持 | <ul><li>美国和加拿大：1-800-497-0335 </li><li>[其他地区的电话号码](https://helpx.adobe.com/contact/dma-external/DMACustomeCareRegionalPhoneNumbers.html)。 </li></ul> |
 
 <!-- |Create a support case| [https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) | -->
 

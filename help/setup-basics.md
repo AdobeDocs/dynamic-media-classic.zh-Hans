@@ -1,6 +1,6 @@
 ---
-title: 设置基础
-description: 了解如何使用“设置”屏幕输入个人设置。 如果您是管理员，可设置您公司的设置。
+title: '设置基础 '
+description: 了解如何在Dynamic Media Classic中使用“设置”屏幕输入个人设置。 如果您是管理员，可设置您公司的设置。
 uuid: 38f487d7-33f2-4a9e-a32e-bb08f3dd3284
 contentOwner: admin
 content-type: reference
@@ -10,16 +10,16 @@ discoiquuid: 753677ad-9957-43d9-97ad-bd73a5da5ccb
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 7e99de68-a5de-4b42-9754-c394e9b41369
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: e47c22508230adbb1ece323be0c1413a3f27ad89
 workflow-type: tm+mt
-source-wordcount: '191'
-ht-degree: 23%
+source-wordcount: '196'
+ht-degree: 22%
 
 ---
 
 # 设置基础{#setup-basics}
 
-使用AdobeDynamic Media Classic设置页面输入您的个人设置。 如果您是管理员，可设置您公司的设置。要打开“设置”页面，请在“全局导航”栏上单击&#x200B;**[!UICONTROL Setup]**。
+使用AdobeDynamic Media Classic设置页面输入您的个人设置。 如果您是管理员，可设置您公司的设置。要打开“设置”页，请在全局导航栏上选择&#x200B;**[!UICONTROL Setup]**。
 
 此页面上的可用设置取决于您作为用户或管理员的状态：
 

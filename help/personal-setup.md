@@ -10,7 +10,7 @@ discoiquuid: 6314e7b7-5bde-4fe2-8674-e4fc525d4d1c
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: a019f973-7647-466f-8af3-5312e9225e89
-source-git-commit: 3185824deca4d4b3c5549bda2e47f179094110e7
+source-git-commit: e47c22508230adbb1ece323be0c1413a3f27ad89
 workflow-type: tm+mt
 source-wordcount: '822'
 ht-degree: 25%
@@ -95,9 +95,9 @@ The plug-in is now available for you to use in Adobe Illustrator. -->
 
 ## 电子邮件
 
-* ****[!UICONTROL 电子邮件选项]****  — 选择您希望如何AdobeDynamic Media Classic，以在上传和发布作业完成后通过电子邮件通知您。可以选择仅当发生警告或错误时接收作业完成通知。
-* ****[!UICONTROL 电子邮件范围]****  — 确定您是收到公司的所有作业电子邮件，还是只收到有关您启动的上载和发布作业的电子邮件。
-* ****[!UICONTROL 电子邮件类型]****  — 确定上传作业和发布作业完成时是否会通知您。
+* **[!UICONTROL 电子邮件选项]**  — 选择您希望如何AdobeDynamic Media Classic，以在上传和发布作业完成后通过电子邮件通知您。可以选择仅当发生警告或错误时接收作业完成通知。
+* **[!UICONTROL 电子邮件范围]**  — 确定您是收到公司的所有作业电子邮件，还是只收到有关您启动的上载和发布作业的电子邮件。
+* **[!UICONTROL 电子邮件类型]**  — 确定上传作业和发布作业完成时是否会通知您。
 
 ## 语言
 

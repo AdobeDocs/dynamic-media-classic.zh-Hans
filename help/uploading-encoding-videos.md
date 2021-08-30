@@ -11,10 +11,10 @@ discoiquuid: a0941823-850c-4373-9e37-f32032de3805
 feature: Dynamic Media Classic,Viewers,Video
 role: User
 exl-id: 93ad91d7-f3dd-484b-b62c-633fcb864bbf
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: 6ed77dbc14b0b1f62f119b7ceb0ada21679781c1
 workflow-type: tm+mt
 source-wordcount: '3893'
-ht-degree: 70%
+ht-degree: 69%
 
 ---
 
@@ -83,9 +83,9 @@ AdobeDynamic Media Classic还生成视频缩略图。 您可以了解有关视�
 1. 单击“**[!UICONTROL 文件]**”>“**[!UICONTROL 重新处理]**”。
 1. 在重新处理资产对话框中，展开&#x200B;**[!UICONTROL EVideo选项]**，然后执行下列操作之一：
    * 最佳做法是使用以下方法。选择“**自适应视频**”。请参阅[自适应视频（默认）](application-setup.md#adaptive-video-default)。
-   * 可选。如果要使用单个编码设置，请展开&#x200B;****[!UICONTROL 单个编码预设]****，然后选择桌面、移动设备和平板电脑所需的编码选项。
+   * 可选。如果要使用单个编码设置，请展开&#x200B;**[!UICONTROL 单个编码预设]**，然后选择桌面、移动设备和平板电脑所需的编码选项。
 请参阅[台式机视频编码预设](application-setup.md#desktop-video-encoding-presets)、[移动设备视频编码预设](application-setup.md#mobile-video-encoding-presets)和[平板电脑视频编码预设](application-setup.md#tablet-video-encoding-presets)。
-1. 在“重新处理资源”对话框中，单击“**[!UICONTROL 提交]**”。
+1. 在重新处理资产对话框中，选择&#x200B;**[!UICONTROL Submit]**。
 
 在使用自适应视频编码预设或多个单编码预设时，结果是以多个视频编码自动创建的自适应视频集。也可以选择各个视频以手动创建自适应视频集。
 
@@ -139,7 +139,7 @@ For advice about video encoding, see the following:
 下表描述了在对源视频文件进行编码时，源视频文件必须具有的建议大小、宽高比和最小比特率：
 
 | 大小 | 高宽比 | 最小比特率 |
-|--- |--- |--- |
+| --- | --- | --- |
 | 1024 X 768 | 4:3 | 大多数视频为 4500 kbps。 |
 | 1280 X 720 | 16:9 | 3000 - 6000 kbps，具体取决于视频中动作的数量。 |
 | 1920 X 1080 | 16时9分 | 6000 - 8000 kbps，具体取决于视频中动作的数量。 |
@@ -148,7 +148,7 @@ For advice about video encoding, see the following:
 
 您可以通过以下方式获取文件的元数据：在Dynamic Media Classic中查看文件的元Adobe，使用视频编辑工具，或使用专为获取元数据而设计的应用程序。 以下是使用第三方应用程序 MediaInfo 获取视频文件元数据的说明：
 
-1. 转到此网页：[https://mediainfo.sourceforge.net/en/Download](https://mediainfo.sourceforge.net/en/Download)。
+1. 转到此网页：[https://mediaarea.net/en/MediaInfo](https://mediaarea.net/en/MediaInfo)。
 1. 选择和下载图形界面版本的安装程序，并按安装说明操作。
 1. 安装后，右键单击视频文件(仅限Windows®)并选择“MediaInfo”，或打开“MediaInfo”并将视频文件拖到应用程序中。 您会看到与视频文件相关的所有元数据，其中包括其宽度、高度和 fps。
 

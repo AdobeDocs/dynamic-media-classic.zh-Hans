@@ -1,6 +1,6 @@
 ---
-title: 指定 Media Portal 用户可以使用的导出选项
-description: 了解如何指定Media Portal用户可用的导出选项。
+title: 指定Media Portal用户可用的导出选项
+description: 了解如何在Dynamic Media Classic中指定可供Media Portal用户使用的导出选项Adobe。
 uuid: 5258b8a4-0704-43cd-97d1-c9af2e4e298b
 contentOwner: admin
 content-type: reference
@@ -9,14 +9,14 @@ discoiquuid: 9bfd95da-3714-4e38-98af-331a04c685f5
 feature: Dynamic Media Classic,Collaboration,Asset Management
 role: Admin,User
 exl-id: c27df6c2-76f4-441c-bd26-cee98203291e
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: e47c22508230adbb1ece323be0c1413a3f27ad89
 workflow-type: tm+mt
-source-wordcount: '375'
-ht-degree: 72%
+source-wordcount: '381'
+ht-degree: 66%
 
 ---
 
-# 指定 Media Portal 用户可以使用的导出选项 {#specifying-export-options-available-to-media-portal-users}
+# 指定Media Portal用户可用的导出选项 {#specifying-export-options-available-to-media-portal-users}
 
 如果管理员为他们授予权限，Media Portal 用户可以在导出图像时重设图像的格式。例如，他们可以更改大小、文件格式和图像质量。导出时自动重设图像的格式无需单独重设图像的格式，从而节省了时间。此外，管理员可以创建预设，即预先建立图像格式设置选区。当导出图像来根据您公司的规范重设图像的格式时，您可以采用预设。
 
@@ -29,7 +29,7 @@ ht-degree: 72%
 
 **指定 Media Portal 用户可以使用的导出选项:**
 
-1. 在全局导航栏上，单击&#x200B;**[!UICONTROL 设置]** > **[!UICONTROL 图像预设]**。
+1. 在全局导航栏上，转到&#x200B;**[!UICONTROL 设置]** > **[!UICONTROL 图像预设]**。
 1. 在“图像预设”窗口中，选择下列任一选项：
 
    * **启用用户定义的转化**  — 选中此选项后，用户可以从“导出选定的资 **** 产”窗口的“缩放”下拉列表中选择其他。然后用户可以选择度量单位（如像素或厘米），并指定所需的宽度和高度。当他们导出或下载这些文件时，图像文件将重新格式化。
