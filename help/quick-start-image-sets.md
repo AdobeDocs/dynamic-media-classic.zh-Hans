@@ -1,6 +1,6 @@
 ---
 title: '"快速入门：图像集"'
-description: 图像集简介和快速入门，可帮助您快速设置并运行图像集技术。
+description: 图像集的简介和快速入门，可帮助您快速设置并运行Dynamic Media Classic中的图像集技术Adobe。
 uuid: daf17d13-9c06-41f0-8fc5-2e56d460d341
 contentOwner: admin
 content-type: reference
@@ -10,10 +10,10 @@ discoiquuid: 612a425f-2840-46c4-8e5a-c0bc5f738f4e
 feature: Dynamic Media Classic,Viewers,Image Sets
 role: User
 exl-id: 280e7201-84d6-46b1-94bb-0499beca2992
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: 36f9aa3c2b4dc66e4cb851c2ce6837ae0ad4f64c
 workflow-type: tm+mt
-source-wordcount: '554'
-ht-degree: 41%
+source-wordcount: '559'
+ht-degree: 25%
 
 ---
 
@@ -29,23 +29,23 @@ AdobeDynamic Media Classic图像集为用户提供了集成的查看体验。 �
 
 首先要向图像集上载图像。由于用户可以在图像集查看器中缩放图像，因此在选择图像时，请务必考虑这项功能。 确保图像的最大大小至少为2000像素。 AdobeDynamic Media Classic支持多种图像文件格式，但建议使用无损的TIFF、PNG和EPS图像。
 
-在全局导航栏上，单击&#x200B;**[!UICONTROL Upload]** ，将文件从计算机上传到Dynamic Media Classic上的Adobe文件夹。
+在全局导航栏上，选择&#x200B;**[!UICONTROL Upload]** ，将文件从计算机上传到Dynamic Media Classic上的Adobe文件夹。
 
-请参阅[准备要上载的图像集资源](preparing-image-set-assets-upload.md#preparing-image-set-assets-for-upload)和[上载文件](uploading-files.md#uploading-your-files)。
+请参阅[准备要上传的图像集资产](preparing-image-set-assets-upload.md#preparing-image-set-assets-for-upload)和[上传文件](uploading-files.md#uploading-your-files)。
 
 ## 2.创建图像集
 
-在图像集中，用户单击图像集查看器中的缩略图图像便可看到另一侧或另一角度的图像。
+在“图像集”中，用户在“图像集查看器”中选择缩略图图像，以便从不同的侧边或角度查看图像。
 
-要创建图像集，请在全局导航栏上单击&#x200B;**[!UICONTROL Build]**，然后选择&#x200B;**[!UICONTROL 图像集]**。 在“图像集”窗口中，将图像拖动到页面上以撰写图像集。 根据需要组织、添加和删除图像。
+要创建图像集，请在全局导航栏上选择&#x200B;**[!UICONTROL Build]**，然后选择&#x200B;**[!UICONTROL 图像集]**。 在“图像集”窗口中，将图像拖动到页面上以撰写图像集。 根据需要组织、添加和删除图像。
 
 请参阅[创建图像集](creating-image-set.md#creating-an-image-set)。
 
-另请参阅[在图像集中加入缩放目标和图像映射](/help/including-zoom-targets-image-maps-image-sets.md)
+另请参阅[在图像集中包含缩放目标和图像映射](/help/including-zoom-targets-image-maps-image-sets.md)
 
-## 3.根据需要设置图像集查看器预设
+## 3.根据需要准备图像集查看器预设
 
-管理员可以创建或修改图像集查看器预设。AdobeDynamic Media Classic随附每种富媒体类型的默认查看器预设。 使用“缩放查看器: 自定义”>“图像”，或者“图像集/多个视图”预设即可查看您的图像集。
+管理员可以创建或修改图像集查看器预设。AdobeDynamic Media Classic随附每种富媒体类型的默认查看器预设。 使用缩放查看器：**[!UICONTROL 自定义]** > **[!UICONTROL 图像]**&#x200B;或&#x200B;**[!UICONTROL 图像集]**/**[!UICONTROL 多个视图]**&#x200B;预设，用于查看图像集。
 
 可在“应用程序设置”屏幕中添加或编辑查看器预设。
 
@@ -53,9 +53,9 @@ AdobeDynamic Media Classic图像集为用户提供了集成的查看体验。 �
 
 ## 4.预览图像集
 
-在浏览面板中选择图像集，然后单击&#x200B;**[!UICONTROL 预览]**。 在“预览”页面中，单击缩略图图标以在选定的查看器中检查图像集。 可以从“预设”菜单中选择不同的查看器。
+在浏览面板中选择图像集，然后选择&#x200B;**[!UICONTROL 预览]**。 在“预览”页面中，选择缩略图图标以在选定的查看器中检查图像集。 可以从“预设”菜单中选择不同的查看器。
 
-请参阅[预览资源](previewing-asset.md#previewing-an-asset)。
+请参阅[预览资产](previewing-asset.md#previewing-an-asset)。
 
 ## 5.发布图像集
 
@@ -65,14 +65,14 @@ AdobeDynamic Media Classic图像集为用户提供了集成的查看体验。 �
 >
 >如果在创建并保存图像集时选择了“**[!UICONTROL 保存后发布]**”（默认），则不需要执行此步骤。
 
-在“浏览”面板中，单击名称左侧的&#x200B;**[!UICONTROL 标记为发布]**&#x200B;图标。 然后，单击&#x200B;**[!UICONTROL Publish]**。 在“发布”页面上，单击&#x200B;**[!UICONTROL 提交发布]**。
+在浏览面板中，选择名称左侧的&#x200B;**[!UICONTROL 标记为发布]**&#x200B;图标。 然后，选择&#x200B;**[!UICONTROL Publish]**。 在“发布”页面上，选择&#x200B;**[!UICONTROL 提交发布]**。
 
-请参阅[发布](publishing-files.md#publishing-files)。
+请参阅[发布文件](publishing-files.md#publishing-files)。
 
 ## 6.将图像集关联到您的网站
 
 AdobeDynamic Media Classic会为图像集创建URL调用，并在您发布后激活它们。 可以从“预览”屏幕复制这些 URL。
 
-选择图像集，然后单击&#x200B;**[!UICONTROL 预览]**。 现在，选择一个图像集查看器预设，然后单击&#x200B;**[!UICONTROL 复制URL]**。
+选择图像集，然后选择&#x200B;**[!UICONTROL 预览]**。 现在，选择一个图像集查看器预设，然后选择&#x200B;**[!UICONTROL 复制URL]**。
 
-请参阅[将图像集链接到网页](linking-image-set-web-page.md#linking-an-image-set-to-a-web-page)。
+请参阅[将图像集关联到网页](linking-image-set-web-page.md#linking-an-image-set-to-a-web-page)。

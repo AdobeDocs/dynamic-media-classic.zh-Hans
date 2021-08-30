@@ -5,9 +5,9 @@ keywords: Dynamic Media；新闻稿；产品更新；提示和技巧；事件；
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 5f2a0cfc-d627-42be-9e68-111b65680ad8
-source-git-commit: ad5270545be502d3aaabba574353787622ab0445
+source-git-commit: 36f9aa3c2b4dc66e4cb851c2ce6837ae0ad4f64c
 workflow-type: tm+mt
-source-wordcount: '1090'
+source-wordcount: '1089'
 ht-degree: 0%
 
 ---
@@ -128,7 +128,7 @@ ht-degree: 0%
    * 了解即将举办的关于保护您的数字资产的网络研讨会。
    * 下一站将观看信息丰富的Adobe内幕浏览。
    * 当您在Experience Manager资产(Experience Manager资产)中拥有Dynamic Media时，即可提供令人兴奋的功能。
-   * 将360度视频和自定义视频缩略图添加到您的网站。
+   * 将360°视频和自定义视频缩略图添加到您的网站。
    * 会见`Andrew Hathaway`,Dynamic MediaExperience Manager资产的主要解决方案顾问。
 
 * **[2019年6月，06期](https://experienceleague.adobe.com/tools/dynamic-media-demo/newsletter/Dynamic_Media_Newsletter_06_2019_June.html)**

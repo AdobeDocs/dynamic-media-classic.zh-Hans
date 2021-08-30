@@ -1,6 +1,6 @@
 ---
 title: '"快速入门：样本集"'
-description: 样本集的简介和快速入门可帮助您快速启动并运行。
+description: 样本集的简介和快速入门，可帮助您在AdobeDynamic Media Classic中快速启动和运行。
 uuid: 6f8a95e8-e82a-477f-9f21-d2b7b511f8ae
 contentOwner: admin
 content-type: reference
@@ -10,10 +10,10 @@ discoiquuid: 1ea70fdf-3cbd-409c-ae7d-06286c99c6ac
 feature: Dynamic Media Classic,Viewers
 role: User
 exl-id: b0c345dc-539f-4b03-a873-091681e2f2c2
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: 36f9aa3c2b4dc66e4cb851c2ce6837ae0ad4f64c
 workflow-type: tm+mt
-source-wordcount: '390'
-ht-degree: 35%
+source-wordcount: '397'
+ht-degree: 25%
 
 ---
 
@@ -27,11 +27,11 @@ AdobeDynamic Media Classic色板集为用户提供了集成的查看体验。 �
 
 首先为样本集上载图像和样本文件。
 
-在全局导航栏上，单击&#x200B;**[!UICONTROL Upload]** ，将文件从计算机上传到Dynamic Media Classic上的Adobe文件夹。 请参阅[准备要上载的样本集资源](preparing-swatch-set-assets-upload.md#preparing-swatch-set-assets-for-upload)和[上载文件](uploading-files.md#uploading-your-files)。
+在全局导航栏上，选择&#x200B;**[!UICONTROL Upload]** ，将文件从计算机上传到Dynamic Media Classic上的Adobe文件夹。 请参阅[准备要上传的样本集资产](preparing-swatch-set-assets-upload.md#preparing-swatch-set-assets-for-upload)和[上传文件](uploading-files.md#uploading-your-files)。
 
 ## 2.创建色板集
 
-要创建色板集，请在全局导航栏上单击&#x200B;**[!UICONTROL Build]** > **[!UICONTROL Swatch Sets]**。 在“色板集”页面上，将图像和颜色色板拖动到页面上。 请参阅[创建样本集](creating-swatch-set.md#creating-a-swatch-set)。
+要创建色板集，请在全局导航栏上，转到&#x200B;**[!UICONTROL Build]** > **[!UICONTROL Swatch Sets]**。 在“色板集”页面上，将图像和颜色色板拖动到页面上。 请参阅[创建色板集](creating-swatch-set.md#creating-a-swatch-set)。
 
 ## 3.设置样本集查看器预设
 
@@ -41,20 +41,20 @@ AdobeDynamic Media Classic色板集为用户提供了集成的查看体验。 �
 
 ## 4.预览色板集
 
-在“浏览”面板中选择色板集，然后单击&#x200B;**[!UICONTROL 预览]**。 “色板集”将显示在此页面中。 单击缩略图和色板图标，以便在选定的查看器中检查色板集。 可以从“预设”菜单中选择不同的查看器。
+在“浏览”面板中选择色板集，然后选择&#x200B;**[!UICONTROL 预览]**。 “色板集”将显示在此页面中。 选择缩略图和色板图标，以便在选定的查看器中检查色板集。 可以从“预设”菜单中选择不同的查看器。
 
-请参阅[预览资源](previewing-asset.md#previewing-an-asset)。
+请参阅[预览资产](previewing-asset.md#previewing-an-asset)。
 
 ## 5.发布色板集
 
 发布色板集会将其放置在AdobeDynamic Media Classic服务器上，并激活URL字符串。
 
-在“浏览”面板中，单击其名称左侧的&#x200B;**[!UICONTROL 标记为发布]**&#x200B;图标。然后，单击&#x200B;**[!UICONTROL Publish]**。 在“发布”页面上，单击&#x200B;**[!UICONTROL 提交发布]**。
+在“浏览”面板中，选择名称左侧的&#x200B;**[!UICONTROL 标记为发布]**&#x200B;图标。 然后，选择&#x200B;**[!UICONTROL Publish]**。 在“发布”页面上，选择&#x200B;**[!UICONTROL 提交发布]**。
 
-请参阅[发布](publishing-files.md#publishing-files)。
+请参阅[发布文件](publishing-files.md#publishing-files)。
 
-## 6.将色板集链接到网页
+## 6.将样本集关联到网页
 
 AdobeDynamic Media Classic会为色板集创建URL调用，并在您发布后激活它们。 您可以从预览页面复制这些URL。
 
-选择“样本集”，然后选择“预览”按钮。此时将打开预览页面。 选择一个样本集查看器预设，然后选择“复制 URL”按钮。请参阅[将样本集链接至网页](linking-swatch-set-web-page.md#linking-a-swatch-set-to-a-web-page)。
+选择“样本集”，然后选择“预览”按钮。此时将打开预览页面。 选择一个样本集查看器预设，然后选择“复制 URL”按钮。请参阅[将样本集关联到网页](linking-swatch-set-web-page.md#linking-a-swatch-set-to-a-web-page)。

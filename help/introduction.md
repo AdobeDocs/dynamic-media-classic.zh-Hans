@@ -5,10 +5,10 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 7bf94d8c-23ff-4a43-83cc-7e6879a7cded
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: 36f9aa3c2b4dc66e4cb851c2ce6837ae0ad4f64c
 workflow-type: tm+mt
-source-wordcount: '244'
-ht-degree: 33%
+source-wordcount: '243'
+ht-degree: 24%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 33%
 
 欢迎使用AdobeAdobeDynamic Media Classic，它是领先的按需跨媒体发布系统，用于上传、管理、增强动态富内容并将其发布到所有设备和屏幕。 AdobeDynamic Media Classic解决方案包括：
 
-* 动态成像：实时编辑、调整格式和大小、交互式缩放和平移；颜色样本和纹理样本；360 度旋转；图像模板；多媒体查看器。
+* Dynamic Imaging:实时编辑、格式化和大小调整、交互式缩放和平移；颜色切换和纹理切换；旋转360°;图像模板；多媒体查看器。
 * 电子目录：创作、热点链接、启用搜索功能、发布动态提供的在线目录并将其交付到可配置的查看器中。
 * 媒体门户：自助服务环境为门户用户提供了由管理员控制的“视图”，可用于AdobeDynamic Media Classic资产，以便于上传、浏览、搜索、预览和导出资产。
 * 电子视频：以任何格式上传最终视频，管理、编辑、创建热点和视频模板，发布并流入可配置的视频查看器中

@@ -1,6 +1,6 @@
 ---
 title: “快速入门：混合媒体集”
-description: 混合媒体集的简介和快速入门可帮助您快速启动并运行。
+description: 混合媒体集的简介和快速入门，可帮助您在AdobeDynamic Media Classic中快速启动并运行。
 uuid: 0ef033d5-b053-4d7c-b1e1-1980f899fd88
 contentOwner: admin
 content-type: reference
@@ -10,16 +10,16 @@ discoiquuid: 2708d077-94fc-4045-8992-ad3589ed9cfd
 feature: Dynamic Media Classic,Viewers,Mixed Media Sets
 role: User
 exl-id: 757893ae-7507-42a0-a67b-f6542e7231c7
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: 36f9aa3c2b4dc66e4cb851c2ce6837ae0ad4f64c
 workflow-type: tm+mt
-source-wordcount: '635'
-ht-degree: 52%
+source-wordcount: '641'
+ht-degree: 38%
 
 ---
 
 # 快速入门：混合媒体集{#quick-start-mixed-media-sets}
 
- 混合媒体集为用户提供了集成的查看体验。混合媒体集可以包括图像、图像集、样本集、旋转集和视频。用户可以单击“混合媒体查看器”中的不同选项卡，以不同的视图查看物品。如果未指定选项卡，所有资源都将一起显示在样本行中。
+ 混合媒体集为用户提供了集成的查看体验。混合媒体集可以包括图像、图像集、样本集、旋转集和视频。用户可以在混合媒体查看器中选择不同的选项卡，以在不同的查看器中查看项目。 如果未指定选项卡，所有资源都将一起显示在样本行中。
 
 “混合媒体集查看器预设”包括最终用户用来嵌入代码、复制 URL 以及链接到主网站的社区选项。用户可以使用这些选项在其个人网站或社交网站上共享有关产品的信息。
 
@@ -29,9 +29,9 @@ ht-degree: 52%
 
 首先为混合媒体集上载图像、样本文件和视频。由于用户可以在混合媒体集查看器中缩放图像，因此在选择图像时，请务必考虑此功能。 确保图像的最大大小至少为2000像素。
 
-在全局导航栏上，单击&#x200B;**[!UICONTROL Upload]** ，将文件从计算机上传到Dynamic Media Classic上的Adobe文件夹。
+在全局导航栏上，选择&#x200B;**[!UICONTROL Upload]** ，将文件从计算机上传到Dynamic Media Classic上的Adobe文件夹。
 
-请参阅[上载文件](uploading-files.md#uploading-your-files)。
+请参阅[上传文件](uploading-files.md#uploading-your-files)。
 
 ## 2.创建媒体集以在混合媒体集中使用
 
@@ -41,7 +41,7 @@ ht-degree: 52%
 
 ## 3.创建混合媒体集
 
-在全局导航栏上，单击&#x200B;**[!UICONTROL 生成]** > **[!UICONTROL 混合媒体集]**。 将图像、色板集、图像集和视频拖到混合媒体集页面上。 要添加音轨，将音频文件拖动到“音轨”框中。
+在全局导航栏上，转到&#x200B;**[!UICONTROL Build]** > **[!UICONTROL Mixed Media Sets]**。 将图像、色板集、图像集和视频拖到混合媒体集页面上。 要添加音轨，将音频文件拖动到“音轨”框中。
 
 请参阅[创建混合媒体集](creating-mixed-media-set.md#creating-a-mixed-media-set)。
 
@@ -55,9 +55,9 @@ AdobeDynamic Media Classic附带混合媒体集的默认查看器预设。 管�
 
 ## 5.预览混合媒体集
 
-单击混合媒体集的&#x200B;**[!UICONTROL 预览]**&#x200B;按钮。 可以单击缩略图和样本图标，以在“混合媒体集查看器”中检查您的混合媒体集。可以从“预设”菜单中选择不同的查看器。
+选择混合媒体集的&#x200B;**[!UICONTROL 预览]**&#x200B;按钮。 您可以选择缩略图和色板图标，以在混合媒体集查看器中检查混合媒体集。 可以从“预设”菜单中选择不同的查看器。
 
-请参阅[预览资源](previewing-asset.md#previewing-an-asset)。
+请参阅[预览资产](previewing-asset.md#previewing-an-asset)。
 
 ## 6.发布混合媒体集
 
@@ -71,4 +71,4 @@ AdobeDynamic Media Classic附带混合媒体集的默认查看器预设。 管�
 
 AdobeDynamic Media Classic在您发布混合媒体集后，会激活它们的URL调用。 您可以从预览页面复制这些URL。
 
-选择混合媒体集，然后单击&#x200B;**[!UICONTROL 预览]**。 在“预览”页面中，选择混合媒体集查看器预设，然后单击&#x200B;**[!UICONTROL 复制URL]**。 请参阅[将混合媒体集与网页链接](linking-mixed-media-set-web.md#linking-a-mixed-media-set-to-a-web-page)。
+选择混合媒体集，然后选择&#x200B;**[!UICONTROL 预览]**。 在“预览”页面中，选择混合媒体集查看器预设，然后选择&#x200B;**[!UICONTROL 复制URL]**。 请参阅[将混合媒体集与网页链接](linking-mixed-media-set-web.md#linking-a-mixed-media-set-to-a-web-page)。
