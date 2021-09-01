@@ -1,6 +1,6 @@
 ---
 title: 查看、添加和导出元数据
-description: 了解如何查看、添加和导出元数据。
+description: 了解如何在Dynamic Media Classic中查看、添加和导出元Adobe。
 uuid: a5254c51-9e04-45ae-8236-3eab2925e5fc
 contentOwner: admin
 content-type: reference
@@ -10,10 +10,10 @@ discoiquuid: 5414b4f5-6e05-468c-8725-385423596342
 feature: Dynamic Media Classic,Asset Management,Metadata
 role: User
 exl-id: 2be50cc7-9a8b-4f7b-8ebf-18a3208654f2
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: 8bc49ae3704f0551c70d68a0ddd63725bdcc645c
 workflow-type: tm+mt
-source-wordcount: '2268'
-ht-degree: 47%
+source-wordcount: '2259'
+ht-degree: 46%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 47%
 
 一些元数据直接嵌入到文件中。如果文件包含此元数据，则AdobeDynamic Media Classic会自动将其与文件一起上传。 您可以将元数据嵌入到Adobe Photoshop、InDesign、Illustrator和其他应用程序中的源资产中；AdobeDynamic Media Classic可识别此元数据。 您还可以在详细信息视图的元数据面板中将元数据添加到单个文件。 为了确保资源的一致性，公司管理员创建了元数据模板，提供可以填写的元数据字段。
 
-有关嵌入式元数据的更多信息，请参阅[www.adobe.com/go/learn_s7_xmp_en](https://www.adobe.com/go/learn_s7_xmp_en)。
+有关嵌入式元数据的更多信息，请参阅[可扩展元数据平台](https://www.adobe.com/products/xmp.html)。
 
 ## 查看元数据 {#view-metadata}
 
@@ -47,13 +47,13 @@ ht-degree: 47%
 1. 打开“元数据”面板并执行以下一项操作或全部操作：
 
    * 选择一种元数据视图，以确定面板中显示哪些元数据字段。
-   * 选择一个预设值，然后单击&#x200B;**[!UICONTROL 应用]**&#x200B;以使用预设值填充元数据字段。 这些预设值由公司管理员创建。
+   * 选择一个预设值，然后选择&#x200B;**[!UICONTROL 应用]**&#x200B;以使用预设值填充元数据字段。 这些预设值由公司管理员创建。
 
 1. 在“元数据”面板中输入值。
 
 >[!NOTE]
 >
->要同时编辑多个资产的元数据，请选择资产并单击&#x200B;**[!UICONTROL 文件]** > **[!UICONTROL 编辑信息]**。 在“编辑信息”窗口中对元数据所进行的编辑会应用于所有选定资源。
+>要同时编辑多个资产的元数据，请选择资产，然后转到&#x200B;**[!UICONTROL 文件]** > **[!UICONTROL 编辑信息]**。 在“编辑信息”窗口中对元数据所进行的编辑会应用于所有选定资源。
 
 ## 添加或编辑关键字 {#add-or-edit-keywords}
 
@@ -62,13 +62,13 @@ ht-degree: 47%
 如果在此会话期间向其他文件添加了关键词，或者从列表中删除了关键词，则这些关键词会显示在“关键词建议”表中。
 
 1. 在详细信息视图中打开文件。
-1. 单击&#x200B;**[!UICONTROL 关键词]**。
+1. 选择&#x200B;**[!UICONTROL 关键词]**。
 1. 要添加关键字，请执行以下任意操作：
 
-   * 在文本框中键入关键字，然后单击&#x200B;**[!UICONTROL Add]**。
-   * 单击&#x200B;**[!UICONTROL 关键词建议]**&#x200B;表中的关键词。
+   * 在文本框中键入关键字并选择&#x200B;**[!UICONTROL Add]**。
+   * 在&#x200B;**[!UICONTROL 关键词建议]**&#x200B;表中选择关键词。
 
-1. 要删除某个关键字，请选择它并单击&#x200B;**[!UICONTROL 删除]**。 该关键字会移到“关键字建议”表中。
+1. 要删除某个关键字，请选择它，然后选择&#x200B;**[!UICONTROL 删除]**。 该关键字会移到“关键字建议”表中。
 
 >[!NOTE]
 >
@@ -87,13 +87,13 @@ ht-degree: 47%
 有关标准化属性的更多信息，请访问[AdobeXMP开发人员中心](https://www.adobe.com/devnet/xmp.html)。
 
 1. 在浏览面板中，选择要从制表符分隔的文件或 XML 文件为其添加元数据的图像。
-1. 单击“**[!UICONTROL 文件]**”>“**[!UICONTROL 导入元数据]**”。
-1. 在“**[!UICONTROL 上载元数据]**”对话框中，单击“**[!UICONTROL 浏览]**”。
+1. 转到&#x200B;**[!UICONTROL 文件]** > **[!UICONTROL 导入元数据]**。
+1. 在&#x200B;**[!UICONTROL 上传元数据]**&#x200B;对话框中，选择&#x200B;**[!UICONTROL 浏览]**。
 1. 在“**[!UICONTROL 选择要上载的文件]**”对话框中，选择包含元数据的制表符分隔文件或 XML 文件。
 1. 输入作业名称。
-1. 按一下&#x200B;**[!UICONTROL 上載]**。
+1. 选择&#x200B;**[!UICONTROL Upload]**。
 
-### 在导入时识别不同的元数据类型
+### 在导入中标识不同的元数据类型
 
 在识别要导入的不同元数据类型时，请记住以下几点：
 
@@ -107,7 +107,7 @@ ht-degree: 47%
 
 关键词可导入为逗号分隔列表。 如果逗号出现在任何单个值中，则必须使用反斜线(\)进行转义。 反斜杠字母为常见的双反斜杠 (\\)。
 
-例如，包含`dc:subject`值“Hello\, World!,back\\slash，foo”的元数据导入文件会在资产上设置三个XMP关键字：“你好，世界！”、“反\斜杠”和“foo”。
+例如，包含`dc:subject`值`Hello\, World!,back\\slash,foo`的元数据导入文件会在资产上设置三个XMP关键字：`Hello, World!,` `back\slash,`和`foo`。
 
 ### 导入 XMP 和元数据架构元数据 XMP 文件
 
@@ -131,7 +131,7 @@ XML 导入仅接受有效的 XML。导入XMP或元数据架构字段时，会添
 
 确保制表符分隔文件或 XML 文件中的数据格式正确。在第一行中，输入 ID 字段，随后输入要修改的元数据字段名称。在每个后续行中，输入资源 ID 名称，后跟元数据值。系统不会对制表符分隔文件或 XML 文件中未包括的字段进行修改。
 
-在全局导航栏上，单击“**[!UICONTROL 上载]**”。要导入元数据，请在“上载”页面上单击&#x200B;**[!UICONTROL 通过FTP]**&#x200B;选项卡，然后单击&#x200B;**[!UICONTROL 作业选项]**。 在“上传作业选项”对话框中，单击&#x200B;**[!UICONTROL 作业]**，然后选中&#x200B;**[!UICONTROL 处理元数据文件]**&#x200B;复选框。
+在全局导航栏上，选择&#x200B;**[!UICONTROL Upload]**。 要导入元数据，请在“上传”页面上选择&#x200B;**[!UICONTROL 通过FTP]**&#x200B;选项卡，然后选择&#x200B;**[!UICONTROL 作业选项]**。 在“上传作业选项”对话框中，选择&#x200B;**[!UICONTROL 作业]**，然后选中&#x200B;**[!UICONTROL 处理元数据文件]**&#x200B;复选框。
 
 ## 使用元数据批量重命名 ID {#batch-rename-ids-using-metadata}
 
@@ -141,8 +141,8 @@ XML 导入仅接受有效的 XML。导入XMP或元数据架构字段时，会添
 
 例如：
 
-| ipsid | newipsid |
-|--- |--- |
+|  | newipsid |
+| --- | --- |
 | testjacket_1 | Jacket_test_1 |
 | testjacket_blue | Jacket_test_2 |
 
@@ -153,15 +153,15 @@ XML 导入仅接受有效的 XML。导入XMP或元数据架构字段时，会添
 AdobeDynamic Media Classic提供了用于创建用于记录元数据的模板的命令。 使用模板可确保以正确的格式输入元数据，以便能够将其正确上传到AdobeDynamic Media Classic。 要创建用于记录和导入元数据以AdobeDynamic Media Classic的模板，请执行以下步骤：
 
 1. 选择具有模板所需的元数据字段的图像资源。
-1. 单击“**[!UICONTROL 文件]**”>“**[!UICONTROL 导入元数据]**”。
+1. 转到&#x200B;**[!UICONTROL 文件]** > **[!UICONTROL 导入元数据]**。
 1. 对于&#x200B;**[!UICONTROL 资产属性类型]**，选择&#x200B;**[!UICONTROL 图像]**。
 1. 从&#x200B;**[!UICONTROL 生成文件]**&#x200B;下拉列表中，选择&#x200B;**[!UICONTROL 制表符分隔的模板]**、**[!UICONTROL 资产的XML元数据]**&#x200B;或&#x200B;**[!UICONTROL XML DTD]**。
-1. 单击&#x200B;**[!UICONTROL 生成]**。
+1. 选择&#x200B;**[!UICONTROL 生成]**。
 1. 在显示的对话框中，复制数据。使用此数据构建模板。
 
 ## 使用元数据架构 {#working-with-metadata-schemas}
 
-公司管理员可以查看所有可用的架构的列表。在全局导航栏上，单击&#x200B;**[!UICONTROL 设置]** > **[!UICONTROL 应用程序设置]** > **[!UICONTROL 元数据]** > **[!UICONTROL 元数据架构]**。
+公司管理员可以查看所有可用的架构的列表。在全局导航栏上，转到&#x200B;**[!UICONTROL 设置]** > **[!UICONTROL 应用程序设置]** > **[!UICONTROL 元数据]** > **[!UICONTROL 元数据架构]**。
 
 最初，会隐藏全局标准架构(如XMP)列表。 通过选中列表底部的复选框，可以显示该列表。
 
@@ -170,7 +170,7 @@ AdobeDynamic Media Classic提供了用于创建用于记录元数据的模板的
 您可以使用元数据架构编辑器来执行以下操作：
 
 | 操作 | 说明 |
-|--- |--- |
+| --- | --- |
 | 添加 | 向架构中添加属性。 模式对话框会收集以下信息：ID、标签、结构和数据类型。 |
 | 添加选项值 | 向结构为开放式选项或限定式选项的属性中添加新的可选择选项。所有选项值的类型相同。选择属性本身以启用按钮。 |
 | 编辑 | 编辑属性或选项值的标签。您仅可更改标签、ID，类型信息不可变。 |
@@ -185,13 +185,13 @@ AdobeDynamic Media Classic提供了用于创建用于记录元数据的模板的
 
 元数据架构编辑器提供了一种图形方式，用于在AdobeDynamic Media Classic中添加或编辑自定义公司架构。 架构由前缀、命名空间和一系列属性定义。
 
-* **名称**  — 架构的UI — 名称。用于在元数据视图和高级搜索中识别属性。类似于 XMP 部分，如“基本”、IPTC、PDF。
+* **[!UICONTROL 名称]**  — 架构的UI — 名称。用于在元数据视图和高级搜索中识别属性。类似于 XMP 部分，如“基本”、IPTC、PDF。
 
-* **前缀**  — 架构的技术唯一标识符。限于字母a-z和A-Z。前缀在AdobeDynamic Media经典UI中不可见，但在将资产的元数据存储到XMP块和数据库中时会使用。 前缀用于在元数据服务器上的元数据搜索查询中或导入时唯一识别元数据字段。
+* **[!UICONTROL 前缀]**  — 架构的技术唯一标识符。限于字母a-z和A-Z。前缀在AdobeDynamic Media经典UI中不可见，但在将资产的元数据存储到XMP块和数据库中时会使用。 前缀用于在元数据服务器上的元数据搜索查询中或导入时唯一识别元数据字段。
 
-* **命名空间**  — 架构的技术唯一标识符，通常为格式为的URL  `https://your.company.com/name/version/`。有关示例，请参阅标准架构列表。命名空间在AdobeDynamic Media经典UI中不可见，但用于在XMP块中存储元数据。
+* **[!UICONTROL 命名空间]**  — 架构的技术唯一标识符，通常为格式为的URL  `https://your.company.com/name/version/`。有关示例，请参阅标准架构列表。命名空间在AdobeDynamic Media经典UI中不可见，但用于在XMP块中存储元数据。
 
-* **描述**  — 架构的自由格式描述。
+* **[!UICONTROL 描述]**  — 架构的自由格式描述。
 
 >[!NOTE]
 >
@@ -200,7 +200,7 @@ AdobeDynamic Media Classic提供了用于创建用于记录元数据的模板的
 属性用于描述可与此架构一起存储在 XMP 块中的元数据。属性包括：
 
 | 属性 | 说明 |
-|--- |--- |
+| --- | --- |
 | ID | 该属性的技术性标识符。该ID在AdobeDynamic Media经典UI中不可见，但在将资产的元数据存储到XMP块和数据库中时使用。 ID 用于在元数据服务器上创建搜索查询。ID 具有以下限制： <ul><li>不得包含空格</li><li>不得包含“.”、“:”和“$”</li><li>第一个字符不得为数字</li><li>最好使用 a-z 或 A-Z 作为第一个字符</li></ul> <br>创建后，ID 即无法更改。 |
 | 标签 | 该属性的 UI 名称。 |
 | 结构 | 与数据类型一起确定属性的类型。结构可能为：<ul><li>简单类型：单个数据类型值</li><li>序列：相同数据类型的值的列表</li><li>开放式选项：从预定义的值列表中选择一项，或随意输入文本。数据类型仅可为字符串型或整型</li><li>限定式选项：从预定义的值列表（弹出窗口或组合框）中选择一项</li></ul> |
@@ -209,7 +209,7 @@ AdobeDynamic Media Classic提供了用于创建用于记录元数据的模板的
 当属性的结构为“开放式选项”或“限定式选项”时，您必须提供至少一个选项值。开放式选项可以更改。限定式选项不可更改。所有选项值都具有属性的数据类型。
 
 | 属性 | 说明 |
-|--- |--- |
+| --- | --- |
 | ID | 该值的技术性标识符。该ID在AdobeDynamic Media Classic UI中不可见，但当资产的元数据存储在XMP块和数据库中时，会使用该ID。 ID 用于元数据服务器上的搜索查询。ID 不可包含空格。创建后，ID 即无法更改。 |
 | 标签 | 该值的 UI 名称。 |
 

@@ -1,6 +1,6 @@
 ---
 title: Adobe 培训服务
-description: 进一步了解Adobe培训服务。
+description: 进一步了解AdobeDynamic Media Classic的Adobe培训服务。
 uuid: c405f60c-d0a8-4c88-8530-b093875500cd
 contentOwner: admin
 content-type: reference
@@ -10,10 +10,10 @@ discoiquuid: 2bccf91d-ec27-4cdf-a322-55804b6ba0d3
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: e2840200-246e-4c68-b10f-a66461f2a118
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: 8bc49ae3704f0551c70d68a0ddd63725bdcc645c
 workflow-type: tm+mt
-source-wordcount: '162'
-ht-degree: 53%
+source-wordcount: '167'
+ht-degree: 46%
 
 ---
 
@@ -33,8 +33,8 @@ Adobe 培训服务提供专为贵组织设计的、内容深入的自定义课�
 
 请参阅[演示](https://landing.adobe.com/zh-Hans/na/dynamic-media/ctir-2755/live-demos.html)。
 
-## 帮助的快速入门章节
+## 帮助的“入门”章节
 
 帮助系统的快速入门部分向初次AdobeDynamic Media Classic的用户提供说明。 本文介绍了有关程序、导航、设置、资产管理和构建富媒体的基础知识。
 
-请参阅[快速入门](dmc-platform-overview.md)。
+请参阅[入门](dmc-platform-overview.md)。

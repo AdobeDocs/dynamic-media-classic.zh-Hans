@@ -1,6 +1,6 @@
 ---
-title: 公开资源前测试资源
-description: 了解如何在将资产公开之前对其进行测试。
+title: 在将资产公开之前对其进行测试
+description: 了解如何在AdobeDynamic Media Classic中测试资产，然后再将其公开。
 uuid: 5e8f3bec-6cf1-408e-8ea1-aebde0012a70
 contentOwner: admin
 content-type: reference
@@ -10,14 +10,14 @@ discoiquuid: 52fadf99-7d11-46f7-8483-a9f87ffc2f67
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: fd78d535-391e-43eb-a8aa-25fa6c2885cb
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: 8bc49ae3704f0551c70d68a0ddd63725bdcc645c
 workflow-type: tm+mt
-source-wordcount: '1036'
-ht-degree: 37%
+source-wordcount: '1047'
+ht-degree: 32%
 
 ---
 
-# 公开资源前测试资源 {#testing-assets-before-making-them-public}
+# 在将资产公开之前对其进行测试 {#testing-assets-before-making-them-public}
 
 安全测试可帮助您定义安全测试环境，并基于一组可配置的IP地址和范围构建强大的B2B解决方案。 此功能允许您将AdobeDynamic Media Classic部署与内容管理和业务系统的架构相匹配。
 
@@ -37,7 +37,7 @@ ht-degree: 37%
 
 大多数公司在防火墙后运行 Internet。可以通过某些路由，通常是通过限定范围的公共 IP 地址访问 Internet。
 
-从您的公司网络中，您可以使用https://whatismyip.com之类的网站确定您的公共IP地址，或向您的公司IT组织请求此信息。
+从您的公司网络中，您可以使用诸如[https://www.whatismyip.com](https://www.whatismyip.com/)之类的网站确定您的公共IP地址，或向您的公司IT组织请求此信息。
 
 通过安全测试，AdobeDynamic Media Classic可为暂存环境或内部应用程序建立专用的图像服务器。 对此服务器的所有请求都将检查原始 IP 地址。如果传入请求不在获批准的 IP 地址列表中，则返回失败响应。AdobeDynamic Media Classic公司管理员为其公司的安全测试环境配置IP地址的已批准列表。
 
@@ -80,7 +80,7 @@ Last Modified Date:
 
 ## 测试安全测试服务 {#testing-the-secure-testing-service}
 
-测试安全测试服务以确保其正常工作。
+测试安全测试服务，以确保该服务按预期运行。
 
 <!-- >[!NOTE]
 >
@@ -99,9 +99,9 @@ Last Modified Date:
  -->
 
 1. 请联系Adobe客户关怀团队，要求他们在您的帐户中启用安全测试。
-1. 在AdobeDynamic Media Classic的全局导航栏上，单击&#x200B;**[!UICONTROL 设置]** > **[!UICONTROL 发布设置]** > **[!UICONTROL 图像服务器]**。
+1. 在AdobeDynamic Media Classic的全局导航栏上，转到&#x200B;**[!UICONTROL Setup]** > **[!UICONTROL Publish Setup]** > **[!UICONTROL Image Server]**。
 1. 在“图像服务器发布”页面的&#x200B;**[!UICONTROL 发布上下文]**&#x200B;下拉列表中，选择&#x200B;**[!UICONTROL 测试图像服务]**。
-1. 在“客户端地址过滤器”中，单击“**[!UICONTROL 添加]**”。
+1. 对于客户端地址筛选器，选择&#x200B;**[!UICONTROL Add]**。
 1. 选中此复选框以启用（打开）地址，然后在相应的文本字段中键入IP地址和网络掩码。
 
    >[!NOTE]
@@ -111,16 +111,16 @@ Last Modified Date:
 1. 执行以下任一操作：
    * 如果必须添加更多IP地址，请重复上述两个步骤。
    * 继续下一步。
-1. 在“图像服务器发布”页面左下角，单击&#x200B;**[!UICONTROL Save]**
+1. 在“图像服务器发布”页面左下角，选择&#x200B;**[!UICONTROL Save]**
 1. 将所需的图像上传到您的AdobeDynamic Media Classic帐户。
 
-   请参阅[上载文件](uploading-files.md#uploading_files)。
+   请参阅[上传文件](uploading-files.md#uploading_files)。
 
 1. 请确保部分图像已标记为发布，而其它图像未标记，然后提交发布作业。
 
-   请参阅[发布](publishing-files.md#publishing_files)。
+   请参阅[发布文件](publishing-files.md#publishing_files)。
 
-1. 通过单击“**[!UICONTROL 设置]**”>“**[!UICONTROL 应用程序设置]**”>“**[!UICONTROL 常规设置]**”，确定您的安全测试服务的名称。
+1. 通过转至&#x200B;**[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL General Settings]**，确定Secure Testing服务的名称。
 1. 在“应用程序常规设置”页面上，在“服务器”组下，在“**[!UICONTROL 测试发布上下文服务器名称]**”右侧找到该名称。
 
 如果服务器名称缺失或指向服务器的URL不起作用，请联系Adobe关怀。

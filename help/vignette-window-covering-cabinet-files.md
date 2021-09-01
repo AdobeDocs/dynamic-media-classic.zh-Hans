@@ -1,6 +1,6 @@
 ---
-title: 使用晕影、窗饰和 CAB 文件
-description: 了解如何使用晕影、窗口覆盖和文件柜文件。
+title: 使用晕影、窗口覆盖和机柜文件
+description: 了解如何在AdobeDynamic Media Classic中处理晕影、窗口覆盖和文件柜文件。
 uuid: a738791c-4be0-4286-abbd-fae7a0e4bb73
 contentOwner: admin
 content-type: reference
@@ -10,14 +10,14 @@ discoiquuid: 42df9adc-e563-4de2-87a4-bd40cef77cdf
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 8d1e0c37-a648-4c7b-8f68-4b2ab71dfa11
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: 8bc49ae3704f0551c70d68a0ddd63725bdcc645c
 workflow-type: tm+mt
-source-wordcount: '139'
-ht-degree: 27%
+source-wordcount: '144'
+ht-degree: 15%
 
 ---
 
-# 使用晕影、窗饰和 CAB 文件{#working-with-vignette-window-covering-and-cabinet-files}
+# 使用晕影、窗口覆盖和机柜文件{#working-with-vignette-window-covering-and-cabinet-files}
 
 AdobeDynamic Media Classic图像创作工具的用户可以&#x200B;*使用*&#x200B;晕影（VNT文件）、窗口覆盖（VNW文件）和文件柜（VNC文件）。 这些文件无法在AdobeDynamic Media Classic中创建或编辑。
 

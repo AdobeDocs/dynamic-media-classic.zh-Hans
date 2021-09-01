@@ -1,20 +1,20 @@
 ---
-title: 上载图像资源或矢量资源
-description: 了解如何上传图像资产或矢量资产。
+title: 上传图像资产或矢量资产
+description: 了解如何在AdobeDynamic Media Classic中上传图像资产或矢量资产
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 feature: Dynamic Media Classic
 role: User
 exl-id: 2ef78fe6-1e7c-4f48-86da-137ddaa55bbf
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: 8bc49ae3704f0551c70d68a0ddd63725bdcc645c
 workflow-type: tm+mt
-source-wordcount: '1495'
-ht-degree: 78%
+source-wordcount: '1504'
+ht-degree: 70%
 
 ---
 
-# 上载图像资源或矢量资源{#uploading-an-image-asset-or-a-vector-asset}
+# 上传图像资产或矢量资产{#uploading-an-image-asset-or-a-vector-asset}
 
 在上载图像资源之前，必须先请求一个共享密钥。可以使用该共享密钥检索上载令牌。然后，可以使用上载令牌上载图像资源或矢量资源。
 
@@ -24,7 +24,7 @@ ht-degree: 78%
 
 在电子邮件中，请提供要用于上载图像资源的公司名称。从AdobeDynamic Media Classic收到密钥后，请将其保存在本地，以供将来使用。
 
-## 检索上载令牌 {#retrieving-the-upload-token}
+## 检索上传令牌 {#retrieving-the-upload-token}
 
 *上载令牌*&#x200B;可确保他人不能使用相同的共享密钥来上载资源。它可确保上载合法且来自信任的来源。
 
@@ -68,7 +68,7 @@ https://s7ugc1.scene7.com/ugc/image?op=get_uploadtoken&shared_secret=fece4b21-87
 您可以在查询 URL 字符串中使用以下字段来检索上载令牌：
 
 | URL 参数 | 必需或可选 | 值 |
-|--- |--- |--- |
+| --- | --- | --- |
 | op | 必需 | get_uploadtoken |
 | shared_secret | 必需 | 正在进行上载的公司的共享密钥。 |
 | expires | 可选 | 上载令牌有效的秒数。如果不指定，则默认为 300 秒。 |
@@ -86,9 +86,9 @@ https://s7ugc1.scene7.com/ugc/image?op=get_uploadtoken&shared_secret=fece4b21-87
 
 您现在可以上载图像资源。
 
-请参阅[上载图像资源](uploading-image-asset-or-vector.md#uploading_an_image_asset)。
+请参阅[上传图像资产](uploading-image-asset-or-vector.md#uploading_an_image_asset)。
 
-## 上载图像资源 {#uploading-an-image-asset}
+## 上传图像资产 {#uploading-an-image-asset}
 
 您检索到在特定时间内有效的上载令牌后，即可上载图像资源。以 multipart/form post 形式上载资源，而值的其余部分以 URL 查询字符串形式发送，如以下示例中所示：
 
@@ -98,7 +98,7 @@ https://s7ugc1.scene7.com/ugc/image?op=upload&upload_token=aa2a378a-cd25-4c80-99
 
 `upload_token`和`company_name`字段为必填字段。
 
-请参阅[检索上载令牌](uploading-image-asset-or-vector.md#retrieving_the_upload_token)。
+请参阅[检索上传令牌](uploading-image-asset-or-vector.md#retrieving_the_upload_token)。
 
 请参阅[检索共享密钥](uploading-image-asset-or-vector.md#requesting_a_shared_secret_key)。
 
@@ -113,7 +113,7 @@ https://s7ugc1.scene7.com/ugc/image?op=upload&upload_token=aa2a378a-cd25-4c80-99
 对于允许的文件大小限制和文件扩展名，在应用程序中设置全局限制。如果请求中所发送的内容是全局限制的子集，则允许这一发送。全局限制如下所示：
 
 | 全局限制 | 值 |
-|--- |--- |
+| --- | --- |
 | 所有客户端的文件大小 | 20 MB |
 | 用于上载的支持的图像文件格式 | BMP、GIF、JPG、PNG、PSD |
 
@@ -125,7 +125,7 @@ https://s7ugc1.scene7.com/ugc/image?op=upload&upload_token=aa2a378a-cd25-4c80-99
 * 文件扩展名的列表.
 * 是否保留与资产关联的颜色配置文件和文件名。
 * 是否使用“挖空背景”。 如果启用“挖空背景”，请设置“拐角”、“公差”和“填充方法”。
-请参阅上传时的[图像编辑选项中的“挖空背景”](image-editing-options-upload.md#image-editing-options-at-upload)。
+请参阅上载](image-editing-options-upload.md#image-editing-options-at-upload)时的[图像微调选项中的“挖空背景”。
 * 待上载文件的名称.
 
 <!-- 
@@ -138,11 +138,11 @@ Last Modified Date:
 
  -->
 
-您可以通过单击[https://s7ugc1.scene7.com/ugc/upload.html](https://s7ugc1.scene7.com/ugc/upload.html)查看与上述表单关联的HTML源代码
+您可以通过选择[https://s7ugc1.scene7.com/ugc/upload.html](https://s7ugc1.scene7.com/ugc/upload.html)查看与上述表单关联的HTML源代码
 
-在Firefox的浏览器窗口中，右键单击，然后单击&#x200B;**[!UICONTROL 查看页面源]**。 该代码将显示当用户单击“**[!UICONTROL 提交]**”时运行的相应 URL 查询字符串和 POST 方法。
+在Firefox的浏览器窗口中，右键单击，然后选择&#x200B;**[!UICONTROL 查看页面源]**。 该代码将显示当用户单击“**[!UICONTROL 提交]**”时运行的相应 URL 查询字符串和 POST 方法。
 
-要在 Internet Explorer 中查看 XML 响应，请单击“**[!UICONTROL 查看]**”>“**[!UICONTROL 源文件]**”。要在Firefox中查看XML响应，请单击&#x200B;**[!UICONTROL 工具]** > **[!UICONTROL 浏览器工具]** > **[!UICONTROL Web开发人员工具]**。 建议使用 Firefox 查看 XML 响应。
+要在Internet Explorer中查看XML响应，请转到&#x200B;**[!UICONTROL View]** > **[!UICONTROL Source]**。 要在Firefox中查看XML响应，请转到&#x200B;**[!UICONTROL 工具]** > **[!UICONTROL 浏览器工具]** > **[!UICONTROL Web开发人员工具]**。 建议使用 Firefox 查看 XML 响应。
 
 下面是成功上载的示例响应：
 
@@ -179,7 +179,7 @@ https://s7w2p1.scene7.com/is/image/S7WebUGC/ugc/9536356.tif?&wid=800&hei=100&fit
 以 multipart/form post 形式发送要上载的资源，而值的其余部分以 URL 查询字符串形式发送。您可以在 URL 查询字符串中使用以下字段来上载资源：
 
 | URL 参数 | 必需或可选 | 值 |
-|--- |--- |--- |
+| --- | --- | --- |
 | `op` | 必需 | 上载 |
 | `upload_token` | 必需 | 与公司关联的共享密钥的上载令牌。 |
 | `company_name` | 必需 | 执行上载的公司的名称。 |
@@ -200,7 +200,7 @@ https://s7w2p1.scene7.com/is/image/S7WebUGC/ugc/9536356.tif?&wid=800&hei=100&fit
 
 POST
 
-### 获取图像的资源元数据 {#getting-asset-metadata-for-images}
+### 获取图像的资产元数据 {#getting-asset-metadata-for-images}
 
 您可以使用 `image_info` 检索所上载资源的元数据，如以下示例中所示：
 
@@ -235,7 +235,7 @@ https://s7ugc1.scene7.com/ugc/image?op=image_info&shared_secret=fece4b21-87ee-47
 您可以在 URL 查询字符串中使用以下字段请求有关资源的信息：
 
 | URL 参数 | 必需或可选 | 值 |
-|--- |--- |--- |
+| --- | --- | --- |
 | `op` | 必需 | image_info |
 | `shared_secret` | 必需 | 公司的共享密钥。 |
 | `image_name` | 必需 | 图像的名称。 |
@@ -248,7 +248,7 @@ https://s7ugc1.scene7.com/ugc/image?op=image_info&shared_secret=fece4b21-87ee-47
 
 GET 和 POST
 
-## 上载矢量资源 {#uploading-a-vector-asset}
+## 上传矢量资产 {#uploading-a-vector-asset}
 
 检索到在特定时间内有效的上载令牌后，即可以上载矢量资源。以 multipart/form post 形式上载资源，而值的其余部分以 URL 查询字符串形式发送，如以下示例中所示：
 
@@ -258,7 +258,7 @@ https://s7ugc1.scene7.com/ugc/image?op=upload&upload_token=aa2a378a-cd25-4c80-99
 
 `upload_token`和`company_name`字段为必填字段。
 
-请参阅[检索上载令牌](uploading-image-asset-or-vector.md#retrieving_the_upload_token)。
+请参阅[检索上传令牌](uploading-image-asset-or-vector.md#retrieving_the_upload_token)。
 
 请参阅[检索共享密钥](uploading-image-asset-or-vector.md#requesting_a_shared_secret_key)。
 
@@ -273,7 +273,7 @@ https://s7ugc1.scene7.com/ugc/vector?op=upload&upload_token=aa2a378a-cd25-4c80-9
 对于允许的文件大小限制和文件扩展名，在应用程序中设置全局限制。如果请求中所发送的内容是全局限制的子集，则允许这一发送。全局限制如下所示：
 
 | 全局限制 | 值 |
-|--- |--- |
+| --- | --- |
 | 所有客户端的文件大小 | 20 MB |
 | 支持的可上载矢量文件格式 | AI、EPS、PDF（仅当 PDF 之前已在 Adobe Illustrator CS6 打开并保存时） |
 
@@ -285,7 +285,7 @@ https://s7ugc1.scene7.com/ugc/vector?op=upload&upload_token=aa2a378a-cd25-4c80-9
 * 文件扩展名的列表.
 * 是否保留与资产关联的颜色配置文件和文件名。
 * 是否使用“挖空背景”。 如果启用“挖空背景”，请设置“拐角”、“公差”和“填充方法”。
-请参阅上传时的[图像编辑选项中的“挖空背景”](image-editing-options-upload.md#image-editing-options-at-upload)。
+请参阅上载](image-editing-options-upload.md#image-editing-options-at-upload)时的[图像微调选项中的“挖空背景”。
 * 待上载文件的名称.
 
 <!-- 
@@ -298,7 +298,7 @@ Last Modified Date:
 
  -->
 
-当您在浏览器窗口中右键单击，然后单击示例中显示的表单的&#x200B;**[!UICONTROL 查看源]**&#x200B;时，将显示以下HTML代码。 该代码将显示当用户单击“**[!UICONTROL 提交]**”时运行的相应 URL 查询字符串和 POST 方法。
+在浏览器窗口中右键单击，然后为示例中显示的表单选择&#x200B;**[!UICONTROL 查看源]**&#x200B;时，将显示以下HTML代码。 该代码显示相应的URL查询字符串以及用户选择&#x200B;**[!UICONTROL Submit]**&#x200B;时运行的POST方法。
 
 ```as3
 <body> 
@@ -324,7 +324,7 @@ return true;
 </tr> 
 <tr><td colspan="2"></td></tr> 
 <tr> 
-<td><strong>Click Submit to upload your Vector: </strong></td> 
+<td><strong>Select Submit to upload your Vector: </strong></td> 
 <td><input type="submit" value="Submit"></td> 
 </tr> 
 </table> 
@@ -332,7 +332,7 @@ return true;
 </body>
 ```
 
-要在 Internet Explorer 中查看 XML 响应，请单击“**[!UICONTROL 查看]**”>“**[!UICONTROL 源文件]**”。要在Firefox中查看XML响应，请单击&#x200B;**[!UICONTROL 工具]** > **[!UICONTROL 浏览器工具]** > **[!UICONTROL 页面源]**。 建议使用 Firefox 查看 XML 响应。
+要在Internet Explorer中查看XML响应，请转到&#x200B;**[!UICONTROL View]** > **[!UICONTROL Source]**。 要在Firefox中查看XML响应，请转到&#x200B;**[!UICONTROL 工具]** > **[!UICONTROL 浏览器工具]** > **[!UICONTROL 页面源]**。 建议使用 Firefox 查看 XML 响应。
 
 下面是成功上载的示例响应：
 
@@ -371,7 +371,7 @@ https://s7w2p1.scene7.com/is/agm/W2PTest/ugc/8875744.fxg?fmt=png&wid=500&hei=500
 以 multipart/form post 形式发送要上载的资源，而值的其余部分以 URL 查询字符串形式发送。您可以在 URL 查询字符串中使用以下字段来上载资源：
 
 | URL 参数 | 必需或可选 | 值 |
-|--- |--- |--- |
+| --- | --- | --- |
 | `op` | 必需 | 上载 |
 | `upload_token` | 必需 | 与公司关联的共享密钥的上载令牌。 |
 | `company_name` | 必需 | 执行上载的公司的名称。 |

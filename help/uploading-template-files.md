@@ -1,6 +1,6 @@
 ---
 title: 上载模板文件
-description: 了解如何上传模板文件。
+description: 了解如何在AdobeDynamic Media Classic中上传模板文件。
 uuid: e19979b5-3f41-49c5-99aa-107ede3be98c
 contentOwner: admin
 content-type: reference
@@ -10,10 +10,10 @@ discoiquuid: 75658717-5c39-473e-9d32-718d00706310
 feature: Dynamic Media Classic
 role: User
 exl-id: a105c18a-7e06-43cb-938c-a3bcdc3e9d22
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: 8bc49ae3704f0551c70d68a0ddd63725bdcc645c
 workflow-type: tm+mt
-source-wordcount: '237'
-ht-degree: 48%
+source-wordcount: '242'
+ht-degree: 38%
 
 ---
 
@@ -27,9 +27,9 @@ ht-degree: 48%
 
 可以使用 Adobe Photoshop PSD 文件或图像文件创建模板。
 
-有关上载文件的详细说明，请参阅[上载文件](uploading-files.md#uploading_files)。上载模板文件时请注意以下事项：
+有关上载文件的详细说明，请参阅[上载文件](uploading-files.md#uploading_files)。 上载模板文件时请注意以下事项：
 
-* 如果要上传PSD文件，则可以从中创建模板。 AdobeDynamic Media Classic为PSD中的每个图层创建一个单独的图像。 在“上传作业选项”对话框中，单击&#x200B;**[!UICONTROL Photoshop选项]**，然后选择&#x200B;**[!UICONTROL 维护层]**&#x200B;和&#x200B;**[!UICONTROL 创建模板]**。 然后，从&#x200B;**[!UICONTROL 图层命名]**下拉列表中选择一个选项，以命名AdobeDynamic Media Classic从PSD中的图层创建的图像。
+* 如果要上传PSD文件，则可以从中创建模板。 AdobeDynamic Media Classic为PSD中的每个图层创建一个单独的图像。 在“上传作业选项”对话框中，选择&#x200B;**[!UICONTROL Photoshop选项]**，然后选择&#x200B;**[!UICONTROL 维护层]**&#x200B;和&#x200B;**[!UICONTROL 创建模板]**。 然后，从&#x200B;**[!UICONTROL 图层命名]**下拉列表中选择一个选项，以命名AdobeDynamic Media Classic从PSD中的图层创建的图像。
 请参阅[PSD 上载选项](psd-files.md#psd_upload_options)。
 
 <!-- THERE IS NO LONGER AN IMAGE EDITING OPTIONS MENU * If you are uploading images, you can create a mask from its clipping path. This option applies to images created with image-editing applications in which a clipping path was created. In the Upload Job Options dialog box, select Image Editing Options and select the Create Mask From Clipping Path option. 
@@ -37,6 +37,6 @@ See [Image editing options at upload](image-editing-options-upload.md#image-edit
 
 >[!MORELIKETHIS]
 >
->* [上载文件](uploading-files.md#uploading_your_files)
->* [使用 PSD 文件](psd-files.md#working_with_psd_files)
+>* [上传文件](uploading-files.md#uploading_your_files)
+>* [使用PSD文件](psd-files.md#working_with_psd_files)
 

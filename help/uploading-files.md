@@ -9,7 +9,7 @@ discoiquuid: b2bc3bf9-e313-481a-8670-c3bedde21b1a
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 8dfcfb3f-6472-4efd-bc87-d5111eee45ce
-source-git-commit: 44045daa35052f01a26c67e0b2a0fb1405c53292
+source-git-commit: 8bc49ae3704f0551c70d68a0ddd63725bdcc645c
 workflow-type: tm+mt
 source-wordcount: '3866'
 ht-degree: 34%
@@ -128,7 +128,7 @@ AdobeDynamic Media Classic不提供用于生成静态内容的预览URL的选项
 通常，资产文件名可以与其项目号、产品SKU或其他名称相同，如下所示：
 
 | 商品 | 文件名 | 资源 ID |
-|--- |--- |--- |
+| --- | --- | --- |
 | 896649 | 896649.jpg | 896649 |
 | 48A3_2X | 48A3_2X.tif | 48A3_2X |
 
@@ -230,14 +230,14 @@ AdobeDynamic Media Classic桌面应用程序允许您通过拖动上传文件和
    * **[!UICONTROL 处理元数据文件]**  — 仅当您选择“通过FTP”选项卡时 **[!UICONTROL 才]** 可用。如果要上载制表符分隔的文件或 XML 文件以将元数据添加到多个资源中，可以选择该选项。请参阅[导入元数据（通过 FTP）](viewing-adding-exporting-metadata.md#import-metadata)。
 
 
-* **裁剪OPTIONS**  — 要自动从图像裁剪空格像素，请打开 **** 裁剪菜单，选择 **[!UICONTROL 手动]**，然后在“顶部”、“右”、“底部”和“左”文本字段中输入像素测量，以从侧边裁剪。您还可以在“裁剪”菜单中选择&#x200B;**[!UICONTROL Trim]**&#x200B;并选择以下选项：
+* **裁剪选项**  — 要自动裁剪图像中的空格像素，请打开“裁剪”菜 **** 单，选择“ **[!UICONTROL 手动]**”，然后在“顶部”、“右”、“底部”和“左”文本字段中输入要从侧边裁剪的像素测量值。您还可以在“裁剪”菜单中选择&#x200B;**[!UICONTROL Trim]**&#x200B;并选择以下选项：
 
    * **[!UICONTROL 根据]** 裁切掉 — 选择是根据颜色还是透明度进行裁剪：
       * **[!UICONTROL 颜色]**  — 选择“颜色”选项。然后选择“角”菜单，并选择所具有的颜色能最好地表示您想要裁切的空白颜色的图像角。基于颜色修剪：指定 0 则仅当像素与您在图像的角中选择的颜色完全匹配时才会裁切像素。数字越接近 1，允许的色差越大。
       * **[!UICONTROL 透明度]**  — 选择“透明 **** 度”选项。基于透明度进行裁切：指定0，以仅在像素透明时裁剪像素；接近1的数字使透明度更高。
       * **[!UICONTROL 容差]**  — 拖动滑块以指定从0到1的容差。
 
-* **颜色配置文件OPTIONS**  — 在创建用于AdobeDynamic Media Classic动态交付的优化文件时，选择颜色转换：
+* **颜色配置文件选项**  — 在创建用于AdobeDynamic Media Classic动态交付的优化文件时，选择颜色转换：
 
    * **[!UICONTROL 默认颜色保留]**  — 当图像包含色彩空间信息时，保留源图像的颜色；没有颜色转换。几乎目前的所有图像都嵌入了相应的颜色配置文件。不过，如果 CMYK 源图像不包含嵌入的颜色配置文件，则会将颜色转换为 sRGB（标准红绿蓝）色彩空间。在网页上显示图像时，推荐使用 sRGB 颜色空间。
    * **[!UICONTROL 保留原始色彩空间]**  — 在摄取到Dynamic Media Classic时，不进行任何颜色转换，即可保留原始Adobe。对于没有嵌入颜色配置文件的图像，使用“发布”设置中配置的默认颜色配置文件完成处理图像请求所需的任何颜色转换。 这些颜色配置文件并不总是与使用此选项创建的文件中的颜色保持一致。 因此，建议您使用“默认护色”选项。
@@ -253,7 +253,7 @@ AdobeDynamic Media Classic桌面应用程序允许您通过拖动上传文件和
 
 * **Illustrator选项**  — 您可以栅格化Adobe Illustrator®文件、维护透明背景、选择分辨率和选择色彩空间。请参阅[使用PostScript和Illustrator文件](postscript-illustrator-files.md#working_with_postscript_and_illustrator_files)。
 
-* **EVIDEO选项**  — 您可以通过选择视频预设对视频文件进行转码。请参阅[使用视频编码预设](uploading-encoding-videos.md#working_with_video_encoding_presets)。
+* **EVIDEO选项**  — 您可以通过选择“视频预设”来对视频文件进行转码。请参阅[使用视频编码预设](uploading-encoding-videos.md#working_with_video_encoding_presets)。
 
 * **其他元数据**  — 输入描述要上传文件的关键字。用逗号分隔关键字。关键字简化了资源搜索。请参阅[执行高级搜索](searching-assets.md#conducting_an_advanced_search)。
 

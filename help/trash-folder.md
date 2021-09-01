@@ -10,10 +10,10 @@ discoiquuid: 553c95fc-0a41-4f06-af50-a62bc1438149
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: cffeec19-43fd-4a97-bdcc-df81af108ddd
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: 8bc49ae3704f0551c70d68a0ddd63725bdcc645c
 workflow-type: tm+mt
-source-wordcount: '547'
-ht-degree: 39%
+source-wordcount: '551'
+ht-degree: 33%
 
 ---
 
@@ -37,25 +37,25 @@ ht-degree: 39%
 * 无法发布该项目。即使在删除项目时将其标记为发布，也不会将其发布。
 * 该项目会一直保留在垃圾桶文件夹中，直到它被还原、经过七天，或者有人选择&#x200B;**[!UICONTROL 清空垃圾桶]**&#x200B;命令。 在七天之后，系统会自动执行清除操作永久删除该项目。
 
-## 从垃圾桶文件夹恢复资源 {#restoring-assets-from-the-trash-folder}
+## 从垃圾桶文件夹恢复资产 {#restoring-assets-from-the-trash-folder}
 
-被删除资源不必由删除它的人来恢复；任何人都可以恢复垃圾桶文件夹中的资源。恢复的资源会放到被删除时所在的文件夹。如果这些文件夹不再存在，AdobeDynamic Media Classic会重新创建它们，并且还原的资产会放置在重新创建的文件夹中。
+删除资产的人无需进行恢复；任何人都可以从垃圾桶文件夹还原资产。 恢复的资源会放到被删除时所在的文件夹。如果这些文件夹不再存在，AdobeDynamic Media Classic会重新创建它们，并且还原的资产会放置在重新创建的文件夹中。
 
 要将资产从垃圾桶文件夹还原到从中删除这些资产的文件夹，请执行以下操作：
 
-1. 在“资产库”面板的底部，单击&#x200B;**[!UICONTROL 垃圾桶]**&#x200B;图标以打开垃圾桶文件夹。
+1. 在“资产库”面板的底部，选择&#x200B;**[!UICONTROL 垃圾桶]**&#x200B;图标以打开垃圾桶文件夹。
 1. 选择要恢复的一个或多个资源。
-1. 单击&#x200B;**[!UICONTROL 文件]** > **[!UICONTROL 从垃圾桶还原]**。
+1. 转到&#x200B;**[!UICONTROL 文件]** > **[!UICONTROL 从垃圾桶还原]**。
 
 ## 永久删除垃圾桶文件夹中的资源 {#permanently-deleting-assets-in-the-trash-folder}
 
 删除垃圾桶文件夹中的资源时，会永久删除这些资源。资源在七天之后从垃圾桶文件夹被自动删除。
 
-要从垃圾桶文件夹永久删除资产，请单击&#x200B;**[!UICONTROL 垃圾桶]**&#x200B;图标。 在“垃圾桶文件夹”页面上，执行以下任一操作：
+要从垃圾桶文件夹永久删除资产，请选择&#x200B;**[!UICONTROL 垃圾桶]**&#x200B;图标。 在“垃圾桶文件夹”页面上，执行以下任一操作：
 
-* **删除单个资产**  — 选择要永久删除的资产，然后单击 **[!UICONTROL 文件]**  >  **[!UICONTROL 从垃圾桶中清空]**。
+* **删除单个资产**  — 选择要永久删除的资产，然后转到 **[!UICONTROL 文件]**  >  **[!UICONTROL 从垃圾桶中清空]**。
 
-* **删除所有资产**  — 单击 **[!UICONTROL 文件]**  >  **[!UICONTROL 空垃圾桶]**。
+* **删除所有资产**  — 转到 **[!UICONTROL 文件]**  >  **[!UICONTROL 空垃圾桶]**。
 
 >[!MORELIKETHIS]
 >
