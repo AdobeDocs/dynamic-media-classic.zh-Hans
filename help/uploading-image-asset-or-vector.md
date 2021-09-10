@@ -7,16 +7,20 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 feature: Dynamic Media Classic
 role: User
 exl-id: 2ef78fe6-1e7c-4f48-86da-137ddaa55bbf
-source-git-commit: 8bc49ae3704f0551c70d68a0ddd63725bdcc645c
+source-git-commit: 30f1aa8c30c0a1f7cf0f4298530e1e80597d7c3e
 workflow-type: tm+mt
-source-wordcount: '1504'
-ht-degree: 70%
+source-wordcount: '1540'
+ht-degree: 69%
 
 ---
 
 # 上传图像资产或矢量资产{#uploading-an-image-asset-or-a-vector-asset}
 
 在上载图像资源之前，必须先请求一个共享密钥。可以使用该共享密钥检索上载令牌。然后，可以使用上载令牌上载图像资源或矢量资源。
+
+>[!IMPORTANT]
+>
+>对AdobeDynamic Media Classic中新的或现有的UGC矢量图像资产的支持将于2021年9月30日终止。
 
 ## 请求共享密钥 {#requesting-a-shared-secret-key}
 
@@ -249,6 +253,10 @@ https://s7ugc1.scene7.com/ugc/image?op=image_info&shared_secret=fece4b21-87ee-47
 GET 和 POST
 
 ## 上传矢量资产 {#uploading-a-vector-asset}
+
+>[!IMPORTANT]
+>
+>对AdobeDynamic Media Classic中新的或现有的UGC矢量图像资产的支持将于2021年9月30日终止。
 
 检索到在特定时间内有效的上载令牌后，即可以上载矢量资源。以 multipart/form post 形式上载资源，而值的其余部分以 URL 查询字符串形式发送，如以下示例中所示：
 

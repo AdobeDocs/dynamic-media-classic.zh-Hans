@@ -10,10 +10,10 @@ discoiquuid: 52fadf99-7d11-46f7-8483-a9f87ffc2f67
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: fd78d535-391e-43eb-a8aa-25fa6c2885cb
-source-git-commit: e8e2eeba81f93cd72bdf5e09d5441de9bd3bc776
+source-git-commit: 30f1aa8c30c0a1f7cf0f4298530e1e80597d7c3e
 workflow-type: tm+mt
-source-wordcount: '1049'
-ht-degree: 32%
+source-wordcount: '1067'
+ht-degree: 31%
 
 ---
 
@@ -77,6 +77,10 @@ Last Modified Date:
 * UGC（用户生成的内容）服务
 * Web-to-print
 * AdobeDynamic Media Classic信息或eCatalog搜索
+
+>[!IMPORTANT]
+>
+>对AdobeDynamic Media Classic中新的或现有的UGC矢量图像资产的支持将于2021年9月30日终止。
 
 ## 测试安全测试服务 {#testing-the-secure-testing-service}
 
