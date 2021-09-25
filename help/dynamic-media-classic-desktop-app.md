@@ -8,9 +8,9 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_c
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 604b4630-4704-4254-84b5-91b33bb19d58
-source-git-commit: 474fc6022557a1eee782a22cb40d39f2ad9aa01d
+source-git-commit: e3c2dcaa245e486ada62edd554db5a39d495483e
 workflow-type: tm+mt
-source-wordcount: '1834'
+source-wordcount: '1870'
 ht-degree: 1%
 
 ---
@@ -106,11 +106,11 @@ AdobeDynamic Media Classic桌面应用程序与以下操作系统兼容：
 
    要使用&#x200B;**[!UICONTROL Server]**，请参阅生产环境的以下映射：
 
-   | 桌面应用程序服务器名称 | 浏览器URL |
+   | 浏览器URL | 桌面应用程序服务器名称 |
    | --- | --- |
-   | NA（北美）生产 | `https://s7sps1.scene7.com/` |
-   | EMEA（欧洲、中东和非洲）生产 | `https://s7sps3.scene7.com/` |
-   | APAC（亚太地区）生产 | `https://s7sps5.scene7.com/` |
+   | https://s7sps1.scene7.com/ | NA（北美）生产 |
+   | https://s7sps3.scene7.com/ | EMEA（欧洲、中东和非洲）生产 |
+   | https://s7sps5.scene7.com/ | APAC（亚太地区）生产 |
 
 1. 登录后，请注意熟悉的浏览器用户界面体验。 您可以像往常一样，在桌面应用程序上继续日常AdobeDynamic Media Classic活动。
 
@@ -123,7 +123,7 @@ AdobeDynamic Media Classic桌面应用程序与以下操作系统兼容：
 
 要在macOS上下载并&#x200B;*silent*&#x200B;安装最新版的AdobeDynamic Media Classic桌面应用程序，请执行以下操作：
 
-1. 在您的系统上卸载任何旧版AdobeDynamic Media Classic桌面应用程序版本，方法是将AdobeDynamic Media Classic.app移至垃圾桶。
+1. 在您的系统上卸载任何旧版AdobeDynamic Media Classic桌面应用程序版本。
 
 1. 下载适用于macOS的AdobeDynamic Media Classic桌面应用程序的最新安装程序。
 
@@ -148,11 +148,11 @@ AdobeDynamic Media Classic桌面应用程序与以下操作系统兼容：
 
    要使用&#x200B;**[!UICONTROL Server]**，请参阅生产环境的以下映射：
 
-   | 桌面应用程序服务器名称 | 浏览器URL |
+   | 浏览器URL | 桌面应用程序服务器名称 |
    | --- | --- |
-   | NA（北美）生产 | `https://s7sps1.scene7.com/` |
-   | EMEA（欧洲、中东和非洲）生产 | `https://s7sps3.scene7.com/` |
-   | APAC（亚太地区）生产 | `https://s7sps5.scene7.com/` |
+   | https://s7sps1.scene7.com/ | NA（北美）生产 |
+   | https://s7sps3.scene7.com/ | EMEA（欧洲、中东和非洲）生产 |
+   | https://s7sps5.scene7.com/ | APAC（亚太地区）生产 |
 
 ## 在Windows®上下载并&#x200B;*silent*&#x200B;安装最新的AdobeDynamic Media Classic桌面应用程序 {#install-silent-windows-dmc-app}
 
@@ -193,11 +193,12 @@ AdobeDynamic Media Classic桌面应用程序与以下操作系统兼容：
 
    要使用&#x200B;**[!UICONTROL Server]**，请参阅生产环境的以下映射：
 
-   | 桌面应用程序服务器名称 | 浏览器URL |
+   | 浏览器URL | 桌面应用程序服务器名称 |
    | --- | --- |
-   | NA（北美）生产 | `https://s7sps1.scene7.com/` |
-   | EMEA（欧洲、中东和非洲）生产 | `https://s7sps3.scene7.com/` |
-   | APAC（亚太地区）生产 | `https://s7sps5.scene7.com/` |
+   | https://s7sps1.scene7.com/ | NA（北美）生产 |
+   | https://s7sps3.scene7.com/ | EMEA（欧洲、中东和非洲）生产 |
+   | https://s7sps5.scene7.com/ | APAC（亚太地区）生产 |
+
 
 ## 使用AdobeDynamic Media Classic桌面应用程序的视频演示 {#dmc-app-video-walk-through}
 
