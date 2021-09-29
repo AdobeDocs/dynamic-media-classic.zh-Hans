@@ -10,9 +10,9 @@ discoiquuid: 4eddf983-38cb-4f00-b3be-85c20bdd6f69
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: deafbd03-06bc-4d7e-87a1-5620ebcac426
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: 0e2271924f49edd6ac424bb7cbd56af1e6afd817
 workflow-type: tm+mt
-source-wordcount: '2422'
+source-wordcount: '2425'
 ht-degree: 48%
 
 ---
@@ -42,7 +42,7 @@ ht-degree: 48%
    * 如果要在网格视图或列表视图中处理旋转集，请选择&#x200B;**[!UICONTROL 编辑]**。 或者，在“详细信息视图”中打开它，然后选择&#x200B;**[!UICONTROL 编辑]**。 选择图像资产，然后选择&#x200B;**[!UICONTROL 图像映射]**。
    * 如果您正在使用eCatalog，请在“网格视图”、“列表视图”、“详细信息视图”中，选择&#x200B;**[!UICONTROL 编辑]**。 选择&#x200B;**[!UICONTROL 映射页面]**&#x200B;选项卡。
 
-   ![](assets/ma_image_map.png)
+   ![图像映射图像](assets/ma_image_map.png)
 
 1. 绘制矩形或多边形（多条边）图像映射：
 

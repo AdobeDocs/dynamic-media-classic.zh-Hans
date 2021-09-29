@@ -1,6 +1,6 @@
 ---
 title: 应用程序设置
-description: 了解如何设置Dynamic Media Classic的“应用程序”Adobe区域。
+description: 了解如何设置和配置AdobeDynamic Media Classic的“应用程序”区域。 利用“应用程序”区域，可输入常规设置、创建图像、查看器和视频编码预设、定义默认查看器和元数据、发布设置和视频SEO设置。 您还可以使用区域设置批集预设，以自动生成2D旋转集。
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -8,10 +8,10 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/setup
 feature: Dynamic Media Classic
 role: Admin
 exl-id: 3f96606e-ef5c-4c01-aa0f-3148f14e28be
-source-git-commit: 44045daa35052f01a26c67e0b2a0fb1405c53292
+source-git-commit: 0e2271924f49edd6ac424bb7cbd56af1e6afd817
 workflow-type: tm+mt
-source-wordcount: '10951'
-ht-degree: 44%
+source-wordcount: '11003'
+ht-degree: 43%
 
 ---
 
@@ -957,7 +957,7 @@ spin-03-12
 
 根据此信息，可以按如下方式创建批集类型方法：
 
-![](assets/se_batch_set_recipe.png)
+![批次集方法图像](assets/se_batch_set_recipe.png)
 
 旋转集的共享资产名称部分的分组将添加到“匹配”字段（高亮显示）。 资产名称中包含行和列的变量部分将分别添加到 行 和 列字段 。
 

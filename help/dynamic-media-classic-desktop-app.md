@@ -8,9 +8,9 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_c
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 604b4630-4704-4254-84b5-91b33bb19d58
-source-git-commit: e3c2dcaa245e486ada62edd554db5a39d495483e
+source-git-commit: 4e42d90747af895d27c64fa3fb5830f73e3a0a95
 workflow-type: tm+mt
-source-wordcount: '1870'
+source-wordcount: '1937'
 ht-degree: 1%
 
 ---
@@ -38,22 +38,34 @@ AdobeDynamic Media Classic桌面应用程序与以下操作系统兼容：
 >
 >对于&#x200B;*次要*&#x200B;版本，未在AdobeDynamic Media Classic桌面应用程序中生成升级通知。 从次要版本中的修复中受益的客户可以进行升级。
 
-## 次要版本(20.21.2)中的修复 {#minor-release}
+## 最新版本中的修复(20.21.3) {#release-sept2021}
 
-* 已知的“服务器”下拉列表20.21.1中的限制为空。
+* 桌面应用程序上一段时间不活动后看到的资产缩略图损坏。
+* 桌面应用程序通常在设置操作后停止响应。
+* 在&#x200B;**[!UICONTROL 测试图像服务]**&#x200B;下自动启用请求模糊处理和锁定模式。
+
+   请参阅[测试安全测试服务](/help/testing-assets-making-them-public.md#testing-the-secure-testing-service)。
+
+* 更新了Adobe Analytics的身份验证机制。 与新集成相关，或者是否必须从Dynamic Media Classic桌面应用程序中更新某些Analytics变量。
+
+   有关更新的步骤，请参阅[登录Adobe Analytics](/help/log-analytics.md) 。
+
+## 版本20.21.2中的修复 {#minor-release}
+
+* 20.21.1中的已知限制：登录屏幕上的&#x200B;**[!UICONTROL Server]**&#x200B;下拉列表为空。
 * 在&#x200B;**[!UICONTROL 上传作业选项]**&#x200B;中，位于&#x200B;**[!UICONTROL Photoshop选项]**&#x200B;下的层命名默认值现在为&#x200B;**[!UICONTROL Photoshop和层名称]**。 PSD 文件中的图层以单独图像形式上载。
    * 早期默认的&#x200B;**[!UICONTROL 图层名称]**，在PSD文件中将图像命名为其图层名称或图层编号。 如果PSD文件中的层名称是缺省的Photoshop层名称，则使用层编号。
    * 新的默认值&#x200B;**[!UICONTROL Photoshop和图层名称]**&#x200B;将图像命名为PSD文件之后的图像，然后是图层名称或图层编号。 如果 PSD 文件中的图层名称是默认的 Photoshop 图层名称，则将使用图层编号。
    * 鉴于AdobeDynamic Media Classic中的图层图像现在具有唯一的名称，因此不会对现有PSD或模板（原始PSD文件中共享的图层名称）进行任何更新。
 * 资产的缩略图损坏。
 
-## 最新版本的修复(20.21.1) {#latest-fixes-desktop-app}
+## 版本20.21.1中的修复 {#latest-fixes-desktop-app}
 
 * 由于超时导致出现登录问题，导致出现以下消息：*未经权限，可将此用户分配给组或组。 请与管理员联系。*
 * 查看器预设重复，每次密码尝试都不正确。
 * 由于根文件夹中的许多资产，桌面应用程序变得无响应。 (已在Windows®上修复；在macOS中按需要工作。)
 
-## 以前版本(20.20.2)中的修复 {#previous-version-fixes-desktop-app}
+## 版本20.20.2中的修复 {#previous-version-fixes-desktop-app}
 
 * 对于可通过适用于macOS和Windows®的桌面应用程序用户界面上传的文件数量没有限制。
 * 无需注销桌面应用程序即可在公司之间进行切换。
@@ -71,14 +83,14 @@ AdobeDynamic Media Classic桌面应用程序与以下操作系统兼容：
 
 1. 下载AdobeDynamic Media Classic桌面应用程序的最新安装程序。
 
-   * 以下版本提供了最新版本(20.21.2):
+   * 以下版本提供了最新版本(20.21.3):
+
+      * [macOS(.DMG) — 下载](https://download.macromedia.com/dynamic-media-classic/20.21.3/adobe-dynamic-media-classic-20.21.3.dmg)
+      * [Windows®(.EXE) — 下载](https://download.macromedia.com/dynamic-media-classic/20.21.3/adobe-dynamic-media-classic-20.21.3.exe)
+   * 以前的版本(20.21.2)可在以下位置使用：
 
       * [macOS(.DMG) — 下载](https://download.macromedia.com/dynamic-media-classic/20.21.2/adobe-dynamic-media-classic-20.21.2.dmg)
       * [Windows®(.EXE) — 下载](https://download.macromedia.com/dynamic-media-classic/20.21.2/adobe-dynamic-media-classic-20.21.2.exe)
-   * 以前的版本(20.21.1)可在以下位置使用：
-
-      * [macOS(.DMG) — 下载](https://download.macromedia.com/dynamic-media-classic/20.21.1/adobe-dynamic-media-classic-20.21.1.dmg)
-      * [Windows®(.EXE) — 下载](https://download.macromedia.com/dynamic-media-classic/20.21.1/adobe-dynamic-media-classic-20.21.1.exe)
 
 
 <!--         * [macOS (.DMG) - Download.](https://download.macromedia.com/dynamic-media-classic/20.20.2/adobe-dynamic-media-classic-20.20.2.dmg)
@@ -106,11 +118,11 @@ AdobeDynamic Media Classic桌面应用程序与以下操作系统兼容：
 
    要使用&#x200B;**[!UICONTROL Server]**，请参阅生产环境的以下映射：
 
-   | 浏览器URL | 桌面应用程序服务器名称 |
+   | 服务器 | 浏览器URL |
    | --- | --- |
-   | https://s7sps1.scene7.com/ | NA（北美）生产 |
-   | https://s7sps3.scene7.com/ | EMEA（欧洲、中东和非洲）生产 |
-   | https://s7sps5.scene7.com/ | APAC（亚太地区）生产 |
+   | NA Production（北美） | https://s7sps1.scene7.com/ |
+   | EMEA生产（欧洲、中东和非洲） | https://s7sps3.scene7.com/ |
+   | APAC生产（亚太地区） | https://s7sps5.scene7.com/ |
 
 1. 登录后，请注意熟悉的浏览器用户界面体验。 您可以像往常一样，在桌面应用程序上继续日常AdobeDynamic Media Classic活动。
 
@@ -127,11 +139,11 @@ AdobeDynamic Media Classic桌面应用程序与以下操作系统兼容：
 
 1. 下载适用于macOS的AdobeDynamic Media Classic桌面应用程序的最新安装程序。
 
-   * [macOS(.DMG) — 下载](https://download.macromedia.com/dynamic-media-classic/20.21.2/adobe-dynamic-media-classic-20.21.2.dmg)
+   * [macOS(.DMG) — 下载](https://download.macromedia.com/dynamic-media-classic/20.21.3/adobe-dynamic-media-classic-20.21.3.dmg)
 
 1. 使用以下命令将下载的磁盘映像(.DMG)装载到安装点位置：
 
-   `hdiutil attach adobe-dynamic-media-classic-20.21.2.dmg -mountpoint <mount_point_path>`
+   `hdiutil attach adobe-dynamic-media-classic-20.21.3.dmg -mountpoint <mount_point_path>`
 
 1. 使用以下命令将.APP文件复制到&#x200B;**[!UICONTROL Applications]**:
 
@@ -148,11 +160,11 @@ AdobeDynamic Media Classic桌面应用程序与以下操作系统兼容：
 
    要使用&#x200B;**[!UICONTROL Server]**，请参阅生产环境的以下映射：
 
-   | 浏览器URL | 桌面应用程序服务器名称 |
+   | 服务器 | 浏览器URL |
    | --- | --- |
-   | https://s7sps1.scene7.com/ | NA（北美）生产 |
-   | https://s7sps3.scene7.com/ | EMEA（欧洲、中东和非洲）生产 |
-   | https://s7sps5.scene7.com/ | APAC（亚太地区）生产 |
+   | NA Production（北美） | https://s7sps1.scene7.com/ |
+   | EMEA生产（欧洲、中东和非洲） | https://s7sps3.scene7.com/ |
+   | APAC生产（亚太地区） | https://s7sps5.scene7.com/ |
 
 ## 在Windows®上下载并&#x200B;*silent*&#x200B;安装最新的AdobeDynamic Media Classic桌面应用程序 {#install-silent-windows-dmc-app}
 
@@ -169,19 +181,19 @@ AdobeDynamic Media Classic桌面应用程序与以下操作系统兼容：
 
 1. 下载AdobeDynamic Media Classic桌面应用程序的最新安装程序。
 
-   * [Windows®(.EXE) — 下载](https://download.macromedia.com/dynamic-media-classic/20.21.2/adobe-dynamic-media-classic-20.21.2.exe)
+   * [Windows®(.EXE) — 下载](https://download.macromedia.com/dynamic-media-classic/20.21.3/adobe-dynamic-media-classic-20.21.3.exe)
 
 1. 使用以下命令在记录模式下运行安装程序：
 
-   `adobe-dynamic-media-classic-20.21.2.exe /r /f1"C:\Setup.iss"`
+   `adobe-dynamic-media-classic-20.21.3.exe /r /f1"C:\Setup.iss"`
 
 1. 在GUI安装程序窗口中，按照要安装的步骤进行安装，以便交互/输入（如安装位置）记录在`Setup.iss`文件中。
 
-1. 将创建的`Setup.iss`文件和`adobe-dynamic-media-classic-20.21.2.exe`复制到其他计算机。
+1. 将创建的`Setup.iss`文件和`adobe-dynamic-media-classic-20.21.3.exe`复制到其他计算机。
 
 1. 为静默安装运行以下命令：
 
-   `adobe-dynamic-media-classic-20.21.2.exe /s /f1"C:\Setup.iss"`
+   `adobe-dynamic-media-classic-20.21.3.exe /s /f1"C:\Setup.iss"`
 
    有关命令行参数的详细信息，请参见[Setup.exe和Update.exe命令行参数。](https://docs.revenera.com/installshield19helplib/helplibrary/IHelpSetup_EXECmdLine.htm)
 
@@ -193,12 +205,11 @@ AdobeDynamic Media Classic桌面应用程序与以下操作系统兼容：
 
    要使用&#x200B;**[!UICONTROL Server]**，请参阅生产环境的以下映射：
 
-   | 浏览器URL | 桌面应用程序服务器名称 |
+   | 服务器 | 浏览器URL |
    | --- | --- |
-   | https://s7sps1.scene7.com/ | NA（北美）生产 |
-   | https://s7sps3.scene7.com/ | EMEA（欧洲、中东和非洲）生产 |
-   | https://s7sps5.scene7.com/ | APAC（亚太地区）生产 |
-
+   | NA Production（北美） | https://s7sps1.scene7.com/ |
+   | EMEA生产（欧洲、中东和非洲） | https://s7sps3.scene7.com/ |
+   | APAC生产（亚太地区） | https://s7sps5.scene7.com/ |
 
 ## 使用AdobeDynamic Media Classic桌面应用程序的视频演示 {#dmc-app-video-walk-through}
 
