@@ -10,7 +10,7 @@ discoiquuid: 59b6437d-c21e-4929-9291-3032dbb34565
 feature: Dynamic Media Classic
 role: Data Engineer,Admin,User
 exl-id: 05f2cce0-72bf-4933-87ab-c9003c848e35
-source-git-commit: 352b1c383195fa03294ad3501207d63f3cfe3e42
+source-git-commit: 53551f938946bb78074127c05f984ae97e9ccca1
 workflow-type: tm+mt
 source-wordcount: '1293'
 ht-degree: 35%
@@ -76,7 +76,7 @@ Adobe Dynamic Media Classic提供了用于编辑和创建选件集的工具。
 1. 完成后，在页面右下角附近，确保选中&#x200B;**[!UICONTROL 保存后发布*]**（默认）。
 1. 选择&#x200B;**[!UICONTROL 关闭]**，输入选件集的名称，然后选择&#x200B;**[!UICONTROL 保存]**。
 
-在关闭Test&amp;Target选件集页面之前，请先将该选件集推送到Adobe Target Standard/Premium。 请参阅[将优惠套餐推送到 Test&amp;Target](pushing-offer-sets-target.md#pushing_offer_sets_to_target)。
+在关闭Test&amp;Target选件集页面之前，请先将该选件集推送到Adobe Target Standard/Premium。 请参阅[将选件集推送到Test&amp;Target](pushing-offer-sets-target.md#pushing_offer_sets_to_target)。
 
 ## 创建包含图像或视频的选件集 {#creating-an-offer-set-with-images-or-videos}
 
