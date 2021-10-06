@@ -1,20 +1,20 @@
 ---
 title: Adobe Dynamic Media Classic帮助
-description: 欢迎AdobeAdobe Dynamic Media Classic，它是领先的按需跨媒体发布系统，用于上传、管理、增强动态富内容并将其发布到所有设备和屏幕。
+description: 欢迎访问Adobe Dynamic Media Classic，它是领先的按需跨媒体发布系统，用于将动态富内容上传、管理、增强和发布到所有设备和屏幕。
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 7bf94d8c-23ff-4a43-83cc-7e6879a7cded
-source-git-commit: 352b1c383195fa03294ad3501207d63f3cfe3e42
+source-git-commit: 2616c067215196e8145043ba57fba1e3a5667cdc
 workflow-type: tm+mt
-source-wordcount: '445'
+source-wordcount: '443'
 ht-degree: 13%
 
 ---
 
 # Adobe Dynamic Media Classic帮助 {#scene7-overview}
 
-欢迎AdobeAdobe Dynamic Media Classic，它是领先的按需跨媒体发布系统，用于上传、管理、增强动态富内容并将其发布到所有设备和屏幕。 Adobe Dynamic Media Classic解决方案包括：
+欢迎访问Adobe Dynamic Media Classic，它是领先的按需跨媒体发布系统，用于将动态富内容上传、管理、增强和发布到所有设备和屏幕。 Adobe Dynamic Media Classic解决方案包括：
 
 * Dynamic Imaging:实时编辑、格式化和大小调整、交互式缩放和平移；颜色切换和纹理切换；旋转360°;图像模板；多媒体查看器。
 * 电子目录：创作、热点链接、启用搜索功能、发布动态提供的在线目录并将其交付到可配置的查看器中。
