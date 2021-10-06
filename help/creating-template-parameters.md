@@ -1,6 +1,6 @@
 ---
 title: 创建模板参数
-description: 了解如何在AdobeDynamic Media Classic中创建模板参数。
+description: 了解如何在Adobe Dynamic Media Classic中创建模板参数。
 uuid: d17168a8-4776-4761-b022-8258d5997604
 contentOwner: admin
 content-type: reference
@@ -10,10 +10,10 @@ discoiquuid: d263f041-5a0d-4c4f-9266-aeff51a5a7e2
 feature: Dynamic Media Classic
 role: User
 exl-id: 118806ea-c8a7-4aaf-9ae3-739c6b04ea77
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: 352b1c383195fa03294ad3501207d63f3cfe3e42
 workflow-type: tm+mt
-source-wordcount: '783'
-ht-degree: 64%
+source-wordcount: '844'
+ht-degree: 59%
 
 ---
 
@@ -26,6 +26,8 @@ ht-degree: 64%
 在文本图层参数中，还可以将文本字符串设置为链接到数据库值的动态字段。将文本链接到数据库的功能非常有用（例如在促销活动中）。您可以自定义模板图像，使其显示客户端或客户姓名。您还可以将文本层参数链接到价格数据库，以显示模板图像中项目的价格。
 
 您可以多次引用一个参数。对参数对话框中的每个命令使用组合框，以选择匹配该特定命令的参数。例如，所有大小参数都可用于`size=`命令。 可以将参数引用再分配给已存在于组合框中的任何参数，并重命名为组合框中不存在的名称。在后一种情况下，名称必须唯一。 否则，错误会声明参数存在。 删除参数引用时，如果该参数未在其他位置引用，则会从URL中删除该参数。 当更改文本参数的默认值时，对该参数的所有引用都会更新。 您可以在层表、模板渲染和URL中查看更新。 当通过在属性面板中调整控制滑块大小或键入值来更改层属性时，将更新参数值并更新对参数的所有引用。 例如，如果使用一个参数对两个图层的大小进行了参数化，则在更改其中一个图层大小时，两个图层的大小均会更新。在您预览模板并更改参数时，该参数的所有引用均会更新。
+
+另请参阅[模板基础知识](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/553_Template%20Basics_converted%20renamed_Dynamic%20Banners-AVS)培训视频。
 
 ## 参数化图层 {#parameterizing-a-layer}
 

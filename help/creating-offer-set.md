@@ -1,6 +1,6 @@
 ---
 title: 创建选件集
-description: 了解如何在AdobeDynamic Media Classic中创建优惠集。
+description: 了解如何在Adobe Dynamic Media Classic中创建优惠集。
 uuid: 6d6a4af9-70c0-4cfa-9a8f-855d6adfcc8f
 contentOwner: admin
 content-type: reference
@@ -10,10 +10,10 @@ discoiquuid: 59b6437d-c21e-4929-9291-3032dbb34565
 feature: Dynamic Media Classic
 role: Data Engineer,Admin,User
 exl-id: 05f2cce0-72bf-4933-87ab-c9003c848e35
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: 352b1c383195fa03294ad3501207d63f3cfe3e42
 workflow-type: tm+mt
-source-wordcount: '1232'
-ht-degree: 38%
+source-wordcount: '1293'
+ht-degree: 35%
 
 ---
 
@@ -27,11 +27,11 @@ ht-degree: 38%
 
 对于模板，选择&#x200B;**[!UICONTROL 添加和预览]**，然后设置您选择的参数。 其他选件集类型不包含参数，但您仍可以通过选择&#x200B;**[!UICONTROL 预览]**&#x200B;并更改可用的预设来自定义它们。
 
-AdobeDynamic Media Classic提供了用于编辑和创建选件集的工具。
+Adobe Dynamic Media Classic提供了用于编辑和创建选件集的工具。
 
 >[!NOTE]
 >
->在创建选件集之前，请确保发布您打算用于该集的所有资产，以AdobeDynamic Media Classic。 请参阅[手动发布资源](publishing-files.md#manually_publishing_assets)和[手动取消发布资源](publishing-files.md#manually_unpublishing_assets)。
+>在创建选件集之前，请确保发布要用于该集的所有资产，以将其设置为Adobe Dynamic Media Classic。 请参阅[手动发布资源](publishing-files.md#manually_publishing_assets)和[手动取消发布资源](publishing-files.md#manually_unpublishing_assets)。
 
 ## 优惠套餐的类型 {#types-of-offer-sets}
 
@@ -39,7 +39,9 @@ AdobeDynamic Media Classic提供了用于编辑和创建选件集的工具。
 
 * **图像**  — 您可以为选件集组合图像。每个图像在集中包含一个不同的选件。
 
-* **图像模板**  — 您可以使用“生成”>“模板基础知识”命令在AdobeDynamic Media Classic中参数化图像模板。通过参数，可换出及自定义模板的各组成部分（文本框架中的文本、不同的图像）。对于优惠套餐，举例来说，您可以使用模板参数在优惠套餐中的同一图像上创建变型。有关创建及参数化图像模板的信息，请参阅创建模板参数。
+* **图像模板**  — 您可以使用“生成”>“模板基础知识”命 **[!UICONTROL 令在Adobe Dynamic Media Classic中]** 参数化图像模板。通过参数，可换出及自定义模板的各组成部分（文本框架中的文本、不同的图像）。对于优惠套餐，举例来说，您可以使用模板参数在优惠套餐中的同一图像上创建变型。有关创建图像模板并对其进行参数化的信息，请参阅[创建模板参数](creating-template-parameters.md#creating_template_parameters)。
+
+另请参阅[模板基础知识](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/553_Template%20Basics_converted%20renamed_Dynamic%20Banners-AVS)培训视频。
 
 * **视频**  — 您可以为选件集组合视频。每个视频是套餐中的一个不同优惠。
 
@@ -132,7 +134,7 @@ AdobeDynamic Media Classic提供了用于编辑和创建选件集的工具。
 
    >[!NOTE]
    >
-   >您无法删除与某个活动相关联的优惠套餐。要删除与促销活动关联的选件集，请登录到Adobe Target Standard/Premium，然后先删除促销活动关联。 即使与促销活动取消关联，资产也只能从Adobe Dynamic Media Classic中删除，这需要登录到Adobe Target Standard/Premium，而不能从Adobe Target Standard/Premium中删除。
+   >您无法删除与某个活动相关联的优惠套餐。要删除与促销活动关联的选件集，请登录到Adobe Target Standard/Premium，然后先删除促销活动关联。 即使与促销活动取消关联后，资产也只能从Adobe Dynamic Media Classic中删除，这需要登录到Adobe Target Standard/Premium，而不能从Adobe Target Standard/Premium中登录。
 
 1. 完成编辑后，在页面右下角附近，确保选中&#x200B;**[!UICONTROL 保存后发布]**（默认）。
 1. 选择&#x200B;**[!UICONTROL Save]**，选择存储文件夹，输入集的名称，然后选择&#x200B;**[!UICONTROL Save]**。

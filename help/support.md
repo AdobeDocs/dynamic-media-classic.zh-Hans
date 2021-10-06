@@ -1,6 +1,6 @@
 ---
 title: 支持
-description: 了解AdobeDynamic Media Classic的技术支持选项。
+description: 了解Adobe Dynamic Media Classic的技术支持选项。
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -8,7 +8,7 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_scene7
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 708f32f1-fdbb-4a32-a1b7-836c99b458be
-source-git-commit: 523d6e82a5410d8b1ae1a69b4ea2c0a0a4793fc7
+source-git-commit: 352b1c383195fa03294ad3501207d63f3cfe3e42
 workflow-type: tm+mt
 source-wordcount: '192'
 ht-degree: 24%
@@ -17,12 +17,12 @@ ht-degree: 24%
 
 # 支持 {#support}
 
-技术支持服务旨在满足各种规模公司的需求。下表介绍了AdobeDynamic Media Classic客户关怀服务：
+技术支持服务旨在满足各种规模公司的需求。下表介绍了Adobe Dynamic Media Classic客户关怀团队提供的服务：
 
 | 支持 | 订阅 |
 | --- | --- |
 | 服务限制 | 无限制. |
-| 检查Adobe系统状态 | [AdobeDynamic Media Classic系统状态](https://status.adobe.com/products/1175)。 |
+| 检查Adobe系统状态 | [Adobe Dynamic Media Classic系统状态](https://status.adobe.com/products/1175)。 |
 | 找不到答案？ | [要从支持部门获得帮助，请打开一个票证](https://experienceleague.adobe.com/?support-solution=General#support)。 |
 | 社区论坛 | [Experience Manager社区论坛](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/ct-p/adobe-experience-manager-community)。 |
 | SLA（服务级别协议） | [支持服务/条款和条件](https://helpx.adobe.com/support/programs/support-policies-terms-conditions.html)。 |
@@ -34,9 +34,9 @@ ht-degree: 24%
 
 向技术支持部门报告问题时，请包括以下信息：
 
-* AdobeDynamic Media Classic公司名称。
+* Adobe Dynamic Media Classic公司名称。
 * 您的姓名、电话号码和电子邮件地址.
-* AdobeDynamic Media Classic应用程序、平台和版本。
+* Adobe Dynamic Media Classic应用程序、平台和版本。
 * 问题说明及再现问题所需的步骤.
 * 错误消息（如果有）。
 * 浏览器类型和版本（如果适用）。

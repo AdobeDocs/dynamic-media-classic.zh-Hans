@@ -1,6 +1,6 @@
 ---
 title: '"快速入门：模板基础"'
-description: 简介和模板基础知识快速入门，可帮助您快速启动并运行AdobeDynamic Media Classic。
+description: 简介和模板基础知识快速入门，可帮助您在Adobe Dynamic Media Classic中快速启动并运行。
 uuid: 16d78cbb-f762-4263-aea9-5712eb933693
 contentOwner: admin
 content-type: reference
@@ -10,10 +10,10 @@ discoiquuid: dd0fbb39-3f6a-496b-a9b6-63b11dcb823a
 feature: Dynamic Media Classic
 role: User
 exl-id: bf695fee-821c-4396-829a-d57ccf475b0c
-source-git-commit: 36f9aa3c2b4dc66e4cb851c2ce6837ae0ad4f64c
+source-git-commit: 352b1c383195fa03294ad3501207d63f3cfe3e42
 workflow-type: tm+mt
-source-wordcount: '789'
-ht-degree: 32%
+source-wordcount: '851'
+ht-degree: 28%
 
 ---
 
@@ -21,21 +21,23 @@ ht-degree: 32%
 
 模板基础知识是动态创建和可寻址的分层图像文件，如图像编辑应用程序(如Adobe Photoshop)中的分层文件。 与包含图层的静态文件（如 PSD 文件）不同，模板可以包括参数。通过各种参数，图像的不同方面都可以寻址及自定义。
 
-模板可以包含任意数量的图像图层和文本图层。您可以将包含层（如分层PSD文件）的静态文件转换为模板，并在AdobeDynamic Media Classic中创建模板。 您可以使用上传到AdobeDynamic Media Classic的字体在模板中创建文本层。 将文本添加到模板中之后，可以通过更改其对齐方式、字体、字体大小以及颜色来设置字体格式。
+模板可以包含任意数量的图像图层和文本图层。您可以将包含层(如分层PSD文件)的静态文件转换为模板，并在Adobe Dynamic Media Classic中创建模板。 您可以使用上传到Adobe Dynamic Media Classic的字体在模板中创建文本层。 将文本添加到模板中之后，可以通过更改其对齐方式、字体、字体大小以及颜色来设置字体格式。
 
 使用“参数”页面，您可以将模板的任何方面转换为可寻址参数。 此时，可以更改要在模板中使用的分层图像或文本值。这些参数是通过 URL 字符串传递的，因此可以通过更改任意参数，动态自定义从图像服务器生成的回复图像。
 
-本快速入门旨在帮助您快速学会如何使用模板基础。
+另请参阅[模板基础知识](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/553_Template%20Basics_converted%20renamed_Dynamic%20Banners-AVS)培训视频。
+
+此快速入门指南旨在帮助您快速启动并运行模板基础知识。
 
 ## 1.上传文件
 
-首先请为模板上载 PSD 文件或图像文件。AdobeDynamic Media Classic除了支持PSD之外，还支持许多图像文件格式，但建议模板使用无损的TIFF和PNG图像，因为它们允许透明。
+首先请为模板上载 PSD 文件或图像文件。Adobe Dynamic Media Classic除了支持PSD外，还支持许多图像文件格式，但建议模板使用无损TIFF和PNG图像，因为它们允许透明。
 
-如果使用PSD文件来构建模板，请在上传PSD文件时，在&#x200B;**[!UICONTROL 上传作业选项]**&#x200B;对话框中选择&#x200B;**[!UICONTROL 创建模板]**。 此外，还选择&#x200B;**[!UICONTROL 层命名]**&#x200B;选项，以便AdobeDynamic Media Classic了解在将PSD层上传到AdobeDynamic Media Classic时如何命名这些层。
+如果使用PSD文件来构建模板，请在上传PSD文件时，在&#x200B;**[!UICONTROL 上传作业选项]**&#x200B;对话框中选择&#x200B;**[!UICONTROL 创建模板]**。 此外，还应选择&#x200B;**[!UICONTROL 层命名]**&#x200B;选项，以便Adobe Dynamic Media Classic了解在将PSD层上传到Adobe Dynamic Media Classic时如何命名图层。
 
 如果使用的是图像文件，可以在上载时在图像中裁切图像，以及从剪切路径创建蒙版。
 
-在全局导航栏上，选择&#x200B;**[!UICONTROL Upload]** ，将PSD文件或其他图像文件从您的计算机上传到AdobeDynamic Media Classic上的文件夹。 请参阅[上传模板文件](uploading-template-files.md#uploading_template_files)。
+在全局导航栏上，选择&#x200B;**[!UICONTROL Upload]** ，将PSD文件或其他图像文件从您的计算机上传到Adobe Dynamic Media Classic上的文件夹。 请参阅[上传模板文件](uploading-template-files.md#uploading_template_files)。
 
 ## 2.创建模板
 

@@ -1,6 +1,6 @@
 ---
 title: “快速入门：媒体门户”
-description: 介绍和Media Portal快速入门，帮助您快速启动和运行Media Portal技术和Media PlacsicAdobe中的Dynamic Media。
+description: 介绍和Media Portal快速入门，可帮助您快速启动和运行Media Portal技术和Adobe Dynamic Media Classic中的管理。
 uuid: 0dbd6146-b392-4e03-955b-0b323b654b9f
 contentOwner: admin
 content-type: reference
@@ -10,20 +10,28 @@ discoiquuid: 1385a092-0b2c-4e05-ad1e-ce3685022300
 feature: Dynamic Media Classic,Collaboration,Asset Management
 role: Admin,User
 exl-id: bff613c8-a93b-4cca-94db-8cad1cc36296
-source-git-commit: 36f9aa3c2b4dc66e4cb851c2ce6837ae0ad4f64c
+source-git-commit: 352b1c383195fa03294ad3501207d63f3cfe3e42
 workflow-type: tm+mt
-source-wordcount: '693'
-ht-degree: 68%
+source-wordcount: '872'
+ht-degree: 52%
 
 ---
 
 # 快速入门：媒体门户{#quick-start-media-portal}
 
-通过媒体门户，公司可以轻松地获取、控制已批准的资产并将其分发给外部合作伙伴和渠道以及公司的内部用户。 此基于浏览器的“自助”环境为Media Portal用户提供了由管理员控制的“视图”，可AdobeDynamic Media Classic资产，以便用户以公司批准的格式轻松访问、浏览、搜索、预览和导出资产。
+通过媒体门户，公司可以轻松地获取、控制已批准的资产并将其分发给外部合作伙伴和渠道以及公司的内部用户。 此基于浏览器的“自助”环境为Media Portal用户提供了由管理员控制的“视图”，可用于访问、浏览、搜索、预览和导出经公司批准的格式的资产。
 
 作为管理员，您可以控制用户在 Media Portal 中查看、访问和使用资源的方式。此外，您可以自定义 Media Portal 界面，使其匹配您的网站和品牌。您可以在Media Portal界面中指定字体、字体颜色、字体大小，并合并品牌元素，如徽标。
 
-本“快速入门”旨在帮助您快速学会如何使用 Media Portal 管理。在每个步骤的末尾，选择主题链接以了解更多信息。
+请观看以下培训视频：
+
+* [媒体门户概述](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/544_mp_overview1_converted%20renamed_Done-AVS)
+
+* [媒体门户导览1](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/545_mp_tour1_user_converted%20renamed_Done-AVS)
+
+* [媒体门户导览2](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/546_mp_tour2_admin_converted%20renamed_Done-AVS)
+
+以下快速入门旨在通过媒体门户管理快速启动并运行。 在每个步骤的末尾，选择主题链接以了解更多信息。
 
 ## 1. 了解 Media Portal 用户角色
 
@@ -45,7 +53,7 @@ Media Portal 用户分为三个角色，即用户、参与者和用户参与者�
 
 ## 4. 管理 FTP 帐户
 
-您可以在AdobeDynamic Media Classic帐户中拥有与Media Portal关联并映射到特定文件夹的单独FTP帐户。 这种功能意味着，您可以允许用户使用单独的 FTP 帐户将数字资源上载到您的帐户中。
+您可以具有与Media Portal关联并映射到Adobe Dynamic Media Classic帐户中特定文件夹的单独FTP帐户。 这种功能意味着，您可以允许用户使用单独的 FTP 帐户将数字资源上载到您的帐户中。
 
 请参阅[管理FTP帐户](ftp-accounts.md#managing_ftp_accounts)。
 

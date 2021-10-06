@@ -1,6 +1,6 @@
 ---
 title: '"快速入门：旋转集"'
-description: 旋转集的简介和快速入门可帮助您在AdobeDynamic Media Classic中快速启动和运行。
+description: 旋转集简介和快速入门可帮助您在Adobe Dynamic Media Classic中快速启动并运行。
 uuid: d0af9db6-cb6f-48f0-89f6-f3ab2da0659f
 contentOwner: admin
 content-type: reference
@@ -10,16 +10,16 @@ discoiquuid: 282b8e83-b20f-43f7-b9f8-6eebd5b1c5a7
 feature: Dynamic Media Classic,Viewers,Spin Sets
 role: User
 exl-id: 26e3cd5b-f070-4b92-af36-25631723460e
-source-git-commit: 36f9aa3c2b4dc66e4cb851c2ce6837ae0ad4f64c
+source-git-commit: 352b1c383195fa03294ad3501207d63f3cfe3e42
 workflow-type: tm+mt
-source-wordcount: '730'
-ht-degree: 25%
+source-wordcount: '796'
+ht-degree: 23%
 
 ---
 
 # 快速入门：旋转集{#quick-start-spin-sets}
 
-旋转集用于模拟转动物品进行查看时的真实动作。利用旋转集能够从任意角度查看物品，从而获得任意角度的重要视觉详细信息。旋转集模拟360°的查看体验。 AdobeDynamic Media Classic提供了一维旋转集（查看者可以在其中旋转项目）和二维旋转集（查看者可以在其中旋转和翻转项目）。 此外，用户只需单击几下鼠标即可“自由”缩放和平移任何视图。 通过这种方式，用户能够以特定的视角，更仔细地查看物品。
+旋转集用于模拟转动物品进行查看时的真实动作。利用旋转集能够从任意角度查看物品，从而获得任意角度的重要视觉详细信息。旋转集模拟360°的查看体验。 Adobe Dynamic Media Classic提供了一维旋转集（查看者可在其中旋转项目）和二维旋转集（查看者可在其中旋转和翻转项目）。 此外，用户只需单击几下鼠标即可“自由”缩放和平移任何视图。 通过这种方式，用户能够以特定的视角，更仔细地查看物品。
 
 ![旋转集的图像。](/help/assets/spin_set.png)
 
@@ -27,13 +27,15 @@ ht-degree: 25%
 
 请参阅[创建图像映射](creating-image-maps.md)。
 
-此旋转集快速入门旨在通过AdobeDynamic Media Classic中的旋转集技术快速启动并运行。 按照步骤 1 到 7 操作。在每个步骤的末尾，您可以选择主题链接以了解更多信息。
+请参阅[图像和旋转集：Dynamic Imaging](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/556_Image%20&amp;%20Spin%20Sets_converted%20renamed_Dynamic%20Imaging-AVS)培训视频。
+
+此旋转集快速入门旨在通过Adobe Dynamic Media Classic中的旋转集技术帮助您快速启动并运行。 按照步骤 1 到 7 操作。在每个步骤的末尾，您可以选择主题链接以了解更多信息。
 
 ## 1.创建和上传图像
 
 对于一维旋转集，您至少需要一个项目8-12张拍照；对于二维旋转集，您至少需要16-24张拍照。 拍摄照片时必须间隔一定的角度，以便让人感觉物品正在旋转和翻转。例如，如果一维旋转集包含12张照片，则对每张照片旋转项目30°(360°/12)。
 
-在全局导航栏上，选择&#x200B;**[!UICONTROL Upload]** ，以从计算机或网络上传旋转图像以AdobeDynamic Media Classic。
+在全局导航栏上，选择&#x200B;**[!UICONTROL Upload]** ，将旋转图像从计算机或网络上传到Adobe Dynamic Media Classic。
 
 请参阅[旋转集图像拍摄指南](creating-spin-set.md#guidelines-for-shooting-spin-set-images)。
 
@@ -65,7 +67,7 @@ ht-degree: 25%
 
 ## 6.发布旋转集
 
-发布旋转集会将其放置在AdobeDynamic Media Classic服务器上，以便能够将其动态交付到您的网站或应用程序。 它还会激活URL字符串，以将旋转集从Dynamic Media图像服务器调用到您的网站或应用程序。
+发布旋转集会将其放置在Adobe Dynamic Media Classic服务器上，以便能够将其动态交付到您的网站或应用程序。 它还会激活URL字符串，以将旋转集从Dynamic Media图像服务器调用到您的网站或应用程序。
 
 要发布旋转集，请在浏览面板中选择旋转集名称旁边的&#x200B;**[!UICONTROL 标记为发布]**&#x200B;图标，以将其标记为发布。 在全局导航栏上，选择&#x200B;**[!UICONTROL Publish]**&#x200B;以启动发布。 在“发布”屏幕上，选择&#x200B;**[!UICONTROL 提交发布]**。
 
@@ -73,7 +75,7 @@ ht-degree: 25%
 
 ## 7.将旋转集关联到网页
 
-AdobeDynamic Media Classic会为旋转集创建URL标注字符串，并在您发布它们后将其激活。 您可以从预览页面复制这些URL。
+Adobe Dynamic Media Classic会为旋转集创建URL标注字符串，并在您发布它们后将其激活。 您可以从预览页面复制这些URL。
 
 选择旋转集，然后选择&#x200B;**[!UICONTROL 预览]**。 选择旋转集查看器预设。然后选择&#x200B;**[!UICONTROL 复制URL]**。
 

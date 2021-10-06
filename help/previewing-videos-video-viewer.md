@@ -10,10 +10,10 @@ discoiquuid: 6a2e6df1-9186-42e2-9b85-01f132936c72
 feature: Dynamic Media Classic,Viewers,Video
 role: User
 exl-id: b8d1a0b4-67ab-482d-a685-a087fb850143
-source-git-commit: 3185824deca4d4b3c5549bda2e47f179094110e7
+source-git-commit: 352b1c383195fa03294ad3501207d63f3cfe3e42
 workflow-type: tm+mt
-source-wordcount: '766'
-ht-degree: 34%
+source-wordcount: '883'
+ht-degree: 29%
 
 ---
 
@@ -41,27 +41,31 @@ ht-degree: 34%
 
 >[!NOTE]
 >
->AdobeDynamic Media Classic提供了一种在桌面上预览MP4视频的便捷方法。 使用此方法可在桌面上预览移动内容，而不必在移动设备上对其进行实际测试。但是，请注意，桌面预览中显示的内容并不现实地显示移动设备上的播放外观。 要预览视频在移动设备上的外观和播放方式，请转到“预览”屏幕，选择&#x200B;**[!UICONTROL 复制URL]**，然后在移动设备的Web浏览器中输入该URL。 有关更多信息，请参阅[将视频部署到您的网站和移动站点](deploying-video-websites-mobile-sites.md#deploying_video_to_your_websites_and_mobile_sites)。
+>Adobe Dynamic Media Classic提供了一种在桌面上预览MP4视频的便捷方法。 使用此方法可在桌面上预览移动内容，而不必在移动设备上对其进行实际测试。但是，请注意，桌面预览中显示的内容并不现实地显示移动设备上的播放外观。 要预览视频在移动设备上的外观和播放方式，请转到“预览”屏幕，选择&#x200B;**[!UICONTROL 复制URL]**，然后在移动设备的Web浏览器中输入该URL。 有关更多信息，请参阅[将视频部署到您的网站和移动站点](deploying-video-websites-mobile-sites.md#deploying_video_to_your_websites_and_mobile_sites)。
 
 ## 使用视频查看器预设 {#working-with-video-viewer-presets}
 
 用户在视频查看器观看视频。视频查看器的工作方式、外观以及其播放控件的工作方式都取决于您为播放视频选择的“查看器预设”。在“预览”屏幕上选择一种“查看器预设”。在选择预设后，您可以获取 URL 或嵌入代码，以便使用所选的查看器预设播放视频。
 
-AdobeDynamic Media Classic附带许多用于播放视频的预定义查看器预设，如果您是管理员，则可以创建自定义查看器预设。 有十几种不同的设置可用于配置“视频查看器”。您可以配置其大小、颜色、视频和音频控件、进度条、用户界面外观和社交功能。
+Adobe Dynamic Media Classic附带了许多用于播放视频的预定义查看器预设，如果您是管理员，则可以创建自定义查看器预设。 有十几种不同的设置可用于配置“视频查看器”。您可以配置其大小、颜色、视频和音频控件、进度条、用户界面外观和社交功能。
 
-另请参阅[在视频查看器中预览视频](previewing-videos-video-viewer.md#previewing_videos_in_a_video_viewer)。
+请参阅[在视频查看器中预览视频](previewing-videos-video-viewer.md#previewing_videos_in_a_video_viewer)。
+
+另请参阅[视频预设](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/549_video-presets_converted%20renamed_Done-AVS)培训视频。
 
 ### 添加或编辑视频查看器预设 {#adding-or-editing-a-video-viewer-preset}
 
-您可以使用“查看器预设”来查看不同的浏览器类型及其预定义设置。您还可以添加和编辑您自己的自定义查看器预设，或编辑AdobeDynamic Media Classic附带的现有查看器预设。
+您可以使用“查看器预设”来查看不同的浏览器类型及其预定义设置。您还可以添加和编辑您自己的自定义查看器预设，或编辑Adobe Dynamic Media Classic附带的现有查看器预设。
 
 在“查看器预设”中，您可以激活、过滤、排序和预览“查看器预设”。
 
 请参阅[查看器预设](application-setup.md#viewer_presets)。
 
+另请参阅[视频预设](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/549_video-presets_converted%20renamed_Done-AVS)培训视频。
+
 **添加或编辑视频查看器预设:**
 
-1. 在AdobeDynamic Media Classic的右上角附近，转到&#x200B;**[!UICONTROL 设置]** > **[!UICONTROL 查看器预设]**。
+1. 在Adobe Dynamic Media Classic的右上角附近，转到&#x200B;**[!UICONTROL Setup]** > **[!UICONTROL Viewer Presets]**。
 
    要仅查看视频查看器的预设，请从表格正上方工具栏的打开的查看器下拉列表中选择视频查看器。
 

@@ -1,6 +1,6 @@
 ---
 title: “快速入门：eCatalogs”
-description: 电子目录简介和快速入门，可帮助您快速启动和运行Dynamic Media Classic中的eCatalog技术Adobe。
+description: 电子目录简介和快速入门，可帮助您快速启动和运行Adobe Dynamic Media Classic中的eCatalog技术。
 uuid: 1ec41927-3df6-4845-8d9d-bb92cf6dca08
 contentOwner: admin
 content-type: reference
@@ -10,16 +10,23 @@ discoiquuid: 781dacd0-ef0c-42b7-92e0-12791994874d
 feature: Dynamic Media Classic,Viewers,eCatalog
 role: User
 exl-id: 9e2df814-465d-412a-a032-ef3e8cb462ba
-source-git-commit: 36f9aa3c2b4dc66e4cb851c2ce6837ae0ad4f64c
+source-git-commit: 352b1c383195fa03294ad3501207d63f3cfe3e42
 workflow-type: tm+mt
-source-wordcount: '1436'
-ht-degree: 42%
+source-wordcount: '1558'
+ht-degree: 39%
 
 ---
 
 # 快速入门：电子目录{#quick-start-ecatalogs}
 
-eCatalog 是数字网络版本的印刷材料，例如目录、小册子、传单、产品手册或广告传单。eCatalog 显示在网站的 eCatalog 查看器中。该查看器会模拟阅读印刷材料的体验。根据您为eCatalog选择的设置，查看器可让您执行以下操作：
+eCatalog 是数字网络版本的印刷材料，例如目录、小册子、传单、产品手册或广告传单。eCatalog 显示在网站的 eCatalog 查看器中。该查看器会模拟阅读印刷材料的体验。
+
+另请观看以下培训视频：
+
+* [快速入门1:电子目录](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/561_Quick%20Start%20-%20Part%201_converted%20renamed_eCatalogs-AVS)
+* [快速入门2:电子目录](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/562_Quick%20Start%20-%20Part%202_converted%20renamed_eCatalogs-AVS)
+
+根据您为eCatalog选择的设置，查看器可让您执行以下操作：
 
 * 在目录中搜索关键词或关键词。 搜索结果在目录左侧的搜索面板中以缩略图列表的形式显示。 每个可单击的缩略图都表示一个目录跨页，在该跨页中找到突出显示的搜索词。
 
@@ -47,13 +54,13 @@ eCatalog 是数字网络版本的印刷材料，例如目录、小册子、传�
 >
 >在CRXDE Lite页面的左上角，选择&#x200B;**[!UICONTROL 全部保存]**。
 >
->现在，您可以在Dynamic Media ClassicAdobe中创作电子目录。
+>您现在可以在Adobe Dynamic Media Classic中创作电子目录。
 
 本 eCatalog 快速入门旨在帮助您快速学会如何使用 eCatalog。按照步骤 1 到 7 操作。每个步骤的后面都有一个交叉引用，可以跳转到相应的主题标题，供您了解更多信息。
 
 ## 1.上传PDF文件
 
-eCatalog 通常由 Adobe PDF 文件生成。由于 PDF 文件要用于印刷，因此通常包含 CMYK 图像。AdobeDynamic Media Classic会检测这些图像，并使用标准CMYK颜色配置文件进行转换。 但是，您必须上传并使用自定义颜色配置文件。
+eCatalog 通常由 Adobe PDF 文件生成。由于 PDF 文件要用于印刷，因此通常包含 CMYK 图像。Adobe Dynamic Media Classic会检测这些图像，并使用标准CMYK颜色配置文件进行转换。 但是，您必须上传并使用自定义颜色配置文件。
 
 在全局导航栏上，选择&#x200B;**[!UICONTROL Upload]**&#x200B;以开始为eCatalog上传PDF文件或图像。 可以从桌面或通过 FTP 上载文件；如果上载大量文件或大于 100 MB 的文件，则推荐使用 FTP。
 
@@ -69,7 +76,7 @@ eCatalog 通常由 Adobe PDF 文件生成。由于 PDF 文件要用于印刷，�
 
 要添加页面，在“资源库”中选择一个文件夹，然后将其中的 PDF 或图像文件拖动到“排序页面”屏幕中。您可以提供自定义页面名称或导入多个页面名称，而不是默认的页码。
 
-选择&#x200B;**[!UICONTROL Save]**，输入eCatalog的名称，选择AdobeDynamic Media Classic文件夹进行存储，然后选择&#x200B;**[!UICONTROL Save]**。 每次更改页面顺序或编辑eCatalog时，单击&#x200B;**[!UICONTROL Save]**&#x200B;保存更改。
+选择&#x200B;**[!UICONTROL Save]**，输入eCatalog的名称，选择用于存储该目录的Adobe Dynamic Media Classic文件夹，然后选择&#x200B;**[!UICONTROL Save]**。 每次更改页面顺序或编辑eCatalog时，单击&#x200B;**[!UICONTROL Save]**&#x200B;保存更改。
 
 请参阅[创建eCatalog](creating-ecatalog.md)。
 
@@ -91,7 +98,7 @@ eCatalog 通常由 Adobe PDF 文件生成。由于 PDF 文件要用于印刷，�
 
 ## 4.设置eCatalog查看器预设
 
-最终用户在“eCatalog 查看器中”看到您的 eCatalog。如果您是管理员，还可以配置 eCatalog 查看器。可以更改其轮廓颜色，并选择新的“外观”来确立 eCatalog 品牌。AdobeDynamic Media Classic附带了多个“最佳实践”eCatalog查看器预设。 可以选择这些预设中的一个预设来显示 eCatalog。如果您是管理员，还可以创建自己的 eCatalog 查看器预设。
+最终用户在“eCatalog 查看器中”看到您的 eCatalog。如果您是管理员，还可以配置 eCatalog 查看器。可以更改其轮廓颜色，并选择新的“外观”来确立 eCatalog 品牌。Adobe Dynamic Media Classic附带了多个“最佳实践”eCatalog查看器预设。 可以选择这些预设中的一个预设来显示 eCatalog。如果您是管理员，还可以创建自己的 eCatalog 查看器预设。
 
 要创建eCatalog查看器预设，请在全局导航栏中，选择&#x200B;**[!UICONTROL 设置]**，然后选择&#x200B;**[!UICONTROL 查看器预设]**。 选择&#x200B;**[!UICONTROL Add]**，选择平台，然后选择&#x200B;**[!UICONTROL eCatalog]** > **[!UICONTROL Viewer]**。
 
@@ -107,17 +114,17 @@ eCatalog 查看器预设决定了 eCatalog 查看器的样式和行为。
 
 请参阅eCatalog Viewer](previewing-ecatalogs-ecatalog-viewer.md#previewing-ecatalogs-in-the-ecatalog-viewer)中的[预览eCatalog。
 
-## 6.发布电子目录和关联的PDF
+## 6.发布eCatalog和关联的PDF
 
-发布eCatalog和关联的PDF会将其放在Dynamic Media图像服务器上，以便能够将其交付到您的网站和应用程序。 在发布过程中，AdobeDynamic Media Classic会为您的eCatalog激活URL字符串。 使用此URL将eCatalog从Dynamic Media图像服务器调用到您的网站或应用程序。
+发布eCatalog和关联的PDF会将其放置在Dynamic Media图像服务器上，以便能够将其交付到您的网站和应用程序。 在发布过程中，Adobe Dynamic Media Classic会为您的eCatalog激活URL字符串。 使用此URL将eCatalog从Dynamic Media图像服务器调用到您的网站或应用程序。
 
-在“浏览”面板中标记eCatalog和PDF以进行发布后，选择全局导航栏上的“发布”按钮以启动发布。 在“发布”屏幕上，选择&#x200B;**[!UICONTROL 提交发布]**。
+在“浏览”面板中标记eCatalog并PDF发布后，选择全局导航栏上的“发布”按钮以启动发布。 在“发布”屏幕上，选择&#x200B;**[!UICONTROL 提交发布]**。
 
-请参阅[发布电子目录和关联的PDF](publishing-ecatalogs-associated-pdfs.md#publishing-ecatalogs-and-associated-pdfs)。
+请参阅[发布电子目录和相关PDF](publishing-ecatalogs-associated-pdfs.md#publishing-ecatalogs-and-associated-pdfs)。
 
 ## 7.将eCatalog链接到网页
 
-AdobeDynamic Media Classic在将eCatalog发布到Dynamic Media图像服务器时，会激活显示该eCatalog所需的URL标注字符串。 您可以通过在面板中选择URL，从预览屏幕和浏览面板（在详细信息视图中）复制此URL字符串。 复制 URL 字符串之后，该 URL 便可用于您的网站和应用程序。
+Adobe Dynamic Media Classic会在您将eCatalog发布到Dynamic Media图像服务器时激活显示该eCatalog所必需的URL标注字符串。 您可以通过在面板中选择URL，从预览屏幕和浏览面板（在详细信息视图中）复制此URL字符串。 复制 URL 字符串之后，该 URL 便可用于您的网站和应用程序。
 
 与您的 IT 团队合作，将 eCatalog 链接放在网页中的合适位置。当用户选择该链接时，将显示eCatalog查看器，用户可以浏览您的eCatalog。
 
