@@ -10,9 +10,9 @@ discoiquuid: e5b510a8-8b7f-4c60-869e-d664a8157e63
 feature: Dynamic Media Classic
 role: Data Engineer,Admin,User
 exl-id: 261b8f7c-c61c-4ce3-b9dc-8549347aca2e
-source-git-commit: 876b4c61167b28f7d5e50a656564eafcbe5b9eab
+source-git-commit: 8111895ac527b92b152382ea80b7b383659f00a9
 workflow-type: tm+mt
-source-wordcount: '845'
+source-wordcount: '843'
 ht-degree: 1%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 1%
 >
 >如果您的Adobe Analytics帐户已迁移到基于Adobe IMS的身份验证(Identity Management系统)以进行登录，则输入直接凭据将不起作用。
 
-**要从Adobe Dynamic Media Classic登录Adobe Analytics，请执行以下操作：**
+## 从Adobe Dynamic Media Classic登录Adobe Analytics {#log-in-to-analytics-from-dmc}
 
 首先，将Dynamic Media Classic与Adobe Analytics OAuth集成。 Adobe Analytics OAuth与Dynamic Media Classic的集成通常仅针对每个用户完成一次。
 
@@ -64,7 +64,7 @@ ht-degree: 1%
    * 在 **[!UICONTROL 客户端ID]**，选择 **[!UICONTROL 复制]** 以复制值。 在Dynamic Media Classic桌面应用程序中，后续的Analytics配置需要此值。
    * 在 **[!UICONTROL 客户端密钥]**，选择 **[!UICONTROL 检索客户端密钥]** 以显示关联的值。 选择 **[!UICONTROL 复制]** 以复制值。 在Dynamic Media Classic桌面应用程序中，后续的Adobe Analytics配置需要此值。
 
-**在Dynamic Media Classic桌面应用程序中配置Adobe Analytics**
+## 在Adobe Dynamic Media Classic中配置Adobe Analytics {#configure-analytics-in-dmc}
 
 >[!NOTE]
 >
