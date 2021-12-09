@@ -8,7 +8,7 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/setup
 feature: Dynamic Media Classic
 role: Admin
 exl-id: 3f96606e-ef5c-4c01-aa0f-3148f14e28be
-source-git-commit: 352b1c383195fa03294ad3501207d63f3cfe3e42
+source-git-commit: 121081e90b68357f7602924cd6ced0c0256b378f
 workflow-type: tm+mt
 source-wordcount: '11303'
 ht-degree: 42%
@@ -25,29 +25,29 @@ ht-degree: 42%
 
 ## 常规设置 {#general-settings}
 
-要打开“应用程序常规设置”页，请在全局导航栏上，转到&#x200B;**[!UICONTROL 设置]** > **[!UICONTROL 应用程序设置]** > **[!UICONTROL 常规设置]**。
+要打开“应用程序常规设置”页面，请在全局导航栏中，转到 **[!UICONTROL 设置]** > **[!UICONTROL 应用程序设置]** > **[!UICONTROL 常规设置]**.
 
 ### 服务器
 
 在创建帐户时，Adobe Dynamic Media Classic会自动为您的公司提供分配的服务器。 这些服务器用于构建网站和应用程序的 URL 字符串。这些 URL 调用是您的帐户所特有的。
 
-另请参阅[测试安全测试服务](testing-assets-making-them-public.md#testing_the_secure_testing_service)。
+另请参阅 [测试安全测试服务](testing-assets-making-them-public.md#testing_the_secure_testing_service).
 
-* **[!UICONTROL 已发布的服务器名称]**  — 此服务器是实时内容交付网络(CDN)服务器，用于特定于您帐户的所有系统生成的URL调用。除非Adobe Dynamic Media Classic支持技术人员指示您更改此服务器名称，否则请勿更改此服务器名称。
+* **[!UICONTROL 已发布的服务器名称]**  — 此服务器是实时内容交付网络(CDN)服务器，用于特定于您帐户的所有系统生成URL调用。 除非Adobe Dynamic Media Classic支持技术人员指示您更改此服务器名称，否则请勿更改此服务器名称。
 
-* **[!UICONTROL 源服务器名称]**  — 此服务器仅用于质量保证测试。除非Adobe Dynamic Media Classic支持技术人员指示您更改此服务器名称，否则请勿更改此服务器名称。
+* **[!UICONTROL 源服务器名称]**  — 此服务器仅用于质量保证测试。 除非Adobe Dynamic Media Classic支持技术人员指示您更改此服务器名称，否则请勿更改此服务器名称。
 
 <!-- **AGM Server Name** This server is used for Web-to-Print templates. This server is set on a company-wide basis. Do not change this server name unless instructed to do so by an Adobe DynamicMedia Classic support technician. -->
 
-* **[!UICONTROL Test&amp;Target服务器名称]**  — 您的Test&amp;Target URL，最多包括.com。有关获取此URL的说明，请参阅将[!DNL Adobe Dynamic Media Classic]与[!DNL Adobe Target Standard/Premium]集成。
+* **[!UICONTROL Test&amp;Target服务器名称]**  — 您的Test&amp;Target URL，最多包含.com。 有关获取此URL的说明，请参阅集成 [!DNL Adobe Dynamic Media Classic] with [!DNL Adobe Target Standard/Premium].
 
 <!-- **Test Publish Context Server Name** -->
 
-* **[!UICONTROL iOS流服务器名称]**  — 指向您的iOS流服 [!DNL Adobe Dynamic Media Classic] 务器的URL。该服务器使用 HTTP 协议将流视频发送至 iOS 设备。
+* **[!UICONTROL iOS流服务器名称]**  — 指向您的 [!DNL Adobe Dynamic Media Classic] iOS流服务器。 该服务器使用 HTTP 协议将流视频发送至 iOS 设备。
 
-* **[!UICONTROL 渐进式视频服务器名称]**  — 指向渐进式视频服 [!DNL Adobe Dynamic Media Classic] 务器的URL。该服务器使用 HTTP 协议发送渐进式视频。
+* **[!UICONTROL 渐进式视频服务器名称]**  — 指向您的 [!DNL Adobe Dynamic Media Classic] 渐进式视频服务器。 该服务器使用 HTTP 协议发送渐进式视频。
 
-* **[!UICONTROL 显示未发布资产的URL]**  — 如果您想在预览任何资产时 [!DNL Adobe Dynamic Media Classic] 显示某个URL（无论是否已发布），请选择此选项。如果资源未发布，此 URL 将无效。但是，您可以使用 URL 进行计划或组织。
+* **[!UICONTROL 显示未发布资产的URL]**  — 如果需要，请选择此选项 [!DNL Adobe Dynamic Media Classic] 来显示URL，无论是否发布了任何资产。 如果资源未发布，此 URL 将无效。但是，您可以使用 URL 进行计划或组织。
 
 <!-- **Allow AIR install** Select this option to allow users to download Adobe Dynamic Media Classic desktop version to their local hard drives. Users install the application from the Desktop Version area of the Personal Setup screen. -->
 
@@ -55,21 +55,21 @@ ht-degree: 42%
 
 * **[!UICONTROL CDN失效模板]**  — 指定用于使CDN（内容交付网络）缓存失效的模板。
 
-   例如，假定您输入了引用`<ID>`的图像URL（包括图像预设或修饰符），而不是像以下示例中那样的特定图像ID:
+   例如，假定您输入了引用 `<ID>`，而不是像以下示例中那样使用特定的图像ID:
 
    `https://sample.scene7.com/is/image/Company/<ID>?$s7product$`
 
-   如果模板仅包含`<ID>`，则Adobe Dynamic Media Classic将填写`https://<server>/is/image`，其中`<server>`是在“常规设置”中定义的发布服务器名称。
+   如果模板仅包含 `<ID>`，则Adobe Dynamic Media Classic填充 `https://<server>/is/image`，其中 `<server>` 是在“常规设置”中定义的“发布服务器名称”。
 
-   设置CDN无效模板，选择名为Backpack_B的图像，然后转到&#x200B;**[!UICONTROL 文件]** > **[!UICONTROL 无效CDN]**&#x200B;在CDN无效界面中生成以下URL:
+   设置CDN无效模板，选择名为Backpack_B的图像，然后转到 **[!UICONTROL 文件]** > **[!UICONTROL 无效CDN]** 会在CDN无效界面中生成以下生成的URL:
 
    `https://sample.scene7.com/is/image/Company/Backpack_B?$s7product$`
 
-   在URL列表框中，选择&#x200B;**[!UICONTROL 继续]**&#x200B;以清除该特定图像URL调用的缓存。 您也可以通过键入或粘贴URL列表框来添加URL;您无需预先设置模板。
+   在URL列表框中，选择 **[!UICONTROL 继续]** 以清除该特定图像URL调用的缓存。 您也可以通过键入或粘贴URL列表框来添加URL;您无需预先设置模板。
 
    选择CDN失效模板并发出无效CDN请求后，用户界面中会弹出一个指示器。 它可让您估计清除缓存需要多长时间。
 
-   同样，如果在Adobe Dynamic Media Classic中选择了多个图像，则当您转到&#x200B;**[!UICONTROL 文件]** > **[!UICONTROL 无效CDN]**&#x200B;时，每个图像都会在保存的模板URL中引用。 因此，您可以定义CDN无效模板，以引用网站上引用的每个URL（如产品详细信息和搜索结果）。 然后，当您从缓存中选择一个或多个要失效的图像时，URL 会自动填充该界面。
+   同样，如果您在转到 **[!UICONTROL 文件]** > **[!UICONTROL 无效CDN]**，则会在保存的模板URL中引用每个图像。 因此，您可以定义CDN无效模板，以引用网站上引用的每个URL（如产品详细信息和搜索结果）。 然后，当您从缓存中选择一个或多个要失效的图像时，URL 会自动填充该界面。
 
    请参阅[内容缓存](dmc-platform-overview.md#content_caching)。
 
@@ -77,31 +77,31 @@ ht-degree: 42%
 
 ### 浏览
 
-* **[!UICONTROL 显示项目]**  — 确定项目是否可用作组织Adobe Dynamic Media Classic资产的方法。请参阅[使用项目组织工作](/help/organizing-projects.md)。
+* **[!UICONTROL 显示项目]**  — 确定项目是否可用作组织Adobe Dynamic Media Classic资产的方法。 请参阅 [组织您的项目工作](/help/organizing-projects.md).
 
 * **[!UICONTROL 显示示例eVideo内容]**  — 打开或关闭eVideo示例内容的显示。
 
-* **[!UICONTROL 显示生成的内容]**  — 在文件夹中，显示从资产生成的内容。例如，当PDF文件在上传时被栅格化时，Adobe Dynamic Media Classic会为原始PDF中的每个页面创建一个图像。 如果选择“显示生成的内容”，则在上载原始 PDF 时生成的每个图像都会与该 PDF 一起显示在将 PDF 上载到的文件夹中。
+* **[!UICONTROL 显示生成的内容]**  — 在文件夹中，显示从资产生成的内容。 例如，当PDF文件在上传时被栅格化时，Adobe Dynamic Media Classic会为原始PDF中的每个页面创建一个图像。 如果选择“显示生成的内容”，则在上载原始 PDF 时生成的每个图像都会与该 PDF 一起显示在将 PDF 上载到的文件夹中。
 
 * **[!UICONTROL 显示编码视频]**  — 默认情况下，取消选中（关闭）。
 
    要在Adobe Dynamic Media Classic中快速搜索和浏览视频，而无需浏览同一视频的大量编码派生项，请取消选中此选项（默认）。 只显示主控视频缩略图（您上传并用于创建派生项的源视频）和“父”自适应视频集缩略图（包含编码视频集的“子”派生项）。
 
-   但是，您仍可以访问主视频或自适应视频集的各个编码视频。要执行以上操作，请双击视频缩略图图像，打开详细信息视图。然后，在右侧面板中选择&#x200B;**[!UICONTROL 编码视频]**，以便您可以访问所有“子”视频。
+   但是，您仍可以访问主视频或自适应视频集的各个编码视频。要执行以上操作，请双击视频缩略图图像，打开详细信息视图。然后选择 **[!UICONTROL 编码视频]** ，以便您能够访问所有“子”视频。
 
-   您还可以转到&#x200B;**[!UICONTROL 文件]** > **[!UICONTROL 重新处理]** ，以直接从自适应视频集创建更多编码的“子”视频。 Adobe Dynamic Media Classic会自动找到自适应视频集的“父”主控视频，并将其用作转码的源视频。 但是，如果保存新的单个编码视频，您在搜索或浏览时将看不到这些视频。但是，您仍可以从详细信息视图的“编码的视频”选项卡进行访问。
+   您还可以转到 **[!UICONTROL 文件]** > **[!UICONTROL 重新处理]** 直接从自适应视频集创建更多编码的“子”视频。 Adobe Dynamic Media Classic会自动找到自适应视频集的“父”主控视频，并将其用作转码的源视频。 但是，如果保存新的单个编码视频，您在搜索或浏览时将看不到这些视频。但是，您仍可以从详细信息视图的“编码的视频”选项卡进行访问。
 
-   请参阅[上传和转码视频](uploading-encoding-videos.md#uploading_and_encoding_videos)。
+   请参阅 [上传和转码视频](uploading-encoding-videos.md#uploading_and_encoding_videos).
 
    要继续保留在搜索和浏览时可以访问所有编码视频派生的功能，请选择“**[!UICONTROL 显示已编码视频]**”。
 
-   “构建”菜单上的某些操作只能对单个视频或选择性地对单个视频生效。此功能要求必须显示所有可以选择的编码视频派生（无论如何设置“**[!UICONTROL 显示已编码视频]**”）。覆盖&#x200B;**[!UICONTROL 显示编码视频]**&#x200B;设置的“生成”操作包括&#x200B;**[!UICONTROL 自适应视频集]**&#x200B;和&#x200B;**[!UICONTROL eCatalogs]**。
+   “构建”菜单上的某些操作只能对单个视频或选择性地对单个视频生效。此功能要求必须显示所有可以选择的编码视频派生（无论如何设置“**[!UICONTROL 显示已编码视频]**”）。过渡的生成操作 **[!UICONTROL 显示编码视频]** 设置包含 **[!UICONTROL 自适应视频集]**&#x200B;和 **[!UICONTROL 电子目录]**.
 
    >[!NOTE]
    >
    >如果您没有使用Adobe Dynamic Media Classic来上传视频资产并对其进行编码，则Adobe Dynamic Media Classic会显示您所有单独编码的视频，即使已取消选择此选项也是如此。
 
-* **[!UICONTROL 显示“刷新子文件夹”按钮]**  — 打开或关闭子文件夹“刷新”按钮的显示。
+* **[!UICONTROL “显示刷新子文件夹”按钮]**  — 打开或关闭子文件夹“刷新”按钮的显示。
 
 ### Adobe Dynamic Media Classic FTP帐户
 
@@ -111,33 +111,33 @@ ht-degree: 42%
 
 ### 上载到应用程序
 
-另请参阅[默认上传作业选项](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/569_Default%20Job%20Options_converted%20renamed_Getting%20Started-AVS)培训视频。
+另请参阅 [默认上传作业选项](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/569_Default%20Job%20Options_converted%20renamed_Getting%20Started-AVS) 培训视频。
 
-* **[!UICONTROL 覆盖图像]**  - Adobe Dynamic Media Classic不允许两个文件具有相同的名称。每个项目的Adobe Dynamic Media Classic ID（图像名称减去文件扩展名）必须唯一。 由于此规则，“上载”对话框中有一个“覆盖”选项。该选项的准确效果取决于指定的“覆盖图像”选项。这些选项指定了如何上载替换图像：替换原始图像，还是成为重复图像。重复图像会用“-1”重命名（例如，chair.tif 会重命名为 chair-1.tif）。这些选项会影响上载到的文件夹与原始图像不同的图像，或文件扩展名（如 JPG、TIF 或 PNG）与原始图像不同的图像。请参阅[使用覆盖图像选项](#using-the-overwrite-images-option)。
+* **[!UICONTROL 覆盖图像]** - Adobe Dynamic Media Classic不允许两个文件具有相同的名称。 每个项目的Adobe Dynamic Media Classic ID（图像名称减去文件扩展名）必须唯一。 由于此规则，“上载”对话框中有一个“覆盖”选项。该选项的准确效果取决于指定的“覆盖图像”选项。这些选项指定了如何上载替换图像：替换原始图像，还是成为重复图像。重复图像会用“-1”重命名（例如，chair.tif 会重命名为 chair-1.tif）。这些选项会影响上载到的文件夹与原始图像不同的图像，或文件扩展名（如 JPG、TIF 或 PNG）与原始图像不同的图像。请参阅 [使用覆盖图像选项](#using-the-overwrite-images-option).
 
-   * **[!UICONTROL 在当前文件夹中覆盖，基本图像名称/扩展名相同]**  — 此选项是最严格的替换规则。它要求您将替换图像上载到原始图像所在的文件夹中，并且该替换图像与原始图像具有相同的文件扩展名。如果不满足这些要求，则会创建重复的图像。
+   * **[!UICONTROL 在当前文件夹中覆盖，基本图像名称/扩展名相同]**  — 此选项是最严格的替换规则。 它要求您将替换图像上载到原始图像所在的文件夹中，并且该替换图像与原始图像具有相同的文件扩展名。如果不满足这些要求，则会创建重复的图像。
 
-   * **[!UICONTROL 在当前文件夹中覆盖相同的基本资产名称，而不考虑扩展名]**  — 要求您将替换图像上传到与原始资产相同的文件夹，但文件扩展名可能与原始资产不同。例如，chair.tif 会替换 chair.jpg。
+   * **[!UICONTROL 在当前文件夹中覆盖相同的基本资产名称，而不考虑扩展名]**  — 要求您将替换图像上传到与原始图像相同的文件夹，但文件扩展名可能与原始图像不同。 例如，chair.tif 会替换 chair.jpg。
 
-   * **[!UICONTROL 在任意文件夹中覆盖相同的基本资产名称/扩展名]**  — 要求替换图像的文件扩展名与原始图像相同（例如，chair.jpg必须替换chair.jpg，而不是chair.tif）。但是，可以将替换图像上载到与原始图像不同的文件夹中。更新的图像位于新文件夹；而不再位于其原始位置
+   * **[!UICONTROL 在任何文件夹中覆盖相同的基本资产名称/扩展名]**  — 要求替换图像的文件扩展名与原始图像相同（例如，chair.jpg必须替换chair.jpg，而不是chair.tif）。 但是，可以将替换图像上载到与原始图像不同的文件夹中。更新的图像位于新文件夹；而不再位于其原始位置
 
-   * **[!UICONTROL 覆盖任意文件夹中相同的基本资产名称，而不考虑扩展名]**  — 此选项是包含最广的替换规则。可以将替换图像上载到与原始文件所在文件夹不同的文件夹，使用不同的文件扩展名上载文件，并替换原始文件。如果原始文件在不同的文件夹中，替换图像则位于其所上载至的新文件夹。
+   * **[!UICONTROL 在任意文件夹中覆盖相同的基本资产名称，而不考虑扩展名]**  — 此选项是包含性最强的替换规则。 可以将替换图像上载到与原始文件所在文件夹不同的文件夹，使用不同的文件扩展名上载文件，并替换原始文件。如果原始文件在不同的文件夹中，替换图像则位于其所上载至的新文件夹。
 
 * **[!UICONTROL 保留发布]**  — 指定上传到Adobe Dynamic Media Classic的替换图像是保留正在替换的图像的“准备发布”设置，还是在上传时指定该设置。
 
-* **[!UICONTROL 默认颜色配置文件]**  — 指定在添加CMYK图像时作为默认颜色配置文件选项的一部分应用的颜色配置文件。
+* **[!UICONTROL 默认颜色配置文件]**  — 指定在添加CMYK图像时作为“默认颜色配置文件选项”一部分应用的颜色配置文件。
 
-* **[!UICONTROL 默认上传选项]**  — 打开“上传作业选项”对话框，您可以在其中指定默认的上传选项。有关这些选项的信息，请参阅[上载选项](/help/uploading-files.md#upload_options)。
+* **[!UICONTROL 默认上传选项]**  — 打开“上传作业选项”对话框，您可以在其中指定默认的上传选项。 有关这些选项的信息，请参阅[上载选项](/help/uploading-files.md#upload_options)。
 
 ### 应用程序的图像映射编辑器
 
-* **[!UICONTROL 默认图像映射HREF]**  — 定义用于图像映射中HREF列的默认URL。此URL是您在创建图像映射时看到的默认URL。
+* **[!UICONTROL 默认图像映射HREF]**  — 定义用于图像映射中HREF列的默认URL。 此URL是您在创建图像映射时看到的默认URL。
 
-* **[!UICONTROL 默认图像映射模板]**  — 为图像映射中的HREF模板定义默认JavaScript。您可以在此处设置自定义代码，以便在您选择图像映射时运行。
+* **[!UICONTROL 默认图像映射模板]**  — 为图像映射中的HREF模板定义默认JavaScript。 您可以在此处设置自定义代码，以便在您选择图像映射时运行。
 
 ### 应用程序的其他设置
 
-* **[!UICONTROL 垃圾桶可以清除警告]**  — 垃圾桶中的资产将在七天内自动删除。如果您需要在“垃圾桶”中的资源距永久删除还有四天时间时向公司管理员发送通知，请选择“自动删除垃圾桶项目之前会发送电子邮件”。请参阅[管理垃圾桶文件夹](/help/trash-folder.md)。
+* **[!UICONTROL 垃圾桶可以清理警告]**  — 垃圾桶中的资产会在七天内自动删除。 如果您需要在“垃圾桶”中的资源距永久删除还有四天时间时向公司管理员发送通知，请选择“自动删除垃圾桶项目之前会发送电子邮件”。请参阅 [管理垃圾桶文件夹](/help/trash-folder.md).
 
 ## 使用覆盖图像选项 {#using-the-overwrite-images-option}
 
@@ -145,7 +145,7 @@ Adobe Dynamic Media Classic不允许两个文件具有相同的名称。 每个�
 
 如果您之前上传了图像，然后更改了原始文件（或替换了它们），则所选的覆盖选项会指定Adobe Dynamic Media Classic替换图像的方式。 没有关于图像更改的信息，但是新图像会替换旧图像。如果文件夹还包含Adobe Dynamic Media Classic中尚未包含的图像，则会添加这些图像。
 
-如果您已上载的图像在某些方面有所更改（图像已改变），但是对图像的引用保持不变，请使用此选项。在上载和翻录 Adobe® PDF 时“覆盖”也很有用。要微调Adobe Dynamic Media Classic *rips*&#x200B;图像的方式，请调整“上传”对话框中的ICC颜色配置文件选项，然后使用“覆盖”功能重新上传。
+如果您已上载的图像在某些方面有所更改（图像已改变），但是对图像的引用保持不变，请使用此选项。在上载和翻录 Adobe® PDF 时“覆盖”也很有用。微调Adobe Dynamic Media Classic *rip* 在图像中，调整“上传”对话框中的ICC颜色配置文件选项，然后使用“覆盖”功能重新上传。
 
 用于从生产服务器访问图像的Adobe Dynamic Media Classic ID是从图像文件名派生的。 在替换现有文件和用于访问图像的Adobe Dynamic Media Classic ID时，文件名中必须使用大写和小写字符。 在上传到Adobe Dynamic Media Classic之前，请确保在文件名中使用大写和小写字符是正确的，以避免Adobe Dynamic Media Classic ID仅对于同一图像大小写不同。
 
@@ -157,108 +157,108 @@ Adobe Dynamic Media Classic不允许两个文件具有相同的名称。 每个�
 
 管理员可以创建导出资源的预设。用户在导出图像时可以选择预设，这也会按照管理员指定的规范对图像进行重新格式化。
 
-要打开“图像预设”屏幕，请在全局导航栏上，转到&#x200B;**[!UICONTROL Setup]** > **[!UICONTROL Image Presets]**。
+要打开“图像预设”屏幕，请在全局导航栏上，转到 **[!UICONTROL 设置]** > **[!UICONTROL 图像预设]**.
 
-请参阅[智能成像](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/imaging-faq.html#dynamic)。
+请参阅 [智能成像](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/imaging-faq.html#dynamic).
 
 ### 创建并编辑图像预设 {#creating-and-editing-image-presets}
 
-1. 转到&#x200B;**[!UICONTROL Setup]** > **[!UICONTROL 图像预设]**。
+1. 转到 **[!UICONTROL 设置]** > **[!UICONTROL 图像预设]**.
 1. 创建预设或从现有预设开始：
 
-   * **创建图像预设**  — 选择 **[!UICONTROL 添加]**。
-   * **从现有预设中创建图像预设**  — 选择与您要创建的图像预设最相似的图像预设，然后选择编辑 ****。
+   * **创建图像预设**  — 选择 **[!UICONTROL 添加]**.
+   * **从现有预设创建图像预设**  — 选择与您要创建的图像预设最相似的图像预设，然后选择 **[!UICONTROL 编辑]**.
 
 1. 在添加（或编辑）预设页面上，输入预设的名称。
 1. 设置所需的预设选项。
 
    请参阅[图像预设选项](application-setup.md#image_preset_options)。
 
-1. 选择&#x200B;**[!UICONTROL Save]**，或者如果从现有预设开始，请选择&#x200B;**[!UICONTROL Save As]**。
-1. 要使用您自己的图像预览预设，请选择&#x200B;**[!UICONTROL 浏览]**，然后选择图像。 要使用默认图像进行预览，请选择&#x200B;**[!UICONTROL 重置]**。
+1. 选择 **[!UICONTROL 保存]**，或者如果您从现有预设开始，请选择 **[!UICONTROL 另存为]**.
+1. 要使用您自己的图像预览预设，请选择 **[!UICONTROL 浏览]** 然后选择图像。 要使用默认图像进行预览，请选择 **[!UICONTROL 重置]**.
 
-您可以编辑图像预设，方法是在“图像预设”屏幕中选择图像预设的名称，然后选择&#x200B;**[!UICONTROL 编辑]**。 要删除图像预设，请选择它，然后选择&#x200B;**[!UICONTROL 删除]**。
+您可以编辑图像预设，方法是在“图像预设”屏幕中选择图像预设的名称，然后选择 **[!UICONTROL 编辑]**. 要删除图像预设，请选择它，然后选择 **[!UICONTROL 删除]**.
 
 ### 图像预设选项 {#image-preset-options}
 
 “添加预设”和“编辑预设”屏幕提供了用于创建和编辑图像预设的选项：
 
-* **[!UICONTROL 预设名称]**  — 输入描述性名称，不留任何空格。为帮助用户识别此图像预设，请在名称中包含图像大小规范。
+* **[!UICONTROL 预设名称]**  — 输入描述性名称，不留任何空格。 为帮助用户识别此图像预设，请在名称中包含图像大小规范。
 
-* **[!UICONTROL 宽度和高度]**  — 输入传送图像的大小（以像素为单位）。
+* **[!UICONTROL 宽度和高度]**  — 以像素为单位输入传送图像的大小。
 
-* **[!UICONTROL 格式]**  — 从菜单中选择一种格式。选择GIF、JPEG、PDF或TIFF格式可显示更多选项：
+* **[!UICONTROL 格式]**  — 从菜单中选择格式。 选择GIF、JPEG、PDF或TIFF格式可显示更多选项：
 
    * GIF 颜色量化选项
 
-      * **[!UICONTROL 类型]**  — 选择“自适应”（默认）、“Web”或“Macintosh”。如果选择&#x200B;**[!UICONTROL “GIF为Alpha]**”，则“Macintosh”选项不可用。
+      * **[!UICONTROL 类型]**  — 选择“自适应”（默认）、“Web”或“Macintosh”。 如果您选择 **[!UICONTROL GIFAlpha]**，则“ Macintosh”选项不可用。
 
-      * **[!UICONTROL 抖动]**  — 选择“扩散”或“关闭”。
+      * **[!UICONTROL Dither]**  — 选择扩散或关闭。
 
-      * **[!UICONTROL 颜色数量]**  — 拖动滑块以输入2-255。
+      * **[!UICONTROL 颜色数量]**  — 拖动滑块以进入2-255。
 
-      * **[!UICONTROL 颜色列表]**  — 输入以逗号分隔的列表。例如，对于白色、灰色和黑色，输入`000000,888888,ffffff`。
+      * **[!UICONTROL 颜色列表]**  — 输入以逗号分隔的列表。 例如，对于白色、灰色和黑色，输入 `000000,888888,ffffff`.
    * JPEG 选项
 
-      * **[!UICONTROL 质量]**  — 控制JPEG压缩级别。此设置既影响文件大小，又影响图像质量。JPEG质量比例尺为1-100。
+      * **[!UICONTROL 质量]**  — 控制JPEG压缩级别。 此设置既影响文件大小，又影响图像质量。JPEG质量比例尺为1-100。
 
-      * **[!UICONTROL 启用JPG色度缩减采样]**  — 由于眼睛对高频颜色信息的敏感程度低于高频亮度，因此JPEG图像会将图像信息分为亮度和颜色分量。压缩 JPEG 图像时，通过将各组像素放到一起平均，亮度分量为全分辨率，颜色分量为缩减像素取样。缩减像素采样会将数据量减少二分之一或三分之一，而对于用户所能感知到的质量而言却几乎没有任何影响。缩减像素采样不适用于灰度图像。这种方法会减少对于高对比度图像有用的压缩的数量（例如，包含覆盖文本的图像）。
+      * **[!UICONTROL 启用JPG色度缩减采样]**  — 由于眼睛对高频颜色信息的敏感程度低于高频亮度，JPEG图像将图像信息分为亮度和颜色分量。 压缩 JPEG 图像时，通过将各组像素放到一起平均，亮度分量为全分辨率，颜色分量为缩减像素取样。缩减像素采样会将数据量减少二分之一或三分之一，而对于用户所能感知到的质量而言却几乎没有任何影响。缩减像素采样不适用于灰度图像。这种方法会减少对于高对比度图像有用的压缩的数量（例如，包含覆盖文本的图像）。
    * PDF 和 TIFF 选项
 
-      * **[!UICONTROL 压缩]**  — 选择一种压缩算法。
+      * **[!UICONTROL 压缩]**  — 选择压缩算法。
 
 
 
-* **[!UICONTROL Colorspace]**  — 选择一个颜色空间。
+* **[!UICONTROL Colorspace]**  — 选择色彩空间。
 
-* **[!UICONTROL 锐化]**  — 选择启用简单锐化选项，可在进行所有缩放后对图像应用基本锐化滤镜。锐化可以帮助补偿在以不同尺寸显示图像时可能导致的模糊。
+* **[!UICONTROL 锐化]**  — 选择启用简单锐化选项，以便在进行所有缩放后对图像应用基本锐化滤镜。 锐化可以帮助补偿在以不同尺寸显示图像时可能导致的模糊。
 
-   有关锐化、重新采样模式和USM锐化的更多信息，请参阅[锐化图像](sharpening-image.md#sharpening_an_image)。 另请参阅[锐化](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/547_sharpening1_converted%20renamed_Done-AVS)培训视频。
+   有关锐化、重新采样模式和USM锐化的更多信息，请参阅 [锐化图像](sharpening-image.md#sharpening_an_image). 另请参阅 [锐化](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/547_sharpening1_converted%20renamed_Done-AVS) 培训视频。
 
-* **[!UICONTROL 重新取样模式]**  — 选择一个重新取样模式选项。当图像缩减像素取样时，以下选项锐化该图像：
+* **[!UICONTROL 重新示例模式]**  — 选择一个重新取样模式选项。 当图像缩减像素取样时，以下选项锐化该图像：
 
-* **[!UICONTROL B — 线性]**  — 最快的重新取样方法；会出现一些锯齿伪像。
+* **[!UICONTROL B线性]**  — 最快的重新取样方法；会出现一些锯齿伪像。
 
-* **[!UICONTROL 两次立方]**  — 提高图像服务器上的CPU使用率，但会生成较锐利的图像，出现的锯齿伪像较少。
+* **[!UICONTROL 两次立方]**  — 提高图像服务器上的CPU使用率，但生成较锐利的图像，出现的锯齿伪像较少。
 
-* **[!UICONTROL 锐化2]**  — 可以生成比两次立方选项更锐利的结果，但图像服务器的CPU成本更高。
+* **[!UICONTROL 锐化2]**  — 生成的结果比两次立方选项更锐利，但图像服务器的CPU成本更高。
 
-* **[!UICONTROL 三线性]**  — 使用较高和较低分辨率（如果可用）；仅当出现锯齿问题时，才建议使用。由于减少了高频数据，此方法会减小 JPEG 的大小。
+* **[!UICONTROL 三线性]**  — 使用较高和较低分辨率（如果可用）；仅当出现锯齿问题时，才建议使用。 由于减少了高频数据，此方法会减小 JPEG 的大小。
 
-* **[!UICONTROL USM锐化]**  — 选择以下选项可微调锐化：
+* **[!UICONTROL 钝化蒙版]**  — 选择以下选项以微调锐化：
 
-* **[!UICONTROL 数量]**  — 控制对边缘像素应用的对比度数量。默认值为 1.0。对于高分辨率图像，可将该值增加到 5.0。数量用于衡量滤镜强度。
+* **[!UICONTROL 金额]**  — 控制对边缘像素应用的对比度量。 默认值为 1.0。对于高分辨率图像，可将该值增加到 5.0。数量用于衡量滤镜强度。
 
-* **[!UICONTROL 半径]**  — 确定边缘像素周围影响锐化的像素数。对于高分辨率图像，请输入 1 到 2 之间的值。较低的数值仅锐化边缘像素，较高的数值则锐化范围更宽的像素。值正确与否取决于图像的大小。
+* **[!UICONTROL 半径]**  — 确定边缘像素周围影响锐化的像素数。 对于高分辨率图像，请输入 1 到 2 之间的值。较低的数值仅锐化边缘像素，较高的数值则锐化范围更宽的像素。值正确与否取决于图像的大小。
 
-* **[!UICONTROL 阈值]**  — 确定在应用USM锐化滤镜时要忽略的对比度范围。换言之，此选项确定锐化的像素必须与周围区域相差多少，才被滤镜看作边缘像素并被锐化。为避免引进干扰，请用 0.02 到 0.2 之间的值做试验。默认值 6 锐化图像中的所有像素。
+* **[!UICONTROL 阈值]**  — 确定在应用USM锐化滤镜时要忽略的对比度范围。 换言之，此选项确定锐化的像素必须与周围区域相差多少，才被滤镜看作边缘像素并被锐化。为避免引进干扰，请用 0.02 到 0.2 之间的值做试验。默认值 6 锐化图像中的所有像素。
 
-* **[!UICONTROL 颜色空间]**  — 确定图像是使用创建图像的空间，通常是RGB（原始）还是亮度空间（强度）。
+* **[!UICONTROL 色彩空间]**  — 确定图像是使用创建图像的空间，通常是RGB（原始）还是亮度空间（强度）。
 
-* **** 颜色选择以下选项：
+* **[!UICONTROL 颜色]** 选择以下选项：
 
-* **[!UICONTROL 输出颜色配置文件]**  — 选择“ **[!UICONTROL 使]** 用默认”，或选择Adobe Dynamic Media Classic上提供的ICC颜色配置文件之一。
+* **[!UICONTROL 输出颜色配置文件]**  — 选择 **[!UICONTROL 使用默认值]** 或Adobe Dynamic Media Classic上可用的ICC颜色配置文件之一。
 
    另请参阅[ ICC 配置文件](icc-profiles.md#icc_profiles)。
 
-* **[!UICONTROL 渲染意图]**  — 如果要覆盖颜色配置文件的缺省渲染意图，请选择一个选项。如果默认的ICC配置文件之一是颜色转换的目标颜色空间，则使用此选项。 或者，输出设备（打印机或显示器）具有此配置文件的特征，并且指定的渲染意图对此配置文件有效。
+* **[!UICONTROL 渲染意图]**  — 如果要覆盖颜色配置文件的缺省渲染意图，请选择一个选项。 如果默认的ICC配置文件之一是颜色转换的目标颜色空间，则使用此选项。 或者，输出设备（打印机或显示器）具有此配置文件的特征，并且指定的渲染意图对此配置文件有效。
 
-* **[!UICONTROL 嵌入配置文件]**  — 选择此选项，以便当您在Adobe® Photoshop®中打开此图像时，该图像会使用此配置文件。
+* **[!UICONTROL 嵌入配置文件]**  — 选择此选项，以便您在Adobe® Photoshop®中打开此图像时，该图像会使用此配置文件。
 
 * **[!UICONTROL 打印分辨率]**  — 选择打印此图像的分辨率；默认为72像素。
 
-* **[!UICONTROL URL修饰符]**  — 如果您希望指定用于定义图像预设（而非设置）的URL修饰符，请在此处输入修饰符。
+* **[!UICONTROL URL修饰符]**  — 如果您要指定用于定义图像预设（而非设置）的URL修饰符，请在此处输入修饰符。
 
-* **[!UICONTROL 示例图像URL]**  — 列出Dynamic Media图像服务器用来传送带有您添加或编辑的图像预设的图像的“原始”URL字符串。该 URL 字符串编码您在“添加预设”或“编辑预设”屏幕中选择的所有格式设置。
+* **[!UICONTROL 示例图像URL]**  — 列出Dynamic Media图像服务器用于传送带有您添加或编辑的图像预设的图像的“原始”URL字符串。 该 URL 字符串编码您在“添加预设”或“编辑预设”屏幕中选择的所有格式设置。
 
 ### 编辑、删除或停用图像预设 {#editing-removing-or-deactivating-an-image-preset}
 
-1. 转到&#x200B;**[!UICONTROL Setup]** > **[!UICONTROL 图像预设]**。
+1. 转到 **[!UICONTROL 设置]** > **[!UICONTROL 图像预设]**.
 1. 在“图像预设”屏幕中，选择表中的某个预设，然后执行以下任一操作：
 
-   * 选择&#x200B;**[!UICONTROL 编辑]**，然后在“编辑预设”对话框中指定新选项。
-   * 选择&#x200B;**[!UICONTROL Delete]**&#x200B;以从列表中删除预设。
-   * 如果要从MediaPortal用户的整个Adobe Dynamic Media Classic用户界面中删除预设名称，请取消选中预设名称旁边的&#x200B;**[!UICONTROL 活动]**&#x200B;复选框。
+   * 选择 **[!UICONTROL 编辑]** ，然后在“编辑预设”对话框中指定新选项。
+   * 选择 **[!UICONTROL 删除]** 从列表中删除预设。
+   * 取消选择 **[!UICONTROL 活动]** 如果要从整个Adobe Dynamic Media Classic用户界面中为MediaPortal用户删除预设名称，请选中预设名称旁边的复选框。
 
 ## 激活或停用自适应视频预设 {#activating-or-deactivating-adaptive-video-presets}
 
@@ -266,19 +266,19 @@ Adobe Dynamic Media Classic提供了自适应视频编码预设。 它是一个�
 
 默认情况下，仅激活（启用或“打开”）“自适应视频”编码预设。您可以根据需要将其停用。在“上载作业选项”对话框的 eVideo 部分中，非活动自适应视频预设不会显示为可选择的选项。
 
-请参阅[上传和编码视频](uploading-encoding-videos.md#uploading_and_encoding_videos)。
+请参阅 [上传和编码视频](uploading-encoding-videos.md#uploading_and_encoding_videos).
 
-另请参阅[视频预设](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/549_video-presets_converted%20renamed_Done-AVS)培训视频。
+另请参阅 [视频预设](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/549_video-presets_converted%20renamed_Done-AVS) 培训视频。
 
 **激活或停用自适应视频预设:**
 
-1. 在Adobe Dynamic Media Classic右上角附近，转到&#x200B;**[!UICONTROL 设置]** > **[!UICONTROL 应用程序设置]** > **[!UICONTROL 视频预设]** > **[!UICONTROL 自适应视频预设]**。
+1. 在Adobe Dynamic Media Classic的右上角附近，转到 **[!UICONTROL 设置]** > **[!UICONTROL 应用程序设置]** > **[!UICONTROL 视频预设]** > **[!UICONTROL 自适应视频预设]**.
 1. 在“自适应视频预设”页中，取消选中某个预设名称旁边的复选框，以将该预设从“上载作业选项”对话框的“eVideo 选项”列表中删除。
-1. 选择&#x200B;**[!UICONTROL 关闭]**。
+1. 选择 **[!UICONTROL 关闭]**.
 
 ## 用于编码视频文件的视频预设 {#video-presets-for-encoding-video-files}
 
-要选择编码预设，请在“上传”页面的右下角选择&#x200B;**[!UICONTROL 作业选项]**。 在“上传作业选项”对话框中，展开“eVideo选项”，然后选择所需的视频编码预设。
+要选择编码预设，请在“上传”页面的右下角选择 **[!UICONTROL 作业选项]**. 在上传作业选项对话框中，展开eVideo选项，然后选择所需的视频编码预设。
 
 >[!NOTE]
 >
@@ -286,17 +286,17 @@ Adobe Dynamic Media Classic提供了自适应视频编码预设。 它是一个�
 
 * 从以下自适应视频编码预设或单个编码预设中进行选择：
 
-   * **[!UICONTROL 16:9自适应视频]**  — 创建16:9宽高比视频，以交付到台式机、移动设备(iPhone、iPad、Android™)和平板电脑(iPad、Android™)，并根据与查看器连接速度最匹配的分辨率和比特率进行了优化。
+   * **[!UICONTROL 16:9自适应视频]**  — 创建16:9宽高比视频，以将其交付到台式机、移动设备(iPhone、iPad、Android™)和平板电脑(iPad、Android™)，并使用与查看器的连接速度最匹配的分辨率和比特率进行优化。
 
-   * **[!UICONTROL 4:3自适应视频]**  — 创建4:3宽高比视频，以交付到台式机、移动设备(iPhone、iPad、Android™)和平板电脑(iPad、Android™)，这些视频通过最匹配查看器连接速度的分辨率和比特率进行优化。
+   * **[!UICONTROL 4:3自适应视频]**  — 创建4:3宽高比视频，以交付到台式机、移动设备(iPhone、iPad、Android™)和平板电脑(iPad、Android™)，并使用与查看器连接速度最匹配的分辨率和比特率进行优化。
 
-   * **[!UICONTROL 自适应视频]**  — 一种编码预设，可与任何宽高比配合使用，以创建视频以传送到移动设备、平板电脑和桌面。使用该预设编码的上载的源视频将设置为固定高度。但是，自动调整宽度以保持视频的高宽比。
+   * **[!UICONTROL 自适应视频]**  — 单个编码预设，可与任意宽高比配合使用，以创建视频以传送到移动设备、平板电脑和桌面。 使用该预设编码的上载的源视频将设置为固定高度。但是，自动调整宽度以保持视频的高宽比。
 
       默认情况下，在创建您自己的自定义视频编码预设时，也可以灵活地进行这种“自动缩放”。
 
-      请参阅[添加或编辑视频编码预设](uploading-encoding-videos.md#adding_or_editing_a_video_encoding_preset)。
+      请参阅 [添加或编辑视频编码预设](uploading-encoding-videos.md#adding_or_editing_a_video_encoding_preset).
 
-   * **[!UICONTROL 自适应视频编码（16:9或4:3）]**  — 创建16:9和4:3宽高比视频，以将其交付到台式机、移动设备(iPhone、iPad、Android™)和平板电脑(iPad、Android™)。所有这些都通过与查看器的连接速度最匹配的分辨率和比特率进行优化。
+   * **[!UICONTROL 自适应视频编码（16:9或4:3）]**  — 创建16:9和4:3宽高比视频，以便交付到台式机、移动设备(iPhone、iPad、Android™)和平板电脑(iPad、Android™)。 所有这些都通过与查看器的连接速度最匹配的分辨率和比特率进行优化。
 
       请参阅[自适应视频编码（16:9 或 4:3）视频预设](application-setup.md#adaptive_video_encoding_16_9_or_4_3_video_presets)。
 
@@ -310,7 +310,7 @@ Adobe Dynamic Media Classic提供了自适应视频编码预设。 它是一个�
       * 根据您计划播放视频的分辨率大小和带宽选择编码预设。
       * 您可以选择自适应视频编码，以及每个视频的一个或多个编码预设。 例如，您可以在一个上载作业中针对桌面和移动设备编码文件。
 
-选择&#x200B;**[!UICONTROL 开始上传]**&#x200B;后，将上传原始主控视频文件，并从主控文件生成编码文件。
+在选择 **[!UICONTROL 开始上传]**，则会上传原始主控视频文件，并从主控文件生成编码文件。
 
 ### 关于编码预设选项 {#about-encoding-preset-options}
 
@@ -318,15 +318,15 @@ Adobe Dynamic Media Classic提供了自适应视频编码预设。 它是一个�
 
 * **[!UICONTROL 目标连接速度]**  — 目标最终用户的Internet连接速度。
 
-* **[!UICONTROL 编码文件后缀]**  — 附加到编码视频文件以用于识别目的的后缀。
+* **[!UICONTROL 编码文件后缀]**  — 附加到编码视频文件以用于标识的后缀。
 
-* **[!UICONTROL 视频比特率（数据速率）]**  — 编码为构成视频播放一秒的数据量（千比特/秒）。
+* **[!UICONTROL 视频比特率（数据率）]**  — 编码为构成视频播放一秒的数据量（千比特/秒）。
 
 * **[!UICONTROL 像素宽度/高度]**  — 屏幕图像的宽度尺寸（以像素为单位）；屏幕图像的高度尺寸（以像素为单位）。
 
-* **[!UICONTROL 每秒帧数(fps)]**  — 每秒视频的帧数，或静止图像的数量。在美国和日本，大部分视频以 29.97 fps 拍摄；在欧洲和亚洲（不包括日本），大部分视频以 25 fps 拍摄。电影以 24 fps 拍摄。
+* **[!UICONTROL 每秒帧数(fps)]**  — 每秒视频的帧数或静止图像数。 在美国和日本，大部分视频以 29.97 fps 拍摄；在欧洲和亚洲（不包括日本），大部分视频以 25 fps 拍摄。电影以 24 fps 拍摄。
 
-* **[!UICONTROL 音频比特率]**  — 编码为构成音频播放一秒的数据量，以千比特每秒为单位。
+* **[!UICONTROL 音频比特率]**  — 经过编码以构成一秒音频播放的数据量，以千比特/秒为单位。
 
 下表显示了选择视频预设的建议最佳做法和用于指定编码文件的命名约定。
 
@@ -434,41 +434,41 @@ Adobe Dynamic Media Classic提供了自适应视频编码预设。 它是一个�
 
 您可以将富媒体内容的访问范围扩展到桌面、平板电脑和移动设备用户，并确保简化视频体验。
 
-请参阅《HTML查看器参考指南》中的[About Adobe5查看器](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/viewers-for-aem-assets-only/c-html5-aem-asset-viewers.html?lang=en#viewers-for-aem-assets-only)。
+请参阅 [关于HTML5查看器](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/viewers-for-aem-assets-only/c-html5-aem-asset-viewers.html?lang=en#viewers-for-aem-assets-only) (在《Adobe查看器参考指南》中)。
 
-请参阅[Adobe Dynamic Media Classic查看器预设兼容性矩阵](application-setup.md#scene7_viewer_preset_compatibility_matrix)。
+请参阅 [Adobe Dynamic Media Classic查看器预设兼容性矩阵](application-setup.md#scene7_viewer_preset_compatibility_matrix).
 
 请参阅[最佳做法：使用 HTML5 视频查看器](best-practice-using-html5-video.md#best_practice_using_the_html5_video_viewer)。
 
 您可以根据查看器添加社区功能。社区功能包括“嵌入”按钮、“电子邮件”按钮、“链接”按钮和“访问站点”按钮。通过这些按钮，使用查看器的用户可以与他人共享查看器或打开Adobe Dynamic Media Classic网站。
 
-另请参阅[Adobe查看器引用库示例](https://landing.adobe.com/zh-Hans/na/dynamic-media/ctir-2755/live-demos.html)。
+另请参阅 [Adobe查看器参考库示例](https://landing.adobe.com/zh-Hans/na/dynamic-media/ctir-2755/live-demos.html).
 
 ### 用于响应式设计网页的查看器支持 {#viewer-support-for-responsive-designed-web-pages}
 
 不同的网页具有不同的需求。有时，您希望网页提供一个链接，以在单独的浏览器窗口中打开HTML5查看器。 在其他情况下，需要直接将HTML5查看器嵌入到托管页面。 在后一种情况下，网页可能具有静态布局。 或者，它是“响应式”的，并在不同设备上或针对不同浏览器窗口大小显示不同。 为了满足这些需求，Adobe Dynamic Media Classic附带的HTML5查看器支持静态网页和响应式设计的网页。
 
-有关如何将响应式查看器嵌入网页的更多信息，请参阅[关于响应式图像库](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/c-about-responsive-static-image-library.html#image-serving-api)、[使用响应式图像库](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/t-using-responsive-static-image-library.html#image-serving-api)和[命令引用 — 命令属性](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/t-using-responsive-static-image-library.html#responsive-static-image-library)。
+有关如何将响应式查看器嵌入网页的更多信息，请参阅 [关于响应式图像库](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/c-about-responsive-static-image-library.html#image-serving-api), [使用响应式图像库](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/t-using-responsive-static-image-library.html#image-serving-api)和 [命令引用 — 命令属性](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/t-using-responsive-static-image-library.html#responsive-static-image-library).
 
 ### 查看器预设类型 {#viewer-preset-types}
 
 管理员可以创建和自定义以下类型的查看器预设：
 
-* **[!UICONTROL eCatalog Viewer]**  — 模拟阅读打印目录的体验。您可以在页面之间移动、放大和缩小页面上的项目、使用图像映射来查看有关页面上项目的更多信息，或搜索目录。 还可以包括“信息面板”，在映射区域具有有效的 rollover_key 属性时显示详细信息和图像映射的物品。要包括“信息面板”，请在“eCatalog 查看器预设”窗口的“信息面板设置”面板中指定“信息服务器 URL”。
+* **[!UICONTROL eCatalog查看器]**  — 模拟阅读打印目录的体验。 您可以在页面之间移动、放大和缩小页面上的项目、使用图像映射查看有关页面上项目的更多信息或搜索目录。 还可以包括“信息面板”，在映射区域具有有效的 rollover_key 属性时显示详细信息和图像映射的物品。要包括“信息面板”，请在“eCatalog 查看器预设”窗口的“信息面板设置”面板中指定“信息服务器 URL”。
 
-* **[!UICONTROL 样本集查看器]**  — 以不同的颜色、材料、纹理、外表或结构显示图像。用户选择缩略图可查看图像中的变体。
+* **[!UICONTROL 样本集查看器]**  — 以不同的颜色、材料、纹理、外观或结构显示图像。 用户选择缩略图可查看图像中的变体。
 
-* **[!UICONTROL 混合媒体集查看器]**  — 在一个查看器中显示不同类型的媒体。您可以包括样本集、旋转集、图像和视频。您可以设置各个选项卡，以包含不同类型的内容，例如，一个选项卡用于图像集、一个选项卡用于视频。从混合媒体集播放的视频使用具有时间线和视频控件（如停止、暂停、回放和播放）的标准视频查看器。您设置混合媒体集查看器预设时，指定要将哪些查看器用于“混合媒体集”中的不同类型的资源。您还可以使用“网格查看器”或“轮盘式查看器”来查看混合媒体集。
+* **[!UICONTROL 混合媒体集查看器]**  — 在一个查看器中显示不同类型的媒体。 您可以包括样本集、旋转集、图像和视频。您可以设置各个选项卡，以包含不同类型的内容，例如，一个选项卡用于图像集、一个选项卡用于视频。从混合媒体集播放的视频使用具有时间线和视频控件（如停止、暂停、回放和播放）的标准视频查看器。您设置混合媒体集查看器预设时，指定要将哪些查看器用于“混合媒体集”中的不同类型的资源。您还可以使用“网格查看器”或“轮盘式查看器”来查看混合媒体集。
 
 * **[!UICONTROL 旋转集查看器]**  — 提供图像的多个视图，以便用户可以旋转对象以检查不同的侧边和角度。
 
-* **视频查看器**  — 使用源文件的分辨率尺寸或自定义大小显示视频。Adobe Dynamic Media Classic附带了许多用于播放视频的预定义查看器预设，如果您是管理员，则可以创建自定义视频查看器预设。 有十几种不同的设置可用于配置“视频查看器”。您可以配置其大小、前景和背景颜色、视频和音频控件、进度条、用户界面外观、社交功能和“帮助”。
+* **视频查看器**  — 使用源文件的分辨率尺寸或自定义大小显示视频。 Adobe Dynamic Media Classic附带了许多用于播放视频的预定义查看器预设，如果您是管理员，则可以创建自定义视频查看器预设。 有十几种不同的设置可用于配置“视频查看器”。您可以配置其大小、前景和背景颜色、视频和音频控件、进度条、用户界面外观、社交功能和“帮助”。
 
-* **[!UICONTROL 缩放查看器]**  — 提供了三种类型的缩放查看器选项：
+* **[!UICONTROL 缩放查看器]**  — 提供三种类型的缩放查看器选项：
 
-* **[!UICONTROL 缩放查看器]**  — 允许用户通过选择该区域来缩放该区域。他们可以选择用于放大、缩小图像并将图像重置为默认大小的控件。
+* **[!UICONTROL 缩放查看器]**  — 允许用户通过选择区域来放大区域。 他们可以选择用于放大、缩小图像并将图像重置为默认大小的控件。
 
-* **[!UICONTROL 缩放查看器：弹出]**  — 在原始图像旁边显示缩放区域的第二个图像。没有控件可以使用，用户只需将选取范围移动到他们要查看的区域上即可。
+* **[!UICONTROL 缩放查看器：飞出]**  — 在原始图像旁边显示缩放区域的第二个图像。 没有控件可以使用，用户只需将选取范围移动到他们要查看的区域上即可。
 
 在确定此查看器的完整带宽使用量时，请考虑在查看器中有主图像和弹出图像。主图像大小（舞台宽度和高度）和缩放系数决定了弹出图像大小。为防止弹出文件大小变得太大，需对这两个值进行平衡：如果您的主图像大小很大，请降低缩放系数值。（弹出宽度和弹出高度决定了弹出窗口的大小，但不决定提供给查看器的弹出图像的大小。）
 
@@ -480,11 +480,11 @@ Adobe Dynamic Media Classic提供了自适应视频编码预设。 它是一个�
 
 下表标识了当前可用的Adobe Dynamic Media Classic查看器预设。 该表还指定了查看器与桌面和移动设备的兼容性，以及对每个指定查看器使用的技术。
 
-另请参阅[Adobe查看器引用库示例](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)。
+另请参阅 [Adobe查看器参考库示例](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html).
 
 有关查看器支持的 Web 浏览器和操作系统版本的信息，您可以查阅查看器发行说明。
 
-请参阅[Adobe查看器参考发行说明](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources.html)。
+请参阅 [Adobe查看器参考发行说明](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources.html).
 
 |  | 查看器技术 | 桌面 | Apple iPhone | Apple iPad | Android™智能手机 | Android™平板电脑 |
 |--- |--- |--- |--- |--- |--- |--- |
@@ -525,12 +525,12 @@ Adobe Dynamic Media Classic提供了自适应视频编码预设。 它是一个�
 
 Adobe Dynamic Media Classic支持为MP4 H.264视频播放移动设备视频。
 
-* 您可以在以下位置找到支持此视频格式的BlackBerry®设备：[BlackBerry®](https://developer.blackberry.com/devzone/develop/supported_media/bb10_media_support.html)上支持的视频格式
-* 您还可以在以下位置找到支持此视频格式的Windows®设备：[Windows® Phone](https://docs.microsoft.com/en-us/windows/uwp/audio-video-camera/supported-codecs)上支持的视频格式
+* 您可以在以下位置找到支持此视频格式的BlackBerry®设备： [BlackBerry®上支持的视频格式](https://developer.blackberry.com/devzone/develop/supported_media/bb10_media_support.html)
+* 您还可以在以下位置找到支持此视频格式的Windows®设备： [Windows® Phone上支持的视频格式](https://docs.microsoft.com/en-us/windows/uwp/audio-video-camera/supported-codecs)
 
 |  | 查看器技术 | 桌面 | AppleiPhone | AppleiPad | Android™智能手机 | Android™平板电脑 | BlackBerry® Smartphone | Windows® Phone |
 |--- |--- |--- |--- |--- |--- |--- |--- |--- |
-| Universal_HTML5_Video（包括对隐藏式字幕的支持。） 请参阅[最佳实践：使用通用HTML5视频查看器。](best-practice-using-html5-video.md#best_practice_using_the_html5_video_viewer) | HTML5 | X | X | X | X | X | X | X |
+| Universal_HTML5_Video（包括对隐藏式字幕的支持。） 请参阅 [最佳实践：使用通用HTML5视频查看器。](best-practice-using-html5-video.md#best_practice_using_the_html5_video_viewer) | HTML5 | X | X | X | X | X | X | X |
 | Universal_HTML5_Video_social（包括对隐藏式字幕和社交媒体的支持。） | HTML5 | X | X | X | X | X | X | X |
 
 |  | 查看器技术 | 桌面 | AppleiPhone | AppleiPad | Android™智能手机 | Android™平板电脑 |
@@ -552,88 +552,88 @@ Adobe Dynamic Media Classic支持为MP4 H.264视频播放移动设备视频。
 
 ### 关于“查看者预设”屏幕 {#about-the-viewer-preset-screen}
 
-在“查看器预设”屏幕上创建和管理“查看器预设”。要打开此屏幕，请转到&#x200B;**[!UICONTROL Setup]** > **[!UICONTROL 查看器预设]**。
+在“查看器预设”屏幕上创建和管理“查看器预设”。要打开此屏幕，请转到 **[!UICONTROL 设置]** > **[!UICONTROL 查看器预设]**.
 
 “查看器预设”屏幕提供了用于执行以下任务的工具：
 
-* **添加预设**  — 在“添 **** 加查看器预设”对话框中选择“添加”并进行选择。
+* **添加预设**  — 选择 **[!UICONTROL 添加]** 和，在“添加查看器预设”对话框中进行选择。
 
        请参阅[添加和编辑查看器预设](application-setup.md#adding_and_editing_viewer_presets)。
    
-* **编辑预设**  — 选择预设，然后选择编辑 ****。
+* **编辑预设**  — 选择预设，然后选择 **[!UICONTROL 编辑]**.
 
        请参阅[添加和编辑查看器预设](application-setup.md#adding_and_editing_viewer_presets)。
    
-* **删除预设**  — 选择预设，然后选择删 **[!UICONTROL 除]**。
+* **删除预设**  — 选择预设，然后选择 **[!UICONTROL 删除]**.
 
-* **导出预设**  — 选择一个HTML5查看器预设，然后选择“导出”以下 **** 载查看器外观，以便您可以将其用作创建和添加其他查看器预设的基础。
+* **导出预设**  — 选择HTML5查看器预设，然后选择 **[!UICONTROL 导出]** 以下载查看器外观，以便您可以将其用作创建和添加其他查看器预设的基础。
 
        请参阅[导出HTML5查看器预设](application-setup.md#exporting_an_html5_viewer_preset)。
    
-* **过滤查看器预设列表**  — 使用以下工具过滤列表：
+* **过滤查看器预设列表**  — 使用这些工具过滤列表：
 
        *打开**活动/不活动**下拉列表，然后选择一个选项以显示活动预设、不活动预设或所有预设。
-       *打开**查看器**下拉列表，然后选择一个选项以仅查看特定类型的查看器。选择**[!UICONTROL 所有查看器]**以查看所有查看器。
+       *打开**查看器**下拉列表，然后选择一个选项以仅查看特定类型的查看器。 选择**[!UICONTROL 所有查看器]**查看所有查看器。
    
-* **排序预设**  — 选择列标题(**[!UICONTROL 活动]**、 **[!UICONTROL 类型]**、 **[!UICONTROL 预设]**&#x200B;或 **[!UICONTROL 平台]**)，以对列上的列表进行排序。再次选择列标题，以按降序（或升序）对列表进行排序。
+* **排序预设**  — 选择列标题(**[!UICONTROL 活动]**, **[!UICONTROL 类型]**, **[!UICONTROL 预设]**&#x200B;或 **[!UICONTROL 平台]**)来对列的列表进行排序。 再次选择列标题，以按降序（或升序）对列表进行排序。
 
-* **激活和停用预设**  — 选择一个预设，然后选择其“活动”选项以激活或停用预设。
+* **激活和停用预设**  — 选择一个预设，然后选择其“活动”选项以激活或取消激活该预设。
 
        请参阅[激活或停用查看器预设](application-setup.md#activating_or_deactivating_viewer_presets)。
    
 >[!NOTE]
 >
->选择“查看器预设”页面右侧的&#x200B;**[!UICONTROL 预览]**，以便您能够查看所选查看器预设中资产的外观。 要查看其他资产，请在“查看器预设”页面中选择&#x200B;**[!UICONTROL 浏览]** ，然后在“选择资产预览”对话框中选择其他资产。
+>选择 **[!UICONTROL 预览]** 在“查看器预设”页面的右侧，您可以查看您选择的查看器预设中资产的外观。 要查看其他资产，请选择 **[!UICONTROL 浏览]** 在“查看器预设”页面中，并在“选择资产预览”对话框中选择其他资产。
 
 ### 添加和编辑查看器预设 {#adding-and-editing-viewer-presets}
 
-除了使用用户界面中的&#x200B;**[!UICONTROL Add]**&#x200B;添加查看器预设之外，您还可以使用&#x200B;**[!UICONTROL Export]**&#x200B;添加查看器预设。 您只需导出现有的HTML5查看器预设，然后将其用作新预设的基础。
+除了使用 **[!UICONTROL 添加]** 在用户界面中，您还可以使用 **[!UICONTROL 导出]** 添加查看器预设。 您只需导出现有的HTML5查看器预设，然后将其用作新预设的基础。
 
-请参阅[导出HTML5查看器预设](application-setup.md#exporting_an_html5_viewer_preset)。
+请参阅 [导出HTML5查看器预设](application-setup.md#exporting_an_html5_viewer_preset).
 
-另请参阅[查看器预设](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/550_viewer-presets_converted%20renamed_Done-AVS)培训视频。
+另请参阅 [查看器预设](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/550_viewer-presets_converted%20renamed_Done-AVS) 培训视频。
 
 **添加和编辑查看器预设:**
 
-1. 在Adobe Dynamic Media Classic的右上角附近，转到&#x200B;**[!UICONTROL Setup]** > **[!UICONTROL Viewer Presets]**。
+1. 在Adobe Dynamic Media Classic的右上角附近，转到 **[!UICONTROL 设置]** > **[!UICONTROL 查看器预设]**.
 
    您可以过滤预设列表。例如，要仅查看视频查看器的预设，请从表正上方的工具栏上的“查看器”下拉列表中选择“视频查看器”。
 
 1. 在“查看器预设”页面中，在“查看器预设”屏幕上添加或编辑查看器预设。
 
-   * **添加**  — 在工具栏中，选择 **[!UICONTROL 添加]**。在添加查看器预设对话框中，选择一个平台，然后选择富媒体资产类型。
+   * **添加**  — 在工具栏中，选择 **[!UICONTROL 添加]**. 在添加查看器预设对话框中，选择一个平台，然后选择富媒体资产类型。
 
-          创建完查看器预设后，选择**[!UICONTROL 另存为]**。
+          选择**[!UICONTROL 另存为]**查看器预设创建完成后。
       
-   * **从现有查看器预设开始添加**  — 在表中，选择视频查看器预设，然后选择工具栏 **** 的编辑。
+   * **从现有查看器预设开始添加**  — 在表中，选择视频查看器预设，然后选择 **[!UICONTROL 编辑]** 中。
 
-          重新配置视频查看器后，选择**[!UICONTROL 另存为]**，以在“预设名称”文本字段中使用其他名称保存预设。
+          重新配置视频查看器后，选择**[!UICONTROL 另存为]**以在“预设名称”文本字段中使用其他名称保存预设。
       
-   * **编辑**  — 选择现有的查看器预设，然后选择 **[!UICONTROL 编辑]**。
+   * **编辑**  — 选择现有的查看器预设，然后选择 **[!UICONTROL 编辑]**.
 
 1. 在配置查看器屏幕的预设名称字段中，输入或编辑预设名称。
 1. 设置其余所需的选项。
 
    >[!NOTE]
    >
-   >选择&#x200B;**[!UICONTROL 与源相同]**&#x200B;可自动将视频查看器的大小调整为编码视频本身的分辨率大小。 如果选择此选项，则无法输入阶段宽度和阶段高度。 相反，这些选项来自视频自身。如果选择&#x200B;**[!UICONTROL 与源相同]**，请设置“边距大小”选项以反映视频播放区域外的外观尺寸。 该边距大小是视频控件的像素高度和宽度。您可以使用下图来帮助确定要使用的边距大小。*
+   >选择 **[!UICONTROL 与源相同]** 以自动将视频查看器的大小调整为编码视频本身的分辨率大小。 如果选择此选项，则无法输入阶段宽度和阶段高度。 相反，这些选项来自视频自身。如果您选择 **[!UICONTROL 与源相同]**，设置边距大小选项以反映视频播放区域外的外观尺寸。 该边距大小是视频控件的像素高度和宽度。您可以使用下图来帮助确定要使用的边距大小。*
 
    ![视频查看器的边距配置](assets/vs_video_viewer_configure_margin.png)
 
 1. 执行以下任一操作：
 
-   * 如果通过从现有预设开始添加查看器预设，请选择&#x200B;**[!UICONTROL 另存为]**。
-   * 如果添加或编辑了查看器预设，请选择&#x200B;**[!UICONTROL Save]**。
+   * 选择 **[!UICONTROL 另存为]** 是否从现有预设开始添加查看器预设。
+   * 选择 **[!UICONTROL 保存]** 如果添加或编辑了查看器预设，请执行以下操作：
 
 ### 导出HTML5查看器预设 {#exporting-an-html-viewer-preset}
 
 您可以导出现有的HTML5查看器预设，以用作创建HTML5查看器预设的基础。 该导出选项很有用，因为您不必从头开始创建查看器。相反，您会导出外观和行为与所需预设接近的预设，然后以此为基础开始进行设计调整。
 
-Adobe Dynamic Media Classic中所有默认的现成查看器预设CSS文件都使用指向`Scene7SharedAssets`上资产的相对图像服务路径。 例如，以下是查看器预设CSS文件中图像资产的相对路径，位于
+Adobe Dynamic Media Classic中所有默认的现成查看器预设CSS文件都使用指向上资产的相对图像服务路径 `Scene7SharedAssets`. 例如，以下是查看器预设CSS文件中图像资产的相对路径，位于
 
-`Scene7SharedAsset`:  `.s7videoviewer .s7fullscreenbutton[state][selected] { background-image: url(/is/image/Scene7SharedAssets/FullScreenButton_dark_sprite?scl=1&fmt=png-alpha); }`
+`Scene7SharedAsset`: `.s7videoviewer .s7fullscreenbutton[state][selected] { background-image: url(/is/image/Scene7SharedAssets/FullScreenButton_dark_sprite?scl=1&fmt=png-alpha); }`
 
-但是，如果您在自己的网站上托管查看器CSS文件，则必须通过在自己的环境中使用指向图像服务器的显式路径来解析这些相对图像路径。 例如，如果要将上面的相对路径更新为显式路径，则可能如下所示，其中`https://s7d1.scene7.com`是图像服务器的直接路径：`https://s7d1.scene7.com/is/image/Scene7SharedAssets/FullScreenButton_dark_sprite?scl=1&fmt=png-alpha`
+但是，如果您在自己的网站上托管查看器CSS文件，则必须通过在自己的环境中使用指向图像服务器的显式路径来解析这些相对图像路径。 例如，如果要将上面的相对路径更新为显式路径，则可能如下所示，其中 `https://s7d1.scene7.com` 是图像服务器的直接路径： `https://s7d1.scene7.com/is/image/Scene7SharedAssets/FullScreenButton_dark_sprite?scl=1&fmt=png-alpha`
 
 **要导出HTML5查看器预设，请执行以下操作：**
 
@@ -646,38 +646,38 @@ Adobe Dynamic Media Classic中所有默认的现成查看器预设CSS文件都�
 https://s7d1.scene7.com/is/image/Scene7SharedAssets/FullScreenButton_dark_sprite?scl=1&fmt=png-alpha
 ```
 
-1. 转到&#x200B;**[!UICONTROL Setup]** > **[!UICONTROL 查看器预设]**。
-1. 在“查看器预设”工具栏的左侧第二个下拉列表中，选择&#x200B;**[!UICONTROL HTML5]**。
+1. 转到 **[!UICONTROL 设置]** > **[!UICONTROL 查看器预设]**.
+1. 在“查看器预设”工具栏的左侧第二个下拉列表中，选择 **[!UICONTROL HTML5]**.
 1. 在左边的第三个下拉列表中，选择“**[!UICONTROL 所有查看器]**”。
 1. 选择要用作新查看器预设基础的查看器HTML5查看器预设。
-1. 在工具栏中，选择&#x200B;**[!UICONTROL 导出]**。
-1. 在导出选定的资产对话框中，选择&#x200B;**[!UICONTROL 提交导出]**。
+1. 在工具栏中，选择 **[!UICONTROL 导出]**.
+1. 在导出选定的资产对话框中，选择 **[!UICONTROL 提交导出]**.
 
    导出后，您将获取CSS文件。 下载并解压缩此文件。
 
 1. 在 CSS 编辑器中打开 CSS 文件，进行更改，然后保存该文件。
 1. 将CSS文件上传到Adobe Dynamic Media Classic。
 
-   请参阅[上传文件](uploading-files.md#uploading_files)。
+   请参阅 [上传文件](uploading-files.md#uploading_files).
 
 1. 将CSS文件发布到Dynamic Media图像服务器。
 
-   请参阅[发布文件](publishing-files.md#publishing_files)。
+   请参阅 [发布文件](publishing-files.md#publishing_files).
 
 1. 照常添加新的查看器预设。选择您上传的查看器CSS文件。
 
-   请参阅[添加和编辑查看器预设](application-setup.md#adding_and_editing_viewer_presets)。
+   请参阅 [添加和编辑查看器预设](application-setup.md#adding_and_editing_viewer_presets).
 
 ### 激活或停用查看器预设 {#activating-or-deactivating-viewer-presets}
 
-要创建用于显示资产的URL，用户需在“预览”对话框中打开“预设”下拉列表，选择查看器预设，然后选择&#x200B;**[!UICONTROL 复制URL]**（请参阅[复制查看器预设的URL](application-setup.md#copying_the_url_of_a_viewer_preset)）。 此“预设”列表提供了管理员在“查看器预设”屏幕上添加和管理的“查看器预设”。例如，在用户预览 eCatalog 时，所有活动的 eCatalog 查看器预设都显示在“预览”对话框的“预设”下拉列表上。
+要创建用于显示资产的URL，用户需在“预览”对话框中打开“预设”下拉列表，选择查看器预设，然后选择 **[!UICONTROL 复制URL]** (请参阅 [复制查看器预设的URL](application-setup.md#copying_the_url_of_a_viewer_preset))。 此“预设”列表提供了管理员在“查看器预设”屏幕上添加和管理的“查看器预设”。例如，在用户预览 eCatalog 时，所有活动的 eCatalog 查看器预设都显示在“预览”对话框的“预设”下拉列表上。
 
 除非您在“查看器预设”屏幕上停用查看器预设，否则“预览”对话框的“预设”下拉列表可能变得内容越来越多。
 
 **激活或停用查看器预设:**
 
-1. 转到&#x200B;**[!UICONTROL Setup]** > **[!UICONTROL 查看器预设]**。
-1. 在“查看器预设”页面上，选择或取消选择&#x200B;**[!UICONTROL 活动]**&#x200B;选项，以激活或取消激活查看器预设。
+1. 转到 **[!UICONTROL 设置]** > **[!UICONTROL 查看器预设]**.
+1. 在“查看器预设”页面上，选择或取消选择 **[!UICONTROL 活动]** 用于激活或取消激活查看器预设的选项。
 
 ### 复制查看器预设的URL {#copying-the-url-of-a-viewer-preset}
 
@@ -690,16 +690,16 @@ URL 即复制到剪贴板中。您可以根据需要在网页的 HTML 代码、�
 1. 在“浏览”面板中选择资源。
 1. 在“资源浏览”面板上方的工具栏右侧，执行以下任一操作：
 
-   * 选择&#x200B;**[!UICONTROL 网格视图]**。 在“资源浏览”面板中，双击单个资源以便在详细信息视图中将其打开。在右侧的“URL和嵌入代码”面板中，选择所需查看器右侧的&#x200B;**[!UICONTROL 复制URL]** 。
-   * 选择&#x200B;**[!UICONTROL 网格视图]**。 在“资产浏览”面板中，选择一个资产，然后在缩略图图像下方，转到&#x200B;**[!UICONTROL 预览]** > **[!UICONTROL 查看器列表]**。
+   * 选择 **[!UICONTROL 网格视图]**. 在“资源浏览”面板中，双击单个资源以便在详细信息视图中将其打开。在右侧的URL和嵌入代码面板中，选择 **[!UICONTROL 复制URL]** 查看者的右侧。
+   * 选择 **[!UICONTROL 网格视图]**. 在资产浏览面板中，选择一个资产，然后在缩略图图像下方，转到 **[!UICONTROL 预览]** > **[!UICONTROL 查看器列表]**.
 
-   在“查看器列表”页面的表的“操作”列下，选择&#x200B;**[!UICONTROL 复制URL]**。
+   在“查看器列表”页面的表的“操作”列下，选择 **[!UICONTROL 复制URL]**.
 
-   * 选择&#x200B;**[!UICONTROL 列表视图]**。 在“资产浏览”面板中，选择一个资产，然后转到缩略图图像右侧的&#x200B;**[!UICONTROL 预览]** > **[!UICONTROL 查看器列表]**。
-   在“查看器列表”页面的表的“操作”列下，选择&#x200B;**[!UICONTROL 复制URL]**。
+   * 选择 **[!UICONTROL 列表视图]**. 在资产浏览面板中，选择一个资产，然后在缩略图图像的右侧，转到 **[!UICONTROL 预览]** > **[!UICONTROL 查看器列表]**.
+   在“查看器列表”页面的表的“操作”列下，选择 **[!UICONTROL 复制URL]**.
 
-   * 选择&#x200B;**[!UICONTROL 网格视图]**、**[!UICONTROL 列表视图]**&#x200B;或&#x200B;**[!UICONTROL 详细信息视图]**。 在同一工具栏中，转到&#x200B;**[!UICONTROL 预览]** > **[!UICONTROL 查看器列表]**。
-   在“查看器列表”页面的表的“操作”列下，选择&#x200B;**[!UICONTROL 复制URL]**。
+   * 选择 **[!UICONTROL 网格视图]**, **[!UICONTROL 列表视图]**&#x200B;或 **[!UICONTROL 详细信息视图]**. 在同一工具栏上，转到 **[!UICONTROL 预览]** > **[!UICONTROL 查看器列表]**.
+   在“查看器列表”页面的表的“操作”列下，选择 **[!UICONTROL 复制URL]**.
 
 ### 复制查看器预设的嵌入代码 {#copying-the-embed-code-of-a-viewer-preset}
 
@@ -712,19 +712,19 @@ URL 即复制到剪贴板中。您可以根据需要在网页的 HTML 代码、�
 1. 在“资源浏览”面板中选择资源。
 1. 在“资源浏览”面板上方的工具栏右侧，执行以下任一操作：
 
-   * 选择&#x200B;**[!UICONTROL 网格视图]**。 在“资源浏览”面板中，双击单个资源以便在详细信息视图中将其打开。在右侧的URL面板中，选择&#x200B;**[!UICONTROL 嵌入代码]**。
-   * 选择&#x200B;**[!UICONTROL 网格视图]**。 在“资产浏览”面板中，选择一个资产，然后在缩略图图像下方，转到&#x200B;**[!UICONTROL 预览]** > **[!UICONTROL 查看器列表]**。
+   * 选择 **[!UICONTROL 网格视图]**. 在“资源浏览”面板中，双击单个资源以便在详细信息视图中将其打开。在右侧的URL面板中，选择 **[!UICONTROL 嵌入代码]**.
+   * 选择 **[!UICONTROL 网格视图]**. 在资产浏览面板中，选择一个资产，然后在缩略图图像下方，转到 **[!UICONTROL 预览]** > **[!UICONTROL 查看器列表]**.
 
-   在“查看器列表”页面的表的“操作”列下，选择&#x200B;**[!UICONTROL 嵌入代码]**。
+   在“查看器列表”页面的表的“操作”列下，选择 **[!UICONTROL 嵌入代码]**.
 
-   * 选择&#x200B;**[!UICONTROL 列表视图]**。 在“资产浏览”面板中，选择一个资产，然后转到缩略图图像右侧的&#x200B;**[!UICONTROL 预览]** > **[!UICONTROL 查看器列表]**。
-   在“查看器列表”页面的表的“操作”列下，选择&#x200B;**[!UICONTROL 嵌入代码]**。
+   * 选择 **[!UICONTROL 列表视图]**. 在资产浏览面板中，选择一个资产，然后在缩略图图像的右侧，转到 **[!UICONTROL 预览]** > **[!UICONTROL 查看器列表]**.
+   在“查看器列表”页面的表的“操作”列下，选择 **[!UICONTROL 嵌入代码]**.
 
-   * 选择&#x200B;**[!UICONTROL 网格视图]**、**[!UICONTROL 列表视图]**&#x200B;或&#x200B;**[!UICONTROL 详细信息视图]**。 在同一工具栏中，转到&#x200B;**[!UICONTROL 预览]** > **[!UICONTROL 查看器列表]**。
-   在“查看器列表”页面的表的“操作”列下，选择&#x200B;**[!UICONTROL 嵌入代码]**。
+   * 选择 **[!UICONTROL 网格视图]**, **[!UICONTROL 列表视图]**&#x200B;或 **[!UICONTROL 详细信息视图]**. 在同一工具栏上，转到 **[!UICONTROL 预览]** > **[!UICONTROL 查看器列表]**.
+   在“查看器列表”页面的表的“操作”列下，选择 **[!UICONTROL 嵌入代码]**.
 
-1. 在“嵌入代码”对话框中，选择&#x200B;**[!UICONTROL 复制到剪贴板]**。
-1. 选择&#x200B;**[!UICONTROL 关闭]**。
+1. 在“嵌入代码”对话框中，选择 **[!UICONTROL 复制到剪贴板]**.
+1. 选择 **[!UICONTROL 关闭]**.
 
 ## 配置默认查看器 {#configuring-default-viewers}
 
@@ -740,12 +740,12 @@ URL 即复制到剪贴板中。您可以根据需要在网页的 HTML 代码、�
 
 **配置默认查看器:**
 
-1. 在“设置”下拉列表中，选择&#x200B;**[!UICONTROL 应用程序设置]**。
-1. 在“设置”窗口的左窗格中，转到&#x200B;**[!UICONTROL 应用程序设置]** > **[!UICONTROL 查看器]**
-1. 选择&#x200B;**[!UICONTROL 默认查看器]**。
+1. 在设置下拉列表中，选择 **[!UICONTROL 应用程序设置]**.
+1. 在“设置”窗口的左窗格中，转到 **[!UICONTROL 应用程序设置]** > **[!UICONTROL 查看器]**
+1. 选择 **[!UICONTROL 默认查看器]**.
 1. 在“默认查看器”窗口中，在每种资源类型的下拉列表中，选择要与该资源的预览关联的查看器。
-1. 在“默认查看器”窗口的右下角，选择&#x200B;**[!UICONTROL 保存设置]**。
-1. 在“设置”窗口的右下角，选择&#x200B;**[!UICONTROL 关闭]**&#x200B;以返回到“资产”窗口。
+1. 在“默认查看器”窗口的右下角，选择 **[!UICONTROL 保存设置]**.
+1. 在“设置”窗口的右下角，选择 **[!UICONTROL 关闭]** 返回“资产”窗口。
 
 ## 元数据视图 {#metadata-views}
 
@@ -755,25 +755,25 @@ Adobe Dynamic Media Classic提供了预定义的元数据视图，管理员可�
 
 ### 创建元数据视图 {#creating-a-metadata-view}
 
-1. 转到&#x200B;**[!UICONTROL 设置]** > **[!UICONTROL 应用程序设置]** > **[!UICONTROL 元数据]** > **[!UICONTROL 元数据视图]**。
-1. 选择&#x200B;**[!UICONTROL Add]**。
+1. 转到 **[!UICONTROL 设置]** > **[!UICONTROL 应用程序设置]** > **[!UICONTROL 元数据]** > **[!UICONTROL 元数据视图]**.
+1. 选择 **[!UICONTROL 添加]**.
 1. 在预设名称文本字段中，输入视图的名称。
-1. （可选）选中&#x200B;**[!UICONTROL 设为默认]**，以使此视图成为用户在详细信息视图中打开元数据面板时看到的视图。
-1. （可选）选择&#x200B;**[!UICONTROL Include UDF]**&#x200B;以在视图中包含用户定义的字段。 用户定义的字段显示在详细信息视图的“元数据”面板的顶部。
-1. 选择您希望查看的字段（选择&#x200B;**[!UICONTROL 全选]**&#x200B;以选择所有字段）。
-1. 选择&#x200B;**[!UICONTROL Save]**。
+1. （可选）检查 **[!UICONTROL 设为默认值]** 使此视图成为用户在详细信息视图中打开元数据面板时看到的视图。
+1. （可选）选择 **[!UICONTROL 包括UDF]** ，以在视图中包含用户定义的字段。 用户定义的字段显示在详细信息视图的“元数据”面板的顶部。
+1. 选择要用于视图的字段(选择 **[!UICONTROL 全选]** 选择所有字段)。
+1. 选择 **[!UICONTROL 保存]**.
 
    视图的选定类别和字段显示在“预览”面板中。
 
 ### 管理元数据视图 {#managing-metadata-views}
 
-1. 转到&#x200B;**[!UICONTROL 设置]** > **[!UICONTROL 应用程序设置]** > **[!UICONTROL 元数据]** > **[!UICONTROL 元数据视图]**。
+1. 转到 **[!UICONTROL 设置]** > **[!UICONTROL 应用程序设置]** > **[!UICONTROL 元数据]** > **[!UICONTROL 元数据视图]**.
 1. 执行以下任一操作：
 
    * 要预览视图，请将其选中。视图中的字段将显示在“预览”面板中。
-   * 要编辑视图，请选择它，然后选择&#x200B;**[!UICONTROL 编辑]**。 然后，在“预览”面板上选择或取消选择字段名称，并选择或取消选择&#x200B;**[!UICONTROL 包括UDF]**&#x200B;选项。
-   * 要删除视图，请选择它，然后选择&#x200B;**[!UICONTROL Delete]**。
-   * 要使视图成为默认视图，请选择它，然后选择&#x200B;**[!UICONTROL 设为默认]**。 默认视图是用户在详细信息视图中打开资产并转到元数据面板时看到的视图。
+   * 要编辑视图，请选择它，然后选择 **[!UICONTROL 编辑]**. 然后，在“预览”面板上选择或取消选择字段名称，然后选择或取消选择 **[!UICONTROL 包括UDF]** 选项。
+   * 要删除视图，请选择它，然后选择 **[!UICONTROL 删除]**.
+   * 要使视图成为默认视图，请选择它，然后选择 **[!UICONTROL 设为默认值]**. 默认视图是用户在详细信息视图中打开资产并转到元数据面板时看到的视图。
 
 ## 元数据预设 {#metadata-presets}
 
@@ -783,30 +783,30 @@ Adobe Dynamic Media Classic提供了预定义的元数据视图，管理员可�
 
 ### 创建或编辑元数据预设 {#creating-or-editing-a-metadata-preset}
 
-1. 转到&#x200B;**[!UICONTROL Setup]** > **[!UICONTROL 应用程序设置]** > **[!UICONTROL 元数据]** > **[!UICONTROL 元数据预设]**。
+1. 转到 **[!UICONTROL 设置]** > **[!UICONTROL 应用程序设置]** > **[!UICONTROL 元数据]** > **[!UICONTROL 元数据预设]**.
 1. 在“元数据预设”屏幕中，执行以下任一操作：
 
-   * 要创建预设，请选择&#x200B;**[!UICONTROL Add]**。 在元数据模板名称文本字段中，键入预设的名称。 选择&#x200B;**[!UICONTROL 元数据视图]**，然后从下拉列表中选择一个视图（请参阅[元数据视图](application-setup.md#metadata_views)）。
-   * 要编辑现有预设，请从元数据预设列表中选择该预设，然后选择&#x200B;**[!UICONTROL 编辑]**。
+   * 要创建预设，请选择 **[!UICONTROL 添加]**. 在元数据模板名称文本字段中，键入预设的名称。 选择 **[!UICONTROL 元数据视图]**，然后从下拉列表中选择一个视图(请参阅 [元数据视图](application-setup.md#metadata_views))。
+   * 要编辑现有预设，请从元数据预设列表中选择该预设，然后选择 **[!UICONTROL 编辑]**.
 
 1. 展开您要在预设中包括的标题，并在您要在预设中包括的不同字段中输入值。
-1. 选择&#x200B;**[!UICONTROL Save]**。
+1. 选择 **[!UICONTROL 保存]**.
 
    预设的所选类别和字段将显示在“预览”面板中。
 
 ### 管理元数据预设 {#managing-metadata-presets}
 
-1. 转到&#x200B;**[!UICONTROL Setup]** > **[!UICONTROL 应用程序设置]** > **[!UICONTROL 元数据]** > **[!UICONTROL 元数据预设]**。
+1. 转到 **[!UICONTROL 设置]** > **[!UICONTROL 应用程序设置]** > **[!UICONTROL 元数据]** > **[!UICONTROL 元数据预设]**.
 1. 执行以下任一操作：
 
    * 要预览预设，请选择您要预览的预设。预设信息（类别和字段）将显示在“预览”屏幕中。
-   * 要删除预设，请选择预设，然后选择&#x200B;**[!UICONTROL 删除]**。
+   * 要删除预设，请选择预设，然后选择 **[!UICONTROL 删除]**.
 
 ## 用户定义的字段 {#user-defined-fields}
 
 Media Portal 管理员或公司管理员可以创建自定义的、用户定义的元数据字段。自定义字段可帮助您组织Adobe Dynamic Media Classic中的资产。 您可以根据需要将字段标记为活动。 激活后，这些自定义元数据字段的名称会显示在详细信息视图的“元数据”面板中。 用户可以在用户定义的元数据字段中输入信息以描述资源。用户也可以使用户定义的元数据字段成为搜索条件。
 
-高效使用用户定义的元数据字段的一种方式是为特定启动或销售延迟资源的激活时间。根据&#x200B;*Date*&#x200B;类型定义“activation”字段。 然后，使用详细信息视图或&#x200B;**[!UICONTROL 文件]** > **[!UICONTROL 编辑信息]**&#x200B;中的&#x200B;**[!UICONTROL 元数据]**&#x200B;面板，可以指定资产激活的时间。 Adobe Dynamic Media Classic会检查资产的发布状态和发布历史记录。 如果未在激活时间内，则发布状态将显示为“未发布”。
+高效使用用户定义的元数据字段的一种方式是为特定启动或销售延迟资源的激活时间。您可以根据类型定义“激活”字段 *日期*. 然后，使用 **[!UICONTROL 元数据]** 面板，或者 **[!UICONTROL 文件]** > **[!UICONTROL 编辑信息]**，您可以指定资产的激活时间。 Adobe Dynamic Media Classic会检查资产的发布状态和发布历史记录。 如果未在激活时间内，则发布状态将显示为“未发布”。
 
 >[!NOTE]
 >
@@ -814,27 +814,27 @@ Media Portal 管理员或公司管理员可以创建自定义的、用户定义�
 
 >[!NOTE]
 >
->要使用自定义的用户定义字段搜索资产，请转到&#x200B;**[!UICONTROL 设置]** > **[!UICONTROL 个人设置]**，然后选择&#x200B;**[!UICONTROL 在搜索中包含UDF]**。 请参阅[个人设置](personal-setup.md#personal_setup)。
+>要使用用户定义的自定义字段搜索资产，请转到 **[!UICONTROL 设置]** > **[!UICONTROL 个人设置]**，然后选择 **[!UICONTROL 在搜索中包含UDF]**. 请参阅[个人设置](personal-setup.md#personal_setup)。
 
 ### 创建用户定义的元数据字段 {#creating-a-user-defined-metadata-field}
 
-1. 转到&#x200B;**[!UICONTROL Setup]** > **[!UICONTROL 应用程序设置]** > **[!UICONTROL 元数据]** > **[!UICONTROL 用户定义的字段]**。
-1. 选择&#x200B;**[!UICONTROL Add]**
+1. 转到 **[!UICONTROL 设置]** > **[!UICONTROL 应用程序设置]** > **[!UICONTROL 元数据]** > **[!UICONTROL 用户定义的字段]**.
+1. 选择 **[!UICONTROL 添加]**
 1. 在“自定义字段”对话框中，设置所需的选项。
 
    * **[!UICONTROL 名称]**  — 输入元数据字段的名称。
 
-   * **[!UICONTROL 类型]**  — 选择一个选项，以定义用户可在元数据字段中输入的信息类型：
+   * **[!UICONTROL 类型]**  — 选择一个选项，用于定义用户可在元数据字段中输入的信息类型：
 
    * **[!UICONTROL 字符串]**  — 文本字符串。
 
    * **[!UICONTROL 整数]**  — 整数。
 
-   * **[!UICONTROL 浮点]**  — 一个浮点数。
+   * **[!UICONTROL 浮动]**  — 浮点数。
 
-   * **[!UICONTROL Yes/No]**  - A yes/no布尔值。
+   * **[!UICONTROL 是/否]**  — 是/否布尔值。
 
-   * **[!UICONTROL 日期]**  — 日期。接受 MM/DD/YYYY 格式。
+   * **[!UICONTROL 日期]**  — 日期。 接受 MM/DD/YYYY 格式。
 
    * **[!UICONTROL 文件名]**  — 文件的名称。
 
@@ -842,17 +842,17 @@ Media Portal 管理员或公司管理员可以创建自定义的、用户定义�
 
    * **[!UICONTROL Dimension]**  — 资产的宽度和高度。
 
-   * **[!UICONTROL 未键入]**  — 用于向后兼容。请勿选择此选项。
+   * **[!UICONTROL 未键入]**  — 用于向后兼容性。 请勿选择此选项。
 
-   * **[!UICONTROL 默认值]**  — （可选）在字段中输入用户最可能输入的值。您输入的值会成为您所创建的字段的默认值。
+   * **[!UICONTROL 默认值]**  — （可选）在字段中输入用户最可能输入的值。 您输入的值会成为您所创建的字段的默认值。
 
-   * **[!UICONTROL 应用到]**  — （可选）如果您希望元数据字段仅应用于特定类型的资产，请选择资产类型。
+   * **[!UICONTROL 适用于]**  — （可选）如果您希望元数据字段仅应用于特定类型的资产，请选择资产类型。
 
       >[!NOTE]
       >
-      >请仔细选择&#x200B;**[!UICONTROL Applies To]**&#x200B;选项，因为在创建用户定义的字段后，您无法更改&#x200B;**[!UICONTROL Applies To]**&#x200B;选项。 Adobe Dynamic Media Classic允许您编辑用户定义的字段的名称、类型和默认值，但不允许编辑&#x200B;**[!UICONTROL Applies To]**&#x200B;设置。*
+      >选择 **[!UICONTROL 适用于]** 选项，因为您无法更改 **[!UICONTROL 适用于]** 选项。 Adobe Dynamic Media Classic允许您编辑用户定义的字段的名称、类型和默认值，但不能编辑 **[!UICONTROL 适用于]** 设置。*
 
-1. 创建完元数据字段后，选择&#x200B;**[!UICONTROL 保存]**。
+1. 选择 **[!UICONTROL 保存]** 完成元数据字段的创建时。
 
 ### 管理用户定义的字段 {#manage-user-defined-fields}
 
@@ -860,13 +860,13 @@ Media Portal 管理员或公司管理员可以创建自定义的、用户定义�
 
 只有 Media Portal 管理员或公司管理员可以管理用户定义的字段。
 
-要打开此屏幕，请转到&#x200B;**[!UICONTROL 设置]** > **[!UICONTROL 应用程序设置]** > **[!UICONTROL 元数据]** > **[!UICONTROL 用户定义的字段]**。
+要打开此屏幕，请转到 **[!UICONTROL 设置]** > **[!UICONTROL 应用程序设置]** > **[!UICONTROL 元数据]** > **[!UICONTROL 用户定义的字段]**.
 
-* **编辑字段**  — 选择字段，然后选择“编 **[!UICONTROL 辑”]**。
+* **编辑字段**  — 选择字段，然后选择 **[!UICONTROL 编辑]**.
 
-* **删除字段**  — 选择字段，然后选择 **[!UICONTROL 删除]**。
+* **删除字段**  — 选择字段，然后选择 **[!UICONTROL 删除]**.
 
-* **激活字段**  — 选择或取消选 **** 择字段名称旁边的活动选项。如果您具有公司管理角色，则不会显示此选项。 由于此选项与MediaPortal相关，因此您必须选择（打开）在个人设置中显示MediaPortal功能，才能查看激活字段。
+* **激活字段**  — 选择或取消选择 **[!UICONTROL 活动]** 选项。 如果您具有公司管理角色，则不会显示此选项。 由于此选项与MediaPortal相关，因此您必须选择（打开）在个人设置中显示MediaPortal功能，才能查看激活字段。
 
 ## 优化文件 {#optimize-files}
 
@@ -874,8 +874,8 @@ Media Portal 管理员或公司管理员可以创建自定义的、用户定义�
 
 Adobe Dynamic Media Classic会搜索您的文件，并仅优化之前未完全优化的图像。
 
-1. 转到&#x200B;**[!UICONTROL 设置]** > **[!UICONTROL 应用程序设置]**，然后选择&#x200B;**[!UICONTROL 优化文件]**。
-1. 输入优化作业的信息并选择&#x200B;**[!UICONTROL Submit]**。
+1. 转到 **[!UICONTROL 设置]** > **[!UICONTROL 应用程序设置]**，然后选择 **[!UICONTROL 优化文件]**.
+1. 输入优化作业的信息并选择 **[!UICONTROL 提交]**.
 
    如果您在与多家公司协作，请分别优化属于不同公司的文件。
 
@@ -891,20 +891,20 @@ Adobe Dynamic Media Classic会搜索您的文件，并仅优化之前未完全�
 
 公司管理员创建在任何批量集预设方法中使用的默认命名约定。在批量集预设定义中选择的默认命名约定可能是贵公司为所有网站批量生成集所需的全部命名约定。 要使用您定义的默认命名约定，需创建批量集预设。如果公司定义的默认命名有例外情况，您可以为一组特定内容根据需要使用备用的自定义命名规则创建任意数量的批量集预设。
 
-使用批量集预设功能时，不需要设置默认的命名约定。 但是，Adobe最佳实践建议您使用默认的命名约定来定义要分组到一组中的命名约定的任意多个元素。 这样做有助于简化批量集创建过程。
+使用批量集预设功能时，不需要设置默认的命名约定。 但是，Adobe最佳实践建议您使用默认的命名约定来定义要分组到一组中的命名约定的任意多个元素。 这样做有助于简化批集创建过程。
 
-1. 转到&#x200B;**[!UICONTROL 设置]** > **[!UICONTROL 应用程序设置]** > **[!UICONTROL 批集预设]** > **[!UICONTROL 默认命名]**。
+1. 转到 **[!UICONTROL 设置]** > **[!UICONTROL 应用程序设置]** > **[!UICONTROL 批集预设]** > **[!UICONTROL 默认命名]**.
 1. 选择&#x200B;**[!UICONTROL 查看表单]**&#x200B;或&#x200B;**[!UICONTROL 查看代码]**，以指定要查看的方式并输入有关每个元素的信息。
 
-   您可以选中&#x200B;**[!UICONTROL 查看代码]**&#x200B;复选框，以查看在表单选择旁边生成的正则表达式值。 如果表单视图因某种原因对您构成限制，您可以输入或更改上述值，以帮助定义命名约定的元素。如果无法在表单视图中分析您的值，则表单字段将变为不活动。
+   您可以选择 **[!UICONTROL 查看代码]** 复选框，以查看生成的正则表达式值与表单选项的旁边。 如果表单视图因某种原因对您构成限制，您可以输入或更改上述值，以帮助定义命名约定的元素。如果无法在表单视图中分析您的值，则表单字段将变为不活动。
 
    >[!NOTE]
    >
    >停用的表单字段并不表示正则表达式无效。没有针对正则表达式正确性的验证措施。您会在“结果”行的后面看到您为每个元素构建的正则表达式的结果。完整的正则表达式显示在页面底部。
 
 1. 根据需要展开每个元素，并输入您要使用的命名约定。
-1. 根据需要，选择&#x200B;**[!UICONTROL Add]**&#x200B;以为元素添加其他命名约定。 或者，选择&#x200B;**[!UICONTROL Remove]**&#x200B;以删除元素的命名约定。
-1. 选择&#x200B;**[!UICONTROL 另存为]**&#x200B;并键入预设的名称。 或者，如果正在编辑现有预设，请选择&#x200B;**[!UICONTROL Save]**。
+1. 根据需要，选择 **[!UICONTROL 添加]** 为元素添加其他命名约定。 或者，选择 **[!UICONTROL 删除]** 删除元素的命名约定。
+1. 选择 **[!UICONTROL 另存为]** 并键入预设的名称。 或者，选择 **[!UICONTROL 保存]** 编辑现有预设时，才会显示该预设。
 
 另外，您还可以使用没有表单字段的“查看代码”。在此视图中，您可以完全使用正则表达式创建命名约定定义。
 
@@ -916,16 +916,16 @@ Adobe Dynamic Media Classic使用批量集预设将共享某些常见信息或�
 
 可以使用“批量集预设”创建、编辑和管理批量集预设。您可以创建所需数量的预设，以涵盖您需要的所有资产引入作业。 有两种形式的批集预设定义：一个用于您设置的默认命名约定，另一个用于您动态创建的自定义命名约定。
 
-您可以使用表单字段方法定义批集预设，也可以使用代码方法来使用正则表达式。 与在&#x200B;**[!UICONTROL 默认命名]**&#x200B;中一样，您可以在表单视图中定义并使用正则表达式构建定义的同时选择&#x200B;**[!UICONTROL 代码视图]**。 或者，您可以取消选中任一视图，只使用其一个视图。
+您可以使用表单字段方法定义批集预设，也可以使用代码方法来使用正则表达式。 与 **[!UICONTROL 默认命名]**，您可以选择 **[!UICONTROL 代码视图]** 同时，您在表单视图中定义，并使用正则表达式来构建定义。 或者，您可以取消选中任一视图，只使用其一个视图。
 
-另请参阅[创建批量集预设以自动生成2D旋转集](application-setup.md#creating_a_batch_set_preset_for_the_auto_generation_of_a_2d_spin_set)。
+另请参阅 [创建批集预设以自动生成2D旋转集](application-setup.md#creating_a_batch_set_preset_for_the_auto_generation_of_a_2d_spin_set).
 
-另请参阅[2D旋转集](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/537_2d-spin_converted%20renamed_Done-AVS)培训视频。
+另请参阅 [2D旋转集](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/537_2d-spin_converted%20renamed_Done-AVS) 培训视频。
 
 **创建批量集预设:**
 
-1. 转到&#x200B;**[!UICONTROL 设置]** > **[!UICONTROL 应用程序设置]** > **[!UICONTROL 批集预设]** > **[!UICONTROL 批集预设]**。 默认视图为“**[!UICONTROL 查看表单]**”（在“详细信息”页面的右上角设置）。
-1. 在“预设列表”面板中，选择&#x200B;**[!UICONTROL Add]**&#x200B;以激活页面右侧“详细信息”面板中的定义字段。
+1. 转到 **[!UICONTROL 设置]** > **[!UICONTROL 应用程序设置]** > **[!UICONTROL 批集预设]** > **[!UICONTROL 批集预设]**. 默认视图为“**[!UICONTROL 查看表单]**”（在“详细信息”页面的右上角设置）。
+1. 在“预设列表”面板中，选择 **[!UICONTROL 添加]** 激活页面右侧“详细信息”面板中的定义字段。
 1. 在“详细信息”面板的“预设名称”字段中，键入预设的名称。
 1. 在“批量集类型”下拉菜单中，选择预设类型。
 
@@ -933,21 +933,21 @@ Adobe Dynamic Media Classic使用批量集预设将共享某些常见信息或�
 
 1. 执行以下任一操作：
 
-   * 如果您使用之前在&#x200B;**[!UICONTROL 应用程序设置]** > **[!UICONTROL 批量集预设]** > **[!UICONTROL 默认命名]**&#x200B;下设置的默认命名约定，请展开&#x200B;**[!UICONTROL 资产命名约定]**，然后在“文件命名”下拉列表中，选择&#x200B;**[!UICONTROL 默认]**。
-   * 要在设置预设时定义命名约定，请展开&#x200B;**[!UICONTROL 资产命名约定]**，然后在“文件命名”下拉列表中，选择&#x200B;**[!UICONTROL Custom]**。
+   * 如果您使用的是之前在 **[!UICONTROL 应用程序设置]** > **[!UICONTROL 批集预设]** > **[!UICONTROL 默认命名]**，展开 **[!UICONTROL 资产命名约定]**，然后在文件命名下拉列表中，选择 **[!UICONTROL 默认]**.
+   * 要在设置预设时定义命名约定，请展开 **[!UICONTROL 资产命名约定]**，然后在文件命名下拉列表中，选择 **[!UICONTROL 自定义]**.
 
 1. 对于序列顺序，在将图像集分组到Adobe Dynamic Media Classic后定义图像的顺序。 默认情况下，将按字母数字顺序对您的资源排序。不过，可以使用逗号分隔的正则表达式列表来定义顺序。
 1. 对于设置命名和创建约定，为您在“资源命名约定”中定义的基本名称指定后缀或前缀。此外，还定义在Adobe Dynamic Media Classic文件夹结构中创建图像集的位置。
 
    如果您定义大量图像集，请将这些集与包含资产本身的文件夹分开。 许多客户会创建一个“图像集”文件夹，并让应用程序将批量集生成的集合放在此处。
 
-1. 在“详细信息”面板中选择&#x200B;**[!UICONTROL Save]**。
+1. 选择 **[!UICONTROL 保存]** 中。
 
 ### 创建批集预设以自动生成2D旋转集 {#creating-a-batch-set-preset-for-the-auto-generation-of-a-d-spin-set}
 
 您可以使用批量集类型“**多轴旋转集**”来创建用于自动生成 2D 旋转集的“方法”。对图像进行分组时采用“行”和“列”正则表达式，以便图像资源在多维数组的对应位置中正确对齐。
 
-另请参阅[创建批集预设](application-setup.md#creating_a_batch_set_preset)。
+另请参阅 [创建批集预设](application-setup.md#creating_a_batch_set_preset).
 
 多轴旋转集中没有最小或最大的行数或列数限制。
 
@@ -973,12 +973,12 @@ spin-03-12
 
 **创建用于自动生成 2D 旋转集的批量集预设:**
 
-1. 转到&#x200B;**[!UICONTROL 设置]** > **[!UICONTROL 应用程序设置]** > **[!UICONTROL 批集预设]** > **[!UICONTROL 批集预设]**。 默认视图为“**[!UICONTROL 查看表单]**”（在“详细信息”页面的右上角设置）。
-1. 在“预设列表”面板中，选择&#x200B;**[!UICONTROL Add]**&#x200B;以激活页面右侧“详细信息”面板中的定义字段。
+1. 转到 **[!UICONTROL 设置]** > **[!UICONTROL 应用程序设置]** > **[!UICONTROL 批集预设]** > **[!UICONTROL 批集预设]**. 默认视图为“**[!UICONTROL 查看表单]**”（在“详细信息”页面的右上角设置）。
+1. 在“预设列表”面板中，选择 **[!UICONTROL 添加]** 激活页面右侧“详细信息”面板中的定义字段。
 1. 在“详细信息”面板的“预设名称”字段中，键入预设的名称。
 1. 在“批集类型”下拉菜单中，选择&#x200B;**[!UICONTROL 资产集]**。
 1. 在“子类型”下拉列表中，选择“**[!UICONTROL 多轴旋转集]**”。
-1. 展开&#x200B;**[!UICONTROL 资产命名约定]**，然后在“文件命名”下拉列表中，选择&#x200B;**[!UICONTROL Custom]**。
+1. 展开 **[!UICONTROL 资产命名约定]**，然后在文件命名下拉列表中，选择 **[!UICONTROL 自定义]**.
 1. 使用&#x200B;**[!UICONTROL 匹配]**&#x200B;和（可选）**[!UICONTROL 基本名称]**&#x200B;属性定义组成分组的图像资产命名的正则表达式。
 
    例如，您的文字“匹配”正则表达式可能如下所示：
@@ -1015,7 +1015,7 @@ spin-03-12
 
    如果您定义大量图像集，请将这些集与包含资产本身的文件夹分开。 许多客户会创建一个“图像集”文件夹，并让应用程序将批量集生成的集合放在此处。
 
-1. 在“详细信息”面板中选择&#x200B;**[!UICONTROL Save]**。
+1. 选择 **[!UICONTROL 保存]** 中。
 1. 照常上载和发布您的旋转集，同时确保您在“作业加载选项”对话框中的“批量集预设”下激活 2D 旋转集的名称。
 
 >[!MORELIKETHIS]
