@@ -8,7 +8,7 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_c
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 604b4630-4704-4254-84b5-91b33bb19d58
-source-git-commit: a575c698fec3f85e537ad07f5948e7e65912ca52
+source-git-commit: 085ff63afc73d120fdc29a93b56e5d926eb93e34
 workflow-type: tm+mt
 source-wordcount: '2002'
 ht-degree: 1%
@@ -48,7 +48,7 @@ Adobe Dynamic Media Classic桌面应用程序与以下操作系统兼容：
 * 无法输入 `d` 和 `e` in **[!UICONTROL 用户名]** 和 **[!UICONTROL 密码]** 运行macOS蒙特利时的字段。
 * 已将剩余的Analytics API移至版本2.0。
 
-## 版本(20.21.3)中的修复 {#release-sept2021}
+## 版本20.21.3中的修复 {#release-sept2021}
 
 * 桌面应用程序上一段时间不活动后看到的资产缩略图损坏。
 * 桌面应用程序通常在设置操作后停止响应。
