@@ -8,9 +8,9 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_c
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 604b4630-4704-4254-84b5-91b33bb19d58
-source-git-commit: df41d69e2fa6e9db806d8ffbb06edc42b70d1011
+source-git-commit: a575c698fec3f85e537ad07f5948e7e65912ca52
 workflow-type: tm+mt
-source-wordcount: '1940'
+source-wordcount: '2002'
 ht-degree: 1%
 
 ---
@@ -40,21 +40,13 @@ Adobe Dynamic Media Classic桌面应用程序与以下操作系统兼容：
 
 ## 最新版本中的修复(20.22.1) {#release-jan2022}
 
-* 
+图像编辑 **[!UICONTROL 保存]** 按钮无法正常工作。
 
-   <!-- CQ-4333853 :  -->Image editing **[!UICONTROL Save]** buttons were non-functional.
-* 
-
-   <!-- CQ-4334638 :  -->In the Set editors, the **[!UICONTROL Close]**, **[!UICONTROL Save]**, and **[!UICONTROL Save As]** buttons become disabled after scrolling assets in the **[!UICONTROL Add Assets]** panel.
-* 
-
-   <!-- CQ-4335992 :  -->**[!UICONTROL Play]** button in Video Detail view did not work.
-* 
-
-   <!-- CQ-4336687 :  -->Could not enter `d` and `e` in **[!UICONTROL Username]** and **[!UICONTROL Password]** fields when running macOS Monterey.
-* 
-
-   <!-- CQ-4334197 :  -->Moved the remaining analytics APIs to version 2.0.
+* 图像编辑 **[!UICONTROL 保存]** 按钮无法正常工作。
+* 在Set编辑器中， **[!UICONTROL 关闭]**, **[!UICONTROL 保存]**&#x200B;和 **[!UICONTROL 另存为]** 在中滚动资产后，按钮会被禁用 **[!UICONTROL 添加资产]** 的上界。
+* **[!UICONTROL 播放]** 按钮不起作用。
+* 无法输入 `d` 和 `e` in **[!UICONTROL 用户名]** 和 **[!UICONTROL 密码]** 运行macOS蒙特利时的字段。
+* 已将剩余的Analytics API移至版本2.0。
 
 ## 版本(20.21.3)中的修复 {#release-sept2021}
 
@@ -160,7 +152,7 @@ Adobe Dynamic Media Classic桌面应用程序与以下操作系统兼容：
 
 1. 下载适用于macOS的Adobe Dynamic Media Classic桌面应用程序的最新安装程序。
 
-   * [macOS(.DMG) — 下载](https://download.macromedia.com/dynamic-media-classic/20.21.3/adobe-dynamic-media-classic-20.21.3.dmg)
+   * [macOS(.DMG) — 下载](https://download.macromedia.com/dynamic-media-classic/20.22.1/adobe-dynamic-media-classic-20.22.1.dmg)
 
 1. 使用以下命令将下载的磁盘映像(.DMG)装载到安装点位置：
 
