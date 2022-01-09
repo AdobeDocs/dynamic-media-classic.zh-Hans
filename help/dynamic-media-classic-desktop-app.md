@@ -8,9 +8,9 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_c
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 604b4630-4704-4254-84b5-91b33bb19d58
-source-git-commit: 085ff63afc73d120fdc29a93b56e5d926eb93e34
+source-git-commit: 92c3cccbd03f8e159ca6e1ae90558826a5b1443b
 workflow-type: tm+mt
-source-wordcount: '2002'
+source-wordcount: '1996'
 ht-degree: 1%
 
 ---
@@ -39,8 +39,6 @@ Adobe Dynamic Media Classic桌面应用程序与以下操作系统兼容：
 >不会在Adobe Dynamic Media Classic桌面应用程序中为 *次要* 版本。 从次要版本中的修复中受益的客户可以进行升级。
 
 ## 最新版本中的修复(20.22.1) {#release-jan2022}
-
-图像编辑 **[!UICONTROL 保存]** 按钮无法正常工作。
 
 * 图像编辑 **[!UICONTROL 保存]** 按钮无法正常工作。
 * 在Set编辑器中， **[!UICONTROL 关闭]**, **[!UICONTROL 保存]**&#x200B;和 **[!UICONTROL 另存为]** 在中滚动资产后，按钮会被禁用 **[!UICONTROL 添加资产]** 的上界。
