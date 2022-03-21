@@ -1,16 +1,16 @@
 ---
 title: Adobe Dynamic Media Classic桌面应用程序 — 现已推出
 description: 进一步了解Adobe Dynamic Media Classic桌面应用程序。
-contentOwner: admin
+contentOwner: rbrough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_classic
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 604b4630-4704-4254-84b5-91b33bb19d58
-source-git-commit: 92c3cccbd03f8e159ca6e1ae90558826a5b1443b
+source-git-commit: f0c02d40a1a84e52b25d1c4558958af970859a07
 workflow-type: tm+mt
-source-wordcount: '1996'
+source-wordcount: '2025'
 ht-degree: 1%
 
 ---
@@ -32,11 +32,14 @@ Adobe Dynamic Media Classic用户现在可以访问新的桌面应用程序体�
 Adobe Dynamic Media Classic桌面应用程序与以下操作系统兼容：
 
 * macOS 10.10或更高版本。
+
+   >[!NOTE]
+   >
+   >Dynamic Media Classic桌面应用程序在与macOS Monterey一起使用时，功能出现降级。 因此，Adobe正在努力在未来几周内发布新的桌面应用程序版本。
+
 * Windows® 7或更高版本。
 
->[!NOTE]
->
->不会在Adobe Dynamic Media Classic桌面应用程序中为 *次要* 版本。 从次要版本中的修复中受益的客户可以进行升级。
+不会在Adobe Dynamic Media Classic桌面应用程序中为 *次要* 版本。 从次要版本中的修复中受益的客户可以进行升级。
 
 ## 最新版本中的修复(20.22.1) {#release-jan2022}
 
@@ -135,7 +138,7 @@ Adobe Dynamic Media Classic桌面应用程序与以下操作系统兼容：
    | EMEA生产（欧洲、中东和非洲） | https://s7sps3.scene7.com/ |
    | APAC生产（亚太地区） | https://s7sps5.scene7.com/ |
 
-1. 登录后，请注意熟悉的浏览器用户界面体验。 您可以像往常一样在桌面应用程序上继续日常的Adobe Dynamic Media Classic活动。
+1. 登录后，请注意熟悉的浏览器用户界面体验。 您可以像往常一样，在桌面应用程序上继续日常的Adobe Dynamic Media Classic活动。
 
 ## 下载和 *沉默* 在macOS上安装最新的Adobe Dynamic Media Classic桌面应用程序 {#install-silent-mac-dmc-app}
 
