@@ -8,9 +8,9 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_c
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 604b4630-4704-4254-84b5-91b33bb19d58
-source-git-commit: a53245c3a9c82fb68db1b62798b962dd3283be12
+source-git-commit: 3345861b5d65f46071578a81913e6b0a4eeb6b8d
 workflow-type: tm+mt
-source-wordcount: '2011'
+source-wordcount: '2026'
 ht-degree: 1%
 
 ---
@@ -34,9 +34,11 @@ Adobe Dynamic Media Classic桌面应用程序与以下操作系统兼容：
 * macOS 10.10或更高版本。
 * Windows® 7或更高版本。
 
+请参阅 [Adobe Dynamic Media Classic桌面应用程序的系统要求](/help/system-requirements.md).
+
 不会在Adobe Dynamic Media Classic桌面应用程序中为 *次要* 版本。 从次要版本中的修复中受益的客户可以进行升级。
 
-## 已在最新版本中修复(20.22.2) — 仅限macOS {#release-feb2022}
+## 已在最新版本(20.22.2)中修复，仅限macOS {#release-feb2022}
 
 * macOS Monterey — 文件上传页面在后续上传时冻结。 <!-- https://jira.corp.adobe.com/browse/ASSETS-7948 -->
 
