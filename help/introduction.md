@@ -5,10 +5,10 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 7bf94d8c-23ff-4a43-83cc-7e6879a7cded
-source-git-commit: 2616c067215196e8145043ba57fba1e3a5667cdc
+source-git-commit: f0e6d634587500877dbcd9e56bcfca105a6e6b9b
 workflow-type: tm+mt
 source-wordcount: '443'
-ht-degree: 13%
+ht-degree: 16%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 13%
 * 可视配置器：用于启用在线可视配置的实时呈现技术，以实现个性化和自定义的效果（例如在产品图像或场景中实时呈现颜色、纹理、表面、图案、字母组织以及雕刻效果）。
 * 确定电子邮件受众并打印：交付与客户资料、产品和渠道数据库关联的电子邮件营销活动，这些活动以可视的方式确定受众并进行个性化定制。
 
-另请观看以下培训视频：
+另请参阅以下培训视频：
 
 * [简介](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/570_Introduction_converted%20renamed_Getting%20Started-AVS)
 * [什么是Adobe Dynamic Media Classic](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/577_What%20is%20Scene7_converted%20renamed_Getting%20Started-AVS)
@@ -39,7 +39,7 @@ ht-degree: 13%
 * [快速入门：媒体门户](/help/quick-start-media-portal-administration.md)
 * [快速入门：混合媒体集](/help/quick-start-mixed-media-sets.md)
 * [快速入门：旋转集](/help/quick-start-spin-sets.md)
-* [快速入门：色板集](/help/quick-start-swatch-sets.md)
+* [快速入门：样本集](/help/quick-start-swatch-sets.md)
 * [快速入门：Target Standard/Premium集成](/help/quick-start-target-integration.md)
 * [快速入门：模板基础知识](/help/quick-start-template-basics.md)
 * [快速入门：视频](/help/quick-start-video.md)

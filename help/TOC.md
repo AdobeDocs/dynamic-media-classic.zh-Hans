@@ -4,12 +4,12 @@ product: adobe dynamic media classic
 audience: end-user
 user-guide-title: Adobe Dynamic Media Classic 指南
 breadcrumb-title: Dynamic Media Classic 指南
-user-guide-description: 了解有关使用Adobe Dynamic Media Classic的更多信息
+user-guide-description: 了解有关使用 Adobe Dynamic Media Classic 的更多信息
 index: y
-source-git-commit: 352b1c383195fa03294ad3501207d63f3cfe3e42
+source-git-commit: ac9cba2c33fb1df65e64746dea2557632b7b2903
 workflow-type: tm+mt
-source-wordcount: '776'
-ht-degree: 28%
+source-wordcount: '787'
+ht-degree: 29%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 28%
    + [导航基础知识](navigation-basics.md)
    + [设置基础](setup-basics.md)
    + [多媒體](rich-media.md)
-+ 设置{#setup}
++ 设置 {#setup}
    + [个人设置](personal-setup.md)
    + [应用程序设置](application-setup.md)
    + [发布设置](publish-setup.md)
@@ -59,6 +59,7 @@ ht-degree: 28%
    + [关于上传和发布资产](about-asset-upload-publish.md)
    + [上载文件](uploading-files.md)
    + [发布文件](publishing-files.md)
+   + [Dynamic Media对资产类型的最佳实践和强制限制](best-practices-enforced-limits.md)
    + [在将资产公开之前对其进行测试](testing-assets-making-them-public.md)
    + [检查作业文件](checking-job-files.md)
 + 管理资源 {#managing-assets}
@@ -76,7 +77,7 @@ ht-degree: 28%
    + [打印资产](printing-assets.md)
    + [管理垃圾桶文件夹](trash-folder.md)
    + [组织您的项目工作](organizing-projects.md)
-+ 图像大小调整{#image-sizing}
++ 图像大小调整 {#image-sizing}
    + [快速入门：调整图像大小](quick-start-image-sizing.md)
    + [上传主控图像](uploading-master-images.md)
    + [发布主控图像](publishing-master-images.md)
@@ -123,7 +124,7 @@ ht-degree: 28%
    + [发布旋转集](publishing-spin-set.md)
    + [设置旋转集查看器预设](setting-spin-set-viewer-presets.md)
    + [将旋转集关联到网页](linking-spin-set-web-page.md)
-+ 模板基础知识{#template-basics}
++ 模板基础知识 {#template-basics}
    + [快速入门：模板基础](quick-start-template-basics.md)
    + [上载模板文件](uploading-template-files.md)
    + [创建模板](creating-template.md)
@@ -140,13 +141,13 @@ ht-degree: 28%
    + [向视频添加章节标记](adding-chapter-markers-video.md)
    + [将视频部署到网站和移动站点](deploying-video-websites-mobile-sites.md)
    + [导出源视频和编码视频](exporting-source-encoded-videos.md)
-+ 混合媒体集{#mixed-media-sets}
++ 混合媒体集 {#mixed-media-sets}
    + [快速入门：混合媒体集](quick-start-mixed-media-sets.md)
    + [设置混合媒体集查看器预设](setting-mixed-media-set-viewer.md)
    + [创建混合媒体集](creating-mixed-media-set.md)
    + [发布混合媒体集](publishing-mixed-media-set.md)
    + [将混合媒体集链接到网页](linking-mixed-media-set-web.md)
-+ Adobe Analytics工具包{#analytics-kit}
++ Adobe Analytics工具包 {#analytics-kit}
    + [快速入门：将Adobe Dynamic Media Classic与Adobe Analytics集成](quick-start-integrating-dmc-analytics.md)
    + [登录到 Adobe Analytics](log-analytics.md)
    + [配置Adobe Analytics报表](configuring-analytics-reports.md)
@@ -155,7 +156,7 @@ ht-degree: 28%
    + [查看 报告以测试 Adobe Analytics 集成](testing-integration-viewing-analytics-report.md)
    + [启用Adobe Analytics视频报表](enabling-analytics-video-reports.md)
    + [发布Adobe Analytics配置信息](publishing-analytics-configuration-information.md)
-+ Adobe Target Standard/Premium集成{#target-classic}
++ Adobe Target Standard/Premium集成 {#target-classic}
    + [快速入门：Adobe Target Standard/Premium集成](quick-start-target-integration.md)
    + [将Adobe Dynamic Media Classic与Adobe Target Standard/Premium集成](integrating-dmc-with-target.md)
    + [创建选件集](creating-offer-set.md)
