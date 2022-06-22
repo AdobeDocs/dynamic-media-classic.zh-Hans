@@ -10,10 +10,10 @@ discoiquuid: 282b8e83-b20f-43f7-b9f8-6eebd5b1c5a7
 feature: Dynamic Media Classic,Viewers,Spin Sets
 role: User
 exl-id: 26e3cd5b-f070-4b92-af36-25631723460e
-source-git-commit: d5293a2983e1105c65005634e7eb4147e17e8328
+source-git-commit: d5dcb990783932f3c5fdd101d1a4c631e73fcdde
 workflow-type: tm+mt
-source-wordcount: '833'
-ht-degree: 23%
+source-wordcount: '838'
+ht-degree: 22%
 
 ---
 
@@ -34,6 +34,8 @@ ht-degree: 23%
 | 旋转集限制类型 | 最佳实践 | 已实施的限制 |
 | --- | --- | --- |
 | 每个2D集的最大行/列数 | 每套12-18页图片 | 1000 |
+
+另请参阅 [Dynamic Media限制](/help/limitations.md).
 
 此旋转集快速入门旨在通过Adobe Dynamic Media Classic中的旋转集技术帮助您快速启动并运行。 按照步骤 1 到 7 操作。在每个步骤的末尾，您可以选择主题链接以了解更多信息。
 

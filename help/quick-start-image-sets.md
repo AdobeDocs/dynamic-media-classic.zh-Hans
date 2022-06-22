@@ -10,9 +10,9 @@ discoiquuid: 612a425f-2840-46c4-8e5a-c0bc5f738f4e
 feature: Dynamic Media Classic,Viewers,Image Sets
 role: User
 exl-id: 280e7201-84d6-46b1-94bb-0499beca2992
-source-git-commit: d5293a2983e1105c65005634e7eb4147e17e8328
+source-git-commit: d5dcb990783932f3c5fdd101d1a4c631e73fcdde
 workflow-type: tm+mt
-source-wordcount: '675'
+source-wordcount: '680'
 ht-degree: 21%
 
 ---
@@ -31,6 +31,8 @@ Adobe Dynamic Media Classic图像集为用户提供了集成的查看体验。 �
 | --- | --- | --- | --- |
 | 每个集的重复资产数 | 无重复项 | 100 | 20 |
 | 每组图像的最大数量 | 每组5-10张图像 | 1000 |
+
+另请参阅 [Dynamic Media限制](/help/limitations.md).
 
 以下图像集快速入门旨在帮助您快速启动和运行Adobe Dynamic Media Classic中的图像集技术。
 
