@@ -9,9 +9,9 @@ discoiquuid: 0097cba5-c886-4115-bc35-7ae7a500202f
 feature: Dynamic Media Classic,Viewers,eCatalog
 role: User
 exl-id: a787d6b5-48c8-4cf7-b136-60ba3d3eb2f2
-source-git-commit: ac9cba2c33fb1df65e64746dea2557632b7b2903
+source-git-commit: d5293a2983e1105c65005634e7eb4147e17e8328
 workflow-type: tm+mt
-source-wordcount: '819'
+source-wordcount: '821'
 ht-degree: 39%
 
 ---
@@ -20,14 +20,20 @@ ht-degree: 39%
 
 通常，Adobe PDF文件是eCatalog的源。 这些文件包含所有图像信息、字体和矢量图形。 也可以利用图像来构建 eCatalog。准备好上传PDF文件后，在全局导航栏上，选择 **[!UICONTROL 上传]** 开始上传PDF。
 
+在上传PDF以进行页面提取时，Adobe强制实施以下限制：
+
+| PDF限制类型 | 已实施的限制 | 对2022年12月31日上限的更改 |
+| --- | --- | --- |
+| 要考虑提取的PDF的最大页面数 | 5000（用于新上传） | 100 |
+
+<!-- 
 >[!NOTE]
 >
->在上传页面提取PDF时，Adobe施加了以下最佳实践准则和强制限制。
+>When you upload a PDF for page extraction, Adobe imposes the following best practice guideline and enforced limit.d
 >
->* 每个PDF考虑提取的最大页面数
-   >   * 最佳实践：100
-   >   * 强制限制：1000（用于刷新上载）
-
+>* Maximum page size of a PDF to be considered for extraction
+>   * Best practice: 100
+>   * Enforced limit: 1000 (for refresh uploads) -->
 
 ## 准备PDF文件 {#preparing-your-pdf-files}
 

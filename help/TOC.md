@@ -6,9 +6,9 @@ user-guide-title: Adobe Dynamic Media Classic 指南
 breadcrumb-title: Dynamic Media Classic 指南
 user-guide-description: 了解有关使用 Adobe Dynamic Media Classic 的更多信息
 index: y
-source-git-commit: ac9cba2c33fb1df65e64746dea2557632b7b2903
+source-git-commit: d5293a2983e1105c65005634e7eb4147e17e8328
 workflow-type: tm+mt
-source-wordcount: '787'
+source-wordcount: '779'
 ht-degree: 29%
 
 ---
@@ -59,7 +59,7 @@ ht-degree: 29%
    + [关于上传和发布资产](about-asset-upload-publish.md)
    + [上载文件](uploading-files.md)
    + [发布文件](publishing-files.md)
-   + [Dynamic Media对资产类型的最佳实践和强制限制](best-practices-enforced-limits.md)
+   + [Dynamic Media限制](limitations.md)
    + [在将资产公开之前对其进行测试](testing-assets-making-them-public.md)
    + [检查作业文件](checking-job-files.md)
 + 管理资源 {#managing-assets}

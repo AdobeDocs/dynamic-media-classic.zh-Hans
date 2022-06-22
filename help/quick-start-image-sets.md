@@ -10,9 +10,9 @@ discoiquuid: 612a425f-2840-46c4-8e5a-c0bc5f738f4e
 feature: Dynamic Media Classic,Viewers,Image Sets
 role: User
 exl-id: 280e7201-84d6-46b1-94bb-0499beca2992
-source-git-commit: 5040b1916794d3b54f952a1df5f060be2f31006a
+source-git-commit: d5293a2983e1105c65005634e7eb4147e17e8328
 workflow-type: tm+mt
-source-wordcount: '664'
+source-wordcount: '675'
 ht-degree: 21%
 
 ---
@@ -25,17 +25,12 @@ Adobe Dynamic Media Classic图像集为用户提供了集成的查看体验。 �
 
 请参阅 [图像和旋转集：Dynamic Imaging](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/556_Image%20&amp;%20Spin%20Sets_converted%20renamed_Dynamic%20Imaging-AVS) 培训视频。
 
->[!NOTE]
->
->创建图像集时，Adobe建议遵循以下最佳实践准则并实施限制。
->
->* 每个图像集的重复资产数
-   >   * 最佳实践：20
-   >   * 强制限制：20
->* 每个图像集的最大页数
-   >   * 最佳实践：1000
-   >   * 强制限制：1000
+在创建图像集时，Adobe会推荐以下最佳实践，并实施以下限制：
 
+| 图像集限制类型 | 最佳实践 | 已实施限制 | 对2022年12月31日上限的更改 |
+| --- | --- | --- | --- |
+| 每个集的重复资产数 | 无重复项 | 100 | 20 |
+| 每组图像的最大数量 | 每组5-10张图像 | 1000 |
 
 以下图像集快速入门旨在帮助您快速启动和运行Adobe Dynamic Media Classic中的图像集技术。
 

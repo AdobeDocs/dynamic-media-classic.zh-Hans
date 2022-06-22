@@ -10,9 +10,9 @@ discoiquuid: 3f356410-b30e-4870-ad95-6e5a9dc126c8
 feature: Dynamic Media Classic,Viewers,Image Sets,Spin Sets
 role: User
 exl-id: c18bb98c-b087-45d0-a4c9-44f58a3b514f
-source-git-commit: fe765d1acfa37e9d13f5ef1b655f8cf04195a8a6
+source-git-commit: d5293a2983e1105c65005634e7eb4147e17e8328
 workflow-type: tm+mt
-source-wordcount: '626'
+source-wordcount: '637'
 ht-degree: 59%
 
 ---
@@ -32,17 +32,12 @@ ht-degree: 59%
 
 另请参阅[手动发布资源](publishing-files.md#manually_publishing_assets)和[手动取消发布资源](publishing-files.md#manually_unpublishing_assets)。
 
->[!NOTE]
->
->创建图像集时，Adobe建议遵循以下最佳实践准则并实施限制。
->
->* 每个图像集的重复资产数
-   >   * 最佳实践：20
-   >   * 强制限制：20
-> * 每个图像集的最大页数
-   >   * 最佳实践：1000
-   >   * 强制限制：1000
+在创建图像集时，Adobe会推荐以下最佳实践，并实施以下限制：
 
+| 图像集限制类型 | 最佳实践 | 已实施限制 | 对2022年12月31日上限的更改 |
+| --- | --- | --- | --- |
+| 每个集的重复资产数 | 无重复项 | 100 | 20 |
+| 每组图像的最大数量 | 每组5-10张图像 | 1000 |
 
 **创建图像集:**
 

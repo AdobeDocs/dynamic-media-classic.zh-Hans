@@ -10,10 +10,10 @@ discoiquuid: 27278fef-8b0e-41cd-b393-7a4c3625d5c0
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 3460f3bd-1616-44e7-9ddb-fe74ee0c8729
-source-git-commit: ac9cba2c33fb1df65e64746dea2557632b7b2903
+source-git-commit: d5293a2983e1105c65005634e7eb4147e17e8328
 workflow-type: tm+mt
-source-wordcount: '119'
-ht-degree: 24%
+source-wordcount: '111'
+ht-degree: 26%
 
 ---
 
@@ -31,6 +31,6 @@ ht-degree: 24%
 
 >[!MORELIKETHIS]
 >
->* [Dynamic Media对资产类型的最佳实践和强制限制](/help/best-practices-enforced-limits.md)
+>* [Dynamic Media限制](/help/limitations.md)
 
 

@@ -10,10 +10,10 @@ discoiquuid: 735b5867-e249-4627-a5a5-25c19c2255bf
 feature: Dynamic Media Classic,Viewers,Spin Sets
 role: User
 exl-id: 35e8e7fc-5b3c-441a-959c-df2e39ea0d4b
-source-git-commit: ac9cba2c33fb1df65e64746dea2557632b7b2903
+source-git-commit: d5293a2983e1105c65005634e7eb4147e17e8328
 workflow-type: tm+mt
-source-wordcount: '939'
-ht-degree: 54%
+source-wordcount: '947'
+ht-degree: 53%
 
 ---
 
@@ -48,15 +48,11 @@ ht-degree: 54%
 
 另请参阅[手动发布资源](publishing-files.md#manually-publishing-assets)和[手动取消发布资源](publishing-files.md#manually-unpublishing-assets)。
 
->[!NOTE]
->
->创建旋转集时，Adobe建议遵循以下最佳实践准则并实施限制。
->
->* 每个2D旋转集的最大行/列数
-   > 
-   >   * 最佳实践：1000
-   >   * 强制限制：1000
+在创建旋转集时，Adobe建议遵循以下最佳实践，并强制实施以下限制：
 
+| 旋转集限制类型 | 最佳实践 | 已实施的限制 |
+| --- | --- | --- |
+| 每个2D集的最大行/列数 | 每套12-18页图片 | 1000 |
 
 在保存旋转集后，您可以使用“构建：旋转集”页面中的“预览”在默认查看器中查看旋转集的显示效果。
 

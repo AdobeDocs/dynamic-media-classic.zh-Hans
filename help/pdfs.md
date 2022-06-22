@@ -10,9 +10,9 @@ discoiquuid: 5a073de3-6b1d-4c3e-8c03-9182f9f3874a
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 02892514-61fe-48ba-a2e3-eeb30580a1e4
-source-git-commit: ac9cba2c33fb1df65e64746dea2557632b7b2903
+source-git-commit: d5293a2983e1105c65005634e7eb4147e17e8328
 workflow-type: tm+mt
-source-wordcount: '697'
+source-wordcount: '699'
 ht-degree: 36%
 
 ---
@@ -21,14 +21,11 @@ ht-degree: 36%
 
 PDF（可移植文档格式）文件在Adobe Dynamic Media Classic中最常用于创建eCatalog。 在上传PDF文件、Adobe Dynamic Media Classic栅格化或翻页时，默认情况下会显示页面，以便页面可用于构建富媒体。
 
->[!NOTE]
->
->在上传页面提取PDF时，Adobe施加了以下最佳实践准则和强制限制。
->
->* 每个PDF考虑提取的最大页面数
-   >   * 最佳实践：100
-   >   * 强制限制：1000（用于刷新上载）
+在上传PDF以进行页面提取时，Adobe强制实施以下限制：
 
+| PDF限制类型 | 已实施的限制 | 对2022年12月31日上限的更改 |
+| --- | --- | --- |
+| 要考虑提取的PDF的最大页面数 | 5000（用于新上传） | 100 |
 
 ## PDF 上载选项 {#pdf-upload-options}
 
