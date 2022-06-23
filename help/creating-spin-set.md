@@ -10,7 +10,7 @@ discoiquuid: 735b5867-e249-4627-a5a5-25c19c2255bf
 feature: Dynamic Media Classic,Viewers,Spin Sets
 role: User
 exl-id: 35e8e7fc-5b3c-441a-959c-df2e39ea0d4b
-source-git-commit: d5dcb990783932f3c5fdd101d1a4c631e73fcdde
+source-git-commit: 92a28b7868e03802f4ef1c113ec3f8b34f57ed56
 workflow-type: tm+mt
 source-wordcount: '952'
 ht-degree: 53%
@@ -50,7 +50,7 @@ ht-degree: 53%
 
 在创建旋转集时，Adobe建议遵循以下最佳实践，并强制实施以下限制：
 
-| 旋转集限制类型 | 最佳实践 | 已实施的限制 |
+| 旋转集限制类型 | 最佳实践 | 规定的限制 |
 | --- | --- | --- |
 | 每个2D集的最大行/列数 | 每套12-18页图片 | 1000 |
 

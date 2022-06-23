@@ -10,9 +10,9 @@ discoiquuid: 5a073de3-6b1d-4c3e-8c03-9182f9f3874a
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 02892514-61fe-48ba-a2e3-eeb30580a1e4
-source-git-commit: d5dcb990783932f3c5fdd101d1a4c631e73fcdde
+source-git-commit: 92a28b7868e03802f4ef1c113ec3f8b34f57ed56
 workflow-type: tm+mt
-source-wordcount: '704'
+source-wordcount: '706'
 ht-degree: 36%
 
 ---
@@ -23,9 +23,9 @@ PDF（可移植文档格式）文件在Adobe Dynamic Media Classic中最常用�
 
 在上传PDF以进行页面提取时，Adobe强制实施以下限制：
 
-| PDF限制类型 | 已实施的限制 | 对2022年12月31日上限的更改 |
+| 限制类型 | 规定的限制 | 2022年12月31日的上限变更 |
 | --- | --- | --- |
-| 要考虑提取的PDF的最大页面数 | 5000（用于新上传） | 100 |
+| 要考虑提取的PDF的最大页面数 | 5000（用于新上传） | 100(适用于所有PDF) |
 
 另请参阅 [Dynamic Media限制](/help/limitations.md).
 

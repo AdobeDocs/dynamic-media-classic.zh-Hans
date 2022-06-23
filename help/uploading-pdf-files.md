@@ -9,9 +9,9 @@ discoiquuid: 0097cba5-c886-4115-bc35-7ae7a500202f
 feature: Dynamic Media Classic,Viewers,eCatalog
 role: User
 exl-id: a787d6b5-48c8-4cf7-b136-60ba3d3eb2f2
-source-git-commit: d5dcb990783932f3c5fdd101d1a4c631e73fcdde
+source-git-commit: 92a28b7868e03802f4ef1c113ec3f8b34f57ed56
 workflow-type: tm+mt
-source-wordcount: '826'
+source-wordcount: '827'
 ht-degree: 38%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 38%
 
 在上传PDF以进行页面提取时，Adobe强制实施以下限制：
 
-| PDF限制类型 | 已实施的限制 | 对2022年12月31日上限的更改 |
+| PDF限制类型 | 规定的限制 | 2022年12月31日的上限变更 |
 | --- | --- | --- |
 | 要考虑提取的PDF的最大页面数 | 5000（用于新上传） | 100 |
 

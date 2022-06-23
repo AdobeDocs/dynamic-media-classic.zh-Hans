@@ -8,10 +8,10 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
 feature: Dynamic Media Classic,Asset Management,Viewers,Image Sets,Spin Sets,eCatalog
 role: User
 exl-id: ee30a2c1-2b26-41bd-8758-e7337a3727bb
-source-git-commit: d5dcb990783932f3c5fdd101d1a4c631e73fcdde
+source-git-commit: 92a28b7868e03802f4ef1c113ec3f8b34f57ed56
 workflow-type: tm+mt
-source-wordcount: '171'
-ht-degree: 4%
+source-wordcount: '173'
+ht-degree: 2%
 
 ---
 
@@ -31,12 +31,12 @@ ht-degree: 4%
 
 <!-- | **Image** - Number of Smart Crops per image | 5 | 100 |  | -->
 
-| 资产 — 限制类型 | 最佳实践 | 已实施的限制 | 对2022年12月31日上限的更改 |
+| 资产 — 限制类型 | 最佳实践 | 规定的限制 | 2022年12月31日的上限变更 |
 | --- | --- | --- | --- |
-| **图像集**  — 每个集的重复资产数 | 无重复项 | 100 | 20 |
-| **图像集**  — 每组图像的最大数量 | 每组5-10张图像 | 1000 |
+| **所有集**  — 每个集的重复资产数 | 无重复项 | 20 |  |
+| **所有集**  — 每组资产的最大数量 | 每组5-10张图像 | 1000 |
 | **旋转集**  — 每个2D集的最大行/列数 | 每套12-18页图片 | 1000 |
-| **PDF**  — 要考虑提取的PDF的最大页面数 |  | 5000（用于新上传） | 100 |
+| **PDF**  — 要考虑提取的PDF的最大页面数 |  | 5000（用于新上传） | 100(适用于所有PDF) |
 
 <!-- See also [Dynamic Media limitations](/help/limitations.md) -->
 

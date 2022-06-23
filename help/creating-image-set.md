@@ -10,9 +10,9 @@ discoiquuid: 3f356410-b30e-4870-ad95-6e5a9dc126c8
 feature: Dynamic Media Classic,Viewers,Image Sets,Spin Sets
 role: User
 exl-id: c18bb98c-b087-45d0-a4c9-44f58a3b514f
-source-git-commit: d5dcb990783932f3c5fdd101d1a4c631e73fcdde
+source-git-commit: 92a28b7868e03802f4ef1c113ec3f8b34f57ed56
 workflow-type: tm+mt
-source-wordcount: '642'
+source-wordcount: '635'
 ht-degree: 59%
 
 ---
@@ -34,9 +34,9 @@ ht-degree: 59%
 
 在创建图像集时，Adobe会推荐以下最佳实践，并实施以下限制：
 
-| 图像集限制类型 | 最佳实践 | 已实施限制 | 对2022年12月31日上限的更改 |
-| --- | --- | --- | --- |
-| 每个集的重复资产数 | 无重复项 | 100 | 20 |
+| 限制类型 | 最佳实践 | 规定的限制 |
+| --- | --- | --- |
+| 每个集的重复资产数 | 无重复项 | 20 |
 | 每组图像的最大数量 | 每组5-10张图像 | 1000 |
 
 另请参阅 [Dynamic Media限制](/help/limitations.md).

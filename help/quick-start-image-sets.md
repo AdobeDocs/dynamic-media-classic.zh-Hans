@@ -10,9 +10,9 @@ discoiquuid: 612a425f-2840-46c4-8e5a-c0bc5f738f4e
 feature: Dynamic Media Classic,Viewers,Image Sets
 role: User
 exl-id: 280e7201-84d6-46b1-94bb-0499beca2992
-source-git-commit: d5dcb990783932f3c5fdd101d1a4c631e73fcdde
+source-git-commit: 92a28b7868e03802f4ef1c113ec3f8b34f57ed56
 workflow-type: tm+mt
-source-wordcount: '680'
+source-wordcount: '673'
 ht-degree: 21%
 
 ---
@@ -27,9 +27,9 @@ Adobe Dynamic Media Classic图像集为用户提供了集成的查看体验。 �
 
 在创建图像集时，Adobe会推荐以下最佳实践，并实施以下限制：
 
-| 图像集限制类型 | 最佳实践 | 已实施限制 | 对2022年12月31日上限的更改 |
-| --- | --- | --- | --- |
-| 每个集的重复资产数 | 无重复项 | 100 | 20 |
+| 限制类型 | 最佳实践 | 规定的限制 |
+| --- | --- | --- |
+| 每个集的重复资产数 | 无重复项 | 20 |
 | 每组图像的最大数量 | 每组5-10张图像 | 1000 |
 
 另请参阅 [Dynamic Media限制](/help/limitations.md).
