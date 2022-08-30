@@ -8,9 +8,9 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_c
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 604b4630-4704-4254-84b5-91b33bb19d58
-source-git-commit: 3345861b5d65f46071578a81913e6b0a4eeb6b8d
+source-git-commit: 43e0c03b535d30ffed13e1e389935e34563baa9e
 workflow-type: tm+mt
-source-wordcount: '2026'
+source-wordcount: '2036'
 ht-degree: 1%
 
 ---
@@ -185,11 +185,12 @@ Adobe Dynamic Media Classic桌面应用程序与以下操作系统兼容：
 
 ## 下载和 *沉默* 在Windows®上安装最新的Adobe Dynamic Media Classic桌面应用程序 {#install-silent-windows-dmc-app}
 
-您使用的命令用于基本的MSI静默安装。 但是，Adobe Dynamic Media Classic桌面应用程序安装程序是使用InstallShield创建的InstallScript MSI安装程序。 在记录模式下运行安装程序时，任何用户交互都会记录在响应文件中。 然后，将此响应文件用于静默安装，如 [在静默模式下运行安装。](https://docs.revenera.com/installshield19helplib/helplibrary/SilentInstall.htm)
+您使用的命令用于基本的MSI静默安装。 但是，Adobe Dynamic Media Classic桌面应用程序安装程序是使用InstallShield创建的InstallScript MSI安装程序。 在记录模式下运行安装程序时，任何用户交互都会记录在响应文件中。 然后，将此响应文件用于静默安装，如 [在静默模式下运行安装](https://docs.revenera.com/installshield25helplib/installshield25helplib.htm#helplibrary/SilentInstall.htm).
 
 另请参阅:
 
 * [在Mac或Windows®上下载并安装最新的Adobe Dynamic Media Classic桌面应用程序](#installation-dmc-app)
+
 * [在macOS上下载并静默安装最新的Adobe Dynamic Media Classic桌面应用程序](#install-silent-mac-dmc-app)
 
 下载和 *沉默* 在Windows®上安装最新版本的Adobe Dynamic Media Classic桌面应用程序：
@@ -212,7 +213,7 @@ Adobe Dynamic Media Classic桌面应用程序与以下操作系统兼容：
 
    `adobe-dynamic-media-classic-20.22.1.exe /s /f1"C:\Setup.iss"`
 
-   有关命令行参数的详细信息，请访问 [Setup.exe和Update.exe命令行参数。](https://docs.revenera.com/installshield19helplib/helplibrary/IHelpSetup_EXECmdLine.htm)
+   有关命令行参数的详细信息，请访问 [Setup.exe和Update.exe命令行参数](https://docs.revenera.com/installshield25helplib/installshield25helplib.htm#helplibrary/IHelpSetup_EXECmdLine.htm?Highlight=Setup.exe%20and%20Update.exe%20Command-Line%20Parameters).
 
 1. 打开应用程序时，将显示新的Adobe Dynamic Media Classic登录页面：
 
