@@ -9,20 +9,18 @@ discoiquuid: a802ead0-401e-4600-aedf-e6414f7983e1
 feature: Dynamic Media Classic,SDK/API
 role: Developer
 exl-id: eaa6bf7b-ff38-4a15-b5b5-c60c3b75a35f
-source-git-commit: fe98d962624284b70a1297d7276478de1453c83e
+source-git-commit: 61c433567870cedfa36b89c6e7be97abd3b0fdca
 workflow-type: tm+mt
-source-wordcount: '309'
-ht-degree: 36%
+source-wordcount: '184'
+ht-degree: 23%
 
 ---
 
 # 开发人员资源 {#developer-resources}
 
-Adobe Dynamic Media Classic提供了有关每个Adobe Dynamic Media Classic软件模块最新主要版本的文档。 模块文档可用于图像创作、Adobe Dynamic Media Classic、图像服务器和图像渲染以及查看器。
+有关查看器、图像服务和图像渲染以及图像生产系统的参考指南介绍了适用于这些服务器模块的http协议。 如果网站开发人员希望进一步自定义和使用Adobe Dynamic Media Classic富媒体用于网站或自定义应用程序，则可以使用这些指南。 假定用户熟悉Dynamic Media Classic桌面应用程序、一般http协议标准和惯例以及基本的成像术语。
 
-对于一些模块，也提供了发行说明。发行说明中提供了有关相应发行版的详细信息，其中包括增强功能、新增功能、提示、故障排除建议以及已知的未决问题。发行说明还提供富媒体功能的交互示例，并解释这些功能的激活方法。此外，发行说明针对带有授权软件的客户端提供了安装和配置说明。
-
-图像提供和图像呈现参考指南，以及查看器介绍了这些服务器模块的http协议。 如果网站开发人员希望进一步自定义和使用Adobe Dynamic Media Classic富媒体用于网站或自定义应用程序，则可以使用这些指南。 Adobe Dynamic Media Classic假定用户熟悉桌面应用程序、一般http协议标准和惯例以及基本的成像术语。
+另请参阅 [Dynamic Media开发人员资源](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources.html).
 
 ## 查看器 {#viewers-guide}
 
@@ -43,19 +41,19 @@ Adobe Dynamic Media Classic提供了有关每个Adobe Dynamic Media Classic软�
 | --- | --- |
 | API 参考指南 | [https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-production-api/c-overview.html](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-production-api/c-overview.html) |
 
-## 图像创作 {#ia}
+<!-- ## Image Authoring {#ia}
 
-| 文档 | 网页地址 |
+| Document| Web address |
 | --- | --- |
-| 用户指南 | 请联系Adobe Dynamic Media Classic技术支持人员以获取此文档。 |
-| 发行说明 | 请联系Adobe Dynamic Media Classic技术支持人员以获取此文档。 |
+| User Guide | Contact Adobe Dynamic Media Classic technical support for this documentation. |
+| Release Notes | Contact Adobe Dynamic Media Classic technical support for this documentation. |
 
 ## Dynamic Media Classic API {#dmc-api}
 
-| 文档 | 网页地址 |
+| Document | Web address |
 | --- | --- |
-| API 参考指南 | 请联系Adobe Dynamic Media Classic技术支持以获取相关文档。 |
-
+| API Reference Guide | Contact Adobe Dynamic Media Classic technical support for documentation. |
+ -->
 
 
 
