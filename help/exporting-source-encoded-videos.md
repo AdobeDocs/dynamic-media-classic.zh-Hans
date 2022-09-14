@@ -10,16 +10,16 @@ discoiquuid: f6a2dc19-7eb5-41f7-b6f2-de1979ed1d4e
 feature: Dynamic Media Classic,Viewers,Video
 role: User
 exl-id: fab1f618-5370-4049-b6e0-69264afa933c
-source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
+source-git-commit: 5ed38982f3a8a2912a11530589212a024fda798c
 workflow-type: tm+mt
-source-wordcount: '73'
-ht-degree: 20%
+source-wordcount: '72'
+ht-degree: 0%
 
 ---
 
 # 导出源视频和编码视频{#exporting-source-and-encoded-videos}
 
-在浏览面板中，源视频标为“主视频”。编码视频标为“视频”。您可以导出源视频和主视频。 要导出视频文件，请在“浏览”面板中选择它们，然后转到 **[!UICONTROL 文件]** > **[!UICONTROL 导出]**.
+在“浏览”面板中，源视频被标记为 *主控视频*. 编码视频将标记为 *视频*. 您可以导出主视频和视频。 要导出视频文件，请在“浏览”面板中选择它们，然后转到 **[!UICONTROL 文件]** > **[!UICONTROL 导出]**.
 
 请参阅 [从Adobe Dynamic Media Classic导出资产](exporting-assets-from-dmc.md#exporting-assets-from-dmc).
 
