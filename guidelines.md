@@ -1,15 +1,15 @@
 ---
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: cb55e09a997b9d36002c4ac429603576d52fb8bd
 workflow-type: tm+mt
-source-wordcount: '697'
-ht-degree: 5%
+source-wordcount: '687'
+ht-degree: 0%
 
 ---
-# AdobeDynamic Media Classic文档的准则
+# Adobe Dynamic Media Classic文档内容贡献准则
 
-## AdobeDynamic Media Classic文档理念
+## Adobe Dynamic Media Classic文档理念
 
-我们知道，AdobeDynamic Media Classic用户在竞争非常激烈的环境中工作，他们努力创建数字体验，以使他们与竞争对手分开。 因此，至关重要的是，当Adobe提供高级新工具时，这些工具应辅以准确且清晰的文档，以便客户能够立即利用其AdobeDynamic Media Classic投资并最大化ROI。
+我们知道Adobe Dynamic Media Classic用户在竞争非常激烈的环境中工作，他们努力创建让自己与竞争对手独树一帜的数字体验。 因此，至关重要的是，当Adobe提供高级新工具时，这些工具应辅以准确而清晰的文档。 这样，客户就可以立即使用其Adobe Dynamic Media Classic投资并最大化ROI。
 
 文档的目标是尽快将最新的文档提供给用户。 因此，我们优先考虑准确、可用的文档，并努力不断更新和改进文档。
 
@@ -29,23 +29,23 @@ ht-degree: 5%
 
 ### 我们通常不会记录错误或其解决方法。
 
-文档涵盖标准用例。 因此，通常不会记录错误、错误导致的影响以及相应的解决方法。
+文档涵盖标准用例。 因此，未记录错误、错误导致的影响以及错误的解决方法。
 
 此规则的例外情况适用于发行说明，在发行说明中，已知问题可以与已获产品管理部门批准的可能解决方案一起列出。
 
 ### 文档贡献内容不用于回答技术问题。
 
-如果您有任何必要改进文档的想法，欢迎您贡献内容。 但是，评论、问题和拉取请求仅适用于&#x200B;*contributions*。 它们不用于回答有关如何使用AdobeDynamic Media Classic、实施您的项目或解决技术问题的问题。
+如果您有任何必要改进文档的想法，欢迎您贡献内容。 但是，评论、问题和拉取请求是针对 *贡献* 仅。 它们不是为了回答有关如何使用Adobe Dynamic Media Classic、实施您的项目或解决技术问题的问题。
 
-如果您对Dynamic Media Classic的使用或技术错误有任何疑问，应通过[Experience Cloud企业支持门户](https://helpx.adobe.com/cn/contact/enterprise-support.ec.html)报告，或在[Experience Cloud社区](https://forums.adobe.com/community/experience-cloud/marketing-cloud/experience-manager)中讨论。
+如果您对Adobe Dynamic Media Classic的使用或技术错误有任何疑问，应通过 [Experience Cloud企业支持门户](https://experienceleague.adobe.com/?support-solution=General&amp;support-tab=home#support) 或 [Experience Cloud社区](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/ct-p/adobe-experience-manager-community).
 
-***文档稿件不是Adobe客户关怀的替*** 代品，任何寻求支持相关问题答案的此类稿件都将被拒绝。
+***文档贡献内容不是Adobe客户关怀的替代品*** 任何寻求支持相关问题答案的此类贡献都将被拒绝。
 
 ### 贡献内容必须明确引用受影响的文档页面。
 
-如果创建问题以建议对文档进行改进，则必须包含指向受影响页面的链接。 如果使用文档页面上的“编 **辑此页面** ”链接创建期刊，则会自动创建该期刊并包含指向该页面的链接。
+如果创建问题以建议对文档进行改进，则必须包含指向受影响页面的链接。 如果使用 **编辑此页面** 链接时，会创建问题并自动包含指向该页面的链接。
 
-这不适用于拉取请求，因为从本质上讲，拉取请求会引用受影响的页面。
+这不适用于拉取请求，因为拉取请求引用受影响的页面。
 
 ## 文档准则
 
@@ -61,11 +61,11 @@ ht-degree: 5%
 * 尽可能简单地保留句子。
 * 使语言清晰简洁。
 
-请记住，文档的读者遍布全球，他们不可能以英语为母语或英语流利。 避免口语，尽量使语言清晰简单。
+请记住，文档的读者遍布全球。 他们不可能以母语或英语流利。 避免口语，尽量使语言清晰简单。
 
-#### 遵循《Microsoft风格手册》
+#### 遵循Microsoft®风格手册
 
-[《Microsoft Style手册》是免费](https://docs.microsoft.com/en-us/style-guide/welcome/) 提供的文档风格指南，重点介绍软件文档，并AdobeDynamic Media Classic文档尽可能遵循该指南。
+[《Microsoft®风格手册》](https://docs.microsoft.com/en-us/style-guide/welcome/) 是免费提供的文档风格指南，重点介绍软件文档，Adobe Dynamic Media Classic文档应尽量遵循本指南。
 
 ### 格式
 

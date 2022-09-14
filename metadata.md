@@ -4,9 +4,9 @@ solution: Dynamic Media Classic
 type: Documentation
 feature-set: Experience Manager Assets
 git-repo: https://github.com/AdobeDocs/dynamic-media-classic.zh-Hans
-source-git-commit: 94f0166a975b681eef355ada47750a33f2d2e65f
+source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
 workflow-type: tm+mt
-source-wordcount: '111'
+source-wordcount: '108'
 ht-degree: 0%
 
 ---
@@ -19,9 +19,9 @@ metadata.md文件包含存储库级别的元数据，这些元数据会传递到
 | metadata | 功能 |
 |--- |--- |
 | solution-title | 在文章标题中用作链接 |
-| solution-hub-url | 打开helpx中心页面 |
+| solution-hub-url | 打开中心页 |
 | solution-icon | 在解决方案标题旁边显示解决方案图标。 尚未实施 |
-| getting-started-url | helpx快速入门页面的链接 |
-| tutorials-url | 视频教程（helpx教程或KT教程）的链接 |
+| getting-started-url | 入门页面链接 |
+| tutorials-url | 视频教程（教程或KT教程）的链接 |
 | mini-toc-levels | 确定在右边栏中显示的标题级别数。 默认为2 |
-| git-repo | 指定供内部使用的主控存储库的位置 |
+| git-repo | 指定供内部使用的主存储库的位置 |

@@ -1,8 +1,8 @@
 ---
 title: 移动、重命名和删除资产
-description: 了解如何在Dynamic Media Classic中移动、重命名和删除Adobe。
+description: 了解如何在Adobe Dynamic Media Classic中移动、重命名和删除资产。
 uuid: deff6521-0ad0-4db9-b4e0-e3211ff97740
-contentOwner: admin
+contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
@@ -10,10 +10,10 @@ discoiquuid: 1c9e29f0-3083-4d22-a439-2a01faf59683
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 391eb7ce-ed89-47a8-a6c6-5adb3e95bf78
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
 workflow-type: tm+mt
-source-wordcount: '564'
-ht-degree: 37%
+source-wordcount: '567'
+ht-degree: 33%
 
 ---
 
@@ -27,17 +27,17 @@ ht-degree: 37%
 
 1. 在浏览面板中选择一个或多个资源，然后执行以下任一操作：
 
-   * 在资源库中显示要将资源移至的文件夹，然后将资源拖到此文件夹。
-   * 转到&#x200B;**[!UICONTROL 文件]** > **[!UICONTROL 移动]**，在“移动资产”窗口中选择文件夹，然后选择&#x200B;**[!UICONTROL 移动]**。
+   * 在资产库中显示要将资产移动到的文件夹，然后将资产拖到该文件夹中。
+   * 转到 **[!UICONTROL 文件]** > **[!UICONTROL 移动]**，在移动资产窗口中选择一个文件夹，然后选择 **[!UICONTROL 移动]**.
 
 ## 重命名资源 {#rename-assets}
 
 1. 在浏览面板中选择资源，然后执行以下任一操作：
 
-   * 选择名称，键入新名称，然后按&#x200B;**[!UICONTROL Enter]**&#x200B;或选择离开该名称。
-   * 转到&#x200B;**[!UICONTROL File]** > **[!UICONTROL Rename]**。 资源的名称被高亮显示。输入新名称，然后按&#x200B;**[!UICONTROL Enter]**。
+   * 选择名称，键入新名称，然后按 **[!UICONTROL 输入]** 或从名称中选择。
+   * 转到 **[!UICONTROL 文件]** > **[!UICONTROL 重命名]**. 资源的名称被高亮显示。输入新名称并按 **[!UICONTROL 输入]**.
 
-请确保不要输入现有AdobeDynamic Media Classic资产的名称。
+请确保不要输入现有Adobe Dynamic Media Classic资产的名称。
 
 ## 删除资源 {#delete-assets}
 
@@ -51,28 +51,28 @@ ht-degree: 37%
 
 1. 执行以下任一操作：
 
-   * 要删除一个或多个资产，请在浏览面板中选择资产，然后按&#x200B;**[!UICONTROL Delete]**&#x200B;或转到&#x200B;**[!UICONTROL File]** > **[!UICONTROL Delete]**。
-   * 要删除文件夹，请在资产库中选择该文件夹，然后选择&#x200B;**[!UICONTROL 删除文件夹]**。
+   * 要删除一个或多个资产，请在“浏览”面板中选择资产，然后按 **[!UICONTROL 删除]** 或转到 **[!UICONTROL 文件]** > **[!UICONTROL 删除]**.
+   * 要删除文件夹，请在资产库中选择该文件夹，然后选择 **[!UICONTROL 删除文件夹]**.
 
       删除文件夹会删除文件夹、文件夹中的所有资产及其子文件夹中的所有资产。
 
 >[!NOTE]
 >
->AdobeDynamic Media Classic建议覆盖资产文件，而不是删除它们，前提是您删除资产文件的原因是要用同名的资产文件替换它。
+>如果您删除资产文件的原因是使用同名的其他资产文件替换它，则Adobe Dynamic Media Classic建议覆盖资产文件，而不是删除它们。
 
 ## 使用文本文件删除多个资源 {#delete-multiple-assets-with-a-text-file}
 
-要在整个资产库中同时删除多个资产，您可以在文本文件中列出要删除的资产，并提交该列表以AdobeDynamic Media Classic。
+要在整个资产库中同时删除多个资产，您可以在文本文件中列出要删除的资产，然后将该列表提交到Adobe Dynamic Media Classic。
 
-创建AdobeDynamic Media Classic ID列表，并将其另存为文本(.txt)文件。 每个AdobeDynamic Media Classic ID必须位于其自己的行上（后跟硬返回）。
+创建Adobe Dynamic Media Classic ID列表，并将其另存为文本(.txt)文件。 每个Adobe Dynamic Media Classic ID必须位于其自己的行上（后跟硬返回）。
 
 在创建列表之后，请执行以下步骤，以使用列表来删除资源：
 
-1. 转到&#x200B;**[!UICONTROL 文件]** > **[!UICONTROL 删除资产列表]**。
+1. 转到 **[!UICONTROL 文件]** > **[!UICONTROL 删除资产列表]**.
 1. 在删除资产列表对话框中，浏览或键入包含要删除的资产列表的文本文件路径。
-1. 选择&#x200B;**[!UICONTROL Delete]**。
+1. 选择 **[!UICONTROL 删除]**.
 
-在删除包含文本文件的Adobe时，如果列表上没有任何资产Dynamic Media Classic ID，则会显示消息“无法在列表中验证这些条目：”以及条目列表。 但是，AdobeDynamic Media Classic不会在“作业”页面上生成错误。
+当您使用文本文件删除资产时，如果列表上没有任何Adobe Dynamic Media Classic ID，则会显示消息“无法在您的列表中验证这些条目：”。 此时还会显示条目列表。 但是，Adobe Dynamic Media Classic在“作业”页面上不生成错误。
 
 >[!MORELIKETHIS]
 >

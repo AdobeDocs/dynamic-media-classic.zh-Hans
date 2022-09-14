@@ -1,15 +1,15 @@
 ---
 title: 删除上传的资产
-description: 了解如何在Dynamic Media Classic中删除已上传的Adobe。
+description: 了解如何在Adobe Dynamic Media Classic中删除已上传的资产。
 uuid: edd2b688-c377-4be1-ba16-d2dd2e6f716d
-contentOwner: admin
+contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: dd338c8c-06c6-44d5-8493-dc2087eeeafb
 feature: Dynamic Media Classic
 role: User
 exl-id: d845bcb2-f914-4727-8df2-049dc172f266
-source-git-commit: f92109182283f3bf046604b1b6910180f858d73e
+source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
 workflow-type: tm+mt
 source-wordcount: '102'
 ht-degree: 63%
@@ -54,7 +54,7 @@ https://s7ugc1.scene7.com/ugc/image?op=delete&shared_secret=fece4b21-87ee-47fc-9
 
 >[!IMPORTANT]
 >
->对Adobe Dynamic Media Classic中新的或现有的UGC矢量图像资产的支持已于2021年9月30日终止。
+>2021年9月30日终止对Adobe Dynamic Media Classic中新的或现有的UGC矢量图像资产的支持。
 
 **示例图像 URL：**
 

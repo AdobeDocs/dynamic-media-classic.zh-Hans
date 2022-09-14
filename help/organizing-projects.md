@@ -1,8 +1,8 @@
 ---
 title: 组织您的项目工作
-description: 了解如何在Dynamic Media Classic中组织项目Adobe。
+description: 了解如何使用Adobe Dynamic Media Classic中的项目来组织工作。
 uuid: bd2b1792-e2d9-4a15-90c1-8ef2cf632867
-contentOwner: admin
+contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
@@ -10,7 +10,7 @@ discoiquuid: 036dfc1f-8317-4887-a6e1-d8f2cb61819c
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 69aabf4a-21bc-4bd8-8aad-33c2cfb9cf57
-source-git-commit: 3185824deca4d4b3c5549bda2e47f179094110e7
+source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
 workflow-type: tm+mt
 source-wordcount: '483'
 ht-degree: 31%
@@ -27,7 +27,7 @@ ht-degree: 31%
 
 >[!NOTE]
 >
->AdobeDynamic Media Classic建议使用元数据而不是项目来组织资产。 请参阅[查看、添加和导出元数据](viewing-adding-exporting-metadata.md)。
+>Adobe Dynamic Media Classic建议使用元数据而不是项目来组织资产。 请参阅 [查看、添加和导出元数据](viewing-adding-exporting-metadata.md).
 
 >[!NOTE]
 >
@@ -35,11 +35,11 @@ ht-degree: 31%
 
 ## 创建项目文件夹 {#creating-a-project-folder}
 
-您可以从资产库开始创建项目文件夹，或者在将文件上传到Dynamic Media Classic时，Adobe:
+您可以从资产库开始创建项目文件夹，或者在将文件上传到Adobe Dynamic Media Classic时：
 
-* **在资产库中**  — 滚动到资产库的底部，到项目部分，然后选择添 **[!UICONTROL 加项目]**。输入项目的名称。
+* **在资产库中**  — 滚动到资产库底部的项目部分，然后选择 **[!UICONTROL 添加项目]**. 输入项目的名称。
 
-* **上传文件**  — 在“上传”屏幕中，转到 **[!UICONTROL 添加到项目]**  >  **[!UICONTROL 创建项目]**。输入项目的名称。
+* **上传文件时**  — 在上传屏幕中，转到 **[!UICONTROL 添加到项目]** > **[!UICONTROL 创建项目]**. 输入项目的名称。
 
 >[!NOTE]
 >
@@ -49,16 +49,16 @@ ht-degree: 31%
 
 要显示、删除和重命名项目文件夹，请执行以下任一操作：
 
-* **浏览内容**  — 选择资产库中文件夹的名称。其资源将显示在浏览面板中。
+* **浏览内容**  — 在资产库中选择文件夹的名称。 其资源将显示在浏览面板中。
 
-* **删除项目文件夹**  — 选择项目文件夹，然后选择 **[!UICONTROL 删除项目]**。从项目文件夹删除资产时，不会从Dynamic Media ClassicAdobe中删除资产；资产将保留在存储资产的原始文件夹中。
+* **删除项目文件夹**  — 选择项目文件夹，然后选择 **[!UICONTROL 删除项目]**. 从项目文件夹删除资产时，不会从Adobe Dynamic Media Classic中删除资产；资产将保留在存储资产的原始文件夹中。
 
 * **重命名项目文件夹**  — 在“资产”面板中双击文件夹的名称，然后输入新名称。
 
 ## 将资产添加到项目文件夹 {#adding-assets-to-a-project-folder}
 
-您可以从浏览面板开始，或在将文件上传到Dynamic Media Classic时，将图像添加到项目文件夹：
+您可以从浏览面板开始，或在将文件上传到Adobe Dynamic Media Classic时，向项目文件夹添加图像：
 
-* **从浏览面板**  — 选择资产，并将其拖动到项目文件夹。您还可以转到&#x200B;**[!UICONTROL File]** > **[!UICONTROL Add To Project]**。 在“选择项目”对话框中选择项目文件夹名称，然后选择&#x200B;**[!UICONTROL Submit]**。
+* **从浏览面板**  — 选择资产，并将其拖动到项目文件夹。 您还可以转到 **[!UICONTROL 文件]** > **[!UICONTROL 添加到项目]**. 在“选择项目”对话框中选择项目文件夹名称，然后选择 **[!UICONTROL 提交]**.
 
-* **上传文件时**  — 在“上传”页面中，选择 **[!UICONTROL 作业选项]**。在上传作业选项对话框中，选择&#x200B;**[!UICONTROL 项目]**，然后选择项目名称。
+* **上传文件时**  — 在上传页面中，选择 **[!UICONTROL 作业选项]**. 在上传作业选项对话框中，选择 **[!UICONTROL 项目]**，然后选择项目名称。

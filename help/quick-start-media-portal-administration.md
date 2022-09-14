@@ -2,7 +2,7 @@
 title: “快速入门：媒体门户”
 description: 介绍和Media Portal快速入门，可帮助您快速启动和运行Media Portal技术和Adobe Dynamic Media Classic中的管理。
 uuid: 0dbd6146-b392-4e03-955b-0b323b654b9f
-contentOwner: admin
+contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/media_portal
@@ -10,10 +10,10 @@ discoiquuid: 1385a092-0b2c-4e05-ad1e-ce3685022300
 feature: Dynamic Media Classic,Collaboration,Asset Management
 role: Admin,User
 exl-id: bff613c8-a93b-4cca-94db-8cad1cc36296
-source-git-commit: 352b1c383195fa03294ad3501207d63f3cfe3e42
+source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
 workflow-type: tm+mt
 source-wordcount: '872'
-ht-degree: 52%
+ht-degree: 49%
 
 ---
 
@@ -43,19 +43,19 @@ Media Portal 用户分为三个角色，即用户、参与者和用户参与者�
 
 组决定了用户有权访问的文件夹和文件、用户可以在这些文件夹和文件中执行的操作以及可以使用的图像预设。作为管理员，您的首要任务是创建组。对于每个组，决定组成员可以访问哪些文件夹、文件和图像预设。此外，向组成员授予读取、写入和删除权限。这些权限决定了成员是否可以浏览、编辑、重命名和删除他们可以访问的文件夹和文件。
 
-请参阅[创建和管理媒体门户组](creating-media-portal-groups.md#creating_and_managing_media_portal_groups)。
+请参阅 [创建和管理媒体门户组](creating-media-portal-groups.md#creating_and_managing_media_portal_groups).
 
 ## 3. 添加用户
 
 添加用户时，为用户指定一个角色（用户、参与者或用户参与者）。还要将该用户指定给一个或多个组。要加快添加用户的过程，您可以 CSV 文件形式上载用户列表。新用户会收到用于登录 Media Portal 的欢迎电子邮件和说明。
 
-请参阅[添加和管理Media Portal用户](adding-media-portal-users.md#adding_and_managing_media_portal_users)。
+请参阅 [添加和管理Media Portal用户](adding-media-portal-users.md#adding_and_managing_media_portal_users).
 
 ## 4. 管理 FTP 帐户
 
 您可以具有与Media Portal关联并映射到Adobe Dynamic Media Classic帐户中特定文件夹的单独FTP帐户。 这种功能意味着，您可以允许用户使用单独的 FTP 帐户将数字资源上载到您的帐户中。
 
-请参阅[管理FTP帐户](ftp-accounts.md#managing_ftp_accounts)。
+请参阅 [管理FTP帐户](ftp-accounts.md#managing_ftp_accounts).
 
 >[!NOTE]
 >
@@ -65,15 +65,15 @@ Media Portal 用户分为三个角色，即用户、参与者和用户参与者�
 
 ## 5. 指定导出选项
 
-导出文件时，Media Portal 用户可以重设这些文件的格式并导出原始主文件（如果您已授予他们执行此操作的权限）。作为管理员，您可以决定用户如何导出文件。
+媒体门户用户在导出文件时，可以重新格式化文件并导出原始主文件 — 如果您授予他们执行此操作的权限。 作为管理员，您可以决定用户如何导出文件。
 
-请参阅[指定Media Portal用户可用的导出选项](specifying-export-options-available-media.md#specifying_export_options_available_to_media_portal_users)。
+请参阅 [指定Media Portal用户可用的导出选项](specifying-export-options-available-media.md#specifying_export_options_available_to_media_portal_users).
 
 ## 6. 创建图像预设
 
 图像预设是一组预定义的设置，用于更改图像在导出时的外观大小、图像质量、格式、分辨率以及其他方面。您可以创建图像预设，以便控制用户在导出图像时如何重设这些图像的格式。
 
-请参阅[创建并启用图像预设](creating-enabling-image-presets.md#creating_and_enabling_image_presets)。
+请参阅 [创建并启用图像预设](creating-enabling-image-presets.md#creating_and_enabling_image_presets).
 
 ## 7. 创建元数据预设和用户定义的元数据字段
 
@@ -85,4 +85,4 @@ Media Portal 用户分为三个角色，即用户、参与者和用户参与者�
 
 通过媒体门户样式设置，您可以使用公司徽标和颜色来对媒体门户页面进行品牌标识。 使用样式设置将您的公司品牌策略放在媒体门户上。
 
-请参阅[自定义媒体门户页面](customizing-media-portal-screen.md#customizing_the_media_portal_screen)。
+请参阅 [自定义媒体门户页面](customizing-media-portal-screen.md#customizing_the_media_portal_screen).

@@ -2,7 +2,7 @@
 title: 创建旋转集
 description: 了解如何在Adobe Dynamic Media Classic中创建旋转集。
 uuid: 697bd78f-5e39-46bf-aa6d-ad8ab99fe40e
-contentOwner: admin
+contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/spin_sets
@@ -10,10 +10,10 @@ discoiquuid: 735b5867-e249-4627-a5a5-25c19c2255bf
 feature: Dynamic Media Classic,Viewers,Spin Sets
 role: User
 exl-id: 35e8e7fc-5b3c-441a-959c-df2e39ea0d4b
-source-git-commit: 92a28b7868e03802f4ef1c113ec3f8b34f57ed56
+source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
 workflow-type: tm+mt
 source-wordcount: '952'
-ht-degree: 53%
+ht-degree: 50%
 
 ---
 
@@ -27,13 +27,13 @@ ht-degree: 53%
 
 ## 旋转集图像拍摄指南 {#guidelines-for-shooting-spin-set-images}
 
-通常，旋转集中的图像越多，图像的旋转效果越好。不过，在旋转集中加入许多图像会增加图像的加载时间。Adobe Dynamic Media Classic建议为拍摄图像以在旋转集中使用遵循以下准则：
+通常，旋转集中的图像越多，图像旋转效果越好。 不过，在旋转集中加入许多图像会增加图像的加载时间。Adobe Dynamic Media Classic建议为拍摄图像以在旋转集中使用遵循以下准则：
 
 * 在一维旋转集中至少使用8-12幅图像，在二维旋转集中至少使用16-24幅图像。
 * 请使用无损格式；建议使用 TIFF 和 PNG。
 * 为所有图像创建蒙版，这样物品将显示在纯白色或其他高对比度背景上。也可以添加阴影。
 * 确保产品细节非常明亮，且位于焦点上。
-* 借助人体模型或时装模特儿为流行服饰拍摄旋转图像。通常，模特人道模型会被蒙版（使用玻璃材质的模特人道模型），或者图像中会显示风格化的模特人道模型/裁缝。 通过定义角度的数目，可以创建模特儿旋转集。用胶带在地板上标出每个角度，以便引导模型步进并查看每个拍摄方向。
+* 借助人体模型或时装模特儿为流行服饰拍摄旋转图像。通常，模特人道模型会被蒙版（使用玻璃材质的模特人道模型），或者图像中会显示风格化的模特人道模型/裁缝。 您可以通过定义角度数量来创建模型旋转集。 用胶带在地板上标出每个角度，以便引导模型步进并查看每个拍摄方向。
 
 ## 创建旋转集 {#create}
 

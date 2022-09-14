@@ -2,7 +2,7 @@
 title: 登录到 Adobe Analytics
 description: 了解如何从Adobe Dynamic Media Classic登录Adobe Analytics。
 uuid: 5614babe-1097-4228-a3dc-27e5a25366d5
-contentOwner: admin
+contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/adobe_analytics_instrumentation_kit
@@ -10,9 +10,9 @@ discoiquuid: e5b510a8-8b7f-4c60-869e-d664a8157e63
 feature: Dynamic Media Classic
 role: Data Engineer,Admin,User
 exl-id: 261b8f7c-c61c-4ce3-b9dc-8549347aca2e
-source-git-commit: d54290ca376096965c2908444230b6a0071fa43e
+source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
 workflow-type: tm+mt
-source-wordcount: '844'
+source-wordcount: '846'
 ht-degree: 1%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 1%
 
 首先，将Dynamic Media Classic与Adobe Analytics OAuth集成。 Adobe Analytics OAuth与Dynamic Media Classic的集成通常仅针对每个用户完成一次。
 
-1. 访问 [Adobe开发人员控制台](https://developer.adobe.com/console). 确保您的帐户拥有需要集成的组织的管理员权限。
+1. 访问 [Adobe Developer控制台](https://developer.adobe.com/console). 确保您的帐户拥有需要集成的组织的管理员权限。
 1. 在主页的右上角附近，从下拉列表中，选择相应的公司。 (以下屏幕截图仅供参考；您选择的实际公司名称可能会有所不同。)
 
    ![创建新项目](assets/analytics-oauth1.png)
@@ -73,7 +73,6 @@ ht-degree: 1%
 >* Analytics中会添加一个新报表，用户希望开始向该新报表发送数据。
 >* 跟踪服务器已在Adobe Analytics中更新。
 >* 报表中引入了新的跟踪变量，您希望将Dynamic Media Classic用户界面中的特定查看器变量链接到该新的Analytics变量。
-
 >
 
 

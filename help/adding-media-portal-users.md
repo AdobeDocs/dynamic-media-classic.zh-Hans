@@ -1,8 +1,8 @@
 ---
 title: 添加和管理Media Portal用户
-description: 了解如何在AdobeDynamic Media Classic中添加和管理Media Portal用户。
+description: 了解如何在Adobe Dynamic Media Classic中添加和管理Media Portal用户。
 uuid: 96d4103c-6428-4ce1-b9e4-231599304f27
-contentOwner: admin
+contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/media_portal
@@ -10,7 +10,7 @@ discoiquuid: 5e933045-ce1a-41b9-ba8b-2151c396b7a2
 feature: Dynamic Media Classic,Collaboration,Asset Management
 role: Admin,User
 exl-id: 9590c53c-fd38-4bf2-b723-cd7369702364
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
 workflow-type: tm+mt
 source-wordcount: '1017'
 ht-degree: 58%
@@ -19,43 +19,43 @@ ht-degree: 58%
 
 # 添加和管理Media Portal用户{#adding-and-managing-media-portal-users}
 
-作为管理员，您可以添加和管理用户，决定他们是否可以更改密码、编辑用户信息以及上载用户列表。这些任务在“用户管理”屏幕上完成。要访问此屏幕，请导航至&#x200B;**[!UICONTROL 设置]** > **[!UICONTROL 应用程序设置]** > **[!UICONTROL 管理设置]** > **[!UICONTROL 用户管理]**。
+作为管理员，您可以添加和管理用户，决定他们是否可以更改密码、编辑用户信息以及上载用户列表。这些任务在“用户管理”屏幕上完成。要访问此屏幕，请导航至 **[!UICONTROL 设置]** > **[!UICONTROL 应用程序设置]** > **[!UICONTROL 管理设置]** > **[!UICONTROL 用户管理]**.
 
 >[!NOTE]
 >
->在添加用户之前，请设置用于管理这些用户的组。Media Portal 不允许仅添加用户而不将该用户指定到一个或多个组。有关更多信息，请参阅[创建和管理媒体门户组](creating-media-portal-groups.md#creating_and_managing_media_portal_groups)。
+>在添加用户之前，请设置用于管理这些用户的组。Media Portal 不允许仅添加用户而不将该用户指定到一个或多个组。有关更多信息，请参阅 [创建和管理媒体门户组](creating-media-portal-groups.md#creating_and_managing_media_portal_groups).
 
 ## 媒体门户密码管理 {#handling-media-portal-passwords}
 
 在注册时，将向 Media Portal 用户、参与者和参与者用户发送一封包含密码的欢迎电子邮件。管理员可以决定 Media Portal 用户是否可以更改此密码。
 
-1. 导航到&#x200B;**[!UICONTROL 设置]** > **[!UICONTROL 媒体门户设置]** > **[!UICONTROL 常规设置]**。
+1. 导航到 **[!UICONTROL 设置]** > **[!UICONTROL Media Portal设置]** > **[!UICONTROL 常规设置]**.
 1. 在“常规设置”页面上，选择或取消选择“**[!UICONTROL 允许 Media Portal 用户更改密码]**”。
-1. 选择&#x200B;**[!UICONTROL Save]**。
+1. 选择 **[!UICONTROL 保存]**.
 
 >[!NOTE]
 >
->允许更改密码的Media Portal用户可以通过选择&#x200B;**[!UICONTROL 设置]** > **[!UICONTROL 个人设置]**&#x200B;并在“个人设置”屏幕上更改密码来执行此操作。
+>有权更改密码的Media Portal用户可以通过选择 **[!UICONTROL 设置]** > **[!UICONTROL 个人设置]** 和更改“个人设置”屏幕上的密码。
 
 ## 添加媒体门户用户 {#adding-a-media-portal-user}
 
-1. 导航至&#x200B;**[!UICONTROL 设置]** > **[!UICONTROL 应用程序设置]** > **[!UICONTROL 管理设置]** > **[!UICONTROL 用户管理]**。
-1. 在“用户管理”页面上，选择&#x200B;**Add**。
-1. 在“添加用户”对话框的“用户信息”面板中，输入用户的名字、姓氏和电子邮件地址，然后选择&#x200B;**[!UICONTROL Next]**。
+1. 导航到 **[!UICONTROL 设置]** > **[!UICONTROL 应用程序设置]** > **[!UICONTROL 管理设置]** > **[!UICONTROL 用户管理]**.
+1. 在“用户管理”页面上，选择 **添加**.
+1. 在“添加用户”对话框的“用户信息”面板中，输入用户的名字、姓氏和电子邮件地址，然后选择 **[!UICONTROL 下一个]**.
 1. 在“公司/角色”面板的“公司”下拉列表中，选择用户的公司。
-1. 在“角色”列表中，选择一个媒体门户角色，然后选择&#x200B;**[!UICONTROL 下一步]**。
+1. 在“角色”列表中，选择Media Portal角色，然后选择 **[!UICONTROL 下一个]**.
 
    请参阅[Media Portal 用户角色](media-portal-user-roles.md#media_portal_user_roles)。
 
 1. 在“访问组”面板中，选择一个或多个组。
 
-   请参阅[创建和管理媒体门户组](creating-media-portal-groups.md#creating_and_managing_media_portal_groups)。
+   请参阅 [创建和管理媒体门户组](creating-media-portal-groups.md#creating_and_managing_media_portal_groups).
 
-1. （可选）选择&#x200B;**[!UICONTROL 电子邮件设置]**&#x200B;以选择与默认设置不同的电子邮件设置。
+1. （可选）选择 **[!UICONTROL 电子邮件设置]** ，以选择与默认设置不同的电子邮件设置。
 
    请参阅[为 Media Portal 用户设置欢迎电子邮件](adding-media-portal-users.md#setting_up_the_welcome_e_mail_message_for_media_portal_users)。
 
-1. 选择&#x200B;**[!UICONTROL 添加用户]**。
+1. 选择 **[!UICONTROL 添加用户]**.
 
 在添加用户后，Media Portal 向该用户发送一封欢迎电子邮件。该消息包括一个临时密码和 Media Portal URL。
 
@@ -88,8 +88,8 @@ ht-degree: 58%
 ### 上载 CSV 文件 {#uploading-the-csv-file}
 
 1. 打开“用户管理设置”屏幕。
-1. 选择&#x200B;**[!UICONTROL 上传用户列表]**。
-1. 在选择要上传的文件对话框中，选择CSV文件，然后选择&#x200B;**[!UICONTROL 打开]**。
+1. 选择 **[!UICONTROL 上传用户列表]**.
+1. 在选择要上传的文件对话框中，选择CSV文件，然后选择 **[!UICONTROL 打开]**.
 
 列表中的每个用户即会自动添加到指定组中。将向每个用户发送一封欢迎电子邮件。
 
@@ -101,29 +101,29 @@ ht-degree: 58%
 
 您可以在一个弹出窗口中显示 Media Portal 用户的姓名和电子邮件地址。如果您要剪切和粘贴用户名和地址以便在 Media Portal 外部使用，此列表会非常有用。
 
-1. 导航至&#x200B;**[!UICONTROL 设置]** > **[!UICONTROL 应用程序设置]** > **[!UICONTROL 管理设置]** > **[!UICONTROL 用户管理]**。
-1. 在&#x200B;**[!UICONTROL 按用户角色]**&#x200B;下拉列表中，选择Media Portal用户角色的名称，然后选择&#x200B;**[!UICONTROL 刷新]**&#x200B;以显示一类Media Portal用户的名称。
-1. 选择&#x200B;**[!UICONTROL 弹出列表]**。 复制并粘贴此列表。
+1. 导航到 **[!UICONTROL 设置]** > **[!UICONTROL 应用程序设置]** > **[!UICONTROL 管理设置]** > **[!UICONTROL 用户管理]**.
+1. 在 **[!UICONTROL 按用户角色]** 下拉列表中，选择Media Portal用户角色的名称，然后选择 **[!UICONTROL 刷新]** 以显示一类Media Portal用户的名称。
+1. 选择 **[!UICONTROL 弹出列表]**. 复制并粘贴此列表。
 
 ## 为 Media Portal 用户设置欢迎电子邮件消息 {#setting-up-the-welcome-e-mail-message-for-media-portal-users}
 
-添加新 Media Portal 用户、参与者和参与者用户时，您可以发送一封欢迎电子邮件。您可以配置此电子邮件，或告知AdobeDynamic Media Classic不要发送它。
+添加新 Media Portal 用户、参与者和参与者用户时，您可以发送一封欢迎电子邮件。您可以配置此电子邮件或告知Adobe Dynamic Media Classic不要发送它。
 
-1. 导航至&#x200B;**[!UICONTROL 设置]** > **[!UICONTROL 应用程序设置]** > **[!UICONTROL 管理设置]** > **[!UICONTROL 用户管理]**。
-1. 在“用户管理设置”屏幕中，选择&#x200B;**[!UICONTROL 电子邮件设置]**。
+1. 导航到 **[!UICONTROL 设置]** > **[!UICONTROL 应用程序设置]** > **[!UICONTROL 管理设置]** > **[!UICONTROL 用户管理]**.
+1. 在“User Administration Setup（用户管理设置）”屏幕中，选择 **[!UICONTROL 电子邮件设置]**.
 1. 在“电子邮件设置”对话框中，指定以下任何设置：
 
-   * **[!UICONTROL 发送电子邮件]**  — 如果您不想通过电子邮件通知新用户您已经注册了他们，请取消选择此选项。
+   * **[!UICONTROL 发送电子邮件]**  — 如果您不想通过电子邮件通知新用户您已经注册，请取消选择此选项。
 
-   * **[!UICONTROL 默认密码]**  — 为新用户输入临时密码，或将字段留空以使AdobeDynamic Media Classic生成随机密码。用户在首次登录时需要更改密码。
+   * **[!UICONTROL 默认密码]**  — 为新用户输入临时密码，或将字段留空以使Adobe Dynamic Media Classic生成随机密码。 用户在首次登录时需要更改密码。
 
-   * **[!UICONTROL 替换URL]**  — 如果您的用户通过其他URL访问AdobeDynamic Media Classic，请输入与默认URL不同的URL。
+   * **[!UICONTROL 替换URL]**  — 如果您的用户通过其他URL访问Adobe Dynamic Media Classic，请输入与默认URL不同的URL。
 
 ## 其他用户管理任务 {#other-user-management-tasks}
 
 从“用户管理设置”屏幕开始，您还可以执行以下任务：
 
-* **[!UICONTROL 过滤并排序用户列表]**  — 过滤Media Portal用户列表以查找用户。
+* **[!UICONTROL 过滤和排序用户列表]**  — 过滤Media Portal用户列表以查找用户。
 
 * **[!UICONTROL 删除用户]**  — 从列表中删除用户。
 
@@ -131,6 +131,6 @@ ht-degree: 58%
 
 * **[!UICONTROL 编辑用户信息]**  — 输入有关用户的最新信息。
 
-* **[!UICONTROL 创建用户定义字段]**  — 创建自定义的用户定义元数据字段，以便它们可以帮助您在AdobeDynamic Media Classic中组织资产。必要时，也可以激活或停用这些字段。
+* **[!UICONTROL 创建用户定义的字段]**  — 创建自定义的用户定义元数据字段，以便它们可以帮助您组织Adobe Dynamic Media Classic中的资产。 必要时，也可以激活或停用这些字段。
 
 请参阅[用户定义的字段](application-setup.md#user_defined_fields)。

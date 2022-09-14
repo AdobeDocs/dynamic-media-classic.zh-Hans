@@ -2,7 +2,7 @@
 title: 使用PDF
 description: 了解如何在Adobe Dynamic Media Classic中使用PDF。
 uuid: 26d70d28-9393-49b1-9051-d70456deca67
-contentOwner: admin
+contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
@@ -10,9 +10,9 @@ discoiquuid: 5a073de3-6b1d-4c3e-8c03-9182f9f3874a
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 02892514-61fe-48ba-a2e3-eeb30580a1e4
-source-git-commit: 92a28b7868e03802f4ef1c113ec3f8b34f57ed56
+source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
 workflow-type: tm+mt
-source-wordcount: '706'
+source-wordcount: '710'
 ht-degree: 36%
 
 ---
@@ -95,4 +95,4 @@ PDF（可移植文档格式）文件在Adobe Dynamic Media Classic中最常用�
 1. 从“裁剪”菜单中，选择 **[!UICONTROL 手动]**.
 1. 在“上”、“下”、“左”、“右”文本框中输入像素设置，以便从页面的上、下及两边剪切。
 
-页面被裁切部分的大小取决于您为 PDF 文件输入的“分辨率像素/英寸”选项。例如，如果输入150（默认值）作为“分辨率PX/英寸”设置，并从页面侧边裁剪75像素，则会裁剪半英寸；每英寸150像素，75像素等于半英寸。
+页面被裁切部分的大小取决于您为 PDF 文件输入的“分辨率像素/英寸”选项。例如，假定您输入150（默认）作为“分辨率PX/英寸”设置。 然后，从页面的侧边裁剪75个像素。 在这种情况下，0.5英寸。 被裁剪。 150像素/英寸，75像素等于半英寸。

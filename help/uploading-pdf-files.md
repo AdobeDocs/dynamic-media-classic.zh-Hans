@@ -2,17 +2,17 @@
 title: 上传PDF文件
 description: 了解如何在Adobe Dynamic Media Classic中上传与eCatalog关联的PDF文件。
 uuid: 9e178bb2-ac09-427a-b61a-aad4e87a5837
-contentOwner: admin
+contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: 0097cba5-c886-4115-bc35-7ae7a500202f
 feature: Dynamic Media Classic,Viewers,eCatalog
 role: User
 exl-id: a787d6b5-48c8-4cf7-b136-60ba3d3eb2f2
-source-git-commit: 7c1dfa7382b6eaf746fe7f0ac426472180c0c70c
+source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
 workflow-type: tm+mt
-source-wordcount: '829'
-ht-degree: 38%
+source-wordcount: '831'
+ht-degree: 36%
 
 ---
 
@@ -44,7 +44,7 @@ ht-degree: 38%
 
 有关不同上载方法的详细信息，请参阅[上载文件](uploading-files.md#uploading_your_files)。
 
-选择要上载的文件，然后选择以下&#x200B;*最佳实践* PDF 选项：
+选择要上传的文件，然后选择这些文件 *最佳实践* PDF选项：
 
 * **裁剪选项**  — 在上传作业选项对话框中，选择 **[!UICONTROL 裁剪选项]**. 如果PDF页面在 **[!UICONTROL 裁切]** 下拉列表中，选择 **[!UICONTROL 手动]**. 输入要从页面的上侧、右侧、下侧及左侧裁切的像素数。裁切标记通常设置为半英寸边距。 假设您选择 **[!UICONTROL 150]** （推荐）作为每英寸像素分辨率，并在“顶部”、“右”、“底部”和“左”文本框中输入75、75、75、75。 在这种情况下，它会从边距裁剪半英寸（150 ppi，1的半数等于75像素）。
 

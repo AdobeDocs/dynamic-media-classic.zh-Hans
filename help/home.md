@@ -7,7 +7,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: af29eabb-f7c6-420b-9c63-9d60ee2dc148
-source-git-commit: 7550df5eea7f4f6e84e083fe0e6cc57e2c34f096
+source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
 workflow-type: tm+mt
 source-wordcount: '577'
 ht-degree: 7%
@@ -35,7 +35,7 @@ ht-degree: 7%
 * [Adobe Dynamic Media Classic最佳实践教程](https://experienceleague.adobe.com/docs/experience-manager-learn/dynamic-media-classic-tutorial/overview.html)
 * [指南：锐化图像的最佳实践指南](/help/assets/s7_sharpening_images.pdf)
 * [指南：Adobe Dynamic Media Classic如何支持SEO](/help/assets/s7_seo.pdf)  — 搜索引擎现在支持搜索网站和图像。 Adobe Dynamic Media Classic支持使图像搜索引擎友好，以便将更多流量引至Adobe Dynamic Media Classic用户网站。 本PDF指南为您提供了实现此目标的背景和实施建议。
-<!-- * [Webinar: Best Practices for Responsive Design](http://offers.adobe.com/en/na/marketing/landings/_40458_responsive_design_live_on_demand_webinar.html) - Learn practical tips on how to improve your mobile strategy. See real-world examples of responsive design in action. Create one master asset that works across multiple devices and increase mobile performance by dynamically changing the resolution of images or the orientation of images for portrait or landscape displays. Learn how to also dynamically crop, scale, or resize images. -->
+<!-- * [Webinar: Best Practices for Responsive Design](http://offers.adobe.com/en/na/marketing/landings/_40458_responsive_design_live_on_demand_webinar.html) - Learn practical tips on how to improve your mobile strategy. See real-world examples of responsive design in action. Create one primary asset that works across multiple devices and increase mobile performance by dynamically changing the resolution of images or the orientation of images for portrait or landscape displays. Learn how to also dynamically crop, scale, or resize images. -->
 * [网络研讨会：最佳实践通过Adobe Dynamic Media Classic提供交互式体验](https://seminars.adobeconnect.com/p7wb8ej3u6d/)  — 了解如何将内容导入和导出Adobe Dynamic Media Classic，以及如何设置图像预设以获得最佳性能和体验。 您还可以了解查看器预设和缓存配置。
 * [网络研讨会：最大化资产投资回报率](https://adobecustomersuccess.adobeconnect.com/p5ar3hfrrec/?launcher=false&amp;fcsContent=true&amp;pbMode=normal&amp;proto=true)  — 了解在您的网站和移动设备应用程序中提供富媒体的行业最佳实践。 在此网络研讨会中，Adobe提供了一些示例和演示，向您展示了如何跨设备高效交付视频，如何在营销活动中提供动态创意，以及如何通过将任何图像、风格指南或回顾手册购物来提高转化率。
 * [网络研讨会：加快内容交付生命周期](https://adobecustomersuccess.adobeconnect.com/p88ducm9pqv/)  — 介绍和演示Adobe Experience Manager Assets - On Demand，新一代富媒体管理和交付平台。 了解如何在创意团队和营销团队之间协作和共享资产，以简化资产审核流程。 了解最佳实践，以便您能够高效管理资产元数据，以便轻松查找、使用、重用和共享资产，以及如何提供交互式跨渠道富媒体体验。

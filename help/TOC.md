@@ -6,7 +6,7 @@ user-guide-title: Adobe Dynamic Media Classic 指南
 breadcrumb-title: Dynamic Media Classic 指南
 user-guide-description: 了解有关使用 Adobe Dynamic Media Classic 的更多信息
 index: y
-source-git-commit: d5293a2983e1105c65005634e7eb4147e17e8328
+source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
 workflow-type: tm+mt
 source-wordcount: '779'
 ht-degree: 29%
@@ -79,8 +79,8 @@ ht-degree: 29%
    + [组织您的项目工作](organizing-projects.md)
 + 图像大小调整 {#image-sizing}
    + [快速入门：调整图像大小](quick-start-image-sizing.md)
-   + [上传主控图像](uploading-master-images.md)
-   + [发布主控图像](publishing-master-images.md)
+   + [上传主图像](uploading-master-images.md)
+   + [发布主图像](publishing-master-images.md)
    + [设置图像预设](setting-image-presets.md)
    + [将URL关联到您的Web应用程序](linking-urls-web-application.md)
 + 缩放 {#zoom}

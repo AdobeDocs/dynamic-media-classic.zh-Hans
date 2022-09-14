@@ -1,8 +1,8 @@
 ---
 title: 在样本集中包含缩放目标和图像映射
-description: 了解如何在Dynamic Media Classic的Adobe中，在样本集中包含缩放目标和图像映射。
+description: 了解如何在Adobe Dynamic Media Classic的样本集中包含缩放目标和图像映射。
 uuid: e46ebebd-b086-450c-9812-22290a92db8c
-contentOwner: admin
+contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/swatch_sets
@@ -10,7 +10,7 @@ discoiquuid: f75f6d5b-d689-4640-838f-a32d77859f62
 feature: Dynamic Media Classic,Viewers
 role: User
 exl-id: 1eaffe17-1fa3-4726-b0a1-369fabb9ee7e
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
 workflow-type: tm+mt
 source-wordcount: '165'
 ht-degree: 32%

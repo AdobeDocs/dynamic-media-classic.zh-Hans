@@ -1,8 +1,8 @@
 ---
 title: 个人设置
-description: 所有用户都可以更改Dynamic Media ClassicAdobe的“个人设置”屏幕上的设置。
+description: 所有用户都可以更改Adobe Dynamic Media Classic的“个人设置”屏幕上的设置。
 uuid: 29cb825a-f158-4a1e-9d5f-7636ee411b6e
-contentOwner: admin
+contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/setup
@@ -10,22 +10,22 @@ discoiquuid: 6314e7b7-5bde-4fe2-8674-e4fc525d4d1c
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: a019f973-7647-466f-8af3-5312e9225e89
-source-git-commit: e47c22508230adbb1ece323be0c1413a3f27ad89
+source-git-commit: cb55e09a997b9d36002c4ac429603576d52fb8bd
 workflow-type: tm+mt
-source-wordcount: '822'
+source-wordcount: '823'
 ht-degree: 25%
 
 ---
 
 # 个人设置 {#personal-setup}
 
-所有用户都可以更改“个人设置”屏幕中的设置。要打开“个人设置”屏幕，请转到&#x200B;**[!UICONTROL Setup]** > **[!UICONTROL Personal Setup]**。
+所有用户都可以更改“个人设置”屏幕中的设置。要打开“个人设置”屏幕，请转到 **[!UICONTROL 设置]** > **[!UICONTROL 个人设置]**.
 
 >[!NOTE]
 >
->“个人设置”屏幕列出了您在AdobeDynamic Media Classic中拥有的用户角色：公司管理员、管理员或用户。
+>“个人设置”屏幕列出了您在Adobe Dynamic Media Classic中拥有的用户角色：公司管理员、管理员或用户。
 
-“个人设置”设置控制浏览面板的默认行为、您接收电子邮件的方式以及密码设置。在更改这些设置后，请记住选择&#x200B;**[!UICONTROL 保存]**。
+“个人设置”设置控制浏览面板的默认行为、您接收电子邮件的方式以及密码设置。记住选择 **[!UICONTROL 保存]** 更改这些设置后，才会出现这种情况。
 
 ## 我的帐户信息
 
@@ -33,20 +33,20 @@ ht-degree: 25%
 
 ## 桌面
 
-* **清除图像缓存**  — 从您的计算机中删除所有AdobeDynamic Media缓存的图像文件。
-* **清除Adobe缓存**  — 删除计算机中缓存资产文件的所有Dynamic Media。
+* **清除图像缓存**  — 从计算机中删除所有AdobeDynamic Media缓存的图像文件。
+* **清除资产缓存**  — 删除从您的计算机中缓存资产文件的所有AdobeDynamic Media。
 
 除了使用桌面应用程序清除图像和资产缓存之外，您还可以直接从文件系统手动清除缓存。 根据您的操作系统，导航到以下内容：
 
-* macOS:`~/Library/Application\ Support/com.adobe.DMCDesktop/Local\ Store/`
+* macOS: `~/Library/Application\ Support/com.adobe.DMCDesktop/Local\ Store/`
 * Windows®: `C:\Users\YourUserName\AppData\Roaming\com.adobe.DMCDesktop\Local Store`
 
 ## Creative Suite Extension
 
 **安装AdobeDynamic MediaCreative Suite扩展：**
 
-1. 在AdobeDynamic Media Classic的工具栏中，转到&#x200B;**[!UICONTROL Setup]** > **[!UICONTROL Personal Setup]**，在“Creative Suite扩展”下，选择&#x200B;**[!UICONTROL Download Now]**&#x200B;以下载`s7csxs.zxp`文件。
-1. 选择&#x200B;**[!UICONTROL Installation]**&#x200B;和&#x200B;**[!UICONTROL System Requirements]**&#x200B;链接，以获取有关该扩展的其他信息。
+1. 在Adobe Dynamic Media Classic的工具栏上，转到 **[!UICONTROL 设置]** > **[!UICONTROL 个人设置]**，在Creative Suite扩展下，选择 **[!UICONTROL 立即下载]** 下载 `s7csxs.zxp` 文件。
+1. 选择 **[!UICONTROL 安装]** 和 **[!UICONTROL 系统要求]** 链接，以了解有关该扩展的其他信息。
 
 <!--    A readme file is included at the root of the unzipped file to provide you with additional information about the extension.
 
@@ -72,16 +72,16 @@ The plug-in is now available for you to use in Adobe Illustrator. -->
 
 ## 浏览器
 
-* **[!UICONTROL 缩略图大小]**  — 在浏览面板的网格视图中确定缩略图图像的默认大小。
-* **[!UICONTROL 默认资产库视图]**  — 确定内部版本集的资产库中的资产是显示为缩略图还是按名称显示。如果要处理资源库中的大量资源，可以按名称查看资源。例如，如果要使用许多 PDF 文件构建较大的 eCatalog，可以按名称查看资源，以使列表变得简短。
-* **[!UICONTROL 默认浏览排序顺序]**  — 确定资产在浏览面板中默认显示的顺序。在菜单中选择排序条件，并选择是升序排序还是降序排序。
-* **[!UICONTROL 默认浏览位置]**  — 允许您将浏览位置设置为默认位置、最后浏览的文件夹，或设置为您导航到并标识的特定位置。还可以将浏览位置设置为按升序或降序排序文件和文件夹。
-* **[!UICONTROL 默认浏览视图]**  — 确定“网格视图”或“列表视图”是首次打开“浏览”面板时您看到的默认视图。
-* **[!UICONTROL 闪屏显示]**  — 确定您是否看到任何闪屏，包括欢迎闪屏。
-* **[!UICONTROL 显示工具提示]**  — 确定当将指针移到按钮、菜单和导航链接上时是否显示工具提示。工具提示描述屏幕上的用户界面项。
-* **[!UICONTROL 棋盘背景]**  — 在图像后面显示一个棋盘层，让您能够轻松查看具有Alpha通道的图像的透明区域。
-* **[!UICONTROL 显示文件大小]**  — 显示浏览时资产的文件大小。
-* **[!UICONTROL 在搜索中包含UDF]**  — 要提高您运行的大多数元数据搜索的系统性能，请取消选择（默认）。
+* **[!UICONTROL 缩略图大小]**  — 在“浏览”面板的“网格视图”中确定缩略图图像的默认大小。
+* **[!UICONTROL 默认资产库视图]**  — 确定内部版本集的资产库中的资产是显示为缩略图还是按名称显示。 如果要处理资源库中的大量资源，可以按名称查看资源。例如，如果要使用许多 PDF 文件构建较大的 eCatalog，可以按名称查看资源，以使列表变得简短。
+* **[!UICONTROL 默认浏览排序顺序]**  — 确定资产在浏览面板中默认显示的顺序。 在菜单中选择排序条件，并选择是升序排序还是降序排序。
+* **[!UICONTROL 默认浏览位置]**  — 允许您将浏览位置设置为默认位置、最后浏览的文件夹，或设置为您导航到并标识的特定位置。 还可以将浏览位置设置为按升序或降序排序文件和文件夹。
+* **[!UICONTROL 默认浏览视图]**  — 确定“网格视图”或“列表视图”是首次打开“浏览”面板时看到的默认视图。
+* **[!UICONTROL 闪屏显示]**  — 确定是否看到任何闪屏，包括欢迎闪屏。
+* **[!UICONTROL 显示工具提示]**  — 确定将指针移动到按钮、菜单和导航链接上时是否显示工具提示。 工具提示描述屏幕上的用户界面项。
+* **[!UICONTROL 棋盘背景]**  — 在图像后面显示一个棋盘图层，以便您轻松查看具有Alpha通道的图像的透明区域。
+* **[!UICONTROL 显示文件大小]**  — 在您浏览时显示资产的文件大小。
+* **[!UICONTROL 在搜索中包含UDF]**  — 要提高您运行的大多数元数据搜索的系统性能，请取消选中（默认）。
 
    如果包括用户定义的字段对于您的大部分元数据搜索有帮助，您可以选择此选项以将其打开。或者可以使用高级搜索，与包括用户定义的字段相比，这种方式可以提供更直接、更快速的搜索体验。
 
@@ -89,15 +89,15 @@ The plug-in is now available for you to use in Adobe Illustrator. -->
 
    另请参阅[用户定义的字段](application-setup.md#user_defined_fields)。
 
-* **[!UICONTROL 基本搜索类型]**  — 您可以从以下两个选项中进行选择： **** 容器会搜索指定值的完整字符串； **** StartsWith从字符串的开头搜索，并返回结果的速度比“包 **[!UICONTROL 含”]**&#x200B;快。任一选项都会覆盖管理员在&#x200B;**[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Application General Settings]**&#x200B;中设置的默认设置。
+* **[!UICONTROL 基本搜索类型]**  — 您可以从以下两个选项中进行选择： **[!UICONTROL 包含]** 搜索指定值的完整字符串； **[!UICONTROL StartsWith]** 从字符串的开头搜索，并返回结果的速度比 **[!UICONTROL 包含]**. 任一选项都会覆盖 **[!UICONTROL 设置]** > **[!UICONTROL 应用程序设置]** > **[!UICONTROL 应用程序常规设置]** 由管理员执行。
 * **[!UICONTROL 显示命令反馈]**  — 选择以打开向服务器显示命令请求；取消选择以关闭。
-* **[!UICONTROL 导出期间显示对话框]**  — 选择该选项可在导出期间显示弹出对话框。如果取消选择（关闭）此选项，您仍然可以转到“作业”页以检索导出的结果。
+* **[!UICONTROL 导出期间显示对话框]**  — 选择以在导出期间显示弹出对话框。 如果取消选择（关闭）此选项，您仍然可以转到“作业”页以检索导出的结果。
 
 ## 电子邮件
 
-* **[!UICONTROL 电子邮件选项]**  — 选择您希望如何AdobeDynamic Media Classic，以在上传和发布作业完成后通过电子邮件通知您。可以选择仅当发生警告或错误时接收作业完成通知。
+* **[!UICONTROL 电子邮件选项]**  — 选择在上传和发布作业完成后，您希望Adobe Dynamic Media Classic通过电子邮件通知您的方式。 可以选择仅当发生警告或错误时接收作业完成通知。
 * **[!UICONTROL 电子邮件范围]**  — 确定您是收到公司的所有作业电子邮件，还是只收到有关您启动的上载和发布作业的电子邮件。
-* **[!UICONTROL 电子邮件类型]**  — 确定上传作业和发布作业完成时是否会通知您。
+* **[!UICONTROL 电子邮件类型]**  — 确定上传作业和发布作业完成后是否通知您。
 
 ## 语言
 
@@ -106,11 +106,11 @@ The plug-in is now available for you to use in Adobe Illustrator. -->
 ## 密码
 
 * **[!UICONTROL 当前密码]**  — 输入您当前密码的密码。
-* **[!UICONTROL 新密码]**  — 输入新的有效密码。您的密码必须满足以下要求：
+* **[!UICONTROL 新密码]**  — 输入新的有效密码。 您的密码必须满足以下要求：
    * 长度介于8到25个字符之间。
    * 至少包含一个小写字母。
    * 至少包含一个大写字母。
    * 至少包含一个数字。
-   * 至少包含以下特殊字符之一：`# $ & - _ : { }`
-* **[!UICONTROL 重新键入密码]**  — 重新输入新密码，以确认输入的密码正确。
-* **[!UICONTROL 密码过期]**  — 作为一项安全措施，确定您的密码在72天后是否过期。如果选择“是”，则会在 72 天之后要求您创建新密码。
+   * 至少包含以下特殊字符之一： `# $ & - _ : { }`
+* **[!UICONTROL 重新键入密码]**  — 重新输入新密码，以确认输入正确。
+* **[!UICONTROL 密码过期]**  — 确定密码是否在72天后过期作为安全措施。 如果选择“是”，则会在 72 天之后要求您创建新密码。

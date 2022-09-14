@@ -1,8 +1,8 @@
 ---
 title: 更有效地使用元数据
-description: 了解如何在Dynamic Media Classic中更有效地使用元Adobe。
+description: 了解如何在Adobe Dynamic Media Classic中更有效地使用元数据。
 uuid: 6690b815-ca5f-491f-94eb-3d4657fbb8ed
-contentOwner: admin
+contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/media_portal
@@ -10,7 +10,7 @@ discoiquuid: b399c2b2-3e59-43e7-aa7d-dd4fdf4e9bad
 feature: Dynamic Media Classic,Collaboration,Metadata,Asset Management
 role: Admin,User
 exl-id: e6a5af61-37be-4152-9ea3-8868f054783c
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
 workflow-type: tm+mt
 source-wordcount: '168'
 ht-degree: 57%
@@ -19,7 +19,7 @@ ht-degree: 57%
 
 # 更有效地使用元数据{#making-more-efficient-use-of-metadata}
 
-AdobeDynamic Media Classic上的所有文件都包含元数据。 元数据描述和标识了一个文件；它用于搜索和组织资源。要查看资产的元数据，请在详细信息视图中将其打开，然后检查元数据面板。 这一面板上的元数据字段提供了有关该资源的描述性信息。
+Adobe Dynamic Media Classic上的所有文件都包含元数据。 元数据描述和标识了一个文件；它用于搜索和组织资源。要查看资产的元数据，请在详细信息视图中将其打开，然后检查元数据面板。 这一面板上的元数据字段提供了有关该资源的描述性信息。
 
 除非在元数据字段中输入正确的元数据，否则元数据在搜索和资源组织中没有用处。要正确输入元数据并确保所有相应元数据字段均包含元数据，您可以创建元数据预设。*元数据预设*&#x200B;是一组预定义的元数据条目。用户可以在详细信息视图中选择元数据预设，以使用预定义的信息填充元数据字段，而不是自己输入元数据。
 

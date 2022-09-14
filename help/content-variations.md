@@ -1,8 +1,8 @@
 ---
 title: 管理内容变体
-description: 了解如何管理Dynamic Media Classic中的Adobe变体。
+description: 了解如何在Adobe Dynamic Media Classic中管理内容变体。
 uuid: 1e40a526-02f8-41d9-886f-6d094546bc13
-contentOwner: admin
+contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/template_basics
@@ -10,7 +10,7 @@ discoiquuid: aa129b0e-fc73-4fc2-a894-4560b3f46c4f
 feature: Dynamic Media Classic
 role: User
 exl-id: 65b8c314-7ec1-417f-8a7b-aa13762072a1
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
 workflow-type: tm+mt
 source-wordcount: '248'
 ht-degree: 55%
@@ -27,10 +27,10 @@ ht-degree: 55%
 
 您可以使用列表中的任意图像预设 URL。图像预设 URL 与通用 URL 相似。可以使用多个图像预设 URL。
 
-1. 转到&#x200B;**[!UICONTROL Build]** > **[!UICONTROL 模板集]**。
-1. 在生成器中，选择一个模板，然后选择&#x200B;**[!UICONTROL 添加/预览]**。
-1. 修改模板属性并选择&#x200B;**[!UICONTROL 另存为]**&#x200B;以创建其他版本。
-1. 键入名称，然后选择&#x200B;**[!UICONTROL Save]**。
+1. 转到 **[!UICONTROL 生成]** > **[!UICONTROL 模板集]**.
+1. 在生成器中，选择一个模板，然后选择 **[!UICONTROL 添加/预览]**.
+1. 修改模板属性并选择 **[!UICONTROL 另存为]** 创建其他版本。
+1. 键入名称，然后选择 **[!UICONTROL 保存]**.
 
    必须同时发布资产和模板。
 

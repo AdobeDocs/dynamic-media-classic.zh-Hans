@@ -2,7 +2,7 @@
 title: 创建样本集
 description: 了解如何在Adobe Dynamic Media Classic中创建色板集。
 uuid: 250b3525-310d-4481-b0bc-f9057e823e0b
-contentOwner: admin
+contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/swatch_sets
@@ -10,7 +10,7 @@ discoiquuid: 631d2b2d-9e69-4b96-8392-17e00a1a8de0
 feature: Dynamic Media Classic,Viewers
 role: User
 exl-id: 426b6e6b-daed-4ca6-b095-99bb06604b07
-source-git-commit: fe2aef174299366fc88309679ae29cc99e3d7f98
+source-git-commit: cb55e09a997b9d36002c4ac429603576d52fb8bd
 workflow-type: tm+mt
 source-wordcount: '708'
 ht-degree: 67%

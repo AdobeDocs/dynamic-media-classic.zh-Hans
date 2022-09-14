@@ -2,7 +2,7 @@
 title: “快速入门：eCatalogs”
 description: 电子目录简介和快速入门，可帮助您快速启动和运行Adobe Dynamic Media Classic中的eCatalog技术。
 uuid: 1ec41927-3df6-4845-8d9d-bb92cf6dca08
-contentOwner: admin
+contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
@@ -10,10 +10,10 @@ discoiquuid: 781dacd0-ef0c-42b7-92e0-12791994874d
 feature: Dynamic Media Classic,Viewers,eCatalog
 role: User
 exl-id: 9e2df814-465d-412a-a032-ef3e8cb462ba
-source-git-commit: ec1a981dd5cfa92ce4ae8e2676dd131d1509216f
+source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
 workflow-type: tm+mt
-source-wordcount: '1558'
-ht-degree: 37%
+source-wordcount: '1559'
+ht-degree: 36%
 
 ---
 
@@ -56,7 +56,7 @@ eCatalog 是数字网络版本的印刷材料，例如目录、小册子、传�
 >
 >您现在可以在Adobe Dynamic Media Classic中创作电子目录。
 
-本 eCatalog 快速入门旨在帮助您快速学会如何使用 eCatalog。按照步骤 1 到 7 操作。每个步骤的后面都有一个交叉引用，可以跳转到相应的主题标题，供您了解更多信息。
+本 eCatalog 快速入门旨在帮助您快速学会如何使用 eCatalog。按照步骤 1 到 7 操作。在每个步骤之后，都会有一个对主题标题的交叉引用，您可以在该标题中找到更多信息。
 
 ## 1.上传PDF文件
 

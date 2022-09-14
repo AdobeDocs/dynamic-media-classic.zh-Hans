@@ -1,8 +1,8 @@
 ---
-title: 从AdobeDynamic Media Classic导出资产
-description: 了解如何从AdobeDynamic Media Classic导出资产。
+title: 从Adobe Dynamic Media Classic导出资产
+description: 了解如何从Adobe Dynamic Media Classic导出资产。
 uuid: d42b7a73-80c0-4a9a-a04e-7ef53e6fcf22
-contentOwner: admin
+contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
@@ -10,45 +10,45 @@ discoiquuid: eb850ec7-a669-41ea-b2b0-4c9178e34f95
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 5e3b0002-5ae2-4437-862f-caa098b04362
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
 workflow-type: tm+mt
-source-wordcount: '431'
-ht-degree: 52%
+source-wordcount: '432'
+ht-degree: 51%
 
 ---
 
-# 从AdobeDynamic Media Classic导出资产{#exporting-assets-from-dmc}
+# 从Adobe Dynamic Media Classic导出资产{#exporting-assets-from-dmc}
 
-您可以将在Dynamic Media Classic中编辑的Adobe保存到本地网络驱动器。 导出的资源会打包成一个 Zip 文件，供下载或通过电子邮件发送。
+您可以将在Adobe Dynamic Media Classic中编辑的资产保存到本地网络驱动器。 导出的资源会打包成一个 Zip 文件，供下载或通过电子邮件发送。
 
 可用于导出作业的 Zip 压缩文件的最大文件大小为 1 GB。此外，每个导出作业最多允许500个资产总数。
 
-AdobeDynamic Media Classic会在“作业”屏幕中保留导出作业的记录。
+Adobe Dynamic Media Classic会在“作业”屏幕中保留导出作业的记录。
 
-**要从AdobeDynamic Media Classic导出资产，请执行以下操作：**
+**要从Adobe Dynamic Media Classic导出资产，请执行以下操作：**
 
-1. 选择要导出的资产，然后转到&#x200B;**[!UICONTROL 文件]** > **[!UICONTROL 导出]**。
+1. 选择要导出的资产，然后转到 **[!UICONTROL 文件]** > **[!UICONTROL 导出]**.
 1. 在“导出所选资源”窗口中，单击“**[!UICONTROL 图像选项]**”，然后指定以下任一选项（管理员可确定哪些选项对用户可用）：
 
-   * **[!UICONTROL 预设]**  — （可选）在导出资产时，选择图像预设以设置资产的格式。如果选择了图像预设，其他格式选项将不可用，因为资源会采用由图像预设定义的格式。
+   * **[!UICONTROL 预设]**  — （可选）在导出资产时选择图像预设以设置资产格式。 如果选择了图像预设，其他格式选项将不可用，因为资源会采用由图像预设定义的格式。
 
-   * **[!UICONTROL 转换]**  — 转换资产文件或原始图像。
+   * **[!UICONTROL 转化]**  — 转换资产文件或原始图像。
 
-   * **[!UICONTROL 大小]**  — 您可以选择标准大小。或者，您也可以从&#x200B;**[!UICONTROL 大小]**&#x200B;下拉列表中选择&#x200B;**[!UICONTROL 其他]**，选择所需的度量单位，然后指定宽度和高度。
+   * **[!UICONTROL 大小]**  — 您可以选择标准大小。 或者，您可以选择 **[!UICONTROL 其他]** 从 **[!UICONTROL 大小]** 下拉列表中，选择所需的单位，然后指定宽度和高度。
 
-      另请参阅[指定Media Portal用户可用的导出选项](specifying-export-options-available-media.md#specifying_export_options_available_to_media_portal_users)。
+      另请参阅 [指定Media Portal用户可用的导出选项](specifying-export-options-available-media.md#specifying_export_options_available_to_media_portal_users).
 
    * **[!UICONTROL 格式]**  — 选择图像格式。
 
-   * **[!UICONTROL 颜色]**  — 选择RGB、CMYK或灰色。
+   * **[!UICONTROL 颜色]**  — 选择“RGB”、“CMYK”或“灰色”。
 
    * **[!UICONTROL 分辨率]**  — 选择72 ppi、150 ppi或300 ppi。
 
    * **[!UICONTROL 作业名称]**  — 您可以为导出分配作业名称。
 
-   * **[!UICONTROL 发送电子邮件至]**  — （可选）如果您打算通过电子邮件发送资产，请输入电子邮件地址。电子邮件会列出收件人可从中下载资源的 URL。
+   * **[!UICONTROL 发送电子邮件至]**  — （可选）如果您打算通过电子邮件发送资产，请输入电子邮件地址。 电子邮件会列出收件人可从中下载资源的 URL。
 
-1. 选择&#x200B;**[!UICONTROL 导出]**。
+1. 选择 **[!UICONTROL 导出]**.
 
 系统支持以下三种基本导出操作：
 

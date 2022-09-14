@@ -1,17 +1,17 @@
 ---
 title: 应用程序设置
 description: 了解如何设置和配置Adobe Dynamic Media Classic的“应用程序”区域。 利用“应用程序”区域，可输入常规设置、创建图像、查看器和视频编码预设、定义默认查看器和元数据、发布设置和视频SEO设置。 您还可以使用区域设置批集预设，以自动生成2D旋转集。
-contentOwner: admin
+contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/setup
 feature: Dynamic Media Classic
 role: Admin
 exl-id: 3f96606e-ef5c-4c01-aa0f-3148f14e28be
-source-git-commit: 121081e90b68357f7602924cd6ced0c0256b378f
+source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
 workflow-type: tm+mt
-source-wordcount: '11303'
-ht-degree: 42%
+source-wordcount: '11299'
+ht-degree: 40%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 42%
 
 另请参阅 [测试安全测试服务](testing-assets-making-them-public.md#testing_the_secure_testing_service).
 
-* **[!UICONTROL 已发布的服务器名称]**  — 此服务器是实时内容交付网络(CDN)服务器，用于特定于您帐户的所有系统生成URL调用。 除非Adobe Dynamic Media Classic支持技术人员指示您更改此服务器名称，否则请勿更改此服务器名称。
+* **[!UICONTROL 已发布的服务器名称]**  — 此服务器是实时CDN（内容交付网络）服务器，用于特定于您帐户的所有系统生成URL调用。 除非Adobe Dynamic Media Classic支持技术人员指示您更改此服务器名称，否则请勿更改此服务器名称。
 
 * **[!UICONTROL 源服务器名称]**  — 此服务器仅用于质量保证测试。 除非Adobe Dynamic Media Classic支持技术人员指示您更改此服务器名称，否则请勿更改此服务器名称。
 
@@ -85,11 +85,11 @@ ht-degree: 42%
 
 * **[!UICONTROL 显示编码视频]**  — 默认情况下，取消选中（关闭）。
 
-   要在Adobe Dynamic Media Classic中快速搜索和浏览视频，而无需浏览同一视频的大量编码派生项，请取消选中此选项（默认）。 只显示主控视频缩略图（您上传并用于创建派生项的源视频）和“父”自适应视频集缩略图（包含编码视频集的“子”派生项）。
+   要在Adobe Dynamic Media Classic中快速搜索和浏览视频，而无需浏览同一视频的大量编码派生项，请取消选中此选项（默认）。 只显示主视频缩略图（您上传并用于创建派生项的源视频）和“父”自适应视频集缩略图（包含编码视频集的“子”派生项）。
 
-   但是，您仍可以访问主视频或自适应视频集的各个编码视频。要执行以上操作，请双击视频缩略图图像，打开详细信息视图。然后选择 **[!UICONTROL 编码视频]** ，以便您能够访问所有“子”视频。
+   但是，您仍可以从主视频或自适应视频集中访问各个已编码视频。 要执行以上操作，请双击视频缩略图图像，打开详细信息视图。然后选择 **[!UICONTROL 编码视频]** ，以便您能够访问所有“子”视频。
 
-   您还可以转到 **[!UICONTROL 文件]** > **[!UICONTROL 重新处理]** 直接从自适应视频集创建更多编码的“子”视频。 Adobe Dynamic Media Classic会自动找到自适应视频集的“父”主控视频，并将其用作转码的源视频。 但是，如果保存新的单个编码视频，您在搜索或浏览时将看不到这些视频。但是，您仍可以从详细信息视图的“编码的视频”选项卡进行访问。
+   您还可以转到 **[!UICONTROL 文件]** > **[!UICONTROL 重新处理]** 直接从自适应视频集创建更多编码的“子”视频。 Adobe Dynamic Media Classic会自动找到自适应视频集的“父”主视频，并将其用作转码的源视频。 但是，如果保存新的单个编码视频，您在搜索或浏览时将看不到这些视频。但是，您仍可以从详细信息视图的“编码的视频”选项卡进行访问。
 
    请参阅 [上传和转码视频](uploading-encoding-videos.md#uploading_and_encoding_videos).
 
@@ -145,7 +145,7 @@ Adobe Dynamic Media Classic不允许两个文件具有相同的名称。 每个�
 
 如果您之前上传了图像，然后更改了原始文件（或替换了它们），则所选的覆盖选项会指定Adobe Dynamic Media Classic替换图像的方式。 没有关于图像更改的信息，但是新图像会替换旧图像。如果文件夹还包含Adobe Dynamic Media Classic中尚未包含的图像，则会添加这些图像。
 
-如果您已上载的图像在某些方面有所更改（图像已改变），但是对图像的引用保持不变，请使用此选项。在上载和翻录 Adobe® PDF 时“覆盖”也很有用。微调Adobe Dynamic Media Classic *rip* 在图像中，调整“上传”对话框中的ICC颜色配置文件选项，然后使用“覆盖”功能重新上传。
+如果您上传的图像在某种程度上发生了更改（图像已经更改），但对图像的引用保持不变，请使用此选项。 在上载和翻录 Adobe® PDF 时“覆盖”也很有用。微调Adobe Dynamic Media Classic *rip* 在图像中，调整“上传”对话框中的ICC颜色配置文件选项，然后使用“覆盖”功能重新上传。
 
 用于从生产服务器访问图像的Adobe Dynamic Media Classic ID是从图像文件名派生的。 在替换现有文件和用于访问图像的Adobe Dynamic Media Classic ID时，文件名中必须使用大写和小写字符。 在上传到Adobe Dynamic Media Classic之前，请确保在文件名中使用大写和小写字符是正确的，以避免Adobe Dynamic Media Classic ID仅对于同一图像大小写不同。
 
@@ -153,7 +153,7 @@ Adobe Dynamic Media Classic不允许两个文件具有相同的名称。 每个�
 
 ## 图像预设 {#image-presets}
 
-“图像预设”屏幕用于创建和编辑图像预设。图像预设使Adobe Dynamic Media Classic能够以不同大小动态传送来自同一主控图像的图像。 每个图像预设都表示用于显示图像的一组预定义大小和格式命令。在创建图像预设时，您可以选择图像交付的大小。 您还可以选择格式设置命令，以便在传送图像以供查看时优化图像的外观。
+“图像预设”屏幕用于创建和编辑图像预设。图像预设使Adobe Dynamic Media Classic能够以不同大小动态传送来自同一主图像的图像。 每个图像预设都表示用于显示图像的一组预定义大小和格式命令。在创建图像预设时，您可以选择图像交付的大小。 您还可以选择格式设置命令，以便在传送图像以供查看时优化图像的外观。
 
 管理员可以创建导出资源的预设。用户在导出图像时可以选择预设，这也会按照管理员指定的规范对图像进行重新格式化。
 
@@ -249,7 +249,7 @@ Adobe Dynamic Media Classic不允许两个文件具有相同的名称。 每个�
 
 * **[!UICONTROL URL修饰符]**  — 如果您要指定用于定义图像预设（而非设置）的URL修饰符，请在此处输入修饰符。
 
-* **[!UICONTROL 示例图像URL]**  — 列出Dynamic Media图像服务器用于传送带有您添加或编辑的图像预设的图像的“原始”URL字符串。 该 URL 字符串编码您在“添加预设”或“编辑预设”屏幕中选择的所有格式设置。
+* **[!UICONTROL 示例图像URL]**  — 列出Dynamic Media图像服务器用于传送带有您添加或编辑的图像预设的图像的“原始”URL字符串。 此URL字符串会对您在“添加预设”或“编辑预设”屏幕中选择的所有格式设置进行编码。
 
 ### 编辑、删除或停用图像预设 {#editing-removing-or-deactivating-an-image-preset}
 
@@ -262,7 +262,7 @@ Adobe Dynamic Media Classic不允许两个文件具有相同的名称。 每个�
 
 ## 激活或停用自适应视频预设 {#activating-or-deactivating-adaptive-video-presets}
 
-Adobe Dynamic Media Classic提供了自适应视频编码预设。 它是一个将 16:9 自适应视频预设和 4:3 自适应视频预设合并为一组的总预设列表。这些预定义的预设反映了最常用的编码设置，并且经过优化以便在目标移动设备、平板电脑和台式机上播放。
+Adobe Dynamic Media Classic提供了自适应视频编码预设。 它是一个主要的预设列表，这些预设将16:9自适应视频预设和4:3自适应视频预设都合并到一个组中。 这些预定义的预设反映了最常用的编码设置，并且经过优化以便在目标移动设备、平板电脑和台式机上播放。
 
 默认情况下，仅激活（启用或“打开”）“自适应视频”编码预设。您可以根据需要将其停用。在“上载作业选项”对话框的 eVideo 部分中，非活动自适应视频预设不会显示为可选择的选项。
 
@@ -310,7 +310,7 @@ Adobe Dynamic Media Classic提供了自适应视频编码预设。 它是一个�
       * 根据您计划播放视频的分辨率大小和带宽选择编码预设。
       * 您可以选择自适应视频编码，以及每个视频的一个或多个编码预设。 例如，您可以在一个上载作业中针对桌面和移动设备编码文件。
 
-在选择 **[!UICONTROL 开始上传]**，则会上传原始主控视频文件，并从主控文件生成编码文件。
+在选择 **[!UICONTROL 开始上传]**，则会上传原始主视频文件，并从主文件生成编码文件。
 
 ### 关于编码预设选项 {#about-encoding-preset-options}
 
@@ -344,7 +344,7 @@ Adobe Dynamic Media Classic提供了自适应视频编码预设。 它是一个�
 
 ### 自适应视频编码（16:9 或 4:3）视频预设 {#adaptive-video-encoding-or-video-presets}
 
-这些自适应视频编码预设合并了一系列单独的编码预设，将根据上载的视频的高宽比自动为您选择这些预设。例如，如果上载一个 4:3 视频，系统会自动使用“**自适应视频编码（16:9 或 4:3）**”选项中主预设列表内的所有五个 4:3 预设来对该视频进行编码。
+这些自适应视频编码预设合并了一系列单独的编码预设，将根据上载的视频的高宽比自动为您选择这些预设。例如，如果您上传4:3视频，则会使用(位于 **自适应视频编码（16:9或4:3）** 选项。
 
 有关编码选项参数的信息，请参阅[关于编码预设选项](application-setup.md#about_encoding_preset_options)。
 
@@ -444,7 +444,7 @@ Adobe Dynamic Media Classic提供了自适应视频编码预设。 它是一个�
 
 另请参阅 [Adobe查看器参考库示例](https://landing.adobe.com/zh-Hans/na/dynamic-media/ctir-2755/live-demos.html).
 
-### 用于响应式设计网页的查看器支持 {#viewer-support-for-responsive-designed-web-pages}
+### 查看器支持响应式设计的网页 {#viewer-support-for-responsive-designed-web-pages}
 
 不同的网页具有不同的需求。有时，您希望网页提供一个链接，以在单独的浏览器窗口中打开HTML5查看器。 在其他情况下，需要直接将HTML5查看器嵌入到托管页面。 在后一种情况下，网页可能具有静态布局。 或者，它是“响应式”的，并在不同设备上或针对不同浏览器窗口大小显示不同。 为了满足这些需求，Adobe Dynamic Media Classic附带的HTML5查看器支持静态网页和响应式设计的网页。
 
@@ -462,7 +462,7 @@ Adobe Dynamic Media Classic提供了自适应视频编码预设。 它是一个�
 
 * **[!UICONTROL 旋转集查看器]**  — 提供图像的多个视图，以便用户可以旋转对象以检查不同的侧边和角度。
 
-* **视频查看器**  — 使用源文件的分辨率尺寸或自定义大小显示视频。 Adobe Dynamic Media Classic附带了许多用于播放视频的预定义查看器预设，如果您是管理员，则可以创建自定义视频查看器预设。 有十几种不同的设置可用于配置“视频查看器”。您可以配置其大小、前景和背景颜色、视频和音频控件、进度条、用户界面外观、社交功能和“帮助”。
+* **视频查看器**  — 使用源文件的分辨率尺寸或自定义大小显示视频。 Adobe Dynamic Media Classic附带了许多用于播放视频的预定义查看器预设，如果您是管理员，则可以创建自定义视频查看器预设。 有12个以上不同的设置用于配置视频查看器。 您可以配置其大小、前景和背景颜色、视频和音频控件、进度条、用户界面外观、社交功能和“帮助”。
 
 * **[!UICONTROL 缩放查看器]**  — 提供三种类型的缩放查看器选项：
 
@@ -525,7 +525,7 @@ Adobe Dynamic Media Classic提供了自适应视频编码预设。 它是一个�
 
 Adobe Dynamic Media Classic支持为MP4 H.264视频播放移动设备视频。
 
-* 您可以在以下位置找到支持此视频格式的BlackBerry®设备： [BlackBerry®上支持的视频格式](https://developer.blackberry.com/devzone/develop/supported_media/bb10_media_support.html)
+* 您可以在以下位置找到支持此视频格式的BlackBerry®设备： [BlackBerry®上支持的视频格式](https://developers.blackberry.com/us/en)
 * 您还可以在以下位置找到支持此视频格式的Windows®设备： [Windows® Phone上支持的视频格式](https://docs.microsoft.com/en-us/windows/uwp/audio-video-camera/supported-codecs)
 
 |  | 查看器技术 | 桌面 | AppleiPhone | AppleiPad | Android™智能手机 | Android™平板电脑 | BlackBerry® Smartphone | Windows® Phone |
@@ -629,7 +629,7 @@ Adobe Dynamic Media Classic支持为MP4 H.264视频播放移动设备视频。
 
 您可以导出现有的HTML5查看器预设，以用作创建HTML5查看器预设的基础。 该导出选项很有用，因为您不必从头开始创建查看器。相反，您会导出外观和行为与所需预设接近的预设，然后以此为基础开始进行设计调整。
 
-Adobe Dynamic Media Classic中所有默认的现成查看器预设CSS文件都使用指向上资产的相对图像服务路径 `Scene7SharedAssets`. 例如，以下是查看器预设CSS文件中图像资产的相对路径，位于
+Adobe Dynamic Media Classic中所有默认的现成查看器预设CSS文件都使用指向上资产的相对图像提供路径 `Scene7SharedAssets`. 例如，以下是查看器预设CSS文件中图像资产的相对路径，位于
 
 `Scene7SharedAsset`: `.s7videoviewer .s7fullscreenbutton[state][selected] { background-image: url(/is/image/Scene7SharedAssets/FullScreenButton_dark_sprite?scl=1&fmt=png-alpha); }`
 
@@ -760,7 +760,7 @@ Adobe Dynamic Media Classic提供了预定义的元数据视图，管理员可�
 1. 在预设名称文本字段中，输入视图的名称。
 1. （可选）检查 **[!UICONTROL 设为默认值]** 使此视图成为用户在详细信息视图中打开元数据面板时看到的视图。
 1. （可选）选择 **[!UICONTROL 包括UDF]** ，以在视图中包含用户定义的字段。 用户定义的字段显示在详细信息视图的“元数据”面板的顶部。
-1. 选择要用于视图的字段(选择 **[!UICONTROL 全选]** 选择所有字段)。
+1. 选择您希望查看的字段(选择 **[!UICONTROL 全选]** 选择所有字段)。
 1. 选择 **[!UICONTROL 保存]**.
 
    视图的选定类别和字段显示在“预览”面板中。
@@ -789,7 +789,7 @@ Adobe Dynamic Media Classic提供了预定义的元数据视图，管理员可�
    * 要创建预设，请选择 **[!UICONTROL 添加]**. 在元数据模板名称文本字段中，键入预设的名称。 选择 **[!UICONTROL 元数据视图]**，然后从下拉列表中选择一个视图(请参阅 [元数据视图](application-setup.md#metadata_views))。
    * 要编辑现有预设，请从元数据预设列表中选择该预设，然后选择 **[!UICONTROL 编辑]**.
 
-1. 展开您要在预设中包括的标题，并在您要在预设中包括的不同字段中输入值。
+1. 展开要包含在预设中的标题，然后在要包含在预设中的不同字段中输入值。
 1. 选择 **[!UICONTROL 保存]**.
 
    预设的所选类别和字段将显示在“预览”面板中。
@@ -949,9 +949,9 @@ Adobe Dynamic Media Classic使用批量集预设将共享某些常见信息或�
 
 另请参阅 [创建批集预设](application-setup.md#creating_a_batch_set_preset).
 
-多轴旋转集中没有最小或最大的行数或列数限制。
+在多轴旋转集中，没有必须具有的最小或最大行数或列数。
 
-例如，假设您要创建名为 *spin-2dspin* 的多轴旋转集。有一组旋转集图像包含 3 行，每行 12 个图像。这些图像命名如下：
+例如，假定要创建一个名为 *旋转2dspin*. 有一组旋转集图像包含 3 行，每行 12 个图像。这些图像命名如下：
 
 ```as3
 spin-01-01
@@ -1009,7 +1009,7 @@ spin-03-12
 
    >[!NOTE]
    >
-   >如果行和列正则表达式的组合无法确定资产在多维旋转集数组中的位置，则不会将该资产添加到旋转集，并且会记录错误。
+   >如果行和列中的正则表达式组合无法确定资产在多维旋转集数组中的位置，则不会将该资产添加到旋转集，并且会记录错误。
 
 1. 对于设置命名和创建约定，为您在“资源命名约定”中定义的基本名称指定后缀或前缀。此外，还定义在Adobe Dynamic Media Classic文件夹结构中创建图像集的位置。
 

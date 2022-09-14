@@ -1,17 +1,17 @@
 ---
 title: 发布文件
 description: “了解如何将资产发布到Dynamic Media图像服务器。 您可以一次性发布资产，也可以安排Adobe Dynamic Media Classic按定期计划发布资产。 发布资源后，这些资源即可用来传送。您可以从Adobe Dynamic Media Classic复制URL调用，并将其添加到您的网站或应用程序中。”
-contentOwner: admin
+contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/upload_and_publish_assets
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 91b73a09-c5b5-4001-b36f-6bebe65717ff
-source-git-commit: f0e6d634587500877dbcd9e56bcfca105a6e6b9b
+source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
 workflow-type: tm+mt
-source-wordcount: '1726'
-ht-degree: 48%
+source-wordcount: '1729'
+ht-degree: 45%
 
 ---
 
@@ -66,7 +66,7 @@ Adobe Dynamic Media Classic会在“作业”页面中跟踪发布作业。 您�
 
 >[!NOTE]
 >
->由于内容传递网络 (CDN) 上的网络缓存机制，您重新发布（以前发布）的资源不会立即显示在网站上。请参阅[重新发布的资源和 CDN 延迟](publishing-files.md#republished_assets_and_cdn_delays)。
+>由于内容交付网络(CDN)上的Web缓存机制，您重新发布（您之前已发布）的资产不会立即显示在您的网站上。 请参阅[重新发布的资源和 CDN 延迟](publishing-files.md#republished_assets_and_cdn_delays)。
 
 ### 创建一次性发布作业 {#creating-a-one-time-publish-job}
 
@@ -102,7 +102,7 @@ Adobe Dynamic Media Classic会在“作业”页面中跟踪发布作业。 您�
 
 ## 取消发布作业 {#canceling-a-publish-job}
 
-您可以取消进行中的发布作业。此外，管理员还可以从公司的“作业”页中取消进行中的发布作业。
+您可以取消正在进行的发布作业。 此外，管理员还可以从公司的“作业”页中取消进行中的发布作业。
 
 要取消发布作业，请转到“作业”页面，然后选择 **[!UICONTROL 取消]**. 在“作业”页的“已计划”选项卡上，您可以选中或取消选中作业的“活动”列中的对应复选框以暂停或恢复作业。
 

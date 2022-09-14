@@ -2,17 +2,17 @@
 title: 上载文件
 description: 了解如何在Adobe Dynamic Media Classic中上传文件。
 uuid: b3025f84-4f28-4276-bc9c-f0c0c2a26e12
-contentOwner: admin
+contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: b2bc3bf9-e313-481a-8670-c3bedde21b1a
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 8dfcfb3f-6472-4efd-bc87-d5111eee45ce
-source-git-commit: ec1a981dd5cfa92ce4ae8e2676dd131d1509216f
+source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
 workflow-type: tm+mt
-source-wordcount: '3926'
-ht-degree: 33%
+source-wordcount: '3929'
+ht-degree: 31%
 
 ---
 
@@ -78,14 +78,14 @@ TAR 和 ZIP 上载支持包括一个复选框，用于选择是否要解压缩�
 | 字体 | 上传了TrueType、Type1(仅限Windows®)、OpenType®字体和PhotoFonts。 |
 | 图像 | 图像和分层图像文件。 |
 | 图像集和样本集 | 可以显示在查看器中的一组相关图像。 |
-| ICC 配置文件 | 颜色配置文件，可以用来将上载的图像从源颜色空间转换为其他颜色空间。 |
+| ICC 配置文件 | 一种颜色配置文件，可用于将上传的图像从其源色彩空间转换为其他色彩空间。 |
 | 晕影 | 使用“图像创作”程序创作的图像以及相关文件。 |
 | 内容文件 | Adobe InDesign、Illustrator 或 Photoshop 内容文件。 |
 | FXG 文件 | 与分辨率无关的图形格式文件；可用于创建可自定义的模板，以输出到打印、网络、电子邮件、桌面和设备。 |
 | SVG 文件 | 图像服务服务器可以渲染的可缩放矢量图形文件。 |
 | XML 文件 | 定义用于修改请求的路径和查询部分的预处理规则的文件。 |
 | 级联样式表文件。 | 上载用于自定义 HTML5 查看器的 CSS 外观。 |
-| JavaScript 文件 | JavaScript文件用于查看器工具以保存帐户信息。 Adobe安全建议，仅对于在交付时使用单独域的客户帐户，才应使用此资产类型（以避免跨站点脚本）。 |
+| JavaScript 文件 | JavaScript文件用于查看器工具以保存帐户信息。 Adobe安全建议，仅对于在交付时使用单独域的客户帐户（以避免跨站点脚本），才应使用此资产类型。 |
 
 >[!NOTE]
 >
@@ -114,14 +114,14 @@ Adobe Dynamic Media Classic不提供用于生成静态内容的预览URL的选�
 
 由于在文件上载过程中将去除文件名中的扩展名，因此系统不允许文件使用相同的根名称。在Adobe Dynamic Media Classic系统中，资产文件名减去文件扩展名会成为资产的资产ID。 因此，两个资源不能同名。
 
-确保贵公司的所有用户都了解以下文件命名规则：
+确保贵公司的所有用户都了解这些文件命名规则：
 
 * 系统中不允许存在名称完全相同的资源 ID。
 * 资产ID名称区分大小写。
 * 最佳做法是确保资源 ID 不包含空格（例如 black jacket.tif 和 blue jacket.jpg）。Adobe Dynamic Media Classic在使用资产名称构建URL字符串时，会对资产名称中的空格进行ASCII编码。 这些 ASCII 编码不易理解，从而使 URL 更难理解。
 * 文件名中允许特定语言字符。但是，文件名中不能出现以下字符：
 
-   \ ;/ ? :@ &amp; = + $ , * &quot; &lt; > | ` { } %
+   \ ; / ? : @ &amp; = + $ , &#42; &quot; &lt; > | &#39; { } %
 
    如果文件名包含一个或多个上述字符，将会在上载时删除这些字符。
 
@@ -215,7 +215,7 @@ Adobe Dynamic Media Classic桌面应用程序允许您通过拖动上传文件�
          * **[!UICONTROL 现在]**  — 在选择 **[!UICONTROL 保存]** 在上传作业选项对话框中，选择 **[!UICONTROL 提交上传]** 上传页面。
          * **[!UICONTROL 安排以后]**  — 选择您希望上传作业运行的年、月、日和时间（以15分钟增量表示）。
       * **[!UICONTROL 定期]**  — 指定每天、每周或每月运行的上传作业。 或者，根据您自己的规范自定义上传作业。
-         * **[!UICONTROL 每日]**  — 设置希望作业每天运行的时间。 如果希望作业仅在星期一到星期五运行，请选择 **[!UICONTROL 仅限工作日]**.
+         * **[!UICONTROL 每日]**  — 设置您希望作业每天运行的时间。 如果希望作业仅在星期一到星期五运行，请选择 **[!UICONTROL 仅限工作日]**.
          * **[!UICONTROL 每周]**  — 选择您希望该作业运行的特定日期和时间。
          * **[!UICONTROL 每月]**  — 选择您希望该作业运行的月份或一周中某天的特定日期，包括开始时间。
          * **[!UICONTROL 自定义]**  — 根据您自己的规范自定义上传或发布作业时间间隔。 请参阅 [创建自定义上传或发布作业时间间隔](checking-job-files.md#creating-a-custom-upload-or-publish-job-time-interval).
@@ -274,7 +274,7 @@ Adobe Dynamic Media Classic桌面应用程序允许您通过拖动上传文件�
 
 使用FTP上传项目时，您可以安排在上传完成后开始后续作业。 如果其他作业已计划开始，则您在此处计划的作业将在它们之后排入队列。
 
-新作业将向您指定的地址发送一条通知，以触发该位置的代码。该后续发布作业所使用的名称与上载作业相同，但在开头加有文本 *Pub_*。
+新作业会向您指定的地址发送通知，以便能够触发该位置的代码。 该后续发布作业所使用的名称与上载作业相同，但在开头加有文本 *Pub_*。
 
 **上载后执行其他作业:**
 

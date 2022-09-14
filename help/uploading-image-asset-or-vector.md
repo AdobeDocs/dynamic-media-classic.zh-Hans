@@ -1,13 +1,13 @@
 ---
 title: 上传栅格图像资产
-description: 了解如何将光栅图像资产上传到AdobeDynamic Media Classic
-contentOwner: admin
+description: 了解如何将光栅图像资产上传到Adobe Dynamic Media Classic
+contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 feature: Dynamic Media Classic
 role: User
 exl-id: 2ef78fe6-1e7c-4f48-86da-137ddaa55bbf
-source-git-commit: f92109182283f3bf046604b1b6910180f858d73e
+source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
 workflow-type: tm+mt
 source-wordcount: '994'
 ht-degree: 69%
@@ -20,13 +20,13 @@ ht-degree: 69%
 
 >[!IMPORTANT]
 >
->对Adobe Dynamic Media Classic中新的或现有的UGC矢量资产的支持已于2021年9月30日终止。
+>2021年9月30日终止对Adobe Dynamic Media Classic新UGC矢量资产或现有UGC矢量资产的支持。
 
 ## 请求共享密钥 {#requesting-a-shared-secret-key}
 
-通过[使用Admin Console请求&#x200B;*共享密钥*&#x200B;以创建支持案例。](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) 在您的支持案例中，请求共享密钥。
+请求 *共享密钥* by [使用Admin Console创建支持案例。](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) 在您的支持案例中，请求共享密钥。
 
-在电子邮件中，请提供要用于上载图像资源的公司名称。从AdobeDynamic Media Classic收到密钥后，请将其保存在本地，以供将来使用。
+在电子邮件中，请提供要用于上载图像资源的公司名称。从Adobe Dynamic Media Classic收到密钥后，将其保存在本地以供将来使用。
 
 ## 检索上传令牌 {#retrieving-the-upload-token}
 
@@ -35,7 +35,7 @@ ht-degree: 69%
 上载令牌是字母数字字符串，只能在特定时间段内使用。使用以下URL替换您的共享密钥，以便您可以检索上传令牌。
 
 * 光栅图像
-   `https://s7ugc1.scene7.com/ugc/image?op=get_uploadtoken&shared_secret=fece4b21-87ee-47fc-9b99-2e29b78b602`在此示例中，共享密钥为  `fece4b21-87ee-47fc-9b99-2e29b78b602`
+   `https://s7ugc1.scene7.com/ugc/image?op=get_uploadtoken&shared_secret=fece4b21-87ee-47fc-9b99-2e29b78b602`在此示例中，共享密钥为 `fece4b21-87ee-47fc-9b99-2e29b78b602`
 
 <!-- * Vector
   `https://s7ugc1.scene7.com/ugc/vector?op=get_uploadtoken&shared_secret=2d19f60e-890a-4e79-a1a5-9ac2875429b9`In this example, the shared-secret key is `2d19f60e-890a-4e79-a1a5-9ac2875429b9` -->
@@ -86,11 +86,11 @@ https://s7ugc1.scene7.com/ugc/image?op=get_uploadtoken&shared_secret=fece4b21-87
 `https://s7ugc1.scene7.com/ugc/vector?op=get_uploadtoken&shared_secret=2d19f60e-890a-4e79-a1a5-9ac2875429b9&expires=5000` -->
 
 **允许的HTTP方法：**
-`GET` 和  `POST`
+`GET` 和 `POST`
 
 您现在可以上载图像资源。
 
-请参阅[上传图像资产](uploading-image-asset-or-vector.md#uploading_an_image_asset)。
+请参阅 [上传图像资产](uploading-image-asset-or-vector.md#uploading_an_image_asset).
 
 ## 上传栅格图像资产 {#uploading-an-image-asset}
 
@@ -100,11 +100,11 @@ https://s7ugc1.scene7.com/ugc/image?op=get_uploadtoken&shared_secret=fece4b21-87
 https://s7ugc1.scene7.com/ugc/image?op=upload&upload_token=aa2a378a-cd25-4c80-994d-312094e0ef20_18000&company_name=000Company
 ```
 
-`upload_token`和`company_name`字段为必填字段。
+的 `upload_token` 和 `company_name` 字段。
 
-请参阅[检索上传令牌](uploading-image-asset-or-vector.md#retrieving_the_upload_token)。
+请参阅 [检索上传令牌](uploading-image-asset-or-vector.md#retrieving_the_upload_token).
 
-请参阅[检索共享密钥](uploading-image-asset-or-vector.md#requesting_a_shared_secret_key)。
+请参阅 [检索共享密钥](uploading-image-asset-or-vector.md#requesting_a_shared_secret_key).
 
 您还能以 URL 查询字符串的形式发送其他可选值，如以下示例所示：
 
@@ -112,7 +112,7 @@ https://s7ugc1.scene7.com/ugc/image?op=upload&upload_token=aa2a378a-cd25-4c80-99
 https://s7ugc1.scene7.com/ugc/image?op=upload&upload_token=aa2a378a-cd25-4c80-994d-312094e0ef20_18000&company_name=000Company&file_limit=2000000&file_exts=jpg,gif
 ```
 
-`file_limit`参数指定文件大小限制（以字节为单位）。 `file_exts` 参数指定允许上载的文件扩展名。这两个值都是可选的。
+的 `file_limit` 参数指定文件大小限制（以字节为单位）。 `file_exts` 参数指定允许上载的文件扩展名。这两个值都是可选的。
 
 对于允许的文件大小限制和文件扩展名，在应用程序中设置全局限制。如果请求中所发送的内容是全局限制的子集，则允许这一发送。全局限制如下所示：
 
@@ -129,14 +129,14 @@ https://s7ugc1.scene7.com/ugc/image?op=upload&upload_token=aa2a378a-cd25-4c80-99
 * 文件扩展名的列表.
 * 是否保留与资产关联的颜色配置文件和文件名。
 * 是否使用“挖空背景”。 如果启用“挖空背景”，请设置“拐角”、“公差”和“填充方法”。
-请参阅上载](image-editing-options-upload.md#image-editing-options-at-upload)时的[图像微调选项中的“挖空背景”。
+请参阅中的挖空背景 [上传时的图像微调选项](image-editing-options-upload.md#image-editing-options-at-upload).
 * 待上载文件的名称.
 
-您可以通过选择[https://s7ugc1.scene7.com/ugc/upload.html](https://s7ugc1.scene7.com/ugc/upload.html)查看与上述表单关联的HTML源代码
+您可以通过选择 [https://s7ugc1.scene7.com/ugc/upload.html](https://s7ugc1.scene7.com/ugc/upload.html)
 
-在Firefox的浏览器窗口中，右键单击，然后选择&#x200B;**[!UICONTROL 查看页面源]**。 该代码将显示当用户单击“**[!UICONTROL 提交]**”时运行的相应 URL 查询字符串和 POST 方法。
+在Firefox的浏览器窗口中右键单击，然后选择 **[!UICONTROL 查看页面源]**. 该代码将显示当用户单击“**[!UICONTROL 提交]**”时运行的相应 URL 查询字符串和 POST 方法。
 
-要在Internet Explorer中查看XML响应，请转到&#x200B;**[!UICONTROL View]** > **[!UICONTROL Source]**。 要在Firefox中查看XML响应，请转到&#x200B;**[!UICONTROL 工具]** > **[!UICONTROL 浏览器工具]** > **[!UICONTROL Web开发人员工具]**。 建议使用 Firefox 查看 XML 响应。
+要在Internet Explorer中查看XML响应，请转到 **[!UICONTROL 查看]** > **[!UICONTROL 来源]**. 要在Firefox中查看XML响应，请转到 **[!UICONTROL 工具]** > **[!UICONTROL 浏览器工具]** > **[!UICONTROL Web开发人员工具]**. 建议使用 Firefox 查看 XML 响应。
 
 下面是成功上载的示例响应：
 
