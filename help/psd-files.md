@@ -10,9 +10,9 @@ discoiquuid: 4086e3db-5aca-41a0-8f15-302afbf67ddb
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: e3b8c4b9-e9c4-4d7f-84de-2efb456755a1
-source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
+source-git-commit: dc1ec666b208cec8fffe836d64ed501f6ccf4e7b
 workflow-type: tm+mt
-source-wordcount: '989'
+source-wordcount: '1003'
 ht-degree: 25%
 
 ---
@@ -34,12 +34,12 @@ PSD(Photoshop文档文件)在Adobe Dynamic Media Classic中最常用于创建模
 * **裁剪选项**  — 位于 **[!UICONTROL 裁剪选项]**. 选择 **[!UICONTROL 裁切]** 自动从PSD文件的边缘裁剪空格；选择 **[!UICONTROL 手动]** 要裁剪PSD文件的侧边，请执行以下操作：
 
    * **[!UICONTROL 裁切]**  — 选择 **[!UICONTROL 根据]** ，然后选择 **[!UICONTROL 颜色]** 或 **[!UICONTROL 透明度]**.
+   如果您选择 **[!UICONTROL 颜色]** 选项，选择“角”菜单，然后选择PSD的角，其颜色最能代表要裁剪的空格颜色。
 
-      如果您选择 **[!UICONTROL 颜色]** 选项，选择“角”菜单，然后选择PSD的角，其颜色最能代表要裁剪的空格颜色。
-
-      拖动滑块以指定从0到1的公差。 基于颜色修剪时，如果指定为 0，则仅裁切与 PSD 角中选定颜色精确匹配的像素。数字越接近 1，允许的色差越大。要根据透明度进行裁切，请指定0，以仅在像素透明时裁剪像素；接近1的数字使透明度更高。
+   拖动滑块以指定从0到1的公差。 基于颜色修剪时，如果指定为 0，则仅裁切与 PSD 角中选定颜色精确匹配的像素。数字越接近 1，允许的色差越大。要根据透明度进行裁切，请指定0，以仅在像素透明时裁剪像素；接近1的数字使透明度更高。
 
    * **[!UICONTROL 手动]**  — 输入要从图像的任何一侧或每一侧裁剪的像素数。 图像被裁切部分的大小取决于图像文件中的 ppi（像素/英寸）设置。例如，如果图像显示150 ppi，而您在“顶部”、“右”、“底部”和“左”文本框中输入75，则输入0.5英寸。 会从图像的每一侧裁剪。
+
 
 * **颜色配置文件选项**  — 位于 **[!UICONTROL 颜色配置文件选项]**.
 
@@ -72,6 +72,10 @@ PSD(Photoshop文档文件)在Adobe Dynamic Media Classic中最常用于创建模
 ## 在PSD文件中查看和编辑图层 {#viewing-and-editing-layers-in-a-psd-file}
 
 如果您在上传PSD时选择了维护层选项，Adobe Dynamic Media Classic会将各个层拆分为资产。 您可以通过在详细信息视图的浏览面板中打开属于PSD文件的资产层来查看和编辑该文件。
+
+>[!NOTE]
+>
+>Adobe Dynamic Media Classic在嵌套图层组中最多支持五个级别。
 
 1. 双击“Browse（浏览）”面板中的完整PSD文件。 文件将在“详细信息视图”中打开。
 
