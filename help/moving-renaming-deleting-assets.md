@@ -10,10 +10,10 @@ discoiquuid: 1c9e29f0-3083-4d22-a439-2a01faf59683
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 391eb7ce-ed89-47a8-a6c6-5adb3e95bf78
-source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
+source-git-commit: 13d9199e0613c7b1eb664ffee859a79dd3f9faca
 workflow-type: tm+mt
-source-wordcount: '567'
-ht-degree: 33%
+source-wordcount: '618'
+ht-degree: 0%
 
 ---
 
@@ -25,6 +25,8 @@ ht-degree: 33%
 
 可在浏览面板中将资源移至不同文件夹。
 
+**要移动资产，请执行以下操作：**
+
 1. 在浏览面板中选择一个或多个资源，然后执行以下任一操作：
 
    * 在资产库中显示要将资产移动到的文件夹，然后将资产拖到该文件夹中。
@@ -32,12 +34,10 @@ ht-degree: 33%
 
 ## 重命名资源 {#rename-assets}
 
-1. 在浏览面板中选择资源，然后执行以下任一操作：
+1. 在浏览面板中选择资产，然后执行下列操作之一：
 
    * 选择名称，键入新名称，然后按 **[!UICONTROL 输入]** 或从名称中选择。
-   * 转到 **[!UICONTROL 文件]** > **[!UICONTROL 重命名]**. 资源的名称被高亮显示。输入新名称并按 **[!UICONTROL 输入]**.
-
-请确保不要输入现有Adobe Dynamic Media Classic资产的名称。
+   * 转到 **[!UICONTROL 文件]** > **[!UICONTROL 重命名]**. 资源的名称被高亮显示。输入新名称并按 **[!UICONTROL 输入]**. 请确保未输入现有Adobe Dynamic Media Classic资产的名称。
 
 ## 删除资源 {#delete-assets}
 
@@ -45,20 +45,22 @@ ht-degree: 33%
 
 在删除资源时，由此资源派生出的所有资源也会随之删除。例如，删除已为其创建了缩放目标的图像时，缩放目标也会随图像一起删除。
 
->[!NOTE]
->
->在删除资源时，由资源派生出的缩放目标、图像属性以及历史记录条目会随之永久删除。它们不会随资源一起移至垃圾桶文件夹；因此无法从垃圾桶恢复它们。
+在删除资源时，由资源派生出的缩放目标、图像属性以及历史记录条目会随之永久删除。它们不会随资源一起移至垃圾桶文件夹；因此无法从垃圾桶恢复它们。
 
-1. 执行以下任一操作：
+>[!IMPORTANT]
+>
+>批量删除是一项密集操作。 请确保按顺序执行批量删除操作，而不是作为并发的大量删除操作。 Adobe建议您将删除操作限制为每小时删除资产的次数不超过5000次。 超过每小时5000的数字可能导致速率限制。
+
+**要删除资产，请执行以下操作：**
+
+1. 执行任何以下操作：
 
    * 要删除一个或多个资产，请在“浏览”面板中选择资产，然后按 **[!UICONTROL 删除]** 或转到 **[!UICONTROL 文件]** > **[!UICONTROL 删除]**.
    * 要删除文件夹，请在资产库中选择该文件夹，然后选择 **[!UICONTROL 删除文件夹]**.
 
       删除文件夹会删除文件夹、文件夹中的所有资产及其子文件夹中的所有资产。
 
->[!NOTE]
->
->如果您删除资产文件的原因是使用同名的其他资产文件替换它，则Adobe Dynamic Media Classic建议覆盖资产文件，而不是删除它们。
+如果您删除资产文件的原因是使用同名的其他资产文件替换它，则Adobe Dynamic Media Classic建议覆盖资产文件，而不是删除它们。
 
 ## 使用文本文件删除多个资源 {#delete-multiple-assets-with-a-text-file}
 
