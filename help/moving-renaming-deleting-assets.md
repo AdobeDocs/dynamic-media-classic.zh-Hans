@@ -10,10 +10,10 @@ discoiquuid: 1c9e29f0-3083-4d22-a439-2a01faf59683
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 391eb7ce-ed89-47a8-a6c6-5adb3e95bf78
-source-git-commit: 13d9199e0613c7b1eb664ffee859a79dd3f9faca
+source-git-commit: 741e31e64125a2dfe3f801480837ffbaf81767aa
 workflow-type: tm+mt
 source-wordcount: '618'
-ht-degree: 0%
+ht-degree: 31%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 0%
 
 ## 重命名资源 {#rename-assets}
 
-1. 在浏览面板中选择资产，然后执行下列操作之一：
+1. 在浏览面板中选择资源，然后执行以下任一操作：
 
    * 选择名称，键入新名称，然后按 **[!UICONTROL 输入]** 或从名称中选择。
    * 转到 **[!UICONTROL 文件]** > **[!UICONTROL 重命名]**. 资源的名称被高亮显示。输入新名称并按 **[!UICONTROL 输入]**. 请确保未输入现有Adobe Dynamic Media Classic资产的名称。
@@ -49,7 +49,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->批量删除是一项密集操作。 请确保按顺序执行批量删除操作，而不是作为并发的大量删除操作。 Adobe建议您将删除操作限制为每小时删除资产的次数不超过5000次。 超过每小时5000的数字可能导致速率限制。
+>批量删除是一项密集操作。 请确保按顺序执行批量删除操作，而不是作为并发的大量删除操作。 Adobe建议您将删除操作限制为每小时删除资产的次数不超过5000次。 超过每小时5000的任何数字都可能导致速率限制。
 
 **要删除资产，请执行以下操作：**
 
