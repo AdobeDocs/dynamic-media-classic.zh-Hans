@@ -10,10 +10,10 @@ discoiquuid: 753677ad-9957-43d9-97ad-bd73a5da5ccb
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 7e99de68-a5de-4b42-9754-c394e9b41369
-source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
+source-git-commit: 532d4ec9515b561682678d3a0140096c8b3deae8
 workflow-type: tm+mt
 source-wordcount: '255'
-ht-degree: 17%
+ht-degree: 16%
 
 ---
 
@@ -36,6 +36,6 @@ ht-degree: 17%
 >
 >* [设置基础知识培训视频](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/573_Setup%20Basics_converted%20renamed_Getting%20Started-AVS)
 >* [Adobe Dynamic Media Classic用户角色和权限](administration-setup.md#user_administration)
->* [Image Presets](application-setup.md#image_presets)
->* [Viewer Presets](application-setup.md#viewer_presets)
+>* [图像预设](application-setup.md#image_presets)
+>* [查看器预设](application-setup.md#viewer_presets)
 
