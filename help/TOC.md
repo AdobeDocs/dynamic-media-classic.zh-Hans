@@ -6,9 +6,9 @@ user-guide-title: Adobe Dynamic Media Classic指南
 breadcrumb-title: Dynamic Media Classic指南
 user-guide-description: 了解有关使用Adobe Dynamic Media Classic的更多信息
 index: y
-source-git-commit: bf910596835d0cfc42919340e063b3c8e0d0ad43
+source-git-commit: 51b32a874654cf2070b67c7473554d401a264051
 workflow-type: tm+mt
-source-wordcount: '810'
+source-wordcount: '801'
 ht-degree: 24%
 
 ---
@@ -16,8 +16,8 @@ ht-degree: 24%
 
 # Adobe Dynamic Media Classic指南 {#using}
 
-+ 在Adobe Experience Manager Assets上从Adobe Dynamic Media Classic升级到Dynamic Media {#upgrade}
-   + [从Dynamic Media Classic升级到Dynamic Media](upgrade.md)
++ 从Dynamic Media Classic升级到Dynamic Media {#upgrade}
+   + [为何升级到Dynamic Media?](upgrade.md)
    + [升级常见问题解答](upgrade-faq.md)
    + [功能列表比较](upgrade-feature-comparison.md)
    + [升级就绪检查列表](upgrade-readiness.md)
