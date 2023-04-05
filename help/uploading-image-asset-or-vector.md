@@ -7,10 +7,10 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 feature: Dynamic Media Classic
 role: User
 exl-id: 2ef78fe6-1e7c-4f48-86da-137ddaa55bbf
-source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
+source-git-commit: e235cdf331a1366ea81bd609e4e264c0c2cd8264
 workflow-type: tm+mt
-source-wordcount: '994'
-ht-degree: 69%
+source-wordcount: '1023'
+ht-degree: 67%
 
 ---
 
@@ -19,6 +19,10 @@ ht-degree: 69%
 在上载图像资源之前，必须先请求一个共享密钥。可以使用该共享密钥检索上载令牌。然后，使用上传令牌来上传光栅图像资产。
 
 >[!IMPORTANT]
+>
+>从2023年5月1日开始，Dynamic Media Classic中的UGC光栅资产将可自上传之日起最多使用60天。 60天后，资产将被删除。
+
+>[!NOTE]
 >
 >2021年9月30日终止对Adobe Dynamic Media Classic新UGC矢量资产或现有UGC矢量资产的支持。
 
@@ -119,7 +123,7 @@ https://s7ugc1.scene7.com/ugc/image?op=upload&upload_token=aa2a378a-cd25-4c80-99
 | 全局限制 | 值 |
 | --- | --- |
 | 所有客户端的文件大小 | 20 MB |
-| 用于上载的支持的图像文件格式 | BMP、GIF、JPG、PNG、PSD, TIFF |
+| 用于上载的支持的图像文件格式 | BMP、GIF、JPG、PNG、PSD,TIFF |
 
 用户可通过下面的 HTML 表单上载资源。表单要求用户输入以下信息：
 
