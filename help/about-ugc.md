@@ -9,10 +9,10 @@ discoiquuid: c1594abf-8cc2-46dd-88bf-af93db7db607
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 14729192-7b9d-4f42-99da-6564a3f35959
-source-git-commit: e235cdf331a1366ea81bd609e4e264c0c2cd8264
+source-git-commit: c7a7997ffd69cb39468119d8a48884f0f60efd05
 workflow-type: tm+mt
-source-wordcount: '168'
-ht-degree: 35%
+source-wordcount: '166'
+ht-degree: 36%
 
 ---
 
@@ -24,7 +24,7 @@ UGC支持光栅图像文件格式BMP、GIF、JPG、PNG、PSD、TIFF。
 
 >[!IMPORTANT]
 >
->从2023年5月1日开始，Dynamic Media Classic中的UGC光栅资产将可自上传之日起最多使用60天。 60天后，资产将被删除。
+>自2023年5月1日起，Dynamic Media中的UGC资产将可自上传之日起最多使用60天。 60天后，资产将被删除。
 
 <!-- * Vector: AI, EPS (EPS files from Adobe Illustrator 2018 are not supported), PDF (only when the PDF file is previously opened and saved in Adobe Illustrator CS6) -->
 
