@@ -4,7 +4,7 @@ description: 之间的功能比较表 [!DNL Dynamic Media] in [!DNL Adobe Experi
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: eb56533a-4e31-4367-8b68-879cd70c761e
-source-git-commit: fa69e9df791597462db1bad9204c40896ea74020
+source-git-commit: 39dabb64c1c14422bf0dff234c01e6daad8ab0b5
 workflow-type: tm+mt
 source-wordcount: '157'
 ht-degree: 3%
