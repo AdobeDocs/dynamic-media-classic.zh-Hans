@@ -4,10 +4,10 @@ description: 之间的功能比较表 [!DNL Dynamic Media] in [!DNL Adobe Experi
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: eb56533a-4e31-4367-8b68-879cd70c761e
-source-git-commit: 39dabb64c1c14422bf0dff234c01e6daad8ab0b5
+source-git-commit: 56efe781a1f4366f0c9d726332fd6633f50abc99
 workflow-type: tm+mt
 source-wordcount: '157'
-ht-degree: 3%
+ht-degree: 5%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 3%
 | 交互式查看器 | ✓ | ✓ |
 | 清单文件 | ✓ | ✓ |
 | Media Portal | ✓<br>*称为“Brand Portal”* | ✓ |
-| 规则表 | ✓ | ✓ |
+| 规则集 | ✓ | ✓ |
 | 安全预览 | ✓ | ✓ |
 | 集（图像、旋转、混合媒体） | ✓<br>*无多轴旋转* | ✓ |
 | 智能成像 | ✓ | ✓ |
