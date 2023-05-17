@@ -8,10 +8,10 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 3c50e706-b9ed-49db-8c08-f179de52b9cf
-source-git-commit: cb55e09a997b9d36002c4ac429603576d52fb8bd
+source-git-commit: f3082fc6b66cf0903bf6cb1907a8615a12399fdc
 workflow-type: tm+mt
-source-wordcount: '1462'
-ht-degree: 54%
+source-wordcount: '1569'
+ht-degree: 50%
 
 ---
 
@@ -22,6 +22,18 @@ ht-degree: 54%
 Adobe Dynamic Media Classic包含100多个图像服务命令，用于调整和优化图像以及渲染结果。 以下准则可以帮助您简化流程，并使用一些基本命令和最佳做法快速获得较好的效果。
 
 另请参阅 [智能成像](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/imaging-faq.html#dynamic).
+
+>[!TIP]
+>
+>尝试使用Dynamic Media了解Dynamic Media图像修饰符和智能成像的优势 [_快照_](https://snapshot.scene7.com/).
+>
+> Snapshot是一款可视演示工具，旨在说明Dynamic Media在优化和动态图像交付方面的强大功能。 试用测试图像或Dynamic Media URL，以直观地观察各种Dynamic Media图像修饰符的输出，并针对以下内容进行智能成像优化：
+>* 文件大小（通过WebP和AVIF交付）
+>* 网络带宽
+>* DPR（设备像素比）
+>
+>要了解使用Snapshot有多容易，请播放 [快照培训视频](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/dynamic-media/images/dynamic-media-snapshot.html?lang=en) （3分17秒）。
+
 
 ## 图像格式的最佳做法 (&amp;fmt=) {#best-practices-for-image-format-fmt}
 
@@ -67,7 +79,7 @@ Adobe Dynamic Media Classic包含100多个图像服务命令，用于调整和�
 
       * `threshold` （0-255，效果的敏感性。）
 
-         此参数确定锐化的像素与周围区域必须有多大的不同，才会被视为边缘像素，而滤镜会锐化这些像素。 阈值有助于避免出现具有类似颜色的过度锐化区域，如肤色。例如，阈值为12时，会忽略肤色亮度的细微变化，以避免添加“杂色”，同时仍会为高对比度区域添加边缘对比度，如睫毛与皮肤相遇的地方。
+         此参数确定锐化的像素与周围区域相差多少，滤镜才会将它们视为边缘像素并进行锐化。阈值有助于避免出现具有类似颜色的过度锐化区域，如肤色。例如，阈值 12 忽略肤色亮度的细微变化以避免产生杂色，但仍会在对比强烈的区域中添加边缘对比度，例如，睫毛与皮肤交接的位置。
 
          有关如何设置这三个参数的更多信息（包括与过滤器一起使用的最佳实践），请参阅 [在Adobe Dynamic Media Classic和图像服务器上锐化图像](/help/assets/s7_sharpening_images.pdf).
 
