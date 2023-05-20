@@ -1,6 +1,6 @@
 ---
-title: 上传栅格图像资产
-description: 了解如何将光栅图像资产上传到Adobe Dynamic Media Classic
+title: 上傳點陣化影像資產
+description: 瞭解如何將點陣影像資產上傳至Adobe Dynamic Media Classic
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -14,32 +14,32 @@ ht-degree: 67%
 
 ---
 
-# 上传栅格图像资产 {#uploading-an-image-asset-or-a-vector-asset}
+# 上傳點陣化影像資產 {#uploading-an-image-asset-or-a-vector-asset}
 
-在上载图像资源之前，必须先请求一个共享密钥。可以使用该共享密钥检索上载令牌。然后，使用上传令牌来上传光栅图像资产。
+在上载图像资源之前，必须先请求一个共享密钥。可以使用该共享密钥检索上载令牌。然後使用上傳Token來上傳點陣影像資產。
 
 >[!IMPORTANT]
 >
->自2023年5月1日起，Dynamic Media中的UGC资产将可自上传之日起最多使用60天。 60天后，资产将被删除。
+>自2023年5月1日起，Dynamic Media中的UGC資產最多可在上傳日期後60天內使用。 60天後，資產將會移除。
 
 >[!NOTE]
 >
->2021年9月30日终止对Adobe Dynamic Media Classic新UGC矢量资产或现有UGC矢量资产的支持。
+>Adobe Dynamic Media Classic已於2021年9月30日終止支援新的或現有的UGC向量資產。
 
-## 请求共享密钥 {#requesting-a-shared-secret-key}
+## 要求共用秘密金鑰 {#requesting-a-shared-secret-key}
 
-请求 *共享密钥* by [使用Admin Console创建支持案例。](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) 在您的支持案例中，请求共享密钥。
+請求 *共用秘密金鑰* 作者： [使用Admin Console建立支援案例。](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) 在您的支援案例中，要求共用秘密金鑰。
 
-在电子邮件中，请提供要用于上载图像资源的公司名称。从Adobe Dynamic Media Classic收到密钥后，将其保存在本地以供将来使用。
+在电子邮件中，请提供要用于上载图像资源的公司名称。從Adobe Dynamic Media Classic收到金鑰後，請儲存於本機以供日後使用。
 
-## 检索上传令牌 {#retrieving-the-upload-token}
+## 擷取上傳權杖 {#retrieving-the-upload-token}
 
 *上载令牌*&#x200B;可确保他人不能使用相同的共享密钥来上载资源。它可确保上载合法且来自信任的来源。
 
-上载令牌是字母数字字符串，只能在特定时间段内使用。使用以下URL替换您的共享密钥，以便您可以检索上传令牌。
+上载令牌是字母数字字符串，只能在特定时间段内使用。使用下列URL取代您的共用秘密金鑰，以便擷取上傳權杖。
 
-* 光栅图像
-   `https://s7ugc1.scene7.com/ugc/image?op=get_uploadtoken&shared_secret=fece4b21-87ee-47fc-9b99-2e29b78b602`在此示例中，共享密钥为 `fece4b21-87ee-47fc-9b99-2e29b78b602`
+* 點陣影像
+   `https://s7ugc1.scene7.com/ugc/image?op=get_uploadtoken&shared_secret=fece4b21-87ee-47fc-9b99-2e29b78b602`在此範例中，共用秘密金鑰為 `fece4b21-87ee-47fc-9b99-2e29b78b602`
 
 <!-- * Vector
   `https://s7ugc1.scene7.com/ugc/vector?op=get_uploadtoken&shared_secret=2d19f60e-890a-4e79-a1a5-9ac2875429b9`In this example, the shared-secret key is `2d19f60e-890a-4e79-a1a5-9ac2875429b9` -->
@@ -50,7 +50,7 @@ ht-degree: 67%
 https://s7ugc1.scene7.com/ugc/image?op=get_uploadtoken&shared_secret=fece4b21-87ee-47fc-9b99-2e29b78b602&expires=1800
 ```
 
-图像的成功响应类似于以下内容：
+影像的成功回應如下所示：
 
 ```as3
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?> 
@@ -81,7 +81,7 @@ https://s7ugc1.scene7.com/ugc/image?op=get_uploadtoken&shared_secret=fece4b21-87
 | shared_secret | 必需 | 正在进行上载的公司的共享密钥。 |
 | expires | 可选 | 上载令牌有效的秒数。如果不指定，则默认为 300 秒。 |
 
-**示例栅格图像URL:**
+**點陣影像URL範例：**
 
 `https://s7ugc1.scene7.com/ugc/image?op=get_uploadtoken&shared_secret=fece4b21-87ee-47fc-9b99-2e29b78b602&expires=600`
 
@@ -89,14 +89,14 @@ https://s7ugc1.scene7.com/ugc/image?op=get_uploadtoken&shared_secret=fece4b21-87
 
 `https://s7ugc1.scene7.com/ugc/vector?op=get_uploadtoken&shared_secret=2d19f60e-890a-4e79-a1a5-9ac2875429b9&expires=5000` -->
 
-**允许的HTTP方法：**
+**允許的HTTP方法：**
 `GET` 和 `POST`
 
 您现在可以上载图像资源。
 
-请参阅 [上传图像资产](uploading-image-asset-or-vector.md#uploading_an_image_asset).
+另請參閱 [上傳影像資產](uploading-image-asset-or-vector.md#uploading_an_image_asset).
 
-## 上传栅格图像资产 {#uploading-an-image-asset}
+## 上傳點陣化影像資產 {#uploading-an-image-asset}
 
 您检索到在特定时间内有效的上载令牌后，即可上载图像资源。以 multipart/form post 形式上载资源，而值的其余部分以 URL 查询字符串形式发送，如以下示例中所示：
 
@@ -104,11 +104,11 @@ https://s7ugc1.scene7.com/ugc/image?op=get_uploadtoken&shared_secret=fece4b21-87
 https://s7ugc1.scene7.com/ugc/image?op=upload&upload_token=aa2a378a-cd25-4c80-994d-312094e0ef20_18000&company_name=000Company
 ```
 
-的 `upload_token` 和 `company_name` 字段。
+此 `upload_token` 和 `company_name` 欄位為必填欄位。
 
-请参阅 [检索上传令牌](uploading-image-asset-or-vector.md#retrieving_the_upload_token).
+另請參閱 [擷取上傳權杖](uploading-image-asset-or-vector.md#retrieving_the_upload_token).
 
-请参阅 [检索共享密钥](uploading-image-asset-or-vector.md#requesting_a_shared_secret_key).
+另請參閱 [擷取共用秘密金鑰](uploading-image-asset-or-vector.md#requesting_a_shared_secret_key).
 
 您还能以 URL 查询字符串的形式发送其他可选值，如以下示例所示：
 
@@ -116,14 +116,14 @@ https://s7ugc1.scene7.com/ugc/image?op=upload&upload_token=aa2a378a-cd25-4c80-99
 https://s7ugc1.scene7.com/ugc/image?op=upload&upload_token=aa2a378a-cd25-4c80-994d-312094e0ef20_18000&company_name=000Company&file_limit=2000000&file_exts=jpg,gif
 ```
 
-的 `file_limit` 参数指定文件大小限制（以字节为单位）。 `file_exts` 参数指定允许上载的文件扩展名。这两个值都是可选的。
+此 `file_limit` parameter指定檔案大小限制（位元組）。 `file_exts` 参数指定允许上载的文件扩展名。这两个值都是可选的。
 
 对于允许的文件大小限制和文件扩展名，在应用程序中设置全局限制。如果请求中所发送的内容是全局限制的子集，则允许这一发送。全局限制如下所示：
 
 | 全局限制 | 值 |
 | --- | --- |
 | 所有客户端的文件大小 | 20 MB |
-| 用于上载的支持的图像文件格式 | BMP、GIF、JPG、PNG、PSD,TIFF |
+| 用于上载的支持的图像文件格式 | BMP、GIF、JPG、PNG、PSD，TIFF |
 
 用户可通过下面的 HTML 表单上载资源。表单要求用户输入以下信息：
 
@@ -131,16 +131,16 @@ https://s7ugc1.scene7.com/ugc/image?op=upload&upload_token=aa2a378a-cd25-4c80-99
 * 上载令牌.
 * 文件大小限制.
 * 文件扩展名的列表.
-* 是否保留与资产关联的颜色配置文件和文件名。
-* 是否使用“挖空背景”。 如果启用“挖空背景”，请设置“拐角”、“公差”和“填充方法”。
-请参阅中的挖空背景 [上传时的图像微调选项](image-editing-options-upload.md#image-editing-options-at-upload).
+* 是否要保留與資產相關聯的色彩設定檔和檔案名稱。
+* 是否要使用去底色背景。 如果您啟用「去底色背景」，請設定「轉角」、「公差」和「填色」方法。
+請參閱中的去底色背景 [上傳時影像微調選項](image-editing-options-upload.md#image-editing-options-at-upload).
 * 待上载文件的名称.
 
-您可以通过选择 [https://s7ugc1.scene7.com/ugc/upload.html](https://s7ugc1.scene7.com/ugc/upload.html)
+您可以選取「 」，檢視與上述表單相關聯的HTML原始碼 [https://s7ugc1.scene7.com/ugc/upload.html](https://s7ugc1.scene7.com/ugc/upload.html)
 
-在Firefox的浏览器窗口中右键单击，然后选择 **[!UICONTROL 查看页面源]**. 该代码将显示当用户单击“**[!UICONTROL 提交]**”时运行的相应 URL 查询字符串和 POST 方法。
+在Firefox中，在瀏覽器視窗中按一下滑鼠右鍵，然後選取 **[!UICONTROL 檢視頁面來源]**. 该代码将显示当用户单击“**[!UICONTROL 提交]**”时运行的相应 URL 查询字符串和 POST 方法。
 
-要在Internet Explorer中查看XML响应，请转到 **[!UICONTROL 查看]** > **[!UICONTROL 来源]**. 要在Firefox中查看XML响应，请转到 **[!UICONTROL 工具]** > **[!UICONTROL 浏览器工具]** > **[!UICONTROL Web开发人员工具]**. 建议使用 Firefox 查看 XML 响应。
+若要在Internet Explorer中檢視XML回應，請前往 **[!UICONTROL 檢視]** > **[!UICONTROL 來源]**. 若要在Firefox中檢視XML回應，請前往 **[!UICONTROL 工具]** > **[!UICONTROL 瀏覽器工具]** > **[!UICONTROL Web開發人員工具]**. 建议使用 Firefox 查看 XML 响应。
 
 下面是成功上载的示例响应：
 
@@ -176,7 +176,7 @@ https://s7w2p1.scene7.com/is/image/S7WebUGC/ugc/9536356.tif?&wid=800&hei=100&fit
 
 以 multipart/form post 形式发送要上载的资源，而值的其余部分以 URL 查询字符串形式发送。您可以在 URL 查询字符串中使用以下字段来上载资源：
 
-| URL 参数 | 必需或可选 | 值 |
+| URL 参数 | 必要或選用 | 值 |
 | --- | --- | --- |
 | `op` | 必需 | 上载 |
 | `upload_token` | 必需 | 与公司关联的共享密钥的上载令牌。 |
@@ -198,7 +198,7 @@ https://s7w2p1.scene7.com/is/image/S7WebUGC/ugc/9536356.tif?&wid=800&hei=100&fit
 
 POST
 
-### 获取图像的资产元数据 {#getting-asset-metadata-for-images}
+### 取得影像的資產中繼資料 {#getting-asset-metadata-for-images}
 
 您可以使用 `image_info` 检索所上载资源的元数据，如以下示例中所示：
 
@@ -206,7 +206,7 @@ POST
 https://s7ugc1.scene7.com/ugc/image?op=image_info&shared_secret=fece4b21-87ee-47fc-9b99-2e29b78b602&image_name=1442564.tif
 ```
 
-成功响应的示例如下所示：
+成功回應的範例如下所示：
 
 ```as3
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?> 

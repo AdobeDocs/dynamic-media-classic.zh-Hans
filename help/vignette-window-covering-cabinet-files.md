@@ -1,6 +1,6 @@
 ---
-title: 使用晕影、窗口覆盖和机柜文件
-description: 了解如何在Adobe Dynamic Media Classic中处理晕影、窗口覆盖和文件柜文件。
+title: 使用暈映、視窗遮蓋和封包檔案
+description: 瞭解如何在Adobe Dynamic Media Classic中使用暈映、視窗涵蓋範圍和Cabinet檔案。
 uuid: a738791c-4be0-4286-abbd-fae7a0e4bb73
 contentOwner: Rick Brough
 content-type: reference
@@ -17,11 +17,11 @@ ht-degree: 15%
 
 ---
 
-# 使用晕影、窗口覆盖和机柜文件{#working-with-vignette-window-covering-and-cabinet-files}
+# 使用暈映、視窗遮蓋和封包檔案{#working-with-vignette-window-covering-and-cabinet-files}
 
-Adobe Dynamic Media Classic图像创作工具的用户可以 *use* 晕影（VNT文件）、窗口覆盖（VNW文件）和文件柜（VNC文件）。 无法在Adobe Dynamic Media Classic中创建或编辑这些文件。
+Adobe Dynamic Media Classic影像製作工具的使用者可以 *use* 暈映（VNT檔案）、視窗覆蓋（VNW檔案）和檔案櫃（VNC檔案）。 無法在Adobe Dynamic Media Classic中建立或編輯這些檔案。
 
-晕影、窗饰和 CAB 是制作的图像。使用名为“图像创作”的其他Adobe Dynamic Media Classic程序，您可以掩盖图像中的对象，以便用户能够通过各种纹理或颜色查看同一图像。 例如，用户会看到一张沙发，沙发上装有各种织物软垫，窗户上装有各种窗户护理，柜子上装有不同种类的木材。
+晕影、窗饰和 CAB 是制作的图像。您可以使用名為「影像製作」的其他Adobe Dynamic Media Classic程式，遮色影像中的物件，讓使用者可以看見不同紋理或顏色的相同影像。 例如，使用者會看到用各種織物裝飾的沙發、用各種窗戶處理裝飾的窗戶，或用不同木料製作的機櫃。
 
 晕影、窗饰和 CAB 的上载与任何其他文件的上载相同。
 

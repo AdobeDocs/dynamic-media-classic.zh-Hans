@@ -1,6 +1,6 @@
 ---
-title: 将旋转集关联到网页
-description: 了解如何在Adobe Dynamic Media Classic中将旋转集关联到网页。
+title: 將迴轉集連結至網頁
+description: 瞭解如何將迴轉集連結至Adobe Dynamic Media Classic中的網頁。
 uuid: d3c5773e-60c4-4e8b-9c48-e1e3eb8028d0
 contentOwner: Rick Brough
 content-type: reference
@@ -17,68 +17,68 @@ ht-degree: 40%
 
 ---
 
-# 将旋转集关联到网页{#linking-a-spin-set-to-a-web-page}
+# 將迴轉集連結至網頁{#linking-a-spin-set-to-a-web-page}
 
-网站和应用程序通过URL字符串或嵌入代码访问Dynamic Media图像服务器内容（包括旋转集）。 这些 URL 字符串在发布过程中被激活。要将旋转集的URL字符串或嵌入代码放置在网页和应用程序中，请从Adobe Dynamic Media Classic复制该代码。
+網站和應用程式會透過URL字串或內嵌程式碼存取Dynamic Media影像伺服器內容，包括迴轉集。 这些 URL 字符串在发布过程中被激活。若要將迴轉集的URL字串或內嵌程式碼放置在網頁和應用程式中，請從Adobe Dynamic Media Classic複製。
 
 >[!NOTE]
 >
 >在发布资源之前，URL 处于非激活状态。
 
-## 复制旋转集URL {#copying-a-spin-set-url}
+## 複製迴轉集URL {#copying-a-spin-set-url}
 
-1. 在资产浏览面板的显示下拉列表中，选择 **[!UICONTROL 旋转集]**.
+1. 在「資產瀏覽」面板的「顯示」下拉式清單中，選取 **[!UICONTROL 迴轉集]**.
 1. 在左侧的“资源库”面板中，导航至要复制其嵌入代码的旋转集所在的资源文件夹。
 1. 在“资源浏览”面板上方的工具栏右侧，执行以下任一操作：
 
-   * 选择 **[!UICONTROL 网格视图]**. 在“资源浏览”面板中，双击单个资源以便在详细信息视图中将其打开。在右侧的URL和嵌入代码面板中，选择 **[!UICONTROL 复制URL]** 查看者的右侧。
-   * 选择 **[!UICONTROL 网格视图]**. 在资产浏览面板中，选择一个资产，然后在缩略图图像下方，转到 **[!UICONTROL 预览]** > **[!UICONTROL 查看器列表]**.
+   * 選取 **[!UICONTROL 格點檢視]**. 在“资源浏览”面板中，双击单个资源以便在详细信息视图中将其打开。在右側的「URL和內嵌程式碼」面板中，選取 **[!UICONTROL 複製URL]** 位於您想要的檢視器右側。
+   * 選取 **[!UICONTROL 格點檢視]**. 在「資產瀏覽」面板中，選取單一資產，然後前往縮圖影像下方 **[!UICONTROL 預覽]** > **[!UICONTROL 檢視器清單]**.
 
-      在“查看器列表”页面的表的“操作”列下，选择 **[!UICONTROL 复制URL]**.
+      在「檢視器清單」頁面中，選取表格的「動作」欄下 **[!UICONTROL 複製URL]**.
 
-   * 选择 **[!UICONTROL 列表视图]**. 在资产浏览面板中，选择一个资产，然后在缩略图图像的右侧，转到 **[!UICONTROL 预览]** > **[!UICONTROL 查看器列表]**.
+   * 選取 **[!UICONTROL 清單檢視]**. 在「資產瀏覽」面板中，選取單一資產，然後在縮圖影像右側，前往 **[!UICONTROL 預覽]** > **[!UICONTROL 檢視器清單]**.
 
-      在“查看器列表”页面的表的“操作”列下，选择 **[!UICONTROL 复制URL]**.
+      在「檢視器清單」頁面中，選取表格的「動作」欄下 **[!UICONTROL 複製URL]**.
 
-   * 选择 **[!UICONTROL 网格视图]**, **[!UICONTROL 列表视图]**&#x200B;或 **[!UICONTROL 详细信息视图]**. 在同一工具栏上，转到 **[!UICONTROL 预览]** > **[!UICONTROL 查看器列表]**.
+   * 選取 **[!UICONTROL 格點檢視]**， **[!UICONTROL 清單檢視]**，或 **[!UICONTROL 詳細資料檢視]**. 在相同工具列上，前往 **[!UICONTROL 預覽]** > **[!UICONTROL 檢視器清單]**.
 
-      在“查看器列表”页面的表的“操作”列下，选择 **[!UICONTROL 复制URL]**.
+      在「檢視器清單」頁面中，選取表格的「動作」欄下 **[!UICONTROL 複製URL]**.
 
-## 将旋转集URL添加到您的网页 {#adding-spin-set-urls-to-your-web-page}
+## 將迴轉集URL新增至網頁 {#adding-spin-set-urls-to-your-web-page}
 
-旋转集的部署方式与所有缩放查看器一样，即通过在缩放窗口中显示旋转集的动态页面（ASP 或 JSP）进行部署。对Adobe Dynamic Media Classic平台的URL调用遵循缩放查看器上的相同协议。 不过，查看器预设名称取决于您的管理员所定义的默认旋转集查看器预设。例如，以下非实时 URL 语法示例包括名为 `viewer.jsp` 的预设名称，而 SKU 参数现在为旋转集名称：
+旋转集的部署方式与所有缩放查看器一样，即通过在缩放窗口中显示旋转集的动态页面（ASP 或 JSP）进行部署。對Adobe Dynamic Media Classic平台的URL呼叫遵循縮放檢視器上的相同通訊協定。 不过，查看器预设名称取决于您的管理员所定义的默认旋转集查看器预设。例如，以下非实时 URL 语法示例包括名为 `viewer.jsp` 的预设名称，而 SKU 参数现在为旋转集名称：
 
 ```as3
 https://sample.scene7.com/s7ondemand/spin/viewer.jsp?company=S7Web&sku=backpack_spin
 ```
 
-在此 URL 语法示例中（链接处于不活动状态），请注意 SKU 编号 (`sku=backpack_spin`)。之后的字符串 `sku=` 是旋转集名称( `backpack spin`)。
+在此 URL 语法示例中（链接处于不活动状态），请注意 SKU 编号 (`sku=backpack_spin`)。之後的字串 `sku=` 是迴轉集名稱( `backpack spin`)。
 
-## 复制旋转集查看器的嵌入代码 {#copying-the-embed-code-of-a-spin-set-viewer}
+## 複製迴轉集檢視器的內嵌程式碼 {#copying-the-embed-code-of-a-spin-set-viewer}
 
-使用嵌入代码功能，您可以查看用于所选旋转集的查看器代码。您也可以将代码复制到剪贴板中，以便可以将其粘贴到网页中以部署查看器。不允许在“嵌入代码”对 话框中编辑代码 。
+使用嵌入代码功能，您可以查看用于所选旋转集的查看器代码。您也可以将代码复制到剪贴板中，以便可以将其粘贴到网页中以部署查看器。在“嵌入代码”对话框中不允许编辑代码。
 
 **复制旋转集查看器的嵌入代码:**
 
-1. 在资产浏览面板的显示下拉列表中，选择 **[!UICONTROL 旋转集]**.
+1. 在「資產瀏覽」面板的「顯示」下拉式清單中，選取 **[!UICONTROL 迴轉集]**.
 1. 在左侧的“资源库”面板中，导航至要复制其嵌入代码的旋转集所在的资源文件夹。
 1. 在“资源浏览”面板上方的工具栏右侧，执行以下任一操作：
 
-   * 选择 **[!UICONTROL 网格视图]**. 在“资源浏览”面板中，双击单个资源以便在详细信息视图中将其打开。在右侧的URL和嵌入代码面板中，选择 **[!UICONTROL 嵌入代码]** 查看者的右侧。
-   * 选择 **[!UICONTROL 网格视图]**. 在资产浏览面板中，选择一个资产，然后在缩略图图像下方，转到 **[!UICONTROL 预览]** > **[!UICONTROL 查看器列表]**.
+   * 選取 **[!UICONTROL 格點檢視]**. 在“资源浏览”面板中，双击单个资源以便在详细信息视图中将其打开。在右側的「URL和內嵌程式碼」面板中，選取 **[!UICONTROL 內嵌程式碼]** 位於您想要的檢視器右側。
+   * 選取 **[!UICONTROL 格點檢視]**. 在「資產瀏覽」面板中，選取單一資產，然後前往縮圖影像下方 **[!UICONTROL 預覽]** > **[!UICONTROL 檢視器清單]**.
 
-      在“查看器列表”页面的表的“操作”列下，选择 **[!UICONTROL 嵌入代码]**.
+      在「檢視器清單」頁面中，選取表格的「動作」欄下 **[!UICONTROL 內嵌程式碼]**.
 
-   * 选择 **[!UICONTROL 列表视图]**. 在资产浏览面板中，选择一个资产，然后在缩略图图像的右侧，转到 **[!UICONTROL 预览]** > **[!UICONTROL 查看器列表]**.
+   * 選取 **[!UICONTROL 清單檢視]**. 在「資產瀏覽」面板中，選取單一資產，然後在縮圖影像右側，前往 **[!UICONTROL 預覽]** > **[!UICONTROL 檢視器清單]**.
 
-      在“查看器列表”页面的表的“操作”列下，选择 **[!UICONTROL 嵌入代码]**.
+      在「檢視器清單」頁面中，選取表格的「動作」欄下 **[!UICONTROL 內嵌程式碼]**.
 
-   * 选择 **[!UICONTROL 网格视图]**, **[!UICONTROL 列表视图]**&#x200B;或 **[!UICONTROL 详细信息视图]**. 在同一工具栏上，转到 **[!UICONTROL 预览]** > **[!UICONTROL 查看器列表]**.
+   * 選取 **[!UICONTROL 格點檢視]**， **[!UICONTROL 清單檢視]**，或 **[!UICONTROL 詳細資料檢視]**. 在相同工具列上，前往 **[!UICONTROL 預覽]** > **[!UICONTROL 檢視器清單]**.
 
-      在“查看器列表”页面的表的“操作”列下，选择 **[!UICONTROL 嵌入代码]**.
+      在「檢視器清單」頁面中，選取表格的「動作」欄下 **[!UICONTROL 內嵌程式碼]**.
 
-1. 在“嵌入代码”对话框中，选择 **[!UICONTROL 复制到剪贴板]**.
+1. 在內嵌程式碼對話方塊中，選取 **[!UICONTROL 複製到剪貼簿]**.
 
    在“嵌入代码”对话框中不允许编辑代码。
 
-1. 选择 **[!UICONTROL 关闭]**.
+1. 選取 **[!UICONTROL 關閉]**.

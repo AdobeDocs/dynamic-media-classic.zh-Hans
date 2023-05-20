@@ -1,6 +1,6 @@
 ---
-title: Adobe Dynamic Media Classic计划概述
-description: Adobe Dynamic Media Classic计划及其整个工作流程的概述。
+title: Adobe Dynamic Media Classic計畫總覽
+description: 概述Adobe Dynamic Media Classic程式及其整個工作流程。
 uuid: e7d3bfb3-1cfe-43ea-b862-aae3b3928c71
 contentOwner: Rick Brough
 content-type: reference
@@ -17,35 +17,35 @@ ht-degree: 17%
 
 ---
 
-# Adobe Dynamic Media Classic计划概述{#adobe-scene-platform-overview}
+# Adobe Dynamic Media Classic計畫總覽{#adobe-scene-platform-overview}
 
-Adobe Dynamic Media Classic是一个集成的富媒体管理、发布和服务环境。 富媒体可以传送给所有营销和销售渠道，包括网站，印刷材料、电子邮件营销活动、门户网站、桌面以及设备。
+Adobe Dynamic Media Classic是整合式多媒體管理、發佈和服務環境。 富媒体可以传送给所有营销和销售渠道，包括网站，印刷材料、电子邮件营销活动、门户网站、桌面以及设备。
 
-另请参阅 [平台概述](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/572_Platform%20Overview_converted%20renamed_Getting%20Started-AVS) 培训视频。
+另請參閱 [平台概觀](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/572_Platform%20Overview_converted%20renamed_Getting%20Started-AVS) 訓練影片。
 
 ## 工作流程 {#workflow-process}
 
-关键的Adobe Dynamic Media Classic工作流步骤包括：
+Adobe Dynamic Media Classic工作流程的關鍵步驟為：
 
-* **上传和管理资产**  — 将媒体资产上传到Adobe Dynamic Media Classic。 您可以组织、浏览和搜索系统上的资源，也可以将元数据应用到资源。
+* **上傳和管理您的資產**  — 將您的媒體資產上傳至Adobe Dynamic Media Classic。 您可以组织、浏览和搜索系统上的资源，也可以将元数据应用到资源。
 
-* **创建富媒体**  — 为资产创建不同的配置，如电子目录、图像集、旋转集、色板集、混合媒体集、基本模板和FXG模板。
+* **建立多媒體**  — 建立資產的不同設定，例如eCatalog、影像集、迴轉集、色票集、混合媒體集、基本範本和FXG範本。
 
-* **发布和管理**  — 将资产发布到Adobe Dynamic Media Classic SaaS网络。 监控资产在发布时的状态。 管理用户权限并维护安全。
+* **發佈和管理**  — 將資產發佈至Adobe Dynamic Media Classic SaaS網路。 在資產發佈時監視資產狀態。 管理使用者許可權並維護安全性。
 
-* **服务**  — 将媒体从Adobe Dynamic Media Classic SaaS网络传送到网页、应用程序和移动设备；媒体经过性能优化，可通过CDN缓存提供。 Adobe Dynamic Media Classic会为您提供每个资产的URL。 在您发布资源之后，URL 即处于活动状态。
+* **服務**  — 從Adobe Dynamic Media Classic SaaS網路傳送媒體至網頁、應用程式和行動裝置；媒體已最佳化效能，並透過CDN快取傳送。 Adobe Dynamic Media Classic會為您提供每個資產的URL。 在您发布资源之后，URL 即处于活动状态。
 
-![Adobe Dynamic Media Classic工作流流程](/help/assets/gs_workflow.png)
+![Adobe Dynamic Media Classic工作流程程式](/help/assets/gs_workflow.png)
 
-## 单个主图像和单个URL调用 {#single-master-images-and-single-url-calls}
+## 單一主要影像和單一URL呼叫 {#single-master-images-and-single-url-calls}
 
-Adobe Dynamic Media Classic与其他系统有着根本的不同，因为您可以使用Adobe Dynamic Media Classic通过单个主资产和URL调用动态交付媒体。
+Adobe Dynamic Media Classic與其他系統截然不同，因為您可以使用Adobe Dynamic Media Classic以動態方式從單一主要資產和URL呼叫傳送媒體。
 
-您通过Adobe Dynamic Media Classic生成的URL字符串中包含一些说明，这些说明会告知服务器在交付资产时如何显示资产。 例如，可以以不同的大小、格式、粗细、颜色和缩放视图来传送同一主图像。 在使用Adobe Dynamic Media Classic构建和发布媒体资产时，您可以直观地配置效果。 这样，您就可以创建URL调用，以正确告知服务器如何向应用程序展示主资产。
+您透過Adobe Dynamic Media Classic產生的URL字串包含指示，告知伺服器如何在傳送資產時顯示資產。 例如，相同的主要影像可以不同大小、格式、重量、顏色和縮放檢視提供。 使用Adobe Dynamic Media Classic建置和發佈媒體資產時，您可以透過視覺化方式設定效果。 這樣做時，您會建立URL呼叫，正確地告知伺服器如何將您的主要資產呈現給應用程式。
 
-![Adobe Dynamic Media Classic可以将相同的主图像以不同的大小和格式提供给不同的媒体。](/help/assets/gs_dynamic_publishing.png)
-*Adobe Dynamic Media Classic可确保向任何屏幕提供一致的优质体验，而无论其大小或带宽如何。*
+![Adobe Dynamic Media Classic可將相同的主要影像傳送至不同大小和格式的不同媒體。](/help/assets/gs_dynamic_publishing.png)
+*Adobe Dynamic Media Classic可確保為任何畫面提供一致、高品質的體驗，無論畫面大小或頻寬為何。*
 
 ## 内容缓存 {#content-caching}
 
-Adobe Dynamic Media Classic动态生成的图像对缓存有利；通常，它们是JPEG图像，其具有可识别它们的唯一URL调用。 图像会传送到内容传递网络 (CDN)，这是一个服务器系统，这些服务器在 Internet 上彼此互联以更快的速度传送内容。图像从位于全球的服务器发布到计算机。使用任何CDN供应商实施缓存机制时，您只需更改服务器名称以指向启用CDN的Dynamic Media图像服务器即可。 所有Adobe Dynamic Media Classic版本都包含捆绑的CDN缓存。
+Adobe Dynamic Media Classic動態產生的影像有利於快取；通常，它們是JPEG影像，具有可識別它們的唯一URL呼叫。 图像会传送到内容传递网络 (CDN)，这是一个服务器系统，这些服务器在 Internet 上彼此互联以更快的速度传送内容。图像从位于全球的服务器发布到计算机。使用任何CDN廠商實作快取機制時，只要將伺服器名稱變更為指向啟用CDN的Dynamic Media Image Server即可。 所有Adobe Dynamic Media Classic版本都包含套件式CDN快取。

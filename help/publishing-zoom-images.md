@@ -1,6 +1,6 @@
 ---
-title: 发布缩放图像
-description: 了解如何从Adobe Dynamic Media Classic发布缩放图像。
+title: 發佈縮放影像
+description: 瞭解如何從Adobe Dynamic Media Classic發佈縮放影像。
 uuid: d7e7a474-8af5-46a7-94df-063396f67554
 contentOwner: Rick Brough
 content-type: reference
@@ -17,19 +17,19 @@ ht-degree: 9%
 
 ---
 
-# 发布缩放图像{#publishing-zoom-images}
+# 發佈縮放影像{#publishing-zoom-images}
 
-发布后，您的缩放图像会放置在Dynamic Media图像服务器上，以便能够在您的网站和应用程序中使用这些图像。 在发布过程中，Adobe Dynamic Media Classic会激活URL字符串。 可以将这些 URL 字符串放在网站的 HTML 代码中。
+發佈功能可將縮放影像置於Dynamic Media影像伺服器上，供您的網站和應用程式使用。 在發佈程式中，Adobe Dynamic Media Classic會啟用URL字串。 可以将这些 URL 字符串放在网站的 HTML 代码中。
 
-## 标记要发布的图像 {#marking-images-for-publish}
+## 標籤要發佈的影像 {#marking-images-for-publish}
 
-必须标记图像才能将其发布，才能将其复制到Dynamic Media图像服务器。 通过选择 **[!UICONTROL 标记为发布]** 图标。 您还可以在上传图像时将图像标记为发布。
+影像必須標示為發佈，才能複製到Dynamic Media影像伺服器。 您可以在「瀏覽」面板中選取要發佈的影像 **[!UICONTROL 標籤為發佈]** 圖示。 您也可以在上傳影像時將其標籤為發佈。
 
-## 发布图像 {#publishing-the-images}
+## 發佈影像 {#publishing-the-images}
 
-要发布缩放图像，请在全局导航栏上，选择 **[!UICONTROL 发布]**，然后选择 **[!UICONTROL When]** 选项(**[!UICONTROL 一次性]** 或 **[!UICONTROL 定期]**)。 您可以选择输入发布作业的名称。 选择 **提交发布**.
+若要發佈縮放影像，請在全域導覽列上選取 **[!UICONTROL 發佈]**，然後選取 **[!UICONTROL 時間]** 選項(**[!UICONTROL 一次性]** 或 **[!UICONTROL 週期性]**)。 您可以選擇輸入發佈工作的名稱。 選取 **提交發佈**.
 
 >[!MORELIKETHIS]
 >
->* [发布文件](publishing-files.md#publishing_files)
+>* [發佈檔案](publishing-files.md#publishing_files)
 

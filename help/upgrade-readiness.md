@@ -1,30 +1,30 @@
 ---
-title: 升级就绪
-description: 升级准备情况检查表(如果您希望从 [!DNL Adobe Dynamic Media Classic] to [!DNL Dynamic Media] on [!DNL Adobe Experience Manager].
+title: 升級整備
+description: 升級整備檢查清單(當您想要從 [!DNL Adobe Dynamic Media Classic] 至 [!DNL Dynamic Media] 於 [!DNL Adobe Experience Manager].
 feature: Dynamic Media Classic
 role: Admin,User
-source-git-commit: 25e4f0d893c5963b648d75f65d099bca09e0f72f
+exl-id: 86537998-b7e9-449c-83eb-6fd04533a00f
+source-git-commit: efe51280ac33579a8e690eb6483488eea9069159
 workflow-type: tm+mt
 source-wordcount: '216'
 ht-degree: 2%
 
 ---
 
+# 升級整備檢查清單
 
-# 升级准备检查表
-
-使用以下核对清单帮助您了解和准备从 [!DNL Dynamic Media Classic] to [!DNL Dynamic Media].
+使用下列檢查清單來協助您瞭解並準備升級 [!DNL Dynamic Media Classic] 至 [!DNL Dynamic Media].
 
 |  | 任务 | 说明 |
 | :--- | :--- | --- |
-| **阶段1:许可** | 运行合同 | 根据流量和存储情况，Adobe帐户团队会与您合作，从 [!DNL Dynamic Media Classic] 在上续订的许可证 [!DNL Dynamic Media] 许可证。 |
-| **阶段2:准备** | 验证功能使用情况 | 确认中使用的功能 [!DNL Dynamic Media Classic] 在 [!DNL Dynamic Media]. 请参阅 [功能比较](/help/upgrade-feature-comparison.md) 页面。 中尚未提供关键功能 [!DNL Dynamic Media] 包括以下内容：<br>·可视配置器（图像作者、图像渲染器）。<br>·图像模板（1:1模板）。<br>• eCatalog.<br>如果使用上述功能，则仍可能会进行升级，前提是可以通过 [!DNL Dynamic Media Classic]. |
-|  | 识别资产 | 查找并准备好要用于升级的资产和预设。 |
-| **阶段3:环境** | 升级 [!DNL Adobe Experience Manager] | 的所有实例 [!DNL Adobe Experience Manager] 必须更新到最新版本。 |
-|  | 设置 [!DNL Dynamic Media] | Adobe咨询或合作伙伴配置 [!DNL Dynamic Media] 你的凭据。 |
-| **阶段4:升级** | 复制资产 | 在升级过程中，指定 [!DNL Dynamic Media Classic] 资产被复制到Dynamic Media。 |
-| **阶段5:管理设置** | 设置用户和权限 | 创建用户并授予相应的权限。 |
-|  | 设置视频编码配置文件 | 创建视频编码配置文件。 |
-|  | 设置查看器预设 | 创建查看器预设。 |
-|  | 设置图像预设 | 设置图像预设。 |
-| **阶段6:验证** | 确认 | 验证用例、资产、链接和API。 |
+| **第1階段：授權** | 執行合約 | 根據流量和儲存空間，Adobe客戶團隊會與您合作，協助您從 [!DNL Dynamic Media Classic] 於以下日期續約的授權： [!DNL Dynamic Media] 授權。 |
+| **階段2：準備** | 驗證功能使用情形 | 確認中使用的功能 [!DNL Dynamic Media Classic] 可用於 [!DNL Dynamic Media]. 請參閱 [功能比較](/help/upgrade-feature-comparison.md) 頁面。 中尚未提供重要功能 [!DNL Dynamic Media] 包含下列專案：<br>·視覺化設定器（影像作者、影像演算）。<br>·影像範本（1:1範本）。<br>• eCatalog.<br>如果使用上述功能，升級仍可進行，並假設這些功能可透過以下方式存取： [!DNL Dynamic Media Classic]. |
+|  | 識別資產 | 尋找並準備好要用於升級的資產和預設集。 |
+| **階段3：環境** | 升級 [!DNL Adobe Experience Manager] | 所有例項 [!DNL Adobe Experience Manager] 必須更新至最新版本。 |
+|  | 设置 [!DNL Dynamic Media] | Adobe諮詢或合作夥伴設定 [!DNL Dynamic Media] 使用您的認證。 |
+| **第4階段：升級** | 復寫資產 | 在升級過程中，指定 [!DNL Dynamic Media Classic] 資產會復寫到Dynamic Media。 |
+| **階段5：管理設定** | 設定使用者和許可權 | 建立使用者並授予適當的許可權。 |
+|  | 設定視訊編碼設定檔 | 建立視訊編碼設定檔。 |
+|  | 設定檢視器預設集 | 建立檢視器預設集。 |
+|  | 設定影像預設集 | 設定影像預設集。 |
+| **階段6：驗證** | 确认 | 驗證使用案例、資產、連結和API。 |

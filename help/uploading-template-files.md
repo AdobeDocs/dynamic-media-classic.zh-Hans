@@ -1,6 +1,6 @@
 ---
-title: 上载模板文件
-description: 了解如何在Adobe Dynamic Media Classic中上传模板文件。
+title: 上傳範本檔案
+description: 瞭解如何在Adobe Dynamic Media Classic中上傳範本檔案。
 uuid: e19979b5-3f41-49c5-99aa-107ede3be98c
 contentOwner: Rick Brough
 content-type: reference
@@ -17,19 +17,19 @@ ht-degree: 38%
 
 ---
 
-# 上载模板文件{#uploading-template-files}
+# 上傳範本檔案{#uploading-template-files}
 
-在开始构建模板之前，将模板所需的文件上传到Adobe Dynamic Media Classic。 可以从 Adobe® Photoshop® PSD 或图像文件构建模板。建议使用 TIFF 和 PNG 图像，因为它们允许设置透明度。
+在開始建立範本之前，請將範本所需的檔案上傳到Adobe Dynamic Media Classic。 可以从 Adobe® Photoshop® PSD 或图像文件构建模板。建议使用 TIFF 和 PNG 图像，因为它们允许设置透明度。
 
 >[!NOTE]
 >
->Adobe Dynamic Media Classic建议在模板中使用透明TIFF或PSD图像，其大小与您希望在网站上显示的大小完全相同。 发布模板时，调用的图像所带的图像预设大小亦相同。请注意，此大小可确保模板的大小不会调整（重新取样）为大于或小于设计尺寸。
+>Adobe Dynamic Media Classic建議您在範本中使用透明的TIFF或PSD影像，且大小應與您要顯示於網站上的大小完全相同。 发布模板时，调用的图像所带的图像预设大小亦相同。请注意，此大小可确保模板的大小不会调整（重新取样）为大于或小于设计尺寸。
 
 可以使用 Adobe Photoshop PSD 文件或图像文件创建模板。
 
-有关上传文件的详细说明，请参阅 [上传文件](uploading-files.md#uploading_files). 上载模板文件时请注意以下事项：
+如需上傳檔案的詳細說明，請參閱 [上傳檔案](uploading-files.md#uploading_files). 上载模板文件时请注意以下事项：
 
-* 如果要上传PSD文件，则可以从中创建模板。 Adobe Dynamic Media Classic会为PSD中的每个图层创建一个单独的图像。 在上传作业选项对话框中，选择 **[!UICONTROL Photoshop选项]**，然后选择 **[!UICONTROL 维护图层]** 和 **[!UICONTROL 创建模板]**. 然后，从 **[!UICONTROL 层命名]** 用于命名Adobe Dynamic Media Classic从PSD的图层创建的图像的下拉列表。
+* 如果您要上傳PSD檔案，可以從中建立範本。 Adobe Dynamic Media Classic會為PSD中的每個圖層建立個別的影像。 在「上載工作選項」對話方塊中，選取 **[!UICONTROL Photoshop選項]**，並選取 **[!UICONTROL 保留圖層]** 和 **[!UICONTROL 建立範本]**. 然後，從 **[!UICONTROL 圖層命名]** 下拉式清單，用於命名Adobe Dynamic Media Classic從PSD圖層建立的影像。
 请参阅[PSD 上载选项](psd-files.md#psd_upload_options)。
 
 <!-- THERE IS NO LONGER AN IMAGE EDITING OPTIONS MENU * If you are uploading images, you can create a mask from its clipping path. This option applies to images created with image-editing applications in which a clipping path was created. In the Upload Job Options dialog box, select Image Editing Options and select the Create Mask From Clipping Path option. 
@@ -37,6 +37,6 @@ See [Image editing options at upload](image-editing-options-upload.md#image-edit
 
 >[!MORELIKETHIS]
 >
->* [上传文件](uploading-files.md#uploading_your_files)
->* [使用PSD文件](psd-files.md#working_with_psd_files)
+>* [上傳您的檔案](uploading-files.md#uploading_your_files)
+>* [使用PSD檔案](psd-files.md#working_with_psd_files)
 

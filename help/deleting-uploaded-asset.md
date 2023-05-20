@@ -1,6 +1,6 @@
 ---
-title: 删除上传的栅格图像资产
-description: 了解如何在Adobe Dynamic Media Classic中删除已上传的资产。
+title: 刪除上傳的點陣影像資產
+description: 瞭解如何刪除Adobe Dynamic Media Classic中已上傳的資產。
 uuid: edd2b688-c377-4be1-ba16-d2dd2e6f716d
 contentOwner: Rick Brough
 content-type: reference
@@ -16,7 +16,7 @@ ht-degree: 49%
 
 ---
 
-# 删除上传的资产{#deleting-an-uploaded-asset}
+# 刪除上傳的資產{#deleting-an-uploaded-asset}
 
 您可以按照以下格式使用 `delete` 参数删除某个资源：
 
@@ -54,11 +54,11 @@ https://s7ugc1.scene7.com/ugc/image?op=delete&shared_secret=fece4b21-87ee-47fc-9
 
 >[!IMPORTANT]
 >
->自2023年5月1日起，Dynamic Media中的UGC资产将可自上传之日起最多使用60天。 60天后，资产将被删除。
+>自2023年5月1日起，Dynamic Media中的UGC資產最多可在上傳日期後60天內使用。 60天後，資產將會移除。
 
 >[!NOTE]
 >
->2021年9月30日终止对Adobe Dynamic Media Classic中新的或现有的UGC矢量图像资产的支持。
+>Adobe Dynamic Media Classic已於2021年9月30日停止支援新的或現有的UGC向量影像資產。
 
 **示例图像 URL：**
 

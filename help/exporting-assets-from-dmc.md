@@ -1,6 +1,6 @@
 ---
-title: 从Adobe Dynamic Media Classic导出资产
-description: 了解如何从Adobe Dynamic Media Classic导出资产。
+title: 從Adobe Dynamic Media Classic匯出資產
+description: 瞭解如何從Adobe Dynamic Media Classic匯出資產。
 uuid: d42b7a73-80c0-4a9a-a04e-7ef53e6fcf22
 contentOwner: Rick Brough
 content-type: reference
@@ -17,38 +17,38 @@ ht-degree: 51%
 
 ---
 
-# 从Adobe Dynamic Media Classic导出资产{#exporting-assets-from-dmc}
+# 從Adobe Dynamic Media Classic匯出資產{#exporting-assets-from-dmc}
 
-您可以将在Adobe Dynamic Media Classic中编辑的资产保存到本地网络驱动器。 导出的资源会打包成一个 Zip 文件，供下载或通过电子邮件发送。
+您可以將在Adobe Dynamic Media Classic中編輯的資產儲存至本機網路磁碟機。 导出的资源会打包成一个 Zip 文件，供下载或通过电子邮件发送。
 
-可用于导出作业的 Zip 压缩文件的最大文件大小为 1 GB。此外，每个导出作业最多允许500个资产总数。
+可用于导出作业的 Zip 压缩文件的最大文件大小为 1 GB。此外，每個匯出工作最多允許500個總資產。
 
-Adobe Dynamic Media Classic会在“作业”屏幕中保留导出作业的记录。
+Adobe Dynamic Media Classic會在「工作」畫面中保留匯出工作的記錄。
 
-**要从Adobe Dynamic Media Classic导出资产，请执行以下操作：**
+**若要從Adobe Dynamic Media Classic匯出資產：**
 
-1. 选择要导出的资产，然后转到 **[!UICONTROL 文件]** > **[!UICONTROL 导出]**.
+1. 選取您要匯出的資產，然後前往 **[!UICONTROL 檔案]** > **[!UICONTROL 匯出]**.
 1. 在“导出所选资源”窗口中，单击“**[!UICONTROL 图像选项]**”，然后指定以下任一选项（管理员可确定哪些选项对用户可用）：
 
-   * **[!UICONTROL 预设]**  — （可选）在导出资产时选择图像预设以设置资产格式。 如果选择了图像预设，其他格式选项将不可用，因为资源会采用由图像预设定义的格式。
+   * **[!UICONTROL 預設集]**  — 或者，選擇影像預設集，在匯出資產時將其格式化。 如果选择了图像预设，其他格式选项将不可用，因为资源会采用由图像预设定义的格式。
 
-   * **[!UICONTROL 转化]**  — 转换资产文件或原始图像。
+   * **[!UICONTROL 轉換]**  — 轉換資產檔案或原始影像。
 
-   * **[!UICONTROL 大小]**  — 您可以选择标准大小。 或者，您可以选择 **[!UICONTROL 其他]** 从 **[!UICONTROL 大小]** 下拉列表中，选择所需的单位，然后指定宽度和高度。
+   * **[!UICONTROL 大小]**  — 您可以選取標準大小。 或者，您可以選取 **[!UICONTROL 其他]** 從 **[!UICONTROL 大小]** 下拉式清單，選擇所需的測量單位，然後指定寬度和高度。
 
-      另请参阅 [指定Media Portal用户可用的导出选项](specifying-export-options-available-media.md#specifying_export_options_available_to_media_portal_users).
+      另請參閱 [指定Media Portal使用者可用的匯出選項](specifying-export-options-available-media.md#specifying_export_options_available_to_media_portal_users).
 
-   * **[!UICONTROL 格式]**  — 选择图像格式。
+   * **[!UICONTROL 格式]**  — 選擇影像格式。
 
-   * **[!UICONTROL 颜色]**  — 选择“RGB”、“CMYK”或“灰色”。
+   * **[!UICONTROL 顏色]**  — 選擇「RGB」、「CMYK」或「灰色」。
 
-   * **[!UICONTROL 分辨率]**  — 选择72 ppi、150 ppi或300 ppi。
+   * **[!UICONTROL 解析度]**  — 選擇72 ppi、150 ppi或300 ppi。
 
-   * **[!UICONTROL 作业名称]**  — 您可以为导出分配作业名称。
+   * **[!UICONTROL 工作名稱]**  — 您可以為匯出指派工作名稱。
 
-   * **[!UICONTROL 发送电子邮件至]**  — （可选）如果您打算通过电子邮件发送资产，请输入电子邮件地址。 电子邮件会列出收件人可从中下载资源的 URL。
+   * **[!UICONTROL 傳送電子郵件至]**  — 如果您打算透過電子郵件傳送資產，可選擇輸入電子郵件地址。 电子邮件会列出收件人可从中下载资源的 URL。
 
-1. 选择 **[!UICONTROL 导出]**.
+1. 選取 **[!UICONTROL 匯出]**.
 
 系统支持以下三种基本导出操作：
 
@@ -56,13 +56,13 @@ Adobe Dynamic Media Classic会在“作业”屏幕中保留导出作业的记�
 * 使用预设转换（使用图像预调为资源设置格式）
 * 无预设转换（使用导出对话框来指定图像修饰符）
 
-无法导出下列资源类型。所有其他产品都会生成导出。
+无法导出下列资源类型。所有其他會產生匯出。
 
 * 图像集
 * 渲染集
 * 旋转集
 * 媒体集
-* 多比特率集
+* 多位元速率集
 * eCatalog
 
 此外，也无法作为“原始文件”导出模板。
@@ -72,7 +72,7 @@ Adobe Dynamic Media Classic会在“作业”屏幕中保留导出作业的记�
 * 图像
 * 模板
 * 已调整图像
-* PDF（生成转换的页面）
+* PDF（產生轉換的頁面）
 * PostScript®
 
 当大量各种各样的资源类型进入导出程序时，会出现以下行为结果：

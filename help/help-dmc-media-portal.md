@@ -1,6 +1,6 @@
 ---
-title: Adobe Dynamic Media Classic Media Portal帮助
-description: 了解如何获取Adobe Dynamic Media Classic Media Portal的帮助。
+title: Adobe Dynamic Media Classic媒體入口網站說明
+description: 瞭解如何取得Adobe Dynamic Media Classic Media Portal的說明。
 uuid: d8d2ebe1-0228-43c3-8321-c51ffac7fd58
 contentOwner: Rick Brough
 content-type: reference
@@ -17,11 +17,11 @@ ht-degree: 0%
 
 ---
 
-# Adobe Dynamic Media Classic Media Portal帮助{#help-for-scene-media-portal}
+# Adobe Dynamic Media Classic媒體入口網站說明{#help-for-scene-media-portal}
 
-以下帮助文档也可从Adobe Dynamic Media Classic获取：
+Adobe Dynamic Media Classic也提供下列說明檔案：
 
-**使用Adobe Dynamic Media Classic Media Portal** - Adobe Dynamic Media Classic Media Portal是一个基于浏览器的环境，通过该环境，门户用户可以轻松上传、浏览、搜索、预览和导出公司批准的格式的资产。 请参阅 [https://help.adobe.com/en_US/scene7/mediaportal/](https://help.adobe.com/en_US/scene7/mediaportal/).
+**使用Adobe Dynamic Media Classic Media Portal** - Adobe Dynamic Media Classic Media Portal是瀏覽器式環境，可讓入口網站使用者輕鬆上傳、瀏覽、搜尋、預覽和匯出企業核准格式的資產。 另請參閱 [https://help.adobe.com/en_US/scene7/mediaportal/](https://help.adobe.com/en_US/scene7/mediaportal/).
 
 <!-- Is this topic still needed? -rb 04/22/21
  used to point to www.adobe.com/go/learn_sc7_mediaportalusing_en and http://help.adobe.com/en_US/scene7/mediaportal/-->

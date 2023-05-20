@@ -1,6 +1,6 @@
 ---
-title: 上传缩放图像
-description: 了解如何将图像放大到Adobe Dynamic Media Classic。
+title: 上傳縮放影像
+description: 瞭解如何將縮放影像上傳至Adobe Dynamic Media Classic。
 uuid: 5814ec28-3a06-4b92-b70e-0aa5b83e7b0e
 contentOwner: Rick Brough
 content-type: reference
@@ -17,23 +17,23 @@ ht-degree: 21%
 
 ---
 
-# 上传缩放图像{#uploading-zoom-images}
+# 上傳縮放影像{#uploading-zoom-images}
 
-缩放图像必须具有高像素数。需要大量像素，以便查看者在缩放图像时能够清楚地查看图像详细信息。 在将图像上传到Adobe Dynamic Media Classic之前，请确保您使用的图像大小合适。
+缩放图像必须具有高像素数。需要大量畫素，以便檢視者在縮放影像時可以清楚檢視影像詳細資訊。 上傳至Adobe Dynamic Media Classic之前，請確定您使用的影像大小適當。
 
-在全局导航栏上，选择 **[!UICONTROL 上传]** 开始上传图像。
+在全域導覽列上，選取 **[!UICONTROL 上傳]** 以開始上傳影像。
 
-有关上传图像的详细说明，请参阅 [上传文件](uploading-files.md#uploading_files).
+如需上傳影像的詳細說明，請參閱 [上傳檔案](uploading-files.md#uploading_files).
 
-**准备图像以进行缩放：**
+**準備影像以進行縮放：**
 
-要充分利用Adobe Dynamic Media Classic缩放功能，请在上传缩放图像文件之前先准备它们：
+若要充分利用Adobe Dynamic Media Classic縮放功能，請先準備縮放影像檔案，然後再上傳：
 
-* **图像大小** - Adobe Dynamic Media Classic建议使用最大大小至少为2000像素的图像文件。 以便用户缩放时图像可以清楚地显示。
+* **影像大小** - Adobe Dynamic Media Classic建議使用最大大小至少為2000畫素的影像檔案。 以便用户缩放时图像可以清楚地显示。
 
-* **文件格式** - Adobe Dynamic Media Classic支持所有标准图像文件格式，包括TIFF、BMP、JPEG、PSD、GIF和EPS。 建议使用无损图像格式（TIFF 和 PNG）。如果您使用的是JPEG图像，请使用最高质量的设置。
+* **檔案格式** - Adobe Dynamic Media Classic支援所有標準影像檔案格式，包括TIFF、BMP、JPEG、PSD、GIF和EPS。 建议使用无损图像格式（TIFF 和 PNG）。如果您使用JPEG影像，請使用最高品質設定。
 
-* **色彩空间** -RGB是Web图像演示的色彩空间；CMYK图像在上载时会自动转换为RGB。 建议上载嵌有用于转换为 RGB 的 ICC 颜色配置文件的 CMYK 图像。另请参阅 ICC 配置文件。
+* **色域** -RGB是網頁影像簡報的色彩空間；CMYK影像會在您上傳時自動轉換為RGB。 建议上载嵌有用于转换为 RGB 的 ICC 颜色配置文件的 CMYK 图像。另请参阅 ICC 配置文件。
 
 >[!MORELIKETHIS]
 >

@@ -1,6 +1,6 @@
 ---
-title: 使用资产文件夹
-description: 了解如何在Adobe Dynamic Media Classic中使用资产文件夹。
+title: 使用資產資料夾
+description: 瞭解如何在Adobe Dynamic Media Classic中使用資產資料夾。
 uuid: 3bd83701-e2c2-4e39-b225-c2d27ad836c2
 contentOwner: Rick Brough
 content-type: reference
@@ -17,46 +17,46 @@ ht-degree: 39%
 
 ---
 
-# 使用资产文件夹{#working-with-asset-folders}
+# 使用資產資料夾{#working-with-asset-folders}
 
-Adobe Dynamic Media Classic中的文件资产保留在文件夹中。 这些文件夹在“资源库”面板中按字母顺序排列。在将文件从计算机或网络上传到Adobe Dynamic Media Classic之前，系统会要求您命名一个文件夹以存储文件。 请在上载任何文件之前创建这些文件夹。
+Adobe Dynamic Media Classic中的檔案資產會儲存在資料夾中。 这些文件夹在“资源库”面板中按字母顺序排列。將檔案從您的電腦或網路上傳到Adobe Dynamic Media Classic之前，系統會要求您命名儲存檔案的資料夾。 请在上载任何文件之前创建这些文件夹。
 
-在上传文件之前，请务必建立文件夹结构和组织，以在Adobe Dynamic Media Classic上存储文件。
+在上傳檔案之前，請務必建立檔案夾結構和組織以將檔案儲存在Adobe Dynamic Media Classic上。
 
-## 显示、移动、隐藏和打开文件夹 {#displaying-moving-hiding-and-opening-folders}
+## 顯示、移動、隱藏和開啟資料夾 {#displaying-moving-hiding-and-opening-folders}
 
 资源库以文件夹树的形式显示文件。在资源库中选择文件夹时，其内容会显示在浏览面板中。使用以下方法在文件夹树中查找文件夹：
 
-* **显示子文件夹**  — 选择 **[!UICONTROL 展开文件夹]** 图标以显示文件夹中的子文件夹。 该图标位于文件夹名称的左侧。
+* **顯示子資料夾**  — 選取 **[!UICONTROL 展開資料夾]** 圖示來顯示資料夾中的子資料夾。 该图标位于文件夹名称的左侧。
 
-* **移动文件夹**  — 您可以通过将文件夹拖放到其新位置或通过选择 **[!UICONTROL 文件]** > **[!UICONTROL 移动文件夹]**.
+* **行動資料夾**  — 您可以將資料夾拖放至新位置，或選取「 」，行動資料夾 **[!UICONTROL 檔案]** > **[!UICONTROL 行動資料夾]**.
 
-* **隐藏文件夹**  — 选择 **[!UICONTROL 折叠文件夹]** 图标。 该图标位于文件夹名称的左侧。
+* **隱藏資料夾**  — 選取 **[!UICONTROL 摺疊資料夾]** 圖示來隱藏子資料夾。 该图标位于文件夹名称的左侧。
 
-* **打开文件夹**  — 如果要在“浏览”面板中显示文件夹的内容，请选择文件夹。
+* **開啟資料夾**  — 如果要在「瀏覽」面板中顯示其內容，請選取資料夾。
 
 >[!TIP]
 >
->您可以通过选择 **[!UICONTROL 展开]** 或 **[!UICONTROL 折叠]** 左侧控制。 当需要更多空间来处理浏览面板中的内容时，可将“资源库”面板折叠起来。
+>您可以選取「 」，以隱藏或顯示「資產庫」 **[!UICONTROL 展開]** 或 **[!UICONTROL 摺疊]** 左側的控制項。 当需要更多空间来处理浏览面板中的内容时，可将“资源库”面板折叠起来。
 
-## 创建文件夹 {#creating-folders}
+## 建立資料夾 {#creating-folders}
 
 1. 在资源库中，选择要在其中创建文件夹的文件夹。
-1. 选择 **[!UICONTROL 添加文件夹]** 按钮。 此图标位于文件夹列表的顶部。
+1. 選取 **[!UICONTROL 新增資料夾]** 按鈕。 此圖示位於資料夾清單的頂端。
 1. 为新文件夹或子文件夹输入一个描述性名称，方法是在文件夹图标旁的字段中键入该名称。
 
    >[!NOTE]
    >
-   >通过FTP上传文件时，您还可以在Adobe Dynamic Media Classic中创建文件夹。 选择 **[!UICONTROL 包含子文件夹]** 选项。 您的计算机或网络上的文件和子文件夹都会复制到资源库中，您上载的资源会置于这些文件夹中。
+   >透過FTP上傳檔案時，您也可以在Adobe Dynamic Media Classic中建立資料夾。 選取 **[!UICONTROL 包含子資料夾]** 選項（當您透過FTP上傳時）會複製系統中您電腦上的資料夾結構。 您的计算机或网络上的文件和子文件夹都会复制到资源库中，您上载的资源会置于这些文件夹中。
 
-## 删除和重命名文件夹 {#deleting-and-renaming-folders}
+## 刪除和重新命名資料夾 {#deleting-and-renaming-folders}
 
 选择一个文件夹，然后使用以下方法对其进行删除或重命名：
 
-* **删除**  — 选择 **[!UICONTROL 删除文件夹]** 按钮。 被删除文件夹中的资源被置于垃圾桶文件夹中。您可以从那里恢复它们。
+* **刪除**  — 選取 **[!UICONTROL 移除資料夾]** 按鈕。 被删除文件夹中的资源被置于垃圾桶文件夹中。您可以从那里恢复它们。
 
-* **重命名**  — 双击该名称并输入新名称。
+* **重新命名**  — 連按兩下名稱並輸入新名稱。
 
 >[!NOTE]
 >
->您无法复制文件夹或资产，因为这样做会在Adobe Dynamic Media Classic上创建重复的文件夹和资产，并且不允许重复。
+>您無法複製資料夾或資產，因為這麼做會在Adobe Dynamic Media Classic上建立重複的資料夾和資產，而且不允許重複專案。

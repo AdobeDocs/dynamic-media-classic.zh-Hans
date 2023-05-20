@@ -1,6 +1,6 @@
 ---
-title: 获取磁盘使用情况信息
-description: 了解如何在Adobe Dynamic Media Classic中获取磁盘使用信息。
+title: 取得磁碟使用資訊
+description: 瞭解如何在Adobe Dynamic Media Classic中取得磁碟使用資訊。
 uuid: 01361693-53d0-4072-b7c3-f284631d28cf
 contentOwner: Rick Brough
 content-type: reference
@@ -16,7 +16,7 @@ ht-degree: 77%
 
 ---
 
-# 获取磁盘使用情况信息 {#getting-disk-usage-information}
+# 取得磁碟使用資訊 {#getting-disk-usage-information}
 
 您可使用 `disk_info` 参数检索关于公司磁盘空间使用情况的信息，如以下示例中所示：
 

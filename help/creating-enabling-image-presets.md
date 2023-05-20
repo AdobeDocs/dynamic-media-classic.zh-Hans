@@ -1,6 +1,6 @@
 ---
-title: 创建并启用图像预设
-description: 了解如何在Adobe Dynamic Media Classic中创建并启用图像预设。
+title: 建立和啟用影像預設集
+description: 瞭解如何在Adobe Dynamic Media Classic中建立和啟用影像預設集。
 uuid: 62cfc6fa-da91-4c42-a3ed-10956384d633
 contentOwner: Rick Brough
 content-type: reference
@@ -17,21 +17,21 @@ ht-degree: 72%
 
 ---
 
-# 创建并启用图像预设{#creating-and-enabling-image-presets}
+# 建立和啟用影像預設集{#creating-and-enabling-image-presets}
 
 当用户使用 Media Portal 导出图像资源时，他们可以在“导出所选资源”对话框中选择一种“图像预设”。图像预设是一组预定义的设置，用于更改图像在导出时的外观大小、图像质量、格式、分辨率以及其他方面。
 
-Media Portal 管理员可以创建图像预设，以便控制导出时如何重设它们的格式。当用户从Adobe Dynamic Media Classic导出图像时，图像预设会按照贵公司的规范重新设置图像格式。 用户按照“图像预设”的精确规范导出图像，而非自已重设图像的格式。
+Media Portal 管理员可以创建图像预设，以便控制导出时如何重设它们的格式。當使用者從Adobe Dynamic Media Classic匯出影像時，影像預設集會依貴公司的規格重新格式化影像。 用户按照“图像预设”的精确规范导出图像，而非自已重设图像的格式。
 
 导出图像资源时，有下列限制：
 
 * 每张图像的宽 x 高必须小于或等于 100 MB。例如，图像不能超过 10K x 10K，或以下任意宽高比变体（如 8K x 12K）。
-* 每个导出作业的文件总大小最大为1-GB。
+* 每個匯出作業的總檔案大小上限為1 GB。
 * 每个导出作业最多可以有 500 个总资源。
 
 >[!NOTE]
 >
->这些限制仅适用于导出派生的图像资产，而不适用于导出主文件。
+>這些限制僅適用於匯出衍生影像資產，而非主要檔案。
 
 要创建图像预设，请参阅[图像预设](application-setup.md#image_presets)。
 

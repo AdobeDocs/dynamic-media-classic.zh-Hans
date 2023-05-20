@@ -1,6 +1,6 @@
 ---
 title: 自动生成图像集
-description: 了解如何在Adobe Dynamic Media Classic中自动生成图像集。
+description: 瞭解如何在Adobe Dynamic Media Classic中自動產生影像集。
 uuid: bd4b3252-3e77-4230-9684-cd6d28b8eecb
 contentOwner: Rick Brough
 content-type: reference
@@ -33,11 +33,11 @@ Last Modified Date:
 
 **自动生成图像集:**
 
-1. 转到 **[!UICONTROL 文件]** > **[!UICONTROL 生成集]**.
+1. 前往 **[!UICONTROL 檔案]** > **[!UICONTROL 產生集合]**.
 1. 在“生成集”对话框中，指定作业名称。
 
    默认情况下，为作业指定的名称指示这是一个生成的作业以及作业的生成时间。
 
 1. 选择要应用的预设。
-1. 选择 **[!UICONTROL 目标文件夹]**，然后指定要使用的文件夹。
-1. 选择 **[!UICONTROL 提交]**.
+1. 選取 **[!UICONTROL 目的地資料夾]**，然後指定要使用的資料夾。
+1. 選取 **[!UICONTROL 提交]**.

@@ -1,6 +1,6 @@
 ---
-title: 使用不同的缩放查看器预览图像资产
-description: 了解如何在Adobe Dynamic Media Classic中使用不同的缩放查看器预览图像资产。
+title: 使用不同的縮放檢視器預覽影像資產
+description: 瞭解如何在Adobe Dynamic Media Classic中使用不同的縮放檢視器預覽影像資產。
 uuid: 244c0faa-2a33-416f-8987-bdc0c85f5c2e
 contentOwner: Rick Brough
 content-type: reference
@@ -17,30 +17,30 @@ ht-degree: 27%
 
 ---
 
-# 使用不同的缩放查看器预览图像资产{#previewing-image-assets-with-different-zoom-viewers}
+# 使用不同的縮放檢視器預覽影像資產{#previewing-image-assets-with-different-zoom-viewers}
 
 在“查看器列表”屏幕上，您可以使用不同缩放查看器预设预览图像。
 
-请参阅 [配置默认查看器](application-setup.md#configuring_default_viewers).
+另請參閱 [設定預設檢視器](application-setup.md#configuring_default_viewers).
 
-请参阅 [预览资产](previewing-asset.md#previewing_an_asset).
+另請參閱 [預覽資產](previewing-asset.md#previewing_an_asset).
 
-**要使用不同的缩放查看器预览图像资产，请执行以下操作：**
+**若要使用不同的縮放檢視器預覽影像資產：**
 
 1. 在左侧“资源库”面板的“显示”下拉列表中，选择基于图像的资源类型（如图像或图像集）。
 1. 在左侧“资源库”面板中，定位到包含要使用缩放查看器预览的图像的资源文件夹。
 1. 执行以下任一操作：
 
-   * 在资产窗口的工具栏右侧的上方，选择 **[!UICONTROL 网格视图]**. 在资产窗口的缩略图图像下方，转到 **[!UICONTROL 预览]** > **[!UICONTROL 查看器列表]**.
-   * 在资产窗口的工具栏右侧的上方，选择 **[!UICONTROL 列表视图]**. 在“资产”窗口中，选择一个资产，然后在缩略图的右侧，转到 **[!UICONTROL 预览]** > **[!UICONTROL 查看器列表]**.
-   * 在资产窗口的工具栏右侧的上方，选择 **[!UICONTROL 详细信息视图]**. 在同一工具栏上，转到 **[!UICONTROL 预览]** > **[!UICONTROL 查看器列表]**.
+   * 在「資產」視窗上方、工具列右側，選取「 」 **[!UICONTROL 格點檢視]**. 在「資產」視窗的縮圖影像下方，前往 **[!UICONTROL 預覽]** > **[!UICONTROL 檢視器清單]**.
+   * 在「資產」視窗上方、工具列右側，選取「 」 **[!UICONTROL 清單檢視]**. 在「資產」視窗中，選取資產，然後在縮圖影像右側，前往 **[!UICONTROL 預覽]** > **[!UICONTROL 檢視器清單]**.
+   * 在「資產」視窗上方、工具列右側，選取「 」 **[!UICONTROL 詳細資料檢視]**. 在相同工具列上，前往 **[!UICONTROL 預覽]** > **[!UICONTROL 檢視器清單]**.
 
-1. 在“查看器列表”窗口的表格中，选择一个查看器链接以在选定的查看器中预览资产。
-1. 关闭显示的查看器。
-1. 在“查看器列表”窗口的右下角，选择 **[!UICONTROL 关闭]** ，以返回到资产屏幕。
+1. 在「檢視器清單」視窗的表格中，選取檢視器連結，以在選取的檢視器中預覽資產。
+1. 關閉顯示的檢視器。
+1. 在「檢視器清單」視窗的右下角，選取 **[!UICONTROL 關閉]** 以返回「資產」畫面。
 
 >[!MORELIKETHIS]
 >
->* [设置缩放查看器预设](setting-zoom-viewer-presets.md#setting_up_zoom_viewer_presets)
->* [配置默认查看器](application-setup.md#configuring_default_viewers)
+>* [設定縮放檢視器預設集](setting-zoom-viewer-presets.md#setting_up_zoom_viewer_presets)
+>* [設定預設檢視器](application-setup.md#configuring_default_viewers)
 

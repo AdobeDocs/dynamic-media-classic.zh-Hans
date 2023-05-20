@@ -1,6 +1,6 @@
 ---
-title: 准备要上传的图像集资产
-description: 了解如何准备图像集资产以上传到Adobe Dynamic Media Classic。
+title: 準備影像集資產以供上傳
+description: 瞭解如何準備影像集資產以上傳至Adobe Dynamic Media Classic。
 uuid: ea90643f-f52f-43cd-8a74-ebffc78ab717
 contentOwner: Rick Brough
 content-type: reference
@@ -17,18 +17,18 @@ ht-degree: 44%
 
 ---
 
-# 准备要上传的图像集资产{#preparing-image-set-assets-for-upload}
+# 準備影像集資產以供上傳{#preparing-image-set-assets-for-upload}
 
-在将图像集所需的图像上传到Adobe Dynamic Media Classic之前，请确保图像的大小和格式正确。
+將影像集所需的影像上傳至Adobe Dynamic Media Classic之前，請確定影像的大小和格式正確。
 
 要创建多视图图像集，您需要从不同视角显示物品或显示同一物品不同侧面的图像。这是为了突出某个物品的重要特征，以便观看者对物品的外观或功能有全面的了解。
 
-因为用户可以缩放图像集中的图像，所以请确保图像的长边至少为 2000 像素。Adobe Dynamic Media Classic支持多种图像文件格式，但建议使用无损TIFF、PNG和EPS图像。
+因为用户可以缩放图像集中的图像，所以请确保图像的长边至少为 2000 像素。Adobe Dynamic Media Classic支援許多影像檔案格式，但建議使用不失真TIFF、PNG和EPS影像。
 
-有关上传资产的详细说明，请参阅 [上传文件](uploading-files.md#uploading_files).
+如需上傳資產的詳細指示，請參閱 [上傳檔案](uploading-files.md#uploading_files).
 
 >[!MORELIKETHIS]
 >
->* [上传文件](uploading-files.md#uploading_your_files)
->* [使用晕影、窗口覆盖和机柜文件](vignette-window-covering-cabinet-files.md#working_with_vignette_window_covering_and_cabinet_files)
+>* [上傳您的檔案](uploading-files.md#uploading_your_files)
+>* [使用暈映、視窗遮蓋和封包檔案](vignette-window-covering-cabinet-files.md#working_with_vignette_window_covering_and_cabinet_files)
 

@@ -1,6 +1,6 @@
 ---
-title: 将Adobe Dynamic Media Classic与Adobe Target Standard/Premium集成
-description: 了解如何将Adobe Dynamic Media Classic与Adobe Target Standard/Premium集成。
+title: 將Adobe Dynamic Media Classic與Adobe Target Standard/Premium整合
+description: 瞭解如何將Adobe Dynamic Media Classic與Adobe Target Standard/Premium整合。
 uuid: d1c07a52-b058-4ae3-a31d-44c43dc27f65
 contentOwner: Rick Brough
 content-type: reference
@@ -17,15 +17,15 @@ ht-degree: 0%
 
 ---
 
-# 将Adobe Dynamic Media Classic与Adobe Target Standard/Premium集成 {#integrating-dmc-with-target}
+# 將Adobe Dynamic Media Classic與Adobe Target Standard/Premium整合 {#integrating-dmc-with-target}
 
-集成之前 [!DNL Adobe Dynamic Media Classic] with [!DNL Target Standard/Premium]，则必须在 [!DNL Adobe Dynamic Media Classic] 应用程序常规设置屏幕。 要获取您的Target URL并在“应用程序常规设置”页面中输入它，请执行以下操作：
+整合之前 [!DNL Adobe Dynamic Media Classic] 替換為 [!DNL Target Standard/Premium]，您必須在以下位置輸入目標URL： [!DNL Adobe Dynamic Media Classic] 應用程式一般設定畫面。 若要取得Target URL並在「應用程式一般設定」頁面中輸入，請執行下列動作：
 
-1. 在 [!DNL Adobe Experience Cloud]，登录到 [!DNL Target Standard/Premium] 帐户。
-1. 登录后，在浏览器的地址栏中，将URL复制到（包括） `.com`.
+1. 在 [!DNL Adobe Experience Cloud]，登入您的 [!DNL Target Standard/Premium] 帳戶。
+1. 登入後，在瀏覽器的位址列中，將URL複製到並包含 `.com`.
 
-   例如，如果 *虚构* 地址栏中的URL（URL路径始终包含正斜杠，而不是本例中的反斜杠）为 `https:\\www.myfictionalsite.com/categories/admin/home.do`，则仅复制 *虚构* URL: `https:\\www.myfictionalsite.com`.
+   例如，如果 *虛構* 位址列中的URL （URL路徑一律包含正斜線，而非此範例中的反斜線）為 `https:\\www.myfictionalsite.com/categories/admin/home.do`，僅複製 *虛構* URL： `https:\\www.myfictionalsite.com`.
 
-1. 在 [!DNL Adobe Dynamic Media Classic]，转到 **[!UICONTROL 设置]** > **[!UICONTROL 应用程序设置]**.
-1. 在“应用程序常规设置”页面的 **[!UICONTROL Test&amp;Target服务器名称]** 字段中，粘贴您在步骤2中复制的URL。
-1. 选择 **[!UICONTROL 关闭]**.
+1. 在 [!DNL Adobe Dynamic Media Classic]，前往 **[!UICONTROL 設定]** > **[!UICONTROL 應用程式設定]**.
+1. 在「應用程式一般設定」頁面的 **[!UICONTROL Test&amp;Target伺服器名稱]** 欄位，貼上您在步驟2中複製的URL。
+1. 選取 **[!UICONTROL 關閉]**.

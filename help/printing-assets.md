@@ -1,6 +1,6 @@
 ---
-title: 打印资产
-description: 了解如何从Adobe Dynamic Media Classic打印资产。
+title: 列印資產
+description: 瞭解如何從Adobe Dynamic Media Classic列印資產。
 uuid: 6cd5ba38-ec80-461f-b095-6cd4d7ea7814
 contentOwner: Rick Brough
 content-type: reference
@@ -17,8 +17,8 @@ ht-degree: 25%
 
 ---
 
-# 打印资产{#printing-assets}
+# 列印資產{#printing-assets}
 
 1. 在浏览面板中，选择要打印的一个或多个资源。
-1. 转到 **[!UICONTROL 文件]** > **[!UICONTROL 打印]** 或按 `Ctrl+P` (Windows®)或 `Command+P` (Macintosh)。
-1. 在“打印”对话框中，选择要打印的副本数，然后单击 **[!UICONTROL 打印]**.
+1. 前往 **[!UICONTROL 檔案]** > **[!UICONTROL 列印]** 或按 `Ctrl+P` (Windows®)或 `Command+P` (Macintosh)。
+1. 在「列印」對話方塊中，選擇要列印的份數，然後按一下 **[!UICONTROL 列印]**.

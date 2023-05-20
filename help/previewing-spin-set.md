@@ -1,6 +1,6 @@
 ---
-title: 预览旋转集
-description: 了解如何在Adobe Dynamic Media Classic中预览旋转集。
+title: 預覽迴轉集
+description: 瞭解如何在Adobe Dynamic Media Classic中預覽迴轉集。
 uuid: 5b9d4c37-a4ec-40c5-8f14-da875d71226e
 contentOwner: Rick Brough
 content-type: reference
@@ -17,13 +17,13 @@ ht-degree: 38%
 
 ---
 
-# 预览旋转集{#previewing-a-spin-set}
+# 預覽迴轉集{#previewing-a-spin-set}
 
 可以使用“查看器列表”预览资源在特定查看器类型平台（如 HTML5）上的显示情况。并不是所有平台都可在查看器列表中找到，这取决于您选择要预览的资源类型和关联的查看器。
 
-请参阅 [配置默认查看器](application-setup.md#configuring_default_viewers).
+另請參閱 [設定預設檢視器](application-setup.md#configuring_default_viewers).
 
-请参阅 [预览资产](previewing-asset.md#previewing_an_asset).
+另請參閱 [預覽資產](previewing-asset.md#previewing_an_asset).
 
 **预览旋转集:**
 
@@ -31,15 +31,15 @@ ht-degree: 38%
 1. 在左侧的“资源库”面板中，找到要使用查看器进行预览的旋转集所在的资源文件夹。
 1. 执行以下任一操作：
 
-   * 在资产窗口的工具栏右侧的上方，选择 **[!UICONTROL 网格视图]**. 在资产窗口的缩略图图像下方，转到 **[!UICONTROL 预览]** > **[!UICONTROL 查看器列表]**.
-   * 在资产窗口的工具栏右侧的上方，选择 **[!UICONTROL 列表视图]**. 在“资产”窗口中，选择一个资产，然后在缩略图的右侧，转到 **[!UICONTROL 预览]** > **[!UICONTROL 查看器列表]**.
-   * 在资产窗口的工具栏右侧的上方，选择 **[!UICONTROL 详细信息视图]**. 在同一工具栏上，转到 **[!UICONTROL 预览]** > **[!UICONTROL 查看器列表]**.
+   * 在「資產」視窗上方、工具列右側，選取「 」 **[!UICONTROL 格點檢視]**. 在「資產」視窗的縮圖影像下方，前往 **[!UICONTROL 預覽]** > **[!UICONTROL 檢視器清單]**.
+   * 在「資產」視窗上方、工具列右側，選取「 」 **[!UICONTROL 清單檢視]**. 在「資產」視窗中，選取資產，然後在縮圖影像右側，前往 **[!UICONTROL 預覽]** > **[!UICONTROL 檢視器清單]**.
+   * 在「資產」視窗上方、工具列右側，選取「 」 **[!UICONTROL 詳細資料檢視]**. 在相同工具列上，前往 **[!UICONTROL 預覽]** > **[!UICONTROL 檢視器清單]**.
 
-1. 在“查看器列表”窗口的表格中，选择一个查看器链接以在选定的查看器中预览资产。
-1. 关闭显示的查看器。
-1. 在“查看器列表”窗口的右下角，选择 **[!UICONTROL 关闭]** ，以返回到资产屏幕。
+1. 在「檢視器清單」視窗的表格中，選取檢視器連結，以在選取的檢視器中預覽資產。
+1. 關閉顯示的檢視器。
+1. 在「檢視器清單」視窗的右下角，選取 **[!UICONTROL 關閉]** 以返回「資產」畫面。
 
 >[!MORELIKETHIS]
 >
->* [编辑旋转集](creating-spin-set.md#editing-a-spin-set)
+>* [編輯迴轉集](creating-spin-set.md#editing-a-spin-set)
 

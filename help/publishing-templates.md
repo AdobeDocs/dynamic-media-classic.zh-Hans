@@ -1,6 +1,6 @@
 ---
 title: 发布模板
-description: 了解如何从Adobe Dynamic Media Classic发布模板。
+description: 瞭解如何從Adobe Dynamic Media Classic發佈範本。
 uuid: 9b8e5b94-6958-4725-bcbc-5e6a9c4d1b02
 contentOwner: Rick Brough
 content-type: reference
@@ -19,22 +19,22 @@ ht-degree: 13%
 
 # 发布模板{#publishing-templates}
 
-发布模板会将其放置在Dynamic Media图像服务器上，您的网站和应用程序都可以使用该模板。 在发布过程中，Adobe Dynamic Media Classic会激活您的网站和应用程序所需的URL。
+發佈範本時，會將範本放置在Dynamic Media影像伺服器上，以供您的網站和應用程式使用。 在發佈程式中，Adobe Dynamic Media Classic會啟動您網站和應用程式所需的URL。
 
 >[!NOTE]
 >
->要使用模板，请发布构成模板的所有内容，包括字体和图像。如果不包含所有必需文件，则在发布时会显示一条错误消息。
+>要使用模板，请发布构成模板的所有内容，包括字体和图像。如果您未包含所有必要的檔案，則發佈時會顯示錯誤訊息。
 
 ## 将 模板标记为发布 {#marking-templates-for-publish}
 
-必须标记模板及其所有支持文件以将其发布，才能将其放置到Dynamic Media图像服务器上。 通过选择 **[!UICONTROL 标记为发布]** 图标。
+範本及其所有支援檔案都必須標示為發佈，才能放置在Dynamic Media影像伺服器上。 您可以選取「 」，在「瀏覽」面板中將這些專案標籤為發佈。 **[!UICONTROL 標籤為發佈]** 圖示。
 
-## 发布模板 {#publishing-your-template}
+## 發佈您的範本 {#publishing-your-template}
 
-要将模板发布到Dynamic Media图像服务器，请在全局导航栏中，选择 **[!UICONTROL 发布]**，然后选择 **[!UICONTROL When]** 选项。 您可以选择输入发布作业的名称。 选择 **[!UICONTROL 提交发布]**.
+若要將範本發佈至Dynamic Media影像伺服器，請在全域導覽列上，選取 **[!UICONTROL 發佈]**，然後選取 **[!UICONTROL 時間]** 選項。 您可以選擇輸入發佈工作的名稱。 選取 **[!UICONTROL 提交發佈]**.
 
 >[!MORELIKETHIS]
 >
->* [将资产标记为发布](publishing-files.md#publish_after_uploading)
->* [创建发布作业](publishing-files.md#creating_a_publish_job)
+>* [將資產標籤為發佈](publishing-files.md#publish_after_uploading)
+>* [建立發佈工作](publishing-files.md#creating_a_publish_job)
 

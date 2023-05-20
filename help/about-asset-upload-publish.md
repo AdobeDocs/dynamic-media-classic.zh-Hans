@@ -1,6 +1,6 @@
 ---
-title: 关于上传和发布资产
-description: 了解如何在Dynamic Media Classic中上传和发布Adobe。
+title: 關於上傳和發佈資產
+description: 瞭解如何在Adobe Dynamic Media Classic中上傳和發佈資產。
 contentOwner: rbrough
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/upload_and_publish_assets
@@ -15,19 +15,19 @@ ht-degree: 24%
 
 ---
 
-# 关于上传和发布资产 {#about-uploading-and-publishing-assets}
+# 關於上傳和發佈資產 {#about-uploading-and-publishing-assets}
 
-您在AdobeDynamic Media Classic中的工作包括三个基本方面：
+您在Adobe Dynamic Media Classic中的工作分為三個基本區域：
 
-* 将文件资产上传到AdobeDynamic Media Classic。
+* 正在將檔案資產上傳至Adobe Dynamic Media Classic。
 * 对文件进行管理，以使用这些文件构建富媒体资源。
-* 将资产文件发布到Dynamic Media Classic服务器，以便将它们交付到您的网站和应用程序。
+* 將資產檔案發佈至Dynamic Media Classic伺服器，以便傳送至您的網站和應用程式。
 
-当您将资产文件上传到Dynamic Media ClassicAdobe，以及将资产文件发布到Dynamic Media Classic服务器时，系统会在&#x200B;**[!UICONTROL Jobs]**&#x200B;页面上记录这些文件传输。 您可以转到该页面以跟踪和监视上载和发布活动。
+上傳資產檔案至Adobe Dynamic Media Classic及發佈資產檔案至Adobe Dynamic Media Classic伺服器時，系統會將這些檔案傳輸記錄在 **[!UICONTROL 工作]** 頁面。 您可以转到该页面以跟踪和监视上载和发布活动。
 
 >[!NOTE]
 >
->上传文件时，AdobeDynamic Media Classic会生成该文件的URL。 该 URL 在您发布文件后才会激活。
+>上傳檔案時，Adobe Dynamic Media Classic會產生檔案的URL。 该 URL 在您发布文件后才会激活。
 
 <!-- >[!NOTE]
 >
