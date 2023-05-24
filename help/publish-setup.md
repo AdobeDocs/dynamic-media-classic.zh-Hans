@@ -59,7 +59,7 @@ ht-degree: 42%
 
 >[!NOTE]
 >
->如果要在Adobe Dynamic Media Classic中设置本地化支持选项，例如“区域设置映射”字段， [使用Admin Console创建支持案例。](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) 在您的支持案例中，请求设置帮助。
+>如果要在Adobe Dynamic Media Classic中设置本地化支持选项，如“区域设置映射”字段， [使用Admin Console创建支持案例。](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) 在您的支持案例中，请求设置帮助。
 
 使用Adobe Dynamic Media Classic的常见方法是管理电子商务网站上的产品图像。 国际企业面临如下挑战：类似产品的资源在各个国家/地区之间存在一些差异。通常，差异存在于整个介质的一些部分。 通过复制每个国家的所有资产并只写出这些差异来解决这些差异是一项巨大的努力，并且与单一的主要资产隐喻相悖。 从包含不同音轨的国家/地区特定视频，到产品所用电源线的细微但重要的差异，此类资源差异可能会持续存在。Adobe Dynamic Media Classic使用基本查找机制。 您可以从所需的区域设置开始，定义图像服务器查找资源后缀的顺序。
 
