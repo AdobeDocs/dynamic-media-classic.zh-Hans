@@ -1,6 +1,6 @@
 ---
-title: 新增和管理Media Portal使用者
-description: 瞭解如何在Adobe Dynamic Media Classic中新增和管理Media Portal使用者。
+title: 添加和管理Media Portal用户
+description: 了解如何在Adobe Dynamic Media Classic中添加和管理Media Portal用户。
 uuid: 96d4103c-6428-4ce1-b9e4-231599304f27
 contentOwner: Rick Brough
 content-type: reference
@@ -17,45 +17,45 @@ ht-degree: 58%
 
 ---
 
-# 新增和管理Media Portal使用者{#adding-and-managing-media-portal-users}
+# 添加和管理Media Portal用户{#adding-and-managing-media-portal-users}
 
-作为管理员，您可以添加和管理用户，决定他们是否可以更改密码、编辑用户信息以及上载用户列表。这些任务在“用户管理”屏幕上完成。若要存取此畫面，請瀏覽至 **[!UICONTROL 設定]** > **[!UICONTROL 應用程式設定]** > **[!UICONTROL 管理設定]** > **[!UICONTROL 使用者管理]**.
+作为管理员，您可以添加和管理用户，决定他们是否可以更改密码、编辑用户信息以及上载用户列表。这些任务在“用户管理”屏幕上完成。要访问此屏幕，请导航到 **[!UICONTROL 设置]** > **[!UICONTROL 应用程序设置]** > **[!UICONTROL 管理设置]** > **[!UICONTROL 用户管理]**.
 
 >[!NOTE]
 >
->在添加用户之前，请设置用于管理这些用户的组。Media Portal 不允许仅添加用户而不将该用户指定到一个或多个组。如需詳細資訊，請參閱 [建立和管理Media Portal群組](creating-media-portal-groups.md#creating_and_managing_media_portal_groups).
+>在添加用户之前，请设置用于管理这些用户的组。Media Portal 不允许仅添加用户而不将该用户指定到一个或多个组。有关更多信息，请参阅 [创建和管理Media Portal组](creating-media-portal-groups.md#creating_and_managing_media_portal_groups).
 
-## 管理Media Portal密碼 {#handling-media-portal-passwords}
+## 管理Media Portal密码 {#handling-media-portal-passwords}
 
 在注册时，将向 Media Portal 用户、参与者和参与者用户发送一封包含密码的欢迎电子邮件。管理员可以决定 Media Portal 用户是否可以更改此密码。
 
-1. 導覽至 **[!UICONTROL 設定]** > **[!UICONTROL Media Portal設定]** > **[!UICONTROL 一般設定]**.
+1. 导航到 **[!UICONTROL 设置]** > **[!UICONTROL Media Portal设置]** > **[!UICONTROL 常规设置]**.
 1. 在“常规设置”页面上，选择或取消选择“**[!UICONTROL 允许 Media Portal 用户更改密码]**”。
-1. 選取 **[!UICONTROL 儲存]**.
+1. 选择 **[!UICONTROL 保存]**.
 
 >[!NOTE]
 >
->允許變更密碼的Media Portal使用者可以透過選取 **[!UICONTROL 設定]** > **[!UICONTROL 個人設定]** 和變更「個人設定」畫面上的密碼。
+>允许更改密码的Media Portal用户可以通过选择 **[!UICONTROL 设置]** > **[!UICONTROL 个人设置]** 和在“个人设置”屏幕上更改密码。
 
-## 新增Media Portal使用者 {#adding-a-media-portal-user}
+## 添加Media Portal用户 {#adding-a-media-portal-user}
 
-1. 導覽至 **[!UICONTROL 設定]** > **[!UICONTROL 應用程式設定]** > **[!UICONTROL 管理設定]** > **[!UICONTROL 使用者管理]**.
-1. 在「使用者管理」頁面上，選取 **新增**.
-1. 在新增使用者對話方塊的使用者資訊面板中，輸入使用者的名字、姓氏和電子郵件地址，然後選取 **[!UICONTROL 下一個]**.
+1. 导航到 **[!UICONTROL 设置]** > **[!UICONTROL 应用程序设置]** > **[!UICONTROL 管理设置]** > **[!UICONTROL 用户管理]**.
+1. 在“用户管理”页面上，选择 **添加**.
+1. 在“添加用户”对话框的“用户信息”面板中，输入用户的名字、姓氏和电子邮件地址，然后选择 **[!UICONTROL 下一个]**.
 1. 在“公司/角色”面板的“公司”下拉列表中，选择用户的公司。
-1. 在「角色」清單中，選取Media Portal角色，然後選取 **[!UICONTROL 下一個]**.
+1. 在角色列表中，选择一个Media Portal角色，然后选择 **[!UICONTROL 下一个]**.
 
    请参阅[Media Portal 用户角色](media-portal-user-roles.md#media_portal_user_roles)。
 
 1. 在“访问组”面板中，选择一个或多个组。
 
-   另請參閱 [建立和管理Media Portal群組](creating-media-portal-groups.md#creating_and_managing_media_portal_groups).
+   参见 [创建和管理Media Portal组](creating-media-portal-groups.md#creating_and_managing_media_portal_groups).
 
-1. （選用）選取 **[!UICONTROL 電子郵件設定]** 以選擇與預設設定不同的電子郵件設定。
+1. （可选）选择 **[!UICONTROL 电子邮件设置]** 以选择与默认设置不同的电子邮件设置。
 
    请参阅[为 Media Portal 用户设置欢迎电子邮件](adding-media-portal-users.md#setting_up_the_welcome_e_mail_message_for_media_portal_users)。
 
-1. 選取 **[!UICONTROL 新增使用者]**.
+1. 选择 **[!UICONTROL 添加用户]**.
 
 在添加用户后，Media Portal 向该用户发送一封欢迎电子邮件。该消息包括一个临时密码和 Media Portal URL。
 
@@ -82,14 +82,14 @@ ht-degree: 58%
 
 | 名字 | 姓氏 | 电子邮件 | 密码 | 用户角色 | 组 |
 |--- |--- |--- |--- |--- |--- |
-| 草原城 | Kat | `prairiek@company.com` | welcome | Media Portal 管理员 | PortalCo/IT、PortalCo/Admin |
-| Rick | Brough | `rickb@myco.com` | welcome | Media Portal 用户 | PortalCo/MktgGroup、PortalCo/test |
+| 大草原城 | Kat | `prairiek@company.com` | welcome | Media Portal 管理员 | PortalCo/IT、PortalCo/Admin |
+| 里克 | Brough | `rickb@myco.com` | welcome | Media Portal 用户 | PortalCo/MktgGroup、PortalCo/test |
 
 ### 上载 CSV 文件 {#uploading-the-csv-file}
 
 1. 打开“用户管理设置”屏幕。
-1. 選取 **[!UICONTROL 上傳使用者清單]**.
-1. 在「選取要上傳的檔案」對話方塊中，選取CSV檔案，然後選取 **[!UICONTROL 開啟]**.
+1. 选择 **[!UICONTROL 上载用户列表]**.
+1. 在“选择要上传的文件”对话框中，选择CSV文件，然后选择 **[!UICONTROL 打开]**.
 
 列表中的每个用户即会自动添加到指定组中。将向每个用户发送一封欢迎电子邮件。
 
@@ -101,36 +101,36 @@ ht-degree: 58%
 
 您可以在一个弹出窗口中显示 Media Portal 用户的姓名和电子邮件地址。如果您要剪切和粘贴用户名和地址以便在 Media Portal 外部使用，此列表会非常有用。
 
-1. 導覽至 **[!UICONTROL 設定]** > **[!UICONTROL 應用程式設定]** > **[!UICONTROL 管理設定]** > **[!UICONTROL 使用者管理]**.
-1. 在 **[!UICONTROL 依使用者角色]** 下拉式清單，選擇Media Portal使用者角色的名稱，然後選取 **[!UICONTROL 重新整理]** 顯示一個Media Portal使用者類別的名稱。
-1. 選取 **[!UICONTROL 快顯清單]**. 複製並貼上此清單。
+1. 导航到 **[!UICONTROL 设置]** > **[!UICONTROL 应用程序设置]** > **[!UICONTROL 管理设置]** > **[!UICONTROL 用户管理]**.
+1. 在 **[!UICONTROL 按用户角色]** 下拉列表，选择Media Portal用户角色的名称，然后选择 **[!UICONTROL 刷新]** 显示一类Media Portal用户的名称。
+1. 选择 **[!UICONTROL 弹出列表]**. 复制并粘贴此列表。
 
 ## 为 Media Portal 用户设置欢迎电子邮件消息 {#setting-up-the-welcome-e-mail-message-for-media-portal-users}
 
-添加新 Media Portal 用户、参与者和参与者用户时，您可以发送一封欢迎电子邮件。您可以設定此電子郵件訊息，或告訴Adobe Dynamic Media Classic不要傳送。
+添加新 Media Portal 用户、参与者和参与者用户时，您可以发送一封欢迎电子邮件。您可以配置此电子邮件，或告知Adobe Dynamic Media Classic不要发送它。
 
-1. 導覽至 **[!UICONTROL 設定]** > **[!UICONTROL 應用程式設定]** > **[!UICONTROL 管理設定]** > **[!UICONTROL 使用者管理]**.
-1. 在「使用者管理設定」畫面中，選取 **[!UICONTROL 電子郵件設定]**.
+1. 导航到 **[!UICONTROL 设置]** > **[!UICONTROL 应用程序设置]** > **[!UICONTROL 管理设置]** > **[!UICONTROL 用户管理]**.
+1. 在“用户管理设置”屏幕中，选择 **[!UICONTROL 电子邮件设置]**.
 1. 在“电子邮件设置”对话框中，指定以下任何设置：
 
-   * **[!UICONTROL 傳送電子郵件]**  — 如果您不想透過電子郵件通知新使用者您已註冊，請取消選取此選項。
+   * **[!UICONTROL 发送电子邮件]**  — 如果不想通过电子邮件通知新用户您已注册，请取消选择此选项。
 
-   * **[!UICONTROL 預設密碼]**  — 為新使用者輸入臨時密碼，或將該欄位留空以讓Adobe Dynamic Media Classic產生隨機密碼。 使用者第一次登入時，系統會要求他們變更密碼。
+   * **[!UICONTROL 默认密码]**  — 为新用户输入临时密码，或将该字段留空以使Adobe Dynamic Media Classic生成随机密码。 用户在首次登录时会被要求更改密码。
 
-   * **[!UICONTROL 替代URL]**  — 如果您的使用者透過其他URL存取Adobe Dynamic Media Classic，請輸入與預設不同的URL。
+   * **[!UICONTROL 替换URL]**  — 如果您的用户通过其他URL访问Adobe Dynamic Media Classic，请输入与默认URL不同的URL。
 
 ## 其他用户管理任务 {#other-user-management-tasks}
 
 从“用户管理设置”屏幕开始，您还可以执行以下任务：
 
-* **[!UICONTROL 篩選及排序使用者清單]**  — 篩選Media Portal使用者清單以尋找使用者。
+* **[!UICONTROL 筛选和排序用户列表]**  — 筛选Media Portal用户列表以查找用户。
 
-* **[!UICONTROL 刪除使用者]**  — 從清單中移除使用者。
+* **[!UICONTROL 删除用户]**  — 从列表中删除用户。
 
-* **[!UICONTROL 啟用和停用使用者]**  — 暫停使用者存取資料夾。
+* **[!UICONTROL 激活和停用用户]**  — 暂停用户访问文件夹。
 
-* **[!UICONTROL 編輯使用者資訊]**  — 輸入使用者的最新資訊。
+* **[!UICONTROL 编辑用户信息]**  — 输入有关用户的最新信息。
 
-* **[!UICONTROL 建立使用者定義的欄位]**  — 建立自訂、使用者定義的中繼資料欄位，協助您在Adobe Dynamic Media Classic中組織資產。 必要时，也可以激活或停用这些字段。
+* **[!UICONTROL 创建用户定义的字段]**  — 创建用户定义的自定义元数据字段，以便这些字段可以帮助您在Adobe Dynamic Media Classic中组织资源。 必要时，也可以激活或停用这些字段。
 
 请参阅[用户定义的字段](application-setup.md#user_defined_fields)。

@@ -1,6 +1,6 @@
 ---
-title: 將影像集連結至網頁
-description: 瞭解如何將影像集連結至Adobe Dynamic Media Classic中的網頁。
+title: 将图像集链接到网页
+description: 了解如何将图像集链接到Adobe Dynamic Media Classic中的网页。
 uuid: 8153a228-b2ec-4bc2-8996-266113a83df5
 contentOwner: Rick Brough
 content-type: reference
@@ -17,7 +17,7 @@ ht-degree: 42%
 
 ---
 
-# 將影像集連結至網頁{#linking-an-image-set-to-a-web-page}
+# 将图像集链接到网页{#linking-an-image-set-to-a-web-page}
 
 发布图像集之后，您可以在网站或应用程序中使用其 URL 或嵌入代码。然后，可以根据需要部署该 URL 或粘贴嵌入代码，以便用户可以在您的网站或应用程序上查看图像集。
 
@@ -25,59 +25,59 @@ ht-degree: 42%
 >
 >在发布资源之前，URL 处于非激活状态。
 
-## 複製影像集URL {#copying-an-image-set-url}
+## 复制图像集URL {#copying-an-image-set-url}
 
-1. 在「資產瀏覽」面板的「顯示」下拉式清單中，選取 **[!UICONTROL 影像集]**.
+1. 在资产浏览面板的显示下拉列表中，选择 **[!UICONTROL 图像集]**.
 1. 在左侧的“资源库”面板中，导航至要复制其嵌入代码的图像集所在的资源文件夹。
 1. 在“资源浏览”面板上方的工具栏右侧，执行以下任一操作：
 
-   * 選取 **[!UICONTROL 格點檢視]**. 在“资源浏览”面板中，双击单个资源以便在详细信息视图中将其打开。在右側的「URL和內嵌程式碼」面板中，選取 **[!UICONTROL 複製URL]** 位於您想要的檢視器右側。
-   * 選取 **[!UICONTROL 格點檢視]**. 在「資產瀏覽」面板中，選取單一資產，然後前往縮圖影像下方 **[!UICONTROL 預覽]** > **[!UICONTROL 檢視器清單]**.
+   * 选择 **[!UICONTROL 网格视图]**. 在“资源浏览”面板中，双击单个资源以便在详细信息视图中将其打开。在右侧的“URL和嵌入代码”面板中，选择 **[!UICONTROL 复制URL]** 位于所需查看器的右侧。
+   * 选择 **[!UICONTROL 网格视图]**. 在“资源浏览”面板中，选择单个资源，然后转到缩略图图像下方 **[!UICONTROL 预览]** > **[!UICONTROL 查看器列表]**.
 
-      在「檢視器清單」頁面中，選取表格的「動作」欄下 **[!UICONTROL 複製URL]**.
+      在“查看器列表”页的表的“操作”列下，选择 **[!UICONTROL 复制URL]**.
 
-   * 選取 **[!UICONTROL 清單檢視]**. 在「資產瀏覽」面板中，選取單一資產，然後在縮圖影像右側，前往 **[!UICONTROL 預覽]** > **[!UICONTROL 檢視器清單]**.
+   * 选择 **[!UICONTROL 列表视图]**. 在“资源浏览”面板中，选择单个资源，然后转到缩略图图像右侧的 **[!UICONTROL 预览]** > **[!UICONTROL 查看器列表]**.
 
-      在「檢視器清單」頁面中，選取表格的「動作」欄下 **[!UICONTROL 複製URL]**.
+      在“查看器列表”页的表的“操作”列下，选择 **[!UICONTROL 复制URL]**.
 
-   * 選取 **[!UICONTROL 格點檢視]**， **[!UICONTROL 清單檢視]**，或 **[!UICONTROL 詳細資料檢視]**. 在相同工具列上，前往 **[!UICONTROL 預覽]** > **[!UICONTROL 檢視器清單]**.
+   * 选择 **[!UICONTROL 网格视图]**， **[!UICONTROL 列表视图]**，或 **[!UICONTROL 详细信息视图]**. 在同一工具栏上，转到 **[!UICONTROL 预览]** > **[!UICONTROL 查看器列表]**.
 
-      在「檢視器清單」頁面中，選取表格的「動作」欄下 **[!UICONTROL 複製URL]**.
+      在“查看器列表”页的表的“操作”列下，选择 **[!UICONTROL 复制URL]**.
 
 ## 将图像集 URL 添加到网页 {#adding-image-set-urls-to-your-web-page}
 
-部署图像集最常见的方法是在网页上放置链接（通过导航图标）。按一下連結時，連結會啟動動態頁面(JSP)，在彈出式縮放視窗中顯示「影像集」。 缩放链接会打开一个弹出窗口，其中包含实际的缩放功能。
+部署图像集最常见的方法是在网页上放置链接（通过导航图标）。单击该链接后，将启动一个动态页面(JSP)，该页面在弹出缩放窗口中显示图像集。 缩放链接会打开一个弹出窗口，其中包含实际的缩放功能。
 
-如需詳細資訊和程式碼範例，請參閱 [Adobe檢視器參考指南中的內嵌HTML5縮放檢視器](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/zoom/c-html5-20-zoom-viewer-about.html#section-e1c3106f5b3e445d9b95be337c2f94e2).
+有关更多详细信息和代码示例，请参阅 [Adobe查看器参考指南中的嵌入HTML5缩放查看器](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/zoom/c-html5-20-zoom-viewer-about.html#section-e1c3106f5b3e445d9b95be337c2f94e2).
 
-## 複製影像集檢視器的內嵌程式碼 {#copying-the-embed-code-of-an-image-set-viewer}
+## 复制图像集查看器的嵌入代码 {#copying-the-embed-code-of-an-image-set-viewer}
 
 使用嵌入代码功能，您可以查看用于所选图像集的查看器代码。您也可以将代码复制到剪贴板中，以便可以将其粘贴到网页中以部署查看器。在“嵌入代码”对话框中不允许编辑代码。
 
 **复制图像集查看器的嵌入代码:**
 
-1. 在「資產瀏覽」面板的「顯示」下拉式清單中，選取 **[!UICONTROL 影像集]**.
+1. 在资产浏览面板的显示下拉列表中，选择 **[!UICONTROL 图像集]**.
 1. 在左侧的“资源库”面板中，导航至要复制其嵌入代码的图像集所在的资源文件夹。
 1. 在“资源浏览”面板上方的工具栏右侧，执行以下任一操作：
 
-   * 選取 **[!UICONTROL 格點檢視]**. 在“资源浏览”面板中，双击单个资源以便在详细信息视图中将其打开。在右側的URL面板中，選取 **[!UICONTROL 內嵌程式碼]**.
-   * 選取 **[!UICONTROL 格點檢視]**. 在「資產瀏覽」面板中，選取單一資產，然後前往縮圖影像下方 **[!UICONTROL 預覽]** > **[!UICONTROL 檢視器清單]**.
+   * 选择 **[!UICONTROL 网格视图]**. 在“资源浏览”面板中，双击单个资源以便在详细信息视图中将其打开。在右侧的URL面板中，选择 **[!UICONTROL 嵌入代码]**.
+   * 选择 **[!UICONTROL 网格视图]**. 在“资源浏览”面板中，选择单个资源，然后转到缩略图图像下方 **[!UICONTROL 预览]** > **[!UICONTROL 查看器列表]**.
 
-      在「檢視器清單」頁面中，選取表格的「動作」欄下 **[!UICONTROL 內嵌程式碼]**.
+      在“查看器列表”页的表的“操作”列下，选择 **[!UICONTROL 嵌入代码]**.
 
-   * 選取 **[!UICONTROL 清單檢視]**. 在「資產瀏覽」面板中，選取單一資產，然後在縮圖影像右側，前往 **[!UICONTROL 預覽]** > **[!UICONTROL 檢視器清單]**.
+   * 选择 **[!UICONTROL 列表视图]**. 在“资源浏览”面板中，选择单个资源，然后转到缩略图图像右侧的 **[!UICONTROL 预览]** > **[!UICONTROL 查看器列表]**.
 
-      在「檢視器清單」頁面中，選取表格的「動作」欄下 **[!UICONTROL 內嵌程式碼]**.
+      在“查看器列表”页的表的“操作”列下，选择 **[!UICONTROL 嵌入代码]**.
 
-   * 選取 **[!UICONTROL 格點檢視]**， **清單檢視**，或 **詳細資料檢視**. 在相同工具列上，前往 **[!UICONTROL 預覽]** > **[!UICONTROL 檢視器清單]**.
+   * 选择 **[!UICONTROL 网格视图]**， **列表视图**，或 **详细信息视图**. 在同一工具栏上，转到 **[!UICONTROL 预览]** > **[!UICONTROL 查看器列表]**.
 
-      在「檢視器清單」頁面中，選取表格的「動作」欄下 **[!UICONTROL 內嵌程式碼]**.
+      在“查看器列表”页的表的“操作”列下，选择 **[!UICONTROL 嵌入代码]**.
 
-1. 在內嵌程式碼對話方塊中，選取 **[!UICONTROL 複製到剪貼簿]**.
+1. 在“嵌入代码”对话框中，选择 **[!UICONTROL 复制到剪贴板]**.
 
    在“嵌入代码”对话框中不允许编辑代码。
 
-1. 選取 **[!UICONTROL 關閉]**.
+1. 选择 **[!UICONTROL 关闭]**.
 
 >[!MORELIKETHIS]
 >

@@ -1,6 +1,6 @@
 ---
-title: 匯出來源和編碼的視訊
-description: 瞭解如何在Adobe Dynamic Media Classic中匯出來源和編碼的視訊。
+title: 导出源和编码的视频
+description: 了解如何在Adobe Dynamic Media Classic中导出源和编码视频。
 uuid: 17511bdf-27b7-41e1-bf39-a5e39f55f5d8
 contentOwner: Rick Brough
 content-type: reference
@@ -17,13 +17,13 @@ ht-degree: 0%
 
 ---
 
-# 匯出來源和編碼的視訊{#exporting-source-and-encoded-videos}
+# 导出源和编码的视频{#exporting-source-and-encoded-videos}
 
-在「瀏覽」面板中，來源視訊會加上標籤 *主視訊*. 已編碼的視訊已加上標籤 *視訊*. 您可以匯出主要影片和影片。 若要匯出視訊檔案，請在「瀏覽」面板中選取它們，然後前往 **[!UICONTROL 檔案]** > **[!UICONTROL 匯出]**.
+在“浏览”面板中，源视频被标记 *主控视频*. 已编码视频已标记 *视频*. 您可以导出主视频和视频。 要导出视频文件，请在“浏览”面板中选择它们，然后转到 **[!UICONTROL 文件]** > **[!UICONTROL 导出]**.
 
-另請參閱 [從Adobe Dynamic Media Classic匯出資產](exporting-assets-from-dmc.md#exporting-assets-from-dmc).
+参见 [从Adobe Dynamic Media Classic导出资源](exporting-assets-from-dmc.md#exporting-assets-from-dmc).
 
 >[!MORELIKETHIS]
 >
->* [上傳並編碼視訊](uploading-encoding-videos.md#uploading_and_encoding_videos)
+>* [上传视频并进行编码](uploading-encoding-videos.md#uploading_and_encoding_videos)
 

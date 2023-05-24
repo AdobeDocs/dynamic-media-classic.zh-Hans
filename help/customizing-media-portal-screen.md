@@ -1,6 +1,6 @@
 ---
 title: 自定义 Media Portal 屏幕
-description: 瞭解如何在Adobe Dynamic Media Classic中自訂Media Portal畫面。
+description: 了解如何在Adobe Dynamic Media Classic中自定义Media Portal屏幕。
 uuid: bd1a65a6-723b-49d0-8eac-849da00e0e1a
 contentOwner: Rick Brough
 content-type: reference
@@ -19,31 +19,31 @@ ht-degree: 32%
 
 # 自定义 Media Portal 屏幕{#customizing-the-media-portal-screen}
 
-通过 Media Portal 样式设置，您可以在 Media Portal 屏幕中标上您公司的徽标和颜色。使用樣式設定將您的公司品牌放在Media Portal上。
+通过 Media Portal 样式设置，您可以在 Media Portal 屏幕中标上您公司的徽标和颜色。使用样式设置将您的公司品牌置于Media Portal上。
 
-若要存取樣式設定，請前往 **[!UICONTROL 設定]** > **[!UICONTROL Media Portal設定]** > **[!UICONTROL 樣式設定]**. 請務必選取 **[!UICONTROL 儲存]** 以在完成設定後加以儲存。 您可以選取 **[!UICONTROL 還原]** 以恢復預設設定。 當您做出選擇時，「預覽」面板會顯示它們的顯示方式。
+要访问样式设置，请转到 **[!UICONTROL 设置]** > **[!UICONTROL Media Portal设置]** > **[!UICONTROL 样式设置]**. 确保选择 **[!UICONTROL 保存]** 以便在设置完成后保存设置。 您可以选择 **[!UICONTROL 恢复]** 以恢复默认设置。 当您做出选择时，“预览”面板会显示它们的显示方式。
 
-* **[!UICONTROL 標誌]**  — 選取 **[!UICONTROL 瀏覽]**，然後在「選取標誌影像」視窗中選擇圖形。
+* **[!UICONTROL 徽标]**  — 选择 **[!UICONTROL 浏览]**，然后在选择徽标图像窗口中选择图形。
 
-* **[!UICONTROL 應用]**  — 在「背景漸層顏色」選單中進行選擇，建立漸層顏色混合。
+* **[!UICONTROL 应用程序]**  — 通过在“背景渐变颜色”菜单中进行选择来创建渐变颜色混合。
 
-* **[!UICONTROL 樹狀]**  — 選擇滑鼠指向效果色彩（將指標移到專案上時顯示的色彩）和選取範圍色彩（選取專案時顯示的色彩）。
+* **[!UICONTROL 树]**  — 选择变换颜色（将指针移动到项目上时显示的颜色）和选择颜色（选择项目时显示的颜色）。
 
-* **[!UICONTROL 收合式選單]**  — 選擇背景顏色、邊框樣式、滑鼠指向效果及選取的顏色，以利在「詳細資訊」檢視中顯示在熒幕右側的摺疊式功能表。
+* **[!UICONTROL 可折叠项]**  — 为在“详细信息”视图中屏幕右侧显示的折叠选择背景颜色、边框样式以及变换颜色和所选颜色。
 
-* **[!UICONTROL 收合式選單標題]**  — 選擇是否以摺疊式功能表頁首粗體顯示文字。
+* **[!UICONTROL Accordion标题]**  — 选择是否在可折叠项标题粗体中显示文本。
 
-* **[!UICONTROL 資料格]**  — 選擇資料網格中標題列的顏色。
+* **[!UICONTROL 数据网格]**  — 选择数据网格中标题行的颜色。
 
-* **[!UICONTROL 警報]**  — 選擇警示訊息方塊的背景顏色。
+* **[!UICONTROL 警报]**  — 选择警报消息框的背景颜色。
 
-* **[!UICONTROL 進度列]**  — 選擇指示上傳和下載進度的橫條色彩。
+* **[!UICONTROL 进度条]**  — 为指示上传和下载进度的条形选择颜色。
 
-若要Media Portal使用者檢視您選擇的樣式設定，他們必須附加 `?company=(company name)` 存取他們用來存取Media Portal的URL。 例如，要查看样式设置，访问 PortalCo 公司网站 (
+要让Media Portal用户查看您选择的样式设置，他们必须附加 `?company=(company name)` 访问他们访问Media Portal的URL。 例如，要查看样式设置，访问 PortalCo 公司网站 (
 
 `https://s7sps1.scene7.com/MediaPortal`
 
-請改用以下URL：
+请改用以下URL：
 
 `https://s7sps1.scene7.com/MediaPortal?company=PortalCo`
 

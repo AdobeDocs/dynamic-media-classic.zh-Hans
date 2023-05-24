@@ -1,6 +1,6 @@
 ---
-title: 在公開資產之前先測試資產
-description: 瞭解如何先在Adobe Dynamic Media Classic中測試資產，然後再將資產公開。
+title: 在公开资产之前测试资产
+description: 了解如何在将资源公开之前在Adobe Dynamic Media Classic中测试资源。
 uuid: 5e8f3bec-6cf1-408e-8ea1-aebde0012a70
 contentOwner: Rick Brough
 content-type: reference
@@ -17,13 +17,13 @@ ht-degree: 31%
 
 ---
 
-# 在公開資產之前先測試資產 {#testing-assets-before-making-them-public}
+# 在公开资产之前测试资产 {#testing-assets-before-making-them-public}
 
-Secure Testing可協助您定義安全的測試環境，並根據一組可設定的IP位址和範圍來建立強大的B2B解決方案。 此功能可讓您將Adobe Dynamic Media Classic部署與內容管理和業務系統的架構配對。
+Secure Testing可帮助您定义安全的测试环境，并根据一组可配置的IP地址和范围构建强大的B2B解决方案。 此功能可让您将Adobe Dynamic Media Classic部署与内容管理和业务系统的架构相匹配。
 
 通过安全测试，可以预览包含未发布内容的临时版网站。
 
-如有需要，請建立中繼環境，而非讓資產公開可用，理由如下：
+如果需要，请创建暂存环境，而不是公开资产，原因如下：
 
 * 在公开发布之前预览网站（临时网站）。
 * 提供要求限制访问的资源，如在 B2B Web 应用程序中显示价格的 eCatalog。
@@ -31,25 +31,25 @@ Secure Testing可協助您定義安全的測試環境，並根據一組可設定
 
 >[!NOTE]
 >
->安全測試不會影響對Adobe Dynamic Media Classic的存取。 Adobe Dynamic Media Classic安全性會維持一致，且需要一般憑證才能存取Adobe Dynamic Media Classic及相關網路服務。
+>安全测试不会影响对Adobe Dynamic Media Classic的访问。 Adobe Dynamic Media Classic安全性将保持一致，并且需要使用常规凭据来访问Adobe Dynamic Media Classic和相关Web服务。
 
 ## 安全测试的工作原理 {#how-secure-testing-works}
 
 大多数公司在防火墙后运行 Internet。可以通过某些路由，通常是通过限定范围的公共 IP 地址访问 Internet。
 
-透過公司網路，您可以使用以下網站找出您的公用IP位址： [https://www.whatismyip.com](https://www.whatismyip.com/) 或向您的企業IT組織索取此資訊。
+通过公司网络，您可以使用以下网站确定公共IP地址 [https://www.whatismyip.com](https://www.whatismyip.com/) 或向您的公司IT部门索取此信息。
 
-透過安全測試，Adobe Dynamic Media Classic建立了專用的影像伺服器，用於中繼環境或內部應用程式。 对此服务器的所有请求都将检查原始 IP 地址。如果传入请求不在获批准的 IP 地址列表中，则返回失败响应。Adobe Dynamic Media Classic公司管理員會為公司的安全測試環境設定經過核准的IP位址清單。
+通过安全测试，Adobe Dynamic Media Classic为暂存环境或内部应用程序建立了专用映像服务器。 对此服务器的所有请求都将检查原始 IP 地址。如果传入请求不在获批准的 IP 地址列表中，则返回失败响应。Adobe Dynamic Media Classic公司管理员为公司的Secure Testing环境配置经批准的IP地址列表。
 
-由於原始請求的位置必須確認，因此Secure Testing服務的流量不會透過內容發佈網路(例如公用Dynamic Media Image Server流量)進行路由。 向安全測試服務提出的請求與公開Dynamic Media影像伺服器的延遲相比，稍微高一些。
+由于必须确认原始请求的位置，因此Secure Testing服务的流量不会像公共Dynamic Media Image Server流量那样通过内容分发网络进行路由。 向Secure Testing服务发出的请求与向公共Dynamic Media图像服务器发出的请求相比，具有略高的延迟。
 
-通过安全测试服务，可以立即使用未发布的资源，无需发布。透過這種方式，您可以在資產發佈到公開顯示的影像伺服器之前執行預覽。
+通过安全测试服务，可以立即使用未发布的资源，无需发布。通过这种方式，您可以在将资产发布到其面向公众的图像服务器之前运行预览。
 
 >[!NOTE]
 >
->Secure Testing服務會使用已設定內部發佈內容的目錄伺服器。 因此，如果您的公司設定為發佈至Secure Testing，Adobe Dynamic Media Classic中任何上傳的資產都可立即透過Secure Testing服務使用。 不論資產是否標示為上傳時發佈，此功能皆為true。
+>Secure Testing Services使用配置了内部发布上下文的目录服务器。 因此，如果贵公司配置为发布到Secure Testing，则在Adobe Dynamic Media Classic中上传的所有资产都会立即在Secure Testing服务上可用。 不论资产是否在上传时标记为发布，此功能都为true。
 
-Secure Testing服務目前支援下列資產型別和功能：
+Secure Testing服务当前支持以下资产类型和功能：
 
 <!-- 
 
@@ -63,28 +63,28 @@ Last Modified Date:
 
 * 图像.
 * 晕影（渲染服务器请求）。
-* 轉譯器伺服器請求（受支援，但必須由客戶明確請求）。
+* 渲染服务器请求（受支持，但必须由客户明确请求）。
 * 集，包括图像集、eCatalog、渲染集和媒体集。
-* 標準Adobe Dynamic Media Classic多媒體檢視器。
-* Adobe Dynamic Media Classic OnDemand JSP頁面。
+* 标准Adobe Dynamic Media Classic富媒体查看器。
+* Adobe Dynamic Media Classic OnDemand JSP页。
 * 静态内容，如 PDF 文件和逐步提供的视频。
 * HTTP 视频流。
 * 渐进式视频流。
 
 当前不支持以下资源类型和功能：
 
-* Adobe Dynamic Media Classic資訊或eCatalog搜尋
+* Adobe Dynamic Media Classic信息或eCatalog搜索
 * RTMP 视频流
 * Web-to-print
-* UGC （使用者產生的內容）服務
+* UGC（用户生成的内容）服务
 
 >[!IMPORTANT]
 >
->Adobe Dynamic Media Classic已於2021年9月30日停止支援新的或現有的UGC向量影像資產。
+>对Adobe Dynamic Media Classic中新增或现有UGC矢量图像资源的支持已于2021年9月30日终止。
 
-## 測試Secure Testing service {#testing-the-secure-testing-service}
+## 测试Secure Testing service {#testing-the-secure-testing-service}
 
-測試Secure Testing服務，確保該服務可如預期般運作。
+测试Secure Testing服务，确保该服务可按预期工作。
 
 <!-- >[!NOTE]
 >
@@ -102,39 +102,39 @@ Last Modified Date:
 
  -->
 
-1. 請聯絡Adobe客戶服務，要求他們在您的帳戶上啟用安全測試。
-1. 在Adobe Dynamic Media Classic中的全域導覽列上，前往 **[!UICONTROL 設定]** > **[!UICONTROL 發佈設定]** > **[!UICONTROL 影像伺服器]**.
-1. 在「影像伺服器發佈」頁面的 **[!UICONTROL 發佈內容]** 下拉式清單，選取 **[!UICONTROL 測試影像伺服]**.
-1. 對於使用者端位址篩選器，請選取 **[!UICONTROL 新增]**.
-1. 選取核取方塊以啟用位址（開啟），然後在各自的文字欄位中輸入IP位址和網路遮罩。
+1. 联系Adobe客户关怀部门，要求他们在您的帐户上启用安全测试。
+1. 在Adobe Dynamic Media Classic的全局导航栏上，转到 **[!UICONTROL 设置]** > **[!UICONTROL 发布设置]** > **[!UICONTROL 图像服务器]**.
+1. 在“图像服务器发布”页面上，在 **[!UICONTROL 发布上下文]** 下拉列表，选择 **[!UICONTROL 测试图像服务]**.
+1. 对于“客户端地址过滤器”，选择 **[!UICONTROL 添加]**.
+1. 选中该复选框以启用（打开）地址，然后在相应的文本字段中键入IP地址和网络掩码。
 
    >[!NOTE]
    >
-   >如果您新增單一IP位址和網路遮罩，該位址可能會進行資產呼叫。 不過，您新增的任何其他IP位址和網路遮罩都不得進行資產呼叫。 因此，請考慮停用（關閉）上述步驟中的核取方塊，以關閉指定IP位址和網路遮罩的功能。 這麼做實際上允許 *全部* 進行資產呼叫的IP位址，這些位址都會顯示。
+   >如果添加单个IP地址和网络掩码，则该地址可能会进行资产调用。 但是，不允许您添加的任何其他IP地址和Net掩码进行资产调用。 因此，请考虑禁用（关闭）上述步骤中的复选框以关闭指定IP地址和网络掩码的功能。 这样做实际上允许 *所有* 用于发起资产调用的IP地址，这些地址都会显示。
 
 1. 执行以下任一操作：
-   * 如果您必須新增更多IP位址，請重複前兩個步驟。
-   * 繼續下一步驟。
-1. 在「影像伺服器發佈」頁面的左下方，選取「 」 **[!UICONTROL 儲存]**
-1. 將所需的影像上傳至您的Adobe Dynamic Media Classic帳戶。
+   * 如果您必须添加更多IP地址，请重复前两个步骤。
+   * 继续下一步骤。
+1. 在“图像服务器发布”页面的左下方，选择 **[!UICONTROL 保存]**
+1. 将所需的图像上传到您的Adobe Dynamic Media Classic帐户。
 
-   另請參閱 [上傳檔案](uploading-files.md#uploading_files).
+   参见 [上传文件](uploading-files.md#uploading_files).
 
 1. 请确保部分图像已标记为发布，而其它图像未标记，然后提交发布作业。
 
-   另請參閱 [發佈檔案](publishing-files.md#publishing_files).
+   参见 [发布文件](publishing-files.md#publishing_files).
 
-1. 請前往「 」，判斷Secure Testing服務的名稱 **[!UICONTROL 設定]** > **[!UICONTROL 應用程式設定]** > **[!UICONTROL 一般設定]**.
+1. 通过转到 **[!UICONTROL 设置]** > **[!UICONTROL 应用程序设置]** > **[!UICONTROL 常规设置]**.
 1. 在“应用程序常规设置”页面上，在“服务器”组下，在“**[!UICONTROL 测试发布上下文服务器名称]**”右侧找到该名称。
 
-如果伺服器名稱遺失或伺服器的URL無法運作，請聯絡Adobe服務。
+如果Adobe名称缺失或指向服务器的URL不起作用，请联系服务器关怀团队。
 
 ### 准备网站变体
 
 您需要两个网站变体，分别链接已发布和未发布的资源：
 
-* 公開版本 — 使用舊版Adobe Dynamic Media Classic URL語法連結資產。
-* 測試版本 — 使用相同語法但具有安全測試網站名稱的連結資產。
+* 公共版本 — 使用传统的Adobe Dynamic Media Classic URL语法链接资源。
+* 暂存版本 — 使用相同的语法但使用安全测试站点名称链接资产。
 
 ### 运行测试
 
@@ -142,9 +142,9 @@ Last Modified Date:
 
 1. 检查是否可从公司网络内部访问资源。
 
-   從先前定義的IP位址範圍所識別的公司網路中，網站的測試版本會顯示所有影像，無論是否標籤為發佈。 因此，您可以在測試時避免在預覽核准或產品上市之前意外提供影像。
+   从以前定义的IP地址范围标识的公司网络内，网站的暂存版本会显示所有图像，无论是否标记为发布。 因此，您可以在测试时避免在预览批准或产品发布之前意外使图像可用。
 
-   確認您的網站公開版本是否顯示已發佈的資產，如同先前使用Adobe Dynamic Media Classic時的情形。
+   确认您的网站的公共版本显示已发布的资源，就像之前在使用Adobe Dynamic Media Classic时所做的那样。
 
 1. 从公司网络外部，确认未发布的资源（即未标记为发布）受到保护，第三方无法访问。
 

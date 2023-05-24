@@ -1,6 +1,6 @@
 ---
-title: 將URL連結至您的網頁應用程式
-description: 瞭解如何從Adobe Dynamic Media Classic將URL連結至您的網路應用程式。
+title: 将URL链接到您的Web应用程序
+description: 了解如何从Adobe Dynamic Media Classic将URL链接到您的Web应用程序。
 uuid: 1179bdd3-9b39-47f9-945d-1c1ca186bf96
 contentOwner: Rick Brough
 content-type: reference
@@ -17,13 +17,13 @@ ht-degree: 37%
 
 ---
 
-# 將URL連結至您的網頁應用程式{#linking-urls-to-your-web-application}
+# 将URL链接到您的Web应用程序{#linking-urls-to-your-web-application}
 
-您的網站和應用程式可透過URL字串存取Dynamic Media影像伺服器內容。 發佈影像後，Adobe Dynamic Media Classic會啟用參照Dynamic Media影像伺服器上影像預設集的URL字串。 可将这些 URL 粘贴至 Web 浏览器进行测试。
+您的网站和应用程序可通过URL字符串访问Dynamic Media Image Server内容。 发布图像后，Adobe Dynamic Media Classic会激活一个引用Dynamic Media图像服务器上的图像预设的URL字符串。 可将这些 URL 粘贴至 Web 浏览器进行测试。
 
-若要將這些URL字串放入您的網頁和應用程式中，請從Adobe Dynamic Media Classic複製它們。 若要取得影像預設集產生的URL字串，請前往「預覽」畫面或「瀏覽」面板（在「詳細資料檢視」中）。
+要将这些URL字符串放置在网页和应用程序中，请从Adobe Dynamic Media Classic复制它们。 要获取由图像预设生成的URL字符串，请转到“预览”屏幕或“浏览”面板（在“详细信息”视图中）。
 
-## 取得影像預設集URL {#obtaining-an-image-preset-url}
+## 获取图像预设URL {#obtaining-an-image-preset-url}
 
 可从“预览”或详细信息视图中获得由图像预设生成的 URL 字符串。复制 URL 后，该字符串将放置在剪贴板上，以便在必要时进行粘贴。
 
@@ -31,34 +31,34 @@ ht-degree: 37%
 >
 >在发布资源之前，URL 处于非激活状态。
 
-### 從預覽取得影像預設集URL {#obtaining-an-image-preset-url-from-preview}
+### 从预览中获取图像预设URL {#obtaining-an-image-preset-url-from-preview}
 
 1. 在左侧“资源库”面板中，导航到包含要预览的图像资源的“资源”文件夹。
 1. 执行以下任一操作：
 
-   * 在「資產」視窗上方、工具列右側，選取「 」 **[!UICONTROL 格點檢視]**. 在「資產」視窗中，選取單一影像資產，然後前往縮圖影像下方 **[!UICONTROL 預覽]** > **[!UICONTROL 影像預設集清單]**.
-   * 在「資產」視窗上方、工具列右側，選取「 」 **[!UICONTROL 清單檢視]**. 在「資產」視窗中，選取單一影像資產，然後在縮圖影像的右側，前往 **[!UICONTROL 預覽]** > **[!UICONTROL 影像預設集清單]**.
-   * 在「資產」視窗上方、工具列右側，選取「 」 **[!UICONTROL 詳細資料檢視]**. 在相同工具列上，前往 **[!UICONTROL 預覽]** > **[!UICONTROL 影像預設集清單]**.
+   * 在“资源”窗口上方的工具栏右侧，选择 **[!UICONTROL 网格视图]**. 在“资源”窗口中，选择单个图像资源，然后转到缩略图图像下方 **[!UICONTROL 预览]** > **[!UICONTROL 图像预设列表]**.
+   * 在“资源”窗口上方的工具栏右侧，选择 **[!UICONTROL 列表视图]**. 在“资源”窗口中，选择单个图像资源，然后转到缩略图图像右侧的 **[!UICONTROL 预览]** > **[!UICONTROL 图像预设列表]**.
+   * 在“资源”窗口上方的工具栏右侧，选择 **[!UICONTROL 详细信息视图]**. 在同一工具栏上，转到 **[!UICONTROL 预览]** > **[!UICONTROL 图像预设列表]**.
 
-1. （可選）在「影像預設集」清單的「產生複製URL的URL編碼」下拉式清單中，選取您要在複製影像資產的URL時套用的URL編碼。
-1. 在「影像預設集清單」視窗中，在預覽窗格的右上角區域選取 **[!UICONTROL 複製URL]** 選取的預設集型別。
-1. 在「影像預設集清單」視窗的右下角，選取 **[!UICONTROL 關閉]** 以返回「資產」畫面。
+1. （可选）在“图像预设”列表的“用于生成复制URL的URL编码”下拉列表中，选择您希望在复制图像资源的URL时应用的URL编码。
+1. 在“图像预设列表”窗口的预览窗格的右上角区域中选择 **[!UICONTROL 复制URL]** 所选预设类型。
+1. 在“图像预设列表”窗口的右下角，选择 **[!UICONTROL 关闭]** 以返回到“资产”屏幕。
 
-### 從瀏覽面板取得影像預設集URL {#obtaining-an-image-preset-url-from-the-browse-panel}
+### 从浏览面板获取图像预设URL {#obtaining-an-image-preset-url-from-the-browse-panel}
 
 1. 在左侧“资源库”面板中，导航到包含要预览的图像资源的“资源”文件夹。
-1. 在「資產」視窗上方、工具列右側，選取「 」 **[!UICONTROL 格點檢視]**. 在“资源”窗口中，选择单个图像资源。
-1. 在「資產」視窗上方、工具列右側，選取「 」 **[!UICONTROL 詳細資料檢視]**.
-1. 選取 **[!UICONTROL URL]** 位於畫面右側的面板上，方便您展開影像預設集清單。
-1. 選取 **[!UICONTROL 複製URL]** 影像預設集名稱旁的連結，以及您要複製到剪貼簿的URL。
+1. 在“资源”窗口上方的工具栏右侧，选择 **[!UICONTROL 网格视图]**. 在“资源”窗口中，选择单个图像资源。
+1. 在“资源”窗口上方的工具栏右侧，选择 **[!UICONTROL 详细信息视图]**.
+1. 选择 **[!UICONTROL URL]** ，以便展开图像预设列表。
+1. 选择 **[!UICONTROL 复制URL]** 图像预设名称旁边的链接，其中包含要复制到剪贴板的URL。
 
 ## 关于图像预设 URL 字符串 {#about-image-preset-url-strings}
 
-Dynamic Media影像伺服器的影像大小調整URL呼叫有以下基本語法：
+Dynamic Media图像服务器图像大小调整的URL调用具有以下基本语法：
 
 *路径*/*图像服务器名称*/*帐户名称*/*图像名称*?*修饰符1*&amp;*修饰符2*&amp;...
 
-在Dynamic Media影像伺服器URL中，伺服器的影像顯示指示會出現在問號(？)之後。 例如，以下 URL 调用将传送一个名为“backpack”宽度为 250 个像素的图像：
+在Dynamic Media Image Server URL中，服务器显示图像的说明显示在问号(？)之后。 例如，以下 URL 调用将传送一个名为“backpack”宽度为 250 个像素的图像：
 
 ```as3
 https://s7d1.scene7.com/is/image/S7learn/backpack?wid=250
@@ -76,11 +76,11 @@ https://s7d1.scene7.com/is/image/S7learn/backpack?wid=250&fmt=jpeg&qlt=80,0&resM
 https://s7d1.scene7.com/is/image/S7learn/backpack?$Large$
 ```
 
-在 URL 中图像预设名称用美元符号 ($) 括起。當Dynamic Media影像伺服器遇到URL的影像預設集部分時( `Large` 在此情況下)，使用「大」影像預設集定義的大小和格式設定指示。
+在 URL 中图像预设名称用美元符号 ($) 括起。当Dynamic Media Image Server遇到URL的图像预设部分时( `Large` 在本例中)，使用“大”图像预设定义的大小和格式说明。
 
-## 將動態影像新增至網頁 {#adding-dynamic-images-to-your-web-page}
+## 将动态图像添加到网页 {#adding-dynamic-images-to-your-web-page}
 
-若要將動態影像新增至網頁，請 `<IMG>` HTML網頁程式碼中的標籤通常會使用Adobe Dynamic Media Classic URL字串進行修改，以向Dynamic Media影像伺服器提出要求。 该字符串会按图像预设定义的大小和格式规范生成图像。
+要将动态图像添加到网页，请 `<IMG>` HTML网页代码中的标记通常使用Adobe Dynamic Media Classic URL字符串进行修改，以向Dynamic Media图像服务器发出请求。 该字符串会按图像预设定义的大小和格式规范生成图像。
 
 例如，与以下用于打开静态图像的典型调用不同
 
@@ -88,10 +88,10 @@ https://s7d1.scene7.com/is/image/S7learn/backpack?$Large$
 img src="/company_images/products/backpack_thumbnail.jpg"
 ```
 
-您現在使用 `<IMG>`標籤上的標籤，以使用對Adobe Dynamic Media Classic平台的影像預設集呼叫來取代靜態影像的參考。 示例调用如下所示：
+您现在使用 `<IMG>`标记，以使用对Adobe Dynamic Media Classic平台的图像预设调用替换对静态图像的引用。 示例调用如下所示：
 
 ```as3
 img src="https://s7d2.scene7.com/is/image/S7learn/backpack_trns?$thumbnail$”
 ```
 
-在此範例中，Dynamic Media影像伺服器「查詢」定義 `$thumbnail$` 並透過以下專案所定義的大小與格式規格，動態產生適當的影像： `thumbnail`影像預設集。 在 URL 字符串中，除产品图像文件名称（本例中为`backpack_trns` ）之外的所有项目都由网页模版所固定。唯一可从商业服务器自动插入到网页模版的元素是 IPS ID 或图像名称。
+在此示例中，Dynamic Media Image Server“查找”定义 `$thumbnail$` ，并根据由定义的尺寸和格式规范动态生成适当的图像 `thumbnail`图像预设。 在 URL 字符串中，除产品图像文件名称（本例中为`backpack_trns` ）之外的所有项目都由网页模版所固定。唯一可从商业服务器自动插入到网页模版的元素是 IPS ID 或图像名称。

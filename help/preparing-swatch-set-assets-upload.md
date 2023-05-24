@@ -1,6 +1,6 @@
 ---
-title: 準備要上傳的色票集資產
-description: 瞭解如何準備色票集資產以上傳至Adobe Dynamic Media Classic。
+title: 准备样本集资源以供上传
+description: 了解如何准备样本集资源以上传到Adobe Dynamic Media Classic。
 uuid: ed78da8c-d708-418b-97ce-3c37d9df9c90
 contentOwner: Rick Brough
 content-type: reference
@@ -17,20 +17,20 @@ ht-degree: 61%
 
 ---
 
-# 準備要上傳的色票集資產{#preparing-swatch-set-assets-for-upload}
+# 准备样本集资源以供上传{#preparing-swatch-set-assets-for-upload}
 
-上载所需的图像之前，请确保图像的尺寸和格式正确。同時組合您需要的色票檔案。
+上载所需的图像之前，请确保图像的尺寸和格式正确。同时汇编所需的样本文件。
 
 要创建样本集，您需要同一图像的晕影或不同快照，以便以不同的颜色、模式或光泽度显示。您还需要对应于不同颜色、模式或光泽度的样本文件。例如，要提供以黑色、棕色和绿色显示同一外套的样本集，您需要：
 
 * 同一外套的黑色、棕色和绿色快照。
 * 黑色、棕色及绿色样本。
 
-由于用户可以在样本集中缩放图像，因此确保图像最大尺寸至少为 2000 像素。Adobe Dynamic Media Classic支援許多影像檔案格式，但建議使用不失真TIFF、PNG和EPS影像。
+由于用户可以在样本集中缩放图像，因此确保图像最大尺寸至少为 2000 像素。Adobe Dynamic Media Classic支持多种图像文件格式，但建议使用无损TIFF、PNG和EPS图像。
 
-如需上傳資產的詳細指示，請參閱 [上傳檔案](uploading-files.md#uploading_files).
+有关上传资产的详细说明，请参阅 [上传文件](uploading-files.md#uploading_files).
 
 >[!MORELIKETHIS]
 >
->* [使用暈映、視窗遮蓋和封包檔案](vignette-window-covering-cabinet-files.md#working_with_vignette_window_covering_and_cabinet_files)
+>* [处理晕影、窗口覆盖和CAB文件](vignette-window-covering-cabinet-files.md#working_with_vignette_window_covering_and_cabinet_files)
 

@@ -1,6 +1,6 @@
 ---
 title: 开发人员资源
-description: 瞭解哪些開發人員資源可用於Dynamic Media。
+description: 了解哪些开发人员资源可用于Dynamic Media。
 uuid: 97702f33-fb9c-4ba7-9c42-757dec7e6645
 contentOwner: Rick Brough
 content-type: reference
@@ -18,9 +18,9 @@ ht-degree: 15%
 
 # 开发人员资源 {#developer-resources}
 
-檢視器、影像提供與影像演算以及影像製作系統的參考指南會說明這些伺服器模組的http通訊協定。 如果網站開發人員想要進一步自訂和使用Adobe Dynamic Media Classic多媒體作為網站或自訂應用程式，可以使用這些指南。 我們假設使用者熟悉Dynamic Media Classic案頭應用程式、一般http通訊協定標準和慣例，以及基本的影像處理術語。
+有关查看器、图像服务和图像渲染以及图像生产系统的参考指南描述了这些服务器模块的http协议。 希望进一步自定义网站或自定义应用程序的Adobe Dynamic Media Classic富媒体的网站开发人员可以使用这些指南。 假定用户熟悉Dynamic Media Classic桌面应用程序、常规http协议标准和惯例以及基本图像处理术语。
 
-另請參閱 [Dynamic Media開發人員資源](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources.html).
+另请参阅 [Dynamic Media开发人员资源](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources.html).
 
 ## 查看器 {#viewers-guide}
 
@@ -29,7 +29,7 @@ ht-degree: 15%
 | 查看器参考指南和发行说明 | [https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html) |
 | 查看器库示例 | [https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html) |
 
-## 影像提供/影像轉譯(IS/IR) API {#is-ir-api-guide}
+## 图像提供/图像渲染(IS/IR) API {#is-ir-api-guide}
 
 | 文档 | 网页地址 |
 | --- | --- |

@@ -1,7 +1,7 @@
 ---
 title: Adobe Dynamic Media Classic指南
 seo-title: Technical documentation and self help for Adobe Dynamic Media Classic
-description: 進一步瞭解如何使用Adobe Dynamic Media Classic來管理您的影片、飛出畫面等，並參閱AEM Cloud Services檔案。
+description: 通过AEM Cloud Services文档，了解有关使用Adobe Dynamic Media Classic管理视频、弹出框等的更多信息。
 seo-description: Technical documentation, release notes and self-help materials for Adobe Dynamic Media Classic, formerly Scene 7
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 feature: Dynamic Media Classic
@@ -16,33 +16,33 @@ ht-degree: 3%
 
 # Adobe Dynamic Media Classic指南 {#scene7-overview}
 
-歡迎使用Adobe Dynamic Media Classic說明。 您可以在這裡存取所有可用的資源，以成功進一步瞭解使用Adobe Dynamic Media Classic (先前稱為Scene7)。
+欢迎访问Adobe Dynamic Media Classic帮助。 在这里，您可以访问所有可用的资源，以成功了解有关使用Adobe Dynamic Media Classic(以前称为Scene7)的更多信息。
 
-## 全新Adobe Dynamic Media Classic登入體驗於2020年6月30日推出
+## 新的Adobe Dynamic Media Classic登录体验将于2020年6月30日推出
 
-2020年6月30日，Dynamic Media Classic使用者將可存取新的登入體驗，不再仰賴瀏覽器的AdobeFlash技術。
+2020年6月30日，Dynamic Media classic用户可以访问新的登录体验，该体验不再依赖浏览器中的AdobeFlash技术。
 
-另請參閱 [常見問題](new-ui-2020.md). 自2020年5月7日起的新更新。
+参见 [常见问题解答](new-ui-2020.md). 自2020年5月7日起的新更新。
 
-## Dynamic Media開發人員資源
+## Dynamic Media开发人员资源
 
-* [Dynamic Media開發人員資源登陸頁面](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources.html)  — 包含檢視器參考指南、影像提供/影像轉譯API、影像生產系統API和Adobe Dynamic Media Classic發行說明。
-* [檢視器程式庫範例](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)  — 包括視訊、可購物媒體、混合媒體、迴轉集、內嵌縮放、影像和色票集以及飛出的檢視器範例。
+* [Dynamic Media开发人员资源登录页面](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources.html)  — 包含查看器参考指南、图像提供/图像渲染API、图像生产系统API和Adobe Dynamic Media Classic发行说明。
+* [查看器库示例](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)  — 包括视频、可购物媒体、混合媒体、旋转集、内联缩放、图像和样本集以及飞出的查看器示例。
 
-## Adobe Dynamic Media Classic使用者資源
+## Adobe Dynamic Media Classic用户资源
 
-* [Dynamic Media每月電子報](dynamic-media-newsletter.md)
-* [Adobe Dynamic Media Classic最佳實務教學課程](https://experienceleague.adobe.com/docs/experience-manager-learn/dynamic-media-classic-tutorial/overview.html)
-* [指南：銳利化影像的最佳實務指南](/help/assets/s7_sharpening_images.pdf)
-* [指南： Adobe Dynamic Media Classic如何支援SEO](/help/assets/s7_seo.pdf)  — 目前的搜尋引擎可搜尋網站和影像。 Adobe Dynamic Media Classic支援讓影像成為易於使用的搜尋引擎，以便為Adobe Dynamic Media Classic使用者的網站帶來更多流量。 本PDF指南提供您達成目標的背景和實施建議。
+* [Dynamic Media每月新闻稿](dynamic-media-newsletter.md)
+* [Adobe Dynamic Media Classic最佳实践教程](https://experienceleague.adobe.com/docs/experience-manager-learn/dynamic-media-classic-tutorial/overview.html)
+* [指南：用于锐化图像的最佳实践指南](/help/assets/s7_sharpening_images.pdf)
+* [指南：Adobe Dynamic Media Classic如何支持SEO](/help/assets/s7_seo.pdf)  — 现在的搜索引擎支持搜索网站和图像。 Adobe Dynamic Media Classic支持努力使图像搜索引擎友好，以便让更多流量进入Adobe Dynamic Media Classic用户的网站。 本PDF版指南提供了实现该目标的背景和实施建议。
 <!-- * [Webinar: Best Practices for Responsive Design](http://offers.adobe.com/en/na/marketing/landings/_40458_responsive_design_live_on_demand_webinar.html) - Learn practical tips on how to improve your mobile strategy. See real-world examples of responsive design in action. Create one primary asset that works across multiple devices and increase mobile performance by dynamically changing the resolution of images or the orientation of images for portrait or landscape displays. Learn how to also dynamically crop, scale, or resize images. -->
-* [網路研討會：使用Adobe Dynamic Media Classic提供互動式體驗的最佳實務](https://seminars.adobeconnect.com/p7wb8ej3u6d/)  — 瞭解如何從Adobe Dynamic Media Classic內取得內容，以及如何設定影像預設集以獲得最佳效能和體驗。 您还可以了解查看器预设和缓存配置。
-* [網路研討會：讓您的資產ROI最大化](https://adobecustomersuccess.adobeconnect.com/p5ar3hfrrec/?launcher=false&amp;fcsContent=true&amp;pbMode=normal&amp;proto=true)  — 瞭解在網站和行動應用程式中提供豐富媒體的業界最佳實務。 在此網路研討會中，Adobe會提供範例和示範，說明如何跨裝置有效率地傳送視訊、在行銷活動中提供動態創意，以及透過讓任何影像、風格指南或回顧可供購買來提高轉換率。
-* [網路研討會：加速內容傳送生命週期](https://adobecustomersuccess.adobeconnect.com/p88ducm9pqv/)  — 介紹和示範Adobe Experience Manager Assets - On Demand，新一代多媒體管理和傳送平台。 瞭解如何在創意和行銷團隊之間共同作業和共用資產，以簡化資產稽核流程。 瞭解最佳實務，以便您可以有效率地管理資產中繼資料，輕鬆尋找、使用、重複使用和共用資產，以及如何提供互動式跨頻道多媒體體驗。
-* [網路研討會：行動裝置最佳化設計](https://adobecustomersuccess.adobeconnect.com/p6oqd3wydif/?launcher=false&amp;fcsContent=true&amp;pbMode=normal&amp;proto=true)  — 使用Adobe Dynamic Media Classic有效率地將目標多媒體傳送至所有裝置。 瞭解如何設計並提供可在行動應用程式和回應式網站中有效的影像和視訊檢視體驗。
-* [網路研討會：使用Adobe Dynamic Media Classic最大化假日轉換](https://adobecustomersuccess.adobeconnect.com/p32n1yr85c9/?proto=true)  — 瞭解如何設定自動化工作流程，以從Watched資料夾取得內容並自動建立迴轉集和視訊。 你还可以了解如何快速管理更改和更新图像。
+* [网络研讨会：通过Adobe Dynamic Media Classic提供交互式体验的最佳实践](https://seminars.adobeconnect.com/p7wb8ej3u6d/)  — 了解如何从Adobe Dynamic Media Classic获取内容，以及如何设置图像预设以获得最佳性能和体验。 您还可以了解查看器预设和缓存配置。
+* [网络研讨会：最大限度地提高您的资产ROI](https://adobecustomersuccess.adobeconnect.com/p5ar3hfrrec/?launcher=false&amp;fcsContent=true&amp;pbMode=normal&amp;proto=true)  — 了解在网站和移动应用程序中交付富媒体的行业最佳实践。 在此网络研讨会中，Adobe提供了一些示例和演示，向您展示了如何跨设备高效地交付视频、在营销活动中提供动态创意内容，以及通过使任何图像、风格指南或回顾式购物来提高转化率。
+* [网络研讨会：加快内容交付生命周期](https://adobecustomersuccess.adobeconnect.com/p88ducm9pqv/)  — 介绍和演示Adobe Experience Manager Assets — 按需，富媒体管理和投放的新一代平台。 了解如何在创意团队和营销团队之间协作和共享资产以简化资产审核流程。 了解最佳实践，以便您可以高效地管理资产元数据，轻松地查找、使用、重用和共享资产，以及如何提供交互式跨渠道富媒体体验。
+* [网络研讨会：为移动设备优化而设计](https://adobecustomersuccess.adobeconnect.com/p6oqd3wydif/?launcher=false&amp;fcsContent=true&amp;pbMode=normal&amp;proto=true)  — 使用Adobe Dynamic Media Classic高效地向所有设备交付目标富媒体。 了解如何设计和提供可在移动设备应用程序和响应式网站上有效的成像和视频查看体验。
+* [网络研讨会：使用Adobe Dynamic Media Classic最大限度地提高假日转化率](https://adobecustomersuccess.adobeconnect.com/p32n1yr85c9/?proto=true)  — 了解如何设置自动工作流以从观察文件夹中获取内容并自动创建旋转集和视频。 你还可以了解如何快速管理更改和更新图像。
 
-## Adobe Dynamic Media Classic培訓
+## Adobe Dynamic Media Classic培训
 
-前往 [此處](https://learning.adobe.com/catalog.html#product=adobe-scene7) 檢視目前可用的訓練課程。
-[Adobe Dynamic Media Classic訓練影片](/help/training-videos.md).
+开始 [此处](https://learning.adobe.com/catalog.html#product=adobe-scene7) 查看当前可用的培训课程。
+[Adobe Dynamic Media Classic培训视频](/help/training-videos.md).

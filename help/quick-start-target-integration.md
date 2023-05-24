@@ -1,6 +1,6 @@
 ---
-title: 「快速入門：Adobe Target Standard/Premium整合」
-description: Adobe Target Standard/Premium簡介和快速入門，可幫助您在Adobe Dynamic Media Classic中快速上手並執行Adobe Target Standard/Premium整合技術。
+title: “快速入门：Adobe Target Standard/Premium集成”
+description: Adobe Target Standard/Premium的简介和快速入门，可帮助您在Adobe Dynamic Media Classic中通过Adobe Target Standard/Premium集成技术快速启动和运行。
 uuid: d8f79fbf-8be1-44fa-8058-3508060fcd70
 contentOwner: Rick Brough
 content-type: reference
@@ -17,36 +17,36 @@ ht-degree: 7%
 
 ---
 
-# 快速入門： Adobe Target Standard/Premium整合{#quick-start-target-integration}
+# 快速入门：Adobe Target Standard/Premium集成{#quick-start-target-integration}
 
-Adobe Target Standard/Premium將控制權直接交由行銷人員手中，以快速並持續執行多個A/B和多變數測試、測量成效，並透過分段、目標定位和Automated Personalization提高線上內容的關聯性。
+Adobe Target Standard/Premium将控制权直接交给营销人员，使他们可以快速持续地运行多个A/B和多变量测试，通过分段、定位和Automated Personalization衡量有效性并提高在线内容的关联性。
 
-Adobe Dynamic Media Classic可讓您為Adobe Target Standard/Premium行銷活動建立優惠方案和優惠方案集。 例如，您可以建立包含相同多媒體資產的三個變體的選件集。 接著，您可以讓Adobe Target Standard/Premium判斷哪個資產可提供較好的轉換提升度。 您可以通过基本模板或各个图像创建优惠和优惠套餐。將選件集推送或儲存至Adobe Target Standard/Premium （選件會與mbox和體驗相關聯）後，Adobe Target Standard/Premium就可以執行行銷活動。 這些行銷活動會決定網站的哪些變數最適合點進和轉換。
+通过Adobe Dynamic Media Classic，您可以为Adobe Target Standard/Premium营销活动创建优惠和优惠集。 例如，您可以创建一个选件集，其中包含同一富媒体资产的三个变体。 然后，您可以让Adobe Target Standard/Premium确定哪个资源可提供更好的转化提升。 您可以通过基本模板或各个图像创建优惠和优惠套餐。将选件集推送或保存到Adobe Target Standard/Premium（选件在此与mbox和体验相关联）后，Adobe Target Standard/Premium可以运行营销活动。 这些营销活动可确定网站的哪个变体可能最有利于点进和转化。
 
-若要進一步自訂動態Adobe Dynamic Media Classic內容，請使用Adobe Target Standard/PremiumHTML選件。 請參閱 [Adobe Target Standard/Premium產品檔案](https://experienceleague.adobe.com/docs/target.html) 以取得詳細資訊。
+要更好地自定义动态Adobe Dynamic Media Classic内容，请使用Adobe Target Standard/PremiumHTML选件。 请参阅 [Adobe Target Standard/Premium产品文档](https://experienceleague.adobe.com/docs/target.html) 了解更多信息。
 
 >[!NOTE]
 >
->必須具備有效的Adobe Target Standard/Premium帳戶，才能將Adobe Target Standard/Premium與Adobe Dynamic Media Classic搭配使用。
+>要将Adobe Target Standard/Premium与Adobe Dynamic Media Classic结合使用，需要有效的Adobe Target Standard/Premium帐户。
 
-本快速入門旨在協助您快速上手Adobe Target Standard/PremiumHTML選件集。 请执行步骤 1 到 3。每個步驟之後，都會有主題標題的互動參照，讓您在其中找到更多資訊。
+本快速入门旨在帮助您快速启动和运行Adobe Target Standard/PremiumHTML选件集。 请执行步骤 1 到 3。每个步骤后，都会有一个对主题标题的交叉引用，您可以在其中查找更多信息。
 
-## 1.在「應用程式一般設定」頁面中輸入您的Adobe Target Standard/Premium URL
+## 1.在“应用程序常规设置”页面中输入您的Adobe Target Standard/Premium URL
 
-Adobe Dynamic Media Classic需要您的Adobe Target Standard/Premium URL才能與Adobe Target Standard/Premium整合。 複製您的Adobe Target Standard/Premium URL部分，最多可複製並包含 `.com`，並在Adobe Dynamic Media Classic中輸入 **[!UICONTROL 應用程式一般設定]** 頁面，在 **[!UICONTROL 伺服器]** 群組， **[!UICONTROL Test&amp;Target伺服器名稱]** 文字欄位。 另請參閱 [將Adobe Dynamic Media Classic與Adobe Target Standard/Premium整合](integrating-dmc-with-target.md#integrating-dmc-with-target).
+Adobe Dynamic Media Classic需要您的Adobe Target Standard/Premium URL才能与Adobe Target Standard/Premium集成。 将Adobe Target Standard/Premium URL的部分复制到以下位置，包括 `.com`，并在Adobe Dynamic Media Classic中输入 **[!UICONTROL 应用程序常规设置]** 页面，在 **[!UICONTROL 服务器]** 组， **[!UICONTROL Test&amp;Target服务器名称]** 文本字段。 参见 [将Adobe Dynamic Media Classic与Adobe Target Standard/Premium集成](integrating-dmc-with-target.md#integrating-dmc-with-target).
 
-## 2.建立優惠方案集
+## 2.创建优惠套餐
 
-使用参数化模板或图像来创建优惠套餐。您可以在Test&amp;Target選件集頁面上建立HTML選件集。 若要開啟此頁面，請選取您的範本或影像，然後在全域導覽列上，前往 **[!UICONTROL 建置]** > **[!UICONTROL Test&amp;Target選件集]**.
+使用参数化模板或图像来创建优惠套餐。您可以在“Test&amp;Target选件集”页面上创建HTML选件集。 要打开此页面，请选择您的模板或图像，然后在全局导航栏上，转到 **[!UICONTROL 生成]** > **[!UICONTROL Test&amp;Target选件集]**.
 
-若要使用範本建立優惠方案，請選取 **[!UICONTROL 新增並預覽]**. 在新增和預覽頁面上，變更引數值。
+要使用模板创建选件，请选择 **[!UICONTROL 添加并预览]**. 在“添加和预览”页面上，更改参数值。
 
-若要建立包含影像的選件，請將影像拖曳至Test&amp;Target選件集頁面。 選取 **[!UICONTROL 預覽]** 並為影像或選件集中的所有影像選擇影像預設集。
+要创建包含图像的选件，请将图像拖到Test&amp;Target选件集页面。 选择 **[!UICONTROL 预览]** 并为一个图像或选件集中的所有图像选择图像预设。
 
 创建优惠套餐后请将其保存。
 
-另請參閱 [建立優惠方案集](creating-offer-set.md#creating_an_offer_set).
+参见 [创建选件集](creating-offer-set.md#creating_an_offer_set).
 
-## 3.將優惠方案集推送至Adobe Target Standard/Premium
+## 3.将选件集推送到Adobe Target Standard/Premium
 
-在Test&amp;Target選件集頁面中，選取 **[!UICONTROL 推送優惠方案]**，並在Test&amp;Target登入對話方塊中輸入登入認證。 另請參閱 [將優惠方案集推送到Adobe Target Standard/Premium](pushing-offer-sets-target.md#pushing_offer_sets_to_target).
+在Test&amp;Target选件集页面中，选择 **[!UICONTROL 推送优惠]**，并在Test&amp;Target登录对话框中输入登录凭据。 参见 [将选件集推送到Adobe Target Standard/Premium](pushing-offer-sets-target.md#pushing_offer_sets_to_target).

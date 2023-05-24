@@ -1,6 +1,6 @@
 ---
-title: 從Adobe升級 [!DNL Dynamic Media Classic] 至 [!DNL Dynamic Media] 於 [!DNL Experience Manager] 資產
-description: 升級自 [!DNL Adobe Dynamic Media Classic] 至 [!DNL Dynamic Media] 於 [!DNL Adobe Experience Manager]. 瞭解的主要優點與功能 [!DNL Dynamic Media]. 檢閱功能清單比較、升級常見問題集和整備檢查清單。
+title: 从Adobe升级 [!DNL Dynamic Media Classic] 到 [!DNL Dynamic Media] 日期 [!DNL Experience Manager] 资产
+description: 升级自 [!DNL Adobe Dynamic Media Classic] 到 [!DNL Dynamic Media] 日期 [!DNL Adobe Experience Manager]. 了解的主要优势和功能 [!DNL Dynamic Media]. 查看功能列表比较、升级常见问题解答和就绪性检查列表。
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 5e322d81-1303-494b-b5dd-df29b5c5d8e2
@@ -11,47 +11,47 @@ ht-degree: 0%
 
 ---
 
-# 為何升級至 [!DNL Dynamic Media]？
+# 为何升级到 [!DNL Dynamic Media]？
 
-Adobe已建立 [!DNL Dynamic Media] 以您為中心。
+已创建Adobe [!DNL Dynamic Media] 在你心里。
 
-新 [!DNL Dynamic Media] 於 [!DNL Adobe Experience Manager] 以您期盼已久的功能為基礎 [!DNL Dynamic Media Classic] (前身為Scene7)。 它為貴組織提供全新和改良的工具，以建立更好、更吸引人的體驗。
+新 [!DNL Dynamic Media] 日期 [!DNL Adobe Experience Manager] 构建在您期望获得的功能之上 [!DNL Dynamic Media Classic] (以前称为Scene7)。 它为您的组织提供了新的改进的工具，以构建更好、更引人入胜的体验。
 
-[!DNL Dynamic Media] 使用即時的visual builders升級內容建置體驗。 坐在Adobe久經考驗的、值得信賴且可擴充的傳遞網路頂端，並搭配直覺式功能 [!DNL Adobe Experience Manager] 使用者介面， [!DNL Dynamic Media] 提供撰寫、疊代及提供引人入勝的下一代體驗的功能。
+[!DNL Dynamic Media] 通过使用实时的可视化生成器升级内容生成体验。 坐在Adobe行之有效、值得信赖、可扩展的交付网络之首，并与直观的交付方式相结合 [!DNL Adobe Experience Manager] 用户界面， [!DNL Dynamic Media] 提供用于创作、迭代和交付引人入胜的高级别体验的功能。
 
-| 您能獲得的好處 [!DNL Dynamic Media] | 说明 |
+| 您获得的内容 [!DNL Dynamic Media] | 说明 |
 | --- | --- |
-| 主要檔案方法 | 上傳完整大小的資產，然後 [!DNL Dynamic Media] 視需要自動建立大小。 |
-| 輕鬆製作 | 無需技術協助，即可快速建置、自訂和啟動豐富的體驗。 |
-| 直覺式介面 | 使用簡單易用的WYSIWYG （所見即所得）介面編輯影像檢視器和視訊播放器。 |
-| Shoppable Media | 使用影像熱點及可點按連結建立可購物影像、影片和輪播。 |
-| 可擴充的CDN | 使用同級最佳的內容傳遞網路(CDN)，以經驗證的規模和效能滿足任何需求。 |
-| Dynamic Imaging | 使用一個主要檔案，自動產生和發佈不限數量的版本，並變更大小、格式、解析度、裁切或效果。 |
-| Dynamic Video | 全尺寸視訊會針對所有熒幕自動調整大小，並自適應的串流，以確保一致且高品質的使用者體驗。 |
-| 個人化 | 輕鬆建置和發佈 [!DNL Dynamic Media] 互動式體驗，例如產品設定器、個人化橫幅和電子郵件。 |
-| 互動式體驗 | 新增互動式熱點，並將產品詳細資訊連結至行銷活動、影片、回顧和其他媒體。 |
+| 主要文件方法 | 上传完整大小的资源，然后 [!DNL Dynamic Media] 根据需要自动创建大小。 |
+| 轻松创作 | 无需技术帮助，即可快速构建、自定义和启动丰富的体验。 |
+| 直观界面 | 使用易于使用的WYSIWYG（所见即所得）界面编辑图像查看器和视频播放器。 |
+| 可购物媒体 | 使用图像热点和可点击链接创建可购物图像、视频和轮播。 |
+| 可扩展CDN | 访问同类最佳的内容交付网络(CDN) ，其规模和性能经验证，可满足任何需求。 |
+| Dynamic Imaging | 使用一个主文件，自动生成和发布无限版本，并更改大小、格式、分辨率、裁切或效果。 |
+| 动态视频 | 全尺寸视频可自动调整所有屏幕的大小，并自适应流式传输，以确保一致且高质量的用户体验。 |
+| 个性化 | 轻松构建和发布 [!DNL Dynamic Media] 交互式体验，如产品配置器、个性化横幅和电子邮件。 |
+| 交互式体验 | 添加交互式热点，并将产品详细信息链接到营销活动、视频、回顾和其他媒体。 |
 
-## 的主要優點與功能 [!DNL Dynamic Media]
+## 的主要优势和功能 [!DNL Dynamic Media]
 
-[!DNL Dynamic Media] 是以下專案的自然演化： [!DNL Dynamic Media Classic] 並提供豐富的媒體製作、發佈和傳送工具集，包括同級最佳傳送，搭配創新的使用者導向介面，促進現代真實世界工作流程。
+[!DNL Dynamic Media] 是自然进化 [!DNL Dynamic Media Classic] 并提供富媒体创作、发布和交付工具集，包括同类最佳交付，以及创新的以用户为中心的界面，可促进现代真实工作流程。
 
-* 緊密整合的體驗，並與 [!DNL Adobe Experience Manager]：從單一商店、單一來源設定並動態傳遞豐富的內容
-* 全新的以行銷人員為中心的使用者體驗，可輕鬆編寫及傳送多媒體內容
-* WYSIWYG （您所見即所得）外觀與風格，以及影像檢視器和視訊播放器的行為編輯器。
-* 加速可購物/互動式媒體體驗的建立與部署，包括影像熱點和可購物視訊
+* 无缝、统一的体验和与的集成 [!DNL Adobe Experience Manager]：从一个商店、一个源配置和动态交付丰富的内容
+* 以营销人员为中心的新用户体验，可轻松创作和交付富媒体内容
+* WYSIWYG（您所见即所得）外观和风格，以及图像查看器和视频播放器的行为编辑器。
+* 加速创建和部署可购物/交互式媒体体验，包括图像热点和可购物视频
 
-### [!DNL Dynamic Media] 內的功能 [!DNL Experience Manager] 資產
+### [!DNL Dynamic Media] 中的功能 [!DNL Experience Manager] 资产
 
 | 功能 | 说明 |
 | --- | --- |
-| 加速內容建立和傳遞 | ·協同合作及共用檔案同步，與 [!DNL Adobe Creative Cloud] 應用程式。<br>·符合動態資產管理的所有必要條件：在一個應用程式、一個介面、一個網路中建立、共同作業、管理和提供所有專案。<br>·企業級數位資產管理，提供強大的中繼資料支援、智慧型搜尋、燈箱和集合、版本控制，以及安全的資產共用，供廠商、合作夥伴和加盟商使用<br>·稽核和核准在製品資產的工作流程。 |
-| 簡易互動式體驗UI元素 | ·透過非技術的即時建置器，輕鬆建立體驗。<br>·可購物/互動媒體，結合行銷活動資產與產品資訊。<br>·提高客戶滿意度並促進轉換。 |
-| 端對端包含式工作流程 | ·將最佳化的豐富媒體提供給所有接觸點，包括完整的 [!DNL Adobe Experience Cloud] 解決方案。<br>·與整合 [!DNL Adobe Experience Cloud] 適用於各種行銷接觸點的進階資產分析、目標定位和資產重複使用。 其中某些接觸點包括 [!DNL Adobe Campaign] 對於電子郵件， [!DNL Adobe Social] 適用於社交管道，以及 [!DNL Adobe Experience Manager] 回應式網頁和行動應用程式的網站。 |
+| 加快内容创建和交付 | ·协作和共享文件同步 [!DNL Adobe Creative Cloud] 应用程序。<br>·满足动态资产管理的所有必需标准：在一个应用程序、一个界面、一个网络中创建、协作、管理和交付所有内容。<br>·企业级数字资产管理，具有强大的元数据支持、智能搜索、灯箱和收藏集、版本控制以及供供应商、合作伙伴和特许经营商使用的安全资产共享<br>·审核和批准在制品资产的工作流。 |
+| 简单的交互式体验UI元素 | ·使用非技术的实时构建器轻松创建体验。<br>·可购物/交互式媒体，将Campaign资产与产品信息相结合。<br>·提高客户满意度并促进转化。 |
+| 端到端(E)包含式工作流 | ·将优化的富媒体交付到所有接触点，包括完整的 [!DNL Adobe Experience Cloud] 解决方案。<br>·与集成 [!DNL Adobe Experience Cloud] 用于跨营销接触点的高级资产分析、定位和资产重用。 其中一些接触点包括 [!DNL Adobe Campaign] 对于电子邮件， [!DNL Adobe Social] 对于社交渠道，以及 [!DNL Adobe Experience Manager] 用于响应式Web和移动应用程序的站点。 |
 
-## 為何選擇Adobe？
+## 为什么选择Adobe？
 
-* 數位資產Forrester WAVE報表中最大的積極行動者。
-* 在2016年線上視訊平台報告中表現卓越。
-* 網際網路零售1000的頂級多媒體供應商，連續九年。
-* 24/7/265支援、99.95% SLA、Adobe Professional Services。
-* 廣受肯定的基礎建設，在全球各地為800多家客戶提供服務、每月3.5 PB的流量，以及超過5億個資產的管理能力，流量與上年同期相比成長了60%。
+* 数字资产Forrester WAVE报表中的最大积极推动者。
+* 在2016在线视频平台报告中表现突出。
+* Internet Retail 1000的顶级富媒体供应商，连续九年。
+* 24/7/265支持， 99.95%的SLA， Adobe Professional Services。
+* 为全球800多家客户提供成熟的基础架构，每月流量达3.5 PB，管理资产超过5亿，流量同比增长60%。

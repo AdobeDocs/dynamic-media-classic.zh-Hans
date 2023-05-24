@@ -1,6 +1,6 @@
 ---
-title: 發佈主要影像
-description: 瞭解如何從Adobe Dynamic Media Classic發佈主要影像。
+title: 发布主图像
+description: 了解如何从Adobe Dynamic Media Classic发布主图像。
 uuid: b56ba79a-f89a-45f1-a8bb-c73a22eab8d4
 contentOwner: Rick Brough
 content-type: reference
@@ -17,19 +17,19 @@ ht-degree: 6%
 
 ---
 
-# 發佈主要影像{#publishing-master-images}
+# 发布主图像{#publishing-master-images}
 
-發佈影像檔案會將檔案發佈至Dynamic Media影像伺服器，以供您的網站和應用程式使用。 此外，在發佈程式中，Adobe Dynamic Media Classic會啟動您網站和應用程式所需的URL字串。
+发布图像文件会将它们发布到Dynamic Media图像服务器，您可以在那里访问网站和应用程序。 此外，在发布过程中，Adobe Dynamic Media Classic会激活您网站和应用程序所需的URL字符串。
 
-## 標籤要發佈的主要影像 {#marking-master-images-for-publish}
+## 标记要发布的主图像 {#marking-master-images-for-publish}
 
-主要影像必須標示為發佈，才能複製到Dynamic Media影像伺服器。 您可以在「瀏覽」面板中按一下「 」，將主要影像標示為發佈 **[!UICONTROL 標籤為發佈]** 圖示。 您也可以在將影像上傳至Adobe Dynamic Media Classic時，將影像標示為發佈。
+主图像必须标记为发布，才能复制到Dynamic Media图像服务器。 您可以通过单击，在“浏览”面板中将主图像标记为发布 **[!UICONTROL 标记为发布]** 图标。 您还可以在将图像上传到Adobe Dynamic Media Classic时将图像标记为发布。
 
-## 發佈您的主要影像 {#publishing-your-master-images}
+## 发布您的主图像 {#publishing-your-master-images}
 
-1. 在全域導覽列上，選取 **[!UICONTROL 發佈]**. 在「發佈」對話方塊中，選取「時間」選項(**[!UICONTROL 一次性]** 或 **[!UICONTROL 週期性]**)，然後選擇性輸入發佈工作的名稱
+1. 在全局导航栏上，选择 **[!UICONTROL Publish]**. 在“发布”对话框中，选择时间选项(**[!UICONTROL 一次性]** 或 **[!UICONTROL 周期性]**)，然后选择性地输入发布作业的名称
 
-1. 選取 **[!UICONTROL 提交發佈]**.
+1. 选择 **[!UICONTROL 提交发布]**.
 
 >[!NOTE]
 >
@@ -37,5 +37,5 @@ ht-degree: 6%
 
 >[!MORELIKETHIS]
 >
->* [發佈檔案](publishing-files.md#publishing_files)
+>* [发布文件](publishing-files.md#publishing_files)
 

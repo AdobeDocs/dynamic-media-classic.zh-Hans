@@ -1,6 +1,6 @@
 ---
 title: "快速入门：样本集"
-description: 色票集簡介和快速入門可幫助您在Adobe Dynamic Media Classic中快速上手並執行。
+description: 样本集简介和快速入门，帮助您在Adobe Dynamic Media Classic中快速启动和运行。
 uuid: 6f8a95e8-e82a-477f-9f21-d2b7b511f8ae
 contentOwner: Rick Brough
 content-type: reference
@@ -19,42 +19,42 @@ ht-degree: 25%
 
 # 快速入门：样本集{#quick-start-swatch-sets}
 
-Adobe Dynamic Media Classic色票集為使用者提供整合式檢視體驗。 在动态的样本集查看器中，只需单击缩略图，用户即可看到以不同颜色、材质、纹理、光泽度或织物渲染的项目。
+Adobe Dynamic Media Classic样本集为用户提供了集成的查看体验。 在动态的样本集查看器中，只需单击缩略图，用户即可看到以不同颜色、材质、纹理、光泽度或织物渲染的项目。
 
-此色票集快速入門旨在讓您快速上手，並運用Adobe Dynamic Media Classic中的色票集技術。
+此样本集快速入门旨在让您快速使用Adobe Dynamic Media Classic中的样本集技术启动和运行。
 
-## 1.上傳影像和色票檔案
+## 1.上传图像和样本文件
 
 首先为样本集上载图像和样本文件。
 
-在全域導覽列上，選取 **[!UICONTROL 上傳]** 將檔案從電腦上傳至Adobe Dynamic Media Classic上的資料夾。 另請參閱 [準備要上傳的色票集資產](preparing-swatch-set-assets-upload.md#preparing-swatch-set-assets-for-upload) 和 [上傳您的檔案](uploading-files.md#uploading-your-files).
+在全局导航栏上，选择 **[!UICONTROL 上传]** 将文件从计算机上传到Adobe Dynamic Media Classic上的某个文件夹。 参见 [准备样本集资源以供上传](preparing-swatch-set-assets-upload.md#preparing-swatch-set-assets-for-upload) 和 [上传您的文件](uploading-files.md#uploading-your-files).
 
-## 2.建立色票集
+## 2.创建样本集
 
-若要建立色票集，請在全域導覽列上，前往 **[!UICONTROL 建置]** > **[!UICONTROL 色票集]**. 在「色票集」頁面上，將影像和色票拖曳至頁面上。 另請參閱 [建立色票集](creating-swatch-set.md#creating-a-swatch-set).
+要创建样本集，请在全局导航栏上，转到 **[!UICONTROL 生成]** > **[!UICONTROL 样本集]**. 在“样本集”页面上，将图像和颜色样本拖动到页面上。 参见 [创建样本集](creating-swatch-set.md#creating-a-swatch-set).
 
-## 3.設定色票集檢視器預設集
+## 3.设置样本集查看器预设
 
-管理员可以创建或修改图像集查看器预设。Adobe Dynamic Media Classic隨附每個多媒體型別的預設檢視器預設集。 使用“缩放查看器: 自定义 > 图像集/颜色样本”预设查看您的样本集。
+管理员可以创建或修改图像集查看器预设。Adobe Dynamic Media Classic为每种富媒体类型提供了默认的查看器预设。 使用“缩放查看器: 自定义 > 图像集/颜色样本”预设查看您的样本集。
 
-另請參閱 [建立和編輯檢視器預設集](application-setup.md#adding-and-editing-viewer-presets).
+参见 [创建和编辑查看器预设](application-setup.md#adding-and-editing-viewer-presets).
 
-## 4.預覽色票集
+## 4.预览样本集
 
-在「瀏覽」面板中選取「色票集」，然後選取 **[!UICONTROL 預覽]**. 您的色票集會顯示在此頁面中。 選取縮圖和色票圖示，以便在選取的檢視器中檢查色票集。 可以从“预设”菜单中选择不同的查看器。
+在“浏览”面板中选择样本集，然后选择 **[!UICONTROL 预览]**. 您的样本集将显示在此页面中。 选择缩略图和样本图标，以便您可以在选定的查看器中检查样本集。 可以从“预设”菜单中选择不同的查看器。
 
-另請參閱 [預覽資產](previewing-asset.md#previewing-an-asset).
+参见 [预览资源](previewing-asset.md#previewing-an-asset).
 
-## 5.發佈色票集
+## 5.发布样本集
 
-發佈色票集時會將其置於Adobe Dynamic Media Classic伺服器上並啟動URL字串。
+发布样本集会将其放在Adobe Dynamic Media Classic服务器上并激活URL字符串。
 
-選取 **[!UICONTROL 標籤為發佈]** 圖示加以識別，並加以識別。 然後，選取 **[!UICONTROL 發佈]**. 在發佈頁面上，選取 **[!UICONTROL 提交發佈]**.
+选择 **[!UICONTROL 标记为发布]** 图标（其名称左侧）。 然后，选择 **[!UICONTROL Publish]**. 在发布页面上，选择 **[!UICONTROL 提交发布]**.
 
-另請參閱 [發佈檔案](publishing-files.md#publishing-files).
+参见 [发布文件](publishing-files.md#publishing-files).
 
-## 6.將色票集連結至網頁
+## 6.将样本集链接到网页
 
-Adobe Dynamic Media Classic會為色票集建立URL呼叫，並在您發佈後啟用。 您可以從預覽頁面複製這些URL。
+Adobe Dynamic Media Classic为样本集创建URL调用，并在您发布后激活它们。 您可以从“预览”页面复制这些URL。
 
-选择“样本集”，然后选择“预览”按钮。「預覽」頁面隨即開啟。 选择一个样本集查看器预设，然后选择“复制 URL”按钮。另請參閱 [將色票集連結至網頁](linking-swatch-set-web-page.md#linking-a-swatch-set-to-a-web-page).
+选择“样本集”，然后选择“预览”按钮。将打开“预览”页面。 选择一个样本集查看器预设，然后选择“复制 URL”按钮。参见 [将样本集链接到网页](linking-swatch-set-web-page.md#linking-a-swatch-set-to-a-web-page).

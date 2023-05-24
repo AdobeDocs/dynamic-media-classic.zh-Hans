@@ -1,6 +1,6 @@
 ---
-title: 在「瀏覽」面板中檢視資產
-description: 瞭解如何使用「瀏覽」面板來檢視Adobe Dynamic Media Classic中的資產。
+title: 在“浏览”面板中查看资源
+description: 了解如何使用“浏览”面板查看Adobe Dynamic Media Classic中的资源。
 uuid: 677b1838-0bbe-4922-92a5-6e7d9030edb9
 contentOwner: Rick Brough
 content-type: reference
@@ -17,15 +17,15 @@ ht-degree: 26%
 
 ---
 
-# 在「瀏覽」面板中檢視資產{#viewing-assets-in-the-browse-panel}
+# 在“浏览”面板中查看资源{#viewing-assets-in-the-browse-panel}
 
 可以通过选择“视图”按钮来更改浏览面板中的资源视图：
 
-* **格點檢視**  — 在Adobe Dynamic Media Classic畫面的右上角附近，選取 **[!UICONTROL 格點檢視]** 圖示以在格線的縮圖表單中檢視資產。 在「格點檢視」中，您可以拖曳「縮圖」滑桿來變更縮圖影像的大小。
+* **网格视图**  — 在Adobe Dynamic Media Classic屏幕的右上角附近，选择 **[!UICONTROL 网格视图]** 图标以查看网格中缩略图形式的资产。 在“网格视图”中，您可以拖动“缩略图”滑块以更改缩略图图像的大小。
 
-* **清單檢視**  — 在Adobe Dynamic Media Classic畫面的右上角附近，選取 **[!UICONTROL 清單檢視]** 圖示以檢視清單中的資產。 列表会显示每个资源的名称、类型、创建日期和最后修改日期。根據您所使用的資產型別，您也會獲得其他資訊。 例如，可以看到图像的尺寸和文件大小。
+* **列表视图**  — 在Adobe Dynamic Media Classic屏幕的右上角附近，选择 **[!UICONTROL 列表视图]** 图标以查看列表中的资产。 列表会显示每个资源的名称、类型、创建日期和最后修改日期。根据您使用的资源类型，您还可以获得其他信息。 例如，可以看到图像的尺寸和文件大小。
 
-* **詳細資料檢視**  — 選取資產。 在Adobe Dynamic Media Classic畫面的右上角附近，選取 **[!UICONTROL 詳細資料檢視]** 圖示以在「詳細資料檢視」中檢查資產。 您也可以連按兩下資產，或選取該資產並前往 **[!UICONTROL 檔案]** > **[!UICONTROL 詳細資料]** 以在「詳細資料檢視」中檢視。 如果您的管理員已指定「顯示URL」偏好設定，則「詳細資料檢視」中會顯示所有資產的URL；不過，URL只有在資產發佈後才會啟用。
+* **详细信息视图**  — 选择资源。 在Adobe Dynamic Media Classic屏幕的右上角附近，选择 **[!UICONTROL 详细信息视图]** 图标以在“详细信息视图”中检查资产。 您还可以双击某个资源或将其选中并转到 **[!UICONTROL 文件]** > **[!UICONTROL 详细信息]** 以在“详细信息”视图中查看。 如果您的管理员指定了“显示URL”首选项，则“详细信息视图”中将显示所有资产的URL；但是，只有在资产发布后，URL才会处于活动状态。
 
 >[!TIP]
 >

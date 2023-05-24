@@ -1,6 +1,6 @@
 ---
-title: 登入和登出Adobe Dynamic Media Classic
-description: 瞭解如何登入和登出Adobe Dynamic Media Classic，以及連線到北美洲(NA)或歐洲、中東、非洲(EMEA)或亞太(APAC)的生產環境伺服器。
+title: 登录和退出Adobe Dynamic Media Classic
+description: 了解如何登录和退出Adobe Dynamic Media Classic以及连接到北美洲(NA)或欧洲、中东、非洲(EMEA)或亚太(APAC)的生产环境服务器。
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -17,34 +17,34 @@ ht-degree: 6%
 
 <!-- UPDATE THIS TOPIC AFTER DECEMBER 31, 2020!!!!! -->
 
-# 登入Adobe Dynamic Media Classic {#dmc-sign-in}
+# 登录到Adobe Dynamic Media Classic {#dmc-sign-in}
 
-使用Adobe Dynamic Media Classic案頭應用程式之前，請確定您具備下列條件：
+在使用Adobe Dynamic Media Classic桌面应用程序之前，请确保您具备以下条件：
 
-* **使用者名稱**  — 使用您的電子郵件地址作為登入名稱。
+* **用户名**  — 使用电子邮件地址作为登录名。
 
-* **密碼**  — 您會透過「歡迎」電子郵件，從Adobe Dynamic Media Classic或Adobe Dynamic Media Classic管理員取得臨時密碼。 您第一次登录时，会提示您更改此临时密码。
+* **密码**  — 通过“欢迎”电子邮件，您可以从Adobe Dynamic Media Classic或Adobe Dynamic Media Classic管理员处获取临时密码。 您第一次登录时，会提示您更改此临时密码。
 
-1. 開啟Adobe Dynamic Media Classic案頭應用程式。
+1. 打开Adobe Dynamic Media Classic桌面应用程序。
 
-   ![Adobe Dynamic Media Classic登入](/help/assets/dmclassic-login1.png)
+   ![Adobe Dynamic Media Classic登录](/help/assets/dmclassic-login1.png)
 
-1. 在 **[!UICONTROL 使用者名稱]** 欄位，輸入您的電子郵件地址。
-1. 在 **[!UICONTROL 密碼]** 欄位，輸入密碼。
-1. 在 **[!UICONTROL 伺服器]** 從下拉式清單中選取伺服器。
-使用以下對應來選取您要使用的生產環境。
+1. 在 **[!UICONTROL 用户名]** 字段中，输入您的电子邮件地址。
+1. 在 **[!UICONTROL 密码]** 字段中，键入密码。
+1. 在 **[!UICONTROL 服务器]** 从下拉列表中，选择服务器。
+使用以下映射选择要使用的生产环境。
 
-   | 瀏覽器URL | 案頭應用程式伺服器名稱 |
+   | 浏览器URL | 桌面应用服务器名称 |
    | --- | --- |
-   | https://s7sps1.scene7.com/ | NA （北美）生產 |
-   | https://s7sps3.scene7.com/ | EMEA （歐洲、中東和非洲）生產 |
-   | https://s7sps5.scene7.com/ | APAC （亞太）生產 |
+   | https://s7sps1.scene7.com/ | NA （北美洲）生产 |
+   | https://s7sps3.scene7.com/ | EMEA（欧洲、中东和非洲）生产 |
+   | https://s7sps5.scene7.com/ | APAC（亚太）生产 |
 
-1. 選取 **[!UICONTROL 登入]**.
+1. 选择 **[!UICONTROL 登录]**.
 
-## 登出Adobe Dynamic Media Classic {#dmc-sign-out}
+## 从Adobe Dynamic Media Classic注销 {#dmc-sign-out}
 
-1. 在Adobe Dynamic Media Classic案頭應用程式的右上角，選取「 」 **[!UICONTROL 登出]**，然後選取 **[!UICONTROL 登出]** 再來一次。
+1. 在Adobe Dynamic Media Classic桌面应用程序的右上角，选择 **[!UICONTROL 注销]**，然后选择 **[!UICONTROL 注销]** 再来一次。
 
 >[!MORELIKETHIS]
 >

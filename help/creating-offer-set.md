@@ -1,6 +1,6 @@
 ---
-title: 建立優惠方案集
-description: 瞭解如何在Adobe Dynamic Media Classic中建立優惠方案集。
+title: 创建选件集
+description: 了解如何在Adobe Dynamic Media Classic中创建优惠集。
 uuid: 6d6a4af9-70c0-4cfa-9a8f-855d6adfcc8f
 contentOwner: Rick Brough
 content-type: reference
@@ -17,7 +17,7 @@ ht-degree: 35%
 
 ---
 
-# 建立優惠方案集 {#creating-an-offer-set}
+# 创建选件集 {#creating-an-offer-set}
 
 您可以创建以下任意类型的优惠套餐：
 
@@ -25,64 +25,64 @@ ht-degree: 35%
 * 参数化模板
 * 图像
 
-對於範本，請選取 **[!UICONTROL 新增並預覽]**，然後設定您選擇的引數。 其他選件集型別不包含引數，但您仍可以透過選取來自訂引數 **[!UICONTROL 預覽]** 以及變更可用的預設集。
+对于模板，选择 **[!UICONTROL 添加并预览]**，然后设置您选择的参数。 其他选件集类型不包括参数，但您仍然可以通过选择来自定义它们 **[!UICONTROL 预览]** 并更改可用的预设。
 
-Adobe Dynamic Media Classic提供編輯和建立優惠方案集的工具。
+Adobe Dynamic Media Classic提供了用于编辑和创建选件集的工具。
 
 >[!NOTE]
 >
->建立優惠方案集之前，請務必先發佈您打算用於優惠方案集的所有資產，並設為Adobe Dynamic Media Classic。 请参阅[手动发布资源](publishing-files.md#manually_publishing_assets)和[手动取消发布资源](publishing-files.md#manually_unpublishing_assets)。
+>在创建选件集之前，请确保将您打算用于选件集的所有资源发布到Adobe Dynamic Media Classic。 请参阅[手动发布资源](publishing-files.md#manually_publishing_assets)和[手动取消发布资源](publishing-files.md#manually_unpublishing_assets)。
 
 ## 优惠套餐的类型 {#types-of-offer-sets}
 
 从以下类型的优惠套餐创建一种优惠套餐：
 
-* **影像**  — 您可以組合優惠方案集的影像。 每個影像在集中包含不同的選件。
+* **图像**  — 您可以为选件集组合图像。 每个图像在集中都包含不同的选件。
 
-* **影像範本**  — 您可以在Adobe Dynamic Media Classic中使用將影像範本引數化 **[!UICONTROL 建置]** >範本基本概念指令。 通过参数，可换出及自定义模板的各组成部分（文本框架中的文本、不同的图像）。对于优惠套餐，举例来说，您可以使用模板参数在优惠套餐中的同一图像上创建变型。如需建立及引數化影像範本的相關資訊，請參閱 [建立範本引數](creating-template-parameters.md#creating_template_parameters).
+* **图像模板**  — 在Adobe Dynamic Media Classic中，可以使用以下参数将图像模板参数化： **[!UICONTROL 生成]** >模板基础知识命令。 通过参数，可换出及自定义模板的各组成部分（文本框架中的文本、不同的图像）。对于优惠套餐，举例来说，您可以使用模板参数在优惠套餐中的同一图像上创建变型。有关创建和参数化图像模板的信息，请参阅 [创建模板参数](creating-template-parameters.md#creating_template_parameters).
 
-另請參閱 [範本基本需知](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/553_Template%20Basics_converted%20renamed_Dynamic%20Banners-AVS) 訓練影片。
+另请参阅 [模板基础知识](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/553_Template%20Basics_converted%20renamed_Dynamic%20Banners-AVS) 训练视频。
 
-* **視訊**  — 您可以為選件集組合視訊。 每个视频是套餐中的一个不同优惠。
+* **视频**  — 您可以为选件集组合视频。 每个视频是套餐中的一个不同优惠。
 
-## 使用引數化範本建立優惠方案集 {#creating-an-offer-set-with-a-parameterized-template}
+## 使用参数化模板创建选件集 {#creating-an-offer-set-with-a-parameterized-template}
 
 在创建优惠套餐时，“**[!UICONTROL 保存后发布]**”选项按以下方式影响集和集成员：
 
-| **[!UICONTROL 儲存後發佈]** 是否已在儲存前選取選項？ | 保存后的集状态 | 保存后的集成员状态 |
+| **[!UICONTROL 保存后发布]** 是否保存前已选择选项？ | 保存后的集状态 | 保存后的集成员状态 |
 | --- | --- | --- |
 | 是 | 已发布 | 已发布 |
 | 否 | 未发布 | 集成员保持其已发布或未发布状态。 |
 
 另请参阅[手动发布资源](publishing-files.md#manually_publishing_assets)和[手动取消发布资源](publishing-files.md#manually_unpublishing_assets)。
 
-**使用引數化範本建立優惠方案集：**
+**要使用参数化模板创建选件集，请执行以下操作：**
 
-1. 選取範本或橫幅。
-1. 前往 **[!UICONTROL 建置]** > **[!UICONTROL Test&amp;Target選件集]**.
+1. 选择模板或横幅。
+1. 转到 **[!UICONTROL 生成]** > **[!UICONTROL Test&amp;Target选件集]**.
 
-   Test&amp;Target選件集頁面會列出選件集中的選件。 列表中的第一项是对象。
+   Test&amp;Target选件集页面列出选件集中的选件。 列表中的第一项是对象。
 
-1. 選取物件並選取 **[!UICONTROL 新增並預覽]**.
+1. 选择对象并选择 **[!UICONTROL 添加并预览]**.
 
    此页面的左侧将列出模板中的参数和参数值。
 
 1. 更改参数值以创建优惠。例如，在文本字段中输入不同文本、更改图层大小、用一个图像交换另一个图像或者选择不同的查看器预设。
-1. 選取 **[!UICONTROL 儲存]** 或 **[!UICONTROL 另存新檔**]** 將優惠儲存為優惠方案集的一部分。
+1. 选择 **[!UICONTROL 保存]** 或 **[!UICONTROL 另存为**]** 以将选件另存为选件集的一部分。
 
-   「Test&amp;Target選件集」頁面會列出您建立的選件。
+   “Test&amp;Target选件集”页面列出了您创建的选件。
 
 1. 重复步骤 3 到 5 为套餐创建更多优惠。
-1. 完成時（在頁面的右下角附近），請確定 **[!UICONTROL 儲存後發佈*]** 已選取（預設）。
-1. 選取 **[!UICONTROL 關閉]**，輸入優惠方案集的名稱，然後選取 **[!UICONTROL 儲存]**.
+1. 完成后，在页面的右下角附近，请确保 **[!UICONTROL 保存后发布*]** 已选中（默认）。
+1. 选择 **[!UICONTROL 关闭]**，输入选件集的名称，然后选择 **[!UICONTROL 保存]**.
 
-在關閉Test&amp;Target選件集頁面之前，請將選件集推送至Adobe Target Standard/Premium。 另請參閱 [將優惠方案集推送到Test&amp;Target](pushing-offer-sets-target.md#pushing_offer_sets_to_target).
+在关闭“Test&amp;Target选件集”页面之前，请将选件集推送到Adobe Target Standard/Premium。 参见 [将选件集推送到Test&amp;Target](pushing-offer-sets-target.md#pushing_offer_sets_to_target).
 
-## 使用影像或影片建立優惠方案集 {#creating-an-offer-set-with-images-or-videos}
+## 创建包含图像或视频的选件集 {#creating-an-offer-set-with-images-or-videos}
 
 在创建优惠套餐时，“**[!UICONTROL 保存后发布]**”选项按以下方式影响集和集成员：
 
-| **[!UICONTROL 儲存後發佈]** 是否已在儲存前選取選項？ | 保存后的集状态 | 保存后的集成员状态 |
+| **[!UICONTROL 保存后发布]** 是否保存前已选择选项？ | 保存后的集状态 | 保存后的集成员状态 |
 | --- | --- | --- |
 | 是 | 已发布 | 已发布 |
 | 否 | 未发布 | 集成员保持其已发布或未发布状态。 |
@@ -91,29 +91,29 @@ Adobe Dynamic Media Classic提供編輯和建立優惠方案集的工具。
 
 **使用图像或视频创建优惠套餐:**
 
-1. 組合優惠方案集的影像或影片。 在「Test&amp;Target選件集」畫面或「格線檢視」或「清單檢視」中啟動，然後使用下列其中一種方法：
+1. 为选件集组合图像或视频。 在Test&amp;Target选件集屏幕或网格视图或列表视图中启动，然后使用以下方法之一：
 
-   * **Test&amp;Target選件集畫面**  — 前往 **[!UICONTROL 建置]** > **[!UICONTROL Test&amp;Target選件集]**. 将图像或视频拖到屏幕上。要创建大小不同的视频或图像，请拖入图像或视频的多个副本，然后逐个设置每个大小。
+   * **Test&amp;Target选件集屏幕**  — 转到 **[!UICONTROL 生成]** > **[!UICONTROL Test&amp;Target选件集]**. 将图像或视频拖到屏幕上。要创建大小不同的视频或图像，请拖入图像或视频的多个副本，然后逐个设置每个大小。
 
-   * **格點檢視或清單檢視**  — 選取影像或影片，然後前往 **[!UICONTROL 建置]** > **[!UICONTROL Test&amp;Target選件集]**.
+   * **网格视图或列表视图**  — 选择图像或视频，然后转到 **[!UICONTROL 生成]** > **[!UICONTROL Test&amp;Target选件集]**.
 
-1. 或者，選取影像或視訊，然後選取 **[!UICONTROL 預覽]**. 在「預覽選件」頁面上，您可以變更所選影像或視訊的大小和外觀。 或者，您也可以變更選件集中的所有影像或影片。
+1. （可选）选择图像或视频，然后选择 **[!UICONTROL 预览]**. 在“预览选件”页面上，您可以更改所选图像或视频的大小和外观。 或者，您也可以更改选件集中的所有图像或视频。
 
    * 选择预设以更改图像或视频的外观和大小。
-   * 若要將您選擇的預設集套用至選件集中的所有選件，請選取 **[!UICONTROL 選取預設集至全部]** 核取方塊。
+   * 要将您选择的预设应用于选件集中的所有选件，请选择 **[!UICONTROL 全选预设]** 复选框。
 
-   選取 **[!UICONTROL 儲存]** 以儲存您對影像或視訊選件所做的變更。 然後選取 **[!UICONTROL 關閉]** 返回Test&amp;Target選件集頁面。
+   选择 **[!UICONTROL 保存]** 以将更改保存到图像或视频选件。 然后选择 **[!UICONTROL 关闭]** 以返回Test&amp;Target选件集页面。
 
-1. 完成建立選件集的選件並選擇不同影像的影像預設集後，請確定 **[!UICONTROL 儲存後發佈]** 已選取（預設）。
-1. 選取 **[!UICONTROL 儲存]** 並輸入優惠方案集的名稱，然後選取 **[!UICONTROL 儲存]**.
+1. 在为选件集创建选件并为不同图像选择图像预设后，请确保 **[!UICONTROL 保存后发布]** 已选中（默认）。
+1. 选择 **[!UICONTROL 保存]** 并输入选件集的名称，然后选择 **[!UICONTROL 保存]**.
 
-在關閉Test&amp;Target選件集頁面之前，請將選件集推送至Adobe Target Standard/Premium。 另請參閱 [將優惠方案集推送到Test&amp;Target](pushing-offer-sets-target.md#pushing_offer_sets_to_target).
+在关闭“Test&amp;Target选件集”页面之前，请将选件集推送到Adobe Target Standard/Premium。 参见 [将选件集推送到Test&amp;Target](pushing-offer-sets-target.md#pushing_offer_sets_to_target).
 
-## 編輯優惠方案集 {#editing-an-offer-set}
+## 编辑选件集 {#editing-an-offer-set}
 
-無論您是編輯已發佈集還是未發佈集， **[!UICONTROL 儲存後發佈]** 選項會以下列方式影響設定和設定成員：
+无论您是编辑已发布集还是未发布集， **[!UICONTROL 保存后发布]** 选项会以下列方式影响集和集成员：
 
-| 是否已发布集？ | **[!UICONTROL 儲存後發佈]** 在儲存編輯之前是否已選取選項？ | 保存后的集状态 | 保存后的集成员状态 |
+| 是否已发布集？ | **[!UICONTROL 保存后发布]** 在保存编辑之前是否选择了选项？ | 保存后的集状态 | 保存后的集成员状态 |
 | --- | --- | --- | --- |
 | 是 | 是 | 已发布 | 已发布 |
 | 是 | 否 | 已发布 | 现有的集成员保持其已发布状态。在编辑期间添加的任何新的集成员保持其已发布或未发布状态。 |
@@ -122,33 +122,33 @@ Adobe Dynamic Media Classic提供編輯和建立優惠方案集的工具。
 
 另请参阅[手动发布资源](publishing-files.md#manually_publishing_assets)和[手动取消发布资源](publishing-files.md#manually_unpublishing_assets)。
 
-**若要編輯優惠方案集：**
+**要编辑选件集，请执行以下操作：**
 
-1. 若要編輯選件集，請在「網格檢視」或「清單檢視」中顯示選件集，然後選取其 **[!UICONTROL 編輯]** 滑鼠指向效果按鈕。
-1. 在「Test&amp;Target選件集」頁面中，執行下列任一項作業：
+1. 要编辑选件集，请在网格视图或列表视图中显示选件集，然后选择其 **[!UICONTROL 编辑]** 变换按钮。
+1. 在Test&amp;Target选件集页面中，执行以下任一操作：
 
-   * **移除優惠方案**  — 選取選件，然後選取 **[!UICONTROL 刪除]** 以從選件集移除選件。
-   * **新增優惠方案**  — 新增優惠的方式取決於您使用的優惠方案集型別：
-      * **範本**  — 選取 **[!UICONTROL 新增並預覽]**，並在新增和預覽選件頁面上，建立其他選件。
-      * **影像和影片**  — 將影像或視訊拖曳至Test&amp;Target選件集頁面。
+   * **删除选件**  — 选择选件，然后选择 **[!UICONTROL 删除]** 以从选件集中删除选件。
+   * **添加选件**  — 如何添加优惠取决于您使用的优惠集类型：
+      * **模板**  — 选择 **[!UICONTROL 添加并预览]**，并在添加和预览选件页面上，创建另一个选件。
+      * **图像和视频**  — 将图像或视频拖到Test&amp;Target选件集页面上。
 
    >[!NOTE]
    >
-   >您无法删除与某个活动相关联的优惠套餐。若要刪除與行銷活動相關聯的優惠方案集，請先登入Adobe Target Standard/Premium並移除行銷活動關聯。 即使在與行銷活動解除關聯後，資產也只能從Adobe Dynamic Media Classic中刪除，這要求登入Adobe Target Standard/Premium，而不是從Adobe Target Standard/Premium中登入。
+   >您无法删除与某个活动相关联的优惠套餐。要删除与促销活动关联的选件集，请先登录Adobe Target Standard/Premium并删除促销活动关联。 即使在与营销活动取消关联后，也只能从Adobe Dynamic Media Classic中删除资产，这需要登录到Adobe Target Standard/Premium，而不能从Adobe Target Standard/Premium中删除。
 
-1. 當您完成編輯時（在頁面的右下角附近），請確定 **[!UICONTROL 儲存後發佈]** 已選取（預設）。
-1. 選取 **[!UICONTROL 儲存]**，選取儲存資料夾，輸入集名稱，然後選取 **[!UICONTROL 儲存]**.
+1. 完成编辑后，在页面的右下角附近，请确保 **[!UICONTROL 保存后发布]** 已选中（默认）。
+1. 选择 **[!UICONTROL 保存]**，选择一个存储文件夹，输入该集的名称，然后选择 **[!UICONTROL 保存]**.
 
-## 刪除優惠方案集 {#deleting-an-offer-set}
+## 删除选件集 {#deleting-an-offer-set}
 
 在删除优惠套餐时，套餐本身将移到垃圾桶中。不过，集中的成员（或“子项”）不受影响；它们分别保持现有的已发布或未发布状态。
 
 另请参阅[手动发布资源](publishing-files.md#manually_publishing_assets)和[手动取消发布资源](publishing-files.md#manually_unpublishing_assets)。
 
-**若要刪除優惠方案集：**
+**要删除选件集，请执行以下操作：**
 
-1. 在「網格檢視」、「清單檢視」或「詳細資料檢視」中，選取一個或多個選件集。
-1. 在全域導覽列上，前往 **[!UICONTROL 檔案]** > **[!UICONTROL 刪除]** > **刪除**.
+1. 在“网格视图”、“列表视图”或“详细信息视图”中，选择一个或多个选件集。
+1. 在全局导航栏上，转到 **[!UICONTROL 文件]** > **[!UICONTROL 删除]** > **删除**.
 
 >[!MORELIKETHIS]
 >

@@ -1,6 +1,6 @@
 ---
-title: 發佈混合媒體集
-description: 瞭解如何從Adobe Dynamic Media Classic發佈混合媒體集。
+title: 发布混合媒体集
+description: 了解如何从Adobe Dynamic Media Classic发布混合媒体集。
 uuid: 4172347c-7bb3-468d-bda2-fd1c26ccab85
 contentOwner: Rick Brough
 content-type: reference
@@ -17,15 +17,15 @@ ht-degree: 31%
 
 ---
 
-# 發佈混合媒體集{#publishing-a-mixed-media-set}
+# 发布混合媒体集{#publishing-a-mixed-media-set}
 
-建立發佈工作，以發佈您已標示要發佈至Adobe Dynamic Media Classic Video Server和Image Server的混合媒體集。 Adobe Dynamic Media Classic提供進階發佈選項，可發佈至特定伺服器，以及重新發佈已發佈資產的選項。
+创建发布作业以发布已标记为发布到Adobe Dynamic Media Classic Video Server和Image Server的混合媒体集。 Adobe Dynamic Media Classic提供高级发布选项以发布到特定服务器，并提供重新发布已发布资产的选项。
 
 >[!NOTE]
 >
->混合媒体集要求同时发布到&#x200B;**视频服务器**&#x200B;和&#x200B;**图像服务器**。使用&#x200B;**视频服务器**&#x200B;发布已标记为发布的实际视频。而且，您會使用 **影像伺服器** 以發佈相關資產（例如視訊縮圖），並為任何最適化視訊集設定資訊。
+>混合媒体集要求同时发布到&#x200B;**视频服务器**&#x200B;和&#x200B;**图像服务器**。使用&#x200B;**视频服务器**&#x200B;发布已标记为发布的实际视频。并且，您使用 **图像服务器** 发布相关资产（如视频缩略图），并为任何自适应视频集设置信息。
 
-Adobe Dynamic Media Classic會在「工作」畫面上追蹤發佈工作。
+Adobe Dynamic Media Classic在“作业”屏幕上跟踪发布作业。
 
 请参阅[发布](publishing-files.md#publishing_files)。
 
@@ -43,20 +43,20 @@ Last Modified Date:
 
 1. 执行以下任一操作：
 
-   * 在「瀏覽」面板中，選取 **[!UICONTROL 標籤為發佈]** ，位於您要發佈的每個檔案名稱旁。
-   * 在上傳畫面中，選取 **[!UICONTROL 標籤為發佈]** ，位於您要發佈的每個檔案名稱旁。
+   * 在浏览面板中，选择 **[!UICONTROL 标记为发布]** ，位于要发布的每个文件名旁边。
+   * 在上传屏幕中，选择 **[!UICONTROL 标记为发布]** ，位于要发布的每个文件名旁边。
 
-1. 在全域導覽列上，選取 **[!UICONTROL 發佈]**.
-1. 設定您想要的排程選項。
+1. 在全局导航栏上，选择 **[!UICONTROL Publish]**.
+1. 设置所需的计划选项。
 1. （可选）在“**[!UICONTROL 作业名称]**”字段中，输入发布作业的名称。
 1. 在“**[!UICONTROL 高级]**”选项的“**[!UICONTROL 发布至]**”下拉列表中，选择“**[!UICONTROL 视频服务器]**”。
 
-   另請參閱 [進階發佈選項](publishing-files.md#advanced_publish_options) 如需更多可設定的選項。
+   参见 [高级发布选项](publishing-files.md#advanced_publish_options) 有关更多选项，您可以设置。
 
-1. 選取 **[!UICONTROL 提交發佈]**.
+1. 选择 **[!UICONTROL 提交发布]**.
 1. 重复上述步骤 2 到步骤 4。
 1. 在“**[!UICONTROL 高级]**”的“**[!UICONTROL 发布至]**”下拉列表中，选择“**[!UICONTROL 图像服务器]**”。
 
-   另請參閱 [進階發佈選項](publishing-files.md#advanced_publish_options) 如需更多可設定的選項。
+   参见 [高级发布选项](publishing-files.md#advanced_publish_options) 有关更多选项，您可以设置。
 
-1. 選取 **[!UICONTROL 提交發佈]**.
+1. 选择 **[!UICONTROL 提交发布]**.

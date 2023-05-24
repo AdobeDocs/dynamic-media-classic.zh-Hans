@@ -1,6 +1,6 @@
 ---
 title: 新增功能
-description: 透過目前的版本注意事項瞭解新的Adobe Dynamic Media Classic。
+description: 通过最新发行说明了解Adobe Dynamic Media Classic的新增功能。
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -17,4 +17,4 @@ ht-degree: 3%
 
 # 新增功能 {#what-s-new}
 
-若要檢閱最新Adobe Dynamic Media Classic發行資訊，包括新功能、增強功能和修正，請參閱 [Adobe Dynamic Media Classic發行說明](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/release-notes/s7rn2017.html).
+要查看最新的Adobe Dynamic Media Classic发行信息，包括新增功能、增强功能和修复，请参阅 [Adobe Dynamic Media Classic发行说明](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/release-notes/s7rn2017.html).

@@ -1,6 +1,6 @@
 ---
-title: 將優惠方案集推送到Adobe Target Standard/Premium
-description: 瞭解如何從Adobe Dynamic Media Classic將優惠方案集推送到Adobe Target Standard/Premium。
+title: 将选件集推送到Adobe Target Standard/Premium
+description: 了解如何从Adobe Dynamic Media Classic将选件集推送到Adobe Target Standard/Premium。
 uuid: 8c895a7c-21b4-4d85-8b0b-a3d2a420bf2e
 contentOwner: Rick Brough
 content-type: reference
@@ -17,14 +17,14 @@ ht-degree: 0%
 
 ---
 
-# 將優惠方案集推送到Adobe Target Standard/Premium {#pushing-offer-sets-to-target}
+# 将选件集推送到Adobe Target Standard/Premium {#pushing-offer-sets-to-target}
 
-建立或編輯優惠方案集後，請依照以下步驟將其推送到Adobe Target Standard/Premium：
+创建或编辑选件集后，按照以下步骤将其推送到Adobe Target Standard/Premium：
 
-1. 在Test&amp;Target選件集畫面中，選取 **[!UICONTROL 推送優惠方案]**.
-1. 輸入您的使用者端代碼和登入認證。
-1. 選取 **[!UICONTROL 登入]**.
+1. 在Test&amp;Target选件集屏幕中，选择 **[!UICONTROL 推送优惠]**.
+1. 输入您的客户端代码和登录凭据。
+1. 选择 **[!UICONTROL 登录]**.
 
-在轉移至Adobe Target Standard/Premium期間，前置詞 `S7_` 會自動附加至優惠方案名稱的開頭。 前置詞旨在確保您可以在Test&amp;Target選件清單中輕鬆找到Adobe Dynamic Media Classic選件。 例如，選件會顯示為 `S7_<name of offer set>_<offer name>`.
+在转移到Adobe Target Standard/Premium的过程中，前缀 `S7_` 将自动附加到选件名称的开头。 附加此前缀是为了确保您可以在Test&amp;Target选件列表中轻松找到Adobe Dynamic Media Classic选件。 例如，选件显示为 `S7_<name of offer set>_<offer name>`.
 
-Adobe Dynamic Media Classic會推送至Adobe Target Standard/Premium Widget選件。 您可以在Adobe Target Standard/Premium以外使用Widget選件來託管您自己的選件內容。 Widget選件類似於Adobe Target Standard/Premium以外託管的標準選件。 它們可讓Adobe Target Standard/Premium部署儲存在伺服器上的選件內容，以便進行更精細的動態使用。 Widget選件可從URL擷取內容、快取該內容並提供約兩個小時的服務。 Widget提供一些動態內容產生功能，這是Adobe Target Standard/Preimium以外其他提供所沒有的功能。 如果提供選件的mbox包含mbox引數，例如 `mboxProductID` 和 `mbox.offerId`，則 `productId=[PRODUCT_ID]`和 `offerID=[OFFERID]` URL引數會附加至請求的URL。 這些引數可供Widget選件URL提供的服務使用，以傳回Adobe Target Standard/Premium以外使用您mbox之產品或訂單資訊的內容。 您也可以透過API存取Widget選件，以程式設計方式在Adobe Target Standard/Premium以外建立選件。
+Adobe Dynamic Media Classic推入Adobe Target Standard/Premium小组件选件。 您可以使用小组件选件在Adobe Target Standard/Premium之外托管您自己的选件内容。 构件选件类似于Adobe Target Standard/Premium以外托管的标准选件。 它们允许Adobe Target Standard/Premium部署存储在服务器上的选件内容，从而实现更复杂的动态使用。 构件选件可从URL检索内容，缓存并提供该内容约两小时。 小组件提供了一些Adobe Target Standard/Preimium之外的其他产品无法提供的动态内容生成功能。 如果提供选件的mbox包含mbox参数，例如 `mboxProductID` 和 `mbox.offerId`，则 `productId=[PRODUCT_ID]`和 `offerID=[OFFERID]` 将URL参数附加到请求的URL。 这些参数可由小组件选件URL上提供的服务使用，以返回使用mbox中的产品或订单信息的Adobe Target Standard/Premium以外的内容。 也可以通过API访问构件选件，以便在Adobe Target Standard/Premium之外以编程方式创建选件。

@@ -1,6 +1,6 @@
 ---
-title: 使用Adobe Analytics Instrumentation Kit檢測檢視器
-description: 瞭解如何使用Adobe Dynamic Media Classic中的Adobe Analytics Instrumentation Kit檢測檢視器。
+title: 使用Adobe Analytics检测工具包检测查看器
+description: 了解如何使用Adobe Dynamic Media Classic中的Adobe Analytics Instrumentation Kit检测查看器。
 uuid: cf9a4002-966d-4641-9cd0-2ee8b5454f60
 contentOwner: Rick Brough
 content-type: reference
@@ -17,32 +17,32 @@ ht-degree: 20%
 
 ---
 
-# 使用Adobe Analytics Instrumentation Kit檢測檢視器{#instrumenting-a-viewer-using-the-adobe-analytics-instrumentation-kit}
+# 使用Adobe Analytics检测工具包检测查看器{#instrumenting-a-viewer-using-the-adobe-analytics-instrumentation-kit}
 
-您可以使用Adobe Analytics Instrumentation Kit將HTML5檢視器與Adobe Analytics整合。
+您可以使用Adobe Analytics Instrumentation Kit将HTML5查看器与Adobe Analytics集成。
 
-如果您使用任何預先定義的Adobe Dynamic Media Classic HTML5檢視器預設集，這些預設集已包含所有用於傳送資料至Adobe Analytics的實作程式碼；您不需要進一步檢測。
+如果您使用任何预定义的Adobe Dynamic Media ClassicHTML5查看器预设，则这些预设中已包含所有用于向Adobe Analytics发送数据的实现代码；您无需进一步检测。
 
-## 從Adobe Dynamic Media Classic設定Adobe Analytics追蹤 {#set-up-adobe-analytics-tracking-from-scene-publishing-system}
+## 从Adobe Dynamic Media Classic设置Adobe Analytics跟踪 {#set-up-adobe-analytics-tracking-from-scene-publishing-system}
 
-對於所有HTML5檢視器，將以下JavaScript新增至HTML容器，通常在 &lt;head> 元素：
+对于所有HTML5查看器，将以下JavaScript添加到HTML容器中，通常位于 &lt;head> 元素：
 
 ```as3
 <!-- ***** Adobe Analytics Tracking ***** --><script type="text/javascript" src="https://s7d6.scene7.com/s7viewers/s_code.jsp?company=<Adobe Dynamic Media Classic Company ID>&preset=companypreset-1"></script>
 ```
 
-位置 `Adobe Dynamic Media Classic Company ID` 設為Adobe Dynamic Media Classic公司名稱。 和 `&preset` 是選用專案，除非公司預設集名稱不是 `companypreset`. 在這種情況下，可能是 `companypreset-1, companypreset-2`、等等。 数字越大预设实例越新。若要判斷正確的公司預設值名稱，請選取「 」 **[!UICONTROL 複製URL]** ，然後檢視 `preset=`用於尋找公司預設集名稱的引數。
+位置 `Adobe Dynamic Media Classic Company ID` 设置为Adobe Dynamic Media Classic公司名称。 和 `&preset` 是可选的，除非公司预设名称不是 `companypreset`. 在这种情况下，它可以 `companypreset-1, companypreset-2`，等等。 数字越大预设实例越新。要确定正确的公司预设值名称，请选择 **[!UICONTROL 复制URL]** ，然后查看 `preset=`用于查找公司预设名称的参数。
 
-繼續進行，現在新增將檢視器事件傳輸至Adobe Analytics追蹤代碼的函式。
+继续，现在添加一个函数，用于将查看器事件传输到Adobe Analytics跟踪代码。
 
-新增 `s7ComponentEvent()` 容器HTML（或JSP、ASPX或其他）的函式：
+添加 `s7ComponentEvent()` 函数到容器HTML（或JSP、ASPX或其他）：
 
 ```as3
 function s7ComponentEvent(objectId, componentClass, instanceName, timeStamp, eventData) {     s7track(eventData); }
 ```
 
-函式名稱區分大小寫。 唯一傳遞至的引數 `s7componentEvent`最後一個要求為： `eventData`. 位置 `s7track()` 定義於上述包含的s_code.jsp中。 和 `s7track` 處理每個事件的所有追蹤。 （要进一步自定义传送到 Adobe Analytics 的数据，可以在该区域执行此操作。）
+函数名称区分大小写。 传递给的唯一参数 `s7componentEvent`最后一个选项是必需的： `eventData`. 位置 `s7track()` 是在上面包含的s_code.jsp中定义的。 和 `s7track` 处理每个事件的所有跟踪。 （要进一步自定义传送到 Adobe Analytics 的数据，可以在该区域执行此操作。）
 
-## 啟用HREF和ITEM事件 {#enabling-href-and-item-events}
+## 启用HREF和ITEM事件 {#enabling-href-and-item-events}
 
-可以通过图像映射编辑，在查看器中启用 HREF（变换）和 ITEM（鼠标单击/点按）事件。在与查看器内容关联的图像映射中定义 HREF 和 ITEM 标识符。新增 `&rolloverKey=` 引數對應影像地圖中的HREF值。
+可以通过图像映射编辑，在查看器中启用 HREF（变换）和 ITEM（鼠标单击/点按）事件。在与查看器内容关联的图像映射中定义 HREF 和 ITEM 标识符。添加 `&rolloverKey=` 参数到图像映射中的HREF值。

@@ -1,6 +1,6 @@
 ---
-title: ICC （國際色彩聯盟）設定檔
-description: 瞭解Adobe Dynamic Media Classic中的ICC設定檔。
+title: ICC（国际彩色联盟）用户档案
+description: 了解Adobe Dynamic Media Classic中的ICC配置文件。
 uuid: 708ff2ad-9a47-4e3e-b643-5b19648f726b
 contentOwner: Rick Brough
 content-type: reference
@@ -21,26 +21,26 @@ ht-degree: 54%
 
 ICC （国际色彩联盟）配置文件是描述如何正确地将图像文件从一个颜色空间转换到另一个颜色空间的文件。ICC 配置文件有助于为图像获取正确的颜色。例如，到正确地显示用于在计算机显示器上打印的图像，可以选择 ICC 配置文件。该配置文件将图像转换到不同的颜色空间并确保颜色正确地联机显示。
 
-在Adobe Dynamic Media Classic中，您可以選擇ICC設定檔，在上傳影像時將影像轉換為不同的色域。 Adobe Dynamic Media Classic預設提供所有標準Photoshop ICC設定檔。 要在“上载”屏幕中查看颜色配置文件的名称，请选择“颜色配置文件”菜单。然后选择“自定义从>到”，再从“转换至”和“转换到”菜单中选择 ICC 配置文件的名称。
+在Adobe Dynamic Media Classic中，您可以选择一个ICC配置文件，在上传图像时将图像转换为其他颜色空间。 默认情况下，所有标准Photoshop ICC配置文件在Adobe Dynamic Media Classic上都可用。 要在“上载”屏幕中查看颜色配置文件的名称，请选择“颜色配置文件”菜单。然后选择“自定义从>到”，再从“转换至”和“转换到”菜单中选择 ICC 配置文件的名称。
 
-另請參閱 [上傳時的影像編輯選項](image-editing-options-upload.md#image-editing-options-at-upload).
+参见 [上传时的图像编辑选项](image-editing-options-upload.md#image-editing-options-at-upload).
 
-除了使用預設的ICC設定檔之外，您還可以將其他ICC設定檔上傳到Adobe Dynamic Media Classic，並使其可用於色域轉換。 切換至「瀏覽」面板中的「詳細資料檢視」，以調查ICC設定檔的設定檔類別、色域型別和PCS型別。
+除了使用默认的ICC配置文件外，您还可以将其他ICC配置文件上传到Adobe Dynamic Media Classic，并使其可用于色彩空间转换。 在“浏览”面板中切换到“详细视图”以调查ICC配置文件的配置文件类、色彩空间类型和PCS类型。
 
-## 上傳ICC設定檔 {#uploading-icc-profiles}
+## 上传ICC配置文件 {#uploading-icc-profiles}
 
-通过与上载文件时所使用的技术相同的技术上载 ICC 配置文件。您可以將ICC設定檔儲存在任何Adobe Dynamic Media Classic資料夾中。
+通过与上载文件时所使用的技术相同的技术上载 ICC 配置文件。您可以将ICC配置文件存储在任何Adobe Dynamic Media Classic文件夹中。
 
-另請參閱 [上傳您的檔案](uploading-files.md#uploading_your_files).
+参见 [上传您的文件](uploading-files.md#uploading_your_files).
 
-## 檢查ICC設定檔 {#examining-an-icc-profile}
+## 检查ICC配置文件 {#examining-an-icc-profile}
 
-若要檢查ICC設定檔，請在「瀏覽」面板中選取該設定檔，並在「詳細資料檢視」中顯示它。 「詳細資料檢視」提供下列有關ICC設定檔的資訊：
+要检查ICC配置文件，请在“浏览”面板中选择它，然后在“详细信息视图”中显示它。 “详细信息视图”提供有关ICC配置文件的以下信息：
 
-* **[!UICONTROL 設定檔類別]** - ICC （國際色彩協會）定義每個類別以涵蓋應用程式型別。 例如，输入配置文件应用于数码相机和扫描仪等设备，输出配置文件应用于打印机。
+* **[!UICONTROL 配置文件类]** - ICC（国际彩色联盟）定义每个类别以涵盖一种类型的应用程序。 例如，输入配置文件应用于数码相机和扫描仪等设备，输出配置文件应用于打印机。
 
-* **[!UICONTROL 色域型別]**  — 此數字是設定檔的「輸入」色彩空間，如ICC所定義。 颜色空间类型定义颜色空间的组件的数量和对这些组件的解释。例如，RGB 是具有三个组件（红色、绿色和蓝色）的颜色空间。颜色空间类型不定义空间的特定颜色特征（例如，原色的色度）。
+* **[!UICONTROL 色彩空间类型]**  — 此数字是配置文件的“输入”颜色空间，由ICC定义。 颜色空间类型定义颜色空间的组件的数量和对这些组件的解释。例如，RGB 是具有三个组件（红色、绿色和蓝色）的颜色空间。颜色空间类型不定义空间的特定颜色特征（例如，原色的色度）。
 
-* **[!UICONTROL PCS型別]**  — 此PCS型別是設定檔的「輸出」色彩空間 — 其設定檔連線空間。 例如，颜色配置文件可以将 RGB 转换成 PCS，然后转化成 CMYK。
+* **[!UICONTROL PCS类型]**  — 此PCS类型是配置文件的“输出”颜色空间 — 其配置文件连接空间。 例如，颜色配置文件可以将 RGB 转换成 PCS，然后转化成 CMYK。
 
 对于有助于标记颜色或图像的输入、显示或输出配置文件，PCS 类型是 XYZ 或 Lab。将该配置文件解释成在 ICC 规范中定义的相应的特定颜色空间。
