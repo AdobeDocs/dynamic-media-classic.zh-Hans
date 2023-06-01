@@ -4,9 +4,9 @@ description: 升级自 [!DNL Adobe Dynamic Media Classic] 到 [!DNL Dynamic Medi
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 5e322d81-1303-494b-b5dd-df29b5c5d8e2
-source-git-commit: efe51280ac33579a8e690eb6483488eea9069159
+source-git-commit: 972e5d4f468f14bd40e970c989465a639fd5e6fb
 workflow-type: tm+mt
-source-wordcount: '560'
+source-wordcount: '559'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 0%
 | 轻松创作 | 无需技术帮助，即可快速构建、自定义和启动丰富的体验。 |
 | 直观界面 | 使用易于使用的WYSIWYG（所见即所得）界面编辑图像查看器和视频播放器。 |
 | 可购物媒体 | 使用图像热点和可点击链接创建可购物图像、视频和轮播。 |
-| 可扩展CDN | 访问同类最佳的内容交付网络(CDN) ，其规模和性能经验证，可满足任何需求。 |
+| 可扩展CDN（内容分发网络） | 使用经验证的规模和性能访问同类最佳的CDN，以满足任何需求。 |
 | Dynamic Imaging | 使用一个主文件，自动生成和发布无限版本，并更改大小、格式、分辨率、裁切或效果。 |
 | 动态视频 | 全尺寸视频可自动调整所有屏幕的大小，并自适应流式传输，以确保一致且高质量的用户体验。 |
 | 个性化 | 轻松构建和发布 [!DNL Dynamic Media] 交互式体验，如产品配置器、个性化横幅和电子邮件。 |
@@ -54,4 +54,4 @@ ht-degree: 0%
 * 在2016在线视频平台报告中表现突出。
 * Internet Retail 1000的顶级富媒体供应商，连续九年。
 * 24/7/265支持， 99.95%的SLA， Adobe Professional Services。
-* 为全球800多家客户提供成熟的基础架构，每月流量达3.5 PB，管理资产超过5亿，流量同比增长60%。
+* 为全球800多家客户提供成熟的基础架构，每月流量达3.5 PB，管理资产超过5亿项，流量同比增长60%。

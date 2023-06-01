@@ -8,7 +8,7 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_c
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 604b4630-4704-4254-84b5-91b33bb19d58
-source-git-commit: 43e0c03b535d30ffed13e1e389935e34563baa9e
+source-git-commit: 972e5d4f468f14bd40e970c989465a639fd5e6fb
 workflow-type: tm+mt
 source-wordcount: '2036'
 ht-degree: 1%
@@ -44,7 +44,7 @@ Adobe Dynamic Media Classic桌面应用程序中的升级通知不会为生成 *
 
 ## 最新版本(20.22.1)中的修复 {#release-jan2022}
 
-* 图像编辑 **[!UICONTROL 保存]** 按钮无法正常工作。
+* 编辑图像 **[!UICONTROL 保存]** 按钮无法正常工作。
 * 在Set编辑器中， **[!UICONTROL 关闭]**， **[!UICONTROL 保存]**、和 **[!UICONTROL 另存为]** 在中滚动资产后，按钮会变为禁用状态 **[!UICONTROL 添加资产]** 面板。
 * **[!UICONTROL 播放]** “视频详细信息”视图中的按钮不起作用。
 * 无法进入 `d` 和 `e` 在 **[!UICONTROL 用户名]** 和 **[!UICONTROL 密码]** 运行macOS Monterey时的字段。
@@ -89,7 +89,7 @@ Adobe Dynamic Media Classic桌面应用程序中的升级通知不会为生成 *
 另请参阅:
 
 * [在Mac上下载并静默安装最新的Adobe Dynamic Media Classic桌面应用程序](#install-silent-mac-dmc-app)
-* [在Windows®上下载并静默安装最新的Adobe Dynamic Media Classic桌面应用程序](#install-silent-windows-dmc-app)
+* [在Windows上下载并静默安装最新的Adobe Dynamic Media Classic桌面应用程序](#install-silent-windows-dmc-app)
 
 1. 在您的系统上卸载任何旧版Adobe Dynamic Media Classic桌面应用程序。
 
@@ -108,7 +108,7 @@ Adobe Dynamic Media Classic桌面应用程序中的升级通知不会为生成 *
 <!--         * [macOS (.DMG) - Download](https://download.macromedia.com/dynamic-media-classic/20.21.3/adobe-dynamic-media-classic-20.21.3.dmg) -->
 
 <!--    * [macOS (.DMG) - Download](https://download.macromedia.com/dynamic-media-classic/20.21.2/adobe-dynamic-media-classic-20.21.2.dmg)
-        * [Windows® (.EXE) - Download](https://download.macromedia.com/dynamic-media-classic/20.21.2/adobe-dynamic-media-classic-20.21.2.exe) -->
+        * [Windows&reg; (.EXE) - Download](https://download.macromedia.com/dynamic-media-classic/20.21.2/adobe-dynamic-media-classic-20.21.2.exe) -->
 
 <!--    * [macOS (.DMG) - Download.](https://download.macromedia.com/dynamic-media-classic/20.20.2/adobe-dynamic-media-classic-20.20.2.dmg)
         * [Windows (.EXE) - Download.](https://download.macromedia.com/dynamic-media-classic/20.20.2/adobe-dynamic-media-classic-20.20.2.exe) -->
@@ -147,8 +147,8 @@ Adobe Dynamic Media Classic桌面应用程序中的升级通知不会为生成 *
 
 另请参阅:
 
-* [在Mac或Windows上下载并安装最新的Adobe Dynamic Media Classic桌面应用程序®](#installation-dmc-app)
-* [在Windows®上下载并静默安装最新的Adobe Dynamic Media Classic桌面应用程序](#install-silent-windows-dmc-app)
+* [在Mac或Windows上下载并安装最新的Adobe Dynamic Media Classic桌面应用程序](#installation-dmc-app)
+* [在Windows上下载并静默安装最新的Adobe Dynamic Media Classic桌面应用程序](#install-silent-windows-dmc-app)
 
 要下载和 *静音* 在macOS上安装最新版本的Adobe Dynamic Media Classic桌面应用程序：
 
@@ -189,7 +189,7 @@ Adobe Dynamic Media Classic桌面应用程序中的升级通知不会为生成 *
 
 另请参阅:
 
-* [在Mac或Windows上下载并安装最新的Adobe Dynamic Media Classic桌面应用程序®](#installation-dmc-app)
+* [在Mac或Windows上下载并安装最新的Adobe Dynamic Media Classic桌面应用程序](#installation-dmc-app)
 
 * [在macOS上下载并静默安装最新的Adobe Dynamic Media Classic桌面应用程序](#install-silent-mac-dmc-app)
 

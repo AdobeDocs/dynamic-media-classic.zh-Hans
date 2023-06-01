@@ -4,9 +4,9 @@ description: 从升级时的常见问题解答(FAQ) [!DNL Adobe Dynamic Media Cl
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 5c2e2937-fe4f-4b64-bee8-9572ca84695b
-source-git-commit: efe51280ac33579a8e690eb6483488eea9069159
+source-git-commit: 972e5d4f468f14bd40e970c989465a639fd5e6fb
 workflow-type: tm+mt
-source-wordcount: '1540'
+source-wordcount: '1532'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 0%
 * 企业级数字资产管理，具有强大的元数据支持、智能搜索、灯箱和收藏集、版本控制以及安全的资产共享，以供供应商、合作伙伴和特许经销商使用在制品资产的审阅和批准工作流。
 * 易于采用和使用的新UI。
 * 使用可促进转化并丰富用户参与度和满意度的图像和视频，创建可购物/交互式媒体体验。
-* 将Campaign资产与产品信息相结合，以简化点击进入购物车的过程。
+* 通过结合促销活动资源和产品信息，简化点击进入购物车的过程。
 * 使用WYSIWYG查看器设计器轻松创建、调整、品牌和部署交互式查看器。
 * 将优化的富媒体投放到 [!DNL Experience Cloud] 解决方案。
 * 与集成 [!DNL Experience Cloud] 用于跨营销接触点进行高级资产分析、定位和资产重用。 这些接触点包括 [!DNL Adobe Campaign] 对于电子邮件， [!DNL Adobe Social] 对于社交渠道，以及 [!DNL Experience Manager] 用于响应式Web和移动应用程序的站点。
@@ -43,7 +43,7 @@ ht-degree: 0%
 
 * Internet Retail 1000的顶级富媒体供应商，连续九年。
 * 24/7/265支持，99.95%服务级别协议。
-* 为全球800多家客户提供成熟的基础架构，每月流量达3.5 PB，管理资产超过5亿，流量同比增长60%。
+* 为全球800多家客户提供成熟的基础架构，每月流量达到3.5 PB，管理资产超过5亿项，流量同比增长60%。
 
 +++
 
@@ -172,7 +172,7 @@ Adobe继续得到全面支持和维护 [!DNL Dynamic Media Classic] （客户请
 +++
 
 +++**随附的存储容量 [!DNL Dynamic Media]？**
-包括60GB的存储空间。 您可以购买容量为250 GB的附加存储。 检查合同详细信息，以获取当前的存储配额。
+包括60 GB的存储容量。 您可以购买容量为250 GB的附加存储。 要获得当前的存储配额，请查看合同详细信息。
 
 +++
 
@@ -199,8 +199,8 @@ Adobe会对移到的所有资源执行自动验证 [!DNL Dynamic Media]. 由提�
 
 +++
 
-+++**Do [!DNL Dynamic Media] 具备升级所需的功能吗？ 有哪些功能可用 [!DNL Dynamic Media] 日期 [!DNL Experience Manager] 资产？**
-请参阅 [功能比较](/help/upgrade-feature-comparison.md) 页面以了解详情。
++++**Do [!DNL Dynamic Media] 具备升级必须具备的功能吗？ 有哪些功能可用 [!DNL Dynamic Media] 日期 [!DNL Experience Manager] 资产？**
+请参阅 [功能比较](/help/upgrade-feature-comparison.md) 页面。
 
 +++
 
@@ -211,7 +211,7 @@ Adobe会对移到的所有资源执行自动验证 [!DNL Dynamic Media]. 由提�
 * 图像模板。
 * eCatalog.
 
-另请参阅 [功能比较](/help/upgrade-feature-comparison.md) 页面以了解详情。
+另请参阅 [功能比较](/help/upgrade-feature-comparison.md) 页面。
 
 +++
 

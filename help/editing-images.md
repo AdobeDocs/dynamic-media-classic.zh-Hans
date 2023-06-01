@@ -10,10 +10,10 @@ discoiquuid: efa2c56e-4543-47fa-a4e8-b94021102d01
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 1c368c25-78e6-4bcc-b390-d9133073821a
-source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
+source-git-commit: 972e5d4f468f14bd40e970c989465a639fd5e6fb
 workflow-type: tm+mt
 source-wordcount: '319'
-ht-degree: 15%
+ht-degree: 7%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 15%
 
 Adobe Dynamic Media Classic提供了多种用于创建富媒体效果的工具。 单击鼠标指针可访问这些工具 **[!UICONTROL 编辑]** 按钮和“浏览”面板中的“详细信息”视图。 您可以在Adobe Dynamic Media Classic中执行以下图像编辑任务：
 
-* **创建图像映射**  — 要创建图像映射，请选择“图像”命令或 **[!UICONTROL 图像映射]** 按钮。 图像映射是图像或 eCatalog 页上的热点或旋转集中的图像，显示含滚动文本的面板。例如，用户可以选择“图像映射”来启动新网页。 参见 [创建图像映射](/help/creating-image-maps.md).
+* **创建图像映射**  — 要创建图像映射，请选择“图像”命令或 **[!UICONTROL 图像映射]** 按钮。 图像映射是图像、eCatalog页面或旋转集内的图像上的热点，该图像可显示具有变换文本的面板。 例如，用户可以选择“图像映射”来启动新网页。 参见 [创建图像映射](/help/creating-image-maps.md).
 
 * **创建缩放目标**  — 要创建缩略图目标，请选择“缩放目标”命令或 **[!UICONTROL 缩放目标]** 按钮。 用户可以在缩放查看器中选择缩略图目标以直接缩放到图像的特定部分。 参见 [为引导缩放创建缩放目标](/help/creating-zoom-targets-guided-zoom.md).
 

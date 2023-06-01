@@ -10,10 +10,10 @@ discoiquuid: be277831-77cc-4011-ae30-e75c18eec99b
 feature: Dynamic Media Classic,Viewers,eCatalog
 role: User
 exl-id: bfb9c5a4-5068-4adb-9fe2-a4ead8656289
-source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
+source-git-commit: 972e5d4f468f14bd40e970c989465a639fd5e6fb
 workflow-type: tm+mt
-source-wordcount: '866'
-ht-degree: 59%
+source-wordcount: '868'
+ht-degree: 55%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 59%
 
 * “信息面板设置”面板可用来指定用于显示“信息面板”文本、默认错误响应以及信息缓存的小时数等信息的模板。此外，可以指定是否自动发布 eCatalog。
 * “信息面板数据馈送”面板允许您指定包含要在“信息面板”变换文本中显示的文本的CSV文件，并安排更新信息的时间。
-* “导入元数据”对话框（从“映射页面”视图访问）可用来导入包含变换文本信息的制表符分隔 TXT 文件。可以将该 TXT 选项或“数据输入”面板与“CSV 文件”选项结合，用于变换文本。
+* “导入元数据”对话框（从“映射页面”视图访问）可用来导入包含变换文本信息的制表符分隔 TXT 文件。您可以将此TXT选项或包含CSV文件选项的数据馈送面板用于变换文本。
 * “映射页面”视图提供了用于预览为特定图像映射而显示的 XML 的选项。
 
 ## 为eCatalogs设置响应模板 {#set-up-a-response-template-for-ecatalogs}
@@ -49,7 +49,7 @@ ht-degree: 59%
 1. 在“响应 TTL”框中，输入要在缓存数据之前等待的小时数：
 
    * 如果在一整天内需要频繁更新数据，则设置一个较小的值。
-   * 如果数据相对稳定并且不需要整天频繁更新，则设置一个较大的值。默认为十小时。
+   * 如果数据相对稳定，并且不需要在一天中频繁更新，则设置较大的数字。 默认为十小时。
 
 1. 选择 **[!UICONTROL Publish]**.
 
