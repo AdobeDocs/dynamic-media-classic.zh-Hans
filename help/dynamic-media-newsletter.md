@@ -5,9 +5,9 @@ keywords: Dynamic Media；新闻稿；产品更新；提示和技巧；事件；
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 5f2a0cfc-d627-42be-9e68-111b65680ad8
-source-git-commit: 972e5d4f468f14bd40e970c989465a639fd5e6fb
+source-git-commit: 358284e6c9888e5188bec35eb7b5408563a71bad
 workflow-type: tm+mt
-source-wordcount: '1091'
+source-wordcount: '1090'
 ht-degree: 0%
 
 ---
