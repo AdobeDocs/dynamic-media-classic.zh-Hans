@@ -10,7 +10,9 @@ discoiquuid: c341f5ea-aa7b-4749-975d-68a45c6fa77c
 feature: Dynamic Media Classic,Viewers,Image Sets
 role: User
 exl-id: 63bc3b37-7d5f-4707-a743-ec4192c88f0b
-source-git-commit: 65e3b69bdcbd651a5f9ab100592217e61a8c05ef
+topic: Content Management
+level: Intermediate
+source-git-commit: d82f816553f807b514f4690827dab672a6baf690
 workflow-type: tm+mt
 source-wordcount: '160'
 ht-degree: 44%
@@ -31,4 +33,3 @@ ht-degree: 44%
 >
 >* [上传您的文件](uploading-files.md#uploading_your_files)
 >* [处理晕影、窗口覆盖和CAB文件](vignette-window-covering-cabinet-files.md#working_with_vignette_window_covering_and_cabinet_files)
-

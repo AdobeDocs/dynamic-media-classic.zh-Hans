@@ -10,7 +10,9 @@ discoiquuid: 47a23980-2886-4da3-ab2d-6cd50e00d188
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 880ee6d0-cb0a-4d53-9056-f0b8b292136e
-source-git-commit: 65e3b69bdcbd651a5f9ab100592217e61a8c05ef
+topic: Content Management
+level: Intermediate
+source-git-commit: d82f816553f807b514f4690827dab672a6baf690
 workflow-type: tm+mt
 source-wordcount: '565'
 ht-degree: 52%
@@ -41,16 +43,16 @@ Adobe Dynamic Media Classic提供了各种用于调整图像外观的命令。 �
 
    * 要替换图像的原始图像，请选择 **[!UICONTROL 另存为]**.
 
-      在下拉列表中，选择 **[!UICONTROL 替换原始]**，然后选择 **[!UICONTROL 保存]**.
+     在下拉列表中，选择 **[!UICONTROL 替换原始]**，然后选择 **[!UICONTROL 保存]**.
 
    * 要将图像另存为新的主控图像，请选择 **[!UICONTROL 另存为]**.
 
-      在下拉列表中，选择“**[!UICONTROL 另存为新的主图像]**”。在 **[!UICONTROL 文件夹名称]** 列表框中，选择要保存新主映像的文件夹。
+     在下拉列表中，选择“**[!UICONTROL 另存为新的主图像]**”。在 **[!UICONTROL 文件夹名称]** 列表框中，选择要保存新主映像的文件夹。
 选择 **[!UICONTROL 保存]**.
 
    * 将图像另存为主图像的另一个视图。 您可以为其创建别名。选择 **[!UICONTROL 另存为]**.
 
-      在 **[!UICONTROL 另存为]** 对话框中，在下拉列表中选择 **[!UICONTROL 另存为另一个主控视图]**.
+     在 **[!UICONTROL 另存为]** 对话框中，在下拉列表中选择 **[!UICONTROL 另存为另一个主控视图]**.
 在 **[!UICONTROL 文件夹名称]** 列表框中，选择要保存新主映像的文件夹。
 选择 **[!UICONTROL 保存]**.
 

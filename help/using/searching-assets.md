@@ -10,7 +10,9 @@ discoiquuid: effef4e7-37c5-42e2-9266-ecd026cad628
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 4b3f690c-7dff-4bf0-9366-085ba918fe6b
-source-git-commit: 65e3b69bdcbd651a5f9ab100592217e61a8c05ef
+topic: Content Management
+level: Intermediate
+source-git-commit: d82f816553f807b514f4690827dab672a6baf690
 workflow-type: tm+mt
 source-wordcount: '1508'
 ht-degree: 19%
@@ -113,11 +115,11 @@ ht-degree: 19%
 
    * **选择元数据字段**  — 在筛选菜单中选择字段的名称。
 
-      >[!NOTE]
-      >
-      >过滤菜单中仅显示默认元数据视图中的元数据字段的名称。
+     >[!NOTE]
+     >
+     >过滤菜单中仅显示默认元数据视图中的元数据字段的名称。
 
-      请参阅[元数据视图](application-setup.md#metadata_views)。
+     请参阅[元数据视图](application-setup.md#metadata_views)。
 
    * **添加元数据字段**  — 选择 **[!UICONTROL 添加面板]**. 该面板出现在“筛选器”窗格上后，选择其 **[!UICONTROL 字段]** 按钮，然后在筛选菜单中选择元数据字段的名称。
 
@@ -127,7 +129,6 @@ ht-degree: 19%
 
    * 此字段中输入的所有元数据值。
    * 对于每个元数据值，分配有此值的资源的数目。
-
 
 1. 根据需要多次重复执行第 2 步以列出面板上用于过滤器操作的所有元数据字段。
 1. 在每个面板中，选择一个要作为过滤条件的元数据值。不能在每个面板中选择多个元数据值。
@@ -172,4 +173,3 @@ ht-degree: 19%
 >
 >* [导航基础知识](navigation-basics.md#navigation_basics)
 >* [查看、添加和导出元数据](viewing-adding-exporting-metadata.md#viewing_adding_and_exporting_metadata)
-

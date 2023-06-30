@@ -10,7 +10,9 @@ discoiquuid: 34a99fd0-8148-41d4-843a-909637542dd9
 feature: Dynamic Media Classic,Viewers,Zoom
 role: User
 exl-id: 74cf0346-be79-4916-8a98-16865c3ba3de
-source-git-commit: 65e3b69bdcbd651a5f9ab100592217e61a8c05ef
+topic: Content Management
+level: Intermediate
+source-git-commit: d82f816553f807b514f4690827dab672a6baf690
 workflow-type: tm+mt
 source-wordcount: '153'
 ht-degree: 9%
@@ -32,4 +34,3 @@ ht-degree: 9%
 >[!MORELIKETHIS]
 >
 >* [发布文件](publishing-files.md#publishing_files)
-

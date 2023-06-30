@@ -10,7 +10,9 @@ discoiquuid: 87a5a25e-210b-4359-821a-7dfe8c304f9b
 feature: Dynamic Media Classic
 role: User
 exl-id: d4315312-195c-453d-a3aa-c5e9f9365fc7
-source-git-commit: 65e3b69bdcbd651a5f9ab100592217e61a8c05ef
+topic: Content Management
+level: Experienced
+source-git-commit: d82f816553f807b514f4690827dab672a6baf690
 workflow-type: tm+mt
 source-wordcount: '172'
 ht-degree: 13%
@@ -37,4 +39,3 @@ ht-degree: 13%
 >
 >* [将资产标记为发布](publishing-files.md#publish_after_uploading)
 >* [创建发布作业](publishing-files.md#creating_a_publish_job)
-

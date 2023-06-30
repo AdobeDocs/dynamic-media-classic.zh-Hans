@@ -8,9 +8,11 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/getting_started
 discoiquuid: 825b8949-f961-4ef9-828c-07349013d40d
 feature: Dynamic Media Classic
-role: Admin,User
+role: User
 exl-id: 3ffcfab2-c29d-4b0f-b223-c4a5ca99f21a
-source-git-commit: 38d7f8d6e5888e1c5ba9260ada45b79fb16b338f
+topic: Content Management
+level: Intermediate
+source-git-commit: d82f816553f807b514f4690827dab672a6baf690
 workflow-type: tm+mt
 source-wordcount: '711'
 ht-degree: 16%
@@ -79,4 +81,3 @@ Adobe Dynamic Media Classic屏幕包括三个主要区域：全局导航栏、�
 >* [在“浏览”面板中查看资源](viewing-assets-browse-panel.md#viewing_assets_in_the_browse_panel)
 >* [在浏览面板中选择资源](selecting-assets-browse-panel.md#selecting_assets_in_the_browse_panel)
 >* [搜索资源](searching-assets.md#searching_assets)
-

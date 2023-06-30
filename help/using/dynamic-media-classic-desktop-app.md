@@ -8,7 +8,9 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_c
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 604b4630-4704-4254-84b5-91b33bb19d58
-source-git-commit: 38d7f8d6e5888e1c5ba9260ada45b79fb16b338f
+topic: Administration
+level: Intermediate
+source-git-commit: d82f816553f807b514f4690827dab672a6baf690
 workflow-type: tm+mt
 source-wordcount: '2036'
 ht-degree: 1%
@@ -56,11 +58,11 @@ Adobe Dynamic Media Classic桌面应用程序中的升级通知不会为生成 *
 * 桌面应用程序停止响应，通常在Set操作之后。
 * 下的请求模糊处理和锁定模式自动启用 **[!UICONTROL 测试图像服务]**.
 
-   参见 [测试Secure Testing service](/help/using/testing-assets-making-them-public.md#testing-the-secure-testing-service).
+  参见 [测试Secure Testing service](/help/using/testing-assets-making-them-public.md#testing-the-secure-testing-service).
 
 * 更新了Adobe Analytics的身份验证机制。 与新集成或必须从Dynamic Media Classic桌面应用程序中更新某些Analytics变量相关。
 
-   参见 [登录到Adobe Analytics](/help/using/log-analytics.md) 以了解更新步骤。
+  参见 [登录到Adobe Analytics](/help/using/log-analytics.md) 以了解更新步骤。
 
 ## 20.21.2版中的修复 {#minor-release}
 
@@ -99,11 +101,11 @@ Adobe Dynamic Media Classic桌面应用程序中的升级通知不会为生成 *
 
       * [macOS (.DMG) — 下载](https://download.macromedia.com/dynamic-media-classic/20.22.2/adobe-dynamic-media-classic-20.22.2.dmg)
       * [Windows (.EXE) — 下载](https://download.macromedia.com/dynamic-media-classic/20.22.1/adobe-dynamic-media-classic-20.22.1.exe)
+
    * 以前的版本在以下位置提供：
 
       * [macOS (.DMG) — 下载](https://download.macromedia.com/dynamic-media-classic/20.22.1/adobe-dynamic-media-classic-20.22.1.dmg)
       * [Windows® (.EXE) — 下载](https://download.macromedia.com/dynamic-media-classic/20.21.3/adobe-dynamic-media-classic-20.21.3.exe)
-
 
 <!--         * [macOS (.DMG) - Download](https://download.macromedia.com/dynamic-media-classic/20.21.3/adobe-dynamic-media-classic-20.21.3.dmg) -->
 
@@ -118,12 +120,12 @@ Adobe Dynamic Media Classic桌面应用程序中的升级通知不会为生成 *
 
    * **macOS**  — 在 **[!UICONTROL 拖放以进行安装]** 对话框，拖动 **[!UICONTROL Adobe Dynamic Media Classic]** 然后放到 **[!UICONTROL 应用程序]**.
 
-      ![在macOS上拖放安装](/help/using/assets/dragondrop-install1.png)
+     ![在macOS上拖放安装](/help/using/assets/dragondrop-install1.png)
 
    * 在 **[!UICONTROL 应用程序]** 文件夹中，点按Adobe Dynamic Media Classic图标。
    * 在对话框中，点按 **[!UICONTROL 打开]** 以打开Adobe Dynamic Media Classic桌面应用程序。
 
-      ![打开下载的应用程序](/help/using/assets/open-dmclassicapp1.png)
+     ![打开下载的应用程序](/help/using/assets/open-dmclassicapp1.png)
 
    * **Windows**  — 运行安装程序二进制文件，并按照屏幕上的说明安装桌面应用程序。
 
@@ -263,7 +265,7 @@ Adobe Dynamic Media Classic桌面应用程序中的升级通知不会为生成 *
 * 在Adobe Dynamic Media Classic应用程序中，从公司下拉列表中选择新公司。
 * 出现弹出窗口时，点按 **[!UICONTROL 确定]** 以注销并关闭应用程序。
 
-   ![要使用新公司，请重新启动应用程序](/help/using/assets/dmclassic-new-company1.png)
+  ![要使用新公司，请重新启动应用程序](/help/using/assets/dmclassic-new-company1.png)
 
 * 重新启动Adobe Dynamic Media Classic，然后照常登录以与新公司合作。
 

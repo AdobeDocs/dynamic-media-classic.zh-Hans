@@ -10,7 +10,9 @@ discoiquuid: 8f7093da-d215-4337-ac95-69f0a5bf8648
 feature: Dynamic Media Classic
 role: User
 exl-id: 23ac1a0f-c90b-4250-ae36-93702fb5ebd9
-source-git-commit: 65e3b69bdcbd651a5f9ab100592217e61a8c05ef
+topic: Content Management
+level: Experienced
+source-git-commit: d82f816553f807b514f4690827dab672a6baf690
 workflow-type: tm+mt
 source-wordcount: '3469'
 ht-degree: 44%
@@ -103,9 +105,9 @@ ht-degree: 44%
 
 * **[!UICONTROL 文本编辑器v4.3和文本编辑器v4.2]**  — 您可以选择使用最新且功能最齐全的文本编辑器（文本编辑器v4.3）或之前的文本编辑器（文本编辑器v4.2）。创建模板时，默认情况下会选中文本编辑器v4.3。 编辑较旧的模板时，默认选择 Text Editor v4.2。Text Editor v4.3 目前不支持自动换行，因此，在编辑使用自动换行的旧模板时，请使用 Text Editor v4.2 保持模板的保真度完整。如果您的旧模板不使用自动换行，您可以选择文本编辑器v4.3以利用它提供的许多新功能。 例如，增加边距、减少边距、将文本设置为全部大写和复制适合文本。
 
-   >[!NOTE]
-   >
-   >文本编辑器v4.2计划在Adobe Dynamic Media Classic中作为选项删除，因此建议您尽可能使用文本编辑器4.3。 此 **[!UICONTROL 自动换行]** 选项将包含在文本编辑器的未来版本中。
+  >[!NOTE]
+  >
+  >文本编辑器v4.2计划在Adobe Dynamic Media Classic中作为选项删除，因此建议您尽可能使用文本编辑器4.3。 此 **[!UICONTROL 自动换行]** 选项将包含在文本编辑器的未来版本中。
 
 * **[!UICONTROL 设计人员和开发人员]**  — 选择最能描述您的角色的选项。
 

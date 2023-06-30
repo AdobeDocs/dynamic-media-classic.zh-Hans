@@ -10,7 +10,9 @@ discoiquuid: 553c95fc-0a41-4f06-af50-a62bc1438149
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: cffeec19-43fd-4a97-bdcc-df81af108ddd
-source-git-commit: 65e3b69bdcbd651a5f9ab100592217e61a8c05ef
+topic: Content Management
+level: Intermediate
+source-git-commit: d82f816553f807b514f4690827dab672a6baf690
 workflow-type: tm+mt
 source-wordcount: '553'
 ht-degree: 31%
@@ -60,4 +62,3 @@ ht-degree: 31%
 >[!MORELIKETHIS]
 >
 >* [删除资源](moving-renaming-deleting-assets.md#delete_assets)
-

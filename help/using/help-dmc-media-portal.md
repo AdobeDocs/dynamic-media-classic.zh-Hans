@@ -10,7 +10,9 @@ discoiquuid: a55f7279-6bba-43f1-99fa-88e922ac1803
 feature: Dynamic Media Classic,Brand Portal
 role: Admin,User
 exl-id: 2c7c0838-0c48-450e-94ff-521bae19425f
-source-git-commit: 65e3b69bdcbd651a5f9ab100592217e61a8c05ef
+topic: Collaboration, Content Management
+level: Intermediate
+source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
 workflow-type: tm+mt
 source-wordcount: '87'
 ht-degree: 0%

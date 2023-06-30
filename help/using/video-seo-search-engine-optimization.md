@@ -10,7 +10,9 @@ discoiquuid: 34ecd868-775f-452b-b26e-d139f0e280ae
 feature: Dynamic Media Classic
 role: Admin
 exl-id: f76b0e09-f148-46aa-b710-ec35bfebcb37
-source-git-commit: 65e3b69bdcbd651a5f9ab100592217e61a8c05ef
+topic: Content Management
+level: Intermediate
+source-git-commit: d82f816553f807b514f4690827dab672a6baf690
 workflow-type: tm+mt
 source-wordcount: '1037'
 ht-degree: 37%
@@ -93,7 +95,7 @@ Adobe Dynamic Media Classic会在生成视频站点地图和mRSS源之后创建�
    * 要保存设置而不生成XML文件，请选择 **[!UICONTROL 保存]**.
    * 要保存并生成文件，请选择 **[!UICONTROL 保存并生成]**.
 
-      生成 XML 文件并记录在“作业日志”中。视频站点地图 (video-sitemap) 和媒体 RSS (mRSS) 新闻频道 (mrss-feed) 文件存储在公司的根文件夹中。
+     生成 XML 文件并记录在“作业日志”中。视频站点地图 (video-sitemap) 和媒体 RSS (mRSS) 新闻频道 (mrss-feed) 文件存储在公司的根文件夹中。
 
 >[!NOTE]
 >

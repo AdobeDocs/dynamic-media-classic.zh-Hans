@@ -4,7 +4,9 @@ description: 升级自 [!DNL Adobe Dynamic Media Classic] 到 [!DNL Dynamic Medi
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 5e322d81-1303-494b-b5dd-df29b5c5d8e2
-source-git-commit: 65e3b69bdcbd651a5f9ab100592217e61a8c05ef
+topic: Administration, Migration
+level: Intermediate
+source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
 workflow-type: tm+mt
 source-wordcount: '560'
 ht-degree: 0%

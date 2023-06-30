@@ -10,7 +10,9 @@ discoiquuid: 8029aad8-d696-4d7c-99e2-3b08edb68181
 feature: Dynamic Media Classic,Viewers,Mixed Media Sets
 role: User
 exl-id: d41b30e7-994a-43f3-8698-7dbfc36305ae
-source-git-commit: 65e3b69bdcbd651a5f9ab100592217e61a8c05ef
+topic: Content Management
+level: Intermediate
+source-git-commit: d82f816553f807b514f4690827dab672a6baf690
 workflow-type: tm+mt
 source-wordcount: '613'
 ht-degree: 44%
@@ -69,4 +71,3 @@ ht-degree: 44%
 >[!MORELIKETHIS]
 >
 >* [创建和编辑查看器预设](application-setup.md#adding_and_editing_viewer_presets)
-

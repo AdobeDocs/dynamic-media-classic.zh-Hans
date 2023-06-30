@@ -10,7 +10,9 @@ discoiquuid: 91524d36-b77a-4dc4-acba-a7bd85297e98
 feature: Dynamic Media Classic,Collaboration,Asset Management
 role: Admin,User
 exl-id: 0deb7133-b895-4c3f-8e5e-8604a6f2d16b
-source-git-commit: 65e3b69bdcbd651a5f9ab100592217e61a8c05ef
+topic: Administration, Collaboration
+level: Intermediate
+source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
 workflow-type: tm+mt
 source-wordcount: '839'
 ht-degree: 56%
@@ -62,12 +64,12 @@ ht-degree: 56%
 
    | 任务 | 读取 | 写入 | 删除 |
    | --- | --- | --- | --- |
-   | 浏览文件夹和文件 | X |  |  |
-   | 编辑文件（剪切、锐化、调整） |  | X |  |
-   | 更改文件名 |  | X |  |
-   | 将文件移动到其他文件夹 |  | X |  |
-   | 重命名文件 |  | X |  |
-   | 删除文件 |  |  | X |
+   | 浏览文件夹和文件 | X | | |
+   | 编辑文件（剪切、锐化、调整） | | X | |
+   | 更改文件名 | | X | |
+   | 将文件移动到其他文件夹 | | X | |
+   | 重命名文件 | | X | |
+   | 删除文件 | | | X |
 
 1. 选择 **[!UICONTROL 关闭]**.
 

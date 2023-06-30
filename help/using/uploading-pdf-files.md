@@ -9,7 +9,9 @@ discoiquuid: 0097cba5-c886-4115-bc35-7ae7a500202f
 feature: Dynamic Media Classic,Viewers,eCatalog
 role: User
 exl-id: a787d6b5-48c8-4cf7-b136-60ba3d3eb2f2
-source-git-commit: 38d7f8d6e5888e1c5ba9260ada45b79fb16b338f
+topic: Integrations, Development
+level: Experienced
+source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
 workflow-type: tm+mt
 source-wordcount: '831'
 ht-degree: 36%
@@ -38,7 +40,7 @@ ht-degree: 36%
 * 如果希望观众按关键字搜索 eCatalog，应确认您的 PDF 文件是否已“平面化”。从平面化的 PDF 文件中无法提取搜索词。要确认 PDF 是否平面化，尝试选择其中的文本。如果无法选择文本，则PDF将被拼合，并且查看器无法按eCatalog中的关键字进行搜索。
 * 由于 PDF 文件要用于印刷，因此通常包含 CMYK 图像。默认情况下，Adobe Dynamic Media Classic可以智能地检测这些CMYK图像，并使用内部CMYK颜色配置文件转换它们。 但如果需要，也可以使用自定颜色配置文件来转换 CMYK 图像。
 
-   参见 [ICC（国际彩色联盟）用户档案](icc-profiles.md#icc_profiles).
+  参见 [ICC（国际彩色联盟）用户档案](icc-profiles.md#icc_profiles).
 
 ## 最佳实践 PDF 上载选项 {#best-practice-pdf-upload-options}
 
@@ -58,7 +60,7 @@ ht-degree: 36%
 
 * **颜色空间**  — 在上载作业选项对话框中，选择 **[!UICONTROL PDF选项]**. 在Colorspace下拉列表中，选择 **[!UICONTROL 自动检测]**. 通常，为印刷输出创建的 PDF 采用 CMYK；而用于在线查看的 PDF 则采用 RGB。如果 PDF 使用两个颜色空间，可以选择“强制渲染为 RGB”或“强制渲染为 CMYK”来选择特定颜色空间。例如，当页面图形使用 CMYK 颜色空间，但图片使用 RGB 时，PDF 使用这两个颜色空间。如果上载了 ICC 配置文件，则其名称显示在“颜色空间”菜单上，您可以在其中选择该名称。
 
-   参见 [ICC（国际彩色联盟）用户档案](/help/using/icc-profiles.md).
+  参见 [ICC（国际彩色联盟）用户档案](/help/using/icc-profiles.md).
 
 * **颜色配置文件选项**  — 在上载作业选项对话框中，选择 **[!UICONTROL 颜色配置文件选项]**，然后选择颜色配置文件选项：
 

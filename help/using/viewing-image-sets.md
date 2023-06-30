@@ -10,7 +10,9 @@ discoiquuid: 027aa3e0-f085-48ae-aff9-7b805bbdf8ab
 feature: Dynamic Media Classic,Viewers,Image Sets
 role: User
 exl-id: c8d742a4-a1a1-4b5f-bcfd-6a1972edf9bc
-source-git-commit: 65e3b69bdcbd651a5f9ab100592217e61a8c05ef
+topic: Content Management
+level: Intermediate
+source-git-commit: d82f816553f807b514f4690827dab672a6baf690
 workflow-type: tm+mt
 source-wordcount: '497'
 ht-degree: 27%
@@ -66,4 +68,3 @@ Adobe Dynamic Media Classic附带默认查看器预设。 管理员可以创建�
 >[!MORELIKETHIS]
 >
 >* [Viewer Presets](application-setup.md#viewer_presets)
-

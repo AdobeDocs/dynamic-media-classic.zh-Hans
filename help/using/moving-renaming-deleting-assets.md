@@ -10,7 +10,9 @@ discoiquuid: 1c9e29f0-3083-4d22-a439-2a01faf59683
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 391eb7ce-ed89-47a8-a6c6-5adb3e95bf78
-source-git-commit: 65e3b69bdcbd651a5f9ab100592217e61a8c05ef
+topic: Content Management
+level: Intermediate
+source-git-commit: d82f816553f807b514f4690827dab672a6baf690
 workflow-type: tm+mt
 source-wordcount: '618'
 ht-degree: 31%
@@ -58,7 +60,7 @@ ht-degree: 31%
    * 要删除一个或多个资源，请在“浏览”面板中选择资源，然后按 **[!UICONTROL 删除]** 或转到 **[!UICONTROL 文件]** > **[!UICONTROL 删除]**.
    * 要删除文件夹，请在资产库中选择该文件夹，然后选择 **[!UICONTROL 删除文件夹]**.
 
-      删除文件夹会删除该文件夹、该文件夹中的所有资源及其子文件夹中的所有资源。
+     删除文件夹会删除该文件夹、该文件夹中的所有资源及其子文件夹中的所有资源。
 
 如果您删除某个资源文件的原因是要用另一个同名资源文件替换它，Adobe Dynamic Media Classic建议覆盖而不是删除资源文件。
 
@@ -81,4 +83,3 @@ ht-degree: 31%
 >* [在浏览面板中选择资源](selecting-assets-browse-panel.md#selecting_assets_in_the_browse_panel)
 >* [准备要上传的资产和文件夹](uploading-files.md#preparing_your_assets_and_folders_for_uploading)
 >* [从垃圾桶文件夹中还原资源](trash-folder.md#restoring_assets_from_the_trash_folder)
-

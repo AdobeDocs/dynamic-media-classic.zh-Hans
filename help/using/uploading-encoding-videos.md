@@ -9,7 +9,9 @@ discoiquuid: a0941823-850c-4373-9e37-f32032de3805
 feature: Dynamic Media Classic,Viewers,Video
 role: User
 exl-id: 93ad91d7-f3dd-484b-b62c-633fcb864bbf
-source-git-commit: 65e3b69bdcbd651a5f9ab100592217e61a8c05ef
+topic: Content Management
+level: Intermediate
+source-git-commit: d82f816553f807b514f4690827dab672a6baf690
 workflow-type: tm+mt
 source-wordcount: '3967'
 ht-degree: 56%
@@ -26,7 +28,7 @@ ht-degree: 56%
    * HTTP 实时流（Apple 的流协议）。
    * 渐进式视频交付到Android™、BlackBerry®和Windows®移动设备
 
-   Adobe Dynamic Media Classic提供两种上传视频文件的工作流：
+  Adobe Dynamic Media Classic提供两种上传视频文件的工作流：
 
 * **预编码视频**  — 直接将MP4文件上传到Adobe Dynamic Media Classic。 对于该工作流程，在上载文件时，不会对文件进行编码。文件在准备传送到桌面和移动设备时进行预编码。
 
@@ -34,13 +36,13 @@ ht-degree: 56%
 
    * 确保要编码的主要源视频文件受支持。
 
-      请参阅[支持编码的视频文件类型](uploading-encoding-videos.md#supported-video-file-types-for-encoding)。
+     请参阅[支持编码的视频文件类型](uploading-encoding-videos.md#supported-video-file-types-for-encoding)。
 
    * 选择一个视频编码预设。
 
-      请参阅[用于编码视频文件的视频预设](application-setup.md#video-presets-for-encoding-video-files)。
+     请参阅[用于编码视频文件的视频预设](application-setup.md#video-presets-for-encoding-video-files)。
 
-      请参阅[视频编码最佳做法](uploading-encoding-videos.md#best-practices-for-video-encoding)。
+     请参阅[视频编码最佳做法](uploading-encoding-videos.md#best-practices-for-video-encoding)。
 
 Adobe Dynamic Media Classic还会生成视频缩略图。 您可以了解有关视频缩略图的详细信息，如何获取其 URL 以及修改海报帧。
 
@@ -97,28 +99,28 @@ Adobe Dynamic Media Classic还会生成视频缩略图。 您可以了解有关�
 
 * **视频编解码器**  — 视频编解码器描述用于对视频进行编码的算法。 视频播放器根据其编码解码器对视频进行解码，然后在屏幕显示一系列图像或帧。编解码器将视频文件存储为播放视频所需的信息量降至最低。只会存储一个帧和下一个帧之间差异的相关信息，而不存储每个单独帧的相关信息。由于大多数视频在帧间变化不大，因此编解码器允许较高的压缩率，从而缩小文件大小。
 
-   | 视频文件格式 | 视频编解码器 |
-   | --- | --- |
-   | 3GP | H.263、H.264 |
-   | AVI | DivX、DV |
-   | M2P | MPEG-2 PS |
-   | M2T | MPEG-2 TS |
-   | M2TS | MPEG-2 TS |
-   | M2V | MPEG-2 ES |
-   | M4V | H.264 |
-   | MOV | DV、DVCPro 50、H.261、H.263、H.264、Sorenson Video 1 |
-   | MP4 | H.264/MPEG-4 AVC |
-   | MPEG | MPEG-2 SS |
-   | MPG | MPEG-2 SS |
-   | MTS | MPEG-2 |
-   | ProRes | APCN、APCS、APCO、APCH、AP4H |
-   | TS | DVCPro 50 |
-   | VOB | MPEG-2 |
-   | WMV/ASF | VC-1、Windows® Media Video 7、Windows® Media Video 8 |
+  | 视频文件格式 | 视频编解码器 |
+  | --- | --- |
+  | 3GP | H.263、H.264 |
+  | AVI | DivX、DV |
+  | M2P | MPEG-2 PS |
+  | M2T | MPEG-2 TS |
+  | M2TS | MPEG-2 TS |
+  | M2V | MPEG-2 ES |
+  | M4V | H.264 |
+  | MOV | DV、DVCPro 50、H.261、H.263、H.264、Sorenson Video 1 |
+  | MP4 | H.264/MPEG-4 AVC |
+  | MPEG | MPEG-2 SS |
+  | MPG | MPEG-2 SS |
+  | MTS | MPEG-2 |
+  | ProRes | APCN、APCS、APCO、APCH、AP4H |
+  | TS | DVCPro 50 |
+  | VOB | MPEG-2 |
+  | WMV/ASF | VC-1、Windows® Media Video 7、Windows® Media Video 8 |
 
-   >[!NOTE]
-   >
-   >如果上载并尝试编码视频文件，但由于文件包含不兼容的编码解码器或文件容器而被拒绝，“作业”屏幕将发出警告。有关更多信息，请参阅 [检查作业文件](checking-job-files.md).
+  >[!NOTE]
+  >
+  >如果上载并尝试编码视频文件，但由于文件包含不兼容的编码解码器或文件容器而被拒绝，“作业”屏幕将发出警告。有关更多信息，请参阅 [检查作业文件](checking-job-files.md).
 
 ## 视频编码最佳做法 {#best-practices-for-video-encoding}
 
@@ -315,9 +317,9 @@ Adobe Dynamic Media Classic为您提供了一个预定义的视频编码预设�
    * 要激活某个视频预设，请在“预设”页中的“活动”列下面，选中预设名称旁边的复选框。
    * 要停用视频预设，请取消选中要停用的视频预设旁边的框。
 
-      >[!NOTE]
-      >
-      >非活动视频预设不会显示在“上载作业选项”对话框中。
+     >[!NOTE]
+     >
+     >非活动视频预设不会显示在“上载作业选项”对话框中。
 
 1. 在页面的右下角，选择 **[!UICONTROL 关闭]**.
 
@@ -340,7 +342,7 @@ Adobe Dynamic Media Classic为目标数据速率、分辨率高度和分辨率�
    * 在“视频预设”工具栏上，选择 **[!UICONTROL 添加]** 以便添加视频预设。
    * 选择一个视频预设。在工具栏中，选择 **[!UICONTROL 编辑]**.
 
-      您无法编辑Adobe Dynamic Media Classic预定义预设；您只能通过选择从现有预设创建预设 **[!UICONTROL 另存为]**.
+     您无法编辑Adobe Dynamic Media Classic预定义预设；您只能通过选择从现有预设创建预设 **[!UICONTROL 另存为]**.
 
 1. 在“添加视频预设”或“编辑视频预设”页中，设置所需的视频预设选项。
 
@@ -378,4 +380,3 @@ Adobe Dynamic Media Classic为目标数据速率、分辨率高度和分辨率�
 >* [上传视频并进行编码](uploading-encoding-videos.md#uploading-and-encoding-videos)
 >* [使用视频查看器预设](previewing-videos-video-viewer.md#working-with-video-viewer-presets)
 >* [视频预设](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/549_video-presets_converted%20renamed_Done-AVS) 训练视频
-

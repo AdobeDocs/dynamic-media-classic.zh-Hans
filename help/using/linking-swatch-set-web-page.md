@@ -8,7 +8,9 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/swatch_sets
 feature: Dynamic Media Classic,Viewers
 role: User
 exl-id: 8bb1c744-270a-4752-b163-443708fca6c2
-source-git-commit: 65e3b69bdcbd651a5f9ab100592217e61a8c05ef
+topic: Content Management
+level: Intermediate
+source-git-commit: d82f816553f807b514f4690827dab672a6baf690
 workflow-type: tm+mt
 source-wordcount: '699'
 ht-degree: 42%
@@ -32,15 +34,15 @@ ht-degree: 42%
    * 选择 **[!UICONTROL 网格视图]**. 在“资源浏览”面板中，双击单个资源以便在详细信息视图中将其打开。在右侧的“URL和嵌入代码”面板中，选择 **[!UICONTROL 复制URL]** 位于所需查看器的右侧。
    * 选择 **[!UICONTROL 网格视图]**. 在“资源浏览”面板中，选择单个资源，然后转到缩略图图像下方 **[!UICONTROL 预览]** > **[!UICONTROL 查看器列表]**.
 
-      在“查看器列表”页的表的“操作”列下，选择 **[!UICONTROL 复制URL]**.
+     在“查看器列表”页的表的“操作”列下，选择 **[!UICONTROL 复制URL]**.
 
    * 选择 **[!UICONTROL 列表视图]**. 在“资源浏览”面板中，选择单个资源，然后转到缩略图图像右侧的 **[!UICONTROL 预览]** > **[!UICONTROL 查看器列表]**.
 
-      在“查看器列表”页的表的“操作”列下，选择 **[!UICONTROL 复制URL]**.
+     在“查看器列表”页的表的“操作”列下，选择 **[!UICONTROL 复制URL]**.
 
    * 选择 **[!UICONTROL 网格视图]**， **[!UICONTROL 列表视图]**，或 **[!UICONTROL 详细信息视图]**. 在同一工具栏上，转到 **[!UICONTROL 预览]** > **[!UICONTROL 查看器列表]**.
 
-      在“查看器列表”页的表的“操作”列下，选择 **[!UICONTROL 复制URL]**.
+     在“查看器列表”页的表的“操作”列下，选择 **[!UICONTROL 复制URL]**.
 
 ## 将样本集URL添加到网页 {#adding-swatch-set-urls-to-your-web-page}
 
@@ -61,15 +63,15 @@ ht-degree: 42%
    * 选择 **[!UICONTROL 网格视图]**. 在“资源浏览”面板中，双击单个资源以便在详细信息视图中将其打开。在右侧的“URL和嵌入代码”面板中，选择 **[!UICONTROL 嵌入代码]** 位于所需查看器的右侧。
    * 选择 **[!UICONTROL 网格视图]**. 在“资源浏览”面板中，选择单个资源，然后转到缩略图图像下方 **[!UICONTROL 预览]** > **[!UICONTROL 查看器列表]**.
 
-      在“查看器列表”页的表的“操作”列下，选择 **[!UICONTROL 嵌入代码]**.
+     在“查看器列表”页的表的“操作”列下，选择 **[!UICONTROL 嵌入代码]**.
 
    * 选择 **[!UICONTROL 列表视图]**. 在“资源浏览”面板中，选择单个资源，然后转到缩略图图像右侧的 **[!UICONTROL 预览]** > **[!UICONTROL 查看器列表]**.
 
-      在“查看器列表”页的表的“操作”列下，选择 **[!UICONTROL 嵌入代码]**.
+     在“查看器列表”页的表的“操作”列下，选择 **[!UICONTROL 嵌入代码]**.
 
    * 选择 **[!UICONTROL 网格视图]**， **[!UICONTROL 列表视图]**，或 **[!UICONTROL 详细信息视图]**. 在同一工具栏上，转到 **[!UICONTROL 预览]** > **[!UICONTROL 查看器列表]**.
 
-      在“查看器列表”页的表的“操作”列下，选择 **[!UICONTROL 嵌入代码]**.
+     在“查看器列表”页的表的“操作”列下，选择 **[!UICONTROL 嵌入代码]**.
 
 1. 在“嵌入代码”对话框中，选择 **[!UICONTROL 复制到剪贴板]**.
 
@@ -80,4 +82,3 @@ ht-degree: 42%
 >[!MORELIKETHIS]
 >
 >* [发布](publishing-files.md#publishing_files)
-

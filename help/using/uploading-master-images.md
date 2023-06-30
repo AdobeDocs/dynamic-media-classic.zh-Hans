@@ -10,7 +10,9 @@ discoiquuid: 8c94bafc-94cc-496f-a394-a945cd7b02cf
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 410ba80c-7f01-4cd0-9ab3-db9658757ba7
-source-git-commit: 38d7f8d6e5888e1c5ba9260ada45b79fb16b338f
+topic: Content Management
+level: Intermediate
+source-git-commit: d82f816553f807b514f4690827dab672a6baf690
 workflow-type: tm+mt
 source-wordcount: '260'
 ht-degree: 2%

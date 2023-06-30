@@ -10,7 +10,9 @@ discoiquuid: f6a2dc19-7eb5-41f7-b6f2-de1979ed1d4e
 feature: Dynamic Media Classic,Viewers,Video
 role: User
 exl-id: fab1f618-5370-4049-b6e0-69264afa933c
-source-git-commit: 65e3b69bdcbd651a5f9ab100592217e61a8c05ef
+topic: Content Management
+level: Intermediate
+source-git-commit: d82f816553f807b514f4690827dab672a6baf690
 workflow-type: tm+mt
 source-wordcount: '72'
 ht-degree: 0%
@@ -26,4 +28,3 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [上传视频并进行编码](uploading-encoding-videos.md#uploading_and_encoding_videos)
-

@@ -10,7 +10,9 @@ discoiquuid: 42df9adc-e563-4de2-87a4-bd40cef77cdf
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 8d1e0c37-a648-4c7b-8f68-4b2ab71dfa11
-source-git-commit: 65e3b69bdcbd651a5f9ab100592217e61a8c05ef
+topic: Integrations, Development
+level: Experienced
+source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
 workflow-type: tm+mt
 source-wordcount: '144'
 ht-degree: 15%
@@ -28,4 +30,3 @@ Adobe Dynamic Media Classic图像创作工具的用户可以 *使用* 晕影（V
 >[!MORELIKETHIS]
 >
 >* [Viewer Presets](application-setup.md#viewer_presets)
-

@@ -10,7 +10,9 @@ discoiquuid: 17d0bfd6-fc62-4ed6-8a51-7ac1a6bb96cc
 feature: Dynamic Media Classic,Asset Management,Viewers
 role: User
 exl-id: 7e6f652c-b197-4171-b11b-f532795f7cf2
-source-git-commit: 65e3b69bdcbd651a5f9ab100592217e61a8c05ef
+topic: Content Management
+level: Intermediate
+source-git-commit: d82f816553f807b514f4690827dab672a6baf690
 workflow-type: tm+mt
 source-wordcount: '1012'
 ht-degree: 36%
@@ -68,13 +70,13 @@ ht-degree: 36%
 
    * 在“查看器列表”窗口的表的“操作”列下，选择 **[!UICONTROL 复制URL]** 选定的查看器和平台类型。
 
-      当您选择时 **[!UICONTROL 复制URL]**，则会自动将其关联的URL复制到剪贴板。
+     当您选择时 **[!UICONTROL 复制URL]**，则会自动将其关联的URL复制到剪贴板。
 
    * 在“查看器列表”窗口的表的“操作”列下，选择 **[!UICONTROL 嵌入代码]**.
 
-      当您选择时 **[!UICONTROL 嵌入代码]**，将打开嵌入代码窗口，您可以在其中查看查看器代码。 不允许在该窗口中编辑代码。您也可以将代码复制到剪贴板中，以便可以将其粘贴到网页中。
+     当您选择时 **[!UICONTROL 嵌入代码]**，将打开嵌入代码窗口，您可以在其中查看查看器代码。 不允许在该窗口中编辑代码。您也可以将代码复制到剪贴板中，以便可以将其粘贴到网页中。
 
-      关闭显示的预览。
+     关闭显示的预览。
 
 1. 在Viewer List窗口的右下角，选择 **[!UICONTROL 关闭]** 以返回到“资产”屏幕。
 

@@ -10,7 +10,9 @@ discoiquuid: f4c8c2b3-cc95-416f-9a5d-da81c231dfc2
 feature: Dynamic Media Classic
 role: Data Engineer,Admin,User
 exl-id: d9fda3b8-7da8-4a30-a5f8-9bb34ec1b43d
-source-git-commit: 65e3b69bdcbd651a5f9ab100592217e61a8c05ef
+topic: Integrations, Development
+level: Experienced
+source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
 workflow-type: tm+mt
 source-wordcount: '1231'
 ht-degree: 27%
@@ -70,8 +72,8 @@ ht-degree: 27%
 | SWAP | **X**（eCatalog、弹出、旋转集、视频、缩放） | 当用户选择其他缩略图查看其他图像时。 |
 | ITEM | **X** (eCatalog) | 在支持已定义变换的图像映射的查看器中，用户将指针悬停在图像映射上以读取变换文本时。 |
 | HREF | **X** (eCatalog) | 在支持“图像映射”的查看器中，用户在“图像映射”中选择URL时。 |
-| TARGET |  | 在目标缩放查看器中，用户选择要缩放到部分图像的缩放目标时。 |
-| SEARCH |  | 在 eCatalog 中用户执行关键词搜索时。 |
+| TARGET | | 在目标缩放查看器中，用户选择要缩放到部分图像的缩放目标时。 |
+| SEARCH | | 在 eCatalog 中用户执行关键词搜索时。 |
 | PLAY | **X**（视频） | 在视频查看器中，当用户选择“播放”开始播放视频时。<br><br>**注意：** 如果您使用的是基于Adobe Analytics心率的视频报告，则在Adobe Dynamic Media Classic中配置Adobe Analytics时，不需要将任何变量映射到此查看器事件。 视频心率适用于开箱即用的Adobe Dynamic Media Classic HTML5 Video和MixedMedia查看器。 视频播放器生成跟踪数据以在 Adobe Analytics 视频报告中查看。参见 [启用Adobe Analytics视频报表](enabling-analytics-video-reports.md). |
 | PAUSE | **X**（视频） | 在视频查看器中，当用户选择 **[!UICONTROL 暂停]** 冻结视频。<br><br>**注意：** 如果您使用的是基于Adobe Analytics心率的视频报告，则在Adobe Dynamic Media Classic中配置Adobe Analytics时，不需要将任何变量映射到此查看器事件。 视频心率适用于开箱即用的Adobe Dynamic Media Classic HTML5 Video和MixedMedia查看器。 视频播放器生成跟踪数据以在 Adobe Analytics 视频报告中查看。参见 [启用Adobe Analytics视频报表](enabling-analytics-video-reports.md). |
 | STOP | **X**（视频） | 在视频查看器中，当用户选择 **[!UICONTROL 停止]** 停止播放视频。<br><br>**注意：** 如果您使用的是基于Adobe Analytics心率的视频报告，则在Adobe Dynamic Media Classic中配置Adobe Analytics时，不需要将任何变量映射到此查看器事件。 视频心率适用于开箱即用的Adobe Dynamic Media Classic HTML5 Video和MixedMedia查看器。 视频播放器生成跟踪数据以在 Adobe Analytics 视频报告中查看。参见 [启用Adobe Analytics视频报表](enabling-analytics-video-reports.md). |

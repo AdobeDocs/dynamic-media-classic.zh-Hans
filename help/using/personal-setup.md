@@ -10,7 +10,9 @@ discoiquuid: 6314e7b7-5bde-4fe2-8674-e4fc525d4d1c
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: a019f973-7647-466f-8af3-5312e9225e89
-source-git-commit: 65e3b69bdcbd651a5f9ab100592217e61a8c05ef
+topic: Administration, Collaboration
+level: Intermediate
+source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
 workflow-type: tm+mt
 source-wordcount: '823'
 ht-degree: 25%
@@ -83,11 +85,11 @@ The plug-in is now available for you to use in Adobe Illustrator. -->
 * **[!UICONTROL 显示文件大小]**  — 在浏览时显示资源的文件大小。
 * **[!UICONTROL 在搜索中包含UDF]**  — 为了提高运行的大多数元数据搜索的系统性能，请取消选择（默认）。
 
-   如果包括用户定义的字段对于您的大部分元数据搜索有帮助，您可以选择此选项以将其打开。或者可以使用高级搜索，与包括用户定义的字段相比，这种方式可以提供更直接、更快速的搜索体验。
+  如果包括用户定义的字段对于您的大部分元数据搜索有帮助，您可以选择此选项以将其打开。或者可以使用高级搜索，与包括用户定义的字段相比，这种方式可以提供更直接、更快速的搜索体验。
 
-   请参阅[实施高级搜索](searching-assets.md#conducting_an_advanced_search)。
+  请参阅[实施高级搜索](searching-assets.md#conducting_an_advanced_search)。
 
-   另请参阅[用户定义的字段](application-setup.md#user_defined_fields)。
+  另请参阅[用户定义的字段](application-setup.md#user_defined_fields)。
 
 * **[!UICONTROL 基本搜索类型]**  — 您可以从两个选项中进行选择： **[!UICONTROL 包含]** 搜索指定值的完整字符串； **[!UICONTROL 开头为]** 从字符串的开头搜索并返回结果的速度比 **[!UICONTROL 包含]**. 任一选项都会覆盖在中设置的默认值 **[!UICONTROL 设置]** > **[!UICONTROL 应用程序设置]** > **[!UICONTROL 应用程序常规设置]** 由管理员执行。
 * **[!UICONTROL 显示命令反馈]**  — 选择以打开对服务器的命令请求的显示；取消选择以关闭。

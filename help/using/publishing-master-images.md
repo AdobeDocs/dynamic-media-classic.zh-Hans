@@ -10,7 +10,9 @@ discoiquuid: 815e2a19-c64d-45c7-96bc-7f955e54f56e
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: b0010107-248c-4ebc-955c-7514462f351d
-source-git-commit: 65e3b69bdcbd651a5f9ab100592217e61a8c05ef
+topic: Content Management
+level: Intermediate
+source-git-commit: d82f816553f807b514f4690827dab672a6baf690
 workflow-type: tm+mt
 source-wordcount: '163'
 ht-degree: 6%
@@ -38,4 +40,3 @@ ht-degree: 6%
 >[!MORELIKETHIS]
 >
 >* [发布文件](publishing-files.md#publishing_files)
-

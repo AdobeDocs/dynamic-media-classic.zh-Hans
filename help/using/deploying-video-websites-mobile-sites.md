@@ -10,7 +10,9 @@ discoiquuid: 0d006314-c4cc-4f6c-a51c-6075bb445e39
 feature: Dynamic Media Classic,Viewers,Video
 role: User
 exl-id: 3df22d48-edb5-4927-aefb-104b53f81f1a
-source-git-commit: 65e3b69bdcbd651a5f9ab100592217e61a8c05ef
+topic: Content Management
+level: Intermediate
+source-git-commit: d82f816553f807b514f4690827dab672a6baf690
 workflow-type: tm+mt
 source-wordcount: '1706'
 ht-degree: 33%
@@ -61,15 +63,15 @@ ht-degree: 33%
    * 选择 **[!UICONTROL 网格视图]** 或 **[!UICONTROL 列表视图]**. 在“资源浏览”面板中，双击单个资源的视频缩略图，以便在详细信息视图中将其打开。在右侧的“URL和嵌入代码”面板中的HTTP流下，选择 **[!UICONTROL 复制URL]** 位于所需查看器的右侧。 作为最佳实践，请复制与 `Universal_HTML5_Video` 查看者。
    * 选择 **[!UICONTROL 网格视图]**. 在“资源浏览”面板中，选择单个资源，然后转到缩略图图像下方 **[!UICONTROL 预览]** > **[!UICONTROL 查看器列表]**.
 
-      在“查看器列表”页的表的“操作”列下，选择 **[!UICONTROL 复制URL]**. 作为最佳实践，请复制与 `Universal_HTML5_Video` 查看者。
+     在“查看器列表”页的表的“操作”列下，选择 **[!UICONTROL 复制URL]**. 作为最佳实践，请复制与 `Universal_HTML5_Video` 查看者。
 
    * 选择 **[!UICONTROL 列表视图]**. 在“资源浏览”面板中，选择单个资源，然后转到缩略图图像右侧的 **[!UICONTROL 预览]** > **[!UICONTROL 查看器列表]**.
 
-      在“查看器列表”页的表的“操作”列下，选择 **[!UICONTROL 复制URL]**. 作为最佳实践，请复制与 `Universal_HTML5_Video` 查看者。
+     在“查看器列表”页的表的“操作”列下，选择 **[!UICONTROL 复制URL]**. 作为最佳实践，请复制与 `Universal_HTML5_Video` 查看者。
 
    * 选择 **[!UICONTROL 网格视图]**， **[!UICONTROL 列表视图]**，或 **[!UICONTROL 详细信息视图]**. 在同一工具栏上，转到 **[!UICONTROL 预览]** > **[!UICONTROL 查看器列表]**.
 
-      在“查看器列表”页的表的“操作”列下，选择 **[!UICONTROL 复制URL]**. 作为最佳实践，请复制与 `Universal_HTML5_Video` 查看者。
+     在“查看器列表”页的表的“操作”列下，选择 **[!UICONTROL 复制URL]**. 作为最佳实践，请复制与 `Universal_HTML5_Video` 查看者。
 
 1. 将 HTML5 视频 URL 链接粘贴到您的网站和移动站点中。
 
@@ -88,15 +90,15 @@ ht-degree: 33%
    * 选择 **[!UICONTROL 网格视图]** 或 **[!UICONTROL 列表视图]**. 在“资源浏览”面板中，双击单个资源的视频缩略图，以便在详细信息视图中将其打开。在右侧的“URL和嵌入代码”面板中的HTTP流下，选择 **[!UICONTROL 嵌入代码]** 位于所需查看器的右侧。 作为最佳实践，请选择 **[!UICONTROL 嵌入代码]** 关联到的属性 `Universal_HTML5_Video` 查看者。
    * 选择 **[!UICONTROL 网格视图]**. 在“资源浏览”面板中，选择单个资源，然后选择视频缩略图图像下方 **[!UICONTROL 预览]** > **[!UICONTROL 查看器列表]**.
 
-      在“查看器列表”页的表的“操作”列下，选择 **[!UICONTROL 嵌入代码]**. 作为最佳实践，请选择 **[!UICONTROL 嵌入代码]** 关联到的属性 `Universal_HTML5_Video` 查看者。
+     在“查看器列表”页的表的“操作”列下，选择 **[!UICONTROL 嵌入代码]**. 作为最佳实践，请选择 **[!UICONTROL 嵌入代码]** 关联到的属性 `Universal_HTML5_Video` 查看者。
 
    * 选择 **[!UICONTROL 列表视图]**. 在“资源浏览”面板中，选择单个资源，然后转到缩略图图像右侧的 **[!UICONTROL 预览]** > **[!UICONTROL 查看器列表]**.
 
-      在“查看器列表”页的表的“操作”列下，选择 **[!UICONTROL 嵌入代码]**. 作为最佳实践，请选择 **[!UICONTROL 嵌入代码]** 关联到的属性 `Universal_HTML5_Video` 查看者。
+     在“查看器列表”页的表的“操作”列下，选择 **[!UICONTROL 嵌入代码]**. 作为最佳实践，请选择 **[!UICONTROL 嵌入代码]** 关联到的属性 `Universal_HTML5_Video` 查看者。
 
    * 选择 **[!UICONTROL 网格视图]**， **[!UICONTROL 列表视图]**，或 **[!UICONTROL 详细信息视图]**. 在同一工具栏上，转到 **[!UICONTROL 预览]** > **[!UICONTROL 查看器列表]**.
 
-      在“查看器列表”页的表的“操作”列下，选择 **[!UICONTROL 嵌入代码]**. 作为最佳实践，请选择 **[!UICONTROL 嵌入代码]** 关联到的属性 `Universal_HTML5_Video` 查看者。
+     在“查看器列表”页的表的“操作”列下，选择 **[!UICONTROL 嵌入代码]**. 作为最佳实践，请选择 **[!UICONTROL 嵌入代码]** 关联到的属性 `Universal_HTML5_Video` 查看者。
 
 1. 在“嵌入代码”对话框中，选择 **[!UICONTROL 复制到剪贴板]**.
 
@@ -119,15 +121,15 @@ ht-degree: 33%
 
 * Replace `"S7 video thumbnail URL"` 使用视频的缩略图URL，它是用户在播放视频之前看到的视频缩略图。
 
-   参见 [获取视频缩略图URL](deploying-video-websites-mobile-sites.md#obtaining_video_thumbnail_urls).
+  参见 [获取视频缩略图URL](deploying-video-websites-mobile-sites.md#obtaining_video_thumbnail_urls).
 
 * Replace `"S7 OGG video asset URL (no player)"` 用于OGG视频的渐进式URL。
 
-   参见 [将视频URL链接到移动网站或网站](deploying-video-websites-mobile-sites.md#linking_a_video_url_to_a_mobile_site_or_a_website).
+  参见 [将视频URL链接到移动网站或网站](deploying-video-websites-mobile-sites.md#linking_a_video_url_to_a_mobile_site_or_a_website).
 
 * Replace `"S7 MP4 mobile progressive video asset URL (no player)"` 使用视频的移动渐进式URL。
 
-   参见 [将视频URL链接到移动网站或网站](deploying-video-websites-mobile-sites.md#linking_a_video_url_to_a_mobile_site_or_a_website).
+  参见 [将视频URL链接到移动网站或网站](deploying-video-websites-mobile-sites.md#linking_a_video_url_to_a_mobile_site_or_a_website).
 
 ## 使用第三方视频播放器部署视频 {#deploying-video-using-a-third-party-video-player}
 
@@ -140,28 +142,28 @@ ht-degree: 33%
 
 * 生成直接HLS流视频URL（多比特率）
 
-   在 **[!UICONTROL 应用程序常规设置]** 页面，在 **[!UICONTROL 服务器]** 组，在 **[!UICONTROL 已发布的服务器名称]** 文本字段，构建直接URL。 使用以下语法： `server/is/content/company/folder/filename.m3u8`
+  在 **[!UICONTROL 应用程序常规设置]** 页面，在 **[!UICONTROL 服务器]** 组，在 **[!UICONTROL 已发布的服务器名称]** 文本字段，构建直接URL。 使用以下语法： `server/is/content/company/folder/filename.m3u8`
 
-   例如，假设已发布的服务器名称为 `https://s7d9.scene7.com/.` 使用步骤2中的语法，直接URL可能如下所示：
-   `https://s7d9.scene7.com/is/content/GeoRetail/AdobeRIA-AVS.m3u8`
+  例如，假设已发布的服务器名称为 `https://s7d9.scene7.com/.` 使用步骤2中的语法，直接URL可能如下所示：
+  `https://s7d9.scene7.com/is/content/GeoRetail/AdobeRIA-AVS.m3u8`
 
 * 生成直接HLS流视频URL（单比特率）
 
-   在 **[!UICONTROL 应用程序常规设置]** 页面，在 **[!UICONTROL 服务器]** 组，在 **[!UICONTROL HLS流服务器名称]** 文本字段，使用以下语法构建直接URL：
+  在 **[!UICONTROL 应用程序常规设置]** 页面，在 **[!UICONTROL 服务器]** 组，在 **[!UICONTROL HLS流服务器名称]** 文本字段，使用以下语法构建直接URL：
 
-   `server/company/folder/filename.ext.m3u8`
+  `server/company/folder/filename.ext.m3u8`
 
-   例如，假设HLS流服务器名称为 `https://s7mbrstream.scene7.com/hls-vod/`. 使用步骤2中的语法，直接URL可能如下所示：
-   `https://s7mbrstream.scene7.com/hls-vod/GeoRetail/MBR/ToyStory3\_Teaser1\_High\_iPad\_768x432\_1296K.mp4.m3u8`
+  例如，假设HLS流服务器名称为 `https://s7mbrstream.scene7.com/hls-vod/`. 使用步骤2中的语法，直接URL可能如下所示：
+  `https://s7mbrstream.scene7.com/hls-vod/GeoRetail/MBR/ToyStory3\_Teaser1\_High\_iPad\_768x432\_1296K.mp4.m3u8`
 
 * 生成直接渐进式视频 URL
 
-   在“**[!UICONTROL 应用程序常规设置]**”页面的“**[!UICONTROL 服务器]**”组的“**[!UICONTROL 渐进式视频服务器名称]**”文本框中，使用以下语法构建直接 eVideo URL：
+  在“**[!UICONTROL 应用程序常规设置]**”页面的“**[!UICONTROL 服务器]**”组的“**[!UICONTROL 渐进式视频服务器名称]**”文本框中，使用以下语法构建直接 eVideo URL：
 
-   `server/company/folder/filename`
+  `server/company/folder/filename`
 
-   例如，假设渐进式视频服务器名称为 `https://s7d9.scene7.com/is/content/`. 使用步骤2中的语法，直接URL可能如下所示：
-   `https://s7d9.scene7.com/e2/GeoRetail/SourceVideo/outdoors.mp4`
+  例如，假设渐进式视频服务器名称为 `https://s7d9.scene7.com/is/content/`. 使用步骤2中的语法，直接URL可能如下所示：
+  `https://s7d9.scene7.com/e2/GeoRetail/SourceVideo/outdoors.mp4`
 
 ## 使用视频缩略图 {#working-with-video-thumbnails}
 

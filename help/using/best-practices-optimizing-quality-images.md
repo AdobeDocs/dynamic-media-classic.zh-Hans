@@ -8,7 +8,9 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 3c50e706-b9ed-49db-8c08-f179de52b9cf
-source-git-commit: 38d7f8d6e5888e1c5ba9260ada45b79fb16b338f
+topic: Content Management
+level: Intermediate
+source-git-commit: d82f816553f807b514f4690827dab672a6baf690
 workflow-type: tm+mt
 source-wordcount: '1569'
 ht-degree: 50%
@@ -75,13 +77,13 @@ Adobe Dynamic Media Classic包括用于调整和优化图像和渲染结果的10
       * `amount`（0-5，效果的强度。）
       * `radius`（0-250，在锐化的对象周围绘制的“锐化线条”的宽度，以像素为单位。）
 
-         请记住，`radius` 和 `amount` 参数的作用是相反的。减少 `radius` 可以通过增加来补偿 `amount`. `Radius` 可以进行更精确的控制，因为较低的值仅锐化边缘像素，而较高的值锐化范围更宽的像素。
+        请记住，`radius` 和 `amount` 参数的作用是相反的。减少 `radius` 可以通过增加来补偿 `amount`. `Radius` 可以进行更精确的控制，因为较低的值仅锐化边缘像素，而较高的值锐化范围更宽的像素。
 
       * `threshold` （0-255，效应敏感度。）
 
-         此参数确定锐化的像素与周围区域相差多少，滤镜才会将它们视为边缘像素并进行锐化。阈值有助于避免出现具有类似颜色的过度锐化区域，如肤色。例如，阈值 12 忽略肤色亮度的细微变化以避免产生杂色，但仍会在对比强烈的区域中添加边缘对比度，例如，睫毛与皮肤交接的位置。
+        此参数确定锐化的像素与周围区域相差多少，滤镜才会将它们视为边缘像素并进行锐化。阈值有助于避免出现具有类似颜色的过度锐化区域，如肤色。例如，阈值 12 忽略肤色亮度的细微变化以避免产生杂色，但仍会在对比强烈的区域中添加边缘对比度，例如，睫毛与皮肤交接的位置。
 
-         有关如何设置这三个参数的更多信息，包括用于筛选器的最佳实践，请参阅 [在Adobe Dynamic Media Classic和Image Server上锐化图像](/help/using/assets/s7_sharpening_images.pdf).
+        有关如何设置这三个参数的更多信息，包括用于筛选器的最佳实践，请参阅 [在Adobe Dynamic Media Classic和Image Server上锐化图像](/help/using/assets/s7_sharpening_images.pdf).
 
       * Adobe Dynamic Media Classic还允许您控制第四个参数：单色( `0,1`)。 此参数确定是使用值 `0` 将 USM 锐化分别应用于每个颜色分量，还是使用值 `1` 将 USM 锐化应用于图像亮度/强度。
 

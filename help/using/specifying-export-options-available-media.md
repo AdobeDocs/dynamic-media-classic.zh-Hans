@@ -9,7 +9,9 @@ discoiquuid: 9bfd95da-3714-4e38-98af-331a04c685f5
 feature: Dynamic Media Classic,Collaboration,Asset Management
 role: Admin,User
 exl-id: c27df6c2-76f4-441c-bd26-cee98203291e
-source-git-commit: 65e3b69bdcbd651a5f9ab100592217e61a8c05ef
+topic: Collaboration, Content Management
+level: Intermediate
+source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
 workflow-type: tm+mt
 source-wordcount: '381'
 ht-degree: 57%
@@ -34,9 +36,9 @@ ht-degree: 57%
 
    * **启用用户定义的转换**  — 选中此选项后，用户可以从 **[!UICONTROL 大小]** “导出选定资产”窗口中的下拉列表。 然后用户可以选择度量单位（如像素或厘米），并指定所需的宽度和高度。当他们导出或下载这些文件时，图像文件将重新格式化。
 
-      从“**[!UICONTROL 大小]**”下拉列表中选择“**[!UICONTROL 像素]**”时，生成的图像宽度 x 高度不得超过 1 亿像素。此大小相当于正方形图像的 10,000 x 10,000 像素，或大约为 2x3 宽高比图像的 8,000 x 12,000 像素。如果导出原始主图像，则此大小限制不适用。
+     从“**[!UICONTROL 大小]**”下拉列表中选择“**[!UICONTROL 像素]**”时，生成的图像宽度 x 高度不得超过 1 亿像素。此大小相当于正方形图像的 10,000 x 10,000 像素，或大约为 2x3 宽高比图像的 8,000 x 12,000 像素。如果导出原始主图像，则此大小限制不适用。
 
-      如果您希望用户下载文件，而不在下载时重设文件的格式，请取消选择该选项。
+     如果您希望用户下载文件，而不在下载时重设文件的格式，请取消选择该选项。
 
    * **启用导出原始**  — 用于导出原始主图像。 在 **[!UICONTROL 导出所选资源]** 面板中，用户可以打开 **[!UICONTROL 转化]** 下拉菜单并选择 **[!UICONTROL 导出原始]** 以导出原始文件。 如果要强制用户在导出图像时选择图像预设或选择转换选项，请取消选择此选项。
 
@@ -44,4 +46,3 @@ ht-degree: 57%
 >
 >* [Image Presets](application-setup.md#image_presets)
 >* [为组选择图像预设访问权限](creating-media-portal-groups.md#choosing_image_preset_access_permissions_for_a_group)
-

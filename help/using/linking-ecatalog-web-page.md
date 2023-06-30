@@ -10,7 +10,9 @@ discoiquuid: 140640f2-3ca4-4b6c-a240-5f01be87fa9c
 feature: Dynamic Media Classic,Viewers,eCatalog
 role: User
 exl-id: aee72576-1e3e-401c-953d-cc2be27f7dfd
-source-git-commit: 65e3b69bdcbd651a5f9ab100592217e61a8c05ef
+topic: Integrations, Development
+level: Experienced
+source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
 workflow-type: tm+mt
 source-wordcount: '691'
 ht-degree: 38%
@@ -34,15 +36,15 @@ ht-degree: 38%
    * 选择 **[!UICONTROL 网格视图]**. 在“资源浏览”面板中，双击单个资源以便在详细信息视图中将其打开。在右侧的“URL和嵌入代码”面板中，选择 **[!UICONTROL 复制URL]** 位于所需查看器的右侧。
    * 选择 **[!UICONTROL 网格视图]**. 在“资源浏览”面板中，选择单个资源，然后转到缩略图图像下方 **[!UICONTROL 预览]** > **[!UICONTROL 查看器列表]**.
 
-      在“查看器列表”页的表的“操作”列下，选择 **[!UICONTROL 复制URL]**.
+     在“查看器列表”页的表的“操作”列下，选择 **[!UICONTROL 复制URL]**.
 
    * 选择 **[!UICONTROL 列表视图]**. 在“资源浏览”面板中，选择单个资源，然后转到缩略图图像右侧的 **[!UICONTROL 预览]** > **[!UICONTROL 查看器列表]**.
 
-      在“查看器列表”页的表的“操作”列下，选择 **[!UICONTROL 复制URL]**.
+     在“查看器列表”页的表的“操作”列下，选择 **[!UICONTROL 复制URL]**.
 
    * 选择 **[!UICONTROL 网格视图]**， **[!UICONTROL 列表视图]**，或 **[!UICONTROL 详细信息视图]**. 在同一工具栏上，转到 **[!UICONTROL 预览]** > **[!UICONTROL 查看器列表]**.
 
-      在“查看器列表”页的表的“操作”列下，选择 **复制URL**.
+     在“查看器列表”页的表的“操作”列下，选择 **复制URL**.
 
 ## 将eCatalog URL添加到网页 {#adding-ecatalog-urls-to-your-web-page}
 
@@ -63,15 +65,15 @@ ht-degree: 38%
    * 选择 **[!UICONTROL 网格视图]**. 在“资源浏览”面板中，双击单个资源以便在详细信息视图中将其打开。在右侧的URL面板中，选择 **[!UICONTROL 嵌入代码]**.
    * 选择 **[!UICONTROL 网格视图]**. 在“资源浏览”面板中，选择单个资源，然后转到缩略图图像下方 **[!UICONTROL 预览]** > **[!UICONTROL 查看器列表]**.
 
-      在“查看器列表”页的表的“操作”列下，选择 **[!UICONTROL 嵌入代码]**.
+     在“查看器列表”页的表的“操作”列下，选择 **[!UICONTROL 嵌入代码]**.
 
    * 选择 **[!UICONTROL 列表视图]**. 在“资源浏览”面板中，选择单个资源，然后转到缩略图图像右侧的 **[!UICONTROL 预览]** > **[!UICONTROL 查看器列表]**.
 
-      在“查看器列表”页的表的“操作”列下，选择 **[!UICONTROL 嵌入代码]**.
+     在“查看器列表”页的表的“操作”列下，选择 **[!UICONTROL 嵌入代码]**.
 
    * 选择 **[!UICONTROL 网格视图]**， **[!UICONTROL 列表视图]**，或 **[!UICONTROL 详细信息视图]**. 在同一工具栏上，转到 **[!UICONTROL 预览]** > **[!UICONTROL 查看器列表]**.
 
-      在“查看器列表”页的表的“操作”列下，选择 **[!UICONTROL 嵌入代码]**.
+     在“查看器列表”页的表的“操作”列下，选择 **[!UICONTROL 嵌入代码]**.
 
 1. 在“嵌入代码”对话框中，选择 **[!UICONTROL 复制到剪贴板]**.
 

@@ -10,7 +10,9 @@ discoiquuid: 38efb70d-e17e-4cef-8af1-be748f66f3ea
 feature: Dynamic Media Classic,Viewers,Spin Sets
 role: User
 exl-id: b085f7ea-4623-402e-97f5-ed8ad5f368c7
-source-git-commit: 65e3b69bdcbd651a5f9ab100592217e61a8c05ef
+topic: Content Management
+level: Intermediate
+source-git-commit: d82f816553f807b514f4690827dab672a6baf690
 workflow-type: tm+mt
 source-wordcount: '178'
 ht-degree: 10%
@@ -32,4 +34,3 @@ ht-degree: 10%
 >[!MORELIKETHIS]
 >
 >* [发布文件](publishing-files.md#publishing_files)
-

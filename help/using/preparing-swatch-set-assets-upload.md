@@ -10,7 +10,9 @@ discoiquuid: 0c851ecd-be05-46a9-8654-3d028f3217a4
 feature: Dynamic Media Classic,Viewers
 role: User
 exl-id: 90216519-4b14-4f8b-8e72-3d7ce9ec89ff
-source-git-commit: 65e3b69bdcbd651a5f9ab100592217e61a8c05ef
+topic: Content Management
+level: Intermediate
+source-git-commit: d82f816553f807b514f4690827dab672a6baf690
 workflow-type: tm+mt
 source-wordcount: '179'
 ht-degree: 61%
@@ -33,4 +35,3 @@ ht-degree: 61%
 >[!MORELIKETHIS]
 >
 >* [处理晕影、窗口覆盖和CAB文件](vignette-window-covering-cabinet-files.md#working_with_vignette_window_covering_and_cabinet_files)
-

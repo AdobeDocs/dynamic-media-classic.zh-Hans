@@ -7,7 +7,9 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 feature: Dynamic Media Classic,Viewers,Video
 role: User
 exl-id: 66a1ab20-6036-4c3d-bb66-dd06d917c7f2
-source-git-commit: 65e3b69bdcbd651a5f9ab100592217e61a8c05ef
+topic: Content Management
+level: Intermediate
+source-git-commit: d82f816553f807b514f4690827dab672a6baf690
 workflow-type: tm+mt
 source-wordcount: '904'
 ht-degree: 32%
@@ -56,18 +58,18 @@ Adobe Dynamic Media Classic可以将字幕文件转换为JSON（JavaScript对象
 
    * 要获得弹出式视频查看器体验，请选择 **[!UICONTROL 复制URL]** 最右边的名字。
 
-      使用以下语法附加复制的视频的URL，以便将其与复制的URL关联到字幕文件：
+     使用以下语法附加复制的视频的URL，以便将其与复制的URL关联到字幕文件：
 
-      `&caption=<full Copy URL path to the caption file .vtt>,1`
+     `&caption=<full Copy URL path to the caption file .vtt>,1`
 
-      请注意 `,1` 在题注URL路径末尾。 紧跟路径中的VTT文件扩展名之后，您可以选择通过将设置为，启用或禁用视频播放器栏上的隐藏式字幕按钮 `1` 或 `0`，则不会显示任何内容。
+     请注意 `,1` 在题注URL路径末尾。 紧跟路径中的VTT文件扩展名之后，您可以选择通过将设置为，启用或禁用视频播放器栏上的隐藏式字幕按钮 `1` 或 `0`，则不会显示任何内容。
 
    * 要获得嵌入式视频查看器体验，请选择 **[!UICONTROL 嵌入代码]** 最右边的名字。
 
-      在“嵌入代码”对话框中，选择 **[!UICONTROL 复制到剪贴板]**.
+     在“嵌入代码”对话框中，选择 **[!UICONTROL 复制到剪贴板]**.
 
-      对于HTML5 `Universal_HTML5_Video`， `Universal_HTML5_MixedMedia_dark`，或 `Universal_HTML5_MixedMedia_light` 查看器，将复制的嵌入代码附加到以下内容：
+     对于HTML5 `Universal_HTML5_Video`， `Universal_HTML5_MixedMedia_dark`，或 `Universal_HTML5_MixedMedia_light` 查看器，将复制的嵌入代码附加到以下内容：
 
-      `videoViewer.setParam("caption","<full Copy URL path to the caption file .vtt>,1”`
+     `videoViewer.setParam("caption","<full Copy URL path to the caption file .vtt>,1”`
 
-      请注意 `,1` URL路径末尾。 在URL路径中的VTT文件扩展名之后，您可以选择通过将设置为，启用或禁用视频播放器栏上的字幕按钮 `1` 或 `0`，则不会显示任何内容。
+     请注意 `,1` URL路径末尾。 在URL路径中的VTT文件扩展名之后，您可以选择通过将设置为，启用或禁用视频播放器栏上的字幕按钮 `1` 或 `0`，则不会显示任何内容。

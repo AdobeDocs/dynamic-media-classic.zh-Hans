@@ -10,7 +10,9 @@ discoiquuid: eb850ec7-a669-41ea-b2b0-4c9178e34f95
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 5e3b0002-5ae2-4437-862f-caa098b04362
-source-git-commit: 65e3b69bdcbd651a5f9ab100592217e61a8c05ef
+topic: Content Management
+level: Intermediate
+source-git-commit: d82f816553f807b514f4690827dab672a6baf690
 workflow-type: tm+mt
 source-wordcount: '432'
 ht-degree: 51%
@@ -36,7 +38,7 @@ Adobe Dynamic Media Classic会在“作业”屏幕中保留导出作业的记�
 
    * **[!UICONTROL 大小]**  — 您可以选择标准大小。 或者，您可以选择 **[!UICONTROL 其他]** 从 **[!UICONTROL 大小]** 下拉列表，选择所需的度量单位，然后指定宽度和高度。
 
-      另请参阅 [指定Media Portal用户可用的导出选项](specifying-export-options-available-media.md#specifying_export_options_available_to_media_portal_users).
+     另请参阅 [指定Media Portal用户可用的导出选项](specifying-export-options-available-media.md#specifying_export_options_available_to_media_portal_users).
 
    * **[!UICONTROL 格式]**  — 选择图像格式。
 

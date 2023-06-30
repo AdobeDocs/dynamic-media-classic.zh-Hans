@@ -10,7 +10,9 @@ discoiquuid: 4b32ffff-4387-4699-9ba9-c3b23a2c3607
 feature: Dynamic Media Classic,Viewers,Spin Sets
 role: User
 exl-id: 6231a29e-d1b9-47d3-a23a-1940e91ebbc5
-source-git-commit: 65e3b69bdcbd651a5f9ab100592217e61a8c05ef
+topic: Content Management
+level: Intermediate
+source-git-commit: d82f816553f807b514f4690827dab672a6baf690
 workflow-type: tm+mt
 source-wordcount: '255'
 ht-degree: 38%
@@ -42,4 +44,3 @@ ht-degree: 38%
 >[!MORELIKETHIS]
 >
 >* [编辑旋转集](creating-spin-set.md#editing-a-spin-set)
-

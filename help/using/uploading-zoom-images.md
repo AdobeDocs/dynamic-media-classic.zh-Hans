@@ -10,7 +10,9 @@ discoiquuid: e84b7b0e-527a-4c64-bc2a-e5e64d47b2d6
 feature: Dynamic Media Classic,Viewers,Zoom
 role: User
 exl-id: 44a82437-7592-484f-b45f-17ed1f6efbec
-source-git-commit: 65e3b69bdcbd651a5f9ab100592217e61a8c05ef
+topic: Content Management
+level: Intermediate
+source-git-commit: d82f816553f807b514f4690827dab672a6baf690
 workflow-type: tm+mt
 source-wordcount: '221'
 ht-degree: 21%
@@ -38,4 +40,3 @@ ht-degree: 21%
 >[!MORELIKETHIS]
 >
 >* [上载文件](uploading-files.md#uploading_files)
-

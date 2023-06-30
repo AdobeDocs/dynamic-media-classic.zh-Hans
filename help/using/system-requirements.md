@@ -10,7 +10,9 @@ discoiquuid: 27278fef-8b0e-41cd-b393-7a4c3625d5c0
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 3460f3bd-1616-44e7-9ddb-fe74ee0c8729
-source-git-commit: 38d7f8d6e5888e1c5ba9260ada45b79fb16b338f
+topic: Administration, Content Management
+level: Intermediate
+source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
 workflow-type: tm+mt
 source-wordcount: '111'
 ht-degree: 26%
@@ -32,5 +34,4 @@ ht-degree: 26%
 >[!MORELIKETHIS]
 >
 >* [Dynamic Media限制](/help/using/limitations.md)
-
 

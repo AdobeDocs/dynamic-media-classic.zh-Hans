@@ -10,7 +10,9 @@ discoiquuid: 1bd7cb5d-156c-4dad-a725-e177f05ccedf
 feature: Dynamic Media Classic,Collaboration,Asset Management
 role: Admin,User
 exl-id: ce9b5a41-cc3e-4801-8080-607cf7be338b
-source-git-commit: 65e3b69bdcbd651a5f9ab100592217e61a8c05ef
+topic: Administration, Collaboration
+level: Intermediate
+source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
 workflow-type: tm+mt
 source-wordcount: '315'
 ht-degree: 65%
@@ -37,12 +39,12 @@ Media Portal 提供了下列角色，每个角色具有不同的访问权和权�
 | 浏览元数据 | X | X | X |
 | 预览文件 | X | X | X |
 | 搜索文件 | X | X | X |
-| 将文件上传到Adobe Dynamic Media Classic |  | X | X |
-| 编辑和导入资源元数据 |  | X | X |
-| 创建、重命名和删除文件夹 |  | X | X |
-| 导出资源元数据 | X |  | X |
-| 更改文件名 |  | X | X |
-| 将文件移动到其他文件夹 |  | X | X |
-| 重命名文件 |  | X | X |
-| 删除文件 |  | X | X |
-| 从Adobe Dynamic Media Classic导出（下载）文件 | X |  | X |
+| 将文件上传到Adobe Dynamic Media Classic | | X | X |
+| 编辑和导入资源元数据 | | X | X |
+| 创建、重命名和删除文件夹 | | X | X |
+| 导出资源元数据 | X | | X |
+| 更改文件名 | | X | X |
+| 将文件移动到其他文件夹 | | X | X |
+| 重命名文件 | | X | X |
+| 删除文件 | | X | X |
+| 从Adobe Dynamic Media Classic导出（下载）文件 | X | | X |

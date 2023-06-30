@@ -8,7 +8,9 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/upload_and_publish_assets
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 91b73a09-c5b5-4001-b36f-6bebe65717ff
-source-git-commit: 38d7f8d6e5888e1c5ba9260ada45b79fb16b338f
+topic: Content Management
+level: Intermediate
+source-git-commit: d82f816553f807b514f4690827dab672a6baf690
 workflow-type: tm+mt
 source-wordcount: '1729'
 ht-degree: 45%
@@ -122,7 +124,7 @@ Adobe Dynamic Media Classic跟踪“作业”页面上的发布作业。 您可�
 
    * 在网格视图、列表视图或详细信息视图中，使用标准文件选择方法选择一个或多个未发布的资源。
 
-      在全局导航栏上，转到 **[!UICONTROL 文件]** > **[!UICONTROL Publish]**.
+     在全局导航栏上，转到 **[!UICONTROL 文件]** > **[!UICONTROL Publish]**.
 
    * 在“网格视图”、“列表视图”或“详细信息视图”中，选择资源名称左侧的带斜杠的灰色倒圆角图标。
 
@@ -138,7 +140,7 @@ Adobe Dynamic Media Classic跟踪“作业”页面上的发布作业。 您可�
 
    * 在“网格视图”、“列表视图”或“详细信息视图”中，选择一个或多个已发布的资源。
 
-      在全局导航栏上，转到 **[!UICONTROL 文件]** > **[!UICONTROL 取消发布]**.
+     在全局导航栏上，转到 **[!UICONTROL 文件]** > **[!UICONTROL 取消发布]**.
 
    * 在“网格视图”、“列表视图”或“详细信息视图”中，选择资源名称左侧的绿色圆环复选标记图标。
 
@@ -162,4 +164,3 @@ Adobe Dynamic Media Classic资源在内容交付网络(CDN)上分发。 CDN 是�
 >
 >* [检查作业文件](checking-job-files.md)
 >* [编辑、删除、暂停和恢复定期作业](checking-job-files.md#editing-deleting-pausing-and-resuming-recurring-jobs)
-

@@ -5,7 +5,9 @@ contentOwner: Rick Brough
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: f67a0645-a37d-4791-a0da-69d844fea40e
-source-git-commit: 38d7f8d6e5888e1c5ba9260ada45b79fb16b338f
+topic: Administration, Content Management
+level: Intermediate
+source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
 workflow-type: tm+mt
 source-wordcount: '580'
 ht-degree: 8%

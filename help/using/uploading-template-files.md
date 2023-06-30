@@ -10,7 +10,9 @@ discoiquuid: 75658717-5c39-473e-9d32-718d00706310
 feature: Dynamic Media Classic
 role: User
 exl-id: a105c18a-7e06-43cb-938c-a3bcdc3e9d22
-source-git-commit: 65e3b69bdcbd651a5f9ab100592217e61a8c05ef
+topic: Content Management
+level: Experienced
+source-git-commit: d82f816553f807b514f4690827dab672a6baf690
 workflow-type: tm+mt
 source-wordcount: '244'
 ht-degree: 38%
@@ -31,7 +33,6 @@ ht-degree: 38%
 
 * 如果要上传PSD文件，您可以从中创建模板。 Adobe Dynamic Media Classic会为PSD中的每个图层创建单独的图像。 在“上载作业选项”对话框中，选择 **[!UICONTROL Photoshop选项]**，并选择 **[!UICONTROL 保留图层]** 和 **[!UICONTROL 创建模板]**. 然后，从 **[!UICONTROL 图层命名]** 下拉列表，用于命名Adobe Dynamic Media Classic从PSD中的图层创建的图像。
 请参阅[PSD 上载选项](psd-files.md#psd_upload_options)。
-
 <!-- THERE IS NO LONGER AN IMAGE EDITING OPTIONS MENU * If you are uploading images, you can create a mask from its clipping path. This option applies to images created with image-editing applications in which a clipping path was created. In the Upload Job Options dialog box, select Image Editing Options and select the Create Mask From Clipping Path option. 
 See [Image editing options at upload](image-editing-options-upload.md#image-editing-options-at-upload). -->
 
@@ -39,4 +40,3 @@ See [Image editing options at upload](image-editing-options-upload.md#image-edit
 >
 >* [上传您的文件](uploading-files.md#uploading_your_files)
 >* [使用PSD文件](psd-files.md#working_with_psd_files)
-

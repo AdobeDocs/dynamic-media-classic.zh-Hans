@@ -10,7 +10,9 @@ discoiquuid: 4cf63359-63b5-4da7-9498-335d91b4776c
 feature: Dynamic Media Classic,Viewers,eCatalog
 role: User
 exl-id: 5e7f39a5-36a6-40df-8752-064a582c9346
-source-git-commit: 65e3b69bdcbd651a5f9ab100592217e61a8c05ef
+topic: Integrations, Development
+level: Experienced
+source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
 workflow-type: tm+mt
 source-wordcount: '1492'
 ht-degree: 40%
@@ -34,7 +36,7 @@ ht-degree: 40%
 
    * **多边形地图**  — 选择“多边形图像映射”工具，然后根据需要多次选择图像的周长。 选择后，Adobe Dynamic Media Classic将绘制图像映射的边框。
 
-      绘制图像映射后，Adobe Dynamic Media Classic会在“图像映射”列表中为其指定一个名称。 为了形成名称，Adobe Dynamic Media Classic会在您正在使用的eCatalog页面的名称后附加一个序列号。
+     绘制图像映射后，Adobe Dynamic Media Classic会在“图像映射”列表中为其指定一个名称。 为了形成名称，Adobe Dynamic Media Classic会在您正在使用的eCatalog页面的名称后附加一个序列号。
 
 1. （可选）从“图像映射”列表中，位于 [!UICONTROL 名称] 列中，您可以为图像映射输入新名称。 输入的名称中不能包含空格。
 1. 您可以让查看者在选择“图像映射”时打开一个新网页。 在“图像映射”列表面板中的“URL”列中输入网页的 URL。
@@ -77,23 +79,23 @@ ht-degree: 40%
 
 * **调整位置**  — 选择“平移”工具，并将指针移动到地图边框附近，但不会移动到地图边框上。 当指针显示为四向箭头时，将图像映射拖动到新位置。
 
-   参见 [调整图像映射的位置、形状和大小](creating-image-maps.md#adjusting_the_position_shape_and_size_of_image_maps).
+  参见 [调整图像映射的位置、形状和大小](creating-image-maps.md#adjusting_the_position_shape_and_size_of_image_maps).
 
 * **更改形状和大小**  — 要调整矩形图像映射的大小，请选择平移工具。 然后将指针移动到边框或角上，看到双向箭头图标时进行拖动。要调整多边形图像映射的大小，请拖动正方形选择手柄。要创建选区手柄，请选择“图像映射”的边框并拖动。
 
-   参见 [调整图像映射的位置、形状和大小](creating-image-maps.md#adjusting_the_position_shape_and_size_of_image_maps).
+  参见 [调整图像映射的位置、形状和大小](creating-image-maps.md#adjusting_the_position_shape_and_size_of_image_maps).
 
 * **删除图像映射**  — 选择“平移”工具，选择“图像映射”以将其选中，然后选择 **[!UICONTROL 删除]**.
 
-   要从eCatalog中删除所有图像映射，请选择 **[!UICONTROL 排序页面]** 选项卡，然后选择 **[!UICONTROL 清除映射]**.
+  要从eCatalog中删除所有图像映射，请选择 **[!UICONTROL 排序页面]** 选项卡，然后选择 **[!UICONTROL 清除映射]**.
 
 * **处理重叠的图像映射**  — 拖动以更改图像映射在图像映射列表中的顺序。
 
-   参见 [处理重叠的图像映射](creating-image-maps.md#handling_overlapping_image_maps).
+  参见 [处理重叠的图像映射](creating-image-maps.md#handling_overlapping_image_maps).
 
 * **将图像映射复制到其他页面**  — 选择 **[!UICONTROL 将映射复制到]** （确保您位于“映射页面”选项卡上）。 在选择图像屏幕上，选择要复制图像映射的一个或多个页面，然后选择 **[!UICONTROL 选择]**.
 
-   参见 [将图像映射复制到其他图像](creating-image-maps.md#copying_image_maps).
+  参见 [将图像映射复制到其他图像](creating-image-maps.md#copying_image_maps).
 
 >[!NOTE]
 >

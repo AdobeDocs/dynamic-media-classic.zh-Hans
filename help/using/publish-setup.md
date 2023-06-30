@@ -7,7 +7,9 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 feature: Dynamic Media Classic
 role: Admin
 exl-id: 699d4c12-e47b-4c6b-86f3-dc7aaaa56c1e
-source-git-commit: 65e3b69bdcbd651a5f9ab100592217e61a8c05ef
+topic: Administration, Content Management
+level: Intermediate
+source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
 workflow-type: tm+mt
 source-wordcount: '2405'
 ht-degree: 42%
@@ -48,18 +50,18 @@ ht-degree: 42%
 
 * **[!UICONTROL 本地化支持]*** — 这些设置允许您管理多个区域设置属性。 它还允许您指定区域设置映射字符串，以便定义查看器中的各种工具提示所需的支持语言。
 
-   例如，如果您的品牌在多个不同国家/地区销售，您可以确保每个国家/地区都有自己特定区域设置的查看器。要实现该功能，请指定区域设置映射字符串。然后，通过添加所需语言的翻译文本字符串在查看器预设中编辑工具提示文本。
+  例如，如果您的品牌在多个不同国家/地区销售，您可以确保每个国家/地区都有自己特定区域设置的查看器。要实现该功能，请指定区域设置映射字符串。然后，通过添加所需语言的翻译文本字符串在查看器预设中编辑工具提示文本。
 
-   >[!NOTE]
-   > 要设置本地化支持选项， [使用Admin Console创建支持案例。](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) 在您的支持案例中，请求设置帮助。
+  >[!NOTE]
+  > 要设置本地化支持选项， [使用Admin Console创建支持案例。](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) 在您的支持案例中，请求设置帮助。
 
-   有关设置“**[!UICONTROL 本地化支持]**”的更多信息，请参阅[设置资源本地化时的注意事项](publish-setup.md#considerations_when_setting_up_localization_of_assets)。
+  有关设置“**[!UICONTROL 本地化支持]**”的更多信息，请参阅[设置资源本地化时的注意事项](publish-setup.md#considerations_when_setting_up_localization_of_assets)。
 
 ### 设置资源本地化时的注意事项 {#considerations-when-setting-up-localization-of-assets}
 
 >[!NOTE]
 >
->如果要在Adobe Dynamic Media Classic中设置本地化支持选项，如“区域设置映射”字段， [使用Admin Console创建支持案例。](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) 在您的支持案例中，请求设置帮助。
+>如果要在Adobe Dynamic Media Classic中设置本地化支持选项，例如“区域设置映射”字段， [使用Admin Console创建支持案例。](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) 在您的支持案例中，请求设置帮助。
 
 使用Adobe Dynamic Media Classic的常见方法是管理电子商务网站上的产品图像。 国际企业面临如下挑战：类似产品的资源在各个国家/地区之间存在一些差异。通常，差异存在于整个介质的一些部分。 通过复制每个国家的所有资产并只写出这些差异来解决这些差异是一项巨大的努力，并且与单一的主要资产隐喻相悖。 从包含不同音轨的国家/地区特定视频，到产品所用电源线的细微但重要的差异，此类资源差异可能会持续存在。Adobe Dynamic Media Classic使用基本查找机制。 您可以从所需的区域设置开始，定义图像服务器查找资源后缀的顺序。
 

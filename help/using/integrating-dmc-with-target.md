@@ -10,7 +10,9 @@ discoiquuid: 3b4add18-4191-475e-a3a3-0184367a25fc
 feature: Dynamic Media Classic
 role: Data Engineer,Admin,User
 exl-id: c6f217fb-89cb-4c8d-aa7f-309fc42f7d46
-source-git-commit: 65e3b69bdcbd651a5f9ab100592217e61a8c05ef
+topic: Integrations, Development
+level: Experienced
+source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
 workflow-type: tm+mt
 source-wordcount: '149'
 ht-degree: 0%

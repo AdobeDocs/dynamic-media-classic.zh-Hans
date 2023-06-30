@@ -10,7 +10,9 @@ discoiquuid: 43df059d-7c4d-481a-978a-ca4c74e604b4
 feature: Dynamic Media Classic,Collaboration,Asset Management
 role: Admin
 exl-id: aa268ff7-c474-409a-af3e-3fd8ae1e6241
-source-git-commit: 65e3b69bdcbd651a5f9ab100592217e61a8c05ef
+topic: Administration, Collaboration
+level: Intermediate
+source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
 workflow-type: tm+mt
 source-wordcount: '113'
 ht-degree: 25%

@@ -10,7 +10,9 @@ discoiquuid: 28889c60-596a-40d2-85d4-f48a4f86b932
 feature: Dynamic Media Classic,Viewers,eCatalog
 role: User
 exl-id: 51d411b2-b4bc-4cf6-afca-dd0ed0d219a1
-source-git-commit: 65e3b69bdcbd651a5f9ab100592217e61a8c05ef
+topic: Integrations, Development
+level: Experienced
+source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
 workflow-type: tm+mt
 source-wordcount: '967'
 ht-degree: 56%
@@ -42,9 +44,9 @@ ht-degree: 56%
 
    * **从eCatalog屏幕开始**  — 转到 **[!UICONTROL 生成]** > **[!UICONTROL eCatalogs]**. 在资源库中选择一个文件夹，将该文件夹中的文件拖到 eCatalog 页面的“排序页面”选项卡中。
 
-      >[!NOTE]
-      >
-      >要按照名称而不是缩略图查看资源库中的物品，在“个人设置”的“默认资源库”视图中选择“名称”选项。
+     >[!NOTE]
+     >
+     >要按照名称而不是缩略图查看资源库中的物品，在“个人设置”的“默认资源库”视图中选择“名称”选项。
 
 1. 为 eCatalog 选择整体布局。选择 **[!UICONTROL 1栏式]** 对于单页， **[!UICONTROL 2页]** 对于双页跨页，或者 **[!UICONTROL 自定义]** 对于超过两页的页面跨页。 在 **[!UICONTROL 更改eCatalog布局]** 对话框中，选择 **[!UICONTROL 所有跨页]** 选项并选择 **[!UICONTROL 确定]**.
 1. （可选）通过选择单个页面或页面跨页，然后选择 **[!UICONTROL 1栏式]**， **[!UICONTROL 2页]**，或 **[!UICONTROL 自定义]** 按钮。 在 **[!UICONTROL 更改eCatalog布局]** 对话框中，选择 **[!UICONTROL 选定的跨页]** 选项并选择 **[!UICONTROL 确定]**.

@@ -7,7 +7,9 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: d15aaa18-123d-442e-928f-8e71fa266a64
-source-git-commit: 65e3b69bdcbd651a5f9ab100592217e61a8c05ef
+topic: Content Management
+level: Intermediate
+source-git-commit: d82f816553f807b514f4690827dab672a6baf690
 workflow-type: tm+mt
 source-wordcount: '164'
 ht-degree: 37%

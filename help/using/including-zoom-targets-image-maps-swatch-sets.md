@@ -10,7 +10,9 @@ discoiquuid: f75f6d5b-d689-4640-838f-a32d77859f62
 feature: Dynamic Media Classic,Viewers
 role: User
 exl-id: 1eaffe17-1fa3-4726-b0a1-369fabb9ee7e
-source-git-commit: 65e3b69bdcbd651a5f9ab100592217e61a8c05ef
+topic: Content Management
+level: Intermediate
+source-git-commit: d82f816553f807b514f4690827dab672a6baf690
 workflow-type: tm+mt
 source-wordcount: '165'
 ht-degree: 32%
@@ -27,4 +29,3 @@ ht-degree: 32%
 >
 >* [为引导缩放创建缩放目标](creating-zoom-targets-guided-zoom.md#creating_zoom_targets_for_guided_zoom)
 >* [创建图像映射](creating-image-maps.md#creating_image_maps)
-

@@ -10,7 +10,9 @@ discoiquuid: 4086e3db-5aca-41a0-8f15-302afbf67ddb
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: e3b8c4b9-e9c4-4d7f-84de-2efb456755a1
-source-git-commit: 38d7f8d6e5888e1c5ba9260ada45b79fb16b338f
+topic: Integrations, Development
+level: Experienced
+source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
 workflow-type: tm+mt
 source-wordcount: '1003'
 ht-degree: 25%
@@ -34,12 +36,12 @@ PSD(Photoshop文档文件)在Adobe Dynamic Media Classic中最常用于创建模
 * **裁切选项**  — 位于 **[!UICONTROL 裁切选项]**. 选择 **[!UICONTROL Trim]** 自动裁切PSD文件边缘的空格；选择 **[!UICONTROL 手动]** 要裁切PSD文件的侧边，请执行以下操作：
 
    * **[!UICONTROL Trim]**  — 选择 **[!UICONTROL 裁切依据]** 菜单，然后选择 **[!UICONTROL 颜色]** 或 **[!UICONTROL 透明度]**.
-   如果您选择 **[!UICONTROL 颜色]** 选项，选择“边角”菜单，然后选择最能代表要裁切的空白区域PSD的颜色作为颜色的边角。
 
-   拖动滑块以指定从0到1的公差。 基于颜色修剪时，如果指定为 0，则仅裁切与 PSD 角中选定颜色精确匹配的像素。数字越接近 1，允许的色差越大。要根据透明度进行修剪，请指定0以仅在像素为透明时裁切像素；数字越靠近1则透明度越高。
+  如果您选择 **[!UICONTROL 颜色]** 选项，选择“边角”菜单，然后选择最能代表要裁切的空白区域PSD的颜色作为颜色的边角。
+
+  拖动滑块以指定从0到1的公差。 基于颜色修剪时，如果指定为 0，则仅裁切与 PSD 角中选定颜色精确匹配的像素。数字越接近 1，允许的色差越大。要根据透明度进行修剪，请指定0以仅在像素为透明时裁切像素；数字越靠近1则透明度越高。
 
    * **[!UICONTROL 手动]**  — 输入要从图像任何一侧或每侧裁切的像素数。 图像被裁切部分的大小取决于图像文件中的 ppi（像素/英寸）设置。例如，如果图像显示150 ppi，而您在“顶部”、“右侧”、“底部”和“左侧”文本框中输入75，则输入0.5英寸。 从图像的每一侧裁剪。
-
 
 * **颜色配置文件选项**  — 位于 **[!UICONTROL 颜色配置文件选项]**.
 
@@ -66,8 +68,8 @@ PSD(Photoshop文档文件)在Adobe Dynamic Media Classic中最常用于创建模
       * **[!UICONTROL Photoshop和图层编号]**  — 将图像命名为PSD文件中的图层编号后名称，而忽略原始图层名称。 使用 Photoshop 文件名和附加的图层编号为图像命名。例如，文件的第二层，称为 `Spring Ad.psd` 已命名 `Spring Ad_2` 即使它在Photoshop中具有非默认名称。
 
       * **[!UICONTROL Photoshop和图层名称]**  — 在PSD文件后面加上图层名称或图层编号来命名图像。 如果 PSD 文件中的图层名称是默认的 Photoshop 图层名称，则将使用图层编号。例如，一个名为的层 `Price Tag` 在名为的PSD文件中 `SpringAd` 已命名 `Spring Ad_Price Tag`. 缺省名称为Layer 2的层称为 `Spring Ad_2`.
-   * **[!UICONTROL 锚点]**  — 指定如何在模板中定位图像，模板是根据PSD文件生成的分层合成生成的。 默认情况下，锚点是中心。中心锚点允许替换图像尽可能占据相同的空间，无论替换图像的高宽比是多少。当引用模板并使用参数替换时，替换该图像的高宽比不同的图像有效地占据相同的空间。如果应用程序要求替换图像占据模板中分配的空间，请更改为其他设置。
 
+   * **[!UICONTROL 锚点]**  — 指定如何在模板中定位图像，模板是根据PSD文件生成的分层合成生成的。 默认情况下，锚点是中心。中心锚点允许替换图像尽可能占据相同的空间，无论替换图像的高宽比是多少。当引用模板并使用参数替换时，替换该图像的高宽比不同的图像有效地占据相同的空间。如果应用程序要求替换图像占据模板中分配的空间，请更改为其他设置。
 
 ## 在PSD文件中查看和编辑图层 {#viewing-and-editing-layers-in-a-psd-file}
 

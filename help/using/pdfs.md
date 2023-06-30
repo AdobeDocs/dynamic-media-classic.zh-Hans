@@ -10,7 +10,9 @@ discoiquuid: 5a073de3-6b1d-4c3e-8c03-9182f9f3874a
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 02892514-61fe-48ba-a2e3-eeb30580a1e4
-source-git-commit: 38d7f8d6e5888e1c5ba9260ada45b79fb16b338f
+topic: Integrations, Development
+level: Experienced
+source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
 workflow-type: tm+mt
 source-wordcount: '710'
 ht-degree: 36%
@@ -81,12 +83,12 @@ PDF（可移植文档格式）文件在Adobe Dynamic Media Classic中用于创�
       * **[!UICONTROL 颜色]**  — 选择颜色选项。 然后选择 **[!UICONTROL 角]** 菜单，然后选择最能代表要裁切的空白区域PDF的颜色作为颜色的角。
 
       * **[!UICONTROL 透明度]**  — 选择透明度选项。
+
    * **[!UICONTROL 容差]**  — 拖动滑块以指定从0到1的公差。
 
    * **[!UICONTROL 根据颜色进行修剪]**  — 指定0表示仅在像素与在PDF角选择的颜色完全匹配时裁切像素。 数字越接近 1，允许的色差越大。
 
    * **[!UICONTROL 基于透明度的修剪]**  — 指定0可仅在像素为透明时裁切像素；数字越接近1则透明度越高。
-
 
 ## 从PDF页侧面裁切 {#cropping-from-the-sides-of-pdf-pages}
 
