@@ -1,17 +1,16 @@
 ---
-source-git-commit: 2e36fc555c7e16406e68d289a97be72b87be8036
+source-git-commit: 1b90beb99b161b76da81403f5aed9755b3a92c8b
 workflow-type: tm+mt
-translation-type: tm+mt
-source-wordcount: '73'
+source-wordcount: '72'
 ht-degree: 0%
 
 ---
-# AdobeDynamic Media经典文档
+# Adobe Dynamic Media Classic文档
 
-这是AdobeDynamic Media经典文档的存储库。
+这是Adobe Dynamic Media Classic文档的存储库。
 
-欢迎您对文档做出贡献。 请参阅以下资源：
+欢迎您贡献文档内容。 请参阅以下资源：
 
-* [attibiting.md](contributing.md) 有关如何为文档贡献的概述。
-* [guidelines.md](guidelines.md) 有关稿件预期内容以及如何编写文档稿件的概述。
-* [code-of-cond.md](code-of-conduct.md) 有关我们在您为本文档项目做出贡献时所期望的行为标准的概述。
+* [contributing.md](contributing.md) 有关如何向文档投稿的概述。
+* [guidelines.md](guidelines.md) 有关预计会贡献哪些内容以及如何撰写文档贡献内容的概述。
+* [code-of-conduct.md](code-of-conduct.md) 有关在为此文档项目贡献内容时Adobe所期望的行为标准的概述。

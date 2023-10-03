@@ -12,7 +12,7 @@ role: User
 exl-id: 880ee6d0-cb0a-4d53-9056-f0b8b292136e
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: 1b90beb99b161b76da81403f5aed9755b3a92c8b
 workflow-type: tm+mt
 source-wordcount: '565'
 ht-degree: 52%
@@ -21,9 +21,9 @@ ht-degree: 52%
 
 # 调整图像{#adjusting-an-image}
 
-Adobe Dynamic Media Classic提供了各种用于调整图像外观的命令。 您可以翻转、旋转、模糊处理、更改颜色平衡，以及为图像着色。在使用这些命令进行试验时，您可以在正在处理的图像上看到命令效果。
+Adobe Dynamic Media Classic提供了多种用于调整图像外观的命令。 您可以翻转、旋转、模糊处理、更改颜色平衡，以及为图像着色。在使用这些命令进行试验时，您可以在正在处理的图像上看到命令效果。
 
-另请参阅 [为图像创建别名](adjusting-image.md#creating_an_alias_for_an_image).
+另请参阅 [创建图像的别名](adjusting-image.md#creating_an_alias_for_an_image).
 
 **要调整图像，请执行以下操作：**
 
@@ -45,18 +45,18 @@ Adobe Dynamic Media Classic提供了各种用于调整图像外观的命令。 �
 
      在下拉列表中，选择 **[!UICONTROL 替换原始]**，然后选择 **[!UICONTROL 保存]**.
 
-   * 要将图像另存为新的主控图像，请选择 **[!UICONTROL 另存为]**.
+   * 要将图像另存为新的主图像，请选择 **[!UICONTROL 另存为]**.
 
      在下拉列表中，选择“**[!UICONTROL 另存为新的主图像]**”。在 **[!UICONTROL 文件夹名称]** 列表框中，选择要保存新主映像的文件夹。
 选择 **[!UICONTROL 保存]**.
 
    * 将图像另存为主图像的另一个视图。 您可以为其创建别名。选择 **[!UICONTROL 另存为]**.
 
-     在 **[!UICONTROL 另存为]** 对话框中，在下拉列表中选择 **[!UICONTROL 另存为另一个主控视图]**.
+     在 **[!UICONTROL 另存为]** 对话框中，从下拉列表中选择 **[!UICONTROL 另存为主视图的另一视图]**.
 在 **[!UICONTROL 文件夹名称]** 列表框中，选择要保存新主映像的文件夹。
 选择 **[!UICONTROL 保存]**.
 
-## 为图像创建别名 {#creating-an-alias-for-an-image}
+## 创建图像的别名 {#creating-an-alias-for-an-image}
 
 调整图像后，可将其另存为主图像的另一个视图。 为此，您可以为该图像创建别名，方法是使用“**[!UICONTROL 另存为主图像的其他视图]**”功能。
 
@@ -64,7 +64,7 @@ Adobe Dynamic Media Classic提供了各种用于调整图像外观的命令。 �
 
 1. 在网格视图或列表视图中，在 **[!UICONTROL 编辑]** 要为其创建别名的图像旁边的下拉列表，选择 **[!UICONTROL Adjust]**.
 1. 在页面的右下角，选择 **[!UICONTROL 另存为]**.
-1. 在 **[!UICONTROL 另存为]** 对话框中，在下拉列表中选择 **[!UICONTROL 另存为主控的附加视图]**.
+1. 在 **[!UICONTROL 另存为]** 对话框中，从下拉列表中选择 **[!UICONTROL 另存为母版的附加视图]**.
 1. 在“**[!UICONTROL 文件夹名称]**”列表框中，选择要保存已创建别名的图像的文件夹。
 1. 在“**[!UICONTROL 文件名]**”字段中，键入要用作别名的名称。
 1. 选择 **[!UICONTROL 保存]**.
