@@ -1,27 +1,25 @@
 ---
 title: 将混合媒体集链接到网页
 description: 了解如何将混合媒体集链接到Adobe Dynamic Media Classic中的网页。
-uuid: 120326a2-77e9-4d6f-9b02-0a00fa9cbab1
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/mixed_media_sets
-discoiquuid: b33dacc4-509d-4878-a769-76642bfaeb4e
 feature: Dynamic Media Classic,Viewers,Mixed Media Sets
 role: User
 exl-id: 76a7530c-0cc7-4a7f-bc31-2950c4946871
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
 workflow-type: tm+mt
-source-wordcount: '652'
-ht-degree: 50%
+source-wordcount: '653'
+ht-degree: 47%
 
 ---
 
 # 将混合媒体集链接到网页{#linking-a-mixed-media-set-to-a-web-page}
 
-发布混合媒体集后，可以获得其 URL，以在您的网站或应用程序中使用。然后可以根据需要部署 URL，以便用户能够在您的网站或应用程序中查看混合媒体集。
+发布混合媒体集后，您可以获取其关联的URL，以在网站或应用程序中使用。 然后可以根据需要部署 URL，以便用户能够在您的网站或应用程序中查看混合媒体集。
 
 ## 获得混合媒体集 URL {#obtain-a-mixed-media-set-url}
 
@@ -30,11 +28,11 @@ ht-degree: 50%
 1. 在“资源浏览”面板上方的工具栏右侧，执行以下任一操作：
 
    * 单击“**[!UICONTROL 网格视图]**”。在“资源浏览”面板中，双击单个资源以便在详细信息视图中将其打开。在右侧的“URL和嵌入代码”面板中，选择 **[!UICONTROL 复制URL]** 位于所需查看器的右侧。
-   * 单击“**[!UICONTROL 网格视图]**”。在“资源浏览”面板中，选择单个资源，然后转到缩略图图像下方 **[!UICONTROL 预览]** > **[!UICONTROL 查看器列表]**.
+   * 单击“**[!UICONTROL 网格视图]**”。在资源浏览面板中，选择单个资源，然后转到缩略图图像下方 **[!UICONTROL 预览]** > **[!UICONTROL 查看器列表]**.
 
      在“查看器列表”页的表的“操作”列下，选择 **[!UICONTROL 复制URL]**.
 
-   * 单击“**[!UICONTROL 列表视图]**”。在“资源浏览”面板中，选择单个资源，然后转到缩略图图像右侧的 **[!UICONTROL 预览]** > **[!UICONTROL 查看器列表]**.
+   * 单击“**[!UICONTROL 列表视图]**”。在资源浏览面板中，选择单个资源，然后转到缩略图图像右侧，即为 **[!UICONTROL 预览]** > **[!UICONTROL 查看器列表]**.
 
      在“查看器列表”页的表的“操作”列下，选择 **[!UICONTROL 复制URL]**.
 
@@ -57,11 +55,11 @@ ht-degree: 50%
 1. 在“资源浏览”面板上方的工具栏右侧，执行以下任一操作：
 
    * 单击“**[!UICONTROL 网格视图]**”。在“资源浏览”面板中，双击单个资源以便在详细信息视图中将其打开。在右侧的“URL和嵌入代码”面板中，选择 **[!UICONTROL 嵌入代码]** 位于所需查看器的右侧。
-   * 单击“**[!UICONTROL 网格视图]**”。在“资源浏览”面板中，选择单个资源，然后转到缩略图图像下方 **[!UICONTROL 预览]** > **[!UICONTROL 查看器列表]**.
+   * 单击“**[!UICONTROL 网格视图]**”。在资源浏览面板中，选择单个资源，然后转到缩略图图像下方 **[!UICONTROL 预览]** > **[!UICONTROL 查看器列表]**.
 
      在“查看器列表”页的表的“操作”列下，选择 **[!UICONTROL 嵌入代码]**.
 
-   * 单击“**[!UICONTROL 列表视图]**”。在“资源浏览”面板中，选择单个资源，然后转到缩略图图像右侧的 **[!UICONTROL 预览]** > **[!UICONTROL 查看器列表]**.
+   * 单击“**[!UICONTROL 列表视图]**”。在资源浏览面板中，选择单个资源，然后转到缩略图图像右侧，即为 **[!UICONTROL 预览]** > **[!UICONTROL 查看器列表]**.
 
      在“查看器列表”页的表的“操作”列下，选择 **[!UICONTROL 嵌入代码]**.
 
@@ -69,7 +67,7 @@ ht-degree: 50%
 
      在“查看器列表”页的表的“操作”列下，选择 **[!UICONTROL 嵌入代码]**.
 
-1. 在“嵌入代码”对话框中，选择 **[!UICONTROL 复制到剪贴板]**.
+1. 在嵌入代码对话框中，选择 **[!UICONTROL 复制到剪贴板]**.
 
    在“嵌入代码”对话框中不允许编辑代码。
 

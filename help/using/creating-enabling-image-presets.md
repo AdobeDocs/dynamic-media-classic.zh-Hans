@@ -12,10 +12,10 @@ role: Admin,User
 exl-id: 94c6c388-226b-4172-a6c7-a8dcf9c0f0cf
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
 workflow-type: tm+mt
-source-wordcount: '258'
-ht-degree: 72%
+source-wordcount: '255'
+ht-degree: 60%
 
 ---
 
@@ -23,12 +23,12 @@ ht-degree: 72%
 
 当用户使用 Media Portal 导出图像资源时，他们可以在“导出所选资源”对话框中选择一种“图像预设”。图像预设是一组预定义的设置，用于更改图像在导出时的外观大小、图像质量、格式、分辨率以及其他方面。
 
-Media Portal 管理员可以创建图像预设，以便控制导出时如何重设它们的格式。当用户从Adobe Dynamic Media Classic导出图像时，图像预设会根据公司的规范重新设置图像的格式。 用户按照“图像预设”的精确规范导出图像，而非自已重设图像的格式。
+Media Portal 管理员可以创建图像预设，以便控制导出时如何重设它们的格式。当用户从Adobe Dynamic Media Classic导出图像时，图像预设会根据贵公司的规范重新设置图像的格式。 用户按照“图像预设”的精确规范导出图像，而非自已重设图像的格式。
 
 导出图像资源时，有下列限制：
 
-* 每张图像的宽 x 高必须小于或等于 100 MB。例如，图像不能超过 10K x 10K，或以下任意宽高比变体（如 8K x 12K）。
-* 每个导出作业的最大总文件大小为1 GB。
+* 每个图像的宽度×高度必须小于或等于100 MB。 例如，图像不能超过10 K×10 K，或者下面的任何外观变化，如8 K×12 K。
+* 每个导出作业的总文件大小最多为1 GB。
 * 每个导出作业最多可以有 500 个总资源。
 
 >[!NOTE]

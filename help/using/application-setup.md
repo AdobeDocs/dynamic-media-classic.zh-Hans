@@ -10,9 +10,9 @@ role: Admin
 exl-id: 3f96606e-ef5c-4c01-aa0f-3148f14e28be
 topic: Administration
 level: Intermediate
-source-git-commit: 1b90beb99b161b76da81403f5aed9755b3a92c8b
+source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
 workflow-type: tm+mt
-source-wordcount: '11297'
+source-wordcount: '11288'
 ht-degree: 38%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 38%
 
 >[!NOTE]
 >
->只有Adobe Dynamic Media Classic管理员可以在应用程序设置中更改页面上的设置。
+>只有Adobe Dynamic Media Classic管理员才能更改应用程序设置中的设置。
 
 ## 常规设置 {#general-settings}
 
@@ -131,13 +131,13 @@ ht-degree: 38%
 
 * **[!UICONTROL 默认上载选项]**  — 打开“上载作业选项”对话框，您可以在其中指定默认上载选项。 有关这些选项的信息，请参阅[上载选项](/help/using/uploading-files.md#upload_options)。
 
-### 应用程序的图像映射编辑器
+### 图像映射编辑器（到应用程序）
 
 * **[!UICONTROL 默认图像映射HREF]**  — 定义用于图像映射中HREF列的默认URL。 此URL是您在创建图像映射时看到的默认URL。
 
 * **[!UICONTROL 默认图像映射模板]**  — 为图像映射中的HREF模板定义默认JavaScript。 您可以在此处设置自定义代码，以便在选择图像映射时运行。
 
-### 应用程序的其他设置
+### 其他设置（到应用程序）
 
 * **[!UICONTROL 垃圾桶清理警告]**  — 在七天内自动删除垃圾桶中的资源。 如果希望向公司管理员发送通知，且垃圾桶中的资产距离永久删除日期只有四天时间，请选择“在自动删除垃圾桶项目之前发送电子邮件”。 请参阅 [管理垃圾桶文件夹](/help/using/trash-folder.md).
 
@@ -223,7 +223,7 @@ Adobe Dynamic Media Classic不允许两个文件具有相同的名称。 每个�
 
 * **[!UICONTROL 双三次]**  — 增加图像服务器上的CPU使用率，但生成较锐利的图像，出现的锯齿伪像较少。
 
-* **[!UICONTROL 锐化2]**  — 可以生成比两次立方选项更锐利的结果，但图像服务器的CPU成本更高。
+* **[!UICONTROL `Sharp 2`]**  — 可以生成比两次立方选项更锐利的结果，但图像服务器的CPU成本更高。
 
 * **[!UICONTROL 三线性]**  — 同时使用较高分辨率和较低分辨率（如果可用）；仅当出现锯齿时才建议使用。 由于减少了高频数据，此方法会减小 JPEG 的大小。
 
@@ -308,7 +308,7 @@ Adobe Dynamic Media Classic提供了自适应视频编码预设。 它是将16:9
      >
      >要将视频传送到iPad，您可以选择移动设备编码预设或平板电脑编码预设。 平板电脑预设专为 iPad 而设计，通常具有更高的分辨率和质量，以充分利用更大的屏幕尺寸和带宽连接。传送使用平板电脑预设编码的视频文件要求您在移动站点或应用程序上加入设备检测代码。此代码会根据播放设备在 iPhone 或 iPad 视频体验之间切换。更简单的工作流程是选择移动设备预设将视频文件传送到 iPad。原因在于您可以将同一视频文件用于 iPhone 和 iPad。但是，将质量标准化为分辨率更低的 iPhone 体验。
 
-      * 在“编码预设”组下的“编码预设排序”下拉列表中，选择名称或大小来按名称或分辨率大小对预设进行排序。
+      * 在“编码预设”组的“排序编码预设”下拉列表中，选择“名称”或“大小”，以按名称或分辨率大小对预设进行排序。
       * 根据您计划播放视频的分辨率大小和带宽选择编码预设。
       * 您可以选择自适应视频编码和每个视频的一个或多个编码预设。 例如，您可以在一个上载作业中针对桌面和移动设备编码文件。
 
@@ -340,9 +340,9 @@ Adobe Dynamic Media Classic提供了自适应视频编码预设。 它是将16:9
 
 |  | 编码预设名称/工具提示文本 | 编码文件后缀 | 视频数据速率 (Kbps) | 宽度/高度（像素） | Fps | 音频比特率 (kbps) | 推荐 |
 |--- |--- |--- |--- |--- |--- |--- |--- |
-| 1 | Auto x360, 800 Kbps | _Mobile_Autox360p_800K | 800 | Autox360 | 与源相同 | 64 | 适用于移动设备(iPhone、iPad、Android™) |
-| 2 | Auto x 480, 1400 Kbps | _Tablet_Autox480p_1400K | 1400 | Autox480 | 与源相同 | 96 | 适用于平板电脑(iPad、Android™) |
-| 3 | Auto x 720, 2600 Kbps | _桌面_自动720p_2600K | 2600 | Autox720 | 与源相同 | 128 | 适用于台式机 |
+| 1 | 自动× 360， 800 Kbps | _Mobile_Auto×360p_800K | 800 | 自动×360 | 与源相同 | 64 | 适用于移动设备(iPhone、iPad、Android™) |
+| 2 | 自动× 480， 1400 Kbps | _平板电脑_自动×480p_1400K | 1400 | 自动×480 | 与源相同 | 96 | 适用于平板电脑(iPad、Android™) |
+| 3 | 自动× 720， 2600 Kbps | _桌面_自动×720p_2600K | 2600 | 自动×720 | 与源相同 | 128 | 适用于台式机 |
 
 ### 自适应视频编码（16:9 或 4:3）视频预设 {#adaptive-video-encoding-or-video-presets}
 
@@ -635,7 +635,7 @@ Adobe Dynamic Media Classic中所有默认的现成查看器预设CSS文件都�
 
 `Scene7SharedAsset`： `.s7videoviewer .s7fullscreenbutton[state][selected] { background-image: url(/is/image/Scene7SharedAssets/FullScreenButton_dark_sprite?scl=1&fmt=png-alpha); }`
 
-但是，如果您将查看器CSS文件托管在您自己的网站上，则必须通过在您自己的环境中使用指向图像服务器的显式路径来解析这些相对图像路径。 例如，如果要将上面的相对路径更新为显式路径，则它可能会如下所示，其中 `https://s7d1.scene7.com` 是图像服务器的直接路径： `https://s7d1.scene7.com/is/image/Scene7SharedAssets/FullScreenButton_dark_sprite?scl=1&fmt=png-alpha`
+但是，如果您将查看器CSS文件托管在您自己的网站上，则必须通过在您自己的环境中使用指向图像服务器的显式路径来解析这些相对图像路径。 例如，如果您将以上相对路径更新为显式路径，则它可能会如下所示，其中 `https://s7d1.scene7.com` 是图像服务器的直接路径： `https://s7d1.scene7.com/is/image/Scene7SharedAssets/FullScreenButton_dark_sprite?scl=1&fmt=png-alpha`
 
 **要导出HTML5查看器预设，请执行以下操作：**
 

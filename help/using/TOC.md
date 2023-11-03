@@ -6,9 +6,9 @@ user-guide-title: Adobe Dynamic Media Classic指南
 breadcrumb-title: Dynamic Media Classic指南
 user-guide-description: 了解有关使用Adobe Dynamic Media Classic的更多信息
 index: y
-source-git-commit: 65e3b69bdcbd651a5f9ab100592217e61a8c05ef
+source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
 workflow-type: tm+mt
-source-wordcount: '801'
+source-wordcount: '800'
 ht-degree: 24%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 24%
    + [升级就绪性检查列表](upgrade-readiness.md)
 + [Adobe Dynamic Media Classic指南](home.md)
 + [Adobe Dynamic Media Classic最佳实践教程](https://experienceleague.adobe.com/docs/experience-manager-learn/dynamic-media-classic-tutorial/overview.html)
-+ [新的Adobe Dynamic Media Classic登录体验现已推出](new-ui-2020.md)
++ [新的Adobe Dynamic Media Classic登录功能现已可用](new-ui-2020.md)
 + [按Experience LeagueAdobeDynamic Media新闻稿存档](dynamic-media-newsletter.md)
 + Adobe Dynamic Media Classic简介 {#intro}
    + [Adobe Dynamic Media Classic桌面应用程序 — 现已推出](dynamic-media-classic-desktop-app.md)
@@ -32,7 +32,7 @@ ht-degree: 24%
    + [新增功能](whats-new.md)
    + [Adobe Dynamic Media Classic桌面应用程序的系统要求](system-requirements.md)
    + [支持](support.md)
-   + [Adobe Dynamic Media Classic Media Port帮助](help-dmc-media-portal.md)
+   + [Adobe Dynamic Media Classic Media Portal帮助](help-dmc-media-portal.md)
    + [Adobe 培训服务](training-services.md)
    + [常用学习资源](popular-resources.md)
    + [培训视频](training-videos.md)
@@ -71,17 +71,17 @@ ht-degree: 24%
    + [关于管理资源](about-managing-assets.md)
    + [使用资源文件夹](asset-folders.md)
    + [在“浏览”面板中查看资源](viewing-assets-browse-panel.md)
-   + [在“浏览”面板中选择资源](selecting-assets-browse-panel.md)
+   + [在浏览面板中选择资源](selecting-assets-browse-panel.md)
    + [搜索资源](searching-assets.md)
    + [预览资源](previewing-asset.md)
    + [移动、重命名和删除资源](moving-renaming-deleting-assets.md)
    + [在“详细信息”视图中工作](detail-view.md)
    + [查看、添加和导出元数据](viewing-adding-exporting-metadata.md)
    + [从Adobe Dynamic Media Classic导出资源](exporting-assets-from-dmc.md)
-   + [与同事实时共享资产更改](sharing-asset-changes-peers-real.md)
+   + [与同行实时共享资产更改](sharing-asset-changes-peers-real.md)
    + [打印资产](printing-assets.md)
    + [管理垃圾桶文件夹](trash-folder.md)
-   + [组织您的项目工作](organizing-projects.md)
+   + [组织您对项目的工作](organizing-projects.md)
 + 图像大小 {#image-sizing}
    + [快速入门：调整图像大小](quick-start-image-sizing.md)
    + [上传主图像](uploading-master-images.md)
@@ -91,7 +91,7 @@ ht-degree: 24%
 + 缩放 {#zoom}
    + [快速入门：缩放](quick-start-zoom.md)
    + [上传缩放图像](uploading-zoom-images.md)
-   + [为引导缩放创建缩放目标](creating-zoom-targets-guided-zoom.md)
+   + [创建引导缩放的缩放目标](creating-zoom-targets-guided-zoom.md)
    + [设置缩放查看器预设](setting-zoom-viewer-presets.md)
    + [使用不同的缩放查看器预览图像资源](previewing-image-assets-different-zoom.md)
    + [发布缩放图像](publishing-zoom-images.md)
@@ -110,14 +110,14 @@ ht-degree: 24%
    + [快速入门：图像集](quick-start-image-sets.md)
    + [准备图像集资源以供上传](preparing-image-set-assets-upload.md)
    + [创建图像集](creating-image-set.md)
-   + [在图像集中包括缩放目标和图像映射](including-zoom-targets-image-maps-image-sets.md)
+   + [在图像集中包含缩放目标和图像映射](including-zoom-targets-image-maps-image-sets.md)
    + [管理图像集中的信息面板内容](info-panel-content-image-sets.md)
    + [查看图像集](viewing-image-sets.md)
    + [自动生成图像集](automated-image-set-generation.md)
    + [将图像集链接到网页](linking-image-set-web-page.md)
 + 样本集 {#swatch-sets}
    + [快速入门：样本集](quick-start-swatch-sets.md)
-   + [在样本集中包括缩放目标和图像映射](including-zoom-targets-image-maps-swatch-sets.md)
+   + [在样本集中包含缩放目标和图像映射](including-zoom-targets-image-maps-swatch-sets.md)
    + [准备样本集资源以供上传](preparing-swatch-set-assets-upload.md)
    + [创建样本集](creating-swatch-set.md)
    + [查看样本集](viewing-swatch-sets.md)
@@ -145,7 +145,7 @@ ht-degree: 24%
    + [向视频添加字幕](adding-captions-video.md)
    + [向视频添加章节标记](adding-chapter-markers-video.md)
    + [将视频部署到网站和移动站点](deploying-video-websites-mobile-sites.md)
-   + [导出源和编码的视频](exporting-source-encoded-videos.md)
+   + [导出源视频和编码视频](exporting-source-encoded-videos.md)
 + 混合媒体集 {#mixed-media-sets}
    + [快速入门：混合媒体集](quick-start-mixed-media-sets.md)
    + [设置混合媒体集查看器预设](setting-mixed-media-set-viewer.md)
@@ -164,11 +164,11 @@ ht-degree: 24%
 + Adobe Target Standard/Premium集成 {#target-classic}
    + [快速入门：Adobe Target Standard/Premium集成](quick-start-target-integration.md)
    + [将Adobe Dynamic Media Classic与Adobe Target Standard/Premium集成](integrating-dmc-with-target.md)
-   + [创建选件集](creating-offer-set.md)
+   + [创建优惠套餐](creating-offer-set.md)
    + [将选件集推送到Adobe Target Standard/Premium](pushing-offer-sets-target.md)
 + 用户生成的内容 {#user-generated-content}
    + [关于用户生成的内容](about-ugc.md)
-   + [删除上传的资产](deleting-uploaded-asset.md)
+   + [删除上传的资源](deleting-uploaded-asset.md)
    + [获取磁盘使用情况信息](getting-disk-usage-information.md)
    + [上传栅格图像资产](uploading-image-asset-or-vector.md)
 + 主文件 {#master-files}
@@ -178,7 +178,7 @@ ht-degree: 24%
    + [裁切图像](cropping-image.md)
    + [锐化图像](sharpening-image.md)
    + [调整图像](adjusting-image.md)
-   + [上传时图像微调编辑选项](image-editing-options-upload.md)
+   + [在上载时微调图像编辑选项](image-editing-options-upload.md)
    + [使用PDF](pdfs.md)
    + [使用PSD文件](psd-files.md)
    + [使用PostScript和Illustrator文件](postscript-illustrator-files.md)

@@ -6,7 +6,7 @@ role: Admin,User
 exl-id: 5c2e2937-fe4f-4b64-bee8-9572ca84695b
 topic: Content Management
 level: Intermediate
-source-git-commit: 1b90beb99b161b76da81403f5aed9755b3a92c8b
+source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
 workflow-type: tm+mt
 source-wordcount: '1550'
 ht-degree: 0%
@@ -45,7 +45,7 @@ ht-degree: 0%
 
 * Internet Retail 1000的顶级富媒体供应商，连续九年。
 * 24/7/265支持，99.95%服务级别协议。
-* 为全球800多个客户提供可靠的基础架构，每月流量达3.5 PB，管理资产超过5亿个，流量年同比增长了60%。
+* 为全球800多家客户提供可靠的基础架构，每月流量达3.5 PB，管理资产超过5亿，流量同比增长60%。
 
 +++
 
