@@ -11,9 +11,9 @@ role: User
 exl-id: 8dfcfb3f-6472-4efd-bc87-d5111eee45ce
 topic: Content Management
 level: Intermediate
-source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
+source-git-commit: 597b7d6bd98c59a644984baeecb888f86a8975c9
 workflow-type: tm+mt
-source-wordcount: '3928'
+source-wordcount: '3934'
 ht-degree: 31%
 
 ---
@@ -138,7 +138,7 @@ Adobe Dynamic Media Classic不提供用于生成静态内容预览URL的选项�
 
 在将内容上传到系统之前，在Adobe Dynamic Media Classic中组织和构建内容的文件夹和子文件夹。 采用这种方式提前进行规划主要有两个好处：
 
-* 当您通过FTP将内容上传到Adobe Dynamic Media Classic时，可以告知系统在上传期间复制您的文件夹结构。 这样，您的内容就会在Adobe Dynamic Media Classic中与您的计算机或网络相同的文件夹和子文件夹中进行组织。 (要在Adobe Dynamic Media Classic中复制文件夹结构，请在通过FTP上传资源时选择包括子文件夹选项。)
+* 通过FTP将内容上传到Adobe Dynamic Media Classic时，您可以指示系统在上传期间复制您的文件夹结构。 这样，您的内容就会在Adobe Dynamic Media Classic中与您的计算机或网络相同的文件夹和子文件夹中进行组织。 (要在Adobe Dynamic Media Classic中复制文件夹结构，请在通过FTP上传资源时选择包括子文件夹选项。)
 * 与在开始就使用经过仔细计划的文件夹结构相比，在文件上载之后重新对系统内的文件夹进行组织要困难得多。
 
 您选择用于在Adobe Dynamic Media Classic上存储内容的文件夹命名方法和结构取决于贵组织的需求。 以下是一些文件夹结构示例：
@@ -153,7 +153,7 @@ Adobe Dynamic Media Classic不提供用于生成静态内容预览URL的选项�
 
 ## 关于上传文件 {#uploading-your-files}
 
-可以从桌面上载单个文件或通过 FTP 上载文件夹。如果要上传超过100 MB的文件或上传整个文件夹和子文件夹，请选择 **通过FTP** 选项卡。
+您可以通过FTP从桌面上载单个文件或上载文件夹。 如果要上传超过100 MB的文件或上传整个文件夹和子文件夹，请选择 **通过FTP** 选项卡。
 
 Adobe Dynamic Media Classic会向您发送一封电子邮件，用于确认上传作业何时开始和结束，并通知您出现任何问题。
 
@@ -192,7 +192,7 @@ Adobe Dynamic Media Classic桌面应用程序允许您通过拖动来上传文�
 在发布文件时，文件将发送到实时服务器。然后，可以在外部网站和应用程序中使用这些文件的 URL。“作业选项”对话框中也提供了相同选项。
 1. （可选）在上传页面底部附近，选择 **[!UICONTROL 在任意文件夹内，使用相同的基本资源名称（不论扩展名是什么）进行覆盖]** 如果希望上载的文件替换具有相同名称的现有文件。 “作业选项”对话框中也提供了相同选项。
 此选项的名称可能不同，具体取决于中的设置 **[!UICONTROL 设置]** > **[!UICONTROL 应用程序设置]** > **[!UICONTROL 常规设置]** > **[!UICONTROL 上载到应用程序]** > **[!UICONTROL 覆盖图像]**.
-1. 可选；仅当您单击 **[!UICONTROL 通过FTP]** 选项卡。 在上传页面底部附近，选择 **[!UICONTROL 上传时解压缩Zip或Tar文件]** 如果您希望从上传的ZIP或TAR文件中自动提取所有文件。 “作业选项”对话框中也提供了相同选项。
+1. 可选；仅当您选择了 **[!UICONTROL 通过FTP]** 选项卡。 在上传页面底部附近，选择 **[!UICONTROL 上传时解压缩Zip或Tar文件]** 如果您希望从上传的ZIP或TAR文件中自动提取所有文件。 “作业选项”对话框中也提供了相同选项。
 1. 在上传页面的右下角附近，选择 **[!UICONTROL 作业选项]**，然后指定所需的选项。
 
    请参阅[上载选项](uploading-files.md#upload_options)。

@@ -10,10 +10,10 @@ role: User
 exl-id: 8bb1c744-270a-4752-b163-443708fca6c2
 topic: Content Management
 level: Intermediate
-source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
+source-git-commit: 597b7d6bd98c59a644984baeecb888f86a8975c9
 workflow-type: tm+mt
-source-wordcount: '700'
-ht-degree: 40%
+source-wordcount: '702'
+ht-degree: 33%
 
 ---
 
@@ -46,7 +46,7 @@ ht-degree: 40%
 
 ## 将样本集URL添加到网页 {#adding-swatch-set-urls-to-your-web-page}
 
-部署样本集的最常用方式是将一个链接（通过导航图标）放在网页中。单击后，链接会启动可在弹出式缩放窗口中显示样本集的动态页面（ASP 或 JSP）。缩放链接会打开一个弹出窗口，其中包含实际的缩放功能。
+部署样本集的最常见方式是在网页上放置链接（通过导航图标）。 选中后，链接将启动一个动态页面（ASP或JSP），该页面在弹出缩放窗口中显示样本集。 缩放链接会打开一个弹出窗口，其中包含实际的缩放功能。
 
 有关更多详细信息和代码示例，请参阅 [Adobe查看器参考指南中的嵌入HTML5缩放查看器](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/zoom/c-html5-20-zoom-viewer-about.html#section-e1c3106f5b3e445d9b95be337c2f94e2).
 

@@ -10,10 +10,10 @@ role: User
 exl-id: 9e2df814-465d-412a-a032-ef3e8cb462ba
 topic: Integrations
 level: Experienced
-source-git-commit: 1b90beb99b161b76da81403f5aed9755b3a92c8b
+source-git-commit: 597b7d6bd98c59a644984baeecb888f86a8975c9
 workflow-type: tm+mt
-source-wordcount: '1560'
-ht-degree: 35%
+source-wordcount: '1562'
+ht-degree: 33%
 
 ---
 
@@ -31,7 +31,7 @@ eCatalog 是数字网络版本的印刷材料，例如目录、小册子、传�
 * 在目录中搜索一个或多个关键字。 搜索结果将作为缩略图列表显示在目录左侧的搜索面板中。 每个可单击的缩略图表示一个目录跨页，其中找到了高亮显示的搜索词。
 
 * 通过社交媒体共享目录；下载目录以离线查看；启用“收藏夹”以标记要快速返回的项目，或打印目录。
-* 使用目录或页面网格视图导航目录；通过单击页面中边缘可向前或向后导航页面。
+* 使用目录或页面网格视图导航目录；通过选择页面的中边缘来向前或向后导航页面。
 * 放大、缩小及平移以仔细查看页面上的物品。
 * 将指针移动到页面区域（称为图像映射）上，以便您能够看到包含项目相关信息的弹出窗口。
 * 选择页面区域，以打开一个包含有关项目的更多信息的新网页。
@@ -62,7 +62,7 @@ eCatalog 是数字网络版本的印刷材料，例如目录、小册子、传�
 
 eCatalog 通常由 Adobe PDF 文件生成。由于 PDF 文件要用于印刷，因此通常包含 CMYK 图像。Adobe Dynamic Media Classic检测这些图像并使用标准CMYK颜色配置文件转换它们。 但是，您必须上传并使用自定义颜色配置文件。
 
-在全局导航栏上，选择 **[!UICONTROL 上传]** 开始上传eCatalog的PDF文件或图像。 可以从桌面或通过 FTP 上载文件；如果上载大量文件或大于 100 MB 的文件，则推荐使用 FTP。
+在全局导航栏上，选择 **[!UICONTROL 上传]** 开始上传eCatalog的PDF文件或图像。 您可以从桌面或通过FTP上传文件；如果要上传的文件数或文件数超过100 MB，建议使用FTP。
 
 “上载”屏幕的“PDF 选项”下面提供了一些选项，用于上载分辨率合适并且颜色空间正确的 PDF 文件。推荐使用 150 PPI 的分辨率。上载 PDF 文件时，可以选择“自动生成 eCatalog”选项来创建 eCatalog。
 
@@ -76,7 +76,7 @@ eCatalog 通常由 Adobe PDF 文件生成。由于 PDF 文件要用于印刷，�
 
 要添加页面，在“资源库”中选择一个文件夹，然后将其中的 PDF 或图像文件拖动到“排序页面”屏幕中。您可以提供自定义页面名称或导入多个页面名称，而不是默认页码。
 
-选择 **[!UICONTROL 保存]**，输入eCatalog的名称，选择用于存储该目录的Adobe Dynamic Media Classic文件夹，然后选择 **[!UICONTROL 保存]**. 每次更改页面顺序或编辑eCatalog时，单击保存更改 **[!UICONTROL 保存]**.
+选择 **[!UICONTROL 保存]**，输入eCatalog的名称，选择用于存储该目录的Adobe Dynamic Media Classic文件夹，然后选择 **[!UICONTROL 保存]**. 每次更改页面顺序或编辑eCatalog时，通过选择保存更改 **[!UICONTROL 保存]**.
 
 请参阅 [创建eCatalog](creating-ecatalog.md).
 

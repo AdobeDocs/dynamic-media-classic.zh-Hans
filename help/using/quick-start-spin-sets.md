@@ -12,10 +12,10 @@ role: User
 exl-id: 26e3cd5b-f070-4b92-af36-25631723460e
 topic: Content Management
 level: Beginner
-source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
+source-git-commit: faa1784e1d19b1167cad5749dc04227e3ff388e5
 workflow-type: tm+mt
 source-wordcount: '839'
-ht-degree: 23%
+ht-degree: 22%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 23%
 
 ![旋转集的图像。](/help/using/assets/spin_set.png)
 
-旋转集也接受图像映射。图像映射是旋转集内的图像上用于显示含文本的变换面板的区域。当用户单击图像映射时，将触发某种操作。例如，将启动网页，供用户了解产品的更多相关信息。要指出旋转集中的图像映射，当用户将鼠标指针移到图像映射本身上时，会在图像映射周围显示一个轮廓。
+旋转集也接受图像映射。图像映射是旋转集内的图像上用于显示含文本的变换面板的区域。当用户选择图像映射时，将触发某种操作。 例如，将启动网页，供用户了解产品的更多相关信息。要指出旋转集中的图像映射，当用户将鼠标指针移到图像映射本身上时，会在图像映射周围显示一个轮廓。
 
 请参阅 [创建图像映射](creating-image-maps.md).
 

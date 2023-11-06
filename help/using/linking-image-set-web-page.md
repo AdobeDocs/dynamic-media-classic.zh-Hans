@@ -10,10 +10,10 @@ role: User
 exl-id: df4e5218-2a66-413c-b247-b2a16d884041
 topic: Content Management
 level: Intermediate
-source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
+source-git-commit: 597b7d6bd98c59a644984baeecb888f86a8975c9
 workflow-type: tm+mt
-source-wordcount: '692'
-ht-degree: 38%
+source-wordcount: '694'
+ht-degree: 35%
 
 ---
 
@@ -46,7 +46,7 @@ ht-degree: 38%
 
 ## 将图像集 URL 添加到网页 {#adding-image-set-urls-to-your-web-page}
 
-部署图像集最常见的方法是在网页上放置链接（通过导航图标）。单击该链接时，将启动一个动态页面(JSP)，该页面在弹出缩放窗口中显示图像集。 缩放链接会打开一个弹出窗口，其中包含实际的缩放功能。
+部署图像集的最常见方式是在网页上放置链接（通过导航图标）。 选中后，该链接将启动一个动态页面(JSP)，该页面在弹出缩放窗口中显示图像集。 缩放链接会打开一个弹出窗口，其中包含实际的缩放功能。
 
 有关更多详细信息和代码示例，请参阅 [Adobe查看器参考指南中的嵌入HTML5缩放查看器](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/zoom/c-html5-20-zoom-viewer-about.html#section-e1c3106f5b3e445d9b95be337c2f94e2).
 

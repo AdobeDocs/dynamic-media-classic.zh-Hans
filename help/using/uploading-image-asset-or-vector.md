@@ -9,10 +9,10 @@ role: User
 exl-id: 2ef78fe6-1e7c-4f48-86da-137ddaa55bbf
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: faa1784e1d19b1167cad5749dc04227e3ff388e5
 workflow-type: tm+mt
 source-wordcount: '1021'
-ht-degree: 67%
+ht-degree: 65%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 67%
 
 >[!IMPORTANT]
 >
->从2023年5月1日开始，Dynamic Media中的UGC资源最多可在上传日期后60天内使用。 60天后，这些资产将被删除。
+>从2023年5月1日开始，Dynamic Media中的UGC资源最多可在上传日期起60天内使用。 60天后，将删除资源。
 
 >[!NOTE]
 >
@@ -30,15 +30,15 @@ ht-degree: 67%
 
 ## 请求共享密钥 {#requesting-a-shared-secret-key}
 
-请求 *共享密钥* 作者： [使用Admin Console创建支持案例。](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) 在您的支持案例中，请求共享密钥。
+请求 *共享密钥* 按 [使用Admin Console创建支持案例。](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) 在您的支持案例中，请求共享密钥。
 
-在电子邮件中，请提供要用于上载图像资源的公司名称。从Adobe Dynamic Media Classic收到密钥后，请将其保存在本地以供将来使用。
+在电子邮件中，请提供要用于上载图像资源的公司名称。从Adobe Dynamic Media Classic收到密钥后，请将其本地保存以供将来使用。
 
 ## 检索上传令牌 {#retrieving-the-upload-token}
 
 *上载令牌*&#x200B;可确保他人不能使用相同的共享密钥来上载资源。它可确保上载合法且来自信任的来源。
 
-上载令牌是字母数字字符串，只能在特定时间段内使用。使用以下URL替换共享密钥，以便检索上载令牌。
+上载令牌是字母数字字符串，只能在特定时间段内使用。使用以下URL替换您的共享密钥，以便您可以检索上载令牌。
 
 * 栅格图像
   `https://s7ugc1.scene7.com/ugc/image?op=get_uploadtoken&shared_secret=fece4b21-87ee-47fc-9b99-2e29b78b602`在此示例中，共享密钥为 `fece4b21-87ee-47fc-9b99-2e29b78b602`
@@ -96,7 +96,7 @@ https://s7ugc1.scene7.com/ugc/image?op=get_uploadtoken&shared_secret=fece4b21-87
 
 您现在可以上载图像资源。
 
-参见 [上传图像资源](uploading-image-asset-or-vector.md#uploading_an_image_asset).
+请参阅 [上传图像资源](uploading-image-asset-or-vector.md#uploading_an_image_asset).
 
 ## 上传栅格图像资产 {#uploading-an-image-asset}
 
@@ -108,9 +108,9 @@ https://s7ugc1.scene7.com/ugc/image?op=upload&upload_token=aa2a378a-cd25-4c80-99
 
 此 `upload_token` 和 `company_name` 字段为必填项。
 
-参见 [检索上传令牌](uploading-image-asset-or-vector.md#retrieving_the_upload_token).
+请参阅 [检索上传令牌](uploading-image-asset-or-vector.md#retrieving_the_upload_token).
 
-参见 [检索共享密钥](uploading-image-asset-or-vector.md#requesting_a_shared_secret_key).
+请参阅 [检索共享密钥](uploading-image-asset-or-vector.md#requesting_a_shared_secret_key).
 
 您还能以 URL 查询字符串的形式发送其他可选值，如以下示例所示：
 
@@ -134,13 +134,13 @@ https://s7ugc1.scene7.com/ugc/image?op=upload&upload_token=aa2a378a-cd25-4c80-99
 * 文件大小限制.
 * 文件扩展名的列表.
 * 是否保留与资源关联的颜色配置文件和文件名。
-* 是否使用挖空背景。 如果启用“挖空背景”，请设置“拐角”、“公差”和“填充”方法。
+* 是否使用挖空背景。 如果启用“挖空背景”，请设置“拐角”、“公差”和“填充方法”。
 请参阅中的挖空背景 [上传时图像微调选项](image-editing-options-upload.md#image-editing-options-at-upload).
 * 待上载文件的名称.
 
 您可以通过选择查看与上述表单关联的HTML源代码 [https://s7ugc1.scene7.com/ugc/upload.html](https://s7ugc1.scene7.com/ugc/upload.html)
 
-在Firefox中，右键单击浏览器窗口，然后选择 **[!UICONTROL 查看页面源]**. 该代码将显示当用户单击“**[!UICONTROL 提交]**”时运行的相应 URL 查询字符串和 POST 方法。
+在Firefox中，右键单击浏览器窗口，然后选择 **[!UICONTROL 查看页面源]**. 该代码显示相应的URL查询字符串以及在用户选择时运行的POST方法 **[!UICONTROL 提交]**.
 
 要在Internet Explorer中查看XML响应，请转到 **[!UICONTROL 视图]** > **[!UICONTROL 来源]**. 要在Firefox中查看XML响应，请转到 **[!UICONTROL 工具]** > **[!UICONTROL 浏览器工具]** > **[!UICONTROL Web开发人员工具]**. 建议使用 Firefox 查看 XML 响应。
 

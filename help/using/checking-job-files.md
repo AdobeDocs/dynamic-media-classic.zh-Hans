@@ -12,9 +12,9 @@ role: User
 exl-id: b6b11e1c-5eda-4bdb-8ffb-ecd3678f2352
 topic: Administration, Content Management
 level: Intermediate
-source-git-commit: 1b90beb99b161b76da81403f5aed9755b3a92c8b
+source-git-commit: 597b7d6bd98c59a644984baeecb888f86a8975c9
 workflow-type: tm+mt
-source-wordcount: '1598'
+source-wordcount: '1602'
 ht-degree: 23%
 
 ---
@@ -105,7 +105,7 @@ ht-degree: 23%
 
 ### 创建自定义上载或发布作业时间间隔 {#creating-a-custom-upload-or-publish-job-time-interval}
 
-要为上传（通过FTP）或发布作业创建自定义时间间隔，请在上传或发布页面上，转到 **[!UICONTROL 重复]** > **[!UICONTROL 自定义]**. 然后，在“规则”框中输入数字和通配符，描述上载或发布作业重复出现的时间间隔。
+要为上载（通过FTP）或发布作业创建自定义时间间隔，请在上载或发布页面上，转到 **[!UICONTROL 重复]** > **[!UICONTROL 自定义]**. 然后，在“规则”框中输入数字和通配符，描述上载或发布作业重复出现的时间间隔。
 
 用于在“规则”框中描述自定义上载和发布时间间隔的语法如下：
 
@@ -156,6 +156,6 @@ ht-degree: 23%
 
 ## 使用上载或发布作业作为触发器 {#using-an-upload-or-publish-job-as-a-trigger}
 
-当您通过FTP上传资源或运行发布作业时，您可以计划后续作业，以在上传完成时开始。 （如果计划开始其他作业，则您在此处计划的作业将排入这些作业的后面。） 新作业会向您指定的地址发送通知，以便触发该位置的代码。 为这一后续上载作业所指定的名称与当前上载作业的名称相同，但带有前缀 _Pub。
+通过FTP上传资源或运行发布作业时，您可以安排后续作业在上传完成后开始。 （如果计划开始其他作业，则您在此处计划的作业将排入这些作业的后面。） 新作业会向您指定的地址发送通知，以便触发该位置的代码。 为这一后续上载作业所指定的名称与当前上载作业的名称相同，但带有前缀 _Pub。
 
 要使一个上载或发布作业触发另一个作业，请选择 **[!UICONTROL 高级]** 在上传或发布页面上。 然后，在“HTTP 通知”文本字段中输入 URL。
