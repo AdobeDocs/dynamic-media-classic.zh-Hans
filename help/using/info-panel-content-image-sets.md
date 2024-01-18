@@ -1,20 +1,18 @@
 ---
 title: 管理图像集中的信息面板内容
 description: 了解如何在Adobe Dynamic Media Classic中管理图像集中的信息面板内容。
-uuid: ed7b4344-f180-41fc-a95a-62a9767dc056
 contentOwner: rbrough
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 content-type: reference
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sets
-discoiquuid: ba5d1fb1-af54-471c-a471-853ace7f72fd
 feature: Dynamic Media Classic,Viewers,Image Sets
 role: User
 exl-id: 09fafdb4-51e2-4719-83b6-056f79d1ba9e
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
 workflow-type: tm+mt
-source-wordcount: '767'
+source-wordcount: '769'
 ht-degree: 51%
 
 ---
@@ -26,7 +24,7 @@ ht-degree: 51%
 您可以使用Adobe Dynamic Media Classic中的以下功能管理信息面板设置和数据：
 
 * “信息面板设置”面板可用来指定用于显示“信息面板”文本、默认错误响应以及信息缓存的小时数等信息的模板。此外，可以指定是否自动发布图像集。
-* 通过“信息面板数据馈送”面板，可指定包含要在信息面板变换文本中显示的文本的CSV文件，并安排更新信息的时间。
+* “信息面板数据馈送”面板允许您指定包含要在信息面板变换文本中显示的文本的CSV文件，并安排更新信息的时间。
 * “导入元数据”对话框可用来导入包含变换文本信息的制表符分隔 TXT 文件。您可以将此TXT选项或“信息面板数据馈送”面板与CSV文件选项一起用于变换文本。
 
 ## 为图像集设置响应模板 {#set-up-a-response-template-for-image-sets}
@@ -55,15 +53,15 @@ ht-degree: 51%
 
 1. 在“信息面板设置”面板中，选择 **[!UICONTROL Publish]**.
 
-## 导入图像集中“信息”面板的源内容 {#import-source-content-for-the-info-panel-in-image-sets}
+## 导入图像集中信息面板的源内容 {#import-source-content-for-the-info-panel-in-image-sets}
 
 您可以将采用 ASCII 编码（必须对非 ASCII 字符进行 HTML 编码）的 CSV（逗号分隔值）文件或制表符分隔文件用于图像集信息面板的源文本。制表符分隔文件必须使用 UTF-16 (Unicode) 编码。使用不同的方法导入不同的文件类型。
 
 格式化源内容时，谨记以下指导原则：
 
 * 以制表符和逗号分隔的数据可以包含变换模板所需的任意数量的列。
-* 数据的第一项或一列是变换标识符（与图像映射URL中的rollover_key值相关联）。
-* 确保标识符之后的每个以制表符或逗号分隔的项目都是要替换到响应模板中的项目。因此，第一列将替换为$1$，第二列将替换为$2$，依此类推。
+* 数据的第一项或第一列是变换标识符（与图像映射URL中的rollover_key值相关联）。
+* 确保标识符之后的每个以制表符或逗号分隔的项目都是要替换到响应模板中的项目。 因此，第一列将替换为$1$，第二列将替换为$2$，依此类推。
 
 ### 将CSV内容从外部托管位置导入图像集 {#import-csv-content-into-image-sets-from-an-externally-hosted-location}
 

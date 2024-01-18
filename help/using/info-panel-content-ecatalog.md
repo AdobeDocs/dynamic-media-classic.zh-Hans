@@ -10,10 +10,10 @@ role: User
 exl-id: bfb9c5a4-5068-4adb-9fe2-a4ead8656289
 topic: Integrations
 level: Experienced
-source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
+source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
 workflow-type: tm+mt
-source-wordcount: '866'
-ht-degree: 57%
+source-wordcount: '869'
+ht-degree: 55%
 
 ---
 
@@ -24,8 +24,8 @@ ht-degree: 57%
 您可以使用Adobe Dynamic Media Classic中的以下功能管理信息面板设置和数据：
 
 * “信息面板设置”面板可用来指定用于显示“信息面板”文本、默认错误响应以及信息缓存的小时数等信息的模板。此外，可以指定是否自动发布 eCatalog。
-* “信息面板数据馈送”面板允许您指定包含要在“信息面板”变换文本中显示的文本的CSV文件，并安排更新信息的时间。
-* “导入元数据”对话框（从“映射页面”视图访问）可用来导入包含变换文本信息的制表符分隔 TXT 文件。可以将该 TXT 选项或“数据输入”面板与“CSV 文件”选项结合，用于变换文本。
+* 通过“信息面板”的“数据馈送”面板，可指定包含要在“信息面板”变换文本中显示的文本的CSV文件，并安排更新信息的时间。
+* “导入元数据”对话框（从“映射页面”视图访问）可用来导入包含变换文本信息的制表符分隔 TXT 文件。您可以将此TXT选项或具有CSV文件选项的数据馈送面板用于变换文本。
 * “映射页面”视图提供了用于预览为特定图像映射而显示的 XML 的选项。
 
 ## 为eCatalogs设置响应模板 {#set-up-a-response-template-for-ecatalogs}
@@ -61,7 +61,7 @@ ht-degree: 57%
 
 * 确保制表符分隔数据和逗号分隔数据包含变换模板所必需的列数。
 * 确保数据的第一项或列是变换标识符（与图像映射 URL 的 rollover_key 值关联）。
-* 确保标识符之后的每个以制表符或逗号分隔的项目都是要替换到响应模板中的项目。因此，第一列将替换为$1$，第二列将替换为$2$，依此类推。
+* 确保标识符之后的每个以制表符或逗号分隔的项目都是要替换到响应模板中的项目。 因此，第一列将替换为$1$，第二列将替换为$2$，依此类推。
 
 ### 将CSV内容从外部托管位置导入eCatalogs {#import-csv-content-into-ecatalogs-from-an-externally-hosted-location}
 

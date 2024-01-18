@@ -1,5 +1,5 @@
 ---
-title: "快速入门：模板基础"
+title: “快速入门：模板基础知识”
 description: 模板基础知识简介和快速入门可帮助您在Adobe Dynamic Media Classic中快速启动和运行。
 uuid: 16d78cbb-f762-4263-aea9-5712eb933693
 contentOwner: Rick Brough
@@ -12,10 +12,10 @@ role: User
 exl-id: bf695fee-821c-4396-829a-d57ccf475b0c
 topic: Content Management
 level: Intermediate
-source-git-commit: 1b90beb99b161b76da81403f5aed9755b3a92c8b
+source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
 workflow-type: tm+mt
-source-wordcount: '852'
-ht-degree: 20%
+source-wordcount: '804'
+ht-degree: 21%
 
 ---
 

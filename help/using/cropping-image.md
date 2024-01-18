@@ -10,9 +10,9 @@ role: User
 exl-id: aec4c256-f5ed-4307-afec-dec848be95f9
 topic: Content Management
 level: Intermediate
-source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
+source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
 workflow-type: tm+mt
-source-wordcount: '549'
+source-wordcount: '557'
 ht-degree: 35%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 35%
 
 >[!NOTE]
 >
->裁切后，您可以选择 **[!UICONTROL 另存为]** 并使用其他名称保存该图像的裁剪版本。 在“另存为”窗口中，选择 **[!UICONTROL 另存为新的母版]** 以保存图像的第二个副本。 选择 **[!UICONTROL 另存为主控的添加视图]** 因此，您可以使用其他名称保存原始版本及其裁切版本。 选择 **[!UICONTROL 替换原始]** 删除从中裁切图像的原始文件。 然后输入图像的名称，并选择 **[!UICONTROL 提交]**.
+>裁切后，您可以选择 **[!UICONTROL 另存为]** 并使用其他名称保存该图像的裁剪版本。 在“另存为”窗口中，选择 **[!UICONTROL 另存为新的主要播放器]** 以保存图像的第二个副本。 选择 **[!UICONTROL 另存为主要播放器的添加视图]** 因此，您可以使用其他名称保存原始版本及其裁切版本。 选择 **[!UICONTROL 替换原始]** 删除从中裁切图像的原始文件。 然后输入图像的名称，并选择 **[!UICONTROL 提交]**.
 
 ## 裁切以删除图像周围的空白区域 {#crop-to-remove-white-space-around-an-image}
 

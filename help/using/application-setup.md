@@ -10,10 +10,10 @@ role: Admin
 exl-id: 3f96606e-ef5c-4c01-aa0f-3148f14e28be
 topic: Administration
 level: Intermediate
-source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
+source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
 workflow-type: tm+mt
-source-wordcount: '11288'
-ht-degree: 38%
+source-wordcount: '10991'
+ht-degree: 37%
 
 ---
 
@@ -147,7 +147,7 @@ Adobe Dynamic Media Classic不允许两个文件具有相同的名称。 每个�
 
 如果您之前上载了图像，然后更改了原始文件（或替换了原始文件），则所选的“覆盖”选项将指定Adobe Dynamic Media Classic替换图像的方式。 没有关于图像更改的信息，但是新图像会替换旧图像。如果文件夹中还包含Adobe Dynamic Media Classic中不存在的图像，则会添加这些图像。
 
-如果您上传的图像以某种方式发生更改（图像已更改），但对该图像的引用保持不变，请使用此选项。 在上载和翻录 Adobe® PDF 时“覆盖”也很有用。微调Adobe Dynamic Media Classic *裂缝* 图像，在“上传”对话框中调整ICC颜色配置文件选项，然后使用覆盖功能重新上传。
+如果您上传的图像以某种方式发生更改（图像已更改），但对该图像的引用保持不变，请使用此选项。 在上载和翻录Adobe®PDF时，覆盖也很有用。 微调Adobe Dynamic Media Classic *裂缝* 图像，在“上传”对话框中调整ICC颜色配置文件选项，然后使用覆盖功能重新上传。
 
 用于从生产服务器访问图像的Adobe Dynamic Media Classic ID派生自图像文件名。 在文件名中使用大写字符和小写字符很重要，无论是在替换现有文件还是在用于访问图像的Adobe Dynamic Media Classic ID中。 上传到Adobe Dynamic Media Classic之前，请确保文件名中使用的大写字符和小写字符正确，以避免仅在同一图像上出现不同Adobe Dynamic Media Classic ID。
 
@@ -161,7 +161,7 @@ Adobe Dynamic Media Classic不允许两个文件具有相同的名称。 每个�
 
 要打开“图像预设”屏幕，请转到“全局导航”栏上的 **[!UICONTROL 设置]** > **[!UICONTROL 图像预设]**.
 
-请参阅 [智能成像](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/imaging-faq.html#dynamic).
+请参阅 [智能成像](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/imaging-faq.html).
 
 ### 创建并编辑图像预设 {#creating-and-editing-image-presets}
 
@@ -193,7 +193,7 @@ Adobe Dynamic Media Classic不允许两个文件具有相同的名称。 每个�
 
    * GIF 颜色量化选项
 
-      * **[!UICONTROL 类型]**  — 选择“自适应”（默认）、“Web”或“Macintosh”。 如果您选择 **[!UICONTROL 使用AlphaGIF]**，则Macintosh选项不可用。
+      * **[!UICONTROL 类型]**  — 选择自适应（默认）、Web或Mac。 如果您选择 **[!UICONTROL 使用AlphaGIF]**&#x200B;中，Mac选项不可用。
 
       * **[!UICONTROL 仿色]**  — 选择“扩散”或“关闭”。
 
@@ -203,7 +203,7 @@ Adobe Dynamic Media Classic不允许两个文件具有相同的名称。 每个�
 
    * JPEG 选项
 
-      * **[!UICONTROL 质量]**  — 控制JPEG压缩级别。 此设置既影响文件大小，又影响图像质量。JPEG质量等级为1-100。
+      * **[!UICONTROL 质量]**  — 控制JPEG压缩级别。 此设置既影响文件大小，又影响图像质量。JPEG 品质等级为 1-100。
 
       * **[!UICONTROL 启用JPG色度缩减像素采样]**  — 由于眼睛对高频颜色信息的敏感度低于高频亮度，因此JPEG图像将图像信息划分为亮度和颜色分量。 压缩 JPEG 图像时，通过将各组像素放到一起平均，亮度分量为全分辨率，颜色分量为缩减像素取样。缩减取样会将数据量减少一半或三分之一，几乎不影响感知质量。 缩减像素采样不适用于灰度图像。这种方法会减少对于高对比度图像有用的压缩的数量（例如，包含覆盖文本的图像）。
 
@@ -272,7 +272,7 @@ Adobe Dynamic Media Classic提供了自适应视频编码预设。 它是将16:9
 
 另请参阅 [视频预设](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/549_video-presets_converted%20renamed_Done-AVS) 训练视频。
 
-**激活或停用自适应视频预设:**
+**要激活或取消激活自适应视频预设，请执行以下操作：**
 
 1. 在Adobe Dynamic Media Classic的右上角附近，转到 **[!UICONTROL 设置]** > **[!UICONTROL 应用程序设置]** > **[!UICONTROL 视频预设]** > **[!UICONTROL 自适应视频预设]**.
 1. 在“自适应视频预设”页中，取消选中某个预设名称旁边的复选框，以将该预设从“上载作业选项”对话框的“eVideo 选项”列表中删除。
@@ -350,16 +350,16 @@ Adobe Dynamic Media Classic提供了自适应视频编码预设。 它是将16:9
 
 有关编码选项参数的信息，请参阅[关于编码预设选项](application-setup.md#about_encoding_preset_options)。
 
-**自适应视频编码（16:9 或 4:3）预设**
+**自适应视频编码（16:9或4:3）预设**
 
 |  | 编码预设名称/工具提示文本 | 目标连接速度 (Kbps) | 编码文件后缀 | 视频数据速率 (Kbps) | 宽度/高度（像素） | Fps | 音频比特率 (kbps) | 推荐 |
 |--- |--- |--- |--- |--- |--- |--- |--- |--- |
 | 1 | `16:9, 512x288, Mobile (iPhone, iPad, Android&trade;), (400 Kbps)` | 500 | _Mobile_512x288_400K | 400 | 512x288 | 与源相同 | 64 | 低分辨率、3G |
 | 2 | `4:3, 384x288px, Mobile (iPhone, iPad, Android&trade;), (400 Kbps)` | 500 | _Mobile_384x288_400K | 400 | 384x288 | 与源相同 | 64 | 低分辨率、3G |
-| 3 | `16:9, 512x288, Mobile (iPhone, iPad, Android&trade;), (600 Kbps)` | 700 | _Mobile_512x288_600K | 600 | 512x288 | 与源相同 | 64 | 中分辨率、3G |
-| 4 | `4:3, 384x288, Mobile (iPhone, iPad, Android&trade;), (600 Kbps)` | 700 | _Mobile_384x288_600 | 600 | 384x288 | 与源相同 | 64 | 中分辨率、3G |
-| 5 | `16:9, 640x360, Tablet (iPad, Android&trade;), (800 Kbps)` | 900 | _iPad_640x360_800K | 800 | 640x360 | 与源相同 | 80 | 中分辨率、WiFi |
-| 6 | `4:3, 640x480, Tablet (iPad, Android&trade;), (800 Kbps)` | 900 | _iPad_640x480_800K | 800 | 640x480 | 与源相同 | 80 | 中分辨率、WiFi |
+| 3 | `16:9, 512x288, Mobile (iPhone, iPad, Android&trade;), (600 Kbps)` | 700 | _Mobile_512x288_600K | 600 | 512x288 | 与源相同 | 64 | 中等分辨率， 3G |
+| 4 | `4:3, 384x288, Mobile (iPhone, iPad, Android&trade;), (600 Kbps)` | 700 | _Mobile_384x288_600 | 600 | 384x288 | 与源相同 | 64 | 中等分辨率， 3G |
+| 5 | `16:9, 640x360, Tablet (iPad, Android&trade;), (800 Kbps)` | 900 | _iPad_640x360_800K | 800 | 640x360 | 与源相同 | 80 | 中等分辨率，WiFi |
+| 6 | `4:3, 640x480, Tablet (iPad, Android&trade;), (800 Kbps)` | 900 | _iPad_640x480_800K | 800 | 640x480 | 与源相同 | 80 | 中等分辨率，WiFi |
 | 7 | `16:9, 768x432, Tablet (iPad, Android&trade;), (1200 Kbps)` | 1.5 Mbps | _iPad_768x432_1200K | 1200 | 768 x 432 | 与源相同 | 96 | 高分辨率、WiFi |
 | 8 | `4:3, 768x576, Tablet (iPad, Android&trade;), (1200 Kbps)` | 1.5 Mbps | _iPad_768x576_1200K | 1200 | 768x576 | 与源相同 | 96 | 高分辨率、WiFi |
 | 9 | `16:9, 1280x720, Desktop, (2000 Kbps)` | 3.0 Mbps | _1280x720_2000K | 2000 | 1280x720 | 与源相同 | 128 | 高清、宽屏 |
@@ -371,7 +371,7 @@ Adobe Dynamic Media Classic提供了自适应视频编码预设。 它是将16:9
 
 有关编码选项参数的信息，请参阅[关于编码预设选项](application-setup.md#about_encoding_preset_options)。
 
-**H264 Main 3.2 - 音频 AAC、MP4 文件扩展名**
+**H264 Main 3.2 — 音频AAC，MP4文件扩展名**
 
 |  | 编码预设名称/工具提示文本 | 目标连接速度 (Kbps) | 编码文件后缀 | 视频数据速率 (Kbps) | 宽度/高度（像素） | Fps | 音频比特率 (Kbps) | 推荐 |
 |--- |--- |--- |--- |--- |--- |--- |--- |--- |
@@ -384,18 +384,18 @@ Adobe Dynamic Media Classic提供了自适应视频编码预设。 它是将16:9
 | 7 | 4:3、640x480 (1200 Kbps) | 1.5 Mbps | _640x480_1200K | 1200 | 640x480 | 与源相同 | 96 | 中高分辨率 |
 | 8 | 4:3、1280x960 (2000 Kbps) | 3.0 Mbps | _1280x960_2000K | 2000 | 1280x960 | 与源相同 | 128 | 高清 |
 
-**OGG Theora Vorbis - OGV 文件扩展名**
+**OGG Theora Vorbis - OGV文件扩展名**
 
 |  | 编码预设名称/工具提示文本 | 目标连接速度 (Kbps) | 编码文件后缀 | 视频数据速率 (Kbps) | 宽度/高度（像素） | Fps | 音频比特率 (Kbps) | 推荐 |
 |--- |--- |--- |--- |--- |--- |--- |--- |--- |
 | 1 | 16:9、480x270 (400 Kbps)、OGG | 500 | _OGG_480x270_400K | 400 | 480x270 | 与源相同 | 64 | 低宽屏分辨率 |
-| 2 | 16:9、640x360 (800 Kbps)、OGG | 900 | _OGG_640x360_800K | 800 | 640x360 | 与源相同 | 80 | 中等宽屏分辨率 |
-| 3 | 16:9、800x450 (1200 Kbps)、OGG | 1.5 Mbps | _OGG_800x450_1200K | 1200 | 800x450 | 与源相同 | 96 | 中高分辨率 |
-| 4 | 16:9、1280x720 (2000 Kbps)、OGG | 3.0 Mbps | _OGG_1280x720_2000K | 2000 | 1280x720 | 与源相同 | 128 | 高清、宽屏 |
-| 5 | 4:3、320x240 (400 Kbps)、OGG | 500 | _OGG_320X240_400K | 400 | 320x240 | 与源相同 | 64 | 低分辨率 |
-| 6 | 4:3、480x360 (800 Kbps)、OGG | 900 | _OGG_480x360_800K | 800 | 480x360 | 与源相同 | 80 | 中分辨率 |
-| 7 | 4:3、640x480 (1200 Kbps)、OGG | 1.5 Mbps | _OGG_640x480_1200K | 1200 | 640x480 | 与源相同 | 96 | 中高分辨率 |
-| 8 | 4:3、1280x960 (2000 Kbps)、OGG | 3.0 Mbps | _OGG_1280x960_2000K | 2000 | 1280x960 | 与源相同 | 128 | 高清 |
+| 2 | 16：9,640x360 (800 Kbps)，OGG | 900 | _OGG_640x360_800K | 800 | 640x360 | 与源相同 | 80 | 中等宽屏分辨率 |
+| 3 | 16：9,800x450 (1200 Kbps)，OGG | 1.5 Mbps | _OGG_800x450_1200K | 1200 | 800x450 | 与源相同 | 96 | 中高分辨率 |
+| 4 | 16：9,1280x720 (2000 Kbps)，OGG | 3.0 Mbps | _OGG_1280x720_2000K | 2000 | 1280x720 | 与源相同 | 128 | 高清、宽屏 |
+| 5 | 4：3,320x240 (400 Kbps)，OGG | 500 | _OGG_320X240_400K | 400 | 320x240 | 与源相同 | 64 | 低分辨率 |
+| 6 | 4：3,480x360 (800 Kbps)，OGG | 900 | _OGG_480x360_800K | 800 | 480x360 | 与源相同 | 80 | 中分辨率 |
+| 7 | 4：3,640x480 (1200 Kbps)，OGG | 1.5 Mbps | _OGG_640x480_1200K | 1200 | 640x480 | 与源相同 | 96 | 中高分辨率 |
+| 8 | 4：3,1280x960 (2000 Kbps)，OGG | 3.0 Mbps | _OGG_1280x960_2000K | 2000 | 1280x960 | 与源相同 | 128 | 高清 |
 
 ### 移动设备视频编码预设 {#mobile-video-encoding-presets}
 
@@ -403,17 +403,17 @@ Adobe Dynamic Media Classic提供了自适应视频编码预设。 它是将16:9
 
 有关编码选项参数的信息，请参阅[关于编码预设选项](application-setup.md#about_encoding_preset_options)。
 
-**H264 Baseline 2.1 - 音频 AAC、MP4 文件扩展名**
+**H264基线2.1 — 音频AAC，MP4文件扩展名**
 
 |  | 编码预设名称/工具提示文本 | 目标连接速度 (Kbps) | 编码文件后缀 | 视频比特率 (Kbps) | 像素宽度/高度 | Fps | 音频比特率 (Kbps) | 推荐 |
 |--- |--- |--- |--- |--- |--- |--- |--- |--- |
 | 1 | 16:9、512x288、移动设备 (400 Kbps) | 500 | _Mobile_512x288_400K | 400 | 512x288 | 与源相同 | 64 | 低分辨率、3G |
-| 2 | 16:9、512x288、移动设备 (600 Kbps) | 700 | _Mobile_512x288_600K | 600 | 512x288 | 与源相同 | 64 | 中分辨率、3G |
+| 2 | 16:9、512x288、移动设备 (600 Kbps) | 700 | _Mobile_512x288_600K | 600 | 512x288 | 与源相同 | 64 | 中等分辨率， 3G |
 | 3 | 16:9、512x288、移动设备 (800 Kbps) | 900 | _Mobile_512x288_800K | 800 | 512x288 | 与源相同 | 80 | 中等分辨率、Wi-Fi |
 | 4 | 16:9、512x288、移动设备 (1000 Kbps) | 1.2 Mbps | _Mobile_512x288_1000K | 1000 | 512x288 | 与源相同 | 80 | 高分辨率、Wi-Fi |
 | 5 | 16:9、512x288、移动设备 (1200 Kbps) | 1.5 Mbps | _Mobile_512x288_1200K | 1200 | 512x288 | 与源相同 | 96 | 高分辨率、Wi-Fi |
 | 6 | 4:3、384x288、移动设备 (400 Kbps) | 500 | _Mobile_384x288_400K | 400 | 384x288 | 与源相同 | 64 | 低分辨率、3G |
-| 7 | 4:3、384x288、移动设备 (600 Kbps) | 700 | _Mobile_384x288_600K | 600 | 384x288 | 与源相同 | 64 | 中分辨率、3G |
+| 7 | 4:3、384x288、移动设备 (600 Kbps) | 700 | _Mobile_384x288_600K | 600 | 384x288 | 与源相同 | 64 | 中等分辨率， 3G |
 | 8 | 4:3、448x336、移动设备 (800 Kbps) | 900 | _Mobile_448x336_800K | 800 | 448x336 | 与源相同 | 80 | 中等分辨率、Wi-Fi |
 | 9 | 4:3、448x336、移动设备 (1000 Kbps) | 1.2 Mbps | _Mobile_448x336_1000K | 1000 | 448x336 | 与源相同 | 80 | 高分辨率、Wi-Fi |
 | 10 | 4:3、448x336、移动设备 (1200 Kbps) | 1.5 Mbps | _Mobile_448x336_1200K | 1200 | 448x336 | 与源相同 | 96 | 高分辨率、Wi-Fi |
@@ -426,7 +426,7 @@ Adobe Dynamic Media Classic提供了自适应视频编码预设。 它是将16:9
 
 *查看器预设*&#x200B;是一组设置，决定了用户如何在其计算机屏幕和移动设备上查看富媒体资源。作为管理员，您可以创建查看器预设。提供适用于一系列查看器配置选项的设置。例如，您可以更改查看器显示尺寸、缩放行为、颜色方案、边框和字体。
 
-作为最佳实践，请使用Adobe Dynamic Media Classic HTML5视频查看器。 HTML5 视频查看器中使用的预设是功能强大的视频播放器。
+作为最佳实践，请使用Adobe Dynamic Media Classic HTML5视频查看器。 HTML5视频查看器中使用的预设是可靠的视频播放器。
 
 通过将以下内容组合到单个播放器中：
 
@@ -513,7 +513,7 @@ Adobe Dynamic Media Classic提供了自适应视频编码预设。 它是将16:9
 
 |  | 查看器技术 | 桌面 | Apple iPhone | Apple iPad | Android™智能手机 | Android™平板电脑 |
 |--- |--- |--- |--- |--- |--- |--- |
-| eCatalog 查看器 |  |  |  |  |  |  |
+| eCatalog查看器 |  |  |  |  |  |  |
 | Universal_Media5_eCatalog_Adv(包括对HTML和目录搜索的支持。) | HTML5 | X | X | X | X | X |
 | Universal_Media5_eCatalog(包括对HTML和目录搜索的支持。) | HTML5 | X | X | X | X | X |
 
@@ -595,7 +595,7 @@ Adobe Dynamic Media Classic支持MP4 H.264视频的移动视频播放。
 
 另请参阅 [查看器预设](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/550_viewer-presets_converted%20renamed_Done-AVS) 训练视频。
 
-**添加和编辑查看器预设:**
+**添加和编辑查看器预设：**
 
 1. 在Adobe Dynamic Media Classic的右上角附近，转到 **[!UICONTROL 设置]** > **[!UICONTROL 查看器预设]**.
 
@@ -676,7 +676,7 @@ https://s7d1.scene7.com/is/image/Scene7SharedAssets/FullScreenButton_dark_sprite
 
 除非您在“查看器预设”屏幕上停用查看器预设，否则“预览”对话框的“预设”下拉列表可能变得内容越来越多。
 
-**激活或停用查看器预设:**
+**要激活或取消激活查看器预设，请执行以下操作：**
 
 1. 转到 **[!UICONTROL 设置]** > **[!UICONTROL 查看器预设]**.
 1. 在“查看器预设”页面上，选择或取消选择 **[!UICONTROL 活动]** 用于激活或取消激活查看器预设的选项。
@@ -687,7 +687,7 @@ https://s7d1.scene7.com/is/image/Scene7SharedAssets/FullScreenButton_dark_sprite
 
 URL 即复制到剪贴板中。您可以根据需要在网页的 HTML 代码、移动设备或应用程序中使用它。
 
-**复制查看器预设的 URL:**
+**复制查看器预设的URL：**
 
 1. 在“浏览”面板中选择资源。
 1. 在“资源浏览”面板上方的工具栏右侧，执行以下任一操作：
@@ -711,7 +711,7 @@ URL 即复制到剪贴板中。您可以根据需要在网页的 HTML 代码、�
 
 在“嵌入代码”对话框中不允许编辑代码。
 
-**复制查看器预设的嵌入代码:**
+**要复制查看器预设的嵌入代码：**
 
 1. 在“资源浏览”面板中选择资源。
 1. 在“资源浏览”面板上方的工具栏右侧，执行以下任一操作：
@@ -744,7 +744,7 @@ URL 即复制到剪贴板中。您可以根据需要在网页的 HTML 代码、�
 * 样本集
 * 媒体集
 
-**配置默认查看器:**
+**要配置默认查看器：**
 
 1. 在设置下拉列表中，选择 **[!UICONTROL 应用程序设置]**.
 1. 在“Setup（设置）”窗口的左窗格中，转到 **[!UICONTROL 应用程序设置]** > **[!UICONTROL 查看器]**
@@ -928,7 +928,7 @@ Adobe Dynamic Media Classic使用批次集预设将共享某些常见信息或�
 
 另请参阅 [2D旋转集](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/537_2d-spin_converted%20renamed_Done-AVS) 训练视频。
 
-**创建批量集预设:**
+**要创建批次集预设，请执行以下操作：**
 
 1. 转到 **[!UICONTROL 设置]** > **[!UICONTROL 应用程序设置]** > **[!UICONTROL 批次集预设]** > **[!UICONTROL 批次集预设]**. 默认视图为“**[!UICONTROL 查看表单]**”（在“详细信息”页面的右上角设置）。
 1. 在“预设列表”面板中，选择 **[!UICONTROL 添加]** 以激活页面右侧详细信息面板中的定义字段。
@@ -973,11 +973,11 @@ spin-03-12
 
 ![批次集方法图像](assets/se_batch_set_recipe.png)
 
-旋转集的共享资产名称部分的分组将添加到“匹配”字段（高亮显示）。 将包含行和列的资源名称的变量部分分别添加到“行”和“列”字段。
+旋转集的共享资产名称部分的分组将添加到“匹配”字段（高亮显示）。 资产名称中包含行和列的变量部分将分别添加到行和列字段。
 
-在上载和发布旋转集时，将激活在“上载作业选项”对话框的“**[!UICONTROL 批量集预设]**”下面列出的 2D 旋转集方法名称。
+上传和发布旋转集后，您将激活2D旋转集方法的名称，该方法在以下位置列出： **[!UICONTROL 批次集预设]** 在“上载作业选项”对话框中。
 
-**创建用于自动生成 2D 旋转集的批量集预设:**
+**要为自动生成2D旋转集创建批次集预设，请执行以下操作：**
 
 1. 转到 **[!UICONTROL 设置]** > **[!UICONTROL 应用程序设置]** > **[!UICONTROL 批次集预设]** > **[!UICONTROL 批次集预设]**. 默认视图为“**[!UICONTROL 查看表单]**”（在“详细信息”页面的右上角设置）。
 1. 在“预设列表”面板中，选择 **[!UICONTROL 添加]** 以激活页面右侧详细信息面板中的定义字段。

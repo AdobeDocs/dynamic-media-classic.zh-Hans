@@ -1,20 +1,18 @@
 ---
 title: 上传视频并进行编码
 description: 了解如何在Adobe Dynamic Media Classic中上传视频并进行编码。
-uuid: 9a7d6513-b10c-40b0-aebb-18a795c2b8d1
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
-discoiquuid: a0941823-850c-4373-9e37-f32032de3805
 feature: Dynamic Media Classic,Viewers,Video
 role: User
 exl-id: 93ad91d7-f3dd-484b-b62c-633fcb864bbf
 topic: Content Management
 level: Intermediate
-source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
+source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
 workflow-type: tm+mt
-source-wordcount: '3951'
-ht-degree: 49%
+source-wordcount: '3986'
+ht-degree: 46%
 
 ---
 
@@ -48,11 +46,11 @@ Adobe Dynamic Media Classic还会生成视频缩略图。 您可以了解有关�
 
 请参阅 [使用视频缩略图](deploying-video-websites-mobile-sites.md#working-with-video-thumbnails).
 
-**上载和编码视频:**
+**要上传视频并进行编码，请执行以下操作：**
 
-执行以下任一操作：.
+执行以下任一操作。
 
-*如果您的视频已经编码*
+*如果您的视频已编码*
 
 1. 在全局导航栏上，选择 **[!UICONTROL 上传]**.
 1. 在上传页面中，选择 **[!UICONTROL 从桌面]** 选项卡。
@@ -71,19 +69,20 @@ Adobe Dynamic Media Classic还会生成视频缩略图。 您可以了解有关�
 1. 在上载作业选项对话框中，展开 **[!UICONTROL EVideo选项]**，然后执行以下操作之一：
 
    * 最佳实践是选择 **[!UICONTROL 自适应视频编码]**. 请参阅[自适应视频（默认）](application-setup.md#adaptive-video-default)。
-   * 可选. 如果要使用单独的编码设置，请展开 **[!UICONTROL 单个编码预设]**，然后选择所需的台式机、移动设备和平板电脑编码选项。
+   * 可选。 如果要使用单独的编码设置，请展开 **[!UICONTROL 单个编码预设]**，然后选择所需的台式机、移动设备和平板电脑编码选项。
 请参阅[台式机视频编码预设](application-setup.md#desktop-video-encoding-presets)、[移动设备视频编码预设](application-setup.md#mobile-video-encoding-presets)和[平板电脑视频编码预设](application-setup.md#tablet-video-encoding-presets)。
 1. 在“上载作业选项”对话框中，选择 **[!UICONTROL 保存]**.
 1. 在上传页面上，确保 **[!UICONTROL 上传后发布]** 已选中。
 1. 在上传页面的右下角，选择 **[!UICONTROL 提交上载]**.
 
-*如果要重新编码以前上载的视频文件*
+*如果您要对之前上传的视频文件重新编码*
 
 1. 在Adobe Dynamic Media Classic的“浏览”面板中，导航到视频并将其选定。
 1. 转到 **[!UICONTROL 文件]** > **[!UICONTROL 重新处理]**.
 1. 在重新处理资源对话框中，展开 **[!UICONTROL EVideo选项]**，然后执行以下操作之一：
-   * 最佳做法是使用以下方法。选择“**自适应视频**”。请参阅[自适应视频（默认）](application-setup.md#adaptive-video-default)。
-   * 可选. 如果要使用单独的编码设置，请展开 **[!UICONTROL 单个编码预设]**，然后选择所需的台式机、移动设备和平板电脑编码选项。
+   * 最佳实践为使用以下方法。 选择 **自适应视频**.
+请参阅[自适应视频（默认）](application-setup.md#adaptive-video-default)。
+   * 可选。 如果要使用单独的编码设置，请展开 **[!UICONTROL 单个编码预设]**，然后选择所需的台式机、移动设备和平板电脑编码选项。
 请参阅[台式机视频编码预设](application-setup.md#desktop-video-encoding-presets)、[移动设备视频编码预设](application-setup.md#mobile-video-encoding-presets)和[平板电脑视频编码预设](application-setup.md#tablet-video-encoding-presets)。
 1. 在重新处理资源对话框中，选择 **[!UICONTROL 提交]**.
 
@@ -109,7 +108,7 @@ Adobe Dynamic Media Classic还会生成视频缩略图。 您可以了解有关�
   | M2V | MPEG-2 ES |
   | M4V | H.264 |
   | MOV | DV、DVCPro 50、H.261、H.263、H.264、Sorenson Video 1 |
-  | MP4 | H.264/MPEG-4 AVC |
+  | MP4 | H.264 / MPEG-4 AVC |
   | MPEG | MPEG-2 SS |
   | MPG | MPEG-2 SS |
   | MTS | MPEG-2 |
@@ -173,7 +172,7 @@ For advice about video encoding, see the following:
 
 ### 数据速率 {#data-rate}
 
-*数据速率*（也称为&#x200B;*比特率*）是用于编码以组成一秒钟视频播放的数据量。数据速率以千比特/秒 (Kbps) 为度量单位。
+此 *数据速率* (也称为 *比特率*)是经过编码以构成视频播放一秒的数据量。 数据速率以千比特/秒 (Kbps) 为度量单位。
 
 >[!NOTE]
 >
@@ -187,7 +186,7 @@ For advice about video encoding, see the following:
 | --- | --- |
 | 256 | 拨号连接。 |
 | 800 | 标准移动连接。对于此连接，将数据速率设定在 400 至最大值为 800 的范围内，以实现 3G 体验。 |
-| 2000 | 标准带宽桌面连接。对于这种连接，数据速率目标在800-2000 Kbps范围内，大多数目标平均为1200-1500 Kbps。 |
+| 2000 | 标准带宽桌面连接。对于此连接，将数据速率设定在 800-2000 Kbps 范围内，大部分目标用户的平均值为 1200-1500 Kbps。 |
 | 5000 | 标准高带宽连接。不推荐在此上限范围内编码，因为大部分消费者无法使用此速度的视频传送。 |
 
 ### 分辨率 {#resolution}
@@ -291,7 +290,7 @@ Adobe Dynamic Media Classic为您提供了一个预定义的视频编码预设�
 
 也可以根据播放设备选项进行过滤，将列表范围缩小为用于在所有设备、台式机、移动设备或平板电脑上播放视频的视频预设。
 
-**过滤视频编码预设列表:**
+**要筛选视频编码预设列表，请执行以下操作：**
 
 1. 在Adobe Dynamic Media Classic的全局导航栏上，转到 **[!UICONTROL 设置]** > **[!UICONTROL 应用程序设置]** > **[!UICONTROL 视频预设]** > **[!UICONTROL 自适应视频预设]** 或 **[!UICONTROL 单个编码预设]**.
 
@@ -333,7 +332,7 @@ Adobe Dynamic Media Classic为目标数据速率、分辨率高度和分辨率�
 * 对于移动设备播放，限制为：（宽度/16） &#42; （高度/16） &lt; 660；目标数据速率&lt; 4000。
 * 对于平板电脑播放，限制为：（宽度/16） &#42; (Height/16) &lt; 3600。
 
-**添加或编辑视频编码预设:**
+**添加或编辑视频编码预设：**
 
 1. 在Adobe Dynamic Media Classic的全局导航栏上，转到 **[!UICONTROL 设置]** > **[!UICONTROL 应用程序设置]** > **[!UICONTROL 视频预设]**.
 1. 选择 **[!UICONTROL 单个编码预设]**.
@@ -355,7 +354,7 @@ Adobe Dynamic Media Classic为目标数据速率、分辨率高度和分辨率�
    | 播放设备 | 选择要在其上播放视频的设备。这些选项为“计算机”（台式机）、“移动设备”(iPhone、iPad、Android™)或“平板电脑”(仅限iPad)。 此设置会自动确定在编码期间使用的适当视频和音频编解码器。 |
    | 目标数据速率 | 输入目标最终用户的 Internet 平均连接速度（千比特/秒）。您可以输入速率，或拖动滑块进行输入。用户连接速度范围列出了宽带、DSL、移动设备和拨号连接的标准速度。此设置会自动确定组合的视频和音频数据速率。也就是构成一秒钟视频播放所编码的数据量。数据速率越高，所得到视频的品质就越高。但是，如果数据速率太高，则导致文件非常大，并导致低带宽连接的用户的观看体验欠佳。最好是在高数据速率和低数据速率之间找到一个平衡点。旨在创建优质播放体验，带宽较低的用户也能享受该体验。 |
    | 高宽比 | 高宽比是视频宽度和视频高度的比例。下面列出的前两个高宽比通常用于水平显示视频：<ul><li> 4:3 - 适用于几乎所有的标清电视广播内容。</li><li>16:9 — 用于高清电视(HDTV)上的几乎所有宽屏内容和电影。</li><li>自动缩放 — （默认）一种单一编码预设，可与任何纵横比配合使用，创建要交付到移动设备、平板电脑和台式机的视频。 使用该预设编码的上载的源视频将设置为固定高度。但是，宽度会自动缩放以保留视频的长宽比（宽高比）。</li><li>自定义 - 要定义非标准视频大小时使用。</li><li>您选择的纵横比决定了“分辨率大小”的宽度和高度设置；宽度和高度值会自动缩放到适当的纵横比。</li></ul> |
-   | 分辨率大小 | 分辨率大小（用宽度的像素数乘以高度的像素数表示）决定大小。 以像素为单位输入宽度和高度值，或拖动滑块来输入这些值。分辨率范围列出了标准分辨率大小。宽度和高度值会自动遵循您选择的长宽比。 例如，如果您选择 4:3 作为高宽比，并且为宽度输入 400，则会自动为高度输入 300。如果为高宽比设置选择了“自动缩放”，则自动将分辨率大小的宽度值设置为“自动”。选择 **[!UICONTROL 预览]** 这样您就可以打开浏览器窗口，并在其中查看您选择的解决方案。 |
+   | 分辨率大小 | 分辨率大小（用宽度的像素数乘以高度的像素数表示）决定大小。 输入宽度和高度值（以像素为单位），或拖动滑块以输入这些值。 分辨率范围列出了标准分辨率大小。宽度和高度值会自动遵循您选择的长宽比。 例如，如果选择4:3作为长宽比，并输入400作为宽度，则自动输入300作为高度。 如果为“纵横比”设置选择了“自动缩放”，则“分辨率大小”的“宽度”值将自动设置为“自动”。 选择 **[!UICONTROL 预览]** 这样您就可以打开浏览器窗口，并在其中查看您选择的解决方案。 |
    | 编码文件后缀 | 输入后缀。该后缀会附加到生成的编码视频文件的后面。您可以在名称中输入连字符和下划线；不允许使用空格和特殊字符。 |
    | 其他设置 | Adobe Dynamic Media Classic会根据最佳实践编码准则自动确定所有其他编码设置。 |
 

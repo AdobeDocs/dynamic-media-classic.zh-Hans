@@ -6,9 +6,9 @@ role: Admin,User
 exl-id: 5c2e2937-fe4f-4b64-bee8-9572ca84695b
 topic: Content Management
 level: Intermediate
-source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
+source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
 workflow-type: tm+mt
-source-wordcount: '1550'
+source-wordcount: '1563'
 ht-degree: 0%
 
 ---
@@ -45,7 +45,7 @@ ht-degree: 0%
 
 * Internet Retail 1000的顶级富媒体供应商，连续九年。
 * 24/7/265支持，99.95%服务级别协议。
-* 为全球800多家客户提供可靠的基础架构，每月流量达3.5 PB，管理资产超过5亿，流量同比增长60%。
+* 为全球800多个客户提供可靠的基础架构，每月流量3.5 PB，管理资产超过5亿个，流量同比增长60%。
 
 +++
 
@@ -97,28 +97,28 @@ Adobe已将Adobe Scene7的名称更改为 [!DNL Dynamic Media Classic].
 +++
 
 +++**升级过程是否存在任何停机时间？**
-否. [!DNL Dynamic Media Classic] 在升级过程中继续不间断地工作。 完成升级并验证内容后，所有用户将在 [!DNL Dynamic Media] 组件 [!DNL Experience Manager] 资产。
+不适用。 [!DNL Dynamic Media Classic] 在升级过程中继续不间断地工作。 完成升级并验证内容后，所有用户将在 [!DNL Dynamic Media] 组件 [!DNL Experience Manager] 资产。
 
 +++
 
 +++**是否需要升级准备清单中的所有步骤？**
-否. 此 [准备清单](/help/using/upgrade-readiness.md) 包含必需和可选的最佳实践步骤。
+不适用。 此 [准备清单](/help/using/upgrade-readiness.md) 包含必需和可选的最佳实践步骤。
 
 +++
 
 +++**是否需要升级？**
-否. Adobe继续提供全面支持和维护 [!DNL Dynamic Media Classic] （客户请求的错误修复、安全修复、平台可扩展性和可靠性）现在和将来。
+不适用。 Adobe继续提供全面支持和维护 [!DNL Dynamic Media Classic] （客户请求的错误修复、安全修复、平台可扩展性和可靠性）现在和将来。
 
 当您准备好利用提供的新功能时，可以升级 [!DNL Dynamic Media].
 
 +++
 
-+++**我能否继续使用 [!DNL Dynamic Media Classic] (以前称为Adobe Scene7) [!DNL Dynamic Media]？**
++++**我还可以使用 [!DNL Dynamic Media Classic] (以前称为Adobe Scene7) [!DNL Dynamic Media]？**
 在升级到之后 [!DNL Dynamic Media]，您应该只将Dynamic Media用于成像和视频。 您可以继续使用 [!DNL Dynamic Media Classic] 仅适用于中尚未提供的功能 [!DNL Dynamic Media] 包括以下各项：
 
 * 可视化配置器（图像作者、图像渲染）。
 * 图像模板。
-* eCatalog.
+* eCatalogs。
 
 +++
 
@@ -127,22 +127,23 @@ Adobe已将Adobe Scene7的名称更改为 [!DNL Dynamic Media Classic].
 
 +++
 
-+++**执行现有 [!DNL Dynamic Media Classic] URL、API集成和查看器在我的升级期间和之后继续工作？**&#x200B;是的。您可继续使用 [!DNL Dynamic Media Classic] (以前称为Adobe Scene7)中的发布和交付基础架构 [!DNL Dynamic Media] 解决方案。
++++**执行现有 [!DNL Dynamic Media Classic] URL、API集成和查看器在我的升级期间和之后继续工作？**
+是的。 您可继续使用 [!DNL Dynamic Media Classic] (以前称为Adobe Scene7)中的发布和交付基础架构 [!DNL Dynamic Media] 解决方案。
 
 +++
 
 +++**我是否需要更新生产URL？**
-否. Adobe将继续使用 [!DNL Dynamic Media Classic] 发布和交付基础架构的现状 [!DNL Dynamic Media] 解决方案。 此方法的好处是，您不必更改网页上的任何生产URL，因此最大程度地降低了迁移到 [!DNL Dynamic Media].
+不适用。 Adobe将继续使用 [!DNL Dynamic Media Classic] 发布和交付基础架构的现状 [!DNL Dynamic Media] 解决方案。 此方法的好处是，您不必更改网页上的任何生产URL，因此最大程度地降低了迁移到 [!DNL Dynamic Media].
 
 +++
 
 +++**我是否需要重写API集成和其他自动化脚本？**
-否. Adobe将继续使用 [!DNL Dynamic Media Classic] 发布和交付基础架构的现状 [!DNL Dynamic Media] 解决方案。 此外，所有资产都会复制到 [!DNL Dynamic Media Classic]. 此方法的优势在于，您不必重写任何基于API的集成或自动化脚本，从而最大限度地减少迁移到 [!DNL Dynamic Media].
+不适用。 Adobe将继续使用 [!DNL Dynamic Media Classic] 发布和交付基础架构的现状 [!DNL Dynamic Media] 解决方案。 此外，所有资产都会复制到 [!DNL Dynamic Media Classic]. 此方法的优势在于，您不必重写任何基于API的集成或自动化脚本，从而最大限度地减少迁移到 [!DNL Dynamic Media].
 
 +++
 
 +++**我是否需要做出更改或重新开发自定义查看器？**
-否. Adobe将继续使用 [!DNL Dynamic Media Classic] 发布和交付基础架构的现状 [!DNL Dynamic Media] 解决方案。 此方法的好处是，您可以继续使用自定义的查看器，从而最大限度地减少迁移到 [!DNL Dynamic Media].
+不适用。 Adobe将继续使用 [!DNL Dynamic Media Classic] 发布和交付基础架构的现状 [!DNL Dynamic Media] 解决方案。 此方法的好处是，您可以继续使用自定义的查看器，从而最大限度地减少迁移到 [!DNL Dynamic Media].
 +++
 
 +++**如何将设置（如图像预设、视频编码）迁移到 [!DNL Dynamic Media]？**
@@ -155,7 +156,8 @@ Adobe已将Adobe Scene7的名称更改为 [!DNL Dynamic Media Classic].
 
 +++
 
-+++**我仍然可以使用FTP批处理/批量上传资产吗？**&#x200B;是的。您无需修改现有的工作流即可进行摄取，并且可以继续计划基于FTP的上传。
++++**我仍然可以使用FTP批处理/批量上传资产吗？**
+是的。 您无需修改现有的工作流即可进行摄取，并且可以继续计划基于FTP的上传。
 
 +++
 
@@ -164,7 +166,8 @@ Adobe已将Adobe Scene7的名称更改为 [!DNL Dynamic Media Classic].
 
 +++
 
-+++**是 [!DNL Dynamic Media] 是否适用于所有地区？**&#x200B;是的。Adobe在北美、欧洲和亚太地区都有数据中心。
++++**是 [!DNL Dynamic Media] 是否适用于所有地区？**
+是的。 Adobe在北美、欧洲和亚太地区都有数据中心。
 
 +++
 
@@ -193,11 +196,13 @@ Adobe会对移到的所有资源执行自动验证 [!DNL Dynamic Media]. 由提�
 
 +++
 
-+++**是否有SLA [!DNL Dynamic Media]？**&#x200B;是的。有关详细信息，请联系您的Adobe客户团队代表。
++++**是否有SLA [!DNL Dynamic Media]？**
+是的。 有关详细信息，请联系您的Adobe客户团队代表。
 
 +++
 
-+++**我能否将我自己的CDN（内容分发网络）与 [!DNL Dynamic Media]？**&#x200B;是的。您可以将自己的CDN与 [!DNL Dynamic Media].
++++**我能否将我自己的CDN（内容分发网络）与 [!DNL Dynamic Media]？**
+是的。 您可以将自己的CDN与 [!DNL Dynamic Media].
 
 +++
 
@@ -211,7 +216,7 @@ Adobe会对移到的所有资源执行自动验证 [!DNL Dynamic Media]. 由提�
 
 * 可视化配置器（图像作者、图像渲染）。
 * 图像模板。
-* eCatalog.
+* eCatalogs。
 
 另请参阅 [功能比较](/help/using/upgrade-feature-comparison.md) 可从中了解更多信息的页面。
 
@@ -225,7 +230,7 @@ Adobe会对移到的所有资源执行自动验证 [!DNL Dynamic Media]. 由提�
 ## 咨询服务
 
 +++**我可以自行完成升级过程吗？**
-否. 与您的Adobe代表和AGS合作，确定您的升级范围。
+不适用。 与您的Adobe代表和AGS合作，确定您的升级范围。
 
 +++
 

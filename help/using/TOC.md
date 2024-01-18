@@ -6,10 +6,10 @@ user-guide-title: Adobe Dynamic Media Classic指南
 breadcrumb-title: Dynamic Media Classic指南
 user-guide-description: 了解有关使用Adobe Dynamic Media Classic的更多信息
 index: y
-source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
+source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
 workflow-type: tm+mt
-source-wordcount: '800'
-ht-degree: 24%
+source-wordcount: '795'
+ht-degree: 19%
 
 ---
 
@@ -55,12 +55,12 @@ ht-degree: 24%
    + [Media Portal 用户角色](media-portal-user-roles.md)
    + [创建和管理Media Portal组](creating-media-portal-groups.md)
    + [添加和管理Media Portal用户](adding-media-portal-users.md)
-   + [管理 FTP 帐户](ftp-accounts.md)
+   + [管理FTP帐户](ftp-accounts.md)
    + [指定Media Portal用户可用的导出选项](specifying-export-options-available-media.md)
    + [创建和启用图像预设](creating-enabling-image-presets.md)
    + [更有效地使用元数据](making-efficient-metadata.md)
-   + [自定义 Media Portal 屏幕](customizing-media-portal-screen.md)
-+ 上载和发布资源 {#upload-publish}
+   + [自定义Media Portal屏幕](customizing-media-portal-screen.md)
++ 上传和发布资源 {#upload-publish}
    + [关于资产上传和发布](about-asset-upload-publish.md)
    + [上载文件](uploading-files.md)
    + [发布文件](publishing-files.md)
@@ -96,7 +96,7 @@ ht-degree: 24%
    + [使用不同的缩放查看器预览图像资源](previewing-image-assets-different-zoom.md)
    + [发布缩放图像](publishing-zoom-images.md)
    + [将缩放查看器链接到您的网页](linking-zoom-viewers-web-pages.md)
-+ eCatalog {#ecatalogs}
++ eCatalogs {#ecatalogs}
    + [快速入门：eCatalogs](quick-start-ecatalog.md)
    + [上传PDF文件](uploading-pdf-files.md)
    + [创建eCatalog](creating-ecatalog.md)
@@ -154,11 +154,11 @@ ht-degree: 24%
    + [将混合媒体集链接到网页](linking-mixed-media-set-web.md)
 + Adobe Analytics检测工具包 {#analytics-kit}
    + [快速入门：将Adobe Dynamic Media Classic与Adobe Analytics集成](quick-start-integrating-dmc-analytics.md)
-   + [登录到 Adobe Analytics](log-analytics.md)
+   + [登录到Adobe Analytics](log-analytics.md)
    + [配置Adobe Analytics报表](configuring-analytics-reports.md)
    + [使用 Adobe Analytics 仪器包实施查看器](instrumenting-viewer-using-analytics-instrumentation.md)
    + [禁用Adobe Analytics跟踪](disabling-analytics-tracking.md)
-   + [查看 报告以测试 Adobe Analytics 集成](testing-integration-viewing-analytics-report.md)
+   + [通过查看Adobe Analytics报表测试集成](testing-integration-viewing-analytics-report.md)
    + [启用Adobe Analytics视频报表](enabling-analytics-video-reports.md)
    + [发布Adobe Analytics配置信息](publishing-analytics-configuration-information.md)
 + Adobe Target Standard/Premium集成 {#target-classic}

@@ -11,10 +11,10 @@ role: Admin,User
 exl-id: c27df6c2-76f4-441c-bd26-cee98203291e
 topic: Collaboration, Content Management
 level: Intermediate
-source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
+source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
 workflow-type: tm+mt
-source-wordcount: '378'
-ht-degree: 47%
+source-wordcount: '385'
+ht-degree: 37%
 
 ---
 
@@ -29,12 +29,12 @@ ht-degree: 47%
 
 另请参阅 [从Adobe Dynamic Media Classic导出资源](exporting-assets-from-dmc.md#exporting-assets-from_dmc).
 
-**指定 Media Portal 用户可以使用的导出选项:**
+**要指定可供Media Portal用户使用的导出选项，请执行以下操作：**
 
 1. 在全局导航栏上，转到 **[!UICONTROL 设置]** > **[!UICONTROL 图像预设]**.
 1. 在“图像预设”窗口中，选择下列任一选项：
 
-   * **启用用户定义的转换**  — 选中此选项后，用户可以从 **[!UICONTROL 大小]** 导出选定资源窗口中的下拉列表。 然后用户可以选择度量单位（如像素或厘米），并指定所需的宽度和高度。当他们导出或下载这些文件时，图像文件将重新格式化。
+   * **启用用户定义的转换**  — 选中此选项后，用户可以从 **[!UICONTROL 大小]** 导出选定资源窗口中的下拉列表。 然后，用户可以选择一个度量单位，如像素或厘米，然后指定所需的宽度和高度。 当他们导出或下载这些文件时，图像文件将重新格式化。
 
      时间 **[!UICONTROL 像素]** 是从 **[!UICONTROL 大小]** 下拉列表中，生成的图像宽度×高度不能超过1亿像素。 此大小等于方形图像的10,000 × 10,000像素，或长宽比为2x3的图像的大约8,000 × 12,000像素。 如果导出原始主图像，则此大小限制不适用。
 
@@ -45,4 +45,4 @@ ht-degree: 47%
 >[!MORELIKETHIS]
 >
 >* [Image Presets](application-setup.md#image_presets)
->* [为组选择图像预设访问权限](creating-media-portal-groups.md#choosing_image_preset_access_permissions_for_a_group)
+>* [选择群组的图像预设访问权限](creating-media-portal-groups.md#choosing_image_preset_access_permissions_for_a_group)

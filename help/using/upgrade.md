@@ -6,9 +6,9 @@ role: Admin,User
 exl-id: 5e322d81-1303-494b-b5dd-df29b5c5d8e2
 topic: Administration, Migration
 level: Intermediate
-source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
+source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
 workflow-type: tm+mt
-source-wordcount: '560'
+source-wordcount: '572'
 ht-degree: 0%
 
 ---
@@ -56,4 +56,4 @@ ht-degree: 0%
 * 在2016在线视频平台报告中表现突出。
 * Internet Retail 1000的顶级富媒体供应商，连续九年。
 * 24/7/265支持， 99.95%服务级别协议， Adobe Professional Services。
-* 为全球800多家客户提供可靠的基础架构，每月流量3.5 PB，管理资产超过5亿项，流量同比增长60%。
+* 为全球800多个客户提供可靠的基础架构，每月流量3.5 PB，管理资产超过5亿个，流量同比增长60%。

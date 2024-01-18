@@ -12,16 +12,16 @@ role: User
 exl-id: 5e3b0002-5ae2-4437-862f-caa098b04362
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
 workflow-type: tm+mt
-source-wordcount: '432'
-ht-degree: 51%
+source-wordcount: '437'
+ht-degree: 48%
 
 ---
 
 # 从Adobe Dynamic Media Classic导出资源{#exporting-assets-from-dmc}
 
-您可以将在Adobe Dynamic Media Classic中编辑的资产保存到本地网络驱动器。 导出的资源会打包成一个 Zip 文件，供下载或通过电子邮件发送。
+您可以将在Adobe Dynamic Media Classic中编辑的资源保存到本地网络驱动器。 导出的资源会打包成一个 Zip 文件，供下载或通过电子邮件发送。
 
 可用于导出作业的 Zip 压缩文件的最大文件大小为 1 GB。此外，每个导出作业最多允许500个总资产。
 
@@ -32,11 +32,11 @@ Adobe Dynamic Media Classic会在“作业”屏幕中保留导出作业的记�
 1. 选择要导出的资源，然后转到 **[!UICONTROL 文件]** > **[!UICONTROL 导出]**.
 1. 在“导出所选资源”窗口中，单击“**[!UICONTROL 图像选项]**”，然后指定以下任一选项（管理员可确定哪些选项对用户可用）：
 
-   * **[!UICONTROL 预设]**  — （可选）选择图像预设，以便在导出资产时设置资产的格式。 如果选择了图像预设，其他格式选项将不可用，因为资源会采用由图像预设定义的格式。
+   * **[!UICONTROL 预设]**  — （可选）选择一个图像预设，以便在导出资产时设置资产的格式。 如果选择了图像预设，其他格式选项将不可用，因为资源会采用由图像预设定义的格式。
 
    * **[!UICONTROL 转化]**  — 转换资源文件或原始图像。
 
-   * **[!UICONTROL 大小]**  — 您可以选择标准大小。 或者，您可以选择 **[!UICONTROL 其他]** 从 **[!UICONTROL 大小]** 下拉列表，选择所需的度量单位，然后指定宽度和高度。
+   * **[!UICONTROL 大小]**  — 您可以选择标准大小。 或者，您可以选择 **[!UICONTROL 其他]** 从 **[!UICONTROL 大小]** 从下拉列表中，选择所需的度量单位，然后指定宽度和高度。
 
      另请参阅 [指定Media Portal用户可用的导出选项](specifying-export-options-available-media.md#specifying_export_options_available_to_media_portal_users).
 
@@ -58,7 +58,7 @@ Adobe Dynamic Media Classic会在“作业”屏幕中保留导出作业的记�
 * 使用预设转换（使用图像预调为资源设置格式）
 * 无预设转换（使用导出对话框来指定图像修饰符）
 
-无法导出下列资源类型。其他所有组件都会生成一个导出。
+无法导出下列资源类型。其他所有规则均生成导出。
 
 * 图像集
 * 渲染集
@@ -67,14 +67,14 @@ Adobe Dynamic Media Classic会在“作业”屏幕中保留导出作业的记�
 * 多比特率集
 * eCatalog
 
-此外，也无法作为“原始文件”导出模板。
+此外，模板不能导出为“原始文件”。
 
 可以使用转换导出以下资源类型：
 
 * 图像
 * 模板
 * 已调整图像
-* PDF（生成已转换的页面）
+* PDF（生成转换的页面）
 * PostScript®
 
 当大量各种各样的资源类型进入导出程序时，会出现以下行为结果：

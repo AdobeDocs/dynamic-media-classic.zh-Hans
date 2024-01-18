@@ -12,9 +12,9 @@ role: User
 exl-id: 4b3e8368-f8f5-46d9-9130-361a8273de2c
 topic: Content Management
 level: Intermediate
-source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
+source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
 workflow-type: tm+mt
-source-wordcount: '2267'
+source-wordcount: '2198'
 ht-degree: 38%
 
 ---
@@ -45,7 +45,7 @@ Adobe Dynamic Media Classic还建议向查看器预设添加锐化，然后使�
 
 另请参阅 [锐化](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/547_sharpening1_converted%20renamed_Done-AVS) 训练视频。
 
-**锐化图像:**
+**要锐化图像，请执行以下操作：**
 
 若要锐化图像，请选择其变换图像 **[!UICONTROL 编辑]** 按钮并选择 **[!UICONTROL 锐化]**，或者在“浏览”面板的“详细信息”视图中打开它，然后选择 **[!UICONTROL 锐化]**. “锐化编辑器”页面打开，其中包含锐化命令。 选择命令，然后选择 **[!UICONTROL 保存]**.
 
@@ -59,17 +59,17 @@ Adobe Dynamic Media Classic还建议向查看器预设添加锐化，然后使�
 
 | 名称 | URL 协议 | 值 | 示例 |
 | --- | --- | --- | --- |
-| 简单锐化 | `op_sharpen` | `0` 或者 `1` | `op_sharpen=1` |
-| 重新采样模式 | `resMode` | `bilin`， `bicub`， `sharp2`， `trilin`<br><br>`bilin`：选择标准的双线性插值。 最快速的重新取样方法；通常会出现一些锯齿伪像。<br>`bicub`：选择双三次插值。 对 CPU 比 `bilin` 更敏感，但会产生更清晰且锯齿伪影不太明显的图像。<br><br>`sharp2`：选择修改的Lanczos Windows®函数作为插值算法。 可以生成比双立方稍微锐利的结果，但CPU成本较高。<br><br>`trilin`：选择改进的三线式插值法，它同时使用更高和更低的分辨率（如果可用）。建议仅当存在锯齿问题时使用。由于减少高频数据而缩小 JPEG 大小。 | `resMode=sharp2` |
+| 简单锐化 | `op_sharpen` | `0` 或 `1` | `op_sharpen=1` |
+| 重新采样模式 | `resMode` | `bilin`， `bicub`， `sharp2`， `trilin`<br><br>`bilin`：选择标准的双线性插值。 最快速的重新取样方法；通常会出现一些锯齿伪像。<br>`bicub`：选择双三次插值。 CPU占用量大于 `bilin`，但生成更锐利的图像，出现的锯齿伪像更不明显。<br><br>`sharp2`：选择修改的Lanczos Windows®函数作为插值算法。 可以生成比双立方稍微锐利的结果，但CPU成本较高。<br><br>`trilin`：选择修改后的三线性插值，该插值会同时使用较高分辨率和较低分辨率（如果可用）。 建议仅当存在锯齿问题时使用。由于减少高频数据而缩小 JPEG 大小。 | `resMode=sharp2` |
 | USM 锐化 | `op_usm` | `amount`， `radius`， `threshold`， `monochrome`<br><br>`amount`：过滤器强度系数（实际0...5）<br><br>`radius`：滤镜内核半径，以像素为单位（实数0...250） <br><br>`threshold`：滤镜阈值级别(int 0...255)<br><br>`monochrome`：设置为 `0` 要单独对每个颜色组件进行钝化蒙版，请将设置为 `1` 用于钝化蒙版图像亮度（强度） | `op_usm=1,1,10,0` |
 
 选择 **[!UICONTROL 锐化]** 并选择一个选项：
 
 * **无**  — 禁用锐化。
 
-* **锐化**  — 在调整文件大小后，对文件运行一个简单的锐化传递。 它类似于Adobe Photoshop中的“锐化”过滤器，并支持任何用户参数。 通常，您将使用此过滤器或 **[!UICONTROL 钝化蒙版]**，但不能同时使用两者。 最佳做法不建议使用此方法，但是它有助于补偿模糊。(URL: `op_sharpen`)
+* **锐化**  — 在调整文件大小后，对文件运行一个简单的锐化传递。 它类似于Adobe Photoshop中的“锐化”过滤器，并支持任何用户参数。 通常，您将使用此过滤器或 **[!UICONTROL 钝化蒙版]**，但不能同时使用两者。 最佳做法不建议使用此方法，但是它有助于补偿模糊。(URL： `op_sharpen`)
 
-* **钝化蒙版**  — 可让您对最终取样缩小的图像微调锐化滤镜效果。 您可以控制效果的强度、效果的半径（以像素为单位）以及被忽略的对比度阈值。 此效果使用与Photoshop的“钝化蒙版”滤镜相同的选项。 (URL: `op_usm`)
+* **钝化蒙版**  — 可让您对最终取样缩小的图像微调锐化滤镜效果。 您可以控制效果的强度、效果的半径（以像素为单位）以及被忽略的对比度阈值。 此效果使用与Photoshop的“钝化蒙版”滤镜相同的选项。 (URL： `op_usm`)
 
 选择以下选项，以便使用“钝化蒙版”微调锐化：
 
@@ -114,13 +114,13 @@ Adobe Dynamic Media Classic还建议向查看器预设添加锐化，然后使�
 
 如果您为一个大小类别中的每个图像使用一个预设，则任何公司管理员都可以更新该图像预设的定义、重新发布，并影响使用该格式的每个图像，而无需更改任何 Web 代码。作为最佳做法，请在您的网站针对每个特定大小使用一个图像预设。要添加图像预设，请在全局导航栏上，转到 **[!UICONTROL 设置]** > **[!UICONTROL 应用程序设置]** > **[!UICONTROL 图像预设]**. 然后选择 **[!UICONTROL 添加]** 或选择 **[!UICONTROL 编辑]** 以更改现有预设。 唯一的必填字段是预设自身的名称。但是，最好在每个预设中包含一定程度的锐化。
 
-**JPG 品质**
+**JPG质量**
 
 JPG 品质选项控制 JPG 压缩等级：
 
 * **JPG质量**  — 如果要控制压缩级别和色度缩减采样，请选择此选项。
 
-* **滑块**  — 确定JPG压缩级别。 此设置既影响文件大小，又影响图像质量。JPG质量等级为1-100。
+* **滑块**  — 确定JPG压缩级别。 此设置既影响文件大小，又影响图像质量。JPG 质量范围为 1 到 100。
 
 * **启用JPG色度缩减像素采样**  — 由于眼睛对高频颜色信息的敏感度低于高频亮度，因此JPEG图像将图像信息划分为亮度和颜色分量。 压缩 JPEG 图像时，通过将各组像素放到一起平均，亮度分量为全分辨率，颜色分量为缩减像素取样。缩减取样会将数据量减少一半或三分之一，几乎不影响感知质量。 缩减像素采样不适用于灰度图像。这种方法会减少对于高对比度图像有用的压缩的数量（例如，包含覆盖文本的图像）。
 
@@ -128,7 +128,7 @@ JPG 品质选项控制 JPG 压缩等级：
 
 如果您不使用图像预设，或未通过 URL 字符串传送特定的图像服务器锐化协议，在缩减像素采样时，不会对您的图像进行锐化。但是，如果缺少锐化，您可以设置默认的锐化值，然后任何图像都会进行一定程度的锐化。
 
-要设置公司的默认锐化选项，请转到 **[!UICONTROL 设置]** > **[!UICONTROL 应用程序设置]** > **[!UICONTROL 发布设置]** > **[!UICONTROL 图像服务器]**. 如果将默认重新取样模式设置为 **[!UICONTROL `Sharp2`]**&#x200B;时，它始终会锐化缩减像素取样时的图像。
+要设置公司的默认锐化选项，请转到 **[!UICONTROL 设置]** > **[!UICONTROL 应用程序设置]** > **[!UICONTROL 发布设置]** > **[!UICONTROL 图像服务器]**. 如果将默认重新取样模式设置为 **`Sharp2`**&#x200B;时，它始终会锐化缩减像素取样时的图像。
 
 **向查看器预设添加锐化**
 

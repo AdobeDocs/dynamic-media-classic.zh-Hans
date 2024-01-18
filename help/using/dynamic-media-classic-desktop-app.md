@@ -10,10 +10,10 @@ role: Admin,User
 exl-id: 604b4630-4704-4254-84b5-91b33bb19d58
 topic: Administration
 level: Intermediate
-source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
+source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
 workflow-type: tm+mt
-source-wordcount: '2035'
-ht-degree: 1%
+source-wordcount: '1981'
+ht-degree: 0%
 
 ---
 
@@ -67,9 +67,9 @@ Adobe Dynamic Media Classic桌面应用程序中的升级通知不会为生成 *
 ## 20.21.2版中的修复 {#minor-release}
 
 * 20.21.1中的已知限制： **[!UICONTROL 服务器]** 登录屏幕上的下拉列表为空。
-* 在 **[!UICONTROL 上载作业选项]**，下的图层命名默认值 **[!UICONTROL Photoshop选项]**，现在为 **[!UICONTROL Photoshop和图层名称]**. PSD 文件中的图层以单独图像形式上载。
+* 在 **[!UICONTROL 上载作业选项]**，下的图层命名默认值 **[!UICONTROL Photoshop选项]**，现在为 **[!UICONTROL Photoshop和图层名称]**. PSD文件中的图层将作为单独的图像上传。
    * 较早的默认值 **[!UICONTROL 图层名称]**，以图像在PSD文件中的图层名称或图层编号命名图像。 如果PSD文件中的图层名称是默认的Photoshop图层名称，则使用图层编号。
-   * 的新默认值 **[!UICONTROL Photoshop和图层名称]**，在PSD文件后面加上图层名称或图层编号来命名图像。 如果 PSD 文件中的图层名称是默认的 Photoshop 图层名称，则将使用图层编号。
+   * 的新默认值 **[!UICONTROL Photoshop和图层名称]**，在PSD文件后面加上图层名称或图层编号来命名图像。 如果PSD文件中的图层名称是默认的Photoshop图层名称，则使用图层编号。
    * 考虑到Adobe Dynamic Media Classic中的图层图像现在具有唯一名称，因此不会对现有PSD或模板进行更新(哪些模板与原始PSD文件中的图层名称共享)。
 * 资产的缩略图损坏。
 
@@ -88,7 +88,7 @@ Adobe Dynamic Media Classic桌面应用程序中的升级通知不会为生成 *
 
 ## 在macOS或Windows上下载并安装最新的Adobe Dynamic Media Classic桌面应用程序® {#installation-dmc-app}
 
-另请参阅:
+另请参阅：
 
 * [在Mac上下载并静默安装最新的Adobe Dynamic Media Classic桌面应用程序](#install-silent-mac-dmc-app)
 * [在Windows上下载并静默安装最新的Adobe Dynamic Media Classic桌面应用程序](#install-silent-windows-dmc-app)
@@ -147,7 +147,7 @@ Adobe Dynamic Media Classic桌面应用程序中的升级通知不会为生成 *
 
 ## 下载和 *静音* 在macOS上安装最新的Adobe Dynamic Media Classic桌面应用程序 {#install-silent-mac-dmc-app}
 
-另请参阅:
+另请参阅：
 
 * [在Mac或Windows上下载并安装最新的Adobe Dynamic Media Classic桌面应用程序](#installation-dmc-app)
 * [在Windows上下载并静默安装最新的Adobe Dynamic Media Classic桌面应用程序](#install-silent-windows-dmc-app)
@@ -189,7 +189,7 @@ Adobe Dynamic Media Classic桌面应用程序中的升级通知不会为生成 *
 
 您使用的命令用于基本的MSI静默安装。 但是，Adobe Dynamic Media Classic桌面应用程序安装程序是使用InstallShield创建的InstallScript MSI安装程序。 在记录模式下运行安装程序时，任何用户交互都会记录在响应文件中。 然后将此响应文件用于静默安装，如中所述 [在静默模式下运行安装](https://docs.revenera.com/installshield25helplib/installshield25helplib.htm#helplibrary/SilentInstall.htm).
 
-另请参阅:
+另请参阅：
 
 * [在Mac或Windows上下载并安装最新的Adobe Dynamic Media Classic桌面应用程序](#installation-dmc-app)
 
@@ -250,7 +250,7 @@ Adobe Dynamic Media Classic桌面应用程序中的升级通知不会为生成 *
 1. 根据您的操作系统，导航至以下内容：
 
    * macOS： `~/Library/Application\ Support/com.adobe.DMCDesktop/Local\ Store/`
-   * Windows®: `C:\Users\YourUserName\AppData\Roaming\com.adobe.DMCDesktop\Local Store`
+   * Windows®： `C:\Users\YourUserName\AppData\Roaming\com.adobe.DMCDesktop\Local Store`
 
 ## Adobe Dynamic Media Classic 20.21.1中的已知限制
 

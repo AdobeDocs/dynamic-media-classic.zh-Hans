@@ -12,10 +12,10 @@ role: User
 exl-id: e3b8c4b9-e9c4-4d7f-84de-2efb456755a1
 topic: Integrations, Development
 level: Experienced
-source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
+source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
 workflow-type: tm+mt
-source-wordcount: '1005'
-ht-degree: 25%
+source-wordcount: '1015'
+ht-degree: 23%
 
 ---
 
@@ -45,15 +45,15 @@ PSD(Photoshop文档文件)在Adobe Dynamic Media Classic中最常用于创建模
 
 * **颜色配置文件选项**  — 位于 **[!UICONTROL 颜色配置文件选项]**.
 
-   * **[!UICONTROL 默认护色]**
+   * **[!UICONTROL 默认保色]**
 
    * **[!UICONTROL 保留原始颜色空间]**  — 保留图像的原始颜色空间。
 
    * **[!UICONTROL 自定义自]** > **[!UICONTROL 至]**  — 打开菜单，以便选择“转换自”和“转换至”色彩空间。 您可以选择标准的Photoshop色彩空间，也可以选择上传到Adobe Dynamic Media Classic的色彩空间。 请参阅[ICC 配置文件](/help/using/icc-profiles.md)。
 
-* **Photoshop 选项**
+* **Photoshop选项**
 
-   * **[!UICONTROL 保留图层]**  — 将PSD中的图层（如果有）拆分为单独的资源。 资源图层仍然与 PSD 关联。可通过在“详细PSD”中打开视图文件并选取图层面板来查看它们。 请参阅查看和编辑 PSD 文件中的图层。
+   * **[!UICONTROL 保留图层]**  — 将PSD中的图层（如果有）拆分为单独的资源。 资源图层仍然与 PSD 关联。可通过在“详细PSD”中打开视图文件并选取图层面板来查看它们。 请参阅在PSD文件中查看和编辑图层。
 
    * **[!UICONTROL 创建模板]**  — 从PSD文件中的图层创建模板。
 

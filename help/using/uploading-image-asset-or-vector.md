@@ -9,10 +9,10 @@ role: User
 exl-id: 2ef78fe6-1e7c-4f48-86da-137ddaa55bbf
 topic: Content Management
 level: Intermediate
-source-git-commit: faa1784e1d19b1167cad5749dc04227e3ff388e5
+source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
 workflow-type: tm+mt
-source-wordcount: '1021'
-ht-degree: 65%
+source-wordcount: '1008'
+ht-degree: 57%
 
 ---
 
@@ -46,7 +46,7 @@ ht-degree: 65%
 <!-- * Vector
   `https://s7ugc1.scene7.com/ugc/vector?op=get_uploadtoken&shared_secret=2d19f60e-890a-4e79-a1a5-9ac2875429b9`In this example, the shared-secret key is `2d19f60e-890a-4e79-a1a5-9ac2875429b9` -->
 
-默认情况下，上载令牌在您检索到它之后 5 分钟（300 秒）便到期。要请求更多时间，请在 URL 中添加 `expires` 和要需要的时间量（以秒为单位）。例如，以下示例图像 URL 检索有效期为 1800 秒的上载令牌：
+默认情况下，上载令牌在您检索到它之后 5 分钟（300 秒）便到期。要请求更多时间，请包括 `expires` 以及URL中所需的时间（以秒为单位）。 例如，以下示例图像 URL 检索有效期为 1800 秒的上载令牌：
 
 ```as3
 https://s7ugc1.scene7.com/ugc/image?op=get_uploadtoken&shared_secret=fece4b21-87ee-47fc-9b99-2e29b78b602&expires=1800
@@ -79,9 +79,9 @@ https://s7ugc1.scene7.com/ugc/image?op=get_uploadtoken&shared_secret=fece4b21-87
 
 | URL 参数 | 必需或可选 | 值 |
 | --- | --- | --- |
-| op | 必需 | get_uploadtoken |
-| shared_secret | 必需 | 正在进行上载的公司的共享密钥。 |
-| expires | 可选 | 上载令牌有效的秒数。如果不指定，则默认为 300 秒。 |
+| 操作 | 必需 | get_uploadtoken |
+| 共享密钥 | 必需 | 正在进行上载的公司的共享密钥。 |
+| 过期 | 可选 | 上载令牌有效的秒数。如果不指定，则默认为 300 秒。 |
 
 **栅格图像URL示例：**
 
@@ -118,25 +118,25 @@ https://s7ugc1.scene7.com/ugc/image?op=upload&upload_token=aa2a378a-cd25-4c80-99
 https://s7ugc1.scene7.com/ugc/image?op=upload&upload_token=aa2a378a-cd25-4c80-994d-312094e0ef20_18000&company_name=000Company&file_limit=2000000&file_exts=jpg,gif
 ```
 
-此 `file_limit` parameter指定文件大小限制（以字节为单位）。 `file_exts` 参数指定允许上载的文件扩展名。这两个值都是可选的。
+此 `file_limit` parameter指定文件大小限制（以字节为单位）。 此 `file_exts` 参数指定允许上载的文件扩展名。 这两个值都是可选的。
 
 对于允许的文件大小限制和文件扩展名，在应用程序中设置全局限制。如果请求中所发送的内容是全局限制的子集，则允许这一发送。全局限制如下所示：
 
 | 全局限制 | 值 |
 | --- | --- |
 | 所有客户端的文件大小 | 20 MB |
-| 用于上载的支持的图像文件格式 | BMP、GIF、JPG、PNG、PSD，TIFF |
+| 用于上载的支持的图像文件格式 | BMP，GIF，JPG， PNG，PSD，TIFF |
 
 用户可通过下面的 HTML 表单上载资源。表单要求用户输入以下信息：
 
-* 公司名。
-* 上载令牌.
-* 文件大小限制.
-* 文件扩展名的列表.
+* 公司名称。
+* 上载令牌。
+* 文件大小限制。
+* 文件扩展名的列表。
 * 是否保留与资源关联的颜色配置文件和文件名。
 * 是否使用挖空背景。 如果启用“挖空背景”，请设置“拐角”、“公差”和“填充方法”。
 请参阅中的挖空背景 [上传时图像微调选项](image-editing-options-upload.md#image-editing-options-at-upload).
-* 待上载文件的名称.
+* 要上传的文件的名称。
 
 您可以通过选择查看与上述表单关联的HTML源代码 [https://s7ugc1.scene7.com/ugc/upload.html](https://s7ugc1.scene7.com/ugc/upload.html)
 
@@ -170,7 +170,7 @@ https://s7ugc1.scene7.com/ugc/image?op=upload&upload_token=aa2a378a-cd25-4c80-99
 >
 >上载的资源（JPG、GIF 等）转换为 PTIFF 格式，响应向该 PTIFF 资源发送直接链接。
 
-该资源类似于任何其他的图像服务资源；您可以对其应用处理查询。例如，以下 URL 请求拉伸到指定宽度和高度的资源。
+该资源类似于任何其他的图像服务资源；您可以对其应用处理查询。例如，以下URL请求已拉伸到指定宽度和高度的资产。
 
 ```as3
 https://s7w2p1.scene7.com/is/image/S7WebUGC/ugc/9536356.tif?&wid=800&hei=100&fit=stretch
@@ -202,7 +202,7 @@ POST
 
 ### 获取图像的资源元数据 {#getting-asset-metadata-for-images}
 
-您可以使用 `image_info` 检索所上载资源的元数据，如以下示例中所示：
+您可以使用 `image_info` 以检索您上传的资源的元数据，如以下示例所示：
 
 ```as3
 https://s7ugc1.scene7.com/ugc/image?op=image_info&shared_secret=fece4b21-87ee-47fc-9b99-2e29b78b602&image_name=1442564.tif

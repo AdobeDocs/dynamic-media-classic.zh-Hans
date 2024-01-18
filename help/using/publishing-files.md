@@ -10,10 +10,10 @@ role: User
 exl-id: 91b73a09-c5b5-4001-b36f-6bebe65717ff
 topic: Content Management
 level: Intermediate
-source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
+source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
 workflow-type: tm+mt
-source-wordcount: '1732'
-ht-degree: 37%
+source-wordcount: '1726'
+ht-degree: 36%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 37%
 
 您可以将资源发布到Dynamic Media图像服务器。 您可以一次性发布资源，也可以安排Adobe Dynamic Media Classic按定期计划发布资源。 发布资源后，这些资源即可用来传送。您可以从Adobe Dynamic Media Classic复制URL调用，并将其添加到您的网站或应用程序。
 
-Adobe Dynamic Media Classic现在支持通过HTTP/2来交付所有图像和视频。 即，图像或视频的已发布URL或嵌入代码可用于与接受托管资产的任何应用程序集成。 随后，该已发布的资产将通过HTTP/2协议进行交付。 这种交付方法改进了浏览器和服务器的通信方式，使得所有Adobe Dynamic Media Classic资源都有更好的响应和加载时间。 请参阅 [http2内容交付常见问题解答](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/http2.html#dynamic).
+Adobe Dynamic Media Classic现在支持通过HTTP/2来交付所有图像和视频。 即，图像或视频的已发布URL或嵌入代码可用于与接受托管资产的任何应用程序集成。 随后，该已发布的资产将通过HTTP/2协议进行交付。 这种交付方法改进了浏览器和服务器的通信方式，使得所有Adobe Dynamic Media Classic资源都有更好的响应和加载时间。 请参阅 [http2内容交付常见问题解答](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/http2.html).
 
 ## 在上载之后发布 {#publish-after-uploading}
 
@@ -50,7 +50,7 @@ Adobe Dynamic Media Classic现在支持通过HTTP/2来交付所有图像和视�
 
 创建发布作业以发布已上传到Adobe Dynamic Media Classic服务器但尚未自动发布的资源。 您可以执行一次性发布作业或安排定期重复执行作业。 Adobe Dynamic Media Classic提供了用于发布到特定服务器的高级发布选项和用于重新发布已发布资产的选项。
 
-**创建发布作业:**
+**要创建发布作业，请执行以下操作：**
 
 1. 在全局导航栏上，选择 **[!UICONTROL Publish]**.
 1. 在“发布”对话框中，选择是要使用一次性还是重复发布作业。
@@ -118,7 +118,7 @@ Adobe Dynamic Media Classic跟踪“作业”页面上的发布作业。 您可�
 
 在用户界面中，未发布的资产名称左边会显示一个带有斜杠（未发布状态）的灰色圆形图标。 在发布资源后，该图标将变为绿色，并且中心带有白色复选标记（已发布状态）。
 
-**手动发布资源:**
+**要手动发布资源，请执行以下操作：**
 
 1. 执行以下操作之一：
 
@@ -134,7 +134,7 @@ Adobe Dynamic Media Classic跟踪“作业”页面上的发布作业。 您可�
 
 已发布的资产在用户界面中由资产名称左侧的中心（已发布状态）带有白色复选标记的绿色圆形图标表示。 取消发布资产后，图标将变为灰色，并在其中插入一个斜杠（未发布状态）。
 
-**手动取消发布资源:**
+**要手动取消发布资源，请执行以下操作：**
 
 1. 执行以下任一操作：
 

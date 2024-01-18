@@ -10,27 +10,27 @@ role: User
 exl-id: 3c50e706-b9ed-49db-8c08-f179de52b9cf
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
 workflow-type: tm+mt
-source-wordcount: '1569'
-ht-degree: 50%
+source-wordcount: '1601'
+ht-degree: 45%
 
 ---
 
 # 优化图像质量的最佳做法{#best-practices-for-optimizing-the-quality-of-your-images}
 
-优化图像质量可能是一个需要很长时间的过程，因为很多因素都会影响提供可接受的结果。结果在一定程度上是主观性的，因为个人评价图像质量的标准不尽相同。因此，进行结构化的试验是至关重要的。
+优化图像质量需要花费大量时间。 许多因素有助于得到可接受的结果。 结果在一定程度上是主观性的，因为个人评价图像质量的标准不尽相同。因此，进行结构化的试验是至关重要的。
 
-Adobe Dynamic Media Classic包括用于调整和优化图像和渲染结果的100多个图像服务命令。 以下准则可以帮助您简化流程，并使用一些基本命令和最佳做法快速获得较好的效果。
+Adobe Dynamic Media Classic包括100多个图像服务命令，用于调整和优化图像和渲染结果。 以下准则可以帮助您简化流程，并使用一些基本命令和最佳做法快速获得较好的效果。
 
-另请参阅 [智能成像](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/imaging-faq.html#dynamic).
+另请参阅 [智能成像](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/imaging-faq.html).
 
 >[!TIP]
 >
->尝试使用Dynamic Media并探索Dynamic Media图像修饰符和智能成像的好处 [_快照_](https://snapshot.scene7.com/).
+>尝试使用Dynamic Media并探索Dynamic Media图像修饰符和智能成像的优势 [_快照_](https://snapshot.scene7.com/).
 >
-> Snapshot是一种可视化演示工具，旨在说明Dynamic Media在优化和动态图像投放方面的强大功能。 试验测试图像或Dynamic Media URL，以可视化方式观察各种Dynamic Media图像修饰符的输出，并对以下内容进行智能图像优化：
->* 文件大小（通过WebP和AVIF投放）
+> Snapshot是一种可视化演示工具，旨在说明Dynamic Media在优化和动态图像投放方面的强大功能。 试验测试图像或Dynamic Media URL，以可视化方式观察各种Dynamic Media图像修饰符的输出，并优化以下各项的智能成像：
+>* 文件大小（使用WebP和AVIF交付）
 >* 网络带宽
 >* DPR（设备像素比率）
 >
@@ -40,8 +40,8 @@ Adobe Dynamic Media Classic包括用于调整和优化图像和渲染结果的10
 ## 图像格式的最佳做法 (&amp;fmt=) {#best-practices-for-image-format-fmt}
 
 * 在提供具有较好质量和可控制大小和粗细的图像方面，JPG 或 PNG 是最佳选择。
-* 如果未在URL中提供任何格式命令，则Dynamic Media图像服务默认为JPG进行交付。
-* JPG 压缩比率为 10:1，通常生成较小的图像文件。PNG压缩比约为2:1，除非图像包含空背景。 通常，PNG 文件比 JPG 文件大。
+* 如果未在URL中提供format命令，则Dynamic Media图像服务默认为JPG进行交付。
+* JPG 压缩比率为 10:1，通常生成较小的图像文件。PNG压缩的比例约为2:1，除非图像包含空背景。 通常，PNG 文件比 JPG 文件大。
 * JPG 使用有损压缩，这意味着在压缩过程中删除了一些图像元素（像素）；而 PNG 使用无损压缩。
 * 通常，JPG 压缩摄影图像的保真度比具有清晰边缘和对比度的合成图像好。
 * 如果图像包含透明度，请使用 PNG，因为 JPG 不支持透明度。
@@ -50,42 +50,42 @@ Adobe Dynamic Media Classic包括用于调整和优化图像和渲染结果的10
 
 ## 图像大小的最佳做法 {#best-practices-for-image-size}
 
-动态减小图像大小是Dynamic Media Image Serving执行的最常见任务之一。 这包括指定大小，以及指定用于减小图像的缩减像素采样模式（可选）。
+动态减小图像大小是Dynamic Media Image Serving最常执行的任务之一。 这包括指定大小，以及指定用于减小图像的缩减像素采样模式（可选）。
 
 * 对于图像大小调整，最好且最直接的方法是使用 `&wid=<value>` 和 `&hei=<value>` 或只是 `&hei=<value>`. 这些参数自动根据高宽比设置图像宽度。
-* `&resMode=<value>` 控制用于缩减像素采样的算法。 开始于 `&resMode=sharp2`. 该值提供了最佳的图像质量。使用缩减像素取样值时 `=bilin` 速度较快，通常会导致伪像的锯齿。
+* `&resMode=<value>` 控制用于缩减像素采样的算法。 开始于 `&resMode=sharp2`. 该值提供了最佳的图像质量。使用缩减像素取样值时 `=bilin` 速度越快，往往会导致伪像的锯齿。
 
 作为调整图像大小的最佳实践，请使用 `&wid=<value>&hei=<value>&resMode=sharp2` 或 `&hei=<value>&resMode=sharp2`
 
 ## 图像锐化的最佳做法 {#best-practices-for-image-sharpening}
 
-图像锐化是在您的网站上控制图像的最复杂任务，可能会出现很多错误。请查阅以下有用资源，以详细了解锐化和USM在Adobe Dynamic Media Classic中的工作方式：
+图像锐化是在您的网站上控制图像的最复杂任务，可能会出现很多错误。请查看以下有用资源，详细了解Adobe Dynamic Media Classic中锐化和USM的工作原理：
 
-最佳实践白皮书 [在Adobe Dynamic Media Classic和Image Server上锐化图像](/help/using/assets/s7_sharpening_images.pdf).
+最佳实践白皮书 [在Adobe Dynamic Media Classic和图像服务器上锐化图像](/help/using/assets/s7_sharpening_images.pdf).
 
 <!-- Give a 404 See also [Sharpening an image with unsharp mask](https://helpx.adobe.com/photoshop/atv/cs6-tutorials/sharpening-an-image-with-unsharp-mask.html). -->
 
-借助Adobe Dynamic Media Classic，您可以在摄取和/或投放时锐化图像。 但是，通常只使用一种方法或另一种方法来锐化图像，但不能同时使用这两种方法来锐化。 传送时在 URL 上锐化图像通常可以获得最佳的效果。
+借助Adobe Dynamic Media Classic，您可以在摄取和/或交付时锐化图像。 但是，通常您只使用一种方法或另一种方法来锐化图像，但不能同时使用这两种方法来锐化。 传送时在 URL 上锐化图像通常可以获得最佳的效果。
 
-可以使用以下两种图像锐化方法：
+可以使用两种图像锐化方法：
 
-* 简单锐化( `&op_sharpen`) — 与Photoshop中使用的锐化滤镜类似，简单锐化会在动态调整大小后对图像的最终视图应用基本锐化。 不过，用户无法配置这种方法。最佳做法是不使用 `&op_sharpen` 除非需要。
-* USM锐化( `&op_USM`) — 钝化蒙版是用于锐化的行业标准滤镜。 最佳做法是按照以下准则使用 USM 锐化功能锐化图像。可以通过 USM 锐化控制以下三个参数：
+* 简单锐化( `&op_sharpen`) — 与Photoshop中使用的锐化滤镜类似，简单锐化会在动态调整大小后对图像的最终视图应用基本锐化。 不过，用户无法配置这种方法。最佳做法是不使用 `&op_sharpen` 除非有必要。
+* USM锐化( `&op_USM`) - USM锐化是一种用于锐化的行业标准滤镜。 最佳做法是按照以下准则使用 USM 锐化功能锐化图像。可以通过 USM 锐化控制以下三个参数：
 
    * `&op_sharpen=amount,radius,threshold`
 
-      * `amount`（0-5，效果的强度。）
-      * `radius`（0-250，在锐化的对象周围绘制的“锐化线条”的宽度，以像素为单位。）
+      * `amount` （0-5，效果强度。）
+      * `radius` （0-250，围绕锐化对象绘制的“锐化线”的宽度，以像素为单位。）
 
-        请记住，`radius` 和 `amount` 参数的作用是相反的。减少 `radius` 可以通过增加来补偿 `amount`. `Radius` 可以进行更精确的控制，因为较低的值仅锐化边缘像素，而较高的值锐化范围更宽的像素。
+        请记住，这些参数 `radius` 和 `amount` 相互攻击。 减少 `radius` 可以通过增加 `amount`. `Radius` 允许更细的控制，因为较低的值仅锐化边缘像素，而较高的值会锐化较宽的像素范围。
 
-      * `threshold` （0-255，效应敏感度。）
+      * `threshold` （0-255，影响的敏感性。）
 
         此参数确定锐化的像素与周围区域相差多少，滤镜才会将它们视为边缘像素并进行锐化。阈值有助于避免出现具有类似颜色的过度锐化区域，如肤色。例如，阈值 12 忽略肤色亮度的细微变化以避免产生杂色，但仍会在对比强烈的区域中添加边缘对比度，例如，睫毛与皮肤交接的位置。
 
-        有关如何设置这三个参数的更多信息，包括用于筛选器的最佳实践，请参阅 [在Adobe Dynamic Media Classic和Image Server上锐化图像](/help/using/assets/s7_sharpening_images.pdf).
+        有关如何设置这三个参数的更多信息，包括用于筛选器的最佳实践，请参阅 [在Adobe Dynamic Media Classic和图像服务器上锐化图像](/help/using/assets/s7_sharpening_images.pdf).
 
-      * Adobe Dynamic Media Classic还允许您控制第四个参数：单色( `0,1`)。 此参数确定是使用值 `0` 将 USM 锐化分别应用于每个颜色分量，还是使用值 `1` 将 USM 锐化应用于图像亮度/强度。
+      * Adobe Dynamic Media Classic还允许您控制第四个参数：单色( `0,1`)。 此参数确定是否使用值将钝化蒙版分别应用于每个颜色组件 `0` 或使用值调整到图像亮度/强度 `1`.
 
 作为最佳做法，请从 USM 锐化 radius 参数入手。可以最初使用以下 radius 设置：
 
@@ -101,24 +101,24 @@ Adobe Dynamic Media Classic包括用于调整和优化图像和渲染结果的10
 ## JPEG 压缩的最佳做法 (&amp;qlt=) {#best-practices-for-jpeg-compression-qlt}
 
 * 此参数控制 JPG 编码质量。较高的值表示图像质量较高，但文件较大；而较低的值表示图像质量较低，但文件较小。此参数的范围是 0-100。
-* 要优化质量，不要将参数值设置为 100。几乎感觉不到设置 90 或 95 与 100 之间的差异，但 100 会不必要地增加图像文件的大小。因此，要优化质量但避免图像文件过大，请设置 `qlt=` 值为90或95。
-* 要针对较小的图像文件大小进行优化，但使图像质量保持在可接受的级别，请设置 `qlt=` 值为80。 低于 70 到 75 的值将导致图像质量大大下降。
-* 作为最佳实践，要保持中立，请将 `qlt=` 数值为85时保持中间。
-* 在 `qlt=` = 中使用色度标记
+* 要优化质量，不要将参数值设置为 100。几乎感觉不到设置 90 或 95 与 100 之间的差异，但 100 会不必要地增加图像文件的大小。因此，要优化质量但避免图像文件变得过大，请设置 `qlt=` 值为90或95。
+* 要优化较小的图像文件大小，但使图像质量保持在可接受的级别，请设置 `qlt=` 值为80。 低于 70 到 75 的值将导致图像质量大大下降。
+* 作为最佳实践，要保持中立，请将 `qlt=` 值达到85时保持中间。
+* 在中使用色度标志 `qlt=`
 
    * 此 `qlt=` 参数具有第二个设置，允许您使用正常值打开RGB色度缩减像素采样 `,0` （默认），或使用值将其关闭 `,1`.
-   * 要保持简单，请从RGB色度缩减取样关闭( `,1`)。 此设置通常会获得较好的图像质量，尤其是具有很多清晰边缘和对比度的合成图像。
+   * 为了保持简单，请从RGB色度缩减像素取样关闭开始( `,1`)。 此设置通常会获得较好的图像质量，尤其是具有很多清晰边缘和对比度的合成图像。
 
-作为JPG压缩的最佳实践，请使用 `&qlt=85,0`.
+作为使用JPG压缩的最佳实践 `&qlt=85,0`.
 
 ## JPEG 大小调整的最佳做法 (&amp;jpegSize=) {#best-practices-for-jpeg-sizing-jpegsize}
 
-参数 `jpegSize` 如果要确保图像不超过特定大小以传送到内存有限的设备，则非常有用。
+参数 `jpegSize` 如果要确保图像不超过特定大小，以便交付给内存有限的设备，则非常有用。
 
-* 此参数以千字节为单位( `jpegSize=<size_in_kilobytes>`)。 它定义了图像传送允许的最大大小。
+* 此参数设置为KB ( `jpegSize=<size_in_kilobytes>`)。 它定义了图像传送允许的最大大小。
 * `&jpegSize=` 与JPG压缩参数交互 `&qlt=`. 如果JPG响应具有指定的JPG压缩参数( `&qlt=`)不超过 `jpegSize` 值，则图像返回为 `&qlt=` （按定义）。 否则， `&qlt=` 会逐渐减小，直到图像符合允许的最大尺寸，或者直到系统确定它不能符合并返回错误。
 
-作为最佳实践，设置 `&jpegSize=` 并添加参数 `&qlt=` 如果您要将JPG映像传送到内存有限的设备。
+作为最佳实践，请设置 `&jpegSize=` 并添加参数 `&qlt=` 如果您要将JPG映像传送到内存有限的设备。
 
 ## 最佳做法摘要 {#best-practices-summary}
 
@@ -134,6 +134,6 @@ Adobe Dynamic Media Classic包括用于调整和优化图像和渲染结果的10
 
 在实验过程中，以下一般建议有助于优化您的工作流：
 
-* 直接在URL上或使用Adobe Dynamic Media Classic的图像调整功能，实时试用和测试各种参数。 后者为调整操作提供实时预览。
-* 作为最佳实践，请记住，您可以将Dynamic Media图像服务命令分组到图像预设中。 图像预设基本上是带有自定义预设名称的URL命令宏，例如 `$thumb_low$` 和 `&product_high$`. URL路径中的自定义预设名称会调用这些预设。 此功能帮助您针对网站上的图像的不同使用方式管理命令和质量设置，并缩短 URL 的总体长度。
-* Adobe Dynamic Media Classic还提供了更高级的方法来调整图像质量，例如在摄取时应用图像锐化。 对于需要进一步调整和优化渲染结果的高级用例，Adobe Professional Services可以帮助您提供自定义的洞察信息和最佳实践。
+* 尝试直接在URL上或使用Adobe Dynamic Media Classic的图像调整功能实时测试和测试各种参数。 后者为调整操作提供实时预览。
+* 作为最佳实践，请记住，您可以将Dynamic Media图像服务命令分组到图像预设中。 图像预设基本上是带有自定义预设名称的URL命令宏，例如 `$thumb_low$` 和 `&product_high$`. URL路径中的自定义预设名称将调用这些预设。 此功能帮助您针对网站上的图像的不同使用方式管理命令和质量设置，并缩短 URL 的总体长度。
+* Adobe Dynamic Media Classic还提供了更高级的方法来调整图像质量，例如在摄取时应用图像锐化。 对于可以选择进一步调整和优化渲染结果的高级用例，Adobe Professional Services可以帮助您提供自定义的洞察信息和最佳实践。

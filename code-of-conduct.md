@@ -1,7 +1,7 @@
 ---
-source-git-commit: 597b7d6bd98c59a644984baeecb888f86a8975c9
+source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
 workflow-type: tm+mt
-source-wordcount: '429'
+source-wordcount: '425'
 ht-degree: 0%
 
 ---
@@ -58,7 +58,7 @@ ht-degree: 0%
 
 ## 强制执行
 
-如果要举报辱骂、骚扰或其他不可接受的行为事件，请通过Grp-opensourceoffice@adobe.com联系项目团队。 审核及调查所有投诉。 本公司会作出被视为必要及适合当时情况之回应。 项目团队有义务对事件举报者保密。 具体执行政策的更多细节可能会单独发布。
+如果要举报辱骂、骚扰或其他不可接受的行为事件，请通过Grp-opensourceoffice@adobe.com联系项目团队。 审核及调查所有投诉。 本公司会作出被视为必要及适当之回应。 项目团队有义务对事件举报者保密。 具体执行政策的更多细节可能会单独发布。
 
 对于不善意遵守或执行《行为准则》的项目维护人员，其他项目领导层成员可以决定暂时或永久地取消其参与资格。
 

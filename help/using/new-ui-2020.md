@@ -9,9 +9,9 @@ role: Admin,User
 exl-id: d61ea80a-a98e-43e6-9e2e-4389962134f1
 topic: Administration
 level: Intermediate
-source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
+source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
 workflow-type: tm+mt
-source-wordcount: '1084'
+source-wordcount: '1075'
 ht-degree: 0%
 
 ---
@@ -52,14 +52,15 @@ Adobe Dynamic Media Classic的基础API没有变化。
 +++
 
 +++**_此新的桌面应用程序体验是否需要迁移或更改第三方集成？_**
-否. Adobe Dynamic Media Classic客户无需迁移或更改任何第三方集成，即可使用新的桌面应用程序。
+不适用。 Adobe Dynamic Media Classic客户无需迁移或更改任何第三方集成，即可使用新的桌面应用程序。
 +++
 
 +++**_此更改是否会影响我的自动化脚本？_**
-否. 这对自动化脚本没有影响。 这款新的桌面应用程序的行为方式和行为方式与您已经熟悉的基于浏览器的体验类似。
+不适用。 这对自动化脚本没有影响。 这款新的桌面应用程序的行为方式和行为方式与您已经熟悉的基于浏览器的体验类似。
 +++
 
-+++**_新的Adobe Dynamic Media Classic桌面应用程序能否在Mac和个人计算机上运行？_**&#x200B;是的。这款新的桌面应用程序是一种跨平台解决方案，适用于Mac和PC。 Linux®是 *非* 受支持。
++++**_新的Adobe Dynamic Media Classic桌面应用程序能否在Mac和个人计算机上运行？_**
+是的。 这款新的桌面应用程序是一种跨平台解决方案，适用于Mac和PC。 Linux®是 *非* 受支持。
 +++
 
 +++**_我的公司有严格的安全要求。 新的Adobe Dynamic Media Classic桌面应用程序如何处理这些要求？_**
@@ -98,9 +99,9 @@ Adobe Dynamic Media Classic是一种功能丰富的强大解决方案，旨在�
 * [AdobeDynamic Media新闻稿存档](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/dynamic-media-newsletter.html)
 +++
 
-<!-- HIDDEN AUGUST 2, 2021 BECAUSE THE NEWSLETTER WAS DISCONTINUED Plus, [subscribe to the Dynamic Media newsletter](https://www.adobe.com/subscription/dynamic-media-newsletter.html) to stay current on the latest news, information, training opportunities, powerful features available to you such as [Smart Imaging](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/imaging-faq.html#dynamic), and the complementary audit program. -->
+<!-- HIDDEN AUGUST 2, 2021 BECAUSE THE NEWSLETTER WAS DISCONTINUED Plus, [subscribe to the Dynamic Media newsletter](https://www.adobe.com/subscription/dynamic-media-newsletter.html) to stay current on the latest news, information, training opportunities, powerful features available to you such as [Smart Imaging](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/imaging-faq.html), and the complementary audit program. -->
 
-+++**_我感兴趣的是，了解有关使用Adobe Experience Manager Assets升级到AdobeDynamic Media的更多信息。 可在何处找到更多信息？_**
++++**_我感兴趣的是了解有关使用Adobe Experience Manager Assets升级到AdobeDynamic Media的更多信息。 可在何处找到更多信息？_**
 要了解更多有关升级到新一代富媒体创作、发布和动态投放的好处，请访问 [AdobeDynamic Media portal以进行升级](/help/using/upgrade.md).
 +++
 
