@@ -1,6 +1,6 @@
 ---
 title: Dynamic Media限制
-description: “了解创建图像集或旋转集或上传PDF时的最佳实践和强制限制。 另外，了解不支持的Dynamic Media Web浏览器和操作系统组合。”
+description: “了解创建图像集或旋转集或上传PDF时的最佳实践和强制限制。 另外还了解不支持的Dynamic Media Web浏览器和操作系统组合。”
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -10,16 +10,16 @@ role: User
 exl-id: ee30a2c1-2b26-41bd-8758-e7337a3727bb
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: e2d60d18784c31c9973276960c935464ee4fd843
 workflow-type: tm+mt
-source-wordcount: '236'
+source-wordcount: '309'
 ht-degree: 2%
 
 ---
 
 # Dynamic Media限制
 
-以下部分介绍了Dynamic Media中的限制。
+以下部分介绍Dynamic Media中的限制。
 
 本主题包含以下部分：
 
@@ -33,10 +33,10 @@ ht-degree: 2%
 | 资源 — 限制类型 | 最佳实践 | 施加的限制 |
 | --- | --- | --- |
 | **图像**  — 每个图像的智能裁剪数 | 5 | 100 |
-| **所有集**  — 每集的重复资产数 | 无重复项 | 20 |
-| **所有集**  — 每组最大资源数 | 每组5-10个图像 | 1000 |
-| **旋转集**  — 每个2D集的最大行数/列数 | 每组12-18个图像 | 1000 |
-| **PDF**  — 要考虑进行提取的PDF的最大页数 |  | 100(适用于所有PDF) |
+| **所有集**  — 每组重复的资源数 | 无重复项 | 20 |
+| **所有集**  — 每组最大资源数 | 每组5至10个图像 | 1000 |
+| **旋转集**  — 每个2D集的最大行/列数 | 每组12-18个图像 | 1000 |
+| **PDF**  — 考虑进行提取的PDF的最大页数 |  | 100(适用于所有PDF) |
 
 <!-- See also [Dynamic Media limitations](/help/using/assets/limitations.md). -->
 
@@ -56,27 +56,29 @@ AdobeDynamic Media不支持以下Web浏览器和操作系统的组合。
 * Safari 8 + iOS 8.4
 * Safari 8 + OS X 10.10 Yosemite
 
-<!-- ## End of support for Transport Layer Security 1.0 and 1.1 {#tls}
+## 停止对Secure Socket Layer 2.0和3.0以及Transport Layer Security 1.0和1.1的支持 {#tls}
 
-CQDOC-19433 (original ticket)
-and CQDOC-19792 (removed as per this ticket December 5, 2022)
+<!-- CQDOC-19433 (original ticket)
+and CQDOC-19792 (removed as per this ticket December 5, 2022) -->
 
-Effective September 30, 2022, Adobe Dynamic Media will end support for the following:
+自2024年4月30日起，Dynamic MediaAdobe将停止支持以下内容：
 
-* TLS (Transport Layer Security) 1.0 and 1.1
-* The following weak ciphers in TLS 1.2:
-  * `TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384`
-  * `TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA`
-  * `TLS_RSA_WITH_AES_256_GCM_SHA384`
-  * `TLS_RSA_WITH_AES_256_CBC_SHA256`
-  * `TLS_RSA_WITH_AES_256_CBC_SHA`
-  * `TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256`
-  * `TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA`
-  * `TLS_RSA_WITH_AES_128_GCM_SHA256`
-  * `TLS_RSA_WITH_AES_128_CBC_SHA256`
-  * `TLS_RSA_WITH_AES_128_CBC_SHA`
-  * `TLS_RSA_WITH_CAMELLIA_256_CBC_SHA`
-  * `TLS_RSA_WITH_CAMELLIA_128_CBC_SHA`
-  * `TLS_ECDHE_RSA_WITH_3DES_EDE_CBC_SHA`
-  * `TLS_RSA_WITH_SDES_EDE_CBC_SHA` -->
+* SSL（安全套接字层）2.0
+* SSL 3.0
+* TLS（传输层安全性） 1.0和1.1
+* TLS 1.2中的以下弱加密：
+   * `TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384`
+   * `TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA`
+   * `TLS_RSA_WITH_AES_256_GCM_SHA384`
+   * `TLS_RSA_WITH_AES_256_CBC_SHA256`
+   * `TLS_RSA_WITH_AES_256_CBC_SHA`
+   * `TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256`
+   * `TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA`
+   * `TLS_RSA_WITH_AES_128_GCM_SHA256`
+   * `TLS_RSA_WITH_AES_128_CBC_SHA256`
+   * `TLS_RSA_WITH_AES_128_CBC_SHA`
+   * `TLS_RSA_WITH_CAMELLIA_256_CBC_SHA`
+   * `TLS_RSA_WITH_CAMELLIA_128_CBC_SHA`
+   * `TLS_ECDHE_RSA_WITH_3DES_EDE_CBC_SHA`
+   * `TLS_RSA_WITH_SDES_EDE_CBC_SHA`
 
