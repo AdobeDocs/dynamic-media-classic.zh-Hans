@@ -9,10 +9,10 @@ role: Admin
 exl-id: 699d4c12-e47b-4c6b-86f3-dc7aaaa56c1e
 topic: Administration, Content Management
 level: Intermediate
-source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
+source-git-commit: a9bd472705bce32f63a5710c3266e51256d17a00
 workflow-type: tm+mt
-source-wordcount: '2408'
-ht-degree: 41%
+source-wordcount: '2389'
+ht-degree: 34%
 
 ---
 
@@ -65,7 +65,7 @@ ht-degree: 41%
 
 使用Adobe Dynamic Media Classic的常见方法是管理电子商务网站上的产品图像。 国际企业面临如下挑战：类似产品的资源在各个国家/地区之间存在一些差异。通常，差异在于整个媒体的几个部分。 通过复制每个国家的所有资产并仅覆盖这些差异来解决这些差异是一项巨大的努力，并且与单一的主要资产隐喻相矛盾。 从包含不同音轨的国家/地区特定视频，到产品所用电源线的细微但重要的差异，此类资源差异可能会持续存在。Adobe Dynamic Media Classic使用基本的查找机制。 您可以从所需的区域设置开始，定义图像服务器查找资源后缀的顺序。
 
-#### 如何本地化资源
+#### 资产本地化方式
 
 IS（图像服务）请求的区域设置通过以下 IS/IR（图像渲染）命令来识别：
 
@@ -89,11 +89,11 @@ IS支持任意可打印的ASCII字符串。 此 `locale=` 命令具有全局范�
 * 在实施RFC IS-63时，添加了对静态内容（如视频和外观）的支持。
 * 默认区域设置是可配置的。
 
-#### 应用程序方案
+#### 应用程序场景
 
 | 应用程序 | 方案 |
 | --- | --- |
-| 查看器本地化 | 在实施静态内容目录后，本地化可完全通过 locale= 参数控制，该参数会附加到对 IS 的所有请求后面。配置记录、外观和启动画面等可以具有区域设置特定的变量，也可以没有。正确内容由 IS 提供，查看器无需知道哪些内容进行了本地化以及其 ID 是什么。 |
+| 查看器本地化 | 实施静态内容目录后，本地化完全由locale=参数控制，该参数附加到向IS发出的所有请求之后。 配置记录、外观和启动画面等可以具有区域设置特定的变量，也可以没有。正确内容由 IS 提供，查看器无需知道哪些内容进行了本地化以及其 ID 是什么。 |
 | 图像和视频 | 跨国公司通常同时拥有通用内容和区域设置特定的内容。通过这种机制，对图像或视频的引用可以是泛型引用，并且 IS 会提供区域设置特定的内容（如果可用）。 |
 | 图像集和媒体集 | 对于某些区域设置（例如当eCatalog不同时），整个图像集可以不同，即从通用图像集转换为由查看器处理的特定于区域设置的图像集。 更常见的是，通用集中的单个ID可以引用本地化的内容。 例如，除控制面板照片外，设备的大多数照片在所有语言中都可能相同。 IS 会自动转换 ID，因此无需生成区域设置特定的图像集。 |
 
@@ -121,17 +121,17 @@ Adobe Dynamic Media Classic和图像服务具有允许本地化的图像和静�
 >
 >“全局区域设置”设置只有在您通过API进行设置时才可用，不能在Adobe Dynamic Media Classic界面中进行设置。
 
-**后缀示例:**
+**后缀示例：**
 
 | URL | localeMap ID | 结果 |
 | --- | --- | --- |
-| `https://server/is/image/company/image?locale=de_DE` | `de_DE,_DE,|fr_FR,_FR,` | 请注意，这里没有定义 GlobalLocale。区域设置参数de_DE与 `localeMap`. 第一个对应值 _DE 将添加为资源 image_DE 的后缀，并尝试在图像服务器上查找该资源。如果在服务器上找到该资源，则会将其返回。否则，第二个值“”将用作后缀，从而导致图像本身被返回。 |
+| `https://server/is/image/company/image?locale=de_DE` | `de_DE,_DE,|fr_FR,_FR,` | 请注意，这里没有定义 GlobalLocale。区域设置参数de_DE与 `localeMap`. 第一个相应的值_DE将作为后缀添加到资产image_DE中，并尝试在图像服务器上查找它。 如果在服务器上找到该资源，则会将其返回。否则，第二个值“”将用作后缀，从而导致图像本身被返回。 |
 
-**替换示例:**
+**替换示例：**
 
 | URL | `GlobalLocale` 和 `localeMap` ID | 结果 |
 |--- |--- |--- |
-| `https://server/is/image/company/image-main-01?locale=de_DE` | `GlobalLocale=mainlocaleMap -` <br><br/> `de_DE,de,main|fr_FR,fr,main` | 在以上替换示例中，GlobalLocale 被设置为 main。区域设置参数de_DE与 `localeMap`. 找到GlobalLocale子字符串并将其替换为第一个相应值 `de` 在 `localeMap`： `image-de-01`. 如果在图像服务器上找到，则会将其返回。否则，替换第二个值，最终生成 `image-main-01`。 |
+| `https://server/is/image/company/image-main-01?locale=de_DE` | `GlobalLocale=mainlocaleMap -` <br><br/> `de_DE,de,main|fr_FR,fr,main` | 在上述替换示例中，GlobalLocale设置为main。 区域设置参数de_DE与 `localeMap`. 找到GlobalLocale子字符串并将其替换为第一个相应值 `de` 在 `localeMap`： `image-de-01`. 如果在图像服务器上找到，则会将其返回。如果不适用，则替换第二个值，从而导致 `image-main-01`. |
 
 如果 URL 中没有定义区域设置，则图像服务器会采用 DefaultLocale（如果定义）并将其应用到 URL。
 
@@ -141,15 +141,15 @@ Adobe Dynamic Media Classic和图像服务具有允许本地化的图像和静�
 
 图像服务器会为请求的区域设置逐个试用选项。如果未找到匹配项，则区域设置选项将应用于defaultImage，并返回匹配的版本。 因此，每个区域设置都必须包含一个未进行本地化的图像选项，或者本地化的defaultImage版本在Adobe Dynamic Media Classic中可用。
 
-#### 用于查找 localeMap 的方案
+#### 查找区域设置映射的场景
 
 假定您要支持以下区域设置：
 
 `en, en_us, en_uk, de, de_at, de_de, fr`
 
-将这些区域设置映射到后缀 `_E`， `_G`、和 `_F`，分别表示英语、德语和法语。 对于所有示例，通用输入图像 ID 为 `myImg`。
+将这些区域设置映射到后缀 `_E`， `_G`、和 `_F`，分别表示英语、德语和法语。 对于所有示例，通用输入图像ID为 `myImg`.
 
-##### 用于查找 localeMap 的标准行为
+##### 查找localeMap的标准行为
 
 区域设置 ID 会被映射到其对应的后缀。如果在目录中找不到区域设置特定的 ID，则尝试使用通用 ID。请注意映射到通用 ID 的空 locSuffix 值。
 
@@ -157,12 +157,12 @@ Adobe Dynamic Media Classic和图像服务具有允许本地化的图像和静�
 
 | locale= | 要搜索的输出 ID |
 | --- | --- |
-| en,en_us, en_uk | myImg_E,myImg |
-| de,de_de,de_at | myImg_D,myImg |
-| fr | myImg_F,myImg |
+| en， en_us， en_uk | myImg_E， myImg |
+| de， de_de， de_at | myImg_D， myImg |
+| fr | myImg_F， myImg |
 | 所有其他区域设置 | - |
 
-##### 区域设置未知时查找 localeMap
+##### 在区域设置未知时查找localeMap
 
 您可以将未知的区域设置映射到特定 ID 或通用 ID。例如，您可以将未知的区域设置映射到英文ID，如果没有未知的区域设置，则映射到通用ID。
 
@@ -170,9 +170,9 @@ Adobe Dynamic Media Classic和图像服务具有允许本地化的图像和静�
 
 | locale= | 要搜索的输出 ID |
 | --- | --- |
-| de,de_de,de_at | myImg_D,myImg |
-| fr | myImg_F,myImg |
-| 所有其他区域设置 | myImg_E,myImg |
+| de， de_de， de_at | myImg_D， myImg |
+| fr | myImg_F， myImg |
+| 所有其他区域设置 | myImg_E， myImg |
 
 您还可以具有专用的locSuffix，例如U，以用于未知区域设置，如果没有，则强制使用默认图像 `_U` 存在，如下所示：
 
@@ -192,10 +192,10 @@ Adobe Dynamic Media Classic和图像服务具有允许本地化的图像和静�
 
 | locale= | 要搜索的输出 ID |
 | --- | --- |
-| w1, w3 | myImg-W, myImg |
-| w2 | myImg-W2, myImg-W, myImg |
-| m1 | myImg-M1, myImg-M, myImg |
-| m2 | myImg-M2, myImg-M, myImg |
+| w1， w3 | myImg-W， myImg |
+| w2 | myImg-W2、myImg-W、myImg |
+| m1 | myImg-M1、myImg-M、myImg |
+| m2 | myImg-M2、myImg-M、myImg |
 | 所有其他区域设置 | mylmg |
 
 ##### 通过搜索特定的ID来查找区域设置映射
@@ -209,7 +209,7 @@ Adobe Dynamic Media Classic和图像服务具有允许本地化的图像和静�
 | locale= | 要搜索的输出 ID |
 | --- | --- |
 | fr | myImg_22, myImg_23, myImg_1, myImg_2, myImg_3 |
-| de, de_at, de_de | myImg_470, myImg_480, myImg_1, myImg_2,myImg_3 |
+| de， de_at， de_de | myImg_470, myImg_480, myImg_1, myImg_2,myImg_3 |
 | 所有其他区域设置 | myImg_1, myImg_2, myImg_3 |
 
 ##### 实施本地化支持时的重要注意事项

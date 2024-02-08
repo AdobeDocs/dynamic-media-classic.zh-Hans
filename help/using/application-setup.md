@@ -10,7 +10,7 @@ role: Admin
 exl-id: 3f96606e-ef5c-4c01-aa0f-3148f14e28be
 topic: Administration
 level: Intermediate
-source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
+source-git-commit: a9bd472705bce32f63a5710c3266e51256d17a00
 workflow-type: tm+mt
 source-wordcount: '10991'
 ht-degree: 37%
@@ -613,7 +613,7 @@ Adobe Dynamic Media Classic支持MP4 H.264视频的移动视频播放。
      
    * **编辑**  — 选择现有的查看器预设，然后选择 **[!UICONTROL 编辑]**.
 
-1. 在配置查看器屏幕的预设名称字段中，输入或编辑预设名称。
+1. 在配置查看器页面的预设名称字段中，输入或编辑预设名称。
 1. 设置其余所需的选项。
 
    >[!NOTE]

@@ -9,9 +9,9 @@ role: Admin,User
 exl-id: d61ea80a-a98e-43e6-9e2e-4389962134f1
 topic: Administration
 level: Intermediate
-source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
+source-git-commit: a9bd472705bce32f63a5710c3266e51256d17a00
 workflow-type: tm+mt
-source-wordcount: '1075'
+source-wordcount: '1079'
 ht-degree: 0%
 
 ---
@@ -72,7 +72,7 @@ Adobe致力于确保其产品满足客户的安全要求。 新的Adobe Dynamic 
 +++
 
 +++**_能否同时打开新桌面应用程序的多个实例？_**
-不会，用于构建新Adobe Dynamic Media Classic桌面应用程序的AIR技术会限制用户在给定时间打开该应用程序的多个实例。
+不适用。 用于构建新Adobe Dynamic Media Classic桌面应用程序的AIR技术限制用户在给定时间打开该应用程序的多个实例。
 +++
 
 +++**_对于可通过本地计算机上传到Adobe Dynamic Media Classic的文件数量是否有任何限制？_**
@@ -80,7 +80,7 @@ Adobe致力于确保其产品满足客户的安全要求。 新的Adobe Dynamic 
 +++
 
 +++**_新的Adobe Dynamic Media Classic桌面应用程序是否需要新的SKU？ 涉及许可费用吗？_**
-使用新的Adobe Dynamic Media Classic桌面应用程序无需更改SKU或许可证。
+这两个问题都没有。 使用新的Adobe Dynamic Media Classic桌面应用程序无需更改SKU或许可证。
 +++
 
 +++**_如何启用到Adobe Dynamic Media Classic桌面应用程序的升级？_**
