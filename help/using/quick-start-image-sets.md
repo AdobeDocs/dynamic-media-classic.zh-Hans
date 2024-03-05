@@ -1,21 +1,19 @@
 ---
-title: "快速入门：图像集"
+title: “快速入门：图像集”
 description: 图像集简介和快速入门，帮助您快速启动和运行Adobe Dynamic Media Classic中的图像集技术。
-uuid: daf17d13-9c06-41f0-8fc5-2e56d460d341
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sets
-discoiquuid: 612a425f-2840-46c4-8e5a-c0bc5f738f4e
 feature: Dynamic Media Classic,Viewers,Image Sets
 role: User
 exl-id: 280e7201-84d6-46b1-94bb-0499beca2992
 topic: Content Management
 level: Beginner
-source-git-commit: faa1784e1d19b1167cad5749dc04227e3ff388e5
+source-git-commit: 0e1b2e9dcbee182f3ec0da53b56b5b8d3eb29cce
 workflow-type: tm+mt
-source-wordcount: '673'
-ht-degree: 18%
+source-wordcount: '666'
+ht-degree: 14%
 
 ---
 
@@ -31,8 +29,10 @@ Adobe Dynamic Media Classic图像集为用户提供了集成的查看体验。 �
 
 | 限制类型 | 最佳实践 | 施加的限制 |
 | --- | --- | --- |
-| 每集的重复资产数 | 无重复项 | 20 |
+| 每集的重复资产数 | 无重复项 | 20‡ |
 | 每组的最大图像数 | 每组5至10个图像 | 1000 |
+
+‡最佳实践是在一个集中没有重复的资产。 单个资产的限制为20个重复项。 如果为该资产添加其他重复项（在该集中），请求将会产生错误或忽略重复项。
 
 另请参阅 [Dynamic Media限制](/help/using/limitations.md).
 
@@ -76,7 +76,7 @@ Adobe Dynamic Media Classic图像集为用户提供了集成的查看体验。 �
 
 >[!NOTE]
 >
->如果在创建并保存图像集时选择了“**[!UICONTROL 保存后发布]**”（默认），则不需要执行此步骤。
+>如果您已选择，则无需执行此步骤 **[!UICONTROL 保存后发布]** （默认）创建并保存图像集时。
 
 选择 **[!UICONTROL 标记为发布]** 图标（其名称左侧）。 然后，选择 **[!UICONTROL Publish]**. 在发布页面上，选择 **[!UICONTROL 提交发布]**.
 
