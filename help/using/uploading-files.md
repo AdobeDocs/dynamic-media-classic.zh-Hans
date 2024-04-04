@@ -1,19 +1,17 @@
 ---
 title: 上载文件
 description: 了解如何在Adobe Dynamic Media Classic中上传文件。
-uuid: b3025f84-4f28-4276-bc9c-f0c0c2a26e12
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
-discoiquuid: b2bc3bf9-e313-481a-8670-c3bedde21b1a
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 8dfcfb3f-6472-4efd-bc87-d5111eee45ce
 topic: Content Management
 level: Intermediate
-source-git-commit: a9bd472705bce32f63a5710c3266e51256d17a00
+source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
 workflow-type: tm+mt
-source-wordcount: '3877'
+source-wordcount: '3869'
 ht-degree: 28%
 
 ---
@@ -166,8 +164,8 @@ Adobe Dynamic Media Classic桌面应用程序允许您通过拖动来上传文�
 1. 在Adobe Dynamic Media Classic Desktop应用程序的“全局导航”栏上，选择 **[!UICONTROL 上传]**.
 1. 在上传页面上，选择 **[!UICONTROL 从桌面]** 选项卡。
 1. 在上传页面的左侧，在 **[!UICONTROL 选择要上载的文件]** 区域，选择 **[!UICONTROL 浏览]** 选择要上载的文件或文件夹，然后选择 **[!UICONTROL 打开]**.
-1. 在上传页面的右侧，在 **选择文件夹目标** 区域，导航到要添加已上载文件或文件夹的目标文件夹。
-1. （可选）在“上载”页底部附近的作业名称文本字段中，输入上载作业的新名称。 或者，您只需使用Adobe Dynamic Media Classic提供的系统生成的默认名称即可。 作业和其他上载和发布作业记录在“作业”页面上，您可以在该页面检查作业的状态。 请参阅[检查作业文件](checking-job-files.md#checking_job_files)。
+1. 在上传页面的右侧，在选定的 **文件夹目标** 区域，导航到要添加已上载文件或文件夹的目标文件夹。
+1. （可选）在“上载”页面底部附近的作业名称文本字段中，输入上载作业的新名称。 或者，您只需使用Adobe Dynamic Media Classic提供的系统生成的默认名称即可。 上载和发布作业会记录在“作业”页面上，您可以在该页面上检查作业的状态。 请参阅[检查作业文件](checking-job-files.md#checking_job_files)。
 1. （可选）在上传页面底部附近，选择 **[!UICONTROL 上传后发布]** 如果要自动发布所上传的资产，请执行以下操作。
 在发布文件时，文件将发送到实时服务器。然后，可以在外部网站和应用程序中使用这些文件的 URL。“作业选项”对话框中也提供了相同选项。
 1. （可选）在上传页面底部附近，选择 **[!UICONTROL 在任意文件夹内，使用相同的基本资源名称（不论扩展名是什么）进行覆盖]** 如果希望上载的文件替换具有相同名称的现有文件。 “作业选项”对话框中也提供了相同选项。
@@ -186,8 +184,8 @@ Adobe Dynamic Media Classic桌面应用程序允许您通过拖动来上传文�
 1. 在Adobe Dynamic Media Classic的全局导航栏上，选择 **[!UICONTROL 上传]**.
 1. 在上传页面上，选择 **[!UICONTROL 通过FTP]** 选项卡。
 1. 在上传页面的左侧，在 **[!UICONTROL 选择要上载的FTP文件夹]** 区域，选择要从中上载文件的FTP文件夹。
-1. 在上传页面的右侧，在 **[!UICONTROL 选择AdobeDynamic Media文件夹目标]** 区域，在Adobe Dynamic Media Classic中选择目标文件夹。
-1. （可选）在“上载”页底部附近的作业名称文本字段中，输入上载作业的新名称。 或者，您只需使用Adobe Dynamic Media Classic提供的系统生成的默认名称即可。 作业和其他上载和发布作业记录在“作业”页面上，您可以在该页面检查作业的状态。
+1. 在上传页面的右侧，在选定的 **[!UICONTROL AdobeDynamic Media文件夹目标]** 区域，在Adobe Dynamic Media Classic中选择目标文件夹。
+1. （可选）在“上载”页面底部附近的作业名称文本字段中，输入上载作业的新名称。 或者，您只需使用Adobe Dynamic Media Classic提供的系统生成的默认名称即可。 上载和发布作业会记录在“作业”页面上，您可以在该页面上检查作业的状态。
 请参阅[检查作业文件](checking-job-files.md#checking_job_files)。
 1. （可选）在上传页面底部附近，选择 **[!UICONTROL 上载后发布]** 如果要自动发布所上传的资产，请执行以下操作。
 在发布文件时，文件将发送到实时服务器。然后，可以在外部网站和应用程序中使用这些文件的 URL。“作业选项”对话框中也提供了相同选项。
@@ -269,8 +267,9 @@ Adobe Dynamic Media Classic桌面应用程序允许您通过拖动来上传文�
 * **EVIDEO选项**  — 您可以通过选择视频预设来转码视频文件。
 请参阅 [使用视频编码预设](uploading-encoding-videos.md#working_with_video_encoding_presets).
 
-* **其他元数据**  — 输入描述要上载的文件的关键字。 用逗号分隔关键字。关键字使搜索资源更容易。
-请参阅 [执行高级搜索](searching-assets.md#conducting_an_advanced_search). 另请参阅 [上载关键字](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/548_upload-keywords_converted%20renamed_Done-AVS) 训练视频。
+* **更多元数据**  — 输入描述要上载的文件的关键字。 用逗号分隔关键字。关键字使搜索资源更容易。
+请参阅 [执行高级搜索](searching-assets.md#conducting_an_advanced_search).
+另请参阅 [上载关键字](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/548_upload-keywords_converted%20renamed_Done-AVS) 训练视频。
 
 * **批次集预设**  — 如果要从上传的文件创建图像集、旋转集或样本集，请选择 **[!UICONTROL 活动]** 要使用的预设的列。 可以选择多个预设。您可以在“应用程序设置/批次集预设”页面中创建预设。
 请参阅[批量级预设](application-setup.md#batch_set_presets)。

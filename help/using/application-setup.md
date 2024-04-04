@@ -1,6 +1,6 @@
 ---
 title: 应用程序设置
-description: 了解如何设置和配置Adobe Dynamic Media Classic的应用程序区域。 您可以在“应用程序”区域中输入常规设置，创建图像、查看器和视频编码预设，定义默认查看器和元数据、发布设置和视频SEO设置。 还可使用区域设置批次集预设以自动生成2D旋转集。
+description: 了解如何设置和配置Adobe Dynamic Media Classic的应用程序区域。
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -10,9 +10,9 @@ role: Admin
 exl-id: 3f96606e-ef5c-4c01-aa0f-3148f14e28be
 topic: Administration
 level: Intermediate
-source-git-commit: a9bd472705bce32f63a5710c3266e51256d17a00
+source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
 workflow-type: tm+mt
-source-wordcount: '10991'
+source-wordcount: '10947'
 ht-degree: 37%
 
 ---
@@ -49,7 +49,7 @@ ht-degree: 37%
 
 * **[!UICONTROL 渐进式视频服务器名称]**  — 您的URL [!DNL Adobe Dynamic Media Classic] 渐进式视频服务器。 该服务器使用 HTTP 协议发送渐进式视频。
 
-* **[!UICONTROL 显示未发布资源的URL]**  — 如果需要，请选择此选项 [!DNL Adobe Dynamic Media Classic] 在预览任何资源（无论是否已发布）时显示URL。 如果资源未发布，此 URL 将无效。但是，您可以使用 URL 进行计划或组织。
+* **[!UICONTROL 显示未发布资源的URL]**  — 根据需要选择此选项 [!DNL Adobe Dynamic Media Classic] 在预览任何资源（无论是否已发布）时显示URL。 如果资源未发布，此 URL 将无效。但是，您可以使用 URL 进行计划或组织。
 
 <!-- **Allow AIR install** Select this option to allow users to download Adobe Dynamic Media Classic desktop version to their local hard drives. Users install the application from the Desktop Version area of the Personal Setup screen. -->
 
@@ -161,7 +161,7 @@ Adobe Dynamic Media Classic不允许两个文件具有相同的名称。 每个�
 
 要打开“图像预设”屏幕，请转到“全局导航”栏上的 **[!UICONTROL 设置]** > **[!UICONTROL 图像预设]**.
 
-请参阅 [智能成像](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/imaging-faq.html).
+请参阅 [智能成像](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/imaging-faq).
 
 ### 创建并编辑图像预设 {#creating-and-editing-image-presets}
 
@@ -436,7 +436,7 @@ Adobe Dynamic Media Classic提供了自适应视频编码预设。 它是将16:9
 
 您可以将富媒体内容扩展到台式机、平板电脑和移动设备用户，并确保提供简化的视频体验。
 
-请参阅 [关于HTML5查看器](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/viewers-for-aem-assets-only/c-html5-aem-asset-viewers.html?lang=en#viewers-for-aem-assets-only) 在Adobe查看器参考指南中。
+请参阅 [关于HTML5查看器](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/library/viewers-for-aem-assets-only/c-html5-aem-asset-viewers#viewers-for-aem-assets-only) 在Adobe查看器参考指南中。
 
 请参阅 [Adobe Dynamic Media Classic查看器预设兼容性矩阵](application-setup.md#scene7_viewer_preset_compatibility_matrix).
 
@@ -450,7 +450,7 @@ Adobe Dynamic Media Classic提供了自适应视频编码预设。 它是将16:9
 
 不同的网页具有不同的需求。有时，您需要一个网页，该网页会提供一个链接，在单独的浏览器窗口中打开HTML5查看器。 在其他情况下，需要直接将HTML5查看器嵌入到托管页面上。 在后一种情况下，网页可能具有静态布局。 或者，它是“响应式”的，在不同的设备或不同的浏览器窗口大小中显示的方式有所不同。 为了满足这些需求，Adobe Dynamic Media Classic附带的HTML5查看器支持静态网页和响应式设计网页。
 
-有关如何将响应式查看器嵌入网页的更多信息，请参阅 [关于响应图像库](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/c-about-responsive-static-image-library.html#image-serving-api)， [使用响应式图像库](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/t-using-responsive-static-image-library.html#image-serving-api)、和 [命令引用 — 命令属性](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/t-using-responsive-static-image-library.html#responsive-static-image-library).
+有关如何将响应式查看器嵌入网页的更多信息，请参阅 [关于响应图像库](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/c-about-responsive-static-image-library#image-serving-api)， [使用响应式图像库](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/t-using-responsive-static-image-library#image-serving-api)、和 [命令引用 — 命令属性](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/t-using-responsive-static-image-library#responsive-static-image-library).
 
 ### 查看器预设类型 {#viewer-preset-types}
 
@@ -486,7 +486,7 @@ Adobe Dynamic Media Classic提供了自适应视频编码预设。 它是将16:9
 
 有关查看器支持的 Web 浏览器和操作系统版本的信息，您可以查阅查看器发行说明。
 
-请参阅 [Adobe查看器参考发行说明](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources.html).
+请参阅 [Adobe查看器参考发行说明](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources).
 
 |  | 查看器技术 | 桌面 | Apple iPhone | Apple iPad | Android™智能手机 | Android™平板电脑 |
 |--- |--- |--- |--- |--- |--- |--- |
@@ -732,7 +732,7 @@ URL 即复制到剪贴板中。您可以根据需要在网页的 HTML 代码、�
 1. 在嵌入代码对话框中，选择 **[!UICONTROL 复制到剪贴板]**.
 1. 选择 **[!UICONTROL 关闭]**.
 
-## 配置默认查看器 {#configuring-default-viewers}
+## 配置默认查看器 {#configure-default-viewers}
 
 在Adobe Dynamic Media Classic中使用预览时，可以使用默认查看器配置与资源关联的默认查看器。 您可以为下列资源类型设置默认预览体验：
 
@@ -812,7 +812,7 @@ Adobe Dynamic Media Classic附带预定义的元数据视图，管理员可以�
 
 Media Portal 管理员或公司管理员可以创建自定义的、用户定义的元数据字段。自定义字段可帮助您整理Adobe Dynamic Media Classic中的资源。 您可以根据需要将字段标记为活动。 激活后，这些自定义元数据字段的名称将显示在详细信息视图的元数据面板中。 用户可以在用户定义的元数据字段中输入信息以描述资源。用户也可以使用户定义的元数据字段成为搜索条件。
 
-高效使用用户定义的元数据字段的一种方式是为特定启动或销售延迟资源的激活时间。您可以根据类型定义“激活”字段 *日期*. 然后，使用 **[!UICONTROL 元数据]** 在“详细信息”视图中或 **[!UICONTROL 文件]** > **[!UICONTROL 编辑信息]**，您可以指定激活资源的时间。 Adobe Dynamic Media Classic检查资源的发布状态和发布历史记录。 如果不在激活时间内，发布状态将显示为“未发布”。
+高效使用用户定义的元数据字段的一种方式是为特定启动或销售延迟资源的激活时间。您可以根据类型定义“激活”字段 *日期*. 然后，使用 **[!UICONTROL 元数据]** 在“详细信息”视图中或 **[!UICONTROL 文件]** > **[!UICONTROL 编辑信息]**，您可以指定激活资源的时间。 Adobe Dynamic Media Classic检查资源的已发布状态和发布历史记录。 如果不在激活时间内，发布状态将显示为“未发布”。
 
 >[!NOTE]
 >
@@ -914,7 +914,7 @@ Adobe Dynamic Media Classic会搜索您的文件，并仅优化那些之前未�
 
 另外，您还可以使用没有表单字段的“查看代码”。在此视图中，您可以完全使用正则表达式来创建命名约定定义。
 
-有两个元素可用于定义，即“匹配”和“基本名称”。在这些字段中，您可以定义命名约定的所有元素，并指定用于命名它们所在的集的约定部分。公司的单个命名惯例可以对每个元素使用一行或多行定义。 可以在您的特有定义中使用所需数量的行，并将它们分组到不同的元素中，例如，用于主图像、颜色元素、备选视图元素和样本元素。
+有两个元素可用于定义，即“匹配”和“基本名称”。这些字段是您为命名约定定义的所有元素，并标识用于命名包含这些字段的集的约定部分。 公司的单个命名惯例可以对每个元素使用一行或多行定义。 可以在您的特有定义中使用所需数量的行，并将它们分组到不同的元素中，例如，用于主图像、颜色元素、备选视图元素和样本元素。
 
 ### 创建批量集预设 {#creating-a-batch-set-preset}
 

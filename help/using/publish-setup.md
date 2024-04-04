@@ -9,10 +9,10 @@ role: Admin
 exl-id: 699d4c12-e47b-4c6b-86f3-dc7aaaa56c1e
 topic: Administration, Content Management
 level: Intermediate
-source-git-commit: a9bd472705bce32f63a5710c3266e51256d17a00
+source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
 workflow-type: tm+mt
-source-wordcount: '2389'
-ht-degree: 34%
+source-wordcount: '2387'
+ht-degree: 33%
 
 ---
 
@@ -123,15 +123,15 @@ Adobe Dynamic Media Classic和图像服务具有允许本地化的图像和静�
 
 **后缀示例：**
 
-| URL | localeMap ID | 结果 |
-| --- | --- | --- |
-| `https://server/is/image/company/image?locale=de_DE` | `de_DE,_DE,|fr_FR,_FR,` | 请注意，这里没有定义 GlobalLocale。区域设置参数de_DE与 `localeMap`. 第一个相应的值_DE将作为后缀添加到资产image_DE中，并尝试在图像服务器上查找它。 如果在服务器上找到该资源，则会将其返回。否则，第二个值“”将用作后缀，从而导致图像本身被返回。 |
+| URL | localeMap ID | 结果 | 说明 |
+| --- | --- | --- | --- |
+| `https://server/is/image/company/image?locale=de_DE` | `de_DE,_DE,` | `fr_FR,_FR,` | 请注意，这里没有定义 GlobalLocale。区域设置参数de_DE与 `localeMap`. 第一个相应的值_DE将作为后缀添加到资产image_DE中，并尝试在图像服务器上查找它。 如果在服务器上找到，则返回。 否则，第二个值“”将用作后缀，从而导致图像本身被返回。 |
 
 **替换示例：**
 
-| URL | `GlobalLocale` 和 `localeMap` ID | 结果 |
-|--- |--- |--- |
-| `https://server/is/image/company/image-main-01?locale=de_DE` | `GlobalLocale=mainlocaleMap -` <br><br/> `de_DE,de,main|fr_FR,fr,main` | 在上述替换示例中，GlobalLocale设置为main。 区域设置参数de_DE与 `localeMap`. 找到GlobalLocale子字符串并将其替换为第一个相应值 `de` 在 `localeMap`： `image-de-01`. 如果在图像服务器上找到，则会将其返回。如果不适用，则替换第二个值，从而导致 `image-main-01`. |
+| URL | `GlobalLocale` 和 `localeMap` ID | 结果 | 说明 |
+| --- | --- | --- | --- |
+| `https://server/is/image/company/image-main-01?locale=de_DE` | `GlobalLocale=mainlocaleMap -` <br><br/> `de_DE,de,main` | `fr_FR,fr,main` | 在上述替换示例中，GlobalLocale设置为main。 区域设置参数de_DE与 `localeMap`. 找到GlobalLocale子字符串并将其替换为第一个相应值 `de` 在 `localeMap`： `image-de-01`. 如果在图像服务器上找到，则返回。 如果不适用，则替换第二个值，从而导致 `image-main-01`. |
 
 如果 URL 中没有定义区域设置，则图像服务器会采用 DefaultLocale（如果定义）并将其应用到 URL。
 

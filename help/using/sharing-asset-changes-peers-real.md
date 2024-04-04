@@ -1,27 +1,25 @@
 ---
-title: 与同事实时共享资产更改
+title: 与同行实时共享资产更改
 description: 了解如何在Adobe Dynamic Media Classic中与同行实时共享资源更改。
-uuid: 13fa4f6e-66bf-4682-96a9-0e7040706f53
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
-discoiquuid: ca7c8a7f-76f4-4a25-8c36-617a029e55be
 feature: Dynamic Media Classic,Asset Management,Collaboration
 role: Admin,User
 exl-id: d74b4966-fe43-4349-bbe1-3a379c49bf1f
 topic: Administration, Collaboration
 level: Intermediate
-source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
+source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
 workflow-type: tm+mt
 source-wordcount: '279'
-ht-degree: 44%
+ht-degree: 26%
 
 ---
 
-# 与同事实时共享资产更改{#sharing-asset-changes-with-peers-in-real-time}
+# 与同行实时共享资产更改{#sharing-asset-changes-with-peers-in-real-time}
 
-在同一公司的多台计算机上运行多个Adobe Dynamic Media Classic副本时，来自任何Adobe Dynamic Media Classic客户端的以下操作会实时更新所有对等客户端：
+在同一公司的多台计算机上运行多个Adobe Dynamic Media Classic副本时，所有Adobe Dynamic Media Classic客户端的以下操作都将实时更新到所有对等客户端：
 
 * 编辑资产（生成器、图像编辑器等）
 * 重命名资源
@@ -34,6 +32,6 @@ ht-degree: 44%
 
 登录时，系统会提示您允许或拒绝对等更新。 可以“记住”选择，以便只得到一次提示。要清除选择，请从“全局设置”的“对等辅助网络”面板中删除相应站点。
 
-如果正在编辑对等客户端所更改的资源，则系统会提示您在生成器或编辑器中采纳更改。如果您选择 **[!UICONTROL 是]**，然后生成器或编辑器会放弃对资产所做的任何更改并导入更新的资产。 如果您选择 **[!UICONTROL 否]**，资产在生成器或编辑器中保持不变，您所做的任何更改将保留在该会话中。
+如果您正在编辑由同事更改的资产，则系统会提示您将该更改摄取到生成器或编辑器中。 如果您选择 **[!UICONTROL 是]**，然后生成器或编辑器会放弃对资产所做的任何更改并导入更新的资产。 如果您选择 **[!UICONTROL 否]**，资产在生成器或编辑器中保持不变，您所做的任何更改将保留在该会话中。
 
-保存资源时，系统会通知您存在更新的版本，并询问您是否要用更改覆盖该资源。
+在保存资源时，系统会通知您存在较新版本，并询问您是否要用更改覆盖资源。

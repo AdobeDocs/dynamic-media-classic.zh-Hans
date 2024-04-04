@@ -1,20 +1,18 @@
 ---
 title: 检查作业文件
 description: 了解如何在Adobe Dynamic Media Classic中检查作业文件。
-uuid: 8241a894-3014-4a5c-96ef-71f3aaa3716a
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/upload_and_publish_assets
-discoiquuid: d53ae5dd-8daf-4d87-b9a6-3039bad30538
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: b6b11e1c-5eda-4bdb-8ffb-ecd3678f2352
 topic: Administration, Content Management
 level: Intermediate
-source-git-commit: a9bd472705bce32f63a5710c3266e51256d17a00
+source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
 workflow-type: tm+mt
-source-wordcount: '1620'
+source-wordcount: '1619'
 ht-degree: 24%
 
 ---
@@ -89,7 +87,7 @@ ht-degree: 24%
 
 >[!NOTE]
 >
->您可以在以下位置筛选作业列表： **[!UICONTROL 已计划]** 制表符 **[!UICONTROL 作业类型]** 和 **[!UICONTROL 显示]** 菜单。 选择作业类型，以便将列表缩小到发布特定类型的作业。 选择 **[!UICONTROL 显示]** 选项。
+>您可以在以下位置筛选作业列表： **[!UICONTROL 已计划]** 制表符 **[!UICONTROL 作业类型]** 和 **[!UICONTROL 显示]** 菜单。 选择作业类型，以便将列表缩小到发布特定类型的作业。 选择 **[!UICONTROL 显示]** 选项，以便显示您创建的作业或公司中每个人创建的作业。
 
 ### 编辑、删除、暂停和恢复定期作业 {#editing-deleting-pausing-and-resuming-recurring-jobs}
 

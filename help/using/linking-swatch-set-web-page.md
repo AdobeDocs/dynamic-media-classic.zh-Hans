@@ -10,10 +10,10 @@ role: User
 exl-id: 8bb1c744-270a-4752-b163-443708fca6c2
 topic: Content Management
 level: Intermediate
-source-git-commit: 597b7d6bd98c59a644984baeecb888f86a8975c9
+source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
 workflow-type: tm+mt
-source-wordcount: '702'
-ht-degree: 33%
+source-wordcount: '683'
+ht-degree: 31%
 
 ---
 
@@ -46,15 +46,15 @@ ht-degree: 33%
 
 ## 将样本集URL添加到网页 {#adding-swatch-set-urls-to-your-web-page}
 
-部署样本集的最常见方式是在网页上放置链接（通过导航图标）。 选中后，链接将启动一个动态页面（ASP或JSP），该页面在弹出缩放窗口中显示样本集。 缩放链接会打开一个弹出窗口，其中包含实际的缩放功能。
+部署样本集的最常见方式是在网页上放置链接（通过导航图标）。 选中后，链接将启动一个动态页面（ASP或JSP），该页面在弹出缩放窗口中显示样本集。 缩放链接将打开一个包含实际缩放功能的弹出窗口。
 
-有关更多详细信息和代码示例，请参阅 [Adobe查看器参考指南中的嵌入HTML5缩放查看器](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/zoom/c-html5-20-zoom-viewer-about.html#section-e1c3106f5b3e445d9b95be337c2f94e2).
+有关更多详细信息和代码示例，请参阅 [Adobe查看器参考指南中的嵌入HTML5缩放查看器](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/zoom/c-html5-20-zoom-viewer-about#section-e1c3106f5b3e445d9b95be337c2f94e2).
 
 ## 复制样本集查看器的嵌入代码 {#copying-the-embed-code-of-a-swatch-set-viewer}
 
 使用嵌入代码功能，您可以查看用于所选样本集的查看器代码。您也可以将代码复制到剪贴板中，以便可以将其粘贴到网页中以部署查看器。在“嵌入代码”对话框中不允许编辑代码。
 
-**复制样本集查看器的嵌入代码:**
+**复制样本集查看器的嵌入代码：**
 
 1. 在资产浏览面板的显示下拉列表中，选择 **[!UICONTROL 样本集]**.
 1. 在左侧的“资源库”面板中，导航至要复制其嵌入代码的样本集所在的资源文件夹。
@@ -81,4 +81,4 @@ ht-degree: 33%
 
 >[!MORELIKETHIS]
 >
->* [发布](publishing-files.md#publishing_files)
+>* [Publish](publishing-files.md#publishing_files)

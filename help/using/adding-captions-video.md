@@ -9,14 +9,14 @@ role: User
 exl-id: 66a1ab20-6036-4c3d-bb66-dd06d917c7f2
 topic: Content Management
 level: Intermediate
-source-git-commit: a30bc34b1943d63620cb12098b7bd2db4714086d
+source-git-commit: a607488b6a1dd51ef7cc8c885db5a87f4f792aaa
 workflow-type: tm+mt
-source-wordcount: '719'
-ht-degree: 31%
+source-wordcount: '716'
+ht-degree: 27%
 
 ---
 
-# 向视频添加字幕 {#adding-captions-to-video}
+# 向视频添加字幕 {#add-captions-to-video}
 
 您可以在单个视频或自适应视频集中添加题注，以便将视频范围扩大到全球市场。通过添加题注，可以避免为音频配音或针对每种不同的语言使用说母语的人来重新录制音频的操作。视频使用录制时的语言播放。同时显示外语字幕，以便使用不同语言的人也可以理解音频内容。
 
@@ -38,7 +38,7 @@ ht-degree: 31%
 
 Adobe Dynamic Media Classic可以将字幕文件转换为JSON（JavaScript对象表示法）格式。 这种转换意味着，您可以将 JSON 文本作为视频的隐藏但完整的文本嵌入到网页中。然后，搜索引擎可以对内容进行爬网和索引，使视频更容易被发现，并为客户提供有关视频内容的更多详细信息。
 
-请参阅 [提供静态（非图像）内容](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/c-serving-static-nonimage-contents.html?lang=en#image-serving-api) 在 *Adobe图像服务API帮助* 有关在URL中使用JSON函数的更多信息。
+请参阅 [提供静态（非图像）内容](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/c-serving-static-nonimage-contents#image-serving-api) 在 *Adobe图像服务API帮助* 有关在URL中使用JSON函数的更多信息。
 
 **要向视频添加字幕：**
 
@@ -52,7 +52,7 @@ Adobe Dynamic Media Classic可以将字幕文件转换为JSON（JavaScript对象
 
    请参阅 [上载文件](uploading-files.md#uploading_files).
 
-1. 在左侧的“资源库”面板中，导航至要与上载的题注文件相关联的视频文件所在的资源文件夹。
+1. 在左侧的“资产库”面板中，导航到包含视频文件的资产文件夹，以与您上传的字幕文件相关联。
 1. 在“资源浏览”面板中，选择单个视频资源，然后选择该资源的缩略图图像下方 **[!UICONTROL 预览]** > **[!UICONTROL 查看器列表]**.
 1. 在“查看器列表”表格中，找到名为的HTML5查看器 **Univeral_HTML5_视频**， **Universal_Media5_MixedMedia_darkHTML**，或 **Universal_HTML5_MixedMedia_light**，然后执行以下操作之一：
 

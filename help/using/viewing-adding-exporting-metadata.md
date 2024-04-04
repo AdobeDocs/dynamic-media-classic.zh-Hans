@@ -1,21 +1,19 @@
 ---
 title: 查看、添加和导出元数据
 description: 了解如何在Adobe Dynamic Media Classic中查看、添加和导出元数据。
-uuid: a5254c51-9e04-45ae-8236-3eab2925e5fc
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
-discoiquuid: 5414b4f5-6e05-468c-8725-385423596342
 feature: Dynamic Media Classic,Asset Management,Metadata
 role: User
 exl-id: 2be50cc7-9a8b-4f7b-8ebf-18a3208654f2
 topic: Content Management
 level: Intermediate
-source-git-commit: 1b90beb99b161b76da81403f5aed9755b3a92c8b
+source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
 workflow-type: tm+mt
-source-wordcount: '2261'
-ht-degree: 45%
+source-wordcount: '2226'
+ht-degree: 40%
 
 ---
 
@@ -23,7 +21,7 @@ ht-degree: 45%
 
 您可以存储特定于您在Adobe Dynamic Media Classic中使用的文件的信息；此信息称为 *元数据*. 您可以在Adobe Dynamic Media Classic中使用元数据来组织、搜索、筛选和排序资源。
 
-元数据与Adobe Dynamic Media Classic生成的信息一起显示在“详细信息视图”中，例如文件创建日期、发布日期和关键字。 要查看元数据，请在详细信息视图中打开资产，然后选择元数据面板。 可以在详细信息视图中输入和编辑 元数据。
+元数据与Adobe Dynamic Media Classic生成的信息一起显示在“详细信息视图”中，例如文件创建日期、发布日期和关键字。 要查看元数据，请在详细信息视图中打开资产，然后选择元数据面板。 您可以在详细信息视图中输入和编辑元数据。
 
 一些元数据直接嵌入到文件中。如果文件包含此元数据，Adobe Dynamic Media Classic会自动将其与文件一起上传。 您可以将元数据嵌入到Adobe Photoshop、InDesign、Illustrator和其他应用程序中的源资源；Adobe Dynamic Media Classic可识别此元数据。 还可以在详细信息视图的“元数据”面板中将元数据添加到单个文件。 为了确保资源的一致性，公司管理员创建了元数据模板，提供可以填写的元数据字段。
 
@@ -39,7 +37,7 @@ ht-degree: 45%
 
 * **XMP**  — 由可扩展元数据程序定义的值。
 
-管理员可以创建元数据视图。这些视图也显示在“元数据视图”菜单中。
+管理员可以创建元数据视图。这些视图也会出现在元数据视图菜单中。
 
 请参阅 [元数据视图](application-setup.md#metadata_views) 有关创建元数据视图的信息。
 
@@ -55,13 +53,13 @@ ht-degree: 45%
 
 >[!NOTE]
 >
->要同时编辑多个资源的元数据，请选择资源并转到 **[!UICONTROL 文件]** > **[!UICONTROL 编辑信息]**. 在“编辑信息”窗口中对元数据所进行的编辑会应用于所有选定资源。
+>要同时编辑多个资源的元数据，请选择资源并转到 **[!UICONTROL 文件]** > **[!UICONTROL 编辑信息]**. 在编辑信息窗口中对元数据所做的编辑将应用于您选择的所有资源。
 
 ## 添加或编辑关键字 {#add-or-edit-keywords}
 
 除了元数据之外，您还可以使用关键字来帮助搜索和管理资源。
 
-如果在此会话期间将关键字添加到其他文件，或者从列表中删除了关键字，则关键字会出现在“关键字建议”表中。
+如果在此会话期间将关键字添加到其他文件，或者如果已将关键字从列表中删除，则它们将显示在“关键字建议”表格中。
 
 1. 在详细信息视图中打开文件。
 1. 选择 **[!UICONTROL 关键字]**.
@@ -74,7 +72,7 @@ ht-degree: 45%
 
 >[!NOTE]
 >
->在将关键字上传到Adobe Dynamic Media Classic时，可以向文件添加关键字。 在“上载作业选项”对话框中，选择 **[!UICONTROL 其他元数据]** 并输入关键字。
+>在将关键字上传到Adobe Dynamic Media Classic时，可以向文件添加关键字。 在“上载作业选项”对话框中，选择 **[!UICONTROL 更多元数据]** 并输入关键字。
 >请参阅[上载选项](uploading-files.md#upload_options)。
 
 ## 导入元数据 {#import-metadata}
@@ -83,7 +81,7 @@ ht-degree: 45%
 
 >[!NOTE]
 >
->您可以创建一个用于输入元数据的模板，以便可以将它正确导入Adobe Dynamic Media Classic。 创建模板之后，可以使用该模板输入元数据。
+>您可以创建一个用于输入元数据的模板，以便可以将它正确导入Adobe Dynamic Media Classic。 创建模板后，可以使用该模板输入元数据。
 >请参阅[创建模板以输入要上载的元数据](viewing-adding-exporting-metadata.md#create_a_template_for_entering_metadata_to_upload)。
 
 欲知关于标准化属性的更多信息，请访问 [AdobeXMP开发人员中心](https://www.adobe.com/devnet/xmp.html).
@@ -99,9 +97,9 @@ ht-degree: 45%
 
 在识别要导入的不同元数据类型时，请记住以下几点：
 
-* 用户定义的字段由其名称标识，如中所创建 **[!UICONTROL 设置]** > **[!UICONTROL 应用程序设置]** > **[!UICONTROL 元数据]** > **[!UICONTROL 用户定义的字段]**. 使用“生成文件”功能来获取采用正确导入格式的所有已定义 UDF 的列表。
-* “XMP 元数据”属性在（属性-）名称之前必须具有相关 XMP- 前缀。前缀和名称之间用冒号分隔。XMP前缀可在 **[!UICONTROL 设置]** > **[!UICONTROL 应用程序设置]** > **[!UICONTROL 元数据]** > **[!UICONTROL 元数据架构]** 编辑者。 技术名称可在相关 XMP 架构文档中找到。XMP属性名称未出现在“生成文件”功能中。
-* “元数据架构”属性在（属性-）名称之前必须具有相关前缀。前缀和名称之间用冒号分隔。前缀和属性名称是在元数据架构编辑器中定义的。元数据架构属性名称未出现在生成文件功能中。
+* 用户定义的字段由其名称标识，如中所创建 **[!UICONTROL 设置]** > **[!UICONTROL 应用程序设置]** > **[!UICONTROL 元数据]** > **[!UICONTROL 用户定义的字段]**. 使用 `Generate file` 功能以正确导入格式获取所有已定义UDF的列表。
+* “XMP 元数据”属性在（属性-）名称之前必须具有相关 XMP- 前缀。前缀和名称之间用冒号分隔。XMP前缀可在 **[!UICONTROL 设置]** > **[!UICONTROL 应用程序设置]** > **[!UICONTROL 元数据]** > **[!UICONTROL 元数据架构]** 编辑者。 技术名称可在相关 XMP 架构文档中找到。XMP属性名称未出现在 `Generate file` 功能。
+* “元数据架构”属性在（属性-）名称之前必须具有相关前缀。前缀和名称之间用冒号分隔。前缀和属性名称是在元数据架构编辑器中定义的。元数据架构属性名称未出现在 `Generate file` 功能。
 
 例如：关键字的XMP属性是前缀为“Dublin Core”的XMP架构 `dc` 和 `subject` 是技术XMP名称。 前缀和技术XMP名称将合并到 `dc:subject` 完整的属性名称。 在XML元数据导入格式中， `dc.subject` 必须为属性名称。 在制表符分隔的导入格式中，它必须是列标题。
 
@@ -157,7 +155,7 @@ Adobe Dynamic Media Classic提供了用于创建用于记录元数据的模板�
 1. 选择包含您希望用于模板的元数据字段的图像资源。
 1. 转到 **[!UICONTROL 文件]** > **[!UICONTROL 导入元数据]**.
 1. 对于 **[!UICONTROL 资产属性类型]**，选择 **[!UICONTROL 图像]**.
-1. 从 **[!UICONTROL 生成文件]** 下拉列表，选择 **[!UICONTROL 制表符分隔的模板]**， **[!UICONTROL 资产的XML元数据]**，或 **[!UICONTROL XML DTD]**.
+1. 从 **[!UICONTROL `Generate File`]** 下拉列表，选择 **[!UICONTROL 制表符分隔的模板]**， **[!UICONTROL 资产的XML元数据]**，或 **[!UICONTROL XML DTD]**.
 1. 选择 **[!UICONTROL 生成]**.
 1. 在显示的对话框中，复制数据。使用此数据构建模板。
 
@@ -179,7 +177,7 @@ Adobe Dynamic Media Classic提供了用于创建用于记录元数据的模板�
 | 上移/下移 | 架构的顺序反映在 UI 中。要更改此顺序，请选择属性或选项值，并通过按钮进行移动。当前不支持拖放。 |
 | 删除 | 从架构中删除属性或选项值。它不会从XMP块或数据库中删除值。 该属性不再可用于元数据视图，将从资产详细信息视图中删除。 如果属性已发布到元数据服务器，请执行强制发布以从面向公众的元数据服务器中删除数据。 |
 
-系统会自动为用户定义的字段生成一个前缀为的自定义架构 `s7udf`. 它是现有的用户定义的字段，并在其自己的设置部分中编辑。
+系统会自动为用户定义的字段生成一个前缀为的自定义架构 `s7udf`. 架构包含现有的用户定义的字段，这些字段在其自己的“设置”部分中进行了编辑。
 
 >[!NOTE]
 >
@@ -189,7 +187,7 @@ Adobe Dynamic Media Classic提供了用于创建用于记录元数据的模板�
 
 * **[!UICONTROL 名称]**  — 架构的UI名称。 用于在元数据视图和高级搜索中识别属性。类似于 XMP 部分，如“基本”、IPTC、PDF。
 
-* **[!UICONTROL 前缀]**  — 架构的技术唯一标识符。 仅限于字母a-z和A-Z。当资源的元数据存储在XMP块和数据库中时，前缀在Adobe Dynamic Media Classic UI中不可见，但已使用。 前缀用于在元数据服务器上的元数据搜索查询中或导入时唯一识别元数据字段。
+* **[!UICONTROL 前缀]**  — 架构的技术唯一标识符。 仅限于字母a-z和A-Z。前缀在Adobe Dynamic Media Classic UI中不可见，但在资源的元数据存储在XMP块和数据库中时使用。 前缀用于唯一标识元数据服务器上或导入的元数据搜索查询中的元数据字段。
 
 * **[!UICONTROL 命名空间]**  — 架构的技术唯一标识符，通常是表单中的URL `https://your.company.com/name/version/`. 有关示例，请参阅标准架构列表。命名空间在Adobe Dynamic Media Classic UI中不可见，但用于在XMP块中存储元数据。
 
@@ -203,7 +201,7 @@ Adobe Dynamic Media Classic提供了用于创建用于记录元数据的模板�
 
 | 属性 | 说明 |
 | --- | --- |
-| ID | 该属性的技术性标识符。ID在Adobe Dynamic Media Classic UI中不可见，但在将资源的元数据存储在XMP块和数据库中时，会使用ID。 ID 用于在元数据服务器上创建搜索查询。ID 具有以下限制： <ul><li>不得包含空格</li><li>不得包含“.”、“:”和“$”</li><li>第一个字符不得为数字</li><li>最好使用 a-z 或 A-Z 作为第一个字符</li></ul> <br>创建后，ID 即无法更改。 |
+| ID | 该属性的技术性标识符。该ID在Adobe Dynamic Media Classic UI中不可见，但在资源的元数据存储在XMP块和数据库中时使用。 ID用于在元数据服务器上创建搜索查询。 ID存在一些限制，例如： `<ul><li>No spaces</li><li>No ".", ":", "$"</li><li>No number as first character</li><li>Best practice is to use a-z or A-Z as first character</li></ul>` <br>创建后，无法更改ID。 |
 | 标签 | 该属性的 UI 名称。 |
 | 结构 | 与数据类型一起确定属性的类型。结构可能为：<ul><li>简单类型：单个数据类型值</li><li>序列：相同数据类型的值的列表</li><li>开放式选项：从预定义的值列表中选择一项，或随意输入文本。数据类型仅可为字符串型或整型</li><li>限定式选项：从预定义的值列表（弹出窗口或组合框）中选择一项</li></ul> |
 | 数据类型 | 从以下可用的类型中选择： <ul><li>字符串型</li><li>整型</li><li>浮点型</li><li>是/否（布尔型）</li><li>日期</li></ul> |

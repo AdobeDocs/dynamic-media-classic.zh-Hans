@@ -1,6 +1,6 @@
 ---
 title: Adobe Dynamic Media Classic桌面应用程序
-description: Adobe Dynamic Media Classic用户现在可以完全刷新用户界面。 该体验提供了更新的登录功能，其中包含指向重要资源的链接，此外，此更新不再依赖于浏览器中的AdobeFlash技术。
+description: Adobe Dynamic Media Classic用户现在可以完全刷新用户界面。
 contentOwner: rbrough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -9,9 +9,9 @@ role: Admin,User
 exl-id: d61ea80a-a98e-43e6-9e2e-4389962134f1
 topic: Administration
 level: Intermediate
-source-git-commit: a9bd472705bce32f63a5710c3266e51256d17a00
+source-git-commit: 910410706fbd9dd79a8dda402af454a50132cc41
 workflow-type: tm+mt
-source-wordcount: '1079'
+source-wordcount: '1054'
 ht-degree: 0%
 
 ---
@@ -94,9 +94,9 @@ Adobe致力于确保其产品满足客户的安全要求。 新的Adobe Dynamic 
 +++**_我想确保自己正在优化自己的富媒体策略。 如何进一步了解Adobe Dynamic Media Classic？_**
 Adobe Dynamic Media Classic是一种功能丰富的强大解决方案，旨在增强您的富媒体策略。 为确保您能够充分利用所有功能，请务必探索以下实用资源：
 
-* [Adobe Dynamic Media Classic最佳实践教程](https://experienceleague.adobe.com/docs/experience-manager-learn/dynamic-media-classic-tutorial/overview.html)
+* [Adobe Dynamic Media Classic最佳实践教程](https://experienceleague.adobe.com/en/docs/experience-manager-learn/dynamic-media-classic-tutorial/overview)
 * [Adobe博客帖子](https://blog.adobe.com/)<!-- (https://blog.adobe.com/tag/dynamic-media/) -->
-* [AdobeDynamic Media新闻稿存档](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/dynamic-media-newsletter.html)
+* [AdobeDynamic Media新闻稿存档](https://experienceleague.adobe.com/en/docs/dynamic-media-classic/using/dynamic-media-newsletter)
 +++
 
 <!-- HIDDEN AUGUST 2, 2021 BECAUSE THE NEWSLETTER WAS DISCONTINUED Plus, [subscribe to the Dynamic Media newsletter](https://www.adobe.com/subscription/dynamic-media-newsletter.html) to stay current on the latest news, information, training opportunities, powerful features available to you such as [Smart Imaging](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/imaging-faq.html), and the complementary audit program. -->

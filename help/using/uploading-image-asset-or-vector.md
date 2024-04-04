@@ -1,6 +1,6 @@
 ---
 title: 上传栅格图像资产
-description: 了解如何将光栅图像资产上传到Adobe Dynamic Media Classic
+description: 了解如何将光栅图像资产上传到Adobe Dynamic Media Classic。
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -9,10 +9,10 @@ role: User
 exl-id: 2ef78fe6-1e7c-4f48-86da-137ddaa55bbf
 topic: Content Management
 level: Intermediate
-source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
+source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
 workflow-type: tm+mt
-source-wordcount: '1008'
-ht-degree: 57%
+source-wordcount: '1010'
+ht-degree: 54%
 
 ---
 
@@ -120,7 +120,7 @@ https://s7ugc1.scene7.com/ugc/image?op=upload&upload_token=aa2a378a-cd25-4c80-99
 
 此 `file_limit` parameter指定文件大小限制（以字节为单位）。 此 `file_exts` 参数指定允许上载的文件扩展名。 这两个值都是可选的。
 
-对于允许的文件大小限制和文件扩展名，在应用程序中设置全局限制。如果请求中所发送的内容是全局限制的子集，则允许这一发送。全局限制如下所示：
+对于允许的文件大小限制和文件扩展名，在应用程序中设置全局限制。如果您在请求中发送的内容是全局限制的子集，则表示同意。 全局限制如下所示：
 
 | 全局限制 | 值 |
 | --- | --- |
@@ -138,9 +138,9 @@ https://s7ugc1.scene7.com/ugc/image?op=upload&upload_token=aa2a378a-cd25-4c80-99
 请参阅中的挖空背景 [上传时图像微调选项](image-editing-options-upload.md#image-editing-options-at-upload).
 * 要上传的文件的名称。
 
-您可以通过选择查看与上述表单关联的HTML源代码 [https://s7ugc1.scene7.com/ugc/upload.html](https://s7ugc1.scene7.com/ugc/upload.html)
+您可以通过选择，查看与上述表单相关联的HTML源代码 [https://s7ugc1.scene7.com/ugc/upload.html](https://s7ugc1.scene7.com/ugc/upload.html)
 
-在Firefox中，右键单击浏览器窗口，然后选择 **[!UICONTROL 查看页面源]**. 该代码显示相应的URL查询字符串以及在用户选择时运行的POST方法 **[!UICONTROL 提交]**.
+在Firefox中，右键单击浏览器窗口，然后选择 **[!UICONTROL 查看页面源]**. 该代码显示相应的URL查询字符串以及用户选择时运行的POST方法 **[!UICONTROL 提交]**.
 
 要在Internet Explorer中查看XML响应，请转到 **[!UICONTROL 视图]** > **[!UICONTROL 来源]**. 要在Firefox中查看XML响应，请转到 **[!UICONTROL 工具]** > **[!UICONTROL 浏览器工具]** > **[!UICONTROL Web开发人员工具]**. 建议使用 Firefox 查看 XML 响应。
 

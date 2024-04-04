@@ -10,9 +10,9 @@ role: Admin,User
 exl-id: 604b4630-4704-4254-84b5-91b33bb19d58
 topic: Administration
 level: Intermediate
-source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
+source-git-commit: 910410706fbd9dd79a8dda402af454a50132cc41
 workflow-type: tm+mt
-source-wordcount: '1981'
+source-wordcount: '1985'
 ht-degree: 0%
 
 ---
@@ -46,7 +46,7 @@ Adobe Dynamic Media Classic桌面应用程序中的升级通知不会为生成 *
 
 ## 最新版本(20.22.1)中的修复 {#release-jan2022}
 
-* 图像编辑 **[!UICONTROL 保存]** 按钮无法正常工作。
+* 编辑图像时， **[!UICONTROL 保存]** 按钮无法正常工作。
 * 在集编辑器中， **[!UICONTROL 关闭]**， **[!UICONTROL 保存]**、和 **[!UICONTROL 另存为]** 在中滚动资源后，按钮会变为禁用状态。 **[!UICONTROL 添加资产]** 面板。
 * **[!UICONTROL 播放]** “视频详细信息”视图中的按钮不起作用。
 * 无法进入 `d` 和 `e` 在 **[!UICONTROL 用户名]** 和 **[!UICONTROL 密码]** 运行macOS Monterey时显示的字段。
@@ -233,7 +233,7 @@ Adobe Dynamic Media Classic桌面应用程序中的升级通知不会为生成 *
 
 ## 有关使用Adobe Dynamic Media Classic桌面应用程序的视频演练 {#dmc-app-video-walk-through}
 
-观看 [有关使用Adobe Dynamic Media Classic桌面应用程序的视频演练](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/dynamic-media/dynamic-media-classic-desktop-application.html#dynamic-media) （长度：2分36秒）。
+观看 [有关使用Adobe Dynamic Media Classic桌面应用程序的视频演练](https://experienceleague.adobe.com/en/docs/experience-manager-learn/assets/dynamic-media/dynamic-media-classic-desktop-application#dynamic-media) （长度：2分36秒）。
 
 ## 使用桌面应用程序清除计算机上的图像缓存和资产缓存 {#clear-cache}
 

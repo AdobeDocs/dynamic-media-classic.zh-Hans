@@ -1,6 +1,6 @@
 ---
 title: 发布文件
-description: “了解如何将资源发布到Dynamic Media图像服务器。 您可以一次性发布资源，也可以安排Adobe Dynamic Media Classic按定期计划发布资源。 发布资源后，这些资源即可用来传送。您可以从Adobe Dynamic Media Classic复制URL调用，并将其添加到您的网站或应用程序。”
+description: 了解如何将资源发布到Dynamic Media图像服务器。
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -10,10 +10,10 @@ role: User
 exl-id: 91b73a09-c5b5-4001-b36f-6bebe65717ff
 topic: Content Management
 level: Intermediate
-source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
+source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
 workflow-type: tm+mt
-source-wordcount: '1726'
-ht-degree: 36%
+source-wordcount: '1672'
+ht-degree: 30%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 36%
 
 您可以将资源发布到Dynamic Media图像服务器。 您可以一次性发布资源，也可以安排Adobe Dynamic Media Classic按定期计划发布资源。 发布资源后，这些资源即可用来传送。您可以从Adobe Dynamic Media Classic复制URL调用，并将其添加到您的网站或应用程序。
 
-Adobe Dynamic Media Classic现在支持通过HTTP/2来交付所有图像和视频。 即，图像或视频的已发布URL或嵌入代码可用于与接受托管资产的任何应用程序集成。 随后，该已发布的资产将通过HTTP/2协议进行交付。 这种交付方法改进了浏览器和服务器的通信方式，使得所有Adobe Dynamic Media Classic资源都有更好的响应和加载时间。 请参阅 [http2内容交付常见问题解答](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/http2.html).
+Adobe Dynamic Media Classic现在支持通过HTTP/2来交付所有图像和视频。 即，图像或视频的已发布URL或嵌入代码可用于与接受托管资产的任何应用程序集成。 随后，该已发布的资产将通过HTTP/2协议进行交付。 这种交付方法改进了浏览器和服务器的通信方式，使得所有Adobe Dynamic Media Classic资源都有更好的响应和加载时间。 请参阅 [http2内容交付常见问题解答](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/http2).
 
 ## 在上载之后发布 {#publish-after-uploading}
 
@@ -29,13 +29,13 @@ Adobe Dynamic Media Classic现在支持通过HTTP/2来交付所有图像和视�
 
 欲了解更多信息，请参见 [即时发布通知PDF](/help/using/assets/rendering-instant-publish-notification.pdf).
 
-使用以下方法将资源标记为发布：
+使用这些技术标记要发布的资产：
 
 * **[!UICONTROL 上传后发布]**  — 在上传页面底部附近，选择 **[!UICONTROL 上传后发布]**. 默认情况下，将处于选定状态。
 
 * **[!UICONTROL 上传后发布]**  — 在“作业选项”对话框中，选择 **[!UICONTROL 上传后发布]**. 默认情况下，将处于选定状态。
 
-如果父项资源标记为发布，则一些“子项”资源会自动标记为发布。该表列出自动标记为发布的子项资源。
+如果父项资源标记为发布，则一些“子项”资源会自动标记为发布。此表列出了自动标记为发布的子资产。
 
 | 父（组）项 | 子（成员）项 |
 | --- | --- |
@@ -44,7 +44,7 @@ Adobe Dynamic Media Classic现在支持通过HTTP/2来交付所有图像和视�
 | 旋转集 | 集中的图像。 |
 | 模板 | 模板文件、页面和图像。 |
 
-在发布父图像时，也会自动将派生的图像标记为发布。派生图像包括您使用图像编辑选项调整的图像。您可以在“详细视图”中的“构建和派生”下看到这些派生的图像。
+在发布衍生图像的父图像时，也会自动将其标记为发布。 派生图像包括您使用图像编辑选项调整的图像。您可以在“详细视图”中的“构建和派生”下看到这些派生的图像。
 
 ## 创建发布作业 {#creating-a-publish-job}
 
@@ -53,7 +53,7 @@ Adobe Dynamic Media Classic现在支持通过HTTP/2来交付所有图像和视�
 **要创建发布作业，请执行以下操作：**
 
 1. 在全局导航栏上，选择 **[!UICONTROL Publish]**.
-1. 在“发布”对话框中，选择是要使用一次性还是重复发布作业。
+1. 在“发布”对话框中，选择想要一次性发布作业还是循环发布作业。
 
    请参阅 [创建一次性发布作业](publishing-files.md#creating_a_one_time_publish_job) 和 [创建定期发布作业](publishing-files.md#creating_a_recurring_publish_job).
 
@@ -74,7 +74,7 @@ Adobe Dynamic Media Classic跟踪“作业”页面上的发布作业。 您可�
 
 通过选择 **[!UICONTROL 一次性]** 选项。
 
-如果希望发布作业稍后发生，请在“发布”页面中，选择 **[!UICONTROL 一次性]**，然后选择 **[!UICONTROL 稍后计划]** 下拉列表中。 使用日历和时间滑块选择运行发布作业的日期和时间。
+如果希望发布作业稍后发生，请在“发布”页面中选择 **[!UICONTROL 一次性]**. 从下拉列表中，选择 **[!UICONTROL 稍后计划]**. 使用日历和时间滑块选择运行发布作业的日期和时间。
 
 ### 创建定期发布作业 {#creating-a-recurring-publish-job}
 
@@ -90,13 +90,13 @@ Adobe Dynamic Media Classic跟踪“作业”页面上的发布作业。 您可�
 
 ### 高级发布选项 {#advanced-publish-options}
 
-您可以在“发布”页中显示高级选项，并选择这些选项以处理发布作业：
+您可以在“发布”页面上显示“高级”选项，并选择这些选项来处理发布作业：
 
 * **[!UICONTROL 发布到]**  — 要仅将资产发布到特定服务器，请选择服务器类型。
 
 * **[!UICONTROL Publish]**  — 默认情况下，Adobe Dynamic Media Classic仅发布新资产，并且以前未发布过这些资产（新的自上次发布后发布选项）。 但是，您可以选择 **[!UICONTROL 完全发布]** 用于同时发布自上次发布以来已更新或更改的资源。 选择 **[!UICONTROL 全部（包含搜索数据）]** 如果您要发布eCatalog，并且希望读者能够按关键字搜索它。
 
-* **[!UICONTROL 作业运行身份]**  — 从列表中选择用户名。 可以在“作业”页中按用户名对作业进行排序。可以通过选择名称将发布作业与用户关联。
+* **[!UICONTROL 作业运行身份]**  — 从列表中选择用户名。 可以在“作业”页中按用户名对作业进行排序。通过选择名称，可以将发布作业与用户相关联。
 
 **[!UICONTROL HTTP通知]**  — 输入URL以触发后续发布作业。
 
@@ -110,7 +110,7 @@ Adobe Dynamic Media Classic跟踪“作业”页面上的发布作业。 您可�
 
 >[!NOTE]
 >
->取消发布作业后，其状态将更改为“正在停止”，直到作业达到可以安全停止的时间点为止。 如果作业正从数据库获取数据，则停止发布作业可能会花费一些时间。
+>取消发布作业后，其状态将更改为“正在停止”，直到作业达到可以安全停止的时间点为止。 如果发布作业正在从数据库获取数据，则停止发布作业可能需要一些时间。
 
 ## 手动发布资源 {#manually-publishing-assets}
 

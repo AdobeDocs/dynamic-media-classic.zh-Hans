@@ -7,9 +7,9 @@ role: Admin,User
 exl-id: af29eabb-f7c6-420b-9c63-9d60ee2dc148
 topic: Administration
 level: Intermediate
-source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
+source-git-commit: 910410706fbd9dd79a8dda402af454a50132cc41
 workflow-type: tm+mt
-source-wordcount: '575'
+source-wordcount: '517'
 ht-degree: 3%
 
 ---
@@ -26,13 +26,13 @@ ht-degree: 3%
 
 ## Dynamic Media开发人员资源
 
-* [Dynamic Media开发人员资源登陆页面](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources.html)  — 包含查看器参考指南、图像服务/图像渲染API、图像生产系统API和Adobe Dynamic Media Classic发行说明。
+* [Dynamic Media开发人员资源登陆页面](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources)  — 包含查看器参考指南、图像服务/图像渲染API、图像生产系统API和Adobe Dynamic Media Classic发行说明。
 * [查看器库示例](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)  — 包括视频、可购物媒体、混合媒体、旋转集、内联缩放、图像和样本集以及飞出的查看器示例。
 
 ## Adobe Dynamic Media Classic用户资源
 
 * [Dynamic Media每月新闻稿](dynamic-media-newsletter.md)
-* [Adobe Dynamic Media Classic最佳实践教程](https://experienceleague.adobe.com/docs/experience-manager-learn/dynamic-media-classic-tutorial/overview.html)
+* [Adobe Dynamic Media Classic最佳实践教程](https://experienceleague.adobe.com/en/docs/experience-manager-learn/dynamic-media-classic-tutorial/overview)
 * [指南：用于锐化图像的最佳实践指南](/help/using/assets/s7_sharpening_images.pdf)
 * [指南：Adobe Dynamic Media Classic如何支持SEO](/help/using/assets/s7_seo.pdf)  — 现在的搜索引擎支持搜索网站和图像。 Adobe Dynamic Media Classic支持努力使图像搜索引擎友好，以便为Adobe Dynamic Media Classic用户的网站带来更多流量。 本PDF版指南提供了实现这一目标的背景和实施建议。
 <!-- * [Webinar: Best Practices for Responsive Design](http://offers.adobe.com/en/na/marketing/landings/_40458_responsive_design_live_on_demand_webinar.html) - Learn practical tips on how to improve your mobile strategy. See real-world examples of responsive design in action. Create one primary asset that works across multiple devices and increase mobile performance by dynamically changing the resolution of images or the orientation of images for portrait or landscape displays. Learn how to also dynamically crop, scale, or resize images. -->

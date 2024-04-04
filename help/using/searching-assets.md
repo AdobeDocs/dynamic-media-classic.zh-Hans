@@ -1,21 +1,19 @@
 ---
 title: 搜索Dynamic Media Classic资源
 description: 了解如何在Adobe Dynamic Media Classic中搜索资源。
-uuid: 058209bc-bac4-4d5c-8261-e242a543beaf
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
-discoiquuid: effef4e7-37c5-42e2-9266-ecd026cad628
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 4b3f690c-7dff-4bf0-9366-085ba918fe6b
 topic: Content Management
 level: Intermediate
-source-git-commit: 597b7d6bd98c59a644984baeecb888f86a8975c9
+source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
 workflow-type: tm+mt
-source-wordcount: '1510'
-ht-degree: 17%
+source-wordcount: '1511'
+ht-degree: 18%
 
 ---
 
@@ -79,7 +77,7 @@ ht-degree: 17%
    1. 选择 **[!UICONTROL 添加字段]** 下拉菜单，然后选择字段名称。
    1. 选择 **[!UICONTROL 包含]** 选项： **[!UICONTROL 包含]**， **[!UICONTROL 不包含]**， **[!UICONTROL 开头为]**， **[!UICONTROL 结尾为]**，或 **[!UICONTROL 等于]**.
    1. 对于数字字段，选择一个值或输入一个自定义日期范围。
-   1. （可选）重复步骤1 - 4以创建更多搜索字段。
+   1. （可选）重复步骤 1-4 创建更多个搜索字段。
 
 选择 **[!UICONTROL 删除搜索字段]** 图标（内部带有“X”的圆形），因此删除搜索字段。
 
