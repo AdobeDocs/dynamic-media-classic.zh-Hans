@@ -12,10 +12,10 @@ role: User
 exl-id: 05769eeb-5f1b-42ff-9392-2669f5051140
 topic: Content Management
 level: Intermediate
-source-git-commit: a9bd472705bce32f63a5710c3266e51256d17a00
+source-git-commit: 5b5dcd1199bd51ec987b5673fce75bc86baad55b
 workflow-type: tm+mt
-source-wordcount: '460'
-ht-degree: 17%
+source-wordcount: '454'
+ht-degree: 18%
 
 ---
 
@@ -35,8 +35,8 @@ Adobe Dynamic Media Classic附带默认查看器预设。 管理员可以创建�
    * 要创建预设，请选择 **[!UICONTROL 添加]**. 在添加查看器预设对话框的查看器下拉列表中，选择 **[!UICONTROL 样本集查看器]**，然后选择 **[!UICONTROL 添加]**.
    * 要编辑现有的样本集查看器预设，请选择该预设，然后选择 **[!UICONTROL 编辑]**.
 
-1. 在“配置查看器”页面的“预设名称”文本字段中，键入样本集查看器预设的名称。
-1. 选择“配置查看器”页上的选项。
+1. 在 `Configure Viewer` 页面，在预设名称文本字段中，键入样本集查看器预设的名称。
+1. 选择上的选项 `Configure Viewer` 页面。
 
    要查看选项的说明，请选择 **[!UICONTROL 信息提示]** 图标（位于选项的右侧）。
 
@@ -56,7 +56,7 @@ Adobe Dynamic Media Classic附带默认查看器预设。 管理员可以创建�
    * 在Adobe Dynamic Media Classic窗口的右上角附近，选择 **[!UICONTROL 网格视图]** 图标。 在资源窗口的资源缩略图窗口中，选择 **[!UICONTROL 预览]** （不是“预览”下拉列表）。
    * 在Adobe Dynamic Media Classic窗口的右上角附近，选择 **[!UICONTROL 详细信息视图]** 图标。 在同一工具栏上，选择 **[!UICONTROL 预览]** （不是“预览”下拉列表）。
 
-1. （可选）在“预览”窗口的底部下拉列表中，选择要在复制资产的URL时应用到该资产的URL的URL编码。
+1. （可选）在“预览”窗口的底部下拉列表中，选择复制资产URL时要应用于该资产URL的URL编码。
 1. 要在选定的查看器中预览资产，请选择查看器链接。
 
    选择给定的查看器链接时，其关联的URL会自动复制到剪贴板。

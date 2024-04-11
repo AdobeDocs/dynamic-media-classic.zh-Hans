@@ -1,26 +1,24 @@
 ---
 title: 删除上传的光栅图像资产
-description: 了解如何在Adobe Dynamic Media Classic中删除上传的资源。
-uuid: edd2b688-c377-4be1-ba16-d2dd2e6f716d
+description: 了解如何在Adobe Dynamic Media Classic中删除已上传的资源。
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
-discoiquuid: dd338c8c-06c6-44d5-8493-dc2087eeeafb
 feature: Dynamic Media Classic
 role: User
 exl-id: d845bcb2-f914-4727-8df2-049dc172f266
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: 5b5dcd1199bd51ec987b5673fce75bc86baad55b
 workflow-type: tm+mt
-source-wordcount: '131'
-ht-degree: 49%
+source-wordcount: '136'
+ht-degree: 34%
 
 ---
 
-# 删除上传的资产{#deleting-an-uploaded-asset}
+# 删除上传的资源{#deleting-an-uploaded-asset}
 
-您可以按照以下格式使用 `delete` 参数删除某个资源：
+您可以使用 `delete` 参数以删除资产：
 
 ```as3
 https://s7ugc1.scene7.com/ugc/image?op=delete&shared_secret=fece4b21-87ee-47fc-9b99-2e29b78b602&image_name=1442564.tif
@@ -56,7 +54,7 @@ https://s7ugc1.scene7.com/ugc/image?op=delete&shared_secret=fece4b21-87ee-47fc-9
 
 >[!IMPORTANT]
 >
->从2023年5月1日开始，Dynamic Media中的UGC资源最多可在上传日期后60天内使用。 60天后，这些资产将被删除。
+>从2023年5月1日开始，Dynamic Media中的UGC资源最多可在上传日期起60天内使用。 60天后，将删除资源。
 
 >[!NOTE]
 >

@@ -1,19 +1,17 @@
 ---
 title: 设置eCatalog查看器预设
 description: 了解如何在Adobe Dynamic Media Classic中设置eCatalog查看器预设。
-uuid: aca66bc5-8491-4d81-9a06-1d3531860a14
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
-discoiquuid: 6c123f85-3bc4-4392-a7fb-55618127c65e
 feature: Dynamic Media Classic,Viewers,Viewer Presets,eCatalog
 role: User
 exl-id: 4357e6b8-fbc5-4e93-9476-db92a7dc7464
 topic: Integrations, Development
 level: Experienced
-source-git-commit: a9bd472705bce32f63a5710c3266e51256d17a00
+source-git-commit: 5b5dcd1199bd51ec987b5673fce75bc86baad55b
 workflow-type: tm+mt
-source-wordcount: '488'
+source-wordcount: '482'
 ht-degree: 25%
 
 ---
@@ -35,8 +33,8 @@ eCatalog查看器预设提供了许多设置，可用于在页面之间切换、
 
    * **编辑eCatalog查看器预设**  — 选择eCatalog查看器预设，然后选择 **[!UICONTROL 编辑]**. 选择 **[!UICONTROL 另存为]** 完成预设创建之后。
 
-1. 在配置查看器页面上，输入eCatalog查看器预设的名称。
-1. 在“配置查看器”页面上，设置所需的选项。
+1. 在 `Configure Viewer` 页面，输入eCatalog查看器预设的名称。
+1. 在 `Configure Viewer` 页面上，设置所需的选项。
 
    选择 **[!UICONTROL 信息提示]** 图标（如果您要读取其说明）。
 
@@ -57,7 +55,7 @@ eCatalog查看器预设提供了许多设置，可用于在页面之间切换、
 >要使用此响应模板而不是eCatalog本身中定义的模板，请添加 `fmt=1` 到信息服务器URL的末尾。 例如： `https://.../$3$/$4$/$1$/?FMT=1`.
 
 1. 选择 **[!UICONTROL 保存]**.
-1. 选择 **[!UICONTROL 默认]** 如果您希望创建的eCatalog查看器预设是用于在网页上显示eCatalog的预设。
+1. 选择 **[!UICONTROL 默认]** 这样，您创建的eCatalog查看器预设就是用于在网页上显示eCatalog的预设。
 
 要删除eCatalog查看器预设，请在“查看器预设”屏幕上选择它，然后选择 **[!UICONTROL 删除]**.
 

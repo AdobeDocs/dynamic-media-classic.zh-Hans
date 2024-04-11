@@ -1,21 +1,19 @@
 ---
-title: "快速入门：样本集"
+title: “快速入门：样本集”
 description: 样本集简介和快速入门可帮助您在Adobe Dynamic Media Classic中快速启动和运行。
-uuid: 6f8a95e8-e82a-477f-9f21-d2b7b511f8ae
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/swatch_sets
-discoiquuid: 1ea70fdf-3cbd-409c-ae7d-06286c99c6ac
 feature: Dynamic Media Classic,Viewers
 role: User
 exl-id: b0c345dc-539f-4b03-a873-091681e2f2c2
 topic: Content Management
 level: Beginner
-source-git-commit: faa1784e1d19b1167cad5749dc04227e3ff388e5
+source-git-commit: 5b5dcd1199bd51ec987b5673fce75bc86baad55b
 workflow-type: tm+mt
-source-wordcount: '398'
-ht-degree: 18%
+source-wordcount: '404'
+ht-degree: 17%
 
 ---
 
@@ -51,7 +49,7 @@ Adobe Dynamic Media Classic样本集为用户提供了集成的查看体验。 �
 
 发布样本集会将其放置在Adobe Dynamic Media Classic服务器上并激活URL字符串。
 
-选择 **[!UICONTROL 标记为发布]** 图标（其名称左侧）。 然后，选择 **[!UICONTROL Publish]**. 在发布页面上，选择 **[!UICONTROL 提交发布]**.
+选择 **[!UICONTROL 标记为发布]** 图标（其名称左侧）。 然后选择 **[!UICONTROL Publish]**. 在发布页面上，选择 **[!UICONTROL 提交发布]**.
 
 请参阅 [发布文件](publishing-files.md#publishing-files).
 

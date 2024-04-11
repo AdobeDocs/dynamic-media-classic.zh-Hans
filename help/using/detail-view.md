@@ -1,20 +1,18 @@
 ---
 title: 在“详细信息”视图中工作
 description: 了解如何在Adobe Dynamic Media Classic的“详细信息”视图中工作。
-uuid: cb62f765-9b7f-4a53-8206-99afae2fb80d
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
-discoiquuid: eaa214ff-d1ef-4691-9148-d01bf243c810
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 618ae6a4-6f60-4a80-b197-a9d35b3c47af
 topic: Content Management
 level: Intermediate
-source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
+source-git-commit: 5b5dcd1199bd51ec987b5673fce75bc86baad55b
 workflow-type: tm+mt
-source-wordcount: '618'
+source-wordcount: '617'
 ht-degree: 20%
 
 ---
@@ -56,15 +54,15 @@ Last Modified Date: 2018-06-14T13:52:46.623-0400
 
 ## 在“详细信息”视图中获取信息 {#getting-information-in-detail-view}
 
-“详细信息视图”提供有关资产或文件的信息。 它显示有关项目的以下信息：存储项目的文件夹、文件名、将项目上传到Adobe Dynamic Media Classic的日期及其发布历史记录。 您还可以查看和编辑元数据，并在详细信息视图中为资源添加关键字。
+“详细信息视图”提供有关资产或文件的信息。 显示有关项目的以下信息：存储项目的文件夹、其文件名、将项目上传到Adobe Dynamic Media Classic的日期及其发布历史记录。 您还可以查看和编辑元数据，并在详细信息视图中为资源添加关键字。
 
-您可以在详细信息视图中获取资产URL；但是，在发布资产之前，该URL处于不活动状态。 对于图像，详细信息视图还提供构建和派生资源及元数据的列表，例如缩放目标和图像集。
+您可以在详细信息视图中获取资产URL；但是，在发布资产之前，该URL处于不活动状态。 对于图像，“详细信息视图”还提供构建和派生资源及元数据的列表，例如缩放目标和图像集。
 
 ## 在“详细信息”视图中使用资产 {#working-with-assets-in-detail-view}
 
 “详细信息视图”提供了用于处理所打开资产的工具。 可用的工具取决于您使用的资源类型，但“详细信息视图”始终提供以下功能：
 
-* **发布项目**  — 选择 **[!UICONTROL Publish]** 图标，或转到 **[!UICONTROL 文件]** > **[!UICONTROL Publish]** 或 **[!UICONTROL 文件]** > **[!UICONTROL 取消发布]**.
+* **发布项目**  — 选择 **[!UICONTROL `Publish`]** 图标，或转到 **[!UICONTROL 文件]** > **[!UICONTROL Publish]** 或 **[!UICONTROL 文件]** > **[!UICONTROL 取消发布]**.
 
 * **重命名资源**  — 选择名称并输入新名称。
 

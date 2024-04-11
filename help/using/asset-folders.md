@@ -1,20 +1,18 @@
 ---
 title: 使用资源文件夹
 description: 了解如何在Adobe Dynamic Media Classic中使用资源文件夹。
-uuid: 3bd83701-e2c2-4e39-b225-c2d27ad836c2
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
-discoiquuid: 588944c3-78ba-4bd1-a8da-9a6dd99a27a9
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 8599d4a3-57eb-4432-812f-7e55a4315c1b
 topic: Content Management
 level: Intermediate
-source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
+source-git-commit: 5b5dcd1199bd51ec987b5673fce75bc86baad55b
 workflow-type: tm+mt
-source-wordcount: '455'
+source-wordcount: '449'
 ht-degree: 39%
 
 ---
@@ -23,7 +21,7 @@ ht-degree: 39%
 
 Adobe Dynamic Media Classic中的文件资源保存在文件夹中。 这些文件夹在“资源库”面板中按字母顺序排列。在将文件从计算机或网络上传到Adobe Dynamic Media Classic之前，系统会要求您命名用于存储这些文件的文件夹。 请在上载任何文件之前创建这些文件夹。
 
-在上传文件之前，请务必建立文件夹结构和组织以将文件存储在Adobe Dynamic Media Classic上。
+在上传文件之前，请务必在Adobe Dynamic Media Classic上建立用于存储文件的文件夹结构和组织。
 
 ## 显示、移动、隐藏和打开文件夹 {#displaying-moving-hiding-and-opening-folders}
 
@@ -41,10 +39,10 @@ Adobe Dynamic Media Classic中的文件资源保存在文件夹中。 这些文�
 >
 >您可以通过选择来隐藏或显示资源库 **[!UICONTROL 展开]** 或 **[!UICONTROL 折叠]** 左手边有控制力。 当需要更多空间来处理浏览面板中的内容时，可将“资源库”面板折叠起来。
 
-## 创建文件夹 {#creating-folders}
+## 创建文件夹
 
 1. 在资源库中，选择要在其中创建文件夹的文件夹。
-1. 选择 **[!UICONTROL 添加文件夹]** 按钮。 此图标位于文件夹列表的顶部。
+1. 选择 **[!UICONTROL `Add Folder`]** 按钮。 此图标位于文件夹列表的顶部。
 1. 为新文件夹或子文件夹输入一个描述性名称，方法是在文件夹图标旁的字段中键入该名称。
 
    >[!NOTE]
@@ -55,7 +53,7 @@ Adobe Dynamic Media Classic中的文件资源保存在文件夹中。 这些文�
 
 选择一个文件夹，然后使用以下方法对其进行删除或重命名：
 
-* **删除**  — 选择 **[!UICONTROL 删除文件夹]** 按钮。 被删除文件夹中的资源被置于垃圾桶文件夹中。您可以从那里恢复它们。
+* **删除**  — 选择 **[!UICONTROL `Remove Folder`]** 按钮。 被删除文件夹中的资源被置于垃圾桶文件夹中。您可以从那里恢复它们。
 
 * **重命名**  — 双击名称并输入新名称。
 

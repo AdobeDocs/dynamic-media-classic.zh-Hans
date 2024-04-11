@@ -10,16 +10,16 @@ role: User
 exl-id: 09fafdb4-51e2-4719-83b6-056f79d1ba9e
 topic: Content Management
 level: Intermediate
-source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
+source-git-commit: 5b5dcd1199bd51ec987b5673fce75bc86baad55b
 workflow-type: tm+mt
 source-wordcount: '769'
-ht-degree: 51%
+ht-degree: 45%
 
 ---
 
 # 管理图像集中的信息面板内容{#managing-info-panel-content-in-image-sets}
 
-除了在图像集中将图像映射文本用于变换之外，还可以使用“信息面板”添加大量变换文本（包括链接）。还可以使用定时缓存和计划内容更新来管理信息面板。
+除了在图像集中将图像映射文本用于变换之外，还可以使用“信息面板”添加大量变换文本（包括链接）。您还可以通过使用时间缓存和计划内容更新来管理信息面板。
 
 您可以使用Adobe Dynamic Media Classic中的以下功能管理信息面板设置和数据：
 
@@ -55,7 +55,7 @@ ht-degree: 51%
 
 ## 导入图像集中信息面板的源内容 {#import-source-content-for-the-info-panel-in-image-sets}
 
-您可以将采用 ASCII 编码（必须对非 ASCII 字符进行 HTML 编码）的 CSV（逗号分隔值）文件或制表符分隔文件用于图像集信息面板的源文本。制表符分隔文件必须使用 UTF-16 (Unicode) 编码。使用不同的方法导入不同的文件类型。
+您可以使用带有ASCII编码的CSV（逗号分隔值）文件(非ASCII字符必须为HTML编码)或以制表符分隔的文件作为图像集信息面板的源文本。 制表符分隔文件必须使用 UTF-16 (Unicode) 编码。使用不同的方法导入不同的文件类型。
 
 格式化源内容时，谨记以下指导原则：
 
