@@ -1,18 +1,16 @@
 ---
 title: 在浏览面板中选择资源
 description: 了解如何在Adobe Dynamic Media Classic的“浏览”面板中选择资源。
-uuid: 0790e6d0-b898-42b1-977f-8316e6b19573
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
-discoiquuid: 8e6ce2bf-c99b-4106-942a-1716f152c7b2
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: eb8afc39-7784-4e32-80b6-2b87f3e0acff
 topic: Content Management
 level: Intermediate
-source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
+source-git-commit: 914fde11270dc731a261da3305b29dd573584d93
 workflow-type: tm+mt
 source-wordcount: '108'
 ht-degree: 18%

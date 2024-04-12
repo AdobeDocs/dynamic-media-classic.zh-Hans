@@ -1,18 +1,16 @@
 ---
 title: 使用PostScript和Illustrator文件
 description: 了解如何在Adobe Dynamic Media Classic中使用PostScript和Illustrator文件。
-uuid: 36dee172-8bd4-45a9-820b-c2ca319edf20
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
-discoiquuid: c04c1331-8d94-449b-9693-1488c94084dc
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 08f14fe9-3e3b-4235-a6c5-b6b6d2ffc4bd
 topic: Integrations, Development
 level: Experienced
-source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
+source-git-commit: 914fde11270dc731a261da3305b29dd573584d93
 workflow-type: tm+mt
 source-wordcount: '215'
 ht-degree: 36%
@@ -21,7 +19,7 @@ ht-degree: 36%
 
 # 使用PostScript和Illustrator文件{#working-with-postscript-and-illustrator-files}
 
-您可以在Adobe Dynamic Media Classic中使用Adobe PostScript® (EPS)和Adobe® Illustrator® (AI)文件。 Adobe Dynamic Media Classic提供上传这些文件时用于配置这些文件的命令。
+您可以在Adobe Dynamic Media Classic中使用Adobe PostScript® (EPS)和Adobe® Illustrator® (AI)文件。 Adobe Dynamic Media Classic提供在上传这些文件时配置这些文件的命令。
 
 上载 PostScript (EPS) 或 Illustrator (AI) 图像文件时，您可以通过各种方法对它们进行格式化。您可以栅格化文件、将文件转换为 FXG 以便进行模板发布、保持透明背景、选择分辨率以及选择颜色空间。用于格式化 PostScript 和 Illustrator 文件的选项位于“上载”屏幕上“PostScript 选项”和“Illustrator 选项”下方的“上载作业选项”框中。
 

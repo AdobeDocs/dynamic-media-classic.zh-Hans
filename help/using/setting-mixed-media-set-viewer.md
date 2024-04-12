@@ -1,27 +1,25 @@
 ---
 title: 设置混合媒体集查看器预设
 description: 了解如何在Adobe Dynamic Media Classic中设置混合媒体集查看器预设。
-uuid: d5bf1840-e453-445d-bebc-84889b29f3c8
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/mixed_media_sets
-discoiquuid: 8029aad8-d696-4d7c-99e2-3b08edb68181
 feature: Dynamic Media Classic,Viewers,Mixed Media Sets
 role: User
 exl-id: d41b30e7-994a-43f3-8698-7dbfc36305ae
 topic: Content Management
 level: Intermediate
-source-git-commit: faa1784e1d19b1167cad5749dc04227e3ff388e5
+source-git-commit: 914fde11270dc731a261da3305b29dd573584d93
 workflow-type: tm+mt
-source-wordcount: '613'
-ht-degree: 40%
+source-wordcount: '614'
+ht-degree: 36%
 
 ---
 
 # 设置混合媒体集查看器预设{#setting-up-a-mixed-media-set-viewer-preset}
 
-混合媒体集查看器预设决定着主查看器的样式、行为和外观。配置预设时，指定要在混合媒体查看器内显示的其他查看器。例如，如果已经在混合媒体集中包含图像集，则为该混合媒体集查看器指定图像集查看器预设。
+混合媒体集查看器预设决定着主查看器的样式、行为和外观。配置预设时，指定要在混合媒体查看器内显示的其他查看器。例如，如果您在混合媒体集中包含图像集，请为混合媒体集查看器指定图像集查看器预设。
 
 可以选择在混合媒体集查看器中包含全部或部分社区功能。嵌入功能添加了一个指向查看器的链接，允许用户复制在外部页面（如博客、网站或社交网站）中显示查看器所需的代码。“链接”功能提供查看器的 URL，以便用户可以链接回该查看器。“访问”功能提供指向所指定网站的链接。
 

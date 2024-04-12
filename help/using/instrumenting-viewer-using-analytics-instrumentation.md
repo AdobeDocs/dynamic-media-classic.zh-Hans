@@ -1,18 +1,16 @@
 ---
 title: 使用Adobe Analytics检测工具包检测查看器
 description: 了解如何使用Adobe Dynamic Media Classic中的Adobe Analytics Instrumentation Kit检测查看器。
-uuid: cf9a4002-966d-4641-9cd0-2ee8b5454f60
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/adobe_analytics_instrumentation_kit
-discoiquuid: a2824244-1755-42de-a167-42af117cf038
 feature: Dynamic Media Classic
 role: Data Engineer,Admin,User
 exl-id: 9ea1546d-e6d1-4ba4-8fa1-26b4e69375ba
 topic: Integrations, Development
 level: Experienced
-source-git-commit: a9bd472705bce32f63a5710c3266e51256d17a00
+source-git-commit: 914fde11270dc731a261da3305b29dd573584d93
 workflow-type: tm+mt
 source-wordcount: '303'
 ht-degree: 20%
