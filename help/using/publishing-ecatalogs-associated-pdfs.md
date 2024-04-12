@@ -10,10 +10,10 @@ role: User
 exl-id: 00b70162-2394-433d-a46c-1d90667030af
 topic: Integrations, Development
 level: Experienced
-source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
 source-wordcount: '193'
-ht-degree: 21%
+ht-degree: 20%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 21%
 
    如果将 eCatalog 设置为查看人员可以执行关键字搜索，应确保发布关键字数据。在发布对话框中，选择 **[!UICONTROL 高级]**. 从 **[!UICONTROL Publish]** 下拉菜单，选择 **[!UICONTROL 全部（包含搜索数据）]**. 此选项默认为已选中。
 
-1. 单击“**[!UICONTROL 提交发布]**”。
+1. 选择 **[!UICONTROL 提交发布]**.
 
 >[!MORELIKETHIS]
 >

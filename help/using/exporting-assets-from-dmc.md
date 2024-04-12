@@ -1,18 +1,16 @@
 ---
 title: 从Adobe Dynamic Media Classic导出资源
 description: 了解如何从Adobe Dynamic Media Classic导出资源。
-uuid: d42b7a73-80c0-4a9a-a04e-7ef53e6fcf22
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
-discoiquuid: eb850ec7-a669-41ea-b2b0-4c9178e34f95
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 5e3b0002-5ae2-4437-862f-caa098b04362
 topic: Content Management
 level: Intermediate
-source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
 source-wordcount: '437'
 ht-degree: 48%
@@ -25,7 +23,7 @@ ht-degree: 48%
 
 可用于导出作业的 Zip 压缩文件的最大文件大小为 1 GB。此外，每个导出作业最多允许500个总资产。
 
-Adobe Dynamic Media Classic会在“作业”屏幕中保留导出作业的记录。
+Adobe Dynamic Media Classic会保留“作业”屏幕中导出作业的记录。
 
 **要从Adobe Dynamic Media Classic导出资源，请执行以下操作：**
 

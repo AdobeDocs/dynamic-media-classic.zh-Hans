@@ -10,10 +10,10 @@ role: User
 exl-id: a9250841-2dba-4fdc-8a6e-91b2fecef72f
 topic: Content Management
 level: Intermediate
-source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
-source-wordcount: '628'
-ht-degree: 38%
+source-wordcount: '623'
+ht-degree: 28%
 
 ---
 
@@ -49,13 +49,13 @@ Chapter 4
 Cost-efficient access to rapidly evolving technology.
 ```
 
-在上面的示例中，`Chapter 1` 是可选的提示标识符。的提示时间 `00:00:000 --> 01:04:364` 指定章节的开始时间和结束时间（以00为单位）:00:000格式。 最后三个数字是毫秒；如果需要，可以将其保留为 000。的章节标题 `The bicycle store behind it all` 是章节内容的实际描述。 当指针悬停在视频时间轴中的可视提示点上时，提示标识符、开始提示时间和章节标题都会显示在视频播放器的弹出窗口中。
+在上面的示例中， `Chapter 1` 是提示标识符，且是可选的。 的提示时间 `00:00:000 --> 01:04:364` 指定章节的开始时间和结束时间（以00为单位）:00:000格式。 最后三个数字是毫秒；如果需要，可以将其保留为 000。的章节标题 `The bicycle store behind it all` 是章节内容的实际描述。 当指针悬停在视频时间轴中的可视提示点上时，提示标识符、开始提示时间和章节标题都会显示在视频播放器的弹出窗口中。
 
 由于使用的是 HTML5 视频查看器，请确保创建的章节文件遵循 WebVTT（Web 视频文本跟踪）标准。章节文件扩展名为.VTT。 您可以了解有关 WebVTT 题注标准的详细信息。
 
 请参阅 [WebVTT： Web视频文本跟踪格式](https://w3c.github.io/webvtt/).
 
-**在视频中添加章节标记:**
+**要向视频添加章节标记，请执行以下操作：**
 
 1. 使用Adobe Dynamic Media Classic外部的简单文本编辑器，创建视频章节文件。
 
@@ -65,13 +65,13 @@ Cost-efficient access to rapidly evolving technology.
 
 1. 将VTT文件保存为UTF8编码，这样可以避免章节标题文本中的字符呈现出现问题。
 
-   通常，您希望使用视频文件名命名章节 VTT 文件，并在后面附加 `chapters`。这有助于使用现有的 Web 内容管理系统自动生成视频 URL。
+   通常，您希望将章节VTT文件的名称与视频文件相同，并将其附加 `chapters`. 这有助于使用现有的 Web 内容管理系统自动生成视频 URL。
 
 1. 在Adobe Dynamic Media Classic中，上传WebVTT章节文件。
 
    请参阅 [上载文件](uploading-files.md#uploading_files).
 
-1. 在左侧的“资源库”面板中，导航到包含要与上载的章节文件关联的视频文件的资源文件夹。
+1. 在左侧的“资产库”面板中，导航到资产文件夹，该文件夹包含要与您上传的章节文件关联的视频文件。
 1. 在“资源浏览”面板中，选择单个视频资源，然后选择该资源的缩略图图像下方 **[!UICONTROL 预览]** > **[!UICONTROL 查看器列表]**.
 1. 在“查看器列表”表中，找到名为 **Univeral_HTML5_Video** 的 HTML5 查看器，然后执行以下操作之一：
 

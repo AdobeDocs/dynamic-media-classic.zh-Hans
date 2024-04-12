@@ -1,20 +1,18 @@
 ---
 title: 创建混合媒体集
 description: 了解如何在Adobe Dynamic Media Classic中创建混合媒体集。
-uuid: a0c6e5fa-7a85-4376-b9a3-b72ae63d3d95
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
-discoiquuid: 0ff9e763-897c-4ba5-b606-a95d5e45f35e
 feature: Dynamic Media Classic,Viewers,Mixed Media Sets
 role: User
 exl-id: 18669c65-a1c4-4012-8587-cd5095f4bd4e
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
 source-wordcount: '626'
-ht-degree: 76%
+ht-degree: 68%
 
 ---
 
@@ -28,21 +26,21 @@ ht-degree: 76%
 
 在创建集时，“**保存后发布**”选项按以下方式影响集和集成员：
 
-| 是否在保存之前选择了“保存后发布”选项？ | 保存后的集状态 | 保存后的集成员状态 |
+| 在保存前是否选择了“保存后发布”选项？ | 保存后的集状态 | 保存后的集成员状态 |
 | --- | --- | --- |
 | 是 | 已发布 | 已发布 |
 | 否 | 未发布 | 集成员保持其已发布或未发布状态。 |
 
 另请参阅[手动发布资源](publishing-files.md#manually_publishing_assets)和[手动取消发布资源](publishing-files.md#manually_unpublishing_assets)。
 
-**创建混合媒体集:**
+**创建混合媒体集：**
 
 1. 转到 **[!UICONTROL 生成]** > **[!UICONTROL 混合媒体集]**.
 1. 将视频、图像集、旋转集以及样本从“资源库”拖动到“混合媒体集”屏幕。
 
    >[!NOTE]
    >
-   >混合媒体集不支持文件名中包含以下任意字符的资产： `( ) { }`.
+   >混合媒体集不支持文件名包含以下任意字符的资产： `( ) { }`.
 
 1. 执行以下任一操作：
 
@@ -61,18 +59,18 @@ ht-degree: 76%
 
 可以编辑混合媒体集。如果要在混合媒体集内编辑某个集合，单独打开该集合进行编辑，然后保存。编辑结果显示在混合媒体集中。
 
-无论您是编辑已发布集还是未发布集， **[!UICONTROL 保存后发布]** 选项会以下列方式影响集和集成员：
+无论是编辑已发布集还是未发布集，您都可以使用 **[!UICONTROL 保存后发布]** 选项会以下列方式影响集和集成员：
 
 | 是否已发布集？ | **[!UICONTROL 保存后发布]** 在保存编辑之前是否选择了选项？ | 保存后的集状态 | 保存后的集成员状态 |
 | --- |--- |--- |--- |
 | 是 | 是 | 已发布 | 已发布 |
-| 是 | 否 | 已发布 | 现有的集成员保持其已发布状态。在编辑期间添加的任何新的集成员保持其已发布或未发布状态。 |
+| 是 | 否 | 已发布 | 现有集成员将保留其已发布状态。 在编辑期间添加的任何新的集成员保持其已发布或未发布状态。 |
 | 否 | 是 | 已发布 | 已发布 |
 | 否 | 否 | 未发布 | 现有的集成员以及在编辑期间添加的任何新的集成员保持其已发布或未发布状态。 |
 
 另请参阅[手动发布资源](publishing-files.md#manually_publishing_assets)和[手动取消发布资源](publishing-files.md#manually_unpublishing_assets)。
 
-**编辑混合媒体集:**
+**要编辑混合媒体集：**
 
 1. 选择混合媒体集的变换 **[!UICONTROL 编辑]** 按钮。
 1. 执行任何以下操作：
@@ -83,13 +81,13 @@ ht-degree: 76%
 1. 在编辑完集后，确保在页面右下角附近选择了“**[!UICONTROL 保存后发布]**”（默认）。
 1. 选择 **[!UICONTROL 保存]** 或 **[!UICONTROL 另存为]**.
 
-## 删除混合媒体集 {#deleting-a-mixed-media-set}
+## 删除混合媒体集
 
-在删除集时，集本身将移到垃圾桶中。不过，集中的成员（或“子项”）不受影响；它们分别保持现有的已发布或未发布状态。
+在删除集时，集本身将移到垃圾桶中。但是，该集中的成员（或“子项”）不受影响；相反，它们各自保留其现有的已发布或未发布状态。
 
 另请参阅[手动发布资源](publishing-files.md#manually_publishing_assets)和[手动取消发布资源](publishing-files.md#manually_unpublishing_assets)。
 
-**删除混合媒体集:**
+**要删除混合媒体集，请执行以下操作：**
 
 1. 在网格视图、列表视图或详细信息视图中，选择一个或多个混合媒体集。
 1. 在全局导航栏上，转到 **[!UICONTROL 文件]** > **[!UICONTROL 删除]** > **[!UICONTROL 删除]**.

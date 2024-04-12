@@ -1,20 +1,18 @@
 ---
 title: 导航基础知识
 description: 了解如何导览Adobe Dynamic Media Classic的用户界面。
-uuid: ee143695-e42d-479d-b907-fe61ef6cfc0f
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/getting_started
-discoiquuid: 825b8949-f961-4ef9-828c-07349013d40d
 feature: Dynamic Media Classic
 role: User
 exl-id: 3ffcfab2-c29d-4b0f-b223-c4a5ca99f21a
 topic: Content Management
 level: Intermediate
-source-git-commit: 597b7d6bd98c59a644984baeecb888f86a8975c9
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
-source-wordcount: '713'
+source-wordcount: '656'
 ht-degree: 16%
 
 ---
@@ -33,11 +31,11 @@ Adobe Dynamic Media Classic屏幕包括三个主要区域：全局导航栏、�
 
 * **[!UICONTROL 选择公司]**  — 从菜单中选择要访问的公司。 如果您正在与一家公司合作，则此按钮不可用。
 
-* **[!UICONTROL 上传]**  — 打开“上传”屏幕，以便将文件从计算机或网络上传到Adobe Dynamic Media Classic。 您可以从桌面或通过 FTP 上载文件。请参阅 [上载文件](/help/using/uploading-files.md).
+* **[!UICONTROL 上传]**  — 打开“上传”屏幕，以便将文件从计算机或网络上传到Adobe Dynamic Media Classic。 您可以从桌面上传文件，也可以通过FTP上传文件。 请参阅 [上载文件](/help/using/uploading-files.md).
 
 * **[!UICONTROL 生成]**  — 从菜单中选择一个生成任务。 会打开构建面板，以便您创建资源类型。
 
-* **[!UICONTROL Publish]**  — 打开“发布”屏幕，以便您可以将富媒体资产发布到Dynamic Media图像服务器和Adobe Dynamic Media Classic SAAS基础架构的其余部分Adobe。
+* **[!UICONTROL Publish]**  — 打开“发布”屏幕，以便发布富媒体资产来AdobeDynamic Media图像服务器和Adobe Dynamic Media Classic SAAS基础架构的其余部分。
 
 * **[!UICONTROL 作业]**  — 打开“作业”屏幕，以便检查上载和发布作业的记录。
 
@@ -59,7 +57,7 @@ Adobe Dynamic Media Classic屏幕包括三个主要区域：全局导航栏、�
 
 使用资源库可以组织要处理的资源。您可以通过创建文件夹和子文件夹在“资源库”中组织资源。
 
-“资源库”面板顶部提供了用于查找资源的命令。 您可以搜索资源，也可以用过滤器来查找资源。选择 **[!UICONTROL 垃圾桶]** 图标（位于资产库底部）来检查已删除的资产。
+“资源库”面板顶部提供了用于查找资源的命令。 您可以搜索资源，也可以用过滤器来查找资源。要检查已删除的资源，请选择 **[!UICONTROL 垃圾桶]** 图标（位于资产库底部）。
 
 >[!NOTE]
 >

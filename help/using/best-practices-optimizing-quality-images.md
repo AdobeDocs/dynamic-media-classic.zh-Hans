@@ -10,7 +10,7 @@ role: User
 exl-id: 3c50e706-b9ed-49db-8c08-f179de52b9cf
 topic: Content Management
 level: Intermediate
-source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
 source-wordcount: '1601'
 ht-degree: 45%
@@ -23,7 +23,7 @@ ht-degree: 45%
 
 Adobe Dynamic Media Classic包括100多个图像服务命令，用于调整和优化图像和渲染结果。 以下准则可以帮助您简化流程，并使用一些基本命令和最佳做法快速获得较好的效果。
 
-另请参阅 [智能成像](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/imaging-faq.html).
+另请参阅 [智能成像](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/imaging-faq).
 
 >[!TIP]
 >
@@ -34,7 +34,7 @@ Adobe Dynamic Media Classic包括100多个图像服务命令，用于调整和�
 >* 网络带宽
 >* DPR（设备像素比率）
 >
->要了解使用快照有多容易，请播放 [快照培训视频](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/dynamic-media/images/dynamic-media-snapshot.html?lang=en) （3分17秒）。
+>要了解使用快照有多容易，请播放 [快照培训视频](https://experienceleague.adobe.com/en/docs/experience-manager-learn/assets/dynamic-media/images/dynamic-media-snapshot) （3分17秒）。
 
 
 ## 图像格式的最佳做法 (&amp;fmt=) {#best-practices-for-image-format-fmt}

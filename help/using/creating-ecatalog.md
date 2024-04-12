@@ -1,20 +1,18 @@
 ---
 title: 创建eCatalog
 description: 了解如何在Adobe Dynamic Media Classic中创建eCatalog。
-uuid: 2aff05c2-7052-426c-b61d-7f9091f7ace8
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
-discoiquuid: 28889c60-596a-40d2-85d4-f48a4f86b932
 feature: Dynamic Media Classic,Viewers,eCatalog
 role: User
 exl-id: 51d411b2-b4bc-4cf6-afca-dd0ed0d219a1
 topic: Integrations, Development
 level: Experienced
-source-git-commit: a9bd472705bce32f63a5710c3266e51256d17a00
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
-source-wordcount: '975'
+source-wordcount: '976'
 ht-degree: 44%
 
 ---
@@ -56,7 +54,7 @@ ht-degree: 44%
 
    * **“移至”按钮**  — 选择页面或跨页，选择 **[!UICONTROL 移动到]**，然后在菜单中选择您希望页面在前面显示的页面。
 
-   * **序列号**  — 在列表视图中，在“序列号”字段中输入页码。
+   * **序列号**  — 在列表视图中，在Sequence #字段中输入页码。
 
 1. 完成后，确保在页面右下角附近选择了“**[!UICONTROL 保存后发布]**”（默认）。
 1. 选择 **[!UICONTROL 保存]**.
@@ -85,7 +83,7 @@ ht-degree: 44%
 1. 在完成编辑后，确保在页面右下角附近选择了“**[!UICONTROL 保存后发布]**”（默认）。
 1. 选择 **[!UICONTROL 保存]**，选择一个存储文件夹，输入集的名称，然后选择 **[!UICONTROL 保存]**.
 
-## 删除eCatalog {#deleting-an-ecatalog}
+## 删除eCatalog
 
 在删除集时，集本身将移到垃圾桶中。但是，该集中的成员（或“子项”）不受影响；相反，它们各自保留其现有的已发布或未发布状态。
 

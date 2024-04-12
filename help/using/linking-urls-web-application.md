@@ -1,21 +1,19 @@
 ---
 title: 将URL链接到您的Web应用程序
 description: 了解如何将URL从Adobe Dynamic Media Classic链接到您的Web应用程序。
-uuid: 1179bdd3-9b39-47f9-945d-1c1ca186bf96
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sizing
-discoiquuid: 71299640-676d-49b7-841d-6118f31044e8
 feature: Dynamic Media Classic
 role: User
 exl-id: ca629427-da33-4bab-9d08-6d9368042f7e
 topic: Administration, Content Management, Development
 level: Intermediate
-source-git-commit: 597b7d6bd98c59a644984baeecb888f86a8975c9
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
-source-wordcount: '845'
-ht-degree: 37%
+source-wordcount: '843'
+ht-degree: 27%
 
 ---
 
@@ -35,20 +33,20 @@ ht-degree: 37%
 
 ### 从预览中获取图像预设URL {#obtaining-an-image-preset-url-from-preview}
 
-1. 在左侧“资源库”面板中，导航到包含要预览的图像资源的“资源”文件夹。
+1. 在左侧的资产库面板中，导航到包含要预览的图像资产的资产文件夹。
 1. 执行以下任一操作：
 
    * 在“资源”窗口的工具栏右侧，选择 **[!UICONTROL 网格视图]**. 在“资源”窗口中，选择单个图像资源，然后转到缩略图图像下方的 **[!UICONTROL 预览]** > **[!UICONTROL 图像预设列表]**.
    * 在“资源”窗口的工具栏右侧，选择 **[!UICONTROL 列表视图]**. 在“资源”窗口中，选择单个图像资源，然后转到缩略图图像右侧的 **[!UICONTROL 预览]** > **[!UICONTROL 图像预设列表]**.
    * 在“资源”窗口的工具栏右侧，选择 **[!UICONTROL 详细信息视图]**. 在同一工具栏上，转到 **[!UICONTROL 预览]** > **[!UICONTROL 图像预设列表]**.
 
-1. （可选）在图像预设列表的复制URL生成的URL编码下拉列表中，选择您希望在复制图像资源的URL时应用的URL编码。
+1. （可选）在图像预设列表的复制URL生成的URL编码下拉列表中，选择要在复制图像资源的URL时应用的URL编码。
 1. 在“图像预设列表”窗口中，在预览窗格的右上角区域中选择 **[!UICONTROL 复制URL]** 所选预设类型。
 1. 在“图像预设列表”窗口的右下角，选择 **[!UICONTROL 关闭]** 以返回资产屏幕。
 
 ### 从浏览面板获取图像预设URL {#obtaining-an-image-preset-url-from-the-browse-panel}
 
-1. 在左侧“资源库”面板中，导航到包含要预览的图像资源的“资源”文件夹。
+1. 在左侧的资产库面板中，导航到包含要预览的图像资产的“资产”文件夹。
 1. 在“资源”窗口的工具栏右侧，选择 **[!UICONTROL 网格视图]**. 在“资源”窗口中，选择单个图像资源。
 1. 在“资源”窗口的工具栏右侧，选择 **[!UICONTROL 详细信息视图]**.
 1. 选择 **[!UICONTROL URL]** ，以便展开图像预设列表。
@@ -60,7 +58,7 @@ Dynamic Media图像服务器图像大小调整的URL调用具有以下基本语�
 
 *路径*/*图像服务器名称*/*帐户名称*/*图像名称*?*修饰符1*&amp;*修饰符2*&amp;...
 
-在Dynamic Media图像服务器URL中，服务器显示图像的说明显示在问号(？)之后。 例如，以下 URL 调用将传送一个名为“backpack”宽度为 250 个像素的图像：
+在Dynamic Media图像服务器URL中，服务器显示图像的说明显示在问号(？)之后。 例如，此URL调用会提供一个宽度为250像素的名为“backpack”的图像：
 
 ```as3
 https://s7d1.scene7.com/is/image/S7learn/backpack?wid=250
@@ -93,7 +91,7 @@ img src="/company_images/products/backpack_thumbnail.jpg"
 您现在使用 `<IMG>`标记，用于将对静态图像的引用替换为对Adobe Dynamic Media Classic平台的图像预设调用。 示例调用如下所示：
 
 ```as3
-img src="https://s7d2.scene7.com/is/image/S7learn/backpack_trns?$thumbnail$”
+img src="https://s7d2.scene7.com/is/image/S7learn/backpack_trns?$thumbnail$"
 ```
 
-在此示例中，Dynamic Media图像服务器“查找”定义 `$thumbnail$` 并动态地根据由定义的尺寸和格式规范生成适当的图像 `thumbnail`图像预设。 在 URL 字符串中，除产品图像文件名称（本例中为`backpack_trns` ）之外的所有项目都由网页模版所固定。唯一可从商业服务器自动插入到网页模版的元素是 IPS ID 或图像名称。
+在此示例中，Dynamic Media图像服务器“查找”定义 `$thumbnail$` 并动态地根据由定义的尺寸和格式规范生成适当的图像 `thumbnail`图像预设。 在URL字符串中，除产品图像文件名( `backpack_trns` 在本例中)通常为页面模板进行硬连线。 唯一可从商业服务器自动插入到网页模版的元素是 IPS ID 或图像名称。

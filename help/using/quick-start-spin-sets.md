@@ -1,21 +1,19 @@
 ---
-title: "快速入门：旋转集"
+title: “快速入门：旋转集”
 description: 介绍和旋转集快速入门，帮助您在Adobe Dynamic Media Classic中快速启动和运行。
-uuid: d0af9db6-cb6f-48f0-89f6-f3ab2da0659f
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/spin_sets
-discoiquuid: 282b8e83-b20f-43f7-b9f8-6eebd5b1c5a7
 feature: Dynamic Media Classic,Viewers,Spin Sets
 role: User
 exl-id: 26e3cd5b-f070-4b92-af36-25631723460e
 topic: Content Management
 level: Beginner
-source-git-commit: faa1784e1d19b1167cad5749dc04227e3ff388e5
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
-source-wordcount: '839'
-ht-degree: 22%
+source-wordcount: '801'
+ht-degree: 25%
 
 ---
 
@@ -43,7 +41,7 @@ ht-degree: 22%
 
 ## 1.创建和上传图像
 
-对于一维旋转集，至少需要8-12次拍摄项目；对于二维旋转集，至少需要16-24次拍摄项目。 拍摄照片时必须间隔一定的角度，以便让人感觉物品正在旋转和翻转。例如，如果一维旋转集包含12个镜头，则为每个镜头旋转项目30° (360/12)。
+对于一维旋转集，一个物品最少需要拍摄 8 到 12 张照片，对于二维旋转集，最少需要 16 到 24 张照片。拍摄照片时必须间隔一定的角度，以便让人感觉物品正在旋转和翻转。例如，如果一维旋转集包含12个镜头，则为每个镜头旋转项目30° (360/12)。
 
 在全局导航栏上，选择 **[!UICONTROL 上传]** 将旋转图像从您的计算机或网络上传到Adobe Dynamic Media Classic。
 
@@ -65,7 +63,7 @@ ht-degree: 22%
 
 管理员可以创建旋转集查看器预设。这些预设决定了旋转集查看器的外观。要设置新的旋转集查看器预设，请在全局导航栏上，转到 **[!UICONTROL 设置]** > **[!UICONTROL 查看器预设]**.
 
-在“查看器预设”页面上，选择 **[!UICONTROL 添加]**，然后选择 **[!UICONTROL 旋转集查看器]** 从下拉列表中，然后选择 **[!UICONTROL 添加]**. 在“配置查看器”页中选择选项，然后选择 **[!UICONTROL 保存]**.
+在“查看器预设”页面上，选择 **[!UICONTROL 添加]**，然后选择 **[!UICONTROL 旋转集查看器]** 从下拉列表中，然后选择 **[!UICONTROL 添加]**. 在中选择选项 `Configure Viewer` 页面，然后选择 **[!UICONTROL 保存]**.
 
 请参阅 [设置旋转集查看器预设](setting-spin-set-viewer-presets.md#setting-up-spin-set-viewer-presets).
 
@@ -79,7 +77,7 @@ ht-degree: 22%
 
 发布旋转集会将该旋转集放置在Adobe Dynamic Media Classic服务器上，以便可以动态地将其交付到您的网站或应用程序。 它还激活了URL字符串，该字符串会从Dynamic Media图像服务器将旋转集调用到您的网站或应用程序。
 
-要发布旋转集，请通过选择 **[!UICONTROL 标记为发布]** 图标（位于其名称旁）。 在全局导航栏上，选择 **[!UICONTROL Publish]** 以启动发布。 在“发布”屏幕上，选择 **[!UICONTROL 提交发布]**.
+要发布旋转集，请通过选择 **[!UICONTROL 标记为发布]** 图标（位于其名称旁）。 在全局导航栏上，选择 **[!UICONTROL Publish]** 以启动发布。 在发布页面上，选择 **[!UICONTROL 提交发布]**.
 
 请参阅 [发布旋转集](publishing-spin-set.md#publishing-a-spin-set).
 

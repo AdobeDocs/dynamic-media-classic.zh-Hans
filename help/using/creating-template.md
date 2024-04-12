@@ -1,25 +1,23 @@
 ---
 title: 创建模板
 description: 了解如何在Adobe Dynamic Media Classic中创建模板。
-uuid: c762224b-7c6c-4434-bada-c26570079645
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/template_basics
-discoiquuid: 8f7093da-d215-4337-ac95-69f0a5bf8648
 feature: Dynamic Media Classic
 role: User
 exl-id: 23ac1a0f-c90b-4250-ae36-93702fb5ebd9
 topic: Content Management
 level: Experienced
-source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
-source-wordcount: '3420'
-ht-degree: 41%
+source-wordcount: '3418'
+ht-degree: 40%
 
 ---
 
-# 创建模板 {#creating-a-template}
+# 创建模板
 
 要创建模板，请转到 **[!UICONTROL 生成]** > **[!UICONTROL 模板基础知识]**. 选择“设计器”或“开发者”。在此页面上，您可以添加图像图层和文本图层。还可以将图层重新排序、更改图层的大小和位置，并将阴影和发光效果应用于图像和文本。
 
@@ -78,7 +76,7 @@ ht-degree: 41%
 1. 在完成编辑后，确保在页面右下角附近选择了“**[!UICONTROL 保存后发布]**”（默认）。
 1. 选择 **[!UICONTROL 保存]**，选择一个存储文件夹，输入集的名称，然后选择 **[!UICONTROL 保存]**.
 
-## 删除模板 {#deleting-a-template}
+## 删除模板
 
 在删除模板集时，集本身将移到垃圾桶中。但是，该集中的成员（或“子项”）不受影响；相反，它们各自保留其现有的已发布或未发布状态。
 
@@ -278,7 +276,7 @@ ht-degree: 41%
 
 `layer=5&src=is{PortalCo/title}&pos=274,192&hide=1&effect=-1&.effect=Drop Shadow&blendmode`
 
-### 确定背景颜色、不透明度和混合模式 {#determining-the-background-color-opacity-and-blend-mode}
+### 确定背景颜色、不透明度和混合模式
 
 要为图层或画布选择背景颜色、不透明度和混合模式，请选择图层或画布并使用以下技术：
 
@@ -299,7 +297,7 @@ ht-degree: 41%
 ### 对图层应用阴影或发光效果 {#applying-a-shadow-or-glow-effect-to-a-layer}
 
 1. 在“图层”列表中选择图层。
-1. 选择“添加效果”菜单并选择以下选项：
+1. 选择 **[!UICONTROL `Add Effect`]** 并选择一个选项：
 
    * **[!UICONTROL 投影]**  — 在图层的底部和右侧应用阴影。
 

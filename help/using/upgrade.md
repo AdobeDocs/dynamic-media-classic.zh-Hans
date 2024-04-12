@@ -6,7 +6,7 @@ role: Admin,User
 exl-id: 5e322d81-1303-494b-b5dd-df29b5c5d8e2
 topic: Administration, Migration
 level: Intermediate
-source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
 source-wordcount: '572'
 ht-degree: 0%
@@ -31,7 +31,7 @@ ht-degree: 0%
 | Dynamic Imaging | 使用一个主文件，自动生成和发布无限版本，并更改大小、格式、分辨率、裁切或效果。 |
 | 动态视频 | 全尺寸视频可自动调整所有屏幕的大小，并自适应流式传输，以确保一致且高质量的用户体验。 |
 | 个性化 | 轻松构建和发布 [!DNL Dynamic Media] 交互式体验，如产品配置器、个性化横幅和电子邮件。 |
-| 交互式体验 | 添加交互式热点，并将产品详细信息链接到营销活动、视频、回顾和其他媒体。 |
+| 交互式体验 | 添加交互式热点并将产品详细信息链接到营销活动、视频、回顾和其他媒体。 |
 
 ## 的主要优势和功能 [!DNL Dynamic Media]
 

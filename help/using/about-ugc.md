@@ -1,20 +1,18 @@
 ---
 title: 关于Adobe Dynamic Media Classic中用户生成的内容
-description: 对用户生成的内容的介绍。
-uuid: ba867a6a-84a4-4968-9a77-712f3ce5dad5
+description: 对用户生成内容的介绍。
 contentOwner: rbrough
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/user_generated_content
-discoiquuid: c1594abf-8cc2-46dd-88bf-af93db7db607
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 14729192-7b9d-4f42-99da-6564a3f35959
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
-source-wordcount: '166'
-ht-degree: 36%
+source-wordcount: '168'
+ht-degree: 35%
 
 ---
 
@@ -26,7 +24,7 @@ UGC支持栅格图像文件格式BMP、GIF、JPG、PNG、PSD、TIFF。
 
 >[!IMPORTANT]
 >
->从2023年5月1日开始，Dynamic Media中的UGC资源最多可在上传日期后60天内使用。 60天后，这些资产将被删除。
+>从2023年5月1日开始，Dynamic Media中的UGC资源最多可在上传日期起60天内使用。 60天后，将删除资源。
 
 <!-- * Vector: AI, EPS (EPS files from Adobe Illustrator 2018 are not supported), PDF (only when the PDF file is previously opened and saved in Adobe Illustrator CS6) -->
 

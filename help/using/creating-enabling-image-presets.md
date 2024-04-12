@@ -1,27 +1,25 @@
 ---
 title: 创建和启用图像预设
 description: 了解如何在Adobe Dynamic Media Classic中创建和启用图像预设。
-uuid: 62cfc6fa-da91-4c42-a3ed-10956384d633
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/media_portal
-discoiquuid: 84257b2a-681c-4fe9-a6e5-3633c1d61d8c
 feature: Dynamic Media Classic,Collaboration,Image Presets,Asset Management
 role: Admin,User
 exl-id: 94c6c388-226b-4172-a6c7-a8dcf9c0f0cf
 topic: Content Management
 level: Intermediate
-source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
-source-wordcount: '255'
-ht-degree: 60%
+source-wordcount: '256'
+ht-degree: 49%
 
 ---
 
 # 创建和启用图像预设{#creating-and-enabling-image-presets}
 
-当用户使用 Media Portal 导出图像资源时，他们可以在“导出所选资源”对话框中选择一种“图像预设”。图像预设是一组预定义的设置，用于更改图像在导出时的外观大小、图像质量、格式、分辨率以及其他方面。
+当用户使用 Media Portal 导出图像资源时，他们可以在“导出所选资源”对话框中选择一种“图像预设”。图像预设是预定义设置的集合，这些设置可在导出图像时更改图像的大小、图像质量、格式、分辨率及其他外观方面。
 
 Media Portal 管理员可以创建图像预设，以便控制导出时如何重设它们的格式。当用户从Adobe Dynamic Media Classic导出图像时，图像预设会根据贵公司的规范重新设置图像的格式。 用户按照“图像预设”的精确规范导出图像，而非自已重设图像的格式。
 

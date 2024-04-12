@@ -1,20 +1,18 @@
 ---
 title: 在视频查看器中预览视频
 description: 了解如何在视频查看器中预览视频。
-uuid: 7ab4e805-6e5d-461b-bd99-5e09b9ced950
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/video
-discoiquuid: 6a2e6df1-9186-42e2-9b85-01f132936c72
 feature: Dynamic Media Classic,Viewers,Video
 role: User
 exl-id: b8d1a0b4-67ab-482d-a685-a087fb850143
 topic: Content Management
 level: Intermediate
-source-git-commit: 1b90beb99b161b76da81403f5aed9755b3a92c8b
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
-source-wordcount: '880'
+source-wordcount: '773'
 ht-degree: 21%
 
 ---
@@ -25,7 +23,7 @@ ht-degree: 21%
 
 请参阅 [添加和编辑查看器预设](application-setup.md#adding_and_editing_viewer_presets).
 
-**在视频查看器中预览视频:**
+**要在视频查看器中预览视频，请执行以下操作：**
 
 1. 在左侧的“资产库”面板的“显示”下拉列表中，选择 **[!UICONTROL 视频]** （单编码视频）或 **[!UICONTROL 自适应视频集]**. 当使用自适应视频编码预设时，它将生成一组多比特率编码视频。
 1. 在左侧的“资源库”面板中，浏览资源文件夹，以选择您要预览的视频。
@@ -36,7 +34,7 @@ ht-degree: 21%
    * 在“资源”窗口的工具栏右侧，选择 **[!UICONTROL 详细信息视图]**. 在同一工具栏上，选择 **[!UICONTROL 预览]**.
    * 在“资源”窗口中，选择一个资源。在工具栏中，转到 **[!UICONTROL 文件]** > **[!UICONTROL 预览]**.
 
-1. （可选）在“预览”窗口的底部下拉列表中，选择要在复制资产的URL时应用到该资产的URL的URL编码。
+1. （可选）在“预览”窗口的底部下拉列表中，选择复制资产URL时要应用于该资产URL的URL编码。
 1. 选择 **[!UICONTROL 预览]** 链接，以便在选定的查看器中查看资产。
 1. 关闭显示的查看器。
 1. 选择 **[!UICONTROL 关闭]** 以返回资产屏幕。
@@ -47,7 +45,7 @@ ht-degree: 21%
 
 ## 使用视频查看器预设 {#working-with-video-viewer-presets}
 
-用户在视频查看器观看视频。视频查看器的工作方式、外观以及其播放控件的工作方式都取决于您为播放视频选择的“查看器预设”。在“预览”屏幕上选择一种“查看器预设”。选择预设后，可以使用所选的查看器预设获取用于播放视频的URL或嵌入代码。
+用户在视频查看器观看视频。视频查看器的工作方式、外观以及其播放控件的工作方式都取决于您为播放视频选择的“查看器预设”。在“预览”屏幕上选择一种“查看器预设”。选择预设后，您可以使用所选的查看器预设获取用于播放视频的URL或嵌入代码。
 
 Adobe Dynamic Media Classic附带许多用于播放视频的预定义查看器预设，如果您是管理员，可以创建自定义查看器预设。 有12种以上的不同设置可用于配置视频查看器。 您可以配置其大小、颜色、视频和音频控件、进度条、用户界面外观和社交功能。
 
@@ -65,7 +63,7 @@ Adobe Dynamic Media Classic附带许多用于播放视频的预定义查看器�
 
 另请参阅 [视频预设](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/549_video-presets_converted%20renamed_Done-AVS) 训练视频。
 
-**添加或编辑视频查看器预设:**
+**添加或编辑视频查看器预设：**
 
 1. 在Adobe Dynamic Media Classic的右上角附近，转到 **[!UICONTROL 设置]** > **[!UICONTROL 查看器预设]**.
 
@@ -83,7 +81,7 @@ Adobe Dynamic Media Classic附带许多用于播放视频的预定义查看器�
 
    * **编辑**  — 选择视频查看器预设，然后选择 **[!UICONTROL 编辑]**.
 
-1. 在配置查看器页面的预设名称字段中，输入或编辑预设名称。
+1. 在 `Configure Viewer` 页面，在预设名称字段中，输入或编辑预设名称。
 1. 设置其余所需的选项。
 
    要查看某个选项的描述，请选择它的“信息提示”图标。

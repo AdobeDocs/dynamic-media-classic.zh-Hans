@@ -1,18 +1,16 @@
 ---
 title: 使用PSD文件
 description: 了解如何在Adobe Dynamic Media Classic中使用PSD文件。
-uuid: 5836b660-6bca-46e7-ab39-1a31d1e0cff2
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
-discoiquuid: 4086e3db-5aca-41a0-8f15-302afbf67ddb
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: e3b8c4b9-e9c4-4d7f-84de-2efb456755a1
 topic: Integrations, Development
 level: Experienced
-source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
 source-wordcount: '1015'
 ht-degree: 23%
@@ -73,7 +71,7 @@ PSD(Photoshop文档文件)在Adobe Dynamic Media Classic中最常用于创建模
 
 ## 在PSD文件中查看和编辑图层 {#viewing-and-editing-layers-in-a-psd-file}
 
-如果您在上传PSD时选择了“保留图层”选项，Adobe Dynamic Media Classic会将各个图层翻录到资源中。 通过在“详细视图”的“PSD”面板中打开文件，可以查看和编辑属于浏览文件的资源图层。
+如果您选择了选项 **[!UICONTROL 保留图层]** 在上传您的PSD时，Adobe Dynamic Media Classic将各个层翻录到资源中。 通过在“详细视图”的“PSD”面板中打开文件，可以查看和编辑属于浏览文件的资源图层。
 
 >[!NOTE]
 >

@@ -10,16 +10,16 @@ role: User
 exl-id: 9e2df814-465d-412a-a032-ef3e8cb462ba
 topic: Integrations
 level: Experienced
-source-git-commit: 597b7d6bd98c59a644984baeecb888f86a8975c9
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
-source-wordcount: '1562'
+source-wordcount: '1470'
 ht-degree: 33%
 
 ---
 
 # 快速入门：eCatalogs{#quick-start-ecatalogs}
 
-eCatalog 是数字网络版本的印刷材料，例如目录、小册子、传单、产品手册或广告传单。eCatalog 显示在网站的 eCatalog 查看器中。该查看器会模拟阅读印刷材料的体验。
+eCatalog 是数字网络版本的印刷材料，例如目录、小册子、传单、产品手册或广告传单。eCatalog 显示在网站的 eCatalog 查看器中。此查看器可模拟阅读印刷材料的体验。
 
 另请观看以下培训视频：
 
@@ -64,7 +64,7 @@ eCatalog 通常由 Adobe PDF 文件生成。由于 PDF 文件要用于印刷，�
 
 在全局导航栏上，选择 **[!UICONTROL 上传]** 开始上传eCatalog的PDF文件或图像。 您可以从桌面或通过FTP上传文件；如果要上传的文件数或文件数超过100 MB，建议使用FTP。
 
-“上载”屏幕的“PDF 选项”下面提供了一些选项，用于上载分辨率合适并且颜色空间正确的 PDF 文件。推荐使用 150 PPI 的分辨率。上载 PDF 文件时，可以选择“自动生成 eCatalog”选项来创建 eCatalog。
+“上载”屏幕的“PDF 选项”下面提供了一些选项，用于上载分辨率合适并且颜色空间正确的 PDF 文件。推荐使用 150 PPI 的分辨率。您可以选择选项 **[!UICONTROL 自动生成eCatalog]** 在上传PDF文件时创建eCatalog。
 
 请参阅 [上传PDF文件](uploading-pdf-files.md#uploading_the_pdf_files).
 
@@ -84,7 +84,7 @@ eCatalog 通常由 Adobe PDF 文件生成。由于 PDF 文件要用于印刷，�
 
 图像映射为eCatalog页面添加了其他方面。 图像映射是页面上的一个区域，可提供关于某个物品的更多信息。当观众在“图像映射”上滚动鼠标指针时，他们会看到物品的说明。单击“图像映射”会激活一个外部引用，该引用打开一个新的网页，您可以从中了解关于某个物品的更多信息。
 
-要创建图像映射，打开 eCatalog 屏幕。然后转到 **[!UICONTROL 映射页面]** 选项卡，并使用“矩形图像映射”工具或“多边形图像映射”工具将映射框架化。 可以使用“平移”工具  拖动映射边框来调整“图像映射”的位置和大小。
+要创建图像映射，打开 eCatalog 屏幕。然后转到 **[!UICONTROL 映射页面]** 选项卡，并使用“矩形图像映射”工具或“多边形图像映射”工具将映射框架化。 可以使用“平移”工具拖动映射边框，调整图像映射的位置和大小。
 
 在构建图像映射框架后，输入要在选择图像映射时转到的URL地址。 也可以输入当您将指针移动到图像映射上时所显示的变换文本。
 
@@ -118,7 +118,7 @@ eCatalog 查看器预设决定了 eCatalog 查看器的样式和行为。
 
 发布eCatalog和相关的PDF会将其放在Dynamic Media图像服务器上，以便可以将其交付到您的网站和应用程序。 在发布过程中，Adobe Dynamic Media Classic会激活eCatalog的URL字符串。 使用此URL可以将Dynamic Media图像服务器中的eCatalog调用到您的网站或应用程序。
 
-在“浏览”面板中将eCatalog和PDF标记为发布后，选择全局导航栏上的“发布”按钮以启动发布。 在“发布”屏幕上，选择 **[!UICONTROL 提交发布]**.
+在“浏览”面板中将eCatalog和PDF标记为发布后，选择全局导航栏上的“发布”按钮以启动发布。 在发布页面上，选择 **[!UICONTROL 提交发布]**.
 
 请参阅 [发布eCatalog和相关PDF](publishing-ecatalogs-associated-pdfs.md#publishing-ecatalogs-and-associated-pdfs).
 

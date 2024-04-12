@@ -10,7 +10,7 @@ role: User
 exl-id: 280e7201-84d6-46b1-94bb-0499beca2992
 topic: Content Management
 level: Beginner
-source-git-commit: 0e1b2e9dcbee182f3ec0da53b56b5b8d3eb29cce
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
 source-wordcount: '666'
 ht-degree: 14%
@@ -78,7 +78,7 @@ Adobe Dynamic Media Classic图像集为用户提供了集成的查看体验。 �
 >
 >如果您已选择，则无需执行此步骤 **[!UICONTROL 保存后发布]** （默认）创建并保存图像集时。
 
-选择 **[!UICONTROL 标记为发布]** 图标（其名称左侧）。 然后，选择 **[!UICONTROL Publish]**. 在发布页面上，选择 **[!UICONTROL 提交发布]**.
+选择 **[!UICONTROL 标记为发布]** 图标（其名称左侧）。 然后选择 **[!UICONTROL Publish]**. 在发布页面上，选择 **[!UICONTROL 提交发布]**.
 
 请参阅 [发布文件](publishing-files.md#publishing-files).
 

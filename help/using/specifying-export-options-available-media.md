@@ -1,20 +1,18 @@
 ---
 title: 指定Media Portal用户可用的导出选项
 description: 了解如何在Adobe Dynamic Media Classic中指定Media Portal用户可用的导出选项。
-uuid: 5258b8a4-0704-43cd-97d1-c9af2e4e298b
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
-discoiquuid: 9bfd95da-3714-4e38-98af-331a04c685f5
 feature: Dynamic Media Classic,Collaboration,Asset Management
 role: Admin,User
 exl-id: c27df6c2-76f4-441c-bd26-cee98203291e
 topic: Collaboration, Content Management
 level: Intermediate
-source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
-source-wordcount: '385'
-ht-degree: 37%
+source-wordcount: '383'
+ht-degree: 32%
 
 ---
 
@@ -38,7 +36,7 @@ ht-degree: 37%
 
      时间 **[!UICONTROL 像素]** 是从 **[!UICONTROL 大小]** 下拉列表中，生成的图像宽度×高度不能超过1亿像素。 此大小等于方形图像的10,000 × 10,000像素，或长宽比为2x3的图像的大约8,000 × 12,000像素。 如果导出原始主图像，则此大小限制不适用。
 
-     如果您希望用户下载文件，而不在下载时重设文件的格式，请取消选择该选项。
+     取消选择此选项可让用户在下载文件时无需重新格式化文件。
 
    * **启用导出原始**  — 用于导出原始主图像。 在 **[!UICONTROL 导出所选资源]** 面板，用户可以打开 **[!UICONTROL 转化]** 下拉菜单并选择 **[!UICONTROL 导出原始]** 以导出原始文件。 如果要强制用户在导出图像时选择图像预设或选择转换选项，请取消选择此选项。
 

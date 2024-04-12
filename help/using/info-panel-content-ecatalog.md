@@ -10,16 +10,16 @@ role: User
 exl-id: bfb9c5a4-5068-4adb-9fe2-a4ead8656289
 topic: Integrations
 level: Experienced
-source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
-source-wordcount: '869'
-ht-degree: 55%
+source-wordcount: '871'
+ht-degree: 53%
 
 ---
 
 # 管理eCatalogs中的信息面板内容{#managing-info-panel-content-in-ecatalogs}
 
-除了在 eCatalog 中将图像映射文本用于变换之外，还可以使用“信息面板”添加大量变换文本（包括链接）。还可以使用定时缓存和计划内容更新来管理信息面板。
+除了在 eCatalog 中将图像映射文本用于变换之外，还可以使用“信息面板”添加大量变换文本（包括链接）。您还可以通过使用定时缓存和计划内容更新来管理信息面板。
 
 您可以使用Adobe Dynamic Media Classic中的以下功能管理信息面板设置和数据：
 

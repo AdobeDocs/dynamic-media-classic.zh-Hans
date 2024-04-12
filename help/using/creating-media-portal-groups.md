@@ -1,21 +1,19 @@
 ---
 title: 创建和管理Media Portal组
 description: 了解如何在Adobe Dynamic Media Classic中创建和管理Media Portal组。
-uuid: 23f360e1-ddcb-491b-ab9f-428f3ac9c316
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/media_portal
-discoiquuid: 91524d36-b77a-4dc4-acba-a7bd85297e98
 feature: Dynamic Media Classic,Collaboration,Asset Management
 role: Admin,User
 exl-id: 0deb7133-b895-4c3f-8e5e-8604a6f2d16b
 topic: Administration, Collaboration
 level: Intermediate
-source-git-commit: 1b90beb99b161b76da81403f5aed9755b3a92c8b
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
 source-wordcount: '839'
-ht-degree: 54%
+ht-degree: 52%
 
 ---
 
@@ -75,9 +73,9 @@ ht-degree: 54%
 
 >[!NOTE]
 >
->选中一个框后，即可设置访问权限。向某个文件夹指定权限时，其所含的子文件夹和所有文件将被授予与父文件夹相同的权限。但是，您可以为单个子文件夹和资源文件指定不同的权限。
+>选中一个框后，即可设置访问权限。为文件夹分配权限时，其子文件夹及其中的所有文件将获得与父文件夹相同的权限。 但是，您可以为单个子文件夹和资源文件指定不同的权限。
 
-## 为组选择图像预设访问权限 {#choosing-image-preset-access-permissions-for-a-group}
+## 为组选择图像预设访问权限
 
 如果您要指定组成员在使用 Media Portal 导出资源时可以使用的图像预设，请为组选择图像预设访问权限。
 

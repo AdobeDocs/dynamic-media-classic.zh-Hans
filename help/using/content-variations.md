@@ -1,18 +1,16 @@
 ---
 title: 管理内容变体
 description: 了解如何在Adobe Dynamic Media Classic中管理内容变体。
-uuid: 1e40a526-02f8-41d9-886f-6d094546bc13
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/template_basics
-discoiquuid: aa129b0e-fc73-4fc2-a894-4560b3f46c4f
 feature: Dynamic Media Classic
 role: User
 exl-id: 65b8c314-7ec1-417f-8a7b-aa13762072a1
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
 source-wordcount: '248'
 ht-degree: 55%
@@ -23,7 +21,7 @@ ht-degree: 55%
 
 使用模板集管理发布资源变体的方式。
 
-创建模板集以管理模板变体。您可以控制使用哪个变体，而无需在站点上更改代码。此方法可帮助内容管理员轮换内容，而不需要IT人员更改Web代码中的URL。
+创建模板集以管理模板变体。您可以控制使用哪个变体，而无需在站点上更改代码。此方法可帮助内容管理员轮换内容，而不需要IT更改Web代码中的URL。
 
 通用URL用于根据模板变体在集中列出的顺序显示页面上显示的模板变体。 始终发布模板集列表顶层的模板。
 
@@ -31,10 +29,10 @@ ht-degree: 55%
 
 1. 转到 **[!UICONTROL 生成]** > **[!UICONTROL 模板集]**.
 1. 在生成器中，选择一个模板，然后选择 **[!UICONTROL 添加/预览]**.
-1. 修改模板属性并选择 **[!UICONTROL 另存为]** 以创建其他版本。
+1. 修改模板属性并选择 **[!UICONTROL 另存为]** 以创建另一个版本。
 1. 键入名称，然后选择 **[!UICONTROL 保存]**.
 
-   必须发布资产和模板。
+   资产和模板都必须发布。
 
 1. 转到“详细信息”页面，从“URL”部分获取副本 URL。
 

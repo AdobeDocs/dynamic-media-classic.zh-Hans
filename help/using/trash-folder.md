@@ -1,27 +1,25 @@
 ---
 title: 管理垃圾桶文件夹
 description: 了解如何管理垃圾桶文件夹。
-uuid: 3992a5b8-1919-4924-b07d-7fb25565effd
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
-discoiquuid: 553c95fc-0a41-4f06-af50-a62bc1438149
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: cffeec19-43fd-4a97-bdcc-df81af108ddd
 topic: Content Management
 level: Intermediate
-source-git-commit: faa1784e1d19b1167cad5749dc04227e3ff388e5
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
 source-wordcount: '553'
-ht-degree: 31%
+ht-degree: 30%
 
 ---
 
 # 管理垃圾桶文件夹{#managing-the-trash-folder}
 
-从Adobe Dynamic Media Classic中删除的项目将移至垃圾桶文件夹。 被删除的将在此文件夹中保留七天，直到它们被恢复或永久删除。 您可以通过选择 **[!UICONTROL 垃圾桶]** 图标，并查看垃圾桶文件夹页面中的项目。
+从Adobe Dynamic Media Classic中删除的项目将移至垃圾桶文件夹。 这些已删除的项目将在此文件夹中保留七天，直到它们被恢复或永久删除。 您可以通过选择 **[!UICONTROL 垃圾桶]** 图标，并查看垃圾桶文件夹页面中的项目。
 
 所有用户都可以将垃圾桶文件夹中的项目恢复到删除之前所在的文件夹。所有用户也都可以清空垃圾桶文件中的所有内容。
 
@@ -35,7 +33,7 @@ ht-degree: 31%
 
 删除文件夹中的某个项目会将此项目放置在垃圾桶文件夹中。在删除项目并将其移至垃圾桶文件夹时，会发生以下情况：
 
-* 虽然已从Adobe Dynamic Media Classic文件夹中删除该项目，但无法将其标识分配给其他资源，因为它仍保留在垃圾桶文件夹中。 如果尝试上载与垃圾桶文件夹中文件同名的资源，Adobe Dynamic Media Classic会在资源的名称后附加一个数字。
+* 虽然该项已从Adobe Dynamic Media Classic文件夹中删除，但如果其ID仍保留在垃圾桶文件夹中，则无法将其分配给其他资源。 如果尝试上载与垃圾桶文件夹中文件同名的资源，Adobe Dynamic Media Classic会在资源的名称后附加一个数字。
 * 无法发布该项目。即使在删除项目时将其标记为发布，也不会将其发布。
 * 项目会保留在垃圾桶文件夹中，直到恢复、7天后或有人选择 **[!UICONTROL 清空垃圾桶]** 命令。 在七天之后，系统会自动执行清除操作永久删除该项目。
 

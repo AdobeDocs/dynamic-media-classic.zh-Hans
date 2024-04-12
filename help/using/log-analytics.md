@@ -5,15 +5,14 @@ contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/adobe_analytics_instrumentation_kit
-discoiquuid: e5b510a8-8b7f-4c60-869e-d664a8157e63
 feature: Dynamic Media Classic
 role: Data Engineer,Admin,User
 exl-id: 261b8f7c-c61c-4ce3-b9dc-8549347aca2e
 topic: Integrations, Development
 level: Experienced
-source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
-source-wordcount: '845'
+source-wordcount: '841'
 ht-degree: 0%
 
 ---
@@ -48,9 +47,9 @@ ht-degree: 0%
 
    ![添加API](assets/analytics-oauth2.png)
 
-1. 在 **[!UICONTROL 配置API]** 页面，选择 **[!UICONTROL 用户身份验证OAuth]**.
+1. 在 **[!UICONTROL `Configure API`]** 页面，选择 **[!UICONTROL 用户身份验证OAuth]**.
 1. 在页面的右下角附近，选择 **[!UICONTROL 下一个]**.
-1. 在 **[!UICONTROL 配置API]** 页面，选择 **[!UICONTROL OAUTH 2.0 Web]**.
+1. 在 **[!UICONTROL `Configure API`]** 页面，选择 **[!UICONTROL OAUTH 2.0 Web]**.
 1. 在 **[!UICONTROL 默认重定向URI]** 文本字段中，完全按照所示输入以下路径：
 
    `https://exploreadobe.com/dynamic-media-upgrade/`
@@ -69,7 +68,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->在Dynamic Media Classic中对Adobe Analytics进行初始配置后，以下情况是必须重做配置的唯一一次：
+>在Dynamic Media Classic中对Adobe Analytics进行初始配置后，只有在以下情况下才必须重做配置：
 >
 >* Analytics中添加了一个新报表，用户希望开始向该新报表发送数据。
 >* Adobe Analytics中更新了跟踪服务器。
