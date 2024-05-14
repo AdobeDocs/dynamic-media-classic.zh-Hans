@@ -10,9 +10,9 @@ role: Admin,User
 exl-id: 604b4630-4704-4254-84b5-91b33bb19d58
 topic: Administration
 level: Intermediate
-source-git-commit: 910410706fbd9dd79a8dda402af454a50132cc41
+source-git-commit: de6997fda88c4471625242ee9cca59b344cee945
 workflow-type: tm+mt
-source-wordcount: '1985'
+source-wordcount: '1993'
 ht-degree: 0%
 
 ---
@@ -48,7 +48,7 @@ Adobe Dynamic Media Classic桌面应用程序中的升级通知不会为生成 *
 
 * 编辑图像时， **[!UICONTROL 保存]** 按钮无法正常工作。
 * 在集编辑器中， **[!UICONTROL 关闭]**， **[!UICONTROL 保存]**、和 **[!UICONTROL 另存为]** 在中滚动资源后，按钮会变为禁用状态。 **[!UICONTROL 添加资产]** 面板。
-* **[!UICONTROL 播放]** “视频详细信息”视图中的按钮不起作用。
+* 此 **[!UICONTROL 播放]** “视频详细信息”视图中的按钮不起作用。
 * 无法进入 `d` 和 `e` 在 **[!UICONTROL 用户名]** 和 **[!UICONTROL 密码]** 运行macOS Monterey时显示的字段。
 * 已将剩余的Analytics API移至版本2.0。
 
@@ -58,7 +58,7 @@ Adobe Dynamic Media Classic桌面应用程序中的升级通知不会为生成 *
 * 桌面应用程序停止响应，通常在Set操作之后。
 * 请求模糊处理和锁定模式在以下位置自动启用： **[!UICONTROL 测试图像服务]**.
 
-  请参阅 [测试Secure Testing服务](/help/using/testing-assets-making-them-public.md#testing-the-secure-testing-service).
+  请参阅 [安全测试服务](/help/using/testing-assets-making-them-public.md#testing-the-secure-testing-service).
 
 * 更新了Adobe Analytics的身份验证机制。 与新集成或必须从Dynamic Media Classic桌面应用程序中更新某些Analytics变量相关。
 
@@ -67,7 +67,7 @@ Adobe Dynamic Media Classic桌面应用程序中的升级通知不会为生成 *
 ## 20.21.2版中的修复 {#minor-release}
 
 * 20.21.1中的已知限制： **[!UICONTROL 服务器]** 登录屏幕上的下拉列表为空。
-* 在 **[!UICONTROL 上载作业选项]**，下的图层命名默认值 **[!UICONTROL Photoshop选项]**，现在为 **[!UICONTROL Photoshop和图层名称]**. PSD文件中的图层将作为单独的图像上传。
+* 在 **[!UICONTROL 上载作业选项]**，下的默认图层名称值 **[!UICONTROL Photoshop选项]**，现在为 **[!UICONTROL Photoshop和图层名称]**. PSD文件中的图层将作为单独的图像上传。
    * 较早的默认值 **[!UICONTROL 图层名称]**，以图像在PSD文件中的图层名称或图层编号命名图像。 如果PSD文件中的图层名称是默认的Photoshop图层名称，则使用图层编号。
    * 的新默认值 **[!UICONTROL Photoshop和图层名称]**，在PSD文件后面加上图层名称或图层编号来命名图像。 如果PSD文件中的图层名称是默认的Photoshop图层名称，则使用图层编号。
    * 考虑到Adobe Dynamic Media Classic中的图层图像现在具有唯一名称，因此不会对现有PSD或模板进行更新(哪些模板与原始PSD文件中的图层名称共享)。
@@ -145,14 +145,14 @@ Adobe Dynamic Media Classic桌面应用程序中的升级通知不会为生成 *
 
 1. 登录后，请注意熟悉的浏览器用户界面体验。 您可以像往常一样，在桌面应用程序上继续您的日常Adobe Dynamic Media Classic活动。
 
-## 下载和 *静音* 在macOS上安装最新的Adobe Dynamic Media Classic桌面应用程序 {#install-silent-mac-dmc-app}
+## 下载和 *静默* 在macOS上安装最新的Adobe Dynamic Media Classic桌面应用程序 {#install-silent-mac-dmc-app}
 
 另请参阅：
 
 * [在Mac或Windows上下载并安装最新的Adobe Dynamic Media Classic桌面应用程序](#installation-dmc-app)
 * [在Windows上下载并静默安装最新的Adobe Dynamic Media Classic桌面应用程序](#install-silent-windows-dmc-app)
 
-要下载和 *静音* 在macOS上安装最新版本的Adobe Dynamic Media Classic桌面应用程序：
+要下载和 *静默* 在macOS上安装最新版本的Adobe Dynamic Media Classic桌面应用程序：
 
 1. 卸载系统上的任何旧版Adobe Dynamic Media Classic桌面应用程序。
 
@@ -185,7 +185,7 @@ Adobe Dynamic Media Classic桌面应用程序中的升级通知不会为生成 *
    | EMEA生产（欧洲、中东和非洲） | https://s7sps3.scene7.com/ |
    | APAC生产（亚太） | https://s7sps5.scene7.com/ |
 
-## 下载和 *静音* 在Windows®上安装最新的Adobe Dynamic Media Classic桌面应用程序 {#install-silent-windows-dmc-app}
+## 下载和 *静默* 在Windows®上安装最新的Adobe Dynamic Media Classic桌面应用程序 {#install-silent-windows-dmc-app}
 
 您使用的命令用于基本的MSI静默安装。 但是，Adobe Dynamic Media Classic桌面应用程序安装程序是使用InstallShield创建的InstallScript MSI安装程序。 在记录模式下运行安装程序时，任何用户交互都会记录在响应文件中。 然后将此响应文件用于静默安装，如中所述 [在静默模式下运行安装](https://docs.revenera.com/installshield25helplib/installshield25helplib.htm#helplibrary/SilentInstall.htm).
 
@@ -195,7 +195,7 @@ Adobe Dynamic Media Classic桌面应用程序中的升级通知不会为生成 *
 
 * [在macOS上下载并静默安装最新的Adobe Dynamic Media Classic桌面应用程序](#install-silent-mac-dmc-app)
 
-要下载和 *静音* 在Windows®上安装最新版本的Adobe Dynamic Media Classic桌面应用程序：
+要下载和 *静默* 在Windows®上安装最新版本的Adobe Dynamic Media Classic桌面应用程序：
 
 1. 卸载系统上的任何旧版Adobe Dynamic Media Classic桌面应用程序。
 
@@ -258,7 +258,7 @@ Adobe Dynamic Media Classic桌面应用程序中的升级通知不会为生成 *
 
 ## Adobe Dynamic Media Classic 20.20.1中的已知限制（已在20.20.2中修复）
 
-**_仅适用于Windows® — 通过桌面应用程序UI上传的文件数量是否存在限制？_**<br>是，通过桌面应用程序UI，一次最多可以上传150个文件。
+**_仅适用于Windows® — 通过桌面应用程序UI上传的文件数量是否存在限制？_**<br>是，使用桌面应用程序UI一次最多可以上传150个文件。
 
 **_适用于Windows®和macOS — 如何在公司之间切换？_**<br>要在公司之间切换，请执行以下操作：
 

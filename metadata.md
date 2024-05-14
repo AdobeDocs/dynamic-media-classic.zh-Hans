@@ -5,9 +5,9 @@ type: Documentation
 feature-set: Experience Manager Assets
 git-repo: https://github.com/AdobeDocs/dynamic-media-classic.zh-Hans
 recommendations: noDisplay
-source-git-commit: 4e5487742ac1dcbf7db5ba3568fdf7784664e25b
+source-git-commit: de6997fda88c4471625242ee9cca59b344cee945
 workflow-type: tm+mt
-source-wordcount: '106'
+source-wordcount: '109'
 ht-degree: 0%
 
 ---
@@ -24,5 +24,5 @@ metadata.md文件包含存储库级别的元数据，这些元数据会传送到
 | 解决方案图标 | 在解决方案标题旁边显示解决方案图标。 尚未实施 |
 | getting-started-url | 指向入门页面的链接 |
 | tutorials-url | 指向视频教程（教程或KT教程）的链接 |
-| mini-toc-levels | 确定右边栏中显示的标题级别数。 默认值为2 |
+| mini-toc-levels | 确定在右边栏中显示的标题级别数。 默认值为2 |
 | git-repo | 指定主存储库的位置以供内部使用 |

@@ -10,16 +10,16 @@ role: User
 exl-id: 618ae6a4-6f60-4a80-b197-a9d35b3c47af
 topic: Content Management
 level: Intermediate
-source-git-commit: 5b5dcd1199bd51ec987b5673fce75bc86baad55b
+source-git-commit: de6997fda88c4471625242ee9cca59b344cee945
 workflow-type: tm+mt
-source-wordcount: '617'
+source-wordcount: '621'
 ht-degree: 20%
 
 ---
 
 # 在“详细信息”视图中工作{#working-in-detail-view}
 
-您可以通过在“详细信息”视图中打开资产来使用和了解资产。 在“详细信息”视图中，您可以看到资产大小、属性、派生项和元数据。 您还可以查看资产是否发布以及何时发布，并且可以获得已发布资产的URL。 根据资源类型，您可以按不同大小预览资源，将其放大，并执行锐化、裁切以及其他格式设置操作。
+您可以通过在“详细信息”视图中打开资产来使用和了解资产。 在“详细信息”视图中，您可以看到资产大小、属性、派生项和元数据。 您还可以查看资产是否发布以及何时发布，并可获取已发布资产的URL。 根据资源类型，您可以按不同大小预览资源，将其放大，并执行锐化、裁切以及其他格式设置操作。
 
 <!-- 
 
@@ -40,7 +40,7 @@ Last Modified Date: 2018-06-14T13:52:46.623-0400
 
 ## 在“详细信息”视图中打开资产 {#open-an-asset-in-detail-view}
 
-要仔细检查、预览或处理资源，可以在“详细信息视图”中显示该资源。
+您可以在“详细信息”视图中显示资源，以便仔细检查、预览或处理该资源。
 
 1. 在“浏览”面板中，执行以下任一操作：
 
@@ -50,7 +50,7 @@ Last Modified Date: 2018-06-14T13:52:46.623-0400
 
 >[!NOTE]
 >
->在“详细信息”视图中，通过选择可在同一文件夹中在不同资产之间进行分页 **[!UICONTROL 上一个资源]** 或 **[!UICONTROL 下一个资产]**. 这些按钮位于“详细视图”的右上角。
+>在“详细信息”视图中，您可以在同一文件夹中从一个资产页面转到另一个资产。 只需单击 **[!UICONTROL 上一个资源]** 或 **[!UICONTROL 下一个资产]**. 这些按钮位于“详细视图”的右上角。
 
 ## 在“详细信息”视图中获取信息 {#getting-information-in-detail-view}
 
@@ -62,15 +62,15 @@ Last Modified Date: 2018-06-14T13:52:46.623-0400
 
 “详细信息视图”提供了用于处理所打开资产的工具。 可用的工具取决于您使用的资源类型，但“详细信息视图”始终提供以下功能：
 
-* **发布项目**  — 选择 **[!UICONTROL `Publish`]** 图标，或转到 **[!UICONTROL 文件]** > **[!UICONTROL Publish]** 或 **[!UICONTROL 文件]** > **[!UICONTROL 取消发布]**.
+* **发布项目**：选择 **[!UICONTROL `Publish`]** 图标，或转到 **[!UICONTROL 文件]** > **[!UICONTROL Publish]** 或 **[!UICONTROL 文件]** > **[!UICONTROL 取消发布]**.
 
-* **重命名资源**  — 选择名称并输入新名称。
+* **重命名资源**：选择名称并输入新名称。
 
-* **编辑和添加元数据**  — 选择元数据面板，然后根据需要进行更改。 请参阅 [查看、添加和导出元数据](/help/using/viewing-adding-exporting-metadata.md).
+* **编辑和添加元数据**：选择元数据面板，然后根据需要进行更改。 请参阅 [查看、添加和导出元数据](/help/using/viewing-adding-exporting-metadata.md).
 
-* **编辑和添加关键字**  — 选择关键字，并根据需要添加或删除关键字。 请参阅[添加或编辑关键字](/help/using/viewing-adding-exporting-metadata.md)。
+* **编辑和添加关键字**：选择关键字，并根据需要添加或删除关键字。 请参阅[添加或编辑关键字](/help/using/viewing-adding-exporting-metadata.md)。
 
-* **删除资源**  — 转到 **[!UICONTROL 文件]** > **[!UICONTROL 删除]**.
+* **删除资源**：转到 **[!UICONTROL 文件]** > **[!UICONTROL 删除]**.
 
 对于离散文件（例如图像、图像集和字体），您可以在“详细视图”中查看发布和编辑历史记录，并检查作业详细信息。
 
@@ -93,7 +93,7 @@ Last Modified Date: 2018-06-14T13:52:46.623-0400
 | SVG 文件 | 否 | 否 |
 | 模板 | 编辑 | 是 |
 | 视频 | 否 | 是 |
-| 晕影和渲染的晕影 | 否 | 显示图像<br>您可以以XML格式查看晕影的可渲染元素的内容和结构 |
+| 晕影和渲染的晕影 | 否 | 此时将显示图像<br>您可以以XML格式查看晕影的可渲染元素的内容和结构 |
 | XML 文件 | 否 | 显示内容 |
 | ZIP 文件 | 否 | 内容未显示 |
 

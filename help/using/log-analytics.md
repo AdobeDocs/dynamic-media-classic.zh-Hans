@@ -10,16 +10,16 @@ role: Data Engineer,Admin,User
 exl-id: 261b8f7c-c61c-4ce3-b9dc-8549347aca2e
 topic: Integrations, Development
 level: Experienced
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: de6997fda88c4471625242ee9cca59b344cee945
 workflow-type: tm+mt
-source-wordcount: '841'
+source-wordcount: '847'
 ht-degree: 0%
 
 ---
 
 # 登录到Adobe Analytics{#log-in-to-adobe-analytics}
 
-在登录以配置Adobe Analytics报表并将Adobe Analytics报表变量与Adobe Dynamic Media Classic事件匹配之前，请验证您是否是Adobe Analytics中的Web服务访问组的成员。 无论界面中设置的权限如何，该组中的成员都可以通过Experience Cloud的Web服务API访问指定报表包中的所有报表。 要向组添加成员，请在Adobe Analytics中转到 **[!UICONTROL 管理工具]** > **[!UICONTROL User Management]** > **[!UICONTROL 编辑组]**.
+验证您是否是Adobe Analytics中的Web服务访问组的成员。 请在登录以配置Adobe Analytics报表并将Adobe Analytics报表变量与Adobe Dynamic Media Classic事件匹配之前执行此操作。 此组中的成员可以访问指定报表包中的所有报表。 无论界面中设置的权限如何，都使用Experience Cloud的Web服务API来执行此操作。 要向组添加成员，请在Adobe Analytics中转到 **[!UICONTROL 管理工具]** > **[!UICONTROL User Management]** > **[!UICONTROL 编辑组]**.
 
 登录时，您可以选择输入Experience Cloud组织ID以使用最新的视频分析实施。 如果您选择不输入ID，则视频报表仍可正常工作。 但是，它可能会导致数据无法与Adobe Dynamic Media Classic外部适用于该客户端的其他数据正确集成。
 
@@ -70,7 +70,7 @@ ht-degree: 0%
 >
 >在Dynamic Media Classic中对Adobe Analytics进行初始配置后，只有在以下情况下才必须重做配置：
 >
->* Analytics中添加了一个新报表，用户希望开始向该新报表发送数据。
+>* 在Analytics中添加了一个新报表，用户希望开始向该新报表发送数据。
 >* Adobe Analytics中更新了跟踪服务器。
 >* 报表中引入了一个新的跟踪变量，您希望将Dynamic Media Classic用户界面中的特定查看器变量链接到这个新的Analytics变量。
 >

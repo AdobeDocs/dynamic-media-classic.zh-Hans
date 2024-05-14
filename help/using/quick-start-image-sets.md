@@ -10,10 +10,10 @@ role: User
 exl-id: 280e7201-84d6-46b1-94bb-0499beca2992
 topic: Content Management
 level: Beginner
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: de6997fda88c4471625242ee9cca59b344cee945
 workflow-type: tm+mt
-source-wordcount: '666'
-ht-degree: 14%
+source-wordcount: '670'
+ht-degree: 13%
 
 ---
 
@@ -32,7 +32,7 @@ Adobe Dynamic Media Classic图像集为用户提供了集成的查看体验。 �
 | 每集的重复资产数 | 无重复项 | 20‡ |
 | 每组的最大图像数 | 每组5至10个图像 | 1000 |
 
-‡最佳实践是在一个集中没有重复的资产。 单个资产的限制为20个重复项。 如果为该资产添加其他重复项（在该集中），请求将会产生错误或忽略重复项。
+‡最佳做法是不要在一个集中拥有重复的资产。 单个资产的限制为20个重复项。 如果为该资产添加其他重复项（在该集中），请求将会产生错误或忽略重复项。
 
 另请参阅 [Dynamic Media限制](/help/using/limitations.md).
 
@@ -60,7 +60,7 @@ Adobe Dynamic Media Classic图像集为用户提供了集成的查看体验。 �
 
 管理员可以创建或修改图像集查看器预设。Adobe Dynamic Media Classic为每种富媒体类型提供了默认查看器预设。 使用缩放查看器： **[!UICONTROL 自定义]** > **[!UICONTROL 图像]** 或 **[!UICONTROL 图像集]**/**[!UICONTROL 多个视图]** 用于查看图像集的预设。
 
-可在“应用程序设置”屏幕中添加或编辑查看器预设。
+您可以在“应用程序设置”屏幕中添加或编辑查看器预设。
 
 请参阅 [创建和编辑查看器预设](application-setup.md#adding-and-editing-viewer-presets).
 
@@ -86,6 +86,6 @@ Adobe Dynamic Media Classic图像集为用户提供了集成的查看体验。 �
 
 Adobe Dynamic Media Classic为图像集创建URL调用，并在发布后激活它们。 可以从“预览”屏幕复制这些 URL。
 
-选择图像集，然后选择 **[!UICONTROL 预览]**. 现在，选择图像集查看器预设，然后选择 **[!UICONTROL 复制URL]**.
+选择图像集，然后选择 **[!UICONTROL 预览]**. 现在，选择图像集查看器预设，然后单击 **[!UICONTROL 复制URL]** 按钮。
 
 请参阅 [将图像集链接到网页](linking-image-set-web-page.md#linking-an-image-set-to-a-web-page).

@@ -1,7 +1,7 @@
 ---
-source-git-commit: 1b90beb99b161b76da81403f5aed9755b3a92c8b
+source-git-commit: de6997fda88c4471625242ee9cca59b344cee945
 workflow-type: tm+mt
-source-wordcount: '685'
+source-wordcount: '666'
 ht-degree: 0%
 
 ---
@@ -11,7 +11,7 @@ ht-degree: 0%
 
 Adobe知道Adobe Dynamic Media Classic用户在竞争激烈的环境中工作，努力创造数字体验，让他们从竞争对手中脱颖而出。 因此，当Adobe提供先进的新工具时，这些工具必须辅以准确和清晰的文档，这一点至关重要。 这样，客户就可以立即使用其Adobe Dynamic Media Classic投资并最大限度地提高ROI。
 
-文档的目标是尽快将最新文档交到用户手中。 因此，Adobe会优先处理准确且可用的文档，并努力不断更新和改进文档。
+文档的目标是尽快将最新文档交到用户手中。 因此，Adobe会优先处理准确的可用文档，并不断更新和改进文档。
 
 ## 贡献文档内容
 
@@ -19,33 +19,33 @@ Adobe知道Adobe Dynamic Media Classic用户在竞争激烈的环境中工作，
 
 ## 文档标准
 
-虽然Adobe欢迎向其文档投稿，但对文档的任何投稿，无论是以拉取请求或问题的形式，都应符合Adobe的投稿和文档标准。
+虽然Adobe欢迎向其文档投稿，但在拉取请求或问题中对文档的任何投稿都应符合Adobe的投稿和文档标准。
 
 我们会拒绝不符合这些标准的投稿。
 
-### Adobe文档标准用例。
+### 标准用例是哪些Adobe文档
 
 本文档涵盖标准用例。 超出产品标准安装和使用范围的用例不属于文档的一部分。
 
-### Adobe通常不会记录错误或其解决方法。
+### Adobe通常不会记录错误或其解决方法
 
 本文档涵盖标准用例。 因此，未记录错误、错误产生的影响以及相应的解决方法。
 
-此规则的例外情况适用于发行说明，发行说明中会列出已知问题和产品管理部门批准的可能解决方案。
+此规则的例外情况适用于发行说明，发行说明中会列出已知问题和产品管理批准的可能解决方案。
 
-### 贡献的文档内容不用于回答技术问题。
+### 贡献的文档内容不用于回答技术问题
 
-欢迎您对改进文档的任何想法作为投稿。 但是，评论、问题和拉取请求仅用于 *投稿* 仅限。 它们不是为了回答您有关如何使用Adobe Dynamic Media Classic、实施您的项目或解决技术问题。
+欢迎您对改进文档的任何想法作为投稿。 但是，评论、问题和拉取请求仅适用于 *投稿* 仅限。 它们不是为了回答您有关如何使用Adobe Dynamic Media Classic、实施您的项目或解决技术问题。
 
 如果您对Adobe Dynamic Media Classic的使用有任何疑问或遇到任何技术问题，应通过以下网站报告： [Experience Cloud企业支持门户](https://experienceleague.adobe.com/?support-solution=General&amp;support-tab=home#support) 或在 [Experience Cloud社区](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/ct-p/adobe-experience-manager-community).
 
 ***文档投稿无法替代Adobe客户关怀*** 任何试图获取支持相关问题答案的此类投稿都将被拒绝。
 
-### 贡献内容必须明确引用受影响的文档页面。
+### 贡献内容必须明确引用受影响的文档页面
 
 如果创建问题以建议对文档进行改进，则必须包含指向受影响页面的链接。 如果您通过使用 **编辑此页面** 链接时，问题创建后会自动包含指向该页面的链接。
 
-这不适用于拉取请求，因为拉取请求会引用受影响的页面。
+此工作流不适用于拉取请求，因为拉取请求会引用受影响的页面。
 
 ## 文档准则
 
@@ -63,7 +63,7 @@ Adobe要求对其文档贡献的任何内容都遵循特定风格准则。
 
 请记住，文档的读者遍布世界各地。 他们不可能以英语为母语或流利。 避免口语，尽量使用清晰简单的语言。
 
-#### 遵循Microsoft®风格手册
+#### 遵循Microsoft®写作风格指南
 
 [Microsoft®风格手册](https://learn.microsoft.com/en-us/style-guide/welcome/) 是免费提供的文档风格指南，重点针对的是软件文档，Adobe Dynamic Media Classic文档应尽量遵循该指南。
 
@@ -83,4 +83,4 @@ Adobe要求对其文档贡献的任何内容都遵循特定风格准则。
 
 ### 特定于版本的引用
 
-尽量避免在整个文档内容中直接引用特定版本。 这样可使未来版本的文档更加灵活和可扩展。
+尽量避免在整个文档内容中直接引用特定版本。 这样做可使文档对未来版本更加灵活和可扩展。

@@ -9,16 +9,16 @@ role: User
 exl-id: 66a1ab20-6036-4c3d-bb66-dd06d917c7f2
 topic: Content Management
 level: Intermediate
-source-git-commit: a607488b6a1dd51ef7cc8c885db5a87f4f792aaa
+source-git-commit: de6997fda88c4471625242ee9cca59b344cee945
 workflow-type: tm+mt
-source-wordcount: '716'
-ht-degree: 27%
+source-wordcount: '705'
+ht-degree: 23%
 
 ---
 
 # 向视频添加字幕 {#add-captions-to-video}
 
-您可以在单个视频或自适应视频集中添加题注，以便将视频范围扩大到全球市场。通过添加题注，可以避免为音频配音或针对每种不同的语言使用说母语的人来重新录制音频的操作。视频使用录制时的语言播放。同时显示外语字幕，以便使用不同语言的人也可以理解音频内容。
+将视频覆盖范围扩展到全球市场。 为此，您可以向单个视频或自适应视频集添加字幕。 通过添加题注，可以避免为音频配音或针对每种不同的语言使用说母语的人来重新录制音频的操作。视频使用录制时的语言播放。同时显示外语字幕，以便使用不同语言的人也可以理解音频内容。
 
 通过添加题注，还可以使耳聋或者有听力障碍的人也可以访问这部分内容。
 
@@ -38,15 +38,15 @@ ht-degree: 27%
 
 Adobe Dynamic Media Classic可以将字幕文件转换为JSON（JavaScript对象表示法）格式。 这种转换意味着，您可以将 JSON 文本作为视频的隐藏但完整的文本嵌入到网页中。然后，搜索引擎可以对内容进行爬网和索引，使视频更容易被发现，并为客户提供有关视频内容的更多详细信息。
 
-请参阅 [提供静态（非图像）内容](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/c-serving-static-nonimage-contents#image-serving-api) 在 *Adobe图像服务API帮助* 有关在URL中使用JSON函数的更多信息。
+请参阅 [提供静态（非图像）内容](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/c-serving-static-nonimage-contents#image-serving-api) 有关在URL中使用JSON函数的更多信息，请参阅。
 
-**要向视频添加字幕：**
+**要向视频添加字幕，请执行以下操作：**
 
 1. 使用Adobe Dynamic Media Classic之外的第三方应用程序，根据您使用的查看器类型创建视频字幕文件。
 
    | 查看器类型 | 题注文件 |
    |--- |--- |
-   | HTML5 | 如果您使用 HTML5 视频查看器，请确保您创建的题注文件遵循 WebVTT（Web 视频文本跟踪）标准。题注文件的扩展名为 .vtt。您可以了解有关 WebVTT 题注标准的详细信息。<br><br>[请参阅WebVTT](https://w3c.github.io/webvtt/)：Web视频字幕格式。 <br><br>有许多网站同时提供免费和收费的工具和服务，可用于在Adobe Dynamic Media Classic之外创作WebVTT描述文件。 <br><br>按照站点中的屏幕说明创作和保存WebVTT文件。 完成后，复制字幕文件内容并将其粘贴到纯文本编辑器中，并以VTT文件扩展名保存。 <br><br><b>注意：</b> 为了在全球范围支持英语以外的其他语言的视频字幕，WebVTT标准要求您为要支持的每种语言创建单独的.vtt文件并调用。 <br><br>通常，您希望将字幕VTT文件的名称与视频文件相同，并附加字幕。 这有助于使用现有的 Web 内容管理系统自动生成视频 URL。 |
+   | HTML5 | 如果您使用 HTML5 视频查看器，请确保您创建的题注文件遵循 WebVTT（Web 视频文本跟踪）标准。字幕文件扩展名为 `.VTT`. 您可以了解有关 WebVTT 题注标准的详细信息。<br><br>[请参阅WebVTT](https://w3c.github.io/webvtt/)：Web视频字幕格式。 <br><br>有许多网站同时提供免费和收费的工具和服务，可用于创作WebVTT字幕文件。 <br><br>按照站点中的屏幕说明创作和保存WebVTT文件。 完成后，复制字幕文件内容并将其粘贴到纯文本编辑器中，并以VTT文件扩展名保存。 <br><br><b>注意：</b> 为了在全球范围内支持英语以外的其他语言的视频字幕，WebVTT标准要求您创建单独的 `.VTT` 要支持的每种语言的文件和调用。 <br><br>通常，您希望将字幕VTT文件的名称与视频文件相同，并附加字幕。 这有助于使用现有的 Web 内容管理系统自动生成视频 URL。 |
 
 1. 在Adobe Dynamic Media Classic中，上传WebVTT、DFXP或SMPTE XML描述文件。
 

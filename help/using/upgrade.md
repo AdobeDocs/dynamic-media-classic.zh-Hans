@@ -6,9 +6,9 @@ role: Admin,User
 exl-id: 5e322d81-1303-494b-b5dd-df29b5c5d8e2
 topic: Administration, Migration
 level: Intermediate
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: de6997fda88c4471625242ee9cca59b344cee945
 workflow-type: tm+mt
-source-wordcount: '572'
+source-wordcount: '575'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 0%
 
 ## 的主要优势和功能 [!DNL Dynamic Media]
 
-[!DNL Dynamic Media] 是自然进化 [!DNL Dynamic Media Classic] 并提供富媒体创作、发布和交付工具集，包括采用创新的、以用户为中心的界面的同类最佳交付，从而促进现代现实工作流程。
+[!DNL Dynamic Media] 是自然进化 [!DNL Dynamic Media Classic]. 它提供了富媒体创作、发布和交付工具集。 它还包含同类最佳交付，具有以用户为中心的创新界面，可促进现代真实工作流程。
 
 * 无缝、统一的体验以及与的集成 [!DNL Adobe Experience Manager]：从一个商店、一个源配置和动态交付丰富的内容
 * 全新的以营销人员为中心的用户体验，可轻松创作和交付富媒体内容
@@ -52,7 +52,7 @@ ht-degree: 0%
 
 ## 为什么选择Adobe？
 
-* 数字资产Forrester WAVE报表中最大的积极推动者。
+* 数字资产中最大的积极推动者Forrester WAVE报告。
 * 在2016在线视频平台报告中表现突出。
 * Internet Retail 1000的顶级富媒体供应商，连续九年。
 * 24/7/265支持， 99.95%服务级别协议， Adobe Professional Services。

@@ -10,10 +10,10 @@ role: User
 exl-id: 44a82437-7592-484f-b45f-17ed1f6efbec
 topic: Content Management
 level: Intermediate
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: de6997fda88c4471625242ee9cca59b344cee945
 workflow-type: tm+mt
-source-wordcount: '222'
-ht-degree: 18%
+source-wordcount: '224'
+ht-degree: 16%
 
 ---
 
@@ -29,11 +29,11 @@ ht-degree: 18%
 
 要充分利用Adobe Dynamic Media Classic的缩放功能，请先准备缩放图像文件，然后再上传：
 
-* **图像大小** - Adobe Dynamic Media Classic建议使用最大大小至少为2000像素的图像文件。 以便用户缩放时图像可以清楚地显示。
+* **图像大小**：Adobe Dynamic Media Classic建议使用最大大小至少为2000像素的图像文件。 以便用户缩放时图像可以清楚地显示。
 
-* **文件格式** - Adobe Dynamic Media Classic支持所有标准图像文件格式，包括TIFF、BMP、JPEG、PSD、GIF和EPS。 建议使用无损图像格式（TIFF 和 PNG）。如果您使用的是JPEG图像，请使用最高质量的设置。
+* **文件格式**：Adobe Dynamic Media Classic支持所有标准图像文件格式。 格式包括TIFF、BMP、JPEG、PSD、GIF和EPS。 建议使用无损图像格式TIFF和PNG。 如果您使用的是JPEG图像，请使用最高质量的设置。
 
-* **颜色空间** -RGB是Web图像演示文稿的颜色空间；CMYK图像在上传时自动转换为RGB。 建议上载嵌有用于转换为 RGB 的 ICC 颜色配置文件的 CMYK 图像。另请参阅ICC配置文件。
+* **颜色空间**：RGB是Web图像演示文稿的颜色空间；CMYK图像在上传时自动转换为RGB。 建议上载嵌有用于转换为 RGB 的 ICC 颜色配置文件的 CMYK 图像。另请参阅ICC配置文件。
 
 >[!MORELIKETHIS]
 >

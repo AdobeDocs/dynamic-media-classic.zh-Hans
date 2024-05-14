@@ -10,10 +10,10 @@ role: Data Engineer,Admin,User
 exl-id: a8fa2414-af01-4a58-bb33-dfd12c1056cc
 topic: Integrations
 level: Experienced
-source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
+source-git-commit: de6997fda88c4471625242ee9cca59b344cee945
 workflow-type: tm+mt
-source-wordcount: '682'
-ht-degree: 24%
+source-wordcount: '689'
+ht-degree: 21%
 
 ---
 
@@ -31,13 +31,13 @@ Adobe Analytics 是一款行业领先的产品，营销人员可用来评估、�
 >
 >要将Analytics与Adobe Dynamic Media Classic集成并生成Analytics报表，需要有效的Adobe Analytics帐户。
 
-该快速入门旨在帮助您快速学会如何使用 Adobe Analytics 仪器包。
+本快速入门指南旨在通过Adobe Analytics工具包帮助您快速启动和运行。
 
 ## 1.通过Adobe Dynamic Media Classic登录Adobe Analytics并下载Adobe Analytics报表变量
 
 >[!NOTE]
 >
->在配置Adobe Analytics报表并将Adobe Analytics报表变量与Adobe Dynamic Media Classic事件匹配之前，请验证您是否已被添加为Adobe Analytics中Web服务访问组的成员。 无论界面中设置的权限如何，该组中的成员都可以通过Experience Cloud的Web服务API访问指定报表包中的所有报表。 要向组添加成员，请在Adobe Analytics中转到 **[!UICONTROL 管理工具]** > **[!UICONTROL User Management]** > **[!UICONTROL 编辑组]**.
+>验证您是否已被添加为Adobe Analytics中Web服务访问组的成员。 请在配置Adobe Analytics报表之前进行此验证。 此外，在将Adobe Analytics报表变量与Adobe Dynamic Media Classic事件匹配之前。 此组中的成员可以访问指定报表包中的所有报表。 无论界面中设置的权限如何，您都可以使用Experience Cloud的Web服务API来执行此操作。 要向组添加成员，请在Adobe Analytics中转到 **[!UICONTROL 管理工具]** > **[!UICONTROL User Management]** > **[!UICONTROL 编辑组]**.
 
 确认您是Web Service Access组的成员，然后在Adobe Dynamic Media Classic中，转到 **[!UICONTROL 设置]** > **[!UICONTROL 应用程序设置]** > **[!UICONTROL Adobe Analytics]**. 在Adobe Analytics配置页面上，选择 **[!UICONTROL Adobe Analytics登录]**.
 
@@ -60,11 +60,11 @@ Adobe Analytics 是一款行业领先的产品，营销人员可用来评估、�
 
 ## 3.发布Adobe Dynamic Media Classic查看器
 
-发布Adobe Dynamic Media Classic查看器，以便在Adobe Dynamic Media Classic服务器上加载查看器(在Adobe Analytics报表中带有用于跟踪用户活动的代码)。 发布后，此信息将包含在查看器中，并可用于Adobe Analytics的分析。
+发布Adobe Dynamic Media Classic查看器，以便在Adobe Dynamic Media Classic服务器上加载查看器(在Adobe Analytics报表中带有用于跟踪用户活动的代码)。 发布后，此信息将包含在查看器中。 可将其用于Adobe Analytics的分析。
 
 请参阅 [发布配置信息](publishing-analytics-configuration-information.md#publishing_adobe_analytics_configuration_information).
 
-## 4.将Adobe Dynamic Media Classic查看器放置在您的网站中
+## 4.将Adobe Dynamic Media Classic查看器放在您的网站上
 
 将带有Adobe Analytics跟踪代码的Adobe Dynamic Media Classic查看器放在您的网站上。
 

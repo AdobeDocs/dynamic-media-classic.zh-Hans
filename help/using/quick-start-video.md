@@ -10,10 +10,10 @@ role: User
 exl-id: 1157400c-b33a-422e-848c-258660ddc748
 topic: Content Management
 level: Beginner
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: de6997fda88c4471625242ee9cca59b344cee945
 workflow-type: tm+mt
-source-wordcount: '1437'
-ht-degree: 30%
+source-wordcount: '1443'
+ht-degree: 28%
 
 ---
 
@@ -23,7 +23,7 @@ Adobe Dynamic Media Classic Video是一款端到端解决方案，可让您轻�
 
 例如，在 iOS 移动设备上，可检测 3G、4G 或 Wi-Fi 等带宽。然后，从自适应视频集内的不同视频比特率中自动选择正确的编码视频。视频将流式传输到台式机、移动设备或平板电脑。
 
-另外，如果台式机或移动设备上的网络条件发生变化，则会自动动态切换视频质量。此外，如果客户在桌面上进入全屏模式，则自适应视频集将使用更好的分辨率进行响应，从而改善客户的观看体验。 通过使用自适应视频集，您可以为在多台屏幕和设备上播放Adobe Dynamic Media Classic视频的客户提供尽可能最佳的播放方式。
+另外，如果台式机或移动设备上的网络条件发生变化，则会自动动态切换视频质量。此外，如果客户在桌面上进入全屏模式，则自适应视频集将使用更好的分辨率进行响应，从而改善客户的观看体验。 使用自适应视频集可以尽可能提供最佳播放。 它最适合在多个屏幕和设备上播放Adobe Dynamic Media Classic视频的客户。
 
 视频播放器用于确定要播放或选择的编码视频的逻辑取决于以下算法：
 
@@ -31,13 +31,13 @@ Adobe Dynamic Media Classic Video是一款端到端解决方案，可让您轻�
 1. 视频播放器根据使用下列条件对带宽速度所做的更改进行切换：
 
    1. 播放器选择低于或等于估计带宽的最高带宽流。
-   1. 播放器仅考虑可用带宽的80%。 然而，如果它转为上涨，那么它更保守，仅为70%，以避免高估和不得不立即回调。
+   1. 播放器仅考虑可用带宽的80%。 然而，如果它正在切换，则更保守的是70%，以避免高估，并立即切换回来。
 
 有关算法的逻辑，请参阅 [https://android.googlesource.com/platform/frameworks/av/+/master/media/libstagefright/httplive/LiveSession.cpp](https://android.googlesource.com/platform/frameworks/av/+/master/media/libstagefright/httplive/LiveSession.cpp) 以获取有关该报表的技术信息。
 
 对于管理单个视频和自适应视频集，Adobe Dynamic Media Classic支持以下内容：
 
-* 上载很多支持的视频格式和音频格式的视频，并将视频编码为 MP4 H.264 格式以在多个屏幕中进行播放。您可以使用预定义的Adobe Dynamic Media Classic自适应视频预设、单个视频编码预设，或自定义自己的编码来控制视频的质量和大小。
+* 上传多种受支持视频格式的视频。 并且，将音频格式和视频编码上传到MP4 H.264格式，以便跨多个屏幕播放。 您可以使用预定义的Adobe Dynamic Media Classic自适应视频预设、单个视频编码预设，或自定义自己的编码来控制视频的质量和大小。
 
 请参阅 [激活或取消激活自适应视频预设](/help/using/application-setup.md#activating-or-deactivating-adaptive-video-presets)
 
@@ -72,7 +72,7 @@ Adobe Dynamic Media Classic Video是一款端到端解决方案，可让您轻�
 
 * 使用Adobe Dynamic Media Classic查看器预设播放视频，包括以下内容：
 
-   * 单视频查看器。
+   * 单个视频查看器。
    * 兼有视频和图像内容的混合媒体查看器。
 
 * 配置视频播放器来满足您的品牌需求。
@@ -95,12 +95,12 @@ Adobe Dynamic Media Classic Video是一款端到端解决方案，可让您轻�
 
 可以使用以下两种方案之一上载并生成自适应视频集：
 
-* **上传预编码的视频**  — 如果您的视频已在Adobe Dynamic Media Classic之外进行编码，请在全局导航栏上，选择 **[!UICONTROL 上传]** 浏览并直接将MP4视频文件上传到Adobe Dynamic Media Classic。 然后，转到 **[!UICONTROL 生成]** > **[!UICONTROL 自适应视频集]**. 浏览至您的视频文件。将所需的视频文件拖放到“自适应视频集”表中，然后保存该集。
-* **上传主源视频**  — 如果您的视频未编码，请在全局导航栏上选择 **[!UICONTROL 上传]** 上传主视频源文件（非MP4）。 Adobe Dynamic Media Classic会为您将它们编码为MP4文件。 在 **[!UICONTROL 上载作业选项]** 对话框，在 **[!UICONTROL EVideo选项]**，选择 **[!UICONTROL 自适应视频]**.
+* **上传预编码的视频**：如果您的视频已从Adobe Dynamic Media Classic外部编码，请在全局导航栏上，选择 **[!UICONTROL 上传]**. 浏览MP4视频文件并将其直接上传到Adobe Dynamic Media Classic。 然后，转到 **[!UICONTROL 生成]** > **[!UICONTROL 自适应视频集]**. 浏览至您的视频文件。将所需的视频文件拖放到“自适应视频集”表中，然后保存该集。
+* **上传主源视频**：如果您的视频未编码，请在全局导航栏上选择 **[!UICONTROL 上传]** 上传主视频源文件（非MP4）。 Adobe Dynamic Media Classic会为您将它们编码为MP4文件。 在 **[!UICONTROL 上载作业选项]** 对话框，在 **[!UICONTROL EVideo选项]**，选择 **[!UICONTROL 自适应视频]**.
 
-  通过此首选选项，您可以创建自适应视频集，以便自动将正确的编码预设应用于视频（无论是16:9还是4:3），从而匹配您上传的视频尺寸。 在提交上载作业时，将自动为您创建自适应视频集，该视频集包含三个具有正确长宽比的编码视频设置。
+  通过此首选选项，您可以创建自适应视频集。 正确的编码预设将自动应用于视频，无论是16:9还是4:3，均可与您上传的视频尺寸相匹配。 在提交上载作业时，将自动为您创建自适应视频集，该视频集包含三个具有正确长宽比的编码视频设置。
 
-  或者，在同一个 **[!UICONTROL 作业选项]** 对话框，在 **[!UICONTROL EVideo选项]**，展开 **[!UICONTROL 单个编码预设]**. 从中选择所需的各个视频编码预设 **桌面**， **移动设备(iPhone、iPad、Android™)**、和 **平板电脑(iPad、Android™)** 这样您就可以创建MP4文件。
+  或者，在同一个 **[!UICONTROL 作业选项]** 对话框，在 **[!UICONTROL EVideo选项]**，展开 **[!UICONTROL 单个编码预设]**. 选择所需的各个视频编码预设。 您可以选择 **桌面**， **移动设备(iPhone、iPad、Android™)**、和 **平板电脑(iPad、Android™)** 创建MP4文件。
 
 * 或者，您可以使用重新处理主视频 **[!UICONTROL 重新处理]** 功能。 已将最新编码的视频添加到现有的自适应视频集。
 
@@ -116,7 +116,7 @@ Adobe Dynamic Media Classic提供了大量预定义的视频编码预设。 这�
 
 ## 2.在视频查看器中预览视频
 
-要查看视频在桌面、网站或移动设备上的播放方式，请在浏览面板中选择该视频，然后选择 **[!UICONTROL 预览]**.
+要查看视频如何在桌面、网站或移动设备上为最终用户播放，请在“浏览”面板中选择该视频。 然后选择 **[!UICONTROL 预览]**.
 
 请参阅 [在视频查看器中预览视频](previewing-videos-video-viewer.md#previewing_videos_in_a_video_viewer).
 

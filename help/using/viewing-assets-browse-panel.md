@@ -10,10 +10,10 @@ role: User
 exl-id: 4d38a224-5e06-4932-a801-5dcc32fe4b31
 topic: Content Management
 level: Intermediate
-source-git-commit: c7e500d8112779147e9dfcdd46ad335b1a997fe8
+source-git-commit: de6997fda88c4471625242ee9cca59b344cee945
 workflow-type: tm+mt
-source-wordcount: '250'
-ht-degree: 26%
+source-wordcount: '253'
+ht-degree: 17%
 
 ---
 
@@ -29,4 +29,4 @@ ht-degree: 26%
 
 >[!TIP]
 >
->可为浏览面板选择一个默认视图，使面板按您的指定方式运行。请参阅[个人设置](personal-setup.md#personal_setup)。*
+>您可以为“浏览”面板选择一个默认视图，并使该面板符合您的规范。 请参阅 [个人设置](personal-setup.md#personal_setup).*

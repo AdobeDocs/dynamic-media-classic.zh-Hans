@@ -10,10 +10,10 @@ role: User
 exl-id: 2be50cc7-9a8b-4f7b-8ebf-18a3208654f2
 topic: Content Management
 level: Intermediate
-source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
+source-git-commit: de6997fda88c4471625242ee9cca59b344cee945
 workflow-type: tm+mt
-source-wordcount: '2226'
-ht-degree: 40%
+source-wordcount: '2225'
+ht-degree: 36%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 40%
 
 您可以存储特定于您在Adobe Dynamic Media Classic中使用的文件的信息；此信息称为 *元数据*. 您可以在Adobe Dynamic Media Classic中使用元数据来组织、搜索、筛选和排序资源。
 
-元数据与Adobe Dynamic Media Classic生成的信息一起显示在“详细信息视图”中，例如文件创建日期、发布日期和关键字。 要查看元数据，请在详细信息视图中打开资产，然后选择元数据面板。 您可以在详细信息视图中输入和编辑元数据。
+元数据将显示在“详细信息”视图中。 它与Adobe Dynamic Media Classic生成的信息一起显示。 例如，文件创建日期、发布日期和关键字。 要查看元数据，请在详细信息视图中打开资产，然后选择元数据面板。 您可以在详细信息视图中输入和编辑元数据。
 
 一些元数据直接嵌入到文件中。如果文件包含此元数据，Adobe Dynamic Media Classic会自动将其与文件一起上传。 您可以将元数据嵌入到Adobe Photoshop、InDesign、Illustrator和其他应用程序中的源资源；Adobe Dynamic Media Classic可识别此元数据。 还可以在详细信息视图的“元数据”面板中将元数据添加到单个文件。 为了确保资源的一致性，公司管理员创建了元数据模板，提供可以填写的元数据字段。
 
@@ -49,7 +49,7 @@ ht-degree: 40%
    * 选择一种元数据视图，以确定面板中显示哪些元数据字段。
    * 选择一个预设值，然后选择 **[!UICONTROL 应用]** 以使用预设值填充元数据字段。 这些预设值由公司管理员创建。
 
-1. 在“元数据”面板中输入值。
+1. 在元数据面板中输入值。
 
 >[!NOTE]
 >
@@ -97,15 +97,15 @@ ht-degree: 40%
 
 在识别要导入的不同元数据类型时，请记住以下几点：
 
-* 用户定义的字段由其名称标识，如中所创建 **[!UICONTROL 设置]** > **[!UICONTROL 应用程序设置]** > **[!UICONTROL 元数据]** > **[!UICONTROL 用户定义的字段]**. 使用 `Generate file` 功能以正确导入格式获取所有已定义UDF的列表。
+* 用户定义的字段的名称标识为在中创建 **[!UICONTROL 设置]** > **[!UICONTROL 应用程序设置]** > **[!UICONTROL 元数据]** > **[!UICONTROL 用户定义的字段]**. 使用 `Generate file` 功能以正确导入格式获取所有已定义UDF的列表。
 * “XMP 元数据”属性在（属性-）名称之前必须具有相关 XMP- 前缀。前缀和名称之间用冒号分隔。XMP前缀可在 **[!UICONTROL 设置]** > **[!UICONTROL 应用程序设置]** > **[!UICONTROL 元数据]** > **[!UICONTROL 元数据架构]** 编辑者。 技术名称可在相关 XMP 架构文档中找到。XMP属性名称未出现在 `Generate file` 功能。
-* “元数据架构”属性在（属性-）名称之前必须具有相关前缀。前缀和名称之间用冒号分隔。前缀和属性名称是在元数据架构编辑器中定义的。元数据架构属性名称未出现在 `Generate file` 功能。
+* “元数据架构”属性在（属性-）名称之前必须具有相关前缀。前缀和名称之间用冒号分隔。前缀和属性名称在元数据架构编辑器中定义。 元数据架构属性名称未出现在 `Generate file` 功能。
 
 例如：关键字的XMP属性是前缀为“Dublin Core”的XMP架构 `dc` 和 `subject` 是技术XMP名称。 前缀和技术XMP名称将合并到 `dc:subject` 完整的属性名称。 在XML元数据导入格式中， `dc.subject` 必须为属性名称。 在制表符分隔的导入格式中，它必须是列标题。
 
 ### 导入关键字
 
-关键字可以导入为逗号分隔列表。 如果逗号出现在任何单个值中，则必须使用反斜杠(\)转义。 反斜杠字母为常见的双反斜杠 (\\)。
+关键字可以导入为逗号分隔列表。 如果逗号出现在任何单个值中，请使用反斜杠(\)将其转义。 反斜杠字母为常见的双反斜杠 (\\)。
 
 例如，包含值的元数据导入文件 `Hello\, World!,back\\slash,foo` 对象 `dc:subject` 在资源上设置三个XMP关键字： `Hello, World!,` `back\slash,` 和 `foo`.
 
@@ -127,7 +127,7 @@ XML 导入仅接受有效的 XML。导入XMP或元数据架构字段时，会添
 
 ## 导入元数据（通过 FTP） {#import-metadata-via-ftp}
 
-通过在制表符分隔或XML文件中输入元数据并选择 **[!UICONTROL 处理元数据文件]** 在上传作业选项（通过FTP选项卡）页面上。
+您可以导入多个文件的元数据。 在制表符分隔或XML文件中输入元数据。 然后，选择 **[!UICONTROL 处理元数据文件]** 在上传作业选项（通过FTP选项卡）页面上。
 
 确保制表符分隔文件或 XML 文件中的数据格式正确。在第一行中，输入 ID 字段，随后输入要修改的元数据字段名称。在每个后续行中，输入资源 ID 名称，后跟元数据值。系统不会对制表符分隔文件或 XML 文件中未包括的字段进行修改。
 
@@ -183,11 +183,11 @@ Adobe Dynamic Media Classic提供了用于创建用于记录元数据的模板�
 >
 >对架构所做的更改永远不会更改资源元数据自身。但是，对于所有Adobe Dynamic Media Classic和元数据服务器功能来说，它们不可见，并且在更改后无法访问。 同样，如果存在资源的元数据，则创建匹配架构会使该元数据在Adobe Dynamic Media Classic和元数据服务器中可用。
 
-元数据架构编辑器提供了一种在Adobe Dynamic Media Classic中添加或编辑自定义公司架构的图形方式。 架构由前缀、命名空间和一系列属性定义。
+元数据架构编辑器提供了一种在Adobe Dynamic Media Classic中添加或编辑自定义公司架构的图形方式。 前缀、命名空间和属性列表定义架构。
 
 * **[!UICONTROL 名称]**  — 架构的UI名称。 用于在元数据视图和高级搜索中识别属性。类似于 XMP 部分，如“基本”、IPTC、PDF。
 
-* **[!UICONTROL 前缀]**  — 架构的技术唯一标识符。 仅限于字母a-z和A-Z。前缀在Adobe Dynamic Media Classic UI中不可见，但在资源的元数据存储在XMP块和数据库中时使用。 前缀用于唯一标识元数据服务器上或导入的元数据搜索查询中的元数据字段。
+* **[!UICONTROL 前缀]**  — 架构的技术唯一标识符。 仅限于字母a-z和A-Z。前缀在Adobe Dynamic Media Classic UI中不可见，但在资源的元数据存储在XMP块和数据库中时使用。 前缀用于唯一标识在元数据服务器或导入上的元数据搜索查询中的元数据字段。
 
 * **[!UICONTROL 命名空间]**  — 架构的技术唯一标识符，通常是表单中的URL `https://your.company.com/name/version/`. 有关示例，请参阅标准架构列表。命名空间在Adobe Dynamic Media Classic UI中不可见，但用于在XMP块中存储元数据。
 
@@ -203,10 +203,10 @@ Adobe Dynamic Media Classic提供了用于创建用于记录元数据的模板�
 | --- | --- |
 | ID | 该属性的技术性标识符。该ID在Adobe Dynamic Media Classic UI中不可见，但在资源的元数据存储在XMP块和数据库中时使用。 ID用于在元数据服务器上创建搜索查询。 ID存在一些限制，例如： `<ul><li>No spaces</li><li>No ".", ":", "$"</li><li>No number as first character</li><li>Best practice is to use a-z or A-Z as first character</li></ul>` <br>创建后，无法更改ID。 |
 | 标签 | 该属性的 UI 名称。 |
-| 结构 | 与数据类型一起确定属性的类型。结构可能为：<ul><li>简单类型：单个数据类型值</li><li>序列：相同数据类型的值的列表</li><li>开放式选项：从预定义的值列表中选择一项，或随意输入文本。数据类型仅可为字符串型或整型</li><li>限定式选项：从预定义的值列表（弹出窗口或组合框）中选择一项</li></ul> |
+| 结构 | 与数据类型一起确定属性的类型。结构可能为：<ul><li>简单类型：单个数据类型值</li><li>序列：相同数据类型的值的列表</li><li>打开选项：从预定义值列表中选择一项或输入文本。 它只能为String或Integer数据类型</li><li>限定式选项：从预定义的值列表（弹出窗口或组合框）中选择一项</li></ul> |
 | 数据类型 | 从以下可用的类型中选择： <ul><li>字符串型</li><li>整型</li><li>浮点型</li><li>是/否（布尔型）</li><li>日期</li></ul> |
 
-当属性的结构为“开放式选项”或“限定式选项”时，您必须提供至少一个选项值。开放式选项可以更改。限定式选项不可更改。所有选项值都具有属性的数据类型。
+当属性具有“开放选择”或“封闭选择”结构时，您必须至少提供一个选择值。 开放式选项可以更改。限定式选项不可更改。所有选项值都具有属性的数据类型。
 
 | 属性 | 说明 |
 | --- | --- |
