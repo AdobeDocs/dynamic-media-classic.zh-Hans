@@ -10,10 +10,10 @@ role: User
 exl-id: 91b73a09-c5b5-4001-b36f-6bebe65717ff
 topic: Content Management
 level: Intermediate
-source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
+source-git-commit: 163eb32112ec6fbefd1dacf48212353ff3053d54
 workflow-type: tm+mt
-source-wordcount: '1672'
-ht-degree: 30%
+source-wordcount: '1674'
+ht-degree: 27%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 30%
 
 您可以将资源发布到Dynamic Media图像服务器。 您可以一次性发布资源，也可以安排Adobe Dynamic Media Classic按定期计划发布资源。 发布资源后，这些资源即可用来传送。您可以从Adobe Dynamic Media Classic复制URL调用，并将其添加到您的网站或应用程序。
 
-Adobe Dynamic Media Classic现在支持通过HTTP/2来交付所有图像和视频。 即，图像或视频的已发布URL或嵌入代码可用于与接受托管资产的任何应用程序集成。 随后，该已发布的资产将通过HTTP/2协议进行交付。 这种交付方法改进了浏览器和服务器的通信方式，使得所有Adobe Dynamic Media Classic资源都有更好的响应和加载时间。 请参阅 [http2内容交付常见问题解答](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/http2).
+Adobe Dynamic Media Classic现在支持通过HTTP/2来交付所有图像和视频。 即，图像或视频的已发布URL或嵌入代码可用于与接受托管资产的任何应用程序集成。 该已发布资产使用HTTP/2协议进行交付。 这种交付方法改进了浏览器和服务器的通信方式，使得所有Adobe Dynamic Media Classic资源都有更好的响应和加载时间。 请参阅 [http2内容交付常见问题解答](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/http2).
 
 ## 在上载之后发布 {#publish-after-uploading}
 
@@ -31,9 +31,9 @@ Adobe Dynamic Media Classic现在支持通过HTTP/2来交付所有图像和视�
 
 使用这些技术标记要发布的资产：
 
-* **[!UICONTROL 上传后发布]**  — 在上传页面底部附近，选择 **[!UICONTROL 上传后发布]**. 默认情况下，将处于选定状态。
+* **[!UICONTROL 上传后发布]**：在上传页面底部附近，选择 **[!UICONTROL 上传后发布]**. 默认情况下，将处于选定状态。
 
-* **[!UICONTROL 上传后发布]**  — 在“作业选项”对话框中，选择 **[!UICONTROL 上传后发布]**. 默认情况下，将处于选定状态。
+* **[!UICONTROL 上传后发布]**：在作业选项对话框中，选择 **[!UICONTROL 上传后发布]**. 默认情况下，将处于选定状态。
 
 如果父项资源标记为发布，则一些“子项”资源会自动标记为发布。此表列出了自动标记为发布的子资产。
 
@@ -92,13 +92,13 @@ Adobe Dynamic Media Classic跟踪“作业”页面上的发布作业。 您可�
 
 您可以在“发布”页面上显示“高级”选项，并选择这些选项来处理发布作业：
 
-* **[!UICONTROL 发布到]**  — 要仅将资产发布到特定服务器，请选择服务器类型。
+* **[!UICONTROL 发布到]**：要仅将资源发布到特定服务器，请选择服务器类型。
 
-* **[!UICONTROL Publish]**  — 默认情况下，Adobe Dynamic Media Classic仅发布新资产，并且以前未发布过这些资产（新的自上次发布后发布选项）。 但是，您可以选择 **[!UICONTROL 完全发布]** 用于同时发布自上次发布以来已更新或更改的资源。 选择 **[!UICONTROL 全部（包含搜索数据）]** 如果您要发布eCatalog，并且希望读者能够按关键字搜索它。
+* **[!UICONTROL Publish]**  — 默认情况下，Adobe Dynamic Media Classic仅发布新资产，并且以前未发布过这些资产（新的自上次发布后发布选项）。 但是，您可以选择 **[!UICONTROL 完全发布]** 因此，您还可以发布自上次发布以来已更新或更改的资产。 选择 **[!UICONTROL 全部（包含搜索数据）]** 如果您要发布eCatalog，并且希望读者能够按关键字搜索它。
 
-* **[!UICONTROL 作业运行身份]**  — 从列表中选择用户名。 可以在“作业”页中按用户名对作业进行排序。通过选择名称，可以将发布作业与用户相关联。
+* **[!UICONTROL 作业运行身份]**：从列表中选择用户名。 可以在“作业”页中按用户名对作业进行排序。通过选择名称，可以将发布作业与用户相关联。
 
-**[!UICONTROL HTTP通知]**  — 输入URL以触发后续发布作业。
+**[!UICONTROL HTTP通知]**：输入URL以触发后续发布作业。
 
 请参阅 [使用上载或发布作业作为触发器](checking-job-files.md#using_an_upload_or_publish_job_as_a_trigger).)
 
@@ -152,9 +152,9 @@ Adobe Dynamic Media Classic跟踪“作业”页面上的发布作业。 您可�
 
 Adobe Dynamic Media Classic资源在内容交付网络(CDN)上分发。 CDN 是指联成网络的计算机服务器系统，这些服务器以完全透明的方式合作，将内容（尤其是大型媒体内容）传递给最终用户。在 CDN 系统中，Web 内容存储在整个 Internet 的网络缓存中（称为边缘缓存网络）。Web内容从Web缓存交付给最终用户，以实现更快的交付。
 
-用户首次下载网页时，这些资源即传递到 CDN 网络缓存服务器。资源存储在该服务器上，这样，当下次同一区域中有人访问该网页时，可以更快地传递缓存的相同内容。内容传递速度更快是因为其位置更接近最终用户。CDN 提高了网页显示速度。它降低了中央服务器上的带宽要求，因为内容是从边缘缓存网络传递，而不是从每个实例的中央服务器传递。
+用户首次下载网页时，这些资源即传递到 CDN 网络缓存服务器。此服务器存储这些缓存，以便下次同一区域中的某人访问网页时，可以更快地交付相同的缓存内容。 内容传递速度更快是因为其位置更接近最终用户。CDN 提高了网页显示速度。它降低了中央服务器上的带宽要求，因为内容是从边缘缓存网络传递，而不是从每个实例的中央服务器传递。
 
-新发布的Adobe Dynamic Media Classic内容可立即提供给最终用户并快速填充边缘缓存网络。 但重新发布的内容（与之前发布到图像服务器的图像完全同名的图像）在 CDN 上最多需要十个小时才会更新。最终用户看到的则是 CDN 网络上的网络缓存中的内容。因此，您的Adobe Dynamic Media Classic重新发布的资源在十小时内不会向最终用户显示。
+新发布的Adobe Dynamic Media Classic内容可立即提供给最终用户并快速填充边缘缓存网络。 但是，新重新发布的内容（即与之前发布到图像服务器的图像具有相同名称的图像）在CDN上最多十小时内不会更新。 最终用户看到的则是 CDN 网络上的网络缓存中的内容。因此，您的Adobe Dynamic Media Classic重新发布的资源在十小时内不会向最终用户显示。
 
 如果希望重新发布的图像资源在可用前的延迟时间小于 10 小时，可以刷新 CDN 上的网络缓存。刷新这些网络缓存可以从 CDN 网络缓存中删除旧内容，并将其替换为最新发布的资源。
 

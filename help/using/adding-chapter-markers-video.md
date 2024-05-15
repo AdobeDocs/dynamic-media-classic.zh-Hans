@@ -10,9 +10,9 @@ role: User
 exl-id: a9250841-2dba-4fdc-8a6e-91b2fecef72f
 topic: Content Management
 level: Intermediate
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: 163eb32112ec6fbefd1dacf48212353ff3053d54
 workflow-type: tm+mt
-source-wordcount: '623'
+source-wordcount: '622'
 ht-degree: 28%
 
 ---
@@ -51,7 +51,7 @@ Cost-efficient access to rapidly evolving technology.
 
 在上面的示例中， `Chapter 1` 是提示标识符，且是可选的。 的提示时间 `00:00:000 --> 01:04:364` 指定章节的开始时间和结束时间（以00为单位）:00:000格式。 最后三个数字是毫秒；如果需要，可以将其保留为 000。的章节标题 `The bicycle store behind it all` 是章节内容的实际描述。 当指针悬停在视频时间轴中的可视提示点上时，提示标识符、开始提示时间和章节标题都会显示在视频播放器的弹出窗口中。
 
-由于使用的是 HTML5 视频查看器，请确保创建的章节文件遵循 WebVTT（Web 视频文本跟踪）标准。章节文件扩展名为.VTT。 您可以了解有关 WebVTT 题注标准的详细信息。
+由于使用的是 HTML5 视频查看器，请确保创建的章节文件遵循 WebVTT（Web 视频文本跟踪）标准。章节文件扩展名为 `.VTT`. 您可以了解有关 WebVTT 题注标准的详细信息。
 
 请参阅 [WebVTT： Web视频文本跟踪格式](https://w3c.github.io/webvtt/).
 
@@ -61,7 +61,7 @@ Cost-efficient access to rapidly evolving technology.
 
    >[!NOTE]
    >
-   >为了在全球范围内支持英语以外的其他语言的视频章节，WebVTT标准要求您为要支持的每种语言创建单独的.vtt文件和调用。
+   >为了在全球范围内支持英语以外的语言的视频章节，WebVTT标准要求您创建单独的 `.VTT` 要支持的每种语言的文件和调用。
 
 1. 将VTT文件保存为UTF8编码，这样可以避免章节标题文本中的字符呈现出现问题。
 

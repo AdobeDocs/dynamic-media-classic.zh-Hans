@@ -10,10 +10,10 @@ role: User
 exl-id: e3b8c4b9-e9c4-4d7f-84de-2efb456755a1
 topic: Integrations, Development
 level: Experienced
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: 163eb32112ec6fbefd1dacf48212353ff3053d54
 workflow-type: tm+mt
-source-wordcount: '1015'
-ht-degree: 23%
+source-wordcount: '1022'
+ht-degree: 21%
 
 ---
 
@@ -31,7 +31,7 @@ PSD(Photoshop文档文件)在Adobe Dynamic Media Classic中最常用于创建模
 
 以下选项在上载 PSD 文件时可用：
 
-* **裁切选项**  — 位于 **[!UICONTROL 裁切选项]**. 选择 **[!UICONTROL Trim]** 自动裁切PSD文件边缘的空格；选择 **[!UICONTROL 手动]** 要裁切PSD文件的侧边，请执行以下操作：
+* **裁切选项**  — 位于 **[!UICONTROL 裁切选项]**. 选择 **[!UICONTROL Trim]** 因此您可以自动裁剪来自PSD文件边缘的空格。 选择 **[!UICONTROL 手动]** 要裁切PSD文件的侧边，请执行以下操作：
 
    * **[!UICONTROL Trim]**  — 选择 **[!UICONTROL 裁切依据]** 菜单，然后选择 **[!UICONTROL 颜色]** 或 **[!UICONTROL 透明度]**.
 
@@ -39,7 +39,7 @@ PSD(Photoshop文档文件)在Adobe Dynamic Media Classic中最常用于创建模
 
   拖动滑块以指定从0到1的公差。 基于颜色修剪时，如果指定为 0，则仅裁切与 PSD 角中选定颜色精确匹配的像素。数字越接近 1，允许的色差越大。要根据透明度进行裁剪，请指定0以仅裁切透明像素；数字越接近1则透明度越高。
 
-   * **[!UICONTROL 手动]**  — 输入要从图像任何一侧或每侧裁切的像素数。 图像被裁切部分的大小取决于图像文件中的 ppi（像素/英寸）设置。例如，如果图像显示150 ppi，并且您在“顶部”、“右侧”、“底部”和“左侧”文本框中输入75，则输入0.5英寸。 从图像的每一边裁剪。
+   * **[!UICONTROL 手动]**  — 输入要从图像任何一侧或每侧裁切的像素数。 图像被裁切部分的大小取决于图像文件中的 ppi（像素/英寸）设置。例如，假设图像显示150 ppi。 然后在“顶部”、“右侧”、“底部”和“左侧”文本框中输入75。 图像的每一边都将被裁剪，0.5英寸。
 
 * **颜色配置文件选项**  — 位于 **[!UICONTROL 颜色配置文件选项]**.
 
@@ -67,7 +67,7 @@ PSD(Photoshop文档文件)在Adobe Dynamic Media Classic中最常用于创建模
 
       * **[!UICONTROL Photoshop和图层名称]**  — 在PSD文件后面加上图层名称或图层编号来命名图像。 如果 PSD 文件中的图层名称是默认的 Photoshop 图层名称，则将使用图层编号。例如，一个名为 `Price Tag` 在名为的PSD文件中 `SpringAd` 已命名 `Spring Ad_Price Tag`. 缺省名称为“层2”的层称为 `Spring Ad_2`.
 
-   * **[!UICONTROL 锚点]**  — 指定如何在模板中定位图像，该模板是根据PSD文件生成的分层组合生成的。 默认情况下，锚点是中心。中心锚点允许替换图像尽可能占据相同的空间，无论替换图像的高宽比是多少。当引用模板并使用参数替换时，替换该图像的高宽比不同的图像有效地占据相同的空间。如果应用程序要求替换图像占据模板中分配的空间，请更改为其他设置。
+   * **[!UICONTROL 锚点]**  — 指定如何在模板中定位图像，该模板是根据PSD文件生成的分层组合生成的。 默认情况下，锚点是中心。中心锚点允许以最佳方式填充相同空间的替换图像，而不管替换图像的长宽比如何。 当引用模板并使用参数替换时，替换该图像的高宽比不同的图像有效地占据相同的空间。如果应用程序要求替换图像占据模板中分配的空间，请更改为其他设置。
 
 ## 在PSD文件中查看和编辑图层 {#viewing-and-editing-layers-in-a-psd-file}
 

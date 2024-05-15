@@ -6,9 +6,9 @@ role: Admin,User
 exl-id: 5c2e2937-fe4f-4b64-bee8-9572ca84695b
 topic: Content Management
 level: Intermediate
-source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
+source-git-commit: 163eb32112ec6fbefd1dacf48212353ff3053d54
 workflow-type: tm+mt
-source-wordcount: '1563'
+source-wordcount: '1564'
 ht-degree: 0%
 
 ---
@@ -30,10 +30,16 @@ ht-degree: 0%
 +++**升级到 [!DNL Dynamic Media]？**
 
 * 协作和共享文件同步 [!DNL Adobe Creative Cloud] 应用程序。
-* 企业级数字资产管理，具有强大的元数据支持、智能搜索、Lightbox和收藏集、版本控制以及安全的资产共享，可供供应商、合作伙伴和特许经营商使用在制品资产的审阅和批准工作流。
+* 企业级数字资产管理，具有以下功能：
+   * 强大的元数据支持
+   * 智能搜索
+   * 灯箱和收藏集
+   * 版本控制
+   * 安全共享资产以供供应商、合作伙伴和加盟商使用
+* 在制品资产的审阅和批准工作流。
 * 通过新UI轻松采用和使用。
 * 使用可促进转化并丰富用户参与度和满意度的图像和视频，创建可购物/交互式媒体体验。
-* 将Campaign资源与产品信息相结合，以便您可以简化购物车的单击操作。
+* 将Campaign资源与产品信息相结合，以便简化购物车的点击操作。
 * 使用WYSIWYG查看器设计器轻松创建、调整、品牌和部署交互式查看器。
 * 将优化的富媒体投放到 [!DNL Experience Cloud] 解决方案。
 * 与集成 [!DNL Experience Cloud] 用于跨营销接触点进行高级资产分析、定位和资产重用。 这些接触点包括 [!DNL Adobe Campaign] 对于电子邮件， [!DNL Adobe Social] 对于社交渠道，以及 [!DNL Experience Manager] 适用于响应式Web和移动应用程序的网站。
@@ -57,7 +63,7 @@ Adobe已将Adobe Scene7的名称更改为 [!DNL Dynamic Media Classic].
 ## 升级过程和工具
 
 +++**谁有资格参加升级计划？**
-当前 [!DNL Dynamic Media Classic] (以前称为Scene7)客户也具有 [!DNL Experience Manager].
+当前拥有 [!DNL Dynamic Media Classic] (以前称为Scene7)并具有 [!DNL Experience Manager].
 
 +++
 
@@ -67,7 +73,7 @@ Adobe已将Adobe Scene7的名称更改为 [!DNL Dynamic Media Classic].
 +++
 
 +++**如何处理升级过程？**
-升级由AGS(Adobe全局服务)处理，并视为服务项目。 Adobe仅提供资源的迁移。 客户、AGS或合作伙伴负责所有其他升级方面和步骤。 在汇总层，升级计划包含以下内容：
+AGS(Adobe全局服务)处理升级并将其视为服务项目。 Adobe仅提供资源的迁移。 客户、AGS或合作伙伴负责所有其他升级方面和步骤。 在汇总层，升级计划包含以下内容：
 
 * 设置公司/用户帐户。
 * 从复制资产 [!DNL Dynamic Media Classic] (以前称为Scene7)更改为 [!DNL Dynamic Media] 组件 [!DNL Experience Manager] 资源(由Adobe通过自动升级工具提供)。
@@ -107,7 +113,7 @@ Adobe已将Adobe Scene7的名称更改为 [!DNL Dynamic Media Classic].
 +++
 
 +++**是否需要升级？**
-不适用。 Adobe继续提供全面支持和维护 [!DNL Dynamic Media Classic] （客户请求的错误修复、安全修复、平台可扩展性和可靠性）现在和将来。
+不适用。 Adobe完全支持和维护 [!DNL Dynamic Media Classic] （客户请求的错误修复、安全修复、平台可扩展性和可靠性）现在和将来。
 
 当您准备好利用提供的新功能时，可以升级 [!DNL Dynamic Media].
 
@@ -123,7 +129,7 @@ Adobe已将Adobe Scene7的名称更改为 [!DNL Dynamic Media Classic].
 +++
 
 +++**Adobe提供了哪些工具来自动执行升级过程？**
-对于升级计划的初始启动，Adobe提供了用于自动将资源从 [!DNL Dynamic Media Classic] 到 [!DNL Dynamic Media] 在 [!DNL Experience Manager] 资产。
+对于升级计划的初始启动，Adobe提供了一些工具，可自动将资源从 [!DNL Dynamic Media Classic] 到 [!DNL Dynamic Media] 在 [!DNL Experience Manager] 资产。
 
 +++
 
@@ -172,7 +178,7 @@ Adobe已将Adobe Scene7的名称更改为 [!DNL Dynamic Media Classic].
 +++
 
 +++**多长时间 [!DNL Dynamic Media Classic] 要作为独立产品存在吗？**
-Adobe继续提供全面支持和维护 [!DNL Dynamic Media Classic] （客户请求的错误修复、安全修复、平台可扩展性和可靠性）现在和将来。
+Adobe完全支持和维护 [!DNL Dynamic Media Classic] （客户请求的错误修复、安全修复、平台可扩展性和可靠性）现在和将来。
 
 +++
 
@@ -182,7 +188,12 @@ Dynamic Media附带60 GB的存储空间。 您可以以250 GB的块购买额外�
 +++
 
 +++**使用什么量度衡量 [!DNL Dynamic Media] 使用情况？**
-每月页面查看次数(PVM)。 页面查看是指对电子邮件或Internet站点网页的单次查看。 其中还包括应用程序屏幕视图、应用程序屏幕状态、移动网页和社交网络页面。 每次加载或刷新网页、加载应用程序，或者内容呈现或通过打开或查看的电子邮件显示时，都会发生页面查看。
+每月页面查看次数(PVM)。 页面查看是指对电子邮件或Internet站点网页的单次查看。 其中还包括应用程序屏幕视图、应用程序屏幕状态、移动网页和社交网络页面。 页面查看次数：
+
+* 每次加载或刷新网页时
+* 加载应用程序时
+* 内容呈现时
+* 通过已打开或已查看的电子邮件显示
 
 +++
 

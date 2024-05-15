@@ -10,16 +10,16 @@ role: Admin,User
 exl-id: d74b4966-fe43-4349-bbe1-3a379c49bf1f
 topic: Administration, Collaboration
 level: Intermediate
-source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
+source-git-commit: 163eb32112ec6fbefd1dacf48212353ff3053d54
 workflow-type: tm+mt
-source-wordcount: '279'
+source-wordcount: '281'
 ht-degree: 26%
 
 ---
 
 # 与同行实时共享资产更改{#sharing-asset-changes-with-peers-in-real-time}
 
-在同一公司的多台计算机上运行多个Adobe Dynamic Media Classic副本时，所有Adobe Dynamic Media Classic客户端的以下操作都将实时更新到所有对等客户端：
+假设您在同一公司的计算机上运行有多个Adobe Dynamic Media Classic副本。 在此类场景中，来自任何Dynamic Media Classic客户端的以下操作会实时更新到所有对等客户端：
 
 * 编辑资产（生成器、图像编辑器等）
 * 重命名资源

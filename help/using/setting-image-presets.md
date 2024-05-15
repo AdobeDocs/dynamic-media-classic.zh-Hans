@@ -10,9 +10,9 @@ role: User
 exl-id: 336802cc-b032-49b2-b2e6-d699bc997ee5
 topic: Content Management
 level: Intermediate
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: 163eb32112ec6fbefd1dacf48212353ff3053d54
 workflow-type: tm+mt
-source-wordcount: '673'
+source-wordcount: '667'
 ht-degree: 37%
 
 ---
@@ -65,11 +65,11 @@ Adobe Dynamic Media Classic附带多个“最佳实践”图像预设，这些�
 
 此处列出的用于创建图像预设的Adobe Dynamic Media Classic“最佳实践”选项是一般建议；锐化具有高度主观性。 这些“最佳实践”设置基于2000×2000主映像；大小的主文件的设置可能不同。 如果要调整“钝化蒙版”设置，Adobe Dynamic Media Classic建议使用这些范围：
 
-* **[!UICONTROL 数量]**  — 介于。8和1.5之间。
+* **[!UICONTROL 数量]**  — 介于 `.8` 和 `1.5`.
 
-* **[!UICONTROL 半径]**  — 介于。6和2之间。
+* **[!UICONTROL 半径]**  — 介于 `.6` 和 `2`.
 
-* **[!UICONTROL 阈值]**  — 从1到6。
+* **[!UICONTROL 阈值]**  — 从 `1` 到 `6`.
 
 要删除某个图像预设，请在“图像预设”屏幕上选择该图像预设，然后选择 **[!UICONTROL 删除]**.
 

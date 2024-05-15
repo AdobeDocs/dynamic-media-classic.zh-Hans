@@ -10,10 +10,10 @@ role: User
 exl-id: 3c50e706-b9ed-49db-8c08-f179de52b9cf
 topic: Content Management
 level: Intermediate
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: 163eb32112ec6fbefd1dacf48212353ff3053d54
 workflow-type: tm+mt
-source-wordcount: '1601'
-ht-degree: 45%
+source-wordcount: '1604'
+ht-degree: 40%
 
 ---
 
@@ -29,7 +29,8 @@ Adobe Dynamic Media Classic包括100多个图像服务命令，用于调整和�
 >
 >尝试使用Dynamic Media并探索Dynamic Media图像修饰符和智能成像的优势 [_快照_](https://snapshot.scene7.com/).
 >
-> Snapshot是一种可视化演示工具，旨在说明Dynamic Media在优化和动态图像投放方面的强大功能。 试验测试图像或Dynamic Media URL，以可视化方式观察各种Dynamic Media图像修饰符的输出，并优化以下各项的智能成像：
+> Snapshot是一种可视化演示工具，旨在说明Dynamic Media在优化和动态图像投放方面的强大功能。 尝试使用测试图像或Dynamic Media URL，以便直观地观察各种Dynamic Media图像修饰符的输出，并优化以下各项的智能成像：
+>
 >* 文件大小（使用WebP和AVIF交付）
 >* 网络带宽
 >* DPR（设备像素比率）
@@ -69,7 +70,7 @@ Adobe Dynamic Media Classic包括100多个图像服务命令，用于调整和�
 
 可以使用两种图像锐化方法：
 
-* 简单锐化( `&op_sharpen`) — 与Photoshop中使用的锐化滤镜类似，简单锐化会在动态调整大小后对图像的最终视图应用基本锐化。 不过，用户无法配置这种方法。最佳做法是不使用 `&op_sharpen` 除非有必要。
+* 简单锐化( `&op_sharpen`) — 与Photoshop中使用的锐化滤镜类似，简单锐化会在动态调整大小后对图像的最终视图应用基本锐化。 不过，用户无法配置这种方法。最佳做法是避免使用 `&op_sharpen` 除非有必要。
 * USM锐化( `&op_USM`) - USM锐化是一种用于锐化的行业标准滤镜。 最佳做法是按照以下准则使用 USM 锐化功能锐化图像。可以通过 USM 锐化控制以下三个参数：
 
    * `&op_sharpen=amount,radius,threshold`
@@ -81,7 +82,7 @@ Adobe Dynamic Media Classic包括100多个图像服务命令，用于调整和�
 
       * `threshold` （0-255，影响的敏感性。）
 
-        此参数确定锐化的像素与周围区域相差多少，滤镜才会将它们视为边缘像素并进行锐化。阈值有助于避免出现具有类似颜色的过度锐化区域，如肤色。例如，阈值 12 忽略肤色亮度的细微变化以避免产生杂色，但仍会在对比强烈的区域中添加边缘对比度，例如，睫毛与皮肤交接的位置。
+        此参数确定锐化的像素与周围区域相差多少，滤镜才会将它们视为边缘像素并进行锐化。阈值有助于避免出现具有类似颜色的过度锐化区域，如肤色。例如，阈值为12会忽略肤色亮度的细微变化，以避免添加“杂色”，同时仍会为高对比度区域添加边缘对比度，如睫毛与皮肤相遇的地方。
 
         有关如何设置这三个参数的更多信息，包括用于筛选器的最佳实践，请参阅 [在Adobe Dynamic Media Classic和图像服务器上锐化图像](/help/using/assets/s7_sharpening_images.pdf).
 
@@ -98,10 +99,10 @@ Adobe Dynamic Media Classic包括100多个图像服务命令，用于调整和�
 
 将 monochrome 参数设置保留为 0。
 
-## JPEG 压缩的最佳做法 (&amp;qlt=) {#best-practices-for-jpeg-compression-qlt}
+## JPEG压缩的最佳实践(`&qlt=`) {#best-practices-for-jpeg-compression-qlt}
 
 * 此参数控制 JPG 编码质量。较高的值表示图像质量较高，但文件较大；而较低的值表示图像质量较低，但文件较小。此参数的范围是 0-100。
-* 要优化质量，不要将参数值设置为 100。几乎感觉不到设置 90 或 95 与 100 之间的差异，但 100 会不必要地增加图像文件的大小。因此，要优化质量但避免图像文件变得过大，请设置 `qlt=` 值为90或95。
+* 要优化质量，不要将参数值设置为 100。将90或95设置为100几乎可以察觉到差异。 而100则毫无必要地增大了图像文件的大小。 因此，要优化质量但避免图像文件变得过大，请设置 `qlt=` 值为90或95。
 * 要优化较小的图像文件大小，但使图像质量保持在可接受的级别，请设置 `qlt=` 值为80。 低于 70 到 75 的值将导致图像质量大大下降。
 * 作为最佳实践，要保持中立，请将 `qlt=` 值达到85时保持中间。
 * 在中使用色度标志 `qlt=`
@@ -116,17 +117,17 @@ Adobe Dynamic Media Classic包括100多个图像服务命令，用于调整和�
 参数 `jpegSize` 如果要确保图像不超过特定大小，以便交付给内存有限的设备，则非常有用。
 
 * 此参数设置为KB ( `jpegSize=<size_in_kilobytes>`)。 它定义了图像传送允许的最大大小。
-* `&jpegSize=` 与JPG压缩参数交互 `&qlt=`. 如果JPG响应具有指定的JPG压缩参数( `&qlt=`)不超过 `jpegSize` 值，则图像返回为 `&qlt=` （按定义）。 否则， `&qlt=` 会逐渐减小，直到图像符合允许的最大尺寸，或者直到系统确定它不能符合并返回错误。
+* `&jpegSize=` 与JPG压缩参数交互 `&qlt=`. 如果JPG响应具有指定的JPG压缩参数( `&qlt=`)不超过 `jpegSize` 值，则图像返回为 `&qlt=` （按定义）。 否则， `&qlt=` 将逐渐减小，直到图像符合最大允许大小。 或者，直到系统确定它不合适并返回错误为止。
 
 作为最佳实践，请设置 `&jpegSize=` 并添加参数 `&qlt=` 如果您要将JPG映像传送到内存有限的设备。
 
 ## 最佳做法摘要 {#best-practices-summary}
 
-作为最佳做法，要获得较高的图像质量和较小的文件大小，请从以下参数组合入手：
+为了达到较高的图像质量和较小的文件大小，最好从以下参数组合开始：
 
 `fmt=jpg&qlt=85,0&resMode=sharp2&op_usm=1.75,0.3,2,0`
 
-大多数情况下，这种设置组合将获得极佳的效果。
+在大多数情况下，这种设置组合会产生卓越的结果。
 
 如果需要进一步优化图像，请先将 radius 设置为 0.2 或 0.3 以逐步调整锐化（USM 锐化）参数。然后，将 amount 从 1.75 逐渐增加到最多 4（相当于 Photoshop 中的 400%）。检查是否获得了所需的效果。
 

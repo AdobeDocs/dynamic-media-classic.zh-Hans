@@ -10,10 +10,10 @@ role: Data Engineer,Admin,User
 exl-id: 9ea1546d-e6d1-4ba4-8fa1-26b4e69375ba
 topic: Integrations, Development
 level: Experienced
-source-git-commit: 914fde11270dc731a261da3305b29dd573584d93
+source-git-commit: 163eb32112ec6fbefd1dacf48212353ff3053d54
 workflow-type: tm+mt
-source-wordcount: '303'
-ht-degree: 20%
+source-wordcount: '306'
+ht-degree: 15%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 20%
 
 您可以使用Adobe Analytics Instrumentation Kit将HTML5查看器与Adobe Analytics集成。
 
-如果您使用任何预定义的Adobe Dynamic Media ClassicHTML5查看器预设，则这些预设已包含所有用于向Adobe Analytics发送数据的实施代码；您无需进一步检测。
+如果您使用任何预定义的Adobe Dynamic Media ClassicHTML5查看器预设，则这些预设已包含所有用于向Adobe Analytics发送数据的实施代码。 您无需添加任何进一步的检测。
 
 ## 从Adobe Dynamic Media Classic设置Adobe Analytics跟踪 {#set-up-adobe-analytics-tracking-from-scene-publishing-system}
 
@@ -31,7 +31,7 @@ ht-degree: 20%
 <!-- ***** Adobe Analytics Tracking ***** --><script type="text/javascript" src="https://s7d6.scene7.com/s7viewers/s_code.jsp?company=<Adobe Dynamic Media Classic Company ID>&preset=companypreset-1"></script>
 ```
 
-位置 `Adobe Dynamic Media Classic Company ID` 设置为Adobe Dynamic Media Classic公司名称。 和 `&preset` 是可选的，除非公司预设名称不是 `companypreset`. 在这种情况下，它可以 `companypreset-1, companypreset-2`，等等。 数字越大预设实例越新。要确定正确的公司预设值名称，请选择 **[!UICONTROL 复制URL]**，然后查看 `preset=`用于查找公司预设名称的参数。
+位置 `Adobe Dynamic Media Classic Company ID` 设置为Adobe Dynamic Media Classic公司名称。 和 `&preset` 是可选的。 如果公司预设名称不是 `companypreset`，则它不是可选的。 在这种情况下，它可以 `companypreset-1, companypreset-2`，等等。 数字越大预设实例越新。要确定正确的公司预设值名称，请选择 **[!UICONTROL 复制URL]**，然后查看 `preset=`用于查找公司预设名称的参数。
 
 继续，现在添加一个将查看器事件传输到Adobe Analytics跟踪代码的函数。
 
@@ -41,7 +41,7 @@ ht-degree: 20%
 function s7ComponentEvent(objectId, componentClass, instanceName, timeStamp, eventData) {     s7track(eventData); }
 ```
 
-函数名称区分大小写。 传递给的唯一参数 `s7componentEvent`最后一个选项是必需的： `eventData`. 位置 `s7track()` 在上述包含的s_code.jsp中定义。 和 `s7track` 处理每个事件的所有跟踪。 （要进一步自定义传送到 Adobe Analytics 的数据，可以在该区域执行此操作。）
+函数名称区分大小写。 传递给的唯一参数 `s7componentEvent`最后一个选项是必需的： `eventData`. 位置 `s7track()` 在上述包含的s_code.jsp中定义。 和 `s7track` 处理每个事件的所有跟踪。 (在此区域，您可以进一步自定义传输到Adobe Analytics的数据。)
 
 ## 启用HREF和ITEM事件 {#enabling-href-and-item-events}
 

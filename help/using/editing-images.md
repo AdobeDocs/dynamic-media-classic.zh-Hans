@@ -10,9 +10,9 @@ role: User
 exl-id: 1c368c25-78e6-4bcc-b390-d9133073821a
 topic: Content Management
 level: Intermediate
-source-git-commit: 5b5dcd1199bd51ec987b5673fce75bc86baad55b
+source-git-commit: 163eb32112ec6fbefd1dacf48212353ff3053d54
 workflow-type: tm+mt
-source-wordcount: '318'
+source-wordcount: '316'
 ht-degree: 7%
 
 ---
@@ -23,11 +23,11 @@ Adobe Dynamic Media Classic提供了多种用于创建富媒体效果的工具�
 
 * **创建图像映射**  — 要创建图像映射，请选择“图像”命令或 **[!UICONTROL 图像映射]** 按钮。 图像映射是图像或eCatalog页面上的热点，或者显示带有变换文本的面板的旋转集中的图像。 例如，用户可以选择一个图像映射来启动一个新网页。 请参阅 [创建图像映射](/help/using/creating-image-maps.md).
 
-* **创建缩放目标**  — 要创建缩略图目标，请选择“缩放目标”命令或 **[!UICONTROL 缩放目标]** 按钮。 用户可以在缩放查看器中选择缩略图目标以直接缩放到图像的特定部分。 请参阅 [创建引导缩放的缩放目标](/help/using/creating-zoom-targets-guided-zoom.md).
+* **创建缩放目标**  — 要创建缩略图目标，您可以选择“缩放目标”命令或 **[!UICONTROL 缩放目标]** 按钮。 用户可以在缩放查看器中选择缩略图目标以直接缩放到图像的特定部分。 请参阅 [创建引导缩放的缩放目标](/help/using/creating-zoom-targets-guided-zoom.md).
 
 * **裁切图像**  — 要裁切图像，请选择裁切命令或 **[!UICONTROL 裁切]** 按钮。 请参阅 [裁切图像](/help/using/cropping-image.md).
 
-* **锐化图像**  — 要锐化图像并使其轮廓更模糊、更清晰，请选择“锐化”命令或 **[!UICONTROL 锐化]** 按钮。 请参阅 [锐化图像](/help/using/sharpening-image.md).
+* **锐化图像**  — 通过选择“锐化”命令或 **[!UICONTROL 锐化]** 按钮。 请参阅 [锐化图像](/help/using/sharpening-image.md).
 
 * **调整图像**  — 选择 `Adjust` 命令或 **[!UICONTROL Adjust]** 按钮来翻转、旋转、模糊、彩色化或更改图像的颜色平衡。 请参阅 [调整图像](/help/using/adjusting-image.md).
 
