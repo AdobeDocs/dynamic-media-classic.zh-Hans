@@ -10,10 +10,10 @@ role: User
 exl-id: 5e7f39a5-36a6-40df-8752-064a582c9346
 topic: Integrations, Development
 level: Experienced
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: edd893482cbafd9674a44cf9878b8ee3079d98f7
 workflow-type: tm+mt
-source-wordcount: '1491'
-ht-degree: 36%
+source-wordcount: '1494'
+ht-degree: 31%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 36%
 
 ## 绘制eCatalog图像映射 {#drawing-ecatalog-image-maps}
 
-对于 eCatalog，可以在 eCatalog 屏幕的“映射页面”选项卡上绘制图像映射。该屏幕包括显示 eCatalog 页面的图像映射区域，右侧显示“图像映射”列表。创建图像映射时，其名称会输入到“图像映射”列表中。
+对于 eCatalog，可以在 eCatalog 屏幕的“映射页面”选项卡上绘制图像映射。该屏幕包括显示 eCatalog 页面的图像映射区域，右侧显示“图像映射”列表。在创建图像映射时，其名称会输入到“图像映射”列表中。
 
 1. 选择eCatalog的变换 **[!UICONTROL 编辑]** 按钮。
 1. 选择 **[!UICONTROL 映射页面]**.
@@ -51,7 +51,7 @@ ht-degree: 36%
 1. 选择 **[!UICONTROL 保存]**.
 1. （可选）选择 **[!UICONTROL 预览]** 以使用默认的eCatalog查看器预设查看eCatalog。
 
-要删除图像映射，请在“图像映射”列表中选择其名称，然后选择 **[!UICONTROL 删除]**. 要暂时禁用页面上的图像映射而不删除图像映射，请在“图像映射列表”面板中取消选择图像映射的打开选项。
+要删除图像映射，请在“图像映射”列表中选择其名称，然后选择 **[!UICONTROL 删除]**. 您可以暂时禁用页面上的图像映射，而无需删除图像映射。 在“图像映射”列表面板中选择图像映射选项。
 
 ## 在eCatalog中嵌入富媒体 {#embedding-rich-media-in-an-ecatalog}
 
@@ -75,7 +75,7 @@ ht-degree: 36%
 
 从 eCatalog 屏幕的“映射页面”选项卡上开始，使用以下方法来编辑 eCatalog 图像映射：
 
-* **调整位置**  — 选择“平移”工具，并将指针移动到地图边框附近，但不要移动到地图边框上。 当指针显示为四向箭头时，将图像映射拖动到新位置。
+* **调整位置**  — 选择“平移”工具，并将指针移动到地图边框附近，但不要移动到地图边框上。 当指针显示一个四向箭头时，将整个“图像映射”拖到新的位置。
 
   请参阅 [调整图像映射的位置、形状和大小](creating-image-maps.md#adjusting_the_position_shape_and_size_of_image_maps).
 
@@ -97,7 +97,7 @@ ht-degree: 36%
 
 >[!NOTE]
 >
->除了将图像映射复制到eCatalog中的不同页面之外，您还可以将eCatalog中的所有图像映射复制到其他eCatalog。 请参阅 [在eCatalog之间复制图像映射](creating-ecatalog-image-maps.md#copying_image_maps_between_ecatalogs).
+>将图像映射复制到eCatalog中的不同页面时，可以将eCatalog中的所有图像映射复制到其他eCatalog。 请参阅 [在其他eCatalog之间复制图像映射](creating-ecatalog-image-maps.md#copying_image_maps_between_ecatalogs).
 
 ## 查看和导入图像映射数据 {#reviewing-and-importing-image-map-data}
 
@@ -109,14 +109,14 @@ ht-degree: 36%
 
 1. 在映射页面屏幕上，选择 **[!UICONTROL 摘要]**.
 
-   “映射摘要”屏幕显示 eCatalog 中图像映射、URL、变换文本说明以及其他操作的数量。
+   “映射摘要”屏幕显示eCatalog中的图像映射、URL、变换文本描述和其他操作数。
 
 1. 如果出现变换键错误，请在 **[!UICONTROL Rollover_Key错误]** 列，了解在电子表格中必须更改哪些内容才能更正错误。 可以选择并复制该消息的文本，并将其粘贴到电子表格中。
-1. 选择 **[!UICONTROL 预览]** 因此，您可以在eCatalog查看器中检查页面；选择X以关闭“摘要”屏幕并返回到“映射页面”屏幕，或者选择 **[!UICONTROL 关闭]** 以返回浏览。
+1. 选择 **[!UICONTROL 预览]** 以便在eCatalog查看器中检查页面。 选择X以关闭“摘要”屏幕并返回到“映射页面”屏幕，或选择 **[!UICONTROL 关闭]** 以返回浏览。
 
 ### 导入图像映射数据 {#import-image-map-data}
 
-可以将整个 eCatalog 的数据导入到“映射摘要”屏幕中，而不必在每个页面都输入图像映射数据。可以通过制表符分隔的文件或 XML DTD 的形式导入图像映射数据。文件中的字段必须与“映射摘要”屏幕中显示的顺序相同：“名称”、“TOC 标签”、“映射”、“URL”、“变换文本”、“其他操作”和“搜索字符串”。导入图像映射数据可以免去创建每个图像映射时在“图像映射”列表中输入数据的麻烦。
+可以将整个 eCatalog 的数据导入到“映射摘要”屏幕中，而不必在每个页面都输入图像映射数据。可以通过制表符分隔的文件或 XML DTD 的形式导入图像映射数据。文件中的字段必须与“映射摘要”屏幕中显示的顺序相同：“名称”、“TOC 标签”、“映射”、“URL”、“变换文本”、“其他操作”和“搜索字符串”。导入图像映射数据可省去在创建每个图像映射时在“图像映射”列表中输入数据的麻烦。
 
 >[!NOTE]
 >
@@ -129,7 +129,7 @@ ht-degree: 36%
 1. 在“作业名称”字段中，键入文件的名称（注意保留其扩展名）。
 1. 选择 **[!UICONTROL 上传]**.
 
-## 在eCatalog之间复制图像映射 {#copying-image-maps-between-ecatalogs}
+## 在其他eCatalog之间复制图像映射 {#copying-image-maps-between-ecatalogs}
 
 可以将 eCatalog 中的所有图像映射复制到其他 eCatalog 中。这种复制图像映射的方法是在相同的 eCatalog 的外语翻译之间复制图像映射的方便方法。为了成功复制，Adobe Dynamic Media Classic建议在具有相同页数和相同图像的eCatalog之间进行复制。
 
@@ -143,4 +143,4 @@ ht-degree: 36%
 1. 在订单页选项卡上，选择 **[!UICONTROL 复制映射]**.
 1. 在选择资产对话框中，选择要将图像映射复制到其中的eCatalog，然后选择 **[!UICONTROL 选择]**.
 
-如果目标eCatalog（要将图像映射复制到的eCatalog）的页数或图像大小不同，则Adobe Dynamic Media Classic会显示警告消息。 选择 **[!UICONTROL 继续]** 以复制图像映射，而不考虑警告。
+如果您从中复制图像映射的目标eCatalog的页数或图像大小不同，则Adobe Dynamic Media Classic会显示警告消息。 选择 **[!UICONTROL 继续]** 以复制图像映射，而不考虑警告。

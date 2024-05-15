@@ -9,9 +9,9 @@ role: Admin,User
 exl-id: d61ea80a-a98e-43e6-9e2e-4389962134f1
 topic: Administration
 level: Intermediate
-source-git-commit: 910410706fbd9dd79a8dda402af454a50132cc41
+source-git-commit: edd893482cbafd9674a44cf9878b8ee3079d98f7
 workflow-type: tm+mt
-source-wordcount: '1054'
+source-wordcount: '1057'
 ht-degree: 0%
 
 ---
@@ -84,7 +84,7 @@ Adobe致力于确保其产品满足客户的安全要求。 新的Adobe Dynamic 
 +++
 
 +++**_如何启用到Adobe Dynamic Media Classic桌面应用程序的升级？_**
-2020年6月30日发布Adobe Dynamic Media Classic桌面应用程序后，如果Adobe发布新版本，则客户需要下载新版本并按常规方式安装（替换中的现有应用程序） **[!UICONTROL 应用程序]**)。 您会通过Adobe帐户团队和应用程序内升级通知机制收到新版本的通知，通知用户已升级。
+2020年6月30日发布Adobe Dynamic Media Classic桌面应用程序后，如果Adobe发布新版本，则客户需要下载并安装新版本（替换中的现有应用程序） **[!UICONTROL 应用程序]**)。 您会通过Adobe帐户团队和应用程序内升级通知机制收到新版本的通知，通知用户已升级。
 +++
 
 +++**_对于我在Adobe Dynamic Media Classic桌面应用程序上遇到的任何问题，如何获取帮助？_**

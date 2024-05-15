@@ -10,10 +10,10 @@ role: User
 exl-id: 5e3b0002-5ae2-4437-862f-caa098b04362
 topic: Content Management
 level: Intermediate
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: edd893482cbafd9674a44cf9878b8ee3079d98f7
 workflow-type: tm+mt
 source-wordcount: '437'
-ht-degree: 48%
+ht-degree: 40%
 
 ---
 
@@ -46,7 +46,7 @@ Adobe Dynamic Media Classic会保留“作业”屏幕中导出作业的记录�
 
    * **[!UICONTROL 作业名称]**  — 可以为导出分配作业名称。
 
-   * **[!UICONTROL 发送电子邮件至]**  — （可选）如果您要通过电子邮件发送资产，请输入电子邮件地址。 电子邮件会列出收件人可从中下载资源的 URL。
+   * **[!UICONTROL 发送电子邮件至]**  — 可选。 如果打算通过电子邮件发送资产，请输入电子邮件地址。 电子邮件会列出收件人可从中下载资源的 URL。
 
 1. 选择 **[!UICONTROL 导出]**.
 
@@ -77,5 +77,5 @@ Adobe Dynamic Media Classic会保留“作业”屏幕中导出作业的记录�
 
 当大量各种各样的资源类型进入导出程序时，会出现以下行为结果：
 
-* 在提交作业之前会从列表中移除无法导出的所有资源类型
-* 如果请求了转换，则能够转换的所有类型以及所有其他类型都按原样导出
+* 在作业提交之前，将从列表中删除所有无法导出的资源类型
+* 如果请求转换，则所有可转换的类型都将被导出，所有其他类型都将导出为原始类型

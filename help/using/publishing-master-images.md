@@ -10,9 +10,9 @@ role: User
 exl-id: b0010107-248c-4ebc-955c-7514462f351d
 topic: Content Management
 level: Intermediate
-source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
+source-git-commit: edd893482cbafd9674a44cf9878b8ee3079d98f7
 workflow-type: tm+mt
-source-wordcount: '163'
+source-wordcount: '164'
 ht-degree: 6%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 6%
 
 ## 将主图像标记为发布 {#marking-master-images-for-publish}
 
-必须将主图像标记为发布，才能将其复制到Dynamic Media图像服务器。 您可以通过选择，在浏览面板中将主图像标记为发布 **[!UICONTROL 标记为发布]** 图标。 在将图像上传到Adobe Dynamic Media Classic时，您还可以标记要发布的图像。
+必须将主图像标记为发布，才能将其复制到Dynamic Media图像服务器。 您可以通过选择“浏览”面板中的 **[!UICONTROL 标记为发布]** 图标。 在将图像上传到Adobe Dynamic Media Classic时，您还可以标记要发布的图像。
 
 ## 发布您的主图像 {#publishing-your-master-images}
 

@@ -9,7 +9,7 @@ role: Developer
 exl-id: eaa6bf7b-ff38-4a15-b5b5-c60c3b75a35f
 topic: Development, Integrations
 level: Experienced
-source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
+source-git-commit: edd893482cbafd9674a44cf9878b8ee3079d98f7
 workflow-type: tm+mt
 source-wordcount: '139'
 ht-degree: 20%
@@ -18,7 +18,7 @@ ht-degree: 20%
 
 # 开发人员资源 {#developer-resources}
 
-有关查看器、图像服务和图像渲染以及图像生产系统的参考指南描述了这些服务器模块的http协议。 希望进一步为网站或自定义应用程序自定义和使用Adobe Dynamic Media Classic富媒体的网站开发人员可以使用这些指南。 假定用户熟悉Dynamic Media Classic桌面应用程序、常规http协议标准和惯例以及基本的图像术语。
+有关查看器、图像服务和图像渲染以及图像生产系统的参考指南描述了这些服务器模块的http协议。 如果网站开发人员希望进一步自定义并将Adobe Dynamic Media Classic富媒体用于网站或自定义应用程序，可以使用这些指南。 假定用户熟悉Dynamic Media Classic桌面应用程序、常规http协议标准和惯例以及基本的图像术语。
 
 另请参阅 [Dynamic Media开发人员资源](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources).
 

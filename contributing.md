@@ -1,7 +1,7 @@
 ---
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: edd893482cbafd9674a44cf9878b8ee3079d98f7
 workflow-type: tm+mt
-source-wordcount: '496'
+source-wordcount: '492'
 ht-degree: 0%
 
 ---
@@ -40,9 +40,9 @@ Adobe希望让您能够尽可能轻松地提交投稿。 您可以通过两种�
 
 ### 创建拉取请求 {#create-a-pull-request}
 
-如果您发现了问题并且确切知道如何解决该问题，请考虑创建拉取请求。 通过拉取请求，您可以自行对文档进行编辑，然后由文档团队成员进行审阅并包含。 要进行建议的更改并创建拉取请求，请选择 **[!UICONTROL 编辑此页面]** 导航面板的右上角。
+如果您发现了问题并且确切知道如何解决该问题，请考虑创建拉取请求。 通过拉取请求，您可以自行编辑文档，文档团队成员会查看文档以将其包含。 要进行建议的更改并创建拉取请求，请选择 **[!UICONTROL 编辑此页面]** 导航面板的右上角。
 
-所有拉取请求都必须附有已签名的 [参与者许可协议(CLA)](https://opensource.adobe.com/cla.html). 此工作流允许Adobe在项目中再次分发您贡献的内容。 AdobeCLA只提交一次，因此如果您以前提交过，则说明已设置。
+A签名 [参与者许可协议(CLA)](https://opensource.adobe.com/cla.html) 必须伴随所有拉取请求。 此工作流允许Adobe在项目中再次分发您贡献的内容。 您只能提交AdobeCLA一次，因此如果您以前提交过，则说明已设置。
 
 ### 快速视频介绍
 

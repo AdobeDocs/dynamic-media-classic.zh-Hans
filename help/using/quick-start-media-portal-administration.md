@@ -10,10 +10,10 @@ role: Admin,User
 exl-id: bff613c8-a93b-4cca-94db-8cad1cc36296
 topic: Collaboration, Content Management
 level: Beginner
-source-git-commit: 914fde11270dc731a261da3305b29dd573584d93
+source-git-commit: edd893482cbafd9674a44cf9878b8ee3079d98f7
 workflow-type: tm+mt
-source-wordcount: '721'
-ht-degree: 56%
+source-wordcount: '725'
+ht-degree: 47%
 
 ---
 
@@ -35,7 +35,7 @@ Media Portal使公司能够轻松获取、控制已批准的资产，并将其�
 
 ## 1. 了解 Media Portal 用户角色
 
-Media Portal 用户分为三个角色，即用户、参与者和用户参与者。每个角色可以执行一组不同的任务。例如，参与者可以重命名和删除文件和文件夹，但是用户不能执行这些任务。了解不同的角色，以便在添加用户时，了解为他们赋予哪些职责。
+Media Portal用户分为三个角色 — 用户、参与者和用户参与者。 每个角色可以执行一组不同的任务。例如，参与者可以重命名和删除文件和文件夹，但是用户不能执行这些任务。了解不同的角色，以便在添加用户时，了解为他们赋予哪些职责。
 
 请参阅[Media Portal 用户角色](media-portal-user-roles.md#media_portal_user_roles)。
 
@@ -47,13 +47,13 @@ Media Portal 用户分为三个角色，即用户、参与者和用户参与者�
 
 ## 3. 添加用户
 
-添加用户时，为用户指定一个角色（用户、参与者或用户参与者）。还要将该用户指定给一个或多个组。要加快添加用户的过程，您可以 CSV 文件形式上载用户列表。新用户会收到用于登录 Media Portal 的欢迎电子邮件和说明。
+添加用户时，为用户指定一个角色（用户、参与者或用户参与者）。您还可以将用户分配给一个或多个组。 要加快添加用户的过程，您可以 CSV 文件形式上载用户列表。新用户会收到用于登录 Media Portal 的欢迎电子邮件和说明。
 
 请参阅 [添加和管理Media Portal用户](adding-media-portal-users.md#adding_and_managing_media_portal_users).
 
 ## 4. 管理 FTP 帐户
 
-您可以拥有与Media Portal关联并映射到Adobe Dynamic Media Classic帐户中特定文件夹的单独FTP帐户。 这种功能意味着，您可以允许用户使用单独的 FTP 帐户将数字资源上载到您的帐户中。
+您可以拥有与Media Portal关联的独立FTP帐户。 它们可以映射到您Adobe Dynamic Media Classic帐户中的特定文件夹。 这种功能意味着，您可以允许用户使用单独的 FTP 帐户将数字资源上载到您的帐户中。
 
 请参阅 [管理FTP帐户](ftp-accounts.md#managing_ftp_accounts).
 
@@ -71,13 +71,13 @@ Media Portal用户在导出文件时，可以重新格式化文件并导出原�
 
 ## 6. 创建图像预设
 
-图像预设是预定义设置的集合，这些设置可在导出图像时更改图像的大小、图像质量、格式、分辨率及其他外观方面。 您可以创建图像预设，以便控制用户在导出图像时如何重设这些图像的格式。
+图像预设是预定义设置的集合。 这些设置可以在导出图像时更改图像的外观大小、图像质量、格式、分辨率和其他方面。 您可以创建图像预设，以便控制用户在导出图像时如何重设这些图像的格式。
 
 请参阅 [创建和启用图像预设](creating-enabling-image-presets.md#creating_and_enabling_image_presets).
 
 ## 7. 创建元数据预设和用户定义的元数据字段
 
-元数据描述和标识了一个文件；它用于搜索和组织资源。为确保正确输入了元数据并且需要数据的元数据字段都已填充，可以创建元数据预设。元数据预设是一组预定义的元数据条目。您还可以创建元数据字段来唯一地描述您所处理的文件。
+元数据描述并标识文件。 用于搜索和组织资源。 您可以创建元数据预设，以确保正确输入元数据，并填写任何需要数据的元数据字段。 元数据预设是一组预定义的元数据条目。您还可以创建元数据字段来唯一地描述您所处理的文件。
 
 请参阅[更有效地利用元数据](making-efficient-metadata.md#making_more_efficient_use_of_metadata)。
 

@@ -10,16 +10,16 @@ role: User
 exl-id: c8d742a4-a1a1-4b5f-bcfd-6a1972edf9bc
 topic: Content Management
 level: Intermediate
-source-git-commit: 5b5dcd1199bd51ec987b5673fce75bc86baad55b
+source-git-commit: edd893482cbafd9674a44cf9878b8ee3079d98f7
 workflow-type: tm+mt
-source-wordcount: '489'
-ht-degree: 22%
+source-wordcount: '491'
+ht-degree: 19%
 
 ---
 
 # 查看图像集{#viewing-image-sets}
 
-可以使用可用预设在“预览”窗口中查看图像集。可对图像集使用“缩放查看器: 自定义”查看器预设。
+可以使用可用预设在“预览”窗口中查看图像集。您可以使用缩放查看器：图像集的自定义查看器预设。
 
 Adobe Dynamic Media Classic附带默认查看器预设。 管理员可以创建或修改查看器预设。
 
@@ -45,7 +45,7 @@ Adobe Dynamic Media Classic附带默认查看器预设。 管理员可以创建�
 
 ## 在查看器中预览图像集资源 {#previewing-image-set-assets-in-a-viewer}
 
-您可以使用“预览”来查看资源在特定查看器类型(如HTML5)上的显示方式。 并不是所有平台都可在预览中找到，这取决于您选择要预览的资源类型和关联的查看器。
+您可以使用“预览”来查看资源在特定查看器类型(如HTML5)中的显示方式。 并不是所有平台都可在预览中找到，这取决于您选择要预览的资源类型和关联的查看器。
 
 1. 在左侧的资产库面板中，位于 **[!UICONTROL 显示]** 下拉列表，选择 **[!UICONTROL 图像集]**.
 1. 在左侧资源库面板中，导航资源文件夹选择要预览的图像集。

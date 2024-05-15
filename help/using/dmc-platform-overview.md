@@ -10,16 +10,16 @@ role: Admin,User
 exl-id: ac50cb9c-fd87-4608-80cb-8d40a0b8f131
 topic: Administration
 level: Beginner
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: edd893482cbafd9674a44cf9878b8ee3079d98f7
 workflow-type: tm+mt
-source-wordcount: '474'
-ht-degree: 17%
+source-wordcount: '477'
+ht-degree: 12%
 
 ---
 
 # Adobe Dynamic Media Classic程序概述{#adobe-scene-platform-overview}
 
-Adobe Dynamic Media Classic是一个集成的富媒体管理、发布和服务环境。 富媒体可以传送给所有营销和销售渠道，包括网站，印刷材料、电子邮件营销活动、门户网站、桌面以及设备。
+Adobe Dynamic Media Classic是一个集成的富媒体管理、发布和服务环境。 富媒体可以传送到所有营销和销售渠道。 这些渠道包括Web、打印材料、电子邮件营销活动、Web门户、桌面和设备。
 
 另请参阅 [平台概述](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/572_Platform%20Overview_converted%20renamed_Getting%20Started-AVS) 训练视频。
 
@@ -41,7 +41,7 @@ Adobe Dynamic Media Classic工作流的关键步骤包括：
 
 Adobe Dynamic Media Classic与其他系统有着根本性的不同，因为您可以使用Adobe Dynamic Media Classic从单个主要资产和URL调用动态地交付媒体。
 
-您通过Adobe Dynamic Media Classic生成的URL字符串中包含一些说明，告知服务器在交付资源时如何显示资源。 例如，同一主图像可以以不同的大小、格式、粗细、颜色和缩放视图交付。 在使用Adobe Dynamic Media Classic构建和发布媒体资源时，您可以直观地配置效果。 在这样做时，您将创建URL调用，以正确告知服务器如何将您的主要资源呈现给应用程序。
+您通过Adobe Dynamic Media Classic生成的URL字符串中包含一些说明，告知服务器在交付资源时如何显示资源。 例如，同一主图像可以以不同的大小、格式、粗细、颜色和缩放视图交付。 在使用Adobe Dynamic Media Classic构建和发布媒体资源时，您可以可视化地配置效果。 在这样做时，您将创建URL调用，以正确告知服务器如何将您的主要资源呈现给应用程序。
 
 ![Adobe Dynamic Media Classic可以将相同的主图像交付给不同大小和格式的不同媒体。](/help/using/assets/gs_dynamic_publishing.png)
 *Adobe Dynamic Media Classic确保向任何屏幕提供一致、优质的体验，而不管其大小或带宽如何。*

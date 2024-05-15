@@ -10,10 +10,10 @@ role: User
 exl-id: 757893ae-7507-42a0-a67b-f6542e7231c7
 topic: Content Management
 level: Beginner
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: edd893482cbafd9674a44cf9878b8ee3079d98f7
 workflow-type: tm+mt
 source-wordcount: '656'
-ht-degree: 33%
+ht-degree: 23%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 33%
 
 ## 2.创建在混合媒体集中使用的媒体集
 
-可以将图像、图像集、样本集、旋转集和视频添加到混合媒体集中。先准备好媒体集，然后再将其添加到混合媒体集中。
+您可以将图像、图像集、样本集、旋转集和视频添加到混合媒体集。 在将介质集添加到混合介质集之前，请准备介质集。
 
 请参阅 [创建图像集](creating-image-set.md#creating-an-image-set)， [创建样本集](creating-swatch-set.md#creating-a-swatch-set)、和 [创建旋转集](creating-spin-set.md#creating-a-spin-set).
 
@@ -49,7 +49,7 @@ ht-degree: 33%
 
 Adobe Dynamic Media Classic为混合媒体集提供了默认查看器预设。 管理员可以创建或修改混合媒体集查看器预设。
 
-设置混合媒体集查看器预设时，为集中的所有其他资产添加查看器预设。 例如，如果混合媒体集包括视频，则在混合媒体查看器预设中添加视频查看器预设。也可以将音轨添加到查看器中。该音轨在查看器打开时播放，但在视频处于活动状态时不播放。
+设置混合媒体集查看器预设时，为集中的所有其他资产添加查看器预设。 例如，如果混合媒体集包含视频，则将视频查看器预设添加到混合媒体集查看器预设。 也可以将音轨添加到查看器中。该音轨在查看器打开时播放，但在视频处于活动状态时不播放。
 
 请参阅 [设置混合媒体集查看器预设](setting-mixed-media-set-viewer.md#setting-up-a-mixed-media-set-viewer-preset) 和 [创建和编辑查看器预设](application-setup.md#adding-and-editing-viewer-presets).
 
@@ -73,4 +73,4 @@ Adobe Dynamic Media Classic为混合媒体集提供了默认查看器预设。 �
 
 在发布混合媒体集后，Adobe Dynamic Media Classic会为其激活URL调用。 您可以从预览页面复制这些URL。
 
-选择混合媒体集，然后选择 **[!UICONTROL 预览]**. 在“预览”页面中，选择一个混合媒体集查看器预设，然后选择 **[!UICONTROL 复制URL]**. 请参阅[将混合媒体集与网页链接](linking-mixed-media-set-web.md#linking-a-mixed-media-set-to-a-web-page)。
+选择混合媒体集，然后选择 **[!UICONTROL 预览]**. 在“预览”页面中，选择一个混合媒体集查看器预设，然后选择 **[!UICONTROL 复制URL]**. 请参阅 [将混合媒体集链接到网页](linking-mixed-media-set-web.md#linking-a-mixed-media-set-to-a-web-page).
