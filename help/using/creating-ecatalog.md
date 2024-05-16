@@ -10,16 +10,16 @@ role: User
 exl-id: 51d411b2-b4bc-4cf6-afca-dd0ed0d219a1
 topic: Integrations, Development
 level: Experienced
-source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
+source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
 workflow-type: tm+mt
-source-wordcount: '982'
-ht-degree: 38%
+source-wordcount: '984'
+ht-degree: 30%
 
 ---
 
 # 创建 eCatalog {#creating-an-ecatalog}
 
-创建 eCatalog 需要对页面排序、选择页面布局、通过绘制图像映射链接页面以及输入变换和超文本数据。也可以选择自定义目录，以使观众能够在 eCatalog 查看器中看到页面名称而不是页码。
+创建eCatalog需要对页面进行排序，选择页面布局，并通过绘制图像映射来链接页面。 它还需要输入变换图像和超文本链接数据。 也可以选择自定义目录，以使观众能够在 eCatalog 查看器中看到页面名称而不是页码。
 
 ## 创建eCatalog {#create}
 
@@ -38,9 +38,9 @@ ht-degree: 38%
 
 1. 采用以下方法之一开始创建 eCatalog：
 
-   * **首先选择文件**：在浏览面板中，选择文件，然后转到 **[!UICONTROL 生成]** > **[!UICONTROL eCatalogs]**.
+   * **首先选择文件**：在“浏览”面板中，选择文件，然后转到 **[!UICONTROL 生成]** > **[!UICONTROL eCatalogs]**.
 
-   * **从eCatalog屏幕开始**：转到 **[!UICONTROL 生成]** > **[!UICONTROL eCatalogs]**. 在资源库中选择一个文件夹，将该文件夹中的文件拖到 eCatalog 页面的“排序页面”选项卡中。
+   * **从eCatalog屏幕开始**：转到 **[!UICONTROL 生成]** > **[!UICONTROL eCatalogs]**. 在资产库中选择一个文件夹。 将文件从文件夹拖到eCatalog页的“订单页”选项卡中。
 
      >[!NOTE]
      >
@@ -98,7 +98,7 @@ ht-degree: 38%
 
 Adobe Dynamic Media Classic在eCatalog屏幕的“订单页面”选项卡上，为您的eCatalog提供默认页码。 要自定义页面名称，可以更改构成目录 (TOC) 的页标签。推荐重命名封面和封底。例如，封面页可以阅读“封面”而不是“第0-1页”。
 
-您可以手动创建eCatalog的自定义目录(TOC)，也可以通过从CSV(仅限Mac)或XML文件导入页面名称来创建。
+您可以手动为eCatalog创建自定义目录(TOC)。 或者，您也可以从CSV(仅限Mac)或XML文件导入页面名称。
 
 >[!NOTE]
 >
@@ -106,7 +106,7 @@ Adobe Dynamic Media Classic在eCatalog屏幕的“订单页面”选项卡上，
 
 ### 手动输入页面名称 {#manually-entering-page-names}
 
-要逐个手动输入页面名称，转至 eCatalog 屏幕的“排序页面”选项卡。然后，在页码字段中，为每个要命名的页面输入一个名称。
+转到eCatalog屏幕的“排序页面”选项卡，逐个手动输入页面名称。 然后，在页码字段中，为每个要命名的页面输入一个名称。
 
 ### 导入页面名称 {#importing-page-names}
 

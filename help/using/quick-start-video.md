@@ -10,10 +10,10 @@ role: User
 exl-id: 1157400c-b33a-422e-848c-258660ddc748
 topic: Content Management
 level: Beginner
-source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
+source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
 workflow-type: tm+mt
 source-wordcount: '1443'
-ht-degree: 25%
+ht-degree: 23%
 
 ---
 
@@ -136,7 +136,7 @@ Adobe Dynamic Media Classic提供了大量预定义的视频编码预设。 这�
 
 * 在其自身的弹出窗口或模式窗口中显示视频，在此情况下，请使用 **[!UICONTROL 复制URL]** 功能。
 
-  要获取视频的 URL，请在网格视图或列表视图的浏览面板中选择该视频。选择 **[!UICONTROL 预览]**，然后选择 **[!UICONTROL 复制URL]** 右侧 `Universal_HTML5_Viewer`.
+  要获取视频的URL，请在网格视图或列表视图中，在浏览面板中选择它。 选择 **[!UICONTROL 预览]**，然后选择 **[!UICONTROL 复制URL]** 右侧 `Universal_HTML5_Viewer`.
 
   当您选择时 **[!UICONTROL 复制URL]**，则会将URL复制到剪贴板。 将此代码放置在网站、移动站点或应用程序的 HTML 中。
 

@@ -10,9 +10,9 @@ role: Admin,User
 exl-id: 52937d52-92a6-4310-a363-d3c8a266e9ef
 topic: Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 8dc990a1fb1355b00fa4839e14b92bb6562d40b4
 workflow-type: tm+mt
-source-wordcount: '461'
+source-wordcount: '463'
 ht-degree: 17%
 
 ---
@@ -27,7 +27,7 @@ Adobe Dynamic Media Classic提供了多种创建富媒体的工具。 您可以�
 * **evideo**：将高质量视频体验交付到多个屏幕，包括台式机、移动设备和平板电脑。 使用预定义的Adobe Dynamic Media Classic编码预设或自定义编码来控制视频的质量和大小。 使用完整的元数据支持来组织、浏览和搜索视频，从而高效管理视频资产。
 请参阅 [快速入门： Adobe Dynamic Media Classic中的视频](/help/using/quick-start-video.md).
 
-* **图像映射**：在整个网站上以任意大小和格式动态提供图像。 您无需手动创建多个不同大小的图像，而只需使用一个主图像。 Adobe Dynamic Media Classic在交付所请求的图像时，会优化图像以在大小、格式、粗细、质量和锐化方面获得最高质量的结果。
+* **图像映射**：在整个网站上以任意大小和格式动态提供图像。 您无需手动创建多个不同大小的图像，只需使用一个主图像即可。 Adobe Dynamic Media Classic在交付所请求的图像时，会优化图像以在大小、格式、粗细、质量和锐化方面获得最高质量的结果。
 请参阅[快速入门：调整图像大小](/help/using/quick-start-image-sizing.md)。
 
 * **图像集**：提供交互式购物体验，用户可以在其中以多个视图查看产品。 您可以组合缩放、多个视图和颜色色板，以获得集成的查看体验。

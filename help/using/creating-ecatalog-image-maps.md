@@ -10,10 +10,10 @@ role: User
 exl-id: 5e7f39a5-36a6-40df-8752-064a582c9346
 topic: Integrations, Development
 level: Experienced
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
 workflow-type: tm+mt
 source-wordcount: '1494'
-ht-degree: 28%
+ht-degree: 26%
 
 ---
 
@@ -55,7 +55,7 @@ ht-degree: 28%
 
 ## 在eCatalog中嵌入富媒体 {#embedding-rich-media-in-an-ecatalog}
 
-您可以使用eCatalog的富媒体选项将MP4格式或旋转集的视频添加到已添加到eCatalog的图像映射中。 当用户在eCatalog中选择“图像映射”区域时，将显示关联的旋转集或视频。 如果想要客户查看使用中的项目，或者从不同的角度和透视图查看项目，此功能将特别有用。
+您可以使用eCatalog的富媒体选项将MP4格式的视频或旋转集添加到已添加到eCatalog的图像映射中。 当用户在eCatalog中选择“图像映射”区域时，将显示关联的旋转集或视频。 如果想要客户查看使用中的项目，或者从不同的角度和透视图查看项目，此功能将特别有用。
 
 客户将其指针移动到您的图像映射上时，您还可以选择显示工具提示文本，以便他们知道自己选择的是什么。
 
@@ -66,7 +66,7 @@ ht-degree: 28%
    请参阅 [绘制eCatalog图像映射](creating-ecatalog-image-maps.md#drawing_ecatalog_image_maps).
 
 1. 在显示下拉列表中，选择 **[!UICONTROL 富媒体]**.
-1. 在左侧的“添加资源”面板中，导航到要嵌入的旋转集或视频（MP4 格式）资源所在的文件夹。
+1. 在左侧的“添加资产”面板中，导航到包含要嵌入的旋转集或视频（MP4格式）资产的文件夹。
 1. 将资源拖动到图像映射上。
 1. （可选）在“图像映射”列表面板中的 **[!UICONTROL 工具提示]** 列标题，输入希望查看者在屏幕上将指针移动到图像映射上时看到的文本。
 1. 选择 **[!UICONTROL 保存]**.

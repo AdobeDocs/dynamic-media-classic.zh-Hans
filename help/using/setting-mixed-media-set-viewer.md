@@ -10,10 +10,10 @@ role: User
 exl-id: d41b30e7-994a-43f3-8698-7dbfc36305ae
 topic: Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
 workflow-type: tm+mt
-source-wordcount: '614'
-ht-degree: 27%
+source-wordcount: '613'
+ht-degree: 20%
 
 ---
 
@@ -26,17 +26,17 @@ ht-degree: 27%
 1. 在全局导航栏上，转到 **[!UICONTROL 设置]** > **[!UICONTROL 查看器预设]**.
 1. 在“查看器预设”页面上，执行下列操作之一：
 
-   * 要创建预设，请选择 **[!UICONTROL 添加]**. 在“添加查看器预设”对话框中，选择一个平台，然后选择 **[!UICONTROL 混合媒体集查看器]**，然后选择 **[!UICONTROL 添加]**.
+   * 要创建预设，请选择 **[!UICONTROL 添加]**. 在“添加查看器预设”对话框中，选择一个平台。 然后单击 **[!UICONTROL 混合媒体集查看器]** > **[!UICONTROL 添加]**.
    * 要编辑混合媒体集查看器预设，请选择它，然后选择 **[!UICONTROL 编辑]**.
 
 1. 在配置查看器页面上，在混合媒体集查看器预设的预设名称框中键入名称。
-1. 指定 **[!UICONTROL 选项卡]** 或 **[!UICONTROL 无选项卡]**. 制表符按类型（如视频、样本和旋转集）分隔项目。未指定制表符时，所有项目都会显示在“预览”窗口下的行中。
+1. 指定 **[!UICONTROL 选项卡]** 或 **[!UICONTROL 无选项卡]**. 制表符按类型分隔项目，如视频、样本和旋转集。 未指定制表符时，所有项目都会显示在“预览”窗口下的行中。
 1. 在 **[!UICONTROL 名称]** 框中，键入要添加查看器的名称。
 
    例如，如果要向混合媒体集添加色板集，请键入 `Swatch Set A`.
 
-1. 从“查看器”菜单中选择要查看的资源的类型，如样本集。
-1. 从“预设”菜单中为所选资源类型选择预设。
+1. 从查看器菜单中，选择要查看的资源类型，例如样本集。
+1. 从预设菜单中，为所选资源类型选择预设。
 
    例如，如果要添加样本集，请选择 **[!UICONTROL 样本集1 — 颜色]**.
 

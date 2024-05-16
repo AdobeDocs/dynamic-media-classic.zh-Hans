@@ -10,10 +10,10 @@ role: User
 exl-id: 2be50cc7-9a8b-4f7b-8ebf-18a3208654f2
 topic: Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
 workflow-type: tm+mt
 source-wordcount: '2225'
-ht-degree: 36%
+ht-degree: 34%
 
 ---
 
@@ -86,7 +86,7 @@ ht-degree: 36%
 
 欲知关于标准化属性的更多信息，请访问 [AdobeXMP开发人员中心](https://www.adobe.com/devnet/xmp.html).
 
-1. 在浏览面板中，选择要从制表符分隔的文件或 XML 文件为其添加元数据的图像。
+1. 在“浏览”面板中，从制表符分隔或XML文件中选择要向其添加元数据的图像。
 1. 转到 **[!UICONTROL 文件]** > **[!UICONTROL 导入元数据]**.
 1. 在 **[!UICONTROL 上载元数据]** 对话框，选择 **[!UICONTROL 浏览]**.
 1. 在“**[!UICONTROL 选择要上载的文件]**”对话框中，选择包含元数据的制表符分隔文件或 XML 文件。
@@ -161,7 +161,7 @@ Adobe Dynamic Media Classic提供了用于创建用于记录元数据的模板�
 
 ## 使用元数据架构 {#working-with-metadata-schemas}
 
-公司管理员可以查看所有可用的架构的列表。在全局导航栏上，转到 **[!UICONTROL 设置]** > **[!UICONTROL 应用程序设置]** > **[!UICONTROL 元数据]** > **[!UICONTROL 元数据架构]**.
+公司管理员可以查看所有可用架构的列表。 在全局导航栏上，转到 **[!UICONTROL 设置]** > **[!UICONTROL 应用程序设置]** > **[!UICONTROL 元数据]** > **[!UICONTROL 元数据架构]**.
 
 最初，XMP等全局标准架构的列表是隐藏的。 通过选中列表底部的复选框，可以显示该列表。
 

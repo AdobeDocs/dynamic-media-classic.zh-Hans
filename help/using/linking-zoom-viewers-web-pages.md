@@ -10,7 +10,7 @@ role: User
 exl-id: 2073d95b-1600-481f-8038-d29e8acacf7d
 topic: Administration, Content Management, Development
 level: Intermediate
-source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
+source-git-commit: 8dc990a1fb1355b00fa4839e14b92bb6562d40b4
 workflow-type: tm+mt
 source-wordcount: '671'
 ht-degree: 23%
@@ -19,7 +19,7 @@ ht-degree: 23%
 
 # 将缩放查看器链接到您的网页{#linking-zoom-viewers-to-your-web-pages}
 
-您的网站和应用程序可通过URL字符串或嵌入代码访问Dynamic Media Image Server内容。 该访问包括主图像和相关缩放目标。 它还包含缩放查看器预设。 这些 URL 字符串在发布过程中被激活。要将这些URL字符串或嵌入代码置于网页和应用程序中，请从Adobe Dynamic Media Classic复制它们。
+您的网站和应用程序可通过URL字符串或嵌入代码访问Dynamic Media Image Server内容。 该访问包括主图像和关联的缩放目标。 它还包含缩放查看器预设。 这些 URL 字符串在发布过程中被激活。要将这些URL字符串或嵌入代码置于网页和应用程序中，请从Adobe Dynamic Media Classic复制它们。
 
 >[!NOTE]
 >

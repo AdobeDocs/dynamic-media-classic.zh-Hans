@@ -10,10 +10,10 @@ role: User
 exl-id: 8599d4a3-57eb-4432-812f-7e55a4315c1b
 topic: Content Management
 level: Intermediate
-source-git-commit: 29752cf9eca0fc9bb760c721e1c3dc8e4ef912c3
+source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
 workflow-type: tm+mt
 source-wordcount: '449'
-ht-degree: 34%
+ht-degree: 27%
 
 ---
 
@@ -25,7 +25,7 @@ Adobe Dynamic Media Classic中的文件资源保存在文件夹中。 这些文�
 
 ## 显示、移动、隐藏和打开文件夹 {#displaying-moving-hiding-and-opening-folders}
 
-资源库以文件夹树的形式显示文件。在资源库中选择文件夹时，其内容会显示在浏览面板中。使用以下方法在文件夹树中查找文件夹：
+资源库以文件夹树的形式显示文件。在资产库中选择文件夹时，其内容将显示在“浏览”面板中。 使用以下方法在文件夹树中查找文件夹：
 
 * **显示子文件夹**：选择 **[!UICONTROL 展开文件夹]** 图标，在文件夹中显示子文件夹。 该图标位于文件夹名称的左侧。
 
@@ -37,7 +37,7 @@ Adobe Dynamic Media Classic中的文件资源保存在文件夹中。 这些文�
 
 >[!TIP]
 >
->您可以通过选择 **[!UICONTROL 展开]** 或 **[!UICONTROL 折叠]** 左手边有控制力。 当需要更多空间来处理浏览面板中的内容时，可将“资源库”面板折叠起来。
+>您可以通过选择 **[!UICONTROL 展开]** 或 **[!UICONTROL 折叠]** 左手边有控制力。 当您需要更多空间才能在浏览面板中工作时，折叠资产库面板。
 
 ## 创建文件夹
 

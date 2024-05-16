@@ -10,10 +10,10 @@ role: User
 exl-id: 3df22d48-edb5-4927-aefb-104b53f81f1a
 topic: Content Management
 level: Intermediate
-source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
+source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
 workflow-type: tm+mt
-source-wordcount: '1702'
-ht-degree: 24%
+source-wordcount: '1703'
+ht-degree: 23%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 24%
 
 可以使用两种不同的方法发布视频：
 
-* **上传时自动即时发布视频**：在视频上传过程中，Adobe Dynamic Media Classic可以在上传和编码视频时自动发布视频。 立即发布功能意味着，无需事后单独发布视频。
+* **上传时自动即时发布视频**：在视频上传过程中，Adobe Dynamic Media Classic可以在上传和编码视频时自动发布视频。 这种即时发布功能意味着在事后无需单独发布视频。
 
 * **上传后手动发布视频**：如果您不想立即发布视频，则可以随时手动发布视频。
 
@@ -107,7 +107,7 @@ ht-degree: 24%
 
 ### 实施嵌入代码以便在MP4视频资源中使用HTML5视频 {#implementing-embed-code-for-using-html-video-with-mp-video-assets}
 
-如果您没有使用Adobe Dynamic Media ClassicHTML5视频播放器，而是希望使用本机HTML5 `<video>` 标记时，您可以使用以下嵌入代码示例：
+您可能不希望使用Adobe Dynamic Media ClassicHTML5视频播放器。 相反，如果您要使用本机HTML5 `<video>` 标记时，您可以使用以下嵌入代码示例：
 
 ```as3
 <video poster="S7 video thumbnail URL" controls> 
@@ -131,7 +131,7 @@ ht-degree: 24%
 
 ## 使用第三方视频播放器部署视频 {#deploying-video-using-a-third-party-video-player}
 
-如果您使用第三方视频播放器或自定义视频播放器，而不是Dynamic Media Classic视频查看器，则会获得适用于HLS多比特率视频流或渐进式下载的直接视频URL。
+如果您使用第三方视频播放器或自定义视频播放器，而不是Dynamic Media Classic视频查看器，则可获得适用于HLS多比特率视频流或渐进式下载的直接视频URL。
 
 **要使用第三方视频播放器部署视频，请执行以下操作：**
 

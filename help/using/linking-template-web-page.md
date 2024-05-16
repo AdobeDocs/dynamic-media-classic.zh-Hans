@@ -10,7 +10,7 @@ role: User
 exl-id: 6305c287-360f-48c2-b456-58be0791c7af
 topic: Administration, Content Management, Development
 level: Experienced
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 8dc990a1fb1355b00fa4839e14b92bb6562d40b4
 workflow-type: tm+mt
 source-wordcount: '339'
 ht-degree: 16%
@@ -19,9 +19,9 @@ ht-degree: 16%
 
 # 将模板链接到网页{#linking-a-template-to-a-web-page}
 
-您的网站和应用程序通过URL字符串访问Dynamic Media图像服务器内容。 发布模板后，Adobe Dynamic Media Classic会激活一个在Dynamic Media图像服务器上引用模板的URL字符串。 可以将此URL粘贴到Web浏览器中以进行测试。
+您的网站和应用程序通过URL字符串访问Dynamic Media图像服务器内容。 发布模板后，Adobe Dynamic Media Classic会激活一个在Dynamic Media图像服务器上引用模板的URL字符串。 可以将此URL粘贴到Web浏览器以进行测试。
 
-要将URL字符串放置到网页和应用程序中，请从Adobe Dynamic Media Classic复制它们。 要获取使用图像预设生成的模板URL字符串，请转到“预览”屏幕或“浏览”面板（在“详细信息”视图中）。 然后选择“图像预设”并选择“复制 URL”按钮。
+要将URL字符串放置到网页和应用程序中，请从Adobe Dynamic Media Classic复制它们。 要获取使用图像预设生成的模板URL字符串，请转到“预览”屏幕或“浏览”面板（在“详细信息视图”中）。 然后选择“图像预设”并选择“复制 URL”按钮。
 
 >[!NOTE]
 >

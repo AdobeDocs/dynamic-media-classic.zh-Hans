@@ -9,10 +9,10 @@ role: User
 exl-id: 2ef78fe6-1e7c-4f48-86da-137ddaa55bbf
 topic: Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 8dc990a1fb1355b00fa4839e14b92bb6562d40b4
 workflow-type: tm+mt
-source-wordcount: '1010'
-ht-degree: 54%
+source-wordcount: '1014'
+ht-degree: 52%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 54%
 
 ## 请求共享密钥 {#requesting-a-shared-secret-key}
 
-请求 *共享密钥* 按 [使用Admin Console创建支持案例。](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) 在您的支持案例中，请求共享密钥。
+请求 *共享密钥* 按 [使用Admin Console创建支持案例。](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) 在技术支持案例中，请求共享密钥。
 
 在电子邮件中，请提供要用于上载图像资源的公司名称。从Adobe Dynamic Media Classic收到密钥后，请将其本地保存以供将来使用。
 
@@ -81,7 +81,7 @@ https://s7ugc1.scene7.com/ugc/image?op=get_uploadtoken&shared_secret=fece4b21-87
 | --- | --- | --- |
 | 操作 | 必需 | get_uploadtoken |
 | 共享密钥 | 必需 | 正在进行上载的公司的共享密钥。 |
-| 过期 | 可选 | 上载令牌有效的秒数。如果不指定，则默认为 300 秒。 |
+| 过期 | 可选 | 上载令牌有效的秒数。如果未指定，则默认为300秒。 |
 
 **栅格图像URL示例：**
 
@@ -181,7 +181,7 @@ https://s7w2p1.scene7.com/is/image/S7WebUGC/ugc/9536356.tif?&wid=800&hei=100&fit
 | URL 参数 | 必需或可选 | 值 |
 | --- | --- | --- |
 | `op` | 必需 | 上载 |
-| `upload_token` | 必需 | 与公司关联的共享密钥的上载令牌。 |
+| `upload_token` | 必需 | 上载与公司关联的共享密钥的令牌。 |
 | `company_name` | 必需 | 执行上载的公司的名称。 |
 | `file_limit` | 可选 | 资源的文件大小限制（以字节为单位）。 |
 | `file_exts` | 可选 | 图像资源文件容许扩展名的列表。 |

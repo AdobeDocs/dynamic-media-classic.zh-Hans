@@ -10,9 +10,9 @@ role: User
 exl-id: e3b8c4b9-e9c4-4d7f-84de-2efb456755a1
 topic: Integrations, Development
 level: Experienced
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 8dc990a1fb1355b00fa4839e14b92bb6562d40b4
 workflow-type: tm+mt
-source-wordcount: '1022'
+source-wordcount: '1023'
 ht-degree: 21%
 
 ---
@@ -71,13 +71,13 @@ PSD(Photoshop文档文件)在Adobe Dynamic Media Classic中最常用于创建模
 
 ## 在PSD文件中查看和编辑图层 {#viewing-and-editing-layers-in-a-psd-file}
 
-如果您选择了选项 **[!UICONTROL 保留图层]** 在上传您的PSD时，Adobe Dynamic Media Classic将各个层翻录到资源中。 通过在“详细视图”的“PSD”面板中打开文件，可以查看和编辑属于浏览文件的资源图层。
+如果您选择了选项 **[!UICONTROL 保留图层]** 在上传您的PSD时，Adobe Dynamic Media Classic将各个层翻录到资源中。 通过在“详细视图”的“浏览”面板中打开文件，可以查看和编辑属于PSD文件的资源图层。
 
 >[!NOTE]
 >
 >Adobe Dynamic Media Classic在嵌套图层组中最多支持五个级别。
 
-1. 在“PSD”面板中双击完整的浏览文件。 文件将在“详细视图”中打开。
+1. 在“浏览”面板中双击完整的PSD文件。 文件将在“详细视图”中打开。
 
    >[!NOTE]
    >

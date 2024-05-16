@@ -10,7 +10,7 @@ role: User
 exl-id: 4b3f690c-7dff-4bf0-9366-085ba918fe6b
 topic: Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
 workflow-type: tm+mt
 source-wordcount: '1513'
 ht-degree: 17%
@@ -19,7 +19,7 @@ ht-degree: 17%
 
 # 在Adobe Dynamic Media Classic中搜索资源{#searching-assets}
 
-要在Adobe Dynamic Media Classic中查找文件资源，您可以按类型查看资源，在浏览面板中排序资源，执行简单搜索，执行高级搜索，以及筛选资源。
+要在Adobe Dynamic Media Classic中查找文件资源，您可以按类型查看资源，在“浏览”面板中排序资源，执行简单搜索，执行高级搜索，以及筛选资源。
 
 >[!NOTE]
 >
@@ -33,9 +33,9 @@ ht-degree: 17%
 >
 >如果在左侧看不到“资源库”面板，请单击Dynamic Media Classic窗口下半侧右侧的三角形箭头以打开资源库。
 
-## 在“浏览”面板中排序文件 {#sorting-files-in-the-browse-panel}
+## 在“浏览”面板中对文件排序 {#sorting-files-in-the-browse-panel}
 
-您可以对显示在右侧“浏览面板”中的文件夹内容或搜索结果进行排序。 在全局导航栏上，选择 **[!UICONTROL 排序]**，然后选择一个选项。 选项包括 **[!UICONTROL 名称]**， **[!UICONTROL 大小(KB)]**， **[!UICONTROL 类型]**， **[!UICONTROL 创建日期]**、和 **[!UICONTROL 上次修改时间]**.
+您可以对右侧“浏览”面板中显示的文件夹内容或搜索结果进行排序。 在全局导航栏上，选择 **[!UICONTROL 排序]**，然后选择一个选项。 选项包括 **[!UICONTROL 名称]**， **[!UICONTROL 大小(KB)]**， **[!UICONTROL 类型]**， **[!UICONTROL 创建日期]**、和 **[!UICONTROL 上次修改时间]**.
 
 您还可以选择 **[!UICONTROL 升序]** 或 **[!UICONTROL 降序]** 要按您选择的标准以升序或降序对资源排序，请执行以下操作：
 
@@ -51,7 +51,7 @@ ht-degree: 17%
 1. 在搜索字段中，输入搜索词。
 1. 在搜索字段的右侧，选择 **[!UICONTROL 开始]** 或按 **[!UICONTROL 输入]**.
 
-   搜索结果将显示在右侧的浏览面板中。
+   搜索结果将显示在右侧的“浏览”面板中。
 
 <!-- Does not appear to be working anymore >[!NOTE]
 >
@@ -131,7 +131,7 @@ ht-degree: 17%
 1. 根据需要多次重复执行第 2 步以列出面板上用于过滤器操作的所有元数据字段。
 1. 在每个面板中，选择一个要作为过滤条件的元数据值。不能在每个面板中选择多个元数据值。
 
-   与您选择的所有值匹配的资源将显示在浏览面板中。
+   与您选择的所有值匹配的资源将显示在“浏览”面板中。
 
    >[!NOTE]
    >

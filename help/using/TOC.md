@@ -6,7 +6,7 @@ user-guide-title: Adobe Dynamic Media Classic指南
 breadcrumb-title: Dynamic Media Classic指南
 user-guide-description: 了解有关使用Adobe Dynamic Media Classic的更多信息
 index: y
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 8dc990a1fb1355b00fa4839e14b92bb6562d40b4
 workflow-type: tm+mt
 source-wordcount: '796'
 ht-degree: 17%
@@ -110,14 +110,14 @@ ht-degree: 17%
    + [快速入门：图像集](quick-start-image-sets.md)
    + [准备图像集资源以供上传](preparing-image-set-assets-upload.md)
    + [创建图像集](creating-image-set.md)
-   + [在图像集中包含缩放目标和图像映射](including-zoom-targets-image-maps-image-sets.md)
+   + [在图像集中包括缩放目标和图像映射](including-zoom-targets-image-maps-image-sets.md)
    + [管理图像集中的信息面板内容](info-panel-content-image-sets.md)
    + [查看图像集](viewing-image-sets.md)
    + [自动生成图像集](automated-image-set-generation.md)
    + [将图像集链接到网页](linking-image-set-web-page.md)
 + 样本集 {#swatch-sets}
    + [快速入门：样本集](quick-start-swatch-sets.md)
-   + [在样本集中包含缩放目标和图像映射](including-zoom-targets-image-maps-swatch-sets.md)
+   + [在样本集中包括缩放目标和图像映射](including-zoom-targets-image-maps-swatch-sets.md)
    + [准备样本集资源以供上传](preparing-swatch-set-assets-upload.md)
    + [创建样本集](creating-swatch-set.md)
    + [查看样本集](viewing-swatch-sets.md)

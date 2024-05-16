@@ -10,9 +10,9 @@ role: User
 exl-id: 00b70162-2394-433d-a46c-1d90667030af
 topic: Integrations, Development
 level: Experienced
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 8dc990a1fb1355b00fa4839e14b92bb6562d40b4
 workflow-type: tm+mt
-source-wordcount: '193'
+source-wordcount: '195'
 ht-degree: 13%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 13%
 
 >[!NOTE]
 >
->在发布eCatalog和PDF之前，请确保它们位于同一文件夹中，并在“浏览面板”或“资源详细信息”页面中标记为发布。
+>确保eCatalog和PDF位于同一文件夹中。 此外，在发布之前，请确保在“浏览”面板或“资产详细信息”页面中标记这些资产以供发布。
 
 **要发布eCatalog和相关的PDF，请执行以下操作：**
 

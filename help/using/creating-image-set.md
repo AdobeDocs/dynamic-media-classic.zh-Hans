@@ -10,7 +10,7 @@ role: User
 exl-id: c18bb98c-b087-45d0-a4c9-44f58a3b514f
 topic: Content Management
 level: Intermediate
-source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
+source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
 workflow-type: tm+mt
 source-wordcount: '676'
 ht-degree: 38%
@@ -47,7 +47,7 @@ ht-degree: 38%
 
 1. 执行以下任一操作：
 
-   * **首先选择图像**：在浏览面板中，选择所需的图像集图像，转到 **[!UICONTROL 生成]** > **[!UICONTROL 图像集]**.
+   * **首先选择图像**：在“浏览”面板中，选择所需的图像集图像，转到 **[!UICONTROL 生成]** > **[!UICONTROL 图像集]**.
 
    * **从“图像集”屏幕开始**：转到 **[!UICONTROL 生成]** > **[!UICONTROL 图像集]**. “图像集”屏幕随即打开。在资源库中选择一个文件夹，然后将要用于图像集的图像拖到“图像集”屏幕中。
 

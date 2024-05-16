@@ -10,10 +10,10 @@ role: User
 exl-id: 26e3cd5b-f070-4b92-af36-25631723460e
 topic: Content Management
 level: Beginner
-source-git-commit: 29752cf9eca0fc9bb760c721e1c3dc8e4ef912c3
+source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
 workflow-type: tm+mt
-source-wordcount: '801'
-ht-degree: 23%
+source-wordcount: '803'
+ht-degree: 21%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 23%
 
 ![旋转集的图像。](/help/using/assets/spin_set.png)
 
-旋转集也接受图像映射。图像映射是旋转集内的图像上用于显示含文本的变换面板的区域。当用户选择图像映射时，将触发某种操作。 例如，启动Web页，以便用户了解有关产品的更多信息。 要指出旋转集中的图像映射，当用户将鼠标指针移到图像映射本身上时，会在图像映射周围显示一个轮廓。
+旋转集也接受图像映射。图像映射是旋转集内的图像上用于显示含文本的变换面板的区域。当用户选择图像映射时，将触发某种操作。 例如，启动Web页，以便用户了解有关产品的更多信息。 要指出旋转集中的图像映射，当用户将鼠标指针移到图像映射本身上时，会在图像映射周围显示轮廓。
 
 请参阅 [创建图像映射](creating-image-maps.md).
 
@@ -49,13 +49,13 @@ ht-degree: 23%
 
 ## 2.创建旋转集
 
-要创建旋转集，请在全局导航栏上，转到 **[!UICONTROL 生成]** > **[!UICONTROL 旋转集]**. 在“旋转集大小”对话框中，选择要使用的行和单元格数，然后选择 **[!UICONTROL 确定]**. 然后将图像拖到“旋转集”页面上的网格中。
+要创建旋转集，请在全局导航栏上，转到 **[!UICONTROL 生成]** > **[!UICONTROL 旋转集]**. 在“旋转集大小”对话框中，选择要使用的行和单元格数，然后选择 **[!UICONTROL 确定]**. 然后将图像拖动到“旋转集”页面上的网格中。
 
 请参阅 [创建旋转集](creating-spin-set.md#creating-a-spin-set).
 
 ## 3.编辑旋转集
 
-要编辑旋转集，请在全局导航栏上，转到 **[!UICONTROL 设置]** > **[!UICONTROL 查看器预设]**. 选择一个旋转集，然后选择 **[!UICONTROL 编辑]**. 添加、删除和更改图像的位置。您可以更改二维旋转集中行的位置。
+要编辑旋转集，请在全局导航栏上，转到 **[!UICONTROL 设置]** > **[!UICONTROL 查看器预设]**. 选择一个旋转集，然后选择 **[!UICONTROL 编辑]**. 添加、删除和更改图像的位置。可以更改二维旋转集中行的位置。
 
 请参阅 [编辑旋转集](creating-spin-set.md#editing-a-spin-set).
 
@@ -77,7 +77,7 @@ ht-degree: 23%
 
 发布旋转集会将该旋转集放置在Adobe Dynamic Media Classic服务器上，以便可以动态地将其交付到您的网站或应用程序。 它还激活了URL字符串，该字符串会将旋转集从Dynamic Media图像服务器调用到您的网站或应用程序。
 
-要发布旋转集，请通过选择 **[!UICONTROL 标记为发布]** 图标（位于其名称旁）。 在全局导航栏上，选择 **[!UICONTROL Publish]** 以启动发布。 在发布页面上，选择 **[!UICONTROL 提交发布]**.
+要发布旋转集，请通过选择 **[!UICONTROL 标记为发布]** 图标（在“浏览”面板中位于其名称旁）。 在全局导航栏上，选择 **[!UICONTROL Publish]** 以启动发布。 在发布页面上，选择 **[!UICONTROL 提交发布]**.
 
 请参阅 [发布旋转集](publishing-spin-set.md#publishing-a-spin-set).
 

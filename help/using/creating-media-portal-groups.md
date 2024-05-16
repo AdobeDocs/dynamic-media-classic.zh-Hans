@@ -10,10 +10,10 @@ role: Admin,User
 exl-id: 0deb7133-b895-4c3f-8e5e-8604a6f2d16b
 topic: Administration, Collaboration
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 8dc990a1fb1355b00fa4839e14b92bb6562d40b4
 workflow-type: tm+mt
-source-wordcount: '839'
-ht-degree: 52%
+source-wordcount: '841'
+ht-degree: 49%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 52%
 
    请参阅[建立组的资源访问权限](creating-media-portal-groups.md#establishing_asset_access_permissions_for_a_group)。
 
-1. 如果要选择哪些图像预设可供组使用，请选择 **[!UICONTROL 图像预设访问权限]** 选项卡，然后选择组可以使用的图像预设。
+1. 您可以选择组可用的图像预设。 只需单击 **[!UICONTROL 图像预设访问权限]** 选项卡，然后选择组可以使用的图像预设。
 
    请参阅[为组选择图像预设访问权限](creating-media-portal-groups.md#choosing_image_preset_access_permissions_for_a_group)。
 
@@ -56,7 +56,7 @@ ht-degree: 52%
    * 要编辑组的权限，请选择该组，然后选择 **[!UICONTROL 编辑]**.
 
 1. 在“添加组”或“编辑组”对话框中，选择 **[!UICONTROL 资源访问权限]** 选项卡。 该选项卡的右侧提供了用于建立文件夹和资源读取、写入和删除权限的方框。您可以在左窗格中展开和折叠文件夹和子文件夹。
-1. 要向文件夹或单个资源指定权限，请在左窗格中选择该文件夹。文件夹内容便会显示在右窗格中。然后，在右窗格中选中相应文件或文件夹的方框，为该组指定权限。
+1. 要向文件夹或单个资源指定权限，请在左窗格中选择该文件夹。文件夹内容便会显示在右窗格中。然后，通过选择相应文件的框为组分配权限。 或者，在右窗格中选择文件夹。
 
    下表显示了不同任务所对应的读取、写入和删除权限。
 

@@ -10,7 +10,7 @@ role: User
 exl-id: 4b3e8368-f8f5-46d9-9130-361a8273de2c
 topic: Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
 workflow-type: tm+mt
 source-wordcount: '2207'
 ht-degree: 30%
@@ -128,7 +128,7 @@ JPG 品质选项控制 JPG 压缩等级：
 
 要设置公司的默认锐化选项，请转到 **[!UICONTROL 设置]** > **[!UICONTROL 应用程序设置]** > **[!UICONTROL 发布设置]** > **[!UICONTROL 图像服务器]**. 如果将默认重新取样模式设置为 **`Sharp2`**&#x200B;时，它始终会锐化缩减像素取样时的图像。
 
-**向查看器预设添加锐化**
+**为查看器预设添加锐化**
 
 除非将锐化图像修饰符添加到预设，否则小的初始加载图像可能会看起来很柔和，因为图像将被缩减取样以适合查看器窗口而不被锐化。
 

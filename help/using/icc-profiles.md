@@ -10,7 +10,7 @@ role: User
 exl-id: 989f2761-f5d0-4ece-b2a6-f7b4577aa8a2
 topic: Administration, Content Management
 level: Intermediate
-source-git-commit: 29752cf9eca0fc9bb760c721e1c3dc8e4ef912c3
+source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
 workflow-type: tm+mt
 source-wordcount: '452'
 ht-degree: 41%
@@ -25,7 +25,7 @@ ICC（国际颜色联盟）配置文件是一个文件，用于描述如何正�
 
 请参阅 [上传时图像编辑选项](image-editing-options-upload.md#image-editing-options-at-upload).
 
-除了使用默认的ICC配置文件外，您还可以将其他ICC配置文件上传到Adobe Dynamic Media Classic，以便用于色彩空间转换。 在“浏览”面板中切换到“详细视图”以调查ICC配置文件的配置文件类、色彩空间类型和PCS类型。
+除了使用默认的ICC配置文件外，您还可以将其他ICC配置文件上传到Adobe Dynamic Media Classic，以便用于色彩空间转换。 在“浏览”面板中切换到“详细信息视图”以调查ICC配置文件的配置文件类、色彩空间类型和PCS类型。
 
 ## 上传ICC配置文件 {#uploading-icc-profiles}
 
@@ -35,7 +35,7 @@ ICC（国际颜色联盟）配置文件是一个文件，用于描述如何正�
 
 ## 检查ICC配置文件 {#examining-an-icc-profile}
 
-要检查ICC配置文件，请在“浏览”面板中选择它，并在“详细信息”视图中显示它。 “详细信息视图”提供有关ICC配置文件的以下信息：
+要检查ICC配置文件，请在“浏览”面板中选择它，并在“详细信息视图”中显示它。 “详细信息视图”提供有关ICC配置文件的以下信息：
 
 * **[!UICONTROL 配置文件类]**：ICC（国际颜色联盟）定义每个类以涵盖一种类型的应用程序。 例如，输入配置文件应用于数码相机和扫描仪等设备，输出配置文件应用于打印机。
 

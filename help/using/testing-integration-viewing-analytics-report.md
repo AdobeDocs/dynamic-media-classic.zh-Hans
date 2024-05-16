@@ -10,9 +10,9 @@ role: Data Engineer,Admin,User
 exl-id: 6186fcf0-99b4-447d-ae94-b4124dcb405b
 topic: Integrations, Development
 level: Experienced
-source-git-commit: 5b5dcd1199bd51ec987b5673fce75bc86baad55b
+source-git-commit: 8dc990a1fb1355b00fa4839e14b92bb6562d40b4
 workflow-type: tm+mt
-source-wordcount: '339'
+source-wordcount: '338'
 ht-degree: 5%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 5%
 
    例如，要访问 **[!UICONTROL LoadAsset]** prop中，正确的菜单选项为 **[!UICONTROL 自定义流量]** > **[!UICONTROL 自定义流量1-10]** > **[!UICONTROL LoadAsset]**. 如果您有十个以上的自定义prop，您也会看到其他菜单选项。
 
-1. 查看 Adobe Analytics 生成的图表。此图表通常只是单个指标的数据。 如果您还想知道此数据与哪个资产相关联，请获取此事件的资产数据。 例如，了解观看了哪个视频的百分比仅为50%或集中的哪个图像受欢迎通常很有用。
+1. 查看 Adobe Analytics 生成的图表。此图表通常只是单个指标的数据。 如果您还想知道此数据与哪个资产相关联，请获取此事件的资产数据。 例如，了解哪个视频仅被观看了50%或集中的哪个图像受欢迎通常很有用。
 
 >[!NOTE]
 >

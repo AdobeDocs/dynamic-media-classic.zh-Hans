@@ -10,10 +10,10 @@ role: User
 exl-id: eae35207-000c-4ced-b9ab-714c2384a9e7
 topic: Content Management
 level: Beginner
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 8dc990a1fb1355b00fa4839e14b92bb6562d40b4
 workflow-type: tm+mt
 source-wordcount: '844'
-ht-degree: 21%
+ht-degree: 19%
 
 ---
 
@@ -37,9 +37,9 @@ Adobe Dynamic Media Classic还提供了引导式缩放 — 这是一种突出显
 
 ## 2.创建用于引导缩放的缩放目标
 
-缩放目标可用于突出显示图像的特定部分。例如，您可以将注意力集中在图像与众不同之处。在“缩放查看器”窗口中，缩放目标以缩略图图像的形式显示在图像一侧。选择其中一个缩放目标缩略图，可自动缩放到图像的指定之处。
+缩放目标可用于突出显示图像的特定部分。例如，您可以将注意力集中在图像与众不同之处。在缩放查看器窗口中，缩放目标以缩略图图像的形式出现在图像的一侧。 选择其中一个缩放目标缩略图，可自动缩放到图像的指定之处。
 
-要创建缩放目标，请选择 **[!UICONTROL 编辑]** 并选择“缩放目标”，或在“浏览”面板的“详细信息”视图中打开图像并选择 **[!UICONTROL 缩放目标]**. 然后，使用“缩放目标编辑器”页面上的“缩放”工具，以便隔离部分图像作为目标。 请参阅 [创建引导缩放的缩放目标](creating-zoom-targets-guided-zoom.md#creating_zoom_targets_for_guided_zoom).
+要创建缩放目标，请选择 **[!UICONTROL 编辑]** 并选择“缩放目标”，或在“浏览”面板的“详细信息视图”中打开图像并选择 **[!UICONTROL 缩放目标]**. 然后，使用“缩放目标编辑器”页面上的“缩放”工具，以便隔离部分图像作为目标。 请参阅 [创建引导缩放的缩放目标](creating-zoom-targets-guided-zoom.md#creating_zoom_targets_for_guided_zoom).
 
 ## 3.设置缩放查看器预设
 
@@ -53,7 +53,7 @@ Adobe Dynamic Media Classic优惠 **[!UICONTROL 缩放查看器预设]** 用于�
 
 您可以在缩放查看器中预览图像，查看图像缩放时的缩放效果。
 
-要浏览不同的缩放查看器预设以及它们呈现缩放体验的方式，请在浏览面板中选择图像，然后选择 **[!UICONTROL 预览]**. 转到 **[!UICONTROL 预设]** > **[!UICONTROL 缩放]**，然后使用缩放菜单选择预设。
+要浏览不同的缩放查看器预设以及它们呈现缩放体验的方式，请在“浏览”面板中选择图像，然后选择 **[!UICONTROL 预览]**. 转到 **[!UICONTROL 预设]** > **[!UICONTROL 缩放]**，然后使用缩放菜单选择预设。
 
 此时会出现“缩放”按钮。您可以在您的网站上看到缩放图像的外观。 选择缩放按钮（和缩放目标），以便测试所选缩放查看器预设的设置。 请参阅 [使用不同的缩放查看器预览图像](previewing-image-assets-different-zoom.md#previewing_image_assets_with_different_zoom_viewers).
 

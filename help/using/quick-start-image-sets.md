@@ -10,10 +10,10 @@ role: User
 exl-id: 280e7201-84d6-46b1-94bb-0499beca2992
 topic: Content Management
 level: Beginner
-source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
+source-git-commit: 8dc990a1fb1355b00fa4839e14b92bb6562d40b4
 workflow-type: tm+mt
 source-wordcount: '671'
-ht-degree: 13%
+ht-degree: 10%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 13%
 
 Adobe Dynamic Media Classic图像集为用户提供了集成的查看体验。 在动态图像集查看器中，用户可以通过选择缩略图图像来查看项目的不同视图。 图像集允许您呈现项目的替代高分辨率视图。
 
-图像集查看器具有缩放工具，可用来仔细查看图像。如果需要，可以将引导式缩放目标和图像映射添加到图像集中。图像集可为用户带来更协调、更详尽的观看体验。
+图像集查看器具有缩放工具，可用来仔细查看图像。如果需要，可以将引导式缩放目标和图像映射作为图像集的一部分。 图像集可为用户带来更协调、更详尽的观看体验。
 
 请参阅 [图像和旋转集：Dynamic Imaging](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/556_Image%20&amp;%20Spin%20Sets_converted%20renamed_Dynamic%20Imaging-AVS) 训练视频。
 
@@ -54,7 +54,7 @@ Adobe Dynamic Media Classic图像集为用户提供了集成的查看体验。 �
 
 请参阅 [创建图像集](creating-image-set.md#creating-an-image-set).
 
-另请参阅 [在图像集中包含缩放目标和图像映射](/help/using/including-zoom-targets-image-maps-image-sets.md)
+另请参阅 [在图像集中包括缩放目标和图像映射](/help/using/including-zoom-targets-image-maps-image-sets.md)
 
 ## 3.根据需要准备图像集查看器预设
 
@@ -66,7 +66,7 @@ Adobe Dynamic Media Classic图像集为用户提供了集成的查看体验。 �
 
 ## 4.预览图像集
 
-在浏览面板中选择图像集，然后选择 **[!UICONTROL 预览]**. 在“预览”页面中，选择缩略图图标以在选定的查看器中检查图像集。 可以从“预设”菜单中选择不同的查看器。
+在“浏览”面板中选择图像集，然后选择 **[!UICONTROL 预览]**. 在“预览”页面中，选择缩略图图标以在选定的查看器中检查图像集。 可以从“预设”菜单中选择不同的查看器。
 
 请参阅 [预览资源](previewing-asset.md#previewing-an-asset).
 

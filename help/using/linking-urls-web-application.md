@@ -10,9 +10,9 @@ role: User
 exl-id: ca629427-da33-4bab-9d08-6d9368042f7e
 topic: Administration, Content Management, Development
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 8dc990a1fb1355b00fa4839e14b92bb6562d40b4
 workflow-type: tm+mt
-source-wordcount: '843'
+source-wordcount: '842'
 ht-degree: 26%
 
 ---
@@ -80,7 +80,7 @@ https://s7d1.scene7.com/is/image/S7learn/backpack?$Large$
 
 ## 将动态图像添加到网页 {#adding-dynamic-images-to-your-web-page}
 
-要将动态图像添加到网页，请 `<IMG>` HTML网页代码中的标记通常使用Adobe Dynamic Media Classic URL字符串进行修改，以便向Dynamic Media图像服务器发出请求。 该字符串会按图像预设定义的大小和格式规范生成图像。
+将动态图像添加到网页时， `<IMG>` HTML页面代码中的标记通常使用Adobe Dynamic Media Classic URL字符串进行修改，以便向Dynamic Media图像服务器发出请求。 该字符串会按图像预设定义的大小和格式规范生成图像。
 
 例如，与以下用于打开静态图像的典型调用不同
 

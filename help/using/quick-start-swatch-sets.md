@@ -10,7 +10,7 @@ role: User
 exl-id: b0c345dc-539f-4b03-a873-091681e2f2c2
 topic: Content Management
 level: Beginner
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
 workflow-type: tm+mt
 source-wordcount: '402'
 ht-degree: 17%
@@ -41,7 +41,7 @@ Adobe Dynamic Media Classic样本集为用户提供了集成的查看体验。 �
 
 ## 4.预览样本集
 
-在浏览面板中选择样本集，然后选择 **[!UICONTROL 预览]**. 您的样本集将显示在此页面上。 选择缩略图和样本图标，以便您可以在选定的查看器中检查样本集。 可以从“预设”菜单中选择不同的查看器。
+在“浏览”面板中选择样本集，然后选择 **[!UICONTROL 预览]**. 您的样本集将显示在此页面上。 选择缩略图和样本图标，以便您可以在选定的查看器中检查样本集。 可以从“预设”菜单中选择不同的查看器。
 
 请参阅 [预览资源](previewing-asset.md#previewing-an-asset).
 

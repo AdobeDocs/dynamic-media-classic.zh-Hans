@@ -10,16 +10,16 @@ role: User
 exl-id: 880ee6d0-cb0a-4d53-9056-f0b8b292136e
 topic: Content Management
 level: Intermediate
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
 workflow-type: tm+mt
-source-wordcount: '569'
-ht-degree: 43%
+source-wordcount: '571'
+ht-degree: 41%
 
 ---
 
 # 调整图像{#adjusting-an-image}
 
-Adobe Dynamic Media Classic提供了多种用于调整图像外观的命令。 您可以翻转、旋转、模糊处理、更改颜色平衡，以及为图像着色。在使用这些命令进行试验时，您可以在正在处理的图像上看到命令效果。
+Adobe Dynamic Media Classic提供了多种用于调整图像外观的命令。 您可以翻转、旋转、模糊、更改颜色平衡和为图像着色。 在使用这些命令进行试验时，您可以在正在处理的图像上看到命令效果。
 
 另请参阅 [创建图像的别名](adjusting-image.md#creating_an_alias_for_an_image).
 
@@ -57,7 +57,7 @@ Adobe Dynamic Media Classic提供了多种用于调整图像外观的命令。 �
 
 ## 创建图像的别名 {#creating-an-alias-for-an-image}
 
-调整图像后，可将其另存为主图像的另一个视图。 为此，可以使用创建图像的别名 **[!UICONTROL 另存为主要内容的另一个视图]** 功能。
+调整图像后，可将其另存为主图像的另一个视图。 为此，可以使用创建图像的别名 **[!UICONTROL 另存为主要播放器的其他视图]** 功能。
 
 **要为图像创建别名，请执行以下操作：**
 

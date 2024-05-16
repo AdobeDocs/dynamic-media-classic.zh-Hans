@@ -10,10 +10,10 @@ role: User
 exl-id: cffeec19-43fd-4a97-bdcc-df81af108ddd
 topic: Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 8dc990a1fb1355b00fa4839e14b92bb6562d40b4
 workflow-type: tm+mt
-source-wordcount: '553'
-ht-degree: 30%
+source-wordcount: '560'
+ht-degree: 28%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 30%
 
 >[!NOTE]
 >
->已移至垃圾桶文件夹的资源仍会在Adobe Dynamic Media Classic中注册。 如果尝试上载的文件与垃圾桶文件夹中已删除的文件同名，Adobe Dynamic Media Classic会将要上载的资源视为重复资源。 因此，会将一个数字附加到其名称中。
+>已移至垃圾桶文件夹的资源仍会在Adobe Dynamic Media Classic中注册。 例如，假设您尝试上载一个与垃圾桶文件夹中已删除文件同名的文件。 Adobe Dynamic Media Classic会将您要上传的资产视为重复资产。 在这种情况下，会在名称后附加一个数字。
 
 ## 关于垃圾桶文件夹 {#about-the-trash-folder}
 
@@ -51,9 +51,9 @@ ht-degree: 30%
 
 删除垃圾桶文件夹中的资源时，会永久删除这些资源。资源在七天之后从垃圾桶文件夹被自动删除。
 
-要从垃圾桶文件夹中永久删除资源，请选择 **[!UICONTROL 垃圾桶]** 图标。 在“垃圾桶”文件夹页面上，执行以下任一操作：
+您可以通过选择，从“垃圾桶”文件夹中永久删除资源 **[!UICONTROL 垃圾桶]** 图标。 在“垃圾桶”文件夹页面上，执行以下任一操作：
 
-* **删除单个资产**：选择要永久删除的资源，然后转到 **[!UICONTROL 文件]** > **[!UICONTROL 从垃圾桶中删除]**.
+* **删除单个资产**：您可以永久删除资源。 选择所需的资源，然后单击 **[!UICONTROL 文件]** > **[!UICONTROL 从垃圾桶中删除]**.
 
 * **删除所有资源**：转到 **[!UICONTROL 文件]** > **[!UICONTROL 清空垃圾桶]**.
 

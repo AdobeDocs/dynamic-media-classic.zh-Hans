@@ -10,16 +10,16 @@ role: User
 exl-id: 4d38a224-5e06-4932-a801-5dcc32fe4b31
 topic: Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
 workflow-type: tm+mt
 source-wordcount: '253'
-ht-degree: 17%
+ht-degree: 11%
 
 ---
 
 # 在“浏览”面板中查看资源{#viewing-assets-in-the-browse-panel}
 
-可以通过选择“视图”按钮来更改浏览面板中的资源视图：
+您可以通过选择查看按钮，在“浏览”面板中更改资产的视图：
 
 * **网格视图**：在Adobe Dynamic Media Classic屏幕的右上角附近，选择 **[!UICONTROL 网格视图]** 图标，以在网格的缩略图表单中查看资源。 在“网格视图”中，您可以拖动“缩略图”滑块来更改缩略图图像的大小。
 

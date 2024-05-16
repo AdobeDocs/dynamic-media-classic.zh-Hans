@@ -10,7 +10,7 @@ role: User
 exl-id: 426b6e6b-daed-4ca6-b095-99bb06604b07
 topic: Content Management
 level: Intermediate
-source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
+source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
 workflow-type: tm+mt
 source-wordcount: '715'
 ht-degree: 49%
@@ -38,7 +38,7 @@ ht-degree: 49%
 
 1. 执行以下任一操作：
 
-   * **首先选择图像**：在浏览面板中，选择图像，然后转到 **[!UICONTROL 生成]** > **[!UICONTROL 样本集]**.
+   * **首先选择图像**：在“浏览”面板中，选择图像，然后转到 **[!UICONTROL 生成]** > **[!UICONTROL 样本集]**.
 
    * **从“样本集”屏幕开始**：转到 **[!UICONTROL 生成]** > **[!UICONTROL 样本集]**. 从资源库中选择一个文件夹，然后将图像拖到“样本集”页面的“视图”部分中。
 

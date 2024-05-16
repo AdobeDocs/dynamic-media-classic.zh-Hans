@@ -10,10 +10,10 @@ role: User
 exl-id: 9e2df814-465d-412a-a032-ef3e8cb462ba
 topic: Integrations
 level: Experienced
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
 workflow-type: tm+mt
 source-wordcount: '1470'
-ht-degree: 27%
+ht-degree: 25%
 
 ---
 
@@ -92,7 +92,7 @@ eCatalog 通常由 Adobe PDF 文件生成。由于 PDF 文件要用于印刷，�
 
 请参阅 [使用图像映射在eCatalog中嵌入富媒体](creating-ecatalog-image-maps.md#embedding-rich-media-in-an-ecatalog).
 
-可以在 eCatalog 屏幕中使用“信息面板”设置来建立和管理图像映射文本。
+您可以使用eCatalog屏幕中的“信息面板”设置来设置和管理图像映射文本。
 
 请参阅 [管理eCatalogs中的信息面板内容](/help/using/info-panel-content-ecatalog.md).
 

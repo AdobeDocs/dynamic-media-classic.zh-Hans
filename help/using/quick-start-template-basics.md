@@ -10,7 +10,7 @@ role: User
 exl-id: bf695fee-821c-4396-829a-d57ccf475b0c
 topic: Content Management
 level: Intermediate
-source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
+source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
 workflow-type: tm+mt
 source-wordcount: '808'
 ht-degree: 17%
@@ -69,4 +69,4 @@ ht-degree: 17%
 
 Dynamic Media Classic会为模板创建URL，并在您将模板发布到Dynamic Media图像服务器时激活这些URL。 您可以从“模板预览”页面复制这些URL字符串。
 
-在浏览面板中选择您的模板，然后选择 **[!UICONTROL 预览]** 以打开“模板预览”页面。 选择用于交付模板的图像预设，然后单击 **[!UICONTROL 复制URL]** 按钮。 从“预览”页面复制URL后，您可以在网站或应用程序中使用它。 请参阅 [将模板链接到网页](linking-template-web-page.md#linking_a_template_to_a_web_page).
+在“浏览”面板中选择您的模板，然后选择 **[!UICONTROL 预览]** 以打开“模板预览”页面。 选择用于交付模板的图像预设，然后单击 **[!UICONTROL 复制URL]** 按钮。 从“预览”页面复制URL后，您可以在网站或应用程序中使用它。 请参阅 [将模板链接到网页](linking-template-web-page.md#linking_a_template_to_a_web_page).

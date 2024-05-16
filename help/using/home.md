@@ -7,10 +7,10 @@ role: Admin,User
 exl-id: af29eabb-f7c6-420b-9c63-9d60ee2dc148
 topic: Administration
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 8dc990a1fb1355b00fa4839e14b92bb6562d40b4
 workflow-type: tm+mt
-source-wordcount: '525'
-ht-degree: 1%
+source-wordcount: '526'
+ht-degree: 0%
 
 ---
 
@@ -40,7 +40,7 @@ ht-degree: 1%
 * [指南：用于锐化图像的最佳实践指南](/help/using/assets/s7_sharpening_images.pdf)
 * [指南：Adobe Dynamic Media Classic如何支持SEO](/help/using/assets/s7_seo.pdf)：现在的搜索引擎允许搜索网站和图像。 Adobe Dynamic Media Classic支持努力使图像搜索引擎友好，以便为Adobe Dynamic Media Classic用户的网站带来更多流量。 本PDF版指南提供了实现这一目标的背景和实施建议。
 <!-- * [Webinar: Best Practices for Responsive Design](http://offers.adobe.com/en/na/marketing/landings/_40458_responsive_design_live_on_demand_webinar.html): Learn practical tips on how to improve your mobile strategy. See real-world examples of responsive design in action. Create one primary asset that works across multiple devices and increase mobile performance by dynamically changing the resolution of images or the orientation of images for portrait or landscape displays. Learn how to also dynamically crop, scale, or resize images. -->
-* [网络研讨会：通过Adobe Dynamic Media Classic提供交互式体验的最佳实践](https://seminars.adobeconnect.com/p7wb8ej3u6d/)：了解如何在Adobe Dynamic Media Classic中获取内容，以及如何设置图像预设以获得最佳性能和体验。 您还可以了解查看器预设和缓存配置。
+* [网络研讨会：使用Adobe Dynamic Media Classic提供交互式体验的最佳实践](https://seminars.adobeconnect.com/p7wb8ej3u6d/)：了解如何在Adobe Dynamic Media Classic中获取内容，以及如何设置图像预设以获得最佳性能和体验。 您还可以了解查看器预设和缓存配置。
 * [网络研讨会：最大限度地提高您的资产ROI](https://adobecustomersuccess.adobeconnect.com/p5ar3hfrrec/?launcher=false&amp;fcsContent=true&amp;pbMode=normal&amp;proto=true)：了解行业最佳实践，以在您的网站和移动应用程序中交付富媒体。 在此网络研讨会中，Adobe提供了一些示例和演示，向您展示如何跨设备高效地交付视频。 了解如何在营销活动中提供动态的创意内容。 或者，通过使任何图像、风格指南或回顾式购物来提高转化率。
 * [网络研讨会：加快内容交付生命周期](https://adobecustomersuccess.adobeconnect.com/p88ducm9pqv/)：介绍和演示Adobe Experience Manager Assets：On Demand，富媒体管理和投放的下一代平台。 了解如何在创意和营销团队之间协作和共享资产以简化资产审核流程。 了解最佳实践，以便您能够有效地管理资源元数据。 这样做可以轻松查找、使用、重用和共享资源。 还了解如何提供交互式跨渠道富媒体体验。
 * [网络研讨会：移动设备优化设计](https://adobecustomersuccess.adobeconnect.com/p6oqd3wydif/?launcher=false&amp;fcsContent=true&amp;pbMode=normal&amp;proto=true)：使用Adobe Dynamic Media Classic，您可以高效地向所有设备交付目标富媒体。 了解如何设计和提供可在移动设备应用程序和响应式网站上有效的图像和视频查看体验。
