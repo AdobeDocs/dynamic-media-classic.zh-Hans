@@ -10,7 +10,7 @@ role: Admin,User
 exl-id: b0c5f70a-2388-42aa-a1ed-fd745ff90518
 topic: Collaboration, Content Management
 level: Intermediate
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '348'
 ht-degree: 16%
@@ -23,21 +23,21 @@ ht-degree: 16%
 
 要访问样式设置，请转到 **[!UICONTROL 设置]** > **[!UICONTROL Media Portal设置]** > **[!UICONTROL 样式设置]**. 确保选择 **[!UICONTROL 保存]** 以保存设置。 您可以选择 **[!UICONTROL 恢复]** 以恢复默认设置。 当您做出选择时，“预览”面板会显示它们的显示方式。
 
-* **[!UICONTROL 徽标]**  — 选择 **[!UICONTROL 浏览]**，然后在选择徽标图像窗口中选择图形。
+* **[!UICONTROL 徽标]**：选择 **[!UICONTROL 浏览]**，然后在选择徽标图像窗口中选择图形。
 
-* **[!UICONTROL 应用程序]**  — 通过在“背景渐变颜色”菜单上进行选择来创建渐变颜色混合。
+* **[!UICONTROL 应用程序]**：通过在“背景渐变颜色”菜单上进行选择来创建渐变颜色混合。
 
-* **[!UICONTROL 树]**  — 选择变换颜色（将指针移动到项目上时显示的颜色）和选择颜色（选择项目时显示的颜色）。
+* **[!UICONTROL 树]**：选择变换颜色（将指针移动到项目上时显示的颜色）和选择颜色（选择项目时显示的颜色）。
 
-* **[!UICONTROL 折叠]**  — 为“详细信息”视图中屏幕右侧显示的折叠选择背景颜色、边框样式以及变换颜色和所选颜色。
+* **[!UICONTROL 折叠]**：为在“详细信息”视图中显示在屏幕右侧的折叠选择背景颜色、边框样式以及变换颜色和所选颜色。
 
-* **[!UICONTROL Accordion标题]**  — 选择是否在可折叠项标题粗体中显示文本。
+* **[!UICONTROL Accordion标题]**：选择是否以可折叠项标题粗体显示文本。
 
-* **[!UICONTROL 数据网格]**  — 选择数据网格中标题行的颜色。
+* **[!UICONTROL 数据网格]**：选择数据网格中标题行的颜色。
 
-* **[!UICONTROL 警报]**  — 选择警报消息框的背景颜色。
+* **[!UICONTROL 警报]**：选择警报消息框的背景颜色。
 
-* **[!UICONTROL 进度条]**  — 为指示上载和下载进度的条形选择颜色。
+* **[!UICONTROL 进度条]**：为指示上传和下载进度的条形选择颜色。
 
 要让Media Portal用户查看您选择的样式设置，他们必须附加 `?company=(company name)` 访问媒体门户的URL。 例如，要查看样式设置，请访问PortalCo公司的Media Portal用户：
 

@@ -6,7 +6,7 @@ role: Admin,User
 exl-id: 5c2e2937-fe4f-4b64-bee8-9572ca84695b
 topic: Content Management
 level: Intermediate
-source-git-commit: 163eb32112ec6fbefd1dacf48212353ff3053d54
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '1564'
 ht-degree: 0%
@@ -42,7 +42,7 @@ ht-degree: 0%
 * 将Campaign资源与产品信息相结合，以便简化购物车的点击操作。
 * 使用WYSIWYG查看器设计器轻松创建、调整、品牌和部署交互式查看器。
 * 将优化的富媒体投放到 [!DNL Experience Cloud] 解决方案。
-* 与集成 [!DNL Experience Cloud] 用于跨营销接触点进行高级资产分析、定位和资产重用。 这些接触点包括 [!DNL Adobe Campaign] 对于电子邮件， [!DNL Adobe Social] 对于社交渠道，以及 [!DNL Experience Manager] 适用于响应式Web和移动应用程序的网站。
+* 与集成 [!DNL Experience Cloud] 用于跨营销接触点进行高级资产分析、定位和资产重用。 这些接触点包括 [!DNL Adobe Campaign] 对于电子邮件， [!DNL Adobe Social] 对于社交渠道，以及 [!DNL Experience Manager] 响应式Web和移动应用程序的网站。
 
 +++
 

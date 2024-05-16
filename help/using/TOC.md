@@ -6,10 +6,10 @@ user-guide-title: Adobe Dynamic Media Classic指南
 breadcrumb-title: Dynamic Media Classic指南
 user-guide-description: 了解有关使用Adobe Dynamic Media Classic的更多信息
 index: y
-source-git-commit: 910410706fbd9dd79a8dda402af454a50132cc41
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '796'
-ht-degree: 19%
+ht-degree: 17%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 19%
 + [新的Adobe Dynamic Media Classic登录现已可用](new-ui-2020.md)
 + [按Experience LeagueAdobeDynamic Media新闻稿存档](dynamic-media-newsletter.md)
 + Adobe Dynamic Media Classic简介 {#intro}
-   + [Adobe Dynamic Media Classic桌面应用程序 — 现已推出](dynamic-media-classic-desktop-app.md)
+   + [Adobe Dynamic Media Classic桌面应用程序：现已推出](dynamic-media-classic-desktop-app.md)
    + [关于Adobe Dynamic Media Classic帮助](introduction.md)
    + [开发人员资源](developer-resources.md)
    + [新增功能](whats-new.md)
@@ -135,7 +135,7 @@ ht-degree: 19%
    + [创建模板](creating-template.md)
    + [创建模板参数](creating-template-parameters.md)
    + [发布模板](publishing-templates.md)
-   + [将模板链接至网页](linking-template-web-page.md)
+   + [将模板链接到网页](linking-template-web-page.md)
    + [管理内容变体](content-variations.md)
 + 视频 {#video}
    + [快速入门：视频](quick-start-video.md)

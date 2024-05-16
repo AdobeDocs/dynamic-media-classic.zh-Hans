@@ -10,7 +10,7 @@ role: User
 exl-id: 3c50e706-b9ed-49db-8c08-f179de52b9cf
 topic: Content Management
 level: Intermediate
-source-git-commit: 163eb32112ec6fbefd1dacf48212353ff3053d54
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '1604'
 ht-degree: 40%
@@ -70,8 +70,8 @@ Adobe Dynamic Media Classic包括100多个图像服务命令，用于调整和�
 
 可以使用两种图像锐化方法：
 
-* 简单锐化( `&op_sharpen`) — 与Photoshop中使用的锐化滤镜类似，简单锐化会在动态调整大小后对图像的最终视图应用基本锐化。 不过，用户无法配置这种方法。最佳做法是避免使用 `&op_sharpen` 除非有必要。
-* USM锐化( `&op_USM`) - USM锐化是一种用于锐化的行业标准滤镜。 最佳做法是按照以下准则使用 USM 锐化功能锐化图像。可以通过 USM 锐化控制以下三个参数：
+* 简单锐化( `&op_sharpen`)：与Photoshop中使用的锐化滤镜类似，简单锐化会在动态调整大小后对图像的最终视图应用基本锐化。 不过，用户无法配置这种方法。最佳做法是避免使用 `&op_sharpen` 除非有必要。
+* USM锐化( `&op_USM`)：USM锐化是一种用于锐化的行业标准滤镜。 最佳做法是按照以下准则使用 USM 锐化功能锐化图像。可以通过 USM 锐化控制以下三个参数：
 
    * `&op_sharpen=amount,radius,threshold`
 

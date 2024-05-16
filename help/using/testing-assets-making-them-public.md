@@ -10,10 +10,10 @@ role: User
 exl-id: fd78d535-391e-43eb-a8aa-25fa6c2885cb
 topic: Content Management
 level: Intermediate
-source-git-commit: 5b5dcd1199bd51ec987b5673fce75bc86baad55b
+source-git-commit: 29752cf9eca0fc9bb760c721e1c3dc8e4ef912c3
 workflow-type: tm+mt
-source-wordcount: '1060'
-ht-degree: 23%
+source-wordcount: '1061'
+ht-degree: 19%
 
 ---
 
@@ -26,8 +26,8 @@ ht-degree: 23%
 如有需要，请创建暂存环境，而不是公开资产，原因如下：
 
 * 在公开发布之前预览网站（临时网站）。
-* 提供要求限制访问的资源，如在 B2B Web 应用程序中显示价格的 eCatalog。
-* 将防火墙后的资源用作产品信息管理系统、客户服务应用程序、培训站点等的一部分。
+* 提供需要受限访问的资产，如在B2B Web应用程序中显示价格的eCatalog。
+* 使用防火墙后的资产作为产品信息管理系统、客户服务应用程序、培训站点等的一部分。
 
 >[!NOTE]
 >
@@ -47,7 +47,7 @@ ht-degree: 23%
 
 >[!NOTE]
 >
->Secure Testing Services使用配置了内部发布上下文的目录服务器。 因此，如果贵公司配置为发布到Secure Testing，则在Adobe Dynamic Media Classic中上传的所有资产都会立即在Secure Testing服务上可用。 不论资源是否标记为在上传时发布，此功能均为true。
+>Secure Testing Services使用配置了内部发布上下文的目录服务器。 因此，如果贵公司配置为发布到Secure Testing，则在Adobe Dynamic Media Classic中上传的所有资源都可以立即通过Secure Testing服务使用。 不论资源是否标记为在上传时发布，此功能均为true。
 
 安全测试服务当前支持以下资产类型和功能：
 
@@ -63,7 +63,7 @@ Last Modified Date:
 
 * 图像。
 * 晕影（渲染服务器请求）。
-* 渲染服务器请求（受支持，但必须由客户明确请求）。
+* 渲染服务器请求（受支持，但客户必须明确请求它）。
 * 集，包括图像集、eCatalog、渲染集和媒体集。
 * 标准Adobe Dynamic Media Classic富媒体查看器。
 * Adobe Dynamic Media Classic OnDemand JSP页。
@@ -84,11 +84,11 @@ Last Modified Date:
 
 ## 测试Secure Testing服务 {#testing-the-secure-testing-service}
 
-测试Secure Testing服务，确保该服务可按预期运行。
+测试Secure Testing服务，以确保该服务按预期运行。
 
 <!-- >[!NOTE]
 >
->*If you do not mention any IPs under **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Publish Setup]** > **[!UICONTROL Image Server]** > **[!UICONTROL Test Image Service]*** - If you add an IP only, that IP is able to call the assets and no other IP are allowed to make the calls. As long there is no IP mentioned under that section, all IPs are allowed to make the calls for the assets, and they show up. -->
+>*If you do not mention any IPs under **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Publish Setup]** > **[!UICONTROL Image Server]** > **[!UICONTROL Test Image Service]***: If you add an IP only, that IP is able to call the assets and no other IP are allowed to make the calls. As long there is no IP mentioned under that section, all IPs are allowed to make the calls for the assets, and they show up. -->
 
 ### 准备帐户
 
@@ -133,8 +133,8 @@ Last Modified Date:
 
 您需要两个网站变体，分别链接已发布和未发布的资源：
 
-* 公共版本 — 使用传统的Adobe Dynamic Media Classic URL语法链接资源。
-* 暂存版本 — 使用相同的语法但使用安全测试站点名称链接资产。
+* 公共版本：使用传统的Adobe Dynamic Media Classic URL语法链接资源。
+* 暂存版本：使用相同的语法但使用安全测试站点名称链接资产。
 
 ### 运行测试
 

@@ -10,7 +10,7 @@ role: User
 exl-id: c8d742a4-a1a1-4b5f-bcfd-6a1972edf9bc
 topic: Content Management
 level: Intermediate
-source-git-commit: edd893482cbafd9674a44cf9878b8ee3079d98f7
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '491'
 ht-degree: 19%
@@ -30,9 +30,9 @@ Adobe Dynamic Media Classic附带默认查看器预设。 管理员可以创建�
 1. 在全局导航栏上，转到 **[!UICONTROL 设置]** > **[!UICONTROL 查看器预设]**.
 1. 通过执行以下操作之一，在“查看器预设”页面上创建或编辑查看器预设：
 
-   * **创建**  — 选择 **[!UICONTROL 添加]**. 在添加查看器预设对话框的查看器下拉列表中，选择 **[!UICONTROL 缩放查看器]**，然后选择 **[!UICONTROL 添加]**. 您还可以从现有缩放查看器预设开始创建。 显示预设的名称，选择它，然后选择 **[!UICONTROL 编辑]**. 在 `Configure Viewer` 页面，为预设输入新名称。
+   * **创建**：选择 **[!UICONTROL 添加]**. 在添加查看器预设对话框的查看器下拉列表中，选择 **[!UICONTROL 缩放查看器]**，然后选择 **[!UICONTROL 添加]**. 您还可以从现有缩放查看器预设开始创建。 显示预设的名称，选择它，然后选择 **[!UICONTROL 编辑]**. 在 `Configure Viewer` 页面，为预设输入新名称。
 
-   * **编辑**  — 显示预设的名称，选择它，然后选择 **[!UICONTROL 编辑]**.
+   * **编辑**：显示预设的名称，选择它，然后选择 **[!UICONTROL 编辑]**.
 
 1. 在 `Configure Viewer` 页面，在预设名称文本字段中，键入样本集查看器预设的名称。
 1. 在中选择选项 `Configure Viewer` 页面。

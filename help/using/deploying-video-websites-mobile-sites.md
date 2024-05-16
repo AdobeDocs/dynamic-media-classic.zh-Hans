@@ -10,10 +10,10 @@ role: User
 exl-id: 3df22d48-edb5-4927-aefb-104b53f81f1a
 topic: Content Management
 level: Intermediate
-source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '1702'
-ht-degree: 30%
+ht-degree: 26%
 
 ---
 
@@ -31,9 +31,9 @@ ht-degree: 30%
 
 可以使用两种不同的方法发布视频：
 
-* **上传时自动即时发布视频**  — 作为视频上传过程的一部分，Adobe Dynamic Media Classic可以在视频上传和编码后自动发布视频。 立即发布功能意味着，无需事后单独发布视频。
+* **上传时自动即时发布视频**：在视频上传过程中，Adobe Dynamic Media Classic可以在上传和编码视频时自动发布视频。 立即发布功能意味着，无需事后单独发布视频。
 
-* **上传后手动发布视频**  — 如果不希望立即发布视频，您可以随时手动发布视频。
+* **上传后手动发布视频**：如果您不想立即发布视频，则可以随时手动发布视频。
 
 发布视频后，Adobe Dynamic Media Classic会激活HTML页面或应用程序代码的URL字符串。
 
@@ -46,7 +46,7 @@ ht-degree: 30%
 
 ## 将视频URL链接到移动网站或网站 {#linking-a-video-url-to-a-mobile-site-or-a-website}
 
-发布视频时，您可以获取其关联的URL，以在网站、移动网站或桌面应用程序中使用。 如果要在网页顶部的弹出或模式窗口中显示视频，请使用视频 URL。
+发布视频时，您可以获取其关联的URL，以在网站、移动网站或桌面应用程序中使用。 当您想要在网页顶部的弹出窗口或模式窗口中显示视频时，请使用视频URL。
 
 当客户选择链路时，将自动检测其设备、带宽和屏幕大小。 在桌面的预定义查看器中会显示适当的视频进行播放，智能手机和平板电脑在移动设备的本地视频播放器中播放。
 
@@ -75,7 +75,7 @@ ht-degree: 30%
 
 ## 在网页上嵌入视频查看器 {#embedding-the-video-viewer-on-a-web-page}
 
-如果要播放网页中嵌入的视频，请使用嵌入代码功能。可以将嵌入代码复制到剪贴板中，以便将其粘贴到网页中。在“嵌入代码”对话框中不允许编辑代码。
+当您想要播放嵌入到网页中的视频时，请使用嵌入代码功能。 将嵌入代码复制到剪贴板，以便将其粘贴到网页中。 在“嵌入代码”对话框中不允许编辑代码。
 
 另请参阅 [将视频URL链接到移动网站或网站](deploying-video-websites-mobile-sites.md#linking_a_video_url_to_a_mobile_site_or_a_website).
 
@@ -103,7 +103,7 @@ ht-degree: 30%
    在“嵌入代码”对话框中不允许编辑代码。
 
 1. 选择 **[!UICONTROL 关闭]**.
-1. 在网页中粘贴嵌入代码。
+1. 将嵌入代码粘贴到网页中。
 
 ### 实施嵌入代码以便将HTML5视频与MP4视频资源结合使用 {#implementing-embed-code-for-using-html-video-with-mp-video-assets}
 

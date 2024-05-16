@@ -10,7 +10,7 @@ role: User
 exl-id: 35e8e7fc-5b3c-441a-959c-df2e39ea0d4b
 topic: Content Management
 level: Intermediate
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '958'
 ht-degree: 44%
@@ -92,13 +92,13 @@ ht-degree: 44%
 1. 选择旋转集的变换图像 **[!UICONTROL 编辑]** 按钮。
 1. 执行任何以下操作：
 
-   * **删除图像**  — 选择图像，然后选择 **[!UICONTROL 删除]**.
+   * **删除图像**：选择图像，然后选择 **[!UICONTROL 删除]**.
 
-   * **添加图像**  — 将图像拖动到单元格中。
+   * **添加图像**：将图像拖动到单元格中。
 
-   * **重新排列行（二维旋转集）**  — 选择一个行选择器框（位于行的左侧），然后选择 **[!UICONTROL 下移行]** 或 **[!UICONTROL 上移行]**.
+   * **重新排列行（二维旋转集）**：选中行选择器框（位于行的左侧），然后选择 **[!UICONTROL 下移行]** 或 **[!UICONTROL 上移行]**.
 
-   * **添加行和单元格**  — 在“行”框和“单元格”框中输入一个数字，以确定每行的行数和单元格数。
+   * **添加行和单元格**：在“行”框和“单元格”框中输入一个数字，以确定每行的行数和单元格数。
 
 1. 在完成编辑后，确保在页面右下角附近选择了“**[!UICONTROL 保存后发布]**”（默认）。
 1. 选择 **[!UICONTROL 保存]**，选择一个存储文件夹，输入集的名称，然后选择 **[!UICONTROL 保存]**.

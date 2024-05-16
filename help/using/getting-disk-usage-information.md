@@ -9,7 +9,7 @@ role: Admin,User
 exl-id: 337a4681-ac9a-40d9-82e8-1999bbed980c
 topic: Administration, Content Management
 level: Intermediate
-source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '91'
 ht-degree: 42%
@@ -31,7 +31,7 @@ https://s7ugc1.scene7.com/ugc/image?op=disk_info&shared_secret=d03b7e0b-c9dc-4c6
 <scene7> 
     <user_generated_content> 
         <response> 
-            <serviceName>User Generated Content - Images</serviceName> 
+            <serviceName>User Generated Content: Images</serviceName> 
             <version>1.0.0</version> 
             <operationName>disk_info</operationName> 
             <serviceStatus>SUCCESS</serviceStatus> 

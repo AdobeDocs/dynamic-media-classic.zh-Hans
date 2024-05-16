@@ -10,16 +10,16 @@ role: User
 exl-id: 74cf0346-be79-4916-8a98-16865c3ba3de
 topic: Content Management
 level: Intermediate
-source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '153'
-ht-degree: 9%
+ht-degree: 0%
 
 ---
 
 # 发布缩放图像{#publishing-zoom-images}
 
-发布操作会将缩放图像置于Dynamic Media图像服务器上，以便这些图像可用于您的网站和应用程序。 在发布过程中，Adobe Dynamic Media Classic会激活URL字符串。 可以将这些 URL 字符串放在网站的 HTML 代码中。
+发布操作会将缩放图像置于Dynamic Media图像服务器上，以便这些图像可用于您的网站和应用程序。 在发布过程中，Adobe Dynamic Media Classic会激活URL字符串。 您可以将这些URL字符串放置在网站的HTML代码中。
 
 ## 将图像标记为发布 {#marking-images-for-publish}
 

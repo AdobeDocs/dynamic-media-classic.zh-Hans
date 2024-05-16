@@ -10,16 +10,16 @@ role: User
 exl-id: 8bb1c744-270a-4752-b163-443708fca6c2
 topic: Content Management
 level: Intermediate
-source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '683'
-ht-degree: 31%
+ht-degree: 24%
 
 ---
 
 # 将样本集链接到网页{#linking-a-swatch-set-to-a-web-page}
 
-发布样本集后，您可以在网站或应用程序中使用其关联的URL或嵌入代码。 然后，可以根据需要部署该 URL 或嵌入代码，以便用户可以在您的网站或应用程序上查看样本集。
+发布样本集后，您可以在网站或应用程序中使用其关联的URL或嵌入代码。 然后，您可以根据需要部署URL或嵌入代码，以便用户可以在您的网站或应用程序上查看样本集。
 
 >[!NOTE]
 >
@@ -52,7 +52,7 @@ ht-degree: 31%
 
 ## 复制样本集查看器的嵌入代码 {#copying-the-embed-code-of-a-swatch-set-viewer}
 
-使用嵌入代码功能，您可以查看用于所选样本集的查看器代码。您也可以将代码复制到剪贴板中，以便可以将其粘贴到网页中以部署查看器。在“嵌入代码”对话框中不允许编辑代码。
+使用嵌入代码功能，您可以查看用于所选样本集的查看器代码。您还可以将代码复制到剪贴板，以便将其粘贴到网页中用于部署查看器。 在“嵌入代码”对话框中不允许编辑代码。
 
 **复制样本集查看器的嵌入代码：**
 

@@ -10,7 +10,7 @@ role: User
 exl-id: 51d411b2-b4bc-4cf6-afca-dd0ed0d219a1
 topic: Integrations, Development
 level: Experienced
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '976'
 ht-degree: 44%
@@ -38,9 +38,9 @@ ht-degree: 44%
 
 1. 采用以下方法之一开始创建 eCatalog：
 
-   * **首先选择文件**  — 在浏览面板中，选择文件，然后转到 **[!UICONTROL 生成]** > **[!UICONTROL eCatalogs]**.
+   * **首先选择文件**：在浏览面板中，选择文件，然后转到 **[!UICONTROL 生成]** > **[!UICONTROL eCatalogs]**.
 
-   * **从eCatalog屏幕开始**  — 转到 **[!UICONTROL 生成]** > **[!UICONTROL eCatalogs]**. 在资源库中选择一个文件夹，将该文件夹中的文件拖到 eCatalog 页面的“排序页面”选项卡中。
+   * **从eCatalog屏幕开始**：转到 **[!UICONTROL 生成]** > **[!UICONTROL eCatalogs]**. 在资源库中选择一个文件夹，将该文件夹中的文件拖到 eCatalog 页面的“排序页面”选项卡中。
 
      >[!NOTE]
      >
@@ -50,11 +50,11 @@ ht-degree: 44%
 1. （可选）通过选择单个页面或跨页并选择它们来更改其布局 **[!UICONTROL 单页]**， **[!UICONTROL 2页]**，或 **[!UICONTROL 自定义]** 按钮。 在 **[!UICONTROL 更改eCatalog布局]** 对话框中，选择 **[!UICONTROL 选定的跨页]** 选项并选择 **[!UICONTROL 确定]**.
 1. 根据需要采用以下方法之一重新排序页面：
 
-   * **拖动**  — 将页面或跨页拖动到新位置。 垂直栏显示要移动的页面的位置。
+   * **拖动**：将页面或跨页拖动到新位置。 垂直栏显示要移动的页面的位置。
 
-   * **“移至”按钮**  — 选择页面或跨页，选择 **[!UICONTROL 移动到]**，然后在菜单中选择您希望页面在前面显示的页面。
+   * **“移至”按钮**：选择页面或跨页，选择 **[!UICONTROL 移动到]**，然后在菜单中选择您希望页面在前面显示的页面。
 
-   * **序列号**  — 在列表视图中，在Sequence #字段中输入页码。
+   * **序列号**：在列表视图中，在序号字段中输入页码。
 
 1. 完成后，确保在页面右下角附近选择了“**[!UICONTROL 保存后发布]**”（默认）。
 1. 选择 **[!UICONTROL 保存]**.

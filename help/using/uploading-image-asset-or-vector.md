@@ -9,7 +9,7 @@ role: User
 exl-id: 2ef78fe6-1e7c-4f48-86da-137ddaa55bbf
 topic: Content Management
 level: Intermediate
-source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '1010'
 ht-degree: 54%
@@ -59,7 +59,7 @@ https://s7ugc1.scene7.com/ugc/image?op=get_uploadtoken&shared_secret=fece4b21-87
 <scene7> 
     <user_generated_content> 
         <response> 
-        <serviceName>User Generated Content - Images</serviceName> 
+        <serviceName>User Generated Content: Images</serviceName> 
         <version>1.0.0</version> 
         <operationName>get_uploadtoken</operationName> 
         <serviceStatus>SUCCESS</serviceStatus> 
@@ -151,7 +151,7 @@ https://s7ugc1.scene7.com/ugc/image?op=upload&upload_token=aa2a378a-cd25-4c80-99
 <scene7> 
     <user_generated_content> 
         <response> 
-            <serviceName>User Generated Content - Images</serviceName> 
+            <serviceName>User Generated Content: Images</serviceName> 
             <version>1.0.0</version> 
             <operationName>upload</operationName> 
             <serviceStatus>SUCCESS</serviceStatus> 
@@ -215,7 +215,7 @@ https://s7ugc1.scene7.com/ugc/image?op=image_info&shared_secret=fece4b21-87ee-47
 <scene7> 
     <user_generated_content> 
         <response> 
-            <serviceName>User Generated Content - Images</serviceName> 
+            <serviceName>User Generated Content: Images</serviceName> 
             <version>1.0.0</version> 
             <operationName>image_info</operationName> 
             <serviceStatus>SUCCESS</serviceStatus> 

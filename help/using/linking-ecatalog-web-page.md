@@ -10,16 +10,16 @@ role: User
 exl-id: aee72576-1e3e-401c-953d-cc2be27f7dfd
 topic: Integrations, Development
 level: Experienced
-source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '672'
-ht-degree: 38%
+ht-degree: 30%
 
 ---
 
 # 将eCatalog链接到网页{#linking-an-ecatalog-to-a-web-page}
 
-您的网站和应用程序通过URL字符串或嵌入代码访问Dynamic Media Image Server内容，包括eCatalog。 这些 URL 字符串在发布过程中被激活。要将eCatalog的URL字符串或嵌入代码放置在网页和应用程序中，请从Adobe Dynamic Media Classic复制它。
+您的网站和应用程序通过URL字符串或嵌入代码访问Dynamic Media图像服务器内容，包括eCatalog。 这些 URL 字符串在发布过程中被激活。要将eCatalog的URL字符串或嵌入代码置于网页和应用程序中，请从Adobe Dynamic Media Classic复制该字符串或嵌入代码。
 
 >[!NOTE]
 >
@@ -46,13 +46,13 @@ ht-degree: 38%
 
 ## 将eCatalog URL添加到网页 {#adding-ecatalog-urls-to-your-web-page}
 
-部署 eCatalog 的最常用方法是在网页上放入一个 eCatalog 缩略图封面形式的链接。与 IT 团队合作，以确保在一个居中弹出的空白窗口中启动 eCatalog。请您的 IT 团队协助在浏览器中不显示工具栏和地址栏。
+部署eCatalog的最常见方法是在网页上以eCatalog缩略图封面页的形式放置链接。 与 IT 团队合作，以确保在一个居中弹出的空白窗口中启动 eCatalog。请您的 IT 团队协助在浏览器中不显示工具栏和地址栏。
 
 有关更多详细信息和代码示例，请参阅 [Adobe查看器参考指南中的嵌入HTML5 eCatalog查看器](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/ecatalog/c-html5-20-ecatalog-viewer-about#section-e1c3106f5b3e445d9b95be337c2f94e2).
 
 ## 复制eCatalog查看器的嵌入代码 {#copying-the-embed-code-of-an-ecatalog-viewer}
 
-使用嵌入代码功能，您可以查看用于所选 eCatalog 的查看器代码。 您也可以将代码复制到剪贴板中，以便可以将其粘贴到网页中以部署查看器。在“嵌入代码”对话框中不允许编辑代码。
+使用嵌入代码功能，您可以查看用于所选 eCatalog 的查看器代码。 您还可以将代码复制到剪贴板，以便将其粘贴到网页中用于部署查看器。 在“嵌入代码”对话框中不允许编辑代码。
 
 **复制eCatalog查看器的嵌入代码：**
 

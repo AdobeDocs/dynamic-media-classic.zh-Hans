@@ -10,7 +10,7 @@ role: Admin,User
 exl-id: 8d70db72-b02b-4915-b4c3-6efb146b7f08
 topic: Content Management
 level: Intermediate
-source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '219'
 ht-degree: 7%
@@ -23,9 +23,9 @@ ht-degree: 7%
 
 在使用Adobe Dynamic Media Classic桌面应用程序之前，请确保您具备以下条件：
 
-* **用户名**  — 使用电子邮件地址作为登录名。
+* **用户名**：使用电子邮件地址作为登录名。
 
-* **密码**  — 您通过Adobe Dynamic Media Classic或Adobe Dynamic Media Classic管理员提供的“欢迎”电子邮件获取临时密码。 您第一次登录时，会提示您更改此临时密码。
+* **密码**：您可以从Adobe Dynamic Media Classic或Adobe Dynamic Media Classic管理员通过“欢迎”电子邮件获取临时密码。 您第一次登录时，会提示您更改此临时密码。
 
 1. 打开Adobe Dynamic Media Classic桌面应用程序。
 

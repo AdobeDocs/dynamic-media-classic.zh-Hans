@@ -10,16 +10,16 @@ role: User
 exl-id: 76a7530c-0cc7-4a7f-bc31-2950c4946871
 topic: Content Management
 level: Intermediate
-source-git-commit: faa1784e1d19b1167cad5749dc04227e3ff388e5
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '653'
-ht-degree: 43%
+ht-degree: 30%
 
 ---
 
 # 将混合媒体集链接到网页{#linking-a-mixed-media-set-to-a-web-page}
 
-发布混合媒体集后，您可以获取其关联的URL，以在网站或应用程序中使用。 然后可以根据需要部署 URL，以便用户能够在您的网站或应用程序中查看混合媒体集。
+发布混合媒体集后，您可以获取其关联的URL，以在网站或应用程序中使用。 然后，您可以根据需要部署URL，以便用户可以在您的网站或应用程序上查看混合媒体集。
 
 ## 获得混合媒体集 URL {#obtain-a-mixed-media-set-url}
 
@@ -40,15 +40,15 @@ ht-degree: 43%
 
      在“查看器列表”页的表的“操作”列下，选择 **[!UICONTROL 复制URL]**.
 
-## 将混合媒体集 URL 添加到网页中 {#add-mixed-media-set-urls-to-your-web-page}
+## 将混合媒体集URL添加到网页 {#add-mixed-media-set-urls-to-your-web-page}
 
-部署混合媒体集的最常见方式是在网页上放置链接（通过导航图标）。 选中后，该链接将启动一个动态页面（ASP或JSP），该页面在混合媒体集查看器中显示混合媒体集。
+部署混合媒体集的最常见方法是在网页上放置链接（通过导航图标）。 选中后，该链接将启动一个动态页面（ASP或JSP），该页面在混合媒体集查看器中显示混合媒体集。
 
 ## 复制混合媒体集查看器的嵌入代码 {#copying-the-embed-code-of-a-mixed-media-set-viewer}
 
-使用嵌入代码功能，您可以查看用于所选混合媒体集的查看器代码。您也可以将代码复制到剪贴板中，以便可以将其粘贴到网页中以部署查看器。在“嵌入代码”对话框中不允许编辑代码。
+使用嵌入代码功能，您可以查看用于所选混合媒体集的查看器代码。您还可以将代码复制到剪贴板，以便将其粘贴到网页中用于部署查看器。 在“嵌入代码”对话框中不允许编辑代码。
 
-**复制混合媒体集查看器的嵌入代码:**
+**要复制混合媒体集查看器的嵌入代码，请执行以下操作：**
 
 1. 在资产浏览面板的显示下拉列表中，选择 **[!UICONTROL 混合媒体集]**.
 1. 在左侧的“资源库”面板中，导航至要复制其嵌入代码的混合媒体集所在的资源文件夹。
@@ -75,4 +75,4 @@ ht-degree: 43%
 
 >[!MORELIKETHIS]
 >
->* [发布](publishing-files.md#publishing_files)
+>* [Publish](publishing-files.md#publishing_files)

@@ -10,7 +10,7 @@ role: Admin,User
 exl-id: 0deb7133-b895-4c3f-8e5e-8604a6f2d16b
 topic: Administration, Collaboration
 level: Intermediate
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '839'
 ht-degree: 52%
@@ -98,6 +98,6 @@ ht-degree: 52%
 1. 转到 **[!UICONTROL 设置]** > **[!UICONTROL Media Portal设置]** > **[!UICONTROL 组]**.
 1. 在“组列表”页面上，选择一个组，然后进行编辑或删除。
 
-   **编辑组**  — 选择 **[!UICONTROL 编辑]**，然后在“编辑组”对话框中选择选项。
+   **编辑组**：选择 **[!UICONTROL 编辑]**，然后在“编辑组”对话框中选择选项。
 
-   **删除组**  — 选择 **[!UICONTROL 删除]**.
+   **删除组**：选择 **[!UICONTROL 删除]**.

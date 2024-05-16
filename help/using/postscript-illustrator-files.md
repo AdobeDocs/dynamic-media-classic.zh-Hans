@@ -10,7 +10,7 @@ role: User
 exl-id: 08f14fe9-3e3b-4235-a6c5-b6b6d2ffc4bd
 topic: Integrations, Development
 level: Experienced
-source-git-commit: 914fde11270dc731a261da3305b29dd573584d93
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '215'
 ht-degree: 36%
@@ -23,18 +23,18 @@ ht-degree: 36%
 
 上载 PostScript (EPS) 或 Illustrator (AI) 图像文件时，您可以通过各种方法对它们进行格式化。您可以栅格化文件、将文件转换为 FXG 以便进行模板发布、保持透明背景、选择分辨率以及选择颜色空间。用于格式化 PostScript 和 Illustrator 文件的选项位于“上载”屏幕上“PostScript 选项”和“Illustrator 选项”下方的“上载作业选项”框中。
 
-* **[!UICONTROL 正在处理]**  — 选择 **[!UICONTROL 栅格化]** 将文件中的矢量图形转换为位图格式。
+* **[!UICONTROL 正在处理]**：选择 **[!UICONTROL 栅格化]** 将文件中的矢量图形转换为位图格式。
 
-* **[!UICONTROL 在渲染的图像中保持透明背景]**  — 保持文件的背景透明度。
+* **[!UICONTROL 在渲染的图像中保持透明背景]**：保持文件的背景透明度。
 
-* **[!UICONTROL 分辨率]**  — 确定分辨率设置。 此设置确定在文件中每英寸显示的像素数。
+* **[!UICONTROL 分辨率]**：确定分辨率设置。 此设置确定在文件中每英寸显示的像素数。
 
-* **[!UICONTROL 色彩空间]**  — 选择 **[!UICONTROL 色彩空间]** 菜单并选择颜色空间：
+* **[!UICONTROL 色彩空间]**：选择 **[!UICONTROL 色彩空间]** 菜单并选择颜色空间：
 
-   * **[!UICONTROL 自动检测]**  — 保留文件的颜色空间。
+   * **[!UICONTROL 自动检测]**：保留文件的颜色空间。
 
-   * **[!UICONTROL 强制作为RGB]**  — 转换为RGB色彩空间。
+   * **[!UICONTROL 强制作为RGB]**：转换为RGB色彩空间。
 
-   * **[!UICONTROL 强制为CMYK]**  — 转换为CMYK颜色空间。
+   * **[!UICONTROL 强制为CMYK]**：转换为CMYK颜色空间。
 
-   * **[!UICONTROL 强制为灰度]**  — 转换为灰度颜色空间。
+   * **[!UICONTROL 强制为灰度]**：转换为灰度颜色空间。

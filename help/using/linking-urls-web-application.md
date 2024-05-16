@@ -10,16 +10,16 @@ role: User
 exl-id: ca629427-da33-4bab-9d08-6d9368042f7e
 topic: Administration, Content Management, Development
 level: Intermediate
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '843'
-ht-degree: 27%
+ht-degree: 26%
 
 ---
 
 # 将URL链接到您的Web应用程序{#linking-urls-to-your-web-application}
 
-您的网站和应用程序通过URL字符串访问Dynamic Media Image Server内容。 发布图像后，Adobe Dynamic Media Classic会激活一个引用Dynamic Media图像服务器上的图像预设的URL字符串。 可将这些 URL 粘贴至 Web 浏览器进行测试。
+您的网站和应用程序通过URL字符串访问Dynamic Media图像服务器内容。 发布图像后，Adobe Dynamic Media Classic会激活一个引用Dynamic Media图像服务器上的图像预设的URL字符串。 您可以将这些URL粘贴到Web浏览器中进行测试。
 
 要将这些URL字符串放置在网页和应用程序中，请从Adobe Dynamic Media Classic复制它们。 要获取使用图像预设生成的URL字符串，请转到“预览”屏幕或“浏览”面板（在“详细信息”视图中）。
 

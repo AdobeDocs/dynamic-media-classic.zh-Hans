@@ -10,7 +10,7 @@ role: User
 exl-id: cffeec19-43fd-4a97-bdcc-df81af108ddd
 topic: Content Management
 level: Intermediate
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '553'
 ht-degree: 30%
@@ -53,9 +53,9 @@ ht-degree: 30%
 
 要从垃圾桶文件夹中永久删除资源，请选择 **[!UICONTROL 垃圾桶]** 图标。 在“垃圾桶”文件夹页面上，执行以下任一操作：
 
-* **删除单个资产**  — 选择要永久删除的资源，然后转到 **[!UICONTROL 文件]** > **[!UICONTROL 从垃圾桶中删除]**.
+* **删除单个资产**：选择要永久删除的资源，然后转到 **[!UICONTROL 文件]** > **[!UICONTROL 从垃圾桶中删除]**.
 
-* **删除所有资源**  — 转到 **[!UICONTROL 文件]** > **[!UICONTROL 清空垃圾桶]**.
+* **删除所有资源**：转到 **[!UICONTROL 文件]** > **[!UICONTROL 清空垃圾桶]**.
 
 >[!MORELIKETHIS]
 >

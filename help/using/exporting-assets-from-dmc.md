@@ -10,10 +10,10 @@ role: User
 exl-id: 5e3b0002-5ae2-4437-862f-caa098b04362
 topic: Content Management
 level: Intermediate
-source-git-commit: edd893482cbafd9674a44cf9878b8ee3079d98f7
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '437'
-ht-degree: 40%
+ht-degree: 38%
 
 ---
 
@@ -30,30 +30,30 @@ Adobe Dynamic Media Classic会保留“作业”屏幕中导出作业的记录�
 1. 选择要导出的资源，然后转到 **[!UICONTROL 文件]** > **[!UICONTROL 导出]**.
 1. 在“导出所选资源”窗口中，单击“**[!UICONTROL 图像选项]**”，然后指定以下任一选项（管理员可确定哪些选项对用户可用）：
 
-   * **[!UICONTROL 预设]**  — （可选）选择一个图像预设，以便在导出资产时设置资产的格式。 如果选择了图像预设，其他格式选项将不可用，因为资源会采用由图像预设定义的格式。
+   * **[!UICONTROL 预设]**：（可选）选择图像预设，以便在导出资产时设置资产的格式。 如果选择了图像预设，其他格式选项将不可用，因为资源会采用由图像预设定义的格式。
 
-   * **[!UICONTROL 转化]**  — 转换资源文件或原始图像。
+   * **[!UICONTROL 转化]**：转换资源文件或原始图像。
 
-   * **[!UICONTROL 大小]**  — 您可以选择标准大小。 或者，您可以选择 **[!UICONTROL 其他]** 从 **[!UICONTROL 大小]** 从下拉列表中，选择所需的度量单位，然后指定宽度和高度。
+   * **[!UICONTROL 大小]**：您可以选择标准大小。 或者，您可以选择 **[!UICONTROL 其他]** 从 **[!UICONTROL 大小]** 从下拉列表中，选择所需的度量单位，然后指定宽度和高度。
 
      另请参阅 [指定Media Portal用户可用的导出选项](specifying-export-options-available-media.md#specifying_export_options_available_to_media_portal_users).
 
-   * **[!UICONTROL 格式]**  — 选择图像格式。
+   * **[!UICONTROL 格式]**：选择图像格式。
 
-   * **[!UICONTROL 颜色]**  — 选择“RGB”、“CMYK”或“灰色”。
+   * **[!UICONTROL 颜色]**：选择“RGB”、“CMYK”或“灰色”。
 
-   * **[!UICONTROL 分辨率]**  — 选择72 ppi、150 ppi或300 ppi。
+   * **[!UICONTROL 分辨率]**：选择72 ppi、150 ppi或300 ppi。
 
-   * **[!UICONTROL 作业名称]**  — 可以为导出分配作业名称。
+   * **[!UICONTROL 作业名称]**：您可以为导出分配作业名称。
 
-   * **[!UICONTROL 发送电子邮件至]**  — 可选。 如果打算通过电子邮件发送资产，请输入电子邮件地址。 电子邮件会列出收件人可从中下载资源的 URL。
+   * **[!UICONTROL 发送电子邮件至]**：可选。 如果打算通过电子邮件发送资产，请输入电子邮件地址。 电子邮件会列出收件人可从中下载资源的 URL。
 
 1. 选择 **[!UICONTROL 导出]**.
 
 系统支持以下三种基本导出操作：
 
 * 原始文件（导出资源的原始文件）
-* 使用预设转换（使用图像预调为资源设置格式）
+* 使用预设进行转换（使用图像预设设置资产的格式）
 * 无预设转换（使用导出对话框来指定图像修饰符）
 
 无法导出下列资源类型。其他所有规则均生成导出。

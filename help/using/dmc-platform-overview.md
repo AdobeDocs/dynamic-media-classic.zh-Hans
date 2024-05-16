@@ -10,7 +10,7 @@ role: Admin,User
 exl-id: ac50cb9c-fd87-4608-80cb-8d40a0b8f131
 topic: Administration
 level: Beginner
-source-git-commit: edd893482cbafd9674a44cf9878b8ee3079d98f7
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '477'
 ht-degree: 12%
@@ -27,13 +27,13 @@ Adobe Dynamic Media Classic是一个集成的富媒体管理、发布和服务�
 
 Adobe Dynamic Media Classic工作流的关键步骤包括：
 
-* **上传和管理您的资源**  — 将您的媒体资源上传到Adobe Dynamic Media Classic。 您可以组织、浏览和搜索系统上的资源，您还可以将元数据应用到资源。
+* **上传和管理您的资源**：将您的媒体资源上传到Adobe Dynamic Media Classic。 您可以组织、浏览和搜索系统上的资源，您还可以将元数据应用到资源。
 
-* **创建富媒体**  — 创建资产的不同配置，如eCatalog、图像集、旋转集、样本集、混合媒体集、基本模板和FXG模板。
+* **创建富媒体**：创建资产的不同配置，如eCatalog、图像集、旋转集、样本集、混合媒体集、基本模板和FXG模板。
 
-* **发布和管理**  — 将资源发布到Adobe Dynamic Media Classic SaaS网络。 在发布资产时监控资产的状态。 管理用户权限并保持安全性。
+* **发布和管理**：将资源发布到Adobe Dynamic Media Classic SaaS网络。 在发布资产时监控资产的状态。 管理用户权限并保持安全性。
 
-* **服务**  — 将媒体从Adobe Dynamic Media Classic SaaS网络交付到网页、应用程序和移动设备；媒体已优化性能，并带有CDN缓存进行交付。 Adobe Dynamic Media Classic会为您提供每个资源的URL。 在您发布资源之后，URL 即处于活动状态。
+* **服务**：将媒体从Adobe Dynamic Media Classic SaaS网络交付到网页、应用程序和移动设备；媒体已优化性能，并随CDN缓存一起交付。 Adobe Dynamic Media Classic会为您提供每个资源的URL。 在您发布资源之后，URL 即处于活动状态。
 
 ![Adobe Dynamic Media Classic工作流过程](/help/using/assets/gs_workflow.png)
 

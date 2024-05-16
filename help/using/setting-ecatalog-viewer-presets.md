@@ -9,7 +9,7 @@ role: User
 exl-id: 4357e6b8-fbc5-4e93-9476-db92a7dc7464
 topic: Integrations, Development
 level: Experienced
-source-git-commit: 5b5dcd1199bd51ec987b5673fce75bc86baad55b
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '482'
 ht-degree: 25%
@@ -29,9 +29,9 @@ eCatalog查看器预设提供了许多设置，可用于在页面之间切换、
 1. 在全局导航栏上，转到 **[!UICONTROL 设置]** > **[!UICONTROL 查看器预设]**.
 1. 在“查看器预设”屏幕上，重新开始或从现有的 eCatalog 查看器预设开始创建 eCatalog 查看器预设：
 
-   * **创建eCatalog查看器预设**  — 选择 **[!UICONTROL 添加]**. 在“添加查看器预设”对话框中，选择一个平台，选择“eCatalog查看器”，然后选择 **[!UICONTROL 添加]**.
+   * **创建eCatalog查看器预设**：选择 **[!UICONTROL 添加]**. 在“添加查看器预设”对话框中，选择一个平台，选择“eCatalog查看器”，然后选择 **[!UICONTROL 添加]**.
 
-   * **编辑eCatalog查看器预设**  — 选择eCatalog查看器预设，然后选择 **[!UICONTROL 编辑]**. 选择 **[!UICONTROL 另存为]** 完成预设创建之后。
+   * **编辑eCatalog查看器预设**：选择eCatalog查看器预设，然后选择 **[!UICONTROL 编辑]**. 选择 **[!UICONTROL 另存为]** 完成预设创建之后。
 
 1. 在 `Configure Viewer` 页面，输入eCatalog查看器预设的名称。
 1. 在 `Configure Viewer` 页面上，设置所需的选项。

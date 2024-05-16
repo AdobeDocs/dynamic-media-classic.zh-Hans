@@ -10,16 +10,16 @@ role: User
 exl-id: 9e2df814-465d-412a-a032-ef3e8cb462ba
 topic: Integrations
 level: Experienced
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '1470'
-ht-degree: 33%
+ht-degree: 27%
 
 ---
 
 # 快速入门：eCatalogs{#quick-start-ecatalogs}
 
-eCatalog 是数字网络版本的印刷材料，例如目录、小册子、传单、产品手册或广告传单。eCatalog 显示在网站的 eCatalog 查看器中。此查看器可模拟阅读印刷材料的体验。
+eCatalog是印刷材料的数字Web版本 — 例如，目录、小册子、传单、产品手册或广告通告。 eCatalog显示在网站上的eCatalog查看器中。 此查看器可模拟阅读印刷材料的体验。
 
 另请观看以下培训视频：
 
@@ -48,7 +48,7 @@ eCatalog 是数字网络版本的印刷材料，例如目录、小册子、传�
 
 >[!NOTE]
 >
->如果您是Dynamic Media - Scene7模式用户，并且要使用eCatalogs，请编辑 `pdfbrochure` CRXDE Lite值。 为此，请在Adobe Experience Manager中，转到 **[!UICONTROL 工具]** > **[!UICONTROL 常规]** > **[!UICONTROL CRXDE Lite]**. 在左侧面板导航树中，导航到 `/conf/global/settings/cloudconfigs/dmscene7/jcr:content/mimeTypes/application_pdf`.
+>如果您是Dynamic Media：Scene7模式用户，并且要使用eCatalogs，请编辑 `pdfbrochure` CRXDE Lite值。 为此，请在Adobe Experience Manager中，转到 **[!UICONTROL 工具]** > **[!UICONTROL 常规]** > **[!UICONTROL CRXDE Lite]**. 在左侧面板导航树中，导航到 `/conf/global/settings/cloudconfigs/dmscene7/jcr:content/mimeTypes/application_pdf`.
 >
 >在右下窗格的 **[!UICONTROL 属性]** 选项卡，选择 `jobParam` 行。 设置值 `pdfbrochure` 从 `false` 到 `true`. 如所示 `pdfbrochure=true`
 >
@@ -82,7 +82,7 @@ eCatalog 通常由 Adobe PDF 文件生成。由于 PDF 文件要用于印刷，�
 
 ## 3.创建图像映射
 
-图像映射为eCatalog页面添加了其他方面。 图像映射是页面上的一个区域，可提供关于某个物品的更多信息。当观众在“图像映射”上滚动鼠标指针时，他们会看到物品的说明。单击“图像映射”会激活一个外部引用，该引用打开一个新的网页，您可以从中了解关于某个物品的更多信息。
+图像映射为eCatalog页面添加了其他方面。 图像映射是页面上的一个区域，可提供关于某个物品的更多信息。当观众在“图像映射”上滚动鼠标指针时，他们会看到物品的说明。单击图像映射可激活外部引用，该引用会打开一个新网页，您可以在其中了解有关项目的更多信息。
 
 要创建图像映射，打开 eCatalog 屏幕。然后转到 **[!UICONTROL 映射页面]** 选项卡，并使用“矩形图像映射”工具或“多边形图像映射”工具将映射框架化。 可以使用“平移”工具拖动映射边框，调整图像映射的位置和大小。
 
@@ -116,7 +116,7 @@ eCatalog 查看器预设决定了 eCatalog 查看器的样式和行为。
 
 ## 6.发布eCatalog和相关PDF
 
-发布eCatalog和相关的PDF会将其放在Dynamic Media图像服务器上，以便可以将其交付到您的网站和应用程序。 在发布过程中，Adobe Dynamic Media Classic会激活eCatalog的URL字符串。 使用此URL可以将Dynamic Media图像服务器中的eCatalog调用到您的网站或应用程序。
+发布eCatalog和相关的PDF会将其放在Dynamic Media图像服务器上，以便可以将其交付到您的网站和应用程序。 在发布过程中，Adobe Dynamic Media Classic会激活eCatalog的URL字符串。 使用此URL可从Dynamic Media图像服务器向您的网站或应用程序调用eCatalog。
 
 在“浏览”面板中将eCatalog和PDF标记为发布后，选择全局导航栏上的“发布”按钮以启动发布。 在发布页面上，选择 **[!UICONTROL 提交发布]**.
 
@@ -124,8 +124,8 @@ eCatalog 查看器预设决定了 eCatalog 查看器的样式和行为。
 
 ## 7.将eCatalog链接到网页
 
-在将eCatalog发布到Adobe Dynamic Media Classic图像服务器时，Dynamic Media会激活显示它所需的URL标注字符串。 您可以通过在“预览”屏幕和“浏览”面板（在“详细信息”视图中）中选择URL，来复制此URL字符串。 复制 URL 字符串之后，该 URL 便可用于您的网站和应用程序。
+在将eCatalog发布到Adobe Dynamic Media Classic图像服务器时，Dynamic Media会激活显示它所需的URL标注字符串。 您可以通过在“预览”屏幕和“浏览”面板（在“详细信息”视图中）中选择URL，来复制此URL字符串。 复制URL字符串后，您的网站和应用程序即可使用该字符串。
 
-与您的 IT 团队合作，将 eCatalog 链接放在网页中的合适位置。当用户选择该链接时，会显示eCatalog查看器，用户可以浏览您的eCatalog。
+与您的IT团队合作，将指向eCatalog的链接放置在网页中的适当位置。 当用户选择该链接时，会显示eCatalog查看器，用户可以浏览您的eCatalog。
 
 请参阅 [将eCatalog链接到网页](linking-ecatalog-web-page.md#linking-an-ecatalog-to-a-web-page).

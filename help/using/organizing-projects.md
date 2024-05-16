@@ -10,7 +10,7 @@ role: User
 exl-id: 69aabf4a-21bc-4bd8-8aad-33c2cfb9cf57
 topic: Content Management
 level: Intermediate
-source-git-commit: edd893482cbafd9674a44cf9878b8ee3079d98f7
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '482'
 ht-degree: 22%
@@ -37,9 +37,9 @@ ht-degree: 22%
 
 您可以从Assets Library中或在将文件上传到Adobe Dynamic Media Classic时开始创建项目文件夹：
 
-* **在资产库中**  — 滚动到资产库底部的项目部分，然后选择 **[!UICONTROL 添加项目]**. 输入项目的名称。
+* **在资产库中**：滚动到资产库底部的项目部分，然后选择 **[!UICONTROL 添加项目]**. 输入项目的名称。
 
-* **上传文件时**  — 在“上传”屏幕上，转到 **[!UICONTROL 添加到项目]** > **[!UICONTROL 创建项目]**. 输入项目的名称。
+* **上传文件时**：在上传屏幕上，转到 **[!UICONTROL 添加到项目]** > **[!UICONTROL 创建项目]**. 输入项目的名称。
 
 >[!NOTE]
 >
@@ -49,11 +49,11 @@ ht-degree: 22%
 
 要显示、删除和重命名项目文件夹，请执行下列任一操作：
 
-* **浏览内容**  — 在资产库中选择文件夹的名称。 其资源将显示在浏览面板中。
+* **浏览内容**：在资产库中选择文件夹的名称。 其资源将显示在浏览面板中。
 
-* **删除项目文件夹**  — 选择项目文件夹，然后选择 **[!UICONTROL 删除项目]**. 从项目文件夹中删除资源并不会从Adobe Dynamic Media Classic中删除它们；资源会保留在存储它们的原始文件夹中。
+* **删除项目文件夹**：选择项目文件夹，然后选择 **[!UICONTROL 删除项目]**. 从项目文件夹中删除资源并不会从Adobe Dynamic Media Classic中删除它们；资源会保留在存储它们的原始文件夹中。
 
-* **重命名项目文件夹**  — 在资产面板中双击文件夹的名称，然后输入新名称。
+* **重命名项目文件夹**：在资产面板中双击文件夹的名称，然后输入新名称。
 
 ## 将资源添加到项目文件夹 {#adding-assets-to-a-project-folder}
 
@@ -61,4 +61,4 @@ ht-degree: 22%
 
 * **从浏览面板**，选择资源并将它们拖到项目文件夹中。 您还可以转到 **[!UICONTROL 文件]** > **[!UICONTROL 添加到项目]**. 在“选择项目”对话框中选择一个项目文件夹名称，然后选择 **[!UICONTROL 提交]**.
 
-* **上传文件时**  — 在上传页面上，选择 **[!UICONTROL 作业选项]**. 在“上载作业选项”对话框中，选择 **[!UICONTROL 项目]**，然后选择项目名称。
+* **上传文件时**：在上传页面上，选择 **[!UICONTROL 作业选项]**. 在“上载作业选项”对话框中，选择 **[!UICONTROL 项目]**，然后选择项目名称。

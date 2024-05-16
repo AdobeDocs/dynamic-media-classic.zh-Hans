@@ -10,23 +10,23 @@ role: User
 exl-id: deafbd03-06bc-4d7e-87a1-5620ebcac426
 topic: Content Management
 level: Intermediate
-source-git-commit: edd893482cbafd9674a44cf9878b8ee3079d98f7
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '2444'
-ht-degree: 33%
+ht-degree: 31%
 
 ---
 
 # 创建图像映射 {#creating-image-maps}
 
-图像映射是图像、eCatalog页面或SpinSet中用于显示包含文本的变换面板的图像上的区域。 当用户选择图像映射时，将触发某种操作。 例如，将启动网页，供用户了解产品的更多相关信息。当用户将鼠标指针移到“图像映射”上时，其周围会显示一个轮廓。
+图像映射是图像、eCatalog页面或SpinSet中用于显示包含文本的变换面板的图像上的区域。 当用户选择图像映射时，将触发某种操作。 例如，启动Web页，以便用户了解有关产品的更多信息。 当用户将鼠标指针移到“图像映射”上时，其周围会显示一个轮廓。
 
 除了在Adobe Dynamic Media Classic中创建图像映射的功能外，在Adobe Acrobat或Adobe InDesign中设计目录时也可以创建图像映射。
 
 在创建图像映射时，可以执行以下任一操作：
 
 * 输入变换文本。
-* 输入用于启动网页的 JavaScript 和 URL。
+* 输入用于启动网页的JavaScript和URL。
 * 为图像映射创建 URL 模板。
 * 将图像映射复制到其他图像、eCatalog 页面或旋转集。
 * 把图像映射导出到 CSV 或 XML。
@@ -147,9 +147,9 @@ Javascript:loadProduct('$$');void(0);
 
 您可以在URL模板中的图像映射之间放置所有未更改的值。 仅仅将那些会在 URL 列中发生变化的值添加到“图像映射”列表中。例如：
 
-* URL模板 —  `javascript:loadProduct('https://www.examplesitehere.com/$$');void(0);`
-* URL值 —  `product.htm`
-* 实际生成的URL - `javascript:loadProduct('https://www.examplesitehere.com/product.html);void(0);`
+* URL模板： `javascript:loadProduct('https://www.examplesitehere.com/$$');void(0);`
+* URL值： `product.htm`
+* 实际生成的URL： `javascript:loadProduct('https://www.examplesitehere.com/product.html);void(0);`
 
 默认情况下，URL模板包含一个名为的专有Adobe Dynamic Media Classic JavaScript处理程序 `loadProduct` 以打开一个包含URL目标的新窗口。 但是，您可以使用任何JavaScript代码替换此JavaScript处理程序或使用以下Adobe Dynamic Media Classic处理程序之一：
 
@@ -181,7 +181,7 @@ Javascript:loadProduct('$$');void(0);
 
 * **`accesskey`**：用户按下键盘上的指定键时会触发操作。
 
-* **`onfocus`**：在图像映射接收焦点时触发事件 — 通过光标、Tab键或按访问键。 例如，当图像映射被激活时，您可以启动网页，当图像映射被取消激活时，您可以将其关闭。
+* **`onfocus`**：在图像映射接收焦点时触发事件 — 通过光标、Tab键或按访问键。 例如，您可以在图像映射收到焦点时启动网页，并在图像映射失去焦点时关闭网页。
 
 * **`onblur`**：当图像映射因光标或Tab键失去焦点时会触发事件。
 

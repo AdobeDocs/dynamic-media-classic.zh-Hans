@@ -10,7 +10,7 @@ role: User
 exl-id: c18bb98c-b087-45d0-a4c9-44f58a3b514f
 topic: Content Management
 level: Intermediate
-source-git-commit: edd893482cbafd9674a44cf9878b8ee3079d98f7
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '672'
 ht-degree: 46%
@@ -47,9 +47,9 @@ ht-degree: 46%
 
 1. 执行以下任一操作：
 
-   * **首先选择图像**  — 在“浏览”面板中，为图像集选择所需的图像，转到 **[!UICONTROL 生成]** > **[!UICONTROL 图像集]**.
+   * **首先选择图像**：在浏览面板中，选择所需的图像集图像，转到 **[!UICONTROL 生成]** > **[!UICONTROL 图像集]**.
 
-   * **从“图像集”屏幕开始**  — 转到 **[!UICONTROL 生成]** > **[!UICONTROL 图像集]**. “图像集”屏幕随即打开。在资源库中选择一个文件夹，然后将要用于图像集的图像拖到“图像集”屏幕中。
+   * **从“图像集”屏幕开始**：转到 **[!UICONTROL 生成]** > **[!UICONTROL 图像集]**. “图像集”屏幕随即打开。在资源库中选择一个文件夹，然后将要用于图像集的图像拖到“图像集”屏幕中。
 
 1. 要更改图像顺序，将图像拖到新位置即可。
 1. 确保在页面右下角附近选择了“**[!UICONTROL 保存后发布]**”（默认）。

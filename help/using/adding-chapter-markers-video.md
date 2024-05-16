@@ -10,10 +10,10 @@ role: User
 exl-id: a9250841-2dba-4fdc-8a6e-91b2fecef72f
 topic: Content Management
 level: Intermediate
-source-git-commit: 163eb32112ec6fbefd1dacf48212353ff3053d54
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '622'
-ht-degree: 28%
+ht-degree: 24%
 
 ---
 
@@ -65,7 +65,7 @@ Cost-efficient access to rapidly evolving technology.
 
 1. 将VTT文件保存为UTF8编码，这样可以避免章节标题文本中的字符呈现出现问题。
 
-   通常，您希望将章节VTT文件的名称与视频文件相同，并将其附加 `chapters`. 这有助于使用现有的 Web 内容管理系统自动生成视频 URL。
+   通常，您希望将章节VTT文件的名称与视频文件相同，并将其附加 `chapters`. 这样，它可以帮助您使用现有Web内容管理系统自动生成视频URL。
 
 1. 在Adobe Dynamic Media Classic中，上传WebVTT章节文件。
 

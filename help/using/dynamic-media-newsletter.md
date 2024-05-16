@@ -7,9 +7,9 @@ role: Admin,User
 exl-id: 5f2a0cfc-d627-42be-9e68-111b65680ad8
 topic: Content Management
 level: Intermediate
-source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
+source-git-commit: 29752cf9eca0fc9bb760c721e1c3dc8e4ef912c3
 workflow-type: tm+mt
-source-wordcount: '1038'
+source-wordcount: '979'
 ht-degree: 0%
 
 ---
@@ -126,10 +126,10 @@ Experience League撰写的Dynamic Media新闻稿旨在帮助您快速掌握Dynam
 
   在本期中：
 
-   * 可让您正确管理高价值资产以放心地提供体验以使访客能够回访的资源和信息。
+   * 让您能够正确管理高价值资产的资源和信息，以便放心地提供体验，让访客能够回访。
    * 了解即将召开的有关保护数字资产的网络研讨会。
    * 信息丰富的Adobe会员之旅的下一站。
-   * 当您在Experience Manager Assets (Experience Manager Assets)中拥有Dynamic Media时，将会为您提供令人兴奋的功能。
+   * 当您在Experience Manager Assets (Experience Manager Assets)中拥有Dynamic Media时，令人兴奋的功能将可用。
    * 将360度视频和自定义视频缩略图添加到您的网站。
    * 会议 `Andrew Hathaway`，Experience Manager Assets中Dynamic Media的首席解决方案顾问。
 
@@ -142,13 +142,13 @@ Experience League撰写的Dynamic Media新闻稿旨在帮助您快速掌握Dynam
    * 详细了解即将推出的AdobeInsider导览。
    * 了解如何保护您的数字资产不被盗用。
    * 了解AI驱动的图像智能裁切。
-   * 会议 `Alex Thiers`是Dynamic Media和Adobe Dynamic Media Classic中许多卓越特性和创新的幕后推动力量之一。
+   * 会议 `Alex Thiers`，这是AEM和Adobe Dynamic Media Classic上Dynamic Media中许多卓越功能和创新的推动力。
 
 * **[2019年5月第05期](https://experienceleague.adobe.com/tools/dynamic-media-demo/newsletter/Dynamic_Media_Newsletter_05_2019_May.html)**
 
   在本期中：
 
-   * 在博客帖子中探索Adobe Dynamic Media Classic的十大隐藏功能。
+   * 在博客帖子中探索Adobe Dynamic Media Classic的前十大隐藏功能。
    * 观看Experience League中的关键操作方法视频。
    * 了解即将推出的AdobeInsider导览。
    * 要更新您的富媒体策略，请阅读由三部分组成的博客系列。

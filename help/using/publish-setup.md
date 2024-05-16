@@ -1,6 +1,6 @@
 ---
 title: 发布设置
-description: 通过“发布”设置设置，可决定默认情况下如何将资源从Adobe Dynamic Media Classic服务器传递到网站或应用程序。
+description: 通过“发布”设置设置，可决定默认情况下，如何将资源从Adobe Dynamic Media Classic服务器传递到网站或应用程序。
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -9,7 +9,7 @@ role: Admin
 exl-id: 699d4c12-e47b-4c6b-86f3-dc7aaaa56c1e
 topic: Administration, Content Management
 level: Intermediate
-source-git-commit: edd893482cbafd9674a44cf9878b8ee3079d98f7
+source-git-commit: 29752cf9eca0fc9bb760c721e1c3dc8e4ef912c3
 workflow-type: tm+mt
 source-wordcount: '2383'
 ht-degree: 30%
@@ -160,7 +160,7 @@ Adobe Dynamic Media Classic和图像服务具有允许本地化的图像和静�
 | en， en_us， en_uk | myImg_E， myImg |
 | de， de_de， de_at | myImg_D， myImg |
 | fr | myImg_F， myImg |
-| 所有其他区域设置 | - |
+| 所有其他区域设置 | ： |
 
 ##### 在区域设置未知时查找localeMap
 
@@ -222,15 +222,15 @@ Adobe Dynamic Media Classic和图像服务具有允许本地化的图像和静�
 
 “图像渲染器”页面建立了从图像渲染服务器交付图像集的默认设置。 有以下五种类别的设置可用（有关这些设置的详细说明，请参阅“图像服务器”页）：
 
-* **[!UICONTROL 目录管理]**  — 这些设置确定Adobe Dynamic Media Classic和目录文件如何交互。 Adobe Dynamic Media Classic渲染服务器URL调用会发送到目录，然后目录会调用从服务器传送图像。 仅在Adobe Dynamic Media Classic支持人员的协助下更改这些设置。
+* **[!UICONTROL 目录管理]**：这些设置确定Adobe Dynamic Media Classic和目录文件如何交互。 Adobe Dynamic Media Classic渲染服务器URL调用会发送到目录，然后目录会调用从服务器传送图像。 仅在Adobe Dynamic Media Classic支持人员的协助下更改这些设置。
 
-* **[!UICONTROL 会话属性]**  — 这些设置可建立错误参数、相对图像URL的URL以及是否允许对象重叠。
+* **[!UICONTROL 会话属性]**：这些设置会建立错误参数、相对图像URL的URL以及是否允许对象重叠。
 
-* **[!UICONTROL 默认材质属性]**  — 这些设置建立图像的默认分辨率和锐化设置。
+* **[!UICONTROL 默认材质属性]**：这些设置可建立图像的默认分辨率和锐化设置。
 
-* **[!UICONTROL 响应图像属性]**  — 这些设置与图像的默认外观相关。
+* **[!UICONTROL 响应图像属性]**：这些设置与图像的默认外观相关。
 
-* **[!UICONTROL 颜色管理属性]**  — 这些设置与图像的默认颜色设置相关。
+* **[!UICONTROL 颜色管理属性]**：这些设置属于图像的默认颜色设置。
 
 ## 晕影 {#vignette}
 

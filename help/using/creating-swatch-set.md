@@ -10,7 +10,7 @@ role: User
 exl-id: 426b6e6b-daed-4ca6-b095-99bb06604b07
 topic: Content Management
 level: Intermediate
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '708'
 ht-degree: 58%
@@ -38,9 +38,9 @@ ht-degree: 58%
 
 1. 执行以下任一操作：
 
-   * **首先选择图像**  — 在浏览面板中，选择图像，然后转到 **[!UICONTROL 生成]** > **[!UICONTROL 样本集]**.
+   * **首先选择图像**：在浏览面板中，选择图像，然后转到 **[!UICONTROL 生成]** > **[!UICONTROL 样本集]**.
 
-   * **从“样本集”屏幕开始**  — 转到 **[!UICONTROL 生成]** > **[!UICONTROL 样本集]**. 从资源库中选择一个文件夹，然后将图像拖到“样本集”页面的“视图”部分中。
+   * **从“样本集”屏幕开始**：转到 **[!UICONTROL 生成]** > **[!UICONTROL 样本集]**. 从资源库中选择一个文件夹，然后将图像拖到“样本集”页面的“视图”部分中。
 
 1. 将样本颜色、模式或光泽度拖到“样本集”页面上的样本占位符框中。
 

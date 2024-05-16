@@ -1,6 +1,6 @@
 ---
 title: 将图像集链接到网页
-description: 了解如何将图像集链接到Adobe Dynamic Media Classic中的网页。
+description: 了解如何在Adobe Dynamic Media Classic中将图像集链接到网页。
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -10,16 +10,16 @@ role: User
 exl-id: df4e5218-2a66-413c-b247-b2a16d884041
 topic: Content Management
 level: Intermediate
-source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '675'
-ht-degree: 33%
+ht-degree: 24%
 
 ---
 
 # 将图像集链接到网页{#linking-an-image-set-to-a-web-page}
 
-发布图像集后，您可以复制其关联的URL或其嵌入代码，以在网站或应用程序中使用。 然后，可以根据需要部署该 URL 或粘贴嵌入代码，以便用户可以在您的网站或应用程序上查看图像集。
+发布图像集后，您可以复制其关联的URL或其嵌入代码，以在网站或应用程序中使用。 然后，您可以部署URL或根据需要粘贴嵌入代码，以便用户可以在您的网站或应用程序上查看图像集。
 
 >[!NOTE]
 >
@@ -44,7 +44,7 @@ ht-degree: 33%
 
      在“查看器列表”页的表的“操作”列下，选择 **[!UICONTROL 复制URL]**.
 
-## 将图像集 URL 添加到网页 {#adding-image-set-urls-to-your-web-page}
+## 将图像集URL添加到网页 {#adding-image-set-urls-to-your-web-page}
 
 部署图像集的最常见方式是在网页上放置链接（通过导航图标）。 选中后，该链接将启动一个动态页面(JSP)，该页面在弹出缩放窗口中显示图像集。 缩放链接将打开一个包含实际缩放功能的弹出窗口。
 
@@ -52,7 +52,7 @@ ht-degree: 33%
 
 ## 复制图像集查看器的嵌入代码 {#copying-the-embed-code-of-an-image-set-viewer}
 
-使用嵌入代码功能，您可以查看用于所选图像集的查看器代码。您也可以将代码复制到剪贴板中，以便可以将其粘贴到网页中以部署查看器。在“嵌入代码”对话框中不允许编辑代码。
+使用嵌入代码功能，您可以查看用于所选图像集的查看器代码。您还可以将代码复制到剪贴板，以便将其粘贴到网页中用于部署查看器。 在“嵌入代码”对话框中不允许编辑代码。
 
 **复制图像集查看器的嵌入代码：**
 

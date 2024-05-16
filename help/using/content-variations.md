@@ -10,10 +10,10 @@ role: User
 exl-id: 65b8c314-7ec1-417f-8a7b-aa13762072a1
 topic: Content Management
 level: Intermediate
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '248'
-ht-degree: 55%
+ht-degree: 44%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 55%
 
 通用URL用于根据模板变体在集中列出的顺序显示页面上显示的模板变体。 始终发布模板集列表顶层的模板。
 
-您可以使用列表中的任意图像预设 URL。图像预设 URL 与通用 URL 相似。可以使用多个图像预设 URL。
+您可以使用列表中的任意图像预设URL。 图像预设URL类似于通用URL。 可以有多个图像预设URL。
 
 1. 转到 **[!UICONTROL 生成]** > **[!UICONTROL 模板集]**.
 1. 在生成器中，选择一个模板，然后选择 **[!UICONTROL 添加/预览]**.

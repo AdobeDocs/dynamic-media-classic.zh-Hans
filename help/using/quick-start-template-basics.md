@@ -10,10 +10,10 @@ role: User
 exl-id: bf695fee-821c-4396-829a-d57ccf475b0c
 topic: Content Management
 level: Intermediate
-source-git-commit: 914fde11270dc731a261da3305b29dd573584d93
+source-git-commit: 29752cf9eca0fc9bb760c721e1c3dc8e4ef912c3
 workflow-type: tm+mt
 source-wordcount: '804'
-ht-degree: 21%
+ht-degree: 17%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 21%
 
 模板可以包含任意数量的图像图层和文本图层。可以将包含层的静态文件(如分层PSD文件)转换为模板，并在Adobe Dynamic Media Classic中创建模板。 您可以使用上载到Adobe Dynamic Media Classic中的字体在模板中创建文本图层。 将文本添加到模板后，可以通过更改其对齐、字体、字体大小和颜色来设置其格式。
 
-使用“参数”页，您可以将模板的任何方面转换为可寻址参数。 在这样做时，您可以更改要在模板中使用的分层图像或文本值。 这些参数是通过 URL 字符串传递的，因此可以通过更改任意参数，动态自定义从图像服务器生成的回复图像。
+使用“参数”页，您可以将模板的任何方面转换为可寻址参数。 在这样做时，您可以更改要在模板中使用的分层图像或文本值。 参数通过URL字符串传递，允许您更改任何参数以动态自定义从图像服务器生成的回复图像。
 
 另请参阅 [模板基础知识](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/553_Template%20Basics_converted%20renamed_Dynamic%20Banners-AVS) 训练视频。
 
@@ -69,4 +69,4 @@ ht-degree: 21%
 
 Dynamic Media Classic会为模板创建URL，并在您将模板发布到Dynamic Media图像服务器时激活这些URL。 您可以从“模板预览”页面复制这些URL字符串。
 
-在浏览面板中选择您的模板，然后选择 **[!UICONTROL 预览]** 以打开“模板预览”页面。 选择用于交付模板的图像预设，然后选择 **[!UICONTROL 复制URL]**. 从“预览”页面复制URL后，您可以在网站或应用程序中使用它。 请参阅[将模板链接至网页](linking-template-web-page.md#linking_a_template_to_a_web_page)。
+在浏览面板中选择您的模板，然后选择 **[!UICONTROL 预览]** 以打开“模板预览”页面。 选择用于交付模板的图像预设，然后选择 **[!UICONTROL 复制URL]**. 从“预览”页面复制URL后，您可以在网站或应用程序中使用它。 请参阅 [将模板链接到网页](linking-template-web-page.md#linking_a_template_to_a_web_page).

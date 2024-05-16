@@ -10,7 +10,7 @@ role: Admin,User
 exl-id: e2840200-246e-4c68-b10f-a66461f2a118
 topic: Certification
 level: Intermediate
-source-git-commit: 914fde11270dc731a261da3305b29dd573584d93
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '160'
 ht-degree: 44%
@@ -19,7 +19,7 @@ ht-degree: 44%
 
 # Adobe 培训服务{#adobe-training-services}
 
-Dynamic Media Classic以视频培训、讲师指导的研讨会、网络研讨会以及演示的形式提供培训。
+Dynamic Media Classic以视频培训、讲师指导的研讨会、网络讲座以及演示的形式提供培训。
 
 ## Adobe 培训服务
 

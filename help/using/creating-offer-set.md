@@ -10,10 +10,10 @@ role: Data Engineer,Admin,User
 exl-id: 05f2cce0-72bf-4933-87ab-c9003c848e35
 topic: Integrations, Development
 level: Experienced
-source-git-commit: 910410706fbd9dd79a8dda402af454a50132cc41
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '1227'
-ht-degree: 33%
+ht-degree: 31%
 
 ---
 
@@ -37,13 +37,13 @@ Adobe Dynamic Media Classic提供了用于编辑和创建选件集的工具。
 
 从以下类型的优惠套餐创建一种优惠套餐：
 
-* **图像**  — 您可以为选件集组合图像。 每个图像在集中都包含不同的选件。
+* **图像**：您可以为选件集组合图像。 每个图像在集中都包含不同的选件。
 
-* **图像模板**  — 在Adobe Dynamic Media Classic中，您可以使用来参数化图像模板 **[!UICONTROL 生成]** >模板基础命令。 通过参数，可换出及自定义模板的各组成部分（文本框架中的文本、不同的图像）。对于优惠套餐，举例来说，您可以使用模板参数在优惠套餐中的同一图像上创建变型。有关创建和参数化图像模板的信息，请参见 [创建模板参数](creating-template-parameters.md#creating_template_parameters).
+* **图像模板**：您可以在Adobe Dynamic Media Classic中使用将图像模板参数化 **[!UICONTROL 生成]** >模板基础命令。 通过参数，可换出及自定义模板的各组成部分（文本框架中的文本、不同的图像）。对于优惠套餐，举例来说，您可以使用模板参数在优惠套餐中的同一图像上创建变型。有关创建和参数化图像模板的信息，请参见 [创建模板参数](creating-template-parameters.md#creating_template_parameters).
 
 另请参阅 [模板基础知识](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/553_Template%20Basics_converted%20renamed_Dynamic%20Banners-AVS) 训练视频。
 
-* **视频**  — 您可以为选件集组合视频。 每个视频是套餐中的一个不同优惠。
+* **视频**：您可以为选件集组合视频。 每个视频是套餐中的一个不同优惠。
 
 ## 使用参数化模板创建选件集 {#creating-an-offer-set-with-a-parameterized-template}
 
@@ -67,7 +67,7 @@ Adobe Dynamic Media Classic提供了用于编辑和创建选件集的工具。
 
    此页面的左侧将列出模板中的参数和参数值。
 
-1. 更改参数值以创建优惠。例如，在文本字段中输入不同文本、更改图层大小、用一个图像交换另一个图像或者选择不同的查看器预设。
+1. 更改参数值以创建优惠。例如，在文本字段中输入不同的文本，更改图层的大小，将一个图像交换给另一个图像，或选择不同的查看器预设。
 1. 选择 **[!UICONTROL 保存]** 或 **[!UICONTROL 另存为**]** 将选件另存为选件集的一部分。
 
    Test&amp;Target选件集页面列出了您创建的选件。
@@ -93,9 +93,9 @@ Adobe Dynamic Media Classic提供了用于编辑和创建选件集的工具。
 
 1. 为选件集组合图像或视频。 在Test&amp;Target选件集屏幕或网格视图或列表视图中启动，然后使用以下方法之一：
 
-   * **Test&amp;Target选件集屏幕**  — 转到 **[!UICONTROL 生成]** > **[!UICONTROL Test&amp;Target选件集]**. 将图像或视频拖到屏幕上。要创建大小不同的视频或图像，请拖入图像或视频的多个副本，然后逐个设置每个大小。
+   * **Test&amp;Target选件集屏幕**：转到 **[!UICONTROL 生成]** > **[!UICONTROL Test&amp;Target选件集]**. 将图像或视频拖到屏幕上。要创建大小不同的视频或图像，请拖入图像或视频的多个副本，然后逐个设置每个大小。
 
-   * **网格视图或列表视图**  — 选择图像或视频，然后转到 **[!UICONTROL 生成]** > **[!UICONTROL Test&amp;Target选件集]**.
+   * **网格视图或列表视图**：选择图像或视频，然后转到 **[!UICONTROL 生成]** > **[!UICONTROL Test&amp;Target选件集]**.
 
 1. （可选）选择图像或视频，然后选择 **[!UICONTROL 预览]**. 在“预览选件”页面上，您可以更改所选图像或视频的大小和外观。 或者，您也可以更改选件集中的所有图像或视频。
 
@@ -127,10 +127,10 @@ Adobe Dynamic Media Classic提供了用于编辑和创建选件集的工具。
 1. 要编辑选件集，请在网格视图或列表视图中显示选件集，然后选择其 **[!UICONTROL 编辑]** 变换按钮。
 1. 在Test&amp;Target选件集页面中，执行以下任一操作：
 
-   * **删除选件**  — 选择选件，然后选择 **[!UICONTROL 删除]** 以从选件集中删除选件。
-   * **添加选件**  — 如何添加优惠取决于您使用的优惠集类型：
-      * **模板**  — 选择 **[!UICONTROL 添加并预览]**，然后在添加和预览选件页面上，创建另一个选件。
-      * **图像和视频**  — 将图像或视频拖到Test&amp;Target选件集页面上。
+   * **删除选件**：选择选件，然后选择 **[!UICONTROL 删除]** 以从选件集中删除选件。
+   * **添加选件**：添加选件的方式取决于您使用的选件集类型：
+      * **模板**：选择 **[!UICONTROL 添加并预览]**，然后在添加和预览选件页面上，创建另一个选件。
+      * **图像和视频**：将图像或视频拖到Test&amp;Target选件集页面上。
 
    >[!NOTE]
    >

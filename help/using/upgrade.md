@@ -6,7 +6,7 @@ role: Admin,User
 exl-id: 5e322d81-1303-494b-b5dd-df29b5c5d8e2
 topic: Administration, Migration
 level: Intermediate
-source-git-commit: de6997fda88c4471625242ee9cca59b344cee945
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '575'
 ht-degree: 0%
@@ -48,7 +48,7 @@ ht-degree: 0%
 | --- | --- |
 | 加速内容创建和交付 | ·与协作和共享文件同步 [!DNL Adobe Creative Cloud] 应用程序。<br>·满足动态资产管理的所有必需标准：在一个应用程序、一个界面、一个网络中创建、协作、管理和交付所有内容。<br>·企业级数字资产管理，具有强大的元数据支持、智能搜索、灯箱和收藏集、版本控制以及供供应商、合作伙伴和特许经营商使用的安全资产共享<br>·审核和批准在制品资产的工作流。 |
 | 简单的交互式体验UI元素 | ·使用非技术的实时构建器轻松创建体验。<br>·可购物/交互式媒体，将促销活动资源与产品信息相结合。<br>·提高客户满意度并促进转化。 |
-| 端到端（包括）工作流 | ·将优化的富媒体交付到所有接触点，包括 [!DNL Adobe Experience Cloud] 解决方案。<br>·与集成 [!DNL Adobe Experience Cloud] 用于跨营销接触点的高级资产分析、定位和资产重用。 其中一些接触点包括 [!DNL Adobe Campaign] 对于电子邮件， [!DNL Adobe Social] 对于社交渠道，以及 [!DNL Adobe Experience Manager] 适用于响应式Web和移动应用程序的网站。 |
+| 端到端（包括）工作流 | ·将优化的富媒体交付到所有接触点，包括 [!DNL Adobe Experience Cloud] 解决方案。<br>·与集成 [!DNL Adobe Experience Cloud] 用于跨营销接触点的高级资产分析、定位和资产重用。 其中一些接触点包括 [!DNL Adobe Campaign] 对于电子邮件， [!DNL Adobe Social] 对于社交渠道，以及 [!DNL Adobe Experience Manager] 响应式Web和移动应用程序的网站。 |
 
 ## 为什么选择Adobe？
 

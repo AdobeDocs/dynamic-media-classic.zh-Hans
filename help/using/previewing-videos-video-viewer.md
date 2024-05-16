@@ -10,7 +10,7 @@ role: User
 exl-id: b8d1a0b4-67ab-482d-a685-a087fb850143
 topic: Content Management
 level: Intermediate
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '773'
 ht-degree: 21%
@@ -71,15 +71,15 @@ Adobe Dynamic Media Classic附带许多用于播放视频的预定义查看器�
 
 1. 添加或编辑用于显示视频的“查看器预设”：
 
-   * **添加**  — 选择 **[!UICONTROL 添加]** 工具栏中。 在“添加查看器预设”对话框中，从相应的下拉列表中选择平台和查看器，然后选择 **[!UICONTROL 添加]**.
+   * **添加**：选择 **[!UICONTROL 添加]** 工具栏中。 在“添加查看器预设”对话框中，从相应的下拉列表中选择平台和查看器，然后选择 **[!UICONTROL 添加]**.
 
    另请参阅 [添加和编辑查看器预设](application-setup.md#adding_and_editing_viewer_presets).
 
-   * **从现有查看器预设开始添加**  — 在表中，选择视频查看器预设，然后选择 **[!UICONTROL 编辑]** 工具栏中。
+   * **从现有查看器预设开始添加**：在表中，选择一个视频查看器预设，然后选择 **[!UICONTROL 编辑]** 工具栏中。
 
    重新配置视频查看器后，选择 **[!UICONTROL 另存为]** 以使用“预设名称”文本字段中的其他名称保存预设。
 
-   * **编辑**  — 选择视频查看器预设，然后选择 **[!UICONTROL 编辑]**.
+   * **编辑**：选择视频查看器预设，然后选择 **[!UICONTROL 编辑]**.
 
 1. 在 `Configure Viewer` 页面，在预设名称字段中，输入或编辑预设名称。
 1. 设置其余所需的选项。

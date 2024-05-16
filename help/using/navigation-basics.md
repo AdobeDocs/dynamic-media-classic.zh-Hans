@@ -10,7 +10,7 @@ role: User
 exl-id: 3ffcfab2-c29d-4b0f-b223-c4a5ca99f21a
 topic: Content Management
 level: Intermediate
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '656'
 ht-degree: 16%
@@ -29,29 +29,29 @@ Adobe Dynamic Media Classic屏幕包括三个主要区域：全局导航栏、�
 
 全局导航栏位于屏幕的顶部，提供用于执行各种任务的按钮：
 
-* **[!UICONTROL 选择公司]**  — 从菜单中选择要访问的公司。 如果您正在与一家公司合作，则此按钮不可用。
+* **[!UICONTROL 选择公司]**：从菜单中选择要访问的公司。 如果您正在与一家公司合作，则此按钮不可用。
 
-* **[!UICONTROL 上传]**  — 打开“上传”屏幕，以便将文件从计算机或网络上传到Adobe Dynamic Media Classic。 您可以从桌面上传文件，也可以通过FTP上传文件。 请参阅 [上载文件](/help/using/uploading-files.md).
+* **[!UICONTROL 上传]**：打开“上传”屏幕，以便您可以将文件或网络上传到Adobe Dynamic Media Classic。 您可以从桌面上传文件，也可以通过FTP上传文件。 请参阅 [上载文件](/help/using/uploading-files.md).
 
-* **[!UICONTROL 生成]**  — 从菜单中选择一个生成任务。 会打开构建面板，以便您创建资源类型。
+* **[!UICONTROL 生成]**：从菜单中选择一个生成任务。 会打开构建面板，以便您创建资源类型。
 
-* **[!UICONTROL Publish]**  — 打开“发布”屏幕，以便发布富媒体资产来AdobeDynamic Media图像服务器和Adobe Dynamic Media Classic SAAS基础架构的其余部分。
+* **[!UICONTROL Publish]**：打开“发布”屏幕，以便您可以发布富媒体资产来AdobeDynamic Media图像服务器和Adobe Dynamic Media Classic SAAS基础架构的其余部分。
 
-* **[!UICONTROL 作业]**  — 打开“作业”屏幕，以便检查上载和发布作业的记录。
+* **[!UICONTROL 作业]**：打开“作业”屏幕，以便检查上载和发布作业的记录。
 
-* **[!UICONTROL 最近]**  — 打开最近活动屏幕，以便查看最近修改的资源的名称以及最近的上载和发布作业。
+* **[!UICONTROL 最近]**：打开最近活动屏幕，以便查看最近修改的资源的名称以及最近上载和发布作业的名称。
 
-* **[!UICONTROL 设置]**  — 打开设置屏幕，以便您可以选择设置或管理选项来优化对Adobe Dynamic Media Classic的使用。 请参阅[设置](/help/using/setup-basics.md)。
+* **[!UICONTROL 设置]**：打开设置屏幕，以便您可以选择设置或管理选项来优化对Adobe Dynamic Media Classic的使用。 请参阅[设置](/help/using/setup-basics.md)。
 
 * **[!UICONTROL 帮助]** 选择一个帮助选项：
 
-   * **[!UICONTROL 有关此主题的帮助]**  — 打开“帮助”系统，打开一个页面，其中包含有关当前任务的信息。
-   * **[!UICONTROL 视频教程]**  — 访问有关特定主题的视频，这些视频向您说明如何开始使用每个富媒体发布工作流程。
-   * **[!UICONTROL 帮助内容]**  — 打开介绍页面的帮助系统。 您可以通过“目录”进行选择，以查找和查看不同的主题。
-   * **[!UICONTROL 关于]**  — 告知您正在运行的Adobe Dynamic Media Classic的版本。
-   * **[!UICONTROL 支持]**  — 介绍如何从Adobe Dynamic Media Classic获得技术支持。
+   * **[!UICONTROL 有关此主题的帮助]**：打开帮助系统以显示包含有关您当前所执行任务信息的页面。
+   * **[!UICONTROL 视频教程]**：访问有关特定主题的视频，这些视频向您介绍如何开始使用每个富媒体发布工作流程。
+   * **[!UICONTROL 帮助内容]**：在简介页面中打开帮助系统。 您可以通过“目录”进行选择，以查找和查看不同的主题。
+   * **[!UICONTROL 关于]**：告知您正在运行的Adobe Dynamic Media Classic的版本。
+   * **[!UICONTROL 支持]**：介绍如何从Adobe Dynamic Media Classic获取技术支持。
 
-* **[!UICONTROL 注销]**  — 退出Adobe Dynamic Media Classic。
+* **[!UICONTROL 注销]**：退出Adobe Dynamic Media Classic。
 
 ## 资源库 {#asset-library}
 
@@ -67,9 +67,9 @@ Adobe Dynamic Media Classic屏幕包括三个主要区域：全局导航栏、�
 
 大多数操作都是在“浏览”面板或“构建”面板中执行的。此面板中可用的功能取决于您处于浏览模式还是构建模式。
 
-* **[!UICONTROL 浏览模式]**  — 要在“浏览”面板中查看和使用文件夹的内容，请在资产库中选择一个文件夹。 此面板提供 **[!UICONTROL 文件]**， **[!UICONTROL 预览]**， **[!UICONTROL 全选]**， **[!UICONTROL 全部不选]**、和 **[!UICONTROL 排序]** 用于处理资产的菜单。 您还可以通过移动滑块或选择，以不同的方式查看资源 **[!UICONTROL 网格视图]**， **[!UICONTROL 列表视图]**，或 **[!UICONTROL 详细信息视图]**. 选择 **[!UICONTROL 详细信息视图]** 或者双击资产会在“详细信息视图”中打开资产，您可以在其中执行与资产相关的文件操作。
+* **[!UICONTROL 浏览模式]**：要在“浏览”面板中查看和使用文件夹的内容，请在资产库中选择一个文件夹。 此面板提供 **[!UICONTROL 文件]**， **[!UICONTROL 预览]**， **[!UICONTROL 全选]**， **[!UICONTROL 全部不选]**、和 **[!UICONTROL 排序]** 用于处理资产的菜单。 您还可以通过移动滑块或选择，以不同的方式查看资源 **[!UICONTROL 网格视图]**， **[!UICONTROL 列表视图]**，或 **[!UICONTROL 详细信息视图]**. 选择 **[!UICONTROL 详细信息视图]** 或者双击资产会在“详细信息视图”中打开资产，您可以在其中执行与资产相关的文件操作。
 
-* **[!UICONTROL 构建模式]**  — 选择 **[!UICONTROL 生成]**，然后选择相应的选项，以便您开始构建eCatalog、图像集、旋转集或构建菜单上的其他几个可用项之一。 此时将打开“生成”页面。 您可以在进入“构建”模式之前或之后选择要使用的资源。
+* **[!UICONTROL 构建模式]**：选择 **[!UICONTROL 生成]**，然后选择相应的选项，以便您开始构建eCatalog、图像集、旋转集或构建菜单上的其他几个可用项之一。 此时将打开“生成”页面。 您可以在进入“构建”模式之前或之后选择要使用的资源。
 
 另请参阅 [导航基础知识](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/571_Navigation%20Basics_converted%20renamed_Getting%20Started-AVS) 训练视频。
 

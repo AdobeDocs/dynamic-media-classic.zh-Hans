@@ -10,7 +10,7 @@ role: User
 exl-id: 02892514-61fe-48ba-a2e3-eeb30580a1e4
 topic: Integrations, Development
 level: Experienced
-source-git-commit: edd893482cbafd9674a44cf9878b8ee3079d98f7
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '726'
 ht-degree: 25%
@@ -37,13 +37,13 @@ PDF（可移植文档格式）文件在Adobe Dynamic Media Classic中用于创�
 
 ### 处理选项
 
-**[!UICONTROL 栅格化]**  — （默认）翻录PDF文件中的页面，并将矢量图形转换为位图图像。 要创建eCatalog，请选择此选项。
+**[!UICONTROL 栅格化]**：（默认）翻录PDF文件中的页面，并将矢量图形转换为位图图像。 要创建eCatalog，请选择此选项。
 
-**[!UICONTROL 提取搜索词]**  — 从PDF文件中提取单词，以便可以在eCatalog查看器中搜索文件中的关键字。
+**[!UICONTROL 提取搜索词]**：从PDF文件中提取单词，以便可以在eCatalog查看器中搜索文件中的关键字。
 
-**[!UICONTROL 提取链接]**  — 从PDF文件中提取链接，并将其转换为在eCatalog查看器中使用的图像映射。
+**[!UICONTROL 提取链接]**：从PDF文件中提取链接，并将其转换为在eCatalog查看器中使用的图像映射。
 
-**[!UICONTROL 使用多页PDF自动生成eCatalog]**  — 自动从PDF文件创建eCatalog。 eCatalog 以您上载的 PDF 文件命名。（只有当上载 PDF 文件时栅格化该文件，才可以使用此选项。）
+**[!UICONTROL 使用多页PDF自动生成eCatalog]**：自动从PDF文件创建eCatalog。 eCatalog 以您上载的 PDF 文件命名。（只有当上载 PDF 文件时栅格化该文件，才可以使用此选项。）
 
 ### 分辨率
 
@@ -53,21 +53,21 @@ PDF（可移植文档格式）文件在Adobe Dynamic Media Classic中用于创�
 
 选择“颜色空间”菜单，并为 PDF 文件选择颜色空间。大多数 PDF 文件既包含 RGB 又包含 CMYK 彩色图像。对于联机查看，首选 RGB 颜色空间。
 
-* **[!UICONTROL 自动检测]**  — 保留PDF文件的色彩空间。
+* **[!UICONTROL 自动检测]**：保留PDF文件的色彩空间。
 
-* **[!UICONTROL 强制作为RGB]**  — 转换为RGB色彩空间。
+* **[!UICONTROL 强制作为RGB]**：转换为RGB色彩空间。
 
-* **[!UICONTROL 强制为CMYK]**  — 转换为CMYK颜色空间。
+* **[!UICONTROL 强制为CMYK]**：转换为CMYK颜色空间。
 
-* **[!UICONTROL 强制为灰度]**  — 转换为灰度颜色空间。
+* **[!UICONTROL 强制为灰度]**：转换为灰度颜色空间。
 
 ### 颜色配置文件选项
 
-* **[!UICONTROL 转换为sRGB]**  — 转换为sRGB（标准红绿蓝）。 sRGB是在网页上显示图像的推荐颜色空间。
+* **[!UICONTROL 转换为sRGB]**：转换为sRGB（标准红绿蓝）。 sRGB是在网页上显示图像的推荐颜色空间。
 
-* **[!UICONTROL 保留原始颜色空间]**  — 保留原始颜色空间。
+* **[!UICONTROL 保留原始颜色空间]**：保留原始颜色空间。
 
-* **[!UICONTROL 自定义自]** > **[!UICONTROL 至]**  — 打开菜单，以便选择“转换自”和“转换至”色彩空间。 您可以选择标准的Photoshop色彩空间，也可以选择上传到Adobe Dynamic Media Classic的色彩空间。
+* **[!UICONTROL 自定义自]** > **[!UICONTROL 至]**：打开菜单，以便您选择“转换自”和“转换至”颜色空间。 您可以选择标准的Photoshop色彩空间，也可以选择上传到Adobe Dynamic Media Classic的色彩空间。
 
 另请参阅[ ICC 配置文件](/help/using/icc-profiles.md#icc_profiles)。
 
@@ -78,17 +78,17 @@ PDF（可移植文档格式）文件在Adobe Dynamic Media Classic中用于创�
 1. 选择“裁切”菜单，然后选择“裁剪”。
 1. 指定以下选项：
 
-   * **[!UICONTROL 裁切依据]**  — 选择根据颜色或透明度裁切：
+   * **[!UICONTROL 裁切依据]**：选择根据颜色还是透明度裁切：
 
-      * **[!UICONTROL 颜色]**  — 选择颜色选项。 然后选择 **[!UICONTROL 角]** 菜单并选择该PDF的角落，其颜色最能代表要裁切的空白颜色。
+      * **[!UICONTROL 颜色]**：选择颜色选项。 然后选择 **[!UICONTROL 角]** 菜单并选择该PDF的角落，其颜色最能代表要裁切的空白颜色。
 
-      * **[!UICONTROL 透明度]**  — 选择透明度选项。
+      * **[!UICONTROL 透明度]**：选择透明度选项。
 
-   * **[!UICONTROL 容差]**  — 拖动滑块以指定从0到1的公差。
+   * **[!UICONTROL 容差]**：拖动滑块以指定从0到1的容差。
 
-   * **[!UICONTROL 基于颜色的修剪]**  — 指定0表示只有在像素与在PDF角选择的颜色完全匹配时才裁切像素。 数字越接近 1，允许的色差越大。
+   * **[!UICONTROL 基于颜色的修剪]**：指定0以仅裁切与PDF角落所选颜色完全匹配的像素。 数字越接近 1，允许的色差越大。
 
-   * **[!UICONTROL 基于透明度的修剪]**  — 指定0表示仅在像素为透明时裁切像素；数字越接近1则越透明。
+   * **[!UICONTROL 基于透明度的修剪]**：指定0表示仅在像素为透明时裁切像素；数字越接近1则越透明。
 
 ## 从PDF页侧面裁切 {#cropping-from-the-sides-of-pdf-pages}
 

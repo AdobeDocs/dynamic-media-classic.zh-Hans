@@ -10,7 +10,7 @@ role: Data Engineer,Admin,User
 exl-id: d9fda3b8-7da8-4a30-a5f8-9bb34ec1b43d
 topic: Integrations, Development
 level: Experienced
-source-git-commit: de6997fda88c4471625242ee9cca59b344cee945
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '1234'
 ht-degree: 21%
@@ -105,8 +105,8 @@ ht-degree: 21%
 
 可以在“Adobe Analytics 配置”屏幕上激活、编辑和删除查看器事件：
 
-* **激活**  — 选择 **[!UICONTROL 启用]** 激活或 **[!UICONTROL 禁用]** 以停用选定的查看器事件。
+* **激活**：选择 **[!UICONTROL 启用]** 激活或 **[!UICONTROL 禁用]** 以停用选定的查看器事件。
 
-* **编辑**  — 选择一个查看器事件并选择 **[!UICONTROL 查看/编辑]** 变量灰色按钮。 在Adobe Dynamic Media Classic变量和Adobe Analytics变量下拉列表中，从各个列表中选择不同的变量。 有关更多信息，请参阅 [将Adobe Analytics变量分配给Adobe Dynamic Media Classic查看器事件和变量](#assigning-adobe-analytics-variables-to-scene-viewer-events-and-variables).
+* **编辑**：选择一个查看器事件并选择 **[!UICONTROL 查看/编辑]** 变量灰色按钮。 在Adobe Dynamic Media Classic变量和Adobe Analytics变量下拉列表中，从各个列表中选择不同的变量。 有关更多信息，请参阅 [将Adobe Analytics变量分配给Adobe Dynamic Media Classic查看器事件和变量](#assigning-adobe-analytics-variables-to-scene-viewer-events-and-variables).
 
-* **删除**  — 选择一个查看器事件，然后选择 **[!UICONTROL 查看/编辑]** 变量灰色按钮。 选择 **[!UICONTROL 删除]**.
+* **删除**：选择一个查看器事件，然后选择 **[!UICONTROL 查看/编辑]** 变量灰色按钮。 选择 **[!UICONTROL 删除]**.

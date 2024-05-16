@@ -10,16 +10,16 @@ role: User
 exl-id: eae35207-000c-4ced-b9ab-714c2384a9e7
 topic: Content Management
 level: Beginner
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '844'
-ht-degree: 28%
+ht-degree: 21%
 
 ---
 
 # 快速入门：缩放{#quick-start-zoom}
 
-缩放允许您以交互方式查看图像中的高分辨率详细信息。 例如，可以在动态的、完全可配置的集成查看器中查看图像的颜色、选项、角度以及细节。此查看器可以嵌在网页中，也可以显示在弹出式窗口中。您可以在近距离审核图像并以高分辨率平移图像以仔细检查它们。 缩放功能可以为您的客户带来丰富多彩的交互式查看体验。
+缩放允许您以交互方式查看图像中的高分辨率详细信息。 例如，可以在动态的、完全可配置的集成查看器中查看图像的颜色、选项、角度以及细节。此查看器可以嵌入到网页上或显示在弹出窗口中。 您可以在近距离审核图像并以高分辨率平移图像以仔细检查它们。 缩放功能可以为您的客户带来丰富多彩的交互式查看体验。
 
 Adobe Dynamic Media Classic还提供了引导式缩放 — 这是一种突出显示图像中的重要功能的方法。 例如，要将查看者的注意力集中于某个徽标上，可以为该徽标创建一个缩放目标。当用户选择此缩放目标时，他们将缩放到徽标。
 
@@ -47,7 +47,7 @@ Adobe Dynamic Media Classic还提供了引导式缩放 — 这是一种突出显
 
 要创建缩放查看器预设，请在全局导航栏上，转到 **[!UICONTROL 设置]** > **[!UICONTROL 查看器预设]**. 在“查看器预设”页面上，选择 **[!UICONTROL 添加]**，选择平台和缩放查看器，然后选择 **[!UICONTROL 添加]**. 然后，选择上的选项 `Configure Viewer` 页面。
 
-Adobe Dynamic Media Classic优惠 **[!UICONTROL 缩放查看器预设]** 用于选择按钮样式和查看器整体外观的选项。 您还可以自定义网站的缩放设置。请参阅 [设置缩放查看器预设](setting-zoom-viewer-presets.md#setting_up_zoom_viewer_presets).
+Adobe Dynamic Media Classic优惠 **[!UICONTROL 缩放查看器预设]** 用于选择按钮样式和查看器整体外观的选项。 您还可以自定义网站的缩放设置。 请参阅 [设置缩放查看器预设](setting-zoom-viewer-presets.md#setting_up_zoom_viewer_presets).
 
 ## 4.使用缩放查看器预览图像
 
@@ -55,14 +55,14 @@ Adobe Dynamic Media Classic优惠 **[!UICONTROL 缩放查看器预设]** 用于�
 
 要浏览不同的缩放查看器预设以及它们呈现缩放体验的方式，请在浏览面板中选择图像，然后选择 **[!UICONTROL 预览]**. 转到 **[!UICONTROL 预设]** > **[!UICONTROL 缩放]**，然后使用缩放菜单选择预设。
 
-此时会出现“缩放”按钮。可以查看图像在网站上的缩放效果。选择缩放按钮（和缩放目标），以便测试所选缩放查看器预设的设置。 请参阅 [使用不同的缩放查看器预览图像](previewing-image-assets-different-zoom.md#previewing_image_assets_with_different_zoom_viewers).
+此时会出现“缩放”按钮。您可以在您的网站上看到缩放图像的外观。 选择缩放按钮（和缩放目标），以便测试所选缩放查看器预设的设置。 请参阅 [使用不同的缩放查看器预览图像](previewing-image-assets-different-zoom.md#previewing_image_assets_with_different_zoom_viewers).
 
 ## 5.发布缩放图像
 
-发布缩放图像会将它们置于Dynamic Media图像服务器上，以便可以将其交付到您的网站和应用程序。 在发布过程中，Adobe Dynamic Media Classic会激活URL字符串。 这些URL字符串将缩放图像从Dynamic Media图像服务器调用到您的网站或应用程序。
+发布缩放图像会将它们置于Dynamic Media图像服务器上，以便可以将其交付到您的网站和应用程序。 在发布过程中，Adobe Dynamic Media Classic会激活URL字符串。 这些URL字符串可将缩放图像从Dynamic Media图像服务器调用到您的网站或应用程序。
 
 在全局导航栏上，选择 **[!UICONTROL Publish]**. 在发布对话框中，选择 **[!UICONTROL 提交发布]**. 请参阅[发布缩放图像](publishing-zoom-images.md#publishing_zoom_images)。
 
-## 6.将Zoom Viewers链接到网页
+## 6.将缩放查看器链接到网页
 
-Adobe Dynamic Media Classic会创建缩放图像所需的URL标注字符串，并在您将图像发布到Dynamic Media图像服务器时激活它们。 您可以从以下位置复制这些URL字符串： **[!UICONTROL 预览]** 页面。 复制 URL 字符串之后，即可在网站和应用程序上使用。请参阅 [将缩放查看器链接到网页](linking-zoom-viewers-web-pages.md#linking_zoom_viewers_to_your_web_pages).
+Adobe Dynamic Media Classic会创建缩放图像所需的URL标注字符串，并在您将图像发布到Dynamic Media图像服务器时激活它们。 您可以从以下位置复制这些URL字符串： **[!UICONTROL 预览]** 页面。 复制URL字符串后，即可将其用于您的网站和应用程序。 请参阅 [将缩放查看器链接到网页](linking-zoom-viewers-web-pages.md#linking_zoom_viewers_to_your_web_pages).

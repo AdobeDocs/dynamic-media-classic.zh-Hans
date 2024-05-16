@@ -10,7 +10,7 @@ role: Admin,User
 exl-id: 9590c53c-fd38-4bf2-b723-cd7369702364
 topic: Administration
 level: Intermediate
-source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '1010'
 ht-degree: 54%
@@ -113,24 +113,24 @@ ht-degree: 54%
 1. 在用户管理设置屏幕中，选择 **[!UICONTROL 电子邮件设置]**.
 1. 在“电子邮件设置”对话框中，指定以下任何设置：
 
-   * **[!UICONTROL 发送电子邮件]**  — 取消选择此选项，通过电子邮件通知新用户您已注册。
+   * **[!UICONTROL 发送电子邮件]**：取消选择此选项以通过电子邮件通知新用户您已注册。
 
-   * **[!UICONTROL 默认密码]**  — 为新用户输入临时密码，或将该字段留空以使Adobe Dynamic Media Classic生成随机密码。 用户首次登录时，系统会要求用户更改密码。
+   * **[!UICONTROL 默认密码]**：为新用户输入临时密码，或将该字段留空以使Adobe Dynamic Media Classic生成随机密码。 用户首次登录时，系统会要求用户更改密码。
 
-   * **[!UICONTROL 替换URL]**  — 如果您的用户通过其他URL访问Adobe Dynamic Media Classic，请输入与默认URL不同的URL。
+   * **[!UICONTROL 替换URL]**：如果用户通过其他URL访问Adobe Dynamic Media Classic，请输入与默认URL不同的URL。
 
 ## 其他用户管理任务 {#other-user-management-tasks}
 
 从“用户管理设置”屏幕开始，您还可以执行以下任务：
 
-* **[!UICONTROL 筛选和排序用户列表]**  — 筛选Media Portal用户列表以查找用户。
+* **[!UICONTROL 筛选和排序用户列表]**：筛选Media Portal用户列表以查找用户。
 
-* **[!UICONTROL 删除用户]**  — 从列表中删除用户。
+* **[!UICONTROL 删除用户]**：从列表中删除用户。
 
-* **[!UICONTROL 激活和停用用户]**  — 暂停用户访问文件夹。
+* **[!UICONTROL 激活和停用用户]**：暂停用户访问文件夹。
 
-* **[!UICONTROL 编辑用户信息]**  — 输入有关用户的最新信息。
+* **[!UICONTROL 编辑用户信息]**：输入有关用户的最新信息。
 
-* **[!UICONTROL 创建用户定义的字段]**  — 创建用户定义的自定义元数据字段，以便它们可以帮助您在Adobe Dynamic Media Classic中整理资源。 必要时，也可以激活或停用这些字段。
+* **[!UICONTROL 创建用户定义的字段]**：创建用户定义的自定义元数据字段，以便它们可以帮助您在Adobe Dynamic Media Classic中整理资源。 必要时，也可以激活或停用这些字段。
 
 请参阅[用户定义的字段](application-setup.md#user_defined_fields)。

@@ -9,14 +9,14 @@ role: Admin,User
 exl-id: d61ea80a-a98e-43e6-9e2e-4389962134f1
 topic: Administration
 level: Intermediate
-source-git-commit: edd893482cbafd9674a44cf9878b8ee3079d98f7
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '1057'
 ht-degree: 0%
 
 ---
 
-# Adobe Dynamic Media Classic桌面应用程序 — 现已推出 {#new-ui-2020}
+# Adobe Dynamic Media Classic桌面应用程序：现已推出 {#new-ui-2020}
 
 请参阅 [Adobe Dynamic Media Classic桌面应用程序](/help/using/dynamic-media-classic-desktop-app.md) 要查看系统要求，请下载并安装新应用程序，然后登录该应用程序。
 
@@ -110,4 +110,4 @@ Adobe Dynamic Media Classic是一种功能丰富的强大解决方案，旨在�
 >* [登录和注销Adobe Dynamic Media Classic桌面应用程序](/help/using/signing-out.md)
 >* [下载并安装Adobe Dynamic Media Classic桌面应用程序](/help/using/dynamic-media-classic-desktop-app.md)
 
-<!-- SAVE - OLD LINK TO BEST PRACTICES GUIDE IN PDF https://www.adobe.com/content/dam/www/us/en/marketing/experience-manager-assets/dynamic-media/adobe-dynamic-media-classic-best-practices-guide.pdf -->
+<!-- SAVE: OLD LINK TO BEST PRACTICES GUIDE IN PDF https://www.adobe.com/content/dam/www/us/en/marketing/experience-manager-assets/dynamic-media/adobe-dynamic-media-classic-best-practices-guide.pdf -->

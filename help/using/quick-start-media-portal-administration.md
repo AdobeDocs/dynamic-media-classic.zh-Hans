@@ -10,10 +10,10 @@ role: Admin,User
 exl-id: bff613c8-a93b-4cca-94db-8cad1cc36296
 topic: Collaboration, Content Management
 level: Beginner
-source-git-commit: edd893482cbafd9674a44cf9878b8ee3079d98f7
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '725'
-ht-degree: 47%
+ht-degree: 45%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 47%
 
 Media Portal使公司能够轻松获取、控制已批准的资产，并将其分发给公司的外部合作伙伴和渠道以及内部用户。 这个基于浏览器的“自助”环境为Media Portal用户提供了对Adobe Dynamic Media Classic资源的管理员控制的“视图”，以便轻松访问、浏览、搜索、预览和导出企业批准的格式的资源。
 
-作为管理员，您可以控制用户在 Media Portal 中查看、访问和使用资源的方式。此外，您可以自定义 Media Portal 界面，使其匹配您的网站和品牌。您可以在Media Portal界面中指定字体、字体颜色、字体大小并合并品牌元素，如徽标。
+作为管理员，您可以控制用户在 Media Portal 中查看、访问和使用资源的方式。此外，您可以自定义Media Portal界面以匹配您的网站和品牌。 您可以在Media Portal界面中指定字体、字体颜色、字体大小并合并品牌元素，如徽标。
 
 请观看以下培训视频：
 
@@ -35,7 +35,7 @@ Media Portal使公司能够轻松获取、控制已批准的资产，并将其�
 
 ## 1. 了解 Media Portal 用户角色
 
-Media Portal用户分为三个角色 — 用户、参与者和用户参与者。 每个角色可以执行一组不同的任务。例如，参与者可以重命名和删除文件和文件夹，但是用户不能执行这些任务。了解不同的角色，以便在添加用户时，了解为他们赋予哪些职责。
+Media Portal用户分为三个角色：用户、参与者以及用户参与者。 每个角色可以执行一组不同的任务。例如，参与者可以重命名和删除文件和文件夹，但是用户不能执行这些任务。了解不同的角色，以便在添加用户时，了解为他们赋予哪些职责。
 
 请参阅[Media Portal 用户角色](media-portal-user-roles.md#media_portal_user_roles)。
 

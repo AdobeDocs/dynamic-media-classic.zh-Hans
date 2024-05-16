@@ -10,10 +10,10 @@ role: User
 exl-id: 7e6f652c-b197-4171-b11b-f532795f7cf2
 topic: Content Management
 level: Intermediate
-source-git-commit: edd893482cbafd9674a44cf9878b8ee3079d98f7
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '1008'
-ht-degree: 17%
+ht-degree: 12%
 
 ---
 
@@ -72,7 +72,7 @@ ht-degree: 17%
 
    * 在“查看器列表”窗口的表的“操作”列下，选择 **[!UICONTROL 嵌入代码]**.
 
-     当您选择时 **[!UICONTROL 嵌入代码]**，将打开嵌入代码窗口，您可以在其中查看查看器代码。 不允许在该窗口中编辑代码。您也可以将代码复制到剪贴板中，以便可以将其粘贴到网页中。
+     当您选择时 **[!UICONTROL 嵌入代码]**，将打开嵌入代码窗口，您可以在其中查看查看器代码。 不允许在该窗口中编辑代码。您还可以将代码复制到剪贴板，以便将其粘贴到网页中。
 
      关闭显示的预览。
 
@@ -80,7 +80,7 @@ ht-degree: 17%
 
 ## 预览基于其图像预设的图像资源 {#previewing-an-image-asset-based-on-its-image-preset}
 
-您可以基于图像预设来预览图像资源，从而查看在图像以不同大小动态地传送到网站或应用程序时的显示情况。
+您可以预览基于其图像预设的图像资源，以了解当以不同大小动态交付到您的网站或应用程序时您的图像是什么样的。
 
 图像预设是预定义设置的集合。 这些设置可更改导出图像时图像外观的大小、图像质量、格式、分辨率和其他方面。
 

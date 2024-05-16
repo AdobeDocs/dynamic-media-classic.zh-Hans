@@ -9,10 +9,10 @@ role: User
 exl-id: 8dfcfb3f-6472-4efd-bc87-d5111eee45ce
 topic: Content Management
 level: Intermediate
-source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '3869'
-ht-degree: 28%
+ht-degree: 27%
 
 ---
 
@@ -141,13 +141,13 @@ Adobe Dynamic Media Classic不提供用于生成静态内容预览URL的选项�
 
 您选择用于在Adobe Dynamic Media Classic上存储内容的文件夹命名方法和结构取决于贵组织的需求。 以下是一些文件夹结构示例：
 
-**基于SKU**  — 根据SKU或项目编号命名文件夹。 例如，为所有以 0、20、30 开头的编号序列分别创建单独的文件夹。
+**基于SKU**：根据SKU或项目编号命名文件夹。 例如，为所有以 0、20、30 开头的编号序列分别创建单独的文件夹。
 
-**基于品牌**  — 对于拥有多个品牌线的制造商和从其他公司营销其他品牌的零售商，将文件分为不同品牌的产品文件夹。
+**基于品牌**：对于拥有多个品牌线的制造商和营销其他公司品牌的零售商，将文件分隔到以不同品牌命名的产品文件夹中。
 
-**基于项目**  — 根据转出/放置日期或项目名称组织文件夹。 主要生成 eCatalog 的客户喜欢使用这种方法。
+**基于项目**：根据转出/放置日期或项目名称组织文件夹。 主要生成 eCatalog 的客户喜欢使用这种方法。
 
-**网站文件夹层次结构的镜像**  — 此文件夹结构反映了网站的文件夹结构，其中名为（例如，用于产品类别）的文件夹。
+**网站文件夹层次结构的镜像**：此文件夹结构镜像网站的文件夹结构，其中名为（例如，用于产品类别）的文件夹。
 
 ## 关于上传文件 {#uploading-your-files}
 
@@ -207,74 +207,74 @@ Adobe Dynamic Media Classic桌面应用程序允许您通过拖动来上传文�
 
 上载文件时，可以在“上载作业选项”对话框中选择以下选项：
 
-* **作业**  — 选择 **[!UICONTROL 作业]** 以选择影响整个上载作业的选项。
+* **作业**：选择 **[!UICONTROL 作业]** 以选择影响整个上载作业的选项。
 
   您还可以选择 *默认* 用于通过使用 **[!UICONTROL 默认上载选项]** 对话框。 转到 **[!UICONTROL 设置]** > **[!UICONTROL 应用程序设置]** > **[!UICONTROL 常规设置]** > **[!UICONTROL 默认上载选项]**，然后设置所需的默认选项。
 
-   * **[!UICONTROL 时间]**  — 仅当您选择了 **[!UICONTROL 通过FTP]** 选项卡。
-      * **[!UICONTROL 一次性]**  — 指定运行一次的上载作业。 选项包括：
-         * **[!UICONTROL 现在]**  — 选择后立即运行上载作业 **[!UICONTROL 保存]** 在“上载作业选项”对话框中，选择 **[!UICONTROL 提交上载]** （在上传页面上）。
-         * **[!UICONTROL 稍后计划]**  — 选择要运行上载作业的年、月、日和时间（以15分钟为增量）。
-      * **[!UICONTROL 周期性]**  — 指定每天、每周或每月运行的上载作业。 或者，根据您自己的规范自定义上载作业。
-         * **[!UICONTROL 每日]**  — 设置希望作业每天运行的时间。 如果希望作业仅运行星期一到星期五，请选择 **[!UICONTROL 仅工作日]**.
-         * **[!UICONTROL 每周]**  — 选择您希望作业在一周中的特定日期和运行时间。
-         * **[!UICONTROL 每月]**  — 选择您希望作业运行的特定日期（一个月或一周中的某一天），包括开始时间。
-         * **[!UICONTROL 自定义]**  — 根据您自己的规范自定义上载或发布作业的时间间隔。 请参阅 [创建自定义上载或发布作业时间间隔](checking-job-files.md#creating-a-custom-upload-or-publish-job-time-interval).
+   * **[!UICONTROL 时间]**：仅当您选择 **[!UICONTROL 通过FTP]** 选项卡。
+      * **[!UICONTROL 一次性]**：指定运行一次的上载作业。 选项包括：
+         * **[!UICONTROL 现在]**：在选择之后立即运行上载作业 **[!UICONTROL 保存]** 在“上载作业选项”对话框中，选择 **[!UICONTROL 提交上载]** （在上传页面上）。
+         * **[!UICONTROL 稍后计划]**：选择要运行上载作业的年、月、日和时间（以15分钟为增量）。
+      * **[!UICONTROL 周期性]**：指定每日、每周或每月运行的上载作业。 或者，根据您自己的规范自定义上载作业。
+         * **[!UICONTROL 每日]**：设置希望作业每天运行的时间。 如果希望作业仅运行星期一到星期五，请选择 **[!UICONTROL 仅工作日]**.
+         * **[!UICONTROL 每周]**：选择您希望作业在一周中的哪一天运行。
+         * **[!UICONTROL 每月]**：选择您希望作业运行的日期或星期中的某一天，包括开始时间。
+         * **[!UICONTROL 自定义]**：根据您自己的规范自定义上载或发布作业时间间隔。 请参阅 [创建自定义上载或发布作业时间间隔](checking-job-files.md#creating-a-custom-upload-or-publish-job-time-interval).
 
-   * **[!UICONTROL 上传后发布]**  — 在选择 **[!UICONTROL 从桌面]** 选项卡或 **[!UICONTROL 通过FTP]** 选项卡。 选择此选项以自动发布上载的资源。在发布文件时，文件将发送到实时服务器。然后，可以在外部网站和应用程序中使用这些文件的 URL。“上载”页中也提供了该选项。
+   * **[!UICONTROL 上传后发布]**：在选择了 **[!UICONTROL 从桌面]** 选项卡或 **[!UICONTROL 通过FTP]** 选项卡。 选择此选项以自动发布上载的资源。在发布文件时，文件将发送到实时服务器。然后，可以在外部网站和应用程序中使用这些文件的 URL。“上载”页中也提供了该选项。
 
-   * **[!UICONTROL 在任意文件夹内，使用相同的基本资源名称（不论扩展名是什么）进行覆盖]**  — 在选择 **[!UICONTROL 从桌面]** 选项卡或 **[!UICONTROL 通过FTP]** 选项卡。 如果要使上载的文件替换现有同名文件，请选中此选项。“上载”页中也提供了该选项。此选项的名称可能不同，具体取决于中的设置 **[!UICONTROL 设置]** > **[!UICONTROL 应用程序设置]** > **[!UICONTROL 常规设置]** > **[!UICONTROL 上载到应用程序]** > **[!UICONTROL 覆盖图像]**.
+   * **[!UICONTROL 在任意文件夹内，使用相同的基本资源名称（不论扩展名是什么）进行覆盖]**：在选择了 **[!UICONTROL 从桌面]** 选项卡或 **[!UICONTROL 通过FTP]** 选项卡。 如果要使上载的文件替换现有同名文件，请选中此选项。“上载”页中也提供了该选项。此选项的名称可能不同，具体取决于中的设置 **[!UICONTROL 设置]** > **[!UICONTROL 应用程序设置]** > **[!UICONTROL 常规设置]** > **[!UICONTROL 上载到应用程序]** > **[!UICONTROL 覆盖图像]**.
 
-   * **[!UICONTROL 上传时解压缩Zip或Tar文件]**  — 在选择 **[!UICONTROL 从桌面]** 选项卡或 **[!UICONTROL 通过FTP]** 选项卡。
+   * **[!UICONTROL 上传时解压缩Zip或Tar文件]**：在选择了 **[!UICONTROL 从桌面]** 选项卡或 **[!UICONTROL 通过FTP]** 选项卡。
 如果要自动从上载的ZIP或TAR文件中提取所有文件，请选择此选项。 “作业选项”对话框中也提供了相同选项。
 
-   * **[!UICONTROL 包括子文件夹]**  — 仅当您选择了 **[!UICONTROL 通过FTP]** 选项卡。
+   * **[!UICONTROL 包括子文件夹]**：仅当您选择 **[!UICONTROL 通过FTP]** 选项卡。
 如果要上载文件夹的子文件夹，请选中此选项。上传的文件夹及其子文件夹的名称会自动在Adobe Dynamic Media Classic中输入。
 
-   * **[!UICONTROL 处理元数据文件]**  — 仅当您选择 **[!UICONTROL 通过FTP]** 选项卡。 如果要上载制表符分隔的文件或XML文件以将元数据添加到多个资源，请选择此选项。
+   * **[!UICONTROL 处理元数据文件]**：仅当您选择 **[!UICONTROL 通过FTP]** 选项卡。 如果要上载制表符分隔的文件或XML文件以将元数据添加到多个资源，请选择此选项。
 请参阅[导入元数据（通过 FTP）](viewing-adding-exporting-metadata.md#import-metadata)。
 
-* **裁切选项**  — 要自动裁切图像中的空白像素，请打开 **[!UICONTROL 裁切]** 菜单，选择 **[!UICONTROL 手动]**，并在“顶部”、“右侧”、“底部”和“左侧”文本字段中输入像素测量，以从侧面裁剪。 您还可以选择 **[!UICONTROL Trim]** 在裁切菜单上，选择以下选项：
+* **裁切选项**：要自动裁切图像中的空白像素，请打开 **[!UICONTROL 裁切]** 菜单，选择 **[!UICONTROL 手动]**，并在“顶部”、“右侧”、“底部”和“左侧”文本字段中输入像素测量，以从侧面裁剪。 您还可以选择 **[!UICONTROL Trim]** 在裁切菜单上，选择以下选项：
 
-   * **[!UICONTROL 裁切依据]**  — 选择根据颜色或透明度裁切：
-      * **[!UICONTROL 颜色]**  — 选择颜色选项。 然后选择“边角”菜单，然后选择图像的边角，其颜色最能代表要裁切的空白颜色。
+   * **[!UICONTROL 裁切依据]**：选择根据颜色还是透明度裁切：
+      * **[!UICONTROL 颜色]**：选择颜色选项。 然后选择“边角”菜单，然后选择图像的边角，其颜色最能代表要裁切的空白颜色。
 基于颜色修剪：指定 0 则仅当像素与您在图像的角中选择的颜色完全匹配时才会裁切像素。数字越接近 1，允许的色差越大。
-      * **[!UICONTROL 透明度]**  — 选择 **[!UICONTROL 透明度]** 选项。
+      * **[!UICONTROL 透明度]**：选择 **[!UICONTROL 透明度]** 选项。
 基于透明度裁剪：指定0表示仅在像素为透明时裁剪像素；数字越接近1则透明度越高。
-      * **[!UICONTROL 容差]**  — 拖动滑块以指定从0到1的公差。
+      * **[!UICONTROL 容差]**：拖动滑块以指定从0到1的容差。
 
-* **颜色配置文件选项**  — 在创建用于Adobe Dynamic Media Classic动态投放的优化文件时选择颜色转换：
+* **颜色配置文件选项**：在创建用于Adobe Dynamic Media Classic动态投放的优化文件时选择颜色转换：
 
-   * **[!UICONTROL 默认保色]**  — 当图像包含色彩空间信息时，保持源图像颜色；不进行色彩转换。 几乎目前的所有图像都嵌入了相应的颜色配置文件。不过，如果 CMYK 源图像不包含嵌入的颜色配置文件，则会将颜色转换为 sRGB（标准红绿蓝）色彩空间。在网页上显示图像时，推荐使用 sRGB 颜色空间。
-   * **[!UICONTROL 保留原始颜色空间]**  — 保留原始颜色，在摄取到Adobe Dynamic Media Classic时不会进行任何颜色转换。 对于没有嵌入颜色配置文件的图像，使用在“发布”设置中配置的默认颜色配置文件执行任何处理图像请求所需的颜色转换。 这些颜色配置文件并不总是与使用此选项创建的文件中的颜色一致。 因此，建议您使用“默认护色”选项。
-   * **[!UICONTROL 自定义自]** > **[!UICONTROL 至]**  — 打开菜单，以便选择 **[!UICONTROL 转换自]** 和 **[!UICONTROL 转换为]** 颜色空间。 此高级选项覆盖在源文件中嵌入的任何颜色信息。仅当要提交的所有图像包含不正确或缺少颜色配置文件数据时，才选择此选项。
+   * **[!UICONTROL 默认保色]**：当图像包含色彩空间信息时，保持源图像颜色；不进行颜色转换。 几乎目前的所有图像都嵌入了相应的颜色配置文件。不过，如果 CMYK 源图像不包含嵌入的颜色配置文件，则会将颜色转换为 sRGB（标准红绿蓝）色彩空间。sRGB是在网页上显示图像的推荐颜色空间。
+   * **[!UICONTROL 保留原始颜色空间]**：保留原始颜色，在摄取到Adobe Dynamic Media Classic时不会进行任何颜色转换。 对于没有嵌入颜色配置文件的图像，使用在“发布”设置中配置的默认颜色配置文件执行任何处理图像请求所需的颜色转换。 这些颜色配置文件并不总是与使用此选项创建的文件中的颜色一致。 因此，建议您使用“默认护色”选项。
+   * **[!UICONTROL 自定义自]** > **[!UICONTROL 至]**：打开菜单，以便您选择 **[!UICONTROL 转换自]** 和 **[!UICONTROL 转换为]** 颜色空间。 此高级选项覆盖在源文件中嵌入的任何颜色信息。仅当要提交的所有图像包含不正确或缺少颜色配置文件数据时，才选择此选项。
 
-* **图像编辑选项**  — 可以保留图像中的剪切&lt;>蒙版，并选择颜色配置文件。
+* **图像编辑选项**：您可以保留图像中的剪切&lt;>蒙版，并选择颜色配置文件。
 请参阅 [上传时图像微调选项](image-editing-options-upload.md#image-editing-options-at-upload).
 
-* **PostScript®选项**  — 可以栅格化PostScript®文件、裁切文件、保持透明背景、选择分辨率以及选择颜色空间。
+* **PostScript®选项**：可以栅格化PostScript®文件、裁切文件、保持透明背景、选择分辨率以及选择颜色空间。
 请参阅 [使用PostScript和Illustrator文件](postscript-illustrator-files.md#working_with_postscript_and_illustrator_files).
 
-* **Photoshop选项**  — 可以从Adobe®Photoshop®文件创建模板、维护图层、指定图层的命名方式、提取文本以及指定如何将图像锚定到模板中。
+* **Photoshop选项**：您可以从Adobe®Photoshop®文件创建模板、维护图层、指定图层的命名方式、提取文本以及指定如何将图像锚定到模板中。
 请参阅[PSD 上载选项](psd-files.md#psd_upload_options)。
 
-* **PDF选项**  — 可以栅格化文件、提取搜索词和链接、自动生成eCatalog、设置分辨率以及选择颜色空间。
+* **PDF选项**：您可以栅格化文件、提取搜索词和链接、自动生成eCatalog、设置分辨率以及选择颜色空间。
 请参阅[PDF 上载选项](pdfs.md#pdf_upload_options)。
 
-* **Illustrator选项**  — 可以栅格化Adobe Illustrator®文件、保持透明背景、选择分辨率以及选择颜色空间。
+* **Illustrator选项**：您可以栅格化Adobe Illustrator®文件、保持透明背景、选择分辨率以及选择颜色空间。
 请参阅 [使用PostScript和Illustrator文件](postscript-illustrator-files.md#working_with_postscript_and_illustrator_files).
 
-* **EVIDEO选项**  — 您可以通过选择视频预设来转码视频文件。
+* **EVIDEO选项**：您可以通过选择视频预设来转码视频文件。
 请参阅 [使用视频编码预设](uploading-encoding-videos.md#working_with_video_encoding_presets).
 
-* **更多元数据**  — 输入描述要上载的文件的关键字。 用逗号分隔关键字。关键字使搜索资源更容易。
+* **更多元数据**：输入描述要上载的文件的关键字。 用逗号分隔关键字。关键字使搜索资源更容易。
 请参阅 [执行高级搜索](searching-assets.md#conducting_an_advanced_search).
 另请参阅 [上载关键字](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/548_upload-keywords_converted%20renamed_Done-AVS) 训练视频。
 
-* **批次集预设**  — 如果要从上传的文件创建图像集、旋转集或样本集，请选择 **[!UICONTROL 活动]** 要使用的预设的列。 可以选择多个预设。您可以在“应用程序设置/批次集预设”页面中创建预设。
+* **批次集预设**：如果要从上传的文件创建图像集、旋转集或样本集，请选择 **[!UICONTROL 活动]** 要使用的预设的列。 可以选择多个预设。您可以在“应用程序设置/批次集预设”页面中创建预设。
 请参阅[批量级预设](application-setup.md#batch_set_presets)。
 
-* **高级**  — 请参阅 [上载后执行其他作业](uploading-files.md#follow-an-upload-with-another-job).
+* **高级**：请参阅 [上载后执行其他作业](uploading-files.md#follow-an-upload-with-another-job).
 
 ## 上载后执行其他作业 {#follow-an-upload-with-another-job}
 

@@ -10,7 +10,7 @@ role: User
 exl-id: 1157400c-b33a-422e-848c-258660ddc748
 topic: Content Management
 level: Beginner
-source-git-commit: de6997fda88c4471625242ee9cca59b344cee945
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '1443'
 ht-degree: 28%
@@ -124,7 +124,7 @@ Adobe Dynamic Media Classic提供了大量预定义的视频编码预设。 这�
 
 **可选**
 
-查看器预设自定义 — Adobe Dynamic Media Classic提供了用于交付视频的预定义查看器预设。 这些预设决定了查看器的外观及其播放控件的工作方式。要自定义视频查看器，管理员可以从“视频预设”页中添加和管理视频预设。要打开此页面，请转到Adobe Dynamic Media Classic右上角的 **[!UICONTROL 设置]** > **[!UICONTROL 查看器预设]**. “查看器预设”页提供用于添加、编辑、删除和激活查看器预设的命令。
+查看器预设自定义： Adobe Dynamic Media Classic提供了用于交付视频的预定义查看器预设。 这些预设决定了查看器的外观及其播放控件的工作方式。要自定义视频查看器，管理员可以从“视频预设”页中添加和管理视频预设。要打开此页面，请转到Adobe Dynamic Media Classic右上角的 **[!UICONTROL 设置]** > **[!UICONTROL 查看器预设]**. “查看器预设”页提供用于添加、编辑、删除和激活查看器预设的命令。
 
 请参阅 [使用视频查看器预设](previewing-videos-video-viewer.md#working_with_video_viewer_presets).
 
@@ -144,7 +144,7 @@ Adobe Dynamic Media Classic提供了大量预定义的视频编码预设。 这�
   >
   >只有在发布视频或自适应视频集后，才会激活 URL。
 
-* 显示嵌入到网页上的视频，在此情况下，使用 **[!UICONTROL 嵌入代码]** 功能。
+* 显示嵌入到网页中的视频，在此情况下，使用 **[!UICONTROL 嵌入代码]** 功能。
 
   要获取视频的嵌入代码，请在网格视图或列表视图的浏览面板中选择该视频。转到 **[!UICONTROL 预览]** > **[!UICONTROL 查看器列表]**. 在表的“操作”列下，选择 **[!UICONTROL 嵌入代码]** 右侧 `Universal_HTML5_Video`. 不允许编辑代码。
 
