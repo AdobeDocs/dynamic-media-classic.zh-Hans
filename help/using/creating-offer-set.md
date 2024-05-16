@@ -10,22 +10,22 @@ role: Data Engineer,Admin,User
 exl-id: 05f2cce0-72bf-4933-87ab-c9003c848e35
 topic: Integrations, Development
 level: Experienced
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
 workflow-type: tm+mt
-source-wordcount: '1227'
-ht-degree: 31%
+source-wordcount: '1236'
+ht-degree: 21%
 
 ---
 
 # 创建优惠套餐 {#creating-an-offer-set}
 
-您可以创建以下任意类型的优惠套餐：
+您可以创建以下任意类型的选件集：
 
 * 视频
 * 参数化模板
 * 图像
 
-对于模板，选择 **[!UICONTROL 添加并预览]**，然后设置您选择的参数。 其他选件集类型不包括参数，但您仍可以通过选择来自定义这些参数 **[!UICONTROL 预览]** 并更改可用的预设。
+对于模板，选择 **[!UICONTROL 添加并预览]**，然后设置您选择的参数。 其他选件集类型不包括参数，但您仍可以通过选择 **[!UICONTROL 预览]** 并更改可用的预设。
 
 Adobe Dynamic Media Classic提供了用于编辑和创建选件集的工具。
 
@@ -33,13 +33,13 @@ Adobe Dynamic Media Classic提供了用于编辑和创建选件集的工具。
 >
 >在创建选件集之前，请确保将您打算用于该选件集的所有资源发布到Adobe Dynamic Media Classic。 请参阅[手动发布资源](publishing-files.md#manually_publishing_assets)和[手动取消发布资源](publishing-files.md#manually_unpublishing_assets)。
 
-## 优惠套餐的类型 {#types-of-offer-sets}
+## 选件集类型 {#types-of-offer-sets}
 
-从以下类型的优惠套餐创建一种优惠套餐：
+从以下类型的选件集创建选件集：
 
 * **图像**：您可以为选件集组合图像。 每个图像在集中都包含不同的选件。
 
-* **图像模板**：您可以在Adobe Dynamic Media Classic中使用将图像模板参数化 **[!UICONTROL 生成]** >模板基础命令。 通过参数，可换出及自定义模板的各组成部分（文本框架中的文本、不同的图像）。对于优惠套餐，举例来说，您可以使用模板参数在优惠套餐中的同一图像上创建变型。有关创建和参数化图像模板的信息，请参见 [创建模板参数](creating-template-parameters.md#creating_template_parameters).
+* **图像模板**：您可以在Adobe Dynamic Media Classic中使用将图像模板参数化 **[!UICONTROL 生成]** >模板基础命令。 通过参数、模板的组件、文本框架中的文本、不同的图像，可以进行调出和定制。 例如，对于选件集，您可以使用模板参数在选件集中的同一图像上创建变体。 有关创建和参数化图像模板的信息，请参见 [创建模板参数](creating-template-parameters.md#creating_template_parameters).
 
 另请参阅 [模板基础知识](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/553_Template%20Basics_converted%20renamed_Dynamic%20Banners-AVS) 训练视频。
 
@@ -47,7 +47,7 @@ Adobe Dynamic Media Classic提供了用于编辑和创建选件集的工具。
 
 ## 使用参数化模板创建选件集 {#creating-an-offer-set-with-a-parameterized-template}
 
-在创建优惠套餐时，“**[!UICONTROL 保存后发布]**”选项按以下方式影响集和集成员：
+在创建选件集时， **[!UICONTROL 保存后发布]** 选项会以下列方式影响集和集成员：
 
 | **[!UICONTROL 保存后发布]** 是否保存前已选择选项？ | 保存后的集状态 | 保存后的集成员状态 |
 | --- | --- | --- |
@@ -56,7 +56,7 @@ Adobe Dynamic Media Classic提供了用于编辑和创建选件集的工具。
 
 另请参阅[手动发布资源](publishing-files.md#manually_publishing_assets)和[手动取消发布资源](publishing-files.md#manually_unpublishing_assets)。
 
-**要使用参数化模板创建选件集，请执行以下操作：**
+**使用参数化模板创建选件集：**
 
 1. 选择模板或横幅。
 1. 转到 **[!UICONTROL 生成]** > **[!UICONTROL Test&amp;Target选件集]**.
@@ -68,7 +68,7 @@ Adobe Dynamic Media Classic提供了用于编辑和创建选件集的工具。
    此页面的左侧将列出模板中的参数和参数值。
 
 1. 更改参数值以创建优惠。例如，在文本字段中输入不同的文本，更改图层的大小，将一个图像交换给另一个图像，或选择不同的查看器预设。
-1. 选择 **[!UICONTROL 保存]** 或 **[!UICONTROL 另存为**]** 将选件另存为选件集的一部分。
+1. 选择 **[!UICONTROL 保存]** 或 **[!UICONTROL 另存为**]** 以将选件另存为选件集的一部分。
 
    Test&amp;Target选件集页面列出了您创建的选件。
 
@@ -76,11 +76,11 @@ Adobe Dynamic Media Classic提供了用于编辑和创建选件集的工具。
 1. 完成后，在页面的右下角附近，请确保 **[!UICONTROL 保存后发布*]** 处于选中状态（默认）。
 1. 选择 **[!UICONTROL 关闭]**，输入选件集的名称，然后选择 **[!UICONTROL 保存]**.
 
-在关闭“Test&amp;Target选件集”页面之前，请将选件集推送到Adobe Target Standard/Premium。 请参阅 [将选件集推送到Test&amp;Target](pushing-offer-sets-target.md#pushing_offer_sets_to_target).
+在关闭Test&amp;Target选件集页面之前，请将选件集推送到Adobe Target Standard/Premium。 请参阅 [将选件集推送到Test&amp;Target](pushing-offer-sets-target.md#pushing_offer_sets_to_target).
 
 ## 创建包含图像或视频的选件集 {#creating-an-offer-set-with-images-or-videos}
 
-在创建优惠套餐时，“**[!UICONTROL 保存后发布]**”选项按以下方式影响集和集成员：
+在创建选件集时， **[!UICONTROL 保存后发布]** 选项会以下列方式影响集和集成员：
 
 | **[!UICONTROL 保存后发布]** 是否保存前已选择选项？ | 保存后的集状态 | 保存后的集成员状态 |
 | --- | --- | --- |
@@ -134,7 +134,7 @@ Adobe Dynamic Media Classic提供了用于编辑和创建选件集的工具。
 
    >[!NOTE]
    >
-   >您无法删除与某个活动相关联的优惠套餐。要删除与促销活动关联的选件集，请登录Adobe Target Standard/Premium，然后先删除促销活动关联。 即使与营销活动取消关联，也只能从Adobe Dynamic Media Classic中删除资产，这需要登录到Adobe Target Standard/Premium，而不能从Adobe Target Standard/Premium中删除。
+   >您无法删除与活动关联的选件集。 要删除与促销活动关联的选件集，请登录Adobe Target Standard/Premium，然后先删除促销活动关联。 即使与营销活动取消关联，也只能从Adobe Dynamic Media Classic中删除资产，这需要登录到Adobe Target Standard/Premium，而不能从Adobe Target Standard/Premium中删除。
 
 1. 完成编辑后（靠近页面的右下角），请确保 **[!UICONTROL 保存后发布]** 处于选中状态（默认）。
 1. 选择 **[!UICONTROL 保存]**，选择一个存储文件夹，输入集的名称，然后选择 **[!UICONTROL 保存]**.

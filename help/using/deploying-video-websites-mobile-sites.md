@@ -10,20 +10,20 @@ role: User
 exl-id: 3df22d48-edb5-4927-aefb-104b53f81f1a
 topic: Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
 workflow-type: tm+mt
 source-wordcount: '1702'
-ht-degree: 26%
+ht-degree: 24%
 
 ---
 
 # 将视频部署到网站和移动站点{#deploying-video-to-your-websites-and-mobile-sites}
 
-网站、移动网站和桌面应用程序可使用URL字符串或嵌入代码访问Adobe Dynamic Media Classic服务器内容，包括视频。 Adobe Dynamic Media Classic在发布过程中激活这些URL字符串。 要将视频的URL字符串或嵌入代码置于网页、移动设备页面和桌面应用程序中，请从Adobe Dynamic Media Classic复制此项。
+网站、移动网站和桌面应用程序可使用URL字符串或嵌入代码访问Adobe Dynamic Media Classic服务器内容，包括视频。 Adobe Dynamic Media Classic在发布过程中激活这些URL字符串。 要将视频的URL字符串或嵌入代码放入网页、移动设备页面和桌面应用程序中，请从Adobe Dynamic Media Classic复制它们。
 
 >[!NOTE]
 >
->在发布资源之前，URL 或嵌入代码处于非活动状态。
+>在发布资产之前，URL或嵌入代码处于不活动状态。
 
 ## 发布视频 {#publishing-video}
 
@@ -82,7 +82,7 @@ ht-degree: 26%
 **要在网页上嵌入视频查看器，请执行以下操作：**
 
 1. 在资产浏览面板的显示下拉列表中，选择 **[!UICONTROL 视频]**，或 **[!UICONTROL 自适应视频集]**.
-1. 在左侧的“资源库”面板中，导航到包含要复制其嵌入代码的视频或自适应视频集的资源文件夹。
+1. 在左侧的“资产库”面板中，导航到资产文件夹，该文件夹包含要复制其嵌入代码的视频或自适应视频集。
 1. 在“资源浏览”面板上方的工具栏右侧，执行以下任一操作：
 
    * 选择 **[!UICONTROL 网格视图]** 或 **[!UICONTROL 列表视图]**. 在“资源浏览”面板中，双击单个资源的视频缩略图，以便在详细信息视图中将其打开。在右侧的“URL和嵌入代码”面板中的HTTP流下，选择 **[!UICONTROL 嵌入代码]** 位于所需查看器的右侧。 作为最佳实践，请选择 **[!UICONTROL 嵌入代码]** 与 `Universal_HTML5_Video` 查看者。
@@ -105,7 +105,7 @@ ht-degree: 26%
 1. 选择 **[!UICONTROL 关闭]**.
 1. 将嵌入代码粘贴到网页中。
 
-### 实施嵌入代码以便将HTML5视频与MP4视频资源结合使用 {#implementing-embed-code-for-using-html-video-with-mp-video-assets}
+### 实施嵌入代码以便在MP4视频资源中使用HTML5视频 {#implementing-embed-code-for-using-html-video-with-mp-video-assets}
 
 如果您没有使用Adobe Dynamic Media ClassicHTML5视频播放器，而是希望使用本机HTML5 `<video>` 标记时，您可以使用以下嵌入代码示例：
 

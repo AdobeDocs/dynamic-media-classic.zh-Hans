@@ -10,16 +10,16 @@ role: User
 exl-id: 2073d95b-1600-481f-8038-d29e8acacf7d
 topic: Administration, Content Management, Development
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
 workflow-type: tm+mt
-source-wordcount: '666'
-ht-degree: 27%
+source-wordcount: '671'
+ht-degree: 23%
 
 ---
 
 # 将缩放查看器链接到您的网页{#linking-zoom-viewers-to-your-web-pages}
 
-您的网站和应用程序可通过URL字符串或嵌入代码访问Dynamic Media图像服务器内容，包括主图像和相关缩放目标以及缩放查看器预设。 这些 URL 字符串在发布过程中被激活。要将这些URL字符串或嵌入代码置于网页和应用程序中，请从Adobe Dynamic Media Classic复制它们。
+您的网站和应用程序可通过URL字符串或嵌入代码访问Dynamic Media Image Server内容。 该访问包括主图像和相关缩放目标。 它还包含缩放查看器预设。 这些 URL 字符串在发布过程中被激活。要将这些URL字符串或嵌入代码置于网页和应用程序中，请从Adobe Dynamic Media Classic复制它们。
 
 >[!NOTE]
 >
@@ -53,9 +53,9 @@ ht-degree: 27%
 
 使用嵌入代码功能，您可以查看用于所选缩放查看器的查看器代码。您还可以将代码复制到剪贴板，以便将其粘贴到网页中用于部署查看器。 在“嵌入代码”对话框中不允许编辑代码。
 
-**要复制缩放查看器的嵌入代码：**
+**复制缩放查看器的嵌入代码：**
 
-1. 在左侧的“资源库”面板中，导航至要复制其嵌入代码的缩放查看器所在的资源文件夹。
+1. 在左侧的资产库面板中，导航到包含要复制其嵌入代码的缩放查看器的资产文件夹。
 1. 在“资源浏览”面板上方的工具栏右侧，执行以下任一操作：
 
    * 选择 **[!UICONTROL 网格视图]**. 在“资源浏览”面板中，双击单个资源以便在详细信息视图中将其打开。在右侧的“URL和嵌入代码”面板中，选择 **[!UICONTROL 嵌入代码]** 位于所需查看器的右侧。

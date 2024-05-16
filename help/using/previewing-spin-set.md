@@ -10,16 +10,16 @@ role: User
 exl-id: 6231a29e-d1b9-47d3-a23a-1940e91ebbc5
 topic: Content Management
 level: Intermediate
-source-git-commit: 914fde11270dc731a261da3305b29dd573584d93
+source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
 workflow-type: tm+mt
-source-wordcount: '255'
-ht-degree: 36%
+source-wordcount: '256'
+ht-degree: 28%
 
 ---
 
 # 预览旋转集{#previewing-a-spin-set}
 
-可以使用“查看器列表”预览资源在特定查看器类型平台（如 HTML5）上的显示情况。并不是所有平台都可在查看器列表中找到，这取决于您选择要预览的资源类型和关联的查看器。
+您可以使用查看器列表预览资源在特定查看器类型平台(如HTML5)上的显示方式。 并不是所有平台都可在查看器列表中找到，这取决于您选择要预览的资源类型和关联的查看器。
 
 请参阅 [配置默认查看器](application-setup.md#configuring_default_viewers).
 

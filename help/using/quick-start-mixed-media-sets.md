@@ -10,7 +10,7 @@ role: User
 exl-id: 757893ae-7507-42a0-a67b-f6542e7231c7
 topic: Content Management
 level: Beginner
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
 workflow-type: tm+mt
 source-wordcount: '656'
 ht-degree: 16%
@@ -21,7 +21,7 @@ ht-degree: 16%
 
 混合媒体集为用户提供了集成的观看体验。 混合媒体集可以包括图像、图像集、样本集、旋转集和视频。用户可以在混合媒体查看器中选择不同的选项卡，以查看不同查看器中的项目。 如果未指定选项卡，所有资源都将一起显示在样本行中。
 
-混合媒体集查看器预设包含社区选项，供最终用户嵌入代码、复制URL和链接到主网站。 用户可以使用这些选项在个人网站或社交网站上共享有关产品的信息。
+混合媒体集查看器预设包含社区选项，可供最终用户嵌入代码、复制URL和链接到主网站。 用户可以使用这些选项在个人网站或社交网站上共享有关产品的信息。
 
 此混合媒体集快速入门旨在通过Adobe Dynamic Media Classic中的混合媒体集技术让您快速启动并运行。
 

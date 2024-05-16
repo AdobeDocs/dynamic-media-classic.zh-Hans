@@ -10,10 +10,10 @@ role: User
 exl-id: df4e5218-2a66-413c-b247-b2a16d884041
 topic: Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
 workflow-type: tm+mt
-source-wordcount: '675'
-ht-degree: 24%
+source-wordcount: '676'
+ht-degree: 17%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 24%
 ## 复制图像集URL {#copying-an-image-set-url}
 
 1. 在资产浏览面板的显示下拉列表中，选择 **[!UICONTROL 图像集]**.
-1. 在左侧的“资源库”面板中，导航至要复制其嵌入代码的图像集所在的资源文件夹。
+1. 在左侧的“资产库”面板中，导航到资产文件夹，该文件夹包含要复制其嵌入代码的图像集。
 1. 在“资源浏览”面板上方的工具栏右侧，执行以下任一操作：
 
    * 选择 **[!UICONTROL 网格视图]**. 在“资源浏览”面板中，双击单个资源以便在详细信息视图中将其打开。在右侧的“URL和嵌入代码”面板中，选择 **[!UICONTROL 复制URL]** 位于所需查看器的右侧。
@@ -57,7 +57,7 @@ ht-degree: 24%
 **复制图像集查看器的嵌入代码：**
 
 1. 在资产浏览面板的显示下拉列表中，选择 **[!UICONTROL 图像集]**.
-1. 在左侧的“资源库”面板中，导航至要复制其嵌入代码的图像集所在的资源文件夹。
+1. 在左侧的“资产库”面板中，导航到资产文件夹，该文件夹包含要复制其嵌入代码的图像集。
 1. 在“资源浏览”面板上方的工具栏右侧，执行以下任一操作：
 
    * 选择 **[!UICONTROL 网格视图]**. 在“资源浏览”面板中，双击单个资源以便在详细信息视图中将其打开。在右侧的URL面板中，选择 **[!UICONTROL 嵌入代码]**.

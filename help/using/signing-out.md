@@ -1,6 +1,6 @@
 ---
 title: 登录和注销Adobe Dynamic Media Classic
-description: 了解如何登录和退出Adobe Dynamic Media Classic，以及连接到北美(NA)或欧洲、中东、非洲(EMEA)或亚太(APAC)的生产环境服务器。
+description: 了解如何登录和注销Adobe Dynamic Media Classic。 还了解如何连接到北美洲(NA)或欧洲、中东、非洲(EMEA)或亚太(APAC)的生产服务器。
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -10,9 +10,9 @@ role: Admin,User
 exl-id: 8d70db72-b02b-4915-b4c3-6efb146b7f08
 topic: Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
 workflow-type: tm+mt
-source-wordcount: '219'
+source-wordcount: '221'
 ht-degree: 7%
 
 ---

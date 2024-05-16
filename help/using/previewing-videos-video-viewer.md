@@ -10,9 +10,9 @@ role: User
 exl-id: b8d1a0b4-67ab-482d-a685-a087fb850143
 topic: Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
 workflow-type: tm+mt
-source-wordcount: '773'
+source-wordcount: '777'
 ht-degree: 21%
 
 ---
@@ -41,7 +41,7 @@ ht-degree: 21%
 
 >[!NOTE]
 >
->Adobe Dynamic Media Classic提供了一种在桌面上预览MP4视频的便捷方法。 使用此方法可在桌面上预览移动内容，而不必在移动设备上对其进行实际测试。但是，请注意，在桌面预览中看到的内容实际上不会显示播放在移动设备上的外观。 要预览视频在移动设备上的外观和播放方式，请转到“预览”屏幕，然后选择 **[!UICONTROL 复制URL]**，并在移动设备的Web浏览器中输入该URL。 有关更多信息，请参阅 [将视频部署到您的网站和移动网站](deploying-video-websites-mobile-sites.md#deploying_video_to_your_websites_and_mobile_sites).
+>Adobe Dynamic Media Classic提供了一种在桌面上预览MP4视频的便捷方法。 使用此方法可在桌面上预览移动内容，而不必在移动设备上对其进行实际测试。但是，请注意，在桌面预览中看到的内容实际上不会显示播放在移动设备上的外观。 要预览视频在移动设备上的外观和播放方式，请转到“预览”屏幕。 单击 **[!UICONTROL 复制URL]**，并在移动设备的Web浏览器中输入该URL。 有关更多信息，请参阅 [将视频部署到您的网站和移动网站](deploying-video-websites-mobile-sites.md#deploying_video_to_your_websites_and_mobile_sites).
 
 ## 使用视频查看器预设 {#working-with-video-viewer-presets}
 
@@ -67,7 +67,7 @@ Adobe Dynamic Media Classic附带许多用于播放视频的预定义查看器�
 
 1. 在Adobe Dynamic Media Classic的右上角附近，转到 **[!UICONTROL 设置]** > **[!UICONTROL 查看器预设]**.
 
-   要仅查看视频查看器的预设，请从表格正上方工具栏中打开的查看器下拉列表中选择Video Viewer 。
+   您可以选择仅查看视频查看器的预设。 在表格正上方的工具栏中，从打开的查看器下拉列表中选择视频查看器。
 
 1. 添加或编辑用于显示视频的“查看器预设”：
 

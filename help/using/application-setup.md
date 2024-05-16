@@ -10,9 +10,9 @@ role: Admin
 exl-id: 3f96606e-ef5c-4c01-aa0f-3148f14e28be
 topic: Administration
 level: Intermediate
-source-git-commit: 29752cf9eca0fc9bb760c721e1c3dc8e4ef912c3
+source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
 workflow-type: tm+mt
-source-wordcount: '10944'
+source-wordcount: '10945'
 ht-degree: 30%
 
 ---
@@ -49,7 +49,7 @@ ht-degree: 30%
 
 * **[!UICONTROL 渐进式视频服务器名称]**：您的 [!DNL Adobe Dynamic Media Classic] 渐进式视频服务器。 此服务器使用HTTP协议发送渐进式视频。
 
-* **[!UICONTROL 显示未发布资源的URL]**：如果您需要，请选择此选项 [!DNL Adobe Dynamic Media Classic] 在预览任何资源（无论是否已发布）时显示URL。 如果资源未发布，此 URL 将无效。但是，您可以使用 URL 进行计划或组织。
+* **[!UICONTROL 显示未发布资源的URL]**：如果您需要，请选择此选项 [!DNL Adobe Dynamic Media Classic] 以在预览任何资源（无论是否发布）时显示URL。 如果资源未发布，此 URL 将无效。但是，您可以使用 URL 进行计划或组织。
 
 <!-- **Allow AIR install** Select this option to allow users to download Adobe Dynamic Media Classic desktop version to their local hard drives. Users install the application from the Desktop Version area of the Personal Setup screen. -->
 
@@ -83,7 +83,7 @@ ht-degree: 30%
 
 * **[!UICONTROL 显示示例eVideo内容]**：打开或关闭eVideo示例内容的显示。
 
-* **[!UICONTROL 显示生成的内容]**：在文件夹中，显示从资源生成的内容。 例如，在上传时栅格化PDF文件时，Adobe Dynamic Media Classic会为原始PDF中的每个页面创建一个图像。 如果选择“显示生成的内容” ，则在上传原始PDF时生成的每个图像都会显示。 它与PDF上传到的文件夹中的PDF一起显示。
+* **[!UICONTROL 显示生成的内容]**：在文件夹中，它显示从资源生成的内容。 例如，在上传时栅格化PDF文件时，Adobe Dynamic Media Classic会为原始PDF中的每个页面创建一个图像。 如果选择“显示生成的内容” ，则在上传原始PDF时生成的每个图像都会显示。 它与PDF上传到的文件夹中的PDF一起显示。
 
 * **[!UICONTROL 显示已编码视频]**：默认取消选择（关闭）。
 
@@ -117,11 +117,11 @@ ht-degree: 30%
 
 * **[!UICONTROL 覆盖图像]**：Adobe Dynamic Media Classic不允许两个文件具有相同的名称。 每个项目的Adobe Dynamic Media Classic ID（图像名称减去文件扩展名）必须是唯一的。 由于此规则，“上载”对话框中有一个“覆盖”选项。该选项的准确效果取决于指定的“覆盖图像”选项。这些选项指定了如何上载替换图像：替换原始图像，还是成为重复图像。重复图像将使用“–1”进行重命名（例如，chair.tif将重命名为chair-1.tif）。 这些选项会影响上载到的文件夹与原始图像不同的图像，或文件扩展名（如 JPG、TIF 或 PNG）与原始图像不同的图像。请参阅 [使用“覆盖图像”选项](#using-the-overwrite-images-option).
 
-   * **[!UICONTROL 在当前文件夹内，使用相同的基本图像名称/扩展名进行覆盖]**：此选项是最严格的更换规则。 它要求您将替换图像上载到原始图像所在的文件夹中，并且该替换图像与原始图像具有相同的文件扩展名。如果不满足这些要求，则会创建重复的图像。
+   * **[!UICONTROL 覆盖当前文件夹中相同的基本图像名称或扩展名]**：此选项是最严格的更换规则。 它要求您将替换图像上载到原始图像所在的文件夹中，并且该替换图像与原始图像具有相同的文件扩展名。如果不满足这些要求，则会创建重复的图像。
 
    * **[!UICONTROL 在当前文件夹内，使用相同的基本资源名称（不论扩展名是什么）进行覆盖]**：要求您将替换图像上传到与原始图像相同的文件夹，但文件扩展名可能与原始图像不同。 例如，chair.tif 会替换 chair.jpg。
 
-   * **[!UICONTROL 在任意文件夹内，使用相同的基本资源名称和扩展名进行覆盖]**：要求替换图像具有与原始图像相同的文件扩展名（例如，chair.jpg必须替换chair.jpg，而不是chair.tif）。 但是，可以将替换图像上载到与原始图像不同的文件夹中。更新的图像位于新文件夹；而不再位于其原始位置
+   * **[!UICONTROL 在任意文件夹内，使用相同的基本资源名称或扩展名进行覆盖]**：要求替换图像具有与原始图像相同的文件扩展名。 例如，chair.jpg必须替换chair.jpg，而不是chair.tif)。 但是，可以将替换图像上载到与原始图像不同的文件夹中。更新的图像位于新文件夹；而不再位于其原始位置
 
    * **[!UICONTROL 在任意文件夹内，使用相同的基本资源名称（不论扩展名是什么）进行覆盖]**：此选项是最具包容性的替换规则。 可以将替换图像上载到与原始文件所在文件夹不同的文件夹，使用不同的文件扩展名上载文件，并替换原始文件。如果原始文件在不同的文件夹中，替换图像则位于其所上载至的新文件夹。
 
@@ -719,7 +719,7 @@ URL 即复制到剪贴板中。您可以根据需要在网页、移动设备或�
 
 在“嵌入代码”对话框中不允许编辑代码。
 
-**要复制查看器预设的嵌入代码：**
+**复制查看器预设的嵌入代码：**
 
 1. 在“资源浏览”面板中选择资源。
 1. 在“资源浏览”面板上方的工具栏右侧，执行以下任一操作：

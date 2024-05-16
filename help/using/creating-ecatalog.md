@@ -10,10 +10,10 @@ role: User
 exl-id: 51d411b2-b4bc-4cf6-afca-dd0ed0d219a1
 topic: Integrations, Development
 level: Experienced
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
 workflow-type: tm+mt
-source-wordcount: '976'
-ht-degree: 44%
+source-wordcount: '982'
+ht-degree: 38%
 
 ---
 
@@ -25,9 +25,9 @@ ht-degree: 44%
 
 您可以在eCatalog中包含图像文件和PDF文件。
 
-在创建 eCatalog 时，“**[!UICONTROL 保存后发布]**”选项按以下方式影响集和集成员：
+创建eCatalog时， **[!UICONTROL 保存后发布]** 选项会以下列方式影响集和集成员：
 
-| 在保存前是否选择了“保存后发布”选项？ | 保存后的集状态 | 保存后的集成员状态 |
+| 保存前选择了“保存后发布”选项？ | 保存后的集状态 | 保存后的集成员状态 |
 | --- | --- | --- |
 | 是 | 已发布 | 已发布 |
 | 否 | 未发布 | 集成员保持其已发布或未发布状态。 |
@@ -56,7 +56,7 @@ ht-degree: 44%
 
    * **序列号**：在列表视图中，在序号字段中输入页码。
 
-1. 完成后，确保在页面右下角附近选择了“**[!UICONTROL 保存后发布]**”（默认）。
+1. 完成后，在页面的右下角附近，请确保 **[!UICONTROL 保存后发布]** 处于选中状态（默认）。
 1. 选择 **[!UICONTROL 保存]**.
 1. 在“保存”对话框中，选择一个文件夹以存储您的 eCatalog。在“文件名”字段中，输入旋转集名称。
 1. 选择 **[!UICONTROL 保存]**.
@@ -80,7 +80,7 @@ ht-degree: 44%
 
 1. 选择eCatalog的变换 **[!UICONTROL 编辑]** 按钮。
 1. 根据需要，进行相应的更改。
-1. 在完成编辑后，确保在页面右下角附近选择了“**[!UICONTROL 保存后发布]**”（默认）。
+1. 完成编辑后，在页面的右下角附近，请确保 **[!UICONTROL 保存后发布]** 处于选中状态（默认）。
 1. 选择 **[!UICONTROL 保存]**，选择一个存储文件夹，输入集的名称，然后选择 **[!UICONTROL 保存]**.
 
 ## 删除eCatalog

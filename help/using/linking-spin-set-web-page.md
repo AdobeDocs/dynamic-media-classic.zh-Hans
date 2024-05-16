@@ -10,16 +10,16 @@ role: User
 exl-id: af75547e-20e8-44c2-b165-01532d6e21d0
 topic: Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
 workflow-type: tm+mt
 source-wordcount: '727'
-ht-degree: 30%
+ht-degree: 23%
 
 ---
 
 # 将旋转集链接到网页{#linking-a-spin-set-to-a-web-page}
 
-网站和应用程序通过URL字符串或嵌入代码访问Dynamic Media Image Server内容，包括旋转集。 这些 URL 字符串在发布过程中被激活。要将旋转集的URL字符串或嵌入代码置于网页和应用程序中，请从Adobe Dynamic Media Classic复制该字符串或嵌入代码。
+网站和应用程序通过URL字符串或嵌入代码访问Dynamic Media Image Server内容，包括旋转集。 这些 URL 字符串在发布过程中被激活。要将旋转集的URL字符串或嵌入代码放置到网页和应用程序中，请从Adobe Dynamic Media Classic复制该字符串或嵌入代码。
 
 >[!NOTE]
 >
@@ -28,7 +28,7 @@ ht-degree: 30%
 ## 复制旋转集URL {#copying-a-spin-set-url}
 
 1. 在资产浏览面板的显示下拉列表中，选择 **[!UICONTROL 旋转集]**.
-1. 在左侧的“资源库”面板中，导航至要复制其嵌入代码的旋转集所在的资源文件夹。
+1. 在左侧的“资产库”面板中，导航到包含要复制其嵌入代码的旋转集的资产文件夹。
 1. 在“资源浏览”面板上方的工具栏右侧，执行以下任一操作：
 
    * 选择 **[!UICONTROL 网格视图]**. 在“资源浏览”面板中，双击单个资源以便在详细信息视图中将其打开。在右侧的“URL和嵌入代码”面板中，选择 **[!UICONTROL 复制URL]** 位于所需查看器的右侧。
@@ -61,7 +61,7 @@ https://sample.scene7.com/s7ondemand/spin/viewer.jsp?company=S7Web&sku=backpack_
 **复制旋转集查看器的嵌入代码：**
 
 1. 在资产浏览面板的显示下拉列表中，选择 **[!UICONTROL 旋转集]**.
-1. 在左侧的“资源库”面板中，导航至要复制其嵌入代码的旋转集所在的资源文件夹。
+1. 在左侧的“资产库”面板中，导航到包含要复制其嵌入代码的旋转集的资产文件夹。
 1. 在“资源浏览”面板上方的工具栏右侧，执行以下任一操作：
 
    * 选择 **[!UICONTROL 网格视图]**. 在“资源浏览”面板中，双击单个资源以便在详细信息视图中将其打开。在右侧的“URL和嵌入代码”面板中，选择 **[!UICONTROL 嵌入代码]** 位于所需查看器的右侧。

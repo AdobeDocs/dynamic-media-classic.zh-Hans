@@ -10,10 +10,10 @@ role: User
 exl-id: aec4c256-f5ed-4307-afec-dec848be95f9
 topic: Content Management
 level: Intermediate
-source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
+source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
 workflow-type: tm+mt
 source-wordcount: '557'
-ht-degree: 35%
+ht-degree: 31%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 35%
 
 >[!NOTE]
 >
->裁切后，您可以选择 **[!UICONTROL 另存为]** 并使用其他名称保存该图像的裁剪版本。 在“另存为”窗口中，选择 **[!UICONTROL 另存为新的主要播放器]** 以保存图像的第二个副本。 选择 **[!UICONTROL 另存为主要播放器的添加视图]** 因此，您可以使用其他名称保存原始版本及其裁切版本。 选择 **[!UICONTROL 替换原始]** 删除从中裁切图像的原始文件。 然后输入图像的名称，并选择 **[!UICONTROL 提交]**.
+>裁剪后，您可以选择 **[!UICONTROL 另存为]** 并使用其他名称保存该图像的裁剪版本。 在“另存为”窗口中，选择 **[!UICONTROL 另存为新的主要播放器]** 以保存图像的第二个副本。 选择 **[!UICONTROL 另存为主要播放器的添加视图]** 因此，您可以使用其他名称保存原始版本及其裁切版本。 选择 **[!UICONTROL 替换原始]** 删除从中裁切图像的原始文件。 然后输入图像的名称，并选择 **[!UICONTROL 提交]**.
 
 ## 裁切以删除图像周围的空白区域 {#crop-to-remove-white-space-around-an-image}
 
@@ -50,7 +50,7 @@ ht-degree: 35%
 1. 在“裁切编辑器”窗口中，将您不希望裁切的图像部分放入裁切框中。 框内显示的任何内容都是选择后要保留的内容 **[!UICONTROL 保存]** 并裁切图像。
 1. 要调整裁切区域，请执行以下任一操作：
 
-   * 拖动框的一边或一角。拖动时，按住 Shift 键，以更改大小，但保持裁切框的高宽比（形状）不变。
+   * 拖动框的一边或一角。拖动时按住Shift键可更改裁切框的大小，但保持其长宽比（形状）。
    * 在“大小”框中输入像素大小。
    * 拖动以移动裁切框。将鼠标指针移动到该框边界内。当指针显示为四向箭头时，将裁切框拖动到图像上的新位置。
 

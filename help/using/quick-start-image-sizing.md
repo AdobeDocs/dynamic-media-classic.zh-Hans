@@ -10,10 +10,10 @@ role: User
 topic: Content Management
 level: Beginner
 exl-id: f1d46f03-57a1-43d8-a0ee-74b92b590736
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
 workflow-type: tm+mt
-source-wordcount: '877'
-ht-degree: 10%
+source-wordcount: '873'
+ht-degree: 6%
 
 ---
 
@@ -21,8 +21,8 @@ ht-degree: 10%
 
 图像大小调整是指Adobe Dynamic Media Classic根据单个高分辨率图像创建多个派生图像的功能。 您无需为网站或应用程序手动创建多个图像（例如，缩略图和放大的视图图像），而是提供单个主图像。 Adobe Dynamic Media Classic会生成您请求的所有修改后的图像。 能够从单个主映像动态投放映像有许多优点：
 
-* 不必手动创建多个不同大小的图像副本。您向Adobe Dynamic Media Classic提供一个主映像，Adobe Dynamic Media Classic会从主映像生成不同大小的派生项。
-* 您可以在整个网站或应用程序中快速更改图像类型的大小。 例如，要更改所有缩略图图像，您可以修改“缩略图”图像预设。 图像预设（与宏类似）是大小和格式设置属性的集合。 您可以修改“缩略图”图像预设，以更改整个网站或应用程序中的所有缩略图图像的大小。
+* 无需手动创建多个不同大小的映像副本。 您向Adobe Dynamic Media Classic提供一个主映像，Adobe Dynamic Media Classic会从主映像生成不同大小的派生项。
+* 您可以在整个网站或应用程序中快速更改图像类型的大小。 例如，要更改所有缩略图图像，您可以修改“缩略图”图像预设。 图像预设 — 它类似于宏 — 是大小和格式属性的集合。 您可以修改“缩略图”图像预设，以更改整个网站或应用程序中的所有缩略图图像的大小。
 * 您无需在内部或外部管理您的任何内容或资产管理系统中的主文件和所有各种衍生工具。
 
 ![您可以根据同一高分辨率主文件创建大小不同的多个派生图像。](/help/using/assets/is_derivative_sizes_popup.png)
@@ -39,7 +39,7 @@ ht-degree: 10%
 
 ## 2.设置图像预设
 
-像宏一样，图像预设是用某个名称保存的一组预定义大小和格式命令。图像预设可控制从Dynamic Media图像服务器传送图像的大小和格式。 如果您是公司的管理员，则可以自己设置图像预设。Adobe Dynamic Media Classic还随附了默认的图像预设，您可以使用这些预设动态交付图像。
+像宏一样，图像预设是用某个名称保存的一组预定义大小和格式命令。图像预设可控制从Dynamic Media图像服务器传送图像的大小和格式。 如果您拥有公司管理员状态，则可以自行设置图像预设。 您可以使用已随Adobe Dynamic Media Classic提供的默认图像预设动态交付图像。
 
 要创建图像预设（如果您是管理员），请在全局导航栏上，转到 **[!UICONTROL 设置]** > **[!UICONTROL 应用程序设置]** > **[!UICONTROL 图像预设]**. 然后选择 **[!UICONTROL 添加]** 以创建图像预设，或选择 **[!UICONTROL 编辑]** 以更改现有的图像预设。
 
@@ -66,6 +66,6 @@ ht-degree: 10%
 
 ## 5.将URL链接到您的Web应用程序
 
-Adobe Dynamic Media Classic为图像创建URL标注字符串。 在将图像发布到Dynamic Media图像服务器时，URL会变为活动状态。 您可以从“浏览”面板（在“详细信息视图”中）或“预览”屏幕复制这些URL字符串。 复制URL字符串后，您可以在网站和应用程序中使用它们。 用于调整图像大小的URL将替换网页代码中对静态图像名称的引用。 URL引用主图像名称，该名称将由数据库替换，以便显示每个新图像。
+Adobe Dynamic Media Classic为图像创建URL标注字符串。 在将图像发布到Dynamic Media图像服务器时，URL会变为活动状态。 您可以从“浏览”面板（在“详细信息视图”中）或“预览”屏幕复制这些URL字符串。 复制URL字符串后，您可以在网站和应用程序中使用它们。 用于调整图像大小的URL将替换网页代码中对静态图像名称的引用。 URL引用了数据库为要显示的每个新图像替换的主图像名称。
 
 由图像预设生成的 URL 字符串包含图像预设的名称。这个名称用美元符号括起来(`$`)。 例如， `$thumbnail$` 可以是旨在以缩略图大小显示主图像的图像预设。 请参阅 [将URL链接到您的Web应用程序](linking-urls-web-application.md#linking_urls_to_your_web_application).

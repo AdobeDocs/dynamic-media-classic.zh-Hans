@@ -10,10 +10,10 @@ role: User
 exl-id: 1157400c-b33a-422e-848c-258660ddc748
 topic: Content Management
 level: Beginner
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
 workflow-type: tm+mt
 source-wordcount: '1443'
-ht-degree: 28%
+ht-degree: 25%
 
 ---
 
@@ -76,7 +76,7 @@ Adobe Dynamic Media Classic Video是一款端到端解决方案，可让您轻�
    * 兼有视频和图像内容的混合媒体查看器。
 
 * 配置视频播放器来满足您的品牌需求。
-* 通过简单的 URL 或嵌入代码将视频集成到您的网站、移动站点或移动应用程序中。
+* 将视频与简单URL或嵌入代码集成到您的网站、移动网站或移动应用程序。
 
 请观看以下培训视频：
 * [MP4视频概述](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/563_MP4%20Video%20Overview_converted%20renamed_eVideos-AVS)
@@ -146,7 +146,7 @@ Adobe Dynamic Media Classic提供了大量预定义的视频编码预设。 这�
 
 * 显示嵌入到网页中的视频，在此情况下，使用 **[!UICONTROL 嵌入代码]** 功能。
 
-  要获取视频的嵌入代码，请在网格视图或列表视图的浏览面板中选择该视频。转到 **[!UICONTROL 预览]** > **[!UICONTROL 查看器列表]**. 在表的“操作”列下，选择 **[!UICONTROL 嵌入代码]** 右侧 `Universal_HTML5_Video`. 不允许编辑代码。
+  要获取视频的嵌入代码，请在网格视图或列表视图中，在浏览面板中选择视频。 转到 **[!UICONTROL 预览]** > **[!UICONTROL 查看器列表]**. 在表的“操作”列下，选择 **[!UICONTROL 嵌入代码]** 右侧 `Universal_HTML5_Video`. 不允许编辑代码。
 
   选择 **[!UICONTROL 关闭]** 并将嵌入代码粘贴到一个或多个网页中。
 

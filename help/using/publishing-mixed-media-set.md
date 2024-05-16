@@ -10,10 +10,10 @@ role: User
 exl-id: 1fca9640-d127-454a-b3aa-b2ac82136e62
 topic: Content Management
 level: Intermediate
-source-git-commit: 5b5dcd1199bd51ec987b5673fce75bc86baad55b
+source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
 workflow-type: tm+mt
-source-wordcount: '261'
-ht-degree: 17%
+source-wordcount: '262'
+ht-degree: 12%
 
 ---
 
@@ -49,7 +49,7 @@ Last Modified Date:
 1. 在全局导航栏上，选择 **[!UICONTROL Publish]**.
 1. 设置所需的计划选项。
 1. （可选）在 **[!UICONTROL 作业名称]** 字段中，键入发布作业的名称。
-1. 在“**[!UICONTROL 高级]**”选项的“**[!UICONTROL 发布至]**”下拉列表中，选择“**[!UICONTROL 视频服务器]**”。
+1. 在 **[!UICONTROL 高级]** 选项，在 **[!UICONTROL 发布到]** 下拉列表，选择 **[!UICONTROL 视频服务器]**.
 
    请参阅 [高级发布选项](publishing-files.md#advanced_publish_options) 有关更多选项，您可以设置。
 
