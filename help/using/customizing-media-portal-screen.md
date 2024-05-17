@@ -10,10 +10,10 @@ role: Admin,User
 exl-id: b0c5f70a-2388-42aa-a1ed-fd745ff90518
 topic: Collaboration, Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 00591bdbe721035e25d3dea245a2110f978d19aa
 workflow-type: tm+mt
-source-wordcount: '348'
-ht-degree: 16%
+source-wordcount: '327'
+ht-degree: 17%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 16%
 
 * **[!UICONTROL 应用程序]**：通过在“背景渐变颜色”菜单上进行选择来创建渐变颜色混合。
 
-* **[!UICONTROL 树]**：选择变换颜色（将指针移动到项目上时显示的颜色）和选择颜色（选择项目时显示的颜色）。
+* **[!UICONTROL 树]**：选择变换颜色和选择颜色。
 
 * **[!UICONTROL 折叠]**：为在“详细信息”视图中显示在屏幕右侧的折叠选择背景颜色、边框样式以及变换颜色和所选颜色。
 

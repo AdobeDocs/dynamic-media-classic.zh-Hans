@@ -10,10 +10,10 @@ role: Admin,User
 exl-id: 9590c53c-fd38-4bf2-b723-cd7369702364
 topic: Administration
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: bb229047c0c9b3855453ea15dcd1f9754bc65cef
 workflow-type: tm+mt
-source-wordcount: '1010'
-ht-degree: 54%
+source-wordcount: '1008'
+ht-degree: 50%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 54%
 
 >[!NOTE]
 >
->在添加用户之前，请设置用于管理这些用户的组。Media Portal 不允许仅添加用户而不将该用户指定到一个或多个组。有关更多信息，请参阅 [创建和管理Media Portal组](creating-media-portal-groups.md#creating_and_managing_media_portal_groups).
+>在添加用户之前，请设置用于管理这些用户的组。Media Portal允许您通过将用户分配到一个或多个组来添加用户。 有关更多信息，请参阅 [创建和管理Media Portal组](creating-media-portal-groups.md#creating_and_managing_media_portal_groups).
 
 ## 管理Media Portal密码 {#handling-media-portal-passwords}
 
@@ -95,7 +95,7 @@ ht-degree: 54%
 
 >[!NOTE]
 >
->如果CSV文件的格式不正确，则会显示以下错误消息：“处理上传的CSV文件时出错。 检查文件内容以获得有效数据。” 此外，如果 CSV 包含现有 IP 或 IPS 用户，则该用户不会添加到“用户列表”中。
+>如果CSV文件的格式不正确，则会显示以下错误消息：“处理上传的CSV文件时出错。 检查文件内容以获得有效数据。” 此外，如果CSV包含现有IP或IPS用户，则该用户不会添加到用户列表中。
 
 ## 生成一个可选择的 Media Portal 用户列表 {#generating-a-selectable-list-of-media-portal-users}
 

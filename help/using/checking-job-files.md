@@ -10,16 +10,16 @@ role: User
 exl-id: b6b11e1c-5eda-4bdb-8ffb-ecd3678f2352
 topic: Administration, Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: bb229047c0c9b3855453ea15dcd1f9754bc65cef
 workflow-type: tm+mt
-source-wordcount: '1619'
-ht-degree: 24%
+source-wordcount: '1622'
+ht-degree: 23%
 
 ---
 
 # 检查作业文件{#checking-job-files}
 
-要监控文件上传到Adobe Dynamic Media Classic以及您发布到Adobe Dynamic Media Classic服务器的文件，Adobe Dynamic Media Classic提供了“作业”页面。 您可以在“作业”页中查看上载和发布作业，并通过该页检查作业状态和取消发布作业。您也可以计划上载和发布作业。
+要监控文件上传到Adobe Dynamic Media Classic以及您发布到Adobe Dynamic Media Classic服务器的文件，Adobe Dynamic Media Classic提供了“作业”页面。 您可以在“作业”页面上查看、上载和发布作业，检查作业的状态，以及取消从此页面发布作业。 您也可以计划上载和发布作业。
 
 在您上载资源时，“作业”菜单旁会显示一个旋转的图标，指示作业正在进行中以及进行中的文件的数量。您可以选择图标以查看有关活动作业的详细信息。
 
@@ -49,7 +49,7 @@ ht-degree: 24%
 
 * **[!UICONTROL 状态]**：显示作业的状态。
 
-* **[!UICONTROL 目标]**：对于上载作业，包含公司名称和文件上载到的文件夹。 此类别不适用于要发布的作业。
+* **[!UICONTROL 目标]**：对于上载作业，目标是将文件上载到的公司名称和文件夹。 此类别不适用于要发布的作业。
 
 * **[!UICONTROL 提交者]**：列出上传资源的用户。
 
