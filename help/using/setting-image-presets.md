@@ -10,10 +10,10 @@ role: User
 exl-id: 336802cc-b032-49b2-b2e6-d699bc997ee5
 topic: Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
 workflow-type: tm+mt
 source-wordcount: '667'
-ht-degree: 34%
+ht-degree: 32%
 
 ---
 
@@ -27,7 +27,7 @@ Adobe Dynamic Media Classic附带多个“最佳实践”图像预设，这些�
 
 ## 创建图像预设 {#creating-an-image-preset}
 
-如果您是公司的管理员，则可以创建自己的图像预设。您可以创建图像预设，也可以从Adobe Dynamic Media Classic提供的默认图像预设开始，编辑图像预设并使用新名称保存它。
+如果您是公司管理员，则可以创建自己的图像预设。 您可以创建图像预设，也可以从Adobe Dynamic Media Classic提供的默认图像预设开始，编辑图像预设并使用新名称保存它。
 
 **要创建图像预设，请执行以下操作：**
 

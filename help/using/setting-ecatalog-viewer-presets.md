@@ -9,7 +9,7 @@ role: User
 exl-id: 4357e6b8-fbc5-4e93-9476-db92a7dc7464
 topic: Integrations, Development
 level: Experienced
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
 workflow-type: tm+mt
 source-wordcount: '482'
 ht-degree: 25%
@@ -48,7 +48,7 @@ eCatalog查看器预设提供了许多设置，可用于在页面之间切换、
    | `$2$` | frame | 图像集中当前显示的帧的序号。 |
    | `$3$` | 图像根 | 在图像命令中指定的第一个物品的第一个路径元素（通常为指定图像集的目录条目的图像目录 ID）。 |
 
-1. （可选）在 **[!UICONTROL 信息面板设置]**，在 **[!UICONTROL 响应模板]** 框中，键入在Adobe Dynamic Media Classic检索图像映射信息时遇到错误时要显示的文本。 例如，如果系统收到公司名称和 eCatalog 名称，但是没有变换标识符，则将为用户显示该消息。
+1. （可选）在 **[!UICONTROL 信息面板设置]**，在 **[!UICONTROL 响应模板]** 框中，键入当Adobe Dynamic Media Classic在检索图像映射信息时遇到错误时要显示的文本。 例如，如果系统收到公司名称和 eCatalog 名称，但是没有变换标识符，则将为用户显示该消息。
 
 >[!NOTE]
 >

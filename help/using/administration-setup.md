@@ -9,9 +9,9 @@ role: Admin
 exl-id: 14e3d8be-f265-4cec-aa8e-19ef71526b68
 topic: Administration
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
 workflow-type: tm+mt
-source-wordcount: '1971'
+source-wordcount: '1974'
 ht-degree: 32%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 32%
 
 # 管理设置{#administration-setup}
 
-“管理设置”屏幕用于管理Adobe Dynamic Media Classic用户。 使用这些屏幕使用户能够在Adobe Dynamic Media Classic中工作并通过电子邮件与用户通信。
+“管理设置”屏幕用于管理Adobe Dynamic Media Classic用户。 使用这些屏幕使用户能够在Adobe Dynamic Media Classic中工作并通过电子邮件与其他用户通信。
 
 1. 要访问管理设置选项，请转到 **设置** > **个人设置** > **管理设置**.
 
@@ -28,7 +28,7 @@ ht-degree: 32%
 
 将为所有Adobe Dynamic Media Classic用户分配一个角色，该角色可确定用户对Adobe Dynamic Media Classic中各项功能的权限和访问权限。 管理员会为自己负责的公司确定不同角色和职责。
 
-通常，Adobe Dynamic Media Classic会配置第一组公司并分配公司管理员。 然后，公司管理员将设置和管理Adobe Dynamic Media Classic用户。
+通常，Adobe Dynamic Media Classic配置第一组公司并分配公司管理员。 然后，公司管理员将设置和管理Adobe Dynamic Media Classic用户。
 
 Adobe Dynamic Media Classic支持多个用户角色。 这些角色可以访问为Adobe Dynamic Media Classic设置的公司：
 
@@ -109,7 +109,7 @@ Adobe Dynamic Media Classic支持多个用户角色。 这些角色可以访问�
 
 * **过滤掉无效用户**：取消选择 **[!UICONTROL 包含无效]**. 搜索结果只显示系统中的用户。已从系统和您管理的帐户中删除无效用户。
 
-* **按列标题排序**：选择一个标题以按状态对所有用户进行排序，按名字、姓氏或电子邮件的字母顺序、用户角色或有效/无效状态。
+* **按列标题排序**：选择标题以按状态对所有用户进行排序，并按名字、姓氏或电子邮件的字母顺序进行排序。 或者，按用户角色或有效/无效状态排序。
 
 如果您有许多用户，可以通过选择“最大列表大小”菜单并选择一个数值来限制列表的大小。
 
@@ -154,7 +154,7 @@ Adobe Dynamic Media Classic管理员可以为他们管理的公司生成带宽�
 | 报告 | 信息 | 用途 |
 |:--- |:--- |:--- |
 | 带宽 | 公司的带宽使用情况 | 跟踪公司在特定日期范围内的带宽使用量，以确定流量模式。 |
-| 存储 | 存储使用情况 | 跟踪公司上载的数据量。 |
+| 存储 | 存储使用情况 | 跟踪公司上传的数据量。 |
 | 图像内容 | 按类型划分的图像请求数目 | 跟踪不同图像类型的请求数量和容量。 |
 | 域 | 按域划分的 URL 请求数目 | 根据特定公司的图像请求的域，跟踪图像使用情况。(Adobe Dynamic Media Classic可以为每个帐户提供多个域。 有关更多信息，请联系技术支持。） |
 | 视频流 | 流视频的带宽使用情况 | 跟踪公司在特定日期范围内的流视频使用情况，以确定流量模式。 |
@@ -170,9 +170,9 @@ Adobe Dynamic Media Classic管理员可以为他们管理的公司生成带宽�
 
 * **查看器磁贴请求**：查看器加载的图像请求。
 
-* **Vnt对象请求**：返回图像的图像渲染请求，该图像包含所请求晕影中的指定对象。
+* **VNT对象请求**：返回图像的图像渲染请求，该图像包含所请求晕影中的指定对象。
 
-* **Vnt信息请求**：返回有关所请求晕影信息的图像渲染请求。
+* **VNT信息请求**：返回有关所请求晕影信息的图像渲染请求。
 
 >[!NOTE]
 >
@@ -202,7 +202,7 @@ Adobe Dynamic Media Classic管理员可以为他们管理的公司生成带宽�
 
 * **自定义时间段**：在预定义报表菜单上，选择 **[!UICONTROL 自定义]**. 然后，在 **[!UICONTROL 开始月份]** (或 **[!UICONTROL 开始日期]**)菜单和月数（或天或月数）菜单上的日期。 对于域报告和视频内容报告，您可以为捕获报告信息选择特定的开始和结束日期。
 
-* **排序数据（仅限数据视图）**：要对列的信息进行排序，请选择列的标题。 再次选择可按降序排序。
+* **排序数据（仅限数据视图）**：对列中的信息排序。 选择列的标题。 再次选择可按降序排序。
 
 * **重新排列列（仅限数据视图）**：要将列移动到数据网格上的其他位置，请拖动其标题。
 

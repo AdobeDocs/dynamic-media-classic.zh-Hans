@@ -10,9 +10,9 @@ role: Admin,User
 exl-id: 708f32f1-fdbb-4a32-a1b7-836c99b458be
 topic: Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
 workflow-type: tm+mt
-source-wordcount: '183'
+source-wordcount: '185'
 ht-degree: 14%
 
 ---
@@ -39,6 +39,6 @@ ht-degree: 14%
 * Adobe Dynamic Media Classic公司名称。
 * 您的姓名、电话号码和电子邮件地址。
 * Adobe Dynamic Media Classic应用程序、平台和版本。
-* 问题描述和重现问题所需的步骤。
+* 问题的描述以及重现问题所需的步骤。
 * 错误消息（如果有）。
 * 浏览器的类型和版本（如果适用）。

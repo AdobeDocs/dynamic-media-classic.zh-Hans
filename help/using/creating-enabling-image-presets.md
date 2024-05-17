@@ -10,16 +10,16 @@ role: Admin,User
 exl-id: 94c6c388-226b-4172-a6c7-a8dcf9c0f0cf
 topic: Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
 workflow-type: tm+mt
-source-wordcount: '256'
-ht-degree: 49%
+source-wordcount: '258'
+ht-degree: 48%
 
 ---
 
 # 创建和启用图像预设{#creating-and-enabling-image-presets}
 
-当用户使用 Media Portal 导出图像资源时，他们可以在“导出所选资源”对话框中选择一种“图像预设”。图像预设是预定义设置的集合，这些设置可在导出图像时更改图像的大小、图像质量、格式、分辨率及其他外观方面。
+当用户使用 Media Portal 导出图像资源时，他们可以在“导出所选资源”对话框中选择一种“图像预设”。图像预设是预定义设置的集合。 这些设置可以在导出图像时更改图像的外观大小、图像质量、格式、分辨率和其他方面。
 
 Media Portal 管理员可以创建图像预设，以便控制导出时如何重设它们的格式。当用户从Adobe Dynamic Media Classic导出图像时，图像预设会根据贵公司的规范重新设置图像的格式。 用户按照“图像预设”的精确规范导出图像，而非自已重设图像的格式。
 

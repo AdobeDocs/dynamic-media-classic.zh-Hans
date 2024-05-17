@@ -10,16 +10,16 @@ role: Admin
 exl-id: f76b0e09-f148-46aa-b710-ec35bfebcb37
 topic: Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
 workflow-type: tm+mt
-source-wordcount: '1019'
-ht-degree: 30%
+source-wordcount: '1022'
+ht-degree: 27%
 
 ---
 
 # 视频 SEO（搜索引擎优化）{#video-seo-search-engine-optimization}
 
-SEO 是改进从搜索引擎到网站流量的过程。虽然搜索引擎擅长收集有关基于文本的内容，但却无法充分获取有关视频的信息，除非向它们提供此信息。
+SEO 是改进从搜索引擎到网站流量的过程。尽管搜索引擎在收集有关文本内容的信息方面表现出色，但它们无法充分获取有关视频的信息。 必须向他们提供这种资料。
 
 使用Adobe Dynamic Media Classic视频SEO，您可以应用视频元数据以为搜索引擎提供视频描述。 Adobe Dynamic Media Classic使您能够创建视频站点地图和mRSS源。 这些标准XML文件用于将视频信息提交到搜索引擎：
 
@@ -45,7 +45,7 @@ Adobe Dynamic Media Classic会在生成视频站点地图和mRSS源之后创建�
 
 ## 选择视频SEO设置
 
-在上选择视频站点地图和mRSS源的视频SEO设置 **[!UICONTROL 视频搜索引擎优化设置]** 页面。 要打开此页面，请在全局导航栏上，转到 **[!UICONTROL 设置]** > **[!UICONTROL 应用程序设置]** > **[!UICONTROL 视频SEO]** > **[!UICONTROL 设置]**.
+在上为视频站点地图和mRSS源选择视频SEO设置 **[!UICONTROL 视频搜索引擎优化设置]** 页面。 要打开此页面，请在全局导航栏上，转到 **[!UICONTROL 设置]** > **[!UICONTROL 应用程序设置]** > **[!UICONTROL 视频SEO]** > **[!UICONTROL 设置]**.
 
 在 **[!UICONTROL 常规设置]** 区域，选择是生成视频站点地图、mRSS馈送还是同时生成两者。 在 **[!UICONTROL 生成设置]** 区域，将元数据字段映射到输入字段。
 
@@ -65,7 +65,7 @@ Adobe Dynamic Media Classic会在生成视频站点地图和mRSS源之后创建�
 
 在 **[!UICONTROL 自动/手动模式]** 下拉列表，选择是自动生成还是手动生成：
 
-* **自动模式**：Adobe Dynamic Media Classic每天自动生成一个视频站点地图、Media RSS (mRSS)馈送或（和）。 选择 **[!UICONTROL 标记为发布]** 用于自动标记为发布Adobe Dynamic Media Classic生成的XML文件的选项。
+* **自动模式**：Adobe Dynamic Media Classic每天自动生成一个视频站点地图、Media RSS (mRSS)馈送或（和）。 选择 **[!UICONTROL 标记为发布]** 选项，以便您可以自动标记为发布Adobe Dynamic Media Classic生成的XML文件。
 
    * **标记为发布** 标记为发布生成的XML文件。
 
@@ -79,7 +79,7 @@ Adobe Dynamic Media Classic会在生成视频站点地图和mRSS源之后创建�
 
 ### 选择生成设置 {#choosing-generation-settings}
 
-“生成设置”区域列出了视频站点地图和/或mRSS馈送的输入字段，在“元数据”面板中列出了元数据字段的名称。 使用“常规设置”区域来将输入字段映射到元数据字段。这样，您就可以告知Adobe Dynamic Media Classic从何处获取视频站点地图和/或mRSS馈送的元数据。
+“生成设置”区域列出视频站点地图或mRSS馈送（或同时列出两者）的输入字段。 在元数据面板中，列出了元数据字段的名称。 使用“常规设置”区域来将输入字段映射到元数据字段。这样，您就可以告知Adobe Dynamic Media Classic从何处获取视频站点地图和/或mRSS馈送的元数据。
 
 1. 在“元数据视图”菜单上，选择一个元数据视图。选择视图后，元数据字段的名称将显示在元数据面板中。
 请参阅[元数据视图](application-setup.md#metadata_views)。

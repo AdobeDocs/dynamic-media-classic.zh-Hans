@@ -10,16 +10,16 @@ role: User
 exl-id: 05769eeb-5f1b-42ff-9392-2669f5051140
 topic: Content Management
 level: Intermediate
-source-git-commit: 914fde11270dc731a261da3305b29dd573584d93
+source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
 workflow-type: tm+mt
-source-wordcount: '454'
-ht-degree: 18%
+source-wordcount: '456'
+ht-degree: 15%
 
 ---
 
 # 查看样本集{#viewing-swatch-sets}
 
-可以使用可用预设在“预览”窗口中查看样本集。可使用样本集的“缩放查看器: 自定义查看器预设”。
+可以使用可用预设在“预览”窗口中查看样本集。您可以使用缩放查看器：样本集的自定义查看器预设。
 
 Adobe Dynamic Media Classic附带默认查看器预设。 管理员可以创建或修改查看器预设。
 
@@ -44,7 +44,7 @@ Adobe Dynamic Media Classic附带默认查看器预设。 管理员可以创建�
 
 ## 在查看器中预览样本集 {#previewing-swatch-sets-in-a-viewer}
 
-您可以使用“预览”来查看资源在特定查看器类型(如HTML5)上的显示方式。 根据您选择要预览的资源类型和关联的查看器，并非所有查看器类型平台在“预览”中都可用。
+您可以使用“预览”来查看资源在特定查看器类型(如HTML5)中的显示方式。 根据您选择要预览的资源类型和关联的查看器，并非所有查看器类型平台在“预览”中都可用。
 
 1. 在左侧的资产库面板中，位于 **[!UICONTROL 显示]** 下拉列表，选择基于样本集的资源类型，例如 **[!UICONTROL 样本集]**.
 1. 在左侧的“资源库”面板中，找到包含要使用查看器预览的样本集的资源文件夹。
