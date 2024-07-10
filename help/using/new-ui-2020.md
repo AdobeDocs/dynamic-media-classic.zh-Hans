@@ -9,7 +9,7 @@ role: Admin,User
 exl-id: d61ea80a-a98e-43e6-9e2e-4389962134f1
 topic: Administration
 level: Intermediate
-source-git-commit: b34520c31ca7d46a0753bf0900070743110e6fc4
+source-git-commit: 3f71adedf54832c4e7c4c46d4103d609a2fd9634
 workflow-type: tm+mt
 source-wordcount: '2934'
 ht-degree: 1%
@@ -125,7 +125,6 @@ WebVTT和AdobeVTT格式支持添加的字幕。 此外，添加的MP3格式音�
 1. 导航到要添加多个字幕和音频轨道的上传视频资产。
 1. 在资源选择模式下，从“列表视图”或“卡片视图”中选择视频资源。
 1. 在工具栏上，选择“属性”图标（一个带有“i”的圆形）。
-<!-- ![Selected video asset with checkmark over video thumbnail image and View Properties highlighted on the toolbar.](/help/assets/dynamic-media/assets/msma-selectedasset-propertiesbutton.png)*Selected video asset in Card view.* -->
 1. 在视频的“属性”页面上，选择 **[!UICONTROL 字幕和音轨]** 选项卡。
 
    >[!TIP]
@@ -135,8 +134,6 @@ WebVTT和AdobeVTT格式支持添加的字幕。 此外，添加的MP3格式音�
    >* 或者，视频必须由Dynamic Media重新处理。 在这种情况下，请参阅 [重新处理文件夹中的Dynamic Media资源].
    >
    >完成以上任一任务后，请返回这些步骤。
-
-   <!-- ![Captions and Audio Tracks tab on the Properties page.](/help/assets/dynamic-media/assets/msma-audiotracks2.png)*Captions and Audio Tracks tab on the video's Properties page.* -->
 
 1. 要将一个或多个音频轨道添加到视频，请执行以下操作：
    1. 选择 **[!UICONTROL 上传音轨]**.
@@ -165,7 +162,6 @@ WebVTT和AdobeVTT格式支持添加的字幕。 此外，添加的MP3格式音�
    | **选项2** | 我希望人工智能能生成多种语言的字幕文件。<br>请参阅 **选项2** 步骤8。 |
    | **选项3** | 题注文件(.vtt)中的文本需要更正，重新上传以替换旧的.vtt文件，然后让AI翻译更正后的文件。<br>请参阅 **选项3** 步骤8。 |
 
-
 +++**选项1：** *我有自己以前存在的字幕文件，这些文件使用我想要使用的语言。*
 
    1. 在页面的右上角附近，单击 **[!UICONTROL 创建题注]** > **[!UICONTROL 上载文件]**.
@@ -189,7 +185,6 @@ WebVTT和AdobeVTT格式支持添加的字幕。 此外，添加的MP3格式音�
 
    1. 如果您选择 **[!UICONTROL 保存并关闭]** ，而不是选择 **[!UICONTROL 保存]**&#x200B;中，您仍可以查看已上传文件的处理状态。 请参阅 [查看上传的字幕和音轨文件的生命周期状态].
    1. 继续执行步骤9。
-
 +++
 
 +++**选项2：** *我希望人工智能能生成多种语言的字幕文件。*
@@ -218,7 +213,6 @@ WebVTT和AdobeVTT格式支持添加的字幕。 此外，添加的MP3格式音�
 
       如果需要，您可以稍后更改或编辑某些字幕元数据。 发布视频时，这些元数据详细信息会反映在已发布视频中的公共URL上。
    1. 继续执行步骤9。
-
 +++
 
 +++**选项3：** *题注文件(.vtt)中的文本需要更正，重新上传以替换旧的.vtt文件，然后让AI翻译更正后的文件。*
@@ -248,7 +242,6 @@ WebVTT和AdobeVTT格式支持添加的字幕。 此外，添加的MP3格式音�
       如果需要，您可以稍后更改或编辑某些字幕元数据。 发布视频时，这些元数据详细信息会反映在已发布视频中的公共URL上。
 
    1. 继续执行步骤9。
-
 +++
 
 1. （可选）在发布之前预览视频，以确保字幕和音频按预期工作。 请参阅 [预览具有多个字幕和音频轨道的视频].
