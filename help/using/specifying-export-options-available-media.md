@@ -25,22 +25,22 @@ ht-degree: 38%
 * 可用于导出作业的 Zip 压缩导出文件的最大文件大小为 1 GB。
 * 每个导出作业最多可以有 500 个总资源。
 
-另请参阅 [从Adobe Dynamic Media Classic导出资源](exporting-assets-from-dmc.md#exporting-assets-from_dmc).
+另请参阅[从Adobe Dynamic Media Classic导出资源](exporting-assets-from-dmc.md#exporting-assets-from_dmc)。
 
-**要指定可供Media Portal用户使用的导出选项，请执行以下操作：**
+**要指定Media Portal用户可用的导出选项：**
 
-1. 在全局导航栏上，转到 **[!UICONTROL 设置]** > **[!UICONTROL 图像预设]**.
+1. 在全局导航栏上，转到&#x200B;**[!UICONTROL 设置]** > **[!UICONTROL 图像预设]**。
 1. 在“图像预设”窗口中，选择下列任一选项：
 
-   * **启用用户定义的转换**：选中此选项后，用户可以从 **[!UICONTROL 大小]** 导出选定资源窗口中的下拉列表。 然后，用户可以选择一个度量单位，如像素或厘米，然后指定所需的宽度和高度。 当他们导出或下载这些文件时，图像文件将重新格式化。
+   * **启用用户定义的转换**：选中此选项后，用户可以从“导出选定的Assets”窗口的&#x200B;**[!UICONTROL 大小]**&#x200B;下拉列表中选择其他。 然后，用户可以选择一个度量单位，如像素或厘米，然后指定所需的宽度和高度。 当他们导出或下载这些文件时，图像文件将重新格式化。
 
-     时间 **[!UICONTROL 像素]** 是从 **[!UICONTROL 大小]** 下拉列表中，生成的图像宽度×高度不能超过1亿像素。 此大小等于方形图像的10,000 × 10,000像素，或长宽比为2x3的图像的大约8,000 × 12,000像素。 如果导出原始主图像，则此大小限制不适用。
+     如果从&#x200B;**[!UICONTROL 大小]**&#x200B;下拉列表中选择&#x200B;**[!UICONTROL 像素]**，则生成的图像宽度×高度不能超过1亿像素。 此大小等于方形图像的10,000 × 10,000像素，或长宽比为2x3的图像的大约8,000 × 12,000像素。 如果导出原始主图像，则此大小限制不适用。
 
      取消选择此选项可让用户在下载文件时无需重新格式化文件。
 
-   * **启用导出原始**：用于导出原始主图像。 在 **[!UICONTROL 导出所选资源]** 面板，用户可以打开 **[!UICONTROL 转化]** 下拉菜单并选择 **[!UICONTROL 导出原始]** 以导出原始文件。 如果您要在用户导出图像时强制他们选择“图像预设”或转换选项，请取消选择该选项。
+   * **启用“导出原始”**：用于导出原始主图像。 在&#x200B;**[!UICONTROL 导出选定的Assets]**&#x200B;面板中，用户可以打开&#x200B;**[!UICONTROL 转换]**&#x200B;下拉菜单，然后选择&#x200B;**[!UICONTROL 导出原始文件]**&#x200B;以导出原始文件。 如果您要在用户导出图像时强制他们选择“图像预设”或转换选项，请取消选择该选项。
 
 >[!MORELIKETHIS]
 >
 >* [Image Presets](application-setup.md#image_presets)
->* [选择群组的图像预设访问权限](creating-media-portal-groups.md#choosing_image_preset_access_permissions_for_a_group)
+>* [选择组的图像预设访问权限](creating-media-portal-groups.md#choosing_image_preset_access_permissions_for_a_group)

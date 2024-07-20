@@ -25,24 +25,24 @@ ht-degree: 15%
 
 ## 从Adobe Dynamic Media Classic设置Adobe Analytics跟踪 {#set-up-adobe-analytics-tracking-from-scene-publishing-system}
 
-对于所有HTML5查看器，将以下JavaScript添加到HTML容器中，通常在 &lt;head> 元素：
+对于所有HTML5查看器，将以下JavaScript添加到HTML容器中（通常在&lt;head>元素中）：
 
 ```as3
 <!-- ***** Adobe Analytics Tracking ***** --><script type="text/javascript" src="https://s7d6.scene7.com/s7viewers/s_code.jsp?company=<Adobe Dynamic Media Classic Company ID>&preset=companypreset-1"></script>
 ```
 
-位置 `Adobe Dynamic Media Classic Company ID` 设置为Adobe Dynamic Media Classic公司名称。 和 `&preset` 是可选的。 如果公司预设名称不是 `companypreset`，则它不是可选的。 在这种情况下，它可以 `companypreset-1, companypreset-2`，等等。 数字越大预设实例越新。要确定正确的公司预设值名称，请选择 **[!UICONTROL 复制URL]**，然后查看 `preset=`用于查找公司预设名称的参数。
+其中，`Adobe Dynamic Media Classic Company ID`设置为Adobe Dynamic Media Classic公司名称。 而`&preset`是可选的。 如果公司预设名称不是`companypreset`，则它不是可选的。 在这种情况下，可以是`companypreset-1, companypreset-2`，依此类推。 数字越大预设实例越新。要确定正确的公司预设值名称，请选择&#x200B;**[!UICONTROL 复制URL]**，然后查看`preset=`参数以查找公司预设名称。
 
 继续，现在添加一个将查看器事件传输到Adobe Analytics跟踪代码的函数。
 
-添加 `s7ComponentEvent()` 函数到容器HTML（或JSP、ASPX或其他）：
+将`s7ComponentEvent()`函数添加到容器HTML（或JSP、ASPX或其他）：
 
 ```as3
 function s7ComponentEvent(objectId, componentClass, instanceName, timeStamp, eventData) {     s7track(eventData); }
 ```
 
-函数名称区分大小写。 传递给的唯一参数 `s7componentEvent`最后一个选项是必需的： `eventData`. 位置 `s7track()` 在上述包含的s_code.jsp中定义。 和 `s7track` 处理每个事件的所有跟踪。 (在此区域，您可以进一步自定义传输到Adobe Analytics的数据。)
+函数名称区分大小写。 传递给`s7componentEvent`的唯一一个必需参数是最后一个参数： `eventData`。 其中`s7track()`在上面包含的s_code.jsp中定义。 并且`s7track`处理每个事件的所有跟踪。 (在此区域，您可以进一步自定义传输到Adobe Analytics的数据。)
 
 ## 启用HREF和ITEM事件 {#enabling-href-and-item-events}
 
-可以通过图像映射编辑，在查看器中启用 HREF（变换）和 ITEM（鼠标单击/点按）事件。在与查看器内容关联的图像映射中定义 HREF 和 ITEM 标识符。添加 `&rolloverKey=` 图像映射中HREF值的参数。
+可以通过图像映射编辑，在查看器中启用 HREF（变换）和 ITEM（鼠标单击/点按）事件。在与查看器内容关联的图像映射中定义 HREF 和 ITEM 标识符。向图像映射中的HREF值添加一个`&rolloverKey=`参数。

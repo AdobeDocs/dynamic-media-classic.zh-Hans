@@ -18,7 +18,7 @@ ht-degree: 42%
 
 # 获取磁盘使用情况信息 {#get-disk-usage-information}
 
-您可以使用 `disk_info` 参数以检索有关公司磁盘空间使用情况的信息，如以下示例所示：
+您可以使用`disk_info`参数检索有关公司磁盘空间使用情况的信息，如以下示例所示：
 
 ```as3
 https://s7ugc1.scene7.com/ugc/image?op=disk_info&shared_secret=d03b7e0b-c9dc-4c6c-af0b-419beeea1c63

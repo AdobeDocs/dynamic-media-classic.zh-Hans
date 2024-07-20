@@ -21,7 +21,7 @@ ht-degree: 0%
 
 Adobe Dynamic Media Classic中还提供了以下帮助文档：
 
-**使用Adobe Dynamic Media Classic Media Port**： Adobe Dynamic Media Classic Media Portal是一个基于浏览器的环境，它为Portal用户提供了以公司批准的格式上传、浏览、搜索、预览和导出资产的轻松访问。 请参阅 [https://help.adobe.com/en_US/scene7/mediaportal/](https://help.adobe.com/en_US/scene7/mediaportal/).
+**使用Adobe Dynamic Media Classic Media Portal**： Adobe Dynamic Media Classic Media Portal是一个基于浏览器的环境，它使门户用户能够轻松地以公司批准的格式上传、浏览、搜索、预览和导出资源。 请参阅[https://help.adobe.com/en_US/scene7/mediaportal/](https://help.adobe.com/en_US/scene7/mediaportal/)。
 
 <!-- Is this topic still needed? -rb 04/22/21
  used to point to www.adobe.com/go/learn_sc7_mediaportalusing_en and http://help.adobe.com/en_US/scene7/mediaportal/-->

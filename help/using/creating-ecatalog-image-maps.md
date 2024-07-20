@@ -25,33 +25,33 @@ ht-degree: 26%
 
 对于 eCatalog，可以在 eCatalog 屏幕的“映射页面”选项卡上绘制图像映射。该屏幕包括显示 eCatalog 页面的图像映射区域，右侧显示“图像映射”列表。在创建图像映射时，其名称会输入到“图像映射”列表中。
 
-1. 选择eCatalog的变换 **[!UICONTROL 编辑]** 按钮。
-1. 选择 **[!UICONTROL 映射页面]**.
+1. 选择eCatalog的变换&#x200B;**[!UICONTROL 编辑]**&#x200B;按钮。
+1. 选择&#x200B;**[!UICONTROL 映射页面]**。
 1. 在“映射页面”屏幕的左侧，选择所需页面。
 1. 在“图像映射”区域中，绘制一个矩形或多边形（多个边）图像映射：
 
-   * **矩形地图**：选择矩形图像映射工具并在页面上拖动以创建矩形。
+   * **矩形映射**：选择“矩形图像映射”工具并在页面上拖动以创建矩形。
 
-   * **多边形地图**：选择多边形图像映射工具，然后根据需要多次选择图像周边区域。 选择后，Adobe Dynamic Media Classic将绘制图像映射的边框。
+   * **多边形映射**：选择“多边形图像映射”工具，然后根据需要多次选择图像周边区域。 选择后，Adobe Dynamic Media Classic将绘制图像映射的边框。
 
      绘制图像映射后，Adobe Dynamic Media Classic会在“图像映射”列表中为其指定一个名称。 为了形成名称，Adobe Dynamic Media Classic会在您正在使用的eCatalog页面的名称后附加一个序列号。
 
-1. （可选）从“图像映射”列表中，位于 [!UICONTROL 名称] 列中，您可以为图像映射输入新名称。 输入的名称中不能包含空格。
+1. （可选）在“图像映射”列表的[!UICONTROL 名称]列中，您可以为图像映射输入新名称。 输入的名称中不能包含空格。
 1. 您可以让查看者在选择“图像映射”时打开一个新网页。 在“图像映射”列表面板的“URL”列中，输入网页的URL。
 
-   要更轻松地输入URL（Href模板），请选择 **[!UICONTROL 编辑]** 并输入模板。
+   若要更轻松地输入URL（Href模板），请选择&#x200B;**[!UICONTROL 编辑]**&#x200B;并输入模板。
 
-请参阅 [使用模板输入JavaScript和URL](creating-image-maps.md#using_a_template_to_enter_javascript_and_urls).
+请参阅[使用模板输入JavaScript和URL](creating-image-maps.md#using_a_template_to_enter_javascript_and_urls)。
 
-1. （可选）在显示下拉列表中，选择 **[!UICONTROL 变换文本]**，然后输入您希望用户在图像映射上移动指针时屏幕上看到的文本。
-1. （可选）在显示下拉列表中，选择 **[!UICONTROL 其他操作]**，并输入属性，以便在用户将其指针移动到图像映射上时触发模糊或聚焦操作。
+1. （可选）在“显示”下拉列表中，选择&#x200B;**[!UICONTROL 变换文本]**，然后输入您希望用户在图像映射上移动指针时在屏幕上看到的文本。
+1. （可选）在“显示”下拉列表中，选择&#x200B;**[!UICONTROL 其他操作]**，然后输入当用户将其指针移动到图像映射上时触发模糊或聚焦操作的属性。
 
-   请参阅 [定义图像映射的其他操作](creating-image-maps.md#defining_other_actions_for_image_maps).
+   请参阅[定义图像映射的其他操作](creating-image-maps.md#defining_other_actions_for_image_maps)。
 
-1. 选择 **[!UICONTROL 保存]**.
-1. （可选）选择 **[!UICONTROL 预览]** 以使用默认的eCatalog查看器预设查看eCatalog。
+1. 选择&#x200B;**[!UICONTROL 保存]**。
+1. （可选）选择&#x200B;**[!UICONTROL 预览]**&#x200B;以使用默认的eCatalog查看器预设查看eCatalog。
 
-要删除图像映射，请在“图像映射”列表中选择其名称，然后选择 **[!UICONTROL 删除]**. 您可以暂时禁用页面上的图像映射，而无需删除图像映射。 在“图像映射”列表面板中选择图像映射选项。
+要删除图像映射，请在“图像映射”列表中选择其名称，然后选择&#x200B;**[!UICONTROL 删除]**。 您可以暂时禁用页面上的图像映射，而无需删除图像映射。 在“图像映射”列表面板中选择图像映射选项。
 
 ## 在eCatalog中嵌入富媒体 {#embedding-rich-media-in-an-ecatalog}
 
@@ -63,56 +63,56 @@ ht-degree: 26%
 
 1. 绘制 eCatalog 图像映射。
 
-   请参阅 [绘制eCatalog图像映射](creating-ecatalog-image-maps.md#drawing_ecatalog_image_maps).
+   查看[绘制eCatalog图像映射](creating-ecatalog-image-maps.md#drawing_ecatalog_image_maps)。
 
-1. 在显示下拉列表中，选择 **[!UICONTROL 富媒体]**.
-1. 在左侧的“添加资产”面板中，导航到包含要嵌入的旋转集或视频（MP4格式）资产的文件夹。
+1. 在显示下拉列表中，选择&#x200B;**[!UICONTROL 富媒体]**。
+1. 在左侧的“添加Assets”面板中，导航到包含要嵌入的旋转集或视频（MP4格式）资源的文件夹。
 1. 将资源拖动到图像映射上。
-1. （可选）在“图像映射”列表面板中的 **[!UICONTROL 工具提示]** 列标题，输入希望查看者在屏幕上将指针移动到图像映射上时看到的文本。
-1. 选择 **[!UICONTROL 保存]**.
+1. （可选）在“图像映射”列表面板的&#x200B;**[!UICONTROL 工具提示]**&#x200B;列标题下，输入您希望查看者在屏幕上将指针移动到图像映射上时看到的文本。
+1. 选择&#x200B;**[!UICONTROL 保存]**。
 
 ## 编辑 eCatalog 图像映射 {#editing-ecatalog-image-maps}
 
 从 eCatalog 屏幕的“映射页面”选项卡上开始，使用以下方法来编辑 eCatalog 图像映射：
 
-* **调整位置**：选择“平移”工具，并将指针移动到地图边框附近，而不是上方。 当指针显示一个四向箭头时，将整个“图像映射”拖到新的位置。
+* **调整位置**：选择“平移”工具，将指针移到地图边框附近，但不要移到地图边框上。 当指针显示一个四向箭头时，将整个“图像映射”拖到新的位置。
 
-  请参阅 [调整图像映射的位置、形状和大小](creating-image-maps.md#adjusting_the_position_shape_and_size_of_image_maps).
+  查看[调整图像映射的位置、形状和大小](creating-image-maps.md#adjusting_the_position_shape_and_size_of_image_maps)。
 
-* **更改形状和大小**：要调整矩形图像映射的大小，请选择平移工具。 然后将指针移动到边框或角上，看到双向箭头图标时进行拖动。要调整多边形图像映射的大小，请拖动正方形选择手柄。要创建选区手柄，请选择“图像映射”的边框并拖动。
+* **更改形状和大小**：要调整矩形图像映射的大小，请选择“平移”工具。 然后将指针移动到边框或角上，看到双向箭头图标时进行拖动。要调整多边形图像映射的大小，请拖动正方形选择手柄。要创建选区手柄，请选择“图像映射”的边框并拖动。
 
-  请参阅 [调整图像映射的位置、形状和大小](creating-image-maps.md#adjusting_the_position_shape_and_size_of_image_maps).
+  查看[调整图像映射的位置、形状和大小](creating-image-maps.md#adjusting_the_position_shape_and_size_of_image_maps)。
 
-* **删除图像映射**：选择平移工具，选择图像映射以将其选中，然后选择 **[!UICONTROL 删除]**.
+* **删除图像映射**：选择平移工具，选择图像映射以将其选中，然后选择&#x200B;**[!UICONTROL 删除]**。
 
-  要从eCatalog中删除所有图像映射，请选择 **[!UICONTROL 排序页面]** 选项卡，然后选择 **[!UICONTROL 清除映射]**.
+  要从eCatalog中删除所有图像映射，请选择&#x200B;**[!UICONTROL 排序页面]**&#x200B;选项卡，然后选择&#x200B;**[!UICONTROL 清除映射]**。
 
 * **处理重叠的图像映射**：拖动以更改图像映射在图像映射列表中的顺序。
 
-  请参阅 [处理重叠的图像映射](creating-image-maps.md#handling_overlapping_image_maps).
+  查看[处理重叠的图像映射](creating-image-maps.md#handling_overlapping_image_maps)。
 
-* **将图像映射复制到其他页面**：选择 **[!UICONTROL 将映射复制到]** （确保您位于“映射页面”选项卡上）。 在选择图像屏幕上，选择要复制图像映射的一个或多个页面，然后选择 **[!UICONTROL 选择]**.
+* **将图像映射复制到其他页面**：选择&#x200B;**[!UICONTROL 将映射复制到]**（确保您位于“映射页面”选项卡）。 在选择图像屏幕上，选择要复制图像映射的一个或多个页面，然后选择&#x200B;**[!UICONTROL 选择]**。
 
-  请参阅 [将图像映射复制到其他图像](creating-image-maps.md#copying_image_maps).
+  查看[将图像映射复制到其他图像](creating-image-maps.md#copying_image_maps)。
 
 >[!NOTE]
 >
->将图像映射复制到eCatalog中的不同页面时，可以将eCatalog中的所有图像映射复制到其他eCatalog。 请参阅 [在其他eCatalog之间复制图像映射](creating-ecatalog-image-maps.md#copying_image_maps_between_ecatalogs).
+>将图像映射复制到eCatalog中的不同页面时，可以将eCatalog中的所有图像映射复制到其他eCatalog。 查看其他eCatalog ](creating-ecatalog-image-maps.md#copying_image_maps_between_ecatalogs)中的[复制图像映射。
 
 ## 查看和导入图像映射数据 {#reviewing-and-importing-image-map-data}
 
 “映射摘要”屏幕提供了关于您的 eCatalog 的元数据。也可以从“映射摘要”屏幕开始为 eCatalog 批量导入图像映射数据。用这种方法导入图像映射数据可以简化图像映射 URL 及变换文本的输入。
 
-要查看“映射摘要”屏幕，请在eCatalog屏幕的“映射页面”选项卡上，选择 **[!UICONTROL 摘要]**.
+要查看“映射摘要”屏幕，请在eCatalog屏幕的“映射页面”选项卡上选择&#x200B;**[!UICONTROL 摘要]**。
 
 ### 检查图像映射数据摘要 {#review-image-map-data-summary}
 
-1. 在映射页面屏幕上，选择 **[!UICONTROL 摘要]**.
+1. 在“映射页面”屏幕上，选择&#x200B;**[!UICONTROL 摘要]**。
 
    “映射摘要”屏幕显示eCatalog中的图像映射、URL、变换文本描述和其他操作数。
 
-1. 如果出现变换键错误，请在 **[!UICONTROL Rollover_Key错误]** 列，了解在电子表格中必须更改哪些内容才能更正错误。 可以选择并复制该消息的文本，并将其粘贴到电子表格中。
-1. 选择 **[!UICONTROL 预览]** 以便在eCatalog查看器中检查页面。 选择X以关闭“摘要”屏幕并返回到“映射页面”屏幕，或选择 **[!UICONTROL 关闭]** 以返回浏览。
+1. 如果存在变换键错误，请选择&#x200B;**[!UICONTROL Rollover_Key错误]**&#x200B;列中的错误，以查看电子表格中必须更改哪些内容才能更正该错误。 可以选择并复制该消息的文本，并将其粘贴到电子表格中。
+1. 选择&#x200B;**[!UICONTROL 预览]**，以便在eCatalog查看器中检查页面。 选择X以关闭“摘要”屏幕并返回“映射页面”屏幕，或选择&#x200B;**[!UICONTROL 关闭]**&#x200B;以返回“浏览”。
 
 ### 导入图像映射数据 {#import-image-map-data}
 
@@ -124,10 +124,10 @@ ht-degree: 26%
 
 在“映射摘要”屏幕上开始，按照以下步骤为创建的图像映射导入图像映射数据：
 
-1. 选择 **[!UICONTROL 导入映射数据]**.
-1. 在导入元数据对话框中，选择 **[!UICONTROL 浏览]**，然后选择以制表符分隔的或XML DTD文件。
+1. 选择&#x200B;**[!UICONTROL 导入映射数据]**。
+1. 在“导入元数据”对话框中，选择&#x200B;**[!UICONTROL 浏览]**，然后选择制表符分隔的文件或XML DTD文件。
 1. 在“作业名称”字段中，键入文件的名称（注意保留其扩展名）。
-1. 选择 **[!UICONTROL 上传]**.
+1. 选择&#x200B;**[!UICONTROL 上传]**。
 
 ## 在其他eCatalog之间复制图像映射 {#copying-image-maps-between-ecatalogs}
 
@@ -139,8 +139,8 @@ ht-degree: 26%
 
 要将一个eCatalog中的所有图像映射复制到另一个eCatalog，请执行以下操作：
 
-1. 选择要复制的图像映射的eCatalog，然后选择eCatalog的变换图像 **[!UICONTROL 编辑]** 按钮。
-1. 在订单页选项卡上，选择 **[!UICONTROL 复制映射]**.
-1. 在选择资产对话框中，选择要将图像映射复制到其中的eCatalog，然后选择 **[!UICONTROL 选择]**.
+1. 选择要复制的图像映射的eCatalog，然后选择eCatalog的变换&#x200B;**[!UICONTROL 编辑]**&#x200B;按钮。
+1. 在“排序页面”选项卡上，选择&#x200B;**[!UICONTROL 复制映射]**。
+1. 在“选择资源”对话框中，选择要复制图像映射的eCatalog，然后选择&#x200B;**[!UICONTROL 选择]**。
 
-如果您从中复制图像映射的目标eCatalog的页数或图像大小不同，则Adobe Dynamic Media Classic会显示警告消息。 选择 **[!UICONTROL 继续]** 以复制图像映射，而不考虑警告。
+如果您从中复制图像映射的目标eCatalog的页数或图像大小不同，则Adobe Dynamic Media Classic会显示警告消息。 选择&#x200B;**[!UICONTROL 继续]**&#x200B;以复制图像映射，而不考虑警告。

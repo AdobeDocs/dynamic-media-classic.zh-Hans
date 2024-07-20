@@ -33,7 +33,7 @@ Adobe Dynamic Media Classic支持以下字体类型：
 
 >[!NOTE]
 >
->如果您计划在模板图层中使用字体，Adobe Dynamic Media Classic建议上载所有字体样式（粗体、斜体、粗体/斜体和常规）。 Adobe Dynamic Media Classic需要这些字体样式来处理请求。 正在全部上传 `PostScript/Adobe Type1` 还建议使用与字体相关联的文件，因为其中某些字体包含详细的字距微调信息。
+>如果您计划在模板图层中使用字体，Adobe Dynamic Media Classic建议上载所有字体样式（粗体、斜体、粗体/斜体和常规）。 Adobe Dynamic Media Classic需要这些字体样式来处理请求。 还建议上载与某个字体关联的所有`PostScript/Adobe Type1`文件，因为其中某些字体包含详细的字距微调信息。
 
 ## 上载字体文件 {#uploading-font-files}
 
@@ -43,11 +43,11 @@ Adobe Dynamic Media Classic支持以下字体类型：
 
 您可以更改字体的ID名称及其类型信息。 编辑字体文件会有助于搜索，并且使得字体更易于识别。
 
-在“浏览”面板中，选择要在“详细信息视图”中编辑的字体文件，然后选择“文件”>“编辑信息”。 此时将打开“编辑信息”屏幕。选择以下选项，然后选择 **[!UICONTROL 提交]**.
+在“浏览”面板中，选择要在“详细信息视图”中编辑的字体文件，然后选择“文件”>“编辑信息”。 此时将打开“编辑信息”屏幕。选择以下选项，然后选择&#x200B;**[!UICONTROL 提交]**。
 
-* **[!UICONTROL 字体名称]**：此名称在发布时标识字体。
+* **[!UICONTROL 字体名称]**：此名称在发布时标识该字体。
 
-* **[!UICONTROL PostScript名称]**：此名称是字体的完整PostScript名称。 它通常指示粗细或样式。
+* **[!UICONTROL PostScript名称]**：此名称是该字体的完整PostScript名称。 它通常指示粗细或样式。
 
 * **[!UICONTROL RTF名称]**：此名称显示在RTF编辑器中创建模板文本图层的弹出菜单中。
 
@@ -55,9 +55,9 @@ Adobe Dynamic Media Classic支持以下字体类型：
 
 * **[!UICONTROL 字体样式]**：选项为纯、粗体、斜体和粗斜体。
 
-* **[!UICONTROL 字体类型]**：选项为TrueType和Adobe Type1。 如果使用其他名称调用这些字体，可以输入该名称。
+* **[!UICONTROL Font Type]**：选项为TrueType和Adobe Type1。 如果使用其他名称调用这些字体，可以输入该名称。
 
-* **[!UICONTROL 字体类型缩写]**：选项如下所示：
+* **[!UICONTROL 字体类型缩写]**：选项如下：
 
    * **[!UICONTROL TTF]**：用于PDF/PostScript渲染和图像服务的TrueType字体文件。
 
@@ -65,4 +65,4 @@ Adobe Dynamic Media Classic支持以下字体类型：
 
    * **[!UICONTROL PFM]**：包含二进制字体度量信息的Adobe PostScript字体文件。
 
-   * **[!UICONTROL PFB]**：包含二进制字体轮廓信息并用于PDF/PostScript渲染和图像服务的Adobe PostScript字体文件。
+   * **[!UICONTROL PFB]**： Adobe PostScript字体文件，包含二进制字体轮廓信息，用于PDF/PostScript渲染和图像提供。

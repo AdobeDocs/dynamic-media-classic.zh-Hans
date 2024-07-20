@@ -24,7 +24,7 @@ ht-degree: 24%
 * 对文件进行管理，以使用这些文件构建富媒体资源。
 * 将资源文件发布到Dynamic Media Classic服务器，以便将其交付到您的网站和应用程序。
 
-在将资源文件上传到Adobe Dynamic Media Classic以及将资源文件发布到Adobe Dynamic Media Classic服务器时，系统会将这些文件传输记录在 **[!UICONTROL 作业]** 页面。 您可以转到该页面以跟踪和监视上载和发布活动。
+在将资源文件上传到Adobe Dynamic Media Classic以及将资源文件发布到Adobe Dynamic Media Classic服务器时，系统将在&#x200B;**[!UICONTROL 作业]**&#x200B;页面上记录这些文件传输。 您可以转到该页面以跟踪和监视上载和发布活动。
 
 >[!NOTE]
 >

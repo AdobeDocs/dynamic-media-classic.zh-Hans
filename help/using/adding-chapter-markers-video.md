@@ -25,9 +25,9 @@ ht-degree: 24%
 >
 >使用的视频播放器必须支持使用章节标记。
 
-请参阅 [添加或编辑视频查看器预设](previewing-videos-video-viewer.md#adding_or_editing_a_video_viewer_preset) 如果要为以下对象配置章节导航提示点和章节标题弹出文本 `Universal_HTML5_Video` 查看器(HTML5)。
+如果要为`Universal_HTML5_Video`查看器配置章节导航提示点和章节标题弹出文本(HTML5)，请参阅[添加或编辑视频查看器预设](previewing-videos-video-viewer.md#adding_or_editing_a_video_viewer_preset)。
 
-另请参阅 [添加和编辑查看器预设](application-setup.md#adding_and_editing_viewer_presets).
+另请参阅[添加和编辑查看器预设](application-setup.md#adding_and_editing_viewer_presets)。
 
 可以按照与创建题注非常类似的方法为视频创建章节列表。即，创建一个 WebVTT 文件。但要注意，该文件不能与可能还会使用的任何 WebVTT 题注文件相同；无法将题注和章节合并到一个 WebVTT 文件中。
 
@@ -49,42 +49,42 @@ Chapter 4
 Cost-efficient access to rapidly evolving technology.
 ```
 
-在上面的示例中， `Chapter 1` 是提示标识符，且是可选的。 的提示时间 `00:00:000 --> 01:04:364` 指定章节的开始时间和结束时间（以00为单位）:00:000格式。 最后三个数字是毫秒；如果需要，可以将其保留为 000。的章节标题 `The bicycle store behind it all` 是章节内容的实际描述。 当指针悬停在视频时间轴中的可视提示点上时，提示标识符、开始提示时间和章节标题都会显示在视频播放器的弹出窗口中。
+在上述示例中，`Chapter 1`是提示标识符，是可选的。 `00:00:000 --> 01:04:364`的提示时间以00:00:000格式指定章节的开始时间和结束时间。 最后三个数字是毫秒；如果需要，可以将其保留为 000。`The bicycle store behind it all`的章节标题是章节内容的实际描述。 当指针悬停在视频时间轴中的可视提示点上时，提示标识符、开始提示时间和章节标题都会显示在视频播放器的弹出窗口中。
 
-由于使用的是 HTML5 视频查看器，请确保创建的章节文件遵循 WebVTT（Web 视频文本跟踪）标准。章节文件扩展名为 `.VTT`. 您可以了解有关 WebVTT 题注标准的详细信息。
+由于使用的是 HTML5 视频查看器，请确保创建的章节文件遵循 WebVTT（Web 视频文本跟踪）标准。章节文件扩展名为`.VTT`。 您可以了解有关 WebVTT 题注标准的详细信息。
 
-请参阅 [WebVTT： Web视频文本跟踪格式](https://w3c.github.io/webvtt/).
+请参阅[WebVTT： Web视频字幕格式](https://w3c.github.io/webvtt/)。
 
-**要向视频添加章节标记，请执行以下操作：**
+**向视频添加章节标记：**
 
 1. 使用Adobe Dynamic Media Classic外部的简单文本编辑器，创建视频章节文件。
 
    >[!NOTE]
    >
-   >为了在全球范围内支持英语以外的语言的视频章节，WebVTT标准要求您创建单独的 `.VTT` 要支持的每种语言的文件和调用。
+   >要获得英语以外的语言视频章节的全球支持，WebVTT标准要求您为要支持的每种语言创建单独的`.VTT`文件和调用。
 
 1. 将VTT文件保存为UTF8编码，这样可以避免章节标题文本中的字符呈现出现问题。
 
-   通常，您希望将章节VTT文件的名称与视频文件相同，并将其附加 `chapters`. 这样，它可以帮助您使用现有Web内容管理系统自动生成视频URL。
+   通常，您希望将章节VTT文件命名为与视频文件相同的名称，并将其附加到`chapters`。 这样，它可以帮助您使用现有Web内容管理系统自动生成视频URL。
 
 1. 在Adobe Dynamic Media Classic中，上传WebVTT章节文件。
 
-   请参阅 [上载文件](uploading-files.md#uploading_files).
+   查看[上载文件](uploading-files.md#uploading_files)。
 
 1. 在左侧的“资产库”面板中，导航到资产文件夹，该文件夹包含要与您上传的章节文件关联的视频文件。
-1. 在“资源浏览”面板中，选择单个视频资源，然后选择该资源的缩略图图像下方 **[!UICONTROL 预览]** > **[!UICONTROL 查看器列表]**.
+1. 在“资源浏览”面板中，选择单个视频资源，然后在资源的缩略图图像下方选择&#x200B;**[!UICONTROL 预览]** > **[!UICONTROL 查看器列表]**。
 1. 在“查看器列表”表中，找到名为 **Univeral_HTML5_Video** 的 HTML5 查看器，然后执行以下操作之一：
 
-   * 要获得弹出式视频查看器体验，请选择 **[!UICONTROL 复制URL]** 在名字的最右边。
+   * 若要获得弹出式视频查看器体验，请选择名称最右边的&#x200B;**[!UICONTROL 复制URL]**。
 
      将复制的视频的URL附加到以下语法，以便将其与复制的字幕文件关联：
 
      `&navigation=*<full Copy URL path to the chapter navigation file .vtt>*`
 
-   * 要获得嵌入式视频查看器体验，请选择 **[!UICONTROL 嵌入代码]** 在名字的最右边。
+   * 对于嵌入的视频查看器体验，请选择名称最右侧的&#x200B;**[!UICONTROL 嵌入代码]**。
 
-     在嵌入代码对话框中，选择 **[!UICONTROL 复制到剪贴板]**.
+     在“嵌入代码”对话框中，选择&#x200B;**[!UICONTROL 复制到剪贴板]**。
 
-     对于HTML5 `Universal_HTML5_Video` 查看器，将复制的嵌入代码附加到以下内容：
+     对于HTML5 `Universal_HTML5_Video`查看器，将复制的嵌入代码附加到以下内容：
 
      `videoViewer.setParam("navigation","*<full Copy URL path to the chapter navigation file .vtt>*"`

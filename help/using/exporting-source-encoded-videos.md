@@ -19,10 +19,10 @@ ht-degree: 0%
 
 # 导出源视频和编码视频{#exporting-source-and-encoded-videos}
 
-在“浏览”面板中，为源视频添加标签 *主视频*. 已编码视频的标签 *视频*. 您可以导出主视频和视频。 要导出视频文件，请在“浏览”面板中选择它们，然后转到 **[!UICONTROL 文件]** > **[!UICONTROL 导出]**.
+在“浏览”面板中，源视频被标记为&#x200B;*主视频*。 已编码的视频被标记为&#x200B;*视频*。 您可以导出主视频和视频。 要导出视频文件，请在“浏览”面板中选择它们，然后转到&#x200B;**[!UICONTROL 文件]** > **[!UICONTROL 导出]**。
 
-请参阅 [从Adobe Dynamic Media Classic导出资源](exporting-assets-from-dmc.md#exporting-assets-from-dmc).
+请参阅[从Adobe Dynamic Media Classic导出资源](exporting-assets-from-dmc.md#exporting-assets-from-dmc)。
 
 >[!MORELIKETHIS]
 >
->* [上传视频并进行编码](uploading-encoding-videos.md#uploading_and_encoding_videos)
+>* [上载视频并进行编码](uploading-encoding-videos.md#uploading_and_encoding_videos)

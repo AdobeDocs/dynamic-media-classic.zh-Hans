@@ -25,9 +25,9 @@ ht-degree: 44%
 
 因为用户可以缩放图像集中的图像，所以请确保图像的长边至少为 2000 像素。Adobe Dynamic Media Classic支持多种图像文件格式，但建议使用无损TIFF、PNG和EPS图像。
 
-有关上传资产的详细说明，请参阅 [上载文件](uploading-files.md#uploading_files).
+有关上传资产的详细说明，请参阅[上传文件](uploading-files.md#uploading_files)。
 
 >[!MORELIKETHIS]
 >
->* [上传文件](uploading-files.md#uploading_your_files)
+>* [上载您的文件](uploading-files.md#uploading_your_files)
 >* [处理晕影、窗口覆盖和CAB文件](vignette-window-covering-cabinet-files.md#working_with_vignette_window_covering_and_cabinet_files)

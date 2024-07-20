@@ -27,9 +27,9 @@ ht-degree: 5%
 
    例如，如果要测量图像集中的常用替代视图，则预览图像集并单击不同的缩略图图像。
 
-1. 在Adobe Analytics中，转到 **[!UICONTROL 自定义流量]** > **[!UICONTROL 自定义流量1-10]** > [prop的名称]，从菜单选项中选择流量prop名称。
+1. 在Adobe Analytics中，转到&#x200B;**[!UICONTROL 自定义流量]** > **[!UICONTROL 自定义流量1-10]** > [prop的名称]，从菜单选项中选择您的流量prop名称。
 
-   例如，要访问 **[!UICONTROL LoadAsset]** prop中，正确的菜单选项为 **[!UICONTROL 自定义流量]** > **[!UICONTROL 自定义流量1-10]** > **[!UICONTROL LoadAsset]**. 如果您有十个以上的自定义prop，您也会看到其他菜单选项。
+   例如，要访问示例帐户中的&#x200B;**[!UICONTROL LoadAsset]** prop，正确的菜单选项是&#x200B;**[!UICONTROL 自定义流量]** > **[!UICONTROL 自定义流量1-10]** > **[!UICONTROL LoadAsset]**。 如果您有十个以上的自定义prop，您也会看到其他菜单选项。
 
 1. 查看 Adobe Analytics 生成的图表。此图表通常只是单个指标的数据。 如果您还想知道此数据与哪个资产相关联，请获取此事件的资产数据。 例如，了解哪个视频仅被观看了50%或集中的哪个图像受欢迎通常很有用。
 
@@ -37,4 +37,4 @@ ht-degree: 5%
 >
 >所有Adobe Dynamic Media Classic查看器数据都会在Adobe Analytics的自定义流量报表或自定义转化报表中显示和报告。
 
-有关更多信息，请参阅 [AnalyticsTutorials](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/overview).
+有关详细信息，请参阅[AnalyticsTutorials](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/overview)。

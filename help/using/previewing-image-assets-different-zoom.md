@@ -21,23 +21,23 @@ ht-degree: 27%
 
 在“查看器列表”屏幕上，您可以使用不同缩放查看器预设预览图像。
 
-请参阅 [配置默认查看器](application-setup.md#configuring_default_viewers).
+请参阅[配置默认查看器](application-setup.md#configuring_default_viewers)。
 
-请参阅 [预览资源](previewing-asset.md#previewing_an_asset).
+请参阅[预览资源](previewing-asset.md#previewing_an_asset)。
 
-**要使用不同的缩放查看器预览图像资源，请执行以下操作：**
+**要使用不同的缩放查看器预览图像资源：**
 
 1. 在左侧“资源库”面板的“显示”下拉列表中，选择基于图像的资源类型（如图像或图像集）。
 1. 在左侧“资源库”面板中，定位到包含要使用缩放查看器预览的图像的资源文件夹。
 1. 执行以下任一操作：
 
-   * 在“资源”窗口的工具栏右侧，选择 **[!UICONTROL 网格视图]**. 在“资产”窗口中的缩略图图像下方，转到 **[!UICONTROL 预览]** > **[!UICONTROL 查看器列表]**.
-   * 在“资源”窗口的工具栏右侧，选择 **[!UICONTROL 列表视图]**. 在“资源”窗口中，选择一个资源，然后转到缩略图图像右侧的 **[!UICONTROL 预览]** > **[!UICONTROL 查看器列表]**.
-   * 在“资源”窗口的工具栏右侧，选择 **[!UICONTROL 详细信息视图]**. 在同一工具栏上，转到 **[!UICONTROL 预览]** > **[!UICONTROL 查看器列表]**.
+   * 在Assets窗口的工具栏右侧，选择&#x200B;**[!UICONTROL 网格视图]**。 在“资产”窗口中，缩略图图像下方，转到&#x200B;**[!UICONTROL 预览]** > **[!UICONTROL 查看器列表]**。
+   * 在Assets窗口的工具栏右侧，选择&#x200B;**[!UICONTROL 列表视图]**。 在“资源”窗口中，选择一个资源，然后在缩略图图像的右侧，转到&#x200B;**[!UICONTROL 预览]** > **[!UICONTROL 查看器列表]**。
+   * 在Assets窗口的工具栏右侧，选择&#x200B;**[!UICONTROL 详细信息视图]**。 在同一工具栏上，转到&#x200B;**[!UICONTROL 预览]** > **[!UICONTROL 查看器列表]**。
 
 1. 在“查看器列表”窗口的表中，选择一个查看器链接，以在选定的查看器中预览资产。
 1. 关闭显示的查看器。
-1. 在Viewer List窗口的右下角，选择 **[!UICONTROL 关闭]** 以返回资产屏幕。
+1. 在“查看器列表”窗口的右下角，选择&#x200B;**[!UICONTROL 关闭]**&#x200B;以返回到Assets屏幕。
 
 >[!MORELIKETHIS]
 >

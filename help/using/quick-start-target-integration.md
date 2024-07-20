@@ -23,7 +23,7 @@ Adobe Target Standard/Premium将控制权直接交到营销人员手中。 这�
 
 通过Adobe Dynamic Media Classic，您可以为Adobe Target Standard/Premium营销活动创建优惠和优惠集。 例如，您可以创建一个选件集，其中包含同一富媒体资产的三个变体。 然后，您可以使用Adobe Target Standard或Premium来确定哪个资源提供了更好的转化提升。 您可以从基本模板或单个图像创建优惠和优惠集。 将选件集推送或保存到Adobe Target Standard/Premium（选件在此与mbox和体验相关联）后，Adobe Target Standard/Premium可以运行营销活动。 这些营销活动可确定网站的哪个变体可能最适合点进和转化。
 
-要更好地自定义动态Adobe Dynamic Media Classic内容，请使用Adobe Target Standard/PremiumHTML选件。 请参阅 [Adobe Target Standard/Premium产品文档](https://experienceleague.adobe.com/en/docs/target) 以了解更多信息。
+要更好地自定义动态Adobe Dynamic Media Classic内容，请使用Adobe Target Standard/PremiumHTML选件。 有关详细信息，请参阅[Adobe Target Standard/Premium产品文档](https://experienceleague.adobe.com/en/docs/target)。
 
 >[!NOTE]
 >
@@ -33,20 +33,20 @@ Adobe Target Standard/Premium将控制权直接交到营销人员手中。 这�
 
 ## 1.在“应用程序常规设置”页面中输入您的Adobe Target Standard/Premium URL
 
-Adobe Dynamic Media Classic需要您的Adobe Target Standard/Premium URL才能与Adobe Target Standard/Premium集成。 将Adobe Target Standard/Premium URL的部分复制到以下位置，包括 `.com`，并在Adobe Dynamic Media Classic中输入 **[!UICONTROL 应用程序常规设置]** 页面，在 **[!UICONTROL 服务器]** 组， **[!UICONTROL Test&amp;Target服务器名称]** 文本字段。 请参阅 [将Adobe Dynamic Media Classic与Adobe Target Standard/Premium集成](integrating-dmc-with-target.md#integrating-dmc-with-target).
+Adobe Dynamic Media Classic需要您的Adobe Target Standard/Premium URL才能与Adobe Target Standard/Premium集成。 将Adobe Target Standard/Premium URL的部分复制到并包括`.com`，然后在&#x200B;**[!UICONTROL 服务器]**&#x200B;组的&#x200B;**[!UICONTROL Test&amp;Target服务器名称]**&#x200B;文本字段的Adobe Dynamic Media Classic **[!UICONTROL 应用程序常规设置]**&#x200B;页中输入该部分。 请参阅[将Adobe Dynamic Media Classic与Adobe Target Standard/Premium集成](integrating-dmc-with-target.md#integrating-dmc-with-target)。
 
 ## 2.创建优惠套餐
 
-使用参数化模板或图像创建选件集。 您可以在“Test&amp;Target选件集”页面上创建HTML选件集。 要打开此页面，请选择您的模板或图像，然后在全局导航栏上，转到 **[!UICONTROL 生成]** > **[!UICONTROL Test&amp;Target选件集]**.
+使用参数化模板或图像创建选件集。 您可以在“Test&amp;Target选件集”页面上创建HTML选件集。 要打开此页面，请选择您的模板或图像，然后在全局导航栏上，转到&#x200B;**[!UICONTROL 生成]** > **[!UICONTROL Test&amp;Target选件集]**。
 
-要使用模板创建优惠，请选择 **[!UICONTROL 添加并预览]**. 在添加和预览页面上，更改参数值。
+要使用模板创建选件，请选择&#x200B;**[!UICONTROL 添加并预览]**。 在添加和预览页面上，更改参数值。
 
-要创建包含图像的选件，请将图像拖入Test&amp;Target选件集页面。 选择 **[!UICONTROL 预览]** 并为选件集中的图像或所有图像选择图像预设。
+要创建包含图像的选件，请将图像拖入Test&amp;Target选件集页面。 选择&#x200B;**[!UICONTROL 预览]**&#x200B;并为选件集中的图像或所有图像选择一个图像预设。
 
 创建选件集后，请保存该选件集。
 
-请参阅 [创建优惠套餐](creating-offer-set.md#creating_an_offer_set).
+请参阅[创建选件集](creating-offer-set.md#creating_an_offer_set)。
 
 ## 3.将选件集推送到Adobe Target Standard/Premium
 
-在Test&amp;Target选件集页面中，选择 **[!UICONTROL 推送优惠]**，并在Test&amp;Target登录对话框中输入登录凭据。 请参阅 [将选件集推送到Adobe Target Standard/Premium](pushing-offer-sets-target.md#pushing_offer_sets_to_target).
+在“Test&amp;Target选件集”页面中，选择&#x200B;**[!UICONTROL 推送选件]**，然后在“Test&amp;Target登录”对话框中输入登录凭据。 查看[将选件集推送到Adobe Target Standard/Premium](pushing-offer-sets-target.md#pushing_offer_sets_to_target)。

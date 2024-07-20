@@ -34,16 +34,16 @@ ht-degree: 40%
 
 >[!NOTE]
 >
->也可以在“查看器预设”中设置响应模板。要在查看器预设中使用响应模板，请添加 `fmt=1` 到查看器预设中的信息服务器URL的末尾。
+>也可以在“查看器预设”中设置响应模板。若要改用查看器预设中的响应模板，请将`fmt=1`添加到查看器预设中的信息服务器URL的末尾。
 >
->请参阅 [设置eCatalog查看器预设](setting-ecatalog-viewer-presets.md#setting_up_ecatalog_viewer_presets).
+>请参阅[设置eCatalog查看器预设](setting-ecatalog-viewer-presets.md#setting_up_ecatalog_viewer_presets)。
 
 1. 双击eCatalog，以在“详细信息视图”中打开它。
-1. 选择 **[!UICONTROL 信息面板设置]** 面板。
+1. 选择&#x200B;**[!UICONTROL 信息面板设置]**&#x200B;面板。
 1. 选择“响应模板”：
 
    * 从“响应模板”菜单中选择预设。模板设计的 XML 显示在“用户模板”框中。
-   * 要创建自己的响应模板，请选择 **[!UICONTROL 自定义]**. 在“用户模板”框中键入模板 XML 定义。可以将预设模板作为您自己的模板的基础。
+   * 要创建您自己的响应模板，请选择&#x200B;**[!UICONTROL 自定义]**。 在“用户模板”框中键入模板 XML 定义。可以将预设模板作为您自己的模板的基础。
 
 1. （可选）在默认响应框中，键入当Adobe Dynamic Media Classic在检索图像映射信息时遇到错误时要显示的文本。 例如，如果系统收到公司名称和 eCatalog 名称，但是没有变换标识符，则将为用户显示该消息。
 1. 在“响应 TTL”框中，输入要在缓存数据之前等待的小时数：
@@ -51,7 +51,7 @@ ht-degree: 40%
    * 如果在一整天内需要频繁更新数据，则设置一个较小的值。
    * 如果数据相对稳定并且不需要在一天中频繁更新，则设置较高的数字。 默认为十小时。
 
-1. 选择 **[!UICONTROL Publish]**.
+1. 选择&#x200B;**[!UICONTROL Publish]**。
 
 ## 导入eCatalogs中信息面板的源内容 {#import-source-content-for-the-info-panel-in-ecatalogs}
 
@@ -66,10 +66,10 @@ ht-degree: 40%
 ### 将CSV内容从外部托管位置导入eCatalogs {#import-csv-content-into-ecatalogs-from-an-externally-hosted-location}
 
 1. 双击eCatalog ，以在“详细信息视图”中打开它。
-1. 选择 **[!UICONTROL 信息面板数据馈送]** 面板。
+1. 选择&#x200B;**[!UICONTROL 信息面板数据馈送]**&#x200B;面板。
 1. 在“外部承载的 CSV 文件位置”框中，输入 CSV 文件的 URL。可以将 URL 粘贴至该字段，或直接键入。
-1. （可选）使用“计划更新”菜单指定更新内容的时间，然后选择 **[!UICONTROL 添加]**. 可以选择多个更新时间。每个更新时间显示在“更新时间”框中。(要删除时间，请选择该时间，然后选择 **[!UICONTROL 删除]**.)
-1. （可选）选择 **[!UICONTROL 立即运行更新]** 以便立即更新内容。
+1. （可选）使用“计划更新”菜单指定更新内容的时间，然后选择&#x200B;**[!UICONTROL 添加]**。 可以选择多个更新时间。每个更新时间显示在“更新时间”框中。（若要删除时间，请选择该时间，然后选择&#x200B;**[!UICONTROL 删除]**。）
+1. （可选）选择&#x200B;**[!UICONTROL 立即运行更新]**，以便您可以立即更新内容。
 
 ### 导入制表符分隔文件或 CSV 文件 {#import-a-tab-delimited-or-csv-file}
 
@@ -84,10 +84,10 @@ Last Modified Date:
  -->
 
 1. 双击eCatalog ，以在“详细信息视图”中将其打开。
-1. 选择 **[!UICONTROL 信息面板设置]** 面板。
-1. 选择 **[!UICONTROL 上传S7Info内容]**.
-1. 选择 **[!UICONTROL 浏览]**，选择要使用的以制表符分隔的TXT文件、CSV或SSV文件，然后选择 **[!UICONTROL 打开]**.
-1. 选择 **[!UICONTROL 上传]**.
+1. 选择&#x200B;**[!UICONTROL 信息面板设置]**&#x200B;面板。
+1. 选择&#x200B;**[!UICONTROL 上传S7Info内容]**。
+1. 选择&#x200B;**[!UICONTROL 浏览]**，选择要使用的以制表符分隔的TXT文件、CSV或SSV文件，然后选择&#x200B;**[!UICONTROL 打开]**。
+1. 选择&#x200B;**[!UICONTROL 上传]**。
 
 Adobe Dynamic Media Classic会向您发送一封电子邮件，告知您上传是否成功。
 
@@ -95,8 +95,8 @@ Adobe Dynamic Media Classic会向您发送一封电子邮件，告知您上传�
 
 使用“映射页面”屏幕，您可以快速、轻松地查看 eCatalog 特定页面上“图像映射”的“信息面板”文本。
 
-1. 选择目录的变换图像 **[!UICONTROL 编辑]** 按钮。
-1. 选择 **[!UICONTROL 映射页面]**.
-1. 在屏幕右侧的表格顶部，选择 **[!UICONTROL 信息面板]** 从“显示”菜单中。
+1. 选择目录的滚动更新&#x200B;**[!UICONTROL 编辑]**&#x200B;按钮。
+1. 选择&#x200B;**[!UICONTROL 映射页面]**。
+1. 在表顶部的屏幕右侧，从“显示”菜单中选择&#x200B;**[!UICONTROL 信息面板]**。
 
    变换键文本显示在包含“信息面板”文本的每个图像映射旁。

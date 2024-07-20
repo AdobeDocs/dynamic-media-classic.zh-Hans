@@ -25,19 +25,19 @@ ht-degree: 17%
 
 您可以在“浏览”面板中将资产移动到不同的文件夹。
 
-**要移动资产，请执行以下操作：**
+**要移动资产：**
 
 1. 在“浏览”面板中选择一个或多个资源，然后执行以下操作之一：
 
    * 在资产库中显示要将资产移动到的文件夹，然后将资产拖到该文件夹。
-   * 转到 **[!UICONTROL 文件]** > **[!UICONTROL 移动]**，在移动资产窗口中选择一个文件夹，然后选择 **[!UICONTROL 移动]**.
+   * 转到&#x200B;**[!UICONTROL 文件]** > **[!UICONTROL 移动]**，在“移动Assets”窗口中选择一个文件夹，然后选择&#x200B;**[!UICONTROL 移动]**。
 
 ## 重命名资源 {#rename-assets}
 
 1. 在“浏览”面板中选择资产，然后执行以下操作之一：
 
-   * 选择名称，键入新名称，然后按 **[!UICONTROL 输入]** 或者从名称中选择其他名称。
-   * 转到 **[!UICONTROL 文件]** > **[!UICONTROL 重命名]**. 资源的名称被高亮显示。输入新名称并按 **[!UICONTROL 输入]**. 确保不输入现有Adobe Dynamic Media Classic资源的名称。
+   * 选择名称，键入新名称，然后按&#x200B;**[!UICONTROL Enter]**&#x200B;或选择退出名称。
+   * 转到&#x200B;**[!UICONTROL 文件]** > **[!UICONTROL 重命名]**。 资源的名称被高亮显示。输入新名称，然后按&#x200B;**[!UICONTROL Enter]**。 确保不输入现有Adobe Dynamic Media Classic资源的名称。
 
 ## 删除资源 {#delete-assets}
 
@@ -51,12 +51,12 @@ ht-degree: 17%
 >
 >批量删除是一项密集的操作。 请确保按顺序运行批量删除，而不是按并发大量删除操作运行。 Adobe建议您将删除操作限制为每小时5000个或更少的资源删除。 任何大于每小时5000的数字都可能导致速率限制。
 
-**要删除资源，请执行以下操作：**
+**要删除资源：**
 
 1. 执行任何以下操作：
 
-   * 要删除一个或多个资源，请在“浏览”面板中选择资源，然后按 **[!UICONTROL 删除]** 或转到 **[!UICONTROL 文件]** > **[!UICONTROL 删除]**.
-   * 要删除文件夹，请在资产库中选择该文件夹，然后选择 **[!UICONTROL 删除文件夹]**.
+   * 要删除一个或多个资源，请在“浏览”面板中选择资源，然后按&#x200B;**[!UICONTROL 删除]**&#x200B;或转到&#x200B;**[!UICONTROL 文件]** > **[!UICONTROL 删除]**。
+   * 要删除文件夹，请在资产库中选择该文件夹，然后选择&#x200B;**[!UICONTROL 删除文件夹]**。
 
      删除文件夹会删除该文件夹、该文件夹中的所有资源及其子文件夹中的所有资源。
 
@@ -70,14 +70,14 @@ ht-degree: 17%
 
 在创建列表之后，请执行以下步骤，以使用列表来删除资源：
 
-1. 转到 **[!UICONTROL 文件]** > **[!UICONTROL 删除资源列表]**.
-1. 在 **[!UICONTROL 已删除资源列表]** 对话框中，键入包含要删除的资源列表的文本文件的路径。
-1. 选择 **[!UICONTROL 删除]**.
+1. 转到&#x200B;**[!UICONTROL 文件]** > **[!UICONTROL 删除资源列表]**。
+1. 在&#x200B;**[!UICONTROL 已删除的资源列表]**&#x200B;对话框中，键入包含要删除的资源列表的文本文件的路径。
+1. 选择&#x200B;**[!UICONTROL 删除]**。
 
 使用文本文件删除资源时，如果列表中未列出任何Adobe Dynamic Media Classic ID，则会显示消息“无法验证列表中的这些条目：”。 还会显示条目列表。 但是，Adobe Dynamic Media Classic不会在“作业”页面上生成错误。
 
 >[!MORELIKETHIS]
 >
 >* [在浏览面板中选择资源](selecting-assets-browse-panel.md#selecting_assets_in_the_browse_panel)
->* [准备资产和文件夹以进行上传](uploading-files.md#preparing_your_assets_and_folders_for_uploading)
+>* [准备要上载的资产和文件夹](uploading-files.md#preparing_your_assets_and_folders_for_uploading)
 >* [从垃圾桶文件夹中还原资源](trash-folder.md#restoring_assets_from_the_trash_folder)

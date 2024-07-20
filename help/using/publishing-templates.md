@@ -27,13 +27,13 @@ ht-degree: 11%
 
 ## 将模板标记为发布 {#marking-templates-for-publish}
 
-必须将模板及其所有支持文件标记为发布，才能将它们放在Dynamic Media图像服务器上。 您可以通过选择“浏览”面板中的 **[!UICONTROL 标记为发布]** 图标。
+必须将模板及其所有支持文件标记为发布，才能将它们放在Dynamic Media图像服务器上。 您可以通过选择&#x200B;**[!UICONTROL 标记为Publish]**&#x200B;图标，在“浏览”面板中标记这些要发布的项目。
 
-## 发布您的模板 {#publishing-your-template}
+## Publish您的模板 {#publishing-your-template}
 
-要将模板发布到Dynamic Media图像服务器，请在全局导航栏上，选择 **[!UICONTROL Publish]**，然后选择 **[!UICONTROL 时间]** 选项。 您可以选择输入发布作业的名称。 选择 **[!UICONTROL 提交发布]**.
+要将模板发布到Dynamic Media图像服务器，请在全局导航栏上选择&#x200B;**[!UICONTROL Publish]**，然后选择一个&#x200B;**[!UICONTROL When]**&#x200B;选项。 您可以选择输入发布作业的名称。 选择&#x200B;**[!UICONTROL 提交Publish]**。
 
 >[!MORELIKETHIS]
 >
->* [将资产标记为发布](publishing-files.md#publish_after_uploading)
+>* [标记要发布的资产](publishing-files.md#publish_after_uploading)
 >* [创建发布作业](publishing-files.md#creating_a_publish_job)

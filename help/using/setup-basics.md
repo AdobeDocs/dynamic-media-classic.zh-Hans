@@ -19,22 +19,22 @@ ht-degree: 16%
 
 # 设置基础{#setup-basics}
 
-使用“Adobe Dynamic Media Classic设置”页面输入个人设置。 如果您是管理员，可设置您公司的设置。要打开“设置”页面，请在全局导航栏上选择 **[!UICONTROL 设置]**.
+使用“Adobe Dynamic Media Classic设置”页面输入个人设置。 如果您是管理员，可设置您公司的设置。要打开“设置”页面，请在全局导航栏上选择&#x200B;**[!UICONTROL 设置]**。
 
 在此页面上可用的设置取决于您作为用户或管理员的状态：
 
-* 用户只能访问 **[!UICONTROL 个人设置]** 公司及其成员公司的帐目，不能执行任何管理任务。
-* 管理员可以访问 **[!UICONTROL 个人设置]**，并查看和管理自己的公司帐户。 他们还可以执行所有应用程序设置功能和所有管理功能，包括添加管理员和用户。
+* 用户只能访问&#x200B;**[!UICONTROL 个人设置]**&#x200B;及其所属公司的帐户；他们无法执行任何管理任务。
+* 管理员可以访问&#x200B;**[!UICONTROL 个人设置]**，并查看和管理自己的公司帐户。 他们还可以执行所有应用程序设置功能和所有管理功能，包括添加管理员和用户。
 
-管理员还可以在以下位置设置图像预设和查看器预设 **[!UICONTROL 设置]** 页面：
+管理员还可以在&#x200B;**[!UICONTROL 设置]**&#x200B;页面中设置图像预设和查看器预设：
 
 * **图像预设**：图像预设是保存的格式，用于以不同大小和格式显示主图像。
 
-* **查看器预设**：查看器预设确定您在查看器中查看富媒体时的查看方式。
+* **查看器预设**：查看器预设决定您在查看器中查看富媒体时如何查看富媒体。
 
 >[!MORELIKETHIS]
 >
->* [基本设置培训视频](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/573_Setup%20Basics_converted%20renamed_Getting%20Started-AVS)
+>* [基本安装培训视频](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/573_Setup%20Basics_converted%20renamed_Getting%20Started-AVS)
 >* [Adobe Dynamic Media Classic用户角色和权限](administration-setup.md#user_administration)
 >* [Image Presets](application-setup.md#image_presets)
 >* [查看器预设](application-setup.md#viewer_presets)

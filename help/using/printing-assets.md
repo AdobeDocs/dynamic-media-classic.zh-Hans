@@ -20,5 +20,5 @@ ht-degree: 0%
 # 打印资产{#printing-assets}
 
 1. 在浏览面板中，选择要打印的一个或多个资产。
-1. 转到 **[!UICONTROL 文件]** > **[!UICONTROL 打印]** 或按 `Ctrl+P` (Windows®)或 `Command+P` (Mac)。
-1. 在“打印”对话框中，选择要打印的份数，然后单击 **[!UICONTROL 打印]**.
+1. 转到&#x200B;**[!UICONTROL 文件]** > **[!UICONTROL 打印]**&#x200B;或按`Ctrl+P` (Windows®)或`Command+P` (Mac)。
+1. 在“打印”对话框中，选择要打印的份数，然后单击“**[!UICONTROL 打印]**”。

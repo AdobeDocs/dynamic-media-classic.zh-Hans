@@ -21,25 +21,25 @@ ht-degree: 17%
 
 通过 Media Portal 样式设置，您可以在 Media Portal 屏幕中标上您公司的徽标和颜色。使用样式设置将您的公司品牌置于Media Portal上。
 
-要访问样式设置，请转到 **[!UICONTROL 设置]** > **[!UICONTROL Media Portal设置]** > **[!UICONTROL 样式设置]**. 确保选择 **[!UICONTROL 保存]** 以保存设置。 您可以选择 **[!UICONTROL 恢复]** 以恢复默认设置。 当您做出选择时，“预览”面板会显示它们的显示方式。
+若要访问样式设置，请转到&#x200B;**[!UICONTROL 设置]** > **[!UICONTROL Media Portal设置]** > **[!UICONTROL 样式设置]**。 请确保选择&#x200B;**[!UICONTROL 保存]**&#x200B;以在设置完成后保存设置。 您可以选择&#x200B;**[!UICONTROL 还原]**&#x200B;以恢复默认设置。 当您做出选择时，“预览”面板会显示它们的显示方式。
 
-* **[!UICONTROL 徽标]**：选择 **[!UICONTROL 浏览]**，然后在选择徽标图像窗口中选择图形。
+* **[!UICONTROL 徽标]**：选择&#x200B;**[!UICONTROL 浏览]**，然后在“选择徽标图像”窗口中选择图形。
 
-* **[!UICONTROL 应用程序]**：通过在“背景渐变颜色”菜单上进行选择来创建渐变颜色混合。
+* **[!UICONTROL 应用程序]**：通过在“背景渐变颜色”的菜单上进行选择来创建渐变颜色混合。
 
 * **[!UICONTROL 树]**：选择变换颜色和选择颜色。
 
-* **[!UICONTROL 折叠]**：为在“详细信息”视图中显示在屏幕右侧的折叠选择背景颜色、边框样式以及变换颜色和所选颜色。
+* **[!UICONTROL 可折叠项]**：选择背景颜色、边框样式以及鼠标指针和所选颜色，这些颜色将显示在“详细信息”视图屏幕右侧的可折叠项。
 
-* **[!UICONTROL Accordion标题]**：选择是否以可折叠项标题粗体显示文本。
+* **[!UICONTROL 可折叠项标题]**：选择是否在可折叠项标题粗体中显示文本。
 
-* **[!UICONTROL 数据网格]**：选择数据网格中标题行的颜色。
+* **[!UICONTROL 数据网格]**：为数据网格中的标题行选择颜色。
 
 * **[!UICONTROL 警报]**：选择警报消息框的背景颜色。
 
-* **[!UICONTROL 进度条]**：为指示上传和下载进度的条形选择颜色。
+* **[!UICONTROL 进度条]**：为指示上载和下载进度的进度条选择一种颜色。
 
-要让Media Portal用户查看您选择的样式设置，他们必须附加 `?company=(company name)` 访问媒体门户的URL。 例如，要查看样式设置，请访问PortalCo公司的Media Portal用户：
+要让Media Portal用户查看您选择的样式设置，他们必须在访问Media Portal的URL中附加`?company=(company name)`。 例如，要查看样式设置，请访问PortalCo公司的Media Portal用户：
 
 `https://s7sps1.scene7.com/MediaPortal`
 

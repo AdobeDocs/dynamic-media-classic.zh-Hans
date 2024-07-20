@@ -23,17 +23,17 @@ ht-degree: 7%
 
 在使用Adobe Dynamic Media Classic桌面应用程序之前，请确保您具备以下条件：
 
-* **用户名**：使用电子邮件地址作为登录名。
+* **用户名**：您使用电子邮件地址作为登录名。
 
-* **密码**：您可以从Adobe Dynamic Media Classic或Adobe Dynamic Media Classic管理员通过“欢迎”电子邮件获取临时密码。 您第一次登录时，会提示您更改此临时密码。
+* **密码**：您通过Adobe Dynamic Media Classic或Adobe Dynamic Media Classic管理员提供的“欢迎”电子邮件获取临时密码。 您第一次登录时，会提示您更改此临时密码。
 
 1. 打开Adobe Dynamic Media Classic桌面应用程序。
 
    ![Adobe Dynamic Media Classic登录](/help/using/assets/dmclassic-login1.png)
 
-1. 在 **[!UICONTROL 用户名]** 字段中，输入您的电子邮件地址。
-1. 在 **[!UICONTROL 密码]** 字段中，键入密码。
-1. 在 **[!UICONTROL 服务器]** 下拉列表，选择服务器。
+1. 在&#x200B;**[!UICONTROL 用户名]**&#x200B;字段中输入您的电子邮件地址。
+1. 在&#x200B;**[!UICONTROL 密码]**&#x200B;字段中，键入密码。
+1. 在&#x200B;**[!UICONTROL 服务器]**下拉列表中选择服务器。
 使用以下映射选择要使用的生产环境。
 
    | 浏览器URL | 桌面应用程序服务器名称 |
@@ -42,11 +42,11 @@ ht-degree: 7%
    | https://s7sps3.scene7.com/ | EMEA（欧洲、中东和非洲）生产 |
    | https://s7sps5.scene7.com/ | APAC（亚太）生产 |
 
-1. 选择 **[!UICONTROL 登录]**.
+1. 选择&#x200B;**[!UICONTROL 登录]**。
 
 ## 从Adobe Dynamic Media Classic注销 {#dmc-sign-out}
 
-1. 在Adobe Dynamic Media Classic桌面应用程序的右上角，选择 **[!UICONTROL 注销]**，然后选择 **[!UICONTROL 注销]** 再来一次。
+1. 在Adobe Dynamic Media Classic桌面应用程序的右上角，选择&#x200B;**[!UICONTROL 注销]**，然后重新选择&#x200B;**[!UICONTROL 注销]**。
 
 >[!MORELIKETHIS]
 >

@@ -25,7 +25,7 @@ ht-degree: 17%
 + [Adobe Dynamic Media Classic最佳实践教程](https://experienceleague.adobe.com/en/docs/experience-manager-learn/dynamic-media-classic-tutorial/overview)
 + [新的Adobe Dynamic Media Classic登录现已可用](new-ui-2020.md)
 + [按Experience LeagueAdobeDynamic Media新闻稿存档](dynamic-media-newsletter.md)
-+ Adobe Dynamic Media Classic简介 {#intro}
++ Adobe Dynamic Media Classic简介{#intro}
    + [Adobe Dynamic Media Classic桌面应用程序：现已推出](dynamic-media-classic-desktop-app.md)
    + [关于Adobe Dynamic Media Classic帮助](introduction.md)
    + [开发人员资源](developer-resources.md)
@@ -36,14 +36,14 @@ ht-degree: 17%
    + [Adobe 培训服务](training-services.md)
    + [常用学习资源](popular-resources.md)
    + [培训视频](training-videos.md)
-+ 快速入门 {#getting-started}
++ 快速入门{#getting-started}
    + [Adobe Dynamic Media Classic程序概述](dmc-platform-overview.md)
    + [Media Portal](media-portal.md)
    + [登录和注销](signing-out.md)
    + [导航基础知识](navigation-basics.md)
    + [设置基础](setup-basics.md)
    + [多媒體](rich-media.md)
-+ 设置 {#setup}
++ 设置{#setup}
    + [个人设置](personal-setup.md)
    + [应用程序设置](application-setup.md)
    + [发布设置](publish-setup.md)
@@ -60,14 +60,14 @@ ht-degree: 17%
    + [创建和启用图像预设](creating-enabling-image-presets.md)
    + [更有效地使用元数据](making-efficient-metadata.md)
    + [自定义Media Portal屏幕](customizing-media-portal-screen.md)
-+ 上传和发布资源 {#upload-publish}
++ 上载和发布资源{#upload-publish}
    + [关于资产上传和发布](about-asset-upload-publish.md)
    + [上载文件](uploading-files.md)
-   + [发布文件](publishing-files.md)
+   + [Publish文件](publishing-files.md)
    + [Dynamic Media限制](limitations.md)
    + [在公开资产之前测试资产](testing-assets-making-them-public.md)
    + [检查作业文件](checking-job-files.md)
-+ 管理资源 {#managing-assets}
++ 管理资源{#managing-assets}
    + [关于管理资源](about-managing-assets.md)
    + [使用资源文件夹](asset-folders.md)
    + [在“浏览”面板中查看资源](viewing-assets-browse-panel.md)
@@ -82,19 +82,19 @@ ht-degree: 17%
    + [打印资产](printing-assets.md)
    + [管理垃圾桶文件夹](trash-folder.md)
    + [组织您对项目的工作](organizing-projects.md)
-+ 图像大小 {#image-sizing}
++ 图像大小{#image-sizing}
    + [快速入门：调整图像大小](quick-start-image-sizing.md)
    + [上传主图像](uploading-master-images.md)
-   + [发布主图像](publishing-master-images.md)
+   + [Publish主图像](publishing-master-images.md)
    + [设置图像预设](setting-image-presets.md)
    + [将URL链接到您的Web应用程序](linking-urls-web-application.md)
-+ 缩放 {#zoom}
++ 缩放{#zoom}
    + [快速入门：缩放](quick-start-zoom.md)
    + [上传缩放图像](uploading-zoom-images.md)
    + [创建引导缩放的缩放目标](creating-zoom-targets-guided-zoom.md)
    + [设置缩放查看器预设](setting-zoom-viewer-presets.md)
    + [使用不同的缩放查看器预览图像资源](previewing-image-assets-different-zoom.md)
-   + [发布缩放图像](publishing-zoom-images.md)
+   + [Publish缩放图像](publishing-zoom-images.md)
    + [将缩放查看器链接到您的网页](linking-zoom-viewers-web-pages.md)
 + eCatalogs {#ecatalogs}
    + [快速入门：eCatalogs](quick-start-ecatalog.md)
@@ -104,9 +104,9 @@ ht-degree: 17%
    + [管理eCatalogs中的信息面板内容](info-panel-content-ecatalog.md)
    + [设置eCatalog查看器预设](setting-ecatalog-viewer-presets.md)
    + [在eCatalog查看器中预览eCatalog](previewing-ecatalogs-ecatalog-viewer.md)
-   + [发布eCatalog和相关PDF](publishing-ecatalogs-associated-pdfs.md)
+   + [Publish eCatalogs和相关PDF](publishing-ecatalogs-associated-pdfs.md)
    + [将eCatalog链接到网页](linking-ecatalog-web-page.md)
-+ 图像集 {#image-sets}
++ 图像集{#image-sets}
    + [快速入门：图像集](quick-start-image-sets.md)
    + [准备图像集资源以供上传](preparing-image-set-assets-upload.md)
    + [创建图像集](creating-image-set.md)
@@ -115,21 +115,21 @@ ht-degree: 17%
    + [查看图像集](viewing-image-sets.md)
    + [自动生成图像集](automated-image-set-generation.md)
    + [将图像集链接到网页](linking-image-set-web-page.md)
-+ 样本集 {#swatch-sets}
++ 样本集{#swatch-sets}
    + [快速入门：样本集](quick-start-swatch-sets.md)
    + [在样本集中包括缩放目标和图像映射](including-zoom-targets-image-maps-swatch-sets.md)
    + [准备样本集资源以供上传](preparing-swatch-set-assets-upload.md)
    + [创建样本集](creating-swatch-set.md)
    + [查看样本集](viewing-swatch-sets.md)
    + [将样本集链接到网页](linking-swatch-set-web-page.md)
-+ 旋转集 {#spin-sets}
++ 旋转集{#spin-sets}
    + [快速入门：旋转集](quick-start-spin-sets.md)
    + [创建旋转集](creating-spin-set.md)
    + [预览旋转集](previewing-spin-set.md)
-   + [发布旋转集](publishing-spin-set.md)
+   + [Publish a旋转集](publishing-spin-set.md)
    + [设置旋转集查看器预设](setting-spin-set-viewer-presets.md)
    + [将旋转集链接到网页](linking-spin-set-web-page.md)
-+ 模板基础知识 {#template-basics}
++ 模板基础知识{#template-basics}
    + [快速入门：模板基础](quick-start-template-basics.md)
    + [上载模板文件](uploading-template-files.md)
    + [创建模板](creating-template.md)
@@ -137,7 +137,7 @@ ht-degree: 17%
    + [发布模板](publishing-templates.md)
    + [将模板链接到网页](linking-template-web-page.md)
    + [管理内容变体](content-variations.md)
-+ 视频 {#video}
++ 视频{#video}
    + [快速入门：视频](quick-start-video.md)
    + [最佳做法：使用 HTML5 视频查看器](best-practice-using-html5-video.md)
    + [上传视频并进行编码](uploading-encoding-videos.md)
@@ -146,13 +146,13 @@ ht-degree: 17%
    + [向视频添加章节标记](adding-chapter-markers-video.md)
    + [将视频部署到网站和移动站点](deploying-video-websites-mobile-sites.md)
    + [导出源视频和编码视频](exporting-source-encoded-videos.md)
-+ 混合媒体集 {#mixed-media-sets}
++ 混合媒体集{#mixed-media-sets}
    + [快速入门：混合媒体集](quick-start-mixed-media-sets.md)
    + [设置混合媒体集查看器预设](setting-mixed-media-set-viewer.md)
    + [创建混合媒体集](creating-mixed-media-set.md)
-   + [发布混合媒体集](publishing-mixed-media-set.md)
+   + [Publish混合媒体集](publishing-mixed-media-set.md)
    + [将混合媒体集链接到网页](linking-mixed-media-set-web.md)
-+ Adobe Analytics检测工具包 {#analytics-kit}
++ Adobe Analytics检测工具包{#analytics-kit}
    + [快速入门：将Adobe Dynamic Media Classic与Adobe Analytics集成](quick-start-integrating-dmc-analytics.md)
    + [登录到Adobe Analytics](log-analytics.md)
    + [配置Adobe Analytics报表](configuring-analytics-reports.md)
@@ -160,18 +160,18 @@ ht-degree: 17%
    + [禁用Adobe Analytics跟踪](disabling-analytics-tracking.md)
    + [通过查看Adobe Analytics报表测试集成](testing-integration-viewing-analytics-report.md)
    + [启用Adobe Analytics视频报表](enabling-analytics-video-reports.md)
-   + [发布Adobe Analytics配置信息](publishing-analytics-configuration-information.md)
-+ Adobe Target Standard/Premium集成 {#target-classic}
+   + [Publish Adobe Analytics配置信息](publishing-analytics-configuration-information.md)
++ Adobe Target Standard/Premium集成{#target-classic}
    + [快速入门：Adobe Target Standard/Premium集成](quick-start-target-integration.md)
    + [将Adobe Dynamic Media Classic与Adobe Target Standard/Premium集成](integrating-dmc-with-target.md)
    + [创建优惠套餐](creating-offer-set.md)
    + [将选件集推送到Adobe Target Standard/Premium](pushing-offer-sets-target.md)
-+ 用户生成的内容 {#user-generated-content}
++ 用户生成的内容{#user-generated-content}
    + [关于用户生成的内容](about-ugc.md)
    + [删除上传的资源](deleting-uploaded-asset.md)
    + [获取磁盘使用情况信息](getting-disk-usage-information.md)
    + [上传栅格图像资产](uploading-image-asset-or-vector.md)
-+ 主文件 {#master-files}
++ 主文件{#master-files}
    + [优化图像质量的最佳做法](best-practices-optimizing-quality-images.md)
    + [编辑图像](editing-images.md)
    + [创建图像映射](creating-image-maps.md)
@@ -183,7 +183,7 @@ ht-degree: 17%
    + [使用PSD文件](psd-files.md)
    + [使用PostScript和Illustrator文件](postscript-illustrator-files.md)
    + [处理晕影、窗口覆盖和CAB文件](vignette-window-covering-cabinet-files.md)
-+ 支持文件 {#support-files}
++ 支持文件{#support-files}
    + [字体](fonts.md)
    + [XML 文件](xml-files.md)
    + [ICC 配置文件](icc-profiles.md)

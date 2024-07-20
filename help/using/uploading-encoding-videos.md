@@ -20,7 +20,7 @@ ht-degree: 40%
 
 要创建单个视频或自适应视频集以交付到Web或移动设备，您首先要将主视频文件上传到Adobe Dynamic Media Classic。 Adobe Dynamic Media Classic将视频编码为MP4格式，并以以下文件格式发布视频：
 
-* **MP4**：Adobe Dynamic Media Classic建议将MP4作为首选视频文件格式。 将 MP4 文件用于以下内容：
+* **MP4**： Adobe Dynamic Media Classic建议将MP4作为首选的视频文件格式。 将 MP4 文件用于以下内容：
 
    * 桌面的 HTTP 动态流。
    * HTTP实时流(Apple的流协议)。
@@ -28,9 +28,9 @@ ht-degree: 40%
 
   Adobe Dynamic Media Classic提供两种上传视频文件的工作流：
 
-* **预编码视频**：将MP4文件直接上传到Adobe Dynamic Media Classic。 对于该工作流程，在上载文件时，不会对文件进行编码。文件在准备传送到桌面和移动设备时进行预编码。
+* **预编码视频**：您直接将MP4文件上传到Adobe Dynamic Media Classic。 对于该工作流程，在上载文件时，不会对文件进行编码。文件在准备传送到桌面和移动设备时进行预编码。
 
-* **主源视频**：上传主源视频文件，并在上传时将这些文件编码为MP4文件。 在“浏览”面板中，已编码的视频被标记为“视频”。 Adobe Dynamic Media Classic支持对多种格式的视频文件进行编码。
+* **主源视频**：上载主源视频文件，并在上载时将这些文件编码为MP4文件。 在“浏览”面板中，已编码的视频被标记为“视频”。 Adobe Dynamic Media Classic支持对多种格式的视频文件进行编码。
 
    * 确保要编码的主要源视频文件受支持。
 
@@ -44,47 +44,47 @@ ht-degree: 40%
 
 Adobe Dynamic Media Classic还会生成视频缩略图。 您可以了解有关视频缩略图的详细信息，如何获取其 URL 以及修改海报帧。
 
-请参阅 [使用视频缩略图](deploying-video-websites-mobile-sites.md#working-with-video-thumbnails).
+请参阅[使用视频缩略图](deploying-video-websites-mobile-sites.md#working-with-video-thumbnails)。
 
-**要上传视频并进行编码，请执行以下操作：**
+**要上载视频并进行编码：**
 
 执行以下任一操作。
 
 *如果您的视频已编码*
 
-1. 在全局导航栏上，选择 **[!UICONTROL 上传]**.
-1. 在“上载”页中，选择 **[!UICONTROL 从桌面]** 选项卡。
-1. 在上传页面上，在 **[!UICONTROL 选择要上载的文件]** 面板，选择 **[!UICONTROL 浏览]**，导航到MP4视频文件，然后选择 **[!UICONTROL 打开]**.
-1. 在所选 **[!UICONTROL 文件夹目标]** 面板，为上载的文件选择一个文件夹。
-1. 在上传页面上，确保 **[!UICONTROL 上传后发布]** 已选中。
-1. 选择 **[!UICONTROL 提交上载]**.
+1. 在全局导航栏上，选择&#x200B;**[!UICONTROL 上载]**。
+1. 在上传页面中，选择&#x200B;**[!UICONTROL 从桌面]**&#x200B;选项卡。
+1. 在上传页面的&#x200B;**[!UICONTROL 选择要上传的文件]**&#x200B;面板中，选择&#x200B;**[!UICONTROL 浏览]**，导航到MP4视频文件，然后选择&#x200B;**[!UICONTROL 打开]**。
+1. 在选定的&#x200B;**[!UICONTROL 文件夹目标]**&#x200B;面板中，为上载的文件选择一个文件夹。
+1. 在上传页面上，确保选中&#x200B;**[!UICONTROL 上传后的Publish]**。
+1. 选择&#x200B;**[!UICONTROL 提交上载]**。
 
 *如果要使用Adobe Dynamic Media Classic对视频进行编码*
 
-1. 在全局导航栏上，选择 **[!UICONTROL 上传]**.
-1. 在“上载”页中，选择 **[!UICONTROL 从桌面]** 选项卡。
-1. 在 **[!UICONTROL 选择要上载的文件]** 面板，选择 **[!UICONTROL 浏览]**，导航到主源视频文件，然后选择 **[!UICONTROL 打开]**.
-1. 在所选 **[!UICONTROL 文件夹目标]** 面板，为上载的文件选择一个文件夹。
-1. 在页面的右下角，选择 **[!UICONTROL 作业选项]**，
-1. 在上载作业选项对话框中，展开 **[!UICONTROL EVideo选项]**，然后执行以下操作之一：
+1. 在全局导航栏上，选择&#x200B;**[!UICONTROL 上载]**。
+1. 在上传页面中，选择&#x200B;**[!UICONTROL 从桌面]**&#x200B;选项卡。
+1. 在&#x200B;**[!UICONTROL 选择要上载的文件]**&#x200B;面板中，选择&#x200B;**[!UICONTROL 浏览]**，导航到主源视频文件，然后选择&#x200B;**[!UICONTROL 打开]**。
+1. 在选定的&#x200B;**[!UICONTROL 文件夹目标]**&#x200B;面板中，为上载的文件选择一个文件夹。
+1. 在页面的右下角，选择&#x200B;**[!UICONTROL 作业选项]**，
+1. 在“上载作业选项”对话框中，展开&#x200B;**[!UICONTROL EVideo选项]**，然后执行下列操作之一：
 
-   * 最佳实践是选择 **[!UICONTROL 自适应视频编码]**. 请参阅[自适应视频（默认）](application-setup.md#adaptive-video-default)。
-   * 可选。 如果要使用单独的编码设置，请展开 **[!UICONTROL 单个编码预设]**，然后选择所需的台式机、移动设备和平板电脑编码选项。
+   * 最佳实践是选择&#x200B;**[!UICONTROL 自适应视频编码]**。 请参阅[自适应视频（默认）](application-setup.md#adaptive-video-default)。
+   * 可选。 如果要使用单个编码设置，请展开&#x200B;**[!UICONTROL 单个编码预设]**，然后选择桌面、移动设备和平板电脑所需的编码选项。
 请参阅[台式机视频编码预设](application-setup.md#desktop-video-encoding-presets)、[移动设备视频编码预设](application-setup.md#mobile-video-encoding-presets)和[平板电脑视频编码预设](application-setup.md#tablet-video-encoding-presets)。
-1. 在“上载作业选项”对话框中，选择 **[!UICONTROL 保存]**.
-1. 在上传页面上，确保 **[!UICONTROL 上传后发布]** 已选中。
-1. 在上传页面的右下角，选择 **[!UICONTROL 提交上载]**.
+1. 在“上载作业选项”对话框中，选择&#x200B;**[!UICONTROL 保存]**。
+1. 在上传页面上，确保选中&#x200B;**[!UICONTROL 上传后的Publish]**。
+1. 在上传页面的右下角，选择&#x200B;**[!UICONTROL 提交上传]**。
 
-*如果您要对之前上传的视频文件重新编码*
+*如果要对先前上载的视频文件进行重新编码*
 
 1. 在Adobe Dynamic Media Classic的“浏览”面板中，导航到视频并将其选定。
-1. 转到 **[!UICONTROL 文件]** > **[!UICONTROL 重新处理]**.
-1. 在重新处理资源对话框中，展开 **[!UICONTROL EVideo选项]**，然后执行以下操作之一：
-   * 最佳实践为使用以下方法。 选择 **自适应视频**.
+1. 转到&#x200B;**[!UICONTROL 文件]** > **[!UICONTROL 重新处理]**。
+1. 在“重新处理Assets”对话框中，展开&#x200B;**[!UICONTROL EVideo选项]**，然后执行下列操作之一：
+   * 最佳实践为使用以下方法。 选择&#x200B;**自适应视频**。
 请参阅[自适应视频（默认）](application-setup.md#adaptive-video-default)。
-   * 可选。 如果要使用单独的编码设置，请展开 **[!UICONTROL 单个编码预设]**，然后选择所需的台式机、移动设备和平板电脑编码选项。
+   * 可选。 如果要使用单个编码设置，请展开&#x200B;**[!UICONTROL 单个编码预设]**，然后选择桌面、移动设备和平板电脑所需的编码选项。
 请参阅[台式机视频编码预设](application-setup.md#desktop-video-encoding-presets)、[移动设备视频编码预设](application-setup.md#mobile-video-encoding-presets)和[平板电脑视频编码预设](application-setup.md#tablet-video-encoding-presets)。
-1. 在重新处理资源对话框中，选择 **[!UICONTROL 提交]**.
+1. 在“重新处理Assets”对话框中，选择&#x200B;**[!UICONTROL 提交]**。
 
 如果使用自适应视频编码预设或多个单编码预设，则会生成一个使用多个视频编码自动创建的自适应视频集。 也可以选择各个视频以手动创建自适应视频集。
 
@@ -94,7 +94,7 @@ Adobe Dynamic Media Classic还会生成视频缩略图。 您可以了解有关�
 
 下表列出了在上载文件时可以编码为 MP4 或 OGV 格式的视频文件类型（包含允许的视频编解码器）。此表列出了文件格式和编码解码器：
 
-* **视频文件格式**：与ZIP文件类似，视频文件格式可确定文件在视频文件中的包含方式。 视频文件通常包含多个轨道 — 一个视频轨道（没有音频）和一个或多个音频轨道（没有视频） — 这些轨道相互联系并且同步。视频文件格式决定了这些不同的数据轨道和元数据的组织方式。
+* **视频文件格式**：与ZIP文件类似，视频文件格式决定了文件在视频文件中的包含方式。 视频文件通常包含多个轨道 — 一个视频轨道（没有音频）和一个或多个音频轨道（没有视频） — 这些轨道相互联系并且同步。视频文件格式决定了这些不同的数据轨道和元数据的组织方式。
 
 * **视频编解码器**：视频编解码器描述了视频的编码算法。 视频播放器根据其编码解码器对视频进行解码，然后在屏幕显示一系列图像或帧。编解码器将视频文件存储为播放视频所需的信息量降至最低。存储的信息不是关于每个单独帧的信息，而是关于一个帧与下一个帧之间的差异的信息。 由于大多数视频在帧间变化很小，因此编解码器允许较高的压缩率，从而缩小文件大小。
 
@@ -119,7 +119,7 @@ Adobe Dynamic Media Classic还会生成视频缩略图。 您可以了解有关�
 
   >[!NOTE]
   >
-  >如果上载并尝试编码视频文件，但由于文件包含不兼容的编码解码器或文件容器而被拒绝，“作业”屏幕将发出警告。有关更多信息，请参阅 [检查作业文件](checking-job-files.md).
+  >如果上载并尝试编码视频文件，但由于文件包含不兼容的编码解码器或文件容器而被拒绝，“作业”屏幕将发出警告。有关详细信息，请参阅[检查作业文件](checking-job-files.md)。
 
 ## 视频编码最佳做法 {#best-practices-for-video-encoding}
 
@@ -147,7 +147,7 @@ For advice about video encoding, see the following:
 
 您可以通过以下方式获取文件的元数据：在Adobe Dynamic Media Classic中查看文件元数据，使用视频编辑工具，或使用专为获取元数据而设计的应用程序。 以下是使用第三方应用程序MediaInfo获取视频文件元数据的说明：
 
-1. 转到此网页： [https://mediaarea.net/en/MediaInfo](https://mediaarea.net/en/MediaInfo).
+1. 转到此网页： [https://mediaarea.net/en/MediaInfo](https://mediaarea.net/en/MediaInfo)。
 1. 选择和下载图形界面版本的安装程序，并按安装说明操作。
 1. 安装后，右键单击视频文件(仅限Windows®)并选择MediaInfo，或者打开MediaInfo并将视频文件拖到应用程序中。 您会看到与视频文件相关的所有元数据，其中包括其宽度、高度和 fps。
 
@@ -155,7 +155,7 @@ For advice about video encoding, see the following:
 
 当为主视频文件选择或创建视频编码预设时，请确保预设具有与主视频文件相同的纵横比。 *高宽比*&#x200B;是视频宽度和视频高度的比例。
 
-要确定视频文件的纵横比，请获取文件的元数据，并注意文件的宽度和高度(请参阅 [获取文件的元数据](uploading-encoding-videos.md#obtaining_a_file_s_metadata))。 然后，使用以下公式来确定高宽比：
+要确定视频文件的长宽比，请获取文件的元数据，并注意文件的宽度和高度（请参阅[获取文件的元数据](uploading-encoding-videos.md#obtaining_a_file_s_metadata)）。 然后，使用以下公式来确定高宽比：
 
 宽度/高度=长宽比
 
@@ -172,7 +172,7 @@ For advice about video encoding, see the following:
 
 ### 数据速率 {#data-rate}
 
-此 *数据速率* (也称为 *比特率*)是经过编码以构成视频播放一秒的数据量。 数据速率以千比特/秒 (Kbps) 为度量单位。
+*数据速率*（也称为&#x200B;*比特率*）是经过编码以构成一秒视频播放的数据量。 数据速率以千比特/秒 (Kbps) 为度量单位。
 
 >[!NOTE]
 >
@@ -191,7 +191,7 @@ For advice about video encoding, see the following:
 
 ### 分辨率 {#resolution}
 
-*分辨率* 描述视频文件的高度和宽度（以像素为单位）。 大多数源视频都以高分辨率存储(例如，1920 × 1080)。 为了流传输目的，源视频被压缩成较小的分辨率(640 × 480或更小)。
+*分辨率*&#x200B;描述视频文件的高度和宽度（以像素为单位）。 大多数源视频都以高分辨率存储(例如，1920 × 1080)。 为了流传输目的，源视频被压缩成较小的分辨率(640 × 480或更小)。
 
 分辨率和数据速率是决定视频质量的两个不可分割的因素。为获得相同的视频质量，视频文件的像素数（分辨率越高）越高，数据速率必须越高。例如，假定分辨率为320×240的视频文件和640×480分辨率的视频文件中每帧的像素数：
 
@@ -253,7 +253,7 @@ Adobe Dynamic Media Classic建议使用MP4 H.264视频编码预设。 由于 MP4
 
 使用视频制作设备和视频编辑软件创建的主要视频文件通常太大，格式不正确，无法传送到在线目的地。 要将数字视频转换为适用于在不同屏幕上播放的适当格式和规格，您可以将视频文件&#x200B;*转码*（此过程也称为&#x200B;*编码*）。在编码过程中，视频被压缩成更小的、有效的文件大小。 这样做是为了将内容最佳地交付到Web和移动设备。
 
-请参阅 [上传视频并进行编码](uploading-encoding-videos.md#uploading-and-encoding-videos).
+查看[上传视频并为其编码](uploading-encoding-videos.md#uploading-and-encoding-videos)。
 
 Adobe Dynamic Media Classic为您提供了一个预定义的视频编码预设库，这些预设可反映当前最常用的编码设置。 这些编码预设针对在目标屏幕上播放进行了优化。此外，管理员还可以创建自己的视频编码预设，以便为最终用户自定义视频大小和播放质量。所有视频编码预设(无论是Adobe Dynamic Media Classic中的现成预设，还是自定义预设)都以MP4文件格式输出视频。
 
@@ -266,15 +266,15 @@ Adobe Dynamic Media Classic为您提供了一个预定义的视频编码预设�
 
 上传到Adobe Dynamic Media Classic或在Adobe Dynamic Media Classic中编码的任何视频都将被视为“视频”。 即此资源类别表示您可以传送此视频以便在桌面、移动设备或同时在两者上播放。例如，您可以在Adobe Dynamic Media Classic中预览这些类型的视频。 也可以生成 URL（使用复制 URL）和可嵌入的代码（使用嵌入代码）以用于视频播放器、网站，等等。
 
-请参阅 [在视频查看器中预览视频](previewing-videos-video-viewer.md#previewing-videos-in-a-video-viewer).
+请参阅[在视频查看器中预览视频](previewing-videos-video-viewer.md#previewing-videos-in-a-video-viewer)。
 
-请参阅 [将视频URL链接到移动网站或网站](deploying-video-websites-mobile-sites.md#linking-a-video-url-to-a-mobile-site-or-a-website).
+请参阅[将视频URL链接到移动网站或网站](deploying-video-websites-mobile-sites.md#linking-a-video-url-to-a-mobile-site-or-a-website)。
 
-请参阅 [在网页上嵌入视频查看器](deploying-video-websites-mobile-sites.md#embedding-the-video-viewer-on-a-web-page).
+请参阅[在网页上嵌入视频查看器](deploying-video-websites-mobile-sites.md#embedding-the-video-viewer-on-a-web-page)。
 
 对于您在Adobe Dynamic Media Classic中上传并编码的视频资产，视频将以下列文件格式交付：
 
-**MP4 H.264** 将MP4文件用于以下内容：
+**MP4 H.264**&#x200B;将MP4文件用于以下内容：
 
 * 桌面的 HTTP 动态流。
 * HLS(HTTP实时流、Apple的流协议)。
@@ -290,9 +290,9 @@ Adobe Dynamic Media Classic为您提供了一个预定义的视频编码预设�
 
 也可以根据播放设备选项进行过滤，将列表范围缩小为用于在所有设备、台式机、移动设备或平板电脑上播放视频的视频预设。
 
-**要筛选视频编码预设列表，请执行以下操作：**
+**要筛选视频编码预设列表：**
 
-1. 在Adobe Dynamic Media Classic的全局导航栏上，转到 **[!UICONTROL 设置]** > **[!UICONTROL 应用程序设置]** > **[!UICONTROL 视频预设]** > **[!UICONTROL 自适应视频预设]** 或 **[!UICONTROL 单个编码预设]**.
+1. 在Adobe Dynamic Media Classic的全局导航栏上，转到&#x200B;**[!UICONTROL 设置]** > **[!UICONTROL 应用程序设置]** > **[!UICONTROL 视频预设]** > **[!UICONTROL 自适应视频预设]**&#x200B;或&#x200B;**[!UICONTROL 单个编码预设]**。
 
    自适应视频预设和单一编码预设的页面包括一个表，其中列出了每个视频预设的活动状态、预设名称、预期播放设备、视频维度和数据速率。
 
@@ -305,11 +305,11 @@ Adobe Dynamic Media Classic为您提供了一个预定义的视频编码预设�
 
 激活的视频预设将显示在“上载作业选项”对话框中。当用户在上传过程中上传视频文件时，会显示该对话框。 他们可以从所有激活的编码预设列表中进行选择。
 
-1. 在Adobe Dynamic Media Classic的全局导航栏上，转到 **[!UICONTROL 设置]** > **[!UICONTROL 应用程序设置]** > **[!UICONTROL 视频预设]**.
+1. 在Adobe Dynamic Media Classic的全局导航栏上，转到&#x200B;**[!UICONTROL 设置]** > **[!UICONTROL 应用程序设置]** > **[!UICONTROL 视频预设]**。
 1. 执行以下任一操作：
 
-   * 选择 **[!UICONTROL 自适应视频预设]**.
-   * 选择 **[!UICONTROL 单个编码预设]**.
+   * 选择&#x200B;**[!UICONTROL 自适应视频预设]**。
+   * 选择&#x200B;**[!UICONTROL 单个编码预设]**。
 
 1. 执行以下任一操作：
 
@@ -320,7 +320,7 @@ Adobe Dynamic Media Classic为您提供了一个预定义的视频编码预设�
      >
      >非活动视频预设不会显示在“上载作业选项”对话框中。
 
-1. 在页面的右下角，选择 **[!UICONTROL 关闭]**.
+1. 在页面的右下角，选择&#x200B;**[!UICONTROL 关闭]**。
 
 ### 添加或编辑视频编码预设 {#adding-or-editing-a-video-encoding-preset}
 
@@ -328,20 +328,20 @@ Adobe Dynamic Media Classic为您提供了一个预定义的视频编码预设�
 
 Adobe Dynamic Media Classic为目标数据速率、分辨率高度和分辨率宽度设置了最大限制，以确保有正确的播放体验。 如果超过以下限制，则会显示警告消息：
 
-* 对于计算机播放，限制为： （宽度/16） &#42; (Height/16) &lt; 8192。
+* 对于计算机播放，限制为： （宽度/16） &#42; （高度/16） &lt; 8192。
 * 对于移动设备播放，限制为：（宽度/16） &#42; （高度/16） &lt; 660；目标数据速率&lt; 4000。
-* 对于平板电脑播放，限制为：（宽度/16） &#42; (Height/16) &lt; 3600。
+* 对于平板电脑播放，限制为：（宽度/16） &#42; （高度/16） &lt; 3600。
 
 **添加或编辑视频编码预设：**
 
-1. 在Adobe Dynamic Media Classic的全局导航栏上，转到 **[!UICONTROL 设置]** > **[!UICONTROL 应用程序设置]** > **[!UICONTROL 视频预设]**.
-1. 选择 **[!UICONTROL 单个编码预设]**.
+1. 在Adobe Dynamic Media Classic的全局导航栏上，转到&#x200B;**[!UICONTROL 设置]** > **[!UICONTROL 应用程序设置]** > **[!UICONTROL 视频预设]**。
+1. 选择&#x200B;**[!UICONTROL 单个编码预设]**。
 1. 在“视频预设”页中，执行以下操作之一：
 
-   * 在“视频预设”工具栏上，选择 **[!UICONTROL 添加]** 以便添加视频预设。
-   * 选择一个视频预设。在工具栏中，选择 **[!UICONTROL 编辑]**.
+   * 在“视频预设”工具栏上，选择&#x200B;**[!UICONTROL 添加]**，以便添加视频预设。
+   * 选择一个视频预设。在工具栏中选择&#x200B;**[!UICONTROL 编辑]**。
 
-     无法编辑Adobe Dynamic Media Classic预定义预设；您只能通过选择从现有预设创建预设 **[!UICONTROL 另存为]**.
+     您无法编辑Adobe Dynamic Media Classic预定义预设；您只能通过选择&#x200B;**[!UICONTROL 另存为]**&#x200B;从现有预设创建预设。
 
 1. 在“添加视频预设”或“编辑视频预设”页中，设置所需的视频预设选项。
 
@@ -353,29 +353,29 @@ Adobe Dynamic Media Classic为目标数据速率、分辨率高度和分辨率�
    | 说明 | 描述视频预设。您输入的内容将显示为工具提示。 当用户选择转码选项时，当他们将指针移到“上载作业选项”对话框中的预设名称上方时，将会显示工具提示。 |
    | 播放设备 | 选择要在其上播放视频的设备。这些选项为“计算机”（台式机）、“移动设备”(iPhone、iPad、Android™)或“平板电脑”(仅限iPad)。 此设置会自动确定在编码期间使用的相应视频和音频编解码器。 |
    | 目标数据速率 | 输入目标最终用户的 Internet 平均连接速度（千比特/秒）。您可以输入速率，或拖动滑块进行输入。用户连接速度范围列出了宽带、DSL、移动设备和拨号连接的标准速度。此设置会自动确定组合的视频和音频数据速率。也就是构成一秒钟视频播放所编码的数据量。数据速率越高，所得到视频的品质就越高。但是，如果数据速率太高，则导致文件非常大，并导致低带宽连接的用户的观看体验欠佳。最好是在高数据速率和低数据速率之间找到一个平衡点。努力创造优质播放体验，同时不疏远带宽狭窄的用户。 |
-   | 高宽比 | 长宽比是视频的宽高比。 下面列出的前两个高宽比通常用于水平显示视频：<ul><li> 4:3: 用于几乎所有标准清晰度电视广播内容。</li><li>16:9: 用于高清电视(HDTV)上的几乎所有宽屏内容和电影。</li><li>自动缩放： （默认）一种单一编码预设，可与任何纵横比配合使用，创建要交付到移动设备、平板电脑和台式机的视频。 使用该预设编码的上载的源视频将设置为固定高度。但是，宽度会自动缩放以保留视频的长宽比（宽高比）。</li><li>自定义：在要定义非标准视频大小时使用。</li><li>您选择的纵横比决定了“分辨率大小”的宽度和高度设置；宽度和高度值会自动缩放到适当的纵横比。</li></ul> |
-   | 分辨率大小 | 分辨率大小（用宽度的像素数乘以高度的像素数表示）决定大小。 输入宽度和高度值（以像素为单位），或拖动滑块以输入这些值。 分辨率范围列出了标准分辨率大小。宽度值和高度值会自动遵循您选择的长宽比。 例如，如果选择4:3作为长宽比，并输入400作为宽度，则自动输入300作为高度。 如果为“纵横比”设置选择了“自动缩放”，则“分辨率大小”的“宽度”值将自动设置为“自动”。 选择 **[!UICONTROL 预览]** 这样您就可以打开浏览器窗口，并在其中查看您选择的解决方案。 |
+   | 高宽比 | 长宽比是视频的宽高比。 下面列出的前两个高宽比通常用于水平显示视频：<ul><li> 4:3:用于几乎所有标准定义电视广播内容。</li><li>16:9:用于高清电视(HDTV)上的几乎所有宽屏内容和电影。</li><li>自动缩放： （默认）一种单一编码预设，可与任何纵横比配合使用，创建要交付到移动设备、平板电脑和台式机的视频。 使用该预设编码的上载的源视频将设置为固定高度。但是，宽度会自动缩放以保留视频的长宽比（宽高比）。</li><li>自定义：在要定义非标准视频大小时使用。</li><li>您选择的纵横比决定了“分辨率大小”的宽度和高度设置；宽度和高度值会自动缩放到适当的纵横比。</li></ul> |
+   | 分辨率大小 | 分辨率大小（用宽度的像素数乘以高度的像素数表示）决定大小。 输入宽度和高度值（以像素为单位），或拖动滑块以输入这些值。 分辨率范围列出了标准分辨率大小。宽度值和高度值会自动遵循您选择的长宽比。 例如，如果选择4:3作为长宽比，并输入400作为宽度，则自动输入300作为高度。 如果为“纵横比”设置选择了“自动缩放”，则“分辨率大小”的“宽度”值将自动设置为“自动”。 选择&#x200B;**[!UICONTROL 预览]**，以便打开浏览器窗口并查看分辨率选项。 |
    | 编码文件后缀 | 输入后缀。该后缀会附加到生成的编码视频文件的后面。您可以在名称中输入连字符和下划线；不允许使用空格和特殊字符。 |
    | 其他设置 | Adobe Dynamic Media Classic会根据最佳实践编码准则自动确定所有其他编码设置。 |
 
 1. 执行以下任一操作：
 
-   * 选择 **[!UICONTROL 保存]** 是否添加或编辑了视频预设。
-   * 选择 **[!UICONTROL 另存为]** 如果您通过从现有预设开始添加视频预设。
+   * 如果添加或编辑了视频预设，请选择&#x200B;**[!UICONTROL 保存]**。
+   * 如果通过从现有预设开始添加视频预设，请选择&#x200B;**[!UICONTROL 另存为]**。
 
 ### 删除视频编码预设 {#delete-a-video-encoding-preset}
 
 管理员可以删除自定义视频预设。不能删除Adobe Dynamic Media Classic附带的视频预设。
 
-1. 在Adobe Dynamic Media Classic的全局导航栏上，转到 **[!UICONTROL 设置]** > **[!UICONTROL 应用程序设置]** > **[!UICONTROL 视频预设]**.
-1. 选择 **[!UICONTROL 单个编码预设]**.
+1. 在Adobe Dynamic Media Classic的全局导航栏上，转到&#x200B;**[!UICONTROL 设置]** > **[!UICONTROL 应用程序设置]** > **[!UICONTROL 视频预设]**。
+1. 选择&#x200B;**[!UICONTROL 单个编码预设]**。
 1. 在“视频预设”页中，在表格中选择不再需要的视频预设。
-1. 在“视频预设”工具栏上，选择 **[!UICONTROL 删除]**.
-1. 在删除预设对话框中，选择 **[!UICONTROL 删除]**.
+1. 在“视频预设”工具栏上，选择&#x200B;**[!UICONTROL 删除]**。
+1. 在“删除预设”对话框中，选择&#x200B;**[!UICONTROL 删除]**。
 
 >[!MORELIKETHIS]
 >
 >* [快速入门： Adobe Dynamic Media Classic中的视频](quick-start-video.md#quick-start-video)
->* [上传视频并进行编码](uploading-encoding-videos.md#uploading-and-encoding-videos)
+>* [上载视频并进行编码](uploading-encoding-videos.md#uploading-and-encoding-videos)
 >* [使用视频查看器预设](previewing-videos-video-viewer.md#working-with-video-viewer-presets)
->* [视频预设](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/549_video-presets_converted%20renamed_Done-AVS) 训练视频
+>* [视频预设](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/549_video-presets_converted%20renamed_Done-AVS)培训视频

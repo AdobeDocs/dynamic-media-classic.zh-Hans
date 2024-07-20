@@ -19,9 +19,9 @@ ht-degree: 3%
 
 # 禁用Adobe Analytics跟踪{#disabling-adobe-analytics-tracking}
 
-**要禁用Adobe Analytics跟踪，请执行以下操作：**
+**要禁用Adobe Analytics跟踪：**
 
 1. 在Adobe Dynamic Media Classic的“Adobe Analytics配置”页面中关闭所有事件。
 1. 保存并发布。
 
-这些步骤会关闭对Adobe Dynamic Media Classic和从获取的URL的支持 **[!UICONTROL 复制URL]** 功能。 如果您实施自定义跟踪，请按照“配置”页面中的设置禁用Adobe Analytics跟踪，以防止与自定义实施冲突。
+这些步骤将关闭对Adobe Dynamic Media Classic和从&#x200B;**[!UICONTROL CopyURL]**&#x200B;功能获得的URL的支持。 如果您实施自定义跟踪，请按照“配置”页面中的设置禁用Adobe Analytics跟踪，以防止与自定义实施冲突。

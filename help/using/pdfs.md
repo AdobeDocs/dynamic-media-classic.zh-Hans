@@ -27,7 +27,7 @@ PDF（可移植文档格式）文件在Adobe Dynamic Media Classic中用于创�
 | --- | --- | --- |
 | 考虑进行提取的PDF的最大页数 | 5000（用于新上传） | 100(适用于所有PDF) |
 
-另请参阅 [Dynamic Media限制](/help/using/limitations.md).
+另请参阅[Dynamic Media限制](/help/using/limitations.md)。
 
 ## PDF 上载选项 {#pdf-upload-options}
 
@@ -37,9 +37,9 @@ PDF（可移植文档格式）文件在Adobe Dynamic Media Classic中用于创�
 
 ### 处理选项
 
-**[!UICONTROL 栅格化]**：（默认）翻录PDF文件中的页面，并将矢量图形转换为位图图像。 要创建eCatalog，请选择此选项。
+**[!UICONTROL 栅格化]**： （默认）断开PDF文件中的页面，并将矢量图形转换为位图图像。 要创建eCatalog，请选择此选项。
 
-**[!UICONTROL 提取搜索词]**：从PDF文件中提取单词，以便可以在eCatalog查看器中搜索文件中的关键字。
+**[!UICONTROL 提取搜索词]**：从PDF文件中提取搜索词，以便在eCatalog查看器中搜索文件中的关键字。
 
 **[!UICONTROL 提取链接]**：从PDF文件中提取链接，并将其转换为在eCatalog查看器中使用的图像映射。
 
@@ -67,7 +67,7 @@ PDF（可移植文档格式）文件在Adobe Dynamic Media Classic中用于创�
 
 * **[!UICONTROL 保留原始颜色空间]**：保留原始颜色空间。
 
-* **[!UICONTROL 自定义自]** > **[!UICONTROL 至]**：打开菜单，以便您选择“转换自”和“转换至”颜色空间。 您可以选择标准的Photoshop色彩空间，也可以选择上传到Adobe Dynamic Media Classic的色彩空间。
+* **[!UICONTROL 自定义从]** > **[!UICONTROL 到]**：打开菜单，以便选择“转换自”和“转换为颜色空间”。 您可以选择标准的Photoshop色彩空间，也可以选择上传到Adobe Dynamic Media Classic的色彩空间。
 
 另请参阅[ ICC 配置文件](/help/using/icc-profiles.md#icc_profiles)。
 
@@ -80,21 +80,21 @@ PDF（可移植文档格式）文件在Adobe Dynamic Media Classic中用于创�
 
    * **[!UICONTROL 裁切依据]**：选择根据颜色还是透明度裁切：
 
-      * **[!UICONTROL 颜色]**：选择颜色选项。 然后选择 **[!UICONTROL 角]** 菜单并选择该PDF的角落，其颜色最能代表要裁切的空白颜色。
+      * **[!UICONTROL 颜色]**：选择“颜色”选项。 然后选择&#x200B;**[!UICONTROL 角]**&#x200B;菜单并选择该PDF的角，该角最能代表您要裁切的空白颜色。
 
       * **[!UICONTROL 透明度]**：选择透明度选项。
 
    * **[!UICONTROL 容差]**：拖动滑块以指定从0到1的容差。
 
-   * **[!UICONTROL 基于颜色的修剪]**：指定0以仅裁切与PDF角落所选颜色完全匹配的像素。 数字越接近 1，允许的色差越大。
+   * **[!UICONTROL 基于颜色的修剪]**：指定0表示仅在像素与在PDF角选择的颜色完全匹配时才裁剪像素。 数字越接近 1，允许的色差越大。
 
-   * **[!UICONTROL 基于透明度的修剪]**：指定0表示仅在像素为透明时裁切像素；数字越接近1则越透明。
+   * **[!UICONTROL 基于透明度的修剪]**：指定0以仅裁切透明像素；数字越接近1则透明度越高。
 
 ## 从PDF页侧面裁切 {#cropping-from-the-sides-of-pdf-pages}
 
 上传打印文件时，可以手动从PDF文件的页面两侧删除打印机标记。
 
-1. 从裁切菜单中，选择 **[!UICONTROL 手动]**.
+1. 从“裁切”菜单中，选择&#x200B;**[!UICONTROL 手动]**。
 1. 在“上”、“下”、“左”、“右”文本框中输入像素设置，以便从页面的上、下及两边剪切。
 
 页面被裁切部分的大小取决于您为 PDF 文件输入的“分辨率像素/英寸”选项。例如，假设您输入150（缺省值）作为“分辨率PX/英寸”设置。 然后裁切页面两侧75像素。 在这种情况下，0.5英寸 被裁剪了。 以每英寸150像素计算，75像素等于半英寸。

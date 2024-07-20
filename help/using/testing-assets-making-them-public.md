@@ -37,7 +37,7 @@ ht-degree: 19%
 
 大多数公司在防火墙后运行 Internet。可以通过某些路由，通常是通过限定范围的公共 IP 地址访问 Internet。
 
-在公司网络中，您可以使用以下网站确定公共IP地址 [https://www.whatismyip.com](https://www.whatismyip.com/) 或向您的公司IT部门请求此信息。
+通过公司网络，您可以使用[https://www.whatismyip.com](https://www.whatismyip.com/)之类的网站确定公共IP地址，或者向公司IT组织请求此信息。
 
 通过安全测试，Adobe Dynamic Media Classic为暂存环境或内部应用程序建立了专用的图像服务器。 对此服务器的所有请求都将检查原始 IP 地址。如果传入请求不在批准的IP地址列表中，则会返回失败响应。 Adobe Dynamic Media Classic公司管理员为公司的Secure Testing环境配置已批准的IP地址列表。
 
@@ -103,28 +103,28 @@ Last Modified Date:
  -->
 
 1. 请联系Adobe客户关怀部门，要求他们在您的帐户上启用安全测试。
-1. 在Adobe Dynamic Media Classic的全局导航栏上，转到 **[!UICONTROL 设置]** > **[!UICONTROL 发布设置]** > **[!UICONTROL 图像服务器]**.
-1. 在图像服务器发布页面上，在 **[!UICONTROL `Publish Context`]** 下拉列表，选择 **[!UICONTROL 测试图像服务]**.
-1. 对于“客户端地址过滤器”，选择 **[!UICONTROL 添加]**.
+1. 在Adobe Dynamic Media Classic的全局导航栏上，转到&#x200B;**[!UICONTROL 设置]** > **[!UICONTROL Publish设置]** > **[!UICONTROL 图像服务器]**。
+1. 在“图像服务器Publish”页面的&#x200B;**[!UICONTROL `Publish Context`]**&#x200B;下拉列表中选择&#x200B;**[!UICONTROL 测试图像服务]**。
+1. 对于客户端地址筛选器，选择&#x200B;**[!UICONTROL 添加]**。
 1. 选中该复选框以启用（打开）地址，然后在相应的文本字段中键入IP地址和网络掩码。
 
    >[!NOTE]
    >
-   >如果添加单个IP地址和网络掩码，则该地址可能会进行资产调用。 但是，不允许您添加的任何其他IP地址和网络掩码进行资产调用。 因此，请考虑禁用（关闭）上述步骤中的复选框，以关闭指定IP地址和网络掩码的功能。 这样做实际上允许 *所有* 用于发起资产调用的IP地址，这些地址都会显示。
+   >如果添加单个IP地址和网络掩码，则该地址可能会进行资产调用。 但是，不允许您添加的任何其他IP地址和网络掩码进行资产调用。 因此，请考虑禁用（关闭）上述步骤中的复选框，以关闭指定IP地址和网络掩码的功能。 这样做会有效地允许&#x200B;*所有*&#x200B;个IP地址进行资产调用，并且这些地址都会显示。
 
 1. 执行以下任一操作：
    * 如果必须添加更多IP地址，请重复前两步。
    * 继续下一步骤。
-1. 在“图像服务器发布”页面的左下方，选择 **[!UICONTROL 保存]**
+1. 在“图像服务器Publish”页面的左下方，选择&#x200B;**[!UICONTROL 保存]**
 1. 将所需的图像上传到您的Adobe Dynamic Media Classic帐户。
 
-   请参阅 [上载文件](uploading-files.md#uploading_files).
+   查看[上载文件](uploading-files.md#uploading_files)。
 
 1. 请确保某些图像已标记为发布，而其他图像已取消标记，然后提交发布作业。
 
-   请参阅 [发布文件](publishing-files.md#publishing_files).
+   查看[Publish文件](publishing-files.md#publishing_files)。
 
-1. 通过转到 **[!UICONTROL 设置]** > **[!UICONTROL 应用程序设置]** > **[!UICONTROL 常规设置]**.
+1. 通过转到&#x200B;**[!UICONTROL 设置]** > **[!UICONTROL 应用程序设置]** > **[!UICONTROL 常规设置]**&#x200B;来确定您的Secure Testing服务的名称。
 1. 在“应用程序常规设置”页面上，在“服务器”组下，在“**[!UICONTROL 测试发布上下文服务器名称]**”右侧找到该名称。
 
 如果Adobe名称缺失或指向服务器的URL不起作用，请联系服务器关怀团队。

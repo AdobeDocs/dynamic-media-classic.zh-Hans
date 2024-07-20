@@ -30,7 +30,7 @@ ht-degree: 52%
 
 ## 请求共享密钥 {#requesting-a-shared-secret-key}
 
-请求 *共享密钥* 按 [使用Admin Console创建支持案例。](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) 在技术支持案例中，请求共享密钥。
+使用Admin Console创建支持案例，由[请求&#x200B;*共享密钥*。](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html)在技术支持案例中，请求共享密钥。
 
 在电子邮件中，请提供要用于上载图像资源的公司名称。从Adobe Dynamic Media Classic收到密钥后，请将其本地保存以供将来使用。
 
@@ -41,12 +41,12 @@ ht-degree: 52%
 上载令牌是字母数字字符串，只能在特定时间段内使用。使用以下URL替换您的共享密钥，以便您可以检索上载令牌。
 
 * 栅格图像
-  `https://s7ugc1.scene7.com/ugc/image?op=get_uploadtoken&shared_secret=fece4b21-87ee-47fc-9b99-2e29b78b602`在此示例中，共享密钥为 `fece4b21-87ee-47fc-9b99-2e29b78b602`
+  `https://s7ugc1.scene7.com/ugc/image?op=get_uploadtoken&shared_secret=fece4b21-87ee-47fc-9b99-2e29b78b602`在此示例中，共享密钥为`fece4b21-87ee-47fc-9b99-2e29b78b602`
 
 <!-- * Vector
   `https://s7ugc1.scene7.com/ugc/vector?op=get_uploadtoken&shared_secret=2d19f60e-890a-4e79-a1a5-9ac2875429b9`In this example, the shared-secret key is `2d19f60e-890a-4e79-a1a5-9ac2875429b9` -->
 
-默认情况下，上载令牌在您检索到它之后 5 分钟（300 秒）便到期。要请求更多时间，请包括 `expires` 以及URL中所需的时间（以秒为单位）。 例如，以下示例图像 URL 检索有效期为 1800 秒的上载令牌：
+默认情况下，上载令牌在您检索到它之后 5 分钟（300 秒）便到期。若要请求更多时间，请在URL中包含`expires`，并指定您需要的时间（以秒为单位）。 例如，以下示例图像 URL 检索有效期为 1800 秒的上载令牌：
 
 ```as3
 https://s7ugc1.scene7.com/ugc/image?op=get_uploadtoken&shared_secret=fece4b21-87ee-47fc-9b99-2e29b78b602&expires=1800
@@ -83,7 +83,7 @@ https://s7ugc1.scene7.com/ugc/image?op=get_uploadtoken&shared_secret=fece4b21-87
 | 共享密钥 | 必需 | 正在进行上载的公司的共享密钥。 |
 | 过期 | 可选 | 上载令牌有效的秒数。如果未指定，则默认为300秒。 |
 
-**栅格图像URL示例：**
+**光栅图像URL示例：**
 
 `https://s7ugc1.scene7.com/ugc/image?op=get_uploadtoken&shared_secret=fece4b21-87ee-47fc-9b99-2e29b78b602&expires=600`
 
@@ -92,11 +92,11 @@ https://s7ugc1.scene7.com/ugc/image?op=get_uploadtoken&shared_secret=fece4b21-87
 `https://s7ugc1.scene7.com/ugc/vector?op=get_uploadtoken&shared_secret=2d19f60e-890a-4e79-a1a5-9ac2875429b9&expires=5000` -->
 
 **允许的HTTP方法：**
-`GET` 和 `POST`
+`GET`和`POST`
 
 您现在可以上载图像资源。
 
-请参阅 [上传图像资源](uploading-image-asset-or-vector.md#uploading_an_image_asset).
+请参阅[上传图像资产](uploading-image-asset-or-vector.md#uploading_an_image_asset)。
 
 ## 上传栅格图像资产 {#uploading-an-image-asset}
 
@@ -106,11 +106,11 @@ https://s7ugc1.scene7.com/ugc/image?op=get_uploadtoken&shared_secret=fece4b21-87
 https://s7ugc1.scene7.com/ugc/image?op=upload&upload_token=aa2a378a-cd25-4c80-994d-312094e0ef20_18000&company_name=000Company
 ```
 
-此 `upload_token` 和 `company_name` 字段为必填项。
+`upload_token`和`company_name`字段为必填项。
 
-请参阅 [检索上传令牌](uploading-image-asset-or-vector.md#retrieving_the_upload_token).
+请参阅[检索上载令牌](uploading-image-asset-or-vector.md#retrieving_the_upload_token)。
 
-请参阅 [检索共享密钥](uploading-image-asset-or-vector.md#requesting_a_shared_secret_key).
+请参阅[检索共享密钥](uploading-image-asset-or-vector.md#requesting_a_shared_secret_key)。
 
 您还能以 URL 查询字符串的形式发送其他可选值，如以下示例所示：
 
@@ -118,7 +118,7 @@ https://s7ugc1.scene7.com/ugc/image?op=upload&upload_token=aa2a378a-cd25-4c80-99
 https://s7ugc1.scene7.com/ugc/image?op=upload&upload_token=aa2a378a-cd25-4c80-994d-312094e0ef20_18000&company_name=000Company&file_limit=2000000&file_exts=jpg,gif
 ```
 
-此 `file_limit` parameter指定文件大小限制（以字节为单位）。 此 `file_exts` 参数指定允许上载的文件扩展名。 这两个值都是可选的。
+`file_limit`参数以字节为单位指定文件大小限制。 `file_exts`参数指定允许上传的文件扩展名。 这两个值都是可选的。
 
 对于允许的文件大小限制和文件扩展名，在应用程序中设置全局限制。如果您在请求中发送的内容是全局限制的子集，则表示同意。 全局限制如下所示：
 
@@ -135,14 +135,14 @@ https://s7ugc1.scene7.com/ugc/image?op=upload&upload_token=aa2a378a-cd25-4c80-99
 * 文件扩展名的列表。
 * 是否保留与资源关联的颜色配置文件和文件名。
 * 是否使用挖空背景。 如果启用“挖空背景”，请设置“拐角”、“公差”和“填充方法”。
-请参阅中的挖空背景 [上传时图像微调选项](image-editing-options-upload.md#image-editing-options-at-upload).
+在上传](image-editing-options-upload.md#image-editing-options-at-upload)处查看[图像微调选项中的“挖空背景”。
 * 要上传的文件的名称。
 
-您可以通过选择，查看与上述表单相关联的HTML源代码 [https://s7ugc1.scene7.com/ugc/upload.html](https://s7ugc1.scene7.com/ugc/upload.html)
+您可以通过选择[https://s7ugc1.scene7.com/ugc/upload.html](https://s7ugc1.scene7.com/ugc/upload.html)来查看与上述表单相关联的HTML源代码
 
-在Firefox中，右键单击浏览器窗口，然后选择 **[!UICONTROL 查看页面源]**. 该代码显示相应的URL查询字符串以及用户选择时运行的POST方法 **[!UICONTROL 提交]**.
+在Firefox中，右键单击浏览器窗口，然后选择&#x200B;**[!UICONTROL 查看页面Source]**。 代码显示相应的URL查询字符串以及用户选择&#x200B;**[!UICONTROL 提交]**&#x200B;时运行的POST方法。
 
-要在Internet Explorer中查看XML响应，请转到 **[!UICONTROL 视图]** > **[!UICONTROL 来源]**. 要在Firefox中查看XML响应，请转到 **[!UICONTROL 工具]** > **[!UICONTROL 浏览器工具]** > **[!UICONTROL Web开发人员工具]**. 建议使用 Firefox 查看 XML 响应。
+若要在Internet Explorer中查看XML响应，请转到&#x200B;**[!UICONTROL 查看]** > **[!UICONTROL Source]**。 若要在Firefox中查看XML响应，请转到&#x200B;**[!UICONTROL 工具]** > **[!UICONTROL 浏览器工具]** > **[!UICONTROL Web开发人员工具]**。 建议使用 Firefox 查看 XML 响应。
 
 下面是成功上载的示例响应：
 
@@ -202,7 +202,7 @@ POST
 
 ### 获取图像的资源元数据 {#getting-asset-metadata-for-images}
 
-您可以使用 `image_info` 以检索您上传的资源的元数据，如以下示例所示：
+您可以使用`image_info`检索您上传的资源的元数据，如以下示例所示：
 
 ```as3
 https://s7ugc1.scene7.com/ugc/image?op=image_info&shared_secret=fece4b21-87ee-47fc-9b99-2e29b78b602&image_name=1442564.tif

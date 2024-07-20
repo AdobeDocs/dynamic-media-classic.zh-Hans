@@ -19,7 +19,7 @@ ht-degree: 1%
 
 # 处理晕影、窗口覆盖和CAB文件{#working-with-vignette-window-covering-and-cabinet-files}
 
-Adobe Dynamic Media Classic图像创作工具的用户可以 *使用* 晕影（VNT文件）、窗口覆盖（VNW文件）和文件柜（VNC文件）。 这些文件无法在Adobe Dynamic Media Classic中创建或编辑。
+Adobe Dynamic Media Classic图像创作工具的用户可以&#x200B;*使用*&#x200B;晕影（VNT文件）、窗口覆盖（VNW文件）和文件柜（VNC文件）。 这些文件无法在Adobe Dynamic Media Classic中创建或编辑。
 
 晕影、窗口覆盖物和文件柜是创作的图像。 使用名为“图像创作”的其他Adobe Dynamic Media Classic程序，您可以对图像中的对象进行蒙版，以便用户能够以各种纹理或颜色查看同一图像。 例如，用户会看到用各种织物装饰的沙发、用各种窗户处理方法装饰的窗户，或用各种木材做成的柜子。
 

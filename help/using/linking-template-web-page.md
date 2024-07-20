@@ -31,13 +31,13 @@ ht-degree: 16%
 
 您可以在“模板预览”屏幕上获取使用图像预设生成的模板 URL 字符串。复制 URL 后，该字符串将放置在剪贴板上，以便在必要时进行粘贴。要从“模板预览”页面获取使用图像预设生成的模板URL字符串，请执行以下操作：
 
-1. 选择模板的变换图像 **[!UICONTROL 预览]** 按钮或转到 **[!UICONTROL 文件]** > **[!UICONTROL 预览]**.
+1. 选择模板的滚动更新&#x200B;**[!UICONTROL 预览]**&#x200B;按钮或转到&#x200B;**[!UICONTROL 文件]** > **[!UICONTROL 预览]**。
 1. 使用预设的菜单，选择要用于交付模板图像的图像预设。 “预览”页面显示从服务器交付模板时的外观。
-1. 选择 **[!UICONTROL 复制URL]** 以将URL复制到剪贴板。
+1. 选择&#x200B;**[!UICONTROL 复制URL]**，以便将URL复制到剪贴板。
 
 ## 将模板URL添加到网页 {#adding-template-urls-to-your-web-page}
 
-要向网页添加模板，请咨询网页开发团队，以修改 `<IMG>` 标签中HTML网页代码的位置。 使用Adobe Dynamic Media Classic URL字符串向Dynamic Media图像服务器发出请求。 商业引擎或动态网页代码将按照您为模板选择的图像预设所定义的大小和格式规范插入模板图像。
+若要向网页添加模板，请咨询网页开发团队，以修改HTML网页代码中的`<IMG>`标记。 使用Adobe Dynamic Media Classic URL字符串向Dynamic Media图像服务器发出请求。 商业引擎或动态网页代码将按照您为模板选择的图像预设所定义的大小和格式规范插入模板图像。
 
 >[!MORELIKETHIS]
 >

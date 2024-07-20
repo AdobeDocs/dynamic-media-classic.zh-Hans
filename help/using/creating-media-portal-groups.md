@@ -33,29 +33,29 @@ ht-degree: 49%
 
 ## 添加组 {#adding-a-group}
 
-1. 转到 **[!UICONTROL 设置]** > **[!UICONTROL Media Portal设置]** > **[!UICONTROL 组]**.
-1. 选择 **[!UICONTROL 添加]**.
-1. 在“添加组”对话框中，在“组名”框中输入组的名称，然后选择 **[!UICONTROL 添加组]**.
+1. 转到&#x200B;**[!UICONTROL 设置]** > **[!UICONTROL Media Portal设置]** > **[!UICONTROL 组]**。
+1. 选择&#x200B;**[!UICONTROL 添加]**。
+1. 在“添加组”对话框中，在“组名”框中输入组的名称，然后选择&#x200B;**[!UICONTROL 添加组]**。
 1. 根据需要选中用户名称旁的方框，以便将用户添加到新组。
-1. 如果您要立即指定访问权限，请选择 **[!UICONTROL 资源访问权限]** 选项卡，然后指定所需的选项。
+1. 如果您要立即指定访问权限，请选择&#x200B;**[!UICONTROL 资产访问权限]**&#x200B;选项卡，然后指定所需的选项。
 
    请参阅[建立组的资源访问权限](creating-media-portal-groups.md#establishing_asset_access_permissions_for_a_group)。
 
-1. 您可以选择组可用的图像预设。 只需单击 **[!UICONTROL 图像预设访问权限]** 选项卡，然后选择组可以使用的图像预设。
+1. 您可以选择组可用的图像预设。 只需单击&#x200B;**[!UICONTROL 图像预设访问权限]**&#x200B;选项卡，然后选择该组可以使用的图像预设。
 
    请参阅[为组选择图像预设访问权限](creating-media-portal-groups.md#choosing_image_preset_access_permissions_for_a_group)。
 
-1. 选择 **[!UICONTROL 关闭]**.
+1. 选择&#x200B;**[!UICONTROL 关闭]**。
 
 ## 建立组的资源访问权限 {#establishing-asset-access-permissions-for-a-group}
 
-1. 转到 **[!UICONTROL 设置]** > **[!UICONTROL Media Portal设置]** > **[!UICONTROL 组]**.
+1. 转到&#x200B;**[!UICONTROL 设置]** > **[!UICONTROL Media Portal设置]** > **[!UICONTROL 组]**。
 1. 在“组列表”页面上，执行下列操作之一：
 
-   * 要添加组并指定权限，请选择 **[!UICONTROL 添加]**. 在“添加组”对话框中，输入组的名称，选择 **[!UICONTROL 添加组]**，并将用户添加到组。
-   * 要编辑组的权限，请选择该组，然后选择 **[!UICONTROL 编辑]**.
+   * 要添加组并指定权限，请选择&#x200B;**[!UICONTROL 添加]**。 在“添加组”对话框中，输入组的名称，选择&#x200B;**[!UICONTROL 添加组]**，然后将用户添加到该组。
+   * 要编辑组的权限，请选择该组，然后选择&#x200B;**[!UICONTROL 编辑]**。
 
-1. 在“添加组”或“编辑组”对话框中，选择 **[!UICONTROL 资源访问权限]** 选项卡。 该选项卡的右侧提供了用于建立文件夹和资源读取、写入和删除权限的方框。您可以在左窗格中展开和折叠文件夹和子文件夹。
+1. 在“添加组”或“编辑组”对话框中，选择&#x200B;**[!UICONTROL 资源访问权限]**&#x200B;选项卡。 该选项卡的右侧提供了用于建立文件夹和资源读取、写入和删除权限的方框。您可以在左窗格中展开和折叠文件夹和子文件夹。
 1. 要向文件夹或单个资源指定权限，请在左窗格中选择该文件夹。文件夹内容便会显示在右窗格中。然后，通过选择相应文件的框为组分配权限。 或者，在右窗格中选择文件夹。
 
    下表显示了不同任务所对应的读取、写入和删除权限。
@@ -69,7 +69,7 @@ ht-degree: 49%
    | 重命名文件 | | X | |
    | 删除文件 | | | X |
 
-1. 选择 **[!UICONTROL 关闭]**.
+1. 选择&#x200B;**[!UICONTROL 关闭]**。
 
 >[!NOTE]
 >
@@ -79,25 +79,25 @@ ht-degree: 49%
 
 如果您要指定组成员在使用 Media Portal 导出资源时可以使用的图像预设，请为组选择图像预设访问权限。
 
-另请参阅 [指定Media Portal用户可用的导出选项](specifying-export-options-available-media.md#specifying_export_options_available_to_media_portal_users).
+另请参阅[指定Media Portal用户可用的导出选项](specifying-export-options-available-media.md#specifying_export_options_available_to_media_portal_users)。
 
-**要为组选择图像预设访问权限，请执行以下操作：**
+**选择组的图像预设访问权限：**
 
-1. 转到 **[!UICONTROL 设置]** > **[!UICONTROL Media Portal设置]** > **[!UICONTROL 组]**.
+1. 转到&#x200B;**[!UICONTROL 设置]** > **[!UICONTROL Media Portal设置]** > **[!UICONTROL 组]**。
 1. 在“组列表”页面上，执行下列操作之一：
 
-   * 要添加组并指定其可用的图像预设，请选择 **[!UICONTROL 添加]**. 在“添加组”对话框中，输入组的名称，选择 **[!UICONTROL 添加组]**，并将用户添加到组。
-   * 要编辑组的图像预设选项，请选择该组，然后选择 **[!UICONTROL 编辑]**.
+   * 要添加组并指定哪些图像预设可供使用，请选择&#x200B;**[!UICONTROL 添加]**。 在“添加组”对话框中，输入组的名称，选择&#x200B;**[!UICONTROL 添加组]**，然后将用户添加到该组。
+   * 要编辑组的图像预设选项，请选择该组，然后选择&#x200B;**[!UICONTROL 编辑]**。
 
-1. 在“添加组”或“编辑组”对话框中，选择 **[!UICONTROL 图像预设访问权限]** 选项卡。
+1. 在“添加组”或“编辑组”对话框中，选择&#x200B;**[!UICONTROL 图像预设访问权限]**&#x200B;选项卡。
 1. 要指定Media Portal用户在导出资产时可以使用哪些预设，请选择或取消选择图像预设。
-1. 选择 **[!UICONTROL 关闭]**.
+1. 选择&#x200B;**[!UICONTROL 关闭]**。
 
 ## 编辑和删除组 {#edit-and-delete-groups}
 
-1. 转到 **[!UICONTROL 设置]** > **[!UICONTROL Media Portal设置]** > **[!UICONTROL 组]**.
+1. 转到&#x200B;**[!UICONTROL 设置]** > **[!UICONTROL Media Portal设置]** > **[!UICONTROL 组]**。
 1. 在“组列表”页面上，选择一个组，然后进行编辑或删除。
 
-   **编辑组**：选择 **[!UICONTROL 编辑]**，然后在“编辑组”对话框中选择选项。
+   **编辑组**：选择&#x200B;**[!UICONTROL 编辑]**，然后在“编辑组”对话框中选择选项。
 
-   **删除组**：选择 **[!UICONTROL 删除]**.
+   **删除组**：选择&#x200B;**[!UICONTROL 删除]**。

@@ -23,13 +23,13 @@ ht-degree: 36%
 
 上载 PostScript (EPS) 或 Illustrator (AI) 图像文件时，您可以通过各种方法对它们进行格式化。您可以栅格化文件、将文件转换为 FXG 以便进行模板发布、保持透明背景、选择分辨率以及选择颜色空间。用于格式化 PostScript 和 Illustrator 文件的选项位于“上载”屏幕上“PostScript 选项”和“Illustrator 选项”下方的“上载作业选项”框中。
 
-* **[!UICONTROL 正在处理]**：选择 **[!UICONTROL 栅格化]** 将文件中的矢量图形转换为位图格式。
+* **[!UICONTROL 正在处理]**：选择&#x200B;**[!UICONTROL 栅格化]**&#x200B;以将文件中的矢量图形转换为位图格式。
 
 * **[!UICONTROL 在渲染的图像中保持透明背景]**：保持文件的背景透明度。
 
 * **[!UICONTROL 分辨率]**：确定分辨率设置。 此设置确定在文件中每英寸显示的像素数。
 
-* **[!UICONTROL 色彩空间]**：选择 **[!UICONTROL 色彩空间]** 菜单并选择颜色空间：
+* **[!UICONTROL 色彩空间]**：选择&#x200B;**[!UICONTROL 色彩空间]**&#x200B;菜单并选择色彩空间：
 
    * **[!UICONTROL 自动检测]**：保留文件的颜色空间。
 

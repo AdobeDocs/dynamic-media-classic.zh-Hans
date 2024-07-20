@@ -20,7 +20,7 @@ ht-degree: 20%
 
 有关查看器、图像服务和图像渲染以及图像生产系统的参考指南描述了这些服务器模块的http协议。 如果网站开发人员需要进一步自定义，并且希望将Adobe Dynamic Media Classic富媒体用于网站或自定义应用程序，则可以使用这些指南。 假定用户熟悉Dynamic Media Classic桌面应用程序、常规http协议标准和惯例以及基本的图像术语。
 
-另请参阅 [Dynamic Media开发人员资源](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources).
+另请参阅[Dynamic Media开发人员资源](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources)。
 
 ## 查看器 {#viewers-guide}
 
