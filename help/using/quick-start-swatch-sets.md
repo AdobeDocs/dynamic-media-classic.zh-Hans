@@ -1,5 +1,5 @@
 ---
-title: “快速入门：样本集”
+title: 快速入门：样本集
 description: 样本集简介和快速入门可帮助您在Adobe Dynamic Media Classic中快速启动和运行。
 contentOwner: Rick Brough
 content-type: reference
@@ -13,7 +13,7 @@ level: Beginner
 source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
 workflow-type: tm+mt
 source-wordcount: '402'
-ht-degree: 17%
+ht-degree: 18%
 
 ---
 

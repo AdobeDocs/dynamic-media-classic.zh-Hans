@@ -1,5 +1,5 @@
 ---
-title: “快速入门：旋转集”
+title: 快速入门：旋转集
 description: 介绍和旋转集快速入门，帮助您在Adobe Dynamic Media Classic中快速启动和运行。
 contentOwner: Rick Brough
 content-type: reference
@@ -13,7 +13,7 @@ level: Beginner
 source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
 workflow-type: tm+mt
 source-wordcount: '803'
-ht-degree: 21%
+ht-degree: 22%
 
 ---
 

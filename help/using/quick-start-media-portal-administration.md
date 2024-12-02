@@ -1,5 +1,5 @@
 ---
-title: “快速入门：Media Portal”
+title: 快速入门： Media Portal
 description: Media Portal简介和快速入门，可帮助您在Adobe Dynamic Media Classic中快速启动和运行Media Portal技术和管理。
 contentOwner: Rick Brough
 content-type: reference

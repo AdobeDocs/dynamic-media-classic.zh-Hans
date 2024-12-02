@@ -1,5 +1,5 @@
 ---
-title: “快速入门：Adobe Dynamic Media Classic中的视频”
+title: 快速入门： Adobe Dynamic Media Classic中的视频
 description: Adobe Dynamic Media Classic简介和快速入门视频可帮助您快速启动和运行。
 contentOwner: Rick Brough
 content-type: reference

@@ -1,6 +1,6 @@
 ---
 title: Dynamic Media限制
-description: “了解创建图像集或旋转集或上传PDF时的最佳实践和强制限制。 另外还了解不支持的Dynamic Media Web浏览器和操作系统组合。”
+description: 了解在创建图像集、旋转集或上传PDF时的最佳实践和强制的限制。 还了解不支持的适用于Dynamic Media的Web浏览器和操作系统组合。
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic

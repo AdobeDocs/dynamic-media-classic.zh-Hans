@@ -1,5 +1,5 @@
 ---
-title: “快速入门：图像集”
+title: 快速入门：图像集
 description: 图像集简介和快速入门，帮助您快速启动和运行Adobe Dynamic Media Classic中的图像集技术。
 contentOwner: Rick Brough
 content-type: reference
@@ -13,7 +13,7 @@ level: Beginner
 source-git-commit: 8dc990a1fb1355b00fa4839e14b92bb6562d40b4
 workflow-type: tm+mt
 source-wordcount: '671'
-ht-degree: 10%
+ht-degree: 11%
 
 ---
 

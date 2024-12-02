@@ -1,5 +1,5 @@
 ---
-title: “快速入门：集成Adobe Dynamic Media Classic和Adobe Analytics”
+title: 快速入门：集成Adobe Dynamic Media Classic和Adobe Analytics
 description: 有关如何集成Adobe Dynamic Media Classic和Adobe Analytics的简介和快速入门。
 contentOwner: Rick Brough
 content-type: reference

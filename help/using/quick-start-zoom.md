@@ -1,5 +1,5 @@
 ---
-title: “快速启动：缩放”
+title: 快速入门：缩放
 description: 介绍和Zoom快速入门可帮助您快速启动和运行。
 contentOwner: Rick Brough
 content-type: reference

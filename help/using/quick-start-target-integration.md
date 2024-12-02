@@ -1,5 +1,5 @@
 ---
-title: “快速入门：Adobe Target Standard/Premium集成”
+title: 快速入门：Adobe Target Standard/Premium集成
 description: Adobe Target Standard/Premium简介和快速入门，可帮助您在Adobe Dynamic Media Classic中通过Adobe Target Standard/Premium集成技术快速启动和运行。
 contentOwner: Rick Brough
 content-type: reference

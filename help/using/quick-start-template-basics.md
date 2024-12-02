@@ -1,5 +1,5 @@
 ---
-title: “快速入门：模板基础知识”
+title: 快速入门：模板基础
 description: 模板基础知识简介和快速入门可帮助您在Adobe Dynamic Media Classic中快速启动和运行。
 contentOwner: Rick Brough
 content-type: reference
