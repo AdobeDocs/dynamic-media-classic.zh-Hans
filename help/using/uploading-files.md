@@ -9,9 +9,9 @@ role: User
 exl-id: 8dfcfb3f-6472-4efd-bc87-d5111eee45ce
 topic: Content Management
 level: Intermediate
-source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
+source-git-commit: 1cd516119da23f5ef4c0195273025ddd4b3fa789
 workflow-type: tm+mt
-source-wordcount: '3868'
+source-wordcount: '3858'
 ht-degree: 26%
 
 ---
@@ -53,16 +53,14 @@ TAR 和 ZIP 上载支持包括一个复选框，用于选择是否要解压缩�
 
 ### Dynamic Media中不支持的图像格式 {#unsupported-image-formats-dynamic-media}
 
-下表介绍了Dynamic Media中不支持&#x200B;*的*&#x200B;光栅图像文件格式的子类型。
-
-另请参阅[检测Dynamic Media不支持的文件格式](https://helpx.adobe.com/experience-manager/kb/detect-unsupported-assets-for-dynamic-media.html)。
+以下列表介绍了Dynamic Media中不支持&#x200B;*的*&#x200B;光栅图像文件格式的子类型。
 
 * IDAT区块大小大于100 MB的PNG文件。
 * psb文件。
-* 不支持使用CMYK、RGB、灰度或位图以外的PSD空间颜色文件。 不支持DuoTone、Lab和Indexed色彩空间。
-* PSD位深度大于16的文件。
-* TIFF具有浮点数据的文件。
-* TIFF具有Lab色彩空间的文件。
+* 不支持色彩空间不是CMYK、RGB、灰度或位图的PSD文件。 不支持DuoTone、Lab和Indexed色彩空间。
+* 位深度大于16的PSD文件。
+* 包含浮点数据的TIFF文件。
+* 具有Lab色彩空间的TIFF文件。
 
 ### 资源类型 {#asset-types}
 
@@ -72,7 +70,7 @@ TAR 和 ZIP 上载支持包括一个复选框，用于选择是否要解压缩�
 | --- | --- |
 | 音频 | 输入音频资源格式，其中包括 AAC、HE-AAC、AC3、WAV、WMA、AIFF、MP3。可以将音频转码为以下格式：MP3、AAC 和 HE-AAC。 |
 | 图像（用于调整图像大小、缩放、图像集、旋转集） | 图像的最长尺寸必须至少为2000像素；典型图像的最长尺寸范围是1500到2500像素。 推荐使用无损图像格式，包括 TIFF 和 PNG 文件。如果使用 JPEG 图像，请使用最高质量设置。处理动画GIF文件的方式与其他静态内容类似。 |
-| eCatalog | 使用在Adobe Acrobat中创建的高分辨率PDF文件或保存为“按就绪”的AdobeCreative Suite应用程序。 PDF包括所有需要的字体、图像和蒙版。 并且，以单页、双页跨页或多页格式包含所有所需的引用图形元素。 通过按字母数字顺序为文件命名来排列页面顺序。将 eCatalog 类型的所有 PDF 文件放于一个文件夹中，以便于上载。您可以在上载时选择裁切选项，以便从 PDF 中删除修剪区域，包括裁切标记、对齐目标或颜色条。多数印刷就绪的 PDF 文件采用 CMYK 颜色空间，因此务必要获得用于 PDF 文件的 CMYK ICC 颜色配置文件。 |
+| eCatalog | 使用在Adobe Acrobat中创建的高分辨率PDF文件或保存为“可按下”的Adobe Creative Suite应用程序。 PDF包括所有需要的字体、图像和蒙版。 并且，以单页、双页跨页或多页格式包含所有所需的引用图形元素。 通过按字母数字顺序为文件命名来排列页面顺序。将 eCatalog 类型的所有 PDF 文件放于一个文件夹中，以便于上载。您可以在上载时选择裁切选项，以便从 PDF 中删除修剪区域，包括裁切标记、对齐目标或颜色条。多数印刷就绪的 PDF 文件采用 CMYK 颜色空间，因此务必要获得用于 PDF 文件的 CMYK ICC 颜色配置文件。 |
 | 模板 | 分层图像或布局设计，可以包括文本、图像和图层。可以将图层、文本字符串和属性（如颜色和大小）参数化，从而可以自定义变量数据。在模板中使用时的图像要求与其他图像相同。在 Photoshop 或其他图像编辑程序中准备图形。采用 TIFF 或 PNG 格式将每个图形保存为平面化透明文件。确保图像分辨率适合所要求的用途。打印图像为300 ppi。 |
 | 视频 | Adobe Dynamic Media Classic支持以OGV和MP4格式保存的视频文件。 上传时可以将文件转码为MP4格式。 请参阅[支持的资源文件格式](#supported-static-file-formats)。 |
 | 字体 | 已上传TrueType、`Type1`(仅限Windows®)、OpenType®字体和PhotoFonts。 |
@@ -84,16 +82,16 @@ TAR 和 ZIP 上载支持包括一个复选框，用于选择是否要解压缩�
 | FXG 文件 | 与分辨率无关的图形格式文件；可用于创建可自定义的模板，以输出到打印、网络、电子邮件、桌面和设备。 |
 | SVG 文件 | 图像服务服务器可以渲染的可缩放矢量图形文件。 |
 | XML 文件 | 定义用于修改请求的路径和查询部分的预处理规则的文件。 |
-| 级联样式表文件。 | 上传CSS外观以自定义HTML5查看器。 |
-| JavaScript 文件 | JavaScript文件用于viewer instrumentation保存帐户信息。 Adobe安全建议，此资源类型仅适用于使用单独域进行交付的客户端帐户（以避免跨站点脚本）。 |
+| 级联样式表文件。 | 上传CSS外观以供HTML5查看器自定义。 |
+| JavaScript 文件 | JavaScript文件用于viewer instrumentation保存帐户信息。 Adobe Security建议仅对使用单独域的客户端帐户使用此资源类型，以避免跨站点脚本。 |
 
 >[!NOTE]
 >
->将图像文件和PDF上传到Adobe Dynamic Media Classic时，系统将这些源文件转换为PTIFF(金字塔TIFF)文件。 这些PTIFF是稍后发布到Dynamic Media图像服务器的文件。 Adobe Dynamic Media Classic使用金字塔Tiff文件格式，因为它包含各种缩放比率，在使用Adobe Dynamic Media Classic缩放查看器查看时，允许快速缩放。
+>在将图像文件和PDF上传到Adobe Dynamic Media Classic时，系统将这些源文件转换为P-TIFF(金字塔TIFF)文件。 这些P-TIFF是稍后发布到Dynamic Media图像服务器的文件。 Adobe Dynamic Media Classic使用金字塔Tiff文件格式，因为它包含各种缩放比率，在使用Adobe Dynamic Media Classic缩放查看器查看时，允许快速缩放。
 
 ### 支持静态文件格式 {#supported-static-file-formats}
 
-Adobe Dynamic Media Classic支持多种静态文件格式。 静态内容是按“原样”发布的任何资源，如CSS、PDF、SVG和XML。
+Adobe Dynamic Media Classic支持多种静态文件格式。 静态内容是“原样”发布的任何资源，如CSS、PDF、SVG和XML。
 
 可以发布以下文件类型：
 
@@ -102,7 +100,7 @@ Adobe Dynamic Media Classic支持多种静态文件格式。 静态内容是按�
 * CSS
 * JavaScript（为公司配置自己的域时）
 * 主视频
-* PDF(当PDF在上传后标记为发布时，以避免交付现有eCatalog/PDF工作流的所有PDF)
+* PDF (当PDF在上传后标记为发布时，以避免交付现有eCatalog/PDF工作流的所有PDF)
 * PrX 视频
 * SVG
 * XML
@@ -166,7 +164,7 @@ Adobe Dynamic Media Classic桌面应用程序允许您通过拖动来上传文�
 1. 在上传页面的左侧，在&#x200B;**[!UICONTROL 选择要上传的文件]**&#x200B;区域中，选择&#x200B;**[!UICONTROL 浏览]**&#x200B;以选择要上传的文件或文件夹，然后选择&#x200B;**[!UICONTROL 打开]**。
 1. 在上传页面的右侧，在选定的&#x200B;**文件夹目标**&#x200B;区域中，导航到要添加已上传文件或文件夹的目标文件夹。
 1. （可选）在“上载”页面底部附近的作业名称文本字段中，输入上载作业的新名称。 或者，您只需使用Adobe Dynamic Media Classic提供的系统生成的默认名称即可。 上载和发布作业会记录在“作业”页面上，您可以在该页面上检查作业的状态。 请参阅[检查作业文件](checking-job-files.md#checking_job_files)。
-1. （可选）在上传页面底部附近，选择&#x200B;**[!UICONTROL 上传后的Publish]**，以便您可以自动发布所上传的资源。
+1. （可选）在上传页面底部附近，选择&#x200B;**[!UICONTROL 上传后发布]**，以便您可以自动发布所上传的资产。
 在发布文件时，文件将发送到实时服务器。然后，可以在外部网站和应用程序中使用这些文件的 URL。“作业选项”对话框中也提供了相同选项。
 1. （可选）如果希望上载的文件替换具有相同名称的现有文件，请选择“上载”页面底部附近的&#x200B;**[!UICONTROL 覆盖任意文件夹中的相同基本资源名称（不论扩展名是什么）]**。 “作业选项”对话框中也提供了相同选项。
 此选项的名称可能不同，具体取决于**[!UICONTROL 应用程序设置]** > **[!UICONTROL 常规设置]** > **[!UICONTROL 上载到应用程序]** > **[!UICONTROL 覆盖图像]**&#x200B;中的设置。
@@ -184,10 +182,10 @@ Adobe Dynamic Media Classic桌面应用程序允许您通过拖动来上传文�
 1. 在Adobe Dynamic Media Classic的全局导航栏上，选择&#x200B;**[!UICONTROL 上传]**。
 1. 在上传页面上，选择&#x200B;**[!UICONTROL 通过FTP]**&#x200B;选项卡。
 1. 在上传页面的左侧&#x200B;**[!UICONTROL 选择要上载的FTP文件夹]**&#x200B;区域，选择要从中上载文件的FTP文件夹。
-1. 在上传页面的右侧，在选定的&#x200B;**[!UICONTROL AdobeDynamic Media文件夹目标]**&#x200B;区域中，选择Adobe Dynamic Media Classic中的目标文件夹。
+1. 在上传页面的右侧，在选定的&#x200B;**[!UICONTROL Adobe Dynamic Media文件夹目标]**&#x200B;区域中，选择Adobe Dynamic Media Classic中的目标文件夹。
 1. （可选）在“上载”页面底部附近的作业名称文本字段中，输入上载作业的新名称。 或者，您只需使用Adobe Dynamic Media Classic提供的系统生成的默认名称即可。 上载和发布作业会记录在“作业”页面上，您可以在该页面上检查作业的状态。
 请参阅[检查作业文件](checking-job-files.md#checking_job_files)。
-1. （可选）在上传页面底部附近，选择&#x200B;**[!UICONTROL 上传后的Publish]**，以便您可以自动发布所上传的资源。
+1. （可选）在上传页面底部附近，选择&#x200B;**[!UICONTROL 上传后发布]**，以便您可以自动发布所上传的资产。
 在发布文件时，文件将发送到实时服务器。然后，可以在外部网站和应用程序中使用这些文件的 URL。“作业选项”对话框中也提供了相同选项。
 1. （可选）如果希望上载的文件替换具有相同名称的现有文件，请选择“上载”页面底部附近的&#x200B;**[!UICONTROL 覆盖任意文件夹中的相同基本资源名称（不论扩展名是什么）]**。 “作业选项”对话框中也提供了相同选项。
 此选项的名称可能不同，具体取决于**[!UICONTROL 设置]** > **[!UICONTROL 应用程序设置]** > **[!UICONTROL 常规设置]** > **[!UICONTROL 上载到应用程序]** > **[!UICONTROL 覆盖图像]**&#x200B;中的设置。
@@ -221,7 +219,7 @@ Adobe Dynamic Media Classic桌面应用程序允许您通过拖动来上传文�
          * **[!UICONTROL 每月]**：选择您希望作业运行的特定日期（一个月或一周中的某一天），包括开始时间。
          * **[!UICONTROL 自定义]**：根据您自己的规范自定义上载或发布作业时间间隔。 请参阅[创建自定义上载或发布作业时间间隔](checking-job-files.md#creating-a-custom-upload-or-publish-job-time-interval)。
 
-   * 上传后&#x200B;**[!UICONTROL Publish]**：在选择&#x200B;**[!UICONTROL 从桌面]**&#x200B;选项卡或&#x200B;**[!UICONTROL 通过FTP]**&#x200B;选项卡时可用。 选择此选项可自动发布您上传的资产。 在发布文件时，文件将发送到实时服务器。然后，可以在外部网站和应用程序中使用这些文件的 URL。“上载”页中也提供了该选项。
+   * 上传后发布&#x200B;****：如果选择了通过FTP的&#x200B;**[!UICONTROL 从桌面]**&#x200B;选项卡或&#x200B;**[!UICONTROL 选项卡]**，则可用。 选择此选项可自动发布您上传的资产。 在发布文件时，文件将发送到实时服务器。然后，可以在外部网站和应用程序中使用这些文件的 URL。“上载”页中也提供了该选项。
 
    * **[!UICONTROL 在任意文件夹内，使用相同的基本资源名称（不论扩展名是什么）进行覆盖]**：如果选择&#x200B;**[!UICONTROL FROM DESKTOP]**&#x200B;选项卡或&#x200B;**[!UICONTROL VIA FTP]**&#x200B;选项卡，则可用。 如果要使上载的文件替换现有同名文件，请选中此选项。“上载”页中也提供了该选项。此选项的名称可能不同，具体取决于&#x200B;**[!UICONTROL 设置]** > **[!UICONTROL 应用程序设置]** > **[!UICONTROL 常规设置]** > **[!UICONTROL 上载到应用程序]** > **[!UICONTROL 覆盖图像]**&#x200B;中的设置。
 
@@ -255,10 +253,10 @@ Adobe Dynamic Media Classic桌面应用程序允许您通过拖动来上传文�
 * **PostScript®选项**：您可以栅格化PostScript®文件、裁切文件、保持透明背景、选择分辨率以及选择色彩空间。
 请参阅[处理PostScript和Illustrator文件](postscript-illustrator-files.md#working_with_postscript_and_illustrator_files)。
 
-* **Photoshop选项**：您可以从Adobe®Photoshop®文件创建模板、维护图层、指定图层的命名方式、提取文本以及指定将图像锚定到模板中的方式。
+* **Photoshop选项**：您可以从Adobe® Photoshop®文件创建模板、维护图层、指定图层的命名方式、提取文本以及指定将图像锚定到模板中的方式。
 请参阅[PSD 上载选项](psd-files.md#psd_upload_options)。
 
-* **PDF选项**：您可以栅格化文件、提取搜索词和链接、自动生成eCatalog、设置分辨率以及选择色彩空间。
+* **PDF选项**：您可以栅格化文件、提取搜索词和链接、自动生成eCatalog、设置分辨率以及选择颜色空间。
 请参阅[PDF 上载选项](pdfs.md#pdf_upload_options)。
 
 * **Illustrator选项**：您可以栅格化Adobe Illustrator®文件、保持透明背景、选择分辨率以及选择色彩空间。
