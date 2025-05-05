@@ -26,7 +26,7 @@ ht-degree: 0%
 
 ## Dynamic Media开发人员资源
 
-* [Dynamic Media开发人员资源登陆页面](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources)：包含：
+* [Dynamic Media开发人员资源登陆页面](https://experienceleague.adobe.com/zh-hans/docs/dynamic-media-developer-resources)：包含：
    * 查看器参考指南
    * 图像服务/图像渲染API
    * 图像生产系统API
@@ -36,7 +36,7 @@ ht-degree: 0%
 ## Adobe Dynamic Media Classic用户资源
 
 * [Dynamic Media每月新闻稿](dynamic-media-newsletter.md)
-* [Adobe Dynamic Media Classic最佳实践教程](https://experienceleague.adobe.com/en/docs/experience-manager-learn/dynamic-media-classic-tutorial/overview)
+* [Adobe Dynamic Media Classic最佳实践教程](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-learn/dynamic-media-classic-tutorial/overview)
 * [指南：用于锐化图像的最佳实践指南](/help/using/assets/s7_sharpening_images.pdf)
 * [指南： Adobe Dynamic Media Classic如何支持SEO](/help/using/assets/s7_seo.pdf)：搜索引擎现在支持搜索网站和图像。 Adobe Dynamic Media Classic支持努力使图像搜索引擎友好，以便为Adobe Dynamic Media Classic用户的网站带来更多流量。 本PDF版指南提供了实现这一目标的背景和实施建议。
 <!-- * [Webinar: Best Practices for Responsive Design](http://offers.adobe.com/en/na/marketing/landings/_40458_responsive_design_live_on_demand_webinar.html): Learn practical tips on how to improve your mobile strategy. See real-world examples of responsive design in action. Create one primary asset that works across multiple devices and increase mobile performance by dynamically changing the resolution of images or the orientation of images for portrait or landscape displays. Learn how to also dynamically crop, scale, or resize images. -->

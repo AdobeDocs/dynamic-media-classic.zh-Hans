@@ -233,7 +233,7 @@ Adobe Dynamic Media Classic桌面应用程序与以下操作系统兼容：
 
 ## 有关使用Adobe Dynamic Media Classic桌面应用程序的视频演练 {#dmc-app-video-walk-through}
 
-观看使用Adobe Dynamic Media Classic桌面应用程序[&#128279;](https://experienceleague.adobe.com/en/docs/experience-manager-learn/assets/dynamic-media/dynamic-media-classic-desktop-application#dynamic-media)的视频演练（长度：2分36秒）。
+观看使用Adobe Dynamic Media Classic桌面应用程序[&#128279;](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-learn/assets/dynamic-media/dynamic-media-classic-desktop-application#dynamic-media)的视频演练（长度：2分36秒）。
 
 ## 使用桌面应用程序清除计算机上的图像缓存和资产缓存 {#clear-cache}
 

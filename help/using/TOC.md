@@ -22,7 +22,7 @@ ht-degree: 17%
    + [功能列表比较](upgrade-feature-comparison.md)
    + [升级就绪性检查列表](upgrade-readiness.md)
 + [Adobe Dynamic Media Classic指南](home.md)
-+ [Adobe Dynamic Media Classic最佳实践教程](https://experienceleague.adobe.com/en/docs/experience-manager-learn/dynamic-media-classic-tutorial/overview)
++ [Adobe Dynamic Media Classic最佳实践教程](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-learn/dynamic-media-classic-tutorial/overview)
 + [新的Adobe Dynamic Media Classic登录现已可用](new-ui-2020.md)
 + [按Experience LeagueAdobeDynamic Media新闻稿存档](dynamic-media-newsletter.md)
 + Adobe Dynamic Media Classic简介{#intro}

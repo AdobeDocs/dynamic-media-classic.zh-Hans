@@ -30,7 +30,7 @@ ht-degree: 52%
 
 ## 请求共享密钥 {#requesting-a-shared-secret-key}
 
-使用Admin Console创建支持案例，由[请求&#x200B;*共享密钥*。](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html)在技术支持案例中，请求共享密钥。
+使用Admin Console创建支持案例，由[请求&#x200B;*共享密钥*。](https://helpx.adobe.com/cn/enterprise/using/support-for-experience-cloud.html)在技术支持案例中，请求共享密钥。
 
 在电子邮件中，请提供要用于上载图像资源的公司名称。从Adobe Dynamic Media Classic收到密钥后，请将其本地保存以供将来使用。
 
