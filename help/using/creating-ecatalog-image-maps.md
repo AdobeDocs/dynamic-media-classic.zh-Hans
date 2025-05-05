@@ -97,7 +97,7 @@ ht-degree: 26%
 
 >[!NOTE]
 >
->将图像映射复制到eCatalog中的不同页面时，可以将eCatalog中的所有图像映射复制到其他eCatalog。 查看其他eCatalog ](creating-ecatalog-image-maps.md#copying_image_maps_between_ecatalogs)中的[复制图像映射。
+>将图像映射复制到eCatalog中的不同页面时，可以将eCatalog中的所有图像映射复制到其他eCatalog。 查看其他eCatalog [&#128279;](creating-ecatalog-image-maps.md#copying_image_maps_between_ecatalogs)中的复制图像映射。
 
 ## 查看和导入图像映射数据 {#reviewing-and-importing-image-map-data}
 

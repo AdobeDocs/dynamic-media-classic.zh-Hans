@@ -76,7 +76,7 @@ Adobe致力于确保其产品满足客户的安全要求。 新的Adobe Dynamic 
 +++
 
 +++**_对于可通过本地计算机上载到Adobe Dynamic Media Classic的文件数量是否有任何限制？_**
-在Windows®上使用新的Adobe Dynamic Media Classic桌面应用时，您可以使用**[!UICONTROL 上传]**&#x200B;对话框一次最多上传150个文件。 这一限制在2020年底之前已得到解决。 macOS平台存在&#x200B;*no*上传限制。
+在Windows®上使用新的Adobe Dynamic Media Classic桌面应用时，您可以使用&#x200B;**[!UICONTROL 上传]**&#x200B;对话框一次最多上传150个文件。 这一限制在2020年底之前已得到解决。 macOS平台存在&#x200B;*no*上传限制。
 +++
 
 +++**_新的Adobe Dynamic Media Classic桌面应用程序是否需要新的SKU？ 涉及许可费用吗？_**
@@ -84,7 +84,7 @@ Adobe致力于确保其产品满足客户的安全要求。 新的Adobe Dynamic 
 +++
 
 +++**_如何启用Adobe Dynamic Media Classic桌面应用程序升级？_**
-在2020年6月30日发布Adobe Dynamic Media Classic桌面应用程序后，如果Adobe发布新版本，则客户需要下载并安装新版本（替换**[!UICONTROL 应用程序]**中的现有应用程序）。 您会通过Adobe帐户团队和应用程序内升级通知机制收到新版本的通知，通知用户已升级。
+在2020年6月30日发布Adobe Dynamic Media Classic桌面应用程序后，如果Adobe发布新版本，则客户需要下载并安装新版本（替换&#x200B;**[!UICONTROL 应用程序]**&#x200B;中的现有应用程序）。 您会通过Adobe帐户团队和应用程序内升级通知机制收到新版本的通知，通知用户已升级。
 +++
 
 +++**_我如何获取有关Adobe Dynamic Media Classic桌面应用程序的任何问题的帮助？_**

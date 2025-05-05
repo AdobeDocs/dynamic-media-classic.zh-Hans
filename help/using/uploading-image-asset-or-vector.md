@@ -135,7 +135,7 @@ https://s7ugc1.scene7.com/ugc/image?op=upload&upload_token=aa2a378a-cd25-4c80-99
 * 文件扩展名的列表。
 * 是否保留与资源关联的颜色配置文件和文件名。
 * 是否使用挖空背景。 如果启用“挖空背景”，请设置“拐角”、“公差”和“填充方法”。
-在上传](image-editing-options-upload.md#image-editing-options-at-upload)处查看[图像微调选项中的“挖空背景”。
+在上传[&#128279;](image-editing-options-upload.md#image-editing-options-at-upload)处查看图像微调选项中的“挖空背景”。
 * 要上传的文件的名称。
 
 您可以通过选择[https://s7ugc1.scene7.com/ugc/upload.html](https://s7ugc1.scene7.com/ugc/upload.html)来查看与上述表单相关联的HTML源代码

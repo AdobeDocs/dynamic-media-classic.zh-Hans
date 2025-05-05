@@ -233,7 +233,7 @@ Adobe Dynamic Media Classic桌面应用程序与以下操作系统兼容：
 
 ## 有关使用Adobe Dynamic Media Classic桌面应用程序的视频演练 {#dmc-app-video-walk-through}
 
-观看使用Adobe Dynamic Media Classic桌面应用程序](https://experienceleague.adobe.com/en/docs/experience-manager-learn/assets/dynamic-media/dynamic-media-classic-desktop-application#dynamic-media)的[视频演练（长度：2分36秒）。
+观看使用Adobe Dynamic Media Classic桌面应用程序[&#128279;](https://experienceleague.adobe.com/en/docs/experience-manager-learn/assets/dynamic-media/dynamic-media-classic-desktop-application#dynamic-media)的视频演练（长度：2分36秒）。
 
 ## 使用桌面应用程序清除计算机上的图像缓存和资产缓存 {#clear-cache}
 
@@ -271,11 +271,11 @@ Adobe Dynamic Media Classic桌面应用程序与以下操作系统兼容：
 
 ## 提示和技巧
 
-**_我在Adobe Dynamic Media Classic的登录页面上无法看到“媒体购物车”面板。_**<br>在Adobe Dynamic Media Classic中，点按**[!UICONTROL 设置>个人设置&#x200B;]**。 在“浏览器”部分中，确保选中（选中）**[!UICONTROL 显示MediaPortal功能&#x200B;]**。 点按**[!UICONTROL 保存>关闭&#x200B;]**。
+**_我在Adobe Dynamic Media Classic的登录页面上无法看到“媒体购物车”面板。_**<br>在Adobe Dynamic Media Classic中，点按&#x200B;**[!UICONTROL 设置>个人设置&#x200B;]**。 在“浏览器”部分中，确保选中（选中）**[!UICONTROL 显示MediaPortal功能&#x200B;]**。 点按&#x200B;**[!UICONTROL 保存>关闭&#x200B;]**。
 
-资源的&#x200B;**_Publish状态（绿色指示器）未正确反映。_**<br>在浏览器用户界面中，需要重新登录UI才能查看资产的正确发布状态。 在桌面应用程序中，Adobe在**[!UICONTROL 无选择&#x200B;]**按钮右侧的工具栏中引入了**[!UICONTROL 刷新&#x200B;]**图标。 点按**[!UICONTROL 刷新&#x200B;]**图标可查看给定页面上所有资产的最新状态。 与浏览器UI一样，无需重新登录。
+资源的&#x200B;**_Publish状态（绿色指示器）未正确反映。_**<br>在浏览器用户界面中，需要重新登录UI才能查看资产的正确发布状态。 在桌面应用程序中，Adobe在&#x200B;**[!UICONTROL 无选择&#x200B;]**&#x200B;按钮右侧的工具栏中引入了&#x200B;**[!UICONTROL 刷新&#x200B;]**&#x200B;图标。 点按&#x200B;**[!UICONTROL 刷新&#x200B;]**&#x200B;图标可查看给定页面上所有资产的最新状态。 与浏览器UI一样，无需重新登录。
 
 ![刷新图标](/help/using/assets/refresh-icon1.png)
 *刷新图标*
 
-**_我看不到批次集预设在桌面应用程序中工作。_**<br>点按**[!UICONTROL 上传>作业选项>批次集预设&#x200B;]**。 请确保相关**[!UICONTROL 批次集预设&#x200B;]**已启用。 单击**[!UICONTROL 保存并提交上载&#x200B;]**。
+**_我看不到批次集预设在桌面应用程序中工作。_**<br>点按&#x200B;**[!UICONTROL 上传>作业选项>批次集预设&#x200B;]**。 请确保相关&#x200B;**[!UICONTROL 批次集预设&#x200B;]**&#x200B;已启用。 单击&#x200B;**[!UICONTROL 保存并提交上载&#x200B;]**。

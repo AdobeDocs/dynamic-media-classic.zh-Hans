@@ -47,7 +47,7 @@ Adobe Dynamic Media Classic提供了用于编辑和创建选件集的工具。
 
 ## 使用参数化模板创建选件集 {#creating-an-offer-set-with-a-parameterized-template}
 
-在创建选件集时，保存&#x200B;]**后的**[!UICONTROL  Publish选项会以下列方式影响该集和设置成员：
+在创建选件集时，保存&#x200B;**后的** Publish选项会以下列方式影响该集和设置成员：
 
 | 保存前是否选择了保存后的&#x200B;**[!UICONTROL Publish]**&#x200B;选项？ | 保存后的集状态 | 保存后的集成员状态 |
 | --- | --- | --- |
@@ -80,7 +80,7 @@ Adobe Dynamic Media Classic提供了用于编辑和创建选件集的工具。
 
 ## 创建包含图像或视频的选件集 {#creating-an-offer-set-with-images-or-videos}
 
-在创建选件集时，保存&#x200B;]**后的**[!UICONTROL  Publish选项会以下列方式影响该集和设置成员：
+在创建选件集时，保存&#x200B;**后的** Publish选项会以下列方式影响该集和设置成员：
 
 | 保存前是否选择了保存后的&#x200B;**[!UICONTROL Publish]**&#x200B;选项？ | 保存后的集状态 | 保存后的集成员状态 |
 | --- | --- | --- |

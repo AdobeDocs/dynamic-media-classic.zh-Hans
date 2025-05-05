@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Adobe已创建[!DNL Dynamic Media]，但考虑到了您。
 
-[!DNL Adobe Experience Manager]上的新[!DNL Dynamic Media]基于您期望从[!DNL Dynamic Media Classic](以前为Scene7)获得的功能。 它为您的组织提供了新的和改进的工具，以构建更好、更引人入胜的体验。
+[!DNL Adobe Experience Manager]上的新[!DNL Dynamic Media]基于您期望从[!DNL Dynamic Media Classic] (以前为Scene7)获得的功能。 它为您的组织提供了新的和改进的工具，以构建更好、更引人入胜的体验。
 
 [!DNL Dynamic Media]使用实时可视化生成器升级内容生成体验。 位于Adobe行之有效、受信任且可伸缩的交付网络之上并与直观的[!DNL Adobe Experience Manager]用户界面配对，[!DNL Dynamic Media]提供了创作、迭代和交付引人入胜的下一级体验的功能。
 
