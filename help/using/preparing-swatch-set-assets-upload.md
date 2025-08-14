@@ -26,7 +26,7 @@ ht-degree: 61%
 * 同一外套的黑色、棕色和绿色快照。
 * 黑色、棕色及绿色样本。
 
-由于用户可以在样本集中缩放图像，因此确保图像最大尺寸至少为 2000 像素。Adobe Dynamic Media Classic支持多种图像文件格式，但建议使用无损TIFF、PNG和EPS图像。
+由于用户可以在样本集中缩放图像，因此确保图像最大尺寸至少为 2000 像素。Adobe Dynamic Media Classic支持多种图像文件格式，但建议使用无损的TIFF、PNG和EPS图像。
 
 有关上传资产的详细说明，请参阅[上传文件](uploading-files.md#uploading_files)。
 

@@ -75,4 +75,4 @@ ht-degree: 22%
 
 >[!MORELIKETHIS]
 >
->* [Publish](publishing-files.md#publishing_files)
+>* [发布](publishing-files.md#publishing_files)

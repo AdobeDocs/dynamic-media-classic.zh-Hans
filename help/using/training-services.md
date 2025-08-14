@@ -1,6 +1,6 @@
 ---
 title: Adobe 培训服务
-description: 详细了解Adobe Dynamic Media Classic的Adobe培训服务。
+description: 详细了解适用于Adobe Dynamic Media Classic的Adobe培训服务。
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic

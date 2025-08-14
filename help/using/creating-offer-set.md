@@ -41,15 +41,15 @@ Adobe Dynamic Media Classic提供了用于编辑和创建选件集的工具。
 
 * **图像模板**：您可以使用&#x200B;**[!UICONTROL 生成]** >“模板基础”命令在Adobe Dynamic Media Classic中参数化图像模板。 通过参数、模板的组件、文本框架中的文本、不同的图像，可以进行调出和定制。 例如，对于选件集，您可以使用模板参数在选件集中的同一图像上创建变体。 有关创建和参数化图像模板的信息，请参阅[创建模板参数](creating-template-parameters.md#creating_template_parameters)。
 
-另请观看[模板基础知识](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/553_Template%20Basics_converted%20renamed_Dynamic%20Banners-AVS)培训视频。
+另请观看[模板基础知识](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/553_Template%20Basics_converted%20renamed_Dynamic%20Banners-AVS)培训视频。
 
 * **视频**：您可以为选件集组合视频。 每个视频是套餐中的一个不同优惠。
 
 ## 使用参数化模板创建选件集 {#creating-an-offer-set-with-a-parameterized-template}
 
-在创建选件集时，保存&#x200B;**后的** Publish选项会以下列方式影响该集和设置成员：
+创建选件集时，**[!UICONTROL 保存后发布]**&#x200B;选项可通过以下方式影响该集和设置成员：
 
-| 保存前是否选择了保存后的&#x200B;**[!UICONTROL Publish]**&#x200B;选项？ | 保存后的集状态 | 保存后的集成员状态 |
+| 保存前是否选择了&#x200B;**[!UICONTROL 保存后发布]**&#x200B;选项？ | 保存后的集状态 | 保存后的集成员状态 |
 | --- | --- | --- |
 | 是 | 已发布 | 已发布 |
 | 否 | 未发布 | 集成员保持其已发布或未发布状态。 |
@@ -73,16 +73,16 @@ Adobe Dynamic Media Classic提供了用于编辑和创建选件集的工具。
    Test&amp;Target选件集页面列出了您创建的选件。
 
 1. 重复步骤 3 到 5 为套餐创建更多优惠。
-1. 完成后，在页面的右下角附近，确保选中&#x200B;**[!UICONTROL 保存Publish*]**（默认）。
+1. 完成后，在页面的右下角附近，确保选中&#x200B;**[!UICONTROL 保存后发布*]**（默认）。
 1. 选择&#x200B;**[!UICONTROL 关闭]**，输入选件集的名称，然后选择&#x200B;**[!UICONTROL 保存]**。
 
 在关闭Test&amp;Target选件集页面之前，请将选件集推送到Adobe Target Standard/Premium。 请参阅[将选件集推送到Test&amp;Target](pushing-offer-sets-target.md#pushing_offer_sets_to_target)。
 
 ## 创建包含图像或视频的选件集 {#creating-an-offer-set-with-images-or-videos}
 
-在创建选件集时，保存&#x200B;**后的** Publish选项会以下列方式影响该集和设置成员：
+创建选件集时，**[!UICONTROL 保存后发布]**&#x200B;选项可通过以下方式影响该集和设置成员：
 
-| 保存前是否选择了保存后的&#x200B;**[!UICONTROL Publish]**&#x200B;选项？ | 保存后的集状态 | 保存后的集成员状态 |
+| 保存前是否选择了&#x200B;**[!UICONTROL 保存后发布]**&#x200B;选项？ | 保存后的集状态 | 保存后的集成员状态 |
 | --- | --- | --- |
 | 是 | 已发布 | 已发布 |
 | 否 | 未发布 | 集成员保持其已发布或未发布状态。 |
@@ -104,16 +104,16 @@ Adobe Dynamic Media Classic提供了用于编辑和创建选件集的工具。
 
    选择&#x200B;**[!UICONTROL 保存]**&#x200B;以保存对图像或视频选件所做的更改。 然后选择&#x200B;**[!UICONTROL 关闭]**&#x200B;以返回Test&amp;Target选件集页面。
 
-1. 在为选件集创建选件并为其他图像选择图像预设后，请确保选择了保存后的&#x200B;**[!UICONTROL Publish]**（默认）。
+1. 在为选件集创建选件并为不同的图像选择图像预设后，请确保选择了&#x200B;**[!UICONTROL 保存后发布]**（默认）。
 1. 选择&#x200B;**[!UICONTROL 保存]**&#x200B;并输入选件集的名称，然后选择&#x200B;**[!UICONTROL 保存]**。
 
 在关闭Test&amp;Target选件集页面之前，请将选件集推送到Adobe Target Standard/Premium。 请参阅[将选件集推送到Test&amp;Target](pushing-offer-sets-target.md#pushing_offer_sets_to_target)。
 
 ## 编辑优惠套餐 {#editing-an-offer-set}
 
-无论您是编辑已发布的集还是未发布的集，**[!UICONTROL 保存]**&#x200B;后的Publish选项都将通过以下方式影响该集和集成员：
+无论您是编辑已发布的集还是未发布的集，**[!UICONTROL Publish after a save]**&#x200B;选项都会通过以下方式影响该集和集成员：
 
-| 是否已发布集？ | 在保存编辑之前，是否选择了保存&#x200B;**[!UICONTROL Publish]**&#x200B;选项？ | 保存后的集状态 | 保存后的集成员状态 |
+| 是否已发布集？ | 在保存编辑之前，是否选择了&#x200B;**[!UICONTROL 保存后发布]**&#x200B;选项？ | 保存后的集状态 | 保存后的集成员状态 |
 | --- | --- | --- | --- |
 | 是 | 是 | 已发布 | 已发布 |
 | 是 | 否 | 已发布 | 现有集成员将保留其已发布状态。 在编辑期间添加的任何新的集成员保持其已发布或未发布状态。 |
@@ -136,7 +136,7 @@ Adobe Dynamic Media Classic提供了用于编辑和创建选件集的工具。
    >
    >您无法删除与活动关联的选件集。 要删除与促销活动关联的选件集，请登录Adobe Target Standard/Premium，然后先删除促销活动关联。 即使与营销活动取消关联，也只能从Adobe Dynamic Media Classic中删除资产，这需要登录到Adobe Target Standard/Premium，而不能从Adobe Target Standard/Premium中删除。
 
-1. 完成编辑后，在页面的右下角附近，请确保已选中&#x200B;**[!UICONTROL 保存Publish]**（默认）。
+1. 完成编辑后，在页面的右下角附近，请确保已选中&#x200B;**[!UICONTROL 保存后发布]**（默认）。
 1. 选择&#x200B;**[!UICONTROL 保存]**，选择一个存储文件夹，输入该集的名称，然后选择&#x200B;**[!UICONTROL 保存]**。
 
 ## 删除优惠套餐 {#delet-an-offer-set}

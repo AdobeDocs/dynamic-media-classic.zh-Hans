@@ -19,7 +19,7 @@ ht-degree: 23%
 
 # 将缩放查看器链接到您的网页{#linking-zoom-viewers-to-your-web-pages}
 
-您的网站和应用程序可通过URL字符串或嵌入代码访问Dynamic Media Image Server内容。 该访问包括主图像和关联的缩放目标。 它还包含缩放查看器预设。 这些 URL 字符串在发布过程中被激活。要将这些URL字符串或嵌入代码置于网页和应用程序中，请从Adobe Dynamic Media Classic复制它们。
+您的网站和应用程序通过URL字符串或嵌入代码访问Dynamic Media图像服务器内容。 该访问包括主图像和关联的缩放目标。 它还包含缩放查看器预设。 这些 URL 字符串在发布过程中被激活。要将这些URL字符串或嵌入代码置于网页和应用程序中，请从Adobe Dynamic Media Classic复制它们。
 
 >[!NOTE]
 >
@@ -47,7 +47,7 @@ ht-degree: 23%
 
 通常，访客通过首先选择缩放图标（图标通常显示放大镜的图像）来缩放网站上的图像。 选择此图标将启动在弹出窗口中显示图像的动态网页（ASP或JSP）。 弹出窗口是访客实际缩放该图像的位置。
 
-有关更多详细信息和代码示例，请参阅Adobe查看器参考指南[&#128279;](https://experienceleague.adobe.com/zh-hans/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/basic-zoom/c-html5-20-basic-zoom-viewer-about#section-e1c3106f5b3e445d9b95be337c2f94e2)中的嵌入HTML5 Basic缩放查看器。
+有关更多详细信息和代码示例，请参阅《HTML查看器参考指南》中的[嵌入Adobe5 Basic缩放查看器](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/basic-zoom/c-html5-20-basic-zoom-viewer-about#section-e1c3106f5b3e445d9b95be337c2f94e2)。
 
 ## 复制缩放查看器的嵌入副本 {#copying-the-embed-copy-of-a-zoom-viewer}
 

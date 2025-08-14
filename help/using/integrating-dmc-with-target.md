@@ -19,7 +19,7 @@ ht-degree: 0%
 
 # 将Adobe Dynamic Media Classic与Adobe Target Standard/Premium集成 {#integrating-dmc-with-target}
 
-必须先在[!DNL Adobe Dynamic Media Classic]应用程序常规设置屏幕中输入目标URL，然后才能将[!DNL Adobe Dynamic Media Classic]与[!DNL Target Standard/Premium]集成。 要获取Target URL并在“应用程序常规设置”页面中输入它，请执行以下操作：
+必须先在[!DNL Adobe Dynamic Media Classic]应用程序常规设置屏幕中输入目标URL，然后才能将[!DNL Target Standard/Premium]与[!DNL Adobe Dynamic Media Classic]集成。 要获取Target URL并在“应用程序常规设置”页面中输入它，请执行以下操作：
 
 1. 在[!DNL Adobe Experience Cloud]中，登录到您的[!DNL Target Standard/Premium]帐户。
 1. 登录后，在浏览器的地址栏中，将URL复制到并包括`.com`。

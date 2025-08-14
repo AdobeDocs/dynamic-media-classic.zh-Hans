@@ -25,7 +25,7 @@ Adobe Analytics 是一款行业领先的产品，营销人员可用来评估、�
 
 通过使用 Adobe Analytics 报告，可以非常清楚地了解客户在网站上的活动。您可以确定哪些产品演示文稿会导致转化，哪些不吸引客户兴趣。
 
-另请参阅Adobe Analytics中的[度量值视频](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/media-overview)。
+另请参阅Adobe Analytics中的[度量值视频](https://experienceleague.adobe.com/en/docs/media-analytics/using/media-overview)。
 
 >[!NOTE]
 >
@@ -43,7 +43,7 @@ Adobe Analytics 是一款行业领先的产品，营销人员可用来评估、�
 
 请参阅[登录Adobe Analytics](log-analytics.md#log_in_to_adobe_analytics)。
 
-在“Adobe Analytics登录”对话框中，键入您的Experience Cloud组织ID（可选）和完整的凭据，然后选择&#x200B;**[!UICONTROL 登录]**。 在“报告套件”下拉菜单中，选择要使用的报告套件的名称。
+在“Adobe Analytics登录”对话框中，键入您的Experience Cloud组织ID（可选）和完整凭据，然后选择&#x200B;**[!UICONTROL 登录]**。 在“报告套件”下拉菜单中，选择要使用的报告套件的名称。
 
 ## 2.将Adobe Analytics报表变量分配给Adobe Dynamic Media Classic查看器事件和Adobe Dynamic Media Classic变量
 
@@ -58,11 +58,11 @@ Adobe Analytics 是一款行业领先的产品，营销人员可用来评估、�
 
 请参阅[配置Adobe Analytics报表](configuring-analytics-reports.md#configuring_adobe_analytics_reports)。
 
-## 3.Publish您的Adobe Dynamic Media Classic查看器
+## 3.发布Adobe Dynamic Media Classic查看器
 
-Publish您的Adobe Dynamic Media Classic查看器，以便在Adobe Dynamic Media Classic服务器上加载查看器(在Adobe Analytics报表中带有用于跟踪用户活动的代码)。 发布后，此信息将包含在查看器中。 可将其用于Adobe Analytics的分析。
+发布Adobe Dynamic Media Classic查看器，以便在Adobe Dynamic Media Classic服务器上加载查看器(在Adobe Analytics报表中带有用于跟踪用户活动的代码)。 发布后，此信息将包含在查看器中。 可将其用于Adobe Analytics的分析。
 
-请参阅[Publish配置信息](publishing-analytics-configuration-information.md#publishing_adobe_analytics_configuration_information)。
+请参阅[发布配置信息](publishing-analytics-configuration-information.md#publishing_adobe_analytics_configuration_information)。
 
 ## 4.将Adobe Dynamic Media Classic查看器放在您的网站上
 

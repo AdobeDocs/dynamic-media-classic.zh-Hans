@@ -27,7 +27,7 @@ ht-degree: 22%
 
 请参阅[创建图像映射](creating-image-maps.md)。
 
-观看[图像和旋转集：Dynamic Imaging](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/556_Image%20&amp;%20Spin%20Sets_converted%20renamed_Dynamic%20Imaging-AVS)训练视频。
+观看[图像和旋转集： Dynamic Imaging](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/556_Image%20&%20Spin%20Sets_converted%20renamed_Dynamic%20Imaging-AVS)培训视频。
 
 在创建旋转集时，Adobe建议采用以下最佳实践并强制实施以下限制：
 
@@ -73,13 +73,13 @@ ht-degree: 22%
 
 请参阅[预览旋转集](previewing-spin-set.md#previewing-a-spin-set)。
 
-## 6. Publish a旋转集
+## 6.发布旋转集
 
-发布旋转集会将该旋转集放置在Adobe Dynamic Media Classic服务器上，以便可以动态地将其交付到您的网站或应用程序。 它还激活了URL字符串，该字符串会将旋转集从Dynamic Media图像服务器调用到您的网站或应用程序。
+发布旋转集会将该旋转集放置在Adobe Dynamic Media Classic服务器上，以便可以动态地将其交付到您的网站或应用程序。 它还激活了URL字符串，该字符串会将Dynamic Media图像服务器中的旋转集调用到您的网站或应用程序。
 
-要发布旋转集，请在“浏览”面板中选择旋转集名称旁边的&#x200B;**[!UICONTROL 标记为Publish]**&#x200B;图标，以将其标记为发布。 在全局导航栏上，选择&#x200B;**[!UICONTROL Publish]**&#x200B;以启动发布。 在发布页面上，选择&#x200B;**[!UICONTROL 提交Publish]**。
+要发布旋转集，请在“浏览”面板中选择旋转集名称旁边的&#x200B;**[!UICONTROL 标记为发布]**&#x200B;图标，以将其标记为发布。 在全局导航栏上，选择&#x200B;**[!UICONTROL 发布]**&#x200B;以启动发布。 在发布页面上，选择&#x200B;**[!UICONTROL 提交发布]**。
 
-请参阅[Publish a旋转集](publishing-spin-set.md#publishing-a-spin-set)。
+请参阅[发布旋转集](publishing-spin-set.md#publishing-a-spin-set)。
 
 ## 7.将旋转集链接到网页
 

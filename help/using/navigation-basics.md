@@ -35,7 +35,7 @@ Adobe Dynamic Media Classic屏幕包括三个主要区域：全局导航栏、�
 
 * **[!UICONTROL 生成]**：从菜单中选择生成任务。 会打开构建面板，以便您创建资源类型。
 
-* **[!UICONTROL Publish]**：打开“发布”屏幕，以便发布富媒体资源以AdobeDynamic Media图像服务器和Adobe Dynamic Media Classic SAAS基础架构的其余部分。
+* **[!UICONTROL 发布]**：打开“发布”屏幕，以便将富媒体资产发布到Adobe Dynamic Media图像服务器和Adobe Dynamic Media Classic SAAS基础架构的其余部分。
 
 * **[!UICONTROL 作业]**：打开“作业”屏幕，以便检查上载和发布作业的记录。
 
@@ -71,7 +71,7 @@ Adobe Dynamic Media Classic屏幕包括三个主要区域：全局导航栏、�
 
 * **[!UICONTROL 生成模式]**：选择&#x200B;**[!UICONTROL 生成]**，然后选择一个选项，以便您可以开始生成eCatalog、图像集、旋转集或“生成”菜单上的其他几个可用项之一。 此时将打开“生成”页面。 您可以在进入“构建”模式之前或之后选择要使用的资源。
 
-另请观看[导航基础知识](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/571_Navigation%20Basics_converted%20renamed_Getting%20Started-AVS)培训视频。
+另请观看[导航基础知识](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/571_Navigation%20Basics_converted%20renamed_Getting%20Started-AVS)培训视频。
 
 >[!MORELIKETHIS]
 >

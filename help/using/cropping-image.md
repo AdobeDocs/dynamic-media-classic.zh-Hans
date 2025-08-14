@@ -64,4 +64,4 @@ ht-degree: 31%
 >
 >* 在上传时进行[图像编辑的选项](image-editing-options-upload.md#image-editing-options-at-upload)
 >* [从PDF文件裁切空格](pdfs.md#cropping_white_space_from_a_pdf_file)
->* [从PDF页侧面裁切](pdfs.md#cropping_from_the_sides_of_pdf_pages)
+>* [从PDF页面侧面裁切](pdfs.md#cropping_from_the_sides_of_pdf_pages)

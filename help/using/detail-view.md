@@ -62,7 +62,7 @@ Last Modified Date: 2018-06-14T13:52:46.623-0400
 
 “详细信息视图”提供了用于处理所打开资产的工具。 可用的工具取决于您使用的资源类型，但“详细信息视图”始终提供以下功能：
 
-* 发布&#x200B;**的**&#x200B;项目：选择名称左侧的&#x200B;**[!UICONTROL `Publish`]**&#x200B;图标，或转到&#x200B;**[!UICONTROL 文件]** > **[!UICONTROL Publish]**&#x200B;或&#x200B;**[!UICONTROL 文件]** > **[!UICONTROL 取消发布]**。
+* 发布&#x200B;**的**&#x200B;项目：选择名称左侧的&#x200B;**[!UICONTROL `Publish`]**&#x200B;图标，或转到&#x200B;**[!UICONTROL 文件]** > **[!UICONTROL 发布]**&#x200B;或&#x200B;**[!UICONTROL 文件]** > **[!UICONTROL 取消发布]**。
 
 * **重命名资源**：选择名称并输入新名称。
 

@@ -11,7 +11,7 @@ topic: Content Management
 level: Intermediate
 source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
 workflow-type: tm+mt
-source-wordcount: '3989'
+source-wordcount: '3981'
 ht-degree: 40%
 
 ---
@@ -56,7 +56,7 @@ Adobe Dynamic Media Classic还会生成视频缩略图。 您可以了解有关�
 1. 在上传页面中，选择&#x200B;**[!UICONTROL 从桌面]**&#x200B;选项卡。
 1. 在上传页面的&#x200B;**[!UICONTROL 选择要上传的文件]**&#x200B;面板中，选择&#x200B;**[!UICONTROL 浏览]**，导航到MP4视频文件，然后选择&#x200B;**[!UICONTROL 打开]**。
 1. 在选定的&#x200B;**[!UICONTROL 文件夹目标]**&#x200B;面板中，为上载的文件选择一个文件夹。
-1. 在上传页面上，确保选中&#x200B;**[!UICONTROL 上传后的Publish]**。
+1. 在上传页面上，确保选中&#x200B;**[!UICONTROL 上传后发布]**。
 1. 选择&#x200B;**[!UICONTROL 提交上载]**。
 
 *如果要使用Adobe Dynamic Media Classic对视频进行编码*
@@ -72,7 +72,7 @@ Adobe Dynamic Media Classic还会生成视频缩略图。 您可以了解有关�
    * 可选。 如果要使用单个编码设置，请展开&#x200B;**[!UICONTROL 单个编码预设]**，然后选择桌面、移动设备和平板电脑所需的编码选项。
 请参阅[台式机视频编码预设](application-setup.md#desktop-video-encoding-presets)、[移动设备视频编码预设](application-setup.md#mobile-video-encoding-presets)和[平板电脑视频编码预设](application-setup.md#tablet-video-encoding-presets)。
 1. 在“上载作业选项”对话框中，选择&#x200B;**[!UICONTROL 保存]**。
-1. 在上传页面上，确保选中&#x200B;**[!UICONTROL 上传后的Publish]**。
+1. 在上传页面上，确保选中&#x200B;**[!UICONTROL 上传后发布]**。
 1. 在上传页面的右下角，选择&#x200B;**[!UICONTROL 提交上传]**。
 
 *如果要对先前上载的视频文件进行重新编码*
@@ -354,7 +354,7 @@ Adobe Dynamic Media Classic为目标数据速率、分辨率高度和分辨率�
    | 播放设备 | 选择要在其上播放视频的设备。这些选项为“计算机”（台式机）、“移动设备”(iPhone、iPad、Android™)或“平板电脑”(仅限iPad)。 此设置会自动确定在编码期间使用的相应视频和音频编解码器。 |
    | 目标数据速率 | 输入目标最终用户的 Internet 平均连接速度（千比特/秒）。您可以输入速率，或拖动滑块进行输入。用户连接速度范围列出了宽带、DSL、移动设备和拨号连接的标准速度。此设置会自动确定组合的视频和音频数据速率。也就是构成一秒钟视频播放所编码的数据量。数据速率越高，所得到视频的品质就越高。但是，如果数据速率太高，则导致文件非常大，并导致低带宽连接的用户的观看体验欠佳。最好是在高数据速率和低数据速率之间找到一个平衡点。努力创造优质播放体验，同时不疏远带宽狭窄的用户。 |
    | 高宽比 | 长宽比是视频的宽高比。 下面列出的前两个高宽比通常用于水平显示视频：<ul><li> 4:3:用于几乎所有标准定义电视广播内容。</li><li>16:9:用于高清电视(HDTV)上的几乎所有宽屏内容和电影。</li><li>自动缩放： （默认）一种单一编码预设，可与任何纵横比配合使用，创建要交付到移动设备、平板电脑和台式机的视频。 使用该预设编码的上载的源视频将设置为固定高度。但是，宽度会自动缩放以保留视频的长宽比（宽高比）。</li><li>自定义：在要定义非标准视频大小时使用。</li><li>您选择的纵横比决定了“分辨率大小”的宽度和高度设置；宽度和高度值会自动缩放到适当的纵横比。</li></ul> |
-   | 分辨率大小 | 分辨率大小（用宽度的像素数乘以高度的像素数表示）决定大小。 输入宽度和高度值（以像素为单位），或拖动滑块以输入这些值。 分辨率范围列出了标准分辨率大小。宽度值和高度值会自动遵循您选择的长宽比。 例如，如果选择4:3作为长宽比，并输入400作为宽度，则自动输入300作为高度。 如果为“纵横比”设置选择了“自动缩放”，则“分辨率大小”的“宽度”值将自动设置为“自动”。 选择&#x200B;**[!UICONTROL 预览]**，以便打开浏览器窗口并查看分辨率选项。 |
+   | 分辨率大小 | 分辨率大小（用宽度的像素数乘以高度的像素数表示）决定大小。 输入宽度和高度值（以像素为单位），或拖动滑块以输入这些值。 分辨率范围列出了标准分辨率大小。宽度值和高度值会自动遵循您选择的长宽比。 例如，如果选择4:3作为纵横比，并输入400作为宽度，则自动输入300作为高度。 如果为“纵横比”设置选择了“自动缩放”，则“分辨率大小”的“宽度”值将自动设置为“自动”。 选择&#x200B;**[!UICONTROL 预览]**，以便打开浏览器窗口并查看分辨率选项。 |
    | 编码文件后缀 | 输入后缀。该后缀会附加到生成的编码视频文件的后面。您可以在名称中输入连字符和下划线；不允许使用空格和特殊字符。 |
    | 其他设置 | Adobe Dynamic Media Classic会根据最佳实践编码准则自动确定所有其他编码设置。 |
 
@@ -378,4 +378,4 @@ Adobe Dynamic Media Classic为目标数据速率、分辨率高度和分辨率�
 >* [快速入门： Adobe Dynamic Media Classic中的视频](quick-start-video.md#quick-start-video)
 >* [上载视频并进行编码](uploading-encoding-videos.md#uploading-and-encoding-videos)
 >* [使用视频查看器预设](previewing-videos-video-viewer.md#working-with-video-viewer-presets)
->* [视频预设](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/549_video-presets_converted%20renamed_Done-AVS)培训视频
+>* [视频预设](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/549_video-presets_converted%20renamed_Done-AVS)培训视频

@@ -23,8 +23,8 @@ eCatalog是印刷材料的数字Web版本 — 例如，目录、小册子、传�
 
 另请观看以下培训视频：
 
-* [快速入门1： eCatalogs](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/561_Quick%20Start%20-%20Part%201_converted%20renamed_eCatalogs-AVS)
-* [快速入门2： eCatalogs](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/562_Quick%20Start%20-%20Part%202_converted%20renamed_eCatalogs-AVS)
+* [快速入门1： eCatalogs](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/561_Quick%20Start%20-%20Part%201_converted%20renamed_eCatalogs-AVS)
+* [快速入门2： eCatalogs](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/562_Quick%20Start%20-%20Part%202_converted%20renamed_eCatalogs-AVS)
 
 根据您为eCatalog选择的设置，查看器可以让您执行以下操作：
 
@@ -48,7 +48,7 @@ eCatalog是印刷材料的数字Web版本 — 例如，目录、小册子、传�
 
 >[!NOTE]
 >
->如果您是Dynamic Media： Scene7模式用户，并且要使用eCatalogs，请在CRXDE Lite中编辑`pdfbrochure`值。 为此，请在Adobe Experience Manager中转到&#x200B;**[!UICONTROL 工具]** > **[!UICONTROL 常规]** > **[!UICONTROL CRXDE Lite]**。 在左侧面板导航树中，导航到`/conf/global/settings/cloudconfigs/dmscene7/jcr:content/mimeTypes/application_pdf`。
+>如果您是Dynamic Media： Scene7模式用户并要使用eCatalogs，请在CRXDE Lite中编辑`pdfbrochure`值。 为此，请在Adobe Experience Manager中转到&#x200B;**[!UICONTROL 工具]** > **[!UICONTROL 常规]** > **[!UICONTROL CRXDE Lite]**。 在左侧面板导航树中，导航到`/conf/global/settings/cloudconfigs/dmscene7/jcr:content/mimeTypes/application_pdf`。
 >
 >在右下窗格的&#x200B;**[!UICONTROL 属性]**&#x200B;选项卡中，选择`jobParam`行。 将`pdfbrochure`的值从`false`设置为`true`。 作为`pdfbrochure=true`
 >
@@ -64,7 +64,7 @@ eCatalog 通常由 Adobe PDF 文件生成。由于 PDF 文件要用于印刷，�
 
 在全局导航栏上，选择&#x200B;**[!UICONTROL 上传]**&#x200B;以开始上传eCatalog的PDF文件或图像。 您可以从桌面或通过FTP上传文件；如果要上传的文件数或文件数超过100 MB，建议使用FTP。
 
-“上载”屏幕的“PDF 选项”下面提供了一些选项，用于上载分辨率合适并且颜色空间正确的 PDF 文件。推荐使用 150 PPI 的分辨率。您可以选择选项&#x200B;**[!UICONTROL 自动生成eCatalog]**&#x200B;在上传PDF文件时创建eCatalog。
+“上载”屏幕的“PDF 选项”下面提供了一些选项，用于上载分辨率合适并且颜色空间正确的 PDF 文件。推荐使用 150 PPI 的分辨率。在上传PDF文件时，您可以选择选项&#x200B;**[!UICONTROL 自动生成eCatalog]**&#x200B;以创建eCatalog。
 
 请参阅[上传PDF文件](uploading-pdf-files.md#uploading_the_pdf_files)。
 
@@ -114,17 +114,17 @@ eCatalog 查看器预设决定了 eCatalog 查看器的样式和行为。
 
 查看[在eCatalog查看器](previewing-ecatalogs-ecatalog-viewer.md#previewing-ecatalogs-in-the-ecatalog-viewer)中预览eCatalog。
 
-## 6. Publish eCatalog和相关PDF
+## 6.发布eCatalog和关联的PDF
 
-发布eCatalog和相关的PDF会将其放在Dynamic Media图像服务器上，以便可以将其交付到您的网站和应用程序。 在发布过程中，Adobe Dynamic Media Classic会激活eCatalog的URL字符串。 使用此URL可从Dynamic Media图像服务器向您的网站或应用程序调用eCatalog。
+发布eCatalog和关联的PDF会将其放置在Dynamic Media图像服务器上，以便可以将其交付到您的网站和应用程序。 在发布过程中，Adobe Dynamic Media Classic会激活eCatalog的URL字符串。 使用此URL将eCatalog从Dynamic Media图像服务器调用到您的网站或应用程序。
 
-在“浏览”面板中将eCatalog和PDF标记为发布后，选择全局导航栏上的“Publish”按钮以启动发布。 在发布页面上，选择&#x200B;**[!UICONTROL 提交Publish]**。
+在“浏览”面板中将eCatalog和PDF标记为发布后，选择全局导航栏上的“发布”按钮以启动发布。 在发布页面上，选择&#x200B;**[!UICONTROL 提交发布]**。
 
-查看[Publish eCatalogs和相关的PDF](publishing-ecatalogs-associated-pdfs.md#publishing-ecatalogs-and-associated-pdfs)。
+查看[发布eCatalog和关联的PDF](publishing-ecatalogs-associated-pdfs.md#publishing-ecatalogs-and-associated-pdfs)。
 
 ## 7.将eCatalog链接到网页
 
-在将eCatalog发布到Adobe Dynamic Media Classic图像服务器时，Dynamic Media会激活显示它所需的URL标注字符串。 您可以通过在“预览”屏幕和“浏览”面板（在“详细信息”视图中）中选择URL，来复制此URL字符串。 复制URL字符串后，您的网站和应用程序即可使用该字符串。
+在将eCatalog发布到Dynamic Media图像服务器时，Adobe Dynamic Media Classic会激活显示它所需的URL标注字符串。 您可以通过在“预览”屏幕和“浏览”面板（在“详细信息”视图中）中选择URL，来复制此URL字符串。 复制URL字符串后，您的网站和应用程序即可使用该字符串。
 
 与您的IT团队合作，将指向eCatalog的链接放置在网页中的适当位置。 当用户选择该链接时，会显示eCatalog查看器，用户可以浏览您的eCatalog。
 

@@ -1,5 +1,5 @@
 ---
-title: Publish文件
+title: 发布文件
 description: 了解如何将资源发布到Dynamic Media图像服务器。
 contentOwner: Rick Brough
 content-type: reference
@@ -17,23 +17,23 @@ ht-degree: 21%
 
 ---
 
-# Publish文件{#publishing-files}
+# 发布文件{#publishing-files}
 
 您可以将资源发布到Dynamic Media图像服务器。 您可以一次性发布资源，也可以安排Adobe Dynamic Media Classic按定期计划发布资源。 发布资源后，这些资源即可用来传送。您可以从Adobe Dynamic Media Classic复制URL调用，并将其添加到您的网站或应用程序。
 
-Adobe Dynamic Media Classic现在支持通过HTTP/2来交付所有图像和视频。 即，图像或视频的已发布URL或嵌入代码可用于与接受托管资产的任何应用程序集成。 该已发布资产使用HTTP/2协议进行交付。 这种交付方法改进了浏览器和服务器的通信方式，使得所有Adobe Dynamic Media Classic资源都有更好的响应和加载时间。 请参阅[HTTP2内容交付常见问题解答](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-65/content/assets/dynamic/http2)。
+Adobe Dynamic Media Classic现在支持通过HTTP/2来交付所有图像和视频。 即，图像或视频的已发布URL或嵌入代码可用于与接受托管资产的任何应用程序集成。 该已发布资产使用HTTP/2协议进行交付。 这种交付方法改进了浏览器和服务器的通信方式，使得所有Adobe Dynamic Media Classic资源都有更好的响应和加载时间。 请参阅[HTTP2内容交付常见问题解答](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/http2)。
 
 ## 在上载之后发布 {#publish-after-uploading}
 
 资源处于已发布或未发布的状态。默认情况下，您上传到Adobe Dynamic Media Classic的任何资源都会自动标记为发布。
 
-有关详细信息，请参阅[即时Publish通知PDF](/help/using/assets/rendering-instant-publish-notification.pdf)。
+有关详细信息，请参阅[即时发布通知PDF](/help/using/assets/rendering-instant-publish-notification.pdf)。
 
 使用这些技术标记要发布的资产：
 
-* 上载后&#x200B;**[!UICONTROL Publish]**：在上传页面底部附近，选择&#x200B;**[!UICONTROL 上载后Publish]**。 默认情况下，将处于选定状态。
+* **[!UICONTROL 上载后发布]**：在上传页面底部附近，选择&#x200B;**[!UICONTROL 上载后发布]**。 默认情况下，将处于选定状态。
 
-* 上载后&#x200B;**[!UICONTROL Publish]**：在“作业选项”对话框中，选择&#x200B;**[!UICONTROL 上载后Publish]**。 默认情况下，将处于选定状态。
+* **[!UICONTROL 上载后发布]**：在“作业选项”对话框中，选择&#x200B;**[!UICONTROL 上载后发布]**。 默认情况下，将处于选定状态。
 
 如果父项资源标记为发布，则一些“子项”资源会自动标记为发布。此表列出了自动标记为发布的子资产。
 
@@ -52,7 +52,7 @@ Adobe Dynamic Media Classic现在支持通过HTTP/2来交付所有图像和视�
 
 **创建发布作业：**
 
-1. 在全局导航栏上，选择&#x200B;**[!UICONTROL Publish]**。
+1. 在全局导航栏上，选择&#x200B;**[!UICONTROL 发布]**。
 1. 在“发布”对话框中，选择想要一次性发布作业还是循环发布作业。
 
    请参阅[创建一次性发布作业](publishing-files.md#creating_a_one_time_publish_job)和[创建循环发布作业](publishing-files.md#creating_a_recurring_publish_job)。
@@ -62,7 +62,7 @@ Adobe Dynamic Media Classic现在支持通过HTTP/2来交付所有图像和视�
 
    请参阅[高级发布选项](publishing-files.md#advanced_publish_options)。
 
-1. 选择&#x200B;**[!UICONTROL 提交Publish]**。
+1. 选择&#x200B;**[!UICONTROL 提交发布]**。
 
 Adobe Dynamic Media Classic跟踪“作业”页面上的发布作业。 您可以在该页中查看发布作业。
 
@@ -92,9 +92,9 @@ Adobe Dynamic Media Classic跟踪“作业”页面上的发布作业。 您可�
 
 您可以在“发布”页面上显示“高级”选项，并选择这些选项来处理发布作业：
 
-* **[!UICONTROL Publish目标]**：若要仅将资源发布到特定服务器，请选择服务器类型。
+* **[!UICONTROL 发布到]**：若要仅将资源发布到特定服务器，请选择服务器类型。
 
-* **[!UICONTROL Publish]**：默认情况下，Adobe Dynamic Media Classic仅发布新资产且以前未发布过的资产(上次Publish后新增选项)。 但是，您可以选择&#x200B;**[!UICONTROL 完整Publish]**，这样您也可以发布自上次发布以来已更新或更改的资源。 如果要发布eCatalog并希望读者能够按关键字搜索它，请选择&#x200B;**[!UICONTROL 包含搜索数据的完整]**。
+* **[!UICONTROL 发布]**：默认情况下，Adobe Dynamic Media Classic仅发布新资产且之前未发布的资产（上次发布后的新资产选项）。 但是，您可以选择&#x200B;**[!UICONTROL 完全发布]**，这样您也可以发布自上次发布以来已更新或更改的资源。 如果要发布eCatalog并希望读者能够按关键字搜索它，请选择&#x200B;**[!UICONTROL 包含搜索数据的完整]**。
 
 * **[!UICONTROL 作业运行方式]**：从列表中选择用户名。 可以在“作业”页中按用户名对作业进行排序。通过选择名称，可以将发布作业与用户相关联。
 
@@ -112,7 +112,7 @@ Adobe Dynamic Media Classic跟踪“作业”页面上的发布作业。 您可�
 >
 >取消发布作业后，其状态将更改为“正在停止”，直到作业达到可以安全停止的时间点为止。 如果发布作业正在从数据库获取数据，则停止发布作业可能需要一些时间。
 
-## 手动Publish资源 {#manually-publishing-assets}
+## 手动发布资源 {#manually-publishing-assets}
 
 您可以手动发布各个资源，而不是创建发布作业。发布图像集或自适应视频集等集时，该集（或“父级”）以及该集中的所有成员（或“子级”）都会被发布。
 
@@ -124,7 +124,7 @@ Adobe Dynamic Media Classic跟踪“作业”页面上的发布作业。 您可�
 
    * 在网格视图、列表视图或详细信息视图中，使用标准文件选择方法选择一个或多个未发布的资源。
 
-     在全局导航栏上，转到&#x200B;**[!UICONTROL 文件]** > **[!UICONTROL Publish]**。
+     在全局导航栏上，转到&#x200B;**[!UICONTROL 文件]** > **[!UICONTROL 发布]**。
 
    * 在“网格视图”、“列表视图”或“详细信息视图”中，选择资产名称左侧的带斜杠的灰色圆形图标。
 

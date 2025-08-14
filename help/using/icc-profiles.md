@@ -23,7 +23,7 @@ ICC（国际颜色联盟）配置文件是一个文件，用于描述如何正�
 
 在Adobe Dynamic Media Classic中，您可以选择在上传图像时将ICC配置文件转换为其他颜色空间。 默认情况下，所有标准Photoshop ICC配置文件在Adobe Dynamic Media Classic上均可用。 要在“上载”屏幕中查看颜色配置文件的名称，请选择“颜色配置文件”菜单。然后选择“自定义自”>“到”，并在“转换自”和“转换至”菜单中选择一个ICC配置文件名称。
 
-在上传[&#128279;](image-editing-options-upload.md#image-editing-options-at-upload)中查看图像编辑选项。
+在上传[中查看](image-editing-options-upload.md#image-editing-options-at-upload)图像编辑选项。
 
 除了使用默认的ICC配置文件外，您还可以将其他ICC配置文件上传到Adobe Dynamic Media Classic，以便用于色彩空间转换。 在“浏览”面板中切换到“详细信息视图”以调查ICC配置文件的配置文件类、色彩空间类型和PCS类型。
 

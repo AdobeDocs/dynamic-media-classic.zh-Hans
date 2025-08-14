@@ -29,7 +29,7 @@ ht-degree: 21%
 
 请参阅[登录Adobe Analytics](log-analytics.md#log_in_to_adobe_analytics)。
 
-请参阅[Publish配置信息](publishing-analytics-configuration-information.md#publishing_adobe_analytics_configuration_information)。
+请参阅[发布配置信息](publishing-analytics-configuration-information.md#publishing_adobe_analytics_configuration_information)。
 
 ## 将Adobe Analytics变量分配给Adobe Dynamic Media Classic查看器事件和变量 {#assigning-adobe-analytics-variables-to-scene-viewer-events-and-variables}
 
@@ -53,7 +53,7 @@ ht-degree: 21%
    选择&#x200B;**[!UICONTROL 保存]**&#x200B;后，查看器事件、其Adobe Analytics变量及其Adobe Dynamic Media Classic变量将列在Adobe Analytics配置屏幕中。
 
 1. 在右下角，选择&#x200B;**[!UICONTROL 关闭]**。
-1. 转到&#x200B;**[!UICONTROL Publish]** > **[!UICONTROL 提交Publish]**&#x200B;以运行图像服务发布。
+1. 转到&#x200B;**[!UICONTROL 发布]** > **[!UICONTROL 提交发布]**&#x200B;以运行图像服务发布。
 
    必须进行发布，以便查看器中包含的信息在Adobe Dynamic Media Classic服务器上可用。
 
@@ -72,10 +72,10 @@ ht-degree: 21%
 | HREF | **X** (eCatalog) | 在支持“图像映射”的查看器中，用户在“图像映射”中选择URL时。 |
 | TARGET | | 在目标缩放查看器中，用户选择要缩放到部分图像的缩放目标时。 |
 | SEARCH | | 在 eCatalog 中用户执行关键词搜索时。 |
-| PLAY | **X**（视频） | 在视频查看器中，当用户选择“播放”开始播放视频时。<br><br>**注意：**&#x200B;如果您使用的是基于Adobe Analytics心率的视频报告，则在Adobe Dynamic Media Classic中配置Adobe Analytics时，不需要将任何变量映射到此查看器事件。 视频心率适用于开箱即用的Adobe Dynamic Media Classic HTML5 Video和MixedMedia查看器。 视频播放器会生成跟踪数据以供在Adobe Analytics视频报表中查看。 请参阅[启用Adobe Analytics视频报表](enabling-analytics-video-reports.md)。 |
-| PAUSE | **X**（视频） | 在视频查看器中，当用户选择&#x200B;**[!UICONTROL 暂停]**&#x200B;以冻结视频时。<br><br>**注意：**&#x200B;如果您使用的是基于Adobe Analytics心率的视频报告，则在Adobe Dynamic Media Classic中配置Adobe Analytics时，不需要将任何变量映射到此查看器事件。 视频心率适用于开箱即用的Adobe Dynamic Media Classic HTML5 Video和MixedMedia查看器。 视频播放器会生成跟踪数据以供在Adobe Analytics视频报表中查看。 请参阅[启用Adobe Analytics视频报表](enabling-analytics-video-reports.md)。 |
-| STOP | **X**（视频） | 在视频查看器中，当用户选择&#x200B;**[!UICONTROL 停止]**&#x200B;以停止播放视频时。<br><br>**注意：**&#x200B;如果您使用的是基于Adobe Analytics心率的视频报告，则在Adobe Dynamic Media Classic中配置Adobe Analytics时，不需要将任何变量映射到此查看器事件。 视频心率适用于开箱即用的Adobe Dynamic Media Classic HTML5 Video和MixedMedia查看器。 视频播放器会生成跟踪数据以供在Adobe Analytics视频报表中查看。 请参阅[启用Adobe Analytics视频报表](enabling-analytics-video-reports.md)。 |
-| MILESTONE | **X**（视频） | 在视频查看器中，用户在观看到视频的 0%、25%、50%、75% 或 100% 时会生成里程碑事件。<br><br>**注意：**&#x200B;如果您使用的是基于Adobe Analytics心率的视频报告，则在Adobe Dynamic Media Classic中配置Adobe Analytics时，不需要将任何变量映射到此查看器事件。 视频心率适用于开箱即用的Adobe Dynamic Media Classic HTML5 Video和MixedMedia查看器。 视频播放器会生成跟踪数据以供在Adobe Analytics视频报表中查看。 请参阅[启用Adobe Analytics视频报表](enabling-analytics-video-reports.md)。 |
+| PLAY | **X**（视频） | 在视频查看器中，当用户选择“播放”开始播放视频时。<br><br>**注意：**&#x200B;如果您使用的是基于Adobe Analytics心率的视频报告，则在Adobe Dynamic Media Classic中配置Adobe Analytics时，不需要将任何变量映射到此查看器事件。 视频心率适用于开箱即用的Adobe Dynamic Media Classic HTML5视频和MixedMedia查看器。 视频播放器会生成跟踪数据以供在Adobe Analytics视频报表中查看。 请参阅[启用Adobe Analytics视频报表](enabling-analytics-video-reports.md)。 |
+| PAUSE | **X**（视频） | 在视频查看器中，当用户选择&#x200B;**[!UICONTROL 暂停]**&#x200B;以冻结视频时。<br><br>**注意：**&#x200B;如果您使用的是基于Adobe Analytics心率的视频报告，则在Adobe Dynamic Media Classic中配置Adobe Analytics时，不需要将任何变量映射到此查看器事件。 视频心率适用于开箱即用的Adobe Dynamic Media Classic HTML5视频和MixedMedia查看器。 视频播放器会生成跟踪数据以供在Adobe Analytics视频报表中查看。 请参阅[启用Adobe Analytics视频报表](enabling-analytics-video-reports.md)。 |
+| STOP | **X**（视频） | 在视频查看器中，当用户选择&#x200B;**[!UICONTROL 停止]**&#x200B;以停止播放视频时。<br><br>**注意：**&#x200B;如果您使用的是基于Adobe Analytics心率的视频报告，则在Adobe Dynamic Media Classic中配置Adobe Analytics时，不需要将任何变量映射到此查看器事件。 视频心率适用于开箱即用的Adobe Dynamic Media Classic HTML5视频和MixedMedia查看器。 视频播放器会生成跟踪数据以供在Adobe Analytics视频报表中查看。 请参阅[启用Adobe Analytics视频报表](enabling-analytics-video-reports.md)。 |
+| MILESTONE | **X**（视频） | 在视频查看器中，用户在观看到视频的 0%、25%、50%、75% 或 100% 时会生成里程碑事件。<br><br>**注意：**&#x200B;如果您使用的是基于Adobe Analytics心率的视频报告，则在Adobe Dynamic Media Classic中配置Adobe Analytics时，不需要将任何变量映射到此查看器事件。 视频心率适用于开箱即用的Adobe Dynamic Media Classic HTML5视频和MixedMedia查看器。 视频播放器会生成跟踪数据以供在Adobe Analytics视频报表中查看。 请参阅[启用Adobe Analytics视频报表](enabling-analytics-video-reports.md)。 |
 | 样本 | **X** （弹出、缩放） | 此查看器事件映射到Adobe Dynamic Media Classic中的页面查看器事件。 |
 | 缩放 | **X**（eCatalog、旋转集、缩放） | Adobe Analytics 不进行跟踪。 |
 | 平移 | **X**（eCatalog、旋转集、缩放） | Adobe Analytics 不进行跟踪。 |

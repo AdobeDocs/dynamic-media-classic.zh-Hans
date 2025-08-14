@@ -37,7 +37,7 @@ ht-degree: 16%
 
 ## 将模板URL添加到网页 {#adding-template-urls-to-your-web-page}
 
-若要向网页添加模板，请咨询网页开发团队，以修改HTML网页代码中的`<IMG>`标记。 使用Adobe Dynamic Media Classic URL字符串向Dynamic Media图像服务器发出请求。 商业引擎或动态网页代码将按照您为模板选择的图像预设所定义的大小和格式规范插入模板图像。
+要向网页添加模板，请咨询网页开发团队，以修改HTML网页代码中的`<IMG>`标记。 使用Adobe Dynamic Media Classic URL字符串向Dynamic Media图像服务器发出请求。 商业引擎或动态网页代码将按照您为模板选择的图像预设所定义的大小和格式规范插入模板图像。
 
 >[!MORELIKETHIS]
 >

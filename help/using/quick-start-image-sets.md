@@ -23,7 +23,7 @@ Adobe Dynamic Media Classic图像集为用户提供了集成的查看体验。 �
 
 图像集查看器具有缩放工具，可用来仔细查看图像。如果需要，可以将引导式缩放目标和图像映射作为图像集的一部分。 图像集可为用户带来更协调、更详尽的观看体验。
 
-观看[图像和旋转集：Dynamic Imaging](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/556_Image%20&amp;%20Spin%20Sets_converted%20renamed_Dynamic%20Imaging-AVS)训练视频。
+观看[图像和旋转集： Dynamic Imaging](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/556_Image%20&%20Spin%20Sets_converted%20renamed_Dynamic%20Imaging-AVS)培训视频。
 
 在创建图像集时，Adobe建议以下最佳实践并强制实施以下限制：
 
@@ -40,7 +40,7 @@ Adobe Dynamic Media Classic图像集为用户提供了集成的查看体验。 �
 
 ## 1.上传多个视图和样本的主图像
 
-首先要向图像集上载图像。由于用户可以在图像集查看器中放大图像，因此选择图像时，请确保考虑到了这一点。 确保图像的最大大小至少为2000像素。 Adobe Dynamic Media Classic支持多种图像文件格式，但建议使用无损TIFF、PNG和EPS图像。
+首先要向图像集上载图像。由于用户可以在图像集查看器中放大图像，因此选择图像时，请确保考虑到了这一点。 确保图像的最大大小至少为2000像素。 Adobe Dynamic Media Classic支持多种图像文件格式，但建议使用无损的TIFF、PNG和EPS图像。
 
 在全局导航栏上，选择&#x200B;**[!UICONTROL 上传]**&#x200B;以将文件从您的计算机上传到Adobe Dynamic Media Classic上的文件夹。
 
@@ -70,17 +70,17 @@ Adobe Dynamic Media Classic图像集为用户提供了集成的查看体验。 �
 
 请参阅[预览资源](previewing-asset.md#previewing-an-asset)。
 
-## 5. Publish和图像集
+## 5.发布图像集
 
 发布图像集会将其放置在Adobe Dynamic Media Classic服务器上并激活URL字符串。
 
 >[!NOTE]
 >
->如果您在创建和保存图像集时选择了&#x200B;**[!UICONTROL Publish进行保存]**（默认值），则无需执行此步骤。
+>如果您在创建和保存图像集时选择了&#x200B;**[!UICONTROL 保存后发布]**（默认值），则无需执行此步骤。
 
-在“浏览”面板中，选择名称左侧的&#x200B;**[!UICONTROL 标记为Publish]**&#x200B;图标。 然后选择&#x200B;**[!UICONTROL Publish]**。 在发布页面上，选择&#x200B;**[!UICONTROL 提交Publish]**。
+在“浏览”面板中选择其名称左侧的&#x200B;**[!UICONTROL 标记为发布]**&#x200B;图标。 然后选择&#x200B;**[!UICONTROL 发布]**。 在发布页面上，选择&#x200B;**[!UICONTROL 提交发布]**。
 
-查看[Publish文件](publishing-files.md#publishing-files)。
+查看[发布文件](publishing-files.md#publishing-files)。
 
 ## 6.将图像集链接到您的网站
 

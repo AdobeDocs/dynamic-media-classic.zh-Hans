@@ -21,7 +21,7 @@ ht-degree: 35%
 
 要创建模板，请转到&#x200B;**[!UICONTROL 生成]** > **[!UICONTROL 模板基础知识]**。 选择“设计器”或“开发者”。在此页面上，您可以添加图像图层和文本图层。还可以将图层重新排序、更改图层的大小和位置，并将阴影和发光效果应用于图像和文本。
 
-另请观看[模板基础知识](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/553_Template%20Basics_converted%20renamed_Dynamic%20Banners-AVS)培训视频。
+另请观看[模板基础知识](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/553_Template%20Basics_converted%20renamed_Dynamic%20Banners-AVS)培训视频。
 
 >[!NOTE]
 >
@@ -29,9 +29,9 @@ ht-degree: 35%
 
 ## 创建初始模板 {#creating-the-initial-template}
 
-创建模板集时，**[!UICONTROL 保存]**&#x200B;后的Publish选项会以下列方式影响该集和设置成员：
+创建模板集时，**[!UICONTROL 保存后发布]**&#x200B;选项会以下列方式影响该集和设置成员：
 
-| 保存前是否选择了保存后的&#x200B;**[!UICONTROL Publish]**&#x200B;选项？ | 保存后的集状态 | 保存后的集成员状态 |
+| 保存前是否选择了&#x200B;**[!UICONTROL 保存后发布]**&#x200B;选项？ | 保存后的集状态 | 保存后的集成员状态 |
 | --- | --- | --- |
 | 是 | 已发布 | 已发布 |
 | 否 | 未发布 | 集成员保持其已发布或未发布状态。 |
@@ -50,7 +50,7 @@ ht-degree: 35%
 
 1. 在“输入画布大小”对话框中，输入模板的宽度和高度测量值。
 1. 在“资源库”中选择一个文件夹，然后将模板所需的 PSD 文件或图像拖到“模板”屏幕上。
-1. 完成后，在页面的右下角附近，确保选中了&#x200B;**[!UICONTROL 保存Publish]**（默认）。
+1. 完成后，在页面的右下角附近，确保选中&#x200B;**[!UICONTROL 保存后发布]**（默认）。
 1. 选择&#x200B;**[!UICONTROL 保存]**。
 1. 选择用于存储模板的文件夹，输入模板的名称，然后选择&#x200B;**[!UICONTROL 提交]**。
 
@@ -58,9 +58,9 @@ ht-degree: 35%
 
 ## 编辑模板集 {#editing-a-template-set}
 
-无论您是编辑已发布的模板集还是未发布的模板集，**[!UICONTROL 保存]**&#x200B;后的Publish选项都将通过以下方式影响该集和集成员：
+无论您是编辑已发布的模板集还是未发布的模板集，**[!UICONTROL 在保存之后发布]**&#x200B;选项都将通过以下方式影响该集和设置成员：
 
-| 是否已发布集？ | 在保存编辑之前，是否选择了保存&#x200B;**[!UICONTROL Publish]**&#x200B;选项？ | 保存后的集状态 | 保存后的集成员状态 |
+| 是否已发布集？ | 在保存编辑之前，是否选择了&#x200B;**[!UICONTROL 保存后发布]**&#x200B;选项？ | 保存后的集状态 | 保存后的集成员状态 |
 | --- | --- | --- | --- |
 | 是 | 是 | 已发布 | 已发布 |
 | 是 | 否 | 已发布 | 现有集成员将保留其已发布状态。 在编辑期间添加的任何新的集成员保持其已发布或未发布状态。 |
@@ -73,7 +73,7 @@ ht-degree: 35%
 
 1. 在网格视图中，浏览到模板集，然后选择图像下方的&#x200B;**[!UICONTROL 编辑]**。
 1. 根据需要更改模板。
-1. 完成编辑后，在页面的右下角附近，请确保选中了&#x200B;**[!UICONTROL 保存]**&#x200B;后的Publish（默认）。
+1. 完成编辑后，在页面的右下角附近，请确保选中&#x200B;**[!UICONTROL 保存后发布]**（默认）。
 1. 选择&#x200B;**[!UICONTROL 保存]**，选择一个存储文件夹，输入该集的名称，然后选择&#x200B;**[!UICONTROL 保存]**。
 
 ## 删除模板
@@ -290,7 +290,7 @@ ht-degree: 35%
 
 ## 在图层上使用阴影和发光效果 {#using-shadow-and-glow-effects-on-layers}
 
-您可以将阴影或发光效果应用于图层。阴影或发光应用于图层的周边，并向内或向外延伸，具体取决于您选择的阴影或发光选项。 如果模板源自具有阴影和发光效果的PSD文件，则可以在Adobe Dynamic Media Classic中调整这些效果。
+您可以将阴影或发光效果应用于图层。阴影或发光应用于图层的周边，并向内或向外延伸，具体取决于您选择的阴影或发光选项。 如果您的模板源自具有阴影和发光效果的PSD文件，则可以在Adobe Dynamic Media Classic中调整这些效果。
 
 应用阴影或发光效果之后，您可以在“模板”屏幕的“图层属性”区域调整其大小、颜色、不透明度和位置。
 

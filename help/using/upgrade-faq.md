@@ -1,6 +1,6 @@
 ---
 title: 升级常见问题解答
-description: 从 [!DNL Adobe Dynamic Media Classic] 桌面应用程序升级到 [!DNL Adobe Experience Manager] Assets上的 [!DNL Dynamic Media] 时的常见问题解答(FAQ)。
+description: 从 [!DNL Adobe Dynamic Media Classic] 桌面应用程序升级到 [!DNL Dynamic Media] Assets上的 [!DNL Adobe Experience Manager] 时的常见问题解答(FAQ)。
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 5c2e2937-fe4f-4b64-bee8-9572ca84695b
@@ -17,8 +17,8 @@ ht-degree: 0%
 
 ## 一般信息
 
-+++**[!DNL Adobe Experience Manager]资源中的[!DNL Dynamic Media]是什么？**
-[!DNL Dynamic Media]是[!DNL Experience Manager] Assets中[!DNL Adobe Dynamic Media Classic]&#x200B;(以前为Scene7)功能的下一代演变。 该解决方案将资产管理与富媒体交付的强大功能结合在一起。 功能包括以下各项：
++++**什么是[!DNL Dynamic Media] Assets中的[!DNL Adobe Experience Manager]？**
+[!DNL Dynamic Media]是[!DNL Adobe Dynamic Media Classic] Assets中[!DNL Experience Manager]（以前为Scene7）功能的下一代演变。 该解决方案将资产管理的强大功能与富媒体交付结合在了一起。 这些功能包括：
 
 * 用于管理图像和视频的单一用户界面和平台。
 * 创新的推销功能。
@@ -76,7 +76,7 @@ Adobe已将Adobe Scene7的名称更改为[!DNL Dynamic Media Classic]。
 AGS(Adobe全球服务)处理升级并将其视为服务项目。 Adobe仅提供资源的迁移。 客户、AGS或合作伙伴负责所有其他升级方面和步骤。 在汇总层，升级计划包含以下内容：
 
 * 设置公司/用户帐户。
-* 将资源从[!DNL Dynamic Media Classic] (以前为Scene7)复制到[!DNL Experience Manager]资源的[!DNL Dynamic Media]组件(由Adobe通过自动升级工具提供)。
+* 将资源从[!DNL Dynamic Media Classic]（以前为Scene7）复制到[!DNL Dynamic Media] Assets的[!DNL Experience Manager]组件(由Adobe通过自动升级工具提供)。
 * 配置映像和视频设置。
 * 修改生产流程并培训用户。
 
@@ -87,7 +87,7 @@ AGS(Adobe全球服务)处理升级并将其视为服务项目。 Adobe仅提供�
 
 +++
 
-+++**如何检查我的升级状态？**
++++**如何检查升级状态？**
 升级过程时间因多种因素而异，其中包括但不限于：资产数量和资产大小。 AGS或合作伙伴管理项目时间表。
 
 +++
@@ -97,13 +97,13 @@ AGS(Adobe全球服务)处理升级并将其视为服务项目。 Adobe仅提供�
 
 +++
 
-+++**许可成本是否存在差异？**
++++**授权成本是否存在差异？**
 有关定价的详细信息，请与您的Adobe客户团队代表联系。
 
 +++
 
-+++**升级过程是否存在任何停机时间？**
-不适用。 在升级过程中，[!DNL Dynamic Media Classic]继续不间断地工作。 升级完成并验证内容后，所有用户在[!DNL Experience Manager] Assets的[!DNL Dynamic Media]组件中专门工作。
++++**是否有任何与升级过程相关的停机时间？**
+不适用。 在升级过程中，[!DNL Dynamic Media Classic]继续不间断地工作。 升级完成并验证内容后，所有用户在[!DNL Dynamic Media] Assets的[!DNL Experience Manager]组件中专门工作。
 
 +++
 
@@ -113,13 +113,13 @@ AGS(Adobe全球服务)处理升级并将其视为服务项目。 Adobe仅提供�
 +++
 
 +++**是否需要升级？**
-不适用。 Adobe现在和将来都完全支持和维护[!DNL Dynamic Media Classic]（客户请求的错误修复、安全修复、平台可扩展性和可靠性）。
+不适用。 Adobe现在和将来完全支持和维护[!DNL Dynamic Media Classic]（客户请求的错误修复、安全修复、平台可扩展性和可靠性）。
 
-当您准备好利用[!DNL Dynamic Media]提供的新功能时，您可以进行升级。
+当您准备好利用[!DNL Dynamic Media]提供的新功能时，可以升级。
 
 +++
 
-+++**升级到[!DNL Dynamic Media]后，我是否仍可以使用[!DNL Dynamic Media Classic]（以前为Adobe Scene7）？**
++++**升级到[!DNL Dynamic Media Classic]后，我是否仍可以使用[!DNL Dynamic Media]（以前为Adobe Scene7）？**
 升级到[!DNL Dynamic Media]后，您应该只使用Dynamic Media进行映像和视频。 您只能继续将[!DNL Dynamic Media Classic]用于[!DNL Dynamic Media]中尚未提供的功能，包括以下功能：
 
 * 可视化配置器（图像作者、图像渲染）。
@@ -129,31 +129,31 @@ AGS(Adobe全球服务)处理升级并将其视为服务项目。 Adobe仅提供�
 +++
 
 +++**Adobe提供了哪些工具来自动执行升级过程？**
-对于升级程序的初次启动，Adobe提供了可在[!DNL Experience Manager]个资源中自动将资源从[!DNL Dynamic Media Classic]移动到[!DNL Dynamic Media]的工具。
+对于升级程序的初始启动，Adobe提供了可在[!DNL Dynamic Media Classic] Assets中自动将资源从[!DNL Dynamic Media]移动到[!DNL Experience Manager]的工具。
 
 +++
 
-+++**在我升级期间和之后，现有[!DNL Dynamic Media Classic]个URL、API集成和查看者是否继续工作？**
-可以。 您可以继续在[!DNL Dynamic Media]解决方案中按原样使用[!DNL Dynamic Media Classic]&#x200B;(以前为Adobe Scene7)发布和传递基础结构。
++++**在我升级期间和之后，现有的[!DNL Dynamic Media Classic] URL、API集成和查看器是否继续工作？**
+是。您可以继续按[!DNL Dynamic Media Classic]解决方案中的原样使用[!DNL Dynamic Media]（以前为Adobe Scene7）发布和交付基础结构。
 
 +++
 
-+++**是否必须更新生产URL？**
-不适用。 Adobe继续按[!DNL Dynamic Media]解决方案中的原样使用[!DNL Dynamic Media Classic]发布和投放基础结构。 此方法的好处是，您不必更改网页上的任何生产URL，从而最大限度地降低了迁移到[!DNL Dynamic Media]的风险和工作量。
++++**我是否需要更新生产URL？**
+不适用。 Adobe继续按[!DNL Dynamic Media Classic]解决方案中的原样使用[!DNL Dynamic Media]发布和投放基础结构。 此方法的好处是，您不必更改网页上的任何生产URL，从而最大限度地降低了迁移到[!DNL Dynamic Media]的风险和工作量。
 
 +++
 
 +++**我是否需要重写API集成和其他自动化脚本？**
-不适用。 Adobe继续按[!DNL Dynamic Media]解决方案中的原样使用[!DNL Dynamic Media Classic]发布和投放基础结构。 此外，所有资产都将复制到[!DNL Dynamic Media Classic]。 此方法的优点是，您不必重写任何基于API的集成或自动化脚本，从而最大限度地降低了迁移到[!DNL Dynamic Media]的风险和工作量。
+不适用。 Adobe继续按[!DNL Dynamic Media Classic]解决方案中的原样使用[!DNL Dynamic Media]发布和投放基础结构。 此外，所有资产都将复制到[!DNL Dynamic Media Classic]。 此方法的优点是，您不必重写任何基于API的集成或自动化脚本，从而最大限度地降低了迁移到[!DNL Dynamic Media]的风险和工作量。
 
 +++
 
 +++**我是否需要做出更改或重新开发自定义查看器？**
-不适用。 Adobe继续按[!DNL Dynamic Media]解决方案中的原样使用[!DNL Dynamic Media Classic]发布和投放基础结构。 此方法的好处是，您可以继续使用自定义的查看器，从而最大限度地减少迁移到[!DNL Dynamic Media]的风险和工作量。
+不适用。 Adobe继续按[!DNL Dynamic Media Classic]解决方案中的原样使用[!DNL Dynamic Media]发布和投放基础结构。 此方法的好处是，您可以继续使用自定义的查看器，从而最大限度地减少迁移到[!DNL Dynamic Media]的风险和工作量。
 +++
 
 +++**如何将设置（如图像预设、视频编码）迁移到[!DNL Dynamic Media]？**
-必须在[!DNL Dynamic Media]中重新创建预设和其他设置。 作为服务项目的一部分，Adobe全球服务或合作伙伴可以提供帮助。
+必须在[!DNL Dynamic Media]内重新创建预设和其他设置。 作为服务项目的一部分，Adobe全球服务或合作伙伴可以提供帮助。
 
 +++
 
@@ -162,8 +162,8 @@ AGS(Adobe全球服务)处理升级并将其视为服务项目。 Adobe仅提供�
 
 +++
 
-+++**我仍可以使用FTP批处理/批量上传资产吗？**
-是的。 您无需修改现有的工作流即可进行摄取，并且可以继续计划基于FTP的上传。
++++**我仍然可以使用FTP批处理/批量上传资产吗？**
+是。您无需修改现有的工作流即可进行摄取，并且可以继续计划基于FTP的上传。
 
 +++
 
@@ -173,7 +173,7 @@ AGS(Adobe全球服务)处理升级并将其视为服务项目。 Adobe仅提供�
 +++
 
 +++**是否[!DNL Dynamic Media]适用于所有地理位置？**
-是的。 Adobe在北美、欧洲和亚太地区设有数据中心。
+是。Adobe在北美、欧洲和亚太地区设有数据中心。
 
 +++
 
@@ -187,7 +187,7 @@ Dynamic Media附带60 GB的存储空间。 您可以以250 GB的块购买额外�
 
 +++
 
-+++**使用哪个量度来衡量[!DNL Dynamic Media]使用情况？**
++++**哪个量度用于衡量[!DNL Dynamic Media]的使用情况？**
 每月页面查看次数(PVM)。 页面查看是指对电子邮件或Internet站点网页的单次查看。 其中还包括应用程序屏幕视图、应用程序屏幕状态、移动网页和社交网络页面。 页面查看次数：
 
 * 每次加载或刷新网页时
@@ -202,18 +202,18 @@ Adobe正在努力向[!DNL Dynamic Media]添加个性化媒体功能。 即将提
 
 +++
 
-+++**在升级过程中如何验证资源？ 是否需要手动验证？**
++++**在升级过程中如何验证资源？ 是否需要执行手动验证？**
 Adobe会对移至[!DNL Dynamic Media]的所有资源执行自动验证。 建议对由[!DNL Dynamic Media]提供支持的关键站点、页面和体验进行常规手动验证。
 
 +++
 
 +++**是否存在[!DNL Dynamic Media]的SLA？**
-是的。 有关详细信息，请联系您的Adobe客户团队代表。
+是。有关详细信息，请联系您的Adobe客户团队代表。
 
 +++
 
 +++**我可以对[!DNL Dynamic Media]使用我自己的CDN（内容分发网络）吗？**
-是的。 您可以将自己的CDN与[!DNL Dynamic Media]配合使用。
+是。您可以将自己的CDN与[!DNL Dynamic Media]配合使用。
 
 +++
 
@@ -240,13 +240,13 @@ Adobe会对移至[!DNL Dynamic Media]的所有资源执行自动验证。 建议
 
 ## 咨询服务
 
-+++**我可以自行完成升级过程吗？**
-不适用。 与您的Adobe代表和AGS合作确定升级范围。
++++**我可以自己完成升级过程吗？**
+不适用。 与您的Adobe代表和AGS合作，确定您的升级范围。
 
 +++
 
-+++**服务项目是怎样的？**
-Adobe与您合作规划项目。 Adobe负责配置和配置帐户、复制资产、测试和验证。
++++**服务项目是什么样的？**
+Adobe会与您合作来计划项目。 Adobe负责配置和配置帐户、复制资产、测试和验证。
 
 客户主要负责变更管理，包括培训用户、编辑生产流程和推出新功能。
 
@@ -255,16 +255,16 @@ Adobe与您合作规划项目。 Adobe负责配置和配置帐户、复制资产
 ## 支持和培训
 
 +++**如何获取支持？**
-24/7/365提供客户关怀支持。 [联系技术支持](https://experienceleague.adobe.com/zh-hans?support-solution=General#support)。
+24/7/365提供客户关怀支持。 [联系技术支持](https://experienceleague.adobe.com/?support-solution=General#support)。
 
-电话：1-800-898-9743（美国） | +44 (0)20 35641782 （英国） | +81-3-6743-9632 （日本）
+电话：1-800-898-9743 （美国） | +44 (0)20 35641782 （英国） | +81-3-6743-9632 （日本）
 
 +++
 
-+++**在哪里可以了解有关付费培训选项的更多信息？**
++++**我可以在何处了解有关付费培训选项的更多信息？**
 请参阅[Adobe数字学习服务](https://learning.adobe.com)。
 
-对于自定义培训或个人培训，请联系您的Adobe客户团队代表。
+有关自定义或个人培训，请联系您的Adobe客户团队代表。
 
 +++
 

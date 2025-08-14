@@ -24,7 +24,7 @@ ht-degree: 23%
 Adobe Dynamic Media Classic支持以下字体类型：
 
 * 所有 TrueType 字体
-* PostScript®字体
+* PostScript® fonts
 * OpenType/TrueType 字体
 * OpenType/PostScript 字体
 * PhotoFont
@@ -55,7 +55,7 @@ Adobe Dynamic Media Classic支持以下字体类型：
 
 * **[!UICONTROL 字体样式]**：选项为纯、粗体、斜体和粗斜体。
 
-* **[!UICONTROL Font Type]**：选项为TrueType和Adobe Type1。 如果使用其他名称调用这些字体，可以输入该名称。
+* **[!UICONTROL 字体类型]**：选项为TrueType和Adobe Type 1。 如果使用其他名称调用这些字体，可以输入该名称。
 
 * **[!UICONTROL 字体类型缩写]**：选项如下：
 
@@ -65,4 +65,4 @@ Adobe Dynamic Media Classic支持以下字体类型：
 
    * **[!UICONTROL PFM]**：包含二进制字体度量信息的Adobe PostScript字体文件。
 
-   * **[!UICONTROL PFB]**： Adobe PostScript字体文件，包含二进制字体轮廓信息，用于PDF/PostScript渲染和图像提供。
+   * **[!UICONTROL PFB]**： Adobe PostScript字体文件，包含二进制字体轮廓信息，用于PDF/PostScript渲染和图像服务。

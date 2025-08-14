@@ -12,8 +12,8 @@ topic: Content Management
 level: Intermediate
 source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
-source-wordcount: '1604'
-ht-degree: 40%
+source-wordcount: '1602'
+ht-degree: 39%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 40%
 
 Adobe Dynamic Media Classic包括100多个图像服务命令，用于调整和优化图像和渲染结果。 以下准则可以帮助您简化流程，并使用一些基本命令和最佳做法快速获得较好的效果。
 
-另请参阅[智能成像](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-65/content/assets/dynamic/imaging-faq)。
+另请参阅[智能成像](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/imaging-faq)。
 
 >[!TIP]
 >
@@ -35,14 +35,14 @@ Adobe Dynamic Media Classic包括100多个图像服务命令，用于调整和�
 >* 网络带宽
 >* DPR（设备像素比率）
 >
->要了解使用快照的容易程度，请播放[快照培训视频](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-learn/assets/dynamic-media/images/dynamic-media-snapshot)（3分17秒）。
+>要了解使用快照的容易程度，请播放[快照培训视频](https://experienceleague.adobe.com/en/docs/experience-manager-learn/assets/dynamic-media/images/dynamic-media-snapshot)（3分17秒）。
 
 
 ## 图像格式的最佳做法 (&amp;fmt=) {#best-practices-for-image-format-fmt}
 
 * 在提供具有较好质量和可控制大小和粗细的图像方面，JPG 或 PNG 是最佳选择。
 * 如果URL中未提供任何格式命令，则Dynamic Media图像服务将默认使用JPG进行交付。
-* JPG 压缩比率为 10:1，通常生成较小的图像文件。PNG压缩的比例约为2:1，除非图像包含空背景。 通常，PNG 文件比 JPG 文件大。
+* JPG压缩的比率为10:1，通常生成的图像文件较小。 PNG压缩的比例约为2:1，除非图像包含空背景。 通常，PNG 文件比 JPG 文件大。
 * JPG 使用有损压缩，这意味着在压缩过程中删除了一些图像元素（像素）；而 PNG 使用无损压缩。
 * 通常，JPG 压缩摄影图像的保真度比具有清晰边缘和对比度的合成图像好。
 * 如果图像包含透明度，请使用 PNG，因为 JPG 不支持透明度。
@@ -51,7 +51,7 @@ Adobe Dynamic Media Classic包括100多个图像服务命令，用于调整和�
 
 ## 图像大小的最佳做法 {#best-practices-for-image-size}
 
-动态减小图像大小是Dynamic Media Image Serving最常执行的任务之一。 这包括指定大小，以及指定用于减小图像的缩减像素采样模式（可选）。
+动态减小图像大小是Dynamic Media图像服务执行的最常见任务之一。 这包括指定大小，以及指定用于减小图像的缩减像素采样模式（可选）。
 
 * 对于图像大小调整，最佳且最直接的方法是使用`&wid=<value>`和`&hei=<value>`，或者只使用`&hei=<value>`。 这些参数自动根据高宽比设置图像宽度。
 * `&resMode=<value>`控制用于缩减像素采样的算法。 从`&resMode=sharp2`开始。 该值提供了最佳的图像质量。使用缩减像素取样值`=bilin`的速度较快，但通常会导致工件出现锯齿。
@@ -78,7 +78,7 @@ Adobe Dynamic Media Classic包括100多个图像服务命令，用于调整和�
       * `amount` （0-5，效果的强度。）
       * `radius` （0-250，围绕锐化对象绘制的“锐化线”的宽度，以像素为单位。）
 
-        请记住，参数`radius`和`amount`相互对应。 通过增加`amount`可以补偿减少`radius`。 `Radius`允许更细的控制，因为较低的值仅锐化边缘像素，而较高的值锐化较宽的像素范围。
+        请记住，参数`radius`和`amount`相互对应。 通过增加`radius`可以补偿减少`amount`。 `Radius`允许更细的控制，因为较低的值仅锐化边缘像素，而较高的值锐化较宽的像素范围。
 
       * `threshold` （0-255，效果敏感度。）
 
@@ -107,7 +107,7 @@ Adobe Dynamic Media Classic包括100多个图像服务命令，用于调整和�
 * 作为最佳实践，要停留在中间，请将`qlt=`值设置为85以停留在中间。
 * 在`qlt=`中使用色度标志
 
-   * `qlt=`参数具有第二个设置，允许您使用正常值`,0`打开RGB色度缩减像素采样（默认值），或使用值`,1`关闭它。
+   * `qlt=`参数具有第二个设置，通过该设置，您可以使用正常值`,0`打开RGB色度缩减像素采样（默认值），或使用值`,1`关闭它。
    * 要保持简单，请从关闭RGB色度缩减像素采样(`,1`)开始。 此设置通常会获得较好的图像质量，尤其是具有很多清晰边缘和对比度的合成图像。
 
 作为JPG压缩的最佳实践，请使用`&qlt=85,0`。
@@ -119,7 +119,7 @@ Adobe Dynamic Media Classic包括100多个图像服务命令，用于调整和�
 * 此参数设置为千字节(`jpegSize=<size_in_kilobytes>`)。 它定义了图像传送允许的最大大小。
 * `&jpegSize=`与JPG压缩参数`&qlt=`交互。 如果具有指定JPG压缩参数(`&qlt=`)的JPG响应未超过`jpegSize`值，则按定义返回带有`&qlt=`的图像。 否则，`&qlt=`将逐渐减小，直到图像符合允许的最大尺寸。 或者，直到系统确定它不合适并返回错误为止。
 
-如果要将JPG映像传送到内存有限的设备，最佳做法是设置`&jpegSize=`并添加参数`&qlt=`。
+如果您要将JPG图像传送到内存有限的设备，最佳做法是设置`&jpegSize=`并添加参数`&qlt=`。
 
 ## 最佳做法摘要 {#best-practices-summary}
 
@@ -137,4 +137,4 @@ Adobe Dynamic Media Classic包括100多个图像服务命令，用于调整和�
 
 * 尝试直接在URL上或使用Adobe Dynamic Media Classic的图像调整功能实时测试和测试各种参数。 后者为调整操作提供实时预览。
 * 作为最佳实践，请记住，您可以将Dynamic Media图像服务命令分组到图像预设中。 图像预设基本上是带有自定义预设名称（如`$thumb_low$`和`&product_high$`）的URL命令宏。 URL路径中的自定义预设名称将调用这些预设。 此功能帮助您针对网站上的图像的不同使用方式管理命令和质量设置，并缩短 URL 的总体长度。
-* Adobe Dynamic Media Classic还提供了更高级的方法来调整图像质量，例如在摄取时应用图像锐化。 对于可以选择进一步调整和优化渲染结果的高级用例，Adobe Professional Services可以帮助您提供自定义的洞察信息和最佳实践。
+* Adobe Dynamic Media Classic还提供了更高级的方法来调整图像质量，例如在摄取时应用图像锐化。 对于可以选择进一步调整和优化渲染结果的高级用例，Adobe Professional Services可以帮助您使用自定义的insight和最佳实践。

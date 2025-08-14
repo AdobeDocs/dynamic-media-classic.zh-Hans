@@ -23,9 +23,9 @@ SEO 是改进从搜索引擎到网站流量的过程。尽管搜索引擎在收�
 
 使用Adobe Dynamic Media Classic视频SEO，您可以应用视频元数据以为搜索引擎提供视频描述。 Adobe Dynamic Media Classic使您能够创建视频站点地图和mRSS源。 这些标准XML文件用于将视频信息提交到搜索引擎：
 
-* **视频站点地图**：准确告知Google视频内容在网站上的位置和内容。 因此，可以在Google上完全搜索视频。 例如，视频站点地图可以指定视频的运行时间和类别。有关视频站点地图的信息，请参阅[视频站点地图和视频站点地图替代项](https://developers.google.com/search/docs/crawling-indexing/sitemaps/video-sitemaps?visit_id=637558394348624754-567115452&amp;rd=1)。
+* **视频站点地图**：准确告知Google视频内容在网站上的位置和内容。 因此，可以在Google上完全搜索视频。 例如，视频站点地图可以指定视频的运行时间和类别。有关视频站点地图的信息，请参阅[视频站点地图和视频站点地图替代项](https://developers.google.com/search/docs/crawling-indexing/sitemaps/video-sitemaps?visit_id=637558394348624754-567115452&rd=1)。
 
-* **mRSS (Media Really Simple Syndication)源**：内容发布者使用它将媒体文件馈送到Yahoo！ 视频搜索。有关mRSS源的信息，请参阅[视频站点地图和视频站点地图替代项](https://developers.google.com/search/docs/crawling-indexing/sitemaps/video-sitemaps?visit_id=637558394348624754-567115452&amp;rd=1)。
+* **mRSS (Media Really Simple Syndication)源**：内容发布者使用它将媒体文件馈送到Yahoo！ 视频搜索。有关mRSS源的信息，请参阅[视频站点地图和视频站点地图替代项](https://developers.google.com/search/docs/crawling-indexing/sitemaps/video-sitemaps?visit_id=637558394348624754-567115452&rd=1)。
 
 >[!NOTE]
 >
@@ -65,15 +65,15 @@ Adobe Dynamic Media Classic会在生成视频站点地图和mRSS源之后创建�
 
 在&#x200B;**[!UICONTROL 自动/手动模式]**&#x200B;下拉列表中，选择是自动生成还是手动生成：
 
-* **自动模式**： Adobe Dynamic Media Classic每天自动生成一个视频站点地图、媒体RSS (mRSS)源，或同时生成这两者。 选择&#x200B;**[!UICONTROL 标记为Publish]**&#x200B;选项，以便您可以自动标记为发布Adobe Dynamic Media Classic生成的XML文件。
+* **自动模式**： Adobe Dynamic Media Classic每天自动生成一个视频站点地图、媒体RSS (mRSS)源，或同时生成这两者。 选择&#x200B;**[!UICONTROL 标记为发布]**&#x200B;选项，以便您可以自动标记为发布Adobe Dynamic Media Classic生成的XML文件。
 
-   * **标记为Publish**&#x200B;标记为发布生成的XML文件。
+   * **标记为发布**&#x200B;标记为发布生成的XML文件。
 
 * **手动模式**：当您在“视频搜索优化设置”屏幕中选择&#x200B;**[!UICONTROL 生成]**&#x200B;或&#x200B;**[!UICONTROL 保存并生成]**&#x200B;时，Adobe Dynamic Media Classic会生成视频站点地图和/或Media RSS (mRSS)源。 还要选择以下选项：
 
    * **没有其他设置**：不标记为发布生成的XML文件。
 
-   * **标记为Publish**：标记为发布生成的XML文件。
+   * **标记为发布**：标记为发布生成的XML文件。
 
    * **允许部分生成**：如果XML文件不包含所有视频的完整元数据信息，则搜索引擎可以拒绝该文件。 即使某些视频没有元数据，此选项也会生成XML文件。 在“报告”屏幕上会注册一个警告。如果您打算导出 XML 文件并手动处理缺失信息，请选择该选项。
 
@@ -98,7 +98,7 @@ Adobe Dynamic Media Classic会在生成视频站点地图和mRSS源之后创建�
 
 >[!NOTE]
 >
->在将视频站点地图或mRSS源提交到搜索引擎之前，请先Publish该源。 视频站点地图和媒体 RSS (mRSS) 新闻频道文件存储在公司的根文件夹中。如有必要，将这些XML文件标记为发布，然后选择&#x200B;**[!UICONTROL Publish]**。
+>先发布视频站点地图或mRSS源，然后才能将其提交到搜索引擎。 视频站点地图和媒体 RSS (mRSS) 新闻频道文件存储在公司的根文件夹中。如有必要，将这些XML文件标记为发布，然后选择&#x200B;**[!UICONTROL 发布]**。
 
 ## 将视频站点地图和mRSS信息源文件提交到搜索引擎 {#submitting-video-sitemap-and-mrss-feed-files-to-search-engines}
 

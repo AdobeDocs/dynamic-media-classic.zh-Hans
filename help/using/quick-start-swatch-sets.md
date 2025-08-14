@@ -45,13 +45,13 @@ Adobe Dynamic Media Classic样本集为用户提供了集成的查看体验。 �
 
 请参阅[预览资源](previewing-asset.md#previewing-an-asset)。
 
-## 5. Publish a样本集
+## 5.发布样本集
 
 发布样本集会将其放置在Adobe Dynamic Media Classic服务器上并激活URL字符串。
 
-在“浏览”面板中选择其名称左侧的&#x200B;**[!UICONTROL 标记为Publish]**&#x200B;图标。 然后选择&#x200B;**[!UICONTROL Publish]**。 在发布页面上，选择&#x200B;**[!UICONTROL 提交Publish]**。
+在“浏览”面板中选择其名称左侧的&#x200B;**[!UICONTROL 标记为发布]**&#x200B;图标。 然后选择&#x200B;**[!UICONTROL 发布]**。 在发布页面上，选择&#x200B;**[!UICONTROL 提交发布]**。
 
-查看[Publish文件](publishing-files.md#publishing-files)。
+查看[发布文件](publishing-files.md#publishing-files)。
 
 ## 6.将样本集链接到网页
 

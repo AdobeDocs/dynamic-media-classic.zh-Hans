@@ -33,8 +33,8 @@ ht-degree: 19%
 
 ## 桌面
 
-* **清除图像缓存**：从您的计算机中删除所有Adobe的Dynamic Media缓存图像文件。
-* **清除资源缓存**：从您的计算机中删除所有Dynamic Media缓存资源文件的Adobe。
+* **清除图像缓存**：从您的计算机中删除所有Adobe Dynamic Media缓存的图像文件。
+* **清除资源缓存**：从您的计算机中删除所有Adobe Dynamic Media缓存资源文件。
 
 除了使用桌面应用程序清除图像和资产缓存之外，您还可以直接从文件系统手动清除缓存。 根据您的操作系统，导航至以下内容：
 
@@ -43,9 +43,9 @@ ht-degree: 19%
 
 ## Creative Suite Extension
 
-**安装AdobeDynamic MediaCreative Suite扩展：**
+**要安装Adobe Dynamic Media Creative Suite扩展，请执行以下操作：**
 
-1. 在Adobe Dynamic Media Classic的工具栏上，转到&#x200B;**[!UICONTROL 设置]** > **[!UICONTROL 个人设置]**，在Creative Suite扩展下，选择&#x200B;**[!UICONTROL 立即下载]**&#x200B;以下载`s7csxs.zxp`文件。
+1. 在Adobe Dynamic Media Classic的工具栏上，转到&#x200B;**[!UICONTROL 设置]** > **[!UICONTROL 个人设置]**，在Creative Suite Extension下，选择&#x200B;**[!UICONTROL 立即下载]**&#x200B;以下载`s7csxs.zxp`文件。
 1. 选择&#x200B;**[!UICONTROL 安装]**&#x200B;和&#x200B;**[!UICONTROL 系统要求]**&#x200B;链接以获取有关扩展的其他信息。
 
 <!--    A readme file is included at the root of the unzipped file to provide you with additional information about the extension.

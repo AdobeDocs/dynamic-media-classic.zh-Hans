@@ -54,7 +54,7 @@ https://s7ugc1.scene7.com/ugc/image?op=delete&shared_secret=fece4b21-87ee-47fc-9
 
 >[!IMPORTANT]
 >
->从2023年5月1日开始，Dynamic Media中的UGC资源最多可在上传日期起60天内使用。 60天后，将删除资源。
+>从2023年5月1日开始，Dynamic Media中的UGC资产最多可在上传日期起60天内使用。 60天后，将删除资源。
 
 >[!NOTE]
 >

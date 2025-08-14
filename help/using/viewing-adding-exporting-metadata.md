@@ -72,8 +72,8 @@ ht-degree: 34%
 
 >[!NOTE]
 >
->在将关键字上传到Adobe Dynamic Media Classic时，可以向文件添加关键字。 在“上载作业选项”对话框中，选择&#x200B;**[!UICONTROL 其他元数据]**&#x200B;并输入关键字。
->请参阅[上载选项](uploading-files.md#upload_options)。
+>在将关键字上传到Adobe Dynamic Media Classic时，可以向文件添加关键字。 在“上载作业选项”对话框中，选择&#x200B;**[!UICONTROL 其他元数据]**并输入关键字。
+>>请参阅[上载选项](uploading-files.md#upload_options)。
 
 ## 导入元数据 {#import-metadata}
 
@@ -82,9 +82,9 @@ ht-degree: 34%
 >[!NOTE]
 >
 >您可以创建一个用于输入元数据的模板，以便可以将它正确导入Adobe Dynamic Media Classic。 创建模板后，可以使用该模板输入元数据。
->请参阅[创建模板以输入要上载的元数据](viewing-adding-exporting-metadata.md#create_a_template_for_entering_metadata_to_upload)。
+>>请参阅[创建模板以输入要上载的元数据](viewing-adding-exporting-metadata.md#create_a_template_for_entering_metadata_to_upload)。
 
-您可以在[AdobeXMP开发人员中心](https://www.adobe.com/devnet/xmp.html)找到有关标准化属性的更多信息。
+您可以在[Adobe XMP开发人员中心](https://www.adobe.com/devnet/xmp.html)找到有关标准化资产的更多信息。
 
 1. 在“浏览”面板中，从制表符分隔或XML文件中选择要向其添加元数据的图像。
 1. 转到&#x200B;**[!UICONTROL 文件]** > **[!UICONTROL 导入元数据]**。
@@ -98,16 +98,16 @@ ht-degree: 34%
 在识别要导入的不同元数据类型时，请记住以下几点：
 
 * 用户定义的字段的名称被标识为在&#x200B;**[!UICONTROL 设置]** > **[!UICONTROL 应用程序设置]** > **[!UICONTROL 元数据]** > **[!UICONTROL 用户定义的字段]**&#x200B;中创建的。 使用`Generate file`功能以正确的导入格式获取所有已定义UDF的列表。
-* “XMP 元数据”属性在（属性-）名称之前必须具有相关 XMP- 前缀。前缀和名称之间用冒号分隔。可以在&#x200B;**[!UICONTROL 设置]** > **[!UICONTROL 应用程序设置]** > **[!UICONTROL 元数据]** > **[!UICONTROL 元数据架构]**&#x200B;编辑器中找到XMP前缀。 技术名称可在相关 XMP 架构文档中找到。XMP属性名称未出现在`Generate file`功能中。
+* “XMP 元数据”属性在（属性-）名称之前必须具有相关 XMP- 前缀。前缀和名称之间用冒号分隔。可在&#x200B;**[!UICONTROL 设置]** > **[!UICONTROL 应用程序设置]** > **[!UICONTROL 元数据]** > **[!UICONTROL 元数据架构]**&#x200B;编辑器中找到XMP前缀。 技术名称可在相关 XMP 架构文档中找到。XMP属性名称未出现在`Generate file`功能中。
 * “元数据架构”属性在（属性-）名称之前必须具有相关前缀。前缀和名称之间用冒号分隔。前缀和属性名称在元数据架构编辑器中定义。 元数据架构属性名称未出现在`Generate file`功能中。
 
-例如：关键字的XMP属性是前缀为`dc`的XMP架构“Dublin Core”，而技术XMP名称为`subject`。 前缀和技术XMP名称将合并到`dc:subject`完整属性名称中。 在XML元数据导入格式中，`dc.subject`必须是属性名称。 在制表符分隔的导入格式中，它必须是列标题。
+例如：关键字的XMP属性是XMP架构“Dublin Core”，前缀为`dc`，而`subject`是XMP技术名称。 前缀和技术XMP名称将合并到`dc:subject`完整属性名称中。 在XML元数据导入格式中，`dc.subject`必须是属性名称。 在制表符分隔的导入格式中，它必须是列标题。
 
 ### 导入关键字
 
 关键字可以导入为逗号分隔列表。 如果逗号出现在任何单个值中，请使用反斜杠(\)将其转义。 反斜杠字母为常见的双反斜杠 (\\)。
 
-例如，包含`dc:subject`的值`Hello\, World!,back\\slash,foo`的元数据导入文件在资源上设置了三个XMP关键字： `Hello, World!,` `back\slash,`和`foo`。
+例如，包含`Hello\, World!,back\\slash,foo`的值`dc:subject`的元数据导入文件在资源上设置三个XMP关键字： `Hello, World!,` `back\slash,`和`foo`。
 
 ### 导入 XMP 和元数据架构元数据 XMP 文件
 
@@ -121,7 +121,7 @@ XML 导入仅接受有效的 XML。导入XMP或元数据架构字段时，会添
 </ips>
 ```
 
-### 导入XMP和元数据架构元数据以制表符分隔的文件
+### 导入XMP和元数据架构元数据制表符分隔文件
 
 必须在导入字段的相关列标题中添加前缀。
 
@@ -201,7 +201,7 @@ Adobe Dynamic Media Classic提供了用于创建用于记录元数据的模板�
 
 | 属性 | 说明 |
 | --- | --- |
-| ID | 该属性的技术性标识符。该ID在Adobe Dynamic Media Classic UI中不可见，但在资源的元数据存储在XMP块和数据库中时使用。 ID用于在元数据服务器上创建搜索查询。 ID具有一些限制，例如： `<ul><li>No spaces</li><li>No ".", ":", "$"</li><li>No number as first character</li><li>Best practice is to use a-z or A-Z as first character</li></ul>` <br>创建后，无法更改ID。 |
+| ID | 该属性的技术性标识符。ID在Adobe Dynamic Media Classic UI中不可见，但当资源的元数据存储在XMP块和数据库中时，会使用该ID。 ID用于在元数据服务器上创建搜索查询。 ID具有一些限制，例如： `<ul><li>No spaces</li><li>No ".", ":", "$"</li><li>No number as first character</li><li>Best practice is to use a-z or A-Z as first character</li></ul>` <br>创建后，无法更改ID。 |
 | 标签 | 该属性的 UI 名称。 |
 | 结构 | 与数据类型一起确定属性的类型。结构可能为：<ul><li>简单类型：单个数据类型值</li><li>序列：相同数据类型的值的列表</li><li>打开选项：从预定义值列表中选择一项或输入文本。 它只能为String或Integer数据类型</li><li>限定式选项：从预定义的值列表（弹出窗口或组合框）中选择一项</li></ul> |
 | 数据类型 | 从以下可用的类型中选择： <ul><li>字符串型</li><li>整型</li><li>浮点型</li><li>是/否（布尔型）</li><li>日期</li></ul> |
@@ -210,7 +210,7 @@ Adobe Dynamic Media Classic提供了用于创建用于记录元数据的模板�
 
 | 属性 | 说明 |
 | --- | --- |
-| ID | 该值的技术性标识符。该ID在Adobe Dynamic Media Classic UI中不可见，但在资源的元数据存储在XMP块和数据库中时使用。 ID 用于元数据服务器上的搜索查询。ID 不可包含空格。创建后，ID 即无法更改。 |
+| ID | 该值的技术性标识符。ID在Adobe Dynamic Media Classic UI中不可见，但当资源的元数据存储在XMP块和数据库中时，会使用该ID。 ID 用于元数据服务器上的搜索查询。ID 不可包含空格。创建后，ID 即无法更改。 |
 | 标签 | 该值的 UI 名称。 |
 
 >[!MORELIKETHIS]

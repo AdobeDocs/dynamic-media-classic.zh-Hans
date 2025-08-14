@@ -21,7 +21,7 @@ ht-degree: 15%
 
 您可以使用Adobe Analytics Instrumentation Kit将HTML5查看器与Adobe Analytics集成。
 
-如果您使用任何预定义的Adobe Dynamic Media ClassicHTML5查看器预设，则这些预设已包含所有用于向Adobe Analytics发送数据的实施代码。 您无需添加任何进一步的检测。
+如果您使用任何预定义的Adobe Dynamic Media Classic HTML5查看器预设，则这些预设已包含所有用于向Adobe Analytics发送数据的实施代码。 您无需添加任何进一步的检测。
 
 ## 从Adobe Dynamic Media Classic设置Adobe Analytics跟踪 {#set-up-adobe-analytics-tracking-from-scene-publishing-system}
 

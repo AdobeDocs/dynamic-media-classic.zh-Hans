@@ -25,7 +25,7 @@ ht-degree: 24%
 >
 >使用的视频播放器必须支持使用章节标记。
 
-如果要为`Universal_HTML5_Video`查看器配置章节导航提示点和章节标题弹出文本(HTML5)，请参阅[添加或编辑视频查看器预设](previewing-videos-video-viewer.md#adding_or_editing_a_video_viewer_preset)。
+如果要为[查看器(HTML5)配置章节导航提示点和章节标题弹出文本，请参阅](previewing-videos-video-viewer.md#adding_or_editing_a_video_viewer_preset)添加或编辑视频查看器预设`Universal_HTML5_Video`。
 
 另请参阅[添加和编辑查看器预设](application-setup.md#adding_and_editing_viewer_presets)。
 
@@ -85,6 +85,6 @@ Cost-efficient access to rapidly evolving technology.
 
      在“嵌入代码”对话框中，选择&#x200B;**[!UICONTROL 复制到剪贴板]**。
 
-     对于HTML5 `Universal_HTML5_Video`查看器，将复制的嵌入代码附加到以下内容：
+     对于HTML5 `Universal_HTML5_Video`查看器，请将复制的嵌入代码附加到以下内容：
 
      `videoViewer.setParam("navigation","*<full Copy URL path to the chapter navigation file .vtt>*"`

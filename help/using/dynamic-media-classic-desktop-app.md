@@ -19,13 +19,13 @@ ht-degree: 0%
 
 # 现已推出：Adobe Dynamic Media Classic桌面应用程序 {#dynamic-media-classic-desktop-app}
 
-Adobe Dynamic Media Classic用户现在可以访问新的桌面应用程序体验，不再需要依赖浏览器中的AdobeFlash技术。
+Adobe Dynamic Media Classic用户现在可以访问新的桌面应用程序体验，不再需要依赖浏览器中的Adobe Flash技术。
 
 此新应用程序现在可用于Windows®和macOS。
 
 >[!IMPORTANT]
 >
->Adobe建议您在2020年10月1日之前安装新的Adobe Dynamic Media Classic桌面应用程序。 这样做将确保在2020年12月31日弃用AdobeFlash Player之前实现顺利过渡。 在该日期之后，您将无法登录到产品中标记为Adobe Dynamic Media Classic的Adobe Dynamic Media Classic用户界面的浏览器版本。
+>Adobe建议您在2020年10月1日之前安装新的Adobe Dynamic Media Classic桌面应用程序。 这样做可以确保在2020年12月31日弃用Adobe Flash Player之前实现顺利过渡。 在该日期之后，您将无法登录到产品中标记为Adobe Dynamic Media Classic的Adobe Dynamic Media Classic用户界面的浏览器版本。
 
 查看[新Adobe Dynamic Media Classic登录的常见问题解答。](/help/using/new-ui-2020.md)
 
@@ -49,7 +49,7 @@ Adobe Dynamic Media Classic桌面应用程序与以下操作系统兼容：
 * 编辑图像时，**[!UICONTROL 保存]**&#x200B;按钮不起作用。
 * 在“集”编辑器中，滚动&#x200B;**[!UICONTROL 添加Assets]**&#x200B;面板中的资源后，**[!UICONTROL 关闭]**、**[!UICONTROL 保存]**&#x200B;和&#x200B;**[!UICONTROL 另存为]**&#x200B;按钮将被禁用。
 * “视频详细信息”视图中的&#x200B;**[!UICONTROL 播放]**&#x200B;按钮不起作用。
-* 运行macOS Monterey时，无法在&#x200B;**[!UICONTROL 用户名]**&#x200B;和&#x200B;**[!UICONTROL 密码]**&#x200B;字段中输入`d`和`e`。
+* 运行macOS Monterey时，无法在`d`用户名`e`和&#x200B;**[!UICONTROL 密码]**&#x200B;字段中输入&#x200B;**[!UICONTROL 和]**。
 * 已将剩余的Analytics API移至版本2.0。
 
 ## 20.21.3版中的修复 {#release-sept2021}
@@ -70,7 +70,7 @@ Adobe Dynamic Media Classic桌面应用程序与以下操作系统兼容：
 * 在&#x200B;**[!UICONTROL 上载作业选项]**&#x200B;中，**[!UICONTROL Photoshop选项]**&#x200B;下的默认图层名称值现在是&#x200B;**[!UICONTROL Photoshop和图层名称]**。 PSD文件中的图层将作为单独的图像上传。
    * 较早的默认值&#x200B;**[!UICONTROL 图层名称]**&#x200B;在PSD文件中以图层的名称或图层编号命名图像。 如果PSD文件中的图层名称是默认的Photoshop图层名称，则使用图层编号。
    * 新的默认值&#x200B;**[!UICONTROL Photoshop和图层名称]**&#x200B;将图像命名为PSD文件后跟图层名称或图层编号。 如果PSD文件中的图层名称是默认的Photoshop图层名称，则使用图层编号。
-   * 考虑到Adobe Dynamic Media Classic中的图层图像现在具有唯一名称，因此不会对现有PSD或模板进行更新(哪些模板与原始PSD文件中的图层名称共享)。
+   * 考虑到Adobe Dynamic Media Classic中的图层图像现在具有唯一名称，因此不会对现有PSD或“模板”(在原始PSD文件中共享图层名称)进行更新。
 * 资产的缩略图损坏。
 
 ## 20.21.1版中的修复 {#latest-fixes-desktop-app}
@@ -233,14 +233,14 @@ Adobe Dynamic Media Classic桌面应用程序与以下操作系统兼容：
 
 ## 有关使用Adobe Dynamic Media Classic桌面应用程序的视频演练 {#dmc-app-video-walk-through}
 
-观看使用Adobe Dynamic Media Classic桌面应用程序[&#128279;](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-learn/assets/dynamic-media/dynamic-media-classic-desktop-application#dynamic-media)的视频演练（长度：2分36秒）。
+观看使用Adobe Dynamic Media Classic桌面应用程序[的](https://experienceleague.adobe.com/en/docs/experience-manager-learn/assets/dynamic-media/dynamic-media-classic-desktop-application#dynamic-media)视频演练（长度：2分36秒）。
 
 ## 使用桌面应用程序清除计算机上的图像缓存和资产缓存 {#clear-cache}
 
 1. 在Adobe Dynamic Media Classic桌面应用程序右上角附近，点按&#x200B;**[!UICONTROL 设置]** > **[!UICONTROL 个人设置]**。
 1. 在&#x200B;**[!UICONTROL 个人设置]**&#x200B;页面的&#x200B;**[!UICONTROL 桌面]**&#x200B;标题下，执行以下任一操作：
-   * 若要从计算机中删除所有AdobeDynamic Media缓存的图像文件，请点按&#x200B;**[!UICONTROL 清除图像缓存]**，然后点按&#x200B;**[!UICONTROL 确定]**。
-   * 若要从计算机中删除所有AdobeDynamic Media缓存的资源文件，请点按&#x200B;**[!UICONTROL 清除资源缓存]**，然后点按&#x200B;**[!UICONTROL 确定]**。
+   * 若要从计算机中删除所有Adobe Dynamic Media缓存的图像文件，请点按&#x200B;**[!UICONTROL 清除图像缓存]**，然后点按&#x200B;**[!UICONTROL 确定]**。
+   * 要从计算机中删除所有Adobe Dynamic Media缓存的资源文件，请点按&#x200B;**[!UICONTROL 清除资源缓存]**，然后点按&#x200B;**[!UICONTROL 确定]**。
 1. 在页面的右下角，点按&#x200B;**[!UICONTROL 关闭]**。
 
 ### 手动清除图像缓存和资产缓存
@@ -271,11 +271,11 @@ Adobe Dynamic Media Classic桌面应用程序与以下操作系统兼容：
 
 ## 提示和技巧
 
-**_我在Adobe Dynamic Media Classic的登录页面上无法看到“媒体购物车”面板。_**<br>在Adobe Dynamic Media Classic中，点按&#x200B;**[!UICONTROL 设置>个人设置&#x200B;]**。 在“浏览器”部分中，确保选中（选中）**[!UICONTROL 显示MediaPortal功能&#x200B;]**。 点按&#x200B;**[!UICONTROL 保存>关闭&#x200B;]**。
+**_我在Adobe Dynamic Media Classic的登录页面上无法看到“媒体购物车”面板。_**<br>在Adobe Dynamic Media Classic中，点按**[!UICONTROL 设置>个人设置&#x200B;]**。 在“浏览器”部分中，确保选中（选中）**[!UICONTROL 显示MediaPortal功能&#x200B;]**。 点按**[!UICONTROL 保存>关闭&#x200B;]**。
 
-资源的&#x200B;**_Publish状态（绿色指示器）未正确反映。_**<br>在浏览器用户界面中，需要重新登录UI才能查看资产的正确发布状态。 在桌面应用程序中，Adobe在&#x200B;**[!UICONTROL 无选择&#x200B;]**&#x200B;按钮右侧的工具栏中引入了&#x200B;**[!UICONTROL 刷新&#x200B;]**&#x200B;图标。 点按&#x200B;**[!UICONTROL 刷新&#x200B;]**&#x200B;图标可查看给定页面上所有资产的最新状态。 与浏览器UI一样，无需重新登录。
+资源的&#x200B;**_发布状态（绿色指示器）未正确反映。_**<br>在浏览器用户界面中，需要重新登录UI才能查看资产的正确发布状态。 在桌面应用程序中，Adobe在**[!UICONTROL 无选择&#x200B;]**按钮右侧的工具栏中引入了**[!UICONTROL 刷新&#x200B;]**图标。 点按**[!UICONTROL 刷新&#x200B;]**图标可查看给定页面上所有资产的最新状态。 与浏览器UI一样，无需重新登录。
 
 ![刷新图标](/help/using/assets/refresh-icon1.png)
 *刷新图标*
 
-**_我看不到批次集预设在桌面应用程序中工作。_**<br>点按&#x200B;**[!UICONTROL 上传>作业选项>批次集预设&#x200B;]**。 请确保相关&#x200B;**[!UICONTROL 批次集预设&#x200B;]**&#x200B;已启用。 单击&#x200B;**[!UICONTROL 保存并提交上载&#x200B;]**。
+**_我看不到批次集预设在桌面应用程序中工作。_**<br>点按**[!UICONTROL 上传>作业选项>批次集预设&#x200B;]**。 请确保相关**[!UICONTROL 批次集预设&#x200B;]**已启用。 单击**[!UICONTROL 保存并提交上载&#x200B;]**。

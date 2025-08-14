@@ -31,9 +31,9 @@ ht-degree: 23%
 
 可以使用两种不同的方法发布视频：
 
-* **Publish视频在上传时自动立即发布**：作为视频上传过程的一部分，Adobe Dynamic Media Classic可以在视频上传和编码时自动发布视频。 这种即时发布功能意味着在事后无需单独发布视频。
+* **在上传时自动并立即发布视频**：作为视频上传过程的一部分，Adobe Dynamic Media Classic可以在视频上传和编码时自动发布视频。 这种即时发布功能意味着在事后无需单独发布视频。
 
-* **上传后手动Publish视频**：如果不希望立即发布视频，可以随时手动发布视频。
+* **上载后手动发布视频**：如果不希望立即发布视频，可以随时手动发布视频。
 
 发布视频后，Adobe Dynamic Media Classic会激活HTML页面或应用程序代码的URL字符串。
 
@@ -41,8 +41,8 @@ ht-degree: 23%
 
 1. 执行以下任一操作：
 
-   * 若要在上传时自动立即发布视频，请在“上传”页面中，选择“上传后&#x200B;**[!UICONTROL Publish”]**。 您已完成相应的操作，不需要执行其他步骤。
-   * 要在上传后手动发布视频，请在“浏览”面板中选择视频，然后在“全局导航”栏上选择&#x200B;**Publish**。
+   * 若要在上传时自动立即发布视频，请在“上传”页面中，选择“上传后发布”**[!UICONTROL 。]**&#x200B;您已完成相应的操作，不需要执行其他步骤。
+   * 要在上传后手动发布视频，请在“浏览”面板中选择视频，然后在“全局导航”栏上选择&#x200B;**发布**。
 
 ## 将视频URL链接到移动网站或网站 {#linking-a-video-url-to-a-mobile-site-or-a-website}
 
@@ -85,18 +85,18 @@ ht-degree: 23%
 1. 在左侧的“资产库”面板中，导航到资产文件夹，该文件夹包含要复制其嵌入代码的视频或自适应视频集。
 1. 在“资源浏览”面板上方的工具栏右侧，执行以下任一操作：
 
-   * 选择&#x200B;**[!UICONTROL 网格视图]**&#x200B;或&#x200B;**[!UICONTROL 列表视图]**。 在“资源浏览”面板中，双击单个资源的视频缩略图，以便在详细信息视图中将其打开。在右侧的“URL和嵌入代码”面板的“HTTP流”下，选择所需查看器右侧的&#x200B;**[!UICONTROL 嵌入代码]**。 最佳做法是选择与`Universal_HTML5_Video`查看器关联的&#x200B;**[!UICONTROL 嵌入代码]**。
+   * 选择&#x200B;**[!UICONTROL 网格视图]**&#x200B;或&#x200B;**[!UICONTROL 列表视图]**。 在“资源浏览”面板中，双击单个资源的视频缩略图，以便在详细信息视图中将其打开。在右侧的“URL和嵌入代码”面板的“HTTP流”下，选择所需查看器右侧的&#x200B;**[!UICONTROL 嵌入代码]**。 最佳做法是选择与&#x200B;**[!UICONTROL 查看器关联的]**&#x200B;嵌入代码`Universal_HTML5_Video`。
    * 选择&#x200B;**[!UICONTROL 网格视图]**。 在“资源浏览”面板中，选择单个资源，然后在视频缩略图图像下面选择&#x200B;**[!UICONTROL 预览]** > **[!UICONTROL 查看器列表]**。
 
-     在“查看器列表”页表的“操作”列下，选择&#x200B;**[!UICONTROL 嵌入代码]**。 最佳做法是选择与`Universal_HTML5_Video`查看器关联的&#x200B;**[!UICONTROL 嵌入代码]**。
+     在“查看器列表”页表的“操作”列下，选择&#x200B;**[!UICONTROL 嵌入代码]**。 最佳做法是选择与&#x200B;**[!UICONTROL 查看器关联的]**&#x200B;嵌入代码`Universal_HTML5_Video`。
 
    * 选择&#x200B;**[!UICONTROL 列表视图]**。 在“资源浏览”面板中，选择单个资源，然后在缩略图图像的右侧，转到&#x200B;**[!UICONTROL 预览]** > **[!UICONTROL 查看器列表]**。
 
-     在“查看器列表”页表的“操作”列下，选择&#x200B;**[!UICONTROL 嵌入代码]**。 最佳做法是选择与`Universal_HTML5_Video`查看器关联的&#x200B;**[!UICONTROL 嵌入代码]**。
+     在“查看器列表”页表的“操作”列下，选择&#x200B;**[!UICONTROL 嵌入代码]**。 最佳做法是选择与&#x200B;**[!UICONTROL 查看器关联的]**&#x200B;嵌入代码`Universal_HTML5_Video`。
 
    * 选择&#x200B;**[!UICONTROL 网格视图]**、**[!UICONTROL 列表视图]**&#x200B;或&#x200B;**[!UICONTROL 详细信息视图]**。 在同一工具栏上，转到&#x200B;**[!UICONTROL 预览]** > **[!UICONTROL 查看器列表]**。
 
-     在“查看器列表”页表的“操作”列下，选择&#x200B;**[!UICONTROL 嵌入代码]**。 最佳做法是选择与`Universal_HTML5_Video`查看器关联的&#x200B;**[!UICONTROL 嵌入代码]**。
+     在“查看器列表”页表的“操作”列下，选择&#x200B;**[!UICONTROL 嵌入代码]**。 最佳做法是选择与&#x200B;**[!UICONTROL 查看器关联的]**&#x200B;嵌入代码`Universal_HTML5_Video`。
 
 1. 在“嵌入代码”对话框中，选择&#x200B;**[!UICONTROL 复制到剪贴板]**。
 
@@ -105,9 +105,9 @@ ht-degree: 23%
 1. 选择&#x200B;**[!UICONTROL 关闭]**。
 1. 将嵌入代码粘贴到网页中。
 
-### 实施嵌入代码以便在MP4视频资源中使用HTML5视频 {#implementing-embed-code-for-using-html-video-with-mp-video-assets}
+### 实施嵌入代码以便将HTML5视频与MP4视频资产结合使用 {#implementing-embed-code-for-using-html-video-with-mp-video-assets}
 
-您可能不希望使用Adobe Dynamic Media ClassicHTML5视频播放器。 相反，如果要将本机HTML5 `<video>`标记与MP4视频资源结合使用，您可以使用以下嵌入代码示例：
+您可能不希望使用Adobe Dynamic Media Classic HTML5视频播放器。 相反，如果要将本机HTML5 `<video>`标记与MP4视频资源结合使用，您可以使用以下嵌入代码示例：
 
 ```as3
 <video poster="S7 video thumbnail URL" controls> 
@@ -175,7 +175,7 @@ Adobe Dynamic Media Classic在上传过程中自动生成视频缩略图。 缩�
 
 要生成视频缩略图的 URL，请执行发布操作。
 
-观看[Publish视频](deploying-video-websites-mobile-sites.md#publishing_video)。
+查看[发布视频](deploying-video-websites-mobile-sites.md#publishing_video)。
 
 发布后，您可以在“URL 和嵌入代码”面板的“详细信息视图”中获取视频缩略图 URL。选择&#x200B;**[!UICONTROL 复制视频缩略图右侧的URL]**，以便复制其关联的URL。
 
@@ -187,10 +187,10 @@ Adobe Dynamic Media Classic在上传过程中自动生成视频缩略图。 缩�
 
 请参阅[添加或编辑视频查看器预设](previewing-videos-video-viewer.md#adding_or_editing_a_video_viewer_preset)。
 
-请参阅[图像服务指南](https://experienceleague.adobe.com/zh-hans/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/c-is-home#image-serving-api)。
+请参阅[图像服务指南](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/c-is-home#image-serving-api)。
 
 还可以通过将修饰符附加到视频缩略图 URL 的后面来修改视频缩略图。
 
 >[!MORELIKETHIS]
 >
->* [Publish文件](publishing-files.md#publishing_files)
+>* [发布文件](publishing-files.md#publishing_files)

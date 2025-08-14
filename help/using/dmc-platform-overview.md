@@ -21,7 +21,7 @@ ht-degree: 12%
 
 Adobe Dynamic Media Classic是一个集成的富媒体管理、发布和服务环境。 富媒体可以传送到所有营销和销售渠道。 这些渠道包括Web、打印材料、电子邮件营销活动、Web门户、桌面和设备。
 
-另请观看[平台概述](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/572_Platform%20Overview_converted%20renamed_Getting%20Started-AVS)培训视频。
+另请观看[平台概述](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/572_Platform%20Overview_converted%20renamed_Getting%20Started-AVS)培训视频。
 
 ## 工作流程 {#workflow-process}
 
@@ -31,7 +31,7 @@ Adobe Dynamic Media Classic工作流的关键步骤包括：
 
 * **创建富媒体**：创建资产的不同配置，如eCatalog、图像集、旋转集、样本集、混合媒体集、基本模板和FXG模板。
 
-* **Publish和管理**：将Publish资源部署到Adobe Dynamic Media Classic SaaS网络。 在发布资产时监控资产的状态。 管理用户权限并保持安全性。
+* **发布和管理**：将资源发布到Adobe Dynamic Media Classic SaaS网络。 在发布资产时监控资产的状态。 管理用户权限并保持安全性。
 
 * **服务**：将媒体从Adobe Dynamic Media Classic SaaS网络传送到网页、应用程序和移动设备；媒体已优化性能，并随CDN缓存一起传送。 Adobe Dynamic Media Classic会为您提供每个资源的URL。 在您发布资源之后，URL 即处于活动状态。
 
@@ -48,4 +48,4 @@ Adobe Dynamic Media Classic与其他系统有着根本性的不同，因为您�
 
 ## 内容缓存 {#content-caching}
 
-Adobe Dynamic Media Classic动态生成的图像有利于缓存；通常，它们是JPEG图像，具有标识它们的唯一URL调用。 图像会传送到内容传递网络 (CDN)，这是一个服务器系统，这些服务器在 Internet 上彼此互联以更快的速度传送内容。图像从位于全球的服务器发布到计算机。使用任何CDN供应商实施缓存机制时，您只需将服务器名称更改为指向启用了CDN的Dynamic Media Image Server即可。 所有Adobe Dynamic Media Classic版本都包含捆绑的CDN缓存。
+Adobe Dynamic Media Classic动态生成的图像有利于缓存；通常，它们是具有唯一URL调用以标识它们的JPEG图像。 图像会传送到内容传递网络 (CDN)，这是一个服务器系统，这些服务器在 Internet 上彼此互联以更快的速度传送内容。图像从位于全球的服务器发布到计算机。使用任何CDN供应商实施缓存机制时，您只需将服务器名称更改为指向启用了CDN的Dynamic Media图像服务器。 所有Adobe Dynamic Media Classic版本都包含捆绑的CDN缓存。

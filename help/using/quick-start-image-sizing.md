@@ -27,13 +27,13 @@ ht-degree: 7%
 
 ![您可以创建同一高分辨率主文件大小不同的多个派生图像。](/help/using/assets/is_derivative_sizes_popup.png)
 
-请参阅[图像大小：Dynamic Imaging](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/557_Image%20Sizing_converted%20renamed_Dynamic%20Imaging-AVS)训练视频。
+请参阅[图像大小： Dynamic Imaging](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/557_Image%20Sizing_converted%20renamed_Dynamic%20Imaging-AVS)培训视频。
 
 以下图像大小快速入门旨在帮助您快速启动并运行Adobe Dynamic Media Classic中的图像大小调整技术。 执行步骤1-5。 在每个步骤之后，都有一个交叉引用，您可以在其中查找所需的更多信息。
 
 ## 1.上传主图像
 
-首先，将您的主图像上传到Adobe Dynamic Media Classic。 关于大小，Adobe Dynamic Media Classic建议使用您希望在网站或应用程序上使用的最大大小的图像。 例如，如果您希望查看器缩放图像，请上传最大大小至少为2000像素的图像。 Adobe Dynamic Media Classic支持多种图像文件格式，但建议使用无损TIFF和PNG图像。
+首先，将您的主图像上传到Adobe Dynamic Media Classic。 关于大小，Adobe Dynamic Media Classic建议使用您希望在网站或应用程序上使用的最大大小的图像。 例如，如果您希望查看器缩放图像，请上传最大大小至少为2000像素的图像。 Adobe Dynamic Media Classic支持多种图像文件格式，但建议使用无损的TIFF和PNG图像。
 
 在全局导航栏上，选择&#x200B;**[!UICONTROL 上传]**&#x200B;以将文件从您的计算机上传到Adobe Dynamic Media Classic上的文件夹。 请参阅[上载主映像](uploading-master-images.md#uploading_master_images)。
 
@@ -55,14 +55,14 @@ ht-degree: 7%
 
 请参阅[预览基于其图像预设的图像资源](previewing-asset.md#previewing_an_image_asset_based_on_its_image_preset)。
 
-## 4.Publish您的主图像
+## 4.发布主图像
 
 发布主图像文件有两个基本目的：
 
 * 将您的主图像发布到Dynamic Media图像服务器，以便可以将图像动态传送到您的网站和应用程序。
-* 发布会激活URL字符串，以便将图像从Dynamic Media图像服务器调用到您的网站或应用程序。 发布后，您可以根据需要将Adobe Dynamic Media Classic生成的URL复制并放置在网站或应用程序中。
+* 发布会激活URL字符串，以将图像从Dynamic Media图像服务器调用到您的网站或应用程序。 发布后，您可以根据需要将Adobe Dynamic Media Classic生成的URL复制并放置在网站或应用程序中。
 
-在全局导航栏上，选择&#x200B;**[!UICONTROL Publish]**&#x200B;以启动发布作业。 在“发布”对话框中，选择&#x200B;**[!UICONTROL 提交Publish]**。 查看[Publish主图像](publishing-master-images.md#publishing_master_images)。
+在全局导航栏上，选择&#x200B;**[!UICONTROL 发布]**&#x200B;以启动发布作业。 在“发布”对话框中，选择&#x200B;**[!UICONTROL 提交发布]**。 请参阅[发布主图像](publishing-master-images.md#publishing_master_images)。
 
 ## 5.将URL链接到您的Web应用程序
 

@@ -51,7 +51,7 @@ ht-degree: 40%
    * 如果在一整天内需要频繁更新数据，则设置一个较小的值。
    * 如果数据相对稳定并且不需要在一天中频繁更新，则设置较高的数字。 默认为十小时。
 
-1. 选择&#x200B;**[!UICONTROL Publish]**。
+1. 选择&#x200B;**[!UICONTROL 发布]**。
 
 ## 导入eCatalogs中信息面板的源内容 {#import-source-content-for-the-info-panel-in-ecatalogs}
 

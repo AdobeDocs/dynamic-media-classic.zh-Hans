@@ -1,6 +1,6 @@
 ---
 title: 发布设置
-description: 通过Publish设置设置，可决定如何将资源默认从Adobe Dynamic Media Classic服务器传递到网站或应用程序。
+description: 通过“发布”设置设置，可决定默认情况下，如何将资源从Adobe Dynamic Media Classic服务器传递到网站或应用程序。
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -18,15 +18,15 @@ ht-degree: 30%
 
 # 发布设置 {#publish-setup}
 
-Publish设置页面设置可确定默认情况下，如何将资产从Adobe Dynamic Media Classic服务器传递到网站或应用程序。 如果未指定设置，则Adobe Dynamic Media Classic服务器将根据Publish设置页面上的默认设置交付资源。 例如，发送不包含分辨率属性的图像的请求会生成一个图像，该图像具有“图像服务器”页面上的“默认对象分辨率”设置。
+“发布设置”页面设置可确定默认情况下，如何将资源从Adobe Dynamic Media Classic服务器传递到网站或应用程序。 如果未指定设置，则Adobe Dynamic Media Classic服务器会根据发布设置页面上的默认设置交付资源。 例如，发送不包含分辨率属性的图像的请求会生成一个图像，该图像具有“图像服务器”页面上的“默认对象分辨率”设置。
 
 管理员可以更改图像服务器、图像渲染器和晕影页面上的默认设置，以便建立用于从服务器交付资产的默认设置。
 
-要打开Publish设置程序的页面，请转到&#x200B;**[!UICONTROL 设置]** > **[!UICONTROL 应用程序设置]** > **[!UICONTROL Publish设置]**。
+要打开“发布设置”页面，请转到&#x200B;**[!UICONTROL 设置]** > **[!UICONTROL 应用程序设置]** > **[!UICONTROL 发布设置]**。
 
 >[!NOTE]
 >
->Publish设置页面可供有经验的网站开发人员和程序员使用。 Adobe Dynamic Media Classic假定在这些页面上更改设置的用户熟悉Adobe Dynamic Media Classic、HTTP协议标准和惯例，以及基本成像技术。
+>发布设置页面可供经验丰富的网站开发人员和程序员使用。 Adobe Dynamic Media Classic假定在这些页面上更改设置的用户熟悉Adobe Dynamic Media Classic、HTTP协议标准和惯例，以及基本成像技术。
 
 ## 图像服务器 {#image-server}
 
@@ -53,7 +53,7 @@ Publish设置页面设置可确定默认情况下，如何将资产从Adobe Dyna
   例如，如果您的品牌在多个不同国家/地区销售，您可以确保每个国家/地区都有自己特定区域设置的查看器。要实现该功能，请指定区域设置映射字符串。然后，在查看器的预设中编辑工具提示文本。 只需添加所需语言的已翻译文本字符串。
 
   >[!NOTE]
-  > 若要设置本地化支持选项，[请使用Admin Console创建支持案例。](https://helpx.adobe.com/cn/enterprise/using/support-for-experience-cloud.html)在您的支持案例中，请求设置帮助。
+  > 要设置本地化支持选项，[请使用Admin Console创建支持案例。](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html)在您的支持案例中，请求设置帮助。
 
   有关设置“**[!UICONTROL 本地化支持]**”的更多信息，请参阅[设置资源本地化时的注意事项](publish-setup.md#considerations_when_setting_up_localization_of_assets)。
 
@@ -61,7 +61,7 @@ Publish设置页面设置可确定默认情况下，如何将资产从Adobe Dyna
 
 >[!NOTE]
 >
->如果要在Adobe Dynamic Media Classic中设置本地化支持选项（如“区域设置映射”字段），[请使用Admin Console创建支持案例。](https://helpx.adobe.com/cn/enterprise/using/support-for-experience-cloud.html)在您的支持案例中，请求设置帮助。
+>如果要在Adobe Dynamic Media Classic中设置本地化支持选项（如“区域设置映射”字段），[请使用Admin Console创建支持案例。](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html)在您的支持案例中，请求设置帮助。
 
 使用Adobe Dynamic Media Classic的常见方法是管理e-Commerce网站上的产品图像。 国际企业面临如下挑战：类似产品的资源在各个国家/地区之间存在一些差异。通常，差异在于整个媒体的几个部分。 通过复制每个国家的所有资产并仅覆盖这些差异来解决这些差异是一项巨大的努力，并且与单一的主要资产隐喻相矛盾。 从包含不同音轨的国家/地区特定视频，到产品所用电源线的细微但重要的差异，此类资源差异可能会持续存在。Adobe Dynamic Media Classic使用基本的查找机制。 您可以从所需的区域设置开始，定义图像服务器查找资源后缀的顺序。
 
@@ -109,7 +109,7 @@ Adobe Dynamic Media Classic和图像服务具有允许本地化的图像和静�
 
 `https://server/is/image/company/image?locale=de_DE`
 
-收到图像服务器的http调用时，将通过&#x200B;**[!UICONTROL 设置]** > **[!UICONTROL 应用程序设置]** > **[!UICONTROL Publish设置]** > **[!UICONTROL 图像服务器]** > **[!UICONTROL 本地化支持]**&#x200B;组中的`localeMap`字段来解析`locale=`参数。
+收到图像服务器的http调用时，将通过`locale=`设置`localeMap` > **[!UICONTROL 应用程序设置]** > **[!UICONTROL 发布设置]** > **[!UICONTROL 图像服务器]** > **[!UICONTROL 本地化支持]**&#x200B;组中的&#x200B;**[!UICONTROL 字段来解析]**&#x200B;参数。
 
 “区域设置映射”字段包含一个用管道符号 (|) 分隔的条目列表。
 
@@ -131,7 +131,7 @@ Adobe Dynamic Media Classic和图像服务具有允许本地化的图像和静�
 
 | URL | `GlobalLocale`和`localeMap` ID | 结果 | 说明 |
 | --- | --- | --- | --- |
-| `https://server/is/image/company/image-main-01?locale=de_DE` | `GlobalLocale=mainlocaleMap -` <br><br/> `de_DE,de,main` | `fr_FR,fr,main` | 在上述替换示例中，GlobalLocale设置为main。 区域设置参数de_DE与`localeMap`中的第一个条目匹配。 在`localeMap`中找到GlobalLocale子字符串并将其替换为第一个对应的值`de`： `image-de-01`。 如果在图像服务器上找到，则返回。 如果不存在，则第二个值将被替换，从而生成`image-main-01`。 |
+| `https://server/is/image/company/image-main-01?locale=de_DE` | `GlobalLocale=mainlocaleMap -` <br><br/> `de_DE,de,main` | `fr_FR,fr,main` | 在上述替换示例中，GlobalLocale设置为main。 区域设置参数de_DE与`localeMap`中的第一个条目匹配。 在`de`中找到GlobalLocale子字符串并将其替换为第一个对应的值`localeMap`： `image-de-01`。 如果在图像服务器上找到，则返回。 如果不存在，则第二个值将被替换，从而生成`image-main-01`。 |
 
 如果 URL 中没有定义区域设置，则图像服务器会采用 DefaultLocale（如果定义）并将其应用到 URL。
 

@@ -1,5 +1,5 @@
 ---
-title: Publish Adobe Analytics配置信息
+title: 发布Adobe Analytics配置信息
 description: 了解如何从Adobe Dynamic Media Classic发布Adobe Analytics配置信息。
 contentOwner: Rick Brough
 content-type: reference
@@ -17,9 +17,9 @@ ht-degree: 19%
 
 ---
 
-# Publish Adobe Analytics配置信息{#publishing-adobe-analytics-configuration-information}
+# 发布Adobe Analytics配置信息{#publishing-adobe-analytics-configuration-information}
 
-Publish您的Adobe Dynamic Media Classic查看器，以便将有关配置Adobe Analytics报表的信息发送到Adobe Dynamic Media Classic服务器。 该信息将嵌入查看器中。必须进行发布，以便查看器中包含的信息在Adobe Dynamic Media Classic服务器上可用。 用户在查看器上执行活动后，可以将信息从服务器传送到 Adobe Analytics。
+发布Adobe Dynamic Media Classic查看器，以便将有关配置Adobe Analytics报表的信息发送到Adobe Dynamic Media Classic服务器。 该信息将嵌入查看器中。必须进行发布，以便查看器中包含的信息在Adobe Dynamic Media Classic服务器上可用。 用户在查看器上执行活动后，可以将信息从服务器传送到 Adobe Analytics。
 
 >[!NOTE]
 >
@@ -31,5 +31,5 @@ Publish您的Adobe Dynamic Media Classic查看器，以便将有关配置Adobe A
 
 **要发布配置信息：**
 
-1. 在全局导航栏上，选择&#x200B;**[!UICONTROL Publish]**。
-1. 在&#x200B;**[!UICONTROL `Publish`]**&#x200B;对话框中，选择&#x200B;**[!UICONTROL 提交Publish]**。
+1. 在全局导航栏上，选择&#x200B;**[!UICONTROL 发布]**。
+1. 在&#x200B;**[!UICONTROL `Publish`]**&#x200B;对话框中，选择&#x200B;**[!UICONTROL 提交发布]**。

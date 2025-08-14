@@ -19,13 +19,13 @@ ht-degree: 25%
 
 # 使用PDF{#working-with-pdfs}
 
-PDF（可移植文档格式）文件在Adobe Dynamic Media Classic中用于创建eCatalog的频率最高。 默认情况下，上传PDF文件时，Adobe Dynamic Media Classic会栅格化或rip页面，以便使用这些页面构建富媒体。
+PDF（可移植文档格式）文件在Adobe Dynamic Media Classic中用于创建eCatalog的频率最高。 在上传PDF文件时，默认情况下，Adobe Dynamic Media Classic会栅格化或rip页面，以便使用这些页面构建富媒体。
 
 在上传用于页面提取的PDF时，Adobe会强制实施以下限制：
 
 | 限制类型 | 施加的限制 | 2022年12月31日更改为限制 |
 | --- | --- | --- |
-| 考虑进行提取的PDF的最大页数 | 5000（用于新上传） | 100(适用于所有PDF) |
+| 考虑进行提取的PDF的最大页数 | 5000（用于新上传） | 100（适用于所有PDF） |
 
 另请参阅[Dynamic Media限制](/help/using/limitations.md)。
 
@@ -33,17 +33,17 @@ PDF（可移植文档格式）文件在Adobe Dynamic Media Classic中用于创�
 
 当上载 PDF 文件时，您能够以多种方法设置其格式。可以裁切其页面、提取搜索词、输入像素/英寸分辨率以及选择颜色空间。PDF文件通常包含修剪边距、裁切标记、注册标记和其他打印机标记。 当上载 PDF 文件时，可以从页边裁切这些标记。
 
-上传PDF文件的选项位于“上传”页面的“PDF选项”下。
+上传PDF文件的选项位于“上传页面”的“PDF选项”下。
 
 ### 处理选项
 
-**[!UICONTROL 栅格化]**： （默认）断开PDF文件中的页面，并将矢量图形转换为位图图像。 要创建eCatalog，请选择此选项。
+**[!UICONTROL 栅格化]**： （默认）翻录PDF文件中的页面，并将矢量图形转换为位图图像。 要创建eCatalog，请选择此选项。
 
 **[!UICONTROL 提取搜索词]**：从PDF文件中提取搜索词，以便在eCatalog查看器中搜索文件中的关键字。
 
 **[!UICONTROL 提取链接]**：从PDF文件中提取链接，并将其转换为在eCatalog查看器中使用的图像映射。
 
-**[!UICONTROL 使用多页PDF自动生成eCatalog]**：自动从PDF文件创建eCatalog。 eCatalog 以您上载的 PDF 文件命名。（只有当上载 PDF 文件时栅格化该文件，才可以使用此选项。）
+**[!UICONTROL 使用多页PDF自动生成eCatalog]**：从PDF文件自动创建eCatalog。 eCatalog 以您上载的 PDF 文件命名。（只有当上载 PDF 文件时栅格化该文件，才可以使用此选项。）
 
 ### 分辨率
 
@@ -71,16 +71,16 @@ PDF（可移植文档格式）文件在Adobe Dynamic Media Classic中用于创�
 
 另请参阅[ ICC 配置文件](/help/using/icc-profiles.md#icc_profiles)。
 
-## 裁剪PDF文件中的空格 {#cropping-white-space-from-a-pdf-file}
+## 从PDF文件裁切空格 {#cropping-white-space-from-a-pdf-file}
 
-上传内容文件时，您可以自动裁剪PDF文件中的空白像素。
+在上传时，您可以自动裁剪PDF文件中的空白像素。
 
 1. 选择“裁切”菜单，然后选择“裁剪”。
 1. 指定以下选项：
 
    * **[!UICONTROL 裁切依据]**：选择根据颜色还是透明度裁切：
 
-      * **[!UICONTROL 颜色]**：选择“颜色”选项。 然后选择&#x200B;**[!UICONTROL 角]**&#x200B;菜单并选择该PDF的角，该角最能代表您要裁切的空白颜色。
+      * **[!UICONTROL 颜色]**：选择“颜色”选项。 然后选择&#x200B;**[!UICONTROL 角]**&#x200B;菜单并选择PDF的角落，该角落的颜色最能代表您要裁切的空白颜色。
 
       * **[!UICONTROL 透明度]**：选择透明度选项。
 
@@ -90,9 +90,9 @@ PDF（可移植文档格式）文件在Adobe Dynamic Media Classic中用于创�
 
    * **[!UICONTROL 基于透明度的修剪]**：指定0以仅裁切透明像素；数字越接近1则透明度越高。
 
-## 从PDF页侧面裁切 {#cropping-from-the-sides-of-pdf-pages}
+## 从PDF页面侧面裁切 {#cropping-from-the-sides-of-pdf-pages}
 
-上传打印文件时，可以手动从PDF文件的页面两侧删除打印机标记。
+在上传时，您可以手动删除PDF文件中页面两侧的打印机标记。
 
 1. 从“裁切”菜单中，选择&#x200B;**[!UICONTROL 手动]**。
 1. 在“上”、“下”、“左”、“右”文本框中输入像素设置，以便从页面的上、下及两边剪切。

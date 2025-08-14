@@ -19,7 +19,7 @@ ht-degree: 23%
 
 # 将旋转集链接到网页{#linking-a-spin-set-to-a-web-page}
 
-网站和应用程序通过URL字符串或嵌入代码访问Dynamic Media Image Server内容，包括旋转集。 这些 URL 字符串在发布过程中被激活。要将旋转集的URL字符串或嵌入代码放置到网页和应用程序中，请从Adobe Dynamic Media Classic复制该字符串或嵌入代码。
+网站和应用程序通过URL字符串或嵌入代码访问Dynamic Media图像服务器内容，包括旋转集。 这些 URL 字符串在发布过程中被激活。要将旋转集的URL字符串或嵌入代码放置到网页和应用程序中，请从Adobe Dynamic Media Classic复制该字符串或嵌入代码。
 
 >[!NOTE]
 >

@@ -31,9 +31,9 @@ ht-degree: 16%
 
 * **图像大小**： Adobe Dynamic Media Classic建议使用最大大小至少为2000像素的图像文件。 以便用户缩放时图像可以清楚地显示。
 
-* **文件格式**： Adobe Dynamic Media Classic支持所有标准图像文件格式。 格式包括TIFF、BMP、JPEG、PSD、GIF和EPS。 建议使用无损图像格式TIFF和PNG。 如果您使用的是JPEG图像，请使用最高质量的设置。
+* **文件格式**： Adobe Dynamic Media Classic支持所有标准图像文件格式。 格式包括TIFF、BMP、JPEG、PSD、GIF和EPS。 推荐无损图像格式 — TIFF和PNG。 如果您使用的是JPEG图像，请使用最高质量的设置。
 
-* **色彩空间**：RGB是Web图像演示文稿的色彩空间；CMYK图像在上传时自动转换为RGB。 建议上载嵌有用于转换为 RGB 的 ICC 颜色配置文件的 CMYK 图像。另请参阅ICC配置文件。
+* **色彩空间**： RGB是Web图像演示文稿的色彩空间；在上传时，CMYK图像会自动转换为RGB。 建议上载嵌有用于转换为 RGB 的 ICC 颜色配置文件的 CMYK 图像。另请参阅ICC配置文件。
 
 >[!MORELIKETHIS]
 >

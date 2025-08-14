@@ -22,7 +22,7 @@ ht-degree: 52%
 
 >[!IMPORTANT]
 >
->从2023年5月1日开始，Dynamic Media中的UGC资源最多可在上传日期起60天内使用。 60天后，将删除资源。
+>从2023年5月1日开始，Dynamic Media中的UGC资产最多可在上传日期起60天内使用。 60天后，将删除资源。
 
 >[!NOTE]
 >
@@ -30,7 +30,7 @@ ht-degree: 52%
 
 ## 请求共享密钥 {#requesting-a-shared-secret-key}
 
-使用Admin Console创建支持案例，由[请求&#x200B;*共享密钥*。](https://helpx.adobe.com/cn/enterprise/using/support-for-experience-cloud.html)在技术支持案例中，请求共享密钥。
+由&#x200B;*使用Admin Console请求*&#x200B;共享密钥[以创建支持案例。](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html)在技术支持案例中，请求共享密钥。
 
 在电子邮件中，请提供要用于上载图像资源的公司名称。从Adobe Dynamic Media Classic收到密钥后，请将其本地保存以供将来使用。
 
@@ -125,7 +125,7 @@ https://s7ugc1.scene7.com/ugc/image?op=upload&upload_token=aa2a378a-cd25-4c80-99
 | 全局限制 | 值 |
 | --- | --- |
 | 所有客户端的文件大小 | 20 MB |
-| 用于上载的支持的图像文件格式 | BMP，GIF，JPG， PNG，PSD，TIFF |
+| 用于上载的支持的图像文件格式 | BMP、GIF、JPG、PNG、PSD、TIFF |
 
 用户可通过下面的 HTML 表单上载资源。表单要求用户输入以下信息：
 
@@ -135,12 +135,12 @@ https://s7ugc1.scene7.com/ugc/image?op=upload&upload_token=aa2a378a-cd25-4c80-99
 * 文件扩展名的列表。
 * 是否保留与资源关联的颜色配置文件和文件名。
 * 是否使用挖空背景。 如果启用“挖空背景”，请设置“拐角”、“公差”和“填充方法”。
-在上传[&#128279;](image-editing-options-upload.md#image-editing-options-at-upload)处查看图像微调选项中的“挖空背景”。
+在上传[处查看](image-editing-options-upload.md#image-editing-options-at-upload)图像微调选项中的“挖空背景”。
 * 要上传的文件的名称。
 
-您可以通过选择[https://s7ugc1.scene7.com/ugc/upload.html](https://s7ugc1.scene7.com/ugc/upload.html)来查看与上述表单相关联的HTML源代码
+您可以通过选择[https://s7ugc1.scene7.com/ugc/upload.html](https://s7ugc1.scene7.com/ugc/upload.html)来查看与上述表单关联的HTML源代码
 
-在Firefox中，右键单击浏览器窗口，然后选择&#x200B;**[!UICONTROL 查看页面Source]**。 代码显示相应的URL查询字符串以及用户选择&#x200B;**[!UICONTROL 提交]**&#x200B;时运行的POST方法。
+在Firefox中，右键单击浏览器窗口，然后选择&#x200B;**[!UICONTROL 查看页面Source]**。 代码显示相应的URL查询字符串以及在用户选择&#x200B;**[!UICONTROL Submit]**&#x200B;时运行的POST方法。
 
 若要在Internet Explorer中查看XML响应，请转到&#x200B;**[!UICONTROL 查看]** > **[!UICONTROL Source]**。 若要在Firefox中查看XML响应，请转到&#x200B;**[!UICONTROL 工具]** > **[!UICONTROL 浏览器工具]** > **[!UICONTROL Web开发人员工具]**。 建议使用 Firefox 查看 XML 响应。
 

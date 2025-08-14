@@ -53,7 +53,7 @@ Adobe Dynamic Media Classic为混合媒体集提供了默认查看器预设。 �
 
 请参阅[设置混合媒体集查看器预设](setting-mixed-media-set-viewer.md#setting-up-a-mixed-media-set-viewer-preset)和[创建和编辑查看器预设](application-setup.md#adding-and-editing-viewer-presets)。
 
-另请观看[查看器预设](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/550_viewer-presets_converted%20renamed_Done-AVS)培训视频。
+另请观看[查看器预设](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/550_viewer-presets_converted%20renamed_Done-AVS)培训视频。
 
 ## 5.预览混合媒体集
 
@@ -61,13 +61,13 @@ Adobe Dynamic Media Classic为混合媒体集提供了默认查看器预设。 �
 
 请参阅[预览资源](previewing-asset.md#previewing-an-asset)。
 
-## 6. Publish混合媒体集
+## 6.发布混合媒体集
 
 发布混合媒体集会将其放置在Adobe Dynamic Media Classic服务器上并激活URL字符串。
 
 混合媒体集要求同时发布到&#x200B;**视频服务器**&#x200B;和&#x200B;**图像服务器**。使用&#x200B;**视频服务器**&#x200B;发布您标记为发布的实际视频。 并且，您使用&#x200B;**图像服务器**&#x200B;发布相关资源（如视频缩略图），并为任何自适应视频集设置信息。
 
-请参阅[Publish混合媒体集](publishing-mixed-media-set.md#publishing-a-mixed-media-set)。
+请参阅[发布混合媒体集](publishing-mixed-media-set.md#publishing-a-mixed-media-set)。
 
 ## 7.将混合媒体集链接到网页
 

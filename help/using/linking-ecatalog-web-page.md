@@ -48,7 +48,7 @@ ht-degree: 23%
 
 部署eCatalog的最常见方法是在网页上以eCatalog缩略图封面页的形式放置链接。 与 IT 团队合作，以确保在一个居中弹出的空白窗口中启动 eCatalog。请您的 IT 团队协助在浏览器中不显示工具栏和地址栏。
 
-有关更多详细信息和代码示例，请参阅Adobe查看器参考指南[&#128279;](https://experienceleague.adobe.com/zh-hans/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/ecatalog/c-html5-20-ecatalog-viewer-about#section-e1c3106f5b3e445d9b95be337c2f94e2)中的嵌入HTML5 eCatalog查看器。
+有关更多详细信息和代码示例，请参阅《HTML查看器参考指南》中的[嵌入Adobe5 eCatalog查看器](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/ecatalog/c-html5-20-ecatalog-viewer-about#section-e1c3106f5b3e445d9b95be337c2f94e2)。
 
 ## 复制eCatalog查看器的嵌入代码 {#copying-the-embed-code-of-an-ecatalog-viewer}
 

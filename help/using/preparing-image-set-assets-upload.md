@@ -23,7 +23,7 @@ ht-degree: 44%
 
 要创建多视图图像集，您需要从不同视角显示物品或显示同一物品不同侧面的图像。这是为了突出某个物品的重要特征，以便观看者对物品的外观或功能有全面的了解。
 
-因为用户可以缩放图像集中的图像，所以请确保图像的长边至少为 2000 像素。Adobe Dynamic Media Classic支持多种图像文件格式，但建议使用无损TIFF、PNG和EPS图像。
+因为用户可以缩放图像集中的图像，所以请确保图像的长边至少为 2000 像素。Adobe Dynamic Media Classic支持多种图像文件格式，但建议使用无损的TIFF、PNG和EPS图像。
 
 有关上传资产的详细说明，请参阅[上传文件](uploading-files.md#uploading_files)。
 

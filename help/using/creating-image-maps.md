@@ -197,7 +197,7 @@ Javascript:loadProduct('$$');void(0);
 
 在 Adobe Acrobat 或 Adobe InDesign 中设计 eCatalog 时，您可以创建图像映射。
 
-在Adobe Acrobat或Adobe InDesign中，创建要在其中显示图像映射的超链接引用，并指定图像映射的URL位置。 在将PDF文件上传到Adobe Dynamic Media Classic时，选择提取链接选项会自动将链接转换为图像映射。
+在Adobe Acrobat或Adobe InDesign中，创建要在其中显示图像映射的超链接引用，并指定图像映射的URL位置。 在上传PDF文件到Adobe Dynamic Media Classic时，选择提取链接选项会自动将链接转换为图像映射。
 
 有关更多信息，请参阅Adobe InDesign帮助或Adobe Acrobat帮助。
 
@@ -234,4 +234,4 @@ Javascript:loadProduct('$$');void(0);
 1. 在“编辑URL”框中键入图像映射的产品ID，然后选择&#x200B;**[!UICONTROL 确定]**。 (Adobe Dynamic Media Classic使用图像映射URL模板来完成URL。)
 1. 对于您想要创建的所有图像映射，重复步骤 1 到 7。
 1. 保存文件。
-1. 将PDF上传到Adobe Dynamic Media Classic，然后从PDF选项中选择提取链接。
+1. 将PDF上传到Adobe Dynamic Media Classic并从PDF选项中选择提取链接。

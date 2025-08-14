@@ -24,7 +24,7 @@ UGC支持栅格图像文件格式BMP、GIF、JPG、PNG、PSD、TIFF。
 
 >[!IMPORTANT]
 >
->从2023年5月1日开始，Dynamic Media中的UGC资源最多可在上传日期起60天内使用。 60天后，将删除资源。
+>从2023年5月1日开始，Dynamic Media中的UGC资产最多可在上传日期起60天内使用。 60天后，将删除资源。
 
 <!-- * Vector: AI, EPS (EPS files from Adobe Illustrator 2018 are not supported), PDF (only when the PDF file is previously opened and saved in Adobe Illustrator CS6) -->
 

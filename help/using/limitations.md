@@ -1,6 +1,6 @@
 ---
 title: Dynamic Media限制
-description: 了解在创建图像集、旋转集或上传PDF时的最佳实践和强制的限制。 还了解不支持的适用于Dynamic Media的Web浏览器和操作系统组合。
+description: 了解创建图像集、旋转集或上传PDF时的最佳实践和强制的限制。 还了解不支持的适用于Dynamic Media的Web浏览器和操作系统组合。
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -23,12 +23,12 @@ ht-degree: 1%
 
 本主题包含以下部分：
 
-* [Dynamic Media对资源类型的最佳实践和强制限制](#best-practice-enforced-limits)
+* [Dynamic Media对资产类型的最佳实践和强制限制](#best-practice-enforced-limits)
 * [Dynamic Media不支持的Web浏览器和操作系统组合](#unsupported-browser-os)
 
-## Dynamic Media对资源类型的最佳实践和强制限制 {#best-practice-enforced-limits}
+## Dynamic Media对资产类型的最佳实践和强制限制 {#best-practice-enforced-limits}
 
-在创建旋转集或图像集，或者上传PDF以进行页面提取时，Adobe建议以下最佳实践。 Adobe还强制实施以下限制：
+在创建旋转集或图像集，或者上传PDF进行页面提取时，Adobe建议使用以下最佳实践。 Adobe还强制实施以下限制：
 
 | 资源：限制类型 | 最佳实践 | 施加的限制 |
 | --- | --- | --- |
@@ -36,7 +36,7 @@ ht-degree: 1%
 | **所有集**：每个集的重复资源数 | 无重复项 | 20‡ |
 | **所有集**：每个集的最大资源数 | 每组5至10个图像 | 1000 |
 | **旋转集**：每个2D集的最大行数/列数 | 每组12-18个图像 | 1000 |
-| **PDF**：要考虑进行提取的PDF的最大页数 |  | 100(适用于所有PDF) |
+| **PDF**：考虑提取的PDF的最大页数 |  | 100（适用于所有PDF） |
 
 ‡最佳做法是不要在一个集中拥有重复的资产。 单个资产的限制为20个重复项。 如果为该资产添加其他重复项（在该集中），请求将会产生错误或忽略重复项。
 
@@ -46,7 +46,7 @@ ht-degree: 1%
 
 <!-- CQDOC-19433 -->
 
-AdobeDynamic Media不支持以下Web浏览器和操作系统的组合。
+Adobe Dynamic Media不支持以下Web浏览器和操作系统组合。
 
 * Internet Explorer 11 + Windows 7
 * Internet Explorer 11 + Windows 8.1
@@ -63,7 +63,7 @@ AdobeDynamic Media不支持以下Web浏览器和操作系统的组合。
 <!-- CQDOC-19433 (original ticket)
 and CQDOC-19792 (removed as per this ticket December 5, 2022) -->
 
-自2024年4月30日起，Dynamic MediaAdobe将停止支持以下内容：
+自2024年4月30日起，Adobe Dynamic Media将停止支持以下内容：
 
 * SSL（安全套接字层）2.0
 * SSL 3.0

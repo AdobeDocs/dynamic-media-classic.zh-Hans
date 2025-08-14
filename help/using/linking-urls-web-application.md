@@ -54,7 +54,7 @@ ht-degree: 26%
 
 ## 关于图像预设 URL 字符串 {#about-image-preset-url-strings}
 
-Dynamic Media图像服务器图像大小调整的URL调用具有以下基本语法：
+用于调整Dynamic Media图像服务器图像大小的URL调用具有以下基本语法：
 
 *路径*/*图像服务器名称*/*帐户名称*/*图像名称*?*修饰符1*&amp;*修饰符2*&amp;...
 

@@ -41,7 +41,7 @@ ht-degree: 19%
 
 通过安全测试，Adobe Dynamic Media Classic为暂存环境或内部应用程序建立了专用的图像服务器。 对此服务器的所有请求都将检查原始 IP 地址。如果传入请求不在批准的IP地址列表中，则会返回失败响应。 Adobe Dynamic Media Classic公司管理员为公司的Secure Testing环境配置已批准的IP地址列表。
 
-由于必须确认原始请求的位置，因此Secure Testing服务的流量不会像公共Dynamic Media Image Server流量那样通过内容分发网络进行路由。 向Secure Testing服务发出的请求与向公共Dynamic Media图像服务器发出的请求相比，滞后时间稍长一些。
+由于必须确认原始请求的位置，因此Secure Testing服务的流量不会通过内容分发网络（如公共Dynamic Media图像服务器流量）进行路由。 与Dynamic Media公共图像服务器相比，请求Secure Testing Service的延迟稍高一些。
 
 通过安全测试服务，可以立即使用未发布的资源，无需发布。通过这种方式，您可以在将资产发布到面向公众的图像服务器之前运行预览。
 
@@ -103,8 +103,8 @@ Last Modified Date:
  -->
 
 1. 请联系Adobe客户关怀部门，要求他们在您的帐户上启用安全测试。
-1. 在Adobe Dynamic Media Classic的全局导航栏上，转到&#x200B;**[!UICONTROL 设置]** > **[!UICONTROL Publish设置]** > **[!UICONTROL 图像服务器]**。
-1. 在“图像服务器Publish”页面的&#x200B;**[!UICONTROL `Publish Context`]**&#x200B;下拉列表中选择&#x200B;**[!UICONTROL 测试图像服务]**。
+1. 在Adobe Dynamic Media Classic的全局导航栏上，转到&#x200B;**[!UICONTROL 设置]** > **[!UICONTROL 发布设置]** > **[!UICONTROL 图像服务器]**。
+1. 在图像服务器发布页面的&#x200B;**[!UICONTROL `Publish Context`]**&#x200B;下拉列表中，选择&#x200B;**[!UICONTROL 测试图像服务]**。
 1. 对于客户端地址筛选器，选择&#x200B;**[!UICONTROL 添加]**。
 1. 选中该复选框以启用（打开）地址，然后在相应的文本字段中键入IP地址和网络掩码。
 
@@ -115,19 +115,19 @@ Last Modified Date:
 1. 执行以下任一操作：
    * 如果必须添加更多IP地址，请重复前两步。
    * 继续下一步骤。
-1. 在“图像服务器Publish”页面的左下方，选择&#x200B;**[!UICONTROL 保存]**
+1. 在图像服务器发布页面的左下方，选择&#x200B;**[!UICONTROL 保存]**
 1. 将所需的图像上传到您的Adobe Dynamic Media Classic帐户。
 
    查看[上载文件](uploading-files.md#uploading_files)。
 
 1. 请确保某些图像已标记为发布，而其他图像已取消标记，然后提交发布作业。
 
-   查看[Publish文件](publishing-files.md#publishing_files)。
+   查看[发布文件](publishing-files.md#publishing_files)。
 
 1. 通过转到&#x200B;**[!UICONTROL 设置]** > **[!UICONTROL 应用程序设置]** > **[!UICONTROL 常规设置]**&#x200B;来确定您的Secure Testing服务的名称。
 1. 在“应用程序常规设置”页面上，在“服务器”组下，在“**[!UICONTROL 测试发布上下文服务器名称]**”右侧找到该名称。
 
-如果Adobe名称缺失或指向服务器的URL不起作用，请联系服务器关怀团队。
+如果服务器名称缺失或服务器的URL不起作用，请联系Adobe客户关怀团队。
 
 ### 准备网站变体
 

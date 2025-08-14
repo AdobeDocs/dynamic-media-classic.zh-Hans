@@ -46,14 +46,14 @@ Adobe Dynamic Media Classic提供了多种用于调整图像外观的命令。 �
    * 要将图像另存为新主图像，请选择&#x200B;**[!UICONTROL 另存为]**。
 
      在下拉列表中，选择&#x200B;**[!UICONTROL 另存为新主节点]**。
-在&#x200B;**[!UICONTROL 文件夹名称]**&#x200B;列表框中，选择要保存新主映像的文件夹。
-选择&#x200B;**[!UICONTROL 保存]**。
+在**[!UICONTROL 文件夹名称]**列表框中，选择要保存新主映像的文件夹。
+选择**[!UICONTROL 保存]**。
 
    * 将图像另存为主图像的另一个视图。 您可以为其创建别名。选择&#x200B;**[!UICONTROL 另存为]**。
 
      从&#x200B;**[!UICONTROL 另存为]**&#x200B;对话框的下拉列表中，选择&#x200B;**[!UICONTROL 另存为主视图]**。
-在&#x200B;**[!UICONTROL 文件夹名称]**&#x200B;列表框中，选择要保存新主映像的文件夹。
-选择&#x200B;**[!UICONTROL 保存]**。
+在**[!UICONTROL 文件夹名称]**列表框中，选择要保存新主映像的文件夹。
+选择**[!UICONTROL 保存]**。
 
 ## 创建图像的别名 {#creating-an-alias-for-an-image}
 

@@ -38,7 +38,7 @@ ht-degree: 17%
 
 Adobe Dynamic Media Classic可以将字幕文件转换为JSON(JavaScript对象表示法)格式。 这种转换意味着，您可以将JSON文本作为隐藏但完整的视频转录内容嵌入到网页中。 然后，搜索引擎可以对内容进行爬网和索引，使视频更容易被发现，并为客户提供有关视频内容的更多详细信息。
 
-有关在URL中使用JSON函数的更多信息，请参阅中的[提供静态（非图像）内容](https://experienceleague.adobe.com/zh-hans/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/c-serving-static-nonimage-contents#image-serving-api)。
+有关在URL中使用JSON函数的更多信息，请参阅中的[提供静态（非图像）内容](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/c-serving-static-nonimage-contents#image-serving-api)。
 
 **要向视频添加字幕：**
 
@@ -54,7 +54,7 @@ Adobe Dynamic Media Classic可以将字幕文件转换为JSON(JavaScript对象�
 
 1. 在左侧的“资产库”面板中，导航到包含视频文件的资产文件夹，以与您上传的字幕文件相关联。
 1. 在“资源浏览”面板中，选择单个视频资源，然后在资源的缩略图图像下方选择&#x200B;**[!UICONTROL 预览]** > **[!UICONTROL 查看器列表]**。
-1. 在“查看器列表”表中，找到名为&#x200B;**Univeral_Media5_Video**、**Universal_Media5_MixedMedia_dark**&#x200B;或&#x200B;**Universal_Media5_MixedMedia_light**&#x200B;的HTML5HTMLHTML，然后执行下列操作之一： HTML5&rbrace;
+1. 在“查看器列表”表中，找到名为&#x200B;**Univeral_HTML5_Video**、**Universal_HTML5_MixedMedia_dark**&#x200B;或&#x200B;**Universal_HTML5_MixedMedia_light**&#x200B;的HTML5查看器，然后执行以下操作之一：
 
    * 若要获得弹出式视频查看器体验，请选择名称最右边的&#x200B;**[!UICONTROL 复制URL]**。
 

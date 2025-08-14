@@ -19,7 +19,7 @@ ht-degree: 0%
 
 # 登录到Adobe Analytics{#log-in-to-adobe-analytics}
 
-验证您是否是Adobe Analytics中的Web服务访问组的成员。 请在登录以配置Adobe Analytics报表并将Adobe Analytics报表变量与Adobe Dynamic Media Classic事件匹配之前执行此操作。 此组中的成员可以访问指定报表包中的所有报表。 无论界面中设置的权限如何，都使用Experience Cloud的Web服务API来执行此操作。 若要向组添加成员，请在Adobe Analytics中转到&#x200B;**[!UICONTROL 管理工具]** > **[!UICONTROL 用户管理]** > **[!UICONTROL 编辑组]**。
+验证您是否是Adobe Analytics中的Web服务访问组的成员。 请在登录以配置Adobe Analytics报表并将Adobe Analytics报表变量与Adobe Dynamic Media Classic事件匹配之前执行此操作。 此组中的成员可以访问指定报表包中的所有报表。 无论界面中设置的权限如何，使用Experience Cloud的Web服务API来执行此操作。 若要向组添加成员，请在Adobe Analytics中转到&#x200B;**[!UICONTROL 管理工具]** > **[!UICONTROL 用户管理]** > **[!UICONTROL 编辑组]**。
 
 登录时，您可以选择输入Experience Cloud组织ID以使用最新的视频分析实施。 如果您选择不输入ID，则视频报表仍可正常工作。 但是，它可能会导致数据无法与Adobe Dynamic Media Classic外部适用于该客户端的其他数据正确集成。
 

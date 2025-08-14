@@ -12,8 +12,8 @@ topic: Content Management
 level: Beginner
 source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
 workflow-type: tm+mt
-source-wordcount: '1443'
-ht-degree: 23%
+source-wordcount: '1441'
+ht-degree: 24%
 
 ---
 
@@ -41,7 +41,7 @@ Adobe Dynamic Media Classic Video是一款端到端解决方案，可让您轻�
 
 请参阅[激活或停用自适应视频预设](/help/using/application-setup.md#activating-or-deactivating-adaptive-video-presets)
 
-另请参阅[视频预设](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/549_video-presets_converted%20renamed_Done-AVS)培训视频。
+另请参阅[视频预设](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/549_video-presets_converted%20renamed_Done-AVS)培训视频。
 
 生成自适应视频集时，该视频集包含MP4视频。
 
@@ -49,7 +49,7 @@ Adobe Dynamic Media Classic Video是一款端到端解决方案，可让您轻�
 >
 >主/源视频和任何其他源格式视频&#x200B;*不是*&#x200B;添加到自适应视频集。
 
-* Univeral_Media5_Video、Universal_Media5_MixedMedia_dark和Universal_Media5_Viewer中的视频字幕以及Universal_Media5_Viewer、Universal_Media5_MixedMedia_light和Universal_HTMLHTML 5_Viewer中的视频HTMLHTMLHTML和Universal_HTML5_MixedMedia_light查看器中的视频章节导航。
+* Univeral_HTML5_Video、Universal_HTML5_MixedMedia_dark和Universal_HTML5_MixedMedia_light查看器中的视频字幕以及Universal_HTML5_Video、Universal_HTML5_MixedMedia_dark和Universal_HTML5_MixedMedia_light查看器中的视频章节导航。
 
   请参阅[向视频添加字幕](adding-captions-video.md)。
 
@@ -60,7 +60,7 @@ Adobe Dynamic Media Classic Video是一款端到端解决方案，可让您轻�
 
   各种iOS平台支持自适应视频流。
 
-  请参阅[Adobe查看器参考指南](https://experienceleague.adobe.com/zh-hans/docs/dynamic-media-developer-resources)中的最新支持。
+  请参阅[Adobe查看器参考指南](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources)中的最新支持。
 
   Adobe Dynamic Media Classic支持MP4 H.264视频的移动视频播放。<!-- LINK IS 404; NO SUITABLE REPLACEMENT WAS FOUND You can find BlackBerry&reg; devices that support this video format at the following website: -->
 
@@ -79,13 +79,13 @@ Adobe Dynamic Media Classic Video是一款端到端解决方案，可让您轻�
 * 将视频与简单URL或嵌入代码集成到您的网站、移动网站或移动应用程序。
 
 请观看以下培训视频：
-* [MP4视频概述](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/563_MP4%20Video%20Overview_converted%20renamed_eVideos-AVS)
+* [MP4视频概述](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/563_MP4%20Video%20Overview_converted%20renamed_eVideos-AVS)
 
-* [MP4视频预览](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/564_MP4%20Video%20Preview_converted%20renamed_eVideos-AVS)
+* [MP4视频预览](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/564_MP4%20Video%20Preview_converted%20renamed_eVideos-AVS)
 
-* [MP4视频上传](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/565_MP4%20Video%20Upload_converted%20renamed_eVideos-AVS)
+* [MP4视频上传](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/565_MP4%20Video%20Upload_converted%20renamed_eVideos-AVS)
 
-* [流概述](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/567_Streaming%20Overview_master_eVideos_converted%20renamed_eVideos-AVS)
+* [流概述](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/567_Streaming%20Overview_master_eVideos_converted%20renamed_eVideos-AVS)
 
 **快速入门**
 
@@ -98,7 +98,7 @@ Adobe Dynamic Media Classic Video是一款端到端解决方案，可让您轻�
 * **上载预先编码的视频**：如果您的视频已在Adobe Dynamic Media Classic外部编码，请在全局导航栏上选择&#x200B;**[!UICONTROL 上载]**。 浏览MP4视频文件并将其直接上传到Adobe Dynamic Media Classic。 然后，转到&#x200B;**[!UICONTROL 生成]** > **[!UICONTROL 自适应视频集]**。 浏览至您的视频文件。将所需的视频文件拖放到“自适应视频集”表中，然后保存该集。
 * **上载主源视频**：如果视频未编码，请在全局导航栏上选择&#x200B;**[!UICONTROL 上载]**&#x200B;上载主视频源文件（非MP4）。 Adobe Dynamic Media Classic会为您将它们编码为MP4文件。 在&#x200B;**[!UICONTROL 上载作业选项]**&#x200B;对话框的&#x200B;**[!UICONTROL EVideo选项]**&#x200B;下，选择&#x200B;**[!UICONTROL 自适应视频]**。
 
-  通过此首选选项，您可以创建自适应视频集。 正确的编码预设将自动应用于视频，无论是16:9还是4:3，均可与您上传的视频尺寸相匹配。 在提交上载作业时，将自动为您创建自适应视频集，该视频集包含三个具有正确长宽比的编码视频设置。
+  通过此首选选项，您可以创建自适应视频集。 正确的编码预设将自动应用于视频，无论是16:9还是4:3，以匹配您上传的视频尺寸。 在提交上载作业时，将自动为您创建自适应视频集，该视频集包含三个具有正确长宽比的编码视频设置。
 
   或者，在同一&#x200B;**[!UICONTROL 作业选项]**&#x200B;对话框中，在&#x200B;**[!UICONTROL EVideo选项]**&#x200B;下，展开&#x200B;**[!UICONTROL 单个编码预设]**。 选择所需的各个视频编码预设。 您可以选择&#x200B;**桌面**、**移动设备(iPhone、iPad、Android™)**&#x200B;和&#x200B;**平板电脑(iPad、Android™)**&#x200B;来创建MP4文件。
 
@@ -128,7 +128,7 @@ Adobe Dynamic Media Classic提供了大量预定义的视频编码预设。 这�
 
 请参阅[使用视频查看器预设](previewing-videos-video-viewer.md#working_with_video_viewer_presets)。
 
-另请参阅[视频预设](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/549_video-presets_converted%20renamed_Done-AVS)培训视频。
+另请参阅[视频预设](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/549_video-presets_converted%20renamed_Done-AVS)培训视频。
 
 ## 3.将视频部署到您的网站和移动站点
 
@@ -136,7 +136,7 @@ Adobe Dynamic Media Classic提供了大量预定义的视频编码预设。 这�
 
 * 在其自己的弹出窗口或模式窗口中显示视频，在此情况下，请使用&#x200B;**[!UICONTROL 复制URL]**&#x200B;功能。
 
-  要获取视频的URL，请在网格视图或列表视图中，在浏览面板中选择它。 选择&#x200B;**[!UICONTROL 预览]**，然后选择`Universal_HTML5_Viewer`右侧的&#x200B;**[!UICONTROL 复制URL]**。
+  要获取视频的URL，请在网格视图或列表视图中，在浏览面板中选择它。 选择&#x200B;**[!UICONTROL 预览]**，然后选择&#x200B;**[!UICONTROL 右侧的]**&#x200B;复制URL`Universal_HTML5_Viewer`。
 
   当您选择&#x200B;**[!UICONTROL 复制URL]**&#x200B;时，该URL将被复制到剪贴板。 将此代码放置在网站、移动站点或应用程序的 HTML 中。
 
@@ -146,7 +146,7 @@ Adobe Dynamic Media Classic提供了大量预定义的视频编码预设。 这�
 
 * 显示嵌入到网页上的视频，在此情况下，使用&#x200B;**[!UICONTROL 嵌入代码]**&#x200B;功能。
 
-  要获取视频的嵌入代码，请在网格视图或列表视图中，在浏览面板中选择视频。 转到&#x200B;**[!UICONTROL 预览]** > **[!UICONTROL 查看器列表]**。 在表的“操作”列下，选择`Universal_HTML5_Video`右侧的&#x200B;**[!UICONTROL 嵌入代码]**。 不允许编辑代码。
+  要获取视频的嵌入代码，请在网格视图或列表视图中，在浏览面板中选择视频。 转到&#x200B;**[!UICONTROL 预览]** > **[!UICONTROL 查看器列表]**。 在表的“操作”列下，选择&#x200B;**[!UICONTROL 右侧的]**&#x200B;嵌入代码`Universal_HTML5_Video`。 不允许编辑代码。
 
   选择&#x200B;**[!UICONTROL 关闭]**&#x200B;并将嵌入代码粘贴到一个或多个网页中。
 
