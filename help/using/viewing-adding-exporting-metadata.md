@@ -72,8 +72,8 @@ ht-degree: 34%
 
 >[!NOTE]
 >
->在将关键字上传到Adobe Dynamic Media Classic时，可以向文件添加关键字。 在“上载作业选项”对话框中，选择&#x200B;**[!UICONTROL 其他元数据]**并输入关键字。
->>请参阅[上载选项](uploading-files.md#upload_options)。
+>在将关键字上传到Adobe Dynamic Media Classic时，可以向文件添加关键字。 在“上载作业选项”对话框中，选择&#x200B;**[!UICONTROL 其他元数据]**&#x200B;并输入关键字。
+>&#x200B;>请参阅[上载选项](uploading-files.md#upload_options)。
 
 ## 导入元数据 {#import-metadata}
 
@@ -82,7 +82,7 @@ ht-degree: 34%
 >[!NOTE]
 >
 >您可以创建一个用于输入元数据的模板，以便可以将它正确导入Adobe Dynamic Media Classic。 创建模板后，可以使用该模板输入元数据。
->>请参阅[创建模板以输入要上载的元数据](viewing-adding-exporting-metadata.md#create_a_template_for_entering_metadata_to_upload)。
+>&#x200B;>请参阅[创建模板以输入要上载的元数据](viewing-adding-exporting-metadata.md#create_a_template_for_entering_metadata_to_upload)。
 
 您可以在[Adobe XMP开发人员中心](https://www.adobe.com/devnet/xmp.html)找到有关标准化资产的更多信息。
 
