@@ -19,4 +19,4 @@ ht-degree: 0%
 
 # 新增功能 {#what-s-new}
 
-若要查看最新的Adobe Dynamic Media Classic发行信息，包括新增功能、增强功能和修复，请参阅[Adobe Dynamic Media Classic发行说明](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/release-notes/s7rn2017)。
+若要查看最新的Adobe Dynamic Media Classic发行信息，包括新增功能、增强功能和修复，请参阅[Adobe Dynamic Media Classic发行说明](https://experienceleague.adobe.com/zh-hans/docs/dynamic-media-developer-resources/release-notes/s7rn2017)。

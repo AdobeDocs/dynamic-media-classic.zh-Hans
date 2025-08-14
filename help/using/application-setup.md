@@ -161,7 +161,7 @@ Adobe Dynamic Media Classic不允许两个文件具有相同的名称。 每个�
 
 若要打开“图像预设”屏幕，请在全局导航栏上，转到&#x200B;**[!UICONTROL 设置]** > **[!UICONTROL 图像预设]**。
 
-请参阅[智能成像](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/imaging-faq)。
+请参阅[智能成像](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-65/content/assets/dynamic/imaging-faq)。
 
 ### 创建并编辑图像预设 {#creating-and-editing-image-presets}
 
@@ -436,7 +436,7 @@ Adobe Dynamic Media Classic提供了自适应视频编码预设。 它是将16:9
 
 您可以将富媒体内容扩展到台式机、平板电脑和移动设备用户，并确保提供简化的视频体验。
 
-请参阅《HTML查看器参考指南》中的[关于Adobe5查看器](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/library/viewers-for-aem-assets-only/c-html5-aem-asset-viewers#viewers-for-aem-assets-only)。
+请参阅《HTML查看器参考指南》中的[关于Adobe5查看器](https://experienceleague.adobe.com/zh-hans/docs/dynamic-media-developer-resources/library/viewers-for-aem-assets-only/c-html5-aem-asset-viewers#viewers-for-aem-assets-only)。
 
 请参阅[Adobe Dynamic Media Classic查看器预设兼容性矩阵](application-setup.md#scene7_viewer_preset_compatibility_matrix)。
 
@@ -450,7 +450,7 @@ Adobe Dynamic Media Classic提供了自适应视频编码预设。 它是将16:9
 
 不同的网页具有不同的需求。 有时，您需要一个网页，该网页会提供一个链接，以便在单独的浏览器窗口中打开HTML5查看器。 在其他情况下，需要直接在托管页面上嵌入HTML5查看器。 在后一种情况下，网页可能具有静态布局。 或者，它是“响应式”的，在不同的设备或不同的浏览器窗口大小中显示的方式有所不同。 为了满足这些需求，Adobe Dynamic Media Classic附带的HTML5查看器支持静态网页和响应式设计网页。
 
-有关如何将响应式查看器嵌入到网页的详细信息，请参阅[关于响应式图像库](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/c-about-responsive-static-image-library#image-serving-api)、[使用响应式图像库](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/t-using-responsive-static-image-library#image-serving-api)和[命令引用：命令属性](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/t-using-responsive-static-image-library#responsive-static-image-library)。
+有关如何将响应式查看器嵌入到网页的详细信息，请参阅[关于响应式图像库](https://experienceleague.adobe.com/zh-hans/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/c-about-responsive-static-image-library#image-serving-api)、[使用响应式图像库](https://experienceleague.adobe.com/zh-hans/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/t-using-responsive-static-image-library#image-serving-api)和[命令引用：命令属性](https://experienceleague.adobe.com/zh-hans/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/t-using-responsive-static-image-library#responsive-static-image-library)。
 
 ### 查看器预设类型 {#viewer-preset-types}
 
@@ -494,7 +494,7 @@ Adobe Dynamic Media Classic提供了自适应视频编码预设。 它是将16:9
 
 有关查看器支持的Web浏览器和操作系统版本的信息，您可以查看查看器发行说明。
 
-请参阅[Adobe查看器参考发行说明](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources)。
+请参阅[Adobe查看器参考发行说明](https://experienceleague.adobe.com/zh-hans/docs/dynamic-media-developer-resources)。
 
 |  | 查看器技术 | 桌面 | Apple iPhone | Apple iPad | Android™智能手机 | Android™平板电脑 |
 |--- |--- |--- |--- |--- |--- |--- |

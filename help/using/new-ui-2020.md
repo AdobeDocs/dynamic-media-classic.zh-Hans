@@ -94,12 +94,12 @@ Adobe致力于确保其产品满足客户的安全要求。 新的Adobe Dynamic 
 +++**_我想确保优化我的富媒体策略。 如何进一步了解Adobe Dynamic Media Classic？_** 
 Adobe Dynamic Media Classic是一种功能丰富的强大解决方案，旨在增强您的富媒体策略。 为确保您能够充分利用所有功能，请务必探索以下实用资源：
 
-* [Adobe Dynamic Media Classic最佳实践教程](https://experienceleague.adobe.com/en/docs/experience-manager-learn/dynamic-media-classic-tutorial/overview)
+* [Adobe Dynamic Media Classic最佳实践教程](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-learn/dynamic-media-classic-tutorial/overview)
 * [Adobe博客文章](https://blog.adobe.com/)<!-- (https://blog.adobe.com/tag/dynamic-media/) -->
-* [Adobe Dynamic Media新闻稿存档](https://experienceleague.adobe.com/en/docs/dynamic-media-classic/using/dynamic-media-newsletter)
+* [Adobe Dynamic Media新闻稿存档](https://experienceleague.adobe.com/zh-hans/docs/dynamic-media-classic/using/dynamic-media-newsletter)
 +++
 
-<!-- HIDDEN AUGUST 2, 2021 BECAUSE THE NEWSLETTER WAS DISCONTINUED Plus, [subscribe to the Dynamic Media newsletter](https://www.adobe.com/subscription/dynamic-media-newsletter.html) to stay current on the latest news, information, training opportunities, powerful features available to you such as [Smart Imaging](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/imaging-faq.html), and the complementary audit program. -->
+<!-- HIDDEN AUGUST 2, 2021 BECAUSE THE NEWSLETTER WAS DISCONTINUED Plus, [subscribe to the Dynamic Media newsletter](https://www.adobe.com/subscription/dynamic-media-newsletter.html) to stay current on the latest news, information, training opportunities, powerful features available to you such as [Smart Imaging](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/imaging-faq.html?lang=zh-Hans), and the complementary audit program. -->
 
 +++**_我有兴趣了解有关使用Adobe Experience Manager Assets升级到Adobe Dynamic Media的更多信息。 在哪里可以找到更多信息？_**
 要了解有关升级到新一代富媒体创作、发布和动态投放的好处，请访问[Adobe Dynamic Media门户进行升级](/help/using/upgrade.md)。
