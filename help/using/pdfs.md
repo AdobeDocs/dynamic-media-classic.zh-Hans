@@ -69,7 +69,7 @@ PDF（可移植文档格式）文件在Adobe Dynamic Media Classic中用于创�
 
 * **[!UICONTROL 自定义从]** > **[!UICONTROL 到]**：打开菜单，以便选择“转换自”和“转换为颜色空间”。 您可以选择标准的Photoshop色彩空间，也可以选择上传到Adobe Dynamic Media Classic的色彩空间。
 
-另请参阅[ ICC 配置文件](/help/using/icc-profiles.md#icc_profiles)。
+另请参阅[&#x200B; ICC 配置文件](/help/using/icc-profiles.md#icc_profiles)。
 
 ## 从PDF文件裁切空格 {#cropping-white-space-from-a-pdf-file}
 

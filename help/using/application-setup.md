@@ -241,7 +241,7 @@ Adobe Dynamic Media Classic不允许两个文件具有相同的名称。 每个�
 
 * **[!UICONTROL 输出颜色配置文件]**：选择&#x200B;**[!UICONTROL 使用默认值]**&#x200B;或Adobe Dynamic Media Classic上可用的ICC颜色配置文件之一。
 
-  另请参阅[ ICC 配置文件](icc-profiles.md#icc_profiles)。
+  另请参阅[&#x200B; ICC 配置文件](icc-profiles.md#icc_profiles)。
 
 * **[!UICONTROL 渲染方法]**：如果要覆盖颜色配置文件的默认渲染方法，请选择一个选项。 当其中一个默认ICC配置文件是颜色转换的目标颜色空间时，使用此选项。 或者，此配置文件用于描述输出设备（打印机或显示器），并且指定的渲染方法对此配置文件有效。
 
