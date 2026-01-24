@@ -10,10 +10,10 @@ role: User
 exl-id: aee72576-1e3e-401c-953d-cc2be27f7dfd
 topic: Integrations, Development
 level: Experienced
-source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
+source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
 workflow-type: tm+mt
-source-wordcount: '673'
-ht-degree: 23%
+source-wordcount: '672'
+ht-degree: 21%
 
 ---
 
@@ -48,11 +48,11 @@ ht-degree: 23%
 
 部署eCatalog的最常见方法是在网页上以eCatalog缩略图封面页的形式放置链接。 与 IT 团队合作，以确保在一个居中弹出的空白窗口中启动 eCatalog。请您的 IT 团队协助在浏览器中不显示工具栏和地址栏。
 
-有关更多详细信息和代码示例，请参阅《HTML查看器参考指南》中的[嵌入Adobe5 eCatalog查看器](https://experienceleague.adobe.com/zh-hans/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/ecatalog/c-html5-20-ecatalog-viewer-about#section-e1c3106f5b3e445d9b95be337c2f94e2)。
+有关更多详细信息和代码示例，请参阅“HTML查看器参考”中的[嵌入的Adobe5 eCatalog查看器](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/ecatalog/c-html5-20-ecatalog-viewer-about#section-e1c3106f5b3e445d9b95be337c2f94e2)。
 
 ## 复制eCatalog查看器的嵌入代码 {#copying-the-embed-code-of-an-ecatalog-viewer}
 
-使用嵌入代码功能，您可以查看用于所选 eCatalog 的查看器代码。 您还可以将代码复制到剪贴板，以便将其粘贴到网页中用于部署查看器。 在“嵌入代码”对话框中不允许编辑代码。
+使用嵌入的代码功能，您可以查看选定eCatalog的查看器代码。 您还可以将代码复制到剪贴板，以便将其粘贴到网页中用于部署查看器。 在“嵌入代码”对话框中不允许编辑代码。
 
 **复制eCatalog查看器的嵌入代码：**
 

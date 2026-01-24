@@ -10,10 +10,10 @@ role: User
 exl-id: a9250841-2dba-4fdc-8a6e-91b2fecef72f
 topic: Content Management
 level: Intermediate
-source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
+source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
 workflow-type: tm+mt
-source-wordcount: '622'
-ht-degree: 24%
+source-wordcount: '619'
+ht-degree: 22%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 24%
 
 >[!NOTE]
 >
->使用的视频播放器必须支持使用章节标记。
+>视频播放器必须支持使用章节标记。
 
 如果要为[查看器(HTML5)配置章节导航提示点和章节标题弹出文本，请参阅](previewing-videos-video-viewer.md#adding_or_editing_a_video_viewer_preset)添加或编辑视频查看器预设`Universal_HTML5_Video`。
 

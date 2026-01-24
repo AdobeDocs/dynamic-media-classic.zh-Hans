@@ -10,10 +10,10 @@ role: User
 exl-id: af75547e-20e8-44c2-b165-01532d6e21d0
 topic: Content Management
 level: Intermediate
-source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
+source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
 workflow-type: tm+mt
 source-wordcount: '727'
-ht-degree: 23%
+ht-degree: 21%
 
 ---
 
@@ -56,9 +56,9 @@ https://sample.scene7.com/s7ondemand/spin/viewer.jsp?company=S7Web&sku=backpack_
 
 ## 复制旋转集查看器的嵌入代码 {#copying-the-embed-code-of-a-spin-set-viewer}
 
-使用嵌入代码功能，您可以查看用于所选旋转集的查看器代码。您还可以将代码复制到剪贴板，以便将其粘贴到网页中用于部署查看器。 在“嵌入代码”对话框中不允许编辑代码。
+使用嵌入的代码功能，您可以查看选定旋转集的查看器代码。 您还可以将代码复制到剪贴板，以便将其粘贴到网页中用于部署查看器。 在“嵌入代码”对话框中不允许编辑代码。
 
-**要复制旋转集查看器的嵌入代码：**
+**要复制旋转集查看器的嵌入代码，请执行以下操作：**
 
 1. 在“资产浏览”面板的“显示”下拉列表中，选择&#x200B;**[!UICONTROL 旋转集]**。
 1. 在左侧的“资产库”面板中，导航到包含要复制其嵌入代码的旋转集的资产文件夹。

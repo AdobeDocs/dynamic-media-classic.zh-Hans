@@ -10,10 +10,10 @@ role: User
 exl-id: 2073d95b-1600-481f-8038-d29e8acacf7d
 topic: Administration, Content Management, Development
 level: Intermediate
-source-git-commit: 8dc990a1fb1355b00fa4839e14b92bb6562d40b4
+source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
 workflow-type: tm+mt
 source-wordcount: '671'
-ht-degree: 23%
+ht-degree: 21%
 
 ---
 
@@ -47,11 +47,11 @@ ht-degree: 23%
 
 通常，访客通过首先选择缩放图标（图标通常显示放大镜的图像）来缩放网站上的图像。 选择此图标将启动在弹出窗口中显示图像的动态网页（ASP或JSP）。 弹出窗口是访客实际缩放该图像的位置。
 
-有关更多详细信息和代码示例，请参阅《HTML查看器参考指南》中的[嵌入Adobe5 Basic缩放查看器](https://experienceleague.adobe.com/zh-hans/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/basic-zoom/c-html5-20-basic-zoom-viewer-about#section-e1c3106f5b3e445d9b95be337c2f94e2)。
+有关更多详细信息和代码示例，请参阅《HTML查看器参考指南》中的[嵌入式Adobe5 Basic缩放查看器](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/basic-zoom/c-html5-20-basic-zoom-viewer-about#section-e1c3106f5b3e445d9b95be337c2f94e2)。
 
 ## 复制缩放查看器的嵌入副本 {#copying-the-embed-copy-of-a-zoom-viewer}
 
-使用嵌入代码功能，您可以查看用于所选缩放查看器的查看器代码。您还可以将代码复制到剪贴板，以便将其粘贴到网页中用于部署查看器。 在“嵌入代码”对话框中不允许编辑代码。
+使用嵌入的代码功能，您可以查看选定缩放查看器的查看器代码。 您还可以将代码复制到剪贴板，以便将其粘贴到网页中用于部署查看器。 在“嵌入代码”对话框中不允许编辑代码。
 
 **要复制缩放查看器的嵌入代码：**
 

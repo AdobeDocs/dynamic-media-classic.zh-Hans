@@ -10,10 +10,10 @@ role: User
 exl-id: bfb9c5a4-5068-4adb-9fe2-a4ead8656289
 topic: Integrations
 level: Experienced
-source-git-commit: de6997fda88c4471625242ee9cca59b344cee945
+source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
 workflow-type: tm+mt
 source-wordcount: '877'
-ht-degree: 40%
+ht-degree: 38%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 40%
 
 您可以使用Adobe Dynamic Media Classic中的以下功能管理信息面板设置和数据：
 
-* “信息面板设置”面板允许您指定用于显示“信息面板”文本的模板、默认错误响应以及信息缓存的小时数。 此外，可以指定是否自动发布 eCatalog。
+* “信息面板设置”面板允许您指定用于显示“信息面板”文本的模板、默认错误响应以及信息缓存的小时数。 此外，您还可以指定是否自动发布eCatalog。
 * “信息面板数据馈送”面板允许您指定包含要在“信息面板”变换文本中显示的文本的CSV文件，并安排更新信息的时间。
 * 通过“导入元数据”对话框（从“映射页面”视图中访问），可以导入包含变换文本信息的以Tab分隔的TXT文件。 您可以将此TXT选项或具有CSV文件选项的数据馈送面板用于变换文本。
 * “映射页面”视图提供了一个选项，用于预览针对特定图像映射显示的xml。

@@ -10,7 +10,7 @@ role: User
 exl-id: 2be50cc7-9a8b-4f7b-8ebf-18a3208654f2
 topic: Content Management
 level: Intermediate
-source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
+source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
 workflow-type: tm+mt
 source-wordcount: '2225'
 ht-degree: 34%
@@ -72,8 +72,8 @@ ht-degree: 34%
 
 >[!NOTE]
 >
->在将关键字上传到Adobe Dynamic Media Classic时，可以向文件添加关键字。 在“上载作业选项”对话框中，选择&#x200B;**[!UICONTROL 其他元数据]**&#x200B;并输入关键字。
->&#x200B;>请参阅[上载选项](uploading-files.md#upload_options)。
+>在将关键字上传到Adobe Dynamic Media Classic时，可以向文件添加关键字。 在“上载作业选项”对话框中，选择&#x200B;**[!UICONTROL 其他元数据]**并输入关键字。
+>请参阅[上载选项](uploading-files.md#upload_options)。
 
 ## 导入元数据 {#import-metadata}
 
@@ -82,7 +82,7 @@ ht-degree: 34%
 >[!NOTE]
 >
 >您可以创建一个用于输入元数据的模板，以便可以将它正确导入Adobe Dynamic Media Classic。 创建模板后，可以使用该模板输入元数据。
->&#x200B;>请参阅[创建模板以输入要上载的元数据](viewing-adding-exporting-metadata.md#create_a_template_for_entering_metadata_to_upload)。
+>请参阅[创建模板以输入要上载的元数据](viewing-adding-exporting-metadata.md#create_a_template_for_entering_metadata_to_upload)。
 
 您可以在[Adobe XMP开发人员中心](https://www.adobe.com/devnet/xmp.html)找到有关标准化资产的更多信息。
 
@@ -135,7 +135,7 @@ XML 导入仅接受有效的 XML。导入XMP或元数据架构字段时，会添
 
 ## 使用元数据批量重命名 ID {#batch-rename-ids-using-metadata}
 
-使用从制表符分隔文件或XML文件导入的元数据，可以重命名Adobe Dynamic Media Classic ID。 导入的元数据仅适用于在元数据文件自身中指定的图像。在“浏览”面板上是否选择图像并不重要。
+使用从制表符分隔文件或XML文件导入的元数据，可以重命名Adobe Dynamic Media Classic ID。 导入的元数据仅适用于在元数据文件自身中指定的图像。在“浏览”面板中是否选择图像并不重要。
 
 要重命名图像的Adobe Dynamic Media Classic ID，请将标记为&#x200B;*newipsid*&#x200B;的列添加到以制表符分隔的文件中，或将名为`new_vc_objectname`的字段添加到XML数据中。
 

@@ -10,10 +10,10 @@ role: User
 exl-id: 26e3cd5b-f070-4b92-af36-25631723460e
 topic: Content Management
 level: Beginner
-source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
+source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
 workflow-type: tm+mt
-source-wordcount: '803'
-ht-degree: 22%
+source-wordcount: '801'
+ht-degree: 18%
 
 ---
 
@@ -21,9 +21,9 @@ ht-degree: 22%
 
 旋转集用于模拟转动物品进行查看时的真实动作。利用旋转集能够从任意角度查看物品，从而获得任意角度的重要视觉详细信息。旋转集会模拟 360 度的查看体验。Adobe Dynamic Media Classic提供一维旋转集和二维旋转集，前者让查看者可以旋转项目，后者让查看者可以旋转和翻转项目。 此外，用户只需点击几下鼠标即可“自由变形”缩放和平移任何视图。 通过这种方式，用户能够以特定的视角，更仔细地查看物品。
 
-旋转集的![图像。](/help/using/assets/spin_set.png)
+旋转集的![图像](/help/using/assets/spin_set.png)
 
-旋转集也接受图像映射。图像映射是旋转集内的图像上用于显示含文本的变换面板的区域。当用户选择图像映射时，将触发某种操作。 例如，启动Web页，以便用户了解有关产品的更多信息。 要指出旋转集中的图像映射，当用户将鼠标指针移到图像映射本身上时，会在图像映射周围显示轮廓。
+旋转集也接受图像映射。 “图像映射”是旋转集中图像上显示包含文本变换面板的区域。 当用户选择图像映射时，将触发某种操作。 例如，启动Web页，以便用户了解有关产品的更多信息。 要指出旋转集中的图像映射，当用户将鼠标指针移到图像映射本身上时，会在图像映射周围显示轮廓。
 
 请参阅[创建图像映射](creating-image-maps.md)。
 
@@ -37,7 +37,7 @@ ht-degree: 22%
 
 另请参阅[Dynamic Media限制](/help/using/limitations.md)。
 
-此旋转集快速入门旨在让您快速启动并运行Adobe Dynamic Media Classic中的旋转集技术。 按照步骤 1 到 7 操作。在每个步骤结束时，您可以选择主题链接以了解详情。
+本快速入门指南旨在使用Adobe Dynamic Media Classic中的旋转集技术让您快速启动并运行。 按照步骤 1 到 7 操作。在每个步骤结束时，您可以选择主题链接以了解详情。
 
 ## 1.创建和上传图像
 

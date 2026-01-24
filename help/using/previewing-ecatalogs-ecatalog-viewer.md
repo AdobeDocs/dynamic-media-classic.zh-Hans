@@ -10,10 +10,10 @@ role: User
 exl-id: 580cb169-0e26-412d-8dff-74dc63da25d8
 topic: Integrations
 level: Experienced
-source-git-commit: 914fde11270dc731a261da3305b29dd573584d93
+source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
 workflow-type: tm+mt
 source-wordcount: '255'
-ht-degree: 32%
+ht-degree: 22%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 32%
 
 **要在eCatalog查看器中预览eCatalog：**
 
-1. 在左侧的“资源库”面板中，在“显示”下拉列表中，选择基于视频的资源类型，如视频或视频集。
+1. 在左侧的“资产库”面板的“显示”下拉列表中，选择基于视频的资产类型，如“视频”或“视频集”。
 1. 在左侧的“资源库”面板中，导航至要使用 eCatalog 查看器预览的视频所在的资源文件夹。
 1. 执行以下任一操作：
 

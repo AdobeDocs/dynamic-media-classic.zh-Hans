@@ -10,9 +10,9 @@ role: User
 exl-id: 91b73a09-c5b5-4001-b36f-6bebe65717ff
 topic: Content Management
 level: Intermediate
-source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
+source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
 workflow-type: tm+mt
-source-wordcount: '1674'
+source-wordcount: '1673'
 ht-degree: 21%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 21%
 
 您可以将资源发布到Dynamic Media图像服务器。 您可以一次性发布资源，也可以安排Adobe Dynamic Media Classic按定期计划发布资源。 发布资源后，这些资源即可用来传送。您可以从Adobe Dynamic Media Classic复制URL调用，并将其添加到您的网站或应用程序。
 
-Adobe Dynamic Media Classic现在支持通过HTTP/2来交付所有图像和视频。 即，图像或视频的已发布URL或嵌入代码可用于与接受托管资产的任何应用程序集成。 该已发布资产使用HTTP/2协议进行交付。 这种交付方法改进了浏览器和服务器的通信方式，使得所有Adobe Dynamic Media Classic资源都有更好的响应和加载时间。 请参阅[HTTP2内容交付常见问题解答](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-65/content/assets/dynamic/http2)。
+Adobe Dynamic Media Classic现在支持通过HTTP/2来交付所有图像和视频。 即，图像或视频的已发布URL或嵌入代码可用于与接受托管资产的任何应用程序集成。 该已发布资产使用HTTP/2协议进行交付。 这种交付方法改进了浏览器和服务器的通信方式，使得所有Adobe Dynamic Media Classic资源都有更好的响应和加载时间。 请参阅[HTTP2内容交付常见问题解答](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/http2)。
 
 ## 在上载之后发布 {#publish-after-uploading}
 

@@ -10,10 +10,10 @@ role: Data Engineer,Admin,User
 exl-id: d9fda3b8-7da8-4a30-a5f8-9bb34ec1b43d
 topic: Integrations, Development
 level: Experienced
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
 workflow-type: tm+mt
-source-wordcount: '1234'
-ht-degree: 21%
+source-wordcount: '1236'
+ht-degree: 20%
 
 ---
 
@@ -93,7 +93,7 @@ ht-degree: 21%
 | viewerId | 指定给各个不同的查看器类型的任意编号。 |
 | pageLabel | 在 eCatalog 中，查看器显示的页面。 |
 | label | 标签值（字符串）。 |
-| frame | 图像集中的页面或页面引用。 |
+| frame | 在图像集中引用的页面或页面。 |
 | rollover_keyRaw | 完整的 HREF 值，不仅是已处理部分。 |
 | rollover_keyProc | 在图像映射中引用的项目的 ID（对 href 和项目事件有效）。 |
 | searchTerm | 在 eCatalog 搜索中使用的搜索词。 |

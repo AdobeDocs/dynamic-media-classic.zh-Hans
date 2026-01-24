@@ -10,9 +10,9 @@ role: User
 exl-id: 391eb7ce-ed89-47a8-a6c6-5adb3e95bf78
 topic: Content Management
 level: Intermediate
-source-git-commit: 8dc990a1fb1355b00fa4839e14b92bb6562d40b4
+source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
 workflow-type: tm+mt
-source-wordcount: '617'
+source-wordcount: '613'
 ht-degree: 17%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 17%
 1. 在“浏览”面板中选择一个或多个资源，然后执行以下操作之一：
 
    * 在资产库中显示要将资产移动到的文件夹，然后将资产拖到该文件夹。
-   * 转到&#x200B;**[!UICONTROL 文件]** > **[!UICONTROL 移动]**，在“移动Assets”窗口中选择一个文件夹，然后选择&#x200B;**[!UICONTROL 移动]**。
+   * 转到&#x200B;**[!UICONTROL 文件]** > **`Move`**，在`Move Assets`窗口中选择一个文件夹，然后选择&#x200B;**`Move`**。
 
 ## 重命名资源 {#rename-assets}
 

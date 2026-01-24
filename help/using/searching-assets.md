@@ -10,7 +10,7 @@ role: User
 exl-id: 4b3f690c-7dff-4bf0-9366-085ba918fe6b
 topic: Content Management
 level: Intermediate
-source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
+source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
 workflow-type: tm+mt
 source-wordcount: '1513'
 ht-degree: 17%
@@ -155,7 +155,7 @@ ht-degree: 17%
 
 要配置元数据服务器，请转到&#x200B;**[!UICONTROL 安装程序]** > **[!UICONTROL 应用程序安装程序]** > **[!UICONTROL 发布安装程序]** > **[!UICONTROL 元数据服务器]**。
 
-元数据服务器发布页面可让您设置以下选项：
+“元数据服务器发布者”页允许您设置以下选项：
 
 * **[!UICONTROL 即时发布]**：在进行任何元数据更改时自动推送这些更改，包括新资源、关键词更改等。
 

@@ -10,9 +10,9 @@ role: Data Engineer,Admin,User
 exl-id: 05f2cce0-72bf-4933-87ab-c9003c848e35
 topic: Integrations, Development
 level: Experienced
-source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
+source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
 workflow-type: tm+mt
-source-wordcount: '1236'
+source-wordcount: '1232'
 ht-degree: 21%
 
 ---
@@ -100,7 +100,7 @@ Adobe Dynamic Media Classic提供了用于编辑和创建选件集的工具。
 1. 或者，选择图像或视频，然后选择&#x200B;**[!UICONTROL 预览]**。 在“预览选件”页面上，您可以更改所选图像或视频的大小和外观。 或者，您也可以更改选件集中的所有图像或视频。
 
    * 选择预设以更改图像或视频的外观和大小。
-   * 要将您选择的预设应用于选件集中的所有选件，请选中&#x200B;**[!UICONTROL 全选预设]**&#x200B;复选框。
+   * 要将所选预设应用于选件集中的所有选件，请选中&#x200B;**`Select Presets to All`**&#x200B;复选框。
 
    选择&#x200B;**[!UICONTROL 保存]**&#x200B;以保存对图像或视频选件所做的更改。 然后选择&#x200B;**[!UICONTROL 关闭]**&#x200B;以返回Test&amp;Target选件集页面。
 
