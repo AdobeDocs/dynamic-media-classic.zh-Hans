@@ -167,14 +167,14 @@ Adobe Dynamic Media Classic桌面应用程序允许您通过拖动来上传文�
 1. （可选）在上传页面底部附近，选择&#x200B;**[!UICONTROL 上传后发布]**，以便您可以自动发布所上传的资产。
 在发布文件时，文件将发送到实时服务器。然后，可以在外部网站和应用程序中使用这些文件的 URL。“作业选项”对话框中也提供了相同选项。
 1. （可选）如果希望上载的文件替换具有相同名称的现有文件，请选择“上载”页面底部附近的&#x200B;**[!UICONTROL 覆盖任意文件夹中的相同基本资源名称（不论扩展名是什么）]**。 “作业选项”对话框中也提供了相同选项。
-此选项的名称可能不同，具体取决于**[!UICONTROL 应用程序设置]** > **[!UICONTROL 常规设置]** > **[!UICONTROL 上载到应用程序]** > **[!UICONTROL 覆盖图像]**&#x200B;中的设置。
+此选项的名称可能不同，具体取决于&#x200B;**[!UICONTROL 应用程序设置]** > **[!UICONTROL 常规设置]** > **[!UICONTROL 上载到应用程序]** > **[!UICONTROL 覆盖图像]**&#x200B;中的设置。
 1. 在上传页面的右下角附近，选择&#x200B;**[!UICONTROL 作业选项]**，然后指定所需的选项。
 
    请参阅[上载选项](uploading-files.md#upload_options)。
 
 1. 在“上载作业选项”对话框中，选择&#x200B;**[!UICONTROL 保存]**。
 1. 在上传页面的右下角，选择&#x200B;**[!UICONTROL 提交上传]**。
-要查看上载进度，请在全局导航栏上选择**[!UICONTROL 作业]**。 您可以继续在Adobe Dynamic Media Classic中工作。 随时返回到“作业”页以查看正在进行的作业。 要取消正在进行的上载作业，请选择“持续时间”旁边的“**[!UICONTROL 取消]**”。
+要查看上载进度，请在全局导航栏上选择&#x200B;**[!UICONTROL 作业]**。 您可以继续在Adobe Dynamic Media Classic中工作。 随时返回到“作业”页以查看正在进行的作业。 要取消正在进行的上载作业，请选择“持续时间”旁边的“**[!UICONTROL 取消]**”。
 
 ### 使用“通过FTP”选项卡上传文件 {#upload-files-using-via-ftp}
 
@@ -188,7 +188,7 @@ Adobe Dynamic Media Classic桌面应用程序允许您通过拖动来上传文�
 1. （可选）在上传页面底部附近，选择&#x200B;**[!UICONTROL 上传后发布]**，以便您可以自动发布所上传的资产。
 在发布文件时，文件将发送到实时服务器。然后，可以在外部网站和应用程序中使用这些文件的 URL。“作业选项”对话框中也提供了相同选项。
 1. （可选）如果希望上载的文件替换具有相同名称的现有文件，请选择“上载”页面底部附近的&#x200B;**[!UICONTROL 覆盖任意文件夹中的相同基本资源名称（不论扩展名是什么）]**。 “作业选项”对话框中也提供了相同选项。
-此选项的名称可能不同，具体取决于**[!UICONTROL 设置]** > **[!UICONTROL 应用程序设置]** > **[!UICONTROL 常规设置]** > **[!UICONTROL 上载到应用程序]** > **[!UICONTROL 覆盖图像]**&#x200B;中的设置。
+此选项的名称可能不同，具体取决于&#x200B;**[!UICONTROL 设置]** > **[!UICONTROL 应用程序设置]** > **[!UICONTROL 常规设置]** > **[!UICONTROL 上载到应用程序]** > **[!UICONTROL 覆盖图像]**&#x200B;中的设置。
 1. 可选；仅当您选择&#x200B;**[!UICONTROL 通过FTP]**&#x200B;选项卡时可用。 在上传页面底部附近，选择&#x200B;**[!UICONTROL 在上传时解压缩Zip或Tar文件]**，以便您能够自动从上传的ZIP或TAR文件中解压缩所有文件。 “作业选项”对话框中也提供了相同选项。
 1. 在上传页面的右下角附近，选择&#x200B;**[!UICONTROL 作业选项]**，然后指定所需的选项。
 
@@ -219,17 +219,17 @@ Adobe Dynamic Media Classic桌面应用程序允许您通过拖动来上传文�
          * **[!UICONTROL 每月]**：选择您希望作业运行的特定日期（一个月或一周中的某一天），包括开始时间。
          * **[!UICONTROL 自定义]**：根据您自己的规范自定义上载或发布作业时间间隔。 请参阅[创建自定义上载或发布作业时间间隔](checking-job-files.md#creating-a-custom-upload-or-publish-job-time-interval)。
 
-   * 上传后发布&#x200B;****：如果选择了通过FTP的&#x200B;**[!UICONTROL 从桌面]**&#x200B;选项卡或&#x200B;**[!UICONTROL 选项卡]**，则可用。 选择此选项可自动发布您上传的资产。 在发布文件时，文件将发送到实时服务器。然后，可以在外部网站和应用程序中使用这些文件的 URL。“上载”页中也提供了该选项。
+   * 上传后发布&#x200B;**&#x200B;**：如果选择了通过FTP的&#x200B;**[!UICONTROL 从桌面]**&#x200B;选项卡或&#x200B;**[!UICONTROL 选项卡]**，则可用。 选择此选项可自动发布您上传的资产。 在发布文件时，文件将发送到实时服务器。然后，可以在外部网站和应用程序中使用这些文件的 URL。“上载”页中也提供了该选项。
 
    * **[!UICONTROL 在任意文件夹内，使用相同的基本资源名称（不论扩展名是什么）进行覆盖]**：如果选择&#x200B;**[!UICONTROL FROM DESKTOP]**&#x200B;选项卡或&#x200B;**[!UICONTROL VIA FTP]**&#x200B;选项卡，则可用。 如果要使上载的文件替换现有同名文件，请选中此选项。“上载”页中也提供了该选项。此选项的名称可能不同，具体取决于&#x200B;**[!UICONTROL 设置]** > **[!UICONTROL 应用程序设置]** > **[!UICONTROL 常规设置]** > **[!UICONTROL 上载到应用程序]** > **[!UICONTROL 覆盖图像]**&#x200B;中的设置。
 
-   * **[!UICONTROL 在上传时解压缩Zip或Tar文件]**：如果选择&#x200B;**[!UICONTROL FROM DESKTOP]**&#x200B;选项卡或&#x200B;**[!UICONTROL VIA FTP]**选项卡，则可用。
+   * **[!UICONTROL 在上传时解压缩Zip或Tar文件]**：如果选择&#x200B;**[!UICONTROL FROM DESKTOP]**&#x200B;选项卡或&#x200B;**[!UICONTROL VIA FTP]**&#x200B;选项卡，则可用。
 选择此选项可自动从上传的ZIP或TAR文件中提取所有文件。 “作业选项”对话框中也提供了相同选项。
 
-   * **[!UICONTROL 包含子文件夹]**：仅当您选择&#x200B;**[!UICONTROL 通过FTP]**选项卡时可用。
+   * **[!UICONTROL 包含子文件夹]**：仅当您选择&#x200B;**[!UICONTROL 通过FTP]**&#x200B;选项卡时可用。
 如果要上载文件夹的子文件夹，请选中此选项。上传的文件夹及其子文件夹的名称会自动在Adobe Dynamic Media Classic中输入。
 
-   * **[!UICONTROL 处理元数据文件]**：仅当您选择&#x200B;**[!UICONTROL 通过FTP]**选项卡时可用。 如果要上载制表符分隔的文件或XML文件以将元数据添加到多个资源，请选择此选项。
+   * **[!UICONTROL 处理元数据文件]**：仅当您选择&#x200B;**[!UICONTROL 通过FTP]**&#x200B;选项卡时可用。 如果要上载制表符分隔的文件或XML文件以将元数据添加到多个资源，请选择此选项。
 请参阅[导入元数据（通过 FTP）](viewing-adding-exporting-metadata.md#import-metadata)。
 
 * **裁切选项**：自动裁切图像中的空白像素。 打开&#x200B;**[!UICONTROL 裁切]**&#x200B;菜单，选择&#x200B;**[!UICONTROL 手动]**，然后在“顶部”、“右侧”、“底部”和“左侧”文本字段中输入像素度量以从侧面裁切。 您还可以在“裁切”菜单中选择&#x200B;**[!UICONTROL 裁切]**，然后选择以下选项：
@@ -237,7 +237,7 @@ Adobe Dynamic Media Classic桌面应用程序允许您通过拖动来上传文�
    * **[!UICONTROL 裁切依据]**：选择根据颜色还是透明度裁切：
       * **[!UICONTROL 颜色]**：选择“颜色”选项。 然后选择“边角”菜单，然后选择图像的边角，其颜色最能代表要裁切的空白颜色。
 基于颜色修剪：指定 0 则仅当像素与您在图像的角中选择的颜色完全匹配时才会裁切像素。数字越接近 1，允许的色差越大。
-      * **[!UICONTROL 透明度]**：选择&#x200B;**[!UICONTROL 透明度]**选项。
+      * **[!UICONTROL 透明度]**：选择&#x200B;**[!UICONTROL 透明度]**&#x200B;选项。
 基于透明度裁剪：指定0表示仅在像素为透明时裁剪像素；数字越接近1则透明度越高。
       * **[!UICONTROL 容差]**：拖动滑块以指定从0到1的容差。
 
@@ -269,7 +269,7 @@ Adobe Dynamic Media Classic桌面应用程序允许您通过拖动来上传文�
 请参阅[执行高级搜索](searching-assets.md#conducting_an_advanced_search)。
 另请参阅[上传关键字](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/548_upload-keywords_converted%20renamed_Done-AVS)培训视频。
 
-* **批次集预设**：若要从上传的文件创建图像集、旋转集或样本集，请为要使用的预设选择&#x200B;**[!UICONTROL 活动]**列。 可以选择多个预设。您可以在“应用程序设置/批次集预设”页面中创建预设。
+* **批次集预设**：若要从上传的文件创建图像集、旋转集或样本集，请为要使用的预设选择&#x200B;**[!UICONTROL 活动]**&#x200B;列。 可以选择多个预设。您可以在“应用程序设置/批次集预设”页面中创建预设。
 请参阅[批量级预设](application-setup.md#batch_set_presets)。
 
 * **高级**：请参阅[使用其他作业执行上载操作](uploading-files.md#follow-an-upload-with-another-job)。

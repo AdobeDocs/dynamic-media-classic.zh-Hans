@@ -72,7 +72,7 @@ ht-degree: 34%
 
 >[!NOTE]
 >
->在将关键字上传到Adobe Dynamic Media Classic时，可以向文件添加关键字。 在“上载作业选项”对话框中，选择&#x200B;**[!UICONTROL 其他元数据]**并输入关键字。
+>在将关键字上传到Adobe Dynamic Media Classic时，可以向文件添加关键字。 在“上载作业选项”对话框中，选择&#x200B;**[!UICONTROL 其他元数据]**&#x200B;并输入关键字。
 >请参阅[上载选项](uploading-files.md#upload_options)。
 
 ## 导入元数据 {#import-metadata}
