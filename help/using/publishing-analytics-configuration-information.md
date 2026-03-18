@@ -6,11 +6,11 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/adobe_analytics_instrumentation_kit
 feature: Dynamic Media Classic
-role: Data Engineer,Admin,User
+role: Developer,Admin,User
 exl-id: 02782dc0-601f-453a-98d1-1fdd7267df3b
 topic: Integrations, Development
 level: Experienced
-source-git-commit: 5b5dcd1199bd51ec987b5673fce75bc86baad55b
+source-git-commit: 458a80aad6e983dbccfe2108f0a389a4651f9f38
 workflow-type: tm+mt
 source-wordcount: '151'
 ht-degree: 19%
@@ -19,7 +19,7 @@ ht-degree: 19%
 
 # 发布Adobe Analytics配置信息{#publishing-adobe-analytics-configuration-information}
 
-发布Adobe Dynamic Media Classic查看器，以便将有关配置Adobe Analytics报表的信息发送到Adobe Dynamic Media Classic服务器。 该信息将嵌入查看器中。必须进行发布，以便查看器中包含的信息在Adobe Dynamic Media Classic服务器上可用。 用户在查看器上执行活动后，可以将信息从服务器传送到 Adobe Analytics。
+发布Adobe Dynamic Media Classic查看器，以便将有关配置Adobe Analytics报表的信息发送到Adobe Dynamic Media Classic服务器。 该信息将嵌入查看器中。 必须进行发布，以便查看器中包含的信息在Adobe Dynamic Media Classic服务器上可用。 用户在查看器上执行活动后，可以将信息从服务器传送到 Adobe Analytics。
 
 >[!NOTE]
 >

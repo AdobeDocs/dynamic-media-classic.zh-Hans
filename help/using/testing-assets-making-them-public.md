@@ -10,10 +10,10 @@ role: User
 exl-id: fd78d535-391e-43eb-a8aa-25fa6c2885cb
 topic: Content Management
 level: Intermediate
-source-git-commit: 29752cf9eca0fc9bb760c721e1c3dc8e4ef912c3
+source-git-commit: 384e1ec078540d0cc5224b98ead6eb880cd92c2a
 workflow-type: tm+mt
-source-wordcount: '1061'
-ht-degree: 19%
+source-wordcount: '1070'
+ht-degree: 21%
 
 ---
 
@@ -35,15 +35,15 @@ ht-degree: 19%
 
 ## 安全测试的工作原理 {#how-secure-testing-works}
 
-大多数公司在防火墙后运行 Internet。可以通过某些路由，通常是通过限定范围的公共 IP 地址访问 Internet。
+大多数公司在防火墙后运行 Internet。 可以通过某些路由，通常是通过限定范围的公共 IP 地址访问 Internet。
 
 通过公司网络，您可以使用[https://www.whatismyip.com](https://www.whatismyip.com/)之类的网站确定公共IP地址，或者向公司IT组织请求此信息。
 
-通过安全测试，Adobe Dynamic Media Classic为暂存环境或内部应用程序建立了专用的图像服务器。 对此服务器的所有请求都将检查原始 IP 地址。如果传入请求不在批准的IP地址列表中，则会返回失败响应。 Adobe Dynamic Media Classic公司管理员为公司的Secure Testing环境配置已批准的IP地址列表。
+通过安全测试，Adobe Dynamic Media Classic为暂存环境或内部应用程序建立了专用的图像服务器。 对此服务器的所有请求都将检查原始 IP 地址。 如果传入请求不在获批准的 IP 地址列表中，则返回失败响应。 Adobe Dynamic Media Classic公司管理员为公司的Secure Testing环境配置已批准的IP地址列表。
 
 由于必须确认原始请求的位置，因此Secure Testing服务的流量不会通过内容分发网络（如公共Dynamic Media图像服务器流量）进行路由。 与Dynamic Media公共图像服务器相比，请求Secure Testing Service的延迟稍高一些。
 
-通过安全测试服务，可以立即使用未发布的资源，无需发布。通过这种方式，您可以在将资产发布到面向公众的图像服务器之前运行预览。
+通过安全测试服务，可以立即使用未发布的资源，无需发布。 通过这种方式，您可以在将资产发布到面向公众的图像服务器之前运行预览。
 
 >[!NOTE]
 >
@@ -86,9 +86,11 @@ Last Modified Date:
 
 测试Secure Testing服务，以确保该服务按预期运行。
 
-<!-- >[!NOTE]
+<!-- 
+>[!NOTE]
 >
->*If you do not mention any IPs under **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Publish Setup]** > **[!UICONTROL Image Server]** > **[!UICONTROL Test Image Service]***: If you add an IP only, that IP is able to call the assets and no other IP are allowed to make the calls. As long there is no IP mentioned under that section, all IPs are allowed to make the calls for the assets, and they show up. -->
+>*If you do not mention any IPs under **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Publish Setup]** > **[!UICONTROL Image Server]** > **[!UICONTROL Test Image Service]***: If you add an IP only, that IP is able to call the assets and no other IP are allowed to make the calls. As long there is no IP mentioned under that section, all IPs are allowed to make the calls for the assets, and they show up. 
+-->
 
 ### 准备帐户
 

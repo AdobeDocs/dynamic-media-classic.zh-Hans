@@ -6,20 +6,20 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/adobe_analytics_instrumentation_kit
 feature: Dynamic Media Classic
-role: Data Engineer,Admin,User
+role: Developer,Admin,User
 exl-id: 6186fcf0-99b4-447d-ae94-b4124dcb405b
 topic: Integrations, Development
 level: Experienced
-source-git-commit: 8dc990a1fb1355b00fa4839e14b92bb6562d40b4
+source-git-commit: 458a80aad6e983dbccfe2108f0a389a4651f9f38
 workflow-type: tm+mt
-source-wordcount: '338'
+source-wordcount: '345'
 ht-degree: 5%
 
 ---
 
 # 通过查看Adobe Analytics报表测试集成{#testing-the-integration-by-viewing-an-adobe-analytics-report}
 
-在Adobe Analytics中创建必要的变量、将这些变量链接到Adobe Dynamic Media Classic事件并完成必要的实施步骤后，即可测试设置。 您可以测试和验证Adobe Analytics本身是否正在捕获数据。 如果设置正常，则无需其他步骤。假设您执行上述步骤并将Adobe Dynamic Media Classic事件数据链接到一个或多个自定义流量变量，然后按照此工作流在Adobe Analytics中测试您的数据。
+在Adobe Analytics中创建必要的变量、将这些变量链接到Adobe Dynamic Media Classic事件并完成必要的实施步骤后，即可测试设置。 您可以测试和验证Adobe Analytics本身是否正在捕获数据。 如果设置正常，则无需其他步骤。 假设您执行上述步骤并将Adobe Dynamic Media Classic事件数据链接到一个或多个自定义流量变量，然后按照此工作流在Adobe Analytics中测试您的数据。
 
 **要通过查看Adobe Analytics报表来测试集成，请执行以下操作：**
 
@@ -31,10 +31,10 @@ ht-degree: 5%
 
    例如，要访问示例帐户中的&#x200B;**[!UICONTROL LoadAsset]** prop，正确的菜单选项是&#x200B;**[!UICONTROL 自定义流量]** > **[!UICONTROL 自定义流量1-10]** > **[!UICONTROL LoadAsset]**。 如果您有十个以上的自定义prop，您也会看到其他菜单选项。
 
-1. 查看 Adobe Analytics 生成的图表。此图表通常只是单个指标的数据。 如果您还想知道此数据与哪个资产相关联，请获取此事件的资产数据。 例如，了解哪个视频仅被观看了50%或集中的哪个图像受欢迎通常很有用。
+1. 查看 Adobe Analytics 生成的图表。 此图表通常只是单个指标的数据。 如果您还想知道此数据与哪个资产相关联，请获取此事件的资产数据。 例如，了解哪个视频仅被观看了50%或集中的哪个图像受欢迎通常很有用。
 
 >[!NOTE]
 >
 >所有Adobe Dynamic Media Classic查看器数据都会在Adobe Analytics的自定义流量报表或自定义转化报表中显示和报告。
 
-有关详细信息，请参阅[Analytics教程](https://experienceleague.adobe.com/zh-hans/docs/analytics-learn/tutorials/overview)。
+有关详细信息，请参阅[Analytics教程](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/overview)。

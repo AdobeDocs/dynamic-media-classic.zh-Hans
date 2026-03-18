@@ -6,14 +6,14 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/adobe_analytics_instrumentation_kit
 feature: Dynamic Media Classic
-role: Data Engineer,Admin,User
+role: Developer,Admin,User
 exl-id: d9fda3b8-7da8-4a30-a5f8-9bb34ec1b43d
 topic: Integrations, Development
 level: Experienced
-source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
+source-git-commit: 458a80aad6e983dbccfe2108f0a389a4651f9f38
 workflow-type: tm+mt
-source-wordcount: '1236'
-ht-degree: 20%
+source-wordcount: '1251'
+ht-degree: 22%
 
 ---
 
@@ -72,10 +72,10 @@ ht-degree: 20%
 | HREF | **X** (eCatalog) | 在支持“图像映射”的查看器中，用户在“图像映射”中选择URL时。 |
 | TARGET | | 在目标缩放查看器中，用户选择要缩放到部分图像的缩放目标时。 |
 | SEARCH | | 在 eCatalog 中用户执行关键词搜索时。 |
-| PLAY | **X**（视频） | 在视频查看器中，当用户选择“播放”开始播放视频时。<br><br>**注意：**&#x200B;如果您使用的是基于Adobe Analytics心率的视频报告，则在Adobe Dynamic Media Classic中配置Adobe Analytics时，不需要将任何变量映射到此查看器事件。 视频心率适用于开箱即用的Adobe Dynamic Media Classic HTML5视频和MixedMedia查看器。 视频播放器会生成跟踪数据以供在Adobe Analytics视频报表中查看。 请参阅[启用Adobe Analytics视频报表](enabling-analytics-video-reports.md)。 |
-| PAUSE | **X**（视频） | 在视频查看器中，当用户选择&#x200B;**[!UICONTROL 暂停]**&#x200B;以冻结视频时。<br><br>**注意：**&#x200B;如果您使用的是基于Adobe Analytics心率的视频报告，则在Adobe Dynamic Media Classic中配置Adobe Analytics时，不需要将任何变量映射到此查看器事件。 视频心率适用于开箱即用的Adobe Dynamic Media Classic HTML5视频和MixedMedia查看器。 视频播放器会生成跟踪数据以供在Adobe Analytics视频报表中查看。 请参阅[启用Adobe Analytics视频报表](enabling-analytics-video-reports.md)。 |
-| STOP | **X**（视频） | 在视频查看器中，当用户选择&#x200B;**[!UICONTROL 停止]**&#x200B;以停止播放视频时。<br><br>**注意：**&#x200B;如果您使用的是基于Adobe Analytics心率的视频报告，则在Adobe Dynamic Media Classic中配置Adobe Analytics时，不需要将任何变量映射到此查看器事件。 视频心率适用于开箱即用的Adobe Dynamic Media Classic HTML5视频和MixedMedia查看器。 视频播放器会生成跟踪数据以供在Adobe Analytics视频报表中查看。 请参阅[启用Adobe Analytics视频报表](enabling-analytics-video-reports.md)。 |
-| MILESTONE | **X**（视频） | 在视频查看器中，用户在观看到视频的 0%、25%、50%、75% 或 100% 时会生成里程碑事件。<br><br>**注意：**&#x200B;如果您使用的是基于Adobe Analytics心率的视频报告，则在Adobe Dynamic Media Classic中配置Adobe Analytics时，不需要将任何变量映射到此查看器事件。 视频心率适用于开箱即用的Adobe Dynamic Media Classic HTML5视频和MixedMedia查看器。 视频播放器会生成跟踪数据以供在Adobe Analytics视频报表中查看。 请参阅[启用Adobe Analytics视频报表](enabling-analytics-video-reports.md)。 |
+| PLAY | **X**（视频） | 在视频查看器中，当用户选择“播放”开始播放视频时。<br><br>**注意：**&#x200B;如果您使用的是基于Adobe Analytics心率的视频报表，则在Adobe Dynamic Media Classic中配置Adobe Analytics时，无需将任何变量映射到此查看器事件。 视频心率适用于开箱即用的Adobe Dynamic Media Classic HTML5视频和MixedMedia查看器。 视频播放器生成跟踪数据以在 Adobe Analytics 视频报告中查看。 请参阅[启用Adobe Analytics视频报表](enabling-analytics-video-reports.md)。 |
+| PAUSE | **X**（视频） | 在视频查看器中，当用户选择&#x200B;**[!UICONTROL 暂停]**&#x200B;以冻结视频时。<br><br>**注意：**&#x200B;如果您使用的是基于Adobe Analytics心率的视频报表，则在Adobe Dynamic Media Classic中配置Adobe Analytics时，无需将任何变量映射到此查看器事件。 视频心率适用于开箱即用的Adobe Dynamic Media Classic HTML5视频和MixedMedia查看器。 视频播放器生成跟踪数据以在 Adobe Analytics 视频报告中查看。 请参阅[启用Adobe Analytics视频报表](enabling-analytics-video-reports.md)。 |
+| STOP | **X**（视频） | 在视频查看器中，当用户选择&#x200B;**[!UICONTROL 停止]**&#x200B;以停止播放视频时。<br><br>**注意：**&#x200B;如果您使用的是基于Adobe Analytics心率的视频报表，则在Adobe Dynamic Media Classic中配置Adobe Analytics时，无需将任何变量映射到此查看器事件。 视频心率适用于开箱即用的Adobe Dynamic Media Classic HTML5视频和MixedMedia查看器。 视频播放器生成跟踪数据以在 Adobe Analytics 视频报告中查看。 请参阅[启用Adobe Analytics视频报表](enabling-analytics-video-reports.md)。 |
+| MILESTONE | **X**（视频） | 在视频查看器中，当用户观看0、25、50、75或100%的视频时，将生成里程碑事件。<br><br>**注意：**&#x200B;如果您使用的是基于Adobe Analytics心率的视频报表，则在Adobe Dynamic Media Classic中配置Adobe Analytics时，无需将任何变量映射到此查看器事件。 视频心率适用于开箱即用的Adobe Dynamic Media Classic HTML5视频和MixedMedia查看器。 视频播放器生成跟踪数据以在 Adobe Analytics 视频报告中查看。 请参阅[启用Adobe Analytics视频报表](enabling-analytics-video-reports.md)。 |
 | 样本 | **X** （弹出、缩放） | 此查看器事件映射到Adobe Dynamic Media Classic中的页面查看器事件。 |
 | 缩放 | **X**（eCatalog、旋转集、缩放） | Adobe Analytics 不进行跟踪。 |
 | 平移 | **X**（eCatalog、旋转集、缩放） | Adobe Analytics 不进行跟踪。 |

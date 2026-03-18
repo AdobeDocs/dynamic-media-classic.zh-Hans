@@ -6,13 +6,13 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/target_integration
 feature: Dynamic Media Classic
-role: Data Engineer,Admin,User
+role: Developer,Admin,User
 exl-id: 05f2cce0-72bf-4933-87ab-c9003c848e35
 topic: Integrations, Development
 level: Experienced
-source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
+source-git-commit: 458a80aad6e983dbccfe2108f0a389a4651f9f38
 workflow-type: tm+mt
-source-wordcount: '1232'
+source-wordcount: '1292'
 ht-degree: 21%
 
 ---
@@ -67,7 +67,7 @@ Adobe Dynamic Media Classic提供了用于编辑和创建选件集的工具。
 
    此页面的左侧将列出模板中的参数和参数值。
 
-1. 更改参数值以创建优惠。例如，在文本字段中输入不同的文本，更改图层的大小，将一个图像交换给另一个图像，或选择不同的查看器预设。
+1. 更改参数值以创建优惠。 例如，在文本字段中输入不同的文本，更改图层的大小，将一个图像交换给另一个图像，或选择不同的查看器预设。
 1. 选择&#x200B;**[!UICONTROL 保存]**&#x200B;或&#x200B;**[!UICONTROL 另存为**]**&#x200B;以将选件另存为选件集的一部分。
 
    Test&amp;Target选件集页面列出了您创建的选件。
@@ -93,7 +93,7 @@ Adobe Dynamic Media Classic提供了用于编辑和创建选件集的工具。
 
 1. 为选件集组合图像或视频。 在Test&amp;Target选件集屏幕或网格视图或列表视图中启动，然后使用以下方法之一：
 
-   * **Test&amp;Target选件集屏幕**：转到&#x200B;**[!UICONTROL 生成]** > **[!UICONTROL Test&amp;Target选件集]**。 将图像或视频拖到屏幕上。要创建大小不同的视频或图像，请拖入图像或视频的多个副本，然后逐个设置每个大小。
+   * **Test&amp;Target选件集屏幕**：转到&#x200B;**[!UICONTROL 生成]** > **[!UICONTROL Test&amp;Target选件集]**。 将图像或视频拖到屏幕上。 要创建大小不同的视频或图像，请拖入图像或视频的多个副本，然后逐个设置每个大小。
 
    * **网格视图或列表视图**：选择图像或视频，然后转到&#x200B;**[!UICONTROL 生成]** > **[!UICONTROL Test&amp;Target选件集]**。
 
@@ -116,7 +116,7 @@ Adobe Dynamic Media Classic提供了用于编辑和创建选件集的工具。
 | 是否已发布集？ | 在保存编辑之前，是否选择了&#x200B;**[!UICONTROL 保存后发布]**&#x200B;选项？ | 保存后的集状态 | 保存后的集成员状态 |
 | --- | --- | --- | --- |
 | 是 | 是 | 已发布 | 已发布 |
-| 是 | 否 | 已发布 | 现有集成员将保留其已发布状态。 在编辑期间添加的任何新的集成员保持其已发布或未发布状态。 |
+| 是 | 否 | 已发布 | 现有的集成员保持其已发布状态。 在编辑期间添加的任何新的集成员保持其已发布或未发布状态。 |
 | 否 | 是 | 已发布 | 已发布 |
 | 否 | 否 | 未发布 | 现有的集成员以及在编辑期间添加的任何新的集成员保持其已发布或未发布状态。 |
 
@@ -141,7 +141,7 @@ Adobe Dynamic Media Classic提供了用于编辑和创建选件集的工具。
 
 ## 删除优惠套餐 {#delet-an-offer-set}
 
-在删除优惠套餐时，套餐本身将移到垃圾桶中。但是，该集中的成员（或“子项”）不受影响；相反，它们各自保留其现有的已发布或未发布状态。
+在删除优惠套餐时，套餐本身将移到垃圾桶中。 但是，该集中的成员（或“子项”）不受影响；相反，它们各自保留其现有的已发布或未发布状态。
 
 另请参阅[手动发布资源](publishing-files.md#manually_publishing_assets)和[手动取消发布资源](publishing-files.md#manually_unpublishing_assets)。
 

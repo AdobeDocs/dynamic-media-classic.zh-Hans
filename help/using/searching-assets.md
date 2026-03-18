@@ -10,9 +10,9 @@ role: User
 exl-id: 4b3f690c-7dff-4bf0-9366-085ba918fe6b
 topic: Content Management
 level: Intermediate
-source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
+source-git-commit: 384e1ec078540d0cc5224b98ead6eb880cd92c2a
 workflow-type: tm+mt
-source-wordcount: '1513'
+source-wordcount: '1521'
 ht-degree: 17%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 17%
 
 >[!NOTE]
 >
->“个人设置”页提供了选择搜索方式的选项。 例如，可以选择一个默认的搜索类型，并选择搜索中是否包括用户定义的字段。有关更多信息，请参阅[个人设置](personal-setup.md#personal_setup)。
+>“个人设置”页提供了选择搜索方式的选项。 例如，可以选择一个默认的搜索类型，并选择搜索中是否包括用户定义的字段。 有关更多信息，请参阅[个人设置](personal-setup.md#personal_setup)。
 
 ## 按类型查看资源 {#viewing-assets-by-type}
 
@@ -53,9 +53,11 @@ ht-degree: 17%
 
    搜索结果将显示在右侧的“浏览”面板中。
 
-<!-- Does not appear to be working anymore >[!NOTE]
+<!--
+Does not appear to be working anymore >[!NOTE]
 >
->Adobe Dynamic Media Classic tracks searches. To run a search a second time, select **[!UICONTROL Search]** and choose the name of a search at the bottom of the Search menu. -->
+>Adobe Dynamic Media Classic tracks searches. To run a search a second time, select **[!UICONTROL Search]** and choose the name of a search at the bottom of the Search menu. 
+-->
 
 ## 执行高级搜索 {#conducting-an-advanced-search}
 
@@ -73,11 +75,11 @@ ht-degree: 17%
 
 * **搜索条件**：创建一个或多个搜索字段以搜索元数据。 要创建检索字段：
 
-   1. 在“高级搜索”中的&#x200B;**[!UICONTROL 搜索条件]**&#x200B;标题下，**[!UICONTROL 添加字段]**&#x200B;菜单的左侧，选择向下三角形箭头图标以打开下拉列表。 选择元数据视图。 您可以选择具有值&#x200B;**[!UICONTROL 的]**&#x200B;所有属性、**[!UICONTROL 紧凑视图]**、**[!UICONTROL IPTC]**、**[!UICONTROL 元数据服务器发布字段]**&#x200B;或&#x200B;**[!UICONTROL XMP]**。
+   1. 在“高级搜索”中的&#x200B;**[!UICONTROL 搜索条件]**&#x200B;标题下，**[!UICONTROL 添加字段]**&#x200B;菜单的左侧，选择向下三角形箭头图标以打开下拉列表。 选择元数据视图。 您可以选择具有值&#x200B;]**的**[!UICONTROL &#x200B;所有属性、**[!UICONTROL 紧凑视图]**、**[!UICONTROL IPTC]**、**[!UICONTROL 元数据服务器发布字段]**&#x200B;或&#x200B;**[!UICONTROL XMP]**。
    1. 选择&#x200B;**[!UICONTROL 添加字段]**&#x200B;下拉菜单并选择字段名称。
    1. 选择一个&#x200B;**[!UICONTROL 包含]**&#x200B;选项： **[!UICONTROL 包含]**、**[!UICONTROL 不包含]**、**[!UICONTROL 开头为]**、**[!UICONTROL 结尾为]**&#x200B;或&#x200B;**[!UICONTROL 等于]**。
    1. 对于数字字段，选择一个值或输入一个自定义日期范围。
-   1. （可选）重复步骤 1-4 创建更多个搜索字段。
+   1. （可选）重复步骤1 - 4以创建更多搜索字段。
 
 选择&#x200B;**[!UICONTROL 删除搜索字段]**&#x200B;图标（内有“X”的圆圈），以便删除搜索字段。
 
@@ -87,13 +89,13 @@ ht-degree: 17%
 
 ## 使用元数据过滤资源 {#filter-assets-using-metadata}
 
-过滤资源库“过滤器”选项卡中的资源。要过滤资源，可使用元数据值作为条件。选择要过滤的元数据字段后，“过滤器”选项卡会列出在所选字段中输入的所有元数据值。 它还列出了为每个值分配的资源数。 例如，在&#x200B;**[!UICONTROL 创建者]**&#x200B;元数据字段上的筛选操作中，**[!UICONTROL 筛选器]**&#x200B;选项卡列出了在&#x200B;**[!UICONTROL 创建者]**&#x200B;元数据字段中为不同资源输入的所有名称。 它还列出了每个名称的名称以及分配给该名称的资产数量。 然后，选择一个元数据值以查看分配了该值的所有资源。 在此示例中，选择`Prairie Cat`元数据值可查看在`Prairie Cat`创建者&#x200B;**[!UICONTROL 元数据字段中输入了名称]**&#x200B;的所有资源。 可以使用多个元数据字段作为过滤条件进行过滤。
+过滤资源库“过滤器”选项卡中的资源。 要过滤资源，可使用元数据值作为条件。 选择要过滤的元数据字段后，“过滤器”选项卡会列出在所选字段中输入的所有元数据值。 它还列出了为每个值分配的资源数。 例如，在&#x200B;**[!UICONTROL 创建者]**&#x200B;元数据字段上的筛选操作中，**[!UICONTROL 筛选器]**&#x200B;选项卡列出了在&#x200B;**[!UICONTROL 创建者]**&#x200B;元数据字段中为不同资源输入的所有名称。 它还列出了每个名称的名称以及分配给该名称的资产数量。 然后，选择一个元数据值以查看分配了该值的所有资源。 在此示例中，选择`Prairie Cat`元数据值可查看在&#x200B;**[!UICONTROL 创建者]**&#x200B;元数据字段中输入了名称`Prairie Cat`的所有资源。 可以使用多个元数据字段作为过滤条件进行过滤。
 
 您可以保存过滤器操作以多次运行它们。
 
 >[!NOTE]
 >
->仅默认元数据视图中的元数据字段可用于过滤器操作。“元数据视图”页显示默认元数据视图的名称。
+>仅默认元数据视图中的元数据字段可用于过滤器操作。 “元数据视图”页显示默认元数据视图的名称。
 
 请参阅[元数据视图](application-setup.md#metadata_views)。
 
@@ -103,7 +105,7 @@ ht-degree: 17%
 
 1. 在资产库中，选择&#x200B;**[!UICONTROL 筛选器]**&#x200B;选项卡。
 
-   上一个过滤器操作的条件将显示在“过滤器”窗格中。“过滤器”窗格分成几个面板，每个面板各显示一个元数据字段。可使用面板来选择要作为过滤条件的元数据字段，在每个字段内，选择一个要用于过滤器操作的元数据值。
+   上一个过滤器操作的条件将显示在“过滤器”窗格中。 “过滤器”窗格分成几个面板，每个面板各显示一个元数据字段。 可使用面板来选择要作为过滤条件的元数据字段，在每个字段内，选择一个要用于过滤器操作的元数据值。
 
    要运行已创建并保存的筛选器操作，请选择&#x200B;**[!UICONTROL 选择预设]**，然后在菜单中选择操作的名称。
 
@@ -129,7 +131,7 @@ ht-degree: 17%
    * 对于每个元数据值，分配有此值的资源的数目。
 
 1. 根据需要多次重复执行第 2 步以列出面板上用于过滤器操作的所有元数据字段。
-1. 在每个面板中，选择一个要作为过滤条件的元数据值。不能在每个面板中选择多个元数据值。
+1. 在每个面板中，选择一个要作为过滤条件的元数据值。 不能在每个面板中选择多个元数据值。
 
    与您选择的所有值匹配的Assets将显示在“浏览”面板中。
 

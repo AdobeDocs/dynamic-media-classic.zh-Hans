@@ -10,10 +10,10 @@ role: Admin,User
 exl-id: 604b4630-4704-4254-84b5-91b33bb19d58
 topic: Administration
 level: Intermediate
-source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
+source-git-commit: 384e1ec078540d0cc5224b98ead6eb880cd92c2a
 workflow-type: tm+mt
-source-wordcount: '1996'
-ht-degree: 0%
+source-wordcount: '2133'
+ht-degree: 1%
 
 ---
 
@@ -49,7 +49,7 @@ Adobe Dynamic Media Classic桌面应用程序与以下操作系统兼容：
 * 编辑图像时，**[!UICONTROL 保存]**&#x200B;按钮不起作用。
 * 在“集”编辑器中，滚动&#x200B;**[!UICONTROL 添加Assets]**&#x200B;面板中的资源后，**[!UICONTROL 关闭]**、**[!UICONTROL 保存]**&#x200B;和&#x200B;**[!UICONTROL 另存为]**&#x200B;按钮将被禁用。
 * “视频详细信息”视图中的&#x200B;**[!UICONTROL 播放]**&#x200B;按钮不起作用。
-* 运行macOS Monterey时，无法在`d`用户名`e`和&#x200B;**[!UICONTROL 密码]**&#x200B;字段中输入&#x200B;**[!UICONTROL 和]**。
+* 运行macOS Monterey时，无法在&#x200B;**[!UICONTROL 用户名]**&#x200B;和&#x200B;**[!UICONTROL 密码]**&#x200B;字段中输入`d`和`e`。
 * 已将剩余的Analytics API移至版本2.0。
 
 ## 20.21.3版中的修复 {#release-sept2021}
@@ -67,17 +67,17 @@ Adobe Dynamic Media Classic桌面应用程序与以下操作系统兼容：
 ## 20.21.2版中的修复 {#minor-release}
 
 * 20.21.1中的已知限制：“登录”屏幕上的&#x200B;**[!UICONTROL 服务器]**&#x200B;下拉列表为空。
-* 在&#x200B;**[!UICONTROL 上载作业选项]**&#x200B;中，**[!UICONTROL Photoshop选项]**&#x200B;下的默认图层名称值现在是&#x200B;**[!UICONTROL Photoshop和图层名称]**。 PSD文件中的图层将作为单独的图像上传。
+* 在&#x200B;**[!UICONTROL 上载作业选项]**&#x200B;中，**[!UICONTROL Photoshop选项]**&#x200B;下的默认图层名称值现在是&#x200B;**[!UICONTROL Photoshop和图层名称]**。 PSD 文件中的图层以单独图像形式上载。
    * 较早的默认值&#x200B;**[!UICONTROL 图层名称]**&#x200B;在PSD文件中以图层的名称或图层编号命名图像。 如果PSD文件中的图层名称是默认的Photoshop图层名称，则使用图层编号。
-   * 新的默认值&#x200B;**[!UICONTROL Photoshop和图层名称]**&#x200B;将图像命名为PSD文件后跟图层名称或图层编号。 如果PSD文件中的图层名称是默认的Photoshop图层名称，则使用图层编号。
-   * 考虑到Adobe Dynamic Media Classic中的图层图像现在具有唯一名称，因此不会对现有PSD或“模板”(在原始PSD文件中共享图层名称)进行更新。
+   * 新的默认值&#x200B;**[!UICONTROL Photoshop和图层名称]**&#x200B;将图像命名为PSD文件后跟图层名称或图层编号。 如果 PSD 文件中的图层名称是默认的 Photoshop 图层名称，则将使用图层编号。
+   * 考虑到Adobe Dynamic Media Classic中的图层图像现在具有唯一名称，因此不会对现有PSD或“模板”（在原始PSD文件中共享图层名称）进行更新。
 * 资产的缩略图损坏。
 
 ## 20.21.1版中的修复 {#latest-fixes-desktop-app}
 
 * 由于超时而导致登录问题导致出现以下消息： *此用户可能被分配给无权限的组。 请与管理员联系。*
 * 每次尝试使用错误的密码时，查看器预设都会重复。
-* 由于根文件夹中的许多资产，桌面应用程序变得无响应。 (在Windows®上修复；根据需要在macOS上工作。)
+* 由于根文件夹中的许多资产，桌面应用程序变得无响应。 （在Windows®上修复；根据需要在macOS上工作。）
 
 ## 20.20.2版中的修复 {#previous-version-fixes-desktop-app}
 
@@ -91,7 +91,7 @@ Adobe Dynamic Media Classic桌面应用程序与以下操作系统兼容：
 另请参阅：
 
 * [在Mac上下载并静默安装最新的Adobe Dynamic Media Classic桌面应用程序](#install-silent-mac-dmc-app)
-* [在Windows上下载并静默安装最新的Adobe Dynamic Media Classic桌面应用程序](#install-silent-windows-dmc-app)
+* [在Windows®上下载并静默安装最新的Adobe Dynamic Media Classic桌面应用程序](#install-silent-windows-dmc-app)
 
 1. 卸载系统上的任何旧版Adobe Dynamic Media Classic桌面应用程序。
 
@@ -107,13 +107,19 @@ Adobe Dynamic Media Classic桌面应用程序与以下操作系统兼容：
       * [macOS (.DMG)：下载](https://download.macromedia.com/dynamic-media-classic/20.22.1/adobe-dynamic-media-classic-20.22.1.dmg)
       * [Windows® (.EXE)：下载](https://download.macromedia.com/dynamic-media-classic/20.21.3/adobe-dynamic-media-classic-20.21.3.exe)
 
-<!--         * [macOS (.DMG): Download](https://download.macromedia.com/dynamic-media-classic/20.21.3/adobe-dynamic-media-classic-20.21.3.dmg) -->
+<!--
+         * [macOS (.DMG): Download](https://download.macromedia.com/dynamic-media-classic/20.21.3/adobe-dynamic-media-classic-20.21.3.dmg) 
+-->
 
-<!--    * [macOS (.DMG): Download](https://download.macromedia.com/dynamic-media-classic/20.21.2/adobe-dynamic-media-classic-20.21.2.dmg)
-        * [Windows&reg; (.EXE): Download](https://download.macromedia.com/dynamic-media-classic/20.21.2/adobe-dynamic-media-classic-20.21.2.exe) -->
+<!--
+        * [macOS (.DMG): Download](https://download.macromedia.com/dynamic-media-classic/20.21.2/adobe-dynamic-media-classic-20.21.2.dmg)
+        * [Windows&reg; (.EXE): Download](https://download.macromedia.com/dynamic-media-classic/20.21.2/adobe-dynamic-media-classic-20.21.2.exe) 
+-->
 
-<!--    * [macOS (.DMG): Download.](https://download.macromedia.com/dynamic-media-classic/20.20.2/adobe-dynamic-media-classic-20.20.2.dmg)
-        * [Windows (.EXE): Download.](https://download.macromedia.com/dynamic-media-classic/20.20.2/adobe-dynamic-media-classic-20.20.2.exe) -->
+<!--
+    * [macOS (.DMG): Download.](https://download.macromedia.com/dynamic-media-classic/20.20.2/adobe-dynamic-media-classic-20.20.2.dmg)
+    * [Windows (.EXE): Download.](https://download.macromedia.com/dynamic-media-classic/20.20.2/adobe-dynamic-media-classic-20.20.2.exe) 
+-->
 
 
 1. 根据您下载的安装程序执行以下操作之一。
@@ -149,8 +155,8 @@ Adobe Dynamic Media Classic桌面应用程序与以下操作系统兼容：
 
 另请参阅：
 
-* [在Mac或Windows上下载并安装最新的Adobe Dynamic Media Classic桌面应用程序](#installation-dmc-app)
-* [在Windows上下载并静默安装最新的Adobe Dynamic Media Classic桌面应用程序](#install-silent-windows-dmc-app)
+* [在Mac或Windows上下载并安装最新的Adobe Dynamic Media Classic桌面应用程序®](#installation-dmc-app)
+* [在Windows®上下载并静默安装最新的Adobe Dynamic Media Classic桌面应用程序](#install-silent-windows-dmc-app)
 
 要在macOS上下载并静默安装&#x200B;*最新版本的Adobe Dynamic Media Classic桌面应用程序，请执行以下操作：*
 
@@ -191,7 +197,7 @@ Adobe Dynamic Media Classic桌面应用程序与以下操作系统兼容：
 
 另请参阅：
 
-* [在Mac或Windows上下载并安装最新的Adobe Dynamic Media Classic桌面应用程序](#installation-dmc-app)
+* [在Mac或Windows上下载并安装最新的Adobe Dynamic Media Classic桌面应用程序®](#installation-dmc-app)
 
 * [在macOS上下载并静默安装最新的Adobe Dynamic Media Classic桌面应用程序](#install-silent-mac-dmc-app)
 
@@ -233,7 +239,7 @@ Adobe Dynamic Media Classic桌面应用程序与以下操作系统兼容：
 
 ## 有关使用Adobe Dynamic Media Classic桌面应用程序的视频演练 {#dmc-app-video-walk-through}
 
-观看使用Adobe Dynamic Media Classic桌面应用程序[的](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-learn/assets/dynamic-media/dynamic-media-classic-desktop-application#dynamic-media)视频演练（长度：2分36秒）。
+观看使用Adobe Dynamic Media Classic桌面应用程序](https://experienceleague.adobe.com/en/docs/experience-manager-learn/assets/dynamic-media/dynamic-media-classic-desktop-application#dynamic-media)的[视频演练（长度：2分36秒）。
 
 ## 使用桌面应用程序清除计算机上的图像缓存和资产缓存 {#clear-cache}
 
@@ -254,11 +260,11 @@ Adobe Dynamic Media Classic桌面应用程序与以下操作系统兼容：
 
 ## Adobe Dynamic Media Classic 20.21.1中的已知限制
 
-* 更新到Adobe Dynamic Media Classic桌面应用程序20.21.1后，**[!UICONTROL 服务器]**&#x200B;下拉列表为空：方案：您安装并登录到Adobe Dynamic Media Classic 20.20.1或20.20.2，然后关闭该应用程序。 然后您更新到Adobe Dynamic Media Classic 20.21.1。当您尝试登录时，**[!UICONTROL 登录到您的帐户]**&#x200B;对话框中的&#x200B;**[!UICONTROL 服务器]**&#x200B;下拉列表为空。 要解决此问题，您必须[手动清除缓存](#clear-cache)（请参阅上述步骤）。
+* 更新到Adobe Dynamic Media Classic桌面应用程序20.21.1后，**[!UICONTROL 服务器]**&#x200B;下拉列表为空：方案：您安装并登录到Adobe Dynamic Media Classic 20.20.1或20.20.2，然后关闭该应用程序。 然后您更新到Adobe Dynamic Media Classic 20.21.1。 当您尝试登录时，**[!UICONTROL 登录到您的帐户]**&#x200B;对话框中的&#x200B;**[!UICONTROL 服务器]**&#x200B;下拉列表为空。 要解决此问题，您必须[手动清除缓存](#clear-cache)（请参阅上述步骤）。
 
 ## Adobe Dynamic Media Classic 20.20.1中的已知限制（已在20.20.2中修复）
 
-**_仅适用于Windows® — 能否限制通过桌面应用程序UI上传的文件数量？_**<br>是，使用桌面应用程序UI一次最多可以上传150个文件。
+**_仅适用于Windows® — 通过桌面应用程序UI上传的文件数量是否存在限制？_**<br>是，使用桌面应用程序UI一次最多可以上传150个文件。
 
 **_适用于Windows®和macOS — 如何在公司之间切换？_**<br>要在公司之间切换，请执行以下操作：
 
@@ -271,11 +277,11 @@ Adobe Dynamic Media Classic桌面应用程序与以下操作系统兼容：
 
 ## 提示和技巧
 
-**_我在Adobe Dynamic Media Classic的登录页面上无法看到“媒体购物车”面板。_**<br>在Adobe Dynamic Media Classic中，点按&#x200B;**[!UICONTROL 设置>个人设置&#x200B;]**。 在“浏览器”部分中，确保选中（选中）**[!UICONTROL 显示MediaPortal功能&#x200B;]**。 点按&#x200B;**[!UICONTROL 保存>关闭&#x200B;]**。
+**_我在Adobe Dynamic Media Classic的登陆页面上无法看到“媒体购物车”面板。_**<br>在Adobe Dynamic Media Classic中，点按**[!UICONTROL 设置>个人设置&#x200B;]**。 在“浏览器”部分中，确保选中（选中）**[!UICONTROL 显示MediaPortal功能&#x200B;]**。 点按**[!UICONTROL 保存>关闭&#x200B;]**。
 
-资源的&#x200B;**_发布状态（绿色指示器）未正确反映。_**<br>在浏览器用户界面中，需要重新登录UI才能查看资产的正确发布状态。 在桌面应用程序中，Adobe在&#x200B;**[!UICONTROL 无选择&#x200B;]**&#x200B;按钮右侧的工具栏中引入了&#x200B;**[!UICONTROL 刷新&#x200B;]**&#x200B;图标。 点按&#x200B;**[!UICONTROL 刷新程序&#x200B;]**&#x200B;图标可查看给定页面上所有资产的最新状态。 与浏览器UI一样，无需重新登录。
+**_资产的发布状态（绿色指示器）未正确反映。_**<br>在浏览器用户界面中，需要重新登录UI才能查看资产的正确发布状态。 在桌面应用程序中，Adobe在**[!UICONTROL 无选择&#x200B;]**按钮右侧的工具栏中引入了**[!UICONTROL 刷新&#x200B;]**图标。 点按**[!UICONTROL 刷新程序&#x200B;]**图标可查看给定页面上所有资产的最新状态。 与浏览器UI一样，无需重新登录。
 
 ![刷新图标](/help/using/assets/refresh-icon1.png)
 *刷新图标*
 
-**_我看不到批次集预设在桌面应用程序中工作。_**<br>点按&#x200B;**[!UICONTROL 上传>作业选项>批次集预设&#x200B;]**。 请确保相关&#x200B;**[!UICONTROL 批次集预设&#x200B;]**&#x200B;已启用。 单击&#x200B;**[!UICONTROL 保存并提交上载&#x200B;]**。
+**_我看不到批次集预设在桌面应用程序中工作。_**<br>点按**[!UICONTROL 上传>作业选项>批次集预设&#x200B;]**。 请确保相关**[!UICONTROL 批次集预设&#x200B;]**已启用。 单击**[!UICONTROL 保存并提交上载&#x200B;]**。
