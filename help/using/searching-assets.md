@@ -75,7 +75,7 @@ Does not appear to be working anymore >[!NOTE]
 
 * **搜索条件**：创建一个或多个搜索字段以搜索元数据。 要创建检索字段：
 
-   1. 在“高级搜索”中的&#x200B;**[!UICONTROL 搜索条件]**&#x200B;标题下，**[!UICONTROL 添加字段]**&#x200B;菜单的左侧，选择向下三角形箭头图标以打开下拉列表。 选择元数据视图。 您可以选择具有值&#x200B;]**的**[!UICONTROL &#x200B;所有属性、**[!UICONTROL 紧凑视图]**、**[!UICONTROL IPTC]**、**[!UICONTROL 元数据服务器发布字段]**&#x200B;或&#x200B;**[!UICONTROL XMP]**。
+   1. 在“高级搜索”中的&#x200B;**[!UICONTROL 搜索条件]**&#x200B;标题下，**[!UICONTROL 添加字段]**&#x200B;菜单的左侧，选择向下三角形箭头图标以打开下拉列表。 选择元数据视图。 您可以选择具有值&#x200B;**的**&#x200B;所有属性、**[!UICONTROL 紧凑视图]**、**[!UICONTROL IPTC]**、**[!UICONTROL 元数据服务器发布字段]**&#x200B;或&#x200B;**[!UICONTROL XMP]**。
    1. 选择&#x200B;**[!UICONTROL 添加字段]**&#x200B;下拉菜单并选择字段名称。
    1. 选择一个&#x200B;**[!UICONTROL 包含]**&#x200B;选项： **[!UICONTROL 包含]**、**[!UICONTROL 不包含]**、**[!UICONTROL 开头为]**、**[!UICONTROL 结尾为]**&#x200B;或&#x200B;**[!UICONTROL 等于]**。
    1. 对于数字字段，选择一个值或输入一个自定义日期范围。
