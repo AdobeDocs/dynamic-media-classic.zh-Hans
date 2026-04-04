@@ -24,7 +24,7 @@ ht-degree: 14%
 | 支持 | 订阅 |
 | --- | --- |
 | 服务限制 | 无限制。 |
-| 检查Adobe系统状态 | [Adobe Dynamic Media Classic系统状态](https://status.adobe.com/products/1175)。 |
+| 检查Adobe系统状态 | [Adobe Dynamic Media Classic系统状态](https://status.adobe.com/cn/products/1175)。 |
 | 找不到答案？ | [若要从支持部门获得帮助，请打开票证](https://experienceleague.adobe.com/zh-hans?support-solution=General#support)。 |
 | 社区论坛 | [Experience Manager社区论坛](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/ct-p/adobe-experience-manager-community?profile.language=zh-Hans)。 |
 | SLA（服务级别协议） | [支持服务/条款和条件](https://helpx.adobe.com/cn/support/programs/support-policies-terms-conditions.html)。 |
