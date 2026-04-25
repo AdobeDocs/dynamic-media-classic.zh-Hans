@@ -1,13 +1,15 @@
 ---
 cloud: Experience Cloud
 solution: Dynamic Media Classic
+landing-page-name: experience-manager
+landing-page-breadcrumb-title: AEM
 type: Documentation
 feature-set: Experience Manager Assets
-git-repo: https://github.com/AdobeDocs/dynamic-media-classic.zh-Hans
+git-repo: https://github.com/AdobeDocs/dynamic-media-classic.en
 recommendations: noDisplay
-source-git-commit: de6997fda88c4471625242ee9cca59b344cee945
+source-git-commit: e0fbfb1dd7a6048cc3c3d2b5f9c8913dd7b0096e
 workflow-type: tm+mt
-source-wordcount: '109'
+source-wordcount: '126'
 ht-degree: 0%
 
 ---
