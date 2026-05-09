@@ -1,5 +1,5 @@
 ---
-source-git-commit: de6997fda88c4471625242ee9cca59b344cee945
+source-git-commit: 90e786d7ddb48c19c444e39415d5c0c7dcbb4922
 workflow-type: tm+mt
 source-wordcount: '71'
 ht-degree: 0%
@@ -8,6 +8,7 @@ ht-degree: 0%
 # Adobe Dynamic Media Classic文档
 
 Adobe Dynamic Media Classic文档存储库。
+
 
 欢迎您贡献文档内容。 请参阅以下资源：
 
