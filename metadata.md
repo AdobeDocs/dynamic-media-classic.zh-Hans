@@ -7,7 +7,7 @@ landing-page-name: experience-manager
 landing-page-breadcrumb-title: AEM
 type: Documentation
 feature-set: Experience Manager Assets
-git-repo: https://github.com/AdobeDocs/dynamic-media-classic.en
+git-repo: https://github.com/AdobeDocs/dynamic-media-classic.zh-Hans
 recommendations: noDisplay
 source-git-commit: 7c4f76961732a226c70e5a0015acac4a237dcda6
 workflow-type: tm+mt
