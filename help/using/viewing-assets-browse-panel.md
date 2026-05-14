@@ -10,9 +10,20 @@ role: User
 exl-id: 4d38a224-5e06-4932-a801-5dcc32fe4b31
 topic: Content Management
 level: Intermediate
-source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
+autotag-review: '2026-05-13T20:18:14.478Z'
+TQID: 'https://experienceleague.adobe.com/Cl9rF-2n6Oqeu0MQqolCSWUf5JEm3t0HbGnBfjB5fJY'
+product_v2:
+  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
 workflow-type: tm+mt
-source-wordcount: '253'
+source-wordcount: 258
 ht-degree: 11%
 
 ---
@@ -23,7 +34,7 @@ ht-degree: 11%
 
 * **网格视图**：在Adobe Dynamic Media Classic屏幕的右上角附近，选择&#x200B;**[!UICONTROL 网格视图]**&#x200B;图标以在网格中查看缩略图形式的资源。 在“网格视图”中，您可以拖动“缩略图”滑块来更改缩略图图像的大小。
 
-* **列表视图**：在Adobe Dynamic Media Classic屏幕的右上角附近，选择&#x200B;**[!UICONTROL 列表视图]**&#x200B;图标以查看列表中的资源。 列表会显示每个资源的名称、类型、创建日期和最后修改日期。根据您使用的资源类型，您还可以获得其他信息。 例如，可以看到图像的尺寸和文件大小。
+* **列表视图**：在Adobe Dynamic Media Classic屏幕的右上角附近，选择&#x200B;**[!UICONTROL 列表视图]**&#x200B;图标以查看列表中的资源。 列表会显示每个资源的名称、类型、创建日期和最后修改日期。 根据您使用的资源类型，您还可以获得其他信息。 例如，可以看到图像的尺寸和文件大小。
 
 * **详细信息视图**：选择资源。 在Adobe Dynamic Media Classic屏幕的右上角附近，选择&#x200B;**[!UICONTROL 详细信息视图]**&#x200B;图标以在“详细信息视图”中检查资源。 您还可以双击某个资源或将其选中并转到&#x200B;**[!UICONTROL 文件]** > **[!UICONTROL 详细信息]**&#x200B;以在“详细信息”视图中查看它。 如果管理员指定了“显示URL”首选项，则“详细信息视图”中将显示所有资产的URL；但是，只有在发布资产后，URL才会处于活动状态。
 

@@ -9,9 +9,20 @@ role: Admin,User
 exl-id: 14729192-7b9d-4f42-99da-6564a3f35959
 topic: Content Management
 level: Intermediate
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+autotag-review: '2026-05-13T17:34:44.287Z'
+TQID: 'https://experienceleague.adobe.com/SwNEO6U33qx45AECK79nff9f9kABWuOdq91d4X8SHd0'
+product_v2:
+  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
 workflow-type: tm+mt
-source-wordcount: '168'
+source-wordcount: 179
 ht-degree: 35%
 
 ---
@@ -32,7 +43,7 @@ UGC支持栅格图像文件格式BMP、GIF、JPG、PNG、PSD、TIFF。
 >
 >对Adobe Dynamic Media Classic中新增或现有UGC矢量图像资源的支持已于2021年9月30日终止。
 
-上载资源之前，请获取共享密钥。使用此密钥来检索上载令牌。上载资源及执行其他 UGC 任务时，需要提交上载令牌。
+上载资源之前，请获取共享密钥。 使用此密钥来检索上载令牌。 上载资源及执行其他 UGC 任务时，需要提交上载令牌。
 
 检索共享密钥并上载令牌后，您可以对用户生成的内容执行以下操作：
 

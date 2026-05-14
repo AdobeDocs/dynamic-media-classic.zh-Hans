@@ -6,9 +6,21 @@ role: Admin,User
 exl-id: 21e67a41-16a2-4f41-8cfe-a5d7941c73a0
 topic: Administration, Collaboration
 level: Beginner
-source-git-commit: 8dc990a1fb1355b00fa4839e14b92bb6562d40b4
+autotag-review: '2026-05-13T20:15:12.699Z'
+TQID: 'https://experienceleague.adobe.com/CXXXCgclGgysDJ0lMKOhURx6kaPHXzr-VpSf7nA1RDA'
+product_v2:
+  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
 workflow-type: tm+mt
-source-wordcount: '615'
+source-wordcount: 5252
 ht-degree: 0%
 
 ---

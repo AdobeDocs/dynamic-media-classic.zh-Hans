@@ -10,16 +10,26 @@ role: User
 exl-id: af75547e-20e8-44c2-b165-01532d6e21d0
 topic: Content Management
 level: Intermediate
-source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
+autotag-review: '2026-05-13T20:03:03.240Z'
+TQID: 'https://experienceleague.adobe.com/wOviDM-OY9nHBF9RnPXwsCQ2psd6UsxVVppf5kyS0y0'
+product_v2:
+  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
 workflow-type: tm+mt
-source-wordcount: '727'
+source-wordcount: 732
 ht-degree: 21%
 
 ---
 
 # 将旋转集链接到网页{#linking-a-spin-set-to-a-web-page}
 
-网站和应用程序通过URL字符串或嵌入代码访问Dynamic Media图像服务器内容，包括旋转集。 这些 URL 字符串在发布过程中被激活。要将旋转集的URL字符串或嵌入代码放置到网页和应用程序中，请从Adobe Dynamic Media Classic复制该字符串或嵌入代码。
+网站和应用程序通过URL字符串或嵌入代码访问Dynamic Media图像服务器内容，包括旋转集。 这些 URL 字符串在发布过程中被激活。 要将旋转集的URL字符串或嵌入代码放置到网页和应用程序中，请从Adobe Dynamic Media Classic复制该字符串或嵌入代码。
 
 >[!NOTE]
 >
@@ -31,7 +41,7 @@ ht-degree: 21%
 1. 在左侧的“资产库”面板中，导航到包含要复制其嵌入代码的旋转集的资产文件夹。
 1. 在“资源浏览”面板上方的工具栏右侧，执行以下任一操作：
 
-   * 选择&#x200B;**[!UICONTROL 网格视图]**。 在“资源浏览”面板中，双击单个资源以便在详细信息视图中将其打开。在右侧的“URL和嵌入代码”面板中，选择所需查看器右侧的&#x200B;**[!UICONTROL 复制URL]**。
+   * 选择&#x200B;**[!UICONTROL 网格视图]**。 在“资源浏览”面板中，双击单个资源以便在详细信息视图中将其打开。 在右侧的“URL和嵌入代码”面板中，选择所需查看器右侧的&#x200B;**[!UICONTROL 复制URL]**。
    * 选择&#x200B;**[!UICONTROL 网格视图]**。 在“资源浏览”面板中，选择单个资源，然后在缩略图图像下面转到&#x200B;**[!UICONTROL 预览]** > **[!UICONTROL 查看器列表]**。
 
      在“查看器列表”页表的“操作”列下，选择&#x200B;**[!UICONTROL 复制URL]**。
@@ -46,7 +56,7 @@ ht-degree: 21%
 
 ## 将旋转集URL添加到网页 {#adding-spin-set-urls-to-your-web-page}
 
-旋转集的部署方式与所有缩放查看器一样，即通过在缩放窗口中显示旋转集的动态页面（ASP 或 JSP）进行部署。对Adobe Dynamic Media Classic平台的URL调用在缩放查看器中遵循相同的协议。 不过，查看器预设名称取决于您的管理员所定义的默认旋转集查看器预设。例如，以下非实时URL语法示例包含一个名为`viewer.jsp`的预设名称，现在SKU参数是旋转集名称：
+旋转集的部署方式与所有缩放查看器一样，即通过在缩放窗口中显示旋转集的动态页面（ASP 或 JSP）进行部署。 对Adobe Dynamic Media Classic平台的URL调用在缩放查看器中遵循相同的协议。 不过，查看器预设名称取决于您的管理员所定义的默认旋转集查看器预设。 例如，以下非实时URL语法示例包含一个名为`viewer.jsp`的预设名称，现在SKU参数是旋转集名称：
 
 ```as3
 https://sample.scene7.com/s7ondemand/spin/viewer.jsp?company=S7Web&sku=backpack_spin
@@ -64,7 +74,7 @@ https://sample.scene7.com/s7ondemand/spin/viewer.jsp?company=S7Web&sku=backpack_
 1. 在左侧的“资产库”面板中，导航到包含要复制其嵌入代码的旋转集的资产文件夹。
 1. 在“资源浏览”面板上方的工具栏右侧，执行以下任一操作：
 
-   * 选择&#x200B;**[!UICONTROL 网格视图]**。 在“资源浏览”面板中，双击单个资源以便在详细信息视图中将其打开。在右侧的“URL和嵌入代码”面板中，选择所需查看器右侧的&#x200B;**[!UICONTROL 嵌入代码]**。
+   * 选择&#x200B;**[!UICONTROL 网格视图]**。 在“资源浏览”面板中，双击单个资源以便在详细信息视图中将其打开。 在右侧的“URL和嵌入代码”面板中，选择所需查看器右侧的&#x200B;**[!UICONTROL 嵌入代码]**。
    * 选择&#x200B;**[!UICONTROL 网格视图]**。 在“资源浏览”面板中，选择单个资源，然后在缩略图图像下面转到&#x200B;**[!UICONTROL 预览]** > **[!UICONTROL 查看器列表]**。
 
      在“查看器列表”页表的“操作”列下，选择&#x200B;**[!UICONTROL 嵌入代码]**。

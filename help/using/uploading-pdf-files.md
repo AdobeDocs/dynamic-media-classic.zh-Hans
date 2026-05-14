@@ -9,16 +9,25 @@ role: User
 exl-id: a787d6b5-48c8-4cf7-b136-60ba3d3eb2f2
 topic: Integrations, Development
 level: Experienced
-source-git-commit: 29752cf9eca0fc9bb760c721e1c3dc8e4ef912c3
+autotag-review: '2026-05-13T20:17:17.647Z'
+TQID: 'https://experienceleague.adobe.com/SNoRYiCgjJK2TBx6X7HAzv3Xqet64-lm4oSOcat7DfM'
+product_v2:
+  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
 workflow-type: tm+mt
-source-wordcount: '847'
-ht-degree: 30%
+source-wordcount: 858
+ht-degree: 29%
 
 ---
 
 # 上传PDF文件{#uploading-the-pdf-files}
 
-通常，Adobe PDF文件是eCatalog的源。 这些文件包含所有图像信息、字体和矢量图形。 也可以利用图像来构建 eCatalog。准备好要上传的PDF文件后，在全局导航栏上选择&#x200B;**[!UICONTROL 上传]**&#x200B;开始上传PDF。
+通常，Adobe PDF文件是eCatalog的源。 这些文件包含所有图像信息、字体和矢量图形。 也可以利用图像来构建 eCatalog。 准备好要上传的PDF文件后，在全局导航栏上选择&#x200B;**[!UICONTROL 上传]**&#x200B;开始上传PDF。
 
 在上传用于页面提取的PDF时，Adobe会强制实施以下限制：
 
@@ -33,10 +42,10 @@ ht-degree: 30%
 在将PDF文件上传到Adobe Dynamic Media Classic之前对其进行准备：
 
 * 为了更轻松地上传文件，请将所有文件放在计算机或网络上的同一文件夹中。
-* 按照页面的字母数字顺序命名文件。如果对页面进行排序，则在文件上载之后，更容易按正确顺序放置页面。
-* 要查看PDF页面是否包含裁切标记、注册目标或颜色条，请检查页面。 这些标记决定了印刷文档时的切纸位置，将 eCatalog 放到网络中之前，必须删除这些标记。Adobe Dynamic Media Classic提供了用于在上传PDF文件时裁切标记的选项。
-* 如果您希望查看者按关键字搜索eCatalog，请了解PDF文件是否“拼合”。 从平面化的 PDF 文件中无法提取搜索词。要了解PDF是否已拼合，请尝试选择其中的文本。 如果无法选择文本，则PDF将被扁平化，并且查看器无法按eCatalog中的关键字进行搜索。
-* 由于 PDF 文件要用于印刷，因此通常包含 CMYK 图像。默认情况下，Adobe Dynamic Media Classic可以智能地检测这些CMYK图像，并使用内部CMYK颜色配置文件转换它们。 但如果需要，也可以使用自定颜色配置文件来转换 CMYK 图像。
+* 按照页面的字母数字顺序命名文件。 如果对页面进行排序，则在文件上载之后，更容易按正确顺序放置页面。
+* 要查看PDF页面是否包含裁切标记、注册目标或颜色条，请检查页面。 这些标记决定了印刷文档时的切纸位置，将 eCatalog 放到网络中之前，必须删除这些标记。 Adobe Dynamic Media Classic提供了用于在上传PDF文件时裁切标记的选项。
+* 如果您希望查看者按关键字搜索eCatalog，请了解PDF文件是否“拼合”。 从平面化的 PDF 文件中无法提取搜索词。 要了解PDF是否已拼合，请尝试选择其中的文本。 如果无法选择文本，则PDF将被扁平化，并且查看器无法按eCatalog中的关键字进行搜索。
+* 由于 PDF 文件要用于印刷，因此通常包含 CMYK 图像。 默认情况下，Adobe Dynamic Media Classic可以智能地检测这些CMYK图像，并使用内部CMYK颜色配置文件转换它们。 但如果需要，也可以使用自定颜色配置文件来转换 CMYK 图像。
 
   查看[ICC（国际彩色联盟）配置文件](icc-profiles.md#icc_profiles)。
 
@@ -52,11 +61,11 @@ ht-degree: 30%
 
 * **提取搜索词（可选）**：在“上载作业选项”对话框中，选择&#x200B;**[!UICONTROL PDF选项]**。 如果希望您的查看者能够在eCatalog中按关键字搜索，请在“提取”下拉列表中选择&#x200B;**[!UICONTROL 搜索词]**。
 
-* **从多页PDF自动生成eCatalog（可选）**：在“上载作业选项”对话框中，选择&#x200B;**[!UICONTROL PDF选项]**。 单击&#x200B;**[!UICONTROL 从多个页面PDF自动生成eCatalog]**，以便在上传时自动创建eCatalog。 可以直接进入 eCatalog 屏幕，并开始使用 eCatalog，无需先选择 PDF 文件及选择“构建”命令。eCatalog 用 PDF 文件的名称命名。
+* **从多页PDF自动生成eCatalog（可选）**：在“上载作业选项”对话框中，选择&#x200B;**[!UICONTROL PDF选项]**。 单击&#x200B;**[!UICONTROL 从多个页面PDF自动生成eCatalog]**，以便在上传时自动创建eCatalog。 可以直接进入 eCatalog 屏幕，并开始使用 eCatalog，无需先选择 PDF 文件及选择“构建”命令。 eCatalog 用 PDF 文件的名称命名。
 
 * **分辨率**：在“上载作业选项”对话框中，选择&#x200B;**[!UICONTROL PDF选项]**。 在&#x200B;**[!UICONTROL 分辨率]**&#x200B;文本字段中，输入一个值。 Adobe Dynamic Media Classic建议每英寸150像素。
 
-* **色彩空间**：在“上载作业选项”对话框中，选择&#x200B;**[!UICONTROL PDF选项]**。 在“颜色空间”下拉列表中，选择&#x200B;**[!UICONTROL 自动检测]**。 通常，为印刷输出创建的 PDF 采用 CMYK；而用于在线查看的 PDF 则采用 RGB。如果 PDF 使用两个颜色空间，可以选择“强制渲染为 RGB”或“强制渲染为 CMYK”来选择特定颜色空间。例如，当页面图形使用 CMYK 颜色空间，但图片使用 RGB 时，PDF 使用这两个颜色空间。如果上载了 ICC 配置文件，则其名称显示在“颜色空间”菜单上，您可以在其中选择该名称。
+* **色彩空间**：在“上载作业选项”对话框中，选择&#x200B;**[!UICONTROL PDF选项]**。 在“颜色空间”下拉列表中，选择&#x200B;**[!UICONTROL 自动检测]**。 通常，为印刷输出创建的 PDF 采用 CMYK；而用于在线查看的 PDF 则采用 RGB。 如果 PDF 使用两个颜色空间，可以选择“强制渲染为 RGB”或“强制渲染为 CMYK”来选择特定颜色空间。 例如，当页面图形使用 CMYK 颜色空间，但图片使用 RGB 时，PDF 使用这两个颜色空间。 如果上载了 ICC 配置文件，则其名称显示在“颜色空间”菜单上，您可以在其中选择该名称。
 
   查看[ICC（国际彩色联盟）配置文件](/help/using/icc-profiles.md)。
 

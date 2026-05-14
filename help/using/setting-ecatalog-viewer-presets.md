@@ -9,16 +9,25 @@ role: User
 exl-id: 4357e6b8-fbc5-4e93-9476-db92a7dc7464
 topic: Integrations, Development
 level: Experienced
-source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
+autotag-review: '2026-05-13T19:57:04.669Z'
+TQID: 'https://experienceleague.adobe.com/Ej7QeFT62FLz2hWS2w-ll2H9m2pkHXlMSJJDJTsgERg'
+product_v2:
+  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
 workflow-type: tm+mt
-source-wordcount: '482'
+source-wordcount: 483
 ht-degree: 25%
 
 ---
 
 # 设置eCatalog查看器预设{#setting-up-ecatalog-viewer-presets}
 
-eCatalog 查看器预设决定了 eCatalog 查看器的样式、行为和外观。Adobe Dynamic Media Classic提供了eCatalog查看器预设，如果您是管理员，则可以创建自己的eCatalog查看器预设。
+eCatalog 查看器预设决定了 eCatalog 查看器的样式、行为和外观。 Adobe Dynamic Media Classic提供了eCatalog查看器预设，如果您是管理员，则可以创建自己的eCatalog查看器预设。
 
 要创建预设，您可以从头开始或从Adobe Dynamic Media Classic提供的eCatalog查看器预设开始，然后以新名称保存预设。 可以创建自己的 eCatalog 查看器预设，以使用公司颜色来显示印刷材料并设置色调。
 

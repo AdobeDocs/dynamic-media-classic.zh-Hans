@@ -10,9 +10,17 @@ role: User
 topic: Content Management
 level: Beginner
 exl-id: f1d46f03-57a1-43d8-a0ee-74b92b590736
-source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
+autotag-review: '2026-05-13T20:09:57.533Z'
+TQID: 'https://experienceleague.adobe.com/VGp4OQ03iRiobXKWuUERNtFwUMQ4z7a19wyOgHWuv3w'
+product_v2:
+  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
 workflow-type: tm+mt
-source-wordcount: '873'
+source-wordcount: 926
 ht-degree: 7%
 
 ---
@@ -31,31 +39,31 @@ ht-degree: 7%
 
 以下图像大小快速入门旨在帮助您快速启动并运行Adobe Dynamic Media Classic中的图像大小调整技术。 执行步骤1-5。 在每个步骤之后，都有一个交叉引用，您可以在其中查找所需的更多信息。
 
-## 1.上传主图像
+## &#x200B;1. 上传主图像
 
 首先，将您的主图像上传到Adobe Dynamic Media Classic。 关于大小，Adobe Dynamic Media Classic建议使用您希望在网站或应用程序上使用的最大大小的图像。 例如，如果您希望查看器缩放图像，请上传最大大小至少为2000像素的图像。 Adobe Dynamic Media Classic支持多种图像文件格式，但建议使用无损的TIFF和PNG图像。
 
 在全局导航栏上，选择&#x200B;**[!UICONTROL 上传]**&#x200B;以将文件从您的计算机上传到Adobe Dynamic Media Classic上的文件夹。 请参阅[上载主映像](uploading-master-images.md#uploading_master_images)。
 
-## 2.设置图像预设
+## &#x200B;2. 设置图像预设
 
-像宏一样，图像预设是用某个名称保存的一组预定义大小和格式命令。图像预设可控制从Dynamic Media图像服务器传送图像的大小和格式。 如果您拥有公司管理员状态，则可以自行设置图像预设。 您可以使用已随Adobe Dynamic Media Classic提供的默认图像预设动态交付图像。
+像宏一样，图像预设是用某个名称保存的一组预定义大小和格式命令。 图像预设可控制从Dynamic Media图像服务器传送图像的大小和格式。 如果您拥有公司管理员状态，则可以自行设置图像预设。 您可以使用已随Adobe Dynamic Media Classic提供的默认图像预设动态交付图像。
 
 若要创建图像预设（如果您是管理员），请在全局导航栏上，转到&#x200B;**[!UICONTROL 设置]** > **[!UICONTROL 应用程序设置]** > **[!UICONTROL 图像预设]**。 然后选择&#x200B;**[!UICONTROL 添加]**&#x200B;以创建图像预设，或选择&#x200B;**[!UICONTROL 编辑]**&#x200B;以更改现有的图像预设。
 
 您创建的图像预设会添加到“预览”页面上的“图像预设”菜单中。 您可以使用新的图像预设在网站和应用程序上动态显示图像。 请参阅[设置图像预设](setting-image-presets.md#setting_up_image_presets)。
 
-## 3.预览图像预设
+## &#x200B;3. 预览图像预设
 
 下一步是预览管理员设置的不同预设大小的图像预设。
 
 若要浏览图像预设，请在全局导航栏上，转到&#x200B;**[!UICONTROL 设置]** > **[!UICONTROL 图像预设]**，然后浏览到图像预设。
 
-试用不同的图像预设。了解图像以不同大小动态传送到您的网站或应用程序时的显示方式。
+试用不同的图像预设。 了解图像以不同大小动态传送到您的网站或应用程序时的显示方式。
 
 请参阅[预览基于其图像预设的图像资源](previewing-asset.md#previewing_an_image_asset_based_on_its_image_preset)。
 
-## 4.发布主图像
+## &#x200B;4. 发布您的主图像
 
 发布主图像文件有两个基本目的：
 
@@ -64,8 +72,8 @@ ht-degree: 7%
 
 在全局导航栏上，选择&#x200B;**[!UICONTROL 发布]**&#x200B;以启动发布作业。 在“发布”对话框中，选择&#x200B;**[!UICONTROL 提交发布]**。 请参阅[发布主图像](publishing-master-images.md#publishing_master_images)。
 
-## 5.将URL链接到您的Web应用程序
+## &#x200B;5. 将URL链接到您的Web应用程序
 
 Adobe Dynamic Media Classic为图像创建URL标注字符串。 在将图像发布到Dynamic Media图像服务器时，URL会变为活动状态。 您可以从“浏览”面板（在“详细信息视图”中）或“预览”屏幕复制这些URL字符串。 复制URL字符串后，您可以在网站和应用程序中使用它们。 用于调整图像大小的URL将替换网页代码中对静态图像名称的引用。 URL引用了数据库为要显示的每个新图像替换的主图像名称。
 
-由图像预设生成的 URL 字符串包含图像预设的名称。此名称用美元符号(`$`)括起来。 例如，`$thumbnail$`可以是设计成以缩略图大小显示主图像的图像预设。 查看[将URL链接到您的Web应用程序](linking-urls-web-application.md#linking_urls_to_your_web_application)。
+由图像预设生成的 URL 字符串包含图像预设的名称。 此名称用美元符号(`$`)括起来。 例如，`$thumbnail$`可以是设计成以缩略图大小显示主图像的图像预设。 查看[将URL链接到您的Web应用程序](linking-urls-web-application.md#linking_urls_to_your_web_application)。

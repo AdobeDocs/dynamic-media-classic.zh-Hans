@@ -10,9 +10,20 @@ role: Admin,User
 exl-id: 604b4630-4704-4254-84b5-91b33bb19d58
 topic: Administration
 level: Intermediate
-source-git-commit: 384e1ec078540d0cc5224b98ead6eb880cd92c2a
+autotag-review: '2026-05-13T19:46:24.807Z'
+TQID: 'https://experienceleague.adobe.com/w-jPQYG7xGeBmC8fOzcPzi6ZZ-urf0C0-HoDKVbjCWk'
+product_v2:
+  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
 workflow-type: tm+mt
-source-wordcount: '2133'
+source-wordcount: 2135
 ht-degree: 1%
 
 ---
@@ -279,7 +290,7 @@ Adobe Dynamic Media Classic桌面应用程序与以下操作系统兼容：
 
 **_我在Adobe Dynamic Media Classic的登陆页面上无法看到“媒体购物车”面板。_**<br>在Adobe Dynamic Media Classic中，点按&#x200B;**[!UICONTROL 设置>个人设置&#x200B;]**。 在“浏览器”部分中，确保选中（选中）**[!UICONTROL 显示MediaPortal功能&#x200B;]**。 点按&#x200B;**[!UICONTROL 保存>关闭&#x200B;]**。
 
-**_资产的发布状态（绿色指示器）未正确反映。_**<br>在浏览器用户界面中，需要重新登录UI才能查看资产的正确发布状态。 在桌面应用程序中，Adobe在&#x200B;**[!UICONTROL 无选择&#x200B;]**&#x200B;按钮右侧的工具栏中引入了&#x200B;**[!UICONTROL 刷新&#x200B;]**&#x200B;图标。 点按&#x200B;**[!UICONTROL 刷新程序&#x200B;]**&#x200B;图标可查看给定页面上所有资产的最新状态。 与浏览器UI一样，无需重新登录。
+资源的&#x200B;**_发布状态（绿色指示器）未正确反映。_**<br>在浏览器用户界面中，需要重新登录UI才能查看资产的正确发布状态。 在桌面应用程序中，Adobe在&#x200B;**[!UICONTROL 无选择&#x200B;]**&#x200B;按钮右侧的工具栏中引入了&#x200B;**[!UICONTROL 刷新&#x200B;]**&#x200B;图标。 点按&#x200B;**[!UICONTROL 刷新程序&#x200B;]**&#x200B;图标可查看给定页面上所有资产的最新状态。 与浏览器UI一样，无需重新登录。
 
 ![刷新图标](/help/using/assets/refresh-icon1.png)
 *刷新图标*

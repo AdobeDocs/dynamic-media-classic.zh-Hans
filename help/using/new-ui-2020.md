@@ -9,9 +9,23 @@ role: Admin,User
 exl-id: d61ea80a-a98e-43e6-9e2e-4389962134f1
 topic: Administration
 level: Intermediate
-source-git-commit: 550d44027a314dd473a428048f4274bc16b033cd
+autotag-review: '2026-05-13T20:06:03.775Z'
+TQID: 'https://experienceleague.adobe.com/drvyHmeIdmW-jUGd6-Ugc0C8CoveFURR4ozcr1cB-rc'
+product_v2:
+  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
 workflow-type: tm+mt
-source-wordcount: '1057'
+source-wordcount: 1098
 ht-degree: 0%
 
 ---
@@ -60,7 +74,7 @@ Adobe Dynamic Media Classic的基础API没有变化。
 +++
 
 +++**_新的Adobe Dynamic Media Classic桌面应用能否在Mac和个人计算机上工作？_**
-是。这款新的桌面应用程序是一种跨平台解决方案，适用于Mac和PC。 Linux® *不支持*。
+是。 这款新的桌面应用程序是一种跨平台解决方案，适用于Mac和PC。 Linux® *不支持*。
 +++
 
 +++**_我的公司有严格的安全要求。 新的Adobe Dynamic Media Classic桌面应用程序如何处理这些要求？_**

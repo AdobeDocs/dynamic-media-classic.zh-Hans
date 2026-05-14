@@ -10,16 +10,24 @@ role: User
 exl-id: 7e6f652c-b197-4171-b11b-f532795f7cf2
 topic: Content Management
 level: Intermediate
-source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
+autotag-review: '2026-05-13T20:07:17.783Z'
+TQID: 'https://experienceleague.adobe.com/SGEzcnrSQUNlvBeZjObo3kn6mStNAXtUeUtAmHMosS4'
+product_v2:
+  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
 workflow-type: tm+mt
-source-wordcount: '1008'
-ht-degree: 12%
+source-wordcount: 1023
+ht-degree: 11%
 
 ---
 
 # 预览资源{#previewing-an-asset}
 
-您可以使用预览功能查看客户查看数字资产时如何显示。 “预览”使用分配给资源的默认查看器。默认查看器在“应用程序设置”中进行配置。
+您可以使用预览功能查看客户查看数字资产时如何显示。 “预览”使用分配给资源的默认查看器。 默认查看器在“应用程序设置”中进行配置。
 
 请参阅[配置默认查看器](application-setup.md#configuring_default_viewers)。
 
@@ -43,7 +51,7 @@ ht-degree: 12%
 
 ## 根据查看器平台类型预览资源 {#previewing-an-asset-based-on-viewer-platform-type}
 
-您可以使用查看器列表预览资源在特定查看器平台类型(如HTML5)上的显示方式。 并不是所有平台都可在查看器列表中找到，这取决于您选择要预览的资源类型和关联的查看器。
+您可以使用查看器列表预览资源在特定查看器平台类型（如HTML5）上的显示方式。 并不是所有平台都可在查看器列表中找到，这取决于您选择要预览的资源类型和关联的查看器。
 
 您还可以使用查看器列表复制查看器的URL，或者查看并复制查看器代码以嵌入到网页中。
 
@@ -72,7 +80,7 @@ ht-degree: 12%
 
    * 在“查看器列表”窗口表的“操作”列下，选择&#x200B;**[!UICONTROL 嵌入代码]**。
 
-     选择&#x200B;**[!UICONTROL 嵌入代码]**&#x200B;后，将打开嵌入代码窗口，您可以在其中查看查看器代码。 不允许在该窗口中编辑代码。您还可以将代码复制到剪贴板，以便将其粘贴到网页中。
+     选择&#x200B;**[!UICONTROL 嵌入代码]**&#x200B;后，将打开嵌入代码窗口，您可以在其中查看查看器代码。 不允许在该窗口中编辑代码。 您还可以将代码复制到剪贴板，以便将其粘贴到网页中。
 
      关闭显示的预览。
 

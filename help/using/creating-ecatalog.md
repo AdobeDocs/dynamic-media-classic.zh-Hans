@@ -10,10 +10,21 @@ role: User
 exl-id: 51d411b2-b4bc-4cf6-afca-dd0ed0d219a1
 topic: Integrations, Development
 level: Experienced
-source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
+autotag-review: '2026-05-13T17:43:46.184Z'
+TQID: 'https://experienceleague.adobe.com/wNCmgUez4XtC2sJFmMQvlsczy2r-TxFsDXzrzACGNXc'
+product_v2:
+  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
 workflow-type: tm+mt
-source-wordcount: '984'
-ht-degree: 30%
+source-wordcount: 990
+ht-degree: 31%
 
 ---
 
@@ -46,7 +57,7 @@ ht-degree: 30%
      >
      >要按照名称而不是缩略图查看资源库中的物品，在“个人设置”的“默认资源库”视图中选择“名称”选项。
 
-1. 为 eCatalog 选择整体布局。为单页选择&#x200B;**[!UICONTROL 1 Up]**，为双页跨页选择&#x200B;**[!UICONTROL 2 Up]**，或为超过两页的页面跨页选择&#x200B;**[!UICONTROL 自定义]**。 在&#x200B;**[!UICONTROL 更改eCatalog布局]**&#x200B;对话框中，选择&#x200B;**[!UICONTROL 所有跨页]**&#x200B;选项，然后选择&#x200B;**[!UICONTROL 确定]**。
+1. 为 eCatalog 选择整体布局。 为单页选择&#x200B;**[!UICONTROL 1 Up]**，为双页跨页选择&#x200B;**[!UICONTROL 2 Up]**，或为超过两页的页面跨页选择&#x200B;**[!UICONTROL 自定义]**。 在&#x200B;**[!UICONTROL 更改eCatalog布局]**&#x200B;对话框中，选择&#x200B;**[!UICONTROL 所有跨页]**&#x200B;选项，然后选择&#x200B;**[!UICONTROL 确定]**。
 1. （可选）更改单个页面或跨页布局，方法是选择这些页面或跨页，然后选择&#x200B;**[!UICONTROL 1 Up]**、**[!UICONTROL 2 Up]**&#x200B;或&#x200B;**[!UICONTROL 自定义]**&#x200B;按钮。 在&#x200B;**[!UICONTROL 更改eCatalog布局]**&#x200B;对话框中，选择&#x200B;**[!UICONTROL 选定跨页]**&#x200B;选项，然后选择&#x200B;**[!UICONTROL 确定]**。
 1. 根据需要采用以下方法之一重新排序页面：
 
@@ -58,7 +69,7 @@ ht-degree: 30%
 
 1. 完成后，在页面的右下角附近，确保选中&#x200B;**[!UICONTROL 保存后发布]**（默认）。
 1. 选择&#x200B;**[!UICONTROL 保存]**。
-1. 在“保存”对话框中，选择一个文件夹以存储您的 eCatalog。在“文件名”字段中，输入旋转集名称。
+1. 在“保存”对话框中，选择一个文件夹以存储您的 eCatalog。 在“文件名”字段中，输入旋转集名称。
 1. 选择&#x200B;**[!UICONTROL 保存]**。
 
    在保存eCatalog后，您可以通过选择&#x200B;**[!UICONTROL 预览]**&#x200B;来预览它。
@@ -70,7 +81,7 @@ ht-degree: 30%
 | 是否已发布集？ | 在保存编辑之前，是否选择了“保存后发布”选项？ | 保存后的集状态 | 保存后的集成员状态 |
 | --- | --- | --- | --- |
 | 是 | 是 | 已发布 | 已发布 |
-| 是 | 否 | 已发布 | 现有集成员将保留其已发布状态。 在编辑期间添加的任何新的集成员保持其已发布或未发布状态。 |
+| 是 | 否 | 已发布 | 现有的集成员保持其已发布状态。 在编辑期间添加的任何新的集成员保持其已发布或未发布状态。 |
 | 否 | 是 | 已发布 | 已发布 |
 | 否 | 否 | 未发布 | 现有的集成员以及在编辑期间添加的任何新的集成员保持其已发布或未发布状态。 |
 
@@ -85,7 +96,7 @@ ht-degree: 30%
 
 ## 删除eCatalog
 
-在删除集时，集本身将移到垃圾桶中。但是，该集中的成员（或“子项”）不受影响；相反，它们各自保留其现有的已发布或未发布状态。
+在删除集时，集本身将移到垃圾桶中。 但是，该集中的成员（或“子项”）不受影响；相反，它们各自保留其现有的已发布或未发布状态。
 
 另请参阅[手动发布资源](publishing-files.md#manually_publishing_assets)和[手动取消发布资源](publishing-files.md#manually_unpublishing_assets)。
 
@@ -96,9 +107,9 @@ ht-degree: 30%
 
 ## 自定义目录（目录） {#customizing-the-table-of-contents-toc}
 
-Adobe Dynamic Media Classic在eCatalog屏幕的“订单页面”选项卡上，为您的eCatalog提供默认页码。 要自定义页面名称，可以更改构成目录 (TOC) 的页标签。推荐重命名封面和封底。例如，封面页可以阅读“封面”而不是“第0-1页”。
+Adobe Dynamic Media Classic在eCatalog屏幕的“订单页面”选项卡上，为您的eCatalog提供默认页码。 要自定义页面名称，可以更改构成目录 (TOC) 的页标签。 推荐重命名封面和封底。 例如，封面页可以阅读“封面”而不是“第0-1页”。
 
-您可以手动为eCatalog创建自定义目录(TOC)。 或者，您也可以从CSV(仅限Mac)或XML文件导入页面名称。
+您可以手动为eCatalog创建自定义目录(TOC)。 或者，您也可以从CSV（仅限Mac）或XML文件导入页面名称。
 
 >[!NOTE]
 >
@@ -110,7 +121,7 @@ Adobe Dynamic Media Classic在eCatalog屏幕的“订单页面”选项卡上，
 
 ### 导入页面名称 {#importing-page-names}
 
-如果处理包含很多页面的 eCatalog，则推荐使用导入页面名称的方法。可以从制表符分隔的文件或 XML 文件导入名称。
+如果处理包含很多页面的 eCatalog，则推荐使用导入页面名称的方法。 可以从制表符分隔的文件或 XML 文件导入名称。
 
 目录标签存储在图像的用户数据字段中；将此数据格式化为`name=<value>` ` pairs separated by two question marks "??" `的列表。 例如，要为名为`tocEN`的目录字段设置一个标签，请将图像的用户数据设置为：
 
@@ -134,4 +145,4 @@ Adobe Dynamic Media Classic在eCatalog屏幕的“订单页面”选项卡上，
 </ips>
 ```
 
-若要从制表符分隔文件或XML文件导入页面名称，请选择&#x200B;**[!UICONTROL 目录标签]**&#x200B;按钮，然后选择&#x200B;**[!UICONTROL 导入]**。 在“上载元数据”对话框中，选择&#x200B;**[!UICONTROL 浏览]**，然后导入CSV文件(仅限Mac)或将每个页面与页面名称相关联的XML文件。
+若要从制表符分隔文件或XML文件导入页面名称，请选择&#x200B;**[!UICONTROL 目录标签]**&#x200B;按钮，然后选择&#x200B;**[!UICONTROL 导入]**。 在“上载元数据”对话框中，选择&#x200B;**[!UICONTROL 浏览]**，然后导入CSV文件（仅限Mac）或将每个页面与页面名称相关联的XML文件。

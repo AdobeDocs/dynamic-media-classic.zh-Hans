@@ -10,9 +10,17 @@ role: User
 exl-id: d4315312-195c-453d-a3aa-c5e9f9365fc7
 topic: Content Management
 level: Experienced
-source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
+autotag-review: '2026-05-13T20:09:10.008Z'
+TQID: 'https://experienceleague.adobe.com/Yih-wBixagRAQAOSGXz93bEmNJA7a-YbSCfiTLRIAiA'
+product_v2:
+  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
 workflow-type: tm+mt
-source-wordcount: '172'
+source-wordcount: 172
 ht-degree: 11%
 
 ---
@@ -23,7 +31,7 @@ ht-degree: 11%
 
 >[!NOTE]
 >
->要使用模板，请发布构成模板的所有内容，包括字体和图像。如果不包含所有必需的文件，则在发布时会显示一条错误消息。
+>要使用模板，请发布构成模板的所有内容，包括字体和图像。 如果不包含所有必需的文件，则在发布时会显示一条错误消息。
 
 ## 将模板标记为发布 {#marking-templates-for-publish}
 

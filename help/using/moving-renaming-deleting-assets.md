@@ -10,9 +10,18 @@ role: User
 exl-id: 391eb7ce-ed89-47a8-a6c6-5adb3e95bf78
 topic: Content Management
 level: Intermediate
-source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
+autotag-review: '2026-05-13T20:04:38.888Z'
+TQID: 'https://experienceleague.adobe.com/PhoMSxegLPSABPovcBA94eiSksqAcIMhQV93BcAWh-s'
+product_v2:
+  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
 workflow-type: tm+mt
-source-wordcount: '613'
+source-wordcount: 613
 ht-degree: 17%
 
 ---
@@ -37,7 +46,7 @@ ht-degree: 17%
 1. 在“浏览”面板中选择资产，然后执行以下操作之一：
 
    * 选择名称，键入新名称，然后按&#x200B;**[!UICONTROL Enter]**&#x200B;或选择退出名称。
-   * 转到&#x200B;**[!UICONTROL 文件]** > **[!UICONTROL 重命名]**。 资源的名称被高亮显示。输入新名称，然后按&#x200B;**[!UICONTROL Enter]**。 确保不输入现有Adobe Dynamic Media Classic资源的名称。
+   * 转到&#x200B;**[!UICONTROL 文件]** > **[!UICONTROL 重命名]**。 资源的名称被高亮显示。 输入新名称，然后按&#x200B;**[!UICONTROL Enter]**。 确保不输入现有Adobe Dynamic Media Classic资源的名称。
 
 ## 删除资源 {#delete-assets}
 
@@ -45,7 +54,7 @@ ht-degree: 17%
 
 当您删除某个资源时，源自该资源的所有资源也会被删除。 例如，删除已为其创建缩放目标的图像会同时删除缩放目标和图像。
 
-在删除资源时，由资源派生出的缩放目标、图像属性以及历史记录条目会随之永久删除。它们不会随资源一起移至垃圾桶文件夹；因此无法从垃圾桶恢复它们。
+在删除资源时，由资源派生出的缩放目标、图像属性以及历史记录条目会随之永久删除。 它们不会随资源一起移至垃圾桶文件夹；因此无法从垃圾桶恢复它们。
 
 >[!IMPORTANT]
 >
@@ -53,7 +62,7 @@ ht-degree: 17%
 
 **要删除资源：**
 
-1. 执行任何以下操作：
+1. 执行以下任一操作：
 
    * 要删除一个或多个资源，请在“浏览”面板中选择资源，然后按&#x200B;**[!UICONTROL 删除]**&#x200B;或转到&#x200B;**[!UICONTROL 文件]** > **[!UICONTROL 删除]**。
    * 要删除文件夹，请在资产库中选择该文件夹，然后选择&#x200B;**[!UICONTROL 删除文件夹]**。

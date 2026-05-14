@@ -10,10 +10,18 @@ role: User
 exl-id: 8bb1c744-270a-4752-b163-443708fca6c2
 topic: Content Management
 level: Intermediate
-source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
+autotag-review: '2026-05-13T20:03:11.713Z'
+TQID: 'https://experienceleague.adobe.com/OhGE3-jniPFknPmpVykZWWSKo2jwdef2sA3Yqo5WpWw'
+product_v2:
+  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
 workflow-type: tm+mt
-source-wordcount: '683'
-ht-degree: 14%
+source-wordcount: 710
+ht-degree: 16%
 
 ---
 
@@ -31,7 +39,7 @@ ht-degree: 14%
 1. 在左侧的“资产库”面板中，导航到资产文件夹，该文件夹包含要复制其嵌入代码的样本集。
 1. 在“资源浏览”面板上方的工具栏右侧，执行以下任一操作：
 
-   * 选择&#x200B;**[!UICONTROL 网格视图]**。 在“资源浏览”面板中，双击单个资源以便在详细信息视图中将其打开。在右侧的“URL和嵌入代码”面板中，选择所需查看器右侧的&#x200B;**[!UICONTROL 复制URL]**。
+   * 选择&#x200B;**[!UICONTROL 网格视图]**。 在“资源浏览”面板中，双击单个资源以便在详细信息视图中将其打开。 在右侧的“URL和嵌入代码”面板中，选择所需查看器右侧的&#x200B;**[!UICONTROL 复制URL]**。
    * 选择&#x200B;**[!UICONTROL 网格视图]**。 在“资源浏览”面板中，选择单个资源，然后在缩略图图像下面转到&#x200B;**[!UICONTROL 预览]** > **[!UICONTROL 查看器列表]**。
 
      在“查看器列表”页表的“操作”列下，选择&#x200B;**[!UICONTROL 复制URL]**。
@@ -46,7 +54,7 @@ ht-degree: 14%
 
 ## 将样本集URL添加到网页 {#adding-swatch-set-urls-to-your-web-page}
 
-部署样本集的最常见方式是在网页上放置链接（通过导航图标）。 选中后，链接将启动一个动态页面（ASP或JSP），该页面在弹出缩放窗口中显示样本集。 缩放链接将打开一个包含实际缩放功能的弹出窗口。
+部署样本集的最常见方式是在网页上放置链接（通过导航图标）。 选中后，链接将启动一个动态页面（ASP或JSP），该页面在弹出缩放窗口中显示样本集。 缩放链接会打开一个弹出窗口，其中包含实际的缩放功能。
 
 有关更多详细信息和代码示例，请参阅《HTML查看器参考指南》中的[嵌入Adobe5缩放查看器](https://experienceleague.adobe.com/zh-hans/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/zoom/c-html5-20-zoom-viewer-about#section-e1c3106f5b3e445d9b95be337c2f94e2)。
 
@@ -60,7 +68,7 @@ ht-degree: 14%
 1. 在左侧的“资产库”面板中，导航到资产文件夹，该文件夹包含要复制其嵌入代码的样本集。
 1. 在“资源浏览”面板上方的工具栏右侧，执行以下任一操作：
 
-   * 选择&#x200B;**[!UICONTROL 网格视图]**。 在“资源浏览”面板中，双击单个资源以便在详细信息视图中将其打开。在右侧的“URL和嵌入代码”面板中，选择所需查看器右侧的&#x200B;**[!UICONTROL 嵌入代码]**。
+   * 选择&#x200B;**[!UICONTROL 网格视图]**。 在“资源浏览”面板中，双击单个资源以便在详细信息视图中将其打开。 在右侧的“URL和嵌入代码”面板中，选择所需查看器右侧的&#x200B;**[!UICONTROL 嵌入代码]**。
    * 选择&#x200B;**[!UICONTROL 网格视图]**。 在“资源浏览”面板中，选择单个资源，然后在缩略图图像下面转到&#x200B;**[!UICONTROL 预览]** > **[!UICONTROL 查看器列表]**。
 
      在“查看器列表”页表的“操作”列下，选择&#x200B;**[!UICONTROL 嵌入代码]**。
