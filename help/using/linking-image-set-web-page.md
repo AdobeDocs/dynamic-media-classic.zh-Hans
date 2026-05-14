@@ -56,7 +56,7 @@ ht-degree: 18%
 
 部署图像集的最常见方式是在网页上放置链接（通过导航图标）。 选中后，该链接将启动一个动态页面(JSP)，该页面在弹出缩放窗口中显示图像集。 缩放链接会打开一个弹出窗口，其中包含实际的缩放功能。
 
-有关更多详细信息和代码示例，请参阅《HTML查看器参考指南》中的[嵌入式Adobe5缩放查看器](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/zoom/c-html5-20-zoom-viewer-about#section-e1c3106f5b3e445d9b95be337c2f94e2)。
+有关更多详细信息和代码示例，请参阅《HTML查看器参考指南》中的[嵌入式Adobe5缩放查看器](https://experienceleague.adobe.com/zh-hans/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/zoom/c-html5-20-zoom-viewer-about#section-e1c3106f5b3e445d9b95be337c2f94e2)。
 
 ## 复制图像集查看器的嵌入代码 {#copying-the-embed-code-of-an-image-set-viewer}
 

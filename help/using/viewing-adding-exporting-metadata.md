@@ -35,7 +35,7 @@ ht-degree: 35%
 
 一些元数据直接嵌入到文件中。 如果文件包含此元数据，Adobe Dynamic Media Classic会自动将其与文件一起上传。 您可以将元数据嵌入到Adobe Photoshop、InDesign、Illustrator和其他应用程序中的源资源；Adobe Dynamic Media Classic可识别此元数据。 还可以在详细信息视图的“元数据”面板中将元数据添加到单个文件。 为了确保资源的一致性，公司管理员创建了元数据模板，提供可以填写的元数据字段。
 
-有关嵌入元数据的详细信息，请参阅[可扩展元数据平台](https://www.adobe.com/products/xmp.html)。
+有关嵌入元数据的详细信息，请参阅[可扩展元数据平台](https://www.adobe.com/cn/products/xmp.html)。
 
 ## 查看元数据 {#view-metadata}
 
