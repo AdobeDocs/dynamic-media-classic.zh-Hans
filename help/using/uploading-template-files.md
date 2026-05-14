@@ -10,9 +10,14 @@ role: User
 exl-id: a105c18a-7e06-43cb-938c-a3bcdc3e9d22
 topic: Content Management
 level: Experienced
-source-git-commit: 9102019811713b953e016fc7c47dc9f7a0dfbcd9
+autotag-review: '2026-05-13T19:58:21.817Z'
+TQID: 'https://experienceleague.adobe.com/pwmEOjYzNJNV-yxeBfOz3xQBT3rJ9u9imU6cdNgQLDA'
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
 workflow-type: tm+mt
-source-wordcount: '245'
+source-wordcount: 245
 ht-degree: 32%
 
 ---
@@ -29,7 +34,7 @@ ht-degree: 32%
 
 有关上载文件的详细说明，请参阅[上载文件](uploading-files.md#uploading_files)。 上载模板文件时请注意以下事项：
 
-* 如果您要上传PSD文件，则可以从中创建模板。 Adobe Dynamic Media Classic会为PSD中的每个图层创建单独的图像。 在“上载作业选项”对话框中，选择&#x200B;**[!UICONTROL Photoshop选项]**，然后选择&#x200B;**[!UICONTROL 维护层]**&#x200B;和&#x200B;**[!UICONTROL 创建模板]**。 然后，从&#x200B;**[!UICONTROL 图层命名]**&#x200B;下拉列表中选择一个选项，用于命名Adobe Dynamic Media Classic从PSD中的图层创建的图像。
+* 如果您要上传PSD文件，则可以从中创建模板。 Adobe Dynamic Media Classic会为PSD中的每个图层创建单独的图像。 在“上载作业选项”对话框中，选择&#x200B;**[!UICONTROL Photoshop选项]**，然后选择&#x200B;**[!UICONTROL 维护层]**&#x200B;和&#x200B;**[!UICONTROL 创建模板]**。 然后，从&#x200B;**[!UICONTROL 图层命名]**下拉列表中选择一个选项，用于命名Adobe Dynamic Media Classic从PSD中的图层创建的图像。
 请参阅[PSD 上载选项](psd-files.md#psd_upload_options)。
 
 <!--

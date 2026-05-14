@@ -10,9 +10,14 @@ role: User
 exl-id: 08f14fe9-3e3b-4235-a6c5-b6b6d2ffc4bd
 topic: Integrations, Development
 level: Experienced
-source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
+autotag-review: '2026-05-13T19:53:31.495Z'
+TQID: 'https://experienceleague.adobe.com/8MUaG0abV4i3H5SIIu5oEL-Q1QGZorV2CORIzkAw0Jo'
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: d378ca77-2da1-4f39-ad92-1917fe974a38id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
 workflow-type: tm+mt
-source-wordcount: '216'
+source-wordcount: 216
 ht-degree: 36%
 
 ---
@@ -21,7 +26,7 @@ ht-degree: 36%
 
 您可以在Adobe Dynamic Media Classic中使用Adobe PostScript® (EPS)和Adobe® Illustrator® (AI)文件。 Adobe Dynamic Media Classic提供在上传这些文件时配置这些文件的命令。
 
-上载 PostScript (EPS) 或 Illustrator (AI) 图像文件时，您可以通过各种方法对它们进行格式化。您可以栅格化文件、将文件转换为 FXG 以便进行模板发布、保持透明背景、选择分辨率以及选择颜色空间。用于格式化 PostScript 和 Illustrator 文件的选项位于“上载”屏幕上“PostScript 选项”和“Illustrator 选项”下方的“上载作业选项”框中。
+上载 PostScript (EPS) 或 Illustrator (AI) 图像文件时，您可以通过各种方法对它们进行格式化。 您可以栅格化文件、将文件转换为 FXG 以便进行模板发布、保持透明背景、选择分辨率以及选择颜色空间。 用于格式化 PostScript 和 Illustrator 文件的选项位于“上载”屏幕上“PostScript 选项”和“Illustrator 选项”下方的“上载作业选项”框中。
 
 * **[!UICONTROL 正在处理]**：选择&#x200B;**[!UICONTROL 栅格化]**&#x200B;以将文件中的矢量图形转换为位图格式。
 

@@ -10,16 +10,21 @@ role: User
 exl-id: cb9e996c-ab90-4656-8e93-5e7cbeeadb7f
 topic: Content Management
 level: Intermediate
-source-git-commit: bb229047c0c9b3855453ea15dcd1f9754bc65cef
+autotag-review: '2026-05-13T20:12:16.790Z'
+TQID: 'https://experienceleague.adobe.com/qr6oNIW51ICWlsvjoQDK3elCf0HzmvCX3ZeFJuvThKA'
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
 workflow-type: tm+mt
-source-wordcount: '237'
+source-wordcount: 237
 ht-degree: 24%
 
 ---
 
 # 设置旋转集查看器预设{#setting-up-spin-set-viewer-presets}
 
-旋转集查看器预设确定您的查看器的样式、行为和外观。Adobe Dynamic Media Classic附带默认旋转集查看器预设。 如果您是管理员，也可以创建您自己的旋转集查看器预设。您可以使用不同颜色、边界、字体和图像设置来配置旋转集查看器预设。
+旋转集查看器预设确定您的查看器的样式、行为和外观。 Adobe Dynamic Media Classic附带默认旋转集查看器预设。 如果您是管理员，也可以创建您自己的旋转集查看器预设。 您可以使用不同颜色、边界、字体和图像设置来配置旋转集查看器预设。
 
 **创建旋转集查看器预设：**
 
@@ -30,7 +35,7 @@ ht-degree: 24%
    * 要编辑现有的旋转集查看器预设，请选择该预设，然后选择&#x200B;**[!UICONTROL 编辑]**。
 
 1. 在`Configure Viewer`页面上，在旋转集查看器预设的“预设名称”框中键入名称。
-1. 根据需要指定其他选项。要查看某个选项的描述，请选择该选项旁边的&#x200B;**[!UICONTROL 信息提示]**&#x200B;图标。
+1. 根据需要指定其他选项。 要查看某个选项的描述，请选择该选项旁边的&#x200B;**[!UICONTROL 信息提示]**&#x200B;图标。
 
    当您更新和更改设置时，“预览”页面将显示查看器。
 

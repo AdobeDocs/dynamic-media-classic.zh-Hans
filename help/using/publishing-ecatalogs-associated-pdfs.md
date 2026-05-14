@@ -10,9 +10,14 @@ role: User
 exl-id: 00b70162-2394-433d-a46c-1d90667030af
 topic: Integrations, Development
 level: Experienced
-source-git-commit: 8dc990a1fb1355b00fa4839e14b92bb6562d40b4
+autotag-review: '2026-05-13T19:54:33.145Z'
+TQID: 'https://experienceleague.adobe.com/fMbleVTKmwZDm8Ol0jSNVG130jTYKkPcE4SuQA520bA'
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
 workflow-type: tm+mt
-source-wordcount: '195'
+source-wordcount: 197
 ht-degree: 13%
 
 ---
@@ -31,7 +36,7 @@ ht-degree: 13%
 1. 在“发布”屏幕上，选择&#x200B;**[!UICONTROL 一次性]**，或选择&#x200B;**[!UICONTROL 周期性]**。
 1. （可选）在“作业名称”字段中，输入发布作业的名称，但保留预定义的日期和时间文本。
 
-   如果将 eCatalog 设置为查看人员可以执行关键字搜索，应确保发布关键字数据。在“发布”对话框中，选择&#x200B;**[!UICONTROL 高级]**。 从&#x200B;**[!UICONTROL 发布]**&#x200B;下拉菜单中，选择&#x200B;**[!UICONTROL 包含搜索数据的完整]**。 此选项默认为已选中。
+   如果将 eCatalog 设置为查看人员可以执行关键字搜索，应确保发布关键字数据。 在“发布”对话框中，选择&#x200B;**[!UICONTROL 高级]**。 从&#x200B;**[!UICONTROL 发布]**&#x200B;下拉菜单中，选择&#x200B;**[!UICONTROL 包含搜索数据的完整]**。 此选项默认为已选中。
 
 1. 选择&#x200B;**[!UICONTROL 提交发布]**。
 

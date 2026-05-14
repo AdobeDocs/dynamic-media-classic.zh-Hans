@@ -10,16 +10,21 @@ role: User
 exl-id: 580cb169-0e26-412d-8dff-74dc63da25d8
 topic: Integrations
 level: Experienced
-source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
+autotag-review: '2026-05-13T19:53:48.605Z'
+TQID: 'https://experienceleague.adobe.com/UREKSrSiAyo9wRI003RgjbWBLbMz4n4mdO2IBxzP72c'
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
 workflow-type: tm+mt
-source-wordcount: '255'
+source-wordcount: 258
 ht-degree: 22%
 
 ---
 
 # 在eCatalog查看器中预览eCatalog{#previewing-ecatalogs-in-the-ecatalog-viewer}
 
-可以使用“预览”来显示使用不同 eCatalog 查看器预设的 eCatalog。可以尝试使用不同的控件来翻转页面、写附注及浏览。
+可以使用“预览”来显示使用不同 eCatalog 查看器预设的 eCatalog。 可以尝试使用不同的控件来翻转页面、写附注及浏览。
 
 请参阅[配置默认查看器](application-setup.md#configuring_default_viewers)。
 

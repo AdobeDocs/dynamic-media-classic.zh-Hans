@@ -9,16 +9,21 @@ role: Admin,User
 exl-id: c27df6c2-76f4-441c-bd26-cee98203291e
 topic: Collaboration, Content Management
 level: Intermediate
-source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
+autotag-review: '2026-05-13T20:13:39.327Z'
+TQID: 'https://experienceleague.adobe.com/gw9YPj-PDme06RNMU-X9suAD2O7etGAqB62V-GPIJdI'
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
 workflow-type: tm+mt
-source-wordcount: '383'
+source-wordcount: 390
 ht-degree: 38%
 
 ---
 
 # 指定Media Portal用户可用的导出选项 {#specifying-export-options-available-to-media-portal-users}
 
-如果管理员为他们授予权限，Media Portal 用户可以在导出图像时重设图像的格式。例如，他们可以更改大小、文件格式和图像质量。导出时自动重设图像的格式无需单独重设图像的格式，从而节省了时间。此外，管理员可以创建预设，即预先建立图像格式设置选区。当导出图像来根据您公司的规范重设图像的格式时，您可以采用预设。
+如果管理员为他们授予权限，Media Portal 用户可以在导出图像时重设图像的格式。 例如，他们可以更改大小、文件格式和图像质量。 导出时自动重设图像的格式无需单独重设图像的格式，从而节省了时间。 此外，管理员可以创建预设，即预先建立图像格式设置选区。 当导出图像来根据您公司的规范重设图像的格式时，您可以采用预设。
 
 如果通过用户定义的转换导出图像资产，或者导出原始主图像，则以下两个限制适用：
 

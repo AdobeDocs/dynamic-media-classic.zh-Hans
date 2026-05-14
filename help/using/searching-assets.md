@@ -10,9 +10,15 @@ role: User
 exl-id: 4b3f690c-7dff-4bf0-9366-085ba918fe6b
 topic: Content Management
 level: Intermediate
-source-git-commit: 384e1ec078540d0cc5224b98ead6eb880cd92c2a
+autotag-review: '2026-05-13T20:11:34.580Z'
+TQID: 'https://experienceleague.adobe.com/pC3khbkWx53M4aRmPWAV8bFx-Zl8-mD4qU4fZB-cGM8'
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
 workflow-type: tm+mt
-source-wordcount: '1521'
+source-wordcount: 1521
 ht-degree: 17%
 
 ---
@@ -75,7 +81,7 @@ Does not appear to be working anymore >[!NOTE]
 
 * **搜索条件**：创建一个或多个搜索字段以搜索元数据。 要创建检索字段：
 
-   1. 在“高级搜索”中的&#x200B;**[!UICONTROL 搜索条件]**&#x200B;标题下，**[!UICONTROL 添加字段]**&#x200B;菜单的左侧，选择向下三角形箭头图标以打开下拉列表。 选择元数据视图。 您可以选择具有值&#x200B;**的**&#x200B;所有属性、**[!UICONTROL 紧凑视图]**、**[!UICONTROL IPTC]**、**[!UICONTROL 元数据服务器发布字段]**&#x200B;或&#x200B;**[!UICONTROL XMP]**。
+   1. 在“高级搜索”中的&#x200B;**[!UICONTROL 搜索条件]**&#x200B;标题下，**[!UICONTROL 添加字段]**&#x200B;菜单的左侧，选择向下三角形箭头图标以打开下拉列表。 选择元数据视图。 您可以选择具有值&#x200B;]**的**[!UICONTROL &#x200B;所有属性、**[!UICONTROL 紧凑视图]**、**[!UICONTROL IPTC]**、**[!UICONTROL 元数据服务器发布字段]**&#x200B;或&#x200B;**[!UICONTROL XMP]**。
    1. 选择&#x200B;**[!UICONTROL 添加字段]**&#x200B;下拉菜单并选择字段名称。
    1. 选择一个&#x200B;**[!UICONTROL 包含]**&#x200B;选项： **[!UICONTROL 包含]**、**[!UICONTROL 不包含]**、**[!UICONTROL 开头为]**、**[!UICONTROL 结尾为]**&#x200B;或&#x200B;**[!UICONTROL 等于]**。
    1. 对于数字字段，选择一个值或输入一个自定义日期范围。

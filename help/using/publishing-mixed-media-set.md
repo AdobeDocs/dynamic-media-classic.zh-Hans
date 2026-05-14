@@ -10,9 +10,14 @@ role: User
 exl-id: 1fca9640-d127-454a-b3aa-b2ac82136e62
 topic: Content Management
 level: Intermediate
-source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
+autotag-review: '2026-05-13T20:08:57.110Z'
+TQID: 'https://experienceleague.adobe.com/ZDf5ovDIKfCJ5p-6-Qz-isp77LnCQDKJo5hQA1HBN0w'
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
 workflow-type: tm+mt
-source-wordcount: '262'
+source-wordcount: 264
 ht-degree: 12%
 
 ---
@@ -23,7 +28,7 @@ ht-degree: 12%
 
 >[!NOTE]
 >
->混合媒体集要求同时发布到&#x200B;**视频服务器**&#x200B;和&#x200B;**图像服务器**。使用&#x200B;**视频服务器**&#x200B;发布您标记为发布的实际视频。 并且，您使用&#x200B;**图像服务器**&#x200B;发布相关资源（如视频缩略图），并为任何自适应视频集设置信息。
+>混合媒体集要求同时发布到&#x200B;**视频服务器**&#x200B;和&#x200B;**图像服务器**。 使用&#x200B;**视频服务器**&#x200B;发布您标记为发布的实际视频。 并且，您使用&#x200B;**图像服务器**&#x200B;发布相关资源（如视频缩略图），并为任何自适应视频集设置信息。
 
 Adobe Dynamic Media Classic会在“作业”屏幕上跟踪发布作业。
 

@@ -10,24 +10,30 @@ role: Admin,User
 exl-id: 9590c53c-fd38-4bf2-b723-cd7369702364
 topic: Administration
 level: Intermediate
-source-git-commit: bb229047c0c9b3855453ea15dcd1f9754bc65cef
+autotag-review: '2026-05-13T17:37:47.692Z'
+TQID: 'https://experienceleague.adobe.com/77PJd-uwpdL58aZssu7Ko0fMDpa17heQ1dUUEXRhdDM'
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
 workflow-type: tm+mt
-source-wordcount: '1008'
-ht-degree: 50%
+source-wordcount: 1032
+ht-degree: 51%
 
 ---
 
 # 添加和管理Media Portal用户{#adding-and-managing-media-portal-users}
 
-作为管理员，您可以添加和管理用户，决定他们是否可以更改密码、编辑用户信息以及上载用户列表。这些任务在“用户管理”屏幕上完成。要访问此屏幕，请导航到&#x200B;**[!UICONTROL 设置]** > **[!UICONTROL 应用程序设置]** > **[!UICONTROL 管理设置]** > **[!UICONTROL 用户管理]**。
+作为管理员，您可以添加和管理用户，决定他们是否可以更改密码、编辑用户信息以及上载用户列表。 这些任务在“用户管理”屏幕上完成。 要访问此屏幕，请导航到&#x200B;**[!UICONTROL 设置]** > **[!UICONTROL 应用程序设置]** > **[!UICONTROL 管理设置]** > **[!UICONTROL 用户管理]**。
 
 >[!NOTE]
 >
->在添加用户之前，请设置用于管理这些用户的组。Media Portal允许您通过将用户分配到一个或多个组来添加用户。 有关详细信息，请参阅[创建和管理Media Portal组](creating-media-portal-groups.md#creating_and_managing_media_portal_groups)。
+>在添加用户之前，请设置用于管理这些用户的组。 Media Portal允许您通过将用户分配到一个或多个组来添加用户。 有关详细信息，请参阅[创建和管理Media Portal组](creating-media-portal-groups.md#creating_and_managing_media_portal_groups)。
 
 ## 管理Media Portal密码 {#handling-media-portal-passwords}
 
-在注册时，将向 Media Portal 用户、参与者和参与者用户发送一封包含密码的欢迎电子邮件。管理员可以决定 Media Portal 用户是否可以更改此密码。
+在注册时，将向 Media Portal 用户、参与者和参与者用户发送一封包含密码的欢迎电子邮件。 管理员可以决定 Media Portal 用户是否可以更改此密码。
 
 1. 导航到&#x200B;**[!UICONTROL 设置]** > **[!UICONTROL Media Portal设置]** > **[!UICONTROL 常规设置]**。
 1. 在“常规设置”页面上，选择或取消选择“**[!UICONTROL 允许 Media Portal 用户更改密码]**”。
@@ -57,17 +63,17 @@ ht-degree: 50%
 
 1. 选择&#x200B;**[!UICONTROL 添加用户]**。
 
-在添加用户后，Media Portal 向该用户发送一封欢迎电子邮件。该消息包括一个临时密码和 Media Portal URL。
+在添加用户后，Media Portal 向该用户发送一封欢迎电子邮件。 该消息包括一个临时密码和 Media Portal URL。
 
 ## 上载 Media Portal 用户列表 {#uploading-a-media-portal-user-list}
 
-如果您要添加多个用户，可以上载一个用户列表。用户便会自动添加到当前所选的帐户中。
+如果您要添加多个用户，可以上载一个用户列表。 用户便会自动添加到当前所选的帐户中。
 
-以 CSV（逗点分隔值）文件形式创建包含用户信息的用户列表。上载此列表后，此列表中的用户便会自动添加到具有其指定组分配的帐户中。向每个新用户发送一封欢迎电子邮件，其中包括到 Media Portal 的链接和一个临时密码。
+以 CSV（逗点分隔值）文件形式创建包含用户信息的用户列表。 上载此列表后，此列表中的用户便会自动添加到具有其指定组分配的帐户中。 向每个新用户发送一封欢迎电子邮件，其中包括到 Media Portal 的链接和一个临时密码。
 
 ### 创建 CSV 文件 {#create-the-csv-file}
 
-创建一个符合以下格式和字段的 CSV 文件 (filename.csv)。该文件的第一行必须包含此表中列出的列标题；您可以根据需要对这些列进行排序。全部都是必需列。
+创建一个符合以下格式和字段的 CSV 文件 (filename.csv)。 该文件的第一行必须包含此表中列出的列标题；您可以根据需要对这些列进行排序。 全部都是必需列。
 
 | 列名称 | 说明 |
 |--- |--- |
@@ -76,7 +82,7 @@ ht-degree: 50%
 | 电子邮件 | 有效的电子邮件地址。 |
 | 密码 | 区分大小写的密码字符串。 |
 | 用户角色 | MediaPortalAdminMediaPortalUserMediaPortalContributorMediaPortalContributorUser |
-| 组 | 为每个用户分配的一个或多个帐户组的列表（用逗号分隔）。通过添加账户名称前缀（用正斜线 (/) 分隔）来指定组。例如 PortalCo/IT，其中 PortalCo 为帐户，IT 为 PortalCo 帐户中的组。 |
+| 组 | 为每个用户分配的一个或多个帐户组的列表（用逗号分隔）。 通过添加账户名称前缀（用正斜线 (/) 分隔）来指定组。 例如 PortalCo/IT，其中 PortalCo 为帐户，IT 为 PortalCo 帐户中的组。 |
 
 以下示例电子表格显示了如何设计 CSV 文件：
 
@@ -99,7 +105,7 @@ ht-degree: 50%
 
 ## 生成一个可选择的 Media Portal 用户列表 {#generating-a-selectable-list-of-media-portal-users}
 
-您可以在一个弹出窗口中显示 Media Portal 用户的姓名和电子邮件地址。如果您要剪切和粘贴用户名和地址以便在 Media Portal 外部使用，此列表会非常有用。
+您可以在一个弹出窗口中显示 Media Portal 用户的姓名和电子邮件地址。 如果您要剪切和粘贴用户名和地址以便在 Media Portal 外部使用，此列表会非常有用。
 
 1. 导航到&#x200B;**[!UICONTROL 设置]** > **[!UICONTROL 应用程序设置]** > **[!UICONTROL 管理设置]** > **[!UICONTROL 用户管理]**。
 1. 在&#x200B;**[!UICONTROL 按用户角色]**&#x200B;下拉列表中，选择Media Portal用户角色的名称，然后选择&#x200B;**[!UICONTROL 刷新]**&#x200B;以显示一类Media Portal用户的名称。
@@ -107,7 +113,7 @@ ht-degree: 50%
 
 ## 为 Media Portal 用户设置欢迎电子邮件消息 {#setting-up-the-welcome-e-mail-message-for-media-portal-users}
 
-添加新 Media Portal 用户、参与者和参与者用户时，您可以发送一封欢迎电子邮件。您可以配置此电子邮件，或告知Adobe Dynamic Media Classic不要发送此电子邮件。
+添加新 Media Portal 用户、参与者和参与者用户时，您可以发送一封欢迎电子邮件。 您可以配置此电子邮件，或告知Adobe Dynamic Media Classic不要发送此电子邮件。
 
 1. 导航到&#x200B;**[!UICONTROL 设置]** > **[!UICONTROL 应用程序设置]** > **[!UICONTROL 管理设置]** > **[!UICONTROL 用户管理]**。
 1. 在用户管理设置屏幕中，选择&#x200B;**[!UICONTROL 电子邮件设置]**。

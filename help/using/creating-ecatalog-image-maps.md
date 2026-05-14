@@ -10,9 +10,15 @@ role: User
 exl-id: 5e7f39a5-36a6-40df-8752-064a582c9346
 topic: Integrations, Development
 level: Experienced
-source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
+autotag-review: '2026-05-13T17:43:26.837Z'
+TQID: 'https://experienceleague.adobe.com/E1qnvzD2WIqVHt0UAtIq7bZfYlPZbfG9Ye6F9ntX5Q4'
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
 workflow-type: tm+mt
-source-wordcount: '1494'
+source-wordcount: 1505
 ht-degree: 26%
 
 ---
@@ -23,7 +29,7 @@ ht-degree: 26%
 
 ## 绘制eCatalog图像映射 {#drawing-ecatalog-image-maps}
 
-对于 eCatalog，可以在 eCatalog 屏幕的“映射页面”选项卡上绘制图像映射。该屏幕包括显示 eCatalog 页面的图像映射区域，右侧显示“图像映射”列表。在创建图像映射时，其名称会输入到“图像映射”列表中。
+对于 eCatalog，可以在 eCatalog 屏幕的“映射页面”选项卡上绘制图像映射。 该屏幕包括显示 eCatalog 页面的图像映射区域，右侧显示“图像映射”列表。 在创建图像映射时，其名称会输入到“图像映射”列表中。
 
 1. 选择eCatalog的变换&#x200B;**[!UICONTROL 编辑]**&#x200B;按钮。
 1. 选择&#x200B;**[!UICONTROL 映射页面]**。
@@ -79,7 +85,7 @@ ht-degree: 26%
 
   查看[调整图像映射的位置、形状和大小](creating-image-maps.md#adjusting_the_position_shape_and_size_of_image_maps)。
 
-* **更改形状和大小**：要调整矩形图像映射的大小，请选择“平移”工具。 然后将指针移动到边框或角上，看到双向箭头图标时进行拖动。要调整多边形图像映射的大小，请拖动正方形选择手柄。要创建选区手柄，请选择“图像映射”的边框并拖动。
+* **更改形状和大小**：要调整矩形图像映射的大小，请选择“平移”工具。 然后将指针移动到边框或角上，看到双向箭头图标时进行拖动。 要调整多边形图像映射的大小，请拖动正方形选择手柄。 要创建选区手柄，请选择“图像映射”的边框并拖动。
 
   查看[调整图像映射的位置、形状和大小](creating-image-maps.md#adjusting_the_position_shape_and_size_of_image_maps)。
 
@@ -97,11 +103,11 @@ ht-degree: 26%
 
 >[!NOTE]
 >
->将图像映射复制到eCatalog中的不同页面时，可以将eCatalog中的所有图像映射复制到其他eCatalog。 查看其他eCatalog [中的](creating-ecatalog-image-maps.md#copying_image_maps_between_ecatalogs)复制图像映射。
+>将图像映射复制到eCatalog中的不同页面时，可以将eCatalog中的所有图像映射复制到其他eCatalog。 查看其他eCatalog ](creating-ecatalog-image-maps.md#copying_image_maps_between_ecatalogs)中的[复制图像映射。
 
 ## 查看和导入图像映射数据 {#reviewing-and-importing-image-map-data}
 
-“映射摘要”屏幕提供了关于您的 eCatalog 的元数据。也可以从“映射摘要”屏幕开始为 eCatalog 批量导入图像映射数据。用这种方法导入图像映射数据可以简化图像映射 URL 及变换文本的输入。
+“映射摘要”屏幕提供了关于您的 eCatalog 的元数据。 也可以从“映射摘要”屏幕开始为 eCatalog 批量导入图像映射数据。 用这种方法导入图像映射数据可以简化图像映射 URL 及变换文本的输入。
 
 要查看“映射摘要”屏幕，请在eCatalog屏幕的“映射页面”选项卡上选择&#x200B;**[!UICONTROL 摘要]**。
 
@@ -116,7 +122,7 @@ ht-degree: 26%
 
 ### 导入图像映射数据 {#import-image-map-data}
 
-可以将整个 eCatalog 的数据导入到“映射摘要”屏幕中，而不必在每个页面都输入图像映射数据。可以通过制表符分隔的文件或 XML DTD 的形式导入图像映射数据。文件中的字段必须与“映射摘要”屏幕中显示的顺序相同：“名称”、“TOC 标签”、“映射”、“URL”、“变换文本”、“其他操作”和“搜索字符串”。导入图像映射数据可省去在创建每个图像映射时在“图像映射”列表中输入数据的麻烦。
+可以将整个 eCatalog 的数据导入到“映射摘要”屏幕中，而不必在每个页面都输入图像映射数据。 可以通过制表符分隔的文件或 XML DTD 的形式导入图像映射数据。 文件中的字段必须与“映射摘要”屏幕中显示的顺序相同：“名称”、“TOC 标签”、“映射”、“URL”、“变换文本”、“其他操作”和“搜索字符串”。 导入图像映射数据可省去在创建每个图像映射时在“图像映射”列表中输入数据的麻烦。
 
 >[!NOTE]
 >
@@ -131,7 +137,7 @@ ht-degree: 26%
 
 ## 在其他eCatalog之间复制图像映射 {#copying-image-maps-between-ecatalogs}
 
-可以将 eCatalog 中的所有图像映射复制到其他 eCatalog 中。这种复制图像映射的方法是在相同的 eCatalog 的外语翻译之间复制图像映射的方便方法。为了成功复制，Adobe Dynamic Media Classic建议在具有相同页数和相同图像的eCatalog之间进行复制。
+可以将 eCatalog 中的所有图像映射复制到其他 eCatalog 中。 这种复制图像映射的方法是在相同的 eCatalog 的外语翻译之间复制图像映射的方便方法。 为了成功复制，Adobe Dynamic Media Classic建议在具有相同页数和相同图像的eCatalog之间进行复制。
 
 >[!NOTE]
 >

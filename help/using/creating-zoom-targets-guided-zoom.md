@@ -10,16 +10,21 @@ role: User
 exl-id: ffb799ba-1cf1-48e0-91a8-dea758139140
 topic: Content Management
 level: Intermediate
-source-git-commit: 8dc990a1fb1355b00fa4839e14b92bb6562d40b4
+autotag-review: '2026-05-13T19:42:52.841Z'
+TQID: 'https://experienceleague.adobe.com/XXeYyrU-e6TE4MwaaiGmV176s9PZuOoBI1oSOXEtzGE'
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
 workflow-type: tm+mt
-source-wordcount: '731'
+source-wordcount: 732
 ht-degree: 27%
 
 ---
 
 # 创建引导缩放的缩放目标{#creating-zoom-targets-for-guided-zoom}
 
-缩放目标会将查看者引导到图像的特定部分。除了自由形式缩放之外，查看器还可以选择缩放目标缩略图，并缩放到您希望他们聚焦的图像部分。 通过缩放目标，可突出显示图像的有趣或诱人之处。
+缩放目标会将查看者引导到图像的特定部分。 除了自由形式缩放之外，查看器还可以选择缩放目标缩略图，并缩放到您希望他们聚焦的图像部分。 通过缩放目标，可突出显示图像的有趣或诱人之处。
 
 ![创建引导缩放的缩放目标](/help/using/assets/zo_guided_zoom.png)
 
@@ -61,12 +66,12 @@ ht-degree: 27%
 
    >[!NOTE]
    >
-   >在“名称”框中输入的不仅仅是名称。用户在缩放目标上移动指针时，将会看到您在“名称”框中输入的内容。在“名称”框中输入对缩放目标的简要描述，以便用户了解其可以缩放的内容。
+   >在“名称”框中输入的不仅仅是名称。 用户在缩放目标上移动指针时，将会看到您在“名称”框中输入的内容。 在“名称”框中输入对缩放目标的简要描述，以便用户了解其可以缩放的内容。
 
-1. 可以视情况在“用户数据”字段中输入用户数据。此字段可供网站设计人员向缩放目标添加信息。
+1. 可以视情况在“用户数据”字段中输入用户数据。 此字段可供网站设计人员向缩放目标添加信息。
 1. 选择&#x200B;**[!UICONTROL 保存]**。
 
-   即可保存缩放目标的坐标和缩放级别。带有您输入的名称的缩放目标缩略图显示在屏幕右侧。
+   即可保存缩放目标的坐标和缩放级别。 带有您输入的名称的缩放目标缩略图显示在屏幕右侧。
 
 >[!NOTE]
 >

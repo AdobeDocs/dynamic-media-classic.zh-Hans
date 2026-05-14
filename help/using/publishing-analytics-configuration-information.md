@@ -10,9 +10,14 @@ role: Developer,Admin,User
 exl-id: 02782dc0-601f-453a-98d1-1fdd7267df3b
 topic: Integrations, Development
 level: Experienced
-source-git-commit: 458a80aad6e983dbccfe2108f0a389a4651f9f38
+autotag-review: '2026-05-13T19:54:18.922Z'
+TQID: 'https://experienceleague.adobe.com/jNDdOnS9hGF4Hv08BKhEJcTeMUTKC-qGSx1bTrwvG9g'
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: d378ca77-2da1-4f39-ad92-1917fe974a38
+source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
 workflow-type: tm+mt
-source-wordcount: '151'
+source-wordcount: 151
 ht-degree: 19%
 
 ---

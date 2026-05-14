@@ -10,9 +10,14 @@ role: User
 exl-id: a9250841-2dba-4fdc-8a6e-91b2fecef72f
 topic: Content Management
 level: Intermediate
-source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
+autotag-review: '2026-05-13T17:37:15.687Z'
+TQID: 'https://experienceleague.adobe.com/7o-hO9obr6JB8sIHWQ3KTC6dRzxIBYqlOJOAbanTig0'
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
 workflow-type: tm+mt
-source-wordcount: '619'
+source-wordcount: 624
 ht-degree: 22%
 
 ---
@@ -25,11 +30,11 @@ ht-degree: 22%
 >
 >视频播放器必须支持使用章节标记。
 
-如果要为[查看器(HTML5)配置章节导航提示点和章节标题弹出文本，请参阅](previewing-videos-video-viewer.md#adding_or_editing_a_video_viewer_preset)添加或编辑视频查看器预设`Universal_HTML5_Video`。
+如果要为`Universal_HTML5_Video`查看器(HTML5)配置章节导航提示点和章节标题弹出文本，请参阅[添加或编辑视频查看器预设](previewing-videos-video-viewer.md#adding_or_editing_a_video_viewer_preset)。
 
 另请参阅[添加和编辑查看器预设](application-setup.md#adding_and_editing_viewer_presets)。
 
-可以按照与创建题注非常类似的方法为视频创建章节列表。即，创建一个 WebVTT 文件。但要注意，该文件不能与可能还会使用的任何 WebVTT 题注文件相同；无法将题注和章节合并到一个 WebVTT 文件中。
+可以按照与创建题注非常类似的方法为视频创建章节列表。 即，创建一个 WebVTT 文件。 但要注意，该文件不能与可能还会使用的任何 WebVTT 题注文件相同；无法将题注和章节合并到一个 WebVTT 文件中。
 
 您可以将以下示例作为用于创建具有章节导航的 WebVTT 文件的格式示例：
 
@@ -49,9 +54,9 @@ Chapter 4
 Cost-efficient access to rapidly evolving technology.
 ```
 
-在上述示例中，`Chapter 1`是提示标识符，是可选的。 `00:00:000 --> 01:04:364`的提示时间以00:00:000格式指定章节的开始时间和结束时间。 最后三个数字是毫秒；如果需要，可以将其保留为 000。`The bicycle store behind it all`的章节标题是章节内容的实际描述。 当指针悬停在视频时间轴中的可视提示点上时，提示标识符、开始提示时间和章节标题都会显示在视频播放器的弹出窗口中。
+在上述示例中，`Chapter 1`是提示标识符，是可选的。 `00:00:000 --> 01:04:364`的提示时间以00:00:000格式指定章节的开始时间和结束时间。 最后三个数字是毫秒；如果需要，可以将其保留为 000。 `The bicycle store behind it all`的章节标题是章节内容的实际描述。 当指针悬停在视频时间轴中的可视提示点上时，提示标识符、开始提示时间和章节标题都会显示在视频播放器的弹出窗口中。
 
-由于使用的是 HTML5 视频查看器，请确保创建的章节文件遵循 WebVTT（Web 视频文本跟踪）标准。章节文件扩展名为`.VTT`。 您可以了解有关 WebVTT 题注标准的详细信息。
+由于使用的是 HTML5 视频查看器，请确保创建的章节文件遵循 WebVTT（Web 视频文本跟踪）标准。 章节文件扩展名为`.VTT`。 您可以了解有关 WebVTT 题注标准的详细信息。
 
 请参阅[WebVTT： Web视频字幕格式](https://w3c.github.io/webvtt/)。
 

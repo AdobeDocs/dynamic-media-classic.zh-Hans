@@ -10,10 +10,16 @@ role: User
 exl-id: b6b11e1c-5eda-4bdb-8ffb-ecd3678f2352
 topic: Administration, Content Management
 level: Intermediate
-source-git-commit: bb229047c0c9b3855453ea15dcd1f9754bc65cef
+autotag-review: '2026-05-13T17:39:54.763Z'
+TQID: 'https://experienceleague.adobe.com/eXBA0XV6xC3vgJ7eqqnDwnx0dThxnALmVrOo58jd-wc'
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
 workflow-type: tm+mt
-source-wordcount: '1633'
-ht-degree: 23%
+source-wordcount: 1643
+ht-degree: 21%
 
 ---
 
@@ -21,11 +27,11 @@ ht-degree: 23%
 
 要监控文件上传到Adobe Dynamic Media Classic以及您发布到Adobe Dynamic Media Classic服务器的文件，Adobe Dynamic Media Classic提供了“作业”页面。 您可以在“作业”页面上查看、上载和发布作业，检查作业的状态，以及取消从此页面发布作业。 您也可以计划上载和发布作业。
 
-在您上载资源时，“作业”菜单旁会显示一个旋转的图标，指示作业正在进行中以及进行中的文件的数量。您可以选择图标以查看有关活动作业的详细信息。
+在您上载资源时，“作业”菜单旁会显示一个旋转的图标，指示作业正在进行中以及进行中的文件的数量。 您可以选择图标以查看有关活动作业的详细信息。
 
 >[!NOTE]
 >
->还会在“最近活动”页中提供最近发布的作业的列表。在全局导航栏上选择&#x200B;**[!UICONTROL 最近]**。
+>还会在“最近活动”页中提供最近发布的作业的列表。 在全局导航栏上选择&#x200B;**[!UICONTROL 最近]**。
 
 ## 关于“作业”页 {#about-the-jobs-page}
 
@@ -41,7 +47,7 @@ ht-degree: 23%
 
 * **[!UICONTROL 总计]**：传输的文件数。
 
-* **[!UICONTROL W（警告）]**：作业中的警告数（如果有）。 警告指出作业中不影响总体作业完成的问题。这些警告通常可以忽略，因为他们报告隐藏文件的情况。例如，`.DS_store`文件(Mac)和Thumbs.db文件(Windows®)包含有关如何向用户显示图像文件的信息。 但是，可以忽略有关这些文件的警告条目，因为它们与在Adobe Dynamic Media Classic中使用这些文件的方式无关。 您可以双击作业名来获取有关警告的详细信息。
+* **[!UICONTROL W（警告）]**：作业中的警告数（如果有）。 警告指出作业中不影响总体作业完成的问题。 这些警告通常可以忽略，因为他们报告隐藏文件的情况。 例如，`.DS_store`文件(Mac)和Thumbs.db文件(Windows®)包含有关如何向用户显示图像文件的信息。 但是，可以忽略有关这些文件的警告条目，因为它们与在Adobe Dynamic Media Classic中使用这些文件的方式无关。 您可以双击作业名来获取有关警告的详细信息。
 
 * **[!UICONTROL E （错误）]**：列出作业中的错误数（如果有）。 您可以双击作业名来获取有关错误的详细信息。
 
@@ -71,7 +77,7 @@ ht-degree: 23%
 
 ## 查看、复制或打印“作业详细信息”报告 {#viewing-copying-or-printing-a-job-details-report}
 
-在“作业”页上双击报表的名称，以打开“作业详细信息”页。 该页提供了有关作业中的文件的摘要报告。选择&#x200B;**[!UICONTROL 查看详细信息]**，以便查看条目的Adobe Dynamic Media Classic ID、目标路径和状态信息。 如果您上传的PDF或PostScript文件所需的字体在Adobe Dynamic Media Classic中不可用，则报表会列出缺少的字体。
+在“作业”页上双击报表的名称，以打开“作业详细信息”页。 该页提供了有关作业中的文件的摘要报告。 选择&#x200B;**[!UICONTROL 查看详细信息]**，以便查看条目的Adobe Dynamic Media Classic ID、目标路径和状态信息。 如果您上传的PDF或PostScript文件所需的字体在Adobe Dynamic Media Classic中不可用，则报表会列出缺少的字体。
 
 您可以将该信息复制到剪贴板。
 
@@ -121,9 +127,9 @@ ht-degree: 23%
 | 分 | 0-59 |  | `,: * /` |
 | 小时 | 0-23 | 注意使用 24 小时制。 | `,: * /` |
 | 日期 | 1-31 | 不能同时为“日期”和“星期”指定数值。 这些字段之一必须使用`?`通配符。 | `,: * / ? L C` |
-| 月 | 1-12 或一月、二月、三月、四月、五月、六月、七月、八月、九月、十月、十一月、十二月 | 值区分大小写。 | `,: * /` |
+| 月 | 1-12或1月、2月、3月、4月、5月、6月、7月、8月、9月、9月、10月、11月、12月 | 值区分大小写。 | `,: * /` |
 | 星期 | 周一、周二、周三、周四、周五、周六、周日 | 值区分大小写。 不能同时为“日期”和“星期”指定数值。 这些字段之一必须使用`?`通配符。 | `,: * / ? L C #` |
-| 年（可选） | 空白或 1970-2099 |  | `,: * /` |
+| 年（可选） | 空或1970-2099 |  | `,: * /` |
 
 
 下表描述在“规则”框中允许的通配符以及如何使用这些通配符：

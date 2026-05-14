@@ -10,16 +10,22 @@ role: Admin,User
 exl-id: 95c7d403-7206-4158-b8ad-6091b24b5077
 topic: Administration, Content Management
 level: Intermediate
-source-git-commit: 914fde11270dc731a261da3305b29dd573584d93
+autotag-review: '2026-05-13T19:50:36.235Z'
+TQID: 'https://experienceleague.adobe.com/6fNfI7Na3jeDys307id5U9nIt-DeWCmfwtIzsb0G73I'
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
 workflow-type: tm+mt
-source-wordcount: '235'
+source-wordcount: 239
 ht-degree: 52%
 
 ---
 
 # 管理FTP帐户{#managing-ftp-accounts}
 
-只有 Media Portal 管理员可以监管和管理 FTP 帐户。此外，只有角色为&#x200B;*Media Portal Contributor-User*&#x200B;或&#x200B;*Media Portal Contributor*&#x200B;的用户才能上传数字资产。
+只有 Media Portal 管理员可以监管和管理 FTP 帐户。 此外，只有角色为&#x200B;*Media Portal Contributor-User*&#x200B;或&#x200B;*Media Portal Contributor*&#x200B;的用户才能上传数字资产。
 
 请记住，您可以通过“管理设置”中的“用户管理”页面来激活或停用现有的 Media Portal 用户。
 

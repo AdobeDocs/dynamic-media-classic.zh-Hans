@@ -10,10 +10,16 @@ role: User
 exl-id: 618ae6a4-6f60-4a80-b197-a9d35b3c47af
 topic: Content Management
 level: Intermediate
-source-git-commit: 8dc990a1fb1355b00fa4839e14b92bb6562d40b4
+autotag-review: '2026-05-13T19:45:19.277Z'
+TQID: 'https://experienceleague.adobe.com/XtUpvJz6aepSU0F9CupyrR8-cdSpNo3blHK38hh9Fc8'
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
 workflow-type: tm+mt
-source-wordcount: '621'
-ht-degree: 20%
+source-wordcount: 620
+ht-degree: 21%
 
 ---
 
@@ -44,7 +50,7 @@ Last Modified Date: 2018-06-14T13:52:46.623-0400
 
 1. 在“浏览”面板中，执行以下任一操作：
 
-   * 选择资源。 在Adobe Dynamic Media Classic的右上角附近，选择&#x200B;**[!UICONTROL 详细信息视图]**&#x200B;图标。
+   * 选择该资源。 在Adobe Dynamic Media Classic的右上角附近，选择&#x200B;**[!UICONTROL 详细信息视图]**&#x200B;图标。
    * 双击资源。
    * 选择资源，然后转到&#x200B;**[!UICONTROL 文件]** > **[!UICONTROL 详细信息]**。
 

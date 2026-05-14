@@ -9,9 +9,15 @@ role: User
 exl-id: 2ef78fe6-1e7c-4f48-86da-137ddaa55bbf
 topic: Content Management
 level: Intermediate
-source-git-commit: 384e1ec078540d0cc5224b98ead6eb880cd92c2a
+autotag-review: '2026-05-13T20:16:55.218Z'
+TQID: 'https://experienceleague.adobe.com/oR7ZZoQsq8nYVZnpQ82hn2PwgIiCmKXKnHfdr0GQSb8'
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
 workflow-type: tm+mt
-source-wordcount: '1051'
+source-wordcount: 1051
 ht-degree: 51%
 
 ---
@@ -30,7 +36,7 @@ ht-degree: 51%
 
 ## 请求共享密钥 {#requesting-a-shared-secret-key}
 
-由[使用Admin Console请求&#x200B;*共享密钥*&#x200B;以创建支持案例。](https://helpx.adobe.com/cn/enterprise/using/support-for-experience-cloud.html) 在技术支持案例中，请求共享密钥。
+由[使用Admin Console请求&#x200B;*共享密钥*&#x200B;以创建支持案例。](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) 在技术支持案例中，请求共享密钥。
 
 在电子邮件中，请提供要用于上载图像资源的公司名称。 从Adobe Dynamic Media Classic收到密钥后，请将其本地保存以供将来使用。
 
@@ -139,7 +145,7 @@ https://s7ugc1.scene7.com/ugc/image?op=upload&upload_token=aa2a378a-cd25-4c80-99
 * 文件扩展名的列表。
 * 是否保留与资源关联的颜色配置文件和文件名。
 * 是否使用挖空背景。 如果启用“挖空背景”，请设置“拐角”、“公差”和“填充方法”。
-在上传[&#128279;](image-editing-options-upload.md#image-editing-options-at-upload)处查看图像微调选项中的“挖空背景”。
+在上传](image-editing-options-upload.md#image-editing-options-at-upload)处查看[图像微调选项中的“挖空背景”。
 * 要上传的文件的名称。
 
 您可以通过选择[https://s7ugc1.scene7.com/ugc/upload.html](https://s7ugc1.scene7.com/ugc/upload.html)来查看与上述表单关联的HTML源代码

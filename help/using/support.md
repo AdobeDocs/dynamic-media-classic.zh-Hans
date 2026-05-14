@@ -10,29 +10,35 @@ role: Admin,User
 exl-id: 708f32f1-fdbb-4a32-a1b7-836c99b458be
 topic: Content Management
 level: Intermediate
-source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
+autotag-review: '2026-05-13T20:13:54.376Z'
+TQID: 'https://experienceleague.adobe.com/n2Rq8sqOCakqs8Z3s3fGkJ7YDX0RALIvKR-ECSZ3Rqg'
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
 workflow-type: tm+mt
-source-wordcount: '185'
-ht-degree: 14%
+source-wordcount: 217
+ht-degree: 12%
 
 ---
 
 # 支持 {#support}
 
-技术支持服务旨在满足各种规模公司的需求。下表介绍了Adobe Dynamic Media Classic客户关怀服务：
+技术支持服务旨在满足各种规模公司的需求。 下表介绍了Adobe Dynamic Media Classic客户关怀服务：
 
 | 支持 | 订阅 |
 | --- | --- |
 | 服务限制 | 无限制。 |
-| 检查Adobe系统状态 | [Adobe Dynamic Media Classic系统状态](https://status.adobe.com/cn/products/1175)。 |
-| 找不到答案？ | [若要从支持部门获得帮助，请打开票证](https://experienceleague.adobe.com/zh-hans?support-solution=General#support)。 |
-| 社区论坛 | [Experience Manager社区论坛](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/ct-p/adobe-experience-manager-community?profile.language=zh-Hans)。 |
-| SLA（服务级别协议） | [支持服务/条款和条件](https://helpx.adobe.com/cn/support/programs/support-policies-terms-conditions.html)。 |
+| 检查Adobe系统状态 | [Adobe Dynamic Media Classic系统状态](https://status.adobe.com/products/1175)。 |
+| 找不到答案？ | [若要从支持部门获得帮助，请打开票证](https://experienceleague.adobe.com/?support-solution=General#support)。 |
+| 社区论坛 | [Experience Manager社区论坛](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/ct-p/adobe-experience-manager-community)。 |
+| SLA（服务级别协议） | [支持服务/条款和条件](https://helpx.adobe.com/support/programs/support-policies-terms-conditions.html)。 |
 | 支持的用户 | 每个组织最多可将10个用户指定为受支持用户，这些用户可以通过客户关怀团队打开案例。 |
 | 免费的网络培训和说明视频 | 包括。 |
-| 电话支持 | <ul><li>美国和加拿大：1-800-497-0335 </li><li>[其他地区的电话号码](https://experienceleague.adobe.com/zh-hans?support-tab=home#support)。 </li></ul> |
+| 电话支持 | <ul><li>美国和加拿大：1-800-497-0335 </li><li>[其他地区的电话号码](https://experienceleague.adobe.com/?support-tab=home#support)。 </li></ul> |
 
-<!-- |Create a support case| [https://helpx.adobe.com/cn/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html](https://helpx.adobe.com/cn/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) | -->
+<!-- |Create a support case| [https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) | -->
 
 向技术支持部门报告问题时，请包括以下信息：
 

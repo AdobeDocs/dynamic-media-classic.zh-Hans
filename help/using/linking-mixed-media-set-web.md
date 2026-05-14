@@ -10,9 +10,14 @@ role: User
 exl-id: 76a7530c-0cc7-4a7f-bc31-2950c4946871
 topic: Content Management
 level: Intermediate
-source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
+autotag-review: '2026-05-13T20:02:51.028Z'
+TQID: 'https://experienceleague.adobe.com/3AeMn6W1vePdJL1PkXuy-YISRw75QUDfdkUP5V2xhEs'
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
 workflow-type: tm+mt
-source-wordcount: '653'
+source-wordcount: 657
 ht-degree: 20%
 
 ---
@@ -27,16 +32,16 @@ ht-degree: 20%
 1. 在左侧的“资产库”面板中，导航到包含要复制其嵌入代码的媒体集的资产文件夹。
 1. 在“资源浏览”面板上方的工具栏右侧，执行以下任一操作：
 
-   * 单击“**[!UICONTROL 网格视图]**”。在“资源浏览”面板中，双击单个资源以便在详细信息视图中将其打开。在右侧的“URL和嵌入代码”面板中，选择所需查看器右侧的&#x200B;**[!UICONTROL 复制URL]**。
-   * 单击“**[!UICONTROL 网格视图]**”。在“资源浏览”面板中，选择单个资源，然后在缩略图图像下面转到&#x200B;**[!UICONTROL 预览]** > **[!UICONTROL 查看器列表]**。
+   * 单击“**[!UICONTROL 网格视图]**”。 在“资源浏览”面板中，双击单个资源以便在详细信息视图中将其打开。 在右侧的“URL和嵌入代码”面板中，选择所需查看器右侧的&#x200B;**[!UICONTROL 复制URL]**。
+   * 单击“**[!UICONTROL 网格视图]**”。 在“资源浏览”面板中，选择单个资源，然后在缩略图图像下面转到&#x200B;**[!UICONTROL 预览]** > **[!UICONTROL 查看器列表]**。
 
      在“查看器列表”页表的“操作”列下，选择&#x200B;**[!UICONTROL 复制URL]**。
 
-   * 单击“**[!UICONTROL 列表视图]**”。在“资源浏览”面板中，选择单个资源，然后在缩略图图像的右侧，转到&#x200B;**[!UICONTROL 预览]** > **[!UICONTROL 查看器列表]**。
+   * 单击“**[!UICONTROL 列表视图]**”。 在“资源浏览”面板中，选择单个资源，然后在缩略图图像的右侧，转到&#x200B;**[!UICONTROL 预览]** > **[!UICONTROL 查看器列表]**。
 
      在“查看器列表”页表的“操作”列下，选择&#x200B;**[!UICONTROL 复制URL]**。
 
-   * 单击“**[!UICONTROL 网格视图]**”、“**[!UICONTROL 列表视图]**”或“**[!UICONTROL 详细信息视图]**”。在同一工具栏上，转到&#x200B;**[!UICONTROL 预览]** > **[!UICONTROL 查看器列表]**。
+   * 单击“**[!UICONTROL 网格视图]**”、“**[!UICONTROL 列表视图]**”或“**[!UICONTROL 详细信息视图]**”。 在同一工具栏上，转到&#x200B;**[!UICONTROL 预览]** > **[!UICONTROL 查看器列表]**。
 
      在“查看器列表”页表的“操作”列下，选择&#x200B;**[!UICONTROL 复制URL]**。
 
@@ -54,16 +59,16 @@ ht-degree: 20%
 1. 在左侧的“资产库”面板中，导航到包含要复制其嵌入代码的混合媒体集的资产文件夹。
 1. 在“资源浏览”面板上方的工具栏右侧，执行以下任一操作：
 
-   * 单击“**[!UICONTROL 网格视图]**”。在“资源浏览”面板中，双击单个资源以便在详细信息视图中将其打开。在右侧的“URL和嵌入代码”面板中，选择所需查看器右侧的&#x200B;**[!UICONTROL 嵌入代码]**。
-   * 单击“**[!UICONTROL 网格视图]**”。在“资源浏览”面板中，选择单个资源，然后在缩略图图像下面转到&#x200B;**[!UICONTROL 预览]** > **[!UICONTROL 查看器列表]**。
+   * 单击“**[!UICONTROL 网格视图]**”。 在“资源浏览”面板中，双击单个资源以便在详细信息视图中将其打开。 在右侧的“URL和嵌入代码”面板中，选择所需查看器右侧的&#x200B;**[!UICONTROL 嵌入代码]**。
+   * 单击“**[!UICONTROL 网格视图]**”。 在“资源浏览”面板中，选择单个资源，然后在缩略图图像下面转到&#x200B;**[!UICONTROL 预览]** > **[!UICONTROL 查看器列表]**。
 
      在“查看器列表”页表的“操作”列下，选择&#x200B;**[!UICONTROL 嵌入代码]**。
 
-   * 单击“**[!UICONTROL 列表视图]**”。在“资源浏览”面板中，选择单个资源，然后在缩略图图像的右侧，转到&#x200B;**[!UICONTROL 预览]** > **[!UICONTROL 查看器列表]**。
+   * 单击“**[!UICONTROL 列表视图]**”。 在“资源浏览”面板中，选择单个资源，然后在缩略图图像的右侧，转到&#x200B;**[!UICONTROL 预览]** > **[!UICONTROL 查看器列表]**。
 
      在“查看器列表”页表的“操作”列下，选择&#x200B;**[!UICONTROL 嵌入代码]**。
 
-   * 单击“**[!UICONTROL 网格视图]**”、“**[!UICONTROL 列表视图]**”或“**[!UICONTROL 详细信息视图]**”。在同一工具栏上，转到&#x200B;**[!UICONTROL 预览]** > **[!UICONTROL 查看器列表]**。
+   * 单击“**[!UICONTROL 网格视图]**”、“**[!UICONTROL 列表视图]**”或“**[!UICONTROL 详细信息视图]**”。 在同一工具栏上，转到&#x200B;**[!UICONTROL 预览]** > **[!UICONTROL 查看器列表]**。
 
      在“查看器列表”页表的“操作”列下，选择&#x200B;**[!UICONTROL 嵌入代码]**。
 

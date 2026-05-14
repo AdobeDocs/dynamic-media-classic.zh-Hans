@@ -10,10 +10,16 @@ role: User
 exl-id: ca629427-da33-4bab-9d08-6d9368042f7e
 topic: Administration, Content Management, Development
 level: Intermediate
-source-git-commit: 8dc990a1fb1355b00fa4839e14b92bb6562d40b4
+autotag-review: '2026-05-13T20:03:48.579Z'
+TQID: 'https://experienceleague.adobe.com/c8e722KVmasJVtoVl8k7-5vGjvs4Lm-GZavm-TF9fk0'
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
 workflow-type: tm+mt
-source-wordcount: '842'
-ht-degree: 26%
+source-wordcount: 844
+ht-degree: 24%
 
 ---
 
@@ -25,7 +31,7 @@ ht-degree: 26%
 
 ## 获取图像预设URL {#obtaining-an-image-preset-url}
 
-可从“预览”或详细信息视图中获得由图像预设生成的 URL 字符串。复制 URL 后，该字符串将放置在剪贴板上，以便在必要时进行粘贴。
+可从“预览”或详细信息视图中获得由图像预设生成的 URL 字符串。 复制 URL 后，该字符串将放置在剪贴板上，以便在必要时进行粘贴。
 
 >[!NOTE]
 >
@@ -56,7 +62,7 @@ ht-degree: 26%
 
 用于调整Dynamic Media图像服务器图像大小的URL调用具有以下基本语法：
 
-*路径*/*图像服务器名称*/*帐户名称*/*图像名称*?*修饰符1*&amp;*修饰符2*&amp;...
+*path*/*图像服务器的名称*/*帐户名称*/*图像名称*？*modifier1*&amp;*modifier2*&amp;...
 
 在Dynamic Media图像服务器URL中，服务器显示图像的说明显示在问号(？)之后。 例如，此URL调用会提供一个宽度为250像素的名为“backpack”的图像：
 
@@ -64,19 +70,19 @@ ht-degree: 26%
 https://s7d1.scene7.com/is/image/S7learn/backpack?wid=250
 ```
 
-图像预设 URL 包含按相应大小和格式规范显示图像的所有修饰符指令。对于没有图像预设的情况，请注意此 URL 字符串中问号 (?) 之后的所有修饰符指令：
+图像预设 URL 包含按相应大小和格式规范显示图像的所有修饰符指令。 对于没有图像预设的情况，请注意此 URL 字符串中问号 (?) 之后的所有修饰符指令 ：
 
 ```as3
 https://s7d1.scene7.com/is/image/S7learn/backpack?wid=250&fmt=jpeg&qlt=80,0&resMode=sharp&op_usm=1.1,0.5,1,0
 ```
 
-然而，在图像预设生成的 URL 字符串中，图像预设的名称将代替图像预设定义的指令。例如，对于上面的长 URL，此 URL 字符串为：
+然而，在图像预设生成的 URL 字符串中，图像预设的名称将代替图像预设定义的指令。 例如，对于上面的长 URL，此 URL 字符串为：
 
 ```as3
 https://s7d1.scene7.com/is/image/S7learn/backpack?$Large$
 ```
 
-在 URL 中图像预设名称用美元符号 ($) 括起。当Dynamic Media图像服务器遇到URL的图像预设部分（在本例中为`Large`）时，使用“大”图像预设定义的大小和格式说明。
+在 URL 中图像预设名称用美元符号 ($) 括起。 当Dynamic Media图像服务器遇到URL的图像预设部分（在本例中为`Large`）时，使用“大”图像预设定义的大小和格式说明。
 
 ## 将动态图像添加到网页 {#adding-dynamic-images-to-your-web-page}
 

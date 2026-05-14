@@ -1,5 +1,5 @@
 ---
-title: 字体
+title: 字型
 description: 了解如何在Adobe Dynamic Media Classic中使用字体。
 contentOwner: Rick Brough
 content-type: reference
@@ -10,16 +10,21 @@ role: User
 exl-id: 186f4c7f-16f6-42f5-bc0e-55362c55e794
 topic: Content Management
 level: Intermediate
-source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
+autotag-review: '2026-05-13T19:50:28.929Z'
+TQID: 'https://experienceleague.adobe.com/g-A6M8KM6VT4m-JVyDp6KMMN82CtGTXcoUFVvQsoLps'
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
 workflow-type: tm+mt
-source-wordcount: '427'
+source-wordcount: 430
 ht-degree: 23%
 
 ---
 
 # 字体{#fonts}
 
-有时，Adobe Dynamic Media Classic需要您上传字体文件，以输入或渲染特定字体的文本。 例如，要在模板图层上将特定的字体用于文本，请上载字体文件。要以特定的字体显示 eCatalog 查看器页码，请上载字体文件。
+有时，Adobe Dynamic Media Classic需要您上传字体文件，以输入或渲染特定字体的文本。 例如，要在模板图层上将特定的字体用于文本，请上载字体文件。 要以特定的字体显示 eCatalog 查看器页码，请上载字体文件。
 
 Adobe Dynamic Media Classic支持以下字体类型：
 
@@ -37,13 +42,13 @@ Adobe Dynamic Media Classic支持以下字体类型：
 
 ## 上载字体文件 {#uploading-font-files}
 
-使用与上载其他文件相同的方法上载字体文件。可以将字体文件存储在任何Adobe Dynamic Media Classic文件夹中。 请参阅[上载文件](uploading-files.md#uploading_your_files)。
+使用与上载其他文件相同的方法上载字体文件。 可以将字体文件存储在任何Adobe Dynamic Media Classic文件夹中。 请参阅[上载文件](uploading-files.md#uploading_your_files)。
 
 ## 编辑字体文件信息 {#editing-font-file-information}
 
 您可以更改字体的ID名称及其类型信息。 编辑字体文件会有助于搜索，并且使得字体更易于识别。
 
-在“浏览”面板中，选择要在“详细信息视图”中编辑的字体文件，然后选择“文件”>“编辑信息”。 此时将打开“编辑信息”屏幕。选择以下选项，然后选择&#x200B;**[!UICONTROL 提交]**。
+在“浏览”面板中，选择要在“详细信息视图”中编辑的字体文件，然后选择“文件”>“编辑信息”。 此时将打开“编辑信息”屏幕。 选择以下选项，然后选择&#x200B;**[!UICONTROL 提交]**。
 
 * **[!UICONTROL 字体名称]**：此名称在发布时标识该字体。
 

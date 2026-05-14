@@ -10,18 +10,24 @@ role: User
 exl-id: 69aabf4a-21bc-4bd8-8aad-33c2cfb9cf57
 topic: Content Management
 level: Intermediate
-source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
+autotag-review: '2026-05-13T20:06:21.685Z'
+TQID: 'https://experienceleague.adobe.com/5qHEB75XuruG3SWp5zXaM3nadbtkW9M7xRvPA0mxo4M'
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
 workflow-type: tm+mt
-source-wordcount: '482'
+source-wordcount: 483
 ht-degree: 21%
 
 ---
 
 # 组织您对项目的工作{#organizing-your-work-with-projects}
 
-项目为您提供了一种可选的次要方式来独立于存储资源的文件夹对资源进行组织。一个资源只能放入一个文件夹中，但却可以复制到多个项目文件夹中进行组织。
+项目为您提供了一种可选的次要方式来独立于存储资源的文件夹对资源进行组织。 一个资源只能放入一个文件夹中，但却可以复制到多个项目文件夹中进行组织。
 
-在创建项目文件夹之后，便可将资源放入其中。项目中的Assets实际上是指向存储资产的“资产库”文件夹的指针。 可以将一个资源放置在多个项目中。例如，可以将衬衫的图像同时放置在“衬衫”和“秋季系列”项目文件夹中。
+在创建项目文件夹之后，便可将资源放入其中。 项目中的Assets实际上是指向存储资产的“资产库”文件夹的指针。 可以将一个资源放置在多个项目中。 例如，可以将衬衫的图像同时放置在“衬衫”和“秋季系列”项目文件夹中。
 
 可以在上载文件时创建一个项目，也可以在“资源库”面板中创建项目。
 
@@ -31,7 +37,7 @@ ht-degree: 21%
 
 >[!NOTE]
 >
->要在项目中组织资源，管理员必须为您进行设置才能进行使用。如果您在Assets库底部没有看到“项目”文件夹部分，则无法使用这种整理资源的方法。 请参阅[应用程序常规设置](application-setup.md#general-settings)。
+>要在项目中组织资源，管理员必须为您进行设置才能进行使用。 如果您在Assets库底部没有看到“项目”文件夹部分，则无法使用这种整理资源的方法。 请参阅[应用程序常规设置](application-setup.md#general-settings)。
 
 ## 创建项目文件夹 {#creating-a-project-folder}
 
