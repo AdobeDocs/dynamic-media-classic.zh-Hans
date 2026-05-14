@@ -12,10 +12,14 @@ topic: Content Management
 level: Intermediate
 autotag-review: '2026-05-13T20:10:57.394Z'
 TQID: 'https://experienceleague.adobe.com/2DaWdJsCz9f5iXEkMi6N1L7s3eFdvpBc1ECrgbVAueo'
-product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+product_v2:
+  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
 source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
 workflow-type: tm+mt
 source-wordcount: 853
@@ -47,7 +51,7 @@ ht-degree: 18%
 
 ## &#x200B;2. 创建模板
 
-要从PSD文件创建模板，请在上传文件时选择&#x200B;**[!UICONTROL 创建模板]**。 要从图像创建模板，请在全局导航栏上，转到&#x200B;**[!UICONTROL 生成]** > **[!UICONTROL 模板基础知识]**，输入画布的宽度和高度测量值。 在页面的右上角附近，选择&#x200B;**[!UICONTROL Designer]**&#x200B;或&#x200B;**[!UICONTROL 开发人员]**，然后将图像拖到“模板”页面上。 您还可以选择图像&#x200B;**，转到&#x200B;**[!UICONTROL 生成]** > **[!UICONTROL 模板基础知识]**。 “模板”页面提供了以下工具：
+要从PSD文件创建模板，请在上传文件时选择&#x200B;**[!UICONTROL 创建模板]**。 要从图像创建模板，请在全局导航栏上，转到&#x200B;**[!UICONTROL 生成]** > **[!UICONTROL 模板基础知识]**，输入画布的宽度和高度测量值。 在页面的右上角附近，选择&#x200B;**[!UICONTROL Designer]**&#x200B;或&#x200B;**[!UICONTROL 开发人员]**，然后将图像拖到“模板”页面上。 您还可以选择图像&#x200B;**，转到&#x200B;**&#x200B;[!UICONTROL 生成] **&#x200B; > &#x200B;** [!UICONTROL 模板基础知识]**。 “模板”页面提供了以下工具：
 
 * 添加图像图层。 要添加图层，请将图像拖到“模板”页面中。
 * 添加文本图层。 选择&#x200B;**[!UICONTROL 文本工具]**&#x200B;图标。 拖动指针为文本图层创建一个框；然后在“文本”页面上使用工具设置文本格式。

@@ -12,9 +12,12 @@ topic: Content Management
 level: Intermediate
 autotag-review: '2026-05-13T19:45:00.273Z'
 TQID: 'https://experienceleague.adobe.com/lVQWshcgF66zFJ9pTVdrMaGNowclV5u6nxzqOSetns0'
-product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+product_v2:
+  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
 workflow-type: tm+mt
 source-wordcount: 1735
@@ -46,7 +49,7 @@ ht-degree: 22%
 
 1. 执行以下任一操作：
 
-   * 若要在上传时自动立即发布视频，请在“上传”页面中，选择“上传后发布”]**。**[!UICONTROL &#x200B;您已完成相应的操作，不需要执行其他步骤。
+   * 若要在上传时自动立即发布视频，请在“上传”页面中，选择“上传后发布”**。**&#x200B;您已完成相应的操作，不需要执行其他步骤。
    * 要在上传后手动发布视频，请在“浏览”面板中选择视频，然后在“全局导航”栏上选择&#x200B;**发布**。
 
 ## 将视频URL链接到移动网站或网站 {#linking-a-video-url-to-a-mobile-site-or-a-website}

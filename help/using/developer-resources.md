@@ -11,9 +11,12 @@ topic: Development, Integrations
 level: Experienced
 autotag-review: '2026-05-13T19:45:42.823Z'
 TQID: 'https://experienceleague.adobe.com/yVtwbE8JePSUMeMBeajLy-fsI-zHn0bbZjCasDT5AuQ'
-product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2: id: d378ca77-2da1-4f39-ad92-1917fe974a38
+product_v2:
+  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
 source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
 workflow-type: tm+mt
 source-wordcount: 228

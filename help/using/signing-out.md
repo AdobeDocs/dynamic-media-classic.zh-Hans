@@ -12,9 +12,14 @@ topic: Content Management
 level: Intermediate
 autotag-review: '2026-05-13T20:13:28.471Z'
 TQID: 'https://experienceleague.adobe.com/YxTYiix-7QM3EtcrAvEKg6k1qLVKuqG-FtN0Ntqpr-Y'
-product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+product_v2:
+  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
 workflow-type: tm+mt
 source-wordcount: 237
@@ -38,7 +43,7 @@ ht-degree: 6%
 
 1. 在&#x200B;**[!UICONTROL 用户名]**&#x200B;字段中输入您的电子邮件地址。
 1. 在&#x200B;**[!UICONTROL 密码]**&#x200B;字段中，键入密码。
-1. 在&#x200B;**[!UICONTROL 服务器]**下拉列表中选择服务器。
+1. 在&#x200B;**[!UICONTROL 服务器]**&#x200B;下拉列表中选择服务器。
 使用以下映射选择要使用的生产环境。
 
    | 浏览器URL | 桌面应用程序服务器名称 |
