@@ -21,9 +21,9 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+source-git-commit: af16f8e2f2c8ea927c70e73cef774b09e8cbd346
 workflow-type: tm+mt
-source-wordcount: 239
+source-wordcount: 241
 ht-degree: 52%
 
 ---
@@ -48,7 +48,7 @@ ht-degree: 52%
 
    要上载媒体资源，您需要已在“现有帐户”表中列出的 FTP 帐户用户名，以及指定给帐户的密码。
 
-   查看[上载文件](uploading-files.md#uploading_files)。
+   请参阅主题[上载文件](uploading-files.md#uploading_files)。
 
 ## 删除现有FTP帐户 {#deleting-an-existing-ftp-account}
 
