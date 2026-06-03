@@ -12,18 +12,13 @@ topic: Administration, Content Management
 level: Intermediate
 autotag-review: '2026-05-13T19:50:36.235Z'
 TQID: 'https://experienceleague.adobe.com/6fNfI7Na3jeDys307id5U9nIt-DeWCmfwtIzsb0G73I'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: af16f8e2f2c8ea927c70e73cef774b09e8cbd346
 workflow-type: tm+mt
-source-wordcount: 239
+source-wordcount: 241
 ht-degree: 52%
 
 ---
@@ -48,7 +43,7 @@ ht-degree: 52%
 
    要上载媒体资源，您需要已在“现有帐户”表中列出的 FTP 帐户用户名，以及指定给帐户的密码。
 
-   查看[上载文件](uploading-files.md#uploading_files)。
+   请参阅主题[上载文件](uploading-files.md#uploading_files)。
 
 ## 删除现有FTP帐户 {#deleting-an-existing-ftp-account}
 
