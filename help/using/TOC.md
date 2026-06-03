@@ -4,9 +4,9 @@ product: adobe dynamic media classic
 audience: end-user
 user-guide-title: Adobe Dynamic Media Classic指南
 breadcrumb-title: Dynamic Media Classic指南
-user-guide-description: 了解有关使用Adobe Dynamic Media Classic的更多信息
+user-guide-description: 了解有关使用Adobe Dynamic Media Classic的更多信息。
 index: true
-source-git-commit: 384e1ec078540d0cc5224b98ead6eb880cd92c2a
+source-git-commit: 34e160beda5a4ccae31adf0d2fac0f40e5156c89
 workflow-type: tm+mt
 source-wordcount: '810'
 ht-degree: 19%
@@ -22,7 +22,7 @@ ht-degree: 19%
    + [功能列表比较](upgrade-feature-comparison.md)
    + [升级就绪性检查列表](upgrade-readiness.md)
 + [Adobe Dynamic Media Classic指南](home.md)
-+ [Adobe Dynamic Media Classic最佳实践教程](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-learn/dynamic-media-classic-tutorial/overview)
++ [Adobe Dynamic Media Classic最佳实践教程](https://experienceleague.adobe.com/en/docs/experience-manager-learn/dynamic-media-classic-tutorial/overview)
 + [新的Adobe Dynamic Media Classic登录现已可用](new-ui-2020.md)
 + [Experience League存档的Adobe Dynamic Media新闻稿](dynamic-media-newsletter.md)
 + Adobe Dynamic Media Classic简介 {#intro}
