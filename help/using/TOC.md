@@ -4,9 +4,9 @@ product: adobe dynamic media classic
 audience: end-user
 user-guide-title: Adobe Dynamic Media Classic指南
 breadcrumb-title: Dynamic Media Classic指南
-user-guide-description: 了解有关使用Adobe Dynamic Media Classic的更多信息
+user-guide-description: 了解有关使用Adobe Dynamic Media Classic的更多信息。
 index: true
-source-git-commit: 384e1ec078540d0cc5224b98ead6eb880cd92c2a
+source-git-commit: 34e160beda5a4ccae31adf0d2fac0f40e5156c89
 workflow-type: tm+mt
 source-wordcount: '810'
 ht-degree: 19%
