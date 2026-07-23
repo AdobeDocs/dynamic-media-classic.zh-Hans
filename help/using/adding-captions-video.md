@@ -11,24 +11,20 @@ topic: Content Management
 level: Intermediate
 autotag-review: '2026-05-13T17:36:57.321Z'
 TQID: 'https://experienceleague.adobe.com/wFvWrYRUlCvHwaZFcCcHVDS3ApzUEX2AkFD3EovQJ1g'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-source-git-commit: fb3cf42c8b9b0b90e2378beedce15a20c086f1a9
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+source-git-commit: d916bcffc88b88a6cefec53fb7775c7a1eb78910
 workflow-type: tm+mt
-source-wordcount: 730
-ht-degree: 15%
+source-wordcount: 716
+ht-degree: 7%
 
 ---
 
 # 向视频添加字幕 {#add-captions-to-video}
 
-将视频覆盖范围扩展到全球市场。 为此，您可以向单个视频或自适应视频集添加字幕。 通过添加题注，可以避免为音频配音或针对每种不同的语言使用说母语的人来重新录制音频的操作。 视频使用录制时的语言播放。 同时显示外语字幕，以便使用不同语言的人也可以理解音频内容。
+向全球市场提供您的视频。 为此，您可以向单个视频或自适应视频集添加字幕。 通过添加字幕，您无需对音频进行配音，也无需使用本国语音艺术家以每种语言录制音频。 视频以其原始语言播放。 翻译后的字幕出现，以便不同语言的人仍然能够理解音频部分。
 
 通过添加题注，还可以使耳聋或者有听力障碍的人也可以访问这部分内容。
 
@@ -46,9 +42,9 @@ ht-degree: 15%
 
 另请参阅[添加和编辑查看器预设](application-setup.md#adding_and_editing_viewer_presets)。
 
-Adobe Dynamic Media Classic可以将字幕文件转换为JSON（JavaScript对象表示法）格式。 这种转换意味着，您可以将JSON文本作为隐藏但完整的视频转录内容嵌入到网页中。 然后，搜索引擎可以抓取和索引内容，以使视频更容易被发现，并为客户提供有关视频内容的更多详细信息。
+Adobe Dynamic Media Classic可以将字幕文件转换为JSON（JavaScript对象表示法）格式。 通过此转换，可将JSON文本作为隐藏但完整的视频转录内容嵌入网页。 然后，搜索引擎可以抓取和索引内容，以使视频更容易被发现，并为客户提供有关视频内容的更多详细信息。
 
-有关在URL中使用JSON函数的更多信息，请参阅中的[提供静态（非图像）内容](https://experienceleague.adobe.com/zh-hans/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/c-serving-static-nonimage-contents#image-serving-api)。
+有关在URL中使用JSON函数的更多信息，请参阅[提供静态（非图像）内容](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/c-serving-static-nonimage-contents#image-serving-api)。
 
 **要向视频添加字幕：**
 
@@ -64,17 +60,17 @@ Adobe Dynamic Media Classic可以将字幕文件转换为JSON（JavaScript对象
 
 1. 在左侧的“资产库”面板中，导航到包含视频文件的资产文件夹，以与您上传的字幕文件相关联。
 1. 在“资源浏览”面板中，选择单个视频资源，然后在资源的缩略图图像下方选择&#x200B;**[!UICONTROL 预览]** > **[!UICONTROL 查看器列表]**。
-1. 在“查看器列表”表中，找到名为&#x200B;**Univeral_HTML5_Video**、**Universal_HTML5_MixedMedia_dark**&#x200B;或&#x200B;**Universal_HTML5_MixedMedia_light**&#x200B;的HTML5查看器，然后执行以下操作之一：
+1. 在“查看器列表”表中，找到名为&#x200B;**Universal_HTML5_Video**、**Universal_HTML5_MixedMedia_dark**&#x200B;或&#x200B;**Universal_HTML5_MixedMedia_light**&#x200B;的HTML5查看器，然后执行以下操作之一：
 
-   * 若要获得弹出式视频查看器体验，请选择名称最右边的&#x200B;**[!UICONTROL 复制URL]**。
+   * 若要获得弹出式视频查看器体验，请选择名称右侧的&#x200B;**[!UICONTROL 复制URL]**。
 
-     将复制的视频的URL附加到以下语法，以便将其与复制的字幕文件关联：
+     将以下语法附加到复制的视频的URL，以便将其与字幕文件关联：
 
      `&caption=<full Copy URL path to the caption file .vtt>,1`
 
      请注意题注URL路径末尾的`,1`。 紧跟路径中的VTT文件扩展名之后，您可以通过分别设置为`1`或`0`来选择启用或禁用视频播放器栏上的隐藏式字幕按钮。
 
-   * 对于嵌入的视频查看器体验，请选择名称最右侧的&#x200B;**[!UICONTROL 嵌入代码]**。
+   * 对于嵌入的视频查看器体验，请选择名称右侧的&#x200B;**[!UICONTROL 嵌入代码]**。
 
      在“嵌入代码”对话框中，选择&#x200B;**[!UICONTROL 复制到剪贴板]**。
 
