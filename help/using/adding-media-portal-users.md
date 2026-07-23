@@ -12,20 +12,14 @@ topic: Administration
 level: Intermediate
 autotag-review: '2026-05-13T17:37:47.692Z'
 TQID: 'https://experienceleague.adobe.com/77PJd-uwpdL58aZssu7Ko0fMDpa17heQ1dUUEXRhdDM'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 9915c19c020d871f3241feaebbd309d639130855
 workflow-type: tm+mt
-source-wordcount: 1032
-ht-degree: 51%
+source-wordcount: 1031
+ht-degree: 49%
 
 ---
 
@@ -111,7 +105,7 @@ ht-degree: 51%
 
 ## 生成一个可选择的 Media Portal 用户列表 {#generating-a-selectable-list-of-media-portal-users}
 
-您可以在一个弹出窗口中显示 Media Portal 用户的姓名和电子邮件地址。 如果您要剪切和粘贴用户名和地址以便在 Media Portal 外部使用，此列表会非常有用。
+您可以在一个弹出窗口中显示 Media Portal 用户的姓名和电子邮件地址。 如果要复制并粘贴用户名和地址，以便在Media Portal外部使用，此列表非常有用。
 
 1. 导航到&#x200B;**[!UICONTROL 设置]** > **[!UICONTROL 应用程序设置]** > **[!UICONTROL 管理设置]** > **[!UICONTROL 用户管理]**。
 1. 在&#x200B;**[!UICONTROL 按用户角色]**&#x200B;下拉列表中，选择Media Portal用户角色的名称，然后选择&#x200B;**[!UICONTROL 刷新]**&#x200B;以显示一类Media Portal用户的名称。
@@ -135,7 +129,7 @@ ht-degree: 51%
 
 从“用户管理设置”屏幕开始，您还可以执行以下任务：
 
-* **[!UICONTROL 筛选和排序用户列表]**：筛选Media Portal用户列表以查找用户。
+* **[!UICONTROL 筛选和排序用户列表]**：若要查找用户，请筛选Media Portal用户列表。
 
 * **[!UICONTROL 删除用户]**：从列表中删除用户。
 
@@ -143,6 +137,6 @@ ht-degree: 51%
 
 * **[!UICONTROL 编辑用户信息]**：输入有关用户的最新信息。
 
-* **[!UICONTROL 创建用户定义的字段]**：创建自定义、用户定义的元数据字段，以便这些字段可以帮助您在Adobe Dynamic Media Classic中整理资源。 必要时，也可以激活或停用这些字段。
+* **[!UICONTROL 创建用户定义的字段]**：创建自定义、用户定义的元数据字段，以便它们可以帮助您在Adobe Dynamic Media Classic中整理资源。 必要时，也可以激活或停用这些字段。
 
 请参阅[用户定义的字段](application-setup.md#user_defined_fields)。
