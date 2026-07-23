@@ -12,16 +12,13 @@ topic: Content Management
 level: Intermediate
 autotag-review: '2026-05-13T17:37:15.687Z'
 TQID: 'https://experienceleague.adobe.com/7o-hO9obr6JB8sIHWQ3KTC6dRzxIBYqlOJOAbanTig0'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: a41ad4865cfa5692ed38c030b45fbb579ce2b3f9
 workflow-type: tm+mt
-source-wordcount: 624
-ht-degree: 22%
+source-wordcount: 609
+ht-degree: 12%
 
 ---
 
@@ -37,7 +34,7 @@ ht-degree: 22%
 
 另请参阅[添加和编辑查看器预设](application-setup.md#adding_and_editing_viewer_presets)。
 
-可以按照与创建题注非常类似的方法为视频创建章节列表。 即，创建一个 WebVTT 文件。 但要注意，该文件不能与可能还会使用的任何 WebVTT 题注文件相同；无法将题注和章节合并到一个 WebVTT 文件中。
+可以按照与创建题注非常类似的方法为视频创建章节列表。 即，创建一个 WebVTT 文件。 但请注意，此文件必须与您使用的任何WebVTT字幕文件分开；请勿将字幕和章节合并到一个WebVTT文件中。
 
 您可以将以下示例作为用于创建具有章节导航的 WebVTT 文件的格式示例：
 
@@ -57,7 +54,7 @@ Chapter 4
 Cost-efficient access to rapidly evolving technology.
 ```
 
-在上述示例中，`Chapter 1`是提示标识符，是可选的。 `00:00:000 --> 01:04:364`的提示时间以00:00:000格式指定章节的开始时间和结束时间。 最后三个数字是毫秒；如果需要，可以将其保留为 000。 `The bicycle store behind it all`的章节标题是章节内容的实际描述。 当指针悬停在视频时间轴中的可视提示点上时，提示标识符、开始提示时间和章节标题都会显示在视频播放器的弹出窗口中。
+在上述示例中，`Chapter 1`是提示标识符，是可选的。 `00:00:000 --> 01:04:364`的提示时间以00:00:000格式指定章节的开始时间和结束时间。 最后三位数为毫秒，可保留为000（如果首选）。 `The bicycle store behind it all`的章节标题是章节内容的描述。 当指针悬停在视频时间轴上的可视提示点上时，提示标识符、开始提示时间和章节标题会显示在视频播放器弹出窗口中。
 
 由于使用的是 HTML5 视频查看器，请确保创建的章节文件遵循 WebVTT（Web 视频文本跟踪）标准。 章节文件扩展名为`.VTT`。 您可以了解有关 WebVTT 题注标准的详细信息。
 
@@ -71,9 +68,9 @@ Cost-efficient access to rapidly evolving technology.
    >
    >要获得英语以外的语言视频章节的全球支持，WebVTT标准要求您为要支持的每种语言创建单独的`.VTT`文件和调用。
 
-1. 将VTT文件保存为UTF8编码，这样可以避免章节标题文本中的字符呈现出现问题。
+1. 请将VTT文件保存为UTF-8编码，这样就可以避免在章节标题文本中出现字符演绎版问题。
 
-   通常，您希望将章节VTT文件命名为与视频文件相同的名称，并将其附加到`chapters`。 这样，它可以帮助您使用现有Web内容管理系统自动生成视频URL。
+   将章节VTT文件命名为与视频文件相同的名称，并将其附加到`_chapters`。 这样做可以帮助您使用现有Web内容管理系统自动生成视频URL。
 
 1. 在Adobe Dynamic Media Classic中，上传WebVTT章节文件。
 
@@ -81,7 +78,7 @@ Cost-efficient access to rapidly evolving technology.
 
 1. 在左侧的“资产库”面板中，导航到资产文件夹，该文件夹包含要与您上传的章节文件关联的视频文件。
 1. 在“资源浏览”面板中，选择单个视频资源，然后在资源的缩略图图像下方选择&#x200B;**[!UICONTROL 预览]** > **[!UICONTROL 查看器列表]**。
-1. 在“查看器列表”表中，找到名为 **Univeral_HTML5_Video** 的 HTML5 查看器，然后执行以下操作之一：
+1. 在“查看器列表”表中，找到名为&#x200B;**Universal_HTML5_Video**&#x200B;的HTML5查看器，然后执行下列操作之一：
 
    * 若要获得弹出式视频查看器体验，请选择名称最右边的&#x200B;**[!UICONTROL 复制URL]**。
 
