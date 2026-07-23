@@ -12,25 +12,20 @@ topic: Integrations, Development
 level: Experienced
 autotag-review: '2026-05-13T17:43:46.184Z'
 TQID: 'https://experienceleague.adobe.com/wNCmgUez4XtC2sJFmMQvlsczy2r-TxFsDXzrzACGNXc'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: d378ca77-2da1-4f39-ad92-1917fe974a38
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 948a71b794caa0297a73e6ad689ab752b86edbf0
 workflow-type: tm+mt
-source-wordcount: 990
-ht-degree: 31%
+source-wordcount: 995
+ht-degree: 27%
 
 ---
 
 # 创建 eCatalog {#creating-an-ecatalog}
 
-创建eCatalog需要对页面进行排序，选择页面布局，并通过绘制图像映射来链接页面。 它还需要输入变换图像和超文本链接数据。 也可以选择自定义目录，以使观众能够在 eCatalog 查看器中看到页面名称而不是页码。
+创建eCatalog涉及对页面进行排序、选择页面布局以及通过绘制图像映射来链接页面。 它还需要输入变换图像和超文本链接数据。 也可以选择自定义目录，以使观众能够在 eCatalog 查看器中看到页面名称而不是页码。
 
 ## 创建eCatalog {#create}
 
@@ -61,15 +56,15 @@ ht-degree: 31%
 1. （可选）更改单个页面或跨页布局，方法是选择这些页面或跨页，然后选择&#x200B;**[!UICONTROL 1 Up]**、**[!UICONTROL 2 Up]**&#x200B;或&#x200B;**[!UICONTROL 自定义]**&#x200B;按钮。 在&#x200B;**[!UICONTROL 更改eCatalog布局]**&#x200B;对话框中，选择&#x200B;**[!UICONTROL 选定跨页]**&#x200B;选项，然后选择&#x200B;**[!UICONTROL 确定]**。
 1. 根据需要采用以下方法之一重新排序页面：
 
-   * **正在拖动**：将页面或跨页拖到新位置。 垂直栏显示要移动的页面的位置。
+   * **正在拖动**：将页面或跨页拖到新位置。 垂直条指示页面将移动到的位置。
 
-   * **移动至按钮**：选择页面或跨页，选择&#x200B;**[!UICONTROL 移动至]**，然后在您希望页面显示之前的菜单中选择该页面。
+   * **移动至按钮**：选择一个页面或跨页，选择&#x200B;**[!UICONTROL 移动至]**，然后在菜单上选择要显示页面的页面。
 
-   * **序列号**：在列表视图中，在序列号#字段中输入页码。
+   * **序列号**：在列表视图中，在“序列号”字段中输入页码。
 
 1. 完成后，在页面的右下角附近，确保选中&#x200B;**[!UICONTROL 保存后发布]**（默认）。
 1. 选择&#x200B;**[!UICONTROL 保存]**。
-1. 在“保存”对话框中，选择一个文件夹以存储您的 eCatalog。 在“文件名”字段中，输入旋转集名称。
+1. 在“保存”对话框中，选择一个文件夹以存储您的 eCatalog。 在“文件名”字段中，输入eCatalog名称。
 1. 选择&#x200B;**[!UICONTROL 保存]**。
 
    在保存eCatalog后，您可以通过选择&#x200B;**[!UICONTROL 预览]**&#x200B;来预览它。
@@ -96,7 +91,7 @@ ht-degree: 31%
 
 ## 删除eCatalog
 
-在删除集时，集本身将移到垃圾桶中。 但是，该集中的成员（或“子项”）不受影响；相反，它们各自保留其现有的已发布或未发布状态。
+删除集合时，集合本身将移到“已删除项”文件夹。 该集中的成员不受影响；每个成员均保留其现有的已发布或未发布状态。
 
 另请参阅[手动发布资源](publishing-files.md#manually_publishing_assets)和[手动取消发布资源](publishing-files.md#manually_unpublishing_assets)。
 
@@ -121,9 +116,9 @@ Adobe Dynamic Media Classic在eCatalog屏幕的“订单页面”选项卡上，
 
 ### 导入页面名称 {#importing-page-names}
 
-如果处理包含很多页面的 eCatalog，则推荐使用导入页面名称的方法。 可以从制表符分隔的文件或 XML 文件导入名称。
+如果您使用的是包含许多页面的eCatalog，则建议导入页面名称。 可以从制表符分隔的文件或 XML 文件导入名称。
 
-目录标签存储在图像的用户数据字段中；将此数据格式化为`name=<value>` ` pairs separated by two question marks "??" `的列表。 例如，要为名为`tocEN`的目录字段设置一个标签，请将图像的用户数据设置为：
+TOC标签存储在图像的用户数据字段中；将此数据格式化为由“??”两个问号分隔的`name=<value>`对的列表。 例如，要为名为`tocEN`的目录字段设置一个标签，请将图像的用户数据设置为：
 
 `tocEN=&lt;EN_page_label>`
 
