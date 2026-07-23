@@ -22,10 +22,10 @@ level_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+source-git-commit: 4280c815eca0ff8828d350afe6de877f6160e9ae
 workflow-type: tm+mt
-source-wordcount: 1032
-ht-degree: 51%
+source-wordcount: 1031
+ht-degree: 49%
 
 ---
 
@@ -111,7 +111,7 @@ ht-degree: 51%
 
 ## 生成一个可选择的 Media Portal 用户列表 {#generating-a-selectable-list-of-media-portal-users}
 
-您可以在一个弹出窗口中显示 Media Portal 用户的姓名和电子邮件地址。 如果您要剪切和粘贴用户名和地址以便在 Media Portal 外部使用，此列表会非常有用。
+您可以在一个弹出窗口中显示 Media Portal 用户的姓名和电子邮件地址。 如果要复制并粘贴用户名和地址，以便在Media Portal外部使用，此列表非常有用。
 
 1. 导航到&#x200B;**[!UICONTROL 设置]** > **[!UICONTROL 应用程序设置]** > **[!UICONTROL 管理设置]** > **[!UICONTROL 用户管理]**。
 1. 在&#x200B;**[!UICONTROL 按用户角色]**&#x200B;下拉列表中，选择Media Portal用户角色的名称，然后选择&#x200B;**[!UICONTROL 刷新]**&#x200B;以显示一类Media Portal用户的名称。
@@ -135,7 +135,7 @@ ht-degree: 51%
 
 从“用户管理设置”屏幕开始，您还可以执行以下任务：
 
-* **[!UICONTROL 筛选和排序用户列表]**：筛选Media Portal用户列表以查找用户。
+* **[!UICONTROL 筛选和排序用户列表]**：若要查找用户，请筛选Media Portal用户列表。
 
 * **[!UICONTROL 删除用户]**：从列表中删除用户。
 
@@ -143,6 +143,6 @@ ht-degree: 51%
 
 * **[!UICONTROL 编辑用户信息]**：输入有关用户的最新信息。
 
-* **[!UICONTROL 创建用户定义的字段]**：创建自定义、用户定义的元数据字段，以便这些字段可以帮助您在Adobe Dynamic Media Classic中整理资源。 必要时，也可以激活或停用这些字段。
+* **[!UICONTROL 创建用户定义的字段]**：创建自定义、用户定义的元数据字段，以便它们可以帮助您在Adobe Dynamic Media Classic中整理资源。 必要时，也可以激活或停用这些字段。
 
 请参阅[用户定义的字段](application-setup.md#user_defined_fields)。
