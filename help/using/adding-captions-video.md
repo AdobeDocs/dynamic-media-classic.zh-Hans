@@ -48,7 +48,7 @@ ht-degree: 7%
 
 Adobe Dynamic Media Classic可以将字幕文件转换为JSON（JavaScript对象表示法）格式。 通过此转换，可将JSON文本作为隐藏但完整的视频转录内容嵌入网页。 然后，搜索引擎可以抓取和索引内容，以使视频更容易被发现，并为客户提供有关视频内容的更多详细信息。
 
-有关在URL中使用JSON函数的更多信息，请参阅[提供静态（非图像）内容](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/c-serving-static-nonimage-contents#image-serving-api)。
+有关在URL中使用JSON函数的更多信息，请参阅[提供静态（非图像）内容](https://experienceleague.adobe.com/zh-hans/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/c-serving-static-nonimage-contents#image-serving-api)。
 
 **要向视频添加字幕：**
 
