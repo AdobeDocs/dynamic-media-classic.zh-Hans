@@ -12,16 +12,13 @@ topic: Content Management
 level: Intermediate
 autotag-review: '2026-05-13T17:40:29.070Z'
 TQID: 'https://experienceleague.adobe.com/KjKdz4CAeSdJ3P-LKvdmsoGlkroeOZ60AvydF2FBHaI'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: e8180a78d75b0cd2ec39e4a148d6246cfde258f7
 workflow-type: tm+mt
-source-wordcount: 248
-ht-degree: 44%
+source-wordcount: 239
+ht-degree: 28%
 
 ---
 
@@ -29,11 +26,13 @@ ht-degree: 44%
 
 使用模板集管理发布资源变体的方式。
 
-创建模板集以管理模板变体。 您可以控制使用哪个变体，而无需在站点上更改代码。 此方法可帮助内容管理员轮换内容，而不需要IT更改Web代码中的URL。
+创建模板集以管理模板变体。 您可以控制使用哪个变体，而无需在站点上更改代码。 此方法允许内容管理员更新内容，而无需技术支持来更改Web代码中的URL。
 
-通用URL用于根据模板变体在集中列出的顺序显示页面上显示的模板变体。 始终发布模板集列表顶层的模板。
+通用URL根据设置顺序在页面上显示模板变体。 始终发布模板集列表顶层的模板。
 
-您可以使用列表中的任意图像预设URL。 图像预设URL类似于通用URL。 可以有多个图像预设URL。
+您可以使用列表中的任意图像预设URL。 图像预设URL的功能类似于通用URL。 可以有多个图像预设URL。
+
+**要管理内容变体：**
 
 1. 转到&#x200B;**[!UICONTROL 生成]** > **[!UICONTROL 模板集]**。
 1. 在生成器中，选择一个模板，然后选择&#x200B;**[!UICONTROL 添加/预览]**。
@@ -44,8 +43,8 @@ ht-degree: 44%
 
 1. 转到“详细信息”页面，从“URL”部分获取副本 URL。
 
-您可以通过将模板拖动到新位置来更改模板的排序（例如，移动到列表的顶部）。 再次发布即可提交新的顺序。
+可以通过将模板拖到新位置来重新排列模板（例如，拖到列表中的第一个位置）。 再次发布即可提交新的顺序。
 
 >[!NOTE]
 >
->如有必要，请清除缓存以查看更改。 所作更改必须在缓存周期过后才可显示在网站上。
+>如有必要，请清除缓存以查看更改。 只有在缓存周期内处理完更改后，该更改才会显示在网站上。
