@@ -11,16 +11,13 @@ topic: Content Management
 level: Intermediate
 autotag-review: '2026-05-13T17:42:05.016Z'
 TQID: 'https://experienceleague.adobe.com/SgUcHyeFzCORCwV-VtfqQHFp2JDRsPsYb47mo3Z1yK4'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 408b6136b4171af1e0e39a735fc1e56b9d6967ec
 workflow-type: tm+mt
-source-wordcount: 637
-ht-degree: 57%
+source-wordcount: 628
+ht-degree: 54%
 
 ---
 
@@ -53,7 +50,7 @@ ht-degree: 57%
 1. 执行以下任一操作：
 
    * 要添加音轨，将音频文件从“资源库”拖动到“音轨”框中。 音轨在显示图像时播放， 在播放视频时，它会停止。
-   * 要更改这些集合的顺序，在“混合媒体集”屏幕上将它们拖动到新位置。 在该屏幕上这些集合的顺序决定了用户在“混合媒体集查看器”中从左到右看到这些集合的顺序。
+   * 要更改这些集合的顺序，在“混合媒体集”屏幕上将它们拖动到新位置。 屏幕顺序确定用户在混合媒体集查看器中查看集的从左到右顺序。
    * （可选）要在查看器中添加代表某个视频的自定义缩略图，请将图像文件从“资源库”拖动到“缩略图”占位符框。
 
 1. 在页面的右下角附近，确保选中&#x200B;**[!UICONTROL 保存后发布]**（默认）。
@@ -61,7 +58,7 @@ ht-degree: 57%
 1. 选择用于存储混合媒体集的文件夹，然后输入该集的名称。
 1. 选择&#x200B;**[!UICONTROL 保存]**。
 
-   要查看您的组合图像集在图像集查看器中的外观，请选择&#x200B;**[!UICONTROL 预览]**。
+   要查看您的混合媒体集在图像集查看器中的外观，请选择&#x200B;**[!UICONTROL 预览]**。
 
 ## 编辑混合媒体集 {#edit-a-mixed-media-set}
 
@@ -91,7 +88,7 @@ ht-degree: 57%
 
 ## 删除混合媒体集
 
-在删除集时，集本身将移到垃圾桶中。 但是，该集中的成员（或“子项”）不受影响；相反，它们各自保留其现有的已发布或未发布状态。
+在删除集时，集本身将移到垃圾桶中。 该集中的成员不受影响；相反，它们各自保留其现有的已发布或未发布状态。
 
 另请参阅[手动发布资源](publishing-files.md#manually_publishing_assets)和[手动取消发布资源](publishing-files.md#manually_unpublishing_assets)。
 
