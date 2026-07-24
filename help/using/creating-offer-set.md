@@ -12,18 +12,12 @@ topic: Integrations, Development
 level: Experienced
 autotag-review: '2026-05-13T17:42:42.464Z'
 TQID: 'https://experienceleague.adobe.com/vSBuzOB0sC5y6Kgl0ZadvJXsKRTiEMBzq0Tgu692AYY'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: d378ca77-2da1-4f39-ad92-1917fe974a38
+source-git-commit: e0b8668dab1b4f3f936d22642deb9a2519455703
 workflow-type: tm+mt
-source-wordcount: 1292
+source-wordcount: 1287
 ht-degree: 21%
 
 ---
@@ -46,11 +40,11 @@ Adobe Dynamic Media Classic提供了用于编辑和创建选件集的工具。
 
 ## 选件集类型 {#types-of-offer-sets}
 
-从以下类型的选件集创建选件集：
+从以下选件集类型中选择一个选件集：
 
 * **图像**：您可以为选件集组合图像。 每个图像在集中都包含不同的选件。
 
-* **图像模板**：您可以使用&#x200B;**[!UICONTROL 生成]** >“模板基础”命令在Adobe Dynamic Media Classic中参数化图像模板。 通过参数、模板的组件、文本框架中的文本、不同的图像，可以进行调出和定制。 例如，对于选件集，您可以使用模板参数在选件集中的同一图像上创建变体。 有关创建和参数化图像模板的信息，请参阅[创建模板参数](creating-template-parameters.md#creating_template_parameters)。
+* **图像模板**：您可以使用&#x200B;**[!UICONTROL 生成]** >“模板基础”命令在Adobe Dynamic Media Classic中参数化图像模板。 通过参数、模板组件、文本框架中的文本以及不同的图像可以替换和定制。 对于选件集，您可以使用模板参数在选件集中创建同一图像的变体。 有关创建和参数化图像模板的信息，请参阅[创建模板参数](creating-template-parameters.md#creating_template_parameters)。
 
 另请观看[模板基础知识](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/553_Template%20Basics_converted%20renamed_Dynamic%20Banners-AVS)培训视频。
 
@@ -72,14 +66,14 @@ Adobe Dynamic Media Classic提供了用于编辑和创建选件集的工具。
 1. 选择模板或横幅。
 1. 转到&#x200B;**[!UICONTROL 生成]** > **[!UICONTROL Test&amp;Target选件集]**。
 
-   Test&amp;Target选件集页面会列出选件集中的选件。 列表中的第一项是对象。
+   Test&amp;Target选件集页面会列出选件集中的选件。 列表中的第一项是主要资源。
 
 1. 选择对象并选择&#x200B;**[!UICONTROL 添加并预览]**。
 
    此页面的左侧将列出模板中的参数和参数值。
 
-1. 更改参数值以创建优惠。 例如，在文本字段中输入不同的文本，更改图层的大小，将一个图像交换给另一个图像，或选择不同的查看器预设。
-1. 选择&#x200B;**[!UICONTROL 保存]**&#x200B;或&#x200B;**[!UICONTROL 另存为**]**&#x200B;以将选件另存为选件集的一部分。
+1. 更改参数值以创建优惠。 例如，编辑文本、调整图层大小、交换图像或选择预设。
+1. 选择&#x200B;**[!UICONTROL 保存]**&#x200B;或&#x200B;**[!UICONTROL 另存为]**&#x200B;以将选件另存为选件集的一部分。
 
    Test&amp;Target选件集页面列出了您创建的选件。
 
@@ -87,7 +81,7 @@ Adobe Dynamic Media Classic提供了用于编辑和创建选件集的工具。
 1. 完成后，在页面的右下角附近，确保选中&#x200B;**[!UICONTROL 保存后发布*]**（默认）。
 1. 选择&#x200B;**[!UICONTROL 关闭]**，输入选件集的名称，然后选择&#x200B;**[!UICONTROL 保存]**。
 
-在关闭Test&amp;Target选件集页面之前，请将选件集推送到Adobe Target Standard/Premium。 请参阅[将选件集推送到Test&amp;Target](pushing-offer-sets-target.md#pushing_offer_sets_to_target)。
+在关闭Test&amp;Target选件集页面之前，请将选件集发送到Adobe Target Standard/Premium。 要将选件集发送到Test&amp;Target，请参阅[将选件集推送到Test&amp;Target](pushing-offer-sets-target.md#pushing_offer_sets_to_target)。
 
 ## 创建包含图像或视频的选件集 {#creating-an-offer-set-with-images-or-videos}
 
@@ -111,14 +105,14 @@ Adobe Dynamic Media Classic提供了用于编辑和创建选件集的工具。
 1. 或者，选择图像或视频，然后选择&#x200B;**[!UICONTROL 预览]**。 在“预览选件”页面上，您可以更改所选图像或视频的大小和外观。 或者，您也可以更改选件集中的所有图像或视频。
 
    * 选择预设以更改图像或视频的外观和大小。
-   * 要将所选预设应用于选件集中的所有选件，请选中&#x200B;**`Select Presets to All`**&#x200B;复选框。
+   * 要将所选预设应用于选件集中的所有选件，请选中&#x200B;**`Apply Presets to All`**&#x200B;复选框。
 
    选择&#x200B;**[!UICONTROL 保存]**&#x200B;以保存对图像或视频选件所做的更改。 然后选择&#x200B;**[!UICONTROL 关闭]**&#x200B;以返回Test&amp;Target选件集页面。
 
 1. 在为选件集创建选件并为不同的图像选择图像预设后，请确保选择了&#x200B;**[!UICONTROL 保存后发布]**（默认）。
 1. 选择&#x200B;**[!UICONTROL 保存]**&#x200B;并输入选件集的名称，然后选择&#x200B;**[!UICONTROL 保存]**。
 
-在关闭Test&amp;Target选件集页面之前，请将选件集推送到Adobe Target Standard/Premium。 请参阅[将选件集推送到Test&amp;Target](pushing-offer-sets-target.md#pushing_offer_sets_to_target)。
+在关闭Test&amp;Target选件集页面之前，请将选件集发送到Adobe Target Standard/Premium。 要将选件集推送到Test&amp;Target，请参阅[将选件集推送到Test&amp;Target](pushing-offer-sets-target.md#pushing_offer_sets_to_target)。
 
 ## 编辑优惠套餐 {#editing-an-offer-set}
 
@@ -140,8 +134,8 @@ Adobe Dynamic Media Classic提供了用于编辑和创建选件集的工具。
 
    * **删除选件**：选择选件，然后选择&#x200B;**[!UICONTROL 删除]**&#x200B;以从选件集中删除选件。
    * **添加选件**：添加选件的方式取决于您所使用的选件集的类型：
-      * **模板**：选择&#x200B;**[!UICONTROL 添加并预览]**，然后在“添加并预览选件”页面上创建另一个选件。
-      * **图像和视频**：将图像或视频拖到Test&amp;Target选件集页面上。
+     * **模板**：选择&#x200B;**[!UICONTROL 添加并预览]**，然后在“添加并预览选件”页面上创建另一个选件。
+     * **图像和视频**：将图像或视频拖到Test&amp;Target选件集页面上。
 
    >[!NOTE]
    >
@@ -152,14 +146,14 @@ Adobe Dynamic Media Classic提供了用于编辑和创建选件集的工具。
 
 ## 删除优惠套餐 {#delet-an-offer-set}
 
-在删除优惠套餐时，套餐本身将移到垃圾桶中。 但是，该集中的成员（或“子项”）不受影响；相反，它们各自保留其现有的已发布或未发布状态。
+在删除优惠套餐时，套餐本身将移到垃圾桶中。 但是，该集中的成员不受影响；相反，它们各自保留其现有的已发布或未发布状态。
 
 另请参阅[手动发布资源](publishing-files.md#manually_publishing_assets)和[手动取消发布资源](publishing-files.md#manually_unpublishing_assets)。
 
 **要删除选件集：**
 
-1. 在“网格视图”、“列表视图”或“详细信息视图”中，选择一个或多个选件集。
-1. 在全局导航栏上，转到&#x200B;**[!UICONTROL 文件]** > **[!UICONTROL 删除]** > **删除**。
+1. 在网格视图、列表视图或详细信息视图中，选择一个或多个优惠套餐。
+1. 在全局导航栏上，转到&#x200B;**[!UICONTROL 文件]** > **[!UICONTROL 删除]**。
 
 >[!MORELIKETHIS]
 >
