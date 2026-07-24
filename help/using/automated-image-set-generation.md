@@ -18,10 +18,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+source-git-commit: f118d8302d0201dbdd865c2eec62846c49478e13
 workflow-type: tm+mt
-source-wordcount: 102
-ht-degree: 61%
+source-wordcount: 104
+ht-degree: 21%
 
 ---
 
@@ -37,14 +37,14 @@ Last Modified Date:
 
  -->
 
-您可以将集生成自动设为独立于上载的单独作业。
+您可以将集生成作为不依赖于上载的独立作业来自动化。
 
 **自动生成图像集：**
 
 1. 转到&#x200B;**[!UICONTROL 文件]** > **[!UICONTROL 生成集]**。
 1. 在“生成集”对话框中，指定作业名称。
 
-   默认情况下，为作业指定的名称指示这是一个生成的作业以及作业的生成时间。
+   默认情况下，会为作业分配一个名称，该名称指示它是生成的作业以及生成作业的时间。
 
 1. 选择要应用的预设。
 1. 选择&#x200B;**[!UICONTROL 目标文件夹]**，然后指定要使用的文件夹。

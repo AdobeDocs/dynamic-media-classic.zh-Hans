@@ -22,22 +22,22 @@ level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+source-git-commit: d60c30a11ad8777f8074c4283893f8984220c305
 workflow-type: tm+mt
-source-wordcount: 1251
-ht-degree: 22%
+source-wordcount: 1248
+ht-degree: 24%
 
 ---
 
 # 配置Adobe Analytics报表{#configuring-adobe-analytics-reports}
 
-要告知Adobe Analytics您想在Adobe Analytics报表中查看哪些信息，请转到Adobe Analytics配置屏幕。 在配置报告之后，此屏幕将为每个要查看其信息的查看器事件列出相应的Adobe Analytics变量和Adobe Dynamic Media Classic变量。 这些查看器事件 — Adobe Analytics变量 — Adobe Dynamic Media Classic变量组合决定了报告的信息。
+要向 Adobe Analytics 通知 Adobe Analytics 报告中所需的信息，请转到“Adobe Analytics 配置”屏幕。 配置完成后，此屏幕会为每一个您希望了解其信息的查看器事件列出一个相应的Adobe Analytics变量和一个Adobe Dynamic Media Classic变量。 这些查看器事件、Adobe Analytics变量和Adobe Dynamic Media Classic变量组合决定了报告的信息。
 
 除了将查看器事件与变量关联之外， Adobe Analytics配置屏幕还提供了用于激活、编辑和删除查看器事件的工具。
 
 >[!NOTE]
 >
->当您在Adobe Analytics中更改Adobe Analytics报表设置时，请确保从Adobe Dynamic Media Classic中重新登录到Adobe Analytics，重新保存Adobe Analytics配置设置，然后重新发布。
+>如果您在Adobe Analytics中更改Adobe Analytics报表设置，请在Adobe Dynamic Media Classic中登录Adobe Analytics，重新保存Adobe Analytics配置设置，然后重新发布。
 
 请参阅[登录Adobe Analytics](log-analytics.md#log_in_to_adobe_analytics)。
 
@@ -45,12 +45,12 @@ ht-degree: 22%
 
 ## 将Adobe Analytics变量分配给Adobe Dynamic Media Classic查看器事件和变量 {#assigning-adobe-analytics-variables-to-scene-viewer-events-and-variables}
 
-使用Adobe Analytics配置屏幕将查看器事件与Adobe Analytics变量和Adobe Dynamic Media Classic变量关联。 对于每个查看器事件，请选择一个Adobe Analytics变量和一个Adobe Dynamic Media Classic变量。 有关打开“Adobe Analytics配置”屏幕的说明，请参阅[登录Adobe Analytics](log-analytics.md#log_in_to_adobe_analytics)。
+使用Adobe Analytics配置屏幕将查看器事件与Adobe Analytics变量和Adobe Dynamic Media Classic变量关联。 对于每个查看器事件，请选择一个Adobe Analytics变量和一个Adobe Dynamic Media Classic变量。 有关打开Adobe Analytics配置屏幕的说明，请参阅[登录Adobe Analytics](log-analytics.md#log_in_to_adobe_analytics)。
 
 **要将Adobe Analytics变量分配给Adobe Dynamic Media Classic查看器事件和变量：**
 
-1. 从Dynamic Media Classic登录Adobe Analytics并选择报表包后，在“Adobe Analytics配置”页面的右表列中，选择&#x200B;**[!UICONTROL 启用]**&#x200B;以激活查看器事件。
-1. 在变量列下，通过选择所需查看器事件的箭头按钮来显示变量对选择器。
+1. 从Dynamic Media Classic登录到Adobe Analytics并选择报表包后，通过选择右表列中的&#x200B;**[!UICONTROL 启用]**&#x200B;在“Adobe Analytics配置”页面上激活查看器事件。
+1. 在变量列中，通过选择所需查看器事件的箭头按钮来显示变量对选择器。
 
    请参阅[查看器事件](configuring-analytics-reports.md#viewer_events)。
 
@@ -62,7 +62,7 @@ ht-degree: 22%
 1. （可选）要添加其他变量对，请选择&#x200B;**[!UICONTROL 添加]**。
 1. 选择&#x200B;**[!UICONTROL 保存]**。
 
-   选择&#x200B;**[!UICONTROL 保存]**&#x200B;后，查看器事件、其Adobe Analytics变量及其Adobe Dynamic Media Classic变量将列在Adobe Analytics配置屏幕中。
+   选择&#x200B;**[!UICONTROL 保存]**&#x200B;后，“Adobe Analytics配置”屏幕中会列出查看器事件、其Adobe Analytics变量及其Adobe Dynamic Media Classic变量。
 
 1. 在右下角，选择&#x200B;**[!UICONTROL 关闭]**。
 1. 转到&#x200B;**[!UICONTROL 发布]** > **[!UICONTROL 提交发布]**&#x200B;以运行图像服务发布。
@@ -71,7 +71,7 @@ ht-degree: 22%
 
 ### 查看器事件 {#viewer-events}
 
-查看器事件描述用户使用Dynamic Media Classic查看器执行的操作。 当用户启动操作（例如选择缩略图或启动或停止视频）时，查看者将事件“广播”到网页。 与该事件关联的数据也会被推送。
+查看器事件描述用户使用Dynamic Media Classic查看器执行的操作。 当用户启动操作（例如选择缩略图或启动或停止视频）时，查看器向网页发送事件。 与该事件关联的数据也会被发送。
 
 下表介绍了可添加到Adobe Analytics配置屏幕的查看器事件。
 
@@ -95,7 +95,7 @@ ht-degree: 22%
 
 ### Adobe Dynamic Media Classic变量 {#scene-variables}
 
-对于“Adobe Analytics配置”屏幕上的每个查看器事件，请选择一个Adobe Analytics变量和一个&#x200B;*Adobe Dynamic Media Classic变量*。 Adobe Dynamic Media Classic变量表示可为报表获取的数据。 例如，`searchTerm`变量列出了eCatalog搜索中使用的关键字。
+对于“Adobe Analytics配置”屏幕上的每个查看器事件，请选择一个Adobe Analytics变量和一个&#x200B;*Adobe Dynamic Media Classic变量*。 Adobe Dynamic Media Classic变量指定可为报表获取的数据。 例如，`searchTerm`变量列出了eCatalog搜索中使用的关键字。
 
 下表介绍了Adobe Dynamic Media Classic变量：
 
@@ -119,6 +119,6 @@ ht-degree: 22%
 
 * **激活**：选择&#x200B;**[!UICONTROL 启用]**&#x200B;以激活或&#x200B;**[!UICONTROL 禁用]**&#x200B;以停用选定的查看器事件。
 
-* **编辑**：选择一个查看器事件并选择&#x200B;**[!UICONTROL 查看/编辑]**&#x200B;变量灰色按钮。 在Adobe Dynamic Media Classic变量和Adobe Analytics变量下拉列表中，从各个列表中选择不同的变量。 有关详细信息，请参阅[将Adobe Analytics变量分配给Adobe Dynamic Media Classic查看器事件和变量](#assigning-adobe-analytics-variables-to-scene-viewer-events-and-variables)。
+* **编辑**：选择一个查看器事件并选择&#x200B;**[!UICONTROL 查看/编辑]**&#x200B;变量灰色按钮。 在Adobe Dynamic Media Classic变量和Adobe Analytics变量下拉列表中，从各个列表中选择不同的变量。 有关详细信息，请参阅[将Adobe Analytics变量分配给Adobe Dynamic Media Classic查看器事件和变量](#assigning-adobe-analytics-variables-to-adobe-dynamic-media-classic-viewer-events-and-variables)。
 
-* **删除**：选择一个查看器事件，然后选择&#x200B;**[!UICONTROL 查看/编辑]**&#x200B;变量灰色按钮。 选择&#x200B;**[!UICONTROL 删除]**。
+* **删除**：选择一个查看器事件，然后选择&#x200B;**[!UICONTROL 查看/编辑]**&#x200B;灰色按钮。 选择&#x200B;**[!UICONTROL 删除]**。
