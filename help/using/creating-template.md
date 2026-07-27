@@ -12,10 +12,15 @@ topic: Content Management
 level: Experienced
 autotag-review: '2026-05-13T18:19:13.276Z'
 TQID: 'https://experienceleague.adobe.com/2bY6F28UOt--BmRcI4xv1GJnmSMzqbnkUnnPmfFHxmw'
-product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: d378ca77-2da1-4f39-ad92-1917fe974a38
-topic_v2: id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+product_v2:
+  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+topic_v2:
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
 source-git-commit: 016933e6edfe59faa37ca6821184d7bcdb333b97
 workflow-type: tm+mt
 source-wordcount: 3550
@@ -64,7 +69,7 @@ ht-degree: 32%
 
 ## 编辑模板集 {#editing-a-template-set}
 
-无论您是编辑已发布的模板集还是未发布的模板集，**[!UICONTROL 保存]**&#x200B;后发布}选项都将通过以下方式影响该集和设置成员。
+无论您是编辑已发布的模板集还是未发布的模板集，**[!UICONTROL 保存]**&#x200B;后发布&rbrace;选项都将通过以下方式影响该集和设置成员。
 
 | 是否已发布集？ | 在保存编辑之前，是否选择了&#x200B;**[!UICONTROL 保存后发布]**&#x200B;选项？ | 保存后的集状态 | 保存后的集成员状态 |
 | --- | --- | --- | --- |
