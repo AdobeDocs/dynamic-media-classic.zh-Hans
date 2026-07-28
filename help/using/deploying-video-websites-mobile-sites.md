@@ -198,7 +198,7 @@ Adobe Dynamic Media Classic在上传过程中自动生成视频缩略图。 缩�
 
 请参阅[添加或编辑视频查看器预设](previewing-videos-video-viewer.md#adding_or_editing_a_video_viewer_preset)。
 
-请参阅[图像服务指南](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/c-is-home#image-serving-api)。
+请参阅[图像服务指南](https://experienceleague.adobe.com/zh-hans/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/c-is-home#image-serving-api)。
 
 还可以通过将修饰符附加到视频缩略图 URL 的后面来修改视频缩略图。
 
