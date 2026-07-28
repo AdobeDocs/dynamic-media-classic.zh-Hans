@@ -19,22 +19,22 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+source-git-commit: 00d087b14c6c030473ecfee92ec879e705a9b197
 workflow-type: tm+mt
 source-wordcount: 329
-ht-degree: 18%
+ht-degree: 5%
 
 ---
 
 # 自定义Media Portal屏幕{#customizing-the-media-portal-screen}
 
-通过 Media Portal 样式设置，您可以在 Media Portal 屏幕中标上您公司的徽标和颜色。 使用样式设置将您的公司品牌置于Media Portal上。
+通过 Media Portal 样式设置，您可以在 Media Portal 屏幕中标上您公司的徽标和颜色。 使用样式设置将您的公司品牌应用到Media Portal。
 
-若要访问样式设置，请转到&#x200B;**[!UICONTROL 设置]** > **[!UICONTROL Media Portal设置]** > **[!UICONTROL 样式设置]**。 请确保选择&#x200B;**[!UICONTROL 保存]**&#x200B;以在设置完成后保存设置。 您可以选择&#x200B;**[!UICONTROL 还原]**&#x200B;以恢复默认设置。 当您做出选择时，“预览”面板会显示它们的显示方式。
+若要访问样式设置，请转到&#x200B;**[!UICONTROL 设置]** > **[!UICONTROL Media Portal设置]** > **[!UICONTROL 样式设置]**。 请确保选择&#x200B;**[!UICONTROL 保存]**&#x200B;以在设置完成后保存设置。 您可以选择&#x200B;**[!UICONTROL 还原]**&#x200B;以重置为默认设置。 当您做出选择时，“预览”面板会显示它们的显示方式。
 
 * **[!UICONTROL 徽标]**：选择&#x200B;**[!UICONTROL 浏览]**，然后在“选择徽标图像”窗口中选择图形。
 
-* **[!UICONTROL 应用程序]**：通过在“背景渐变颜色”的菜单上进行选择来创建渐变颜色混合。
+* **[!UICONTROL 应用程序]**：通过选择背景渐变颜色菜单上的选项来配置渐变颜色混合。
 
 * **[!UICONTROL 树]**：选择变换颜色和选择颜色。
 
@@ -48,7 +48,7 @@ ht-degree: 18%
 
 * **[!UICONTROL 进度条]**：为指示上载和下载进度的进度条选择一种颜色。
 
-要让Media Portal用户查看您选择的样式设置，他们必须在访问Media Portal的URL中附加`?company=(company name)`。 例如，要查看样式设置，请访问PortalCo公司的Media Portal用户：
+要让Media Portal用户查看您选择的样式设置，他们必须在访问Media Portal的URL中附加`?company=(company name)`。 例如，要查看样式设置，访问PortalCo公司的Media Portal用户可以使用以下URL：
 
 `https://s7sps1.scene7.com/MediaPortal`
 
@@ -58,6 +58,6 @@ ht-degree: 18%
 
 通过在URL中包含公司名称，Media Portal可以识别用户希望访问的公司并相应地应用公司的样式设置。
 
-您可以详细了解如何向 Media Portal 用户通知 URL 更改，以及如何设置欢迎电子邮件以使新用户收到正确的 Media Portal URL。
+您可以了解有关将URL更改发送到Media Portal用户以及设置欢迎电子邮件以便新用户接收正确的Media Portal URL的更多信息。
 
-请参阅[为 Media Portal 用户设置欢迎电子邮件](adding-media-portal-users.md#setting_up_the_welcome_e_mail_message_for_media_portal_users)。
+请参阅[为Media Portal用户设置欢迎电子邮件](adding-media-portal-users.md#setting_up_the_welcome_email_message_for_media_portal_users)。

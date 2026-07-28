@@ -23,10 +23,10 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+source-git-commit: c0fb79fc030080ac7774fc1428d58a48eb11e1f1
 workflow-type: tm+mt
-source-wordcount: 524
-ht-degree: 12%
+source-wordcount: 496
+ht-degree: 13%
 
 ---
 
@@ -42,23 +42,23 @@ Adobe Dynamic Media Classic工作流的关键步骤包括：
 
 * **上传和管理您的资源**：将您的媒体资源上传到Adobe Dynamic Media Classic。 您可以组织、浏览和搜索系统上的资源， 也可以将元数据应用到资源。
 
-* **创建富媒体**：创建资产的不同配置，如eCatalog、图像集、旋转集、样本集、混合媒体集、基本模板和FXG模板。
+* **创建富媒体**：创建资源配置，如eCatalog、图像集、旋转集、样本集、混合媒体集和模板。
 
 * **发布和管理**：将资源发布到Adobe Dynamic Media Classic SaaS网络。 在发布资产时监控资产的状态。 管理用户权限并保持安全性。
 
-* **服务**：将媒体从Adobe Dynamic Media Classic SaaS网络传送到网页、应用程序和移动设备；媒体已优化性能，并随CDN缓存一起传送。 Adobe Dynamic Media Classic会为您提供每个资源的URL。 在您发布资源之后，URL 即处于活动状态。
+* **服务**：将媒体从Adobe Dynamic Media Classic SaaS网络传送到网页、应用程序和移动设备。 媒体已优化性能，并随CDN缓存一起提供。 Adobe Dynamic Media Classic会为您提供每个资源的URL。 在您发布资源之后，URL 即处于活动状态。
 
 ![Adobe Dynamic Media Classic工作流进程](/help/using/assets/gs_workflow.png)
 
 ## 单个主图像和单个URL调用 {#single-master-images-and-single-url-calls}
 
-Adobe Dynamic Media Classic与其他系统有着根本性的不同，因为您可以使用Adobe Dynamic Media Classic从单个主要资产和URL调用动态地交付媒体。
+Adobe Dynamic Media Classic与其他系统不同，因为您可以使用Adobe Dynamic Media Classic从单个主要资源和URL调用动态交付媒体。
 
-您通过Adobe Dynamic Media Classic生成的URL字符串中包含一些说明，告知服务器在交付资源时如何显示资源。 例如，同一主图像可以以不同的大小、格式、粗细、颜色和缩放视图交付。 在使用Adobe Dynamic Media Classic构建和发布媒体资源时，您可以可视化地配置效果。 在这样做时，您将创建URL调用，以正确告知服务器如何将您的主要资源呈现给应用程序。
+使用Adobe Dynamic Media Classic生成的URL字符串包含相关说明，告知服务器在交付资源时如何显示资源。 例如，同一主图像可以不同大小、格式、粗细、颜色或视图交付。 在使用Adobe Dynamic Media Classic构建和发布媒体资源时，您可以可视化地配置效果。 在这样做时，您将创建URL调用，以正确告知服务器如何将您的主要资源呈现给应用程序。
 
 ![Adobe Dynamic Media Classic可以将相同的主图像传送到不同大小和格式的不同媒体。](/help/using/assets/gs_dynamic_publishing.png)
 *Adobe Dynamic Media Classic确保向任何屏幕提供一致、优质的体验，而不管其大小或带宽如何。*
 
 ## 内容缓存 {#content-caching}
 
-Adobe Dynamic Media Classic动态生成的图像有利于缓存；通常，它们是具有唯一URL调用以标识它们的JPEG图像。 图像会传送到内容传递网络 (CDN)，这是一个服务器系统，这些服务器在 Internet 上彼此互联以更快的速度传送内容。 图像从位于全球的服务器发布到计算机。 使用任何CDN供应商实施缓存机制时，您只需将服务器名称更改为指向启用了CDN的Dynamic Media图像服务器。 所有Adobe Dynamic Media Classic版本都包含捆绑的CDN缓存。
+Adobe Dynamic Media Classic动态生成的图像适用于缓存；通常，这些图像是具有唯一的URL调用以标识它们的JPEG图像。 图像会传送到内容传递网络 (CDN)，这是一个服务器系统，这些服务器在 Internet 上彼此互联以更快的速度传送内容。 图像从位于全球的服务器发布到计算机。 要使用任何CDN供应商实施缓存机制，请将服务器名称更改为指向启用CDN的Dynamic Media图像服务器。 所有Adobe Dynamic Media Classic版本都包含捆绑的CDN缓存。

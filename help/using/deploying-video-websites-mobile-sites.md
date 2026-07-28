@@ -1,5 +1,5 @@
 ---
-title: 将视频部署到网站和移动站点
+title: 将视频部署到您的网站和移动网站
 description: 了解如何从Adobe Dynamic Media Classic将视频部署到您的网站和移动网站。
 contentOwner: Rick Brough
 content-type: reference
@@ -18,10 +18,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+source-git-commit: ece86bc451fa15d9d4bc688bce4b91c2c2f97e33
 workflow-type: tm+mt
-source-wordcount: 1735
-ht-degree: 22%
+source-wordcount: 1720
+ht-degree: 19%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 22%
 
 可以使用两种不同的方法发布视频：
 
-* **在上传时自动并立即发布视频**：作为视频上传过程的一部分，Adobe Dynamic Media Classic可以在视频上传和编码时自动发布视频。 这种即时发布功能意味着在事后无需单独发布视频。
+* **在上传时自动并立即发布视频**：作为视频上传过程的一部分，Adobe Dynamic Media Classic可以在视频上传和编码时自动发布视频。 即时发布意味着无需单独发布视频。
 
 * **上载后手动发布视频**：如果不希望立即发布视频，可以随时手动发布视频。
 
@@ -49,7 +49,7 @@ ht-degree: 22%
 
 1. 执行以下任一操作：
 
-   * 若要在上传时自动立即发布视频，请在“上传”页面中，选择“上传后发布”**。**&#x200B;您已完成相应的操作，不需要执行其他步骤。
+   * 要在上传时自动立即发布视频，请在“上传”页面上选择&#x200B;**[!UICONTROL 上传后发布]**。 该过程已完成；无需执行其他步骤。
    * 要在上传后手动发布视频，请在“浏览”面板中选择视频，然后在“全局导航”栏上选择&#x200B;**发布**。
 
 ## 将视频URL链接到移动网站或网站 {#linking-a-video-url-to-a-mobile-site-or-a-website}
@@ -150,7 +150,8 @@ ht-degree: 22%
 
   在&#x200B;**[!UICONTROL 应用程序常规设置]**&#x200B;页的&#x200B;**[!UICONTROL 服务器]**&#x200B;组的&#x200B;**[!UICONTROL 发布的服务器名称]**&#x200B;文本字段中，构造直接URL。 使用以下语法： `server/is/content/company/folder/filename.m3u8`
 
-  例如，假设已发布的服务器名称为`https://s7d9.scene7.com/.`。使用步骤2中的语法，直接URL可能如下所示：
+  例如，假设已发布的服务器名称为`https://s7d9.scene7.com/`。 使用步骤2中的语法，直接URL如下所示：
+
   `https://s7d9.scene7.com/is/content/GeoRetail/AdobeRIA-AVS.m3u8`
 
 * 生成直接HLS流视频URL（单比特率）
@@ -159,7 +160,8 @@ ht-degree: 22%
 
   `server/company/folder/filename.ext.m3u8`
 
-  例如，假设HLS流服务器名称为`https://s7mbrstream.scene7.com/hls-vod/`。 使用步骤2中的语法，直接URL可能如下所示：
+  例如，假设HLS流服务器名称为`https://s7mbrstream.scene7.com/hls-vod/`。 使用步骤2中的语法，直接URL如下所示：
+
   `https://s7mbrstream.scene7.com/hls-vod/GeoRetail/MBR/ToyStory3\_Teaser1\_High\_iPad\_768x432\_1296K.mp4.m3u8`
 
 * 生成直接渐进式视频 URL
@@ -168,24 +170,25 @@ ht-degree: 22%
 
   `server/company/folder/filename`
 
-  例如，假设渐进式视频服务器名称为`https://s7d9.scene7.com/is/content/`。 使用步骤2中的语法，直接URL可能如下所示：
+  例如，假设渐进式视频服务器名称为`https://s7d9.scene7.com/is/content/`。 使用步骤2中的语法，直接URL如下所示：
+
   `https://s7d9.scene7.com/e2/GeoRetail/SourceVideo/outdoors.mp4`
 
 ## 使用视频缩略图 {#working-with-video-thumbnails}
 
-Adobe Dynamic Media Classic为编码的视频和预编码的视频生成缩略图。 您可以像使用任何图像资源一样使用视频缩略图。 此外，您还可以获取Adobe Dynamic Media Classic生成的视频缩略图的URL。 然后，您可以在Adobe Dynamic Media Classic之外部署这些URL。 例如，您可以在搜索结果、相关视频列表和网站上的视频播放列表中部署缩略图。
+Adobe Dynamic Media Classic为编码的视频和预编码的视频生成缩略图。 您可以像使用任何图像资源一样使用视频缩略图。 此外，您还可以获取Adobe Dynamic Media Classic生成的视频缩略图的URL。 然后，您可以在Adobe Dynamic Media Classic之外部署这些URL。 例如，您可以在搜索结果、相关视频列表和网站上的视频播放列表上部署缩略图。
 
-基于视频的第一个异构帧（不是全黑帧或全白帧等）生成缩略图。
+缩览图基于视频的第一个异构帧（不是全黑帧或全白帧）生成。
 
 ### 获取视频缩略图URL {#obtaining-video-thumbnail-urls}
 
-Adobe Dynamic Media Classic在上传过程中自动生成视频缩略图。 缩览图显示在“列表视图”和“网格视图”的“浏览”面板中。
+Adobe Dynamic Media Classic在上传过程中自动生成视频缩略图。 缩览图显示在“浏览”面板的“列表视图”和“网格视图”中。
 
 要生成视频缩略图的 URL，请执行发布操作。
 
 查看[发布视频](deploying-video-websites-mobile-sites.md#publishing_video)。
 
-发布后，您可以在“URL 和嵌入代码”面板的“详细信息视图”中获取视频缩略图 URL。 选择&#x200B;**[!UICONTROL 复制视频缩略图右侧的URL]**，以便复制其关联的URL。
+发布后，您可以在“URL”和“嵌入代码”面板的“详细信息”视图中获取视频缩略图URL。 选择&#x200B;**[!UICONTROL 复制视频缩略图右侧的URL]**，以便复制其关联的URL。
 
 ### 在视频查看器中修改海报帧 {#modifying-poster-frames-in-video-viewers}
 

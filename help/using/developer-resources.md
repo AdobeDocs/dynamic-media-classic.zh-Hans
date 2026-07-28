@@ -17,16 +17,16 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+source-git-commit: ef0ddb7b88e52964af778ddb3ab049ce540f8f3d
 workflow-type: tm+mt
-source-wordcount: 228
+source-wordcount: 221
 ht-degree: 12%
 
 ---
 
 # 开发人员资源 {#developer-resources}
 
-有关查看器、图像服务和图像渲染以及图像生产系统的参考指南描述了这些服务器模块的http协议。 如果网站开发人员需要进一步自定义，并且希望将Adobe Dynamic Media Classic富媒体用于网站或自定义应用程序，则可以使用这些指南。 假定用户熟悉Dynamic Media Classic桌面应用程序、常规http协议标准和惯例以及基本的图像术语。
+查看器、图像服务和图像渲染以及图像生产系统的参考指南描述了这些服务器模块的HTTP协议。 网站开发人员如果想要为网站或自定义应用程序自定义和使用Adobe Dynamic Media Classic富媒体，可以使用这些指南。 用户必须熟悉Dynamic Media Classic桌面应用程序、常规HTTP协议标准和惯例以及基本的图像术语。
 
 另请参阅[Dynamic Media开发人员资源](https://experienceleague.adobe.com/zh-hans/docs/dynamic-media-developer-resources)。
 
