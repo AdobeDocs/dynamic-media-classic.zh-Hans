@@ -12,17 +12,13 @@ topic: Content Management
 level: Intermediate
 autotag-review: '2026-05-13T19:45:19.277Z'
 TQID: 'https://experienceleague.adobe.com/XtUpvJz6aepSU0F9CupyrR8-cdSpNo3blHK38hh9Fc8'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 6cee66920b39dd3995803cf060712025a8b0aa9a
 workflow-type: tm+mt
-source-wordcount: 620
+source-wordcount: 615
 ht-degree: 21%
 
 ---
@@ -60,7 +56,7 @@ Last Modified Date: 2018-06-14T13:52:46.623-0400
 
 >[!NOTE]
 >
->在“详细信息”视图中，您可以在同一文件夹中从一个资产页面转到另一个资产。 只需单击&#x200B;**[!UICONTROL 上一个资源]**&#x200B;或&#x200B;**[!UICONTROL 下一个资源]**。 这些按钮位于“详细视图”的右上角。
+>您可以使用“详细信息视图”在同一个文件夹中的资产之间导航。 单击&#x200B;**[!UICONTROL 上一个资源]**&#x200B;或&#x200B;**[!UICONTROL 下一个资源]**。 这些按钮位于“详细视图”的右上角。
 
 ## 在“详细信息”视图中获取信息 {#getting-information-in-detail-view}
 
@@ -72,7 +68,7 @@ Last Modified Date: 2018-06-14T13:52:46.623-0400
 
 “详细信息视图”提供了用于处理所打开资产的工具。 可用的工具取决于您使用的资源类型，但“详细信息视图”始终提供以下功能：
 
-* 发布&#x200B;**的**&#x200B;项目：选择名称左侧的&#x200B;**[!UICONTROL `Publish`]**&#x200B;图标，或转到&#x200B;**[!UICONTROL 文件]** > **[!UICONTROL 发布]**&#x200B;或&#x200B;**[!UICONTROL 文件]** > **[!UICONTROL 取消发布]**。
+* **要发布的项目**：选择名称左侧的&#x200B;**[!UICONTROL `Publish`]**&#x200B;图标，或转到&#x200B;**[!UICONTROL 文件]** > **[!UICONTROL 发布]**&#x200B;或&#x200B;**[!UICONTROL 文件]** > **[!UICONTROL 取消发布]**。
 
 * **重命名资源**：选择名称并输入新名称。
 
