@@ -25,28 +25,28 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+source-git-commit: a157ef90a1ff3051fe0939b859d1ba7a63537b82
 workflow-type: tm+mt
-source-wordcount: 270
+source-wordcount: 265
 ht-degree: 0%
 
 ---
 
 # 启用Adobe Analytics视频报表{#enabling-adobe-analytics-video-reports}
 
-使用基于Adobe Analytics心率的视频报告，在Adobe Dynamic Media Classic中配置Adobe Analytics时，不必再启用四个视频查看器事件（播放、暂停、停止、里程碑）。 视频心率适用于开箱即用的Adobe Dynamic Media Classic HTML5视频和混合媒体查看器。 视频播放器会生成跟踪数据以供在Adobe Analytics视频报表中查看。
+使用基于Adobe Analytics心率的视频报告，在Adobe Dynamic Media Classic中配置Adobe Analytics时，您不再需要启用四个视频查看器事件（播放、暂停、停止、里程碑）。 视频心率适用于标准Adobe Dynamic Media Classic HTML5视频和混合媒体查看器。 视频播放器会生成跟踪数据以供在Adobe Analytics视频报表中查看。
 
 * 有关流媒体和“心率测量”的简介，请参阅[关于Adobe Analytics for Streaming Media](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/media-overview)。
 
 * Adobe Analytics视频报表与Adobe Dynamic Media Classic的集成支持解决方案变量，但不支持自定义变量。
 
-  有关解决方案变量和自定义变量的详细信息，请参阅[音频和视频参数](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/implementation/variables/audio-video-parameters)。
+  有关解决方案变量和自定义变量的详细信息，请参阅[音频和视频参数](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/reporting/dimensions/overview)。
 
-* 支持一分钟递增的现成区段。 但是，不支持自定义区段报告，例如客户定义的基于时间增量的里程碑、%里程碑或偏移里程碑。
+* 支持一分钟增量标准区段。 但是，不支持自定义区段报告，例如客户定义的基于时间增量的里程碑、%里程碑或偏移里程碑。
 
-  有关流媒体要求和设置的详细信息，请参阅[Adobe Analytics中的度量值流媒体](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/media-overview)。
+  有关流媒体要求和设置的详细信息，请参阅[Adobe Analytics中的度量流媒体](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/media-overview)。
 
-* 有关自定义变量和解决方案变量的信息，请参阅[媒体报表启用](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/media-reports/media-reports-enable#media-reports)。
+* 有关自定义变量和解决方案变量的信息，请参阅[媒体报表启用](https://experienceleague.adobe.com/zh-hans/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/media-management)。
 
 >[!NOTE]
 >
