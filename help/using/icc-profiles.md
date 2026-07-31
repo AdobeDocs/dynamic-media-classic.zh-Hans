@@ -12,10 +12,15 @@ topic: Administration, Content Management
 level: Intermediate
 autotag-review: '2026-05-13T19:59:42.608Z'
 TQID: 'https://experienceleague.adobe.com/eGKamqA47mITzfyTuHoFYLfWEXOP0jAl5XWDpihGjZA'
-product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: d378ca77-2da1-4f39-ad92-1917fe974a38
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 5cf4a3f436cd6dd46ee68daeb0ef798402ae311a
 workflow-type: tm+mt
 source-wordcount: 527
@@ -29,7 +34,7 @@ ICC（国际颜色联盟）配置文件是一个文件，用于描述如何正�
 
 在Adobe Dynamic Media Classic中，您可以选择在上传图像时将ICC配置文件转换为其他颜色空间。 默认情况下，Adobe Dynamic Media Classic中的所有标准Adobe Photoshop ICC配置文件均可用。 要在“上载”屏幕中查看颜色配置文件的名称，请选择“颜色配置文件”菜单。 然后单击“**自定义从**”>“**到**”，并在“**转换自**”和“**转换为**”菜单上选择ICC配置文件名称。
 
-在上传](image-editing-options-upload.md#image-editing-options-at-upload)中查看[图像编辑选项。
+在上传[&#128279;](image-editing-options-upload.md#image-editing-options-at-upload)中查看图像编辑选项。
 
 除了使用默认的ICC配置文件外，您还可以将其他ICC配置文件上传到Adobe Dynamic Media Classic，以便用于色彩空间转换。 要调查ICC配置文件的配置文件类、色彩空间类型和PCS类型，请切换到“浏览”面板中的“详细信息视图”。
 
