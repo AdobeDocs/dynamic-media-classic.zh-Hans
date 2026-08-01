@@ -18,10 +18,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+source-git-commit: 74b2fd3a2c7808f5a3cb73bdece56d2914090d8e
 workflow-type: tm+mt
-source-wordcount: 443
-ht-degree: 38%
+source-wordcount: 448
+ht-degree: 32%
 
 ---
 
@@ -31,12 +31,12 @@ ht-degree: 38%
 
 可用于导出作业的 Zip 压缩文件的最大文件大小为 1 GB。 此外，每个导出作业最多允许500个总资产。
 
-Adobe Dynamic Media Classic会保留“作业”屏幕中导出作业的记录。
+Adobe Dynamic Media Classic会在“作业”屏幕中保留导出作业的记录。
 
 **要从Adobe Dynamic Media Classic导出资源：**
 
 1. 选择要导出的资源，然后转到&#x200B;**[!UICONTROL 文件]** > **[!UICONTROL 导出]**。
-1. 在“导出所选资源”窗口中，单击“**[!UICONTROL 图像选项]**”，然后指定以下任一选项（管理员可确定哪些选项对用户可用）：
+1. 在“导出选定的Assets”窗口中，单击&#x200B;**[!UICONTROL 图像选项]**，然后指定以下任一选项（管理员确定哪些选项可供软件用户使用）：
 
    * **[!UICONTROL 预设]**： （可选）选择图像预设，以便在导出资产时设置资产的格式。 如果选择了图像预设，其他格式选项将不可用，因为资源会采用由图像预设定义的格式。
 
@@ -86,4 +86,4 @@ Adobe Dynamic Media Classic会保留“作业”屏幕中导出作业的记录�
 当大量各种各样的资源类型进入导出程序时，会出现以下行为结果：
 
 * 在作业提交之前，将从列表中删除所有无法导出的资源类型
-* 如果请求转换，则所有可转换的类型都将被导出，所有其他类型都将导出为原始类型
+* 如果请求转换，则会处理所有可转换的类型，并将所有其他类型导出为原始文件
