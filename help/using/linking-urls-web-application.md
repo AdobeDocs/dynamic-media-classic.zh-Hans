@@ -12,30 +12,26 @@ topic: Administration, Content Management, Development
 level: Intermediate
 autotag-review: '2026-05-13T20:03:48.579Z'
 TQID: 'https://experienceleague.adobe.com/c8e722KVmasJVtoVl8k7-5vGjvs4Lm-GZavm-TF9fk0'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 1960799e4144942d4d9443196e6db425f87c7686
 workflow-type: tm+mt
-source-wordcount: 844
-ht-degree: 24%
+source-wordcount: 821
+ht-degree: 16%
 
 ---
 
 # 将URL链接到您的Web应用程序{#linking-urls-to-your-web-application}
 
-您的网站和应用程序通过URL字符串访问Dynamic Media图像服务器内容。 发布图像后，Adobe Dynamic Media Classic会激活一个引用Dynamic Media图像服务器上的图像预设的URL字符串。 您可以将这些URL粘贴到Web浏览器中进行测试。
+您的网站和应用程序使用URL字符串访问Dynamic Media图像服务器内容。 发布图像后，Adobe Dynamic Media Classic会激活一个引用Dynamic Media图像服务器上的图像预设的URL字符串。 您可以在Web浏览器中使用这些URL进行测试。
 
 要将这些URL字符串放置在网页和应用程序中，请从Adobe Dynamic Media Classic复制它们。 要获取使用图像预设生成的URL字符串，请转到“预览”屏幕或“浏览”面板（在“详细信息”视图中）。
 
 ## 获取图像预设URL {#obtaining-an-image-preset-url}
 
-可从“预览”或详细信息视图中获得由图像预设生成的 URL 字符串。 复制 URL 后，该字符串将放置在剪贴板上，以便在必要时进行粘贴。
+可从“预览”或详细信息视图中获得由图像预设生成的 URL 字符串。 复制URL后，该URL将保存到剪贴板，以便您根据需要进行粘贴。
 
 >[!NOTE]
 >
@@ -59,38 +55,38 @@ ht-degree: 24%
 1. 在左侧的资产库面板中，导航到包含要预览的图像资产的“资产”文件夹。
 1. 在Assets窗口的工具栏右侧，选择&#x200B;**[!UICONTROL 网格视图]**。 在“资源”窗口中，选择单个图像资源。
 1. 在Assets窗口的工具栏右侧，选择&#x200B;**[!UICONTROL 详细信息视图]**。
-1. 在屏幕右侧的面板上选择&#x200B;**[!UICONTROL URL]**，以便展开图像预设列表。
+1. 在右侧面板上选择&#x200B;**[!UICONTROL URL]**&#x200B;以显示图像预设列表。
 1. 选择图像预设名称旁边的&#x200B;**[!UICONTROL 复制URL]**&#x200B;链接以及要复制到剪贴板的URL。
 
-## 关于图像预设 URL 字符串 {#about-image-preset-url-strings}
+## 图像预设URL字符串概述 {#about-image-preset-url-strings}
 
-用于调整Dynamic Media图像服务器图像大小的URL调用具有以下基本语法：
+在Dynamic Media图像服务器上调整图像大小的URL调用具有以下基本语法：
 
 *path*/*图像服务器的名称*/*帐户名称*/*图像名称*？*modifier1*&amp;*modifier2*&amp;...
 
-在Dynamic Media图像服务器URL中，服务器显示图像的说明显示在问号(？)之后。 例如，此URL调用会提供一个宽度为250像素的名为“backpack”的图像：
+在Dynamic Media图像服务器URL中，服务器显示图像的说明应遵循问号(？)。 例如，此URL调用会提供一个宽度为250像素的名为“backpack”的图像：
 
 ```as3
 https://s7d1.scene7.com/is/image/S7learn/backpack?wid=250
 ```
 
-图像预设 URL 包含按相应大小和格式规范显示图像的所有修饰符指令。 对于没有图像预设的情况，请注意此 URL 字符串中问号 (?) 之后的所有修饰符指令 ：
+图像预设 URL 包含按相应大小和格式规范显示图像的所有修饰符指令。 如果没有图像预设，请注意问号(？)后面的所有修饰符说明 ：
 
 ```as3
 https://s7d1.scene7.com/is/image/S7learn/backpack?wid=250&fmt=jpeg&qlt=80,0&resMode=sharp&op_usm=1.1,0.5,1,0
 ```
 
-然而，在图像预设生成的 URL 字符串中，图像预设的名称将代替图像预设定义的指令。 例如，对于上面的长 URL，此 URL 字符串为：
+但是，在与图像预设一起生成的URL字符串中，图像预设名称将替换由图像预设定义的指令。 例如，对于上面的长 URL，此 URL 字符串为：
 
 ```as3
 https://s7d1.scene7.com/is/image/S7learn/backpack?$Large$
 ```
 
-在 URL 中图像预设名称用美元符号 ($) 括起。 当Dynamic Media图像服务器遇到URL的图像预设部分（在本例中为`Large`）时，使用“大”图像预设定义的大小和格式说明。
+URL中的图像预设名称使用美元符号($)。 当Dynamic Media图像服务器处理URL的图像预设部分（在本例中为`Large`）时，它使用“大”图像预设定义的大小和格式说明。
 
 ## 将动态图像添加到网页 {#adding-dynamic-images-to-your-web-page}
 
-将动态图像添加到网页时，HTML页面代码中的`<IMG>`标记通常使用Adobe Dynamic Media Classic URL字符串进行修改，以向Dynamic Media图像服务器发出请求。 该字符串会按图像预设定义的大小和格式规范生成图像。
+将动态图像添加到网页时，`<IMG>`标记通常使用Adobe Dynamic Media Classic URL字符串进行修改，以从Dynamic Media图像服务器请求图像。 该字符串会按图像预设定义的大小和格式规范生成图像。
 
 例如，与以下用于打开静态图像的典型调用不同
 
@@ -104,4 +100,4 @@ img src="/company_images/products/backpack_thumbnail.jpg"
 img src="https://s7d2.scene7.com/is/image/S7learn/backpack_trns?$thumbnail$"
 ```
 
-在此示例中，Dynamic Media图像服务器“查找”了`$thumbnail$`的定义，并根据`thumbnail`图像预设定义的大小和格式规范动态生成相应的图像。 在URL字符串中，除产品图像文件名（本例中为`backpack_trns`）之外的所有项目通常都以硬连线方式连接页面模板。 唯一可从商业服务器自动插入到网页模版的元素是 IPS ID 或图像名称。
+在此示例中，Dynamic Media图像服务器检索`$thumbnail$`的定义，并使用`thumbnail`图像预设定义的大小和格式规范动态生成相应的图像。 在URL字符串中，除产品图像文件名（本例中为`backpack_trns`）之外的所有项目通常都是为页面模板配置的。 唯一可从商业服务器自动插入到网页模版的元素是 IPS ID 或图像名称。
