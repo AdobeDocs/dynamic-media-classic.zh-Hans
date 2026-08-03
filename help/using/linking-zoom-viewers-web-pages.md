@@ -12,22 +12,18 @@ topic: Administration, Content Management, Development
 level: Intermediate
 autotag-review: '2026-05-13T20:03:57.696Z'
 TQID: 'https://experienceleague.adobe.com/Urf0qGJqj7tCCGDfNwprZnxf6YfDgavWb44pThwds0I'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: a39ab917e54f3c998f3542e0ff6628de720ca017
 workflow-type: tm+mt
-source-wordcount: 698
-ht-degree: 20%
+source-wordcount: 696
+ht-degree: 19%
 
 ---
 
-# 将缩放查看器链接到您的网页{#linking-zoom-viewers-to-your-web-pages}
+# 将Zoom查看器连接到网页{#linking-zoom-viewers-to-your-web-pages}
 
 您的网站和应用程序通过URL字符串或嵌入代码访问Dynamic Media图像服务器内容。 该访问包括主图像和关联的缩放目标。 它还包含缩放查看器预设。 这些 URL 字符串在发布过程中被激活。 要将这些URL字符串或嵌入代码置于网页和应用程序中，请从Adobe Dynamic Media Classic复制它们。
 
@@ -55,9 +51,9 @@ ht-degree: 20%
 
 ## 将缩放查看器URL添加到网页 {#adding-zoom-viewer-urls-to-your-web-page}
 
-通常，访客通过首先选择缩放图标（图标通常显示放大镜的图像）来缩放网站上的图像。 选择此图标将启动在弹出窗口中显示图像的动态网页（ASP或JSP）。 弹出窗口是访客实际缩放该图像的位置。
+通常，访客通过首先选择“缩放”图标（通常该图标显示放大镜的图像）来缩放网页上的图像。 选择此图标将启动在弹出窗口中显示图像的动态网页（ASP或JSP）。 弹出窗口是访客缩放图像的位置。
 
-有关更多详细信息和代码示例，请参阅《HTML查看器参考指南》中的[嵌入式Adobe5 Basic缩放查看器](https://experienceleague.adobe.com/zh-hans/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/basic-zoom/c-html5-20-basic-zoom-viewer-about#section-e1c3106f5b3e445d9b95be337c2f94e2)。
+有关更多详细信息和代码示例，请参阅《HTML查看器参考指南》中的[嵌入式Adobe5 Basic缩放查看器](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/basic-zoom/c-html5-20-basic-zoom-viewer-about#section-e1c3106f5b3e445d9b95be337c2f94e2)。
 
 ## 复制缩放查看器的嵌入副本 {#copying-the-embed-copy-of-a-zoom-viewer}
 
