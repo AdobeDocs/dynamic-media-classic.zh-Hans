@@ -22,10 +22,10 @@ level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+source-git-commit: 596e4337002ebd67dd9f915a5ae63ae2a6e18437
 workflow-type: tm+mt
-source-wordcount: 307
-ht-degree: 14%
+source-wordcount: 303
+ht-degree: 15%
 
 ---
 
@@ -43,9 +43,9 @@ ht-degree: 14%
 <!-- ***** Adobe Analytics Tracking ***** --><script type="text/javascript" src="https://s7d6.scene7.com/s7viewers/s_code.jsp?company=<Adobe Dynamic Media Classic Company ID>&preset=companypreset-1"></script>
 ```
 
-其中，`Adobe Dynamic Media Classic Company ID`设置为Adobe Dynamic Media Classic公司名称。 而`&preset`是可选的。 如果公司预设名称不是`companypreset`，则它不是可选的。 在这种情况下，可以是`companypreset-1, companypreset-2`，依此类推。 数字越大预设实例越新。 要确定正确的公司预设值名称，请选择&#x200B;**[!UICONTROL 复制URL]**，然后查看`preset=`参数以查找公司预设名称。
+其中，`Adobe Dynamic Media Classic Company ID`设置为Adobe Dynamic Media Classic公司名称。 而`&preset`是可选的。 如果公司预设名称不是`companypreset`，则它不是可选的。 在这些情况下，它是`companypreset-1`、`companypreset-2`及更高版本。 数字越大预设实例越新。 要确定正确的公司预设名称，请选择&#x200B;**[!UICONTROL 复制URL]**，然后查看`preset=`参数以查找公司预设名称。
 
-继续，现在添加一个将查看器事件传输到Adobe Analytics跟踪代码的函数。
+添加一个函数，以将查看器事件传输到Adobe Analytics跟踪代码。
 
 将`s7ComponentEvent()`函数添加到容器HTML（或JSP、ASPX或其他）：
 
@@ -53,7 +53,7 @@ ht-degree: 14%
 function s7ComponentEvent(objectId, componentClass, instanceName, timeStamp, eventData) {     s7track(eventData); }
 ```
 
-函数名称区分大小写。 传递给`s7componentEvent`的唯一一个必需参数是最后一个参数： `eventData`。 其中`s7track()`在上面包含的s_code.jsp中定义。 并且`s7track`处理每个事件的所有跟踪。 （在此区域，您可以进一步自定义传输到Adobe Analytics的数据。）
+函数名称区分大小写。 传递给`s7ComponentEvent`的唯一一个必需参数是最后一个参数`eventData`。 其中`s7track()`在上面包含的s_code.jsp中定义。 并且`s7track`处理每个事件的所有跟踪。 （您可以在此区域中进一步自定义传输到Adobe Analytics的数据。）
 
 ## 启用HREF和ITEM事件 {#enabling-href-and-item-events}
 

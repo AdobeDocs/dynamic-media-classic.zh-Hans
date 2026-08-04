@@ -24,18 +24,18 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+source-git-commit: b6221d5efb5aecba4c9081939487591676dd3d23
 workflow-type: tm+mt
-source-wordcount: 864
+source-wordcount: 856
 ht-degree: 0%
 
 ---
 
 # 登录到Adobe Analytics{#log-in-to-adobe-analytics}
 
-验证您是否是Adobe Analytics中的Web服务访问组的成员。 请在登录以配置Adobe Analytics报表并将Adobe Analytics报表变量与Adobe Dynamic Media Classic事件匹配之前执行此操作。 此组中的成员可以访问指定报表包中的所有报表。 无论界面中设置的权限如何，使用Experience Cloud的Web服务API来执行此操作。 若要向组添加成员，请在Adobe Analytics中转到&#x200B;**[!UICONTROL 管理工具]** > **[!UICONTROL 用户管理]** > **[!UICONTROL 编辑组]**。
+验证您是否是Adobe Analytics中的Web服务访问组的成员。 请在登录之前完成此步骤，以配置Adobe Analytics报表并将Adobe Analytics报表变量与Adobe Dynamic Media Classic事件相匹配。 此组的成员可以访问指定报表包中的所有报表。 无论界面中配置的权限如何，使用Experience Cloud Web服务API执行此操作。 若要向组添加成员，请在Adobe Analytics中转到&#x200B;**[!UICONTROL 管理工具]** > **[!UICONTROL 用户管理]** > **[!UICONTROL 编辑组]**。
 
-登录时，您可以选择输入Experience Cloud组织ID以使用最新的视频分析实施。 如果您选择不输入ID，则视频报表仍可正常工作。 但是，它可能会导致数据无法与Adobe Dynamic Media Classic外部适用于该客户端的其他数据正确集成。
+登录时，您可以选择输入Experience Cloud组织ID以使用最新的视频分析实施。 如果您选择不输入ID，则视频报表仍可正常工作。 但是，它可能会导致数据无法与Adobe Dynamic Media Classic外部该客户端的其他数据正确集成。
 
 >[!NOTE]
 >
@@ -43,17 +43,17 @@ ht-degree: 0%
 
 ## 从Adobe Dynamic Media Classic登录到Adobe Analytics {#log-in-to-analytics-from-dmc}
 
-首先，将Dynamic Media Classic与Adobe Analytics OAuth集成。 Adobe Analytics OAuth与Dynamic Media Classic的集成通常每个用户只执行一次。
+将Dynamic Media Classic与Adobe Analytics OAuth集成。 Adobe Analytics OAuth与Dynamic Media Classic的集成通常每个用户只执行一次。
 
 1. 访问[Adobe Developer Console](https://developer.adobe.com/console)。 确保您的帐户对需要集成的组织具有管理员权限。
 1. 在主页右上角附近，从下拉列表中选择相应的公司。 （下面的屏幕截图仅供参考；您选择的实际公司名称可能会有所不同。）
 
    ![创建新项目](assets/analytics-oauth1.png)
 
-1. 执行以下任一操作：
+1. 选择以下选项之一：
 
    * 在页面顶部，从&#x200B;**[!UICONTROL 主页]**&#x200B;选项卡中选择&#x200B;**[!UICONTROL 创建新项目]**。
-   * 在页面顶部的&#x200B;**[!UICONTROL 项目]**&#x200B;选项卡中。 在页面的右角附近，选择&#x200B;**[!UICONTROL 创建新项目]**。
+   * 在页面顶部，选择&#x200B;**[!UICONTROL 项目]**&#x200B;选项卡。 在页面的右角附近，选择&#x200B;**[!UICONTROL 创建新项目]**。
 
 1. 在项目的页面上，选择&#x200B;**[!UICONTROL 添加API]**。
 1. 在&#x200B;**[!UICONTROL 添加API]**&#x200B;页面上，选择&#x200B;**[!UICONTROL Adobe Analytics]**。
@@ -75,14 +75,14 @@ ht-degree: 0%
 1. 在页面的右下角，选择&#x200B;**[!UICONTROL 保存配置的API]**。
 1. 在Adobe Analytics页面左侧的导航面板中，在&#x200B;**[!UICONTROL 凭据]**&#x200B;下，选择&#x200B;**[!UICONTROL OAuth Web]**。
 1. 在&#x200B;**[!UICONTROL 凭据详细信息]**&#x200B;下，执行以下操作：
-   * 在&#x200B;**[!UICONTROL 客户端ID]**&#x200B;下，选择&#x200B;**[!UICONTROL 复制]**&#x200B;以复制值。 您需要此值才能在随后的Dynamic Media Classic桌面应用程序中进行后续Analytics配置。
-   * 在&#x200B;**[!UICONTROL 客户端密钥]**&#x200B;下，选择&#x200B;**[!UICONTROL 检索客户端密钥]**&#x200B;以显示关联的值。 选择&#x200B;**[!UICONTROL 复制]**&#x200B;以复制值。 您需要此值才能在随后的Dynamic Media Classic桌面应用程序中进行后续的Adobe Analytics配置。
+   * 在&#x200B;**[!UICONTROL 客户端ID]**&#x200B;下，选择&#x200B;**[!UICONTROL 复制]**&#x200B;以复制值。 您需要此值才能在Dynamic Media Classic桌面应用程序中完成后续的Analytics配置。
+   * 在&#x200B;**[!UICONTROL 客户端密钥]**&#x200B;下，选择&#x200B;**[!UICONTROL 检索客户端密钥]**&#x200B;以显示关联值。 选择&#x200B;**[!UICONTROL 复制]**&#x200B;以复制值。 您需要此值才能在Dynamic Media Classic桌面应用程序中完成后续的Adobe Analytics配置。
 
 ## 在Adobe Dynamic Media Classic中配置Adobe Analytics {#configure-analytics-in-dmc}
 
 >[!NOTE]
 >
->在Dynamic Media Classic中对Adobe Analytics进行初始配置后，只有在以下情况下才必须重做配置：
+>在Dynamic Media Classic中对Adobe Analytics进行初始配置后，只有在以下情况下才必须重复配置：
 >
 >* 在Analytics中添加了一个新报表，用户希望开始向该新报表发送数据。
 >* Adobe Analytics中更新了跟踪服务器。
@@ -95,11 +95,11 @@ ht-degree: 0%
 1. 在&#x200B;**[!UICONTROL Adobe Analytics登录]**&#x200B;对话框的&#x200B;**[!UICONTROL 客户端ID]**&#x200B;字段和&#x200B;**[!UICONTROL 客户端密钥]**&#x200B;字段中，粘贴您之前复制的相应值。
 1. 在对话框的右下角，选择&#x200B;**[!UICONTROL 登录]**&#x200B;并执行Adobe IMS （Identity Management服务）登录。
 
-   成功登录后，“Adobe Analytics登录”对话框将再次与&#x200B;**[!UICONTROL 公司]**&#x200B;下拉列表一起显示，下拉列表由您可用的公司启动。
+   成功登录后，将再次显示“Adobe Analytics登录”对话框以及&#x200B;**[!UICONTROL 公司]**&#x200B;下拉列表，该列表由您可用的公司填充。
 
 1. 从&#x200B;**[!UICONTROL 公司]**&#x200B;下拉列表中选择公司。
 
-   选择公司后，由选定公司可用的报表包启动的&#x200B;**[!UICONTROL 报表包]**&#x200B;下拉列表将变得可见。
+   选择公司后，由选定公司可用的报表包填充的&#x200B;**[!UICONTROL SUITES]**&#x200B;下拉列表将变得可见。
 
 1. 从&#x200B;**[!UICONTROL SUITES]**&#x200B;下拉列表中选择一个报表包。
 
