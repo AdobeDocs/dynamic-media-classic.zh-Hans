@@ -1,5 +1,5 @@
 ---
-title: 使用不同的缩放查看器预览图像资源
+title: 使用其他缩放查看器预览图像Assets
 description: 了解如何在Adobe Dynamic Media Classic中使用不同的缩放查看器预览图像资源。
 contentOwner: Rick Brough
 content-type: reference
@@ -12,16 +12,13 @@ topic: Content Management
 level: Intermediate
 autotag-review: '2026-05-13T20:07:26.177Z'
 TQID: 'https://experienceleague.adobe.com/hK4tEnRy4u4fZ4BAuw5oosbAH-1kWu5K-b9CyHeM7fY'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 89eddd2da3c67714ba6c239a371763ae731d8b49
 workflow-type: tm+mt
 source-wordcount: 251
-ht-degree: 28%
+ht-degree: 18%
 
 ---
 
@@ -36,7 +33,7 @@ ht-degree: 28%
 **要使用不同的缩放查看器预览图像资源：**
 
 1. 在左侧“资源库”面板的“显示”下拉列表中，选择基于图像的资源类型（如图像或图像集）。
-1. 在左侧“资源库”面板中，定位到包含要使用缩放查看器预览的图像的资源文件夹。
+1. 在左侧的资产库面板中，导航到包含要用缩放查看器预览的图像资产文件夹。
 1. 执行以下任一操作：
 
    * 在Assets窗口的工具栏右侧，选择&#x200B;**[!UICONTROL 网格视图]**。 在“资产”窗口中，缩略图图像下方，转到&#x200B;**[!UICONTROL 预览]** > **[!UICONTROL 查看器列表]**。
