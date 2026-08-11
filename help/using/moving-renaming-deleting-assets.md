@@ -1,5 +1,5 @@
 ---
-title: 移动、重命名和删除资源
+title: 移动、重命名和删除Assets
 description: 了解如何在Adobe Dynamic Media Classic中移动、重命名和删除资源。
 contentOwner: Rick Brough
 content-type: reference
@@ -19,16 +19,16 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+source-git-commit: 86437beff2a5d9e45380e423c760c5f5ffe04411
 workflow-type: tm+mt
-source-wordcount: 613
-ht-degree: 17%
+source-wordcount: 607
+ht-degree: 12%
 
 ---
 
 # 移动、重命名和删除资源{#moving-renaming-and-deleting-assets}
 
-您可以从“浏览”面板移动、重命名和删除资源。 也可以使用文本文件同时删除许多资源。
+您可以从“浏览”面板移动、重命名和删除资源。 此外，您可以使用文本文件同时删除多个资源。
 
 ## 移动资源 {#move-assets}
 
@@ -52,13 +52,13 @@ ht-degree: 17%
 
 您可以在“浏览”面板中删除所选资源并删除整个文件夹。 删除的资源和文件夹将移至回收站文件夹，在其中保留七天，之后将被永久删除。
 
-当您删除某个资源时，源自该资源的所有资源也会被删除。 例如，删除已为其创建缩放目标的图像会同时删除缩放目标和图像。
+在删除资源时，由此资源派生出的所有资源也会随之删除。 例如，删除已为其创建缩放目标的图像会同时删除缩放目标和图像。
 
-在删除资源时，由资源派生出的缩放目标、图像属性以及历史记录条目会随之永久删除。 它们不会随资源一起移至垃圾桶文件夹；因此无法从垃圾桶恢复它们。
+当您删除从中派生缩放目标、图像属性和历史记录条目的资源时，这些资源将被永久删除。 它们不会随资源一起移至垃圾桶文件夹；因此无法从垃圾桶恢复它们。
 
 >[!IMPORTANT]
 >
->批量删除是一项密集的操作。 请确保按顺序运行批量删除，而不是按并发大量删除操作运行。 Adobe建议您将删除操作限制为每小时5000个或更少的资产删除操作。 任何大于每小时5000的数字都可能导致速率限制。
+>批量删除是一项资源密集型操作。 按顺序运行批量删除，而不是作为并发的大规模删除操作运行。 Adobe建议您将删除操作限制为每小时5000个或更少的资产删除操作。 任何大于每小时5000的量都可能导致速率限制。
 
 **要删除资源：**
 
@@ -73,14 +73,14 @@ ht-degree: 17%
 
 ## 使用文本文件删除多个资源 {#delete-multiple-assets-with-a-text-file}
 
-要在整个资源库中同时删除许多资源，您可以在文本文件中列出要删除的资源，并将该列表提交到Adobe Dynamic Media Classic。
+要在整个资源库中同时删除多个资源，您可以在文本文件中列出要删除的资源，并将该列表提交到Adobe Dynamic Media Classic。
 
-创建Adobe Dynamic Media Classic ID列表并将其另存为文本(.txt)文件。 每个Adobe Dynamic Media Classic ID必须位于其自身的行中（后跟一个硬返回）。
+创建Adobe Dynamic Media Classic ID列表并将其另存为文本(.txt)文件。 每个Adobe Dynamic Media Classic ID必须位于其自身的行上（后跟一个回车符）。
 
-在创建列表之后，请执行以下步骤，以使用列表来删除资源：
+要使用列表删除资源，请执行以下操作：
 
 1. 转到&#x200B;**[!UICONTROL 文件]** > **[!UICONTROL 删除资源列表]**。
-1. 在&#x200B;**[!UICONTROL 已删除的资源列表]**&#x200B;对话框中，键入包含要删除的资源列表的文本文件的路径。
+1. 在&#x200B;**[!UICONTROL 已删除资源列表]**&#x200B;对话框中，键入包含要删除的资源列表的文本文件的路径。
 1. 选择&#x200B;**[!UICONTROL 删除]**。
 
 使用文本文件删除资源时，如果列表中未列出任何Adobe Dynamic Media Classic ID，则会显示消息“无法验证列表中的这些条目：”。 还会显示条目列表。 但是，Adobe Dynamic Media Classic不会在“作业”页面上生成错误。

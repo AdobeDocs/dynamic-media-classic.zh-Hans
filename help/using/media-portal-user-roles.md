@@ -1,5 +1,5 @@
 ---
-title: Media Portal 用户角色
+title: Media Portal用户角色
 description: 了解Adobe Dynamic Media Classic的Media Portal中可用的各种用户角色。
 contentOwner: Rick Brough
 content-type: reference
@@ -23,10 +23,10 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+source-git-commit: 28282f7005b22a50a9a49416549c29806e497085
 workflow-type: tm+mt
-source-wordcount: 321
-ht-degree: 65%
+source-wordcount: 320
+ht-degree: 50%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 65%
 
 Media Portal 提供了下列角色，每个角色具有不同的访问权和权限。 注册用户时，将向用户指定下列角色之一：
 
-* **[!UICONTROL Media Portal管理员]**：可以添加和删除管理员、参与者和用户。 管理员还可以设置组访问权限，管理 FTP 帐户，指定公司认可的转换格式（预设），向 Media Portal 用户发送电子邮件以及查看门户使用情况和存储报告。
+* **[!UICONTROL Media Portal管理员]**：可以添加和删除管理员、参与者和用户。 管理员还可以设置组访问权限，管理FTP帐户，分配公司批准的转换格式（预设），向Media Portal用户发送电子邮件，以及查看门户使用情况和存储报告。
 
 * **[!UICONTROL Media Portal用户]**：有权访问文件夹和文件。 用户只能浏览、预览和下载文件。 该角色适合于需要访问公司认可的资源的渠道或服务合作伙伴。
 
@@ -42,7 +42,7 @@ Media Portal 提供了下列角色，每个角色具有不同的访问权和权�
 
 * **[!UICONTROL Media Portal参与者用户]**：有权访问文件夹和文件。 参与者用户可以浏览、预览、下载和上传图像和元数据。 参与者用户可以更改文件的名称，将文件移动到其他文件夹以及删除文件。
 
-下表描述了具有不同角色的用户可以执行的任务。 管理员和参与者用户可以执行下表中列出的所有任务：
+下表描述了具有不同角色的用户可以执行的任务。 管理员和参与者用户可以执行此表中所列的所有任务：
 
 | 任务 | 用户 | 参与者 | 参与者用户 |
 | --- | --- | --- | --- |
