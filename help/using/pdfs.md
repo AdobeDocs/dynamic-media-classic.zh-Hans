@@ -12,22 +12,19 @@ topic: Integrations, Development
 level: Experienced
 autotag-review: '2026-05-13T19:53:07.417Z'
 TQID: 'https://experienceleague.adobe.com/yM24UnCiU64kLvHXjhX6S8ZJpWgoyAzQKuDHN02yUXs'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: a6f31cfc417aa908738642a9543ada88b4620c02
 workflow-type: tm+mt
-source-wordcount: 735
-ht-degree: 25%
+source-wordcount: 734
+ht-degree: 20%
 
 ---
 
 # 使用PDF{#working-with-pdfs}
 
-PDF（可移植文档格式）文件在Adobe Dynamic Media Classic中用于创建eCatalog的频率最高。 在上传PDF文件时，默认情况下，Adobe Dynamic Media Classic会栅格化或rip页面，以便使用这些页面构建富媒体。
+PDF（可移植文档格式）文件在Adobe Dynamic Media Classic中用于创建eCatalog的频率最高。 上传PDF文件时，Adobe Dynamic Media Classic默认栅格化页面，以便使用这些页面构建富媒体。
 
 在上传用于页面提取的PDF时，Adobe会强制实施以下限制：
 
@@ -39,17 +36,17 @@ PDF（可移植文档格式）文件在Adobe Dynamic Media Classic中用于创�
 
 ## PDF 上载选项 {#pdf-upload-options}
 
-当上载 PDF 文件时，您能够以多种方法设置其格式。 可以裁切其页面、提取搜索词、输入像素/英寸分辨率以及选择颜色空间。 PDF文件通常包含修剪边距、裁切标记、注册标记和其他打印机标记。 当上载 PDF 文件时，可以从页边裁切这些标记。
+当上载 PDF 文件时，您能够以多种方法设置其格式。 您可以裁切页面、提取搜索词、输入像素/英寸分辨率以及选择颜色空间。 PDF文件通常包含修剪边距、裁切标记、注册标记和其他打印标记。 当上载 PDF 文件时，可以从页边裁切这些标记。
 
 上传PDF文件的选项位于“上传页面”的“PDF选项”下。
 
 ### 处理选项
 
-**[!UICONTROL 栅格化]**： （默认）翻录PDF文件中的页面，并将矢量图形转换为位图图像。 要创建eCatalog，请选择此选项。
+**[!UICONTROL 栅格化]**： （默认）要栅格化PDF文件中的页面并将矢量图形转换为位图图像，请使用此选项。 要创建eCatalog，请选择此选项。
 
 **[!UICONTROL 提取搜索词]**：从PDF文件中提取搜索词，以便在eCatalog查看器中搜索文件中的关键字。
 
-**[!UICONTROL 提取链接]**：从PDF文件中提取链接，并将其转换为在eCatalog查看器中使用的图像映射。
+**[!UICONTROL 提取链接]**：从PDF文件中提取链接，并将其转换为eCatalog查看器中使用的图像映射。
 
 **[!UICONTROL 使用多页PDF自动生成eCatalog]**：从PDF文件自动创建eCatalog。 eCatalog 以您上载的 PDF 文件命名。 （只有当上载 PDF 文件时栅格化该文件，才可以使用此选项。）
 
@@ -75,9 +72,9 @@ PDF（可移植文档格式）文件在Adobe Dynamic Media Classic中用于创�
 
 * **[!UICONTROL 保留原始颜色空间]**：保留原始颜色空间。
 
-* **[!UICONTROL 自定义从]** > **[!UICONTROL 到]**：打开菜单，以便选择“转换自”和“转换为颜色空间”。 您可以选择标准的Photoshop色彩空间，也可以选择上传到Adobe Dynamic Media Classic的色彩空间。
+* **[!UICONTROL 自定义从]** > **[!UICONTROL 到]**：打开菜单，以便选择`Convert From`和`Convert To`颜色空间。 您可以选择标准的Adobe Photoshop色彩空间，也可以选择上传到Adobe Dynamic Media Classic的色彩空间。
 
-另请参阅[&#x200B; ICC 配置文件](/help/using/icc-profiles.md#icc_profiles)。
+另请参阅[ ICC 配置文件](/help/using/icc-profiles.md#icc_profiles)。
 
 ## 从PDF文件裁切空格 {#cropping-white-space-from-a-pdf-file}
 
@@ -88,11 +85,11 @@ PDF（可移植文档格式）文件在Adobe Dynamic Media Classic中用于创�
 
    * **[!UICONTROL 裁切依据]**：选择根据颜色还是透明度裁切：
 
-      * **[!UICONTROL 颜色]**：选择“颜色”选项。 然后选择&#x200B;**[!UICONTROL 角]**&#x200B;菜单并选择PDF的角落，该角落的颜色最能代表您要裁切的空白颜色。
+     * **[!UICONTROL 颜色]**：选择“颜色”选项。 然后选择&#x200B;**[!UICONTROL 角]**&#x200B;菜单并选择PDF的角落，该角落的颜色最能代表您要裁切的空白颜色。
 
-      * **[!UICONTROL 透明度]**：选择透明度选项。
+     * **[!UICONTROL 透明度]**：选择透明度选项。
 
-   * **[!UICONTROL 容差]**：拖动滑块以指定从0到1的容差。
+   * **[!UICONTROL 容差]**：若要指定从0到1的容差，请拖动滑块。
 
    * **[!UICONTROL 基于颜色的修剪]**：指定0表示仅在像素与在PDF角选择的颜色完全匹配时才裁剪像素。 数字越接近 1，允许的色差越大。
 
@@ -100,9 +97,9 @@ PDF（可移植文档格式）文件在Adobe Dynamic Media Classic中用于创�
 
 ## 从PDF页面侧面裁切 {#cropping-from-the-sides-of-pdf-pages}
 
-在上传时，您可以手动删除PDF文件中页面两侧的打印机标记。
+在上传时，您可以手动删除PDF文件中页面两侧的打印标记。
 
 1. 从“裁切”菜单中，选择&#x200B;**[!UICONTROL 手动]**。
 1. 在“上”、“下”、“左”、“右”文本框中输入像素设置，以便从页面的上、下及两边剪切。
 
-页面被裁切部分的大小取决于您为 PDF 文件输入的“分辨率像素/英寸”选项。 例如，假设您输入150（缺省值）作为“分辨率PX/英寸”设置。 然后裁切页面两侧75像素。 在这种情况下，0.5英寸 被裁剪了。 以每英寸150像素计算，75像素等于半英寸。
+裁切页面的数量取决于您为PDF文件输入的“分辨率PX/英寸”设置。 例如，假设您输入150（缺省值）作为“分辨率PX/英寸”设置。 然后裁切页面两侧75像素。 在本例中，为0.5英寸。 被裁剪了。 以每英寸150像素计算，75像素等于半英寸。
