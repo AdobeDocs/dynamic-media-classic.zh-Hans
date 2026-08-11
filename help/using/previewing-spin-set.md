@@ -12,22 +12,19 @@ topic: Content Management
 level: Intermediate
 autotag-review: '2026-05-13T20:07:36.629Z'
 TQID: 'https://experienceleague.adobe.com/pN6i0h-HSmTtqFxOny7c-NlWgjON9WIKObM-MNU4IDw'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 99a88f17cedfc68f0339067c75c360f98f098c30
 workflow-type: tm+mt
-source-wordcount: 258
-ht-degree: 28%
+source-wordcount: 261
+ht-degree: 9%
 
 ---
 
 # 预览旋转集{#previewing-a-spin-set}
 
-您可以使用查看器列表预览资源在特定查看器类型平台（如HTML5）上的显示方式。 并不是所有平台都可在查看器列表中找到，这取决于您选择要预览的资源类型和关联的查看器。
+您可以使用查看器列表预览资源在特定查看器类型平台（如HTML5）上的显示方式。 根据您选择要预览的资源类型和关联的查看器，并非所有平台在查看器列表中都可用。
 
 请参阅[配置默认查看器](application-setup.md#configuring_default_viewers)。
 
@@ -36,7 +33,7 @@ ht-degree: 28%
 **预览旋转集：**
 
 1. 在左侧的“资源库”面板中，在“显示”下拉列表中，选择旋转集资源类型。
-1. 在左侧的“资源库”面板中，找到要使用查看器进行预览的旋转集所在的资源文件夹。
+1. 在左侧的资产库面板中，导航到包含要在查看器中预览的旋转集的资产文件夹。
 1. 执行以下任一操作：
 
    * 在Assets窗口的工具栏右侧，选择&#x200B;**[!UICONTROL 网格视图]**。 在“资产”窗口中，缩略图图像下方，转到&#x200B;**[!UICONTROL 预览]** > **[!UICONTROL 查看器列表]**。
