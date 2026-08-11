@@ -12,16 +12,13 @@ topic: Content Management
 level: Intermediate
 autotag-review: '2026-05-13T20:07:44.590Z'
 TQID: 'https://experienceleague.adobe.com/-ulcs6af9bMfE-L-kIhwlqs8edAub06N0FTyfhgGxb4'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: b7031d38bb5093c8fad86927ac0020020fb801e2
 workflow-type: tm+mt
-source-wordcount: 870
-ht-degree: 19%
+source-wordcount: 871
+ht-degree: 14%
 
 ---
 
@@ -33,8 +30,8 @@ ht-degree: 19%
 
 **在视频查看器中预览视频：**
 
-1. 在左侧的“资产库”面板的“显示”下拉列表中，选择&#x200B;**[!UICONTROL 视频]**（单编码视频）或&#x200B;**[!UICONTROL 自适应视频集]**。 当使用自适应视频编码预设时，它将生成一组多比特率编码视频。
-1. 在左侧的“资源库”面板中，浏览资源文件夹，以选择您要预览的视频。
+1. 在左侧的“资产库”面板的“显示”下拉列表中，选择&#x200B;**[!UICONTROL 视频]**（单编码视频）或&#x200B;**[!UICONTROL 自适应视频集]**。 自适应视频编码预设产生一组多比特率编码视频。
+1. 在左侧的资产库面板中，浏览资产文件夹以选择要预览的视频。
 1. 执行以下任一操作：
 
    * 在Assets窗口的工具栏右侧，选择&#x200B;**[!UICONTROL 列表视图]**。 在“资源”窗口中，将鼠标悬停在资源上，然后选择&#x200B;**[!UICONTROL 预览]**。
@@ -49,7 +46,7 @@ ht-degree: 19%
 
 >[!NOTE]
 >
->Adobe Dynamic Media Classic提供了一种在桌面上预览MP4视频的便捷方法。 使用此方法可在桌面上预览移动内容，而不必在移动设备上对其进行实际测试。 但是，请注意，在桌面预览中看到的内容实际上不会显示播放在移动设备上的外观。 要预览视频在移动设备上的外观和播放方式，请转到“预览”屏幕。 单击&#x200B;**[!UICONTROL 复制URL]**，然后在移动设备的Web浏览器中输入该URL。 有关详细信息，请参阅[将视频部署到您的网站和移动站点](deploying-video-websites-mobile-sites.md#deploying_video_to_your_websites_and_mobile_sites)。
+>Adobe Dynamic Media Classic允许您在桌面上预览MP4视频。 使用此方法可以在桌面上预览移动内容，而无需在移动设备上对其进行测试。 但是，桌面预览无法准确反映移动设备上的播放情况。 要预览视频在移动设备上的外观和播放方式，请转到“预览”屏幕。 单击&#x200B;**[!UICONTROL 复制URL]**，然后在移动设备的Web浏览器中输入该URL。 有关详细信息，请参阅[将视频部署到您的网站和移动站点](deploying-video-websites-mobile-sites.md#deploying_video_to_your_websites_and_mobile_sites)。
 
 ## 使用视频查看器预设 {#working-with-video-viewer-presets}
 
@@ -59,7 +56,7 @@ Adobe Dynamic Media Classic附带许多用于播放视频的预定义查看器�
 
 请参阅[在视频查看器中预览视频](previewing-videos-video-viewer.md#previewing_videos_in_a_video_viewer)。
 
-另请参阅[视频预设](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/549_video-presets_converted%20renamed_Done-AVS)培训视频。
+另请观看[视频预设](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/549_video-presets_converted%20renamed_Done-AVS)培训视频。
 
 ### 添加或编辑视频查看器预设 {#adding-or-editing-a-video-viewer-preset}
 
