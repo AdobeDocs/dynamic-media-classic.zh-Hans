@@ -12,20 +12,14 @@ topic: Content Management
 level: Intermediate
 autotag-review: '2026-05-13T20:06:21.685Z'
 TQID: 'https://experienceleague.adobe.com/5qHEB75XuruG3SWp5zXaM3nadbtkW9M7xRvPA0mxo4M'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: cbeb7293d2fbe21f2ec2e585b389c1056404341c
 workflow-type: tm+mt
-source-wordcount: 483
-ht-degree: 21%
+source-wordcount: 478
+ht-degree: 14%
 
 ---
 
@@ -33,9 +27,9 @@ ht-degree: 21%
 
 项目为您提供了一种可选的次要方式来独立于存储资源的文件夹对资源进行组织。 一个资源只能放入一个文件夹中，但却可以复制到多个项目文件夹中进行组织。
 
-在创建项目文件夹之后，便可将资源放入其中。 项目中的Assets实际上是指向存储资产的“资产库”文件夹的指针。 可以将一个资源放置在多个项目中。 例如，可以将衬衫的图像同时放置在“衬衫”和“秋季系列”项目文件夹中。
+在创建项目文件夹之后，便可将资源放入其中。 项目中的Assets是指向存储资产的“资产库”文件夹的指针。 可以将一个资源放置在多个项目中。 例如，衬衫的图像可以同时放置在“T恤”和“秋季系列”项目文件夹中。
 
-可以在上载文件时创建一个项目，也可以在“资源库”面板中创建项目。
+您可以在“资产库”面板中上传文件或创建项目时创建项目。
 
 >[!NOTE]
 >
@@ -43,11 +37,11 @@ ht-degree: 21%
 
 >[!NOTE]
 >
->要在项目中组织资源，管理员必须为您进行设置才能进行使用。 如果您在Assets库底部没有看到“项目”文件夹部分，则无法使用这种整理资源的方法。 请参阅[应用程序常规设置](application-setup.md#general-settings)。
+>要在项目中组织资产，管理员必须已配置您的帐户才能使用它们。 如果您在资产库的底部没有看到“项目”文件夹部分，则无法使用这种组织资产的方法。 请参阅[应用程序常规设置](application-setup.md#general-settings)。
 
 ## 创建项目文件夹 {#creating-a-project-folder}
 
-您可以从Assets库中创建项目文件夹，或者在将文件上传到Adobe Dynamic Media Classic时创建项目文件夹：
+您可以从“资产库”中或向Adobe Dynamic Media Classic上传文件时开始创建项目文件夹：
 
 * **在资源库中**：滚动到资源库底部的“项目”部分，然后选择&#x200B;**[!UICONTROL 添加项目]**。 输入项目的名称。
 
@@ -55,15 +49,15 @@ ht-degree: 21%
 
 >[!NOTE]
 >
->资产库中的“项目”区域是单层文件夹列表；不允许使用子文件夹。
+>资产库中的“项目”区域是单级别文件夹列表；不允许使用子文件夹。
 
 ## 使用项目文件夹 {#working-with-project-folders}
 
-要显示、删除和重命名项目文件夹，请执行下列任一操作：
+要显示、删除和重命名项目文件夹，请使用以下任一方法：
 
 * **浏览内容**：选择资产库中文件夹的名称。 其资源显示在“浏览”面板中。
 
-* **删除项目文件夹**：选择项目文件夹，然后选择&#x200B;**[!UICONTROL 删除项目]**。 从项目文件夹中删除资源并不会从Adobe Dynamic Media Classic中删除它们；资源会保留在存储它们的原始文件夹中。
+* **删除项目文件夹**：选择项目文件夹，然后选择&#x200B;**[!UICONTROL 删除项目]**。 从项目文件夹中删除资源不会从Adobe Dynamic Media Classic中删除它们；资源仍保留在其原始存储文件夹中。
 
 * **重命名Project文件夹**：双击“资产面板”中该文件夹的名称，然后输入新名称。
 
