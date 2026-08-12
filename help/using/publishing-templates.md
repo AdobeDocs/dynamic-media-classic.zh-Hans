@@ -12,16 +12,13 @@ topic: Content Management
 level: Experienced
 autotag-review: '2026-05-13T20:09:10.008Z'
 TQID: 'https://experienceleague.adobe.com/Yih-wBixagRAQAOSGXz93bEmNJA7a-YbSCfiTLRIAiA'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: e78479f4044d2af484db2dd9783cbcff7940ea59
 workflow-type: tm+mt
-source-wordcount: 172
-ht-degree: 11%
+source-wordcount: 171
+ht-degree: 1%
 
 ---
 
@@ -31,11 +28,11 @@ ht-degree: 11%
 
 >[!NOTE]
 >
->要使用模板，请发布构成模板的所有内容，包括字体和图像。 如果不包含所有必需的文件，则在发布时会显示一条错误消息。
+>要使用模板，请发布创建模板所需的所有内容，包括字体和图像。 如果不包含所有必需的文件，则在发布时会显示一条错误消息。
 
 ## 将模板标记为发布 {#marking-templates-for-publish}
 
-必须将模板及其所有支持文件标记为发布，才能将其放在Dynamic Media图像服务器上。 您可以通过选择&#x200B;**[!UICONTROL 标记为发布]**&#x200B;图标，在“浏览”面板中将这些项目标记为发布。
+模板及其所有支持文件必须标记为发布，以便放置在Dynamic Media图像服务器上。 您可以通过选择&#x200B;**[!UICONTROL 标记为发布]**&#x200B;图标，在“浏览”面板中将这些项目标记为发布。
 
 ## 发布您的模板 {#publishing-your-template}
 
