@@ -12,15 +12,12 @@ topic: Content Management
 level: Intermediate
 autotag-review: '2026-05-13T20:08:49.126Z'
 TQID: 'https://experienceleague.adobe.com/MsYvgtKLOqbCZFs67ZPD2hN0fHoKj-AgIpGjM4EWyrM'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 50446d4791c5eda0eb9b9b5369cf4eee1fee2d3b
 workflow-type: tm+mt
-source-wordcount: 165
+source-wordcount: 164
 ht-degree: 6%
 
 ---
@@ -31,7 +28,7 @@ ht-degree: 6%
 
 ## 将主图像标记为发布 {#marking-master-images-for-publish}
 
-必须将主图像标记为发布，才能将其复制到Dynamic Media图像服务器。 您可以通过选择&#x200B;**[!UICONTROL 标记为发布]**&#x200B;图标，在“浏览”面板中标记要发布的主图像。 在将图像上传到Adobe Dynamic Media Classic时，您还可以标记要发布的图像。
+主图像必须标记为发布，以便可以复制到Dynamic Media图像服务器。 您可以通过选择&#x200B;**[!UICONTROL 标记为发布]**&#x200B;图标，在“浏览”面板中标记要发布的主图像。 您还可以在将图像上传到Adobe Dynamic Media Classic时标记要发布的图像。
 
 ## 发布您的主图像 {#publishing-your-master-images}
 
