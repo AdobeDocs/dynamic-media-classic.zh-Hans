@@ -12,17 +12,13 @@ topic: Integrations, Development
 level: Experienced
 autotag-review: '2026-05-13T20:08:12.325Z'
 TQID: 'https://experienceleague.adobe.com/DkWNVywchW9Lpxgg-u56TlLEmryKxrxc1zKIno8KgfU'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: d378ca77-2da1-4f39-ad92-1917fe974a38id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 29689fc49e1526fa20f6f95af968c9408468f758
 workflow-type: tm+mt
-source-wordcount: 1029
-ht-degree: 21%
+source-wordcount: 1027
+ht-degree: 19%
 
 ---
 
@@ -30,61 +26,61 @@ ht-degree: 21%
 
 <!--   USED TO BE AN OPTION UNDER COLOR PROFILE OPTIONS * **Convert To sRGB (default)**: Converts to sRGB (Standard Red Green Blue). sRGB is the recommended color space for displaying images on Web pages. -->
 
-PSD（Photoshop文档文件）在Adobe Dynamic Media Classic中最常用于创建模板。 上传PSD文件时，您可以使用该文件自动创建Adobe Dynamic Media Classic模板（在上传屏幕中选择创建模板选项）。
+PSD （Adobe Photoshop文档）文件在Adobe Dynamic Media Classic中最常用于创建模板。 上传PSD文件时，您可以使用该文件自动创建Adobe Dynamic Media Classic模板（在上传屏幕中选择创建模板选项）。
 
-如果您使用带图层的PSD文件创建模板，则Adobe Dynamic Media Classic会从该文件创建多个图像；它为每个图层创建一个图像。
+如果您使用文件创建模板，Adobe Dynamic Media Classic会从包含图层的PSD文件创建多个图像。 它会为每个图层创建一个图像。
 
 ## PSD 上载选项 {#psd-upload-options}
 
-用于上传PSD文件的选项位于“上传作业选项”对话框的“Photoshop选项”下。 您可以裁切文件、为其选择颜色配置文件、使用该文件创建模板，以及选择锚点。
+用于上传PSD文件的选项位于“上传作业选项”对话框的“Adobe Photoshop选项”下。 您可以裁切文件、为其选择颜色配置文件、使用该文件创建模板，以及选择锚点。
 
 以下选项在上载 PSD 文件时可用：
 
 * **裁切选项**：位于&#x200B;**[!UICONTROL 裁切选项]**&#x200B;下。 选择&#x200B;**[!UICONTROL 裁剪]**，以便您可以自动裁剪来自PSD文件边缘的空格。 选择&#x200B;**[!UICONTROL 手动]**&#x200B;裁切PSD文件的一侧：
 
-   * **[!UICONTROL 修剪]**：选择&#x200B;**[!UICONTROL 基于]**&#x200B;菜单修剪掉，然后选择&#x200B;**[!UICONTROL 颜色]**&#x200B;或&#x200B;**[!UICONTROL 透明度]**。
+  * **[!UICONTROL 修剪]**：选择&#x200B;**[!UICONTROL 基于]**&#x200B;菜单修剪掉，然后选择&#x200B;**[!UICONTROL 颜色]**&#x200B;或&#x200B;**[!UICONTROL 透明度]**。
 
   如果选择&#x200B;**[!UICONTROL 颜色]**&#x200B;选项，请选择“边角”菜单，然后选择PSD的边角，其颜色最能代表要裁切的空白颜色。
 
   拖动滑块以指定从0到1的公差。 基于颜色修剪时，如果指定为 0，则仅裁切与 PSD 角中选定颜色精确匹配的像素。 数字越接近 1，允许的色差越大。 要根据透明度进行裁剪，请指定0以仅裁切透明像素；数字越接近1则透明度越高。
 
-   * **[!UICONTROL 手动]**：输入要从图像任何一侧或每侧裁切的像素数。 图像被裁切部分的大小取决于图像文件中的 ppi（像素/英寸）设置。 例如，假设图像显示150 ppi。 然后在“顶部”、“右侧”、“底部”和“左侧”文本框中输入75。 图像的每一边都将被裁剪，0.5英寸。
+  * **[!UICONTROL 手动]**：输入要从图像任何一侧或每侧裁切的像素数。 图像被裁切部分的大小取决于图像文件中的 ppi（像素/英寸）设置。 例如，假设图像显示150 ppi。 然后在“顶部”、“右侧”、“底部”和“左侧”文本框中输入75。 图像的每一边都将被裁剪，0.5英寸。
 
 * **颜色配置文件选项**：位于&#x200B;**[!UICONTROL 颜色配置文件选项]**&#x200B;下。
 
-   * **[!UICONTROL 默认保色]**
+  * **[!UICONTROL 默认保色]**
 
-   * **[!UICONTROL 保留原始颜色空间]**：保留图像的原始颜色空间。
+  * **[!UICONTROL 保留原始颜色空间]**：保留图像的原始颜色空间。
 
-   * **[!UICONTROL 自定义从]** > **[!UICONTROL 到]**：打开菜单，以便选择“转换自”和“转换为颜色空间”。 您可以选择标准的Photoshop色彩空间，也可以选择上传到Adobe Dynamic Media Classic的色彩空间。 请参阅[ICC 配置文件](/help/using/icc-profiles.md)。
+  * **[!UICONTROL 自定义从]** > **[!UICONTROL 到]**：打开菜单，以便选择“转换自”和“转换为颜色空间”。 您可以选择标准的Photoshop色彩空间，也可以选择上传到Adobe Dynamic Media Classic的色彩空间。 请参阅[ICC 配置文件](/help/using/icc-profiles.md)。
 
-* **Photoshop选项**
+* **Adobe Photoshop选项**
 
-   * **[!UICONTROL 保留图层]**：将PSD中的图层（如果有）拆分为单独的资源。 资源图层仍然与 PSD 关联。 您可以通过在“详细信息视图”中打开PSD文件并选择图层面板来查看这些内容。 请参阅在PSD文件中查看和编辑图层。
+  * **[!UICONTROL 保留图层]**：将PSD中的图层（如果有）分隔为单独的资源。 资源图层仍然与 PSD 关联。 您可以通过在“详细信息视图”中打开PSD文件并选择图层面板来查看这些内容。 请参阅在PSD文件中查看和编辑图层。
 
-   * **[!UICONTROL 创建模板]**：从PSD文件中的图层创建模板。
+  * **[!UICONTROL 创建模板]**：从PSD文件中的图层创建模板。
 
-   * **[!UICONTROL 提取文本]**：提取文本，以便用户在查看器中搜索文本。
+  * **[!UICONTROL 提取文本]**：提取文本，以便用户在查看器中搜索文本。
 
-   * **[!UICONTROL 将图层扩展到背景大小]**：将翻录的图像图层的大小扩展到背景图层的大小。
+  * **[!UICONTROL 将图层扩展到背景大小]**：将翻录的图像图层的大小扩展到背景图层的大小。
 
-   * **[!UICONTROL 图层命名]**： PSD文件中的图层作为单独的图像上传。 要在Adobe Dynamic Media Classic中命名这些图像，请选择以下选项：
+  * **[!UICONTROL 图层命名]**： PSD文件中的图层作为单独的图像上传。 要在Adobe Dynamic Media Classic中命名这些图像，请选择以下选项：
 
-      * **[!UICONTROL 图层名称]**：将图像命名为PSD文件中的图层名称。 例如，原始 PSD 文件中名为“Price Tag”的图层将成为名为“Price Tag”的图像。 但是，如果PSD文件中的图层名称是默认的Photoshop图层名称（背景、第1层、第2层等），则图像将根据PSD文件中的图层编号进行命名。<!-- not their default layer names -->
+    * **[!UICONTROL 图层名称]**：将图像命名为PSD文件中的图层名称。 例如，原始 PSD 文件中名为“Price Tag”的图层将成为名为“Price Tag”的图像。 但是，如果PSD文件中的图层名称是默认的Photoshop图层名称（背景、第1层、第2层等），则图像将根据PSD文件中的图层编号进行命名。<!-- not their default layer names -->
 
-      * **[!UICONTROL Photoshop和图层编号]**：将图像命名为PSD文件中的图层编号，而不考虑原始图层名称。 使用 Photoshop 文件名和附加的图层编号为图像命名。 例如，名为`Spring Ad.psd`的文件的第二层名为`Spring Ad_2`，即使它在Photoshop中具有非默认名称。
+    * **[!UICONTROL Photoshop和图层编号]**：将图像命名为PSD文件中的图层编号，而不考虑原始图层名称。 使用 Photoshop 文件名和附加的图层编号为图像命名。 例如，名为`Spring Ad.psd`的文件的第二层名为`Spring Ad_2`，即使它在Photoshop中具有非默认名称。
 
-      * **[!UICONTROL Photoshop和图层名称]**：将图像命名为PSD文件后跟图层名称或图层编号。 如果 PSD 文件中的图层名称是默认的 Photoshop 图层名称，则将使用图层编号。 例如，在名为`SpringAd`的PSD文件中，名为`Price Tag`的图层名为`Spring Ad_Price Tag`。 默认名称为Layer 2的层称为`Spring Ad_2`。
+    * **[!UICONTROL Photoshop和图层名称]**：将图像命名为PSD文件后跟图层名称或图层编号。 如果 PSD 文件中的图层名称是默认的 Photoshop 图层名称，则将使用图层编号。 例如，在名为`SpringAd`的PSD文件中，名为`Price Tag`的图层名为`Spring Ad_Price Tag`。 默认名称为Layer 2的层称为`Spring Ad_2`。
 
-   * **[!UICONTROL 锚点]**：指定如何在从PSD文件生成的分层组合生成的模板中锚定图像。 默认情况下，锚点是中心。 中心锚点允许以最佳方式填充相同空间的替换图像，而不管替换图像的长宽比如何。 当引用模板并使用参数替换时，替换该图像的高宽比不同的图像有效地占据相同的空间。 如果应用程序要求替换图像占据模板中分配的空间，请更改为其他设置。
+  * **[!UICONTROL 锚点]**：指定如何在从PSD文件生成的分层组合生成的模板中锚定图像。 默认情况下，锚点是中心。 中心锚点允许替换图像填充相同的空间，而不管替换图像的长宽比如何。 当引用模板并使用参数替换时，替换此图像的具有不同纵横比的图像有效地占据相同的空间。 如果应用程序要求替换图像占据模板中分配的空间，请更改为其他设置。
 
 ## 在PSD文件中查看和编辑图层 {#viewing-and-editing-layers-in-a-psd-file}
 
-如果您在上传PSD时选择了&#x200B;**[!UICONTROL 保留图层]**&#x200B;选项，Adobe Dynamic Media Classic会将各个图层翻录到资源中。 通过在“详细视图”的“浏览”面板中打开文件，可以查看和编辑属于PSD文件的资源图层。
+如果您在上传PSD时选择了&#x200B;**[!UICONTROL 保留图层]**&#x200B;选项，Adobe Dynamic Media Classic会将各个图层分隔到资源中。 通过在“浏览”面板的“详细信息”视图中打开文件，可以查看和编辑PSD文件的资源层。
 
 >[!NOTE]
 >
->Adobe Dynamic Media Classic在嵌套图层组中最多支持五个级别。
+>Adobe Dynamic Media Classic在一个图层组中最多支持五个级别。
 
 1. 在“浏览”面板中双击完整的PSD文件。 文件将在“详细视图”中打开。
 
