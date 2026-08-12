@@ -12,15 +12,12 @@ topic: Content Management
 level: Intermediate
 autotag-review: '2026-05-13T20:09:04.075Z'
 TQID: 'https://experienceleague.adobe.com/rNtxQoxxX4ChyFIz33WUqW3Cj-A4Q2uu0F5MWJYHywU'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 149675d236e33ffb14ef1dee7eae6f405fc06325
 workflow-type: tm+mt
-source-wordcount: 178
+source-wordcount: 176
 ht-degree: 10%
 
 ---
@@ -31,7 +28,7 @@ ht-degree: 10%
 
 ## 将旋转集标记为发布 {#marking-a-spin-set-for-publish}
 
-将旋转集标记为发布，以便将其复制到Adobe Dynamic Media Classic图像服务器。 您可以通过选择名称左边的&#x200B;**[!UICONTROL 标记为发布]**&#x200B;图标，在“浏览”面板中将旋转集标记为发布。 如果将旋转集本身标记为发布，则旋转集中的所有图像均被标记为发布。
+标记旋转集以进行发布，以便将其复制到Adobe Dynamic Media Classic图像服务器。 您可以通过选择名称左侧的&#x200B;**[!UICONTROL 标记为发布]**&#x200B;图标，在“浏览”面板中将旋转集标记为发布。 如果将旋转集本身标记为发布，则旋转集中的所有图像均被标记为发布。
 
 ## 发布旋转集 {#publishing-the-spin-set}
 
