@@ -1,5 +1,5 @@
 ---
-title: 准备图像集资源以供上传
+title: 准备图像集Assets以供上传
 description: 了解如何准备图像集资源以上传到Adobe Dynamic Media Classic。
 contentOwner: Rick Brough
 content-type: reference
@@ -18,18 +18,18 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+source-git-commit: a7f99941b1957d8fdb127f488146052ca7ff1d3a
 workflow-type: tm+mt
-source-wordcount: 162
-ht-degree: 45%
+source-wordcount: 157
+ht-degree: 31%
 
 ---
 
-# 准备图像集资源以供上传{#preparing-image-set-assets-for-upload}
+# 准备图像集Assets以供上传{#preparing-image-set-assets-for-upload}
 
-在将图像集所需的图像上传到Adobe Dynamic Media Classic之前，请确保图像的大小和格式正确。
+在将图像集所需的图像上传到[!DNL Adobe Dynamic Media Classic]之前，请确保图像的大小和格式正确。
 
-要创建多视图图像集，您需要从不同视角显示物品或显示同一物品不同侧面的图像。 这是为了突出某个物品的重要特征，以便观看者对物品的外观或功能有全面的了解。
+要创建多视图图像集，您需要从不同视角显示物品或显示同一物品不同侧面的图像。 目标是突出显示项目的重要功能，以便查看者完全了解项目的外观或功能。
 
 因为用户可以缩放图像集中的图像，所以请确保图像的长边至少为 2000 像素。 Adobe Dynamic Media Classic支持多种图像文件格式，但建议使用无损的TIFF、PNG和EPS图像。
 
