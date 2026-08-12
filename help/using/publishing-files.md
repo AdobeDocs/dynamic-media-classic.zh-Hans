@@ -12,16 +12,13 @@ topic: Content Management
 level: Intermediate
 autotag-review: '2026-05-13T20:08:38.271Z'
 TQID: 'https://experienceleague.adobe.com/-eX-BNe5fu-v-hnD9F2qkBkpPZYx3TAvN4Lisgz3mHk'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 8653e7b7e736c91c71e1b66902525344b81320ed
 workflow-type: tm+mt
-source-wordcount: 1696
-ht-degree: 21%
+source-wordcount: 1669
+ht-degree: 17%
 
 ---
 
@@ -29,11 +26,11 @@ ht-degree: 21%
 
 您可以将资源发布到Dynamic Media图像服务器。 您可以一次性发布资源，也可以安排Adobe Dynamic Media Classic按定期计划发布资源。 发布资源后，这些资源即可用来传送。 您可以从Adobe Dynamic Media Classic复制URL调用，并将其添加到您的网站或应用程序。
 
-Adobe Dynamic Media Classic现在支持通过HTTP/2来交付所有图像和视频。 即，图像或视频的已发布URL或嵌入代码可用于与接受托管资产的任何应用程序集成。 该已发布资产使用HTTP/2协议进行交付。 这种交付方法改进了浏览器和服务器的通信方式，使得所有Adobe Dynamic Media Classic资源都有更好的响应和加载时间。 请参阅[HTTP2内容交付常见问题解答](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-65/content/assets/dynamic/http2)。
+Adobe Dynamic Media Classic现在支持通过HTTP/2来交付所有图像和视频。 即，图像或视频的已发布URL或嵌入代码可用于与接受托管资产的任何应用程序集成。 该已发布资产使用HTTP/2协议进行交付。 这种交付方法可改进浏览器和服务器的通信方式，从而缩短所有Adobe Dynamic Media Classic资源的响应和加载时间。 请参阅[HTTP2内容交付常见问题解答](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/http2)。
 
-## 在上载之后发布 {#publish-after-uploading}
+## 上传后发布 {#publish-after-uploading}
 
-资源处于已发布或未发布的状态。 默认情况下，您上传到Adobe Dynamic Media Classic的任何资源都会自动标记为发布。
+Assets处于已发布或未发布状态。 默认情况下，您上传到Adobe Dynamic Media Classic的任何资源都会自动标记为发布。
 
 有关详细信息，请参阅[即时发布通知PDF](/help/using/assets/rendering-instant-publish-notification.pdf)。
 
@@ -43,7 +40,7 @@ Adobe Dynamic Media Classic现在支持通过HTTP/2来交付所有图像和视�
 
 * **[!UICONTROL 上载后发布]**：在“作业选项”对话框中，选择&#x200B;**[!UICONTROL 上载后发布]**。 默认情况下，将处于选定状态。
 
-如果父项资源标记为发布，则一些“子项”资源会自动标记为发布。 此表列出了自动标记为发布的子资产。
+当某些依赖关系资产的父资产标记为发布时，会自动将其标记为发布。 此表列出了标记为自动发布的子资产。
 
 | 父（组）项 | 子（成员）项 |
 | --- | --- |
@@ -56,7 +53,7 @@ Adobe Dynamic Media Classic现在支持通过HTTP/2来交付所有图像和视�
 
 ## 创建发布作业 {#creating-a-publish-job}
 
-创建发布作业以发布已上传到Adobe Dynamic Media Classic服务器但尚未自动发布的资源。 您可以执行一次性发布作业或安排定期重复执行作业。 Adobe Dynamic Media Classic提供了用于发布到特定服务器的高级发布选项和用于重新发布已发布资产的选项。
+创建发布作业以发布已上传到Adobe Dynamic Media Classic服务器的资源。 对于不希望自动发布的资源，请使用此选项。 您可以执行一次性发布作业或安排定期重复执行作业。 Adobe Dynamic Media Classic提供了用于发布到特定服务器的高级发布选项和用于重新发布已发布资产的选项。
 
 **创建发布作业：**
 
@@ -84,7 +81,7 @@ Adobe Dynamic Media Classic跟踪“作业”页面上的发布作业。 您可�
 
 如果希望发布作业稍后发生，请在“发布”页面中选择&#x200B;**[!UICONTROL 一次性]**。 从下拉列表中，选择&#x200B;**[!UICONTROL 计划稍后]**。 使用日历和时间滑块选择运行发布作业的日期和时间。
 
-### 创建定期发布作业 {#creating-a-recurring-publish-job}
+### 创建周期性发布作业 {#creating-a-recurring-publish-job}
 
 通过在发布页面上选择&#x200B;**[!UICONTROL 循环]**&#x200B;来创建循环发布作业。
 
@@ -94,7 +91,7 @@ Adobe Dynamic Media Classic跟踪“作业”页面上的发布作业。 您可�
 
 >[!NOTE]
 >
->重复发布（和上载）作业在“作业”页中列出。 可以转到“作业”页的“已计划”选项卡以编辑或删除计划的作业。
+>重复发布（和上载）作业在“作业”页中列出。 通过转至“作业”页的“已调度”选项卡，可以编辑或删除已调度作业。
 
 ### 高级发布选项 {#advanced-publish-options}
 
@@ -122,9 +119,9 @@ Adobe Dynamic Media Classic跟踪“作业”页面上的发布作业。 您可�
 
 ## 手动发布资源 {#manually-publishing-assets}
 
-您可以手动发布各个资源，而不是创建发布作业。 发布图像集或自适应视频集等集时，该集（或“父级”）以及该集中的所有成员（或“子级”）都会被发布。
+您可以手动发布各个资源，而不是创建发布作业。 发布集时，会发布该集中的父项和所有子项。
 
-在用户界面中，未发布的资产名称左边会显示一个带有斜杠（未发布状态）的灰色圆形图标。 在发布资源后，该图标将变为绿色，并且中心带有白色复选标记（已发布状态）。
+资产名称左侧显示一个灰色、圆形的图标，其中有一行穿过该图标（未发布状态），表示用户界面中已取消发布资产。 在发布资源后，该图标将变为绿色，并且中心带有白色复选标记（已发布状态）。
 
 **要手动发布资源：**
 
@@ -134,13 +131,13 @@ Adobe Dynamic Media Classic跟踪“作业”页面上的发布作业。 您可�
 
      在全局导航栏上，转到&#x200B;**[!UICONTROL 文件]** > **[!UICONTROL 发布]**。
 
-   * 在“网格视图”、“列表视图”或“详细信息视图”中，选择资产名称左侧的带斜杠的灰色圆形图标。
+   * 在“网格视图”、“列表视图”或“详细信息视图”中，选择资源名称左侧的灰色圆形图标，该图标上有一行贯穿该图标。
 
 ## 手动取消发布资源 {#manually-unpublishing-assets}
 
-您可以手动取消发布各个资源。 取消发布样本集或eCatalog等集时，该集（或“父项”）本身将进入取消发布状态。 但是，该集中的成员（或“子项”）不受影响；相反，它们各自保留其现有的已发布或未发布状态。
+您可以手动取消发布各个资源。 取消发布集时，父级将进入未发布状态。 但是，该集中的成员（或“子项”）不受影响；相反，它们各自保留其现有的已发布或未发布状态。
 
-已发布的资产在用户界面中由资产名称左侧的中心（已发布状态）带有白色复选标记的绿色圆形图标表示。 取消发布资产后，图标将变为灰色，并在其中插入一个斜杠（未发布状态）。
+资产名称左侧的中心（已发布状态）带有白色复选标记的绿色圆形图标表示用户界面中已发布的资产。 取消发布资产后，图标将变为灰色，并在其中插入一行（未发布状态）。
 
 **手动取消发布资源：**
 
@@ -158,7 +155,7 @@ Adobe Dynamic Media Classic跟踪“作业”页面上的发布作业。 您可�
 
 ## 重新发布的资源和 CDN 延迟 {#republished-assets-and-cdn-delays}
 
-Adobe Dynamic Media Classic资源在内容交付网络(CDN)上分发。 CDN 是指联成网络的计算机服务器系统，这些服务器以完全透明的方式合作，将内容（尤其是大型媒体内容）传递给最终用户。 在CDN系统中，Web内容通过Internet存储在Web缓存中（称为边缘缓存网络）。 Web内容从Web缓存交付给最终用户，以实现更快的交付。
+Adobe Dynamic Media Classic资源在内容交付网络(CDN)上分发。 CDN是一个由联网的计算机服务器组成的系统。 他们共同向最终用户交付内容，特别是大型媒体内容。 在CDN系统中，Web内容通过Internet存储在Web缓存中（称为边缘缓存网络）。 Web内容从Web缓存交付给最终用户，以加快交付速度。
 
 第一次下载网页时，会将资产交付到CDN Web Cache服务器。 此服务器存储这些缓存，以便下次同一区域中的某人访问网页时，可以更快地交付相同的缓存内容。 内容传递速度更快是因为其位置更接近最终用户。 CDN可加快网页显示速度。 它降低了中央服务器上的带宽要求，因为内容是从边缘缓存网络传递，而不是从每个实例的中央服务器传递。
 
