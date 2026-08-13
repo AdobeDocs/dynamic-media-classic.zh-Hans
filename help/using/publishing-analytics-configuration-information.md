@@ -20,20 +20,20 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+source-git-commit: ea072a923d8f62e00a9c33c064dc86cb406625a7
 workflow-type: tm+mt
-source-wordcount: 151
-ht-degree: 19%
+source-wordcount: 146
+ht-degree: 8%
 
 ---
 
 # 发布Adobe Analytics配置信息{#publishing-adobe-analytics-configuration-information}
 
-发布Adobe Dynamic Media Classic查看器，以便将有关配置Adobe Analytics报表的信息发送到Adobe Dynamic Media Classic服务器。 该信息将嵌入查看器中。 必须进行发布，以便查看器中包含的信息在Adobe Dynamic Media Classic服务器上可用。 用户在查看器上执行活动后，可以将信息从服务器传送到 Adobe Analytics。
+发布Adobe Dynamic Media Classic查看器，以便将有关配置Adobe Analytics报表的信息发送到Adobe Dynamic Media Classic服务器。 该信息将嵌入查看器中。 必须进行发布，以便查看器中包含的信息在Adobe Dynamic Media Classic服务器上可用。 在用户与查看器交互后，可以从服务器将其中继到Adobe Analytics。
 
 >[!NOTE]
 >
->当您在Adobe Analytics中更改Adobe Analytics报表设置时，请确保从Adobe Dynamic Media Classic中重新登录到Adobe Analytics，重新保存Adobe Analytics配置设置，然后重新发布。
+>如果您在Adobe Analytics中更改Adobe Analytics报表设置，请在Adobe Dynamic Media Classic中登录Adobe Analytics，重新保存Adobe Analytics配置设置，然后重新发布。
 
 请参阅[登录到 Adobe Analytics](log-analytics.md#log_in_to_adobe_analytics)。
 
