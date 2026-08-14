@@ -22,20 +22,20 @@ level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+source-git-commit: afc1e5c58de547307108448ae111af91f1f482e7
 workflow-type: tm+mt
-source-wordcount: 699
-ht-degree: 23%
+source-wordcount: 690
+ht-degree: 17%
 
 ---
 
 # 快速入门：集成Adobe Dynamic Media Classic和Adobe Analytics {#quick-start-integrating-dmc-analytics}
 
-Adobe Analytics 是一款行业领先的产品，营销人员可用来评估、分析及优化整合自多个营销渠道的所有在线活动的数据。
+Adobe Analytics是一款行业领先的产品，为营销人员提供了一个集中的位置，他们可以在其中测量、分析和优化来自多个营销渠道中的所有在线计划的集成数据。
 
 将Adobe Analytics与Adobe Dynamic Media Classic集成后，您可以在网站上使用Adobe Dynamic Media Classic查看器获取有关网站访客行为的报表。 例如，当网站访客在Adobe Dynamic Media Classic缩放查看器中选择缩放目标时，Adobe Analytics将记录此操作。 Adobe Analytics报表可收集有关Adobe Dynamic Media Classic查看器中用户活动的累积信息。
 
-通过使用 Adobe Analytics 报告，可以非常清楚地了解客户在网站上的活动。 您可以确定哪些产品演示文稿会导致转化，哪些不吸引客户兴趣。
+使用Adobe Analytics报表，您可以了解客户在您网站上的活动。 您可以确定哪些产品演示文稿会导致转化，哪些不吸引客户兴趣。
 
 另请参阅Adobe Analytics中的[度量值视频](https://experienceleague.adobe.com/zh-hans/docs/media-analytics/using/media-overview)。
 
@@ -43,13 +43,13 @@ Adobe Analytics 是一款行业领先的产品，营销人员可用来评估、�
 >
 >要将Analytics与Adobe Dynamic Media Classic集成并生成Analytics报表，需要有效的Adobe Analytics帐户。
 
-本快速入门指南旨在通过Adobe Analytics工具包帮助您快速启动和运行。
+本指南旨在帮助您配置Adobe Analytics检测工具包。
 
-## &#x200B;1. 通过Adobe Dynamic Media Classic登录Adobe Analytics并下载Adobe Analytics报表变量
+## &#x200B;1. 从Adobe Dynamic Media Classic登录Adobe Analytics并下载Adobe Analytics报表变量
 
 >[!NOTE]
 >
->验证您是否已被添加为Adobe Analytics中Web服务访问组的成员。 请在配置Adobe Analytics报表之前进行此验证。 此外，在将Adobe Analytics报表变量与Adobe Dynamic Media Classic事件匹配之前。 此组中的成员可以访问指定报表包中的所有报表。 无论界面中设置的权限如何，您都可以使用Experience Cloud的Web服务API来执行此操作。 若要向组添加成员，请在Adobe Analytics中转到&#x200B;**[!UICONTROL 管理工具]** > **[!UICONTROL 用户管理]** > **[!UICONTROL 编辑组]**。
+>验证您是否已被添加为Adobe Analytics中Web服务访问组的成员。 在配置Adobe Analytics报表以及将Adobe Analytics报表变量与Adobe Dynamic Media Classic事件匹配之前进行此验证。 此组的成员可以访问指定报表包中的所有报表。 无论界面中设置的权限如何，您都可以使用Experience Cloud Web服务API执行此操作。 若要向组添加成员，请在Adobe Analytics中转到&#x200B;**[!UICONTROL 管理工具]** > **[!UICONTROL 用户管理]** > **[!UICONTROL 编辑组]**。
 
 确认您是Web服务访问组成员后，在Adobe Dynamic Media Classic中，转到&#x200B;**[!UICONTROL 设置]** > **[!UICONTROL 应用程序设置]** > **[!UICONTROL Adobe Analytics]**。 在“Adobe Analytics配置”页面上，选择&#x200B;**[!UICONTROL Adobe Analytics登录]**。
 

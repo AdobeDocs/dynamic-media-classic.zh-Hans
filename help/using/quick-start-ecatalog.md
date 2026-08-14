@@ -19,10 +19,10 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+source-git-commit: 434650e895dc16bf523b12106700915171ae2f73
 workflow-type: tm+mt
-source-wordcount: 1572
-ht-degree: 25%
+source-wordcount: 1565
+ht-degree: 23%
 
 ---
 
@@ -65,7 +65,7 @@ eCatalog是印刷材料的数字Web版本 — 例如，目录、小册子、传�
 >
 >您现在可以在Adobe Dynamic Media Classic中创作eCatalogs。
 
-本 eCatalog 快速入门旨在帮助您快速学会如何使用 eCatalog。 按照步骤 1 到 7 操作。 每一步之后，都会交叉引用主题标题，您可以在其中查找更多信息。
+本《eCatalog快速入门》旨在帮助您快速开始使用eCatalogs。 按照步骤 1 到 7 操作。 每一步之后，都会交叉引用主题标题，您可以在其中查找更多信息。
 
 ## &#x200B;1. 上传PDF文件
 
@@ -83,7 +83,7 @@ eCatalog 通常由 Adobe PDF 文件生成。 由于 PDF 文件要用于印刷，
 
 在eCatalog页面的&#x200B;**[!UICONTROL 订购页]**&#x200B;选项卡上，选择布局选项： **[!UICONTROL 1 Up]**、**[!UICONTROL 2 Up]**&#x200B;或&#x200B;**[!UICONTROL 自定义]**。 可以通过拖动的方式，或者在大型 eCatalog 中在“移至”菜单中选择页面名称，来重新排列页面或跨页。
 
-要添加页面，在“资源库”中选择一个文件夹，然后将其中的 PDF 或图像文件拖动到“排序页面”屏幕中。 您可以提供自定义页面名称或导入多个页面名称，而不是默认页码。
+要添加页面，请在Asset Library中选择一个文件夹，然后将PDF或图像文件拖到Order Pages屏幕中。 您可以提供自定义页面名称或导入多个页面名称，而不是默认页码。
 
 选择&#x200B;**[!UICONTROL 保存]**，输入eCatalog的名称，选择用于存储它的Adobe Dynamic Media Classic文件夹，然后选择&#x200B;**[!UICONTROL 保存]**。 每次更改页面顺序或编辑eCatalog时，请选择&#x200B;**[!UICONTROL 保存]**&#x200B;以保存更改。
 
@@ -135,6 +135,6 @@ eCatalog 查看器预设决定了 eCatalog 查看器的样式和行为。
 
 在将eCatalog发布到Dynamic Media图像服务器时，Adobe Dynamic Media Classic会激活显示它所需的URL标注字符串。 您可以通过在“预览”屏幕和“浏览”面板（在“详细信息”视图中）中选择URL，来复制此URL字符串。 复制URL字符串后，您的网站和应用程序即可使用该字符串。
 
-与您的IT团队合作，将指向eCatalog的链接放置在网页中的适当位置。 当用户选择该链接时，会显示eCatalog查看器，用户可以浏览您的eCatalog。
+要将指向eCatalog的链接放置到您的网页上，请与您的IT团队合作。 当用户选择该链接时，会显示eCatalog查看器，用户可以浏览您的eCatalog。
 
 请参阅[将eCatalog链接到网页](linking-ecatalog-web-page.md#linking-an-ecatalog-to-a-web-page)。

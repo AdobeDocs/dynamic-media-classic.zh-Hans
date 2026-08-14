@@ -18,10 +18,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+source-git-commit: c1f9ca034a6cc7545f18a41876f737eb9144e157
 workflow-type: tm+mt
-source-wordcount: 719
-ht-degree: 11%
+source-wordcount: 707
+ht-degree: 10%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 11%
 
 Adobe Dynamic Media Classic图像集为用户提供了集成的查看体验。 在动态图像集查看器中，用户可以通过选择缩略图图像来查看项目的不同视图。 图像集允许您呈现项目的替代高分辨率视图。
 
-图像集查看器具有缩放工具，可用来仔细查看图像。 如果需要，可以将引导式缩放目标和图像映射作为图像集的一部分。 图像集可为用户带来更协调、更详尽的观看体验。
+图像集查看器具有缩放工具，可用来仔细查看图像。 您可以将引导缩放目标和图像映射作为图像集的一部分。 图像集提供了更加一致、更集中的观看体验。
 
 观看[图像和旋转集： Dynamic Imaging](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/556_Image%20&%20Spin%20Sets_converted%20renamed_Dynamic%20Imaging-AVS)培训视频。
 
@@ -44,13 +44,13 @@ Adobe Dynamic Media Classic图像集为用户提供了集成的查看体验。 �
 
 另请参阅[Dynamic Media限制](/help/using/limitations.md)。
 
-以下图像集快速入门旨在让您快速启动并运行Adobe Dynamic Media Classic中的图像集技术。
+以下图像集快速入门旨在帮助您开始在[!DNL Adobe Dynamic Media Classic]中使用图像集技术。
 
 ## &#x200B;1. 上传多个视图和样本的主图像
 
-首先要向图像集上载图像。 由于用户可以在图像集查看器中放大图像，因此选择图像时，请确保考虑到了这一点。 确保图像的最大大小至少为2000像素。 Adobe Dynamic Media Classic支持多种图像文件格式，但建议使用无损的TIFF、PNG和EPS图像。
+首先要向图像集上载图像。 由于用户可以在图像集查看器中放大图像，因此请确保在选择图像时评估此功能。 确保图像的最大尺寸至少为2000像素。 Adobe Dynamic Media Classic支持多种图像文件格式，但建议使用无损的TIFF、PNG和EPS图像。
 
-在全局导航栏上，选择&#x200B;**[!UICONTROL 上传]**&#x200B;以将文件从您的计算机上传到Adobe Dynamic Media Classic上的文件夹。
+在全局导航栏上，选择&#x200B;**[!UICONTROL 上传]**&#x200B;以将文件从您的计算机上传到Adobe Dynamic Media Classic中的文件夹。
 
 查看[准备图像集资源以进行上传](preparing-image-set-assets-upload.md#preparing-image-set-assets-for-upload)和[上传您的文件](uploading-files.md#uploading-your-files)。
 
@@ -58,7 +58,7 @@ Adobe Dynamic Media Classic图像集为用户提供了集成的查看体验。 �
 
 在图像集中，用户在图像集查看器中选择缩略图图像，以便从不同侧面或角度查看图像。
 
-要创建图像集，请在全局导航栏上选择&#x200B;**[!UICONTROL 生成]**，然后选择&#x200B;**[!UICONTROL 图像集]**。 在“图像集”窗口中，将图像拖动到页面上以构成图像集。 根据需要组织、添加和删除图像。
+要创建图像集，请在全局导航栏上选择&#x200B;**[!UICONTROL 生成]**，然后选择&#x200B;**[!UICONTROL 图像集]**。 要撰写图像集，请将图像拖动到“图像集”窗口中的页面上。 根据需要组织、添加和删除图像。
 
 请参阅[创建图像集](creating-image-set.md#creating-an-image-set)。
 

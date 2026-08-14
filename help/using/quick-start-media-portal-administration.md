@@ -22,18 +22,18 @@ level_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+source-git-commit: 42facb1222886a1f2b37ae5dbf2af2d163a8fc88
 workflow-type: tm+mt
-source-wordcount: 859
-ht-degree: 35%
+source-wordcount: 830
+ht-degree: 20%
 
 ---
 
 # 快速入门： Media Portal{#quick-start-media-portal}
 
-Media Portal使公司能够轻松获取、控制已批准的资产，并将其分发给公司的外部合作伙伴和渠道以及内部用户。 这个基于浏览器的“自助”环境为Media Portal用户提供了对Adobe Dynamic Media Classic资源的管理员控制的“视图”，以便轻松访问、浏览、搜索、预览和导出企业批准的格式的资源。
+Media Portal使公司能够轻松获取、控制已批准的资产，并将其分发给外部合作伙伴和渠道以及内部用户。 这个基于浏览器的“自助服务”环境为Media Portal用户提供了对Adobe Dynamic Media Classic资源的管理员控制的“视图”，以便轻松访问采用公司批准的格式的资源，以及浏览、搜索、预览和导出资源。
 
-作为管理员，您可以控制用户在 Media Portal 中查看、访问和使用资源的方式。 此外，您可以自定义Media Portal界面以匹配您的网站和品牌。 您可以在Media Portal界面中指定字体、字体颜色、字体大小并合并品牌元素，如徽标。
+作为管理员，您可以控制用户在 Media Portal 中查看、访问和使用资源的方式。 要匹配您的网站和品牌，您可以自定义Media Portal界面。 您可以在Media Portal界面中指定字体、字体颜色和字体大小，并合并品牌元素，如徽标。
 
 请观看以下培训视频：
 
@@ -43,11 +43,11 @@ Media Portal使公司能够轻松获取、控制已批准的资产，并将其�
 
 * [Media Portal导览2](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/546_mp_tour2_admin_converted%20renamed_Done-AVS)
 
-以下快速入门旨在帮助您快速启动并运行Media Portal管理。 在每个步骤结束时，选择主题链接以了解详情。
+以下快速入门旨在帮助您开始Media Portal管理。 在每个步骤结束时，选择主题链接以了解详情。
 
 ## &#x200B;1. 了解Media Portal用户角色
 
-Media Portal用户分为三个角色：用户、参与者以及用户参与者。 每个角色可以执行一组不同的任务。 例如，参与者可以重命名和删除文件和文件夹，但是用户不能执行这些任务。 了解不同的角色，以便在添加用户时，了解为他们赋予哪些职责。
+Media Portal用户分为三个角色：用户、投稿人和用户投稿人。 每个角色可以执行一组不同的任务。 与用户不同，参与者可以重命名或删除文件和文件夹。 了解不同的角色，以便在添加用户时，了解您为他们分配的职责。
 
 请参阅[Media Portal 用户角色](media-portal-user-roles.md#media_portal_user_roles)。
 
@@ -59,19 +59,19 @@ Media Portal用户分为三个角色：用户、参与者以及用户参与者�
 
 ## &#x200B;3. 添加用户
 
-添加用户时，为用户指定一个角色（用户、参与者或用户参与者）。 您还可以将用户分配给一个或多个组。 要加快添加用户的过程，您可以 CSV 文件形式上载用户列表。 新用户会收到用于登录 Media Portal 的欢迎电子邮件和说明。
+添加用户时，为用户指定一个角色（用户、参与者或用户参与者）。 您还可以将用户分配给一个或多个组。 要简化添加用户的过程，您可以以CSV文件的形式上传用户列表。 新用户将收到一封欢迎电子邮件以及有关登录Media Portal的说明。
 
 请参阅[添加和管理Media Portal用户](adding-media-portal-users.md#adding_and_managing_media_portal_users)。
 
 ## &#x200B;4. 管理FTP帐户
 
-您可以拥有与Media Portal关联的独立FTP帐户。 它们可以映射到您Adobe Dynamic Media Classic帐户中的特定文件夹。 这种功能意味着，您可以允许用户使用单独的 FTP 帐户将数字资源上载到您的帐户中。
+您可以拥有与Media Portal关联的独立FTP帐户。 它们可以映射到您Adobe Dynamic Media Classic帐户中的特定文件夹。 此功能允许用户使用单独的FTP帐户将数字资产上传到您的帐户。
 
 请参阅[管理FTP帐户](ftp-accounts.md#managing_ftp_accounts)。
 
 >[!NOTE]
 >
->只有Media Portal管理员可以管理这些FTP帐户。 此外，只有具有 Media Portal 参与者用户或 Media Portal 参与者角色的用户可以上载文件。
+>只有Media Portal管理员可以管理这些FTP帐户。 此外，只有具有Media Portal用户参与者或Media Portal参与者角色的用户才能上传文件。
 
 请参阅[Media Portal 用户角色](media-portal-user-roles.md#media_portal_user_roles)。
 
@@ -83,13 +83,13 @@ Media Portal用户在导出文件时，可以重新格式化文件并导出原�
 
 ## &#x200B;6. 创建图像预设
 
-图像预设是预定义设置的集合。 这些设置可以在导出图像时更改图像的外观大小、图像质量、格式、分辨率和其他方面。 您可以创建图像预设，以便控制用户在导出图像时如何重设这些图像的格式。
+图像预设是预定义设置的集合。 这些设置可以在导出图像时更改图像的外观大小、图像质量、格式、分辨率和其他方面。 要控制用户在导出图像时如何重新设置图像的格式，您可以创建图像预设。
 
 请参阅[创建和启用图像预设](creating-enabling-image-presets.md#creating_and_enabling_image_presets)。
 
 ## &#x200B;7. 创建元数据预设和用户定义的元数据字段
 
-元数据描述并标识文件。 用于搜索和组织资源。 您可以创建元数据预设，以确保正确输入元数据，并填写任何需要数据的元数据字段。 元数据预设是一组预定义的元数据条目。 您还可以创建元数据字段来唯一地描述您所处理的文件。
+元数据描述并标识文件。 用于搜索和组织资源。 为了确保正确输入元数据并填写必填字段，可以创建元数据预设。 元数据预设是一组预定义的元数据条目。 您还可以创建元数据字段来唯一地描述您所处理的文件。
 
 请参阅[更有效地利用元数据](making-efficient-metadata.md#making_more_efficient_use_of_metadata)。
 
