@@ -12,16 +12,13 @@ topic: Content Management
 level: Beginner
 autotag-review: '2026-05-13T20:10:24.352Z'
 TQID: 'https://experienceleague.adobe.com/23AoGDGEDm6MKPXwRk5Orvi445FdE3BpcTaSY21YSUE'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: f5b282e36a7c765b37cecc24edb829e36169e5c3
 workflow-type: tm+mt
-source-wordcount: 698
-ht-degree: 17%
+source-wordcount: 688
+ht-degree: 15%
 
 ---
 
@@ -31,11 +28,11 @@ ht-degree: 17%
 
 混合媒体集查看器预设包含社区选项，可供最终用户嵌入代码、复制URL和链接到主网站。 用户可以使用这些选项在个人网站或社交网站上共享有关产品的信息。
 
-此混合媒体集快速入门旨在通过Adobe Dynamic Media Classic中的混合媒体集技术让您快速启动并运行。
+本混合媒体集快速入门旨在帮助您开始使用Adobe Dynamic Media Classic中的混合媒体集技术。
 
 ## &#x200B;1. 上传图像、样本文件和视频
 
-首先为混合媒体集上载图像、样本文件和视频。 由于用户可以在混合媒体集查看器中放大图像，因此选择图像时，请确保考虑到了这一功能。 确保图像的最大大小至少为2000像素。
+上传混合媒体集的图像、样本文件和视频。 由于用户可以在混合媒体集查看器中放大图像，因此请确保在选择图像时测试此功能。 确保图像的最大尺寸至少为2000像素。
 
 在全局导航栏上，选择&#x200B;**[!UICONTROL 上传]**&#x200B;以将文件从您的计算机上传到Adobe Dynamic Media Classic上的文件夹。
 
@@ -73,7 +70,7 @@ Adobe Dynamic Media Classic为混合媒体集提供了默认查看器预设。 �
 
 发布混合媒体集会将其放置在Adobe Dynamic Media Classic服务器上并激活URL字符串。
 
-混合媒体集要求同时发布到&#x200B;**视频服务器**&#x200B;和&#x200B;**图像服务器**。 使用&#x200B;**视频服务器**&#x200B;发布您标记为发布的实际视频。 并且，您使用&#x200B;**图像服务器**&#x200B;发布相关资源（如视频缩略图），并为任何自适应视频集设置信息。
+混合媒体集要求同时发布到&#x200B;**视频服务器**&#x200B;和&#x200B;**图像服务器**。 使用&#x200B;**视频服务器**&#x200B;发布您标记为发布的实际视频。 您使用&#x200B;**图像服务器**&#x200B;发布相关资源（如视频缩略图），并为任何自适应视频集设置信息。
 
 请参阅[发布混合媒体集](publishing-mixed-media-set.md#publishing-a-mixed-media-set)。
 
