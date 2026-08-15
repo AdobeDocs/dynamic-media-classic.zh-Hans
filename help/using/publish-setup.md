@@ -64,7 +64,7 @@ ht-degree: 23%
   例如，如果您的品牌在多个不同国家/地区销售，您可以确保每个国家/地区都有自己特定区域设置的查看器。 要实现该功能，请指定区域设置映射字符串。 然后，在查看器的预设中编辑工具提示文本。 只需添加所需语言的已翻译文本字符串。
 
   >[!NOTE]
-  > 若要设置本地化支持选项，[请使用Admin Console创建支持案例。](https://helpx.adobe.com/business/enterprise.html) 在您的支持案例中，请求设置帮助。
+  > 若要设置本地化支持选项，[请使用Admin Console创建支持案例。](https://helpx.adobe.com/cn/business/enterprise.html) 在您的支持案例中，请求设置帮助。
 
   有关设置“**[!UICONTROL 本地化支持]**”的更多信息，请参阅[设置资源本地化时的注意事项](publish-setup.md#considerations_when_setting_up_localization_of_assets)。
 
@@ -72,7 +72,7 @@ ht-degree: 23%
 
 >[!NOTE]
 >
->如果要在Adobe Dynamic Media Classic中设置本地化支持选项（如“区域设置映射”字段），[请使用Admin Console创建支持案例。](https://helpx.adobe.com/business/enterprise.html) 在您的支持案例中，请求设置帮助。
+>如果要在Adobe Dynamic Media Classic中设置本地化支持选项（如“区域设置映射”字段），[请使用Admin Console创建支持案例。](https://helpx.adobe.com/cn/business/enterprise.html) 在您的支持案例中，请求设置帮助。
 
 使用Adobe Dynamic Media Classic的常见方法是管理电子商务网站上的产品图像。 跨国企业面临的挑战是，相似产品的资产因地区而异。 通常，不同之处在于介质的几个组件。 通过复制每个国家/地区的所有资产并覆盖这些差异来管理这些差异是一项复杂的任务，并且与单一的主要资产原则不符。 资产的差异可能包括因国家/地区而异、音轨不同的视频，以及产品使用的电源线存在细微但重要的差异。 Adobe Dynamic Media Classic使用基本的搜索机制。 从所需的区域设置开始，您可以定义图像服务器查找的资源后缀的顺序。
 
