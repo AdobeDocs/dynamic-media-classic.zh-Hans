@@ -18,32 +18,32 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+source-git-commit: 2a9101333a8c097674004fdd1cf1b7f9ea96f9dd
 workflow-type: tm+mt
-source-wordcount: 402
-ht-degree: 21%
+source-wordcount: 398
+ht-degree: 17%
 
 ---
 
 # 快速入门：样本集{#quick-start-swatch-sets}
 
-Adobe Dynamic Media Classic样本集为用户提供了集成的查看体验。 在动态样本集查看器中，用户仅通过选择缩略图即可查看以不同颜色、材质、纹理、表面或织物呈现的项目。
+Adobe Dynamic Media Classic样本集为用户提供了集成的查看体验。 使用动态样本集查看器，用户可以通过选择缩略图查看以不同颜色、材质、纹理、表面或结构呈现的项目。
 
-本样本集快速入门指南旨在帮助您快速使用Adobe Dynamic Media Classic中的样本集技术启动和运行。
+本样本集快速入门旨在帮助您开始使用Adobe Dynamic Media Classic中的样本集技术。
 
 ## &#x200B;1. 上传图像和样本文件
 
 首先为样本集上载图像和样本文件。
 
-在全局导航栏上，选择&#x200B;**[!UICONTROL 上传]**&#x200B;以将文件从您的计算机上传到Adobe Dynamic Media Classic上的文件夹。 请参阅[准备样本集资源以进行上传](preparing-swatch-set-assets-upload.md#preparing-swatch-set-assets-for-upload)和[上传您的文件](uploading-files.md#uploading-your-files)。
+在全局导航栏上，选择&#x200B;**[!UICONTROL 上传]**&#x200B;以将文件从您的计算机上传到Adobe Dynamic Media Classic中的文件夹。 请参阅[准备样本集Assets以进行上传](preparing-swatch-set-assets-upload.md#preparing-swatch-set-assets-for-upload)和[上传您的文件](uploading-files.md#uploading-your-files)。
 
 ## &#x200B;2. 创建样本集
 
-要创建样本集，请在全局导航栏上，转到&#x200B;**[!UICONTROL 生成]** > **[!UICONTROL 样本集]**。 在“样本集”页面上，将图像和颜色样本拖动到页面上。 请参阅[创建样本集](creating-swatch-set.md#creating-a-swatch-set)。
+要创建样本集，请在全局导航栏上，转到&#x200B;**[!UICONTROL 生成]** > **[!UICONTROL 样本集]**。 在“色板集”页面上，将图像和色板拖动到页面上。 请参阅[创建样本集](creating-swatch-set.md#creating-a-swatch-set)。
 
-## &#x200B;3. 设置样本集查看器预设
+## &#x200B;3. 配置样本集查看器预设
 
-管理员可以创建或修改图像集查看器预设。 Adobe Dynamic Media Classic为每种富媒体类型提供了默认查看器预设。 使用“缩放查看器: 自定义 > 图像集/颜色样本”预设查看您的样本集。
+管理员可以创建或修改图像集查看器预设。 Adobe Dynamic Media Classic为每种富媒体类型提供了默认查看器预设。 使用缩放查看器：“自定义”>“图像集/颜色样本预设”可查看样本集。
 
 请参阅[创建和编辑查看器预设](application-setup.md#adding-and-editing-viewer-presets)。
 
