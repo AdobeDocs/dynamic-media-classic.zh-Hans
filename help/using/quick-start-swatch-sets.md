@@ -12,9 +12,12 @@ topic: Content Management
 level: Beginner
 autotag-review: '2026-05-13T20:10:43.672Z'
 TQID: 'https://experienceleague.adobe.com/vS0okk4Ham0VZzFCWdvOpl48NkeW9Nq5wlH6ZJAWGCM'
-product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+product_v2:
+  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 source-git-commit: 2a9101333a8c097674004fdd1cf1b7f9ea96f9dd
 workflow-type: tm+mt
 source-wordcount: 398
