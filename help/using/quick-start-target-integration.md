@@ -12,40 +12,34 @@ topic: Integrations
 level: Experienced
 autotag-review: '2026-05-13T19:56:29.690Z'
 TQID: 'https://experienceleague.adobe.com/urNoJw6SrzPpsfpoTtudKndZfJOmWsZKtBZ3Za4aE0I'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: d378ca77-2da1-4f39-ad92-1917fe974a38
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 0f0abef2ec6e1d0743eca66e59673547f70ad7b0
 workflow-type: tm+mt
-source-wordcount: 534
+source-wordcount: 529
 ht-degree: 1%
 
 ---
 
 # 快速入门：Adobe Target Standard/Premium集成{#quick-start-target-integration}
 
-Adobe Target Standard/Premium将控制权直接交到营销人员手中。 这样做有助于快速持续地运行多个A/B和多变量测试，并衡量有效性。 此外，它还可以通过分段、定位和Automated Personalization来提高在线内容的相关性。
+Adobe Target Standard/Premium为营销团队提供管理控制权。 此功能可帮助您快速持续地运行多个A/B和多变量测试并衡量其有效性。 此外，它还可以通过分段、定位和Automated Personalization来提高在线内容的相关性。
 
-通过Adobe Dynamic Media Classic，您可以为Adobe Target Standard/Premium营销活动创建优惠和优惠集。 例如，您可以创建一个选件集，其中包含同一富媒体资产的三个变体。 然后，您可以使用Adobe Target Standard或Premium来确定哪个资源提供了更好的转化提升。 您可以从基本模板或单个图像创建优惠和优惠集。 将选件集推送或保存到Adobe Target Standard/Premium（选件在此与mbox和体验相关联）后，Adobe Target Standard/Premium可以运行营销活动。 这些营销活动可确定网站的哪个变体可能最适合点进和转化。
+通过Adobe Dynamic Media Classic，您可以为Adobe Target Standard/Premium营销活动创建优惠和优惠集。 例如，您可以创建一个选件集，其中包含同一富媒体资产的三个变体。 然后，您可以让Adobe Target Standard或Premium确定哪个资源可提供更好的转化性能。 您可以从基本模板或单个图像创建优惠和优惠集。 将选件集推送或保存到Adobe Target Standard/Premium（选件在此与mbox和体验相关联）后，Adobe Target Standard/Premium可以运行营销活动。 这些营销活动可确定网站的哪个变体最适合点进和转化。
 
-要更好地自定义动态Adobe Dynamic Media Classic内容，请使用Adobe Target Standard/Premium HTML选件。 有关详细信息，请参阅[Adobe Target Standard/Premium产品文档](https://experienceleague.adobe.com/zh-hans/docs/target)。
+要更好地自定义动态Adobe Dynamic Media Classic内容，请使用Adobe Target Standard/Premium HTML选件。 有关详细信息，请参阅[Adobe Target Standard/Premium产品文档](https://experienceleague.adobe.com/en/docs/target)。
 
 >[!NOTE]
 >
 >要将Adobe Target Standard/Premium与Adobe Dynamic Media Classic结合使用，需要有效的Adobe Target Standard/Premium帐户。
 
-本快速入门指南旨在帮助您快速启动并运行Adobe Target Standard/Premium HTML选件集。 请执行步骤 1 到 3。 每一步之后，都会交叉引用主题标题，您可以在其中查找更多信息。
+本指南旨在帮助您快速开始使用Adobe Target Standard/Premium HTML选件集。 请执行步骤 1 到 3。 每一步之后，都会交叉引用主题标题，您可以在其中查找更多信息。
 
 ## &#x200B;1. 在应用程序常规设置页面中输入您的Adobe Target Standard/Premium URL
 
-Adobe Dynamic Media Classic需要您的Adobe Target Standard/Premium URL才能与Adobe Target Standard/Premium集成。 将Adobe Target Standard/Premium URL的部分复制到并包括`.com`，然后在&#x200B;**[!UICONTROL 服务器]**&#x200B;组的&#x200B;**[!UICONTROL Test&amp;Target服务器名称]**&#x200B;文本字段的Adobe Dynamic Media Classic **[!UICONTROL 应用程序常规设置]**&#x200B;页中输入该部分。 请参阅[将Adobe Dynamic Media Classic与Adobe Target Standard/Premium集成](integrating-dmc-with-target.md#integrating-dmc-with-target)。
+Adobe Dynamic Media Classic需要您的Adobe Target Standard/Premium URL才能与Adobe Target Standard/Premium集成。 将Adobe Target Standard/Premium URL的部分复制到并包括`.com`，然后在Adobe Dynamic Media Classic **[!UICONTROL 应用程序常规设置]**&#x200B;页面的&#x200B;**[!UICONTROL 服务器]**&#x200B;组中的&#x200B;**[!UICONTROL Test&amp;Target服务器名称]**&#x200B;文本字段中输入该部分。 请参阅[将Adobe Dynamic Media Classic与Adobe Target Standard/Premium集成](integrating-dmc-with-target.md#integrating-dmc-with-target)。
 
 ## &#x200B;2. 创建优惠套餐
 

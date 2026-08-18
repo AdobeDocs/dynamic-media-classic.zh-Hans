@@ -12,18 +12,14 @@ topic: Content Management
 level: Beginner
 autotag-review: '2026-05-13T20:11:06.721Z'
 TQID: 'https://experienceleague.adobe.com/lB0O224FfzW1smqCgkraE9czEF4XSD98qarRus6GEFw'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: c4e6d81b0d4ad1e5e8cbbacb0791fc49d2491eed
 workflow-type: tm+mt
-source-wordcount: 1748
-ht-degree: 19%
+source-wordcount: 1728
+ht-degree: 15%
 
 ---
 
@@ -31,17 +27,17 @@ ht-degree: 19%
 
 Adobe Dynamic Media Classic Video是一款端到端解决方案，可让您轻松发布高质量自适应视频，以便跨多个屏幕（包括台式机、iOS、Android™、BlackBerry®和Windows®移动设备）进行流式传输。 自适应视频集可将同一视频以不同比特率和格式（如 400 kbps、800 kbps 和 1000 kbps）编码的不同版本分组在一起。 台式计算机或移动设备可检测可用带宽。
 
-例如，在iOS移动设备上，它会检测3G、4G或Wi-Fi等带宽。 然后，从自适应视频集内的不同视频比特率中自动选择正确的编码视频。 视频将流式传输到台式机、移动设备或平板电脑。
+例如，它可以在iOS设备上检测3G、4G或Wi-Fi。 然后，从自适应视频集内的不同视频比特率中自动选择正确的编码视频。 视频将流式传输到台式机、移动设备或平板电脑。
 
-另外，如果台式机或移动设备上的网络条件发生变化，则会自动动态切换视频质量。 此外，如果客户在桌面上进入全屏模式，则自适应视频集将使用更好的分辨率进行响应，从而改善客户的观看体验。 使用自适应视频集可以尽可能提供最佳播放。 它最适合在多个屏幕和设备上播放Adobe Dynamic Media Classic视频的客户。
+此外，如果桌面或移动设备上的网络条件发生变化，视频质量会自动切换。 此外，如果客户在桌面上进入全屏模式，则自适应视频集将使用更好的分辨率进行响应，从而改善客户的观看体验。 自适应视频集提供最佳回放。 它最适合在多个屏幕和设备上播放Adobe Dynamic Media Classic视频的客户。
 
-视频播放器用于确定要播放或选择的编码视频的逻辑取决于以下算法：
+一种视频播放器使用逻辑来确定在播放期间要播放或选择的已编码视频。 此逻辑基于以下算法：
 
 1. 视频播放器根据比特率加载初始视频片段，该比特率最接近在播放器本身中为“初始比特率”设置的值。
 1. 视频播放器根据使用下列条件对带宽速度所做的更改进行切换：
 
    1. 播放器选择低于或等于估计带宽的最高带宽流。
-   1. 播放器仅考虑可用带宽的80%。 然而，如果它正在切换，则更保守的是70%，以避免高估，并立即切换回来。
+   1. 播放器仅考虑可用带宽的80%。 但是，如果它正在提高比特率，则更保守的设置是70%，以避免高估并立即回复。
 
 有关算法的技术信息，请参阅[https://android.googlesource.com/platform/frameworks/av/+/master/media/libstagefright/httplive/LiveSession.cpp](https://android.googlesource.com/platform/frameworks/av/+/master/media/libstagefright/httplive/LiveSession.cpp)上的算法逻辑。
 
@@ -59,7 +55,7 @@ Adobe Dynamic Media Classic Video是一款端到端解决方案，可让您轻�
 >
 >主/源视频和任何其他源格式视频&#x200B;*不是*&#x200B;添加到自适应视频集。
 
-* Univeral_HTML5_Video、Universal_HTML5_MixedMedia_dark和Universal_HTML5_MixedMedia_light查看器中的视频字幕以及Universal_HTML5_Video、Universal_HTML5_MixedMedia_dark和Universal_HTML5_MixedMedia_light查看器中的视频章节导航。
+* Universal_HTML5_Video、Universal_HTML5_MixedMedia_dark和Universal_HTML5_MixedMedia_light查看器中的视频字幕以及Universal_HTML5_Video、Universal_HTML5_MixedMedia_dark和Universal_HTML5_MixedMedia_light查看器中的视频章节导航。
 
   请参阅[向视频添加字幕](adding-captions-video.md)。
 
@@ -70,7 +66,7 @@ Adobe Dynamic Media Classic Video是一款端到端解决方案，可让您轻�
 
   各种iOS平台支持自适应视频流。
 
-  请参阅[Adobe查看器参考指南](https://experienceleague.adobe.com/zh-hans/docs/dynamic-media-developer-resources)中的最新支持。
+  请参阅[Adobe查看器参考指南](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources)中的最新支持。
 
   Adobe Dynamic Media Classic支持MP4 H.264视频的移动视频播放。<!-- LINK IS 404; NO SUITABLE REPLACEMENT WAS FOUND You can find BlackBerry&reg; devices that support this video format at the following website: -->
 
@@ -82,11 +78,11 @@ Adobe Dynamic Media Classic Video是一款端到端解决方案，可让您轻�
 
 * 使用Adobe Dynamic Media Classic查看器预设播放视频，包括以下内容：
 
-   * 单个视频查看器。
-   * 兼有视频和图像内容的混合媒体查看器。
+  * 单个视频查看器。
+  * 兼有视频和图像内容的混合媒体查看器。
 
 * 配置视频播放器来满足您的品牌需求。
-* 将视频与简单URL或嵌入代码集成到您的网站、移动网站或移动应用程序。
+* 使用简单的URL或嵌入代码将视频集成到您的网站、移动网站或移动应用程序中。
 
 请观看以下培训视频：
 * [MP4视频概述](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/563_MP4%20Video%20Overview_converted%20renamed_eVideos-AVS)
@@ -99,16 +95,16 @@ Adobe Dynamic Media Classic Video是一款端到端解决方案，可让您轻�
 
 **快速入门**
 
-以下分步工作流描述旨在帮助您在Adobe Dynamic Media Classic中快速启动和运行自适应视频集。 每一步之后，都会交叉引用主题标题，您可以在其中查找更多信息。
+以下分步工作流描述旨在帮助您开始使用Adobe Dynamic Media Classic中的自适应视频集。 每一步之后，都会交叉引用主题标题，您可以在其中查找更多信息。
 
 ## &#x200B;1. 上传视频并进行编码
 
 可以使用以下两种方案之一上载并生成自适应视频集：
 
-* **上载预先编码的视频**：如果您的视频已在Adobe Dynamic Media Classic外部编码，请在全局导航栏上选择&#x200B;**[!UICONTROL 上载]**。 浏览MP4视频文件并将其直接上传到Adobe Dynamic Media Classic。 然后，转到&#x200B;**[!UICONTROL 生成]** > **[!UICONTROL 自适应视频集]**。 浏览至您的视频文件。 将所需的视频文件拖放到“自适应视频集”表中，然后保存该集。
+* **上载预先编码的视频**：如果您的视频已在Adobe Dynamic Media Classic外部编码，请在全局导航栏上选择&#x200B;**[!UICONTROL 上载]**。 浏览MP4视频文件并将其直接上传到Adobe Dynamic Media Classic。 然后，转到&#x200B;**[!UICONTROL 生成]** > **[!UICONTROL 自适应视频集]**。 浏览至您的视频文件。 将所需的视频文件移到“自适应视频集”表中，然后保存该集。
 * **上载主源视频**：如果视频未编码，请在全局导航栏上选择&#x200B;**[!UICONTROL 上载]**&#x200B;上载主视频源文件（非MP4）。 Adobe Dynamic Media Classic会为您将它们编码为MP4文件。 在&#x200B;**[!UICONTROL 上载作业选项]**&#x200B;对话框的&#x200B;**[!UICONTROL EVideo选项]**&#x200B;下，选择&#x200B;**[!UICONTROL 自适应视频]**。
 
-  通过此首选选项，您可以创建自适应视频集。 正确的编码预设将自动应用于视频，无论是16:9还是4:3，以匹配您上传的视频尺寸。 在提交上载作业时，将自动为您创建自适应视频集，该视频集包含三个具有正确长宽比的编码视频设置。
+  通过此首选选项，您可以创建自适应视频集。 正确的编码预设将自动应用于视频，无论是16:9还是4:3，均可与您上传的视频尺寸相匹配。 在提交上载作业时，将自动为您创建自适应视频集，该视频集包含三个具有正确长宽比的编码视频设置。
 
   或者，在同一&#x200B;**[!UICONTROL 作业选项]**&#x200B;对话框中，在&#x200B;**[!UICONTROL EVideo选项]**&#x200B;下，展开&#x200B;**[!UICONTROL 单个编码预设]**。 选择所需的各个视频编码预设。 您可以选择&#x200B;**桌面**、**移动设备(iPhone、iPad、Android™)**&#x200B;和&#x200B;**平板电脑(iPad、Android™)**&#x200B;来创建MP4文件。
 
@@ -120,13 +116,13 @@ Adobe Dynamic Media Classic Video是一款端到端解决方案，可让您轻�
 
 Adobe Dynamic Media Classic提供了大量预定义的视频编码预设。 这些预定义预设反映了当前使用的最常见视频编码设置，并且针对目标页面上的播放进行了优化。
 
-不过，如果需要进一步自定义，管理员可以创建视频预设，以便为最终用户自定义视频大小和播放体验。 管理员可以从&#x200B;**[!UICONTROL 设置]** > **[!UICONTROL 应用程序设置]** > **[!UICONTROL 视频预设]** > **[!UICONTROL 单个编码预设]**&#x200B;下的视频预设页面添加和管理视频预设。 “视频预设”页提供用于添加、编辑、删除和激活视频预设的选项。
+但是，如果需要进一步自定义，管理员可以创建视频预设，为最终用户自定义视频的大小和播放体验。 管理员可以从&#x200B;**[!UICONTROL 设置]** > **[!UICONTROL 应用程序设置]** > **[!UICONTROL 视频预设]** > **[!UICONTROL 单个编码预设]**&#x200B;下的视频预设页面添加和管理视频预设。 “视频预设”页提供用于添加、编辑、删除和激活视频预设的选项。
 
 请参阅[使用视频编码预设](uploading-encoding-videos.md#working_with_video_encoding_presets)。
 
 ## &#x200B;2. 在视频查看器中预览视频
 
-要查看视频如何在桌面、网站或移动设备上为最终用户播放，请在“浏览”面板中选择该视频。 然后选择&#x200B;**[!UICONTROL 预览]**。
+要了解视频如何在桌面、网站或移动设备上为最终用户播放，请在“浏览”面板中选择该视频。 然后选择&#x200B;**[!UICONTROL 预览]**。
 
 请参阅[在视频查看器中预览视频](previewing-videos-video-viewer.md#previewing_videos_in_a_video_viewer)。
 
