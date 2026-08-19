@@ -1,5 +1,5 @@
 ---
-title: 在浏览面板中选择资源
+title: 在浏览面板中选择Assets
 description: 了解如何在Adobe Dynamic Media Classic的“浏览”面板中选择资源。
 contentOwner: Rick Brough
 content-type: reference
@@ -19,16 +19,16 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+source-git-commit: 7b153b6e9d49e5923925a6529e195588e8aba450
 workflow-type: tm+mt
-source-wordcount: 109
+source-wordcount: 106
 ht-degree: 18%
 
 ---
 
 # 在浏览面板中选择资源{#selecting-assets-in-the-browse-panel}
 
-在“浏览”面板中选择资源，以便使用该资源。 请使用以下方法来选择资源：
+在“浏览”面板中选择资源以使用它。 请使用以下方法来选择资源：
 
 * **单个资产**：选择该资产（在“详细信息”视图中双击打开该资产）。
 
