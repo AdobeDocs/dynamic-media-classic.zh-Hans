@@ -1,5 +1,5 @@
 ---
-title: 设置基础
+title: 设置基础知识
 description: 了解如何使用设置屏幕在Adobe Dynamic Media Classic中输入个人设置。 如果您是管理员，可设置您公司的设置。
 contentOwner: Rick Brough
 content-type: reference
@@ -22,10 +22,10 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+source-git-commit: edbf737fe99ee47c475564fbc41d931498681145
 workflow-type: tm+mt
-source-wordcount: 244
-ht-degree: 17%
+source-wordcount: 234
+ht-degree: 10%
 
 ---
 
@@ -33,16 +33,16 @@ ht-degree: 17%
 
 使用“Adobe Dynamic Media Classic设置”页面输入个人设置。 如果您是管理员，可设置您公司的设置。 要打开“设置”页面，请在全局导航栏上选择&#x200B;**[!UICONTROL 设置]**。
 
-在此页面上可用的设置取决于您作为用户或管理员的状态：
+此页面上的设置取决于您的用户或管理员角色：
 
-* 用户只能访问&#x200B;**[!UICONTROL 个人设置]**&#x200B;及其所属公司的帐户；他们无法执行任何管理任务。
-* 管理员可以访问&#x200B;**[!UICONTROL 个人设置]**，并查看和管理自己的公司帐户。 他们还可以执行所有应用程序设置功能和所有管理功能，包括添加管理员和用户。
+* 用户可以访问&#x200B;**[!UICONTROL 个人设置]**&#x200B;及其所属公司的帐户；他们无法执行任何管理任务。
+* 管理员可以访问&#x200B;**[!UICONTROL 个人设置]**&#x200B;并查看和管理自己的公司帐户。 他们还可以执行所有应用程序设置功能和所有管理功能，包括添加管理员和用户。
 
-管理员还可以在&#x200B;**[!UICONTROL 设置]**&#x200B;页面中设置图像预设和查看器预设：
+管理员还可以在&#x200B;**[!UICONTROL 设置]**&#x200B;页面上设置图像预设和查看器预设：
 
 * **图像预设**：图像预设是保存的格式，用于以不同大小和格式显示主图像。
 
-* **查看器预设**：查看器预设决定您在查看器中查看富媒体时如何查看富媒体。
+* **查看器预设**：查看器预设决定富媒体在查看器中查看时的显示方式。
 
 >[!MORELIKETHIS]
 >
