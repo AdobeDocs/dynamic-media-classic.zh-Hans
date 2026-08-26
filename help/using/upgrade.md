@@ -8,33 +8,24 @@ topic: Administration, Migration
 level: Intermediate
 autotag-review: '2026-05-13T20:16:25.016Z'
 TQID: 'https://experienceleague.adobe.com/CvChy3DWZdh9S-6Ps3s4BidW0jESBzMQfQmf6zk-4U0'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: da3860b0-d637-47df-bef0-273751180266
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: d378ca77-2da1-4f39-ad92-1917fe974a38
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: da3860b0-d637-47df-bef0-273751180266id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: e44775f081eb50324762f2409552e2e833a3b953
 workflow-type: tm+mt
-source-wordcount: 598
+source-wordcount: 574
 ht-degree: 0%
 
 ---
 
 # 为何升级到[!DNL Dynamic Media]？
 
-Adobe已为您创建[!DNL Dynamic Media]。
+Adobe根据需要创建了[!DNL Dynamic Media]。
 
-[!DNL Adobe Experience Manager]上的新[!DNL Dynamic Media]基于您期望从[!DNL Dynamic Media Classic]（以前为Scene7）获得的功能。 它为您的组织提供了新的和改进的工具，以构建更好、更引人入胜的体验。
+[!DNL Adobe Experience Manager]中的新[!DNL Dynamic Media]基于您期望从[!DNL Dynamic Media Classic]（以前为Scene7）获得的功能。 它为您的组织提供了新的和改进的工具，以构建更好、更引人入胜的体验。
 
-[!DNL Dynamic Media]使用实时可视化生成器升级内容生成体验。 位于Adobe行之有效、受信任且可伸缩的交付网络之上并与直观的[!DNL Adobe Experience Manager]用户界面配对，[!DNL Dynamic Media]提供了创作、迭代和交付引人入胜的下一级体验的功能。
+[!DNL Dynamic Media]使用实时可视化生成器升级内容生成体验。 使用Adobe的可扩展交付网络并与直观的[!DNL Adobe Experience Manager]用户界面配对，[!DNL Dynamic Media]提供了创作、迭代和交付引人入胜的高级体验的功能。
 
 | 您从[!DNL Dynamic Media]获得的内容 | 说明 |
 | --- | --- |
@@ -50,11 +41,11 @@ Adobe已为您创建[!DNL Dynamic Media]。
 
 ## [!DNL Dynamic Media]的主要优势和功能
 
-[!DNL Dynamic Media]是[!DNL Dynamic Media Classic]的自然演变。 它提供了富媒体创作、发布和交付工具集。 它还包含同类最佳交付，具有以用户为中心的创新界面，可促进现代真实工作流程。
+[!DNL Dynamic Media]是[!DNL Dynamic Media Classic]的后继项。 它提供了富媒体创作、发布和交付工具集。 此外，它还包括高质量交付，具有创新的以用户为中心的界面，可促进现代工作流程。
 
 * 无缝、统一的体验以及与[!DNL Adobe Experience Manager]的集成：从一个存储区、一个来源配置和动态交付丰富的内容
-* 全新的以营销人员为中心的用户体验，可轻松创作和交付富媒体内容
-* WYSIWYG (What You See Is What You Get)的图像查看器和视频播放器的整体外观和风格以及行为编辑器。
+* 全新的以营销为中心的用户体验，可轻松创作和交付富媒体内容
+* 用于整体外观和体验的可视化编辑，以及用于图像查看器和视频播放器的行为编辑器。
 * 快速创建和部署可购物/交互式媒体体验，包括图像热点和可购物视频
 
 ### [!DNL Experience Manager] Assets中的[!DNL Dynamic Media]功能
@@ -65,10 +56,10 @@ Adobe已为您创建[!DNL Dynamic Media]。
 | 简单的交互式体验UI元素 | ·使用非技术性的实时构建器轻松创建体验。<br>·可购物/交互式媒体，将促销活动资产与产品信息相结合。<br>·提高客户满意度并促进转化。 |
 | 端到端（包括）工作流 | ·将优化的富媒体交付到所有接触点，包括完整的[!DNL Adobe Experience Cloud]解决方案。<br>·与[!DNL Adobe Experience Cloud]集成，以实现跨营销接触点的高级资产分析、定位和资产重用。 其中一些接触点包括[!DNL Adobe Campaign]用于电子邮件，[!DNL Adobe Social]用于社交渠道，以及[!DNL Adobe Experience Manager]个用于响应式Web和移动应用的网站。 |
 
-## 为什么选择Adobe？
+## 为何选择Adobe？
 
-* 数字资产中最大的积极推动者Forrester WAVE报告。
+* 数字资产Forrester WAVE报告中排名最高的供应商。
 * 在2016在线视频平台报告中表现突出。
-* Internet Retail 1000的顶级富媒体供应商，连续九年。
-* 24/7/265支持， 99.95%服务级别协议， Adobe Professional Services。
-* 为全球800多个客户提供可靠的基础架构，每月流量3.5 PB，管理资产超过5亿个，流量同比增长60%。
+* 连续九年荣获Internet Retail 1000顶级富媒体提供商。
+* 24/7/365支持，99.95%服务级别协议，Adobe Professional Services。
+* 为全球800多家客户提供可靠的基础架构，每月流量3.5 PB，管理资产超过5亿，流量同比增长60%。
