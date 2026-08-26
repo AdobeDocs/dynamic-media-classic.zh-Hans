@@ -8,20 +8,13 @@ topic: Content Management
 level: Intermediate
 autotag-review: '2026-05-13T20:15:39.241Z'
 TQID: 'https://experienceleague.adobe.com/0ODwpm8UKHiOr7Ttv5MBKEnxu2HDfUw3yxZ6YhEfK4M'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: da3860b0-d637-47df-bef0-273751180266
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: d095671a-1355-40aa-8b5f-06c33c68080bid: da3860b0-d637-47df-bef0-273751180266
+source-git-commit: 4496b2796aae231c4c913f8ee988f9e2c2d2a65f
 workflow-type: tm+mt
-source-wordcount: 1591
+source-wordcount: 1584
 ht-degree: 0%
 
 ---
@@ -44,15 +37,15 @@ ht-degree: 0%
 
 * Collaboration和共享文件与[!DNL Adobe Creative Cloud]应用程序同步。
 * 企业级数字资产管理，具有以下功能：
-   * 强大的元数据支持
-   * 智能搜索
-   * 灯箱和收藏集
-   * 版本控制
-   * 安全共享资产以供供应商、合作伙伴和加盟商使用
+  * 强大的元数据支持
+  * 智能搜索
+  * 灯箱和收藏集
+  * 版本控制
+  * 安全共享资产以供供应商、合作伙伴和加盟商使用
 * 在制品资产的审阅和批准工作流。
 * 通过新UI轻松采用和使用。
 * 使用可促进转化并丰富用户参与度和满意度的图像和视频，创建可购物/交互式媒体体验。
-* 将Campaign资源与产品信息相结合，以便简化购物车的点击操作。
+* 将促销活动资产与产品信息相结合，以便简化购买流程。
 * 使用WYSIWYG Viewer Designer轻松创建、调整、品牌和部署交互式查看器。
 * 向[!DNL Experience Cloud]解决方案交付优化的富媒体。
 * 与[!DNL Experience Cloud]集成，以实现跨营销接触点的高级资产分析、定位和资产重用。 这些接触点包括适用于电子邮件的[!DNL Adobe Campaign]、适用于社交渠道的[!DNL Adobe Social]以及适用于响应式Web和移动应用程序的[!DNL Experience Manager]站点。
@@ -60,11 +53,11 @@ ht-degree: 0%
 +++
 
 +++**是否[!DNL Dynamic Media]使用现有的Adobe CDN（内容分发网络）？**
-是，[!DNL Dynamic Media]使用Adobe强大的顶级交付网络。
+是，[!DNL Dynamic Media]使用Adobe强健、高性能的交付网络。
 
 * Internet Retail 1000的顶级富媒体供应商，连续九年。
-* 24/7/265支持，99.95%服务级别协议。
-* 为全球800多个客户提供可靠的基础架构，每月流量3.5 PB，管理资产超过5亿个，流量同比增长60%。
+* 24/7/365支持，99.95%服务级别协议。
+* 为全球800多家客户提供成熟的基础架构，每个月3.5 PB的数据传输量，管理的资产超过5亿个，年流量增长率达60%。
 
 +++
 
@@ -86,7 +79,7 @@ Adobe已将Adobe Scene7的名称更改为[!DNL Dynamic Media Classic]。
 +++
 
 +++**如何处理升级过程？**
-AGS（Adobe全球服务）处理升级并将其视为服务项目。 Adobe仅提供资源的迁移。 客户、AGS或合作伙伴负责所有其他升级方面和步骤。 在汇总层，升级计划包含以下内容：
+AGS（Adobe全球服务）处理升级并将其视为服务项目。 Adobe仅提供资源的迁移。 客户、AGS或合作伙伴负责所有其他升级方面和步骤。 升级计划包含以下内容：
 
 * 设置公司/用户帐户。
 * 将资源从[!DNL Dynamic Media Classic]（以前为Scene7）复制到[!DNL Experience Manager] Assets的[!DNL Dynamic Media]组件（由Adobe通过自动升级工具提供）。
@@ -133,7 +126,7 @@ AGS（Adobe全球服务）处理升级并将其视为服务项目。 Adobe仅提
 +++
 
 +++**升级到[!DNL Dynamic Media]后，我是否仍可以使用[!DNL Dynamic Media Classic]（以前为Adobe Scene7）？**
-升级到[!DNL Dynamic Media]后，您应该只使用Dynamic Media进行映像和视频。 您只能继续将[!DNL Dynamic Media Classic]用于[!DNL Dynamic Media]中尚未提供的功能，包括以下功能：
+升级到[!DNL Dynamic Media]后，请仅使用Dynamic Media进行成像和视频。 您只能继续将[!DNL Dynamic Media Classic]用于[!DNL Dynamic Media]中尚未提供的功能，包括以下功能：
 
 * 可视化配置器（图像作者、图像渲染）。
 * 图像模板。
@@ -152,17 +145,17 @@ AGS（Adobe全球服务）处理升级并将其视为服务项目。 Adobe仅提
 +++
 
 +++**我是否需要更新生产URL？**
-不适用。 Adobe继续按[!DNL Dynamic Media]解决方案中的原样使用[!DNL Dynamic Media Classic]发布和投放基础结构。 此方法的好处是，您不必更改网页上的任何生产URL，从而最大限度地降低了迁移到[!DNL Dynamic Media]的风险和工作量。
+不适用。 Adobe继续按[!DNL Dynamic Media]解决方案中的原样使用[!DNL Dynamic Media Classic]发布和投放基础结构。 此方法的好处是，您不必更改网页上的任何生产URL，因此降低了迁移到[!DNL Dynamic Media]的风险和工作量。
 
 +++
 
 +++**我是否需要重写API集成和其他自动化脚本？**
-不适用。 Adobe继续按[!DNL Dynamic Media]解决方案中的原样使用[!DNL Dynamic Media Classic]发布和投放基础结构。 此外，所有资产都将复制到[!DNL Dynamic Media Classic]。 此方法的优点是，您不必重写任何基于API的集成或自动化脚本，从而最大限度地降低了迁移到[!DNL Dynamic Media]的风险和工作量。
+不适用。 Adobe继续按[!DNL Dynamic Media]解决方案中的原样使用[!DNL Dynamic Media Classic]发布和投放基础结构。 此外，所有资产都将复制到[!DNL Dynamic Media Classic]。 此方法的好处是，您不必重写任何基于API的集成或自动化脚本，因此降低了迁移到[!DNL Dynamic Media]的风险和工作量。
 
 +++
 
 +++**我是否需要做出更改或重新开发自定义查看器？**
-不适用。 Adobe继续按[!DNL Dynamic Media]解决方案中的原样使用[!DNL Dynamic Media Classic]发布和投放基础结构。 此方法的好处是，您可以继续使用自定义的查看器，从而最大限度地减少迁移到[!DNL Dynamic Media]的风险和工作量。
+不适用。 Adobe继续按[!DNL Dynamic Media]解决方案中的原样使用[!DNL Dynamic Media Classic]发布和投放基础结构。 此方法的好处是，您可以继续使用自定义的查看器，从而降低迁移到[!DNL Dynamic Media]的风险和工作量。
 +++
 
 +++**如何将设置（如图像预设、视频编码）迁移到[!DNL Dynamic Media]？**
@@ -254,7 +247,7 @@ Adobe会对移至[!DNL Dynamic Media]的所有资源执行自动验证。 建议
 ## 咨询服务
 
 +++**我可以自己完成升级过程吗？**
-不适用。 与您的Adobe代表和AGS合作，确定您的升级范围。
+不适用。 要确定升级范围，请与您的Adobe代表和AGS合作。
 
 +++
 
@@ -268,14 +261,14 @@ Adobe会与您合作来计划项目。 Adobe负责配置和配置帐户、复制
 ## 支持和培训
 
 +++**如何获取支持？**
-24/7/365提供客户关怀支持。 [联系技术支持](https://experienceleague.adobe.com/zh-hans?support-solution=General#support)。
+24/7/365提供客户关怀支持。 [联系技术支持](https://experienceleague.adobe.com/?support-solution=General#support)。
 
 电话：1-800-898-9743 （美国） | +44 (0)20 35641782 （英国） | +81-3-6743-9632 （日本）
 
 +++
 
 +++**我可以在何处了解有关付费培训选项的更多信息？**
-请参阅[Adobe数字学习服务](https://learning.adobe.com)。
+请参阅[Adobe数字学习服务](https://experienceleague.adobe.com/en/premium/home)。
 
 有关自定义或个人培训，请联系您的Adobe客户团队代表。
 
@@ -284,6 +277,6 @@ Adobe会与您合作来计划项目。 Adobe负责配置和配置帐户、复制
 ## 其他资源
 
 +++**我可以在何处了解有关[!DNL Dynamic Media]及其功能的更多信息？**
-查看[[!DNL Dynamic Media] 微型网站](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/solutions.html)了解有关[!DNL Dynamic Media]的更多信息。
+若要了解有关[!DNL Dynamic Media]的更多信息，请参阅[[!DNL Dynamic Media] 微型网站](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/solutions.html)。
 
 +++
