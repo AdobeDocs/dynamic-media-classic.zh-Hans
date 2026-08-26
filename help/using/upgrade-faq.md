@@ -268,14 +268,14 @@ Adobe会与您合作来计划项目。 Adobe负责配置和配置帐户、复制
 ## 支持和培训
 
 +++**如何获取支持？**
-24/7/365提供客户关怀支持。 [联系技术支持](https://experienceleague.adobe.com/?support-solution=General#support)。
+24/7/365提供客户关怀支持。 [联系技术支持](https://experienceleague.adobe.com/zh-hans?support-solution=General#support)。
 
 电话：1-800-898-9743 （美国） | +44 (0)20 35641782 （英国） | +81-3-6743-9632 （日本）
 
 +++
 
 +++**我可以在何处了解有关付费培训选项的更多信息？**
-请参阅[Adobe数字学习服务](https://experienceleague.adobe.com/en/premium/home)。
+请参阅[Adobe数字学习服务](https://experienceleague.adobe.com/zh-hans/premium/home)。
 
 有关自定义或个人培训，请联系您的Adobe客户团队代表。
 
