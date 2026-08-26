@@ -1,5 +1,5 @@
 ---
-title: 在公开资产之前测试资产
+title: 在公开Assets之前对其进行测试
 description: 了解如何在发布资源之前在Adobe Dynamic Media Classic中测试资源。
 contentOwner: Rick Brough
 content-type: reference
@@ -12,18 +12,14 @@ topic: Content Management
 level: Intermediate
 autotag-review: '2026-05-13T20:14:28.361Z'
 TQID: 'https://experienceleague.adobe.com/cu99kXj4FjNzR74kGCoACFPst0snM2EGyYifu7a8Drs'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 83f1e1305a59b4f75d9be9e4c4b3d0038160749a
 workflow-type: tm+mt
-source-wordcount: 1070
-ht-degree: 21%
+source-wordcount: 1050
+ht-degree: 17%
 
 ---
 
@@ -37,7 +33,7 @@ ht-degree: 21%
 
 * 在公开发布之前预览网站（临时网站）。
 * 提供需要受限访问的资产，如在B2B Web应用程序中显示价格的eCatalog。
-* 使用防火墙后的资产作为产品信息管理系统、客户服务应用程序、培训站点等的一部分。
+* 将防火墙后的资产用作产品信息管理系统、客户服务应用程序、培训站点或类似系统的一部分。
 
 >[!NOTE]
 >
@@ -45,19 +41,19 @@ ht-degree: 21%
 
 ## 安全测试的工作原理 {#how-secure-testing-works}
 
-大多数公司在防火墙后运行 Internet。 可以通过某些路由，通常是通过限定范围的公共 IP 地址访问 Internet。
+大多数公司都在专用网络中托管其Internet服务。 可以通过某些路由，通常是通过限定范围的公共 IP 地址访问 Internet。
 
 通过公司网络，您可以使用[https://www.whatismyip.com](https://www.whatismyip.com/)之类的网站确定公共IP地址，或者向公司IT组织请求此信息。
 
-通过安全测试，Adobe Dynamic Media Classic为暂存环境或内部应用程序建立了专用的图像服务器。 对此服务器的所有请求都将检查原始 IP 地址。 如果传入请求不在获批准的 IP 地址列表中，则返回失败响应。 Adobe Dynamic Media Classic公司管理员为公司的Secure Testing环境配置已批准的IP地址列表。
+通过Secure Testing，Adobe Dynamic Media Classic为暂存环境或内部应用程序建立了专用的映像服务器。 对此服务器的所有请求都将检查原始 IP 地址。 如果传入请求不在获批准的 IP 地址列表中，则返回失败响应。 Adobe Dynamic Media Classic公司管理员为公司的安全测试环境配置已批准的IP地址列表。
 
 由于必须确认原始请求的位置，因此Secure Testing服务的流量不会通过内容分发网络（如公共Dynamic Media图像服务器流量）进行路由。 与Dynamic Media公共图像服务器相比，请求Secure Testing Service的延迟稍高一些。
 
-通过安全测试服务，可以立即使用未发布的资源，无需发布。 通过这种方式，您可以在将资产发布到面向公众的图像服务器之前运行预览。
+通过安全测试服务，可以立即使用未发布的资源，无需发布。 通过这种方式，您可以在将资产发布到其面向公众的图像服务器之前运行预览。
 
 >[!NOTE]
 >
->Secure Testing Services使用配置了内部发布上下文的目录服务器。 因此，如果贵公司配置为发布到Secure Testing，则在Adobe Dynamic Media Classic中上传的所有资源都可以立即通过Secure Testing服务使用。 不论资源是否标记为在上传时发布，此功能均为true。
+>Secure Testing Services使用配置了内部发布上下文的目录服务器。 因此，如果贵公司配置为发布到Secure Testing，则在Adobe Dynamic Media Classic中上传的所有资源都可以立即通过Secure Testing服务使用。 不论资产是否标记为在上传时发布，此功能均适用。
 
 安全测试服务当前支持以下资产类型和功能：
 
@@ -74,7 +70,7 @@ Last Modified Date:
 * 图像。
 * 晕影（渲染服务器请求）。
 * 渲染服务器请求（受支持，但客户必须明确请求它）。
-* 集，包括图像集、eCatalog、渲染集和媒体集。
+* 集，包括图像、eCatalog、渲染和媒体集。
 * 标准Adobe Dynamic Media Classic富媒体查看器。
 * Adobe Dynamic Media Classic OnDemand JSP页。
 * 静态内容，如 PDF 文件和逐步提供的视频。
@@ -118,7 +114,7 @@ Last Modified Date:
 1. 在Adobe Dynamic Media Classic的全局导航栏上，转到&#x200B;**[!UICONTROL 设置]** > **[!UICONTROL 发布设置]** > **[!UICONTROL 图像服务器]**。
 1. 在图像服务器发布页面的&#x200B;**[!UICONTROL `Publish Context`]**&#x200B;下拉列表中，选择&#x200B;**[!UICONTROL 测试图像服务]**。
 1. 对于客户端地址筛选器，选择&#x200B;**[!UICONTROL 添加]**。
-1. 选中该复选框以启用（打开）地址，然后在相应的文本字段中键入IP地址和网络掩码。
+1. 选中该复选框以启用该地址，然后在相应的文本字段中键入IP地址和网络掩码。
 
    >[!NOTE]
    >
@@ -132,7 +128,7 @@ Last Modified Date:
 
    查看[上载文件](uploading-files.md#uploading_files)。
 
-1. 请确保某些图像已标记为发布，而其他图像已取消标记，然后提交发布作业。
+1. 请确保将某些图像标记为发布，将其他图像标记为未标记，然后提交发布作业。
 
    查看[发布文件](publishing-files.md#publishing_files)。
 
@@ -156,10 +152,10 @@ Last Modified Date:
 
    在从先前定义的IP地址范围标识的公司网络中，网站的暂存版本会显示所有图像，无论是否标记为发布。 因此，您可以在测试时避免在预览批准或产品发布之前意外使图像可用。
 
-   确认您的网站的公共版本显示了与Adobe Dynamic Media Classic之前体验过相同的已发布资源。
+   确认您的网站的公共版本显示了先前在Adobe Dynamic Media Classic中观察到的已发布资源。
 
 1. 在公司网络外部，验证未发布的资产（即未标记为发布的资产）是否受第三方访问的保护。
 
-   从外部访问您的网络（例如，从您的家庭计算机或通过3G连接），然后验证公共版本的网站是否显示所有已发布的资产，但不显示任何未发布的内容。
+   从外部访问您的网络，然后验证网站的公共版本是否显示所有已发布的资产，但不显示未发布的内容。
 
-   确认临时版本未显示任何资源，因为您正在从未获批准的 IP 地址访问安全测试服务。
+   确认暂存版本不显示任何资产，因为您正从未批准的IP地址访问Secure Testing服务。
