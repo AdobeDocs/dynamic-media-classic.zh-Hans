@@ -35,7 +35,7 @@ Dynamic Media Classic以视频培训、讲师指导的研讨会、网络讲座�
 
 Adobe 培训服务提供专为贵组织设计的、内容深入的自定义课堂培训。 培训可以采取区域性大学式授课、基于 Web 的会话或自定义站内讲座等形式。 区域性授课课程面向所有客户开放，并定期在北美洲和 EMEA 的各地举办。 自定义会话可面向高级用户、最终用户、管理员及 IT 工作人员量身定制。
 
-查看[Adobe培训服务](https://experienceleague.adobe.com/en/premium/home)
+查看[Adobe培训服务](https://experienceleague.adobe.com/zh-hans/premium/home)
 
 ## 演示
 
