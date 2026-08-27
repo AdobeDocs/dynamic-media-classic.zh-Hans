@@ -12,14 +12,10 @@ topic: Integrations
 level: Experienced
 autotag-review: '2026-05-13T19:55:49.663Z'
 TQID: 'https://experienceleague.adobe.com/EFy8tVdGv5q5mmQQS-m0Mb8AuphJHEDHzspsPWNxMlI'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 434650e895dc16bf523b12106700915171ae2f73
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 202f477d78272c66d0ac490e3a5041839b3e4f4d
 workflow-type: tm+mt
 source-wordcount: 1565
 ht-degree: 23%
@@ -49,7 +45,7 @@ eCatalog是印刷材料的数字Web版本 — 例如，目录、小册子、传�
 * 使用手势交互，包括捏合缩放和点刷转页。
 * 按关键字搜索物品。
 
-![向用户显示的eCatalog。 A) eCatalog打开页面。 B)eCatalog已转到第2页。](/help/using/assets/ec_cat_viewer_popup.png)
+![向用户显示的eCatalog。 A) eCatalog打开页面。 B)eCatalog已转到第2](/help/using/assets/ec_cat_viewer_popup.png)页。
 
 要创建eCatalog，通常使用在Adobe Acrobat或其他打印程序中创建的高分辨率PDF文件，但也可以从图像文件创建eCatalog。
 

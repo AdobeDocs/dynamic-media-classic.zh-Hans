@@ -12,20 +12,13 @@ topic: Administration
 level: Beginner
 autotag-review: '2026-05-13T19:46:13.313Z'
 TQID: 'https://experienceleague.adobe.com/qaWxQCcT9VjPt4MmahAR3-voOpUBjYztzNFXSZG6R6k'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: c0fb79fc030080ac7774fc1428d58a48eb11e1f1
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 202f477d78272c66d0ac490e3a5041839b3e4f4d
 workflow-type: tm+mt
-source-wordcount: 496
+source-wordcount: 515
 ht-degree: 13%
 
 ---
@@ -56,7 +49,7 @@ Adobe Dynamic Media Classic与其他系统不同，因为您可以使用Adobe Dy
 
 使用Adobe Dynamic Media Classic生成的URL字符串包含相关说明，告知服务器在交付资源时如何显示资源。 例如，同一主图像可以不同大小、格式、粗细、颜色或视图交付。 在使用Adobe Dynamic Media Classic构建和发布媒体资源时，您可以可视化地配置效果。 在这样做时，您将创建URL调用，以正确告知服务器如何将您的主要资源呈现给应用程序。
 
-![Adobe Dynamic Media Classic可以将相同的主图像传送到不同大小和格式的不同媒体。](/help/using/assets/gs_dynamic_publishing.png)
+![Adobe Dynamic Media Classic可以将相同的主图像传送到不同大小和格式的不同媒体](/help/using/assets/gs_dynamic_publishing.png)。
 *Adobe Dynamic Media Classic确保向任何屏幕提供一致、优质的体验，而不管其大小或带宽如何。*
 
 ## 内容缓存 {#content-caching}

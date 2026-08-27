@@ -12,19 +12,13 @@ topic: Administration
 level: Intermediate
 autotag-review: '2026-05-13T17:38:37.961Z'
 TQID: 'https://experienceleague.adobe.com/GXWZmllFz1-pP-BuzH2WdjpgmvX5cOUipLywGUa8Z0U'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b179d4d28fe4859010783fcf725c3e8c6704416e
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 202f477d78272c66d0ac490e3a5041839b3e4f4d
 workflow-type: tm+mt
-source-wordcount: 11344
+source-wordcount: 11367
 ht-degree: 26%
 
 ---
@@ -173,7 +167,7 @@ Adobe Dynamic Media Classic不允许两个文件具有相同的名称。 每个�
 
 若要打开“图像预设”屏幕，请在全局导航栏上，转到&#x200B;**[!UICONTROL 设置]** > **[!UICONTROL 图像预设]**。
 
-请参阅[智能成像](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-65/content/assets/dynamic/imaging-faq)。
+请参阅[智能成像](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/imaging-faq)。
 
 ### 创建并编辑图像预设 {#creating-and-editing-image-presets}
 
@@ -253,7 +247,7 @@ Adobe Dynamic Media Classic不允许两个文件具有相同的名称。 每个�
 
 * **[!UICONTROL 输出颜色配置文件]**：选择&#x200B;**[!UICONTROL 使用默认值]**&#x200B;或Adobe Dynamic Media Classic上可用的ICC颜色配置文件之一。
 
-  另请参阅[&#x200B; ICC 配置文件](icc-profiles.md#icc_profiles)。
+  另请参阅[ ICC 配置文件](icc-profiles.md#icc_profiles)。
 
 * **[!UICONTROL 渲染方法]**：如果要覆盖颜色配置文件的默认渲染方法，请选择一个选项。 当其中一个默认ICC配置文件是颜色转换的目标颜色空间时，使用此选项。 或者，此配置文件用于描述输出设备（打印机或显示器），并且指定的渲染方法对此配置文件有效。
 
@@ -448,7 +442,7 @@ Adobe Dynamic Media Classic提供了自适应视频编码预设。 它是将16:9
 
 您可以将富媒体内容扩展到台式机、平板电脑和移动设备用户，并确保提供简化的视频体验。
 
-请参阅《HTML查看器参考指南》中的[关于Adobe5查看器](https://experienceleague.adobe.com/zh-hans/docs/dynamic-media-developer-resources/library/viewers-for-aem-assets-only/c-html5-aem-asset-viewers#viewers-for-aem-assets-only)。
+请参阅《HTML查看器参考指南》中的[关于Adobe5查看器](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/library/viewers-for-aem-assets-only/c-html5-aem-asset-viewers#viewers-for-aem-assets-only)。
 
 请参阅[Adobe Dynamic Media Classic查看器预设兼容性矩阵](application-setup.md#scene7_viewer_preset_compatibility_matrix)。
 
@@ -462,7 +456,7 @@ Adobe Dynamic Media Classic提供了自适应视频编码预设。 它是将16:9
 
 不同的网页具有不同的需求。 有时，您需要一个网页，该网页会提供一个链接，以便在单独的浏览器窗口中打开HTML5查看器。 在其他情况下，需要直接在托管页面上嵌入HTML5查看器。 在后一种情况下，网页具有静态布局。 或者，它是“响应式”的，在不同的设备或不同的浏览器窗口大小中显示的方式有所不同。 为了满足这些需求，Adobe Dynamic Media Classic附带的HTML5查看器支持静态网页和响应式设计网页。
 
-有关如何将响应式查看器嵌入到网页的详细信息，请参阅[关于响应式图像库](https://experienceleague.adobe.com/zh-hans/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/c-about-responsive-static-image-library#image-serving-api)、[使用响应式图像库](https://experienceleague.adobe.com/zh-hans/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/t-using-responsive-static-image-library#image-serving-api)和[命令引用：命令属性](https://experienceleague.adobe.com/zh-hans/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/t-using-responsive-static-image-library#responsive-static-image-library)。
+有关如何将响应式查看器嵌入到网页的详细信息，请参阅[关于响应式图像库](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/c-about-responsive-static-image-library#image-serving-api)、[使用响应式图像库](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/t-using-responsive-static-image-library#image-serving-api)和[命令引用：命令属性](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/t-using-responsive-static-image-library#responsive-static-image-library)。
 
 ### 查看器预设类型 {#viewer-preset-types}
 
@@ -506,7 +500,7 @@ Adobe Dynamic Media Classic提供了自适应视频编码预设。 它是将16:9
 
 有关查看器支持的Web浏览器和操作系统版本的信息，您可以查看查看器发行说明。
 
-请参阅[Adobe查看器参考发行说明](https://experienceleague.adobe.com/zh-hans/docs/dynamic-media-developer-resources)。
+请参阅[Adobe查看器参考发行说明](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources)。
 
 |  | 查看器技术 | 桌面 | Apple iPhone | Apple iPad | ™智能手机 | ™平板电脑 |
 |--- |--- |--- |--- |--- |--- |--- |
@@ -552,7 +546,7 @@ Adobe Dynamic Media Classic支持MP4 H.264视频的移动视频播放。
 
 |  | 查看器技术 | 桌面 | Apple iPhone | Apple iPad | ™智能手机 | ™平板电脑 | BlackBerry®智能手机 | Windows® Phone |
 |--- |--- |--- |--- |--- |--- |--- |--- |--- |
-| Universal_HTML5_Video（包括对隐藏式字幕的支持。） 请参阅[最佳实践：使用通用HTML5视频查看器。](best-practice-using-html5-video.md#best_practice_using_the_html5_video_viewer) | HTML5 | X | X | X | X | X | X | X |
+| Universal_HTML5_Video（包括对隐藏式字幕的支持。） 请参阅[最佳实践：使用通用HTML5视频查看器]。(best-practice-using-html5-video.md#best_practice_using_the_html5_video_viewer) | HTML5 | X | X | X | X | X | X | X |
 | Universal_HTML5_Video_social（包括对隐藏式字幕和社交媒体的支持。） | HTML5 | X | X | X | X | X | X | X |
 
 |  | 查看器技术 | 桌面 | Apple iPhone | Apple iPad | ™智能手机 | ™平板电脑 |

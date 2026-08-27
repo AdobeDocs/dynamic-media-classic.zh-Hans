@@ -12,16 +12,11 @@ topic: Administration
 level: Intermediate
 autotag-review: '2026-05-13T19:46:24.807Z'
 TQID: 'https://experienceleague.adobe.com/w-jPQYG7xGeBmC8fOzcPzi6ZZ-urf0C0-HoDKVbjCWk'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: fcd8f761bcc746c402db2f06347b77352d1488f7
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 202f477d78272c66d0ac490e3a5041839b3e4f4d
 workflow-type: tm+mt
 source-wordcount: 2124
 ht-degree: 0%
@@ -38,7 +33,7 @@ Adobe Dynamic Media Classic用户现在可以访问一款新的桌面应用程�
 >
 >Adobe建议您在2020年10月1日之前安装新的Adobe Dynamic Media Classic桌面应用程序。 这可确保在2020年12月31日弃用Adobe Flash Player之前有一个过渡期。 在该日期之后，您将无法登录到产品中标记为Adobe Dynamic Media Classic的Adobe Dynamic Media Classic用户界面的浏览器版本。
 
-查看[新Adobe Dynamic Media Classic登录的常见问题解答。](/help/using/new-ui-2020.md)
+查看[新Adobe Dynamic Media Classic登录的常见问题解答](/help/using/new-ui-2020.md)。
 
 ## Adobe Dynamic Media Classic桌面应用程序的系统要求 {#system-requirements-dmc-app}
 
@@ -128,8 +123,8 @@ Adobe Dynamic Media Classic桌面应用程序与以下操作系统兼容：
 -->
 
 <!--
-    * [macOS (.DMG): Download.](https://download.macromedia.com/dynamic-media-classic/20.20.2/adobe-dynamic-media-classic-20.20.2.dmg)
-    * [Windows (.EXE): Download.](https://download.macromedia.com/dynamic-media-classic/20.20.2/adobe-dynamic-media-classic-20.20.2.exe) 
+    * [macOS (.DMG): Download](https://download.macromedia.com/dynamic-media-classic/20.20.2/adobe-dynamic-media-classic-20.20.2.dmg).
+    * [Windows (.EXE): Download](https://download.macromedia.com/dynamic-media-classic/20.20.2/adobe-dynamic-media-classic-20.20.2.exe). 
 -->
 
 
@@ -250,7 +245,7 @@ Adobe Dynamic Media Classic桌面应用程序与以下操作系统兼容：
 
 ## 有关使用Adobe Dynamic Media Classic桌面应用程序的视频演练 {#dmc-app-video-walk-through}
 
-观看使用Adobe Dynamic Media Classic桌面应用程序[&#128279;](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-learn/assets/dynamic-media/dynamic-media-classic-desktop-application#dynamic-media)的视频演练（长度：2分36秒）。
+观看使用Adobe Dynamic Media Classic桌面应用程序](https://experienceleague.adobe.com/en/docs/experience-manager-learn/assets/dynamic-media/dynamic-media-classic-desktop-application#dynamic-media)的[视频演练（长度：2分36秒）。
 
 ## 使用桌面应用程序清除计算机上的图像缓存和资产缓存 {#clear-cache}
 
