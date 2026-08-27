@@ -11,34 +11,28 @@ topic: Content Management
 level: Intermediate
 autotag-review: '2026-05-13T20:16:48.480Z'
 TQID: 'https://experienceleague.adobe.com/GHFAnTWOGJjh5T5swbhJLj9-3iAOP7Ne5MQRObGPubI'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: e52a31a700f7b319f0fe3aee836687771bf5618c
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 1d39c652980a2e0c502c27856fda7fd7e6c4ec0a
 workflow-type: tm+mt
-source-wordcount: 3571
-ht-degree: 22%
+source-wordcount: 4137
+ht-degree: 24%
 
 ---
 
 # 上载文件{#uploading-files}
 
-在将资源文件上传到Adobe Dynamic Media Classic之前，请确保已正确命名资源文件。 确保已按照所需的方式设置和整理您的文件夹结构。 您可以从Adobe Dynamic Media Classic提供的FTP站点上传文件，也可以直接从您的计算机或网络上传文件。 Adobe Dynamic Media Classic提供可在您上传文件时优化文件的选项。 如果安装了Adobe Dynamic Media Classic桌面应用程序，则可以通过直接从桌面拖动文件和文件夹来上传它们。 请参阅[应用程序常规设置](application-setup.md#general_settings)。
+在将资源文件上传到Adobe Dynamic Media Classic之前，请确保已正确命名资源文件。 确保已根据您的要求设置和整理文件夹结构。 您可以从Adobe Dynamic Media Classic提供的FTP站点上传文件，也可以直接从您的计算机或网络上传文件。 Adobe Dynamic Media Classic提供可在您上传文件时优化文件的选项。 如果安装了Adobe Dynamic Media Classic桌面应用程序，则可以通过直接从桌面拖动文件和文件夹来上传它们。 请参阅[应用程序常规设置](application-setup.md#general_settings)。
 
 ## 准备资产和文件夹以进行上传 {#preparing-your-assets-and-folders-for-uploading}
 
-在将资源上传到Adobe Dynamic Media Classic之前，请确保它们的格式和大小正确。 您还必须遵守用于命名资源的Adobe Dynamic Media Classic规则。 通过为文件设置文件夹结构，可以确保可以轻松找到和处理文件。
+在将资源上传到Adobe Dynamic Media Classic之前，请确保它们的格式和大小正确。 您还必须遵守用于命名资源的Adobe Dynamic Media Classic规则。 通过为文件创建文件夹结构，确保可以轻松查找和管理文件。
 
 ### 支持的资源文件格式 {#supported-asset-file-formats}
 
-此表列出了Adobe Dynamic Media Classic支持的资源文件格式。 有关支持的Camera Raw文件的信息，请参阅[https://helpx.adobe.com/cn/camera-raw/using/supported-cameras.html](https://helpx.adobe.com/cn/camera-raw/using/supported-cameras.html)。
+此表列出了Adobe Dynamic Media Classic支持的资源文件格式。 有关支持的Camera Raw文件的信息，请参阅[支持的摄像头](https://helpx.adobe.com/camera-raw/desktop/dng-and-file-formats/camera-raw-plug-supported-cameras.html)。
 
 | 资源文件格式 | 说明 |
 | --- | --- |
@@ -128,7 +122,7 @@ Adobe Dynamic Media Classic不提供用于生成静态内容预览URL的选项�
 
 * 系统中不允许使用同名的资产ID。
 * 资产ID名称区分大小写。
-* 作为最佳实践，请确保资源ID不包含空格。 例如，`black jacket.tif`和`blue jacket.jpg`。 Adobe Dynamic Media Classic在使用资源名称构建URL字符串时对资源名称中的空格进行ASCII编码。 这些 ASCII 编码不易理解，从而使 URL 更难理解。
+* 作为最佳实践，请确保资源ID不包含空格。 例如，`dark jacket.tif`和`blue jacket.jpg`。 Adobe Dynamic Media Classic在使用资源名称构建URL字符串时对资源名称中的空格进行ASCII编码。 这些 ASCII 编码不易理解，从而使 URL 更难理解。
 * 文件名中允许特定语言字符。 但是，文件名中不能出现以下字符：
 
   `\ ; / ? : @ & = + $ , &#42; " &lt; > | ' { } %`
@@ -144,7 +138,7 @@ Adobe Dynamic Media Classic不提供用于生成静态内容预览URL的选项�
 
 ### 文件夹组织和结构 {#folder-organization-and-structure}
 
-在将内容上传到系统之前，在Adobe Dynamic Media Classic中组织和构建内容的文件夹和子文件夹。 提前规划有两个优势：
+在将内容上传到系统之前，在Adobe Dynamic Media Classic中组织和构建内容的文件夹和子文件夹。 Planning具有两个优势：
 
 * 使用FTP将内容上传到Adobe Dynamic Media Classic时，您可以指示系统在上传期间复制您的文件夹结构。 这样，您的内容就会在Adobe Dynamic Media Classic中与您的计算机或网络相同的文件夹和子文件夹中进行组织。 （要在Adobe Dynamic Media Classic中复制文件夹结构，请在使用FTP上传资源时选择&#x200B;**包括子文件夹**&#x200B;选项。）
 * 上传文件后重新组织系统内的文件夹比开始之前规划文件夹结构需要更多时间和精力。
@@ -165,7 +159,7 @@ Adobe Dynamic Media Classic不提供用于生成静态内容预览URL的选项�
 
 Adobe Dynamic Media Classic会向您发送一封电子邮件，用于确认上传作业何时开始和结束，并通知您出现任何问题。
 
-在大型上载作业期间（或之后），某些新项目可能会显示“图像尚未优化”消息。 出现此消息是因为文件尚未完全处理并添加到Adobe Dynamic Media Classic。 您可以稍后优化这些文件。 请参阅[优化文件](application-setup.md#optimize_files)。
+在大型上载作业期间（或之后），某些新项目会显示“图像尚未优化”消息。 出现此消息是因为文件尚未完全处理并添加到Adobe Dynamic Media Classic。 您可以稍后优化这些文件。 请参阅[优化文件](application-setup.md#optimize_files)。
 
 ### FTP安全 {#ftp-security}
 
@@ -189,16 +183,16 @@ Adobe Dynamic Media Classic桌面应用程序允许您通过拖动来上传文�
 1. 在上传页面的右侧，在选定的&#x200B;**文件夹目标**&#x200B;区域中，导航到要添加已上传文件或文件夹的目标文件夹。
 1. （可选）在“上载”页面底部附近的作业名称文本字段中，输入上载作业的新名称。 或者，您也可以使用Adobe Dynamic Media Classic提供的默认名称。 上载和发布作业会记录在“作业”页面上，您可以在该页面上检查作业的状态。 请参阅[检查作业文件](checking-job-files.md#checking_job_files)。
 1. （可选）在上传页面底部附近，选择&#x200B;**[!UICONTROL 上传后发布]**，以便您可以自动发布所上传的资产。
-发布文件时，这些文件将发送到实时服务器。然后，可以在外部网站和应用程序上使用这些文件的URL。“作业选项”对话框中也提供了相同选项。
-1. （可选）如果希望上载的文件替换具有相同名称的现有文件，请选择“上载”页面底部附近的&#x200B;**[!UICONTROL 覆盖任意文件夹中的相同基本资源名称（不论扩展名是什么）]**。“作业选项”对话框中也提供了相同选项。
-此选项的名称可能会因&#x200B;**[!UICONTROL 应用程序设置]** > **[!UICONTROL 常规设置]** > **[!UICONTROL 上载到应用程序]** > **[!UICONTROL 覆盖图像]**&#x200B;中的设置而异。
+发布文件时，这些文件将发送到实时服务器。 然后，可以在外部网站和应用程序中使用这些文件的 URL。 “作业选项”对话框中也提供了相同选项。
+1. （可选）如果希望上载的文件替换具有相同名称的现有文件，请选择“上载”页面底部附近的&#x200B;**[!UICONTROL 覆盖任意文件夹中的相同基本资源名称（不论扩展名是什么）]**。 “作业选项”对话框中也提供了相同选项。
+根据**[!UICONTROL 应用程序设置]** > **[!UICONTROL 常规设置]** > **[!UICONTROL 上载到应用程序]** > **[!UICONTROL 覆盖图像]**&#x200B;中的设置，此选项的名称不同。
 1. 在上传页面的右下角附近，选择&#x200B;**[!UICONTROL 作业选项]**，然后指定所需的选项。
 
    请参阅[上载选项](uploading-files.md#upload_options)。
 
 1. 在“上载作业选项”对话框中，选择&#x200B;**[!UICONTROL 保存]**。
 1. 在上传页面的右下角，选择&#x200B;**[!UICONTROL 提交上传]**。
-要查看上载进度，请在全局导航栏上选择&#x200B;**[!UICONTROL 作业]**。您可以继续在Adobe Dynamic Media Classic中工作。随时返回到“作业”页以查看正在进行的作业。若要取消正在进行的上载作业，请选择“持续时间”时间旁边的&#x200B;**[!UICONTROL 取消]**。
+要查看上载进度，请在全局导航栏上选择**[!UICONTROL 作业]**。 您可以继续在Adobe Dynamic Media Classic中工作。 随时返回到“作业”页以查看正在进行的作业。 要取消正在进行的上载作业，请选择“持续时间”旁边的“**[!UICONTROL 取消]**”。
 
 ### 使用“通过FTP”选项卡上传文件 {#upload-files-using-via-ftp}
 
@@ -207,12 +201,12 @@ Adobe Dynamic Media Classic桌面应用程序允许您通过拖动来上传文�
 1. 在上传页面上，选择&#x200B;**[!UICONTROL 通过FTP]**&#x200B;选项卡。
 1. 在上传页面的左侧&#x200B;**[!UICONTROL 选择要上载的FTP文件夹]**&#x200B;区域，选择要从中上载文件的FTP文件夹。
 1. 在上传页面的右侧，在选定的&#x200B;**[!UICONTROL Adobe Dynamic Media文件夹目标]**&#x200B;区域中，选择Adobe Dynamic Media Classic中的目标文件夹。
-1. （可选）在“上载”页面底部附近的作业名称文本字段中，输入上载作业的新名称。或者，您可以使用Adobe Dynamic Media Classic提供的系统生成的默认名称。上载和发布作业会记录在“作业”页面上，您可以在该页面上检查作业的状态。
+1. （可选）在“上载”页面底部附近的作业名称文本字段中，输入上载作业的新名称。 或者，您可以使用Adobe Dynamic Media Classic提供的系统生成的默认名称。 上载和发布作业会记录在“作业”页面上，您可以在该页面上检查作业的状态。
 请参阅[检查作业文件](checking-job-files.md#checking_job_files)。
 1. （可选）在上传页面底部附近，选择&#x200B;**[!UICONTROL 上传后发布]**，以便您可以自动发布所上传的资产。
-发布文件时，这些文件将发送到实时服务器。然后，可以在外部网站和应用程序上使用这些文件的URL。“作业选项”对话框中也提供了相同选项。
-1. （可选）如果希望上载的文件替换具有相同名称的现有文件，请选择“上载”页面底部附近的&#x200B;**[!UICONTROL 覆盖任意文件夹中的相同基本资源名称（不论扩展名是什么）]**。“作业选项”对话框中也提供了相同选项。
-此选项的名称可能因&#x200B;**[!UICONTROL 设置]** > **[!UICONTROL 应用程序设置]** > **[!UICONTROL 常规设置]** > **[!UICONTROL 上载到应用程序]** > **[!UICONTROL 覆盖图像]**&#x200B;中的设置而异。
+发布文件时，这些文件将发送到实时服务器。 然后，可以在外部网站和应用程序中使用这些文件的 URL。 “作业选项”对话框中也提供了相同选项。
+1. （可选）如果希望上载的文件替换具有相同名称的现有文件，请选择“上载”页面底部附近的&#x200B;**[!UICONTROL 覆盖任意文件夹中的相同基本资源名称（不论扩展名是什么）]**。 “作业选项”对话框中也提供了相同选项。
+根据**[!UICONTROL 设置]** > **[!UICONTROL 应用程序设置]** > **[!UICONTROL 常规设置]** > **[!UICONTROL 上传到应用程序]** > **[!UICONTROL 覆盖图像]**&#x200B;中的设置，此选项的名称不同。
 1. 可选；仅当您选择&#x200B;**[!UICONTROL 通过FTP]**&#x200B;选项卡时可用。 在上传页面底部附近，选择&#x200B;**[!UICONTROL 在上传时解压缩Zip或Tar文件]**，以便您能够自动从上传的ZIP或TAR文件中解压缩所有文件。 “作业选项”对话框中也提供了相同选项。
 1. 在上传页面的右下角附近，选择&#x200B;**[!UICONTROL 作业选项]**，然后指定所需的选项。
 
@@ -233,68 +227,68 @@ Adobe Dynamic Media Classic桌面应用程序允许您通过拖动来上传文�
 
   也可以使用“常规设置”中的&#x200B;**[!UICONTROL 默认上载选项]**&#x200B;对话框为上载作业选择&#x200B;*默认*&#x200B;选项。 转到&#x200B;**[!UICONTROL 设置]** > **[!UICONTROL 应用程序设置]** > **[!UICONTROL 常规设置]** > **[!UICONTROL 默认上载选项]**，然后设置所需的默认选项。
 
-   * **[!UICONTROL 时间]**：仅当您选择&#x200B;**[!UICONTROL 通过FTP]**&#x200B;选项卡时，此选项才可用。
-      * **[!UICONTROL 一次]**：指定运行一次的上载作业。 选项包括：
-         * **[!UICONTROL 现在]**：在“上载作业选项”对话框中选择&#x200B;**[!UICONTROL 保存]**&#x200B;后，立即运行上载作业，然后在“上载”页面上选择&#x200B;**[!UICONTROL 提交上载]**。
-         * **[!UICONTROL 安排稍后运行]**：选择您希望上载作业运行的年、月、日和时间（以15分钟为增量）。
-      * **[!UICONTROL 定期]**：指定每日、每周或每月运行的上载作业。 或者，根据您自己的规范自定义上载作业。
-         * **[!UICONTROL 每日]**：设置您希望作业每天运行的时间。 如果希望作业只在星期一到星期五运行，请选择&#x200B;**[!UICONTROL 仅工作日]**。
-         * **[!UICONTROL 每周]**：选择您希望作业在一周中的特定日期和运行时间。
-         * **[!UICONTROL 每月]**：选择您希望作业运行的特定日期（一个月或一周中的某一天），包括开始时间。
-         * **[!UICONTROL 自定义]**：根据您自己的规范自定义上载或发布作业时间间隔。 请参阅[创建自定义上载或发布作业时间间隔](checking-job-files.md#creating-a-custom-upload-or-publish-job-time-interval)。
+  * **[!UICONTROL 时间]**：仅当您选择&#x200B;**[!UICONTROL 通过FTP]**&#x200B;选项卡时，此选项才可用。
+    * **[!UICONTROL 一次]**：指定运行一次的上载作业。 选项包括：
+      * **[!UICONTROL 现在]**：在“上载作业选项”对话框中选择&#x200B;**[!UICONTROL 保存]**&#x200B;后，立即运行上载作业，然后在“上载”页面上选择&#x200B;**[!UICONTROL 提交上载]**。
+      * **[!UICONTROL 安排稍后运行]**：选择您希望上载作业运行的年、月、日和时间（以15分钟为增量）。
+    * **[!UICONTROL 定期]**：指定每日、每周或每月运行的上载作业。 或者，根据您自己的规范自定义上载作业。
+      * **[!UICONTROL 每日]**：设置您希望作业每天运行的时间。 如果希望作业只在星期一到星期五运行，请选择&#x200B;**[!UICONTROL 仅工作日]**。
+      * **[!UICONTROL 每周]**：选择您希望作业在一周中的特定日期和运行时间。
+      * **[!UICONTROL 每月]**：选择您希望作业运行的特定日期（一个月或一周中的某一天），包括开始时间。
+      * **[!UICONTROL 自定义]**：根据您自己的规范自定义上载或发布作业时间间隔。 请参阅[创建自定义上载或发布作业时间间隔](checking-job-files.md#creating-a-custom-upload-or-publish-job-time-interval)。
 
-   * 上传后发布&#x200B;**&#x200B;**：如果选择了通过FTP的&#x200B;**[!UICONTROL 从桌面]**&#x200B;选项卡或&#x200B;**[!UICONTROL 选项卡]**，则可用。 选择此选项可自动发布您上传的资产。 在发布文件时，文件将发送到实时服务器。 然后，可以在外部网站和应用程序中使用这些文件的 URL。 “上载”页中也提供了该选项。
+  * 上传后发布&#x200B;****：如果选择了通过FTP的&#x200B;**[!UICONTROL 从桌面]**&#x200B;选项卡或&#x200B;**[!UICONTROL 选项卡]**，则可用。 选择此选项可自动发布您上传的资产。 在发布文件时，文件将发送到实时服务器。 然后，可以在外部网站和应用程序中使用这些文件的 URL。 “上载”页中也提供了该选项。
 
-   * **[!UICONTROL 在任意文件夹内，使用相同的基本资源名称（不论扩展名是什么）进行覆盖]**：如果选择&#x200B;**[!UICONTROL FROM DESKTOP]**&#x200B;选项卡或&#x200B;**[!UICONTROL VIA FTP]**&#x200B;选项卡，则可用。 如果要使上载的文件替换现有同名文件，请选中此选项。 “上载”页中也提供了该选项。 此选项的名称可能不同，具体取决于&#x200B;**[!UICONTROL 设置]** > **[!UICONTROL 应用程序设置]** > **[!UICONTROL 常规设置]** > **[!UICONTROL 上载到应用程序]** > **[!UICONTROL 覆盖图像]**&#x200B;中的设置。
+  * **[!UICONTROL 在任意文件夹内，使用相同的基本资源名称（不论扩展名是什么）进行覆盖]**：如果选择&#x200B;**[!UICONTROL FROM DESKTOP]**&#x200B;选项卡或&#x200B;**[!UICONTROL VIA FTP]**&#x200B;选项卡，则可用。 如果要使上载的文件替换现有同名文件，请选中此选项。 “上载”页中也提供了该选项。 此选项的名称可能不同，具体取决于&#x200B;**[!UICONTROL 设置]** > **[!UICONTROL 应用程序设置]** > **[!UICONTROL 常规设置]** > **[!UICONTROL 上载到应用程序]** > **[!UICONTROL 覆盖图像]**&#x200B;中的设置。
 
-   * **[!UICONTROL 在上传时解压缩Zip或Tar文件]**：如果选择&#x200B;**[!UICONTROL FROM DESKTOP]**&#x200B;选项卡或&#x200B;**[!UICONTROL VIA FTP]**&#x200B;选项卡，则可用。
-选择此选项可自动从上传的ZIP或TAR文件中提取所有文件。“作业选项”对话框中也提供了相同选项。
+  * **[!UICONTROL 在上传时解压缩Zip或Tar文件]**：如果选择&#x200B;**[!UICONTROL FROM DESKTOP]**&#x200B;选项卡或&#x200B;**[!UICONTROL VIA FTP]**选项卡，则可用。
+    选择此选项可自动从上传的ZIP或TAR文件中提取所有文件。 “作业选项”对话框中也提供了相同选项。
 
-   * **[!UICONTROL 包含子文件夹]**：仅当您选择&#x200B;**[!UICONTROL 通过FTP]**&#x200B;选项卡时可用。
-如果要上载要上载的文件夹的子文件夹，请选择此选项。上传的文件夹及其子文件夹的名称会自动在Adobe Dynamic Media Classic中输入。
+  * **[!UICONTROL 包含子文件夹]**：仅当您选择&#x200B;**[!UICONTROL 通过FTP]**选项卡时可用。
+    如果要上载文件夹的子文件夹，请选中此选项。 上传的文件夹及其子文件夹的名称会自动在Adobe Dynamic Media Classic中输入。
 
-   * **[!UICONTROL 处理元数据文件]**：仅当您选择&#x200B;**[!UICONTROL 通过FTP]**&#x200B;选项卡时可用。如果要上载制表符分隔的文件或XML文件以将元数据添加到多个资源，请选择此选项。
-请参阅[导入元数据（通过FTP）](viewing-adding-exporting-metadata.md#import-metadata)。
+  * **[!UICONTROL 处理元数据文件]**：仅当您选择&#x200B;**[!UICONTROL 通过FTP]**选项卡时可用。 如果要上载制表符分隔的文件或 XML 文件以将元数据添加到多个资源中，可以选择该选项。
+    请参阅[导入元数据（通过 FTP）](viewing-adding-exporting-metadata.md#import-metadata)。
 
 * **裁切选项**：自动裁切图像中的空白像素。 打开&#x200B;**[!UICONTROL 裁切]**&#x200B;菜单，选择&#x200B;**[!UICONTROL 手动]**，然后在“顶部”、“右侧”、“底部”和“左侧”文本字段中输入像素度量以从侧面裁切。 您还可以在“裁切”菜单中选择&#x200B;**[!UICONTROL 裁切]**，然后选择以下选项：
 
-   * **[!UICONTROL 裁切依据]**：选择根据颜色还是透明度裁切：
-      * **[!UICONTROL 颜色]**：选择“颜色”选项。然后选择“边角”菜单，然后选择图像的边角，其颜色最能代表要裁切的空白颜色。
-基于颜色进行修剪：指定0表示仅在像素与您在图像角选择的颜色完全匹配时裁切像素。数字越接近1，则颜色差异越大。
-      * **[!UICONTROL 透明度]**：选择&#x200B;**[!UICONTROL 透明度]**&#x200B;选项。
-基于透明度裁剪：指定0表示仅在像素为透明时裁剪像素；数字越接近1则透明度越高。
-      * **[!UICONTROL 容差]**：拖动滑块以指定从0到1的容差。
+  * **[!UICONTROL 裁切依据]**：选择根据颜色还是透明度裁切：
+    * **[!UICONTROL 颜色]**：选择“颜色”选项。 然后选择“角”菜单，并选择所具有的颜色能最好地表示您想要裁切的空白颜色的图像角。
+      基于颜色修剪：指定 0 则仅当像素与您在图像的角中选择的颜色完全匹配时才会裁切像素。 数字越接近 1，允许的色差越大。
+    * **[!UICONTROL 透明度]**：选择&#x200B;**[!UICONTROL 透明度]**选项。
+      基于透明度裁剪：指定0表示仅在像素为透明时裁剪像素；数字越接近1则透明度越高。
+    * **[!UICONTROL 容差]**：拖动滑块以指定从0到1的容差。
 
 * **颜色配置文件选项**：在创建用于Adobe Dynamic Media Classic动态投放的优化文件时选择颜色转换：
 
-   * **[!UICONTROL 默认保色]**：当图像包含色彩空间信息时，保留源图像颜色；没有颜色转换。 几乎目前的所有图像都嵌入了相应的颜色配置文件。 不过，如果 CMYK 源图像不包含嵌入的颜色配置文件，则会将颜色转换为 sRGB（标准红绿蓝）色彩空间。 sRGB是在网页上显示图像的推荐颜色空间。
-   * **[!UICONTROL 保留原始颜色空间]**：保留原始颜色，在摄取到Adobe Dynamic Media Classic时不会进行任何颜色转换。 对于没有嵌入颜色配置文件的图像，使用在“发布”设置中配置的默认颜色配置文件执行任何处理图像请求所需的颜色转换。 这些颜色配置文件并不总是与使用此选项创建的文件中的颜色一致。 因此，建议您使用“默认护色”选项。
-   * **[!UICONTROL 自定义从]** > **[!UICONTROL 到]**：打开菜单，以便选择&#x200B;**[!UICONTROL 转换自]**&#x200B;和&#x200B;**[!UICONTROL 转换至]**&#x200B;色彩空间。 此高级选项覆盖在源文件中嵌入的任何颜色信息。 仅当要提交的所有图像包含不正确或缺少颜色配置文件数据时，才选择此选项。
+  * **[!UICONTROL 默认保色]**：当图像包含色彩空间信息时，保留源图像颜色；没有颜色转换。 几乎目前的所有图像都嵌入了相应的颜色配置文件。 不过，如果 CMYK 源图像不包含嵌入的颜色配置文件，则会将颜色转换为 sRGB（标准红绿蓝）色彩空间。 sRGB是在网页上显示图像的推荐颜色空间。
+  * **[!UICONTROL 保留原始颜色空间]**：保留原始颜色，在摄取到Adobe Dynamic Media Classic时不会进行任何颜色转换。 对于没有嵌入颜色配置文件的图像，使用在“发布”设置中配置的默认颜色配置文件执行任何处理图像请求所需的颜色转换。 这些颜色配置文件并不总是与使用此选项创建的文件中的颜色一致。 因此，建议您使用“默认护色”选项。
+  * **[!UICONTROL 自定义从]** > **[!UICONTROL 到]**：打开菜单，以便选择&#x200B;**[!UICONTROL 转换自]**&#x200B;和&#x200B;**[!UICONTROL 转换至]**&#x200B;色彩空间。 此高级选项覆盖在源文件中嵌入的任何颜色信息。 仅当要提交的所有图像包含不正确或缺少颜色配置文件数据时，才选择此选项。
 
 * **图像编辑选项**：您可以保留图像中的剪辑`<>`蒙版，并选择颜色配置文件。
-在上传[&#128279;](image-editing-options-upload.md#image-editing-options-at-upload)上查看映像微调选项。
+在上传](image-editing-options-upload.md#image-editing-options-at-upload)中查看[映像微调选项。
 
 * **PostScript®选项**：您可以栅格化PostScript®文件、裁切文件、保持透明背景、选择分辨率以及选择色彩空间。
-请参阅[使用PostScript和Adobe Illustrator文件](postscript-illustrator-files.md#working_with_postscript_and_illustrator_files)。
+请参阅[处理PostScript和Adobe Illustrator文件](postscript-illustrator-files.md#working_with_postscript_and_illustrator_files)。
 
 * **Adobe Photoshop选项**：您可以从Adobe® Photoshop®文件创建模板、维护图层、指定图层的命名方式、提取文本以及指定将图像锚定到模板中的方式。
-请参阅[PSD上传选项](psd-files.md#psd_upload_options)。
+请参阅[PSD 上载选项](psd-files.md#psd_upload_options)。
 
 * **PDF选项**：您可以栅格化文件、提取搜索词和链接、自动生成eCatalog、设置分辨率以及选择颜色空间。
-请参阅[PDF上传选项](pdfs.md#pdf_upload_options)。
+请参阅[PDF 上载选项](pdfs.md#pdf_upload_options)。
 
 * **Adobe Illustrator选项**：您可以栅格化Adobe Illustrator®文件、保持透明背景、选择分辨率以及选择色彩空间。
-请参阅[使用PostScript和Adobe Illustrator文件](postscript-illustrator-files.md#working_with_postscript_and_illustrator_files)。
+请参阅[处理PostScript和Adobe Illustrator文件](postscript-illustrator-files.md#working_with_postscript_and_illustrator_files)。
 
 * **EVIDEO选项**：您可以通过选择视频预设来转码视频文件。
 请参阅[使用视频编码预设](uploading-encoding-videos.md#working_with_video_encoding_presets)。
 
-* **更多元数据**：输入描述要上载的文件的关键字。用逗号分隔关键字。关键字使搜索资源更容易。
+* **更多元数据**：输入描述要上载的文件的关键字。 用逗号分隔关键字。 关键字简化了资源搜索。
 请参阅[执行高级搜索](searching-assets.md#conducting_an_advanced_search)。
 另请参阅[上传关键字](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/548_upload-keywords_converted%20renamed_Done-AVS)培训视频。
 
-* **批次集预设**：若要从上传的文件创建图像集、旋转集或样本集，请为要使用的预设选择&#x200B;**[!UICONTROL 活动]**&#x200B;列。您可以选择多个预设。您可以在“应用程序设置/批次集预设”页面中创建预设。
-请参阅[批次集预设](application-setup.md#batch_set_presets)。
+* **批次集预设**：若要从上传的文件创建图像集、旋转集或样本集，请为要使用的预设选择&#x200B;**[!UICONTROL 活动]**列。 可以选择多个预设。 您可以在“应用程序设置/批次集预设”页面中创建预设。
+请参阅[批量级预设](application-setup.md#batch_set_presets)。
 
 * **高级**：请参阅[使用其他作业执行上载操作](uploading-files.md#follow-an-upload-with-another-job)。
 
@@ -302,7 +296,7 @@ Adobe Dynamic Media Classic桌面应用程序允许您通过拖动来上传文�
 
 使用FTP上传项目时，您可以安排在上传完成后开始后续作业。 如果调度了其他作业以开始，则您在此处调度的作业将在它们之后排队。
 
-新作业会向您指定的地址发送通知，以便触发该位置的代码。 该后续发布作业所使用的名称与上载作业相同，但在开头加有文本 *Pub_*。
+新作业会向您指定的地址发送通知，以便该位置的代码可以执行。 此后续发布作业使用与上载作业相同的名称，但添加了文本&#x200B;*Pub_*&#x200B;作为前缀。
 
 **要在上载后执行其他作业：**
 
