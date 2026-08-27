@@ -38,7 +38,7 @@ ht-degree: 24%
 
 ### 支持的资源文件格式 {#supported-asset-file-formats}
 
-此表列出了Adobe Dynamic Media Classic支持的资源文件格式。 有关支持的Camera Raw文件的信息，请参阅[支持的摄像头](https://helpx.adobe.com/camera-raw/desktop/dng-and-file-formats/camera-raw-plug-supported-cameras.html)。
+此表列出了Adobe Dynamic Media Classic支持的资源文件格式。 有关支持的Camera Raw文件的信息，请参阅[支持的摄像头](https://helpx.adobe.com/cn/camera-raw/desktop/dng-and-file-formats/camera-raw-plug-supported-cameras.html)。
 
 | 资源文件格式 | 说明 |
 | --- | --- |
