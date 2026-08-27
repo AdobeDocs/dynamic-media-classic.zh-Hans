@@ -12,10 +12,16 @@ topic: Administration
 level: Intermediate
 autotag-review: '2026-05-13T17:38:37.961Z'
 TQID: 'https://experienceleague.adobe.com/GXWZmllFz1-pP-BuzH2WdjpgmvX5cOUipLywGUa8Z0U'
-product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 202f477d78272c66d0ac490e3a5041839b3e4f4d
 workflow-type: tm+mt
 source-wordcount: 11367
@@ -247,7 +253,7 @@ Adobe Dynamic Media Classic不允许两个文件具有相同的名称。 每个�
 
 * **[!UICONTROL 输出颜色配置文件]**：选择&#x200B;**[!UICONTROL 使用默认值]**&#x200B;或Adobe Dynamic Media Classic上可用的ICC颜色配置文件之一。
 
-  另请参阅[ ICC 配置文件](icc-profiles.md#icc_profiles)。
+  另请参阅[&#x200B; ICC 配置文件](icc-profiles.md#icc_profiles)。
 
 * **[!UICONTROL 渲染方法]**：如果要覆盖颜色配置文件的默认渲染方法，请选择一个选项。 当其中一个默认ICC配置文件是颜色转换的目标颜色空间时，使用此选项。 或者，此配置文件用于描述输出设备（打印机或显示器），并且指定的渲染方法对此配置文件有效。
 
