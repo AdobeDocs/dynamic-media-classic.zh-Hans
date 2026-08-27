@@ -6,10 +6,10 @@ user-guide-title: Adobe Dynamic Media Classic指南
 breadcrumb-title: Dynamic Media Classic指南
 user-guide-description: 了解有关使用Adobe Dynamic Media Classic的更多信息。
 index: true
-source-git-commit: 487ca7be68e8b515fc0c4d7bf2c00c0666fcfa4b
+source-git-commit: bbfeefce82fc757d71e5ad0038120752eb0683c1
 workflow-type: tm+mt
-source-wordcount: '805'
-ht-degree: 20%
+source-wordcount: '803'
+ht-degree: 19%
 
 ---
 
@@ -20,11 +20,11 @@ ht-degree: 20%
   + [为何要升级到Dynamic Media？](upgrade.md)
   + [升级常见问题解答](upgrade-faq.md)
   + [功能列表比较](upgrade-feature-comparison.md)
-  + [升级就绪性检查列表](upgrade-readiness.md)
+  + [升级准备清单](upgrade-readiness.md)
 + [Adobe Dynamic Media Classic指南](home.md)
 + [Adobe Dynamic Media Classic最佳实践教程](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-learn/dynamic-media-classic-tutorial/overview)
 + [新的Adobe Dynamic Media Classic登录现已可用](new-ui-2020.md)
-+ [Experience League存档的Adobe Dynamic Media新闻稿](dynamic-media-newsletter.md)
++ [Adobe Experience League存档的Adobe Dynamic Media新闻稿](dynamic-media-newsletter.md)
 + Adobe Dynamic Media Classic简介 {#intro}
   + [Adobe Dynamic Media Classic桌面应用程序：现已推出](dynamic-media-classic-desktop-app.md)
   + [关于Adobe Dynamic Media Classic帮助](introduction.md)
@@ -58,10 +58,10 @@ ht-degree: 20%
   + [管理FTP帐户](ftp-accounts.md)
   + [指定Media Portal用户可用的导出选项](specifying-export-options-available-media.md)
   + [创建和启用图像预设](creating-enabling-image-presets.md)
-  + [高效地管理元数据](making-efficient-metadata.md)
+  + [管理元数据](making-efficient-metadata.md)
   + [自定义Media Portal屏幕](customizing-media-portal-screen.md)
 + 上载和发布资源 {#upload-publish}
-  + [上传和发布资源](about-asset-upload-publish.md)
+  + [上载和发布资源](about-asset-upload-publish.md)
   + [上载文件](uploading-files.md)
   + [发布文件](publishing-files.md)
   + [Dynamic Media限制](limitations.md)
@@ -108,7 +108,7 @@ ht-degree: 20%
   + [将eCatalog链接到网页](linking-ecatalog-web-page.md)
 + 图像集 {#image-sets}
   + [快速入门：图像集](quick-start-image-sets.md)
-  + [准备图像集资源以供上传](preparing-image-set-assets-upload.md)
+  + [准备图像集Assets以供上传](preparing-image-set-assets-upload.md)
   + [创建图像集](creating-image-set.md)
   + [在图像集中包括缩放目标和图像映射](including-zoom-targets-image-maps-image-sets.md)
   + [管理图像集中的信息面板内容](info-panel-content-image-sets.md)
@@ -118,7 +118,7 @@ ht-degree: 20%
 + 样本集 {#swatch-sets}
   + [快速入门：样本集](quick-start-swatch-sets.md)
   + [在样本集中包括缩放目标和图像映射](including-zoom-targets-image-maps-swatch-sets.md)
-  + [准备样本集资源以供上传](preparing-swatch-set-assets-upload.md)
+  + [准备样本集Assets以供上传](preparing-swatch-set-assets-upload.md)
   + [创建样本集](creating-swatch-set.md)
   + [查看样本集](viewing-swatch-sets.md)
   + [将样本集链接到网页](linking-swatch-set-web-page.md)
@@ -172,7 +172,7 @@ ht-degree: 20%
   + [获取磁盘使用情况信息](getting-disk-usage-information.md)
   + [上传栅格图像资产](uploading-image-asset-or-vector.md)
 + 主文件 {#master-files}
-  + [优化图像质量的最佳做法](best-practices-optimizing-quality-images.md)
+  + [优化图像质量的准则](best-practices-optimizing-quality-images.md)
   + [编辑图像](editing-images.md)
   + [创建图像映射](creating-image-maps.md)
   + [裁切图像](cropping-image.md)
@@ -181,7 +181,7 @@ ht-degree: 20%
   + [在上载时微调图像编辑选项](image-editing-options-upload.md)
   + [使用PDF](pdfs.md)
   + [使用PSD文件](psd-files.md)
-  + [使用PostScript和Illustrator文件](postscript-illustrator-files.md)
+  + [使用PostScript和Adobe Illustrator文件](postscript-illustrator-files.md)
   + [处理晕影、窗口覆盖和CAB文件](vignette-window-covering-cabinet-files.md)
 + 支持文件 {#support-files}
   + [字体](fonts.md)

@@ -22,9 +22,9 @@ level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+source-git-commit: 42a60be8f52236a376c408b168323c9aca8ecf6b
 workflow-type: tm+mt
-source-wordcount: 345
+source-wordcount: 343
 ht-degree: 5%
 
 ---
@@ -35,15 +35,15 @@ ht-degree: 5%
 
 **要通过查看Adobe Analytics报表来测试集成，请执行以下操作：**
 
-1. 从您的帐户启动Adobe Dynamic Media Classic查看器，特别是要广播要获取的量度的帐户，并与该帐户交互以创建一些事件数据。
+1. 从您的帐户启动一个Adobe Dynamic Media Classic查看器，该查看器会广播您要获取的量度，并与之交互以创建一些事件数据。
 
-   例如，如果要测量图像集中的常用替代视图，则预览图像集并单击不同的缩略图图像。
+   例如，如果要测量图像集中的常用替代视图，则预览图像集并单击不同的缩略图。
 
 1. 在Adobe Analytics中，转到&#x200B;**[!UICONTROL 自定义流量]** > **[!UICONTROL 自定义流量1-10]** > [prop的名称]，从菜单选项中选择您的流量prop名称。
 
    例如，要访问示例帐户中的&#x200B;**[!UICONTROL LoadAsset]** prop，正确的菜单选项是&#x200B;**[!UICONTROL 自定义流量]** > **[!UICONTROL 自定义流量1-10]** > **[!UICONTROL LoadAsset]**。 如果您有十个以上的自定义prop，您也会看到其他菜单选项。
 
-1. 查看 Adobe Analytics 生成的图表。 此图表通常只是单个指标的数据。 如果您还想知道此数据与哪个资产相关联，请获取此事件的资产数据。 例如，了解哪个视频仅被观看了50%或集中的哪个图像受欢迎通常很有用。
+1. 查看 Adobe Analytics 生成的图表。 此图表是单个量度的数据。 如果您还想知道此数据与哪个资产相关联，请获取此事件的资产数据。 例如，知道哪个视频仅被观看了50%或集中的哪个图像经常被观看通常很有用。
 
 >[!NOTE]
 >

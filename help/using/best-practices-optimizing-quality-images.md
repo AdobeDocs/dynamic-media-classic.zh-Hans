@@ -1,5 +1,5 @@
 ---
-title: 优化图像质量的最佳实践
+title: 优化图像质量的准则
 description: 了解优化图像质量的最佳实践。
 contentOwner: Rick Brough
 content-type: reference
@@ -22,14 +22,14 @@ topic_v2:
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: b29d7cc6962ca9e7724bb43987947b08af5cd4d7
+source-git-commit: bbfeefce82fc757d71e5ad0038120752eb0683c1
 workflow-type: tm+mt
-source-wordcount: 1591
+source-wordcount: 1589
 ht-degree: 27%
 
 ---
 
-# 优化图像质量的最佳做法{#best-practices-for-optimizing-the-quality-of-your-images}
+# 优化图像质量的准则{#best-practices-for-optimizing-the-quality-of-your-images}
 
 优化图像质量可能非常耗时。 许多因素有助于得到可接受的结果。 结果在一定程度上是主观性的，因为个人评价图像质量的标准不尽相同。 结构化试验是必不可少的。
 
