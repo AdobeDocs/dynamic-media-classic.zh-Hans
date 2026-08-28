@@ -22,9 +22,9 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b179d4d28fe4859010783fcf725c3e8c6704416e
+source-git-commit: 202f477d78272c66d0ac490e3a5041839b3e4f4d
 workflow-type: tm+mt
-source-wordcount: 11344
+source-wordcount: 11367
 ht-degree: 26%
 
 ---
@@ -552,7 +552,7 @@ Adobe Dynamic Media Classic支持MP4 H.264视频的移动视频播放。
 
 |  | 查看器技术 | 桌面 | Apple iPhone | Apple iPad | ™智能手机 | ™平板电脑 | BlackBerry®智能手机 | Windows® Phone |
 |--- |--- |--- |--- |--- |--- |--- |--- |--- |
-| Universal_HTML5_Video（包括对隐藏式字幕的支持。） 请参阅[最佳实践：使用通用HTML5视频查看器。](best-practice-using-html5-video.md#best_practice_using_the_html5_video_viewer) | HTML5 | X | X | X | X | X | X | X |
+| Universal_HTML5_Video（包括对隐藏式字幕的支持。） 请参阅[最佳实践：使用通用HTML5视频查看器]。(best-practice-using-html5-video.md#best_practice_using_the_html5_video_viewer) | HTML5 | X | X | X | X | X | X | X |
 | Universal_HTML5_Video_social（包括对隐藏式字幕和社交媒体的支持。） | HTML5 | X | X | X | X | X | X | X |
 
 |  | 查看器技术 | 桌面 | Apple iPhone | Apple iPad | ™智能手机 | ™平板电脑 |

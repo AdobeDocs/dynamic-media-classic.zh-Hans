@@ -18,7 +18,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: e66a98d5071f107477891c3769f1301fcc0d86db
+source-git-commit: 202f477d78272c66d0ac490e3a5041839b3e4f4d
 workflow-type: tm+mt
 source-wordcount: 870
 ht-degree: 5%
@@ -33,7 +33,7 @@ ht-degree: 5%
 * 您可以快速更改整个网站或应用程序的图像大小。 例如，要更改所有缩略图图像，您可以修改“缩略图”图像预设。 图像预设是大小和格式属性的集合。 要更改整个网站或应用程序的所有缩略图图像的大小，您可以修改“缩略图”图像预设。
 * 您无需在任何内容或资产管理系统中管理主文件或所有各种派生文件。
 
-![您可以创建同一高分辨率主文件大小不同的多个派生图像。](/help/using/assets/is_derivative_sizes_popup.png)
+![您可以创建同一高分辨率主文件](/help/using/assets/is_derivative_sizes_popup.png)中大小不同的多个派生图像。
 
 请参阅[图像大小： Dynamic Imaging](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/557_Image%20Sizing_converted%20renamed_Dynamic%20Imaging-AVS)培训视频。
 

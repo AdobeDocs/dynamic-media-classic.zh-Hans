@@ -19,16 +19,16 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+source-git-commit: 202f477d78272c66d0ac490e3a5041839b3e4f4d
 workflow-type: tm+mt
-source-wordcount: 1051
-ht-degree: 51%
+source-wordcount: 1052
+ht-degree: 46%
 
 ---
 
 # 上传栅格图像资产 {#uploading-an-image-asset-or-a-vector-asset}
 
-在上载图像资源之前，必须先请求一个共享密钥。 可以使用该共享密钥检索上载令牌。 然后，使用上传令牌上传光栅图像资产。
+在上传图像资产之前，必须首先请求共享密钥。 可以使用该共享密钥检索上载令牌。 然后，使用上传令牌上传光栅图像资产。
 
 >[!IMPORTANT]
 >
@@ -40,13 +40,13 @@ ht-degree: 51%
 
 ## 请求共享密钥 {#requesting-a-shared-secret-key}
 
-由[使用Admin Console请求&#x200B;*共享密钥*&#x200B;以创建支持案例。](https://helpx.adobe.com/cn/enterprise/using/support-for-experience-cloud.html) 在技术支持案例中，请求共享密钥。
+由[使用Admin Console请求&#x200B;*共享密钥*&#x200B;以创建支持案例](https://helpx.adobe.com/cn/business/enterprise.html)。 在技术支持案例中，请求共享密钥。
 
 在电子邮件中，请提供要用于上载图像资源的公司名称。 从Adobe Dynamic Media Classic收到密钥后，请将其本地保存以供将来使用。
 
 ## 检索上传令牌 {#retrieving-the-upload-token}
 
-*上载令牌*&#x200B;可确保他人不能使用相同的共享密钥来上载资源。 它可确保上载合法且来自信任的来源。
+*上载令牌*&#x200B;可确保不能使用相同的共享密钥上载资产。 它可确保上载合法且来自信任的来源。
 
 上载令牌是字母数字字符串，只能在特定时间段内使用。 使用以下URL替换您的共享密钥，以便您可以检索上载令牌。
 
@@ -148,7 +148,7 @@ https://s7ugc1.scene7.com/ugc/image?op=upload&upload_token=aa2a378a-cd25-4c80-99
 * 文件大小限制。
 * 文件扩展名的列表。
 * 是否保留与资源关联的颜色配置文件和文件名。
-* 是否使用挖空背景。 如果启用“挖空背景”，请设置“拐角”、“公差”和“填充方法”。
+* 是否使用挖空背景。 如果启用“挖空背景”，请配置“拐角”、“公差”和“填充方法”。
 在上传[&#128279;](image-editing-options-upload.md#image-editing-options-at-upload)处查看图像微调选项中的“挖空背景”。
 * 要上传的文件的名称。
 
@@ -156,7 +156,7 @@ https://s7ugc1.scene7.com/ugc/image?op=upload&upload_token=aa2a378a-cd25-4c80-99
 
 在Firefox中，右键单击浏览器窗口，然后选择&#x200B;**[!UICONTROL 查看页面Source]**。 代码显示相应的URL查询字符串以及在用户选择&#x200B;**[!UICONTROL Submit]**&#x200B;时运行的POST方法。
 
-若要在Internet Explorer中查看XML响应，请转到&#x200B;**[!UICONTROL 查看]** > **[!UICONTROL Source]**。 若要在Firefox中查看XML响应，请转到&#x200B;**[!UICONTROL 工具]** > **[!UICONTROL 浏览器工具]** > **[!UICONTROL Web开发人员工具]**。 建议使用 Firefox 查看 XML 响应。
+若要在浏览器中查看XML响应，请转到&#x200B;**[!UICONTROL 查看]** > **[!UICONTROL Source]**。 若要在Firefox中查看XML响应，请转到&#x200B;**[!UICONTROL 工具]** > **[!UICONTROL 浏览器工具]** > **[!UICONTROL Web开发人员工具]**。 建议使用 Firefox 查看 XML 响应。
 
 下面是成功上载的示例响应：
 
@@ -184,13 +184,13 @@ https://s7ugc1.scene7.com/ugc/image?op=upload&upload_token=aa2a378a-cd25-4c80-99
 >
 >上载的资源（JPG、GIF 等）转换为 PTIFF 格式，响应向该 PTIFF 资源发送直接链接。
 
-该资源类似于任何其他的图像服务资源；您可以对其应用处理查询。 例如，以下URL请求已拉伸到指定宽度和高度的资产。
+资产是ImageServing资源；您可以对其应用处理查询。 例如，以下 URL 请求拉伸到指定宽度和高度的资源。
 
 ```as3
 https://s7w2p1.scene7.com/is/image/S7WebUGC/ugc/9536356.tif?&wid=800&hei=100&fit=stretch
 ```
 
-以 multipart/form post 形式发送要上载的资源，而值的其余部分以 URL 查询字符串形式发送。 您可以在 URL 查询字符串中使用以下字段来上载资源：
+要上传资产，请将其作为多部分/表单帖子发送，同时将其余值作为URL查询字符串发送。 您可以在 URL 查询字符串中使用以下字段来上载资源：
 
 | URL 参数 | 必需或可选 | 值 |
 | --- | --- | --- |

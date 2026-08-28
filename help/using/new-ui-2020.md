@@ -23,7 +23,7 @@ level_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: d6d329e2b9940f67b3c171395b4d5356f7d75776
+source-git-commit: 202f477d78272c66d0ac490e3a5041839b3e4f4d
 workflow-type: tm+mt
 source-wordcount: 1049
 ht-degree: 0%
@@ -50,7 +50,7 @@ Adobe Flash Player是一个Web浏览器插件，它允许Web浏览器使用在Ad
 要查看系统要求、下载并安装新应用，然后登录到该应用，请参阅[Adobe Dynamic Media Classic桌面应用](/help/using/dynamic-media-classic-desktop-app.md)。
 +++
 
-<!-- NEWSLETTER IS DEAD The download links are also available by way of the [Adobe Dynamic Media Classic newsletter subscription page.](https://www.adobe.com/subscription/dynamic-media-newsletter.html) -->
+<!-- NEWSLETTER IS DEAD The download links are also available by way of the [Adobe Dynamic Media Classic newsletter subscription page](https://www.adobe.com/subscription/dynamic-media-newsletter.html). -->
 
 +++**_新桌面应用的工作方式如何？_**
 下载、安装和启动桌面应用程序后，系统会显示刷新的登录信息。 通过输入现有用户名和密码，并根据您所在的地区选择相应的服务器，您可以登录到Adobe Dynamic Media Classic。 整体体验与Web浏览器版本相同。 从桌面应用程序中，您可以访问Adobe Dynamic Media Classic生产和暂存环境。 如果您拥有此功能的凭据，则还可以访问Media Portal。
