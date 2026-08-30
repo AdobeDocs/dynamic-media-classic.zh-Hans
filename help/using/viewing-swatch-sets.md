@@ -18,22 +18,22 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+source-git-commit: 94d13170028e09a5ed61cb236e17c379f234f4c3
 workflow-type: tm+mt
-source-wordcount: 466
-ht-degree: 15%
+source-wordcount: 462
+ht-degree: 7%
 
 ---
 
 # 查看样本集{#viewing-swatch-sets}
 
-可以使用可用预设在“预览”窗口中查看样本集。 您可以使用缩放查看器：样本集的自定义查看器预设。
+可以使用可用预设在“预览”窗口中查看样本集。 您可以为样本集使用缩放查看器自定义查看器预设。
 
 Adobe Dynamic Media Classic附带默认查看器预设。 管理员可以创建或修改查看器预设。
 
 ## 为样本集设置缩放查看器预设 {#setting-up-zoom-viewer-presets-for-swatch-sets}
 
-可以根据需要创建并自定义查看器预设。
+您可以创建和自定义查看器预设。
 
 1. 在全局导航栏上，转到&#x200B;**[!UICONTROL 设置]** > **[!UICONTROL 查看器预设]**。
 1. 执行以下任一操作：
@@ -55,7 +55,7 @@ Adobe Dynamic Media Classic附带默认查看器预设。 管理员可以创建�
 您可以使用“预览”来查看资源在特定查看器类型（如HTML5）中的显示方式。 根据您选择要预览的资源类型和关联的查看器，并非所有查看器类型平台在“预览”中都可用。
 
 1. 在左侧的“资产库”面板的&#x200B;**[!UICONTROL 显示]**&#x200B;下拉列表中，选择基于样本集的资产类型，如&#x200B;**[!UICONTROL 样本集]**。
-1. 在左侧的“资源库”面板中，找到包含要使用查看器预览的样本集的资源文件夹。
+1. 在左侧的资产库面板中，导航到包含要使用查看器预览的样本集的资产文件夹。
 1. 执行以下任一操作：
 
    * 在Adobe Dynamic Media Classic窗口的右上角附近，选择&#x200B;**[!UICONTROL 列表视图]**&#x200B;图标。 在“资源”窗口中，将鼠标悬停在资源上，然后选择&#x200B;**[!UICONTROL 预览]**（不是“预览”下拉列表）。
@@ -67,7 +67,7 @@ Adobe Dynamic Media Classic附带默认查看器预设。 管理员可以创建�
 
    选择给定的查看器链接时，其关联的URL会自动复制到剪贴板。
 
-1. 要返回到“预览”寻呼机，请关闭显示的查看器。
+1. 要返回到“预览”窗口，请关闭显示的查看器。
 1. 选择&#x200B;**[!UICONTROL 关闭]**&#x200B;以返回Assets页面。
 
 >[!MORELIKETHIS]
