@@ -1,17 +1,16 @@
 ---
 source-git-commit: de6997fda88c4471625242ee9cca59b344cee945
 workflow-type: tm+mt
-source-wordcount: '428'
+source-wordcount: '457'
 ht-degree: 0%
-
 ---
 # Adobe行为准则
 
-## Adobe承诺
+## Adobe的承诺
 
-为了营造一个开放和友好的环境，参与者和维护者承诺让参与Adobe的项目和社区为所有人提供无骚扰的体验。 无论以下情况如何，这种行为均属实：
+为了营造开放友好的环境，参与者和维护者承诺为参与Adobe的项目和社区提供无骚扰的体验。 无论以下情况如何，这种行为均属实：
 
-* 年龄
+* 年齡
 * 正文大小
 * 残疾
 * 种族
@@ -23,7 +22,7 @@ ht-degree: 0%
 * 宗教
 * 性认同和性取向
 
-## Adobe的标准
+## 《Adobe的标准》
 
 有助于创建良好环境的行为示例包括：
 
@@ -41,7 +40,7 @@ ht-degree: 0%
 * 未经明确许可，发布他人的私人信息，例如住址或电子邮箱
 * 其他可以被合理地认定为不恰当或者违反职业操守的行为
 
-## Adobe职责
+## Adobe的责任
 
 项目维护者有责任为可接受的行为标准做出诠释，以及对已发生的不被接受的行为采取恰当且公平的纠正措施。
 
@@ -52,7 +51,7 @@ ht-degree: 0%
 
 不符合本行为准则。 或者，暂时或永久地禁止任何他们认为不适当、威胁、冒犯或有害行为的投稿人。
 
-## 范围
+## 範圍
 
 当个人代表项目或其社区时，本行为准则同时适用于项目空间和公共空间。
 代表项目或社区的示例包括使用官方项目电子邮件地址或通过官方社交媒体帐户发帖。 它还包括在线上或线下活动中担任指定代表。 项目维护者可进一步定义和阐明项目的表示方式。
@@ -65,4 +64,4 @@ ht-degree: 0%
 
 ## 归因
 
-本行为准则改编自 [投稿人公约](https://www.contributor-covenant.org/)，版本1.4，此版本位于 [https://www.contributor-covenant.org/version/1/4](https://www.contributor-covenant.org/version/1/4/).
+本行为准则改编自[参与者公约](https://www.contributor-covenant.org/)版本1.4，此公约位于[https://www.contributor-covenant.org/version/1/4](https://www.contributor-covenant.org/version/1/4/)。
