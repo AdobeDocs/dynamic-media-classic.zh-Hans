@@ -14,19 +14,21 @@ autotag-review: '2026-05-13T20:11:06.721Z'
 TQID: 'https://experienceleague.adobe.com/lB0O224FfzW1smqCgkraE9czEF4XSD98qarRus6GEFw'
 product_v2:
   - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+    internal-label: Dynamic Media Classic
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: c4e6d81b0d4ad1e5e8cbbacb0791fc49d2491eed
+    internal-label: Metadata
+source-git-commit: 427ca1ab97562ad3405e9f80e1e2bd7e3a4f3474
 workflow-type: tm+mt
-source-wordcount: 1728
+source-wordcount: '1728'
 ht-degree: 15%
-
 ---
-
 # 快速入门： Adobe Dynamic Media Classic中的视频{#quick-start-video}
 
 Adobe Dynamic Media Classic Video是一款端到端解决方案，可让您轻松发布高质量自适应视频，以便跨多个屏幕（包括台式机、iOS、Android™、BlackBerry®和Windows®移动设备）进行流式传输。 自适应视频集可将同一视频以不同比特率和格式（如 400 kbps、800 kbps 和 1000 kbps）编码的不同版本分组在一起。 台式计算机或移动设备可检测可用带宽。
