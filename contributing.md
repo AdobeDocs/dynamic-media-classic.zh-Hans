@@ -58,4 +58,4 @@ Adobe欢迎任何捐助。 如果投稿位于公共存储库中，则会审查�
 
 ## 更多信息
 
-有关如何使用GitHub创作平台的更多详细信息，请参阅[Adobe文档参与者指南](https://experienceleague.adobe.com/en/docs/contributor/contributor-guide/introduction)。
+有关如何使用GitHub创作平台的更多详细信息，请参阅[Adobe文档参与者指南](https://experienceleague.adobe.com/zh-hans/docs/contributor/contributor-guide/introduction)。
