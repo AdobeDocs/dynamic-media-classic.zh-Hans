@@ -14,18 +14,22 @@ autotag-review: '2026-05-13T19:55:49.663Z'
 TQID: 'https://experienceleague.adobe.com/EFy8tVdGv5q5mmQQS-m0Mb8AuphJHEDHzspsPWNxMlI'
 product_v2:
   - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+    internal-label: Dynamic Media Classic
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 202f477d78272c66d0ac490e3a5041839b3e4f4d
+    internal-label: Intermediate
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: d12d3b1055080f034ebd7e7ec00941fa58ec5caf
 workflow-type: tm+mt
-source-wordcount: 1565
+source-wordcount: '1565'
 ht-degree: 23%
-
 ---
-
 # 快速入门：eCatalogs{#quick-start-ecatalogs}
 
 eCatalog是印刷材料的数字Web版本 — 例如，目录、小册子、传单、产品手册或广告通告。 eCatalog显示在网站上的eCatalog查看器中。 该查看器会模拟阅读印刷材料的体验。

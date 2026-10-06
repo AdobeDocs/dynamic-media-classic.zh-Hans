@@ -14,17 +14,20 @@ autotag-review: '2026-05-13T19:53:07.417Z'
 TQID: 'https://experienceleague.adobe.com/yM24UnCiU64kLvHXjhX6S8ZJpWgoyAzQKuDHN02yUXs'
 product_v2:
   - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+    internal-label: Dynamic Media Classic
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: a6f31cfc417aa908738642a9543ada88b4620c02
+    internal-label: Intermediate
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: d12d3b1055080f034ebd7e7ec00941fa58ec5caf
 workflow-type: tm+mt
-source-wordcount: 734
+source-wordcount: '734'
 ht-degree: 20%
-
 ---
-
 # 使用PDF{#working-with-pdfs}
 
 PDF（可移植文档格式）文件在Adobe Dynamic Media Classic中用于创建eCatalog的频率最高。 上传PDF文件时，Adobe Dynamic Media Classic默认栅格化页面，以便使用这些页面构建富媒体。
@@ -77,7 +80,7 @@ PDF（可移植文档格式）文件在Adobe Dynamic Media Classic中用于创�
 
 * **[!UICONTROL 自定义从]** > **[!UICONTROL 到]**：打开菜单，以便选择`Convert From`和`Convert To`颜色空间。 您可以选择标准的Adobe Photoshop色彩空间，也可以选择上传到Adobe Dynamic Media Classic的色彩空间。
 
-另请参阅[&#x200B; ICC 配置文件](/help/using/icc-profiles.md#icc_profiles)。
+另请参阅[ ICC 配置文件](/help/using/icc-profiles.md#icc_profiles)。
 
 ## 从PDF文件裁切空格 {#cropping-white-space-from-a-pdf-file}
 
