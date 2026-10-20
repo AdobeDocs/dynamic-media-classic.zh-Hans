@@ -30,7 +30,7 @@ Adobe希望让您能够尽可能轻松地提交投稿。 您可以通过两种�
 
 >[!NOTE]
 >
->您提交的内容将受[Adobe使用条款](https://www.adobe.com/legal/terms.html)的约束。
+>您提交的内容将受[Adobe使用条款](https://www.adobe.com/cn/legal/terms.html)的约束。
 
 ### 创建问题 {#create-an-issue}
 
