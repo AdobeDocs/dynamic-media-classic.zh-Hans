@@ -14,12 +14,16 @@ autotag-review: '2026-05-13T20:09:16.669Z'
 TQID: 'https://experienceleague.adobe.com/-mCHk61QcX9lrUqRCCeKFMvXGGJ3oJuu3-MlZL4G-Mc'
 product_v2:
   - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+    internal-label: Dynamic Media Classic
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
 source-git-commit: 2f233c96497a020111949c809066160717d7ca91
 workflow-type: tm+mt
 source-wordcount: 154
