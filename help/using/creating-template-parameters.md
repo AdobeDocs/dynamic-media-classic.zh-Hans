@@ -14,11 +14,15 @@ autotag-review: '2026-05-13T18:18:48.978Z'
 TQID: 'https://experienceleague.adobe.com/OER2DJaRg4M20aJ1hlimXCf-yAqBrr27un4ZCPov4GA'
 product_v2:
   - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+    internal-label: Dynamic Media Classic
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 source-git-commit: 6e5910c1120d980bd60343c7e6feb76bbd8e289a
 workflow-type: tm+mt
 source-wordcount: 829
